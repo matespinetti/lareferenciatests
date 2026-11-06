@@ -10,8 +10,12 @@ borra el archivo del spool.
 
 Cada segundo reescribe `subidor.json` con lo que lleva subido; el motor lo lee para saber cuánto
 quedó pendiente y para frenar si se atrasa.
+
+Sin `endpoint` sube a S3 real (`S3_BUCKET`, con las credenciales del rol de la instancia): es la
+validación en una instancia real (GUIA_DOS_MAQUINAS.md).
 """
 
+import contextlib
 import json
 import os
 import time
@@ -26,10 +30,17 @@ from concurrencia.spool import Directorios
 _PAUSA = 0.05
 
 
-def _cliente(endpoint: str, ca: Path, concurrencia: int) -> Any:
+def _cliente(endpoint: str | None, ca: Path, concurrencia: int) -> Any:
     import boto3
     from botocore.config import Config
 
+    if endpoint is None:
+        # S3 real: región y credenciales del entorno (el rol de la instancia), checksums por defecto.
+        return boto3.client(
+            "s3",
+            region_name=config.S3_REGION,
+            config=Config(max_pool_connections=concurrencia * 2, retries={"max_attempts": 3, "mode": "standard"}),
+        )
     return boto3.client(
         "s3",
         endpoint_url=endpoint,
@@ -49,12 +60,19 @@ def _cliente(endpoint: str, ca: Path, concurrencia: int) -> Any:
 
 
 def correr(
-    dirs: Directorios, endpoint: str, ca: Path, concurrencia: int, cpu: int | None, en_hilo: bool = False
+    dirs: Directorios,
+    endpoint: str | None,
+    ca: Path,
+    concurrencia: int,
+    cpu: int | None,
+    en_hilo: bool = False,
+    bucket: str = config.BUCKET,
+    prefijo: str = "",
 ) -> None:
     """Sube hasta que aparezca `dirs.parar`; entonces escribe su estado final y termina.
 
     Con `en_hilo` corre dentro del proceso del motor: no se ata a un núcleo y no informa CPU propia
-    (la de su proceso es la del motor)."""
+    (la de su proceso es la del motor). Sin `endpoint`, sube a S3 real en `bucket`, bajo `prefijo`."""
     from s3transfer.manager import TransferConfig, TransferManager
 
     from concurrencia.hilos import resolver_local
@@ -62,7 +80,8 @@ def correr(
     if not en_hilo and cpu is not None and hasattr(os, "sched_setaffinity"):
         os.sched_setaffinity(0, {cpu})
     proceso = psutil.Process()
-    with resolver_local():
+    # Con el S3 falso, `*.sim.localhost` va a la máquina de la prueba; con S3 real hay que resolver AWS.
+    with resolver_local() if endpoint else contextlib.nullcontext():
         cliente = _cliente(endpoint, ca, concurrencia)
         gestor = TransferManager(
             cliente,
@@ -81,7 +100,7 @@ def correr(
         proximo_estado = t_antes + 1.0
         try:
             while not dirs.parar.exists():
-                _tomar(dirs, gestor, en_curso)
+                _tomar(dirs, gestor, en_curso, bucket, prefijo)
                 _terminados(en_curso, estado)
                 if time.monotonic() >= proximo_estado:
                     ahora, cpu_ahora = time.monotonic(), proceso.cpu_times()
@@ -99,7 +118,9 @@ def correr(
             estado["en_curso"] = len(en_curso)
             estado["final"] = True
             _escribir_estado(dirs.estado, estado)
-            gestor.shutdown(cancel=True)
+            # `shutdown(cancel=True)` de s3transfer 0.19 le pasa los argumentos corridos a `_shutdown`
+            # y falla con lo que esté en curso: se llama directo, con el orden correcto.
+            gestor._shutdown(True, "fin de la corrida")
 
 
 def clave(nombre: str) -> str:
@@ -107,7 +128,7 @@ def clave(nombre: str) -> str:
     return nombre.replace("_", "/")
 
 
-def _tomar(dirs: Directorios, gestor: Any, en_curso: dict) -> None:
+def _tomar(dirs: Directorios, gestor: Any, en_curso: dict, bucket: str, prefijo: str) -> None:
     for listos, spool in zip(dirs.listos(), ("ram", "disco"), strict=True):
         try:
             entradas = list(os.scandir(listos))
@@ -118,7 +139,7 @@ def _tomar(dirs: Directorios, gestor: Any, en_curso: dict) -> None:
             if ruta in en_curso:
                 continue
             tamano = entrada.stat().st_size
-            futuro = gestor.upload(str(ruta), config.BUCKET, clave(entrada.name))
+            futuro = gestor.upload(str(ruta), bucket, prefijo + clave(entrada.name))
             en_curso[ruta] = (futuro, spool, tamano)
 
 

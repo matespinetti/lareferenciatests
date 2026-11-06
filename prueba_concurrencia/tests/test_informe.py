@@ -96,3 +96,36 @@ def test_curva_con_poca_red_dura_mas_y_pide_menos_lugares():
     # La red se llena con 16 MB/s × 9 s / 16 MB = 9 lugares.
     assert con_red["lugares_red"] == pytest.approx(9.0)
     assert max(p["lugares"] for p in con_red["puntos"]) == pytest.approx(9.0)
+
+
+def test_seccion_de_validacion_en_dos_maquinas(tmp_path):
+    from concurrencia.informe import _a_mb
+
+    resultados = tmp_path / "results"
+    resultados.mkdir()
+    _resultado(resultados, "b120", 20, 150)
+    _resultado(resultados, "v120", 35, 180)
+    for id in ("b120", "v120"):
+        ruta = resultados / f"{id}.json"
+        datos = json.loads(ruta.read_text())
+        datos["despliegue"] = {"ip_servidor": "10.0.1.23", "dos_maquinas": True, "s3": "real"}
+        ruta.write_text(json.dumps(datos))
+    (resultados / "instancia.json").write_text(json.dumps({"tipo": "c6gn.medium", "memoria_mb": 1900}))
+    (resultados / "tiempos.csv").write_text(
+        "escenario,inicio_utc,fin_utc\nb120,2026-11-06T10:00:00Z,2026-11-06T10:04:00Z\n"
+        "v120,2026-11-06T10:05:00Z,2026-11-06T10:09:00Z\n"
+    )
+    # 10:06 UTC = 1793959560; 10:01 UTC = 1793959260.
+    (resultados / "docker_stats.csv").write_text(
+        "t,contenedor,cpu,memoria\n"
+        "1793959260,candidata-motor-run-1a2b,40%,300MiB / 1.8GiB\n"
+        "1793959560,candidata-motor-run-3c4d,60%,512.5MiB / 1.8GiB\n"
+        "1793959560,candidata-postgres-1,5%,95MiB / 1.8GiB\n"
+    )
+    armar(resultados, tmp_path / "report.md")
+    texto = (tmp_path / "report.md").read_text()
+    assert "## Validación en una c6gn.medium real" in texto
+    assert "La subida va a **S3 real**" in texto
+    fila_v120 = next(linea for linea in texto.splitlines() if linea.startswith("| v120 |") and "de 1.900" in linea)
+    assert "| 512 | 95 |" in fila_v120
+    assert _a_mb("1.5GiB / 1.8GiB") == 1536 and _a_mb("512KiB / 1GiB") == 0.5

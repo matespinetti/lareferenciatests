@@ -45,11 +45,20 @@ PROB_CIERRE = 0.2
 
 DOMINIO = "sim.localhost"
 PUERTO = 8443
+IP_SERVIDOR = os.environ.get("IP_SERVIDOR", "127.0.0.1")
+"""A dónde resuelve `*.sim.localhost`. Por defecto, esta misma máquina; en la validación en dos
+máquinas, la IP privada de la que corre el servidor simulado."""
 
 # Subida a S3 (escenarios con `subida`): el motor guarda cada archivo mientras lo baja y, al
 # terminar, lo deja listo para un proceso subidor aparte que lo sube a un S3 falso local.
 PUERTO_S3 = 9443
 BUCKET = "descargas"
+S3_BUCKET = os.environ.get("S3_BUCKET") or None
+"""Bucket de S3 real. Si está, el subidor sube ahí (con las credenciales del rol de la instancia) en
+vez de al S3 falso. Solo para la validación en una instancia real."""
+S3_REGION = os.environ.get("AWS_REGION", "us-east-1")
+S3_PREFIJO = os.environ.get("S3_PREFIJO", "prueba-concurrencia")
+"""Todo lo que sube la prueba queda bajo este prefijo, para borrarlo de una vez."""
 UMBRAL_DISCO = 8 * MB
 """Los archivos de este tamaño o más van al spool en disco; los más chicos, al spool en RAM."""
 PARTE_S3 = 8 * MB
@@ -224,6 +233,12 @@ ESCENARIOS: dict[str, Escenario] = {
         _real("b120", "Una c6gn.medium sin subida: 120 lugares", lugares=120),
         _real("s120", "Una c6gn.medium con subida: motor y subidor en el mismo núcleo, 120 lugares", lugares=120,
               subida=True, subidor_mismo_nucleo=True),
+        # Validación en una c6gn.medium real (GUIA_DOS_MAQUINAS.md): lo mismo que s120, registrando cada
+        # resultado en PostgreSQL y subiendo a S3 real.
+        _real("v120", "Validación en una c6gn.medium: subida y base, 120 lugares", lugares=120,
+              subida=True, subidor_mismo_nucleo=True, db=True),
+        _real("v120h", "Validación en una c6gn.medium durante 1 hora: memoria, disco y base estables", lugares=120,
+              subida=True, subidor_mismo_nucleo=True, db=True, duracion=3600.0),
         _real("sh250", "Subida a S3 con un pool de hilos en el motor, 250 lugares, red de la instancia", lugares=250,
               subida=True, modo_subida="hilos"),
         _real("sc250", "Subida a S3 con un pool de corrutinas en el motor, 250 lugares, red de la instancia",

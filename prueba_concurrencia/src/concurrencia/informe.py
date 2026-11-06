@@ -141,6 +141,14 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "subida_multipart": subida.get("s3", {}).get("multipart", 0),
         "subida_objetos": subida.get("s3", {}).get("objetos", 0),
         "terminado_antes": r.datos.get("terminado_antes_de_tiempo", False),
+        "dos_maquinas": r.datos.get("despliegue", {}).get("dos_maquinas", False),
+        "s3_real": r.datos.get("despliegue", {}).get("s3") == "real",
+        "destino_subida": subida.get("destino", "s3falso"),
+        "maquina_cpu": statistics.fmean(r.col("maquina_cpu")) if r.filas else 0.0,
+        "maquina_cpu_max": max(r.col("maquina_cpu"), default=0.0),
+        "memoria_disponible_min": min(r.col("memoria_disponible_mb"), default=0.0),
+        "deriva_memoria_mb_h": _pendiente(t, r.col("memoria_disponible_mb")) * 3600,
+        "disco_escritura_max": max(r.col("disco_escritura_mb_s"), default=0.0),
     }
 
 
@@ -580,6 +588,106 @@ def _seccion_subida(todos: list[dict[str, Any]]) -> list[str]:
     return lineas
 
 
+def _picos_contenedores(resultados: Path) -> dict[str, dict[str, float]]:
+    """Pico de memoria (MB) por escenario y contenedor, de `docker_stats.csv` y `tiempos.csv`.
+
+    `scripts/candidata.sh` anota `docker stats` cada 5 s (t en segundos UTC, contenedor, CPU %,
+    memoria usada) y el inicio y el fin de cada escenario.
+    """
+    from datetime import datetime
+
+    stats, tiempos = resultados / "docker_stats.csv", resultados / "tiempos.csv"
+    if not stats.exists() or not tiempos.exists():
+        return {}
+    with tiempos.open() as f:
+        ventanas = [
+            (t["escenario"], datetime.fromisoformat(t["inicio_utc"]).timestamp(), datetime.fromisoformat(t["fin_utc"]).timestamp())
+            for t in csv.DictReader(f)
+        ]  # fmt: skip
+    picos: dict[str, dict[str, float]] = {}
+    with stats.open() as f:
+        for fila in csv.DictReader(f):
+            t, mb = float(fila["t"]), _a_mb(fila["memoria"])
+            # `docker compose run` nombra el contenedor `<proyecto>-motor-run-<id>`.
+            nombre = next((n for n in ("postgres", "motor") if n in fila["contenedor"]), fila["contenedor"])
+            for id, inicio, fin in ventanas:
+                if inicio <= t <= fin:
+                    picos.setdefault(id, {})[nombre] = max(picos.get(id, {}).get(nombre, 0.0), mb)
+    return picos
+
+
+def _a_mb(texto: str) -> float:
+    """`123.4MiB / 1.8GiB` (lo que muestra `docker stats`) → 123.4."""
+    usado = texto.split("/")[0].strip()
+    for unidad, factor in (("GiB", 1024), ("MiB", 1), ("KiB", 1 / 1024), ("GB", 1000**3 / 2**20), ("MB", 1000**2 / 2**20), ("kB", 1000 / 2**20), ("B", 1 / 2**20)):
+        if usado.endswith(unidad):
+            return float(usado[: -len(unidad)]) * factor
+    return 0.0
+
+
+def _seccion_validacion(todos: list[dict[str, Any]], resultados: Path) -> list[str]:
+    """Validación en una instancia real: el motor en la candidata y el servidor simulado en otra."""
+    validos = [r for r in todos if r["dos_maquinas"]]
+    if not validos:
+        return []
+    instancia = resultados / "instancia.json"
+    datos = json.loads(instancia.read_text()) if instancia.exists() else {}
+    tipo = datos.get("tipo") or "instancia candidata"
+    memoria_total = float(datos.get("memoria_mb", 0)) or None
+    picos = _picos_contenedores(resultados)
+    lineas = [
+        "",
+        f"## Validación en una {tipo} real",
+        "",
+        f"El motor corre en una **{tipo} real**, en Docker Compose junto con PostgreSQL, y le pide a un servidor "
+        "simulado que corre en **otra instancia** de la misma subred: el tráfico pasa por la placa de red real, el spool "
+        "en disco escribe en el EBS real y todo comparte la memoria real de la máquina."
+        + (" La subida va a **S3 real**." if any(r["s3_real"] for r in validos) else " La subida va al S3 falso.")
+        + " La CPU y la memoria de la máquina incluyen todo lo que corre en ella (motor, subidor, PostgreSQL y Docker).",
+        "",
+        "| Esc. | Base | Subida | MB/s bajados | MB/s subidos | CPU máquina (media / máx) | CPU motor | Bucle p99 (ms) "
+        "| Despacho p99 (ms) | Frenado (s) | Pendiente al final (MB) | Errores (descarga / subida) | Violaciones |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+    ]
+    for r in validos:
+        subida = ("S3 real" if r["s3_real"] else "S3 falso") if r["subida"] else "no"
+        lineas.append(
+            f"| {r['id']} | {'sí' if r['db'] else 'no'} | {subida} | {_f(r['mb_s'])} "
+            f"| {_f(r['subida_mb_s']) if r['subida'] else '—'} | {_f(r['maquina_cpu'])} / {_f(r['maquina_cpu_max'])} "
+            f"| {_f(r['cpu_media'])} | {_f(r['bucle_p99'], 2)} | {_f(r['despacho_p99'], 1)} | {_f(r['frenado_s'], 1)} "
+            f"| {_f(r['pendiente_final_mb'], 0) if r['subida'] else '—'} | {r['errores']} / {r['subida_errores']} "
+            f"| {r['violaciones']} |"
+        )
+    lineas += [
+        "",
+        "| Esc. | Memoria disponible mín (MB) | Pico contenedor motor (MB) | Pico PostgreSQL (MB) | RSS motor máx (MB) "
+        "| RSS subidor máx (MB) | Escritura a disco (media / máx, MB/s) | DB tx/s | Commit p95 (ms) | Deriva memoria disponible (MB/h) |",
+        "|---|---|---|---|---|---|---|---|---|---|",
+    ]
+    for r in validos:
+        p = picos.get(r["id"], {})
+        lineas.append(
+            f"| {r['id']} | {_f(r['memoria_disponible_min'], 0)}"
+            f"{f' de {_f(memoria_total, 0)}' if memoria_total else ''} "
+            f"| {_f(p['motor'], 0) if 'motor' in p else '—'} | {_f(p['postgres'], 0) if 'postgres' in p else '—'} "
+            f"| {_f(r['rss_max'], 0)} | {_f(r['subidor_rss_max'], 0) if r['subida'] else '—'} "
+            f"| {_f(r['disco_escritura_mb_s'])} / {_f(r['disco_escritura_max'])} | {_f(r['db_tx'])} "
+            f"| {_f(r['db_commit_p95'], 2)} | {_f(r['deriva_memoria_mb_h']) if r['segundos'] >= 600 else '—'} |"
+        )
+    lineas += [
+        "",
+        "- **CPU máquina:** % de toda la instancia (en una de 1 vCPU, 100 % es el núcleo entero). Es lo que importa "
+        "para saber si entra todo: motor, subidor, PostgreSQL y Docker.",
+        "- **Memoria disponible mínima:** la que le quedó libre a la máquina en el peor segundo. El pico del "
+        "contenedor del motor incluye el spool en RAM (`/dev/shm`) y el subidor; el de PostgreSQL, sus buffers.",
+        "- **Escritura a disco:** del EBS real. Si se acerca al tope de EBS de la instancia (o a los 125 MB/s de base "
+        "de un gp3), el spool en disco se atrasa y lo pendiente crece; en corridas cortas cuenta la ráfaga de EBS.",
+        "- **Deriva:** solo en corridas de 10 minutos o más (la de 1 hora). Negativa quiere decir que la memoria "
+        "disponible baja; el caché de páginas del disco también la baja sin que sea una pérdida.",
+    ]
+    return lineas
+
+
 def _f(valor: float, decimales: int = 1) -> str:
     return f"{valor:,.{decimales}f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
@@ -596,7 +704,9 @@ def armar(resultados: Path, salida: Path) -> None:
     simuladas = {r["instancia"] or "t3.small" for r in todos}
     simulada = config.instancia(sorted(simuladas)[0])
     # La velocidad por conexión con la que corrió el servidor (ANCHO_MB_S), según los resultados.
-    supuestos = json.loads(next(resultados.glob("*.json")).read_text()).get("supuestos", {})
+    # Del JSON de cualquier escenario (instancia.json no es de un escenario).
+    primero = next(r.datos for r in cargar(resultados))
+    supuestos = primero.get("supuestos", {})
     ancho = supuestos.get("ancho_por_conexion_mb_s", config.ANCHO_POR_CONEXION / config.MB) * config.MB
     p = proyeccion(todos, simulada, ancho)
     grupos = barridos(todos)
@@ -608,7 +718,7 @@ def armar(resultados: Path, salida: Path) -> None:
     if instancia.exists():
         datos = json.loads(instancia.read_text())
         lineas += ["## Instancia", "", *[f"- **{k}:** {v}" for k, v in datos.items()], ""]
-    versiones = json.loads(next(resultados.glob("*.json")).read_text()).get("versiones", {})
+    versiones = primero.get("versiones", {})
     lineas += [
         "## Supuestos",
         "",
@@ -709,6 +819,7 @@ def armar(resultados: Path, salida: Path) -> None:
 
     lineas += _seccion_multiproceso(todos)
     lineas += _seccion_subida(todos)
+    lineas += _seccion_validacion(todos, resultados)
     lineas += [
         "",
         "## Proyección al problema real",

@@ -92,3 +92,35 @@ async def test_el_resolver_rechaza_hosts_de_afuera(certs):
         with pytest.raises(aiohttp.ClientConnectorDNSError) as error:
             await cliente.get("https://example.org/")
     assert "fuera de la prueba" in str(error.value.os_error)
+
+
+async def test_el_resolver_manda_a_ip_servidor(monkeypatch):
+    # Validación en dos máquinas: los hosts de la prueba van al servidor de la otra instancia.
+    monkeypatch.setattr(config, "IP_SERVIDOR", "10.1.2.3")
+    [resultado] = await motor.ResolverLocal().resolve("r7.sim.localhost", 8443)
+    assert resultado["host"] == "10.1.2.3" and resultado["port"] == 8443
+
+
+def test_el_resolver_de_hilos_manda_a_ip_servidor(monkeypatch):
+    import socket
+
+    from concurrencia.hilos import resolver_local
+
+    monkeypatch.setattr(config, "IP_SERVIDOR", "10.1.2.3")
+    with resolver_local():
+        assert socket.getaddrinfo("r7.sim.localhost", 8443)[0][4][0] == "10.1.2.3"
+
+
+async def test_servir_en_el_host_indicado(certs):
+    from concurrencia.servidor import servir
+    from tests.conftest import puertos_libres
+
+    puerto, listo = puertos_libres(1), asyncio.Event()
+    tarea = asyncio.create_task(servir(Parametros(latencia=latencia_fija(0.01)), certs, puerto, listo, host="127.0.0.1"))
+    try:
+        await asyncio.wait_for(listo.wait(), 5)
+        async with motor.sesion(certs) as cliente, cliente.get(resolucion.url_control(puerto, "estado")) as respuesta:
+            assert respuesta.status == 200
+    finally:
+        tarea.cancel()
+        await asyncio.gather(tarea, return_exceptions=True)

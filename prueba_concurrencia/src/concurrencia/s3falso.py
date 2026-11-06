@@ -102,12 +102,12 @@ class S3Falso:
             anterior, t_anterior = actual, t_actual
 
 
-async def servir(certs: Path, puerto: int) -> None:
+async def servir(certs: Path, puerto: int, host: str = "127.0.0.1") -> None:
     from concurrencia.servidor import contexto_ssl
 
     runner = web.AppRunner(S3Falso().app(), access_log=None, handle_signals=True)
     await runner.setup()
-    sitio = web.TCPSite(runner, "127.0.0.1", puerto, ssl_context=contexto_ssl(certs), backlog=4096)
+    sitio = web.TCPSite(runner, host, puerto, ssl_context=contexto_ssl(certs), backlog=4096)
     await sitio.start()
     try:
         await asyncio.Event().wait()

@@ -23,6 +23,7 @@ Un número equivocado lleva a una decisión de arquitectura equivocada. Ante la 
 - **Subida (s250, ss250): la descarga nunca espera a la subida.** El motor escribe el spool fuera del bucle (`asyncio.to_thread`) y entrega con un rename atómico; el subidor es otro proceso (no hilos del motor: competirían por el GIL). El único freno es dejar de repartir tareas nuevas, nunca dejar de leer una descarga en curso. En Linux, el subidor va atado al núcleo 1 y el servidor y el S3 falso a los demás.
 - **Multiproceso (m250, ms500):** el planificador (`multiproceso.py`) reparte por TCP a procesos workers que usan la misma lógica de pedido que el motor (`pedido.py`). La CPU que cuenta es la total: planificador más workers. En Linux, cada worker va en su núcleo (`WORKERS_CPU`).
 - **Modos de subida (`MODO_SUBIDA`):** proceso aparte (`subidor.py`), hilos en el motor (el mismo `subidor.correr` en un hilo) o corrutinas en el bucle (`subida_async.py`, aiobotocore). El spool es el mismo en los tres.
+- **Validación en dos máquinas (`v120`, `v120h`, `scripts/candidata.sh`, `GUIA_DOS_MAQUINAS.md`):** el motor corre en una c6gn.medium real, en Docker Compose con PostgreSQL, y le pide al servidor simulado de otra instancia (`IP_SERVIDOR`); la subida va a S3 real (`S3_BUCKET`, rol de la instancia) en las corridas cortas y al S3 falso de esa otra instancia en la de 1 hora, que con S3 real costaría unos USD 2 en PUT. El servidor conserva el tope de la red base de la medium: en una corrida corta, la ráfaga de red engañaría. La CPU y la memoria que importan ahí son las de la máquina (incluyen PostgreSQL y Docker), y la memoria por contenedor sale de `docker_stats.csv`.
 - **El servidor simulado no puede ser el cuello de botella.** Las métricas del informe son solo del motor, pero registrá la CPU del servidor como control. Si satura un núcleo, el escenario no vale: hay que moverlo a otra instancia, como dice la spec.
 - **Las métricas son del proceso del motor**, tomadas con psutil y contadores propios una vez por segundo. `cpu_percent` de un proceso puede pasar el 100 % con 2 vCPU: reportalo como porcentaje de un núcleo y aclaralo. El ancho de banda se cuenta en el motor: los contadores de la interfaz de loopback mezclan el tráfico del servidor.
 - **Se corre en una sola máquina con los núcleos repartidos.** En Linux, el motor va atado al núcleo 0 y el servidor (varios procesos) a los demás; con menos de 3 núcleos compiten por la CPU y la medición no vale. Se corre en una c6gn.xlarge para simular una c6gn.medium: mismo procesador.
@@ -58,7 +59,8 @@ La cortesía no es lo que se mide, pero tiene que estar activa: el motor real la
 
 ## Qué no hacer sin pedir permiso
 
-- **Nunca hagas pedidos a repositorios reales.** El servidor escucha solo en `127.0.0.1` y el motor solo le pide a él.
+- **Nunca hagas pedidos a repositorios reales.** El servidor escucha solo en `127.0.0.1` y el motor solo le pide a él (el resolver rechaza cualquier host que no sea `*.sim.localhost`). La única excepción es la validación en dos máquinas: `HOST=0.0.0.0` en una instancia cuyo security group solo deja entrar a la otra.
+- **S3 real solo con `S3_BUCKET` y en la validación**, bajo el prefijo `prueba-concurrencia/`, en un bucket de prueba con borrado al día. Nunca en un bucket de producción.
 - **No crees, modifiques ni termines instancias de EC2** ni otros recursos de AWS sin que el usuario lo pida: cuestan plata. Al terminar una corrida en EC2, recordá terminar la instancia.
 - No cambies los parámetros de los escenarios (lugares, duraciones, tamaños, latencias, intervalo de 1 s) salvo que te lo pidan.
 
@@ -76,6 +78,9 @@ DURACION=15 CALENTAMIENTO=5 ./run_all.sh 4 7     # algunos escenarios, acortados
 bash scripts/setup_ec2.sh                       # una vez, en la instancia Ubuntu 24.04 (c6gn.xlarge)
 INSTANCIA=c7g.large ./run_all.sh                # la misma prueba con la red de otra candidata
 ANCHO_MB_S=0.8 ./run_all.sh                     # con la velocidad por conexión medida (relevamiento medir-velocidad)
+HOST=0.0.0.0 SERVIDOR_PROCESOS=3 .venv/bin/servidor --escenario v120   # en la instancia A de la validación (más el S3 falso)
+S3_BUCKET=… bash scripts/candidata.sh <IP privada de A>                 # en la c6gn.medium (B): b120 s120 v120 con S3 real
+bash scripts/candidata.sh <IP privada de A> v120h                       # la de 1 hora, contra el S3 falso de A (S3 real costaría ~USD 2)
 ```
 
 Los escenarios (lugares, repositorios, modo, `--db`, duración) están en `config.ESCENARIOS`. El motor no recibe esos parámetros sueltos: así cada corrida es reproducible por su id.

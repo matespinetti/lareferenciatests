@@ -110,3 +110,26 @@ def test_clave_por_repositorio():
     from concurrencia.subidor import clave
 
     assert clave("7_3_0") == "7/3/0"
+
+
+def test_con_s3_real_el_cliente_va_a_aws(monkeypatch, tmp_path):
+    # Solo la configuración: crear el cliente no hace ningún pedido.
+    from concurrencia.subidor import _cliente
+
+    monkeypatch.setattr(config, "S3_REGION", "us-east-1")
+    cliente = _cliente(None, tmp_path / "ca.pem", 4)
+    assert cliente.meta.region_name == "us-east-1"
+    assert cliente.meta.endpoint_url == "https://s3.amazonaws.com"
+
+
+def test_con_s3_real_la_subida_usa_bucket_y_prefijo(monkeypatch, tmp_path):
+    import pytest
+
+    from concurrencia.motor import _Subida
+
+    monkeypatch.setattr(config, "S3_BUCKET", "bucket-de-prueba")
+    subida = _Subida(tmp_path / "spool", tmp_path, 9443, "proceso", corrida="v120")
+    assert subida.real and subida.bucket == "bucket-de-prueba"
+    assert subida.prefijo.startswith(f"{config.S3_PREFIJO}/v120-") and subida.prefijo.endswith("/")
+    with pytest.raises(ValueError, match="corrutinas"):
+        _Subida(tmp_path / "spool", tmp_path, 9443, "corrutinas")

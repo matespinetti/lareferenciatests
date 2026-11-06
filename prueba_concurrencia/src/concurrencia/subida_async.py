@@ -67,8 +67,8 @@ class SubidorCorrutinas:
                         await self._parar.wait()
                 except TimeoutError:
                     pass
-            for tarea in en_curso.values():
-                tarea.cancel()
+            # Lo que está en curso termina (el motor corta a los 30 s): cancelarlo dejaría objetos que el
+            # S3 recibió pero el subidor no contó.
             await asyncio.gather(*en_curso.values(), return_exceptions=True)
         self.estado["final"] = True
 

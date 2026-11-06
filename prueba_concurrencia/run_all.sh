@@ -65,8 +65,8 @@ correr_ids() {
     if [ -n "$duracion" ]; then extra+=(--duracion "$duracion"); fi
     if [ -n "$calentamiento" ]; then extra+=(--calentamiento "$calentamiento"); fi
     for id in $ids; do
-        if [ "$id" = 8 ] && [ -z "${CONCURRENCIA_DSN:-}" ]; then
-            echo "== escenario 8: falta CONCURRENCIA_DSN, se saltea"
+        if [[ "$id" =~ ^(8|v[0-9]+h?)$ ]] && [ -z "${CONCURRENCIA_DSN:-}" ]; then
+            echo "== escenario $id: falta CONCURRENCIA_DSN, se saltea"
             continue
         fi
         echo "== escenario $id"
@@ -85,7 +85,7 @@ correr_ids() {
                 servidor_cpu=(taskset -c "2-$((nucleos - 1))")
             fi
         fi
-        if [[ "$id" =~ ^s[a-z]*[0-9]+$ ]]; then
+        if [[ "$id" =~ ^(s[a-z]*[0-9]+|v[0-9]+h?)$ ]]; then
             if [ ${#MOTOR_CPU[@]} -gt 0 ] && [ "$nucleos" -ge 4 ]; then
                 servidor_cpu=(taskset -c "2-$((nucleos - 1))")
                 export SUBIDOR_CPU=1

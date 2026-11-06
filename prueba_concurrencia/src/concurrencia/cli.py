@@ -21,6 +21,9 @@ _INSTANCIA = typer.Option(
     envvar="INSTANCIA", help=f"Instancia de EC2 que se simula: {', '.join(config.INSTANCIAS)}"
 )
 _PROCESOS = typer.Option(envvar="SERVIDOR_PROCESOS", help="Procesos del servidor simulado, en puertos consecutivos")
+_HOST = typer.Option(
+    envvar="HOST", help="Interfaz donde escucha: 0.0.0.0 solo para la validación en dos máquinas (GUIA_DOS_MAQUINAS.md)"
+)
 
 
 @servidor_app.command()
@@ -29,20 +32,21 @@ def servidor(
     instancia: Annotated[str, _INSTANCIA] = config.INSTANCIA_POR_DEFECTO,
     procesos: Annotated[int, _PROCESOS] = 1,
     puerto: int = config.PUERTO,
+    host: Annotated[str, _HOST] = "127.0.0.1",
     certs: Path = _CERTS,
     semilla: int = config.SEMILLA,
     red_mb_s: Annotated[
         float | None, typer.Option(envvar="RED_MB_S", help="Cambia el tope de red del escenario; 0, sin tope")
     ] = None,
 ) -> None:
-    """Levanta el servidor simulado en 127.0.0.1 hasta que se lo detenga."""
+    """Levanta el servidor simulado (en 127.0.0.1 si no se cambia `--host`) hasta que se lo detenga."""
     from concurrencia.servidor import Parametros, servir, servir_en_proceso
 
     e = config.escenario(escenario, instancia_=instancia)
     red = e.red if red_mb_s is None else (red_mb_s * config.MB or None)
     tope = f"{red / config.MB:.1f} MB/s" if red else "sin tope"
     typer.echo(
-        f"servidor simulado en https://*.{config.DOMINIO}:{puerto}"
+        f"servidor simulado en https://*.{config.DOMINIO}:{puerto} ({host})"
         f"{f'-{puerto + procesos - 1}' if procesos > 1 else ''} "
         f"(escenario {e.id}, red de {e.instancia}: {tope}, {procesos} proceso(s))"
     )
@@ -50,20 +54,20 @@ def servidor(
     parametros = Parametros(semilla=semilla, tam_archivo=e.tam_archivo, red=red / procesos if red else None)
     if procesos == 1:
         try:
-            asyncio.run(servir(parametros, certs, puerto))
+            asyncio.run(servir(parametros, certs, puerto, host=host))
         except KeyboardInterrupt:
             pass
         return
-    _varios_procesos(servir_en_proceso, parametros, certs, puerto, procesos)
+    _varios_procesos(servir_en_proceso, parametros, certs, puerto, procesos, host)
 
 
-def _varios_procesos(objetivo, parametros, certs: Path, puerto: int, procesos: int) -> None:  # type: ignore[no-untyped-def]
+def _varios_procesos(objetivo, parametros, certs: Path, puerto: int, procesos: int, host: str) -> None:  # type: ignore[no-untyped-def]
     import multiprocessing
     import signal
 
     contexto = multiprocessing.get_context("spawn")
     hijos = [
-        contexto.Process(target=objetivo, args=(replace(parametros, indice=i), certs, puerto + i))
+        contexto.Process(target=objetivo, args=(replace(parametros, indice=i), certs, puerto + i, host))
         for i in range(procesos)
     ]
     for hijo in hijos:
@@ -99,6 +103,7 @@ def motor(
     semilla: int = config.SEMILLA,
 ) -> None:
     """Corre un escenario contra el servidor simulado ya levantado."""
+    _resolver_ip_servidor()
     e = config.escenario(escenario, duracion, calentamiento, instancia)
     if modo is not None:
         e = replace(e, modo=modo)
@@ -127,14 +132,30 @@ def motor(
     )
 
 
+def _resolver_ip_servidor() -> None:
+    """Si `IP_SERVIDOR` es un nombre (`host.docker.internal` en el ensayo con Docker), lo resuelve una
+    vez, antes de arrancar el bucle; los procesos hijos heredan la IP por el entorno."""
+    import ipaddress
+    import os
+    import socket
+
+    try:
+        ipaddress.ip_address(config.IP_SERVIDOR)
+    except ValueError:
+        config.IP_SERVIDOR = socket.gethostbyname(config.IP_SERVIDOR)
+        os.environ["IP_SERVIDOR"] = config.IP_SERVIDOR
+
+
 @s3falso_app.command()
-def s3falso(puerto: int = config.PUERTO_S3, certs: Path = _CERTS) -> None:
-    """Levanta el S3 falso en 127.0.0.1 hasta que se lo detenga (escenarios con subida)."""
+def s3falso(
+    puerto: int = config.PUERTO_S3, host: Annotated[str, _HOST] = "127.0.0.1", certs: Path = _CERTS
+) -> None:
+    """Levanta el S3 falso (en 127.0.0.1 si no se cambia `--host`) hasta que se lo detenga (escenarios con subida)."""
     from concurrencia.s3falso import servir
 
-    typer.echo(f"S3 falso en https://s3.{config.DOMINIO}:{puerto}")
+    typer.echo(f"S3 falso en https://s3.{config.DOMINIO}:{puerto} ({host})")
     try:
-        asyncio.run(servir(certs, puerto))
+        asyncio.run(servir(certs, puerto, host))
     except KeyboardInterrupt:
         pass
 

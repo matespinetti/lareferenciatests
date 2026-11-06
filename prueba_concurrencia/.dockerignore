@@ -1,0 +1,7 @@
+# Solo hacen falta pyproject.toml, uv.lock, .python-version y src/.
+*
+!pyproject.toml
+!uv.lock
+!.python-version
+!src/
+src/**/__pycache__

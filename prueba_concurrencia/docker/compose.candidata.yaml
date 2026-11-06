@@ -1,0 +1,63 @@
+# Validación en una instancia real (GUIA_DOS_MAQUINAS.md): PostgreSQL y el motor (con el subidor
+# como proceso hijo) en la candidata, contra el servidor simulado de otra instancia.
+#
+#   scripts/candidata.sh <IP privada del servidor> [escenarios...]
+#
+# Lo arma el script; a mano:
+#
+#   IP_SERVIDOR=10.0.1.23 docker compose -f docker/compose.candidata.yaml up -d --wait postgres
+#   IP_SERVIDOR=10.0.1.23 docker compose -f docker/compose.candidata.yaml run --rm motor motor --escenario v120 --salida results/v120
+
+name: candidata
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: prueba
+      POSTGRES_PASSWORD: prueba
+      POSTGRES_DB: prueba
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "prueba"]
+      interval: 2s
+      retries: 30
+
+  motor:
+    image: prueba-concurrencia
+    build: ..
+    # Solo con `docker compose run`: no queda corriendo.
+    profiles: ["motor"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+    user: ${USUARIO:-1000:1000}
+    # El spool en RAM va en /dev/shm, que en Docker tiene 64 MB si no se cambia; el motor frena a los 256 MB.
+    shm_size: 512m
+    ulimits:
+      nofile:
+        soft: 65535
+        hard: 65535
+    environment:
+      IP_SERVIDOR: ${IP_SERVIDOR:?falta IP_SERVIDOR, la IP privada del servidor simulado}
+      SERVIDOR_PROCESOS: ${SERVIDOR_PROCESOS:-3}
+      INSTANCIA: ${INSTANCIA:-c6gn.medium}
+      ANCHO_MB_S: ${ANCHO_MB_S:-2}
+      # Con S3_BUCKET sube a S3 real con el rol de la instancia; sin él, al S3 falso en IP_SERVIDOR:PUERTO_S3.
+      S3_BUCKET: ${S3_BUCKET:-}
+      S3_PREFIJO: ${S3_PREFIJO:-prueba-concurrencia}
+      AWS_REGION: ${AWS_REGION:-us-east-1}
+      PUERTO_S3: ${PUERTO_S3:-9443}
+      SUBIDA_PARALELO: ${SUBIDA_PARALELO:-16}
+      CONCURRENCIA_DSN: postgresql://prueba:prueba@postgres:5432/prueba
+    extra_hosts:
+      # Ensayo local: el servidor simulado en la misma máquina, fuera de Docker.
+      - host.docker.internal:host-gateway
+    volumes:
+      - ../results:/app/results
+      - ../spool:/app/spool
+      - ../certs:/app/certs:ro
+
+volumes:
+  postgres:

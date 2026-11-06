@@ -30,7 +30,7 @@ _TIMEOUT = aiohttp.ClientTimeout(total=None, sock_connect=30, sock_read=60)
 
 
 class ResolverLocal(AbstractResolver):
-    """Manda cada `*.sim.localhost` a 127.0.0.1 y rechaza cualquier otro host."""
+    """Manda cada `*.sim.localhost` a `IP_SERVIDOR` (127.0.0.1 si no se cambia) y rechaza cualquier otro host."""
 
     async def resolve(
         self, host: str, port: int = 0, family: socket.AddressFamily = socket.AF_INET
@@ -40,7 +40,7 @@ class ResolverLocal(AbstractResolver):
         return [
             {
                 "hostname": host,
-                "host": "127.0.0.1",
+                "host": config.IP_SERVIDOR,
                 "port": port,
                 "family": socket.AF_INET,
                 "proto": 0,
@@ -203,7 +203,11 @@ async def correr(
     S3 falso ya levantado en `puerto_s3`.
     """
     contadores = metricas.Contadores(con_lock=False)
-    subida = _Subida(dir_spool, certs, puerto_s3, escenario.modo_subida, escenario.subidor_mismo_nucleo) if escenario.subida else None
+    subida = (
+        _Subida(dir_spool, certs, puerto_s3, escenario.modo_subida, escenario.subidor_mismo_nucleo, escenario.id)
+        if escenario.subida
+        else None
+    )
     async with sesion(certs) as cliente:
         await control(cliente, puerto, "reiniciar", "POST", procesos)
         if subida is not None:
@@ -239,11 +243,22 @@ class _Subida:
     El subidor corre según `modo`: `proceso` (aparte, en su propio núcleo), `hilos` (un hilo con el
     pool de s3transfer dentro de este proceso) o `corrutinas` (un pool de corrutinas con
     aiobotocore dentro de este bucle). El spool es el mismo en los tres.
+
+    Con `S3_BUCKET` sube a S3 real, bajo `S3_PREFIJO/<escenario>-<fecha>/`, en vez de al S3 falso.
     """
 
-    def __init__(self, dir_spool: Path, certs: Path, puerto_s3: int, modo: str, mismo_nucleo: bool = False) -> None:
+    def __init__(
+        self, dir_spool: Path, certs: Path, puerto_s3: int, modo: str, mismo_nucleo: bool = False, corrida: str = ""
+    ) -> None:
+        import time
+
         if modo not in config.MODOS_SUBIDA:
             raise ValueError(f"modo de subida desconocido: {modo} (opciones: {', '.join(config.MODOS_SUBIDA)})")
+        self.real = config.S3_BUCKET is not None
+        if self.real and modo == "corrutinas":
+            raise ValueError("con S3 real la subida corre en proceso aparte o en hilos, no en corrutinas")
+        self.bucket = config.S3_BUCKET or config.BUCKET
+        self.prefijo = f"{config.S3_PREFIJO}/{corrida}-{time.strftime('%Y%m%dT%H%M%SZ', time.gmtime())}/" if self.real else ""
         self.modo = modo
         self.mismo_nucleo = mismo_nucleo
         """Si el subidor hereda el núcleo del motor en vez de ir al suyo (SUBIDOR_CPU)."""
@@ -265,10 +280,12 @@ class _Subida:
         from concurrencia import subidor
 
         await asyncio.to_thread(self.dirs.preparar)
-        async with cliente.post(self._url("reiniciar")) as respuesta:
-            respuesta.raise_for_status()
-        endpoint = f"https://s3.{config.DOMINIO}:{self._puerto_s3}"
+        if not self.real:
+            async with cliente.post(self._url("reiniciar")) as respuesta:
+                respuesta.raise_for_status()
+        endpoint = None if self.real else f"https://s3.{config.DOMINIO}:{self._puerto_s3}"
         ca = self._certs / "ca.pem"
+        destino = {"bucket": self.bucket, "prefijo": self.prefijo}
         if self.modo == "corrutinas":
             from concurrencia.subida_async import SubidorCorrutinas
 
@@ -281,6 +298,7 @@ class _Subida:
             self._proceso = threading.Thread(
                 target=subidor.correr,
                 args=(self.dirs, endpoint, ca, config.SUBIDAS_EN_PARALELO, None, True),
+                kwargs=destino,
                 daemon=True,
             )
         else:
@@ -288,6 +306,7 @@ class _Subida:
             self._proceso = multiprocessing.get_context("spawn").Process(
                 target=subidor.correr,
                 args=(self.dirs, endpoint, ca, config.SUBIDAS_EN_PARALELO, int(cpu) if cpu else None),
+                kwargs=destino,
                 daemon=True,
             )
         self._proceso.start()
@@ -305,10 +324,15 @@ class _Subida:
             await asyncio.to_thread(self.dirs.parar.touch)
             await asyncio.to_thread(self._proceso.join, 30)
         await self.spool.actualizar()
-        async with cliente.get(self._url("estado")) as respuesta:
-            s3 = await respuesta.json()
         estado = self.spool.subidor
+        if self.real:
+            # S3 real no informa nada: lo subido es lo que cuenta el subidor.
+            s3 = {"objetos": estado.get("archivos", 0), "multipart": 0}
+        else:
+            async with cliente.get(self._url("estado")) as respuesta:
+                s3 = await respuesta.json()
         resumen = {
+            "destino": f"s3://{self.bucket}/{self.prefijo}" if self.real else "s3falso",
             "modo": self.modo,
             "mismo_nucleo": self.mismo_nucleo,
             "paralelo": config.SUBIDAS_EN_PARALELO,
@@ -359,6 +383,12 @@ def _resumen(
         "terminado_antes_de_tiempo": terminado_solo,
         "errores_por_tipo": dict(contadores.errores_por_tipo),
         "servidor": servidor,
+        # En la validación en dos máquinas, el servidor simulado está en otra instancia (IP_SERVIDOR).
+        "despliegue": {
+            "ip_servidor": config.IP_SERVIDOR,
+            "dos_maquinas": config.IP_SERVIDOR != "127.0.0.1",
+            "s3": "real" if config.S3_BUCKET else "falso",
+        },
         "versiones": {
             "python": sys.version.split()[0],
             "aiohttp": aiohttp.__version__,

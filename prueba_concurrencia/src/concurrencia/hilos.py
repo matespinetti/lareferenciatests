@@ -33,7 +33,7 @@ _LOCALES = {"127.0.0.1", "::1", "localhost", None}
 
 @contextlib.contextmanager
 def resolver_local() -> Iterator[None]:
-    """`*.sim.localhost` a 127.0.0.1 sin DNS, como el resolver del motor; requests no acepta uno.
+    """`*.sim.localhost` a `IP_SERVIDOR` sin DNS, como el resolver del motor; requests no acepta uno.
 
     Rechaza cualquier host de afuera, así ningún pedido sale de la máquina.
     """
@@ -41,7 +41,7 @@ def resolver_local() -> Iterator[None]:
 
     def getaddrinfo(host: Any, port: Any, *args: Any, **kwargs: Any) -> Any:
         if isinstance(host, str) and host.endswith("." + config.DOMINIO):
-            return original("127.0.0.1", port, *args, **kwargs)
+            return original(config.IP_SERVIDOR, port, *args, **kwargs)
         if host in _LOCALES:
             return original(host, port, *args, **kwargs)
         raise socket.gaierror(f"host fuera de la prueba: {host}")

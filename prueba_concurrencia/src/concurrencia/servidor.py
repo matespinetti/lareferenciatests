@@ -245,20 +245,22 @@ def contexto_ssl(certs: Path) -> ssl.SSLContext:
     return contexto
 
 
-def servir_en_proceso(parametros: Parametros, certs: Path, puerto: int) -> None:
+def servir_en_proceso(parametros: Parametros, certs: Path, puerto: int, host: str = "127.0.0.1") -> None:
     """Punto de entrada de cada proceso cuando el servidor corre en varios."""
     try:
-        asyncio.run(servir(parametros, certs, puerto))
+        asyncio.run(servir(parametros, certs, puerto, host=host))
     except KeyboardInterrupt:
         pass
 
 
-async def servir(parametros: Parametros, certs: Path, puerto: int, listo: asyncio.Event | None = None) -> None:
+async def servir(
+    parametros: Parametros, certs: Path, puerto: int, listo: asyncio.Event | None = None, host: str = "127.0.0.1"
+) -> None:
     servidor = Servidor(parametros)
     runner = web.AppRunner(servidor.app(), access_log=None, handle_signals=True)
     await runner.setup()
     sitio = web.TCPSite(
-        runner, "127.0.0.1", puerto, ssl_context=contexto_ssl(certs), backlog=8192, reuse_port=True
+        runner, host, puerto, ssl_context=contexto_ssl(certs), backlog=8192, reuse_port=True
     )
     await sitio.start()
     if listo:
