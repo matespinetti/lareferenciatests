@@ -39,7 +39,7 @@ async def test_boto3_sube_al_s3_falso_con_put_y_multipart(certs, tmp_path):
             gestor = TransferManager(cliente, TransferConfig(multipart_threshold=config.PARTE_S3,
                                                              multipart_chunksize=config.PARTE_S3))  # fmt: skip
             for ruta in (chico, grande):
-                gestor.upload(str(ruta), config.BUCKET, f"sha256/{ruta.name}").result()
+                gestor.upload(str(ruta), config.BUCKET, f"1/2/{ruta.name}").result()
             gestor.shutdown()
 
     try:
@@ -50,7 +50,7 @@ async def test_boto3_sube_al_s3_falso_con_put_y_multipart(certs, tmp_path):
     assert s3.multipart == 1 and s3.partes == 3 and s3.objetos == 2
 
 
-async def test_el_spool_decide_ram_o_disco_y_entrega_por_hash(tmp_path):
+async def test_el_spool_decide_ram_o_disco_y_entrega_listo(tmp_path):
     dirs = Directorios(tmp_path / "ram", tmp_path / "disco", tmp_path / "estado.json", tmp_path / "parar")
     dirs.preparar()
     spool = Spool(dirs, umbral=1000)
@@ -78,14 +78,14 @@ async def test_el_spool_decide_ram_o_disco_y_entrega_por_hash(tmp_path):
     assert spool.pendiente("ram") == 0 and spool.pendiente("disco") == 1800
 
 
-async def test_el_subidor_sube_lo_listo_y_no_repite(certs, tmp_path):
+async def test_el_subidor_sube_lo_listo_y_lo_borra(certs, tmp_path):
     from concurrencia.subidor import correr
 
     s3, runner, puerto = await _levantar_s3(certs)
     dirs = Directorios(tmp_path / "ram", tmp_path / "disco", tmp_path / "estado.json", tmp_path / "parar")
     dirs.preparar()
-    (dirs.ram / "listos" / "h1").write_bytes(b"1" * 1000)
-    (dirs.disco / "listos" / "h2").write_bytes(b"2" * (config.PARTE_S3 + 10))
+    (dirs.ram / "listos" / "7_3_0").write_bytes(b"1" * 1000)
+    (dirs.disco / "listos" / "7_3_1").write_bytes(b"2" * (config.PARTE_S3 + 10))
     contexto = multiprocessing.get_context("spawn")
     proceso = contexto.Process(target=correr, args=(dirs, f"https://s3.{config.DOMINIO}:{puerto}", certs / "ca.pem", 4, None))
     proceso.start()
@@ -95,9 +95,6 @@ async def test_el_subidor_sube_lo_listo_y_no_repite(certs, tmp_path):
             if dirs.estado.exists() and json.loads(dirs.estado.read_text()).get("archivos") == 2:
                 break
             await asyncio.sleep(0.05)
-        # El mismo contenido otra vez: se descarta sin subir.
-        (dirs.ram / "listos" / "h1").write_bytes(b"1" * 1000)
-        await asyncio.sleep(0.5)
         dirs.parar.touch()
         await asyncio.to_thread(proceso.join, 10)
     finally:
@@ -105,5 +102,11 @@ async def test_el_subidor_sube_lo_listo_y_no_repite(certs, tmp_path):
     estado = json.loads(dirs.estado.read_text())
     assert estado["final"] and estado["errores"] == 0
     assert estado["bytes_ram"] == 1000 and estado["bytes_disco"] == config.PARTE_S3 + 10
-    assert estado["duplicados"] == 1
+    assert estado["archivos"] == 2
     assert list((dirs.ram / "listos").iterdir()) == [] and list((dirs.disco / "listos").iterdir()) == []
+
+
+def test_clave_por_repositorio():
+    from concurrencia.subidor import clave
+
+    assert clave("7_3_0") == "7/3/0"

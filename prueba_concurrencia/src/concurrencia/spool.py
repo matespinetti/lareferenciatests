@@ -2,7 +2,8 @@
 
 Cada archivo se guarda mientras se baja: los de menos de `UMBRAL_DISCO` en el spool en RAM
 (`/dev/shm`), los demás en el spool en disco. Recién cuando terminó de bajar se pasa a `listos/`
-con un rename atómico, nombrado por su SHA-256; de ahí lo toma el subidor, otro proceso. La
+con un rename atómico, nombrado `repo_item_archivo` (la clave en S3 es por repositorio); de ahí lo
+toma el subidor, otro proceso. La
 descarga nunca espera a la subida: si lo pendiente pasa un límite, el motor deja de repartir tareas
 nuevas (`frenar`), pero lo que está en curso termina normalmente.
 
@@ -72,7 +73,7 @@ class Spool:
 
     def pendiente(self, spool: str) -> int:
         """Bytes entregados que el subidor todavía no subió (según su último estado)."""
-        subido = self.subidor.get(f"bytes_{spool}", 0) + self.subidor.get(f"duplicados_bytes_{spool}", 0)
+        subido = self.subidor.get(f"bytes_{spool}", 0)
         return max(0, self.entregado[spool] - subido)
 
     def frenar(self) -> bool:
@@ -123,12 +124,12 @@ class Destino:
             bloque, self._buffer = bytes(self._buffer), bytearray()
             await asyncio.to_thread(self._volcar, bloque)
 
-    async def cerrar(self, sha256: str, tamano: int) -> None:
+    async def cerrar(self, nombre: str, tamano: int) -> None:
         """El archivo terminó de bajar: lo pasa a `listos/` del spool que le toca."""
         self._cerrado = True
         resto, self._buffer = bytes(self._buffer), bytearray()
         spool = "disco" if self.en_disco else "ram"
-        destino = (self._spool.dirs.disco if self.en_disco else self._spool.dirs.ram) / "listos" / sha256
+        destino = (self._spool.dirs.disco if self.en_disco else self._spool.dirs.ram) / "listos" / nombre
         await asyncio.to_thread(self._terminar, resto, destino)
         self._spool.entregado[spool] += tamano
 

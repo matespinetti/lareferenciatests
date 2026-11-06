@@ -186,7 +186,7 @@ class Motor:
                         else:
                             sha = h.hexdigest()
                             if destino is not None:
-                                await destino.cerrar(sha, recibidos)
+                                await destino.cerrar(f"{tarea.repo}_{tarea.item}_{tarea.archivo}", recibidos)
                             if self.items.descargado(tarea.repo, tarea.item):
                                 self.contadores.item_completo()
                     finally:

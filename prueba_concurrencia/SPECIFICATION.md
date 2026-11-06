@@ -132,8 +132,8 @@ Los escenarios 1 a 3 también se corren con `--modo hilos`, para comparar las do
 **Subida a S3 (`s250` y `ss250`).** El descargador va a subir los archivos a S3 con un proceso aparte. Estos dos escenarios repiten el problema real con 250 lugares (la rodilla medida), con y sin tope de red, agregando el esquema elegido:
 
 - el motor guarda cada archivo mientras lo baja: los de menos de 8 MB en un spool en RAM (`/dev/shm`), los demás en un spool en disco;
-- al terminar el archivo, lo pasa a `listos/` con un rename atómico, nombrado por su SHA-256;
-- un proceso subidor aparte (boto3 con su gestor de transferencias, en su propio núcleo) lo sube a un S3 falso local, con un PUT o multipart en partes de 8 MB, y lo borra del spool; con claves por hash, un archivo repetido se sube una sola vez;
+- al terminar el archivo, lo pasa a `listos/` con un rename atómico, nombrado por repositorio, ítem y archivo;
+- un proceso subidor aparte (boto3 con su gestor de transferencias, en su propio núcleo) lo sube a un S3 falso local, con un PUT o multipart en partes de 8 MB, con clave por repositorio (`repo/item/archivo`), y lo borra del spool; volver a subirlo sobrescribe el mismo objeto;
 - si lo pendiente pasa 256 MB en RAM o 4 GB en disco, el motor deja de repartir tareas nuevas, pero lo que está en curso termina: la descarga nunca espera a la subida, porque eso dejaría abierta la conexión con el repositorio.
 
 Se mide si el motor llegó a frenar, cuánto quedó pendiente, la CPU que le agrega al motor escribir el spool, la CPU del subidor y lo que se escribe a disco.

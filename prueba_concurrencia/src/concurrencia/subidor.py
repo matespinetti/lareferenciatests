@@ -2,8 +2,9 @@
 
 Va en su propio proceso para no competir por el GIL con el bucle de eventos del motor. Usa boto3
 con su gestor de transferencias (`s3transfer`): un solo PUT para los archivos chicos y multipart
-para los de `PARTE_S3` o más. La clave es el SHA-256 del archivo, así que un archivo repetido se
-sube una sola vez. Al terminar cada subida borra el archivo del spool.
+para los de `PARTE_S3` o más. La clave es por repositorio (`repo/item/archivo`), como en el
+descargador; volver a subir el mismo archivo sobrescribe el mismo objeto. Al terminar cada subida
+borra el archivo del spool.
 
 Cada segundo reescribe `subidor.json` con lo que lleva subido; el motor lo lee para saber cuánto
 quedó pendiente y para frenar si se atrasa.
@@ -66,16 +67,15 @@ def correr(dirs: Directorios, endpoint: str, ca: Path, concurrencia: int, cpu: i
         )
         estado: dict[str, Any] = {
             "bytes_ram": 0, "bytes_disco": 0, "archivos": 0, "errores": 0,
-            "duplicados": 0, "duplicados_bytes_ram": 0, "duplicados_bytes_disco": 0, "cpu": [],
+            "cpu": [],
         }  # fmt: skip
         en_curso: dict[Path, tuple[Any, str, int]] = {}
-        subidos: set[str] = set()
         cpu_antes, t_antes = proceso.cpu_times(), time.monotonic()
         proximo_estado = t_antes + 1.0
         try:
             while not dirs.parar.exists():
-                _tomar(dirs, gestor, en_curso, subidos, estado)
-                _terminados(en_curso, subidos, estado)
+                _tomar(dirs, gestor, en_curso)
+                _terminados(en_curso, estado)
                 if time.monotonic() >= proximo_estado:
                     ahora, cpu_ahora = time.monotonic(), proceso.cpu_times()
                     usado = (cpu_ahora.user + cpu_ahora.system) - (cpu_antes.user + cpu_antes.system)
@@ -86,14 +86,19 @@ def correr(dirs: Directorios, endpoint: str, ca: Path, concurrencia: int, cpu: i
                     _escribir_estado(dirs.estado, estado)
                 time.sleep(_PAUSA)
         finally:
-            _terminados(en_curso, subidos, estado)
+            _terminados(en_curso, estado)
             estado["en_curso"] = len(en_curso)
             estado["final"] = True
             _escribir_estado(dirs.estado, estado)
             gestor.shutdown(cancel=True)
 
 
-def _tomar(dirs: Directorios, gestor: Any, en_curso: dict, subidos: set[str], estado: dict[str, Any]) -> None:
+def clave(nombre: str) -> str:
+    """La clave en S3 de un archivo del spool: `repo_item_archivo` → `repo/item/archivo`."""
+    return nombre.replace("_", "/")
+
+
+def _tomar(dirs: Directorios, gestor: Any, en_curso: dict) -> None:
     for listos, spool in zip(dirs.listos(), ("ram", "disco"), strict=True):
         try:
             entradas = list(os.scandir(listos))
@@ -104,17 +109,11 @@ def _tomar(dirs: Directorios, gestor: Any, en_curso: dict, subidos: set[str], es
             if ruta in en_curso:
                 continue
             tamano = entrada.stat().st_size
-            if entrada.name in subidos:
-                # Mismo contenido que uno ya subido: con claves por hash, no hace falta subirlo.
-                ruta.unlink(missing_ok=True)
-                estado["duplicados"] += 1
-                estado[f"duplicados_bytes_{spool}"] += tamano
-                continue
-            futuro = gestor.upload(str(ruta), config.BUCKET, f"sha256/{entrada.name}")
+            futuro = gestor.upload(str(ruta), config.BUCKET, clave(entrada.name))
             en_curso[ruta] = (futuro, spool, tamano)
 
 
-def _terminados(en_curso: dict, subidos: set[str], estado: dict[str, Any]) -> None:
+def _terminados(en_curso: dict, estado: dict[str, Any]) -> None:
     for ruta, (futuro, spool, tamano) in list(en_curso.items()):
         if not futuro.done():
             continue
@@ -125,7 +124,6 @@ def _terminados(en_curso: dict, subidos: set[str], estado: dict[str, Any]) -> No
             # Se reintenta desde el spool: el archivo sigue ahí y el próximo barrido lo vuelve a tomar.
             estado["errores"] += 1
             continue
-        subidos.add(ruta.name)
         ruta.unlink(missing_ok=True)
         estado[f"bytes_{spool}"] += tamano
         estado["archivos"] += 1
