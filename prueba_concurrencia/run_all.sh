@@ -2,9 +2,10 @@
 # Corre los escenarios y deja los resultados en results/ y el informe en report.md.
 #
 # Uso:
-#   ./run_all.sh              versión chica (recomendada), ~28 min:
+#   ./run_all.sh              versión chica (recomendada), ~30 min:
 #                             escenarios 1 2 4 6 2h 7 (un proceso), bs500 m250 ms500 (un proceso contra multiproceso),
-#                             s250 sh250 sc250 ss250 (subida a S3 en proceso aparte, hilos y corrutinas) a 1 min cada
+#                             b120 s120 (una c6gn.medium), s250 sh250 sc250 ss250 (subida a S3 en proceso aparte, hilos
+#                             y corrutinas) a 1 min cada
 #                             uno, y el barrido de lugares con la red de la instancia simulada
 #   ./run_all.sh completa     todos los escenarios con la duración de la spec y los dos barridos, ~2 h
 #   ./run_all.sh 1 4 b10      solo esos escenarios, con la duración de la spec
@@ -125,11 +126,11 @@ correr_ids() {
 
 case "${1:-chica}" in
     chica)
-        correr_ids "1 2 4 6 2h 7 bs500 m250 ms500 s250 sh250 sc250 ss250" "${DURACION:-60}" "${CALENTAMIENTO:-10}"
+        correr_ids "1 2 4 6 2h 7 bs500 m250 ms500 b120 s120 s250 sh250 sc250 ss250" "${DURACION:-60}" "${CALENTAMIENTO:-10}"
         correr_ids "$BARRIDO" "${DURACION:-}" "${CALENTAMIENTO:-}"
         ;;
     completa)
-        correr_ids "1 2 3 4 5 6 7 8 9 1h 2h 3h m250 ms500 s250 sh250 sc250 ss250 $BARRIDO $BARRIDO_SIN_TOPE" "${DURACION:-}" "${CALENTAMIENTO:-}"
+        correr_ids "1 2 3 4 5 6 7 8 9 1h 2h 3h m250 ms500 b120 s120 s250 sh250 sc250 ss250 $BARRIDO $BARRIDO_SIN_TOPE" "${DURACION:-}" "${CALENTAMIENTO:-}"
         ;;
     *)
         correr_ids "$*" "${DURACION:-}" "${CALENTAMIENTO:-}"

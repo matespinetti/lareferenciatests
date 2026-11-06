@@ -36,7 +36,7 @@ COLUMNAS = [
     "errores", "r429", "r503",
     "db_tx", "db_commit_p95_ms", "db_espera_p95_ms",
     "disco_escritura_mb_s", "pendiente_ram_mb", "pendiente_disco_mb", "subida_mb_s", "subidor_cpu", "frenado_s",
-    "cpu_workers", "rss_workers_mb", "bucle_workers_max_ms",
+    "cpu_workers", "rss_workers_mb", "bucle_workers_max_ms", "subidor_rss_mb",
 ]  # fmt: skip
 
 
@@ -262,7 +262,7 @@ class Muestreador:
         fila["subida_mb_s"] = round((subido - self._subido) / 2**20 / dt, 2)
         self._subido = subido
         for clave in ("pendiente_ram_mb", "pendiente_disco_mb", "subidor_cpu", "cpu_workers", "rss_workers_mb",
-                      "bucle_workers_max_ms"):  # fmt: skip
+                      "bucle_workers_max_ms", "subidor_rss_mb"):  # fmt: skip
             fila[clave] = round(extras.get(clave, 0.0), 1)
         self._cpu, self._ctx, self._t = cpu, ctx, ahora
         if not fila["calentamiento"]:

@@ -140,6 +140,8 @@ Se mide si el motor llegó a frenar, cuánto quedó pendiente, la CPU que le agr
 
 Para comparar dónde conviene que corra la subida, con el mismo spool: `s250` la hace un proceso aparte, `sh250` un pool de hilos (s3transfer) dentro del proceso del motor y `sc250` un pool de corrutinas (aiobotocore) dentro del bucle del motor, como propone hoy la especificación técnica. Se cambia con `MODO_SUBIDA` y la cantidad de subidas a la vez con `SUBIDA_PARALELO` (16).
 
+**Una c6gn.medium (`b120` y `s120`).** Simulan la instancia más barata que conviene: 120 lugares, la red de la c6gn.medium y, en `s120`, el subidor en proceso aparte pero en el mismo núcleo que el motor (en 1 vCPU no hay otro). Se mide si la descarga sostiene los ~93 MB/s estimados con motor y subidor compartiendo el núcleo, cuánto se atrasa el bucle y cuánta memoria suman motor, spool en RAM y subidor.
+
 **Un proceso contra un planificador y N workers (`m250` y `ms500`).** Un proceso planificador aplica la cortesía y reparte cada tarea por TCP (en la prueba, por 127.0.0.1) a N procesos workers con sus propias corrutinas (`WORKERS`, 2), que devuelven el resultado. Los mismos workers podrían correr en otras máquinas. `m250` lo compara con un solo proceso (`b250`) con la red de la instancia; `ms500`, sin tope de red y con 500 lugares (contra `bs500`), muestra si repartir pasa el techo de un núcleo. Se mide la CPU total (planificador más workers), la memoria total, el retraso de los bucles y el despacho.
 
 **Barrido de lugares.** El problema real (2.400 repositorios) con 2, 5, 10, 25, 50, 100, 250, 500, 1.000 y 2.400 lugares, 30 s cada uno después de 10 s de calentamiento. Responde cuánto mejora el rendimiento al sumar tareas concurrentes y desde dónde deja de mejorar:
@@ -160,7 +162,7 @@ Para 1.000 lugares o más hay que subir el límite de archivos abiertos (`ulimit
 - **Créditos de CPU:** solo si se corre en una t3. En una corrida de semanas cuenta la línea base, no el pico; anotar el `CPUCreditBalance` de CloudWatch al principio y al final.
 - No hace falta abrir puertos: todo va por localhost.
 - Un script `run_all.sh` corre los escenarios y deja los resultados en `results/` y el informe en `report.md`. Tiene dos versiones:
-  - **chica** (por defecto, la recomendada): escenarios 1, 2, 4, 6, 2h, 7, bs500, m250, ms500, s250, sh250, sc250 y ss250, de 1 minuto cada uno más 10 s de calentamiento, y el barrido con la red de la instancia simulada; unos 28 minutos en total. Conviene correrla en una c6gn.2xlarge (8 vCPU), para que el planificador, los workers, el subidor y el servidor simulado tengan núcleos propios;
+  - **chica** (por defecto, la recomendada): escenarios 1, 2, 4, 6, 2h, 7, bs500, m250, ms500, b120, s120, s250, sh250, sc250 y ss250, de 1 minuto cada uno más 10 s de calentamiento, y el barrido con la red de la instancia simulada; unos 30 minutos en total. Conviene correrla en una c6gn.2xlarge (8 vCPU), para que el planificador, los workers, el subidor y el servidor simulado tengan núcleos propios;
   - **completa** (`./run_all.sh completa`): todos los escenarios con la duración de esta spec y los dos barridos, alrededor de 2 horas.
 - Terminar la instancia al finalizar.
 

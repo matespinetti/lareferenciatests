@@ -74,7 +74,7 @@ def correr(
         )
         estado: dict[str, Any] = {
             "bytes_ram": 0, "bytes_disco": 0, "archivos": 0, "errores": 0,
-            "cpu": [],
+            "cpu": [], "rss_mb": [],
         }  # fmt: skip
         en_curso: dict[Path, tuple[Any, str, int]] = {}
         cpu_antes, t_antes = proceso.cpu_times(), time.monotonic()
@@ -88,6 +88,7 @@ def correr(
                     usado = (cpu_ahora.user + cpu_ahora.system) - (cpu_antes.user + cpu_antes.system)
                     if not en_hilo:
                         estado["cpu"].append(round(100 * usado / (ahora - t_antes), 1))
+                        estado["rss_mb"].append(round(proceso.memory_info().rss / 2**20, 1))
                     cpu_antes, t_antes = cpu_ahora, ahora
                     proximo_estado = ahora + 1.0
                     estado["en_curso"] = len(en_curso)

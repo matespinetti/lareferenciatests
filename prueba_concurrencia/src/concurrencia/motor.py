@@ -203,7 +203,7 @@ async def correr(
     S3 falso ya levantado en `puerto_s3`.
     """
     contadores = metricas.Contadores(con_lock=False)
-    subida = _Subida(dir_spool, certs, puerto_s3, escenario.modo_subida) if escenario.subida else None
+    subida = _Subida(dir_spool, certs, puerto_s3, escenario.modo_subida, escenario.subidor_mismo_nucleo) if escenario.subida else None
     async with sesion(certs) as cliente:
         await control(cliente, puerto, "reiniciar", "POST", procesos)
         if subida is not None:
@@ -241,10 +241,12 @@ class _Subida:
     aiobotocore dentro de este bucle). El spool es el mismo en los tres.
     """
 
-    def __init__(self, dir_spool: Path, certs: Path, puerto_s3: int, modo: str) -> None:
+    def __init__(self, dir_spool: Path, certs: Path, puerto_s3: int, modo: str, mismo_nucleo: bool = False) -> None:
         if modo not in config.MODOS_SUBIDA:
             raise ValueError(f"modo de subida desconocido: {modo} (opciones: {', '.join(config.MODOS_SUBIDA)})")
         self.modo = modo
+        self.mismo_nucleo = mismo_nucleo
+        """Si el subidor hereda el núcleo del motor en vez de ir al suyo (SUBIDOR_CPU)."""
         self.dirs = Directorios.en(dir_spool.resolve())
         self.spool = Spool(self.dirs, en_memoria=modo == "corrutinas")
         self._certs = certs
@@ -282,7 +284,7 @@ class _Subida:
                 daemon=True,
             )
         else:
-            cpu = os.environ.get("SUBIDOR_CPU")
+            cpu = None if self.mismo_nucleo else os.environ.get("SUBIDOR_CPU")
             self._proceso = multiprocessing.get_context("spawn").Process(
                 target=subidor.correr,
                 args=(self.dirs, endpoint, ca, config.SUBIDAS_EN_PARALELO, int(cpu) if cpu else None),
@@ -308,6 +310,7 @@ class _Subida:
         estado = self.spool.subidor
         resumen = {
             "modo": self.modo,
+            "mismo_nucleo": self.mismo_nucleo,
             "paralelo": config.SUBIDAS_EN_PARALELO,
             "entregado_bytes": dict(self.spool.entregado),
             "pendiente_final_bytes": {s: self.spool.pendiente(s) for s in ("ram", "disco")},

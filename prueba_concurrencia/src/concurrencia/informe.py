@@ -119,6 +119,8 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "valido": max(cpu_srv) < CPU_SERVIDOR_MAX and max(cpu_s3) < CPU_SERVIDOR_MAX,
         "subida": e.get("subida", False),
         "modo_subida": subida.get("modo", e.get("modo_subida", "proceso")),
+        "subidor_mismo_nucleo": subida.get("mismo_nucleo", e.get("subidor_mismo_nucleo", False)),
+        "subidor_rss_max": max(r.col("subidor_rss_mb"), default=0.0),
         "subida_paralelo": subida.get("paralelo"),
         "workers": e.get("workers", 0) if e["modo"] == Modo.MULTIPROCESO else 0,
         "cpu_workers": statistics.fmean(r.col("cpu_workers")) if r.filas else 0.0,
@@ -541,9 +543,9 @@ def _seccion_subida(todos: list[dict[str, Any]]) -> list[str]:
         "esperó a la subida.",
         "",
         "| Esc. | Dónde sube | Lugares | Tope de red | MB/s bajados | MB/s subidos | CPU motor | CPU motor sin subida | RSS motor (MB) "
-        "| CPU subidor (media / máx) | Pendiente máx RAM / disco (MB) | Frenado (s) | Escritura a disco (MB/s) "
+        "| CPU subidor (media / máx) | RSS subidor (MB) | Pendiente máx RAM / disco (MB) | Frenado (s) | Escritura a disco (MB/s) "
         "| Objetos (multipart) | Errores de subida | Pendiente al final (MB) |",
-        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     donde = {"proceso": "proceso aparte", "hilos": "hilos en el motor", "corrutinas": "corrutinas en el motor"}
     for r in con_subida:
@@ -552,10 +554,11 @@ def _seccion_subida(todos: list[dict[str, Any]]) -> list[str]:
             f"{_f(r['subidor_cpu'])} / {_f(r['subidor_cpu_max'])}" if r["modo_subida"] == "proceso" else "en la del motor"
         )
         lineas.append(
-            f"| {r['id']} | {donde.get(r['modo_subida'], r['modo_subida'])} ({r['subida_paralelo']}) | {r['lugares']} "
+            f"| {r['id']} | {donde.get(r['modo_subida'], r['modo_subida'])}"
+            f"{', mismo núcleo que el motor' if r['subidor_mismo_nucleo'] else ''} ({r['subida_paralelo']}) | {r['lugares']} "
             f"| {_f(r['red'] / config.MB) if r['red'] else 'sin tope'} | {_f(r['mb_s'])} "
             f"| {_f(r['subida_mb_s'])} | {_f(r['cpu_media'])} | {_f(ref['cpu_media']) + ' (' + ref['id'] + ')' if ref else '—'} "
-            f"| {_f(r['rss_max'], 0)} | {cpu_subidor} "
+            f"| {_f(r['rss_max'], 0)} | {cpu_subidor} | {_f(r['subidor_rss_max'], 0) if r['modo_subida'] == 'proceso' else '—'} "
             f"| {_f(r['pendiente_ram_max'], 0)} / {_f(r['pendiente_disco_max'], 0)} | {_f(r['frenado_s'], 1)} "
             f"| {_f(r['disco_escritura_mb_s'])} | {r['subida_objetos']} ({r['subida_multipart']}) | {r['subida_errores']} "
             f"| {_f(r['pendiente_final_mb'], 0)} |"

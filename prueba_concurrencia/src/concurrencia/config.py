@@ -169,6 +169,8 @@ class Escenario:
     """Procesos workers del modo multiproceso; los lugares se reparten entre ellos."""
     modo_subida: str = "proceso"
     """Dónde corre el subidor (`MODOS_SUBIDA`); se cambia con MODO_SUBIDA."""
+    subidor_mismo_nucleo: bool = False
+    """El subidor en proceso aparte comparte el núcleo del motor, como en una instancia de 1 vCPU."""
 
     @property
     def real(self) -> bool:
@@ -218,6 +220,10 @@ ESCENARIOS: dict[str, Escenario] = {
         _sintetico("2h", 200, "Configuración prevista con hilos", modo=Modo.HILOS),
         _sintetico("3h", 1000, "Margen con hilos", modo=Modo.HILOS),
         _real("s250", "Subida a S3 con un proceso aparte, 250 lugares, red de la instancia", lugares=250, subida=True),
+        # Una c6gn.medium: 1 vCPU para el motor y el subidor, ~120 lugares.
+        _real("b120", "Una c6gn.medium sin subida: 120 lugares", lugares=120),
+        _real("s120", "Una c6gn.medium con subida: motor y subidor en el mismo núcleo, 120 lugares", lugares=120,
+              subida=True, subidor_mismo_nucleo=True),
         _real("sh250", "Subida a S3 con un pool de hilos en el motor, 250 lugares, red de la instancia", lugares=250,
               subida=True, modo_subida="hilos"),
         _real("sc250", "Subida a S3 con un pool de corrutinas en el motor, 250 lugares, red de la instancia",

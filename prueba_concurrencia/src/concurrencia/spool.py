@@ -87,7 +87,9 @@ class Spool:
     def metricas(self) -> dict[str, float]:
         """Lo que el muestreador agrega a cada fila en los escenarios con subida."""
         cpu = self.subidor.get("cpu") or [0.0]
+        rss = self.subidor.get("rss_mb") or [0.0]
         return {
+            "subidor_rss_mb": rss[-1],
             "pendiente_ram_mb": self.pendiente("ram") / config.MB,
             "pendiente_disco_mb": self.pendiente("disco") / config.MB,
             "subido_bytes": self.subidor.get("bytes_ram", 0) + self.subidor.get("bytes_disco", 0),

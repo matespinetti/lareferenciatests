@@ -4,7 +4,7 @@ Qué se hace, en orden:
 
 1. Lanzar una **c6gn.2xlarge** (8 vCPU ARM, 16 GB). Con 8 núcleos, el planificador, los workers, el subidor y el servidor simulado tienen cada uno el suyo.
 2. Medir desde ahí la velocidad real de los repositorios (`medir-velocidad`, unos 2 minutos).
-3. Correr la prueba de concurrencia con esa velocidad (`run_all.sh`, unos 28 minutos): un proceso, multiproceso y los tres modos de subida a S3.
+3. Correr la prueba de concurrencia con esa velocidad (`run_all.sh`, unos 30 minutos): un proceso, multiproceso, la simulación de una c6gn.medium y los tres modos de subida a S3.
 4. Traer los resultados a tu máquina.
 5. **Terminar la instancia.**
 
@@ -145,7 +145,7 @@ cd ~/lareferenciatests/prueba_concurrencia
 ANCHO_MB_S=3.3 ./run_all.sh 2>&1 | tee run.log
 ```
 
-Tarda **unos 28 minutos**. Al arrancar tiene que decir:
+Tarda **unos 30 minutos**. Para correr solo la simulación de la c6gn.medium (unos 3 minutos): `DURACION=60 CALENTAMIENTO=10 ANCHO_MB_S=2.15 ./run_all.sh b120 s120`. Al arrancar tiene que decir:
 
 ```
 Instancia simulada: c6gn.medium · servidor en 3 proceso(s) · núcleos: 4
