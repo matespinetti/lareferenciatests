@@ -199,6 +199,7 @@ En B, revisá tres cosas antes de correr:
 ```bash
 echo "export IP_PRIVADA_A=…" >> ~/.bashrc && source ~/.bashrc   # la IP privada de A; queda para tmux y las sesiones nuevas
 cd ~/lareferenciatests/prueba_concurrencia
+mkdir -p results spool            # si no, Docker las crea como root en el chequeo de abajo
 nproc; free -m                    # 1 y unos 1.900 MB
 curl -s --cacert certs/ca.pem --resolve control.sim.localhost:8443:"$IP_PRIVADA_A" \
   https://control.sim.localhost:8443/__control/estado | head -c 80; echo

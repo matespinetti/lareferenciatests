@@ -33,6 +33,10 @@ else
     echo "S3_BUCKET vacío: la subida va al S3 falso en $IP:${PUERTO_S3:-9443}."
 fi
 mkdir -p results spool
+# Si Docker las creó antes (un `docker compose run` sin ellas), quedaron de root.
+if [ ! -w results ] || [ ! -w spool ]; then
+    sudo chown -R "$(id -u):$(id -g)" results spool
+fi
 
 # El servidor tiene que responder en todos sus procesos antes de empezar.
 if [[ "$IP" =~ ^[0-9.]+$ ]]; then
