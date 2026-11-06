@@ -2,13 +2,13 @@
 
 Qué se hace, en orden:
 
-1. Lanzar una **c6gn.xlarge** (4 vCPU ARM, 8 GB).
+1. Lanzar una **c6gn.2xlarge** (8 vCPU ARM, 16 GB). Con 8 núcleos, el planificador, los workers, el subidor y el servidor simulado tienen cada uno el suyo.
 2. Medir desde ahí la velocidad real de los repositorios (`medir-velocidad`, unos 2 minutos).
-3. Correr la prueba de concurrencia con esa velocidad (`run_all.sh`, unos 19 minutos), incluida la subida a S3.
+3. Correr la prueba de concurrencia con esa velocidad (`run_all.sh`, unos 28 minutos): un proceso, multiproceso y los tres modos de subida a S3.
 4. Traer los resultados a tu máquina.
 5. **Terminar la instancia.**
 
-Tiempo total: alrededor de 1 hora. Costo: unos USD 0,20 (USD 0,173/h la instancia, más USD 0,005/h la IP pública).
+Tiempo total: alrededor de 1 hora. Costo: unos USD 0,40 (USD 0,346/h la instancia, más USD 0,005/h la IP pública).
 
 ---
 
@@ -56,7 +56,7 @@ EC2 → **Launch instance**:
 | Región (arriba a la derecha) | **us-east-1 (N. Virginia)**. Los precios del informe son de ahí. Si el descargador va a correr en otra región (por ejemplo São Paulo), usá esa: la medición de velocidad cambia con la distancia a los repositorios. |
 | Name | `prueba-concurrencia` |
 | AMI | **Ubuntu Server 24.04 LTS**, arquitectura **64-bit (Arm)**. Ojo: no la x86. |
-| Instance type | **c6gn.xlarge** |
+| Instance type | **c6gn.2xlarge** |
 | Key pair | Creá uno nuevo (RSA, `.pem`) llamado `prueba` y guardá el `prueba.pem` en **`prueba_concurrencia/claves/`**. Esa carpeta está excluida de git, igual que cualquier `.pem`. |
 | Network settings | VPC por defecto, *Auto-assign public IP*: **Enable**. Security group nuevo con **SSH (22)** desde **My IP**, nada más. |
 | Storage | **20 GiB gp3** |
@@ -79,7 +79,7 @@ Ya adentro:
 
 ```bash
 sudo apt-get update && sudo apt-get install -y git tmux htop
-nproc            # tiene que decir 4
+nproc            # tiene que decir 8
 uname -m         # tiene que decir aarch64
 ```
 
@@ -145,7 +145,7 @@ cd ~/lareferenciatests/prueba_concurrencia
 ANCHO_MB_S=3.3 ./run_all.sh 2>&1 | tee run.log
 ```
 
-Tarda **unos 19 minutos**. Al arrancar tiene que decir:
+Tarda **unos 28 minutos**. Al arrancar tiene que decir:
 
 ```
 Instancia simulada: c6gn.medium · servidor en 3 proceso(s) · núcleos: 4
@@ -161,7 +161,10 @@ escenario 4 (corrutinas, red de c6gn.medium): 12345 pedidos, 0 violaciones, erro
 
 Lo importante es que diga **0 violaciones** y que `errores {}` esté vacío.
 
-En los escenarios `s250` y `ss250` (subida a S3) se levanta además un S3 falso, y el reparto de núcleos cambia: el motor en la CPU 0, el subidor en la CPU 1, y el servidor y el S3 falso en la 2 y la 3.
+El reparto de núcleos cambia según el escenario:
+- un proceso: el motor en la CPU 0 y el servidor simulado en las demás;
+- `m250` y `ms500` (multiproceso): el planificador en la CPU 0, los dos workers en la 1 y la 2, y el servidor en las demás;
+- `s250`, `sh250`, `sc250` y `ss250` (subida a S3): el motor en la CPU 0, el subidor en la 1 (solo en `s250` y `ss250`, que lo tienen en un proceso aparte), y el servidor y el S3 falso en las demás.
 
 **Para mirar mientras corre:** dividí tmux con `Ctrl+b` y después `"`, y corré `htop`. Tenés que ver la CPU 0 ocupada por el motor y las CPU 1 a 3 por el servidor.
 
@@ -223,7 +226,7 @@ Una instancia olvidada prendida cuesta unos USD 125 por mes.
 | Síntoma | Qué hacer |
 |---|---|
 | Fallan los tests en `setup_ec2.sh` al compilar algo | Volvé a correr `uv sync` y mirá el error. El script ya instala `build-essential`. Pasame el mensaje. |
-| `!! Con menos de 3 núcleos…` | Elegiste otra instancia. Tiene que ser c6gn.xlarge, con 4 vCPU. |
+| `!! Con menos de 3 núcleos…` | Elegiste otra instancia. Tiene que ser c6gn.2xlarge, con 8 vCPU. |
 | `Address already in use` | Quedó un servidor de una corrida cortada: `pkill -f bin/servidor` y volvé a correr. |
 | Se cortó el SSH | `ssh …` y después `tmux attach -t prueba`. La corrida siguió. |
 | En el informe aparece ⚠ en "CPU servidor máx" | El servidor simulado (o el S3 falso, en `s250` y `ss250`) fue el límite en ese escenario. Avisame: se puede repetir en una c6gn.2xlarge (8 vCPU), que tiene más núcleos para el servidor. |

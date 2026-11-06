@@ -60,8 +60,10 @@ class Directorios:
 
 
 class Spool:
-    def __init__(self, dirs: Directorios, umbral: int = config.UMBRAL_DISCO) -> None:
+    def __init__(self, dirs: Directorios, umbral: int = config.UMBRAL_DISCO, en_memoria: bool = False) -> None:
         self.dirs = dirs
+        self._en_memoria = en_memoria
+        """Si el subidor comparte el proceso y escribe su estado directo en `subidor`."""
         self.umbral = umbral
         self.entregado = {"ram": 0, "disco": 0}
         """Bytes pasados a `listos/`, por spool."""
@@ -93,7 +95,8 @@ class Spool:
         }
 
     async def actualizar(self) -> None:
-        self.subidor = await asyncio.to_thread(_leer_estado, self.dirs.estado)
+        if not self._en_memoria:
+            self.subidor = await asyncio.to_thread(_leer_estado, self.dirs.estado)
 
 
 def _leer_estado(ruta: Path) -> dict[str, Any]:

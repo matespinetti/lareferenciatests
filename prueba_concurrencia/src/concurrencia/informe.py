@@ -118,6 +118,14 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "cpu_servidor_max": max(cpu_srv),
         "valido": max(cpu_srv) < CPU_SERVIDOR_MAX and max(cpu_s3) < CPU_SERVIDOR_MAX,
         "subida": e.get("subida", False),
+        "modo_subida": subida.get("modo", e.get("modo_subida", "proceso")),
+        "subida_paralelo": subida.get("paralelo"),
+        "workers": e.get("workers", 0) if e["modo"] == Modo.MULTIPROCESO else 0,
+        "cpu_workers": statistics.fmean(r.col("cpu_workers")) if r.filas else 0.0,
+        "cpu_workers_max": max(r.col("cpu_workers"), default=0.0),
+        "rss_workers_max": max(r.col("rss_workers_mb"), default=0.0),
+        "bucle_workers_max": max(r.col("bucle_workers_max_ms"), default=0.0),
+        "bucle_workers_p99": max((w.get("bucle_p99_ms", 0.0) for w in r.datos.get("multiproceso", {}).get("bucle_workers", [])), default=0.0),
         "subida_mb_s": statistics.fmean(r.col("subida_mb_s")) if r.filas else 0.0,
         "pendiente_ram_max": max(r.col("pendiente_ram_mb"), default=0.0),
         "pendiente_disco_max": max(r.col("pendiente_disco_mb"), default=0.0),
@@ -452,6 +460,61 @@ _NOMBRE_GRUPO = {config.BARRIDO_RED: "con la red de la instancia simulada", conf
 _DIAS = (0, 1, 7, 14, 30, 60)
 
 
+def _seccion_multiproceso(todos: list[dict[str, Any]]) -> list[str]:
+    """Un proceso contra un planificador y N workers: mismo problema, mismos lugares, misma red."""
+    multi = [r for r in todos if r["modo"] == Modo.MULTIPROCESO]
+    if not multi:
+        return []
+
+    def referencia(r: dict[str, Any]) -> dict[str, Any] | None:
+        return next(
+            (o for o in todos if o["modo"] == Modo.CORRUTINAS and not o["subida"] and o["lugares"] == r["lugares"]
+             and o["repos"] == r["repos"] and bool(o["red"]) == bool(r["red"])),
+            None,
+        )  # fmt: skip
+
+    lineas = [
+        "",
+        "## Un proceso contra un planificador y N workers",
+        "",
+        "El modo multiproceso tiene un proceso planificador (aplica la cortesía y reparte) y N procesos workers con sus "
+        "propias corrutinas, conectados por TCP (en la prueba por 127.0.0.1; los mismos workers podrían estar en otras "
+        "máquinas). Se compara con un solo proceso en el mismo problema, con los mismos lugares y la misma red. "
+        "**La CPU total es la del planificador más la de todos los workers**: lo que cuesta repartir el trabajo.",
+        "",
+        "| Esc. | Arquitectura | Lugares | Tope de red | MB/s | CPU planificador | CPU workers (suma) | CPU total "
+        "| CPU ms/MB | Memoria total (MB) | Bucle p99 planificador / workers (ms) | Despacho p99 (ms) | Errores | Violaciones |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+    ]
+
+    def fila(r: dict[str, Any], arquitectura: str) -> str:
+        cpu_total = r["cpu_media"] + r["cpu_workers"]
+        ms_por_mb = 10 * cpu_total / r["mb_s"] if r["mb_s"] else 0.0
+        memoria = r["rss_max"] + r["rss_workers_max"]
+        bucles = f"{_f(r['bucle_p99'], 1)}" + (f" / {_f(r['bucle_workers_p99'], 1)}" if r["workers"] else "")
+        return (
+            f"| {r['id']} | {arquitectura} | {r['lugares']} | {_f(r['red'] / config.MB) if r['red'] else 'sin tope'} "
+            f"| {_f(r['mb_s'])} | {_f(r['cpu_media'])} | {_f(r['cpu_workers']) if r['workers'] else '—'} "
+            f"| {_f(cpu_total)} | {_f(ms_por_mb, 2)} | {_f(memoria, 0)} | {bucles} | {_f(r['despacho_p99'], 1)} "
+            f"| {r['errores']} | {r['violaciones']} |"
+        )
+
+    for r in multi:
+        ref = referencia(r)
+        if ref is not None:
+            lineas.append(fila(ref, "un proceso"))
+        lineas.append(fila(r, f"planificador + {r['workers']} workers"))
+    lineas += [
+        "",
+        "- **Con la red de la instancia:** si un proceso ya llena la red, repartir no baja más rápido; muestra cuánto "
+        "cuesta de más (CPU total y memoria) tener el trabajo en varios procesos.",
+        "- **Sin tope de red:** muestra si repartir en N procesos pasa el techo de un núcleo. Si los MB/s suben, el "
+        "multiproceso escala; la pregunta es si hace falta, frente a lo que da la red de la instancia.",
+        "- La CPU ms/MB se calcula con la CPU total: es el costo de procesar cada MB en cada arquitectura.",
+    ]
+    return lineas
+
+
 def _seccion_subida(todos: list[dict[str, Any]]) -> list[str]:
     """Spool y subida a S3: si la descarga llegó a esperar a la subida y cuánto cuesta subir."""
     con_subida = [r for r in todos if r["subida"]]
@@ -477,26 +540,35 @@ def _seccion_subida(todos: list[dict[str, Any]]) -> list[str]:
         "(\"frenado\"). **Lo que importa: frenado en 0 y lo pendiente estable** quieren decir que la descarga nunca "
         "esperó a la subida.",
         "",
-        "| Esc. | Lugares | Tope de red | MB/s bajados | MB/s subidos | CPU motor | CPU motor sin subida | RSS motor (MB) "
+        "| Esc. | Dónde sube | Lugares | Tope de red | MB/s bajados | MB/s subidos | CPU motor | CPU motor sin subida | RSS motor (MB) "
         "| CPU subidor (media / máx) | Pendiente máx RAM / disco (MB) | Frenado (s) | Escritura a disco (MB/s) "
         "| Objetos (multipart) | Errores de subida | Pendiente al final (MB) |",
-        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
+    donde = {"proceso": "proceso aparte", "hilos": "hilos en el motor", "corrutinas": "corrutinas en el motor"}
     for r in con_subida:
         ref = referencia(r)
+        cpu_subidor = (
+            f"{_f(r['subidor_cpu'])} / {_f(r['subidor_cpu_max'])}" if r["modo_subida"] == "proceso" else "en la del motor"
+        )
         lineas.append(
-            f"| {r['id']} | {r['lugares']} | {_f(r['red'] / config.MB) if r['red'] else 'sin tope'} | {_f(r['mb_s'])} "
+            f"| {r['id']} | {donde.get(r['modo_subida'], r['modo_subida'])} ({r['subida_paralelo']}) | {r['lugares']} "
+            f"| {_f(r['red'] / config.MB) if r['red'] else 'sin tope'} | {_f(r['mb_s'])} "
             f"| {_f(r['subida_mb_s'])} | {_f(r['cpu_media'])} | {_f(ref['cpu_media']) + ' (' + ref['id'] + ')' if ref else '—'} "
-            f"| {_f(r['rss_max'], 0)} | {_f(r['subidor_cpu'])} / {_f(r['subidor_cpu_max'])} "
+            f"| {_f(r['rss_max'], 0)} | {cpu_subidor} "
             f"| {_f(r['pendiente_ram_max'], 0)} / {_f(r['pendiente_disco_max'], 0)} | {_f(r['frenado_s'], 1)} "
             f"| {_f(r['disco_escritura_mb_s'])} | {r['subida_objetos']} ({r['subida_multipart']}) | {r['subida_errores']} "
             f"| {_f(r['pendiente_final_mb'], 0)} |"
         )
     lineas += [
         "",
-        "- **CPU motor contra la referencia sin subida:** lo que le agrega al motor escribir el spool (la escritura va "
-        "en hilos aparte, pero dentro del mismo proceso).",
-        "- **CPU del subidor:** lo que cuesta subir, en un proceso aparte. Con el SDK CRT de AWS sería menos.",
+        "- **Dónde sube:** proceso aparte (en su propio núcleo), un pool de hilos con s3transfer dentro del proceso del "
+        "motor, o un pool de corrutinas con aiobotocore dentro del bucle del motor. Entre paréntesis, las subidas a la vez. "
+        "El spool es el mismo en los tres: la única diferencia es dónde corre la subida.",
+        "- **CPU motor contra la referencia sin subida:** en proceso aparte, lo que le agrega al motor escribir el spool; "
+        "con hilos o corrutinas, además todo el costo de subir, que comparte el núcleo (y el GIL) con la descarga. Si la "
+        "CPU llega al 100 %, bajan los MB/s bajados y sube el retraso del bucle.",
+        "- **CPU del subidor:** solo se ve aparte en el proceso aparte. Con el SDK CRT de AWS sería menos.",
         "- **Escritura a disco:** de toda la máquina; es lo que tiene que sostener el volumen EBS del spool (gp3 da "
         "125 MB/s de base) y el tope de EBS de la instancia.",
         "- En corridas cortas pasan sobre todo los archivos chicos: los grandes no llegan a terminar de bajar, así que "
@@ -632,6 +704,7 @@ def armar(resultados: Path, salida: Path) -> None:
         _grafico_barrido(grupos, resultados / "barrido.png")
         lineas += ["", f"![Rendimiento y CPU según los lugares]({resultados.name}/barrido.png)"]
 
+    lineas += _seccion_multiproceso(todos)
     lineas += _seccion_subida(todos)
     lineas += [
         "",

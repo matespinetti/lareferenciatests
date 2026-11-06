@@ -2,9 +2,10 @@
 # Corre los escenarios y deja los resultados en results/ y el informe en report.md.
 #
 # Uso:
-#   ./run_all.sh              versión chica (recomendada), ~19 min:
-#                             escenarios 1 2 4 6 2h 7 s250 ss250 a 1 min cada uno, y el barrido de lugares con la red
-#                             de la instancia simulada
+#   ./run_all.sh              versión chica (recomendada), ~28 min:
+#                             escenarios 1 2 4 6 2h 7 (un proceso), bs500 m250 ms500 (un proceso contra multiproceso),
+#                             s250 sh250 sc250 ss250 (subida a S3 en proceso aparte, hilos y corrutinas) a 1 min cada
+#                             uno, y el barrido de lugares con la red de la instancia simulada
 #   ./run_all.sh completa     todos los escenarios con la duración de la spec y los dos barridos, ~2 h
 #   ./run_all.sh 1 4 b10      solo esos escenarios, con la duración de la spec
 # Variables:
@@ -17,7 +18,10 @@
 #   ANCHO_MB_S                MB/s que el servidor entrega por conexión (2: supuesto; medirlo con
 #                             `relevamiento medir-velocidad`)
 #   PUERTO                    puerto del servidor simulado (8443)
-#   PUERTO_S3, SPOOL          S3 falso (9443) y spool en disco (spool/) de los escenarios con subida (s250, ss250)
+#   PUERTO_S3, SPOOL          S3 falso (9443) y spool en disco (spool/) de los escenarios con subida (s*250)
+#   MODO_SUBIDA               fuerza dónde corre la subida en los escenarios con subida: proceso, hilos o corrutinas
+#   SUBIDA_PARALELO           subidas a la vez (16)
+#   WORKERS                   procesos workers de los escenarios multiproceso (m250, ms500; 2)
 set -euo pipefail
 cd "$(dirname "$0")"
 
@@ -65,9 +69,22 @@ correr_ids() {
             continue
         fi
         echo "== escenario $id"
-        # Con subida (s250, ss250): el subidor va solo en el núcleo 1, y el servidor y el S3 falso en los demás.
+        # Con subida (s*250): el subidor va solo en el núcleo 1, y el servidor y el S3 falso en los demás.
+        # Multiproceso (m*250): el planificador en el núcleo 0 y cada worker en el suyo (1, 2, ...); con
+        # menos de 8 núcleos, los workers comparten los núcleos 0 y 1 con el planificador.
         local servidor_cpu=(${SERVIDOR_CPU[@]+"${SERVIDOR_CPU[@]}"}) s3=""
-        if [[ "$id" =~ ^s+[0-9]+$ ]]; then
+        unset WORKERS_CPU
+        if [[ "$id" =~ ^m+s?[0-9]+$ ]] && [ ${#MOTOR_CPU[@]} -gt 0 ]; then
+            local w=${WORKERS:-2}
+            if [ "$nucleos" -ge $((w + 4)) ]; then
+                export WORKERS_CPU=$(seq -s, 1 "$w")
+                servidor_cpu=(taskset -c "$((w + 1))-$((nucleos - 1))")
+            else
+                export WORKERS_CPU=0,1
+                servidor_cpu=(taskset -c "2-$((nucleos - 1))")
+            fi
+        fi
+        if [[ "$id" =~ ^s[a-z]*[0-9]+$ ]]; then
             if [ ${#MOTOR_CPU[@]} -gt 0 ] && [ "$nucleos" -ge 4 ]; then
                 servidor_cpu=(taskset -c "2-$((nucleos - 1))")
                 export SUBIDOR_CPU=1
@@ -108,11 +125,11 @@ correr_ids() {
 
 case "${1:-chica}" in
     chica)
-        correr_ids "1 2 4 6 2h 7 s250 ss250" "${DURACION:-60}" "${CALENTAMIENTO:-10}"
+        correr_ids "1 2 4 6 2h 7 bs500 m250 ms500 s250 sh250 sc250 ss250" "${DURACION:-60}" "${CALENTAMIENTO:-10}"
         correr_ids "$BARRIDO" "${DURACION:-}" "${CALENTAMIENTO:-}"
         ;;
     completa)
-        correr_ids "1 2 3 4 5 6 7 8 9 1h 2h 3h s250 ss250 $BARRIDO $BARRIDO_SIN_TOPE" "${DURACION:-}" "${CALENTAMIENTO:-}"
+        correr_ids "1 2 3 4 5 6 7 8 9 1h 2h 3h m250 ms500 s250 sh250 sc250 ss250 $BARRIDO $BARRIDO_SIN_TOPE" "${DURACION:-}" "${CALENTAMIENTO:-}"
         ;;
     *)
         correr_ids "$*" "${DURACION:-}" "${CALENTAMIENTO:-}"

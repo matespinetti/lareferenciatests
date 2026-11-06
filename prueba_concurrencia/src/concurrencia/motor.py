@@ -6,7 +6,6 @@ asíncrona: aiohttp para HTTP y asyncpg para la base (`--db`).
 """
 
 import asyncio
-import hashlib
 import platform
 import socket
 import ssl
@@ -20,7 +19,7 @@ from typing import Any
 import aiohttp
 from aiohttp.abc import AbstractResolver, ResolveResult
 
-from concurrencia import config, metricas, resolucion
+from concurrencia import config, metricas, pedido, resolucion
 from concurrencia.config import Escenario
 from concurrencia.db import Registro
 from concurrencia.distribucion import items_por_repo
@@ -141,69 +140,16 @@ class Motor:
                 self._cambio.set()
 
     async def _ejecutar(self, tarea: Tarea, despacho: float) -> None:
-        t0 = self._loop.time()
-        latencia = servicio = None
-        codigo: int | None = None
-        recibidos = 0
-        sha: str | None = None
-        try:
-            async with self._sesion.get(resolucion.url(tarea, self._puerto, self._procesos)) as respuesta:
-                latencia = self._loop.time() - t0
-                codigo = respuesta.status
-                servicio = float(respuesta.headers.get("X-Tiempo-Servicio", "nan"))
-                if codigo in (429, 503):
-                    recibidos = len(await respuesta.read())
-                    self.contadores.recibidos(recibidos)
-                    espera = float(respuesta.headers.get("Retry-After", config.RETRY_AFTER))
-                    self.plan.pausar(tarea.repo, self._loop.time() + espera)
-                    self.plan.agregar(tarea)
-                    self.contadores.estado(codigo)
-                elif codigo != 200:
-                    recibidos = len(await respuesta.read())
-                    self.contadores.recibidos(recibidos)
-                    self.contadores.error(f"http_{codigo}")
-                elif tarea.tipo is Tipo.RESOLUCION:
-                    cuerpo = await respuesta.read()
-                    recibidos = len(cuerpo)
-                    self.contadores.recibidos(recibidos)
-                    descargas = resolucion.descargas(cuerpo)
-                    for descarga in descargas:
-                        self.plan.agregar(descarga)
-                    if self.items.resuelto(tarea.repo, tarea.item, len(descargas)):
-                        self.contadores.item_completo()
-                else:
-                    h = hashlib.sha256()
-                    destino = self._spool.nuevo(respuesta.content_length) if self._spool else None
-                    try:
-                        async for chunk in respuesta.content.iter_chunked(config.CHUNK):
-                            h.update(chunk)
-                            recibidos += len(chunk)
-                            self.contadores.recibidos(len(chunk), hasheados=True)
-                            if destino is not None:
-                                await destino.escribir(chunk)
-                        if respuesta.content_length is not None and recibidos != respuesta.content_length:
-                            self.contadores.error("archivo_incompleto")
-                        else:
-                            sha = h.hexdigest()
-                            if destino is not None:
-                                await destino.cerrar(f"{tarea.repo}_{tarea.item}_{tarea.archivo}", recibidos)
-                            if self.items.descargado(tarea.repo, tarea.item):
-                                self.contadores.item_completo()
-                    finally:
-                        if destino is not None:
-                            await destino.descartar()
-        except (aiohttp.ClientError, TimeoutError, OSError) as error:
-            self.contadores.error(type(error).__name__)
-        except Exception as error:
-            # Un error inesperado se cuenta y no debe dejar el repositorio ocupado para siempre.
-            self.contadores.error(f"inesperado_{type(error).__name__}")
-        fin = self._loop.time()
-        self.plan.terminada(tarea, fin)
-        self.contadores.pedido(
-            tarea.tipo, fin - t0, latencia, servicio, despacho, descarga_ok=sha is not None,
-        )  # fmt: skip
+        r = await pedido.hacer(
+            self._sesion,
+            tarea,
+            resolucion.url(tarea, self._puerto, self._procesos),
+            self.contadores.recibidos,
+            self._spool.nuevo if self._spool else None,
+        )
+        pedido.aplicar(self.plan, self.items, self.contadores, tarea, r, despacho)
         if self._registro is not None:
-            await self._registro.registrar(tarea, codigo, recibidos, sha)
+            await self._registro.registrar(tarea, r.codigo, r.recibidos, r.sha)
 
 
 async def _medir_bucle(contadores: metricas.Contadores) -> None:
@@ -257,7 +203,7 @@ async def correr(
     S3 falso ya levantado en `puerto_s3`.
     """
     contadores = metricas.Contadores(con_lock=False)
-    subida = _Subida(dir_spool, certs, puerto_s3) if escenario.subida else None
+    subida = _Subida(dir_spool, certs, puerto_s3, escenario.modo_subida) if escenario.subida else None
     async with sesion(certs) as cliente:
         await control(cliente, puerto, "reiniciar", "POST", procesos)
         if subida is not None:
@@ -288,14 +234,24 @@ async def correr(
 
 
 class _Subida:
-    """El spool, el proceso subidor y el estado del S3 falso de un escenario con subida."""
+    """El spool, el subidor y el estado del S3 falso de un escenario con subida.
 
-    def __init__(self, dir_spool: Path, certs: Path, puerto_s3: int) -> None:
+    El subidor corre según `modo`: `proceso` (aparte, en su propio núcleo), `hilos` (un hilo con el
+    pool de s3transfer dentro de este proceso) o `corrutinas` (un pool de corrutinas con
+    aiobotocore dentro de este bucle). El spool es el mismo en los tres.
+    """
+
+    def __init__(self, dir_spool: Path, certs: Path, puerto_s3: int, modo: str) -> None:
+        if modo not in config.MODOS_SUBIDA:
+            raise ValueError(f"modo de subida desconocido: {modo} (opciones: {', '.join(config.MODOS_SUBIDA)})")
+        self.modo = modo
         self.dirs = Directorios.en(dir_spool.resolve())
-        self.spool = Spool(self.dirs)
+        self.spool = Spool(self.dirs, en_memoria=modo == "corrutinas")
         self._certs = certs
         self._puerto_s3 = puerto_s3
         self._proceso: Any = None
+        self._corrutinas: Any = None
+        self._tarea: asyncio.Task[None] | None = None
 
     def _url(self, ruta: str) -> str:
         return f"https://s3.{config.DOMINIO}:{self._puerto_s3}/__s3/{ruta}"
@@ -309,24 +265,50 @@ class _Subida:
         await asyncio.to_thread(self.dirs.preparar)
         async with cliente.post(self._url("reiniciar")) as respuesta:
             respuesta.raise_for_status()
-        cpu = os.environ.get("SUBIDOR_CPU")
-        self._proceso = multiprocessing.get_context("spawn").Process(
-            target=subidor.correr,
-            args=(self.dirs, f"https://s3.{config.DOMINIO}:{self._puerto_s3}", self._certs / "ca.pem",
-                  config.SUBIDAS_EN_PARALELO, int(cpu) if cpu else None),  # fmt: skip
-            daemon=True,
-        )
+        endpoint = f"https://s3.{config.DOMINIO}:{self._puerto_s3}"
+        ca = self._certs / "ca.pem"
+        if self.modo == "corrutinas":
+            from concurrencia.subida_async import SubidorCorrutinas
+
+            self._corrutinas = SubidorCorrutinas(self.dirs, self.spool, endpoint, ca, config.SUBIDAS_EN_PARALELO)
+            self._tarea = asyncio.create_task(self._corrutinas.correr())
+            return
+        if self.modo == "hilos":
+            import threading
+
+            self._proceso = threading.Thread(
+                target=subidor.correr,
+                args=(self.dirs, endpoint, ca, config.SUBIDAS_EN_PARALELO, None, True),
+                daemon=True,
+            )
+        else:
+            cpu = os.environ.get("SUBIDOR_CPU")
+            self._proceso = multiprocessing.get_context("spawn").Process(
+                target=subidor.correr,
+                args=(self.dirs, endpoint, ca, config.SUBIDAS_EN_PARALELO, int(cpu) if cpu else None),
+                daemon=True,
+            )
         self._proceso.start()
 
     async def terminar(self, cliente: aiohttp.ClientSession) -> dict[str, Any]:
         """Para el subidor y junta lo que quedó: subido, pendiente y lo que recibió el S3 falso."""
-        await asyncio.to_thread(self.dirs.parar.touch)
-        await asyncio.to_thread(self._proceso.join, 30)
+        if self._corrutinas is not None and self._tarea is not None:
+            self._corrutinas.parar()
+            try:
+                async with asyncio.timeout(30):
+                    await self._tarea
+            except TimeoutError:
+                self._tarea.cancel()
+        else:
+            await asyncio.to_thread(self.dirs.parar.touch)
+            await asyncio.to_thread(self._proceso.join, 30)
         await self.spool.actualizar()
         async with cliente.get(self._url("estado")) as respuesta:
             s3 = await respuesta.json()
         estado = self.spool.subidor
         resumen = {
+            "modo": self.modo,
+            "paralelo": config.SUBIDAS_EN_PARALELO,
             "entregado_bytes": dict(self.spool.entregado),
             "pendiente_final_bytes": {s: self.spool.pendiente(s) for s in ("ram", "disco")},
             "subidor": {k: v for k, v in estado.items() if k != "cpu"},

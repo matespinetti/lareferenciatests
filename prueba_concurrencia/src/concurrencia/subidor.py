@@ -1,6 +1,8 @@
-"""Subidor: un proceso aparte que sube a S3 lo que el motor deja en `listos/`.
+"""Subidor: sube a S3 lo que el motor deja en `listos/`.
 
-Va en su propio proceso para no competir por el GIL con el bucle de eventos del motor. Usa boto3
+Modo `proceso` (el recomendado): corre en su propio proceso, para no competir por el GIL con el
+bucle de eventos del motor. Modo `hilos`: la misma función corre en un hilo dentro del proceso del
+motor, con el pool de hilos de s3transfer; existe para medir cuánto le cuesta eso al motor. Usa boto3
 con su gestor de transferencias (`s3transfer`): un solo PUT para los archivos chicos y multipart
 para los de `PARTE_S3` o más. La clave es por repositorio (`repo/item/archivo`), como en el
 descargador; volver a subir el mismo archivo sobrescribe el mismo objeto. Al terminar cada subida
@@ -46,13 +48,18 @@ def _cliente(endpoint: str, ca: Path, concurrencia: int) -> Any:
     )
 
 
-def correr(dirs: Directorios, endpoint: str, ca: Path, concurrencia: int, cpu: int | None) -> None:
-    """Sube hasta que aparezca `dirs.parar`; entonces escribe su estado final y termina."""
+def correr(
+    dirs: Directorios, endpoint: str, ca: Path, concurrencia: int, cpu: int | None, en_hilo: bool = False
+) -> None:
+    """Sube hasta que aparezca `dirs.parar`; entonces escribe su estado final y termina.
+
+    Con `en_hilo` corre dentro del proceso del motor: no se ata a un núcleo y no informa CPU propia
+    (la de su proceso es la del motor)."""
     from s3transfer.manager import TransferConfig, TransferManager
 
     from concurrencia.hilos import resolver_local
 
-    if cpu is not None and hasattr(os, "sched_setaffinity"):
+    if not en_hilo and cpu is not None and hasattr(os, "sched_setaffinity"):
         os.sched_setaffinity(0, {cpu})
     proceso = psutil.Process()
     with resolver_local():
@@ -79,7 +86,8 @@ def correr(dirs: Directorios, endpoint: str, ca: Path, concurrencia: int, cpu: i
                 if time.monotonic() >= proximo_estado:
                     ahora, cpu_ahora = time.monotonic(), proceso.cpu_times()
                     usado = (cpu_ahora.user + cpu_ahora.system) - (cpu_antes.user + cpu_antes.system)
-                    estado["cpu"].append(round(100 * usado / (ahora - t_antes), 1))
+                    if not en_hilo:
+                        estado["cpu"].append(round(100 * usado / (ahora - t_antes), 1))
                     cpu_antes, t_antes = cpu_ahora, ahora
                     proximo_estado = ahora + 1.0
                     estado["en_curso"] = len(en_curso)

@@ -87,7 +87,8 @@ def test_red_de_la_instancia_simulada():
     assert config.INSTANCIAS["c6gn.medium"].cpu_disponible == 80.0
 
 
-async def test_humo_con_subida(levantar, certs, tmp_path):
+@pytest.mark.parametrize("modo_subida", ["proceso", "hilos", "corrutinas"])
+async def test_humo_con_subida(levantar, certs, tmp_path, modo_subida):
     from aiohttp import web
 
     from concurrencia.s3falso import S3Falso
@@ -99,7 +100,7 @@ async def test_humo_con_subida(levantar, certs, tmp_path):
     await runner.setup()
     puerto_s3 = puertos_libres(1)
     await web.TCPSite(runner, "127.0.0.1", puerto_s3, ssl_context=contexto_ssl(certs)).start()
-    escenario = replace(_escenario(Modo.CORRUTINAS), subida=True, duracion=5.0)
+    escenario = replace(_escenario(Modo.CORRUTINAS), subida=True, modo_subida=modo_subida, duracion=5.0)
     try:
         resumen = await motor.correr(escenario, puerto, certs, tmp_path / "sub", puerto_s3=puerto_s3,
                                      dir_spool=tmp_path / "spool")  # fmt: skip
@@ -107,9 +108,27 @@ async def test_humo_con_subida(levantar, certs, tmp_path):
         await runner.cleanup()
     assert resumen["servidor"]["violaciones"] == 0 and resumen["errores_por_tipo"] == {}
     subida = resumen["subida"]
+    assert subida["modo"] == modo_subida
     assert subida["subidor"]["errores"] == 0
     assert subida["subidor"]["bytes_ram"] > 0 and s3.bytes == subida["subidor"]["bytes_ram"]
     with (tmp_path / "sub.csv").open() as f:
         filas = list(csv.DictReader(f))
     assert sum(float(f["subida_mb_s"]) for f in filas) > 0
     assert not (tmp_path / "spool").exists()
+
+
+async def test_humo_multiproceso(levantar, certs, tmp_path):
+    from concurrencia import multiproceso
+
+    _, puerto = await levantar(Parametros(tam_archivo=200_000, latencia=latencia_fija(0.1)))
+    escenario = replace(_escenario(Modo.MULTIPROCESO), workers=2)
+    resumen = await multiproceso.correr(escenario, puerto, certs, tmp_path / "mp")
+    assert resumen["servidor"]["violaciones"] == 0, resumen["servidor"]["ejemplos"]
+    assert resumen["errores_por_tipo"] == {}
+    assert resumen["multiproceso"]["lugares_por_worker"] == [10, 10]
+    assert all("bucle_p99_ms" in w for w in resumen["multiproceso"]["bucle_workers"])
+    with (tmp_path / "mp.csv").open() as f:
+        filas = list(csv.DictReader(f))
+    assert max(int(f["en_curso"]) for f in filas) == LUGARES
+    assert sum(float(f["mb_hasheados"]) for f in filas) > 0
+    assert max(float(f["cpu_workers"]) for f in filas) > 0

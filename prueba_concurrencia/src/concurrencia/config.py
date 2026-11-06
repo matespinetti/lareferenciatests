@@ -54,7 +54,10 @@ UMBRAL_DISCO = 8 * MB
 """Los archivos de este tamaño o más van al spool en disco; los más chicos, al spool en RAM."""
 PARTE_S3 = 8 * MB
 """Tamaño de parte del multipart; los archivos más chicos van en un solo PUT."""
-SUBIDAS_EN_PARALELO = 16
+SUBIDAS_EN_PARALELO = int(os.environ.get("SUBIDA_PARALELO", "16"))
+"""Subidas a la vez del subidor, en cualquiera de los modos. Se cambia con SUBIDA_PARALELO."""
+MODOS_SUBIDA = ("proceso", "hilos", "corrutinas")
+"""Dónde corre la subida: proceso aparte, pool de hilos en el motor o pool de corrutinas en el bucle."""
 LIMITE_PENDIENTE_RAM = 256 * MB
 LIMITE_PENDIENTE_DISCO = 4 * 1024 * MB
 """Si lo pendiente de subir pasa estos límites, el motor deja de repartir tareas nuevas."""
@@ -134,6 +137,8 @@ def instancia(nombre: str | None = None) -> Instancia:
 class Modo(StrEnum):
     CORRUTINAS = "corrutinas"
     HILOS = "hilos"
+    MULTIPROCESO = "multiproceso"
+    """Un proceso planificador y `workers` procesos workers con corrutinas, conectados por TCP."""
 
 
 @dataclass(frozen=True, slots=True)
@@ -159,7 +164,11 @@ class Escenario:
     grupo: str | None = None
     """Barrido al que pertenece el escenario, para agruparlo en el informe."""
     subida: bool = False
-    """Si el motor guarda los archivos en el spool y un proceso aparte los sube a un S3 falso."""
+    """Si el motor guarda los archivos en el spool y un subidor los sube a un S3 falso."""
+    workers: int = int(os.environ.get("WORKERS", "2"))
+    """Procesos workers del modo multiproceso; los lugares se reparten entre ellos."""
+    modo_subida: str = "proceso"
+    """Dónde corre el subidor (`MODOS_SUBIDA`); se cambia con MODO_SUBIDA."""
 
     @property
     def real(self) -> bool:
@@ -208,9 +217,17 @@ ESCENARIOS: dict[str, Escenario] = {
         _sintetico("1h", 50, "Línea base con hilos", modo=Modo.HILOS),
         _sintetico("2h", 200, "Configuración prevista con hilos", modo=Modo.HILOS),
         _sintetico("3h", 1000, "Margen con hilos", modo=Modo.HILOS),
-        _real("s250", "Subida a S3: spool y subidor aparte, 250 lugares, red de la instancia", lugares=250, subida=True),
+        _real("s250", "Subida a S3 con un proceso aparte, 250 lugares, red de la instancia", lugares=250, subida=True),
+        _real("sh250", "Subida a S3 con un pool de hilos en el motor, 250 lugares, red de la instancia", lugares=250,
+              subida=True, modo_subida="hilos"),
+        _real("sc250", "Subida a S3 con un pool de corrutinas en el motor, 250 lugares, red de la instancia",
+              lugares=250, subida=True, modo_subida="corrutinas"),
         _real("ss250", "Subida a S3 sin tope de red: capacidad con spool y subida, 250 lugares", lugares=250,
               subida=True, con_red=False),
+        _real("m250", "Multiproceso: un planificador y 2 workers, 250 lugares, red de la instancia", lugares=250,
+              modo=Modo.MULTIPROCESO),
+        _real("ms500", "Multiproceso sin tope de red, 500 lugares: ¿pasa el techo de un núcleo?", lugares=500,
+              modo=Modo.MULTIPROCESO, con_red=False),
         *_barrido("b", BARRIDO_RED, True, "Barrido con la red de la instancia"),
         *_barrido("bs", BARRIDO_SIN_TOPE, False, "Barrido sin tope de red"),
     ]

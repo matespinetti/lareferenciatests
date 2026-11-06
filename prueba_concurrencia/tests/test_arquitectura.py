@@ -8,7 +8,7 @@ import pytest
 SRC = Path(__file__).parent.parent / "src" / "concurrencia"
 CORRUTINAS = [
     "motor.py", "servidor.py", "db.py", "resolucion.py", "planificador.py", "distribucion.py", "metricas.py",
-    "spool.py", "s3falso.py",
+    "spool.py", "s3falso.py", "pedido.py", "multiproceso.py", "subida_async.py",
 ]  # fmt: skip
 PUROS = ["planificador.py", "distribucion.py", "resolucion.py"]
 # Escribe el CSV y el JSON al terminar la corrida, no mientras se mide.
@@ -17,6 +17,7 @@ _PERMITIDO_OPEN = {
     # Corren con asyncio.to_thread, fuera del bucle de eventos.
     ("spool.py", "_volcar"),
     ("spool.py", "_terminar"),
+    ("subida_async.py", "_leer"),
 }
 
 

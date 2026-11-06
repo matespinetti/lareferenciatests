@@ -88,6 +88,9 @@ def motor(
     modo: Annotated[Modo | None, typer.Option(help="Fuerza el modo del escenario")] = None,
     instancia: Annotated[str, _INSTANCIA] = config.INSTANCIA_POR_DEFECTO,
     procesos: Annotated[int, _PROCESOS] = 1,
+    modo_subida: Annotated[
+        str | None, typer.Option(envvar="MODO_SUBIDA", help="Cambia dónde corre la subida: proceso, hilos o corrutinas")
+    ] = None,
     dsn: Annotated[str | None, typer.Option(envvar="CONCURRENCIA_DSN", help="PostgreSQL para --db")] = None,
     puerto: int = config.PUERTO,
     puerto_s3: Annotated[int, typer.Option(envvar="PUERTO_S3", help="S3 falso (escenarios con subida)")] = config.PUERTO_S3,
@@ -99,9 +102,15 @@ def motor(
     e = config.escenario(escenario, duracion, calentamiento, instancia)
     if modo is not None:
         e = replace(e, modo=modo)
+    if modo_subida is not None and e.subida:
+        e = replace(e, modo_subida=modo_subida)
     if e.subida and e.modo is Modo.HILOS:
         raise typer.BadParameter("la subida solo está en el modo corrutinas", param_hint="--modo")
-    if e.modo is Modo.HILOS:
+    if e.modo is Modo.MULTIPROCESO:
+        from concurrencia import multiproceso
+
+        resumen = asyncio.run(multiproceso.correr(e, puerto, certs, salida, semilla, procesos))
+    elif e.modo is Modo.HILOS:
         from concurrencia import hilos
 
         resumen = hilos.correr(e, puerto, certs, salida, semilla, procesos)
