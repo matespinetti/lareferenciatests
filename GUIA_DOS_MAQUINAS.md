@@ -236,6 +236,8 @@ escenario v120 (corrutinas, red de c6gn.medium): 25000 pedidos, 0 violaciones, e
 
 `s120` y `v120` suben a S3 real; `b120` no sube.
 
+**Antes de cada tanda, reiniciá el servidor en A** (`Ctrl+C` y la misma línea del paso 4) y mirá en `htop` que quede tranquilo. En la primera corrida, un proceso del servidor quedó al 100 % desde el final de `s120` y durante todo `v120`, sin carga que lo explique. Eso probablemente causó los 22 errores de conexión de `v120`. El informe lo marca con ⚠ en "CPU servidor máx".
+
 Si todo da bien, la corrida larga. Dura una hora, sube al S3 falso de A (sin `S3_BUCKET`), agrega al mismo `results/` y rearma el informe con todo:
 
 ```bash

@@ -74,13 +74,15 @@ cat > results/instancia.json <<EOF
   "kernel": "$(uname -r)",
   "docker": "$(docker version --format '{{.Server.Version}}' 2>/dev/null)",
   "servidor_simulado": "$IP, $SERVIDOR_PROCESOS procesos",
-  "s3": "${S3_BUCKET:+s3://$S3_BUCKET}${S3_BUCKET:-S3 falso}"
+  "s3": "$([ -n "${S3_BUCKET:-}" ] && echo "s3://$S3_BUCKET" || echo "S3 falso")"
 }
 EOF
 
 # Memoria y CPU por contenedor cada 5 s (PostgreSQL incluido). Cuesta algo de CPU en 1 vCPU, por eso no más seguido.
 [ -f results/docker_stats.csv ] || echo "t,contenedor,cpu,memoria" > results/docker_stats.csv
 (
+    # Sin errexit: si un contenedor termina entre `docker ps` y `docker stats`, se sigue con la próxima muestra.
+    set +e +o pipefail
     while true; do
         ahora=$(date +%s)
         # Solo los contenedores de esta prueba (proyecto `candidata`).

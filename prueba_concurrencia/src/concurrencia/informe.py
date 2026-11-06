@@ -37,6 +37,16 @@ class Resultado:
     def col(self, nombre: str) -> list[float]:
         return [f.get(nombre, 0.0) for f in self.filas]
 
+    def media(self, nombre: str) -> float:
+        """Media pesada por lo que duró cada fila: si el bucle se atrasa, una fila cubre más de un
+        segundo, y la media simple de las filas les daría menos peso a esos segundos lentos."""
+        total = sum(f["dt"] for f in self.filas)
+        return sum(f.get(nombre, 0.0) * f["dt"] for f in self.filas) / total if total else 0.0
+
+    def integral(self, nombre: str) -> float:
+        """Lo acumulado de una columna por segundo (MB, pedidos, segundos de CPU × 100)."""
+        return sum(f.get(nombre, 0.0) * f["dt"] for f in self.filas)
+
 
 def cargar(resultados: Path) -> list[Resultado]:
     salida = []
@@ -46,6 +56,9 @@ def cargar(resultados: Path) -> list[Resultado]:
             continue
         with ruta.with_suffix(".csv").open() as f:
             filas = [{k: float(v) for k, v in fila.items()} for fila in csv.DictReader(f)]
+        anterior = 0.0
+        for fila in filas:
+            fila["dt"], anterior = fila["t"] - anterior, fila["t"]
         medicion = [f for f in filas if not f["calentamiento"]]
         salida.append(Resultado(datos["escenario"]["id"], datos["escenario"], medicion, datos))
     return sorted(salida, key=lambda r: (len(r.id), r.id))
@@ -60,9 +73,9 @@ def _pendiente(xs: list[float], ys: list[float]) -> float:
 def resumir(r: Resultado) -> dict[str, Any]:
     e, servidor = r.escenario, r.datos["servidor"]
     cpu = r.col("cpu")
-    pedidos = sum(r.col("pedidos"))
-    mb = sum(r.col("mb_recibidos"))
-    cpu_seg = sum(c / 100 for c in cpu)
+    pedidos = r.integral("pedidos")
+    mb = r.integral("mb_recibidos")
+    cpu_seg = r.integral("cpu") / 100
     calentamiento = int(e["calentamiento"])
     cpu_srv = servidor.get("cpu_servidor", [])[calentamiento:] or [0.0]
     subida = r.datos.get("subida", {})
@@ -82,13 +95,13 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "grupo": e.get("grupo"),
         "instancia": e.get("instancia"),
         "segundos": len(r.filas),
-        "items_s": statistics.fmean(r.col("items_ok")) if r.filas else 0.0,
-        "ocupacion": statistics.fmean(r.col("ocupacion")) if r.filas else 0.0,
-        "pedidos_s": statistics.fmean(r.col("pedidos")) if r.filas else 0.0,
-        "mb_s": statistics.fmean(r.col("mb_recibidos")) if r.filas else 0.0,
-        "cpu_media": statistics.fmean(cpu) if cpu else 0.0,
+        "items_s": r.media("items_ok"),
+        "ocupacion": r.media("ocupacion"),
+        "pedidos_s": r.media("pedidos"),
+        "mb_s": r.media("mb_recibidos"),
+        "cpu_media": r.media("cpu"),
         "cpu_max": max(cpu, default=0.0),
-        "cpu_sistema": statistics.fmean(r.col("cpu_sistema")) if cpu else 0.0,
+        "cpu_sistema": r.media("cpu_sistema"),
         "rss_max": max(rss, default=0.0),
         "deriva_rss_mb_h": _pendiente(t, rss) * 3600,
         "rss_media": statistics.fmean(rss) if rss else 0.0,
@@ -99,17 +112,17 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "bucle_max": r.datos.get("bucle", {}).get("max_ms", max(r.col("bucle_max_ms"), default=0.0)),
         # Conservador: percentil 99 de los p99 de cada segundo.
         "despacho_p99": percentil(r.col("despacho_p99_ms"), 0.99),
-        "listos_sin_atender": statistics.fmean(r.col("listos_sin_atender")) if r.filas else 0.0,
+        "listos_sin_atender": r.media("listos_sin_atender"),
         "lat_p50": statistics.median(r.col("lat_p50_ms")) if r.filas else 0.0,
         "lat_p95": statistics.median(r.col("lat_p95_ms")) if r.filas else 0.0,
         "agregada_p95": statistics.median(r.col("agregada_p95_ms")) if r.filas else 0.0,
-        "gc_ms_s": statistics.fmean(r.col("gc_ms")) if r.filas else 0.0,
-        "steal": statistics.fmean(r.col("steal")) if r.filas else 0.0,
+        "gc_ms_s": r.media("gc_ms"),
+        "steal": r.media("steal"),
         "cpu_ms_por_pedido": 1000 * cpu_seg / pedidos if pedidos else 0.0,
         "cpu_ms_por_mb": 1000 * cpu_seg / mb if mb else 0.0,
         "t_resolucion": statistics.fmean([x for x in resoluciones if x]) if any(resoluciones) else 0.0,
         "t_descarga": statistics.fmean([x for x in descargas if x]) if any(descargas) else 0.0,
-        "db_tx": statistics.fmean(r.col("db_tx")) if r.filas else 0.0,
+        "db_tx": r.media("db_tx"),
         "db_commit_p95": statistics.median(r.col("db_commit_p95_ms")) if r.filas else 0.0,
         "errores": sum(r.datos["errores_por_tipo"].values()),
         "errores_por_tipo": r.datos["errores_por_tipo"],
@@ -123,17 +136,17 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "subidor_rss_max": max(r.col("subidor_rss_mb"), default=0.0),
         "subida_paralelo": subida.get("paralelo"),
         "workers": e.get("workers", 0) if e["modo"] == Modo.MULTIPROCESO else 0,
-        "cpu_workers": statistics.fmean(r.col("cpu_workers")) if r.filas else 0.0,
+        "cpu_workers": r.media("cpu_workers"),
         "cpu_workers_max": max(r.col("cpu_workers"), default=0.0),
         "rss_workers_max": max(r.col("rss_workers_mb"), default=0.0),
         "bucle_workers_max": max(r.col("bucle_workers_max_ms"), default=0.0),
         "bucle_workers_p99": max((w.get("bucle_p99_ms", 0.0) for w in r.datos.get("multiproceso", {}).get("bucle_workers", [])), default=0.0),
-        "subida_mb_s": statistics.fmean(r.col("subida_mb_s")) if r.filas else 0.0,
+        "subida_mb_s": r.media("subida_mb_s"),
         "pendiente_ram_max": max(r.col("pendiente_ram_mb"), default=0.0),
         "pendiente_disco_max": max(r.col("pendiente_disco_mb"), default=0.0),
         "frenado_s": sum(r.col("frenado_s")),
-        "disco_escritura_mb_s": statistics.fmean(r.col("disco_escritura_mb_s")) if r.filas else 0.0,
-        "subidor_cpu": statistics.fmean(r.col("subidor_cpu")) if r.filas else 0.0,
+        "disco_escritura_mb_s": r.media("disco_escritura_mb_s"),
+        "subidor_cpu": r.media("subidor_cpu"),
         "subidor_cpu_max": max(r.col("subidor_cpu"), default=0.0),
         "s3_cpu_max": max(cpu_s3),
         "subida_errores": subida.get("subidor", {}).get("errores", 0),
@@ -144,7 +157,7 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "dos_maquinas": r.datos.get("despliegue", {}).get("dos_maquinas", False),
         "s3_real": r.datos.get("despliegue", {}).get("s3") == "real",
         "destino_subida": subida.get("destino", "s3falso"),
-        "maquina_cpu": statistics.fmean(r.col("maquina_cpu")) if r.filas else 0.0,
+        "maquina_cpu": r.media("maquina_cpu"),
         "maquina_cpu_max": max(r.col("maquina_cpu"), default=0.0),
         "memoria_disponible_min": min(r.col("memoria_disponible_mb"), default=0.0),
         "deriva_memoria_mb_h": _pendiente(t, r.col("memoria_disponible_mb")) * 3600,
