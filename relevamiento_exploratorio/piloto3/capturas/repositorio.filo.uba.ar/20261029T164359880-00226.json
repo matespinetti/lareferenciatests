@@ -1,0 +1,69 @@
+{
+ "pedido": "20261029T164359880-00226",
+ "url": "https://repositorio.filo.uba.ar/bitstreams/e0692763-dac6-4de6-94dd-22fd00c8a063/download",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:50:06 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "498"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793292618"
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "cache-control",
+   "public, max-age=0"
+  ],
+  [
+   "last-modified",
+   "Fri, 21 Aug 2026 02:28:56 GMT"
+  ],
+  [
+   "etag",
+   "W/\"2ef-1a022266240\""
+  ],
+  [
+   "content-type",
+   "text/html; charset=UTF-8"
+  ],
+  [
+   "content-range",
+   "bytes 0-750/751"
+  ],
+  [
+   "content-length",
+   "751"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

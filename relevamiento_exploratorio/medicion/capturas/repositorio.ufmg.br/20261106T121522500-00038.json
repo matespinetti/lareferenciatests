@@ -1,0 +1,85 @@
+{
+ "pedido": "20261106T121522500-00038",
+ "url": "https://repositorio.ufmg.br/server/api/core/bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:16:36 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "5120523"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Thu, 13 Nov 2025 18:11:20 GMT"
+  ],
+  [
+   "etag",
+   "\"3c2513c144aa3398f76b43594f068b59\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Fri, 06 Nov 2026 13:16:35 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline;filename=\"=?UTF-8?Q?Disserta=C3=A7=C3=A3o=5FUtiliza=C3=A7=C3=A3o_do?= =?UTF-8?Q?_is=C3=B3topo_7Be_como_m=C3=A9todo_?= =?UTF-8?Q?de_investiga=C3=A7=C3=A3o_da_eros=C3=A3o?= =?UTF-8?Q?_em_escala_de_vertente.pdf?=\""
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=15724800; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

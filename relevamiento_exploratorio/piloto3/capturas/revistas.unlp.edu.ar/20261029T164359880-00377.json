@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T164359880-00377",
+ "url": "https://revistas.unlp.edu.ar/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:54:41 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "last-modified",
+   "Wed, 21 Jan 2026 12:02:29 GMT"
+  ],
+  [
+   "etag",
+   "\"ca3-648e4b2c36380-gzip\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "content-length",
+   "873"
+  ],
+  [
+   "keep-alive",
+   "timeout=2, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/plain"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

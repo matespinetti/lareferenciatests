@@ -1,0 +1,69 @@
+{
+ "pedido": "20261029T164359880-00494",
+ "url": "https://www.scielo.org.ar/scielo.php",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:57:58 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.2.3 (CentOS)"
+  ],
+  [
+   "content-security-policy",
+   "upgrade-insecure-requests;"
+  ],
+  [
+   "x-powered-by",
+   "PHP/5.2.17"
+  ],
+  [
+   "expires",
+   "Thu, 19 Nov 1981 08:52:00 GMT"
+  ],
+  [
+   "cache-control",
+   "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+  ],
+  [
+   "pragma",
+   "no-cache"
+  ],
+  [
+   "content-type",
+   "text/html; charset=UTF-8"
+  ],
+  [
+   "set-cookie",
+   "PHPSESSID=mkroj53cnddkjfcqm1llj56pm0; path=/"
+  ],
+  [
+   "via",
+   "1.1 www.scielo.org.ar"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "keep-alive",
+   "timeout=1, max=50"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

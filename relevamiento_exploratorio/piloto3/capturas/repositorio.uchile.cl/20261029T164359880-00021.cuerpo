@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:44:36Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.uchile.cl:2250/215317" metadataPrefix="xoai">https://repositorio.uchile.cl/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.uchile.cl:2250/215317</identifier><datestamp>2026-08-24T15:56:20Z</datestamp><setSpec>com_2250_100004</setSpec><setSpec>col_2250_117687</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="contributor">
+<element name="author">
+<element name="none">
+<field name="value">Vergara, Patricio</field>
+<field name="value">Saez, Guidobeth</field>
+<field name="value">Castro, Mario</field>
+<field name="value">Allende, Sebastian</field>
+<field name="value">Nunez, Alvaro S.</field>
+</element>
+</element>
+</element>
+<element name="date">
+<element name="accessioned">
+<element name="none">
+<field name="value">2026-08-24T15:56:12Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2026-08-24T15:56:12Z</field>
+</element>
+</element>
+<element name="issued">
+<element name="none">
+<field name="value">2024</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="citation">
+<element name="none">
+<field name="value">Npj 2D Materials and Applications, vol. 8, no. 1, art. 41, 2024</field>
+</element>
+</element>
+<element name="issn">
+<element name="none">
+<field name="value">2397-7132</field>
+</element>
+</element>
+<element name="other">
+<element name="none">
+<field name="value">10.1038/s41699-024-00478-5</field>
+</element>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">https://repositorio.uchile.cl/handle/2250/215317</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="abstract">
+<element name="none">
+<field name="value">We introduce a two-dimensional dimerized lattice model that reveals a remarkable feature: the emergence of a complex, non-trivial topological multiferroic phase marked by zero Berry curvature and a significant Berry connection that influences the model's bulk topology. This model extends the one-dimensional Rice-Mele Hamiltonian model to explore polarization-dependent topological properties in a 2D Su-Schrieffer-Heeger lattice, providing a detailed framework for studying the impact of symmetry-breaking and spatially varying potentials on electronic and spin properties. The findings are particularly relevant for spintronics, offering a foundation for topologically robust and electrically controlled spin-conducting edge states, with implications for developing advanced spin-dependent transport devices.</field>
+</element>
+</element>
+<element name="version">
+<element name="none">
+<field name="value">Versión publicada - versión final del editor</field>
+</element>
+</element>
+</element>
+<element name="rights">
+<element name="none">
+<field name="value">Attribution-NonCommercial-NoDerivatives 4.0 International</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">https://creativecommons.org/licenses/by-nc-nd/4.0</field>
+</element>
+</element>
+</element>
+<element name="source">
+<element name="none">
+<field name="value">Npj 2D Materials and Applications</field>
+</element>
+</element>
+<element name="title">
+<element name="none">
+<field name="value">Emerging topological multiferroics from the 2D Rice-Mele model</field>
+</element>
+</element>
+<element name="type">
+<element name="none">
+<field name="value">Artículo de revista</field>
+</element>
+</element>
+</element>
+<element name="dcterms">
+<element name="accessRights">
+<element name="none">
+<field name="value">Acceso abierto</field>
+</element>
+</element>
+</element>
+<element name="uchile">
+<element name="catalogador">
+<element name="none">
+<field name="value">WoS 2026</field>
+</element>
+</element>
+<element name="index">
+<element name="none">
+<field name="value">Artículo de publicación WoS</field>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">s41699-024-00478-5.pdf</field>
+<field name="originalName">s41699-024-00478-5.pdf</field>
+<field name="format">application/pdf</field>
+<field name="size">1550029</field>
+<field name="url">https://repositorio.uchile.cl/bitstream/2250/215317/-1/s41699-024-00478-5.pdf</field>
+<field name="checksum">35b26ce52edf86ba7a041574f2f9b46b</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">-1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">2250/215317</field>
+<field name="identifier">oai:repositorio.uchile.cl:2250/215317</field>
+<field name="lastModifyDate">2026-08-24 11:56:20.938</field>
+</element>
+<element name="repository">
+<field name="name">Repositorio Académico de la Universidad de Chile</field>
+<field name="mail">dspace-help@myu.edu</field>
+</element>
+</metadata></metadata></record></GetRecord></OAI-PMH>

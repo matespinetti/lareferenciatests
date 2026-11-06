@@ -1,0 +1,93 @@
+{
+ "pedido": "20261106T121522500-00026",
+ "url": "https://repositorio.unesp.br/server/api/core/bitstreams/a252a932-c43a-4ec7-b53c-d5a9bd614cdc/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:16:03 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "1296497"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "dspace-xsrf-token",
+   "744166a5-361f-4e6c-a710-6d68e0a6b9f8"
+  ],
+  [
+   "set-cookie",
+   "DSPACE-XSRF-COOKIE=744166a5-361f-4e6c-a710-6d68e0a6b9f8; Path=/server; Secure; HttpOnly; SameSite=None"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Mon, 23 Mar 2015 16:04:05 GMT"
+  ],
+  [
+   "etag",
+   "\"dbd771a9824d11432b4604c6496532ab\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Fri, 06 Nov 2026 13:16:03 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"barros_ao_tcc_guara.pdf\"; filename*=UTF-8''barros_ao_tcc_guara.pdf"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

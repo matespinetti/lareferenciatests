@@ -1,0 +1,77 @@
+{
+ "pedido": "20261029T164359880-00361",
+ "url": "https://ri.conicet.gov.ar/server/api",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "dspace-xsrf-token",
+   "92f1a606-f11d-4982-8311-9d8b1b5c8e74"
+  ],
+  [
+   "set-cookie",
+   "DSPACE-XSRF-COOKIE=92f1a606-f11d-4982-8311-9d8b1b5c8e74; Path=/server; Secure; HttpOnly; SameSite=None"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "cache-control",
+   "no-cache, no-store, max-age=0, must-revalidate"
+  ],
+  [
+   "pragma",
+   "no-cache"
+  ],
+  [
+   "expires",
+   "0"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "content-type",
+   "application/json;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:54:17 GMT"
+  ],
+  [
+   "server",
+   "DSpace"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=16000000"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

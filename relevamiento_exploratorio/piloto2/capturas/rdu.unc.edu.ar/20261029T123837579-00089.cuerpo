@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T12:41:22Z</responseDate><request verb="GetRecord" identifier="oai:rdu.unc.edu.ar:11086/24006" metadataPrefix="ore">https://rdu.unc.edu.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:rdu.unc.edu.ar:11086/24006</identifier><datestamp>2026-05-06T12:45:44Z</datestamp><setSpec>com_11086_13237</setSpec><setSpec>com_11086_301</setSpec><setSpec>com_11086_166</setSpec><setSpec>col_11086_15046</setSpec></header><metadata><atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+   <atom:id>http://hdl.handle.net/11086/24006/ore.xml</atom:id>
+   <atom:link rel="alternate" href="http://hdl.handle.net/11086/24006"/>
+   <atom:link rel="http://www.openarchives.org/ore/terms/describes" href="http://hdl.handle.net/11086/24006/ore.xml"/>
+   <atom:link rel="self" type="application/atom+xml" href="http://hdl.handle.net/11086/24006/ore.xml#atom"/>
+   <atom:published>2022-04-21T13:55:19Z</atom:published>
+   <atom:updated>2022-04-21T13:55:19Z</atom:updated>
+   <atom:source>
+      <atom:generator>RDU</atom:generator>
+   </atom:source>
+   <atom:title>Solanum gonyrhachis S. Knapp</atom:title>
+   <atom:author>
+      <atom:name>Ariza Espinar, L</atom:name>
+   </atom:author>
+   <atom:author>
+      <atom:name>Nee, M.</atom:name>
+   </atom:author>
+   <atom:author>
+      <atom:name>Solomon, J. C.</atom:name>
+   </atom:author>
+   <atom:category scheme="http://www.openarchives.org/ore/terms/" term="http://www.openarchives.org/ore/terms/Aggregation" label="Aggregation"/>
+   <atom:category scheme="http://www.openarchives.org/ore/atom/modified" term="2022-04-21T13:55:19Z"/>
+   <atom:category scheme="http://www.dspace.org/objectModel/" term="DSpaceItem" label="DSpace Item"/>
+   <atom:link rel="http://www.openarchives.org/ore/terms/aggregates" href="https://rdu.unc.edu.ar/bitstreams/bcd89f1b-603a-4252-a800-1b3d9307c6c6/download" title="CORD00006781.tif" type="image/tiff" length="204706414"/>
+   <atom:link rel="http://www.openarchives.org/ore/terms/aggregates" href="https://rdu.unc.edu.ar/bitstreams/c4a29b47-4c03-4e21-b4d6-1ae817bd3ffb/download" title="darwin_core.pdf" type="application/pdf" length="11784"/>
+   <atom:link rel="http://www.openarchives.org/ore/terms/aggregates" href="https://rdu.unc.edu.ar/bitstreams/f2131285-916c-422e-9d1d-9809726a49f6/download" title="CORD00006781.jpg" type="image/jpeg" length="8389886"/>
+   <atom:link rel="http://www.openarchives.org/ore/terms/aggregates" href="https://rdu.unc.edu.ar/bitstreams/15a07799-5680-4b02-b234-4cee396703d7/download" title="darwin_core.csv" type="text/csv" length="1112"/>
+   <oreatom:triples>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://hdl.handle.net/11086/24006/ore.xml#atom">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceItem"/>
+         <dcterms:modified>2022-04-21T13:55:19Z</dcterms:modified>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://rdu.unc.edu.ar/bitstreams/bcd89f1b-603a-4252-a800-1b3d9307c6c6/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>ORIGINAL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://rdu.unc.edu.ar/bitstreams/c4a29b47-4c03-4e21-b4d6-1ae817bd3ffb/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>ORIGINAL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://rdu.unc.edu.ar/bitstreams/f2131285-916c-422e-9d1d-9809726a49f6/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>ORIGINAL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://rdu.unc.edu.ar/bitstreams/15a07799-5680-4b02-b234-4cee396703d7/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>ORIGINAL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://rdu.unc.edu.ar/bitstreams/be29af8f-b094-4a4f-9980-a34089cf489f/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>THUMBNAIL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://rdu.unc.edu.ar/bitstreams/d5682b68-0ad7-4e58-847f-3b81c567d3a5/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>THUMBNAIL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://rdu.unc.edu.ar/bitstreams/53925604-c470-4692-95e5-e87d27a4791f/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>THUMBNAIL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://rdu.unc.edu.ar/bitstreams/9853259e-40e8-4e7e-8656-b8d9278660a1/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>TEXT</dcterms:description>
+      </rdf:Description>
+   </oreatom:triples>
+</atom:entry></metadata></record></GetRecord></OAI-PMH>

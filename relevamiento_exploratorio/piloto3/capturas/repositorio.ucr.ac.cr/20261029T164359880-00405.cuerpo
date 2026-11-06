@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:55:47Z</responseDate><request verb="GetRecord" identifier="oai:kerwa.ucr.ac.cr:10669/104675" metadataPrefix="mets">https://repositorio.ucr.ac.cr/server/oai/request</request><GetRecord><record><header><identifier>oai:kerwa.ucr.ac.cr:10669/104675</identifier><datestamp>2026-06-04T09:00:18Z</datestamp><setSpec>com_10669_1424</setSpec><setSpec>com_10669_1419</setSpec><setSpec>col_10669_255</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_10669-104675" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:10669/104675">
+   <metsHdr CREATEDATE="2026-10-29T16:55:47Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Kérwá - Repositorio Universidad de Costa Rica</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_10669_104675">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Vargas Leitón, Patricia</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2026-06-03T20:03:13Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2026</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">https://hdl.handle.net/10669/104675</mods:identifier>
+               <mods:abstract>Introducción: La finalidad del presente proyecto es abordar un usuario en el posoperatorio tardío, con diagnóstico de neoplasia de colon, para la implementación del Proceso de enfermería (PE). 
+
+Objetivo: el presente Trabajo Final de Investigación Aplicado (TFIA) se elabora con la finalidad de valorar las principales necesidades del usuario en el posoperatorio tardío, realizando los principales diagnósticos NANDA e implementar los NIC y NOC de acuerdo con las necesidades del usuario. 
+
+Método: se utilizó la modalidad reporte de caso, en el cual se valoran los resultados suministrados por el usuario mediante recolección de datos, aplicación de escala de Merle. Mishel y valoración de patrones funcionales de Marjorie Gordon. 
+
+Resultados: Se logró determinar el grado de incertidumbre del usuario y la identificación de las principales necesidades, las cuales fueron planificadas y desarrolladas mediante el PE. Se realiza una interacción con el usuario en conjunto a su red de apoyo de ese momento. 
+
+Discusión: como la incertidumbre que presentan los usuarios ante diagnósticos de malignidad patológica logra afectar no solo al individuo, sino también al entorno familiar que lo rodea. 
+
+Conclusiones: es indispensable la atención y seguimiento de los usuarios en el hogar, para lograr una adecuada valoración de enfermería y resolución de necesidades. Como seres sociales, el entorno que nos rodea puede afectar la percepción de situaciones que en otros escenarios serian de fácil resolución. Sin embargo, un organismo enfermo en muchas ocasiones no puede solventar estas situaciones de manera tan sencilla. Es ahí, donde las enfermeras quirúrgicas pueden contribuir de manera significativa a proporcionar un bienestar en los ámbitos desequilibrados.Introduction: The purpose of this project is to address the needs of a patient in the late postoperative period, diagnosed with colon cancer, for the implementation of the Nursing Process (NP). 
+
+Objective: This Applied Research Final Project (ARFP) is designed to assess the main needs of the patient in the late postoperative period, making the main NANDA diagnoses and implementing the NIC and NOC according to the patient's needs. 
+
+Method: The case report approach was used, in which the results provided by the patient were assessed through data collection, application of the Merle-Mishel scale, and assessment of Marjorie Gordon's functional health patterns. 
+
+Results: The patient's level of uncertainty was determined, and their main needs were identified. These needs were planned and addressed through the NP. Interaction was carried out with the patient and their support network at that time. 
+
+Discussion: The uncertainty experienced by patients with malignant diagnoses affects not only the individual but also their family environment. 
+
+Conclusions: Providing care and follow-up to patients at home is essential for accurate nursing assessment and addressing their needs. As social beings, our environment can influence our perception of situations that would be easily resolved in other settings. However, a sick individual often cannot resolve these situations so easily. This is where surgical nurses can make a significant contribution to promoting well-being in these challenging environments.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">acceso abierto</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Neoplasia de colon</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Educación sanitaria</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Rehabilitación médica</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Bienestar</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Servicio de enfermería</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Política de la salud</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Recopilación de datos</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Estudio de caso</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Medicina preventiva</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Tratamiento médico</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Proceso de enfermería a un usuario intervenido por resección de colon, en el posoperatorio tardio: reporte de caso</mods:title>
+               </mods:titleInfo>
+               <mods:genre>tesis de maestría</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_10669_104675">
+      <rightsMD ID="RIG_10669_104675">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TGljZW5jaWEgZGUgRGVww7NzaXRvIFJlcG9zaXRvcmlvIEvDqXJ3w6EgKFZlcnNpw7NuIDcsIDIwLzA3LzIwMjEpIAoKRGVjbGFybyBjb21vIGF1dG9yKGEpIGRlIGVzdGUgdHJhYmFqbyBhY2Fkw6ltaWNvIG8gdGl0dWxhciBkZSBzdXMgZGVyZWNob3MgZGUgYXV0b3IsIHF1ZSBlc3RveSBkZSBhY3VlcmRvIGNvbiBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgZGUgQ29zdGEgUmljYSwgZWwgZGVyZWNobyBubyBleGNsdXNpdm8gZGUgcmVwcm9kdWNpciwgdHJhZHVjaXIgbyBkaXN0cmlidWlyIGVuIGZvcm1hdG8gZWxlY3Ryw7NuaWNvIGVsIGRvY3VtZW50byBkZXBvc2l0YWRvIHBvciB1biBwZXLDrW9kbyBpbmRlZmluaWRvIGRlIHRpZW1wby4gCgpBY2VwdG8gcXVlIHNlIHJlYWxpY2UgbcOhcyBkZSB1bmEgY29waWEgZGlnaXRhbCBkZWwgdHJhYmFqbyBwYXJhIGdhcmFudGl6YXIgbGEgc2VndXJpZGFkIHkgbGEgcHJlc2VydmFjacOzbiBkZWwgbWlzbW8uIAoKQXV0b3Jpem8gcXVlIGN1YW5kbyBsYSBVbml2ZXJzaWRhZCBkZSBDb3N0YSBSaWNhIGxvIGVzdGltZSBuZWNlc2FyaW8gcG9kcsOhIG1vZGlmaWNhciBlbCBmb3JtYXRvIGRlbCBkb2N1bWVudG8gcGFyYSByZXByb2R1Y2lybG8gZW4gc2lzdGVtYXMgZGUgaW5mb3JtYWNpw7NuLCBzaW4gYWx0ZXJhciBvIG1vZGlmaWNhciBlbCBjb250ZW5pZG8gZGVsIG1pc21vLiAKCkVzdG95IGRlIGFjdWVyZG8gY29uIHF1ZSBsYXMgeSBsb3MgdXN1YXJpb3MgZGVzY2FyZ3VlbiBsaWJyZW1lbnRlIGVsIHRyYWJham8geSBsbyB1dGlsaWNlbiBjb24gZmluZXMgbm8gY29tZXJjaWFsZXMsIHJlc3BldGFuZG8gbGEgaW50ZWdyaWRhZCBkZSBzdSBjb250ZW5pZG8gYXPDrSBjb21vIGxhIG1lbmNpw7NuIGRlbCBhdXRvciBvIHBvc2VlZG9yIGRlIHN1cyBkZXJlY2hvcy4gCgpHYXJhbnRpem8gcXVlIGVsIGRvY3VtZW50byBkZXBvc2l0YWRvIGVzIHVuIHRyYWJham8gb3JpZ2luYWwgeSBubyBpbmZyaW5nZSBkZXJlY2hvcyBkZSBhdXRvciB1IG90cm9zIGRlcmVjaG9zIGRlIHRlcmNlcm9zIChjby1hdXRvcmVzLCBvcmdhbml6YWNpb25lcyBkZSBmaW5hbmNpYW1pZW50bywgc3VqZXRvcyBkZSBpbnZlc3RpZ2FjacOzbiwgbWF0ZXJpYWwgZGUgdGVyY2Vyb3Mgc3VqZXRvIGEgcHJvdGVjY2nDs24gZGUgZGVyZWNob3MgZGUgYXV0b3IsIGVudHJlIG90cm9zKSwgc2UgcHJlc3Vwb25lIHF1ZSBoYSBjdW1wbGlkbyBjb24gZGVyZWNob3MgZGUgcmV2aXNpw7NuIHUgb3RyYXMgb2JsaWdhY2lvbmVzIHBhcmEgY29uIGxhcyBwYXJ0ZXMgaW52b2x1Y3JhZGFzLCBwb3IgZWplbXBsbzogb2JzZXJ2YW5jaWEgZGUgY2zDoXVzdWxhcyBkZSBjb25maWRlbmNpYWxpZGFkIC1zaSBhcGxpY2FuLS4gCgpFbiBjYXNvIGRlIG5vIHNlciBlbCBhdXRvciBkZWNsYXJvIHF1ZSBwb3NlbyBvIGhlIG9idGVuaWRvIGVsIHBlcm1pc28gc2luIHJlc3RyaWNjaW9uZXMgZGVsIHByb3BpZXRhcmlvIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBwYXJhIG90b3JnYXIgYSBsYSBVbml2ZXJzaWRhZCBkZSBDb3N0YSBSaWNhIGxvcyBwZXJtaXNvcyByZXF1ZXJpZG9zIHBhcmEgZXN0YSBsaWNlbmNpYSwgcXVlIGRpY2hvIHByb3BpZXRhcmlvIGNvbm9jZSBlbCB0ZXh0byB5IGVsIGNvbnRlbmlkbyBkZSBlc3RhIGxpY2VuY2lhLgoKQWwgb2J0ZW5lciBlbCBjb25zZW50aW1pZW50byBoZSByZXNwZXRhZG8gbGEgdm9sdW50YWQgZGVsIGF1dG9yIGFsIGRlc2NhcnRhciBxdWUgc2UgdHJhdGEgZGUgb2JyYXMgY2FwYWNlcyBkZSBnZW5lcmFyIGNvbm9jaW1pZW50byBhcHJvcGlhYmxlIG8gc3VzY2VwdGlibGUgZGUgcHJvdGVjY2nDs24gcG9yIGxvcyBtZWNhbmlzbW9zIGRlIGxhIHByb3BpZWRhZCBpbmR1c3RyaWFsLCBkZXNhcnJvbGxhZGFzIGVuIGVsIG1hcmNvIGRlIGludmVzdGlnYWNpb25lcyBlbiBjdXJzbywgcG9yIGVzdGFyIHN1amV0YXMgYSBwZXLDrW9kb3MgZGUgZW1iYXJnbywgcG9yIGVsIHRpcG8gZGUgaW52ZXN0aWdhY2lvbmVzIHkgbGEgbmF0dXJhbGV6YSBkZSBsYSBpbmZvcm1hY2nDs24gKGVzdG9zIGluY2x1eWVuIGluZm9ybWFjacOzbiBzZW5zaWJsZSAocGVyc29uYXMpIG8gcHJpdmlsZWdpYWRhIChvcmdhbml6YWNpb25lcyksIGV4aXN0ZW5jaWEgZGUgY29udmVuaW9zIG8gY29udHJhdG9zIHF1ZSBkYW4gb3JpZ2VuIGEgbGEgcmVsYWNpw7NuIGNvbiBsYSBVbml2ZXJzaWRhZCBwYXJhIGRlY2lkaXIgc3UgbWFuZWpvIG8gcG9ycXVlIHNlIGhhIG9idGVuaWRvIGxhIGF1dG9yaXphY2nDs24gZGUgbG9zIGVzdHVkaWFudGVzIGN1YW5kbyBlc3RvcyBzb24gbG9zIGF1dG9yZXMuIAoKRGVjbGFybyBiYWpvIGZlIGRlIGp1cmFtZW50byBxdWUgbGFzIHB1YmxpY2FjaW9uZXMgZGVwb3NpdGFkYXMgZGVyaXZhZGFzIGRlIGludmVzdGlnYWNpw7NuIGNvbiBzZXJlcyBodW1hbm9zOyBpbnZlc3RpZ2FjacOzbiB5IHVzbyBkZSBsb3MgcmVjdXJzb3MgZGUgbGEgYmlvZGl2ZXJzaWRhZCwgYWNjZXNvIGEgcmVjdXJzb3MgZ2Vuw6l0aWNvcyBvIGN1YW5kbyBlc3RhcyBvcGVyYWNpb25lcyBzZSByZWFsaWNlbiBlbiB0ZXJyaXRvcmlvcyBpbmTDrWdlbmFzIHkgc2UgZW5jdWVudHJlbiByZWxhY2lvbmFkYXMgY29uIGVsIGNvbm9jaW1pZW50byB0cmFkaWNpb25hbCBhc29jaWFkbzsgIGFzw60gY29tbyBlbCB1c28sIGN1aWRvLCB0ZW5lbmNpYSwgcHJvZHVjY2nDs24geSBleHBlcmltZW50YWNpw7NuIGNvbiBhbmltYWxlcywgIHJlcXVlcmlyw6FuIGRlIGxhIHJldmlzacOzbiwgYXV0b3JpemFjacOzbiB5IGFwcm9iYWNpw7NuLCBzZWfDum4gY29ycmVzcG9uZGUgZGUgdW4gQ29taXTDqSDDiXRpY28gQ2llbnTDrWZpY28sIGRlIGxhIENvbWlzacOzbiBkZSBCaW9kaXZlcnNpZGFkIGRlIGxhIFVDUiAoQ0lCKSBvIGVsIENPTkFHRUJJTyBvIGVsIENvbWl0w6kgSW5zdGl0dWNpb25hbCBwYXJhIGVsIEN1aWRhZG8geSBVc28gZGUgbG9zIEFuaW1hbGVzIChDSUNVQSksIHJlc3BlY3RpdmFtZW50ZS4KCkNvbm96Y28geSBhcHJ1ZWJvIHF1ZTogCgpFbCBSZXBvc2l0b3JpbyBLw6lyd8OhIGRlIGxhIFVuaXZlcnNpZGFkIGRlIENvc3RhIFJpY2Egc2UgcmVzZXJ2YSBlbCBkZXJlY2hvIGRlIHJldGlyYXIgZWwgYWNjZXNvIGFsIHRyYWJham8gZGVwb3NpdGFkbyBjdWFuZG8gc2UgZGV0ZWN0ZSBxdWUgbG9zIGRlcmVjaG9zIGRlIHByb3BpZWRhZCBpbnRlbGVjdHVhbCBoYW4gc2lkbyBpbmZyaW5naWRvcyBvIGFwZWxhbmRvIGEgb3Ryb3MgY29tcHJvbWlzb3MgbGVnYWxlcywgcHJvZmVzaW9uYWxlcyB5L28gYWRtaW5pc3RyYXRpdm9zLgoKTGEgVW5pdmVyc2lkYWQgZGUgQ29zdGEgUmljYSBubyBoYXLDoSBuaW5ndW5hIGFsdGVyYWNpw7NuIGRpZmVyZW50ZSBhIGxhcyBwZXJtaXRpZGFzIGVuIGVzdGEgbGljZW5jaWEgYSBsYSBvYnJhIGRlcG9zaXRhZGEuCgpMYSBVbml2ZXJzaWRhZCBkZSBDb3N0YSBSaWNhIG5vIHNlIGhhY2UgcmVzcG9uc2FibGUgcG9yIGxhIHDDqXJkaWRhIG8gZGHDsW9zIHN1ZnJpZG9zIGVuIHJlbGFjacOzbiBjb24gZWwgdHJhYmFqbyBkZXBvc2l0YWRvIG8gZGF0b3MgcmVsYWNpb25hZG9zLgo=</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_10669_104675_1">
+      <techMD ID="TECH_O_10669_104675_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://kerwa.ucr.ac.cr/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>67f1b7c4610651a1ef05f6d200bf44f0</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>1204370</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_10669_104675_3">
+      <techMD ID="TECH_T_10669_104675_3">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://kerwa.ucr.ac.cr/bitstreams/8f6a53da-1d88-4ac7-88d6-5e3a46d9c131/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>ec22ff81c1373bf4ac8b2f805d96e090</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>105621</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_10669_104675_1" MIMETYPE="application/pdf" SEQ="1" SIZE="1204370" CHECKSUM="67f1b7c4610651a1ef05f6d200bf44f0" CHECKSUMTYPE="MD5" ADMID="FO_10669_104675_1" GROUPID="GROUP_BITSTREAM_10669_104675_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://kerwa.ucr.ac.cr/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309/download" />
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_10669_104675_3" MIMETYPE="text/plain" SEQ="3" SIZE="105621" CHECKSUM="ec22ff81c1373bf4ac8b2f805d96e090" CHECKSUMTYPE="MD5" ADMID="FT_10669_104675_3" GROUPID="GROUP_BITSTREAM_10669_104675_3">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://kerwa.ucr.ac.cr/bitstreams/8f6a53da-1d88-4ac7-88d6-5e3a46d9c131/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_10669_104675">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_10669_104675_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

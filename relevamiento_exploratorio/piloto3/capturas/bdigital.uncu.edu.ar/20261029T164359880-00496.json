@@ -1,0 +1,69 @@
+{
+ "pedido": "20261029T164359880-00496",
+ "url": "https://bdigital.uncu.edu.ar/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:58:57 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "last-modified",
+   "Tue, 09 May 2023 20:36:14 GMT"
+  ],
+  [
+   "etag",
+   "W/\"89-5fb48b4e88fec\""
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "origin-agent-cluster",
+   "?1"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-permitted-cross-domain-policies",
+   "none"
+  ],
+  [
+   "referrer-policy",
+   "strict-origin-when-cross-origin"
+  ],
+  [
+   "x-frame-options",
+   "SAMEORIGIN"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

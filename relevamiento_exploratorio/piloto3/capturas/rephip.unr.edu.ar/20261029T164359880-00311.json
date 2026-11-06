@@ -1,0 +1,93 @@
+{
+ "pedido": "20261029T164359880-00311",
+ "url": "https://rephip.unr.edu.ar/server/api/core/bitstreams/5a187c24-1f08-4a08-a8dc-1a2636d9274b/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.28.3 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:52:48 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Tue, 11 Nov 2025 17:30:28 GMT"
+  ],
+  [
+   "etag",
+   "\"2b2469a6afa8f0ef0c8ab24c804bcab9\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:52:49 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"tiffffff.pdf\"; filename*=UTF-8''tiffffff.pdf"
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/407926"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

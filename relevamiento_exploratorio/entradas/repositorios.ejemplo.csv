@@ -1,0 +1,4 @@
+id,nombre,url_base,oai_endpoint
+ej-dspace,Repositorio DSpace de ejemplo,https://repositorio.example.org/,
+ej-ojs,Revista OJS de ejemplo,https://revistas.example.org/index.php/revista,https://revistas.example.org/index.php/revista/oai
+ej-eprints,Archivo EPrints de ejemplo,https://eprints.example.org/,

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T12:11:48Z</responseDate><request verb="GetRecord" identifier="oai:rdu.unc.edu.ar:11086/23398" metadataPrefix="xoai">https://rdu.unc.edu.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:rdu.unc.edu.ar:11086/23398</identifier><datestamp>2022-03-24T09:23:26Z</datestamp><setSpec>com_11086_489</setSpec><setSpec>com_11086_166</setSpec><setSpec>col_11086_493</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="advisor">
+            <element name="none">
+               <field name="value">Herz, Marcelo</field>
+            </element>
+         </element>
+         <element name="author">
+            <element name="none">
+               <field name="value">Falavigna, Claudio</field>
+               <field name="authority">ee0b43ab-7787-4ba8-954d-6938f89858c7</field>
+               <field name="confidence">600</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2022-03-22T23:40:08Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2022-03-22T23:40:08Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2009</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://hdl.handle.net/11086/23398</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="es">
+            <field name="value">Tesis (MCI-Mención Transporte)--FCEFN-UNC, 2009</field>
+         </element>
+         <element name="abstract">
+            <element name="es">
+               <field name="value">Desarrolla una metodología para cuantificar accesibilidad y conveniencia en líneas de ómnibus teniendo en cuenta las expectativas de calidad del usuario local y aplicarla al caso de sistema de transporte por ómnibus de la ciudad de Córdoba.</field>
+            </element>
+            <element name="none">
+               <field name="value">Uno de los principales problemas urbanos que presentan las grandes ciudades es el constante incremento&#xd;
+de las tasas de motorización y la disminución del porcentaje de viajes realizados en medios masivos. Esta&#xd;
+situación es particularmente notoria en los países en desarrollo donde existe una mayor proporción de&#xd;
+usuarios cautivos. El presente trabajo desarrolla una metodología que permite cuantificar accesibilidad y&#xd;
+conveniencia en líneas de ómnibus considerando las expectativas de calidad de los posibles segmentos de&#xd;
+usuarios y las características de uso de suelo de lo s sectores atendidos. El objeto es obtener indicadores&#xd;
+relativos que permitan comparar y seleccionar servicios de ómnibus, cuantificando la calidad de servicio&#xd;
+y la sustentabilidad de cada línea, en la etapa de planificación previa a la implementación de los mismos.&#xd;
+Los datos para el desarrollo de la metodología fuer on obtenidos a partir de encuestas a usuarios de&#xd;
+servicios ómnibus de la Ciudad de Córdoba.</field>
+            </element>
+            <element name="en">
+               <field name="value">One of the main urban problems that have large c ities is the steady increase in motorization rates and&#xd;
+decreased the percentage of trips in mass transit. Th is is particularly noticeable in developing countries&#xd;
+where higher proportions of captive users are. This research develops a methodology to quantify&#xd;
+accessibility and convenience of bus lines taking into consideration the quality expectations of the&#xd;
+potential segments and land use characteristics of the sectors covered. The object is to get indicators for&#xd;
+comparing and selecting bus services, quantifying service quality and sustainability of each line in the&#xd;
+planning stage prior to implementing them.&#xd;
+The data for developing the methodology were obtained fro m user surveys of bus services in the City of&#xd;
+Cordoba.</field>
+            </element>
+         </element>
+         <element name="fil">
+            <element name="es">
+               <field name="value">Fil: Falavigna, Claudio. Universidad Nacional de Córdoba. Facultad de Ciencias Exactas, Físicas y Naturales; Argentina.</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="es">
+               <field name="value">spa</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">Universidad Nacional de Córdoba. Facultad de Ciencias Exactas, Físicas y Naturales</field>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="*">
+            <field name="value">Atribución-NoComercial-CompartirIgual 4.0 Internacional</field>
+         </element>
+         <element name="uri">
+            <element name="*">
+               <field name="value">http://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="es">
+            <field name="value">Maestría Ciencias de la Ingeniería Mención Transporte</field>
+            <field name="value">Transporte</field>
+            <field name="value">Transporte por carretera</field>
+            <field name="value">Transporte colectivo</field>
+            <field name="value">Ingeniería del transporte</field>
+            <field name="value">Planificación del transporte</field>
+            <field name="value">Política de transporte</field>
+            <field name="value">Transporte urbano</field>
+            <field name="value">Investigación sobre el transporte</field>
+            <field name="value">Control de calidad</field>
+            <field name="value">Gestión de calidad</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="es">
+            <field name="value">Metodología para cuantificar accesibilidad y conveniencia de un sistema de transporte público masivo de pasajeros : aplicación al caso de la ciudad de Córdoba</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="es">
+            <field name="value">masterThesis</field>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">UNC Transporte Publico Falavigna.pdf</field>
+               <field name="originalName">UNC Transporte Publico Falavigna.pdf</field>
+               <field name="description"/>
+               <field name="format">application/pdf</field>
+               <field name="size">4638220</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/0f0a403c-b064-4b8a-8b48-d40e29c3cea6/download</field>
+               <field name="checksum">4a0c25ae521efcc3ac50e092b627ddd4</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">CC-LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license_rdf</field>
+               <field name="originalName">license_rdf</field>
+               <field name="format">application/rdf+xml; charset=utf-8</field>
+               <field name="size">1527</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/46d5a29a-feaa-4915-b476-95d02ff814f7/download</field>
+               <field name="checksum">79a5b6cf1eb48c19b70211975714b4c5</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">license.txt</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">2067</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/67a55c1a-dc23-4c60-9143-aede7d47d538/download</field>
+               <field name="checksum">eb07d85a87b80708c1cede9b4dac4ba6</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">UNC Transporte Publico Falavigna.pdf.txt</field>
+               <field name="originalName">UNC Transporte Publico Falavigna.pdf.txt</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">348182</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/b1e8cbde-420a-4fb1-a461-fcd2a8c4e07d/download</field>
+               <field name="checksum">68724f8d3f2e81ce3740ea1e22f38b9b</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">UNC Transporte Publico Falavigna.pdf.jpg</field>
+               <field name="originalName">UNC Transporte Publico Falavigna.pdf.jpg</field>
+               <field name="description">IM Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">8733</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/8e365aa2-7684-4206-bc04-760b26253215/download</field>
+               <field name="checksum">0a08a7c29134c424e9c6a24f211e1363</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">11086/23398</field>
+      <field name="identifier">oai:rdu.unc.edu.ar:11086/23398</field>
+      <field name="lastModifyDate">2022-03-24 09:23:26.094</field>
+      <element name="cc">
+         <field name="uri">http://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+         <field name="name">Atribución-NoComercial-CompartirIgual 4.0 Internacional</field>
+      </element>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://rdu.unc.edu.ar</field>
+      <field name="name">DSpace 7</field>
+      <field name="mail">afebre@unc.edu.ar</field>
+   </element>
+   <element name="license">
+      <field name="bin">TGljZW5jaWEgZGUgRGlzdHJpYnVjacOzbiBObyBFeGNsdXNpdmEKClBhcmEgcXVlIGVsIFJlcG9zaXRvcmlvIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIHB1ZWRhIHJlcHJvZHVjaXIgeQpjb211bmljYXIgcMO6YmxpY2FtZW50ZSBzdSBkb2N1bWVudG8gZXMgbmVjZXNhcmlvIGxhIGFjZXB0YWNpw7NuIGRlIGxvcyBzaWd1aWVudGVzCnTDqXJtaW5vcy4gUG9yIGZhdm9yLCBsZWEgbGFzIHNpZ3VpZW50ZXMgY29uZGljaW9uZXMgZGUgbGljZW5jaWE6CgoxLiBBY2VwdGFuZG8gZXN0YSBsaWNlbmNpYSwgdXN0ZWQgKGVsIGF1dG9yL2VzIG8gZWwgcHJvcGlldGFyaW8vcyBkZSBsb3MgZGVyZWNob3MgZGUgYXV0b3IpCmdhcmFudGl6YSBhIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIGVsIGRlcmVjaG8gbm8gZXhjbHVzaXZvIGRlCmFyY2hpdmFyLCByZXByb2R1Y2lyLCBjb252ZXJ0aXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pLCBjb211bmljYXIgeS9vIGRpc3RyaWJ1aXIgc3UKZG9jdW1lbnRvIG11bmRpYWxtZW50ZSBlbiBmb3JtYXRvIGVsZWN0csOzbmljby4KCjIuIFRhbWJpw6luIGVzdMOhIGRlIGFjdWVyZG8gY29uIHF1ZSBsYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBwdWVkYQpjb25zZXJ2YXIgbcOhcyBkZSB1bmEgY29waWEgZGUgZXN0ZSBkb2N1bWVudG8geSwgc2luIGFsdGVyYXIgc3UgY29udGVuaWRvLCBjb252ZXJ0aXJsbwphIGN1YWxxdWllciBmb3JtYXRvIGRlIGZpY2hlcm8sIG1lZGlvIG8gc29wb3J0ZSwgcGFyYSBwcm9ww7NzaXRvcyBkZSBzZWd1cmlkYWQsCnByZXNlcnZhY2nDs24geSBhY2Nlc28uCgozLiBEZWNsYXJhIHF1ZSBlbCBkb2N1bWVudG8gZXMgdW4gdHJhYmFqbyBvcmlnaW5hbCBzdXlvIHkvbyBxdWUgdGllbmUgZWwgZGVyZWNobyBwYXJhCm90b3JnYXIgbG9zIGRlcmVjaG9zIGNvbnRlbmlkb3MgZW4gZXN0YSBsaWNlbmNpYS4gVGFtYmnDqW4gZGVjbGFyYSBxdWUgc3UgZG9jdW1lbnRvCm5vIGluZnJpbmdlLCBlbiB0YW50byBlbiBjdWFudG8gbGUgc2VhIHBvc2libGUgc2FiZXIsIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBuaW5ndW5hCm90cmEgcGVyc29uYSBvIGVudGlkYWQuCgo0LiBTaSBlbCBkb2N1bWVudG8gY29udGllbmUgbWF0ZXJpYWxlcyBkZSBsb3MgY3VhbGVzIG5vIHRpZW5lIGxvcyBkZXJlY2hvcyBkZSBhdXRvciwKZGVjbGFyYSBxdWUgaGEgb2J0ZW5pZG8gZWwgcGVybWlzbyBzaW4gcmVzdHJpY2Npw7NuIGRlbCBwcm9waWV0YXJpbyBkZSBsb3MgZGVyZWNob3MgZGUKYXV0b3IgcGFyYSBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MKcG9yIGVzdGEgbGljZW5jaWEsIHkgcXVlIGVzZSBtYXRlcmlhbCBjdXlvcyBkZXJlY2hvcyBzb24gZGUgdGVyY2Vyb3MgZXN0w6EgY2xhcmFtZW50ZQppZGVudGlmaWNhZG8geSByZWNvbm9jaWRvIGVuIGVsIHRleHRvIG8gY29udGVuaWRvIGRlbCBkb2N1bWVudG8gZW50cmVnYWRvLgoKNS4gU2kgZWwgZG9jdW1lbnRvIHNlIGJhc2EgZW4gdW5hIG9icmEgcXVlIGhhIHNpZG8gcGF0cm9jaW5hZGEgbyBhcG95YWRhIHBvciB1bmEKYWdlbmNpYSB1IG9yZ2FuaXphY2nDs24gZGlmZXJlbnRlIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhLCBzZQpwcmVzdXBvbmUgcXVlIHNlIGhhIGN1bXBsaWRvIGNvbiBjdWFscXVpZXIgZGVyZWNobyBkZSByZXZpc2nDs24gdSBvdHJhcyBvYmxpZ2FjaW9uZXMKcmVxdWVyaWRhcyBwb3IgZXN0ZSBjb250cmF0byBvIGFjdWVyZG8uCgo2LiBMYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBpZGVudGlmaWNhcsOhIGNsYXJhbWVudGUgc3UvcyBub21icmUvcyBjb21vCmVsL2xvcyBhdXRvci9lcyBvIHByb3BpZXRhcmlvL3MgZGUgbG9zIGRlcmVjaG9zIGRlbCBkb2N1bWVudG8sIHkgbm8gaGFyw6EgbmluZ3VuYQphbHRlcmFjacOzbiBkZSBzdSBkb2N1bWVudG8gZGlmZXJlbnRlIGEgbGFzIHBlcm1pdGlkYXMgZW4gZXN0YSBsaWNlbmNpYS4K</field>
+   </element>
+</metadata></metadata></record></GetRecord></OAI-PMH>

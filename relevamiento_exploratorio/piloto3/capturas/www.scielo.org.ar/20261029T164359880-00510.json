@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T164359880-00510",
+ "url": "https://www.scielo.org.ar/oai/scielo-oai.php?verb=ListRecords&metadataPrefix=oai_dc&from=2025-10-29",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:58:26 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.2.3 (CentOS)"
+  ],
+  [
+   "content-security-policy",
+   "upgrade-insecure-requests;"
+  ],
+  [
+   "x-powered-by",
+   "PHP/5.2.17"
+  ],
+  [
+   "content-type",
+   "text/xml"
+  ],
+  [
+   "via",
+   "1.1 www.scielo.org.ar"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "keep-alive",
+   "timeout=1, max=50"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

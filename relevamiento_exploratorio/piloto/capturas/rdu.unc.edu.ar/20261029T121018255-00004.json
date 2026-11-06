@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T121018255-00004",
+ "url": "https://rdu.unc.edu.ar",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:10:23 GMT"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793275866"
+  ],
+  [
+   "etag",
+   "W/\"67e7c-ku0rhhnUdKveIAe+PLevzsXf19Y\""
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

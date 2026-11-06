@@ -1,0 +1,85 @@
+{
+ "pedido": "20261029T164359880-00423",
+ "url": "https://perio.unlp.edu.ar/ojs/index.php/question/article/download/5535/6595",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:56:30 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.63 (AlmaLinux) OpenSSL/3.5.8"
+  ],
+  [
+   "x-powered-by",
+   "PHP/8.3.36"
+  ],
+  [
+   "accept-ranges",
+   "none"
+  ],
+  [
+   "content-disposition",
+   "attachment;filename=Punin+5535.pdf;filename*=UTF-8''Punin+5535.pdf"
+  ],
+  [
+   "cache-control",
+   "private"
+  ],
+  [
+   "pragma",
+   "public"
+  ],
+  [
+   "x-frame-options",
+   "SAMEORIGIN"
+  ],
+  [
+   "referrer-policy",
+   "strict-origin-when-cross-origin"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000"
+  ],
+  [
+   "cache-control",
+   "max-age=31536000"
+  ],
+  [
+   "expires",
+   "Fri, 29 Oct 2027 16:56:30 GMT"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "archivo"
+}

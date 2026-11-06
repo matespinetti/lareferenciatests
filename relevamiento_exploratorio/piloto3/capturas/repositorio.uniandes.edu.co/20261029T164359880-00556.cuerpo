@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T17:00:56Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.uniandes.edu.co:1992/77603" metadataPrefix="mets">https://repositorio.uniandes.edu.co/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.uniandes.edu.co:1992/77603</identifier><datestamp>2026-01-15T09:00:17Z</datestamp><setSpec>com_1992_51875</setSpec><setSpec>com_1992_51815</setSpec><setSpec>com_1992_51807</setSpec><setSpec>col_1992_52264</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_1992-77603" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:1992/77603">
+   <metsHdr CREATEDATE="2026-10-29T17:00:56Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositorio institucional Séneca</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_1992_77603">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Gallo Herrán, Luz Alba</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>García Restrepo, Melissa</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2026-01-14T13:11:16Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2026-01-14T13:11:16Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2025-12-29</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">https://hdl.handle.net/1992/77603</mods:identifier>
+               <mods:identifier type="instname">instname:Universidad de los Andes</mods:identifier>
+               <mods:identifier type="reponame">reponame:Repositorio Institucional Séneca</mods:identifier>
+               <mods:identifier type="repourl">repourl:https://repositorio.uniandes.edu.co/</mods:identifier>
+               <mods:abstract>Amadrilo es una marca de moda maternal de lujo emocional que fusiona el bienestar de la mujer gestante con la conservación de la biodiversidad colombiana. Inspirado en las raíces llaneras de su autora, el proyecto propone una colección cápsula de prendas ergonómicas y minimalistas basadas en la biomímesis de especies en peligro de extinción de la Orinoquía, como el oso palmero, el armadillo y la tortuga charapa. A través de una identidad visual orgánica y programas de apadrinamiento de fauna, la marca busca transformar el acto de vestir en un gesto de protección simbólica, posicionando a la madre gestante como una "especie protectora" que reconoce su interdependencia con el ecosistema</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Attribution-NonCommercial-NoDerivatives 4.0 International</mods:accessCondition>
+               <mods:titleInfo>
+                  <mods:title>Amadrilo: creación de marca y lookbook para moda materna inspirada en fauna en peligro de extinción de la Orinoquía Colombiana</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Trabajo de grado - Pregrado</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_1992_77603">
+      <rightsMD ID="RIG_1992_77603">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>PGgzPjxzdHJvbmc+RGVzY2FyZ28gZGUgUmVzcG9uc2FiaWxpZGFkIC0gTGljZW5jaWEgZGUgQXV0b3JpemFjacOzbjwvc3Ryb25nPjwvaDM+CjxwPjxzdHJvbmc+UG9yIGZhdm9yIGxlZXIgYXRlbnRhbWVudGUgZXN0ZSBkb2N1bWVudG8gcXVlIHBlcm1pdGUgYWwgUmVwb3NpdG9yaW8gSW5zdGl0dWNpb25hbCBTw6luZWNhIHJlcHJvZHVjaXIgeSBkaXN0cmlidWlyIGxvcyByZWN1cnNvcyBkZSBpbmZvcm1hY2nDs24gZGVwb3NpdGFkb3MgbWVkaWFudGUgbGEgYXV0b3JpemFjacOzbiBkZSBsb3Mgc2lndWllbnRlcyB0w6lybWlub3M6PC9zdHJvbmc+PC9wPgo8cD5Db25jZWRhIGxhIGxpY2VuY2lhIGRlIGRlcMOzc2l0byBlc3TDoW5kYXIgc2VsZWNjaW9uYW5kbyBsYSBvcGNpw7NuIDxzdHJvbmc+J0FjZXB0YXIgbG9zIHTDqXJtaW5vcyBhbnRlcmlvcm1lbnRlIGRlc2NyaXRvcyc8L3N0cm9uZz4geSBjb250aW51YXIgZWwgcHJvY2VzbyBkZSBlbnbDrW8gbWVkaWFudGUgZWwgYm90w7NuIDxzdHJvbmc+J1NpZ3VpZW50ZScuPC9zdHJvbmc+PC9wPgo8aHI+CjxwPllvLCBlbiBtaSBjYWxpZGFkIGRlIGF1dG9yIGRlbCB0cmFiYWpvIGRlIHRlc2lzLCBtb25vZ3JhZsOtYSBvIHRyYWJham8gZGUgZ3JhZG8sIGhhZ28gZW50cmVnYSBkZWwgZWplbXBsYXIgcmVzcGVjdGl2byB5IGRlIHN1cyBhbmV4b3MgZGUgc2VyIGVsIGNhc28sIGVuIGZvcm1hdG8gZGlnaXRhbCB5L28gZWxlY3Ryw7NuaWNvIHkgYXV0b3Jpem8gYSBsYSBVbml2ZXJzaWRhZCBkZSBsb3MgQW5kZXMgcGFyYSBxdWUgcmVhbGljZSBsYSBwdWJsaWNhY2nDs24gZW4gZWwgU2lzdGVtYSBkZSBCaWJsaW90ZWNhcyBvIGVuIGN1YWxxdWllciBvdHJvIHNpc3RlbWEgbyBiYXNlIGRlIGRhdG9zIHByb3BpbyBvIGFqZW5vIGEgbGEgVW5pdmVyc2lkYWQgeSBwYXJhIHF1ZSBlbiBsb3MgdMOpcm1pbm9zIGVzdGFibGVjaWRvcyBlbiBsYSBMZXkgMjMgZGUgMTk4MiwgTGV5IDQ0IGRlIDE5OTMsIERlY2lzacOzbiBBbmRpbmEgMzUxIGRlIDE5OTMsIERlY3JldG8gNDYwIGRlIDE5OTUgeSBkZW3DoXMgbm9ybWFzIGdlbmVyYWxlcyBzb2JyZSBsYSBtYXRlcmlhLCB1dGlsaWNlIGVuIHRvZGFzIHN1cyBmb3JtYXMsIGxvcyBkZXJlY2hvcyBwYXRyaW1vbmlhbGVzIGRlIHJlcHJvZHVjY2nDs24sIGNvbXVuaWNhY2nDs24gcMO6YmxpY2EsIHRyYW5zZm9ybWFjacOzbiB5IGRpc3RyaWJ1Y2nDs24gKGFscXVpbGVyLCBwcsOpc3RhbW8gcMO6YmxpY28gZSBpbXBvcnRhY2nDs24pIHF1ZSBtZSBjb3JyZXNwb25kZW4gY29tbyBjcmVhZG9yIGRlIGxhIG9icmEgb2JqZXRvIGRlbCBwcmVzZW50ZSBkb2N1bWVudG8uPC9wPgo8cD5MYSBwcmVzZW50ZSBhdXRvcml6YWNpw7NuIHNlIGVtaXRlIGVuIGNhbGlkYWQgZGUgYXV0b3IgZGUgbGEgb2JyYSBvYmpldG8gZGVsIHByZXNlbnRlIGRvY3VtZW50byB5IG5vIGNvcnJlc3BvbmRlIGEgY2VzacOzbiBkZSBkZXJlY2hvcywgc2lubyBhIGxhIGF1dG9yaXphY2nDs24gZGUgdXNvIGFjYWTDqW1pY28gZGUgY29uZm9ybWlkYWQgY29uIGxvIGFudGVyaW9ybWVudGUgc2XDsWFsYWRvLiBMYSBwcmVzZW50ZSBhdXRvcml6YWNpw7NuIHNlIGhhY2UgZXh0ZW5zaXZhIG5vIHNvbG8gYSBsYXMgZmFjdWx0YWRlcyB5IGRlcmVjaG9zIGRlIHVzbyBzb2JyZSBsYSBvYnJhIGVuIGZvcm1hdG8gbyBzb3BvcnRlIG1hdGVyaWFsLCBzaW5vIHRhbWJpw6luIHBhcmEgZm9ybWF0byBlbGVjdHLDs25pY28sIHkgZW4gZ2VuZXJhbCBwYXJhIGN1YWxxdWllciBmb3JtYXRvIGNvbm9jaWRvIG8gcG9yIGNvbm9jZXIuPC9wPgo8cD5FbCBhdXRvciwgbWFuaWZpZXN0YSBxdWUgbGEgb2JyYSBvYmpldG8gZGUgbGEgcHJlc2VudGUgYXV0b3JpemFjacOzbiBlcyBvcmlnaW5hbCB5IGxhIHJlYWxpesOzIHNpbiB2aW9sYXIgbyB1c3VycGFyIGRlcmVjaG9zIGRlIGF1dG9yIGRlIHRlcmNlcm9zLCBwb3IgbG8gdGFudG8sIGxhIG9icmEgZXMgZGUgc3UgZXhjbHVzaXZhIGF1dG9yw61hIHkgdGllbmUgbGEgdGl0dWxhcmlkYWQgc29icmUgbGEgbWlzbWEuPC9wPgo8cD5FbiBjYXNvIGRlIHByZXNlbnRhcnNlIGN1YWxxdWllciByZWNsYW1hY2nDs24gbyBhY2Npw7NuIHBvciBwYXJ0ZSBkZSB1biB0ZXJjZXJvIGVuIGN1YW50byBhIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBzb2JyZSBsYSBvYnJhIGVuIGN1ZXN0acOzbiwgZWwgYXV0b3IgYXN1bWlyw6EgdG9kYSBsYSByZXNwb25zYWJpbGlkYWQsIHkgc2FsZHLDoSBkZSBkZWZlbnNhIGRlIGxvcyBkZXJlY2hvcyBhcXXDrSBhdXRvcml6YWRvcywgcGFyYSB0b2RvcyBsb3MgZWZlY3RvcyBsYSBVbml2ZXJzaWRhZCBhY3TDumEgY29tbyB1biB0ZXJjZXJvIGRlIGJ1ZW5hIGZlLjwvcD4KPHA+U2kgdGllbmUgYWxndW5hIGR1ZGEgc29icmUgbGEgbGljZW5jaWEsIHBvciBmYXZvciwgY29udGFjdGUgY29uIGVsIDxhIGhyZWY9Im1haWx0bzpiaWJsaW90ZWNhQHVuaWFuZGVzLmVkdS5jbyIgdGFyZ2V0PSJfYmxhbmsiPkFkbWluaXN0cmFkb3IgZGVsIFNpc3RlbWEuPC9hPjwvcD4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_1992_77603_3">
+      <techMD ID="TECH_O_1992_77603_3">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://dspace-new-uniandes.metabuscador.org/bitstreams/82ebd3f0-78ab-48e2-938a-e25c7606738d/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>277efbbe9f220441059212f9478f8111</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>2217245</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Amadrilo: Creación de Marca y Lookbook.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FO_1992_77603_5">
+      <techMD ID="TECH_O_1992_77603_5">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://dspace-new-uniandes.metabuscador.org/bitstreams/97c4312d-2888-4955-a893-b8b2cf84ab36/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>9c7816ae25d03edac652245e77abd58d</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>215965</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Formato Autorización.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_1992_77603_6">
+      <techMD ID="TECH_T_1992_77603_6">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://dspace-new-uniandes.metabuscador.org/bitstreams/5dbdd6c6-e57c-445f-8f0d-5690a2dac94a/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>852672bb62cc8552ae8b5c22905ab085</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>101716</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Amadrilo: Creación de Marca y Lookbook.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_1992_77603_8">
+      <techMD ID="TECH_T_1992_77603_8">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://dspace-new-uniandes.metabuscador.org/bitstreams/92e6f80f-47c7-483c-a7a0-8bfaccdd8e20/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>e1c06d85ae7b8b032bef47e42e4c08f9</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>2</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Formato Autorización.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_1992_77603_3" MIMETYPE="application/pdf" SEQ="3" SIZE="2217245" CHECKSUM="277efbbe9f220441059212f9478f8111" CHECKSUMTYPE="MD5" ADMID="FO_1992_77603_3" GROUPID="GROUP_BITSTREAM_1992_77603_3">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://dspace-new-uniandes.metabuscador.org/bitstreams/82ebd3f0-78ab-48e2-938a-e25c7606738d/download"/>
+         </file>
+         <file ID="BITSTREAM_ORIGINAL_1992_77603_5" MIMETYPE="application/pdf" SEQ="5" SIZE="215965" CHECKSUM="9c7816ae25d03edac652245e77abd58d" CHECKSUMTYPE="MD5" ADMID="FO_1992_77603_5" GROUPID="GROUP_BITSTREAM_1992_77603_5">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://dspace-new-uniandes.metabuscador.org/bitstreams/97c4312d-2888-4955-a893-b8b2cf84ab36/download"/>
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_1992_77603_6" MIMETYPE="text/plain" SEQ="6" SIZE="101716" CHECKSUM="852672bb62cc8552ae8b5c22905ab085" CHECKSUMTYPE="MD5" ADMID="FT_1992_77603_6" GROUPID="GROUP_BITSTREAM_1992_77603_6">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://dspace-new-uniandes.metabuscador.org/bitstreams/5dbdd6c6-e57c-445f-8f0d-5690a2dac94a/download"/>
+         </file>
+         <file ID="BITSTREAM_TEXT_1992_77603_8" MIMETYPE="text/plain" SEQ="8" SIZE="2" CHECKSUM="e1c06d85ae7b8b032bef47e42e4c08f9" CHECKSUMTYPE="MD5" ADMID="FT_1992_77603_8" GROUPID="GROUP_BITSTREAM_1992_77603_8">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://dspace-new-uniandes.metabuscador.org/bitstreams/92e6f80f-47c7-483c-a7a0-8bfaccdd8e20/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_1992_77603">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_1992_77603_3"/>
+         </div>
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_1992_77603_5"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record></GetRecord></OAI-PMH>

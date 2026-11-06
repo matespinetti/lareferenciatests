@@ -1,0 +1,45 @@
+{
+ "pedido": "20261106T121522500-00019",
+ "url": "https://revistas.unne.edu.ar/index.php/adn/article/download/9002/8655",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "accept-ranges",
+   "none"
+  ],
+  [
+   "cache-control",
+   "private"
+  ],
+  [
+   "content-disposition",
+   "attachment;filename=AdNea+-+Art.+Docente+1+-+Maq.+FINAL.pdf;filename*=UTF-8''AdNea+-+Art.+Docente+1+-+Maq.+FINAL.pdf"
+  ],
+  [
+   "content-length",
+   "1835310"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ],
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:15:52 GMT"
+  ],
+  [
+   "pragma",
+   "public"
+  ],
+  [
+   "server",
+   "Apache/2.4.41 (Ubuntu)"
+  ],
+  [
+   "set-cookie",
+   "OJSSID=b6o4le4o40dftubg9q0iem47su; path=/; domain=revistas.unne.edu.ar; secure; HttpOnly; SameSite=Lax"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

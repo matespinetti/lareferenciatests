@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T123837579-00094",
+ "url": "https://rdu.unc.edu.ar/bitstreams/c4a29b47-4c03-4e21-b4d6-1ae817bd3ffb/download",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:41:38 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "116"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793277726"
+  ],
+  [
+   "link",
+   "<https://rdu.unc.edu.ar/signposting/linksets/0013af39-226c-425d-a2de-c2f18033cf99> ; rel=\"linkset\" ; type=\"application/linkset\" , <https://rdu.unc.edu.ar/signposting/linksets/0013af39-226c-425d-a2de-c2f18033cf99/json> ; rel=\"linkset\" ; type=\"application/linkset+json\" , <https://rdu.unc.edu.ar/items/0013af39-226c-425d-a2de-c2f18033cf99> ; rel=\"collection\" ; type=\"text/html\""
+  ],
+  [
+   "location",
+   "https://rdu.unc.edu.ar/server/api/core/bitstreams/c4a29b47-4c03-4e21-b4d6-1ae817bd3ffb/content"
+  ],
+  [
+   "vary",
+   "Accept"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

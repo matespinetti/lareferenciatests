@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+
+# Prueba de concurrencia: se generan en cada corrida.
+prueba_concurrencia/certs/
+prueba_concurrencia/results/
+prueba_concurrencia/report.md
+prueba_concurrencia/run.log

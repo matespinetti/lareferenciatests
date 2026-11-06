@@ -1,0 +1,89 @@
+{
+ "pedido": "20261029T164359880-00215",
+ "url": "https://repositorio.ufmg.br/server/api/core/bitstreams/acb1c00c-edd3-41bf-8b65-14c24f705cf6/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:50:22 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Thu, 21 May 2026 13:30:03 GMT"
+  ],
+  [
+   "etag",
+   "\"906a740f6a0d8c0c15e4e730e6884e5a\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:50:22 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline;filename=\"TCC_Joany_Marcelle_da_Silva_Luis_corrigido (1).pdf\""
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/1896352"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=15724800; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

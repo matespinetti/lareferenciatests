@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es-ES" xml:lang="es-ES">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Innovaciones de la asignatura Planeamiento de la carrera de Ingeniería Civil de la Facultad de Ingeniería de la UNNE. Propuesta, implementación y primeras reflexiones
+							| ADNea
+			</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.3.0.22" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Venettia Romagnoli"/>
+<meta name="DC.Creator.PersonalName" content="Leandro Cerno"/>
+<meta name="DC.Creator.PersonalName" content="Matías Rodríguez"/>
+<meta name="DC.Creator.PersonalName" content="Gabriela Ebel"/>
+<meta name="DC.Creator.PersonalName" content="Florencia Ferreyra"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2025-12-30"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2025-12-18"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2025-12-30"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2025-12-30"/>
+<meta name="DC.Description" xml:lang="en" content="This communication presents the pedagogical and content innovations introduced in the 2023 academic year in the second-year Planning subject of the Civil Engineering degree at the Faculty of Engineering of the National University of the Northeast, based on the restructuring of the teaching team in charge of the subject, with the aim of presenting from a critical perspective the main components of the program as a proposal and the experience of its implementation during 2023."/>
+<meta name="DC.Description" xml:lang="es" content="La comunicación presenta las innovaciones pedagógicas y de contenidos introducidas en el ciclo lectivo 2023 en la asignatura Planeamiento de segundo año de la carrera de Ingeniería Civil de la Facultad de Ingeniería de la Universidad Nacional del Nordeste, a partir de la restructuración del equipo docente a cargo de la materia, con la finalidad de exponer desde una perspectiva crítica las principales componentes del programa como propuesta y la experiencia de su implementación durante 2023."/>
+<meta name="DC.Description" xml:lang="pt" content=""/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="9004"/>
+<meta name="DC.Identifier.pageNumber" content="53-61"/>
+<meta name="DC.Identifier.DOI" content="10.30972/adn.139004"/>
+<meta name="DC.Identifier.URI" content="https://revistas.unne.edu.ar/index.php/adn/article/view/9004"/>
+<meta name="DC.Language" scheme="ISO639-1" content="es"/>
+<meta name="DC.Rights" content="Derechos de autor 2025 "/>
+<meta name="DC.Rights" content="https://creativecommons.org/licenses/by-nc/4.0"/>
+<meta name="DC.Source" content="ADNea"/>
+<meta name="DC.Source.ISSN" content="2347-1107"/>
+<meta name="DC.Source.Issue" content="13"/>
+<meta name="DC.Source.URI" content="https://revistas.unne.edu.ar/index.php/adn"/>
+<meta name="DC.Subject" xml:lang="es" content="Ordenamiento ambiental del territorio"/>
+<meta name="DC.Subject" xml:lang="es" content="enfoque problematizador"/>
+<meta name="DC.Subject" xml:lang="es" content="perspectiva del desarrollo sostenible"/>
+<meta name="DC.Subject" xml:lang="es" content="enseñanza/ aprendizaje"/>
+<meta name="DC.Title" content="Innovaciones de la asignatura Planeamiento de la carrera de Ingeniería Civil de la Facultad de Ingeniería de la UNNE. Propuesta, implementación y primeras reflexiones"/>
+<meta name="DC.Title.Alternative" xml:lang="en" content="Innovations in the subject Planning of the Civil Engineering career of the Faculty of Engineering of the UNNE. Proposal, implementation and initial reflections"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Artículos de docencia"/>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="ADNea"/>
+<meta name="citation_journal_abbrev" content="ADNea"/>
+<meta name="citation_issn" content="2347-1107"/> 
+<meta name="citation_author" content="Venettia Romagnoli"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo. CONICET. IIDTHH"/>
+<meta name="citation_author" content="Leandro Cerno"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Ingeniería. CONICET"/>
+<meta name="citation_author" content="Matías Rodríguez"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Ingeniería"/>
+<meta name="citation_author" content="Gabriela Ebel"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Ingeniería"/>
+<meta name="citation_author" content="Florencia Ferreyra"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Ingeniería"/>
+<meta name="citation_title" content="Innovaciones de la asignatura Planeamiento de la carrera de Ingeniería Civil de la Facultad de Ingeniería de la UNNE. Propuesta, implementación y primeras reflexiones"/>
+<meta name="citation_language" content="es"/>
+<meta name="citation_date" content="2025/12/30"/>
+<meta name="citation_issue" content="13"/>
+<meta name="citation_firstpage" content="53"/>
+<meta name="citation_lastpage" content="61"/>
+<meta name="citation_doi" content="10.30972/adn.139004"/>
+<meta name="citation_abstract_html_url" content="https://revistas.unne.edu.ar/index.php/adn/article/view/9004"/>
+<meta name="citation_keywords" xml:lang="es" content="Ordenamiento ambiental del territorio"/>
+<meta name="citation_keywords" xml:lang="es" content="enfoque problematizador"/>
+<meta name="citation_keywords" xml:lang="es" content="perspectiva del desarrollo sostenible"/>
+<meta name="citation_keywords" xml:lang="es" content="enseñanza/ aprendizaje"/>
+<meta name="citation_pdf_url" content="https://revistas.unne.edu.ar/index.php/adn/article/download/9004/8659"/>
+<meta name="citation_reference" content="Barreto, M. A. y Romagnoli, V. (2020). Plan de desarrollo y ordenamiento territorial del municipio de Resistencia. POTRES 2040. ADNea, 8(8), 7-25."/>
+<meta name="citation_reference" content="Consejo Federal de Decanos de Ingeniería [CONFEDI] (2018). Propuesta de estándares de segunda generación para la acreditación de carreras de ingeniería en la República Argentina. Libro Rojo de CONFEDI. CONFEDI."/>
+<meta name="citation_reference" content="Romagnoli, V. (2018). Políticas de ordenamiento territorial como escenario de disputa entre actores. Aportes para la construcción de un marco interpretativo. XXII Congreso Arquisur: la dimensión pública de la Arquitectura: libro de ponencias (1a ed.). UNR Editora."/>
+<meta name="citation_reference" content="Romagnoli, V. (2021). Políticas de Ordenamiento Territorial del Chaco. Aportes a la discusión de las bases de un anteproyecto de ley de OT de la provincia. ADNea, 9(9)."/>
+<meta name="citation_reference" content="Romagnoli, V., López, S. y Fernández, M. E. (2023). Ordenamiento ambiental del territorio para el impenetrable chaqueño. Un análisis de la dimensión política jurídica institucional. Jornadas de Comunicaciones Científicas y Tecnológicas 2023. Actas provisorias. FAU-UNNE."/>
+<meta name="citation_reference" content="Romagnoli, V., Fogar, S. y Fernández, M. E. (2022). Consideraciones acerca del modelo de gestión requerido a partir del análisis del proyecto de Ley de Ordenamiento Territorial de la Provincia del Chaco (Argentina). Anais do XL Encontro e XXV Congreso ARQUISUR."/>
+	<link rel="stylesheet" href="https://revistas.unne.edu.ar/index.php/adn/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://revistas.unne.edu.ar/index.php/adn/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://revistas.unne.edu.ar/lib/pkp/styles/fontawesome/fontawesome.css?v=3.3.0.22" type="text/css" /><link rel="stylesheet" href="https://revistas.unne.edu.ar/public/site/styleSheet.css?v=3.3.0.22" type="text/css" />
+</head>
+<body class="pkp_page_article pkp_op_view has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Salta a los enlaces de contenido">
+	<a href="#pkp_content_main">Ir al contenido principal</a>
+	<a href="#siteNav">Ir al menú de navegación principal</a>
+		<a href="#pkp_content_footer">Ir al pie de página del sitio</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://revistas.unne.edu.ar/index.php/adn/index
+					" class="is_img">
+							<img src="https://revistas.unne.edu.ar/public/journals/24/pageHeaderLogoImage_es_ES" width="1024" height="219"  />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Navegación del sitio">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/issue/current">
+					Actual
+				</a>
+							</li>
+								<li class="">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/issue/archive">
+					Archivos
+				</a>
+							</li>
+															<li class="">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/about">
+					Acerca de
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about">
+										Sobre la revista
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/submissions">
+										Envíos
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/editorialTeam">
+										Equipo editorial
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/privacy">
+										Declaración de privacidad
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/contact">
+										Contacto
+									</a>
+								</li>
+																		</ul>
+							</li>
+			</ul>
+
+				
+
+																						<div class="pkp_navigation_search_wrapper">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/search" class="pkp_search pkp_search_desktop">
+										<span class="fa fa-search" aria-hidden="true"></span>
+										Buscar
+									</a>
+								</div>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+															<li class="profile">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/login">
+					Entrar
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="Usted está aquí:">
+	<ol>
+		<li>
+			<a href="https://revistas.unne.edu.ar/index.php/adn/index">
+				Inicio
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://revistas.unne.edu.ar/index.php/adn/issue/archive">
+				Archivos
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://revistas.unne.edu.ar/index.php/adn/issue/view/829">
+					Núm. 13 (2025)
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									Artículos de docencia
+							</span>
+		</li>
+	</ol>
+</nav>
+	
+		  	 <article class="obj_article_details">
+
+		
+	<h1 class="page_title">
+		Innovaciones de la asignatura Planeamiento de la carrera de Ingeniería Civil de la Facultad de Ingeniería de la UNNE. Propuesta, implementación y primeras reflexiones
+	</h1>
+
+	
+	<div class="row">
+		<div class="main_entry">
+
+							<section class="item authors">
+					<h2 class="pkp_screen_reader">Autores/as</h2>
+					<ul class="authors">
+											<li>
+							<span class="name">
+								Venettia Romagnoli
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo. CONICET. IIDTHH
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Leandro Cerno
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Ingeniería. CONICET
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Matías Rodríguez
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Ingeniería
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Gabriela Ebel
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Ingeniería
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Florencia Ferreyra
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Ingeniería
+																	</span>
+																				</li>
+										</ul>
+				</section>
+			
+																												<section class="item doi">
+						<h2 class="label">
+														DOI:
+						</h2>
+						<span class="value">
+							<a href="https://doi.org/10.30972/adn.139004">
+								https://doi.org/10.30972/adn.139004
+							</a>
+						</span>
+					</section>
+							
+									<section class="item keywords">
+				<h2 class="label">
+										Palabras clave:
+				</h2>
+				<span class="value">
+											Ordenamiento ambiental del territorio, 											enfoque problematizador, 											perspectiva del desarrollo sostenible, 											enseñanza/ aprendizaje									</span>
+			</section>
+			
+										<section class="item abstract">
+					<h2 class="label">Resumen</h2>
+					<p>La comunicación presenta las innovaciones pedagógicas y de contenidos introducidas en el ciclo lectivo 2023 en la asignatura Planeamiento de segundo año de la carrera de Ingeniería Civil de la Facultad de Ingeniería de la Universidad Nacional del Nordeste, a partir de la restructuración del equipo docente a cargo de la materia, con la finalidad de exponer desde una perspectiva crítica las principales componentes del programa como propuesta y la experiencia de su implementación durante 2023.</p>
+				</section>
+			
+			
+
+																																															
+										<section class="item references">
+					<h2 class="label">
+						Citas
+					</h2>
+					<div class="value">
+																					<p>Barreto, M. A. y Romagnoli, V. (2020). Plan de desarrollo y ordenamiento territorial del municipio de Resistencia. POTRES 2040. ADNea, 8(8), 7-25. </p>
+															<p>Consejo Federal de Decanos de Ingeniería [CONFEDI] (2018). Propuesta de estándares de segunda generación para la acreditación de carreras de ingeniería en la República Argentina. Libro Rojo de CONFEDI. CONFEDI. </p>
+															<p>Romagnoli, V. (2018). Políticas de ordenamiento territorial como escenario de disputa entre actores. Aportes para la construcción de un marco interpretativo. XXII Congreso Arquisur: la dimensión pública de la Arquitectura: libro de ponencias (1a ed.). UNR Editora. </p>
+															<p>Romagnoli, V. (2021). Políticas de Ordenamiento Territorial del Chaco. Aportes a la discusión de las bases de un anteproyecto de ley de OT de la provincia. ADNea, 9(9). </p>
+															<p>Romagnoli, V., López, S. y Fernández, M. E. (2023). Ordenamiento ambiental del territorio para el impenetrable chaqueño. Un análisis de la dimensión política jurídica institucional. Jornadas de Comunicaciones Científicas y Tecnológicas 2023. Actas provisorias. FAU-UNNE. </p>
+															<p>Romagnoli, V., Fogar, S. y Fernández, M. E. (2022). Consideraciones acerca del modelo de gestión requerido a partir del análisis del proyecto de Ley de Ordenamiento Territorial de la Provincia del Chaco (Argentina). Anais do XL Encontro e XXV Congreso ARQUISUR. </p>
+																		</div>
+				</section>
+			
+		</div><!-- .main_entry -->
+
+		<div class="entry_details">
+
+										<div class="item cover_image">
+					<div class="sub_item">
+													<a href="https://revistas.unne.edu.ar/index.php/adn/issue/view/829">
+								<img src="https://revistas.unne.edu.ar/public/journals/24/cover_issue_829_es_ES.jpg" alt="">
+							</a>
+											</div>
+				</div>
+			
+										<div class="item galleys">
+					<h2 class="pkp_screen_reader">
+						Descargas
+					</h2>
+					<ul class="value galleys_links">
+													<li>
+								
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9004/8659">
+
+		
+	PDF
+
+	</a>
+							</li>
+											</ul>
+				</div>
+						
+						<div class="item published">
+				<section class="sub_item">
+					<h2 class="label">
+						Publicado
+					</h2>
+					<div class="value">
+																			<span>2025-12-30</span>
+																	</div>
+				</section>
+							</div>
+			
+						
+										<div class="item issue">
+
+											<section class="sub_item">
+							<h2 class="label">
+								Número
+							</h2>
+							<div class="value">
+								<a class="title" href="https://revistas.unne.edu.ar/index.php/adn/issue/view/829">
+									Núm. 13 (2025)
+								</a>
+							</div>
+						</section>
+					
+											<section class="sub_item">
+							<h2 class="label">
+								Sección
+							</h2>
+							<div class="value">
+								Artículos de docencia
+							</div>
+						</section>
+					
+									</div>
+			
+															
+										<div class="item copyright">
+					<h2 class="label">
+						Licencia
+					</h2>
+																									<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><p>Esta obra está bajo una licencia internacional <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Atribución-NoComercial 4.0</a>.</p>
+																
+				</div>
+			
+			
+
+		</div><!-- .entry_details -->
+	</div><!-- .row -->
+
+</article>
+
+	
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary" aria-label="Barra lateral">
+				<div class="pkp_block block_custom" id="customblock-indexaciones">
+	<h2 class="title pkp_screen_reader">Indexaciones</h2>
+	<div class="content">
+		<hr>
+<h3><span style="color: grey;">Indexaciones</span></h3>
+<p>&nbsp;</p>
+<p><a href="http://arla.ubiobio.cl/index.php?r=ultimo-numero%2Fver_detalle_numero&amp;numero=341&amp;revista=186" target="_blank" rel="noopener"><strong><img src="https://revistas.unne.edu.ar/public/site/images/admin/arla_logo1.jpg" alt=""></strong></a></p>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+		
+		<div class="pkp_brand_footer" role="complementary">
+			<a href="https://revistas.unne.edu.ar/index.php/adn/about/aboutThisPublishingSystem">
+				<img alt="Más información acerca del sistema de publicación, de la plataforma y del flujo de trabajo de OJS/PKP." src="https://revistas.unne.edu.ar/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://revistas.unne.edu.ar/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/lib/popper/popper.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/lib/bootstrap/util.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/main.js?v=3.3.0.22" type="text/javascript"></script>
+
+
+</body>
+</html>

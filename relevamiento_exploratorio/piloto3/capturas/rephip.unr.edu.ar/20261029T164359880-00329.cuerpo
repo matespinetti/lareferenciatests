@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:53:17Z</responseDate><request verb="GetRecord" identifier="oai:rephip.unr.edu.ar:2133/33995" metadataPrefix="mets">https://rephip.unr.edu.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:rephip.unr.edu.ar:2133/33995</identifier><datestamp>2026-09-17T06:00:14Z</datestamp><setSpec>com_2133_697</setSpec><setSpec>com_2133_2746</setSpec><setSpec>com_2133_6</setSpec><setSpec>col_2133_33922</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_2133-33995" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:2133/33995">
+   <metsHdr CREATEDATE="2026-10-29T16:53:17Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositorio Hipermedial UNR</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_2133_33995">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">orcid</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>https://orcid.org/0000-0001-8167-1241</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2026-09-16T18:32:46Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2026-01</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="issn">2314-2634</mods:identifier>
+               <mods:identifier type="uri">https://hdl.handle.net/2133/33995</mods:identifier>
+               <mods:identifier type="doi">https://doi.org/10.35305/lt.v30i01.918</mods:identifier>
+               <mods:abstract>Este texto comenta los ejes centrales del libro La sociedad digital de Manuel Castells. Describe sus principales aportes, recupera conceptos de la trayectoria del autor y sintetiza sus líneas de abordaje. Castells es un autor clave en los estudios de comunicación y esta obra se plantea como una aproximación a los problemas contemporáneos, entre otros: la tendencia creciente a la digitalización, los cambios en la vida urbana, las transformaciones del trabajo, las brechas digitales, la relación entre redes y polarización política, los movimientos sociales y la guerra.This text discusses the central themes of Manuel Castells’ book, The Digital Society. It describes its main contributions, revisits concepts from the author’s career, and outlines his lines of inquiry. Castells is a key author in communication studies, and this work is presented as an approach to contemporary issues, among others: the constant trend towards digitization, changes in urban life, transformations in work, digital divides, the relationship between networks and political polarization, social movements and war.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">es</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">openAccess</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Digitalización</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Sociedad en red</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Movimientos sociales</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Polarización política</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Brecha digital</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Reseña del libro : La sociedad digital: etapa superior de la sociedad red, de  Manuel Castells</mods:title>
+               </mods:titleInfo>
+               <mods:genre>articulo</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_2133_33995">
+      <rightsMD ID="RIG_2133_33995">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>PHA+UGFyYSBwZXJtaXRpciBhbCBSZXBIaXAgcmVwcm9kdWNpciwgdHJhZHVjaXIgeSBkaXN0cmlidWlyIHN1IGVudsOtbyBhIHRyYXbDqXMgZGVsIG11bmRvLCBuZWNlc2l0YW1vcyBzdSBjb25mb3JtaWRhZCBlbiBsb3Mgc2lndWllbnRlcyB0w6lybWlub3MuPC9wPjxwPkNvbmNlZGEgbGEgbGljZW5jaWEgZGUgZGlzdHJpYnVjacOzbiBlc3TDoW5kYXIgc2VsZWNjaW9uYW5kbyAnQ29uZmlybW8gbGEgbGljZW5jaWEnLjwvcD48aDQ+TGljZW5jaWEgUmVwSGlwVU5SIDwvaDQ+PHA+RWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIGVzIGVsIHJlcG9zaXRvcmlvIGluc3RpdHVjaW9uYWwgZGUgYWNjZXNvIGFiaWVydG8gZGUgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgUm9zYXJpbyBjcmVhZG8gcGFyYSBhcmNoaXZhciwgcHJlc2VydmFyIHkgZGlzdHJpYnVpciBkaWdpdGFsbWVudGUgbGEgY3JlYWNpw7NuIGludGVsZWN0dWFsIGRlIGVzdGEgdW5pdmVyc2lkYWQgZW4gYWNjZXNvIGxpYnJlIHkgZ3JhdHVpdG8geSByZXNndWFyZGFyIGEgc3UgdmV6IGxvcyBkZXJlY2hvcyBkZSBsb3MgYXV0b3Jlcy48L3A+PHA+UGFyYSBxdWUgZWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIChodHRwOi8vcmVwaGlwLnVuci5lZHUuYXIvKSBwdWVkYSBhbG1hY2VuYXIgeSBkaWZ1bmRpciBlbCBvYmpldG8gZGlnaXRhbCBkZXBvc2l0YWRvIChsYSBvYnJhKSwgZXMgbmVjZXNhcmlvIHF1ZSBsYSBwZXJzb25hIHF1ZSByZWFsaWNlIGVsIGRlcMOzc2l0byBsZWEgeSBhY2VwdGUgbGFzIGNvbmRpY2lvbmVzIGVzdGFibGVjaWRhcyBlbiBlc3RhIGxpY2VuY2lhOjwvcD48cD5MYS9FbCB0aXR1bGFyL2VzIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBsYSBvYnJhIGRlcG9zaXRhZGEgbyBsYSBwZXJzb25hIGRlbGVnYWRhIHBhcmEgaGFjZXJsbzo8L3A+PHA+R2FyYW50aXphIGEgbGEgVU5JVkVSU0lEQUQgZWwgZGVyZWNobyBubyBleGNsdXNpdm8gYSBhbG1hY2VuYXIgZW4gc2Vydmlkb3JlcywgcmVwcm9kdWNpciwgdHJhbnNmb3JtYXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pIHkgYSByZWFsaXphciBsYSBjb211bmljYWNpw7NuIHDDumJsaWNhIGRlIExBIE9CUkEgZGUgZm9ybWEgbGlicmUgeSBncmF0dWl0YSBhIHRvZG8gcMO6YmxpY28gZW4gZm9ybWF0byBkaWdpdGFsIGVuIGVsIHNpdGlvIHdlYiBkZWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIChodHRwOi8vcmVwaGlwLnVuci5lZHUuYXIvKS4gQWNlcHRhIHF1ZSBsYSBVTklWRVJTSURBRCBwdWVkZSwgc2luIGNhbWJpYXIgZWwgY29udGVuaWRvLCBjb252ZXJ0aXIgTEEgT0JSQSBhIGN1YWxxdWllciBvdHJvIGZvcm1hdG8gbyBtZWRpbyBjb24gZWwgcHJvcMOzc2l0byBkZSBwcmVzZXJ2YWNpw7NuIHkgcGFyYSBzdSBjb3JyZWN0YSB2aXN1YWxpemFjacOzbiBlbiBsYSB3ZWIuIEFjZXB0YSBxdWUgbGEgVU5JVkVSU0lEQUQgcHVlZGEgZ3VhcmRhciBtw6FzIGRlIHVuYSBjb3BpYSBkZSBMQSBPQlJBIGRlcG9zaXRhZGEgY29uIHByb3DDs3NpdG9zIGRlIHNlZ3VyaWRhZCwgY29waWFzIGRlIHJlZW1wbGF6byB5IHByZXNlcnZhY2nDs24uIFNpIGVsIG1hdGVyaWFsIGVudmlhZG8gY29udGllbmUgcGFydGVzIGRlIGxhcyBjdWFsZXMgRUwgQVVUT1Igbm8gZXMgZWwgdGl0dWxhciBkZSBsb3MgZGVyZWNob3MgZGUgcHJvcGllZGFkIGludGVsZWN0dWFsLCBlc3RlIG1hbmlmaWVzdGEgcXVlIGhhIG9idGVuaWRvIHBlcm1pc28gaXJyZXN0cmljdG8gZGVsIHRpdHVsYXIvZXMgZGUgZXN0b3MgZGVyZWNob3MgcGFyYSBvdG9yZ2FyIGEgbGEgVU5JVkVSU0lEQUQgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MgcG9yIGVzdGUgYWN1ZXJkbywgeSBxdWUgZXN0YSB0ZXJjZXJhIHBhcnRlIGVzIGNsYXJhbWVudGUgaWRlbnRpZmljYWJsZSBlbiBlbCB0ZXh0byBvIGNvbnRlbmlkbyBkZSBMQSBPQlJBIGRlcG9zaXRhZGEuIERlY2xhcmEgcXVlIGFsIGFjZXB0YXIgZWwgcHJlc2VudGUgYWN1ZXJkbyBubyBpbmZyaW5nZSBuaW5nw7puIGRlcmVjaG8gZGUgdGVyY2Vyb3MsIHNlYSBkZSBwcm9waWVkYWQgaW5kdXN0cmlhbCwgaW50ZWxlY3R1YWwsIHNlY3JldG8gY29tZXJjaWFsIG8gY3VhbHF1aWVyIG90cm8gZGVyZWNobyBzdXNjZXB0aWJsZSBkZSBwcm90ZWNjacOzbiBqdXLDrWRpY2EuIEFjZXB0YSBxdWUgbGFzIGdlc3Rpb25lcyBwYXJhIGxhIGV2ZW50dWFsIGluc2NyaXBjacOzbiBkZSBMQSBPQlJBIGFudGUgZWwgUmVnaXN0cm8gZGUgRGVyZWNob3MgZGUgQXV0b3Igc29uIGRlIHN1IGV4Y2x1c2l2YSByZXNwb25zYWJpbGlkYWQuIEVuIGNhc28gZGUgcXVlIExBIE9CUkEgZGVwb3NpdGFkYSBzZSBiYXNlIGVuIHVuIHRyYWJham8gcXVlIGZ1ZSBwYXRyb2NpbmFkbyBvIHBhZ2FkbyBwb3IgYWxndW5hIGFnZW5jaWEgdSBvcmdhbml6YWNpw7NuIGRpc3RpbnRhIGEgbGEgVU5JVkVSU0lEQUQsIG1hbmlmaWVzdGEgcXVlIGhhIGN1bXBsaWRvIGNvbiB0b2RhcyBsYXMgb2JsaWdhY2lvbmVzIHBvciBjb250cmF0byBvIGFjdWVyZG8gY29uIGVzdGEvcyBvcmdhbml6YWNpw7NuL2VzIG8gYWdlbmNpYS9zLiBEZWNsYXJhIHF1ZSBsYSBVTklWRVJTSURBRCBzZSBlbmN1ZW50cmEgbGlicmUgZGUgdG9kbyB0aXBvIGRlIHJlc3BvbnNhYmlsaWRhZCwgc2VhIGNpdmlsLCBhZG1pbmlzdHJhdGl2YSBvIHBlbmFsIHkgcXVlIGFzdW1lIHRvZGEgcmVzcG9uc2FiaWxpZGFkIGZyZW50ZSBhIGN1YWxxdWllciByZWNsYW1vIG8gZGVtYW5kYSBwb3IgcGFydGUgZGUgdGVyY2Vyb3MgZGUgbWFuZXJhIGV4Y2x1c2l2YS48L3A+PHA+RW4gdmlydHVkIGRlbCBjYXLDoWN0ZXIgbm8gZXhjbHVzaXZvIGRlbCBwcmVzZW50ZSBhY3VlcmRvLCBFTCBBVVRPUiBwb2Ryw6EgY29tdW5pY2FyIHkgZGFyIHB1YmxpY2lkYWQgbGlicmVtZW50ZSBhIExBIE9CUkEsIGVuIGN1YWxxdWllciB2ZXJzacOzbiB5IHBvciB0b2RvcyBsb3MgbWVkaW9zIHF1ZSBjb25zaWRlcmUgb3BvcnR1bm9zLiBBc2ltaXNtbyBlbCB0aXR1bGFyIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBwb2Ryw6Egc29saWNpdGFyIHVuIHJldHJhc28gdGVtcG9yYWwgKHBlcmlvZG8gZGUgZW1iYXJnbykgZGUgbGEgcHVlc3RhIGEgZGlzcG9zaWNpw7NuIHDDumJsaWNhIGRlIExBIE9CUkEuPC9wPjxwPkVsIEFVVE9SIHBvZHLDoSBzb2xpY2l0YXIgZWwgcmV0aXJvIGRlIExBIE9CUkEgZGVsIFJlcG9zaXRvcmlvIEhpcGVybWVkaWFsIFVOUiBzb2xhbWVudGUgcG9yIGNhdXNhcyBkZWJpZGFtZW50ZSBqdXN0aWZpY2FkYXMgeSBhY3JlZGl0YWRhcy48L3A+PHA+RW4gZnVuY2nDs24gZGUgbGFzIGNvbmRpY2lvbmVzIGVsZWdpZGFzIHBvciBFTCBBVVRPUiwgZWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIHNlbGVjY2lvbmFyw6EgdW5hIGxpY2VuY2lhIENyZWF0aXZlIENvbW1vbnMgY29tcGF0aWJsZSBxdWUgc2UgaW5jbHVpcsOhIHkgYXBsaWNhcsOhIGEgbGEgb2JyYS4gTGEgVU5JVkVSU0lEQUQgbm8gYXN1bWlyw6EgcmVzcG9uc2FiaWxpZGFkIGFsZ3VuYSBwb3Igb3Ryb3MgdXNvcyBubyBhdXRvcml6YWRvcyBkZSBMQSBPQlJBIG8gY29udHJhcmlvcyBhIGxhIGxlZ2lzbGFjacOzbiB2aWdlbnRlLjwvcD48cD5FbCBub21icmUgZGVsIEFVVE9SIHF1ZWRhcsOhIGNsYXJhbWVudGUgaWRlbnRpZmljYWRvIGVuIGVsIFJlcG9zaXRvcmlvIEhpcGVybWVkaWFsIFVOUiBjb21vIHJlc3BvbnNhYmxlIGRlbC9vcyBvYmpldG8vcyBkaWdpdGFsL2VzIGRlcG9zaXRhZG8vcywgeSBubyBzZSByZWFsaXphcsOhIG5pbmd1bmEgYWx0ZXJhY2nDs24sIHNhbHZvIGxhcyBwZXJtaXRpZGFzIHBvciBlc3RlIGFjdWVyZG8uPC9wPjxwPlNpIHRpZW5lIGFsZ3VuYSBkdWRhIHNvYnJlIGxhIGxpY2VuY2lhLCBwb3IgZmF2b3IsIGNvbnRhY3RlIGNvbiBlbCBhZG1pbmlzdHJhZG9yIGRlbCBzaXN0ZW1hLjwvcD4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_2133_33995_1">
+      <techMD ID="TECH_O_2133_33995_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rephip.unr.edu.ar/bitstreams/f3040f1d-83d4-457b-9fc0-8add24874e6a/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>222b8cd4d71dc6487245003adec0addb</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>363574</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Reseña+de+Manuel+Castells,+La+sociedad+Digital.+Madrid+Alianza.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_2133_33995_4">
+      <techMD ID="TECH_T_2133_33995_4">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rephip.unr.edu.ar/bitstreams/fa0e175c-3e2b-4c3d-b42e-138989090a69/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>bab190a65ff1f49ef2370b6dc8308ccc</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>26262</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Reseña+de+Manuel+Castells,+La+sociedad+Digital.+Madrid+Alianza.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_2133_33995_1" MIMETYPE="application/pdf" SEQ="1" SIZE="363574" CHECKSUM="222b8cd4d71dc6487245003adec0addb" CHECKSUMTYPE="MD5" ADMID="FO_2133_33995_1" GROUPID="GROUP_BITSTREAM_2133_33995_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rephip.unr.edu.ar/bitstreams/f3040f1d-83d4-457b-9fc0-8add24874e6a/download" />
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_2133_33995_4" MIMETYPE="text/plain" SEQ="4" SIZE="26262" CHECKSUM="bab190a65ff1f49ef2370b6dc8308ccc" CHECKSUMTYPE="MD5" ADMID="FT_2133_33995_4" GROUPID="GROUP_BITSTREAM_2133_33995_4">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rephip.unr.edu.ar/bitstreams/fa0e175c-3e2b-4c3d-b42e-138989090a69/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_2133_33995">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_2133_33995_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

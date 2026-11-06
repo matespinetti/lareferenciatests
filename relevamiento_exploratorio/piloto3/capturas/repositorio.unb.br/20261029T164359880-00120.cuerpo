@@ -1,0 +1,685 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Repositório Institucional da UnB: Análises estruturais e de modelos de interação das proteases NS3 dos Flavivirus zika e dengue, e nsP2 dos Alphavirus chikungunya e mayaro utilizando ferramentas in silico e in vitro</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 6.4" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+ 
+		<link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+		<link rel="stylesheet" href="/static/css/bootstrap/font-awesome.min.css" type="text/css" /> 
+	
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Barbosa, João Alexandre Ribeiro Gonçalves" />
+<meta name="DC.creator" content="Lima, Jônatas Cunha Barbosa" />
+<meta name="DCTERMS.dateAccepted" content="2022-05-17T16:46:23Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2022-05-17T16:46:23Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2022-05-17" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.date" content="2022-01-14" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.bibliographicCitation" content="LIMA, Jônatas Cunha Barbosa. Análises estruturais e de modelos de interação das proteases NS3 dos Flavivirus zika e dengue, e nsP2 dos Alphavirus chikungunya e mayaro utilizando ferramentas in silico e in vitro. 2022. 151 f., il. Tese (Doutorado em Biologia Molecular) — Universidade de Brasília, Brasília, 2022." xml:lang="pt_BR" />
+<meta name="DC.identifier" content="https://repositorio.unb.br/handle/10482/43728" scheme="DCTERMS.URI" />
+<meta name="DC.description" content="Tese (doutorado) — Universidade de Brasília, Instituto de Ciências Biológicas, Departamento de Biologia Celular, Programa de Pós-Graduação em Biologia Molecular, 2022." xml:lang="pt_BR" />
+<meta name="DCTERMS.abstract" content="Os arbovírus (Arthropod-borne virus) são uma classificação que compreende grupos virais&#xD;&#xA;cuja transmissão é realizada por vetores artrópodes que infectam vertebrados. Dentre&#xD;&#xA;esses, alguns arbovírus têm se mostrado de grande relevância, devido ao grande número&#xD;&#xA;de infecções, como os Flavivirus dengue (DENV) e o zika (ZIKV), e os Alphavirus&#xD;&#xA;chikungunya (CHIK) e o mayaro (MAYV), sendo que todos carecem de estudos&#xD;&#xA;estruturais mais aprofundados objetivando tanto um maior conhecimento da biologia&#xD;&#xA;molecular destes, quanto visando possíveis alvos para novos fármacos. Dentre as&#xD;&#xA;possíveis proteínas alvo, as proteases virais têm se mostrado excelentes alvos. Estas&#xD;&#xA;proteínas (NS3 nos Flavivirus e nsP2 nos Alphavirus) possuem a função de clivar&#xD;&#xA;determinadas regiões da poliproteína viral sendo essenciais para a replicação. O objetivo&#xD;&#xA;do presente trabalho é realizar análises in silico e in vitro das proteases dos arbovírus&#xD;&#xA;ZIKV, DENV, CHIK e MAYV visando uma melhor compreensão estrutural das proteases e&#xD;&#xA;da interação com inibidores e substratos. Os genes da NS3 de ZIKV e DENV, e nsP2 de&#xD;&#xA;MAYV e CHIK foram expressos em diversas cepas de E. coli e passaram por diversas&#xD;&#xA;etapas de otimização de purificação. Realizou-se ultracentrifugação analítica e&#xD;&#xA;cromatografia por exclusão molecular das proteases de ZIKV e DENV, que apontaram&#xD;&#xA;uma possível formação de dímero. Análises de espectroscopia de fluorescência da NS3&#xD;&#xA;de ZIKV em presença de aprotinina demonstraram uma redução na intensidade de&#xD;&#xA;fluorescência possivelmente por maior exposição do Trp50 ao solvente, que poderia ser&#xD;&#xA;explicada pela dissociação dos dímeros. Screening e refinamento da cristalização de das&#xD;&#xA;proteases NS3 estudadas apresentaram condições onde havia formação de cristal de&#xD;&#xA;proteína, todavia não foram obtidos cristais que permitissem a resolução da estrutura.&#xD;&#xA;Foram realizados ensaios de inibição da NS3 de ZIKV com inibidores da protease&#xD;&#xA;homóloga DENV, os quais apresentaram capacidade inibitória também para esta proteína&#xD;&#xA;de ZIKV. Além disso, realizou-se a modelagem por homologia da protease do MAYV,&#xD;&#xA;docking com peptídeos que possuem os sítios de clivagem das nsP2 de CHIK e MAYV e&#xD;&#xA;dinâmica das principais poses. Neste experimento observou-se que as poses com&#xD;&#xA;melhores scores apresentavam semelhante posicionamento de uma glicina, altamente&#xD;&#xA;conservada na posição P2 de substratos de nsP2 de Alphavirus, em uma fissura estreita.&#xD;&#xA;Este posicionamento possivelmente auxilia no posicionamento do carbono da carbonila do&#xD;&#xA;substrato próximo ao enxofre da cisteína catalítica desprotonada facilitando o ataque&#xD;&#xA;nucleofílico, uma das primeiras etapas para a quebra da cadeia polipeptídica. Além disso, estabiliza os ângulos diedros χ1 e χ2 dos resíduos que compõe o sítio catalítico." xml:lang="pt_BR" />
+<meta name="DC.description" content="Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)." xml:lang="pt_BR" />
+<meta name="DC.language" content="por" xml:lang="pt_BR" scheme="DCTERMS.RFC1766" />
+<meta name="DC.rights" content="Acesso Aberto" xml:lang="pt_BR" />
+<meta name="DC.title" content="Análises estruturais e de modelos de interação das proteases NS3 dos Flavivirus zika e dengue, e nsP2 dos Alphavirus chikungunya e mayaro utilizando ferramentas in silico e in vitro" xml:lang="pt_BR" />
+<meta name="DC.type" content="Tese" xml:lang="pt_BR" />
+<meta name="DC.subject" content="Arbovírus" xml:lang="pt_BR" />
+<meta name="DC.subject" content="Proteases" xml:lang="pt_BR" />
+<meta name="DC.subject" content="Inibidores" xml:lang="pt_BR" />
+<meta name="DC.rights" content="A concessão da licença deste item refere-se ao termo de autorização impresso assinado pelo autor com as seguintes condições:Na qualidade de titular dos direitos de autor da publicação, autorizo a Universidade de Brasília e o IBICT a disponibilizar por meio dos sites www.bce.unb.br, www.ibict.br, http://hercules.vtls.com/cgi-bin/ndltd/chameleon?lng=pt&amp;skin=ndltd sem ressarcimento dos direitos autorais, de acordo com a Lei nº 9610/98, o texto integral da obra disponibilizada, conforme permissões assinaladas, para fins de leitura, impressão e/ou download, a título de divulgação da produção científica brasileira, a partir desta data." xml:lang="pt_BR" />
+<meta name="DC.description" content="The arbovirus (Arthropod-borne virus) are a classification that comprise viral groups whose&#xD;&#xA;transmission is performed by Arthropod vectors infecting vertebrate hosts. Among the&#xD;&#xA;arbovirus, dengue virus (DENV) and zika virus (ZIKV) of the family Flaviviridae and gender&#xD;&#xA;Flavivirus, and chikungunya virus (CHIK) and mayaro virus (MAYV) of the family&#xD;&#xA;Togaviridae and gender Alphavirus, have shown great relevance due to the large number&#xD;&#xA;of human infecting cases. All these viruses require deeper structural studies aiming at a&#xD;&#xA;much bigger knowledge of their molecular biology to develop new drugs able to counteract&#xD;&#xA;their diseases. Among the protein targets, the viral proteases have been recognized as&#xD;&#xA;excellent candidates. The proteins (NS3 of Flavivirus and nsP2 of Alphavirus) have a&#xD;&#xA;cleavage function in specific regions of the viral polyprotein, therefore they are essential to&#xD;&#xA;viral replication. The purpose of this work is to perform in silico and in vitro experiments of&#xD;&#xA;ZIKV, DENV, CHIK and MAYV proteases aiming at a better understanding of the structure&#xD;&#xA;and their interaction with inhibitors and substrates. The genes of ZIKV and DENV NS3&#xD;&#xA;and, MAYV and CHIK nsP2 were expressed by several E. coli strains and followed by the&#xD;&#xA;optimization of their purifications. Analytical ultracentrifugation experiments and size&#xD;&#xA;exclusion chromatography were performed for the ZIKV and DENV protease, where a&#xD;&#xA;protein dimer was encountered. Fluorescence spectroscopy analysis of ZIKV protease in&#xD;&#xA;the presence of aprotinin demonstrated fluorescence intensity reduction possibly by the&#xD;&#xA;increase of Trp50 solvent accessibility, which could be explained by dimer dissociation.&#xD;&#xA;So far, crystal screening and refinement of the proteases yielded crystals with poor quality,&#xD;&#xA;preventing structure solution. Inhibition assays with DENV inhibitors for ZIKV NS3&#xD;&#xA;protease were performed and demonstrated inhibitory capacity of the ZIKV protein. In&#xD;&#xA;addition, the MAYV protein homology modeling, docking of the CHIK and MAYV nsP2&#xD;&#xA;cleavage site peptides and molecular dynamics of the best docking poses were performed.&#xD;&#xA;In docking experiments, it was observed that best scored poses had the substrate P2&#xD;&#xA;glicine, a highly conserved residue in Alphavirus, placed in a narrow cleft at the protein&#xD;&#xA;surface. This arrangement possibly helps to position the substrate carbonyl carbon near&#xD;&#xA;the sulfur atom of the deprotonated catalytic cysteine, thus facilitating the nucleophilic&#xD;&#xA;attack, the first step of polypeptide chain cleavage. Moreover, this contact stabilizes&#xD;&#xA;dihedral angles χ1 and χ2 of the active site residues." xml:lang="pt_BR" />
+<meta name="DC.contributor" content="jonatascbl@gmail.com" xml:lang="pt_BR" />
+<meta name="DC.description" content="Instituto de Ciências Biológicas (IB)" xml:lang="pt_BR" />
+<meta name="DC.description" content="Departamento de Biologia Celular (IB CEL)" xml:lang="pt_BR" />
+<meta name="DC.description" content="Programa de Pós-Graduação em Biologia Molecular" xml:lang="pt_BR" />
+
+<meta name="citation_keywords" content="Tese" />
+<meta name="citation_title" content="Análises estruturais e de modelos de interação das proteases NS3 dos Flavivirus zika e dengue, e nsP2 dos Alphavirus chikungunya e mayaro utilizando ferramentas in silico e in vitro" />
+<meta name="citation_language" content="por" />
+<meta name="citation_author" content="Lima, Jônatas Cunha Barbosa" />
+<meta name="citation_pdf_url" content="http://repositorio.unb.br/bitstream/10482/43728/1/2022_J%c3%b4natasCunhaBarbosaLima.pdf" />
+<meta name="citation_date" content="2022-05-17" />
+<meta name="citation_abstract_html_url" content="http://repositorio.unb.br/handle/10482/43728" />
+
+
+        
+        <script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="/static/js/acessibilidade.js"> </script>
+		<script type="text/javascript" src="/static/js/jquery.jfontsize-1.0.min.js"> </script>
+		<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+        <script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+        <script type='text/javascript' src='/static/js/holder.js'></script>
+        <script type="text/javascript" src="/utils.js"></script>
+        <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+		<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+		<script type="text/javascript" src="/static/js/chartjs-1-0-1-beta2/Chart.js"></script>
+		
+
+
+    
+    
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-105302658-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    
+
+
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+
+	
+	
+
+
+<!-- Matomo -->
+	<script type="text/javascript">
+	   var _paq = window._paq || [];
+	   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	   _paq.push(['trackPageView']);
+	   _paq.push(['enableLinkTracking']);
+	   (function() {
+	     var u="https://estatisticas.bce.unb.br/";
+	      _paq.push(['setTrackerUrl', u+'matomo.php']);
+	      _paq.push(['setSiteId', '2']);
+	      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	    })();
+	</script>
+	<!-- End Matomo Code -->
+
+
+
+
+
+
+    </head>
+
+    
+    
+    <body class="undernavigation">
+
+
+
+<a class="sr-only" href="#content">Skip navigation</a>
+
+
+
+<header class="navbar navbar-inverse navbar-fixed-top">    
+
+
+
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+	</button> 
+	<a class="navbar-brand" href="http://unb.br/" target="_blank"><img height="25" src="/image/logo_unb1.png" aria="Universidade de Brasília" title="Universidade de Brasília" alt="Universidade de Brasília"/></a> 
+</div>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('body').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.list-group-item-heading').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.table').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.list-group-item').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.btn-default').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.btn-success').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.btn-primary').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+    
+<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+    <div id="barra-acessibilidade">
+		<ul class="nav navbar-nav">
+		    <li><a href="/" aria='Página inicial' title='Página inicial'> <span class="glyphicon glyphicon-home"></span>   </a></li>
+        	<li><a href="/community-list" title='Comunidades e Coleções' aria='Comunidades e Coleções'>Comunidades e Coleções</a></li>
+			
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" title='Navegar'>Navegar <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+               					
+					
+				
+					
+				      	<li><a href="/browse?type=author" title='Autor'>Autor</a></li>
+					
+				      	<li><a href="/browse?type=advisor" title='Orientador'>Orientador</a></li>
+					
+				      	<li><a href="/browse?type=advisorco" title='Coorientador'>Coorientador</a></li>
+					
+				      	<li><a href="/browse?type=title" title='Título'>Título</a></li>
+					
+				      	<li><a href="/browse?type=subject" title='Assunto'>Assunto</a></li>
+					
+				      	<li><a href="/browse?type=type" title='Tipo'>Tipo</a></li>
+					
+				      	<li><a href="/browse?type=dateissued" title='Data de publicação'>Data de publicação</a></li>
+					
+				      	<li><a href="/browse?type=unidade" title='Unidade Acadêmica'>Unidade Acadêmica</a></li>
+					
+				      	<li><a href="/browse?type=ppg" title='Programa de pós-graduação'>Programa de pós-graduação</a></li>
+					
+				    
+					
+
+				</ul>
+            </li>
+		  
+			<li class="dropdown" title="Documentos" aria="Documentos"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentos<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+				<li title="Portaria n.13 CAPES" alt="Portaria n.13 CAPES"><a href="#" onclick="window.open('/documentos/Portaria_N13_CAPES.pdf');">Portaria n.13 CAPES</a></li>
+                <li title="Resolução - Política de Informação do RIUnB" alt="Resolução - Política de Informação do RIUnB"><a href="#" onclick="window.open('/documentos/Resolucao_da_Politica_de_Informacao_do_RIUnB.pdf');">Resolução - Política de Informação do RIUnB</a></li>
+                <li title="Resolução VRT n.27-2014 - Alteração de Teses e Dissertações" alt="Resolução VRT n.27-2014 - Alteração de Teses e Dissertações"><a href="#" onclick="window.open('/documentos/Resolucao_VRT_N27-2014_-_Alteracao_de_Teses_e_Dissertacoes.pdf');">Resolução VRT n.27-2014 - Alteração de Teses e Dissertações</a></li>
+                <li title="Creative Commons" alt="Creative Commons"><a href="#" onclick="window.open('/documentos/Creative_Commons.pdf');">Creative Commons</a></li>
+                <li title="Termo de Autorização - Teses e Dissertações" alt="Termo de Autorização - Teses e Dissertações"><a href="#" onclick="window.open('/documentos/Termo_de_Autorizacao_-_Teses_e_Dissertacoes.pdf');">Termo de Autorização - Teses e Dissertações</a></li>
+                <li title="Termo de Autorização - Artigos e Outros" alt="Termo de Autorização - Artigos e Outros"><a href="#" onclick="window.open('/documentos/Termo_de_Autorizacao_-_Artigos_e_Outros.pdf');">Termo de Autorização - Artigos e Outros</a></li>
+                <li title="Modelo de Justificativa - Publicação Parcial" alt="Modelo de Justificativa - Publicação Parcial"><a href="#" onclick="window.open('/documentos/Modelo_de_Justificativa_-_Pedido_de_Parcial.pdf');">Modelo de Justificativa - Publicação Parcial</a></li>
+                <li title="Modelo de Justificativa - Extensão de Prazo" alt="Modelo de Justificativa - Extensão de Prazo"><a href="#" onclick="window.open('/documentos/Modelo_de_Justificativa_-_Extensao_de_Prazo.pdf');">Modelo de Justificativa - Extensão de Prazo</a></li>
+				
+				</ul>
+			</li>
+
+			<li class="nav navbar-nav navbar"></li>
+			<li title="Atalhos" aria="Atalhos" aria="Atalhos"><a href="/jspui/documentos/atalhos.jsp"><span class="glyphicon glyphicon-random"></span></a></li>
+			<li><a href="#" class="font" id="jfontsize-minus" title="Diminuir tamanho da fonte">A-</a></li>
+			<li><a href="#" class="font" id="jfontsize-default" title="Retornar para a fonte padrão">A</a></li>
+			<li><a href="#" class="font" id="jfontsize-plus" title="Aumentar tamanho da fonte" >A+</a></li>
+		</ul>
+	</div>
+	
+			<!--
+
+				
+					<div class="nav navbar-nav navbar-right">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+							<a title="Idiomas" href="#" class="dropdown-toggle" data-toggle="dropdown">Idiomas:<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+					
+						<li>
+						<a title='français' onclick="javascript:document.repost.locale.value='fr';
+						document.repost.submit();" href="http://repositorio.unb.br/handle/10482/43728?locale=fr">
+						français
+						</a>
+						</li>
+					
+						<li>
+						<a title='español' onclick="javascript:document.repost.locale.value='es';
+						document.repost.submit();" href="http://repositorio.unb.br/handle/10482/43728?locale=es">
+						español
+						</a>
+						</li>
+					
+						<li>
+						<a title='English' onclick="javascript:document.repost.locale.value='en';
+						document.repost.submit();" href="http://repositorio.unb.br/handle/10482/43728?locale=en">
+						English
+						</a>
+						</li>
+					
+						<li>
+						<a title='português' onclick="javascript:document.repost.locale.value='pt_BR';
+						document.repost.submit();" href="http://repositorio.unb.br/handle/10482/43728?locale=pt_BR">
+						português
+						</a>
+						</li>
+					
+							</ul>
+							</li>
+						</ul>
+					</div>
+				
+ 
+			-->
+			
+		<ul class="nav navbar-nav navbar-right">
+			<li>
+				<div style="padding-top:12px;padding-left:30px;">
+					<a onclick="javascript:document.repost.locale.value='pt_BR'; document.repost.submit();" href="?locale=pt_BR"><img height="25" src="/image/br.png" class="flag" alt="Português" title="Português"></a>
+					<a onclick="javascript:document.repost.locale.value='en'; document.repost.submit();" href="?locale=en"><img height="25" src="/image/us.png" class="flag" alt="English" title="English"></a>
+					<a onclick="javascript:document.repost.locale.value='es'; document.repost.submit();" href="?locale=es"><img height="25" src="/image/es.png" class="flag" alt="Español" title="Español"></a>
+					<a onclick="javascript:document.repost.locale.value='fr'; document.repost.submit();" href="?locale=fr"><img height="25" src="/image/fr.png" class="flag" alt="Français" title="Français"></a>
+				</div>
+			</li>
+		</ul>
+ 
+    <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+        <li class="dropdown" aria="Entrar" title="Entrar">
+        
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Entrar em: <b class="caret"></b></a>
+		             
+            <ul class="dropdown-menu">
+				<li title='Meu espaço'><a href="/mydspace">Meu espaço</a></li>
+				<li title='Receber atualizações por e-mail'><a href="/subscribe">Receber atualizações por e-mail</a></li>
+				<li title='Editar perfil'><a href="/profile">Editar perfil</a></li>
+		
+            </ul>
+					</li>
+        </ul>
+    </div>
+</nav>
+
+            </div>
+
+
+</header>
+
+
+
+<!--
+
+<main id="content" role="main">
+<div class="container banner">
+    <div class="row">
+        <div class="col-md-9 brand">
+            <h1>DSpace <small>JSPUI</small></h1>
+            <h4>O DSpace preserva e provê acesso fácil e aberto a todos os tipos de objetos digitais, incluindo: textos, imagens, vídeos e conjuntos de dados</h4> <a href="http://www.dspace.org"><button class="btn btn-primary">Saiba mais</button></a> 
+        </div>
+        <div class="col-md-3"><img class="pull-right" src="/image/logo.gif" alt="DSpace logo" />
+        </div>
+    </div>
+</div>
+<br/>
+
+-->
+                
+
+<div class="container">
+    
+
+
+
+  
+
+
+<div class="row">
+
+  <div title="Voltar" class="col-md-2">
+    <button class="btn btn-primary btn-block" id="btn-voltar" onclick="window.history.back();">
+       Voltar
+    </button>
+  </div>
+
+
+  <div class="col-md-10">
+    <ol class="breadcrumb btn-success" id="btn-navigation">
+    
+      <li title="Repositório Institucional da UnB"><a href="/">Repositório Institucional da UnB</a></li>
+    
+      <li title="Produção Acadêmica e Científica"><a href="/handle/10482/45725">Produção Acadêmica e Científica</a></li>
+    
+      <li title="Teses, dissertações e produtos pós-doutorado"><a href="/handle/10482/45731">Teses, dissertações e produtos pós-doutorado</a></li>
+    
+    </ol>
+  </div>
+
+</div>
+
+
+
+
+</div>                
+
+
+
+        
+<div class="container">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div title="Use este identificador para citar ou linkar para este item:" class="well">Use este identificador para citar ou linkar para este item:
+                <code title='http://repositorio.unb.br/handle/10482/43728'>http://repositorio.unb.br/handle/10482/43728</code></div>
+
+
+
+
+
+    
+ 
+    
+    <div class="panel panel-info"><div class="panel-heading">Arquivos associados a este item:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Arquivo</th>
+<th id="t2" class="standard">Descrição</th>
+<th id="t3" class="standard">Tamanho</th><th id="t4" class="standard">Formato</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard break-all"><a target="_blank" href="/bitstream/10482/43728/1/2022_J%c3%b4natasCunhaBarbosaLima.pdf">2022_JônatasCunhaBarbosaLima.pdf</a></td><td headers="t2" class="standard break-all"></td><td headers="t3" class="standard">9,94 MB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/10482/43728/1/2022_J%c3%b4natasCunhaBarbosaLima.pdf">Visualizar/Abrir</a></td></tr></table>
+</div>
+<table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel dc_title">Título:&nbsp;</td><td class="metadataFieldValue dc_title">Análises&#x20;estruturais&#x20;e&#x20;de&#x20;modelos&#x20;de&#x20;interação&#x20;das&#x20;proteases&#x20;NS3&#x20;dos&#x20;Flavivirus&#x20;zika&#x20;e&#x20;dengue,&#x20;e&#x20;nsP2&#x20;dos&#x20;Alphavirus&#x20;chikungunya&#x20;e&#x20;mayaro&#x20;utilizando&#x20;ferramentas&#x20;in&#x20;silico&#x20;e&#x20;in&#x20;vitro</td></tr>
+<tr><td class="metadataFieldLabel dc_contributor_author">Autor(es):&nbsp;</td><td class="metadataFieldValue dc_contributor_author"><a class="author"href="/browse?type=author&amp;value=Lima%2C+J%C3%B4natas+Cunha+Barbosa">Lima,&#x20;Jônatas&#x20;Cunha&#x20;Barbosa</a></td></tr>
+<tr><td class="metadataFieldLabel dc_contributor_email">E-mail do autor:&nbsp;</td><td class="metadataFieldValue dc_contributor_email"><a href="jonatascbl@gmail.com">jonatascbl@gmail.com</a></td></tr>
+<tr><td class="metadataFieldLabel dc_contributor_advisor">Orientador(es):&nbsp;</td><td class="metadataFieldValue dc_contributor_advisor"><a class="advisor"href="/browse?type=advisor&amp;value=Barbosa%2C+Jo%C3%A3o+Alexandre+Ribeiro+Gon%C3%A7alves">Barbosa,&#x20;João&#x20;Alexandre&#x20;Ribeiro&#x20;Gonçalves</a></td></tr>
+<tr><td class="metadataFieldLabel dc_subject_keyword">Assunto:&nbsp;</td><td class="metadataFieldValue dc_subject_keyword"><a class="subject"href="/browse?type=subject&amp;value=Arbov%C3%ADrus">Arbovírus</a><br /><a class="subject"href="/browse?type=subject&amp;value=Proteases">Proteases</a><br /><a class="subject"href="/browse?type=subject&amp;value=Inibidores">Inibidores</a></td></tr>
+<tr><td class="metadataFieldLabel dc_date_issued">Data de publicação:&nbsp;</td><td class="metadataFieldValue dc_date_issued">17-Mai-2022</td></tr>
+<tr><td class="metadataFieldLabel dc_date_submitted">Data de defesa:&nbsp;</td><td class="metadataFieldValue dc_date_submitted">14-Jan-2022</td></tr>
+<tr><td class="metadataFieldLabel dc_identifier_citation">Referência:&nbsp;</td><td class="metadataFieldValue dc_identifier_citation">LIMA,&#x20;Jônatas&#x20;Cunha&#x20;Barbosa.&#x20;Análises&#x20;estruturais&#x20;e&#x20;de&#x20;modelos&#x20;de&#x20;interação&#x20;das&#x20;proteases&#x20;NS3&#x20;dos&#x20;Flavivirus&#x20;zika&#x20;e&#x20;dengue,&#x20;e&#x20;nsP2&#x20;dos&#x20;Alphavirus&#x20;chikungunya&#x20;e&#x20;mayaro&#x20;utilizando&#x20;ferramentas&#x20;in&#x20;silico&#x20;e&#x20;in&#x20;vitro.&#x20;2022.&#x20;151&#x20;f.,&#x20;il.&#x20;Tese&#x20;(Doutorado&#x20;em&#x20;Biologia&#x20;Molecular)&#x20;—&#x20;Universidade&#x20;de&#x20;Brasília,&#x20;Brasília,&#x20;2022.</td></tr>
+<tr><td class="metadataFieldLabel dc_description_abstract">Resumo:&nbsp;</td><td class="metadataFieldValue dc_description_abstract">Os&#x20;arbovírus&#x20;(Arthropod-borne&#x20;virus)&#x20;são&#x20;uma&#x20;classificação&#x20;que&#x20;compreende&#x20;grupos&#x20;virais&#x0D;&#x0A;cuja&#x20;transmissão&#x20;é&#x20;realizada&#x20;por&#x20;vetores&#x20;artrópodes&#x20;que&#x20;infectam&#x20;vertebrados.&#x20;Dentre&#x0D;&#x0A;esses,&#x20;alguns&#x20;arbovírus&#x20;têm&#x20;se&#x20;mostrado&#x20;de&#x20;grande&#x20;relevância,&#x20;devido&#x20;ao&#x20;grande&#x20;número&#x0D;&#x0A;de&#x20;infecções,&#x20;como&#x20;os&#x20;Flavivirus&#x20;dengue&#x20;(DENV)&#x20;e&#x20;o&#x20;zika&#x20;(ZIKV),&#x20;e&#x20;os&#x20;Alphavirus&#x0D;&#x0A;chikungunya&#x20;(CHIK)&#x20;e&#x20;o&#x20;mayaro&#x20;(MAYV),&#x20;sendo&#x20;que&#x20;todos&#x20;carecem&#x20;de&#x20;estudos&#x0D;&#x0A;estruturais&#x20;mais&#x20;aprofundados&#x20;objetivando&#x20;tanto&#x20;um&#x20;maior&#x20;conhecimento&#x20;da&#x20;biologia&#x0D;&#x0A;molecular&#x20;destes,&#x20;quanto&#x20;visando&#x20;possíveis&#x20;alvos&#x20;para&#x20;novos&#x20;fármacos.&#x20;Dentre&#x20;as&#x0D;&#x0A;possíveis&#x20;proteínas&#x20;alvo,&#x20;as&#x20;proteases&#x20;virais&#x20;têm&#x20;se&#x20;mostrado&#x20;excelentes&#x20;alvos.&#x20;Estas&#x0D;&#x0A;proteínas&#x20;(NS3&#x20;nos&#x20;Flavivirus&#x20;e&#x20;nsP2&#x20;nos&#x20;Alphavirus)&#x20;possuem&#x20;a&#x20;função&#x20;de&#x20;clivar&#x0D;&#x0A;determinadas&#x20;regiões&#x20;da&#x20;poliproteína&#x20;viral&#x20;sendo&#x20;essenciais&#x20;para&#x20;a&#x20;replicação.&#x20;O&#x20;objetivo&#x0D;&#x0A;do&#x20;presente&#x20;trabalho&#x20;é&#x20;realizar&#x20;análises&#x20;in&#x20;silico&#x20;e&#x20;in&#x20;vitro&#x20;das&#x20;proteases&#x20;dos&#x20;arbovírus&#x0D;&#x0A;ZIKV,&#x20;DENV,&#x20;CHIK&#x20;e&#x20;MAYV&#x20;visando&#x20;uma&#x20;melhor&#x20;compreensão&#x20;estrutural&#x20;das&#x20;proteases&#x20;e&#x0D;&#x0A;da&#x20;interação&#x20;com&#x20;inibidores&#x20;e&#x20;substratos.&#x20;Os&#x20;genes&#x20;da&#x20;NS3&#x20;de&#x20;ZIKV&#x20;e&#x20;DENV,&#x20;e&#x20;nsP2&#x20;de&#x0D;&#x0A;MAYV&#x20;e&#x20;CHIK&#x20;foram&#x20;expressos&#x20;em&#x20;diversas&#x20;cepas&#x20;de&#x20;E.&#x20;coli&#x20;e&#x20;passaram&#x20;por&#x20;diversas&#x0D;&#x0A;etapas&#x20;de&#x20;otimização&#x20;de&#x20;purificação.&#x20;Realizou-se&#x20;ultracentrifugação&#x20;analítica&#x20;e&#x0D;&#x0A;cromatografia&#x20;por&#x20;exclusão&#x20;molecular&#x20;das&#x20;proteases&#x20;de&#x20;ZIKV&#x20;e&#x20;DENV,&#x20;que&#x20;apontaram&#x0D;&#x0A;uma&#x20;possível&#x20;formação&#x20;de&#x20;dímero.&#x20;Análises&#x20;de&#x20;espectroscopia&#x20;de&#x20;fluorescência&#x20;da&#x20;NS3&#x0D;&#x0A;de&#x20;ZIKV&#x20;em&#x20;presença&#x20;de&#x20;aprotinina&#x20;demonstraram&#x20;uma&#x20;redução&#x20;na&#x20;intensidade&#x20;de&#x0D;&#x0A;fluorescência&#x20;possivelmente&#x20;por&#x20;maior&#x20;exposição&#x20;do&#x20;Trp50&#x20;ao&#x20;solvente,&#x20;que&#x20;poderia&#x20;ser&#x0D;&#x0A;explicada&#x20;pela&#x20;dissociação&#x20;dos&#x20;dímeros.&#x20;Screening&#x20;e&#x20;refinamento&#x20;da&#x20;cristalização&#x20;de&#x20;das&#x0D;&#x0A;proteases&#x20;NS3&#x20;estudadas&#x20;apresentaram&#x20;condições&#x20;onde&#x20;havia&#x20;formação&#x20;de&#x20;cristal&#x20;de&#x0D;&#x0A;proteína,&#x20;todavia&#x20;não&#x20;foram&#x20;obtidos&#x20;cristais&#x20;que&#x20;permitissem&#x20;a&#x20;resolução&#x20;da&#x20;estrutura.&#x0D;&#x0A;Foram&#x20;realizados&#x20;ensaios&#x20;de&#x20;inibição&#x20;da&#x20;NS3&#x20;de&#x20;ZIKV&#x20;com&#x20;inibidores&#x20;da&#x20;protease&#x0D;&#x0A;homóloga&#x20;DENV,&#x20;os&#x20;quais&#x20;apresentaram&#x20;capacidade&#x20;inibitória&#x20;também&#x20;para&#x20;esta&#x20;proteína&#x0D;&#x0A;de&#x20;ZIKV.&#x20;Além&#x20;disso,&#x20;realizou-se&#x20;a&#x20;modelagem&#x20;por&#x20;homologia&#x20;da&#x20;protease&#x20;do&#x20;MAYV,&#x0D;&#x0A;docking&#x20;com&#x20;peptídeos&#x20;que&#x20;possuem&#x20;os&#x20;sítios&#x20;de&#x20;clivagem&#x20;das&#x20;nsP2&#x20;de&#x20;CHIK&#x20;e&#x20;MAYV&#x20;e&#x0D;&#x0A;dinâmica&#x20;das&#x20;principais&#x20;poses.&#x20;Neste&#x20;experimento&#x20;observou-se&#x20;que&#x20;as&#x20;poses&#x20;com&#x0D;&#x0A;melhores&#x20;scores&#x20;apresentavam&#x20;semelhante&#x20;posicionamento&#x20;de&#x20;uma&#x20;glicina,&#x20;altamente&#x0D;&#x0A;conservada&#x20;na&#x20;posição&#x20;P2&#x20;de&#x20;substratos&#x20;de&#x20;nsP2&#x20;de&#x20;Alphavirus,&#x20;em&#x20;uma&#x20;fissura&#x20;estreita.&#x0D;&#x0A;Este&#x20;posicionamento&#x20;possivelmente&#x20;auxilia&#x20;no&#x20;posicionamento&#x20;do&#x20;carbono&#x20;da&#x20;carbonila&#x20;do&#x0D;&#x0A;substrato&#x20;próximo&#x20;ao&#x20;enxofre&#x20;da&#x20;cisteína&#x20;catalítica&#x20;desprotonada&#x20;facilitando&#x20;o&#x20;ataque&#x0D;&#x0A;nucleofílico,&#x20;uma&#x20;das&#x20;primeiras&#x20;etapas&#x20;para&#x20;a&#x20;quebra&#x20;da&#x20;cadeia&#x20;polipeptídica.&#x20;Além&#x20;disso,&#x20;estabiliza&#x20;os&#x20;ângulos&#x20;diedros&#x20;χ1&#x20;e&#x20;χ2&#x20;dos&#x20;resíduos&#x20;que&#x20;compõe&#x20;o&#x20;sítio&#x20;catalítico.</td></tr>
+<tr><td class="metadataFieldLabel dc_description_abstract1">Abstract:&nbsp;</td><td class="metadataFieldValue dc_description_abstract1">The&#x20;arbovirus&#x20;(Arthropod-borne&#x20;virus)&#x20;are&#x20;a&#x20;classification&#x20;that&#x20;comprise&#x20;viral&#x20;groups&#x20;whose&#x0D;&#x0A;transmission&#x20;is&#x20;performed&#x20;by&#x20;Arthropod&#x20;vectors&#x20;infecting&#x20;vertebrate&#x20;hosts.&#x20;Among&#x20;the&#x0D;&#x0A;arbovirus,&#x20;dengue&#x20;virus&#x20;(DENV)&#x20;and&#x20;zika&#x20;virus&#x20;(ZIKV)&#x20;of&#x20;the&#x20;family&#x20;Flaviviridae&#x20;and&#x20;gender&#x0D;&#x0A;Flavivirus,&#x20;and&#x20;chikungunya&#x20;virus&#x20;(CHIK)&#x20;and&#x20;mayaro&#x20;virus&#x20;(MAYV)&#x20;of&#x20;the&#x20;family&#x0D;&#x0A;Togaviridae&#x20;and&#x20;gender&#x20;Alphavirus,&#x20;have&#x20;shown&#x20;great&#x20;relevance&#x20;due&#x20;to&#x20;the&#x20;large&#x20;number&#x0D;&#x0A;of&#x20;human&#x20;infecting&#x20;cases.&#x20;All&#x20;these&#x20;viruses&#x20;require&#x20;deeper&#x20;structural&#x20;studies&#x20;aiming&#x20;at&#x20;a&#x0D;&#x0A;much&#x20;bigger&#x20;knowledge&#x20;of&#x20;their&#x20;molecular&#x20;biology&#x20;to&#x20;develop&#x20;new&#x20;drugs&#x20;able&#x20;to&#x20;counteract&#x0D;&#x0A;their&#x20;diseases.&#x20;Among&#x20;the&#x20;protein&#x20;targets,&#x20;the&#x20;viral&#x20;proteases&#x20;have&#x20;been&#x20;recognized&#x20;as&#x0D;&#x0A;excellent&#x20;candidates.&#x20;The&#x20;proteins&#x20;(NS3&#x20;of&#x20;Flavivirus&#x20;and&#x20;nsP2&#x20;of&#x20;Alphavirus)&#x20;have&#x20;a&#x0D;&#x0A;cleavage&#x20;function&#x20;in&#x20;specific&#x20;regions&#x20;of&#x20;the&#x20;viral&#x20;polyprotein,&#x20;therefore&#x20;they&#x20;are&#x20;essential&#x20;to&#x0D;&#x0A;viral&#x20;replication.&#x20;The&#x20;purpose&#x20;of&#x20;this&#x20;work&#x20;is&#x20;to&#x20;perform&#x20;in&#x20;silico&#x20;and&#x20;in&#x20;vitro&#x20;experiments&#x20;of&#x0D;&#x0A;ZIKV,&#x20;DENV,&#x20;CHIK&#x20;and&#x20;MAYV&#x20;proteases&#x20;aiming&#x20;at&#x20;a&#x20;better&#x20;understanding&#x20;of&#x20;the&#x20;structure&#x0D;&#x0A;and&#x20;their&#x20;interaction&#x20;with&#x20;inhibitors&#x20;and&#x20;substrates.&#x20;The&#x20;genes&#x20;of&#x20;ZIKV&#x20;and&#x20;DENV&#x20;NS3&#x0D;&#x0A;and,&#x20;MAYV&#x20;and&#x20;CHIK&#x20;nsP2&#x20;were&#x20;expressed&#x20;by&#x20;several&#x20;E.&#x20;coli&#x20;strains&#x20;and&#x20;followed&#x20;by&#x20;the&#x0D;&#x0A;optimization&#x20;of&#x20;their&#x20;purifications.&#x20;Analytical&#x20;ultracentrifugation&#x20;experiments&#x20;and&#x20;size&#x0D;&#x0A;exclusion&#x20;chromatography&#x20;were&#x20;performed&#x20;for&#x20;the&#x20;ZIKV&#x20;and&#x20;DENV&#x20;protease,&#x20;where&#x20;a&#x0D;&#x0A;protein&#x20;dimer&#x20;was&#x20;encountered.&#x20;Fluorescence&#x20;spectroscopy&#x20;analysis&#x20;of&#x20;ZIKV&#x20;protease&#x20;in&#x0D;&#x0A;the&#x20;presence&#x20;of&#x20;aprotinin&#x20;demonstrated&#x20;fluorescence&#x20;intensity&#x20;reduction&#x20;possibly&#x20;by&#x20;the&#x0D;&#x0A;increase&#x20;of&#x20;Trp50&#x20;solvent&#x20;accessibility,&#x20;which&#x20;could&#x20;be&#x20;explained&#x20;by&#x20;dimer&#x20;dissociation.&#x0D;&#x0A;So&#x20;far,&#x20;crystal&#x20;screening&#x20;and&#x20;refinement&#x20;of&#x20;the&#x20;proteases&#x20;yielded&#x20;crystals&#x20;with&#x20;poor&#x20;quality,&#x0D;&#x0A;preventing&#x20;structure&#x20;solution.&#x20;Inhibition&#x20;assays&#x20;with&#x20;DENV&#x20;inhibitors&#x20;for&#x20;ZIKV&#x20;NS3&#x0D;&#x0A;protease&#x20;were&#x20;performed&#x20;and&#x20;demonstrated&#x20;inhibitory&#x20;capacity&#x20;of&#x20;the&#x20;ZIKV&#x20;protein.&#x20;In&#x0D;&#x0A;addition,&#x20;the&#x20;MAYV&#x20;protein&#x20;homology&#x20;modeling,&#x20;docking&#x20;of&#x20;the&#x20;CHIK&#x20;and&#x20;MAYV&#x20;nsP2&#x0D;&#x0A;cleavage&#x20;site&#x20;peptides&#x20;and&#x20;molecular&#x20;dynamics&#x20;of&#x20;the&#x20;best&#x20;docking&#x20;poses&#x20;were&#x20;performed.&#x0D;&#x0A;In&#x20;docking&#x20;experiments,&#x20;it&#x20;was&#x20;observed&#x20;that&#x20;best&#x20;scored&#x20;poses&#x20;had&#x20;the&#x20;substrate&#x20;P2&#x0D;&#x0A;glicine,&#x20;a&#x20;highly&#x20;conserved&#x20;residue&#x20;in&#x20;Alphavirus,&#x20;placed&#x20;in&#x20;a&#x20;narrow&#x20;cleft&#x20;at&#x20;the&#x20;protein&#x0D;&#x0A;surface.&#x20;This&#x20;arrangement&#x20;possibly&#x20;helps&#x20;to&#x20;position&#x20;the&#x20;substrate&#x20;carbonyl&#x20;carbon&#x20;near&#x0D;&#x0A;the&#x20;sulfur&#x20;atom&#x20;of&#x20;the&#x20;deprotonated&#x20;catalytic&#x20;cysteine,&#x20;thus&#x20;facilitating&#x20;the&#x20;nucleophilic&#x0D;&#x0A;attack,&#x20;the&#x20;first&#x20;step&#x20;of&#x20;polypeptide&#x20;chain&#x20;cleavage.&#x20;Moreover,&#x20;this&#x20;contact&#x20;stabilizes&#x0D;&#x0A;dihedral&#x20;angles&#x20;χ1&#x20;and&#x20;χ2&#x20;of&#x20;the&#x20;active&#x20;site&#x20;residues.</td></tr>
+<tr><td class="metadataFieldLabel dc_description_unidade">Unidade Acadêmica:&nbsp;</td><td class="metadataFieldValue dc_description_unidade"><a class="unidade"href="/browse?type=unidade&amp;value=Instituto+de+Ci%C3%AAncias+Biol%C3%B3gicas+%28IB%29">Instituto&#x20;de&#x20;Ciências&#x20;Biológicas&#x20;(IB)</a><br /><a class="unidade"href="/browse?type=unidade&amp;value=Departamento+de+Biologia+Celular+%28IB+CEL%29">Departamento&#x20;de&#x20;Biologia&#x20;Celular&#x20;(IB&#x20;CEL)</a></td></tr>
+<tr><td class="metadataFieldLabel dc_description">Informações adicionais:&nbsp;</td><td class="metadataFieldValue dc_description">Tese&#x20;(doutorado)&#x20;—&#x20;Universidade&#x20;de&#x20;Brasília,&#x20;Instituto&#x20;de&#x20;Ciências&#x20;Biológicas,&#x20;Departamento&#x20;de&#x20;Biologia&#x20;Celular,&#x20;Programa&#x20;de&#x20;Pós-Graduação&#x20;em&#x20;Biologia&#x20;Molecular,&#x20;2022.</td></tr>
+<tr><td class="metadataFieldLabel dc_description_ppg">Programa de pós-graduação:&nbsp;</td><td class="metadataFieldValue dc_description_ppg"><a class="ppg"href="/browse?type=ppg&amp;value=Programa+de+P%C3%B3s-Gradua%C3%A7%C3%A3o+em+Biologia+Molecular">Programa&#x20;de&#x20;Pós-Graduação&#x20;em&#x20;Biologia&#x20;Molecular</a></td></tr>
+<tr><td class="metadataFieldLabel dc_rights_license">Licença:&nbsp;</td><td class="metadataFieldValue dc_rights_license">A&#x20;concessão&#x20;da&#x20;licença&#x20;deste&#x20;item&#x20;refere-se&#x20;ao&#x20;termo&#x20;de&#x20;autorização&#x20;impresso&#x20;assinado&#x20;pelo&#x20;autor&#x20;com&#x20;as&#x20;seguintes&#x20;condições:Na&#x20;qualidade&#x20;de&#x20;titular&#x20;dos&#x20;direitos&#x20;de&#x20;autor&#x20;da&#x20;publicação,&#x20;autorizo&#x20;a&#x20;Universidade&#x20;de&#x20;Brasília&#x20;e&#x20;o&#x20;IBICT&#x20;a&#x20;disponibilizar&#x20;por&#x20;meio&#x20;dos&#x20;sites&#x20;www.bce.unb.br,&#x20;www.ibict.br,&#x20;http:&#x2F;&#x2F;hercules.vtls.com&#x2F;cgi-bin&#x2F;ndltd&#x2F;chameleon?lng=pt&amp;skin=ndltd&#x20;sem&#x20;ressarcimento&#x20;dos&#x20;direitos&#x20;autorais,&#x20;de&#x20;acordo&#x20;com&#x20;a&#x20;Lei&#x20;nº&#x20;9610&#x2F;98,&#x20;o&#x20;texto&#x20;integral&#x20;da&#x20;obra&#x20;disponibilizada,&#x20;conforme&#x20;permissões&#x20;assinaladas,&#x20;para&#x20;fins&#x20;de&#x20;leitura,&#x20;impressão&#x20;e&#x2F;ou&#x20;download,&#x20;a&#x20;título&#x20;de&#x20;divulgação&#x20;da&#x20;produção&#x20;científica&#x20;brasileira,&#x20;a&#x20;partir&#x20;desta&#x20;data.</td></tr>
+<tr><td class="metadataFieldLabel dc_description_sponsorship">Agência financiadora:&nbsp;</td><td class="metadataFieldValue dc_description_sponsorship">Conselho&#x20;Nacional&#x20;de&#x20;Desenvolvimento&#x20;Científico&#x20;e&#x20;Tecnológico&#x20;(CNPq).</td></tr>
+<tr><td class="metadataFieldLabel">Aparece nas coleções:</td><td class="metadataFieldValue"><a href="/handle/10482/45731">Teses, dissertações e produtos pós-doutorado</a><br/></td></tr>
+</table><br/>
+<center><object data="http://repositorio.unb.br/bitstream/10482/43728/1/2022_J%c3%b4natasCunhaBarbosaLima.pdf" type="application/pdf" width="100%" height="400px"></object></center>
+
+
+    
+    <div class="container row">
+
+
+    <a title="Mostrar registro completo do item" class="btn btn-default" href="/handle/10482/43728?mode=full">
+        Mostrar registro completo do item
+    </a>
+
+    <a title="Visualizar estatísticas" class="statisticsLink  btn btn-primary" href="/handle/10482/43728/statistics">Visualizar estatísticas</a>
+
+
+    <h1> </h1> 
+	
+	
+
+ 
+
+
+
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p title="Os itens no repositório estão protegidos por copyright, com todos os direitos reservados, salvo quando é indicado o contrário." class="submitFormHelp alert alert-info">Os itens no repositório estão protegidos por copyright, com todos os direitos reservados, salvo quando é indicado o contrário.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+
+				<footer class="navbar navbar-inverse navbar-bottom">
+					
+					<div id="rodapefull">
+						<div id="rodapeleft" class="pull-left"> 
+						
+							<p title="Universidade de Brasília - Biblioteca Central - Coordenadoria de Gestão da Informação Digital - GID - (61) 3107-2683 - repositorio@unb.br" class="text-muted">
+								Universidade de Brasília - Biblioteca Central
+								<br/>Coordenadoria de Gestão da Informação Digital - GID 
+								<br/>(61) 3107-2683 
+								<br/>repositorio@unb.br
+							</p>
+						
+						
+						
+						</div>
+						
+						<div id="rodapecenter"> 
+						
+							<div style="float:left; margin-right:10px; margin-top:10px;">
+								<a href="http://unb.br/" target="_blank"><img height="50" alt="Universidade de Brasília" title="Universidade de Brasília" src="/image/logo_unb_vertical.png" /></a>
+							</div>
+							<div style="float:left; margin-right:10px; margin-top:10px;">
+								<a href="http://ibict.br/" target="_blank"><img height="40" src="/image/logo_ibict.png" alt="Instituto Brasileiro de Informação em Ciência e Tecnologia" title="Instituto Brasileiro de Informação em Ciência e Tecnologia"/></a>
+                            </div>
+							<div style="float:left; margin-right:10px; margin-top:10px;">
+                                <a href="http://www.dspace.org/" target="_blank"><img height="50" src="/image/logo_dspace1.png" alt="DSpace" title="DSpace"/></a>
+                            </div>
+							<div style="float:left; margin-top:15px;">
+                               <a href="https://creativecommons.org/" target="_blank"><img height="30" src="/image/logo_cc.png" alt="Creative Commons" title="Creative Commons"/></a>
+                            </div>
+						
+						</div>
+						
+						<div id="rodaperight" > 
+						
+							<div id="footer_feedback" class="pull-right" style="margin-top:16px">
+                                <p class="text-muted">
+								
+									<ul class="nav navbar-nav">
+										<li title="Fale conosco"><a href="/feedback">Fale conosco</a></li>
+									</ul>	
+									<ul class="nav navbar-nav">
+										<li title="Sobre">
+                                                                           <a href="https://www.bce.unb.br/bibliotecas-digitais/repositorio/" target="_blank">Sobre</a></li>
+									</ul>
+
+								</p>
+                            </div>
+	
+						</div>
+					
+					</div>
+					
+				</footer>
+
+    </body>
+</html>
+

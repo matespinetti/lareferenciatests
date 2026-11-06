@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://archivo.revistas.ucr.ac.cr/lib/pkp/xml/oai2.xsl" ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+		http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+	<responseDate>2026-10-29T12:41:14Z</responseDate>
+	<request verb="ListRecords" metadataPrefix="oai_dc" from="2025-10-29">https://archivo.revistas.ucr.ac.cr/index.php/rbt/oai</request>
+	<error code="noRecordsMatch">No matching records in this repository</error></OAI-PMH>

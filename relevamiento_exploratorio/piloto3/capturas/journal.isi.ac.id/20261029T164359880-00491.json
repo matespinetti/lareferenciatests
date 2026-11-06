@@ -1,0 +1,45 @@
+{
+ "pedido": "20261029T164359880-00491",
+ "url": "https://journal.isi.ac.id/index.php/ars/article/download/3029/1496",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:59:42 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.39 (Ubuntu) OpenSSL/1.1.1b"
+  ],
+  [
+   "content-length",
+   "870223"
+  ],
+  [
+   "content-disposition",
+   "attachment; filename=\"3029-7359-1-PB.pdf\""
+  ],
+  [
+   "cache-control",
+   "private"
+  ],
+  [
+   "pragma",
+   "public"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "archivo"
+}

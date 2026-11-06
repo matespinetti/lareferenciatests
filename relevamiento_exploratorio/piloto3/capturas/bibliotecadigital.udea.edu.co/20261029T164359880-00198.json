@@ -1,0 +1,85 @@
+{
+ "pedido": "20261029T164359880-00198",
+ "url": "https://bibliotecadigital.udea.edu.co/server/api/core/items/00092240-5462-4530-b9c9-fa2b61b82e33/bundles?embed=bitstreams",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:49:49 GMT"
+  ],
+  [
+   "content-type",
+   "application/json;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin,Access-Control-Request-Method,Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "es,en"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "cache-control",
+   "no-cache, no-store, max-age=0, must-revalidate"
+  ],
+  [
+   "pragma",
+   "no-cache"
+  ],
+  [
+   "expires",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "permissions-policy",
+   "geolocation=(self \"https://bibliotecadigital.udea.edu.co\"), camera=(self) geolocation=(self) microphone=(self)"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "x-forwarded-port",
+   "\"443\""
+  ],
+  [
+   "x-forwarded-proto",
+   "\"https\""
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

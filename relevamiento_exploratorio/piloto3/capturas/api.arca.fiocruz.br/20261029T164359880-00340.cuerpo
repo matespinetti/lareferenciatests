@@ -1,0 +1,364 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "ca2e1a88-7e54-41ac-8545-3b7dbd65668c",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/ca2e1a88-7e54-41ac-8545-3b7dbd65668c/item"
+        },
+        "bitstreams" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/ca2e1a88-7e54-41ac-8545-3b7dbd65668c/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/ca2e1a88-7e54-41ac-8545-3b7dbd65668c/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/ca2e1a88-7e54-41ac-8545-3b7dbd65668c"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "e9309fb9-dc97-467f-854f-ad2e4d783285",
+              "uuid" : "e9309fb9-dc97-467f-854f-ad2e4d783285",
+              "name" : "ve_Lia_Augusto_etal_IAM_2023.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "ve_Lia_Augusto_etal_IAM_2023.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "ve_Lia_Augusto_etal_IAM_2023.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 1114832,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "371aaee1154a6c19c4a9030e6547f7d1"
+              },
+              "sequenceId" : 5,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/e9309fb9-dc97-467f-854f-ad2e4d783285/content"
+                },
+                "bundle" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/e9309fb9-dc97-467f-854f-ad2e4d783285/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/e9309fb9-dc97-467f-854f-ad2e4d783285/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/e9309fb9-dc97-467f-854f-ad2e4d783285/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/e9309fb9-dc97-467f-854f-ad2e4d783285/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/e9309fb9-dc97-467f-854f-ad2e4d783285"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://api.arca.fiocruz.br/api/core/bundles/ca2e1a88-7e54-41ac-8545-3b7dbd65668c/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "6309c7a8-3620-4e21-b0bb-586dc3d3b4f5",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/6309c7a8-3620-4e21-b0bb-586dc3d3b4f5/item"
+        },
+        "bitstreams" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/6309c7a8-3620-4e21-b0bb-586dc3d3b4f5/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/6309c7a8-3620-4e21-b0bb-586dc3d3b4f5/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/6309c7a8-3620-4e21-b0bb-586dc3d3b4f5"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "868c5469-ddd0-4e3f-ac97-af5375765366",
+              "uuid" : "868c5469-ddd0-4e3f-ac97-af5375765366",
+              "name" : "andriguettofilho,+Santos_Final.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2025-10-30T17:50:14Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "andriguettofilho,+Santos_Final.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 46873,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "5df39edb24ec943b3a2c613f1604568c"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/868c5469-ddd0-4e3f-ac97-af5375765366/content"
+                },
+                "bundle" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/868c5469-ddd0-4e3f-ac97-af5375765366/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/868c5469-ddd0-4e3f-ac97-af5375765366/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/868c5469-ddd0-4e3f-ac97-af5375765366/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/868c5469-ddd0-4e3f-ac97-af5375765366/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/868c5469-ddd0-4e3f-ac97-af5375765366"
+                }
+              }
+            }, {
+              "id" : "b9c5db6c-475b-48d8-bb15-1a1e8184d9e4",
+              "uuid" : "b9c5db6c-475b-48d8-bb15-1a1e8184d9e4",
+              "name" : "ve_Lia_Augusto_etal_IAM_2023.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2025-12-03T01:25:02Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "ve_Lia_Augusto_etal_IAM_2023.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 46873,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "5df39edb24ec943b3a2c613f1604568c"
+              },
+              "sequenceId" : 14,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/b9c5db6c-475b-48d8-bb15-1a1e8184d9e4/content"
+                },
+                "bundle" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/b9c5db6c-475b-48d8-bb15-1a1e8184d9e4/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/b9c5db6c-475b-48d8-bb15-1a1e8184d9e4/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/b9c5db6c-475b-48d8-bb15-1a1e8184d9e4/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/b9c5db6c-475b-48d8-bb15-1a1e8184d9e4/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/b9c5db6c-475b-48d8-bb15-1a1e8184d9e4"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 2
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://api.arca.fiocruz.br/api/core/bundles/6309c7a8-3620-4e21-b0bb-586dc3d3b4f5/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "5b29fc0d-3dfe-4446-9bf0-84753cc4ec7c",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/5b29fc0d-3dfe-4446-9bf0-84753cc4ec7c/item"
+        },
+        "bitstreams" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/5b29fc0d-3dfe-4446-9bf0-84753cc4ec7c/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/5b29fc0d-3dfe-4446-9bf0-84753cc4ec7c/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/5b29fc0d-3dfe-4446-9bf0-84753cc4ec7c"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "f1c5c15a-f6e8-491e-b290-3f3df8a7f740",
+              "uuid" : "f1c5c15a-f6e8-491e-b290-3f3df8a7f740",
+              "name" : "ve_Lia_Augusto_etal_IAM_2023.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Generated Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "ve_Lia_Augusto_etal_IAM_2023.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 153773,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "f47446bcc7651c8c9bfa7a676ab155d7"
+              },
+              "sequenceId" : 15,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/f1c5c15a-f6e8-491e-b290-3f3df8a7f740/content"
+                },
+                "bundle" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/f1c5c15a-f6e8-491e-b290-3f3df8a7f740/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/f1c5c15a-f6e8-491e-b290-3f3df8a7f740/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/f1c5c15a-f6e8-491e-b290-3f3df8a7f740/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/f1c5c15a-f6e8-491e-b290-3f3df8a7f740/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/f1c5c15a-f6e8-491e-b290-3f3df8a7f740"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://api.arca.fiocruz.br/api/core/bundles/5b29fc0d-3dfe-4446-9bf0-84753cc4ec7c/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/items/0003c49b-a8f4-4a2d-8eb6-cbcbbe4650bb/bundles?embed=bitstreams"
+    }
+  }
+}

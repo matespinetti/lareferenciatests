@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:55:36Z</responseDate><request verb="GetRecord" identifier="oai:kerwa.ucr.ac.cr:10669/104675" metadataPrefix="xoai">https://repositorio.ucr.ac.cr/server/oai/request</request><GetRecord><record><header><identifier>oai:kerwa.ucr.ac.cr:10669/104675</identifier><datestamp>2026-06-04T09:00:18Z</datestamp><setSpec>com_10669_1424</setSpec><setSpec>com_10669_1419</setSpec><setSpec>col_10669_255</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="advisor">
+            <element name="none">
+               <field name="value">Vargas Leitón, Patricia</field>
+            </element>
+         </element>
+      </element>
+      <element name="creator">
+         <element name="none">
+            <field name="value">Quesada Gonzalez, Nancy Johanna</field>
+            <field name="value">Gómez Pereira, Priscila</field>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2026-06-03T20:03:13Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2026</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/10669/104675</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="none">
+               <field name="value">Introducción: La finalidad del presente proyecto es abordar un usuario en el posoperatorio tardío, con diagnóstico de neoplasia de colon, para la implementación del Proceso de enfermería (PE). 
+
+Objetivo: el presente Trabajo Final de Investigación Aplicado (TFIA) se elabora con la finalidad de valorar las principales necesidades del usuario en el posoperatorio tardío, realizando los principales diagnósticos NANDA e implementar los NIC y NOC de acuerdo con las necesidades del usuario. 
+
+Método: se utilizó la modalidad reporte de caso, en el cual se valoran los resultados suministrados por el usuario mediante recolección de datos, aplicación de escala de Merle. Mishel y valoración de patrones funcionales de Marjorie Gordon. 
+
+Resultados: Se logró determinar el grado de incertidumbre del usuario y la identificación de las principales necesidades, las cuales fueron planificadas y desarrolladas mediante el PE. Se realiza una interacción con el usuario en conjunto a su red de apoyo de ese momento. 
+
+Discusión: como la incertidumbre que presentan los usuarios ante diagnósticos de malignidad patológica logra afectar no solo al individuo, sino también al entorno familiar que lo rodea. 
+
+Conclusiones: es indispensable la atención y seguimiento de los usuarios en el hogar, para lograr una adecuada valoración de enfermería y resolución de necesidades. Como seres sociales, el entorno que nos rodea puede afectar la percepción de situaciones que en otros escenarios serian de fácil resolución. Sin embargo, un organismo enfermo en muchas ocasiones no puede solventar estas situaciones de manera tan sencilla. Es ahí, donde las enfermeras quirúrgicas pueden contribuir de manera significativa a proporcionar un bienestar en los ámbitos desequilibrados.</field>
+               <field name="value">Introduction: The purpose of this project is to address the needs of a patient in the late postoperative period, diagnosed with colon cancer, for the implementation of the Nursing Process (NP). 
+
+Objective: This Applied Research Final Project (ARFP) is designed to assess the main needs of the patient in the late postoperative period, making the main NANDA diagnoses and implementing the NIC and NOC according to the patient's needs. 
+
+Method: The case report approach was used, in which the results provided by the patient were assessed through data collection, application of the Merle-Mishel scale, and assessment of Marjorie Gordon's functional health patterns. 
+
+Results: The patient's level of uncertainty was determined, and their main needs were identified. These needs were planned and addressed through the NP. Interaction was carried out with the patient and their support network at that time. 
+
+Discussion: The uncertainty experienced by patients with malignant diagnoses affects not only the individual but also their family environment. 
+
+Conclusions: Providing care and follow-up to patients at home is essential for accurate nursing assessment and addressing their needs. As social beings, our environment can influence our perception of situations that would be easily resolved in other settings. However, a sick individual often cannot resolve these situations so easily. This is where surgical nurses can make a significant contribution to promoting well-being in these challenging environments.</field>
+            </element>
+         </element>
+         <element name="procedence">
+            <element name="none">
+               <field name="value">UCR::Vicerrectoría de Investigación::Sistema de Estudios de Posgrado::Salud::Maestría Profesional en Enfermería Quirúrgica</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">spa</field>
+            </element>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">acceso abierto</field>
+         </element>
+      </element>
+      <element name="source">
+         <element name="none">
+            <field name="value">San José, Costa Rica: Universidad de Costa Rica.</field>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="none">
+            <field name="value">Neoplasia de colon</field>
+            <field name="value">Educación sanitaria</field>
+            <field name="value">Rehabilitación médica</field>
+            <field name="value">Bienestar</field>
+            <field name="value">Servicio de enfermería</field>
+            <field name="value">Política de la salud</field>
+            <field name="value">Recopilación de datos</field>
+            <field name="value">Estudio de caso</field>
+            <field name="value">Medicina preventiva</field>
+            <field name="value">Tratamiento médico</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="none">
+            <field name="value">Proceso de enfermería a un usuario intervenido por resección de colon, en el posoperatorio tardio: reporte de caso</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">tesis de maestría</field>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf</field>
+               <field name="originalName">PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">1204370</field>
+               <field name="url">https://kerwa.ucr.ac.cr/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309/download</field>
+               <field name="checksum">67f1b7c4610651a1ef05f6d200bf44f0</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">Written by org.dspace.content.LicenseUtils</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">3584</field>
+               <field name="url">https://kerwa.ucr.ac.cr/bitstreams/9fd46825-b5c8-45e5-8b9d-ea63b873dbb4/download</field>
+               <field name="checksum">b39c1930822b6ee5a194051b92f3a43e</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-06-04T09:00:17Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">105621</field>
+               <field name="url">https://kerwa.ucr.ac.cr/bitstreams/8f6a53da-1d88-4ac7-88d6-5e3a46d9c131/download</field>
+               <field name="checksum">ec22ff81c1373bf4ac8b2f805d96e090</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf.jpg</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2026-06-04T09:00:18Z (GMT).</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">3789</field>
+               <field name="url">https://kerwa.ucr.ac.cr/bitstreams/47f44abc-b4b0-4611-9236-9b0da2de68df/download</field>
+               <field name="checksum">fa680a5477e001ee36f5ddb7a5cbf911</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">10669/104675</field>
+      <field name="identifier">oai:kerwa.ucr.ac.cr:10669/104675</field>
+      <field name="lastModifyDate">2026-06-04T09:00:18.449Z</field>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://kerwa.ucr.ac.cr</field>
+      <field name="name">Kérwá - Repositorio Universidad de Costa Rica</field>
+      <field name="mail">KERWA@ucr.ac.cr</field>
+   </element>
+   <element name="license">
+      <field name="bin">TGljZW5jaWEgZGUgRGVww7NzaXRvIFJlcG9zaXRvcmlvIEvDqXJ3w6EgKFZlcnNpw7NuIDcsIDIwLzA3LzIwMjEpIAoKRGVjbGFybyBjb21vIGF1dG9yKGEpIGRlIGVzdGUgdHJhYmFqbyBhY2Fkw6ltaWNvIG8gdGl0dWxhciBkZSBzdXMgZGVyZWNob3MgZGUgYXV0b3IsIHF1ZSBlc3RveSBkZSBhY3VlcmRvIGNvbiBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgZGUgQ29zdGEgUmljYSwgZWwgZGVyZWNobyBubyBleGNsdXNpdm8gZGUgcmVwcm9kdWNpciwgdHJhZHVjaXIgbyBkaXN0cmlidWlyIGVuIGZvcm1hdG8gZWxlY3Ryw7NuaWNvIGVsIGRvY3VtZW50byBkZXBvc2l0YWRvIHBvciB1biBwZXLDrW9kbyBpbmRlZmluaWRvIGRlIHRpZW1wby4gCgpBY2VwdG8gcXVlIHNlIHJlYWxpY2UgbcOhcyBkZSB1bmEgY29waWEgZGlnaXRhbCBkZWwgdHJhYmFqbyBwYXJhIGdhcmFudGl6YXIgbGEgc2VndXJpZGFkIHkgbGEgcHJlc2VydmFjacOzbiBkZWwgbWlzbW8uIAoKQXV0b3Jpem8gcXVlIGN1YW5kbyBsYSBVbml2ZXJzaWRhZCBkZSBDb3N0YSBSaWNhIGxvIGVzdGltZSBuZWNlc2FyaW8gcG9kcsOhIG1vZGlmaWNhciBlbCBmb3JtYXRvIGRlbCBkb2N1bWVudG8gcGFyYSByZXByb2R1Y2lybG8gZW4gc2lzdGVtYXMgZGUgaW5mb3JtYWNpw7NuLCBzaW4gYWx0ZXJhciBvIG1vZGlmaWNhciBlbCBjb250ZW5pZG8gZGVsIG1pc21vLiAKCkVzdG95IGRlIGFjdWVyZG8gY29uIHF1ZSBsYXMgeSBsb3MgdXN1YXJpb3MgZGVzY2FyZ3VlbiBsaWJyZW1lbnRlIGVsIHRyYWJham8geSBsbyB1dGlsaWNlbiBjb24gZmluZXMgbm8gY29tZXJjaWFsZXMsIHJlc3BldGFuZG8gbGEgaW50ZWdyaWRhZCBkZSBzdSBjb250ZW5pZG8gYXPDrSBjb21vIGxhIG1lbmNpw7NuIGRlbCBhdXRvciBvIHBvc2VlZG9yIGRlIHN1cyBkZXJlY2hvcy4gCgpHYXJhbnRpem8gcXVlIGVsIGRvY3VtZW50byBkZXBvc2l0YWRvIGVzIHVuIHRyYWJham8gb3JpZ2luYWwgeSBubyBpbmZyaW5nZSBkZXJlY2hvcyBkZSBhdXRvciB1IG90cm9zIGRlcmVjaG9zIGRlIHRlcmNlcm9zIChjby1hdXRvcmVzLCBvcmdhbml6YWNpb25lcyBkZSBmaW5hbmNpYW1pZW50bywgc3VqZXRvcyBkZSBpbnZlc3RpZ2FjacOzbiwgbWF0ZXJpYWwgZGUgdGVyY2Vyb3Mgc3VqZXRvIGEgcHJvdGVjY2nDs24gZGUgZGVyZWNob3MgZGUgYXV0b3IsIGVudHJlIG90cm9zKSwgc2UgcHJlc3Vwb25lIHF1ZSBoYSBjdW1wbGlkbyBjb24gZGVyZWNob3MgZGUgcmV2aXNpw7NuIHUgb3RyYXMgb2JsaWdhY2lvbmVzIHBhcmEgY29uIGxhcyBwYXJ0ZXMgaW52b2x1Y3JhZGFzLCBwb3IgZWplbXBsbzogb2JzZXJ2YW5jaWEgZGUgY2zDoXVzdWxhcyBkZSBjb25maWRlbmNpYWxpZGFkIC1zaSBhcGxpY2FuLS4gCgpFbiBjYXNvIGRlIG5vIHNlciBlbCBhdXRvciBkZWNsYXJvIHF1ZSBwb3NlbyBvIGhlIG9idGVuaWRvIGVsIHBlcm1pc28gc2luIHJlc3RyaWNjaW9uZXMgZGVsIHByb3BpZXRhcmlvIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBwYXJhIG90b3JnYXIgYSBsYSBVbml2ZXJzaWRhZCBkZSBDb3N0YSBSaWNhIGxvcyBwZXJtaXNvcyByZXF1ZXJpZG9zIHBhcmEgZXN0YSBsaWNlbmNpYSwgcXVlIGRpY2hvIHByb3BpZXRhcmlvIGNvbm9jZSBlbCB0ZXh0byB5IGVsIGNvbnRlbmlkbyBkZSBlc3RhIGxpY2VuY2lhLgoKQWwgb2J0ZW5lciBlbCBjb25zZW50aW1pZW50byBoZSByZXNwZXRhZG8gbGEgdm9sdW50YWQgZGVsIGF1dG9yIGFsIGRlc2NhcnRhciBxdWUgc2UgdHJhdGEgZGUgb2JyYXMgY2FwYWNlcyBkZSBnZW5lcmFyIGNvbm9jaW1pZW50byBhcHJvcGlhYmxlIG8gc3VzY2VwdGlibGUgZGUgcHJvdGVjY2nDs24gcG9yIGxvcyBtZWNhbmlzbW9zIGRlIGxhIHByb3BpZWRhZCBpbmR1c3RyaWFsLCBkZXNhcnJvbGxhZGFzIGVuIGVsIG1hcmNvIGRlIGludmVzdGlnYWNpb25lcyBlbiBjdXJzbywgcG9yIGVzdGFyIHN1amV0YXMgYSBwZXLDrW9kb3MgZGUgZW1iYXJnbywgcG9yIGVsIHRpcG8gZGUgaW52ZXN0aWdhY2lvbmVzIHkgbGEgbmF0dXJhbGV6YSBkZSBsYSBpbmZvcm1hY2nDs24gKGVzdG9zIGluY2x1eWVuIGluZm9ybWFjacOzbiBzZW5zaWJsZSAocGVyc29uYXMpIG8gcHJpdmlsZWdpYWRhIChvcmdhbml6YWNpb25lcyksIGV4aXN0ZW5jaWEgZGUgY29udmVuaW9zIG8gY29udHJhdG9zIHF1ZSBkYW4gb3JpZ2VuIGEgbGEgcmVsYWNpw7NuIGNvbiBsYSBVbml2ZXJzaWRhZCBwYXJhIGRlY2lkaXIgc3UgbWFuZWpvIG8gcG9ycXVlIHNlIGhhIG9idGVuaWRvIGxhIGF1dG9yaXphY2nDs24gZGUgbG9zIGVzdHVkaWFudGVzIGN1YW5kbyBlc3RvcyBzb24gbG9zIGF1dG9yZXMuIAoKRGVjbGFybyBiYWpvIGZlIGRlIGp1cmFtZW50byBxdWUgbGFzIHB1YmxpY2FjaW9uZXMgZGVwb3NpdGFkYXMgZGVyaXZhZGFzIGRlIGludmVzdGlnYWNpw7NuIGNvbiBzZXJlcyBodW1hbm9zOyBpbnZlc3RpZ2FjacOzbiB5IHVzbyBkZSBsb3MgcmVjdXJzb3MgZGUgbGEgYmlvZGl2ZXJzaWRhZCwgYWNjZXNvIGEgcmVjdXJzb3MgZ2Vuw6l0aWNvcyBvIGN1YW5kbyBlc3RhcyBvcGVyYWNpb25lcyBzZSByZWFsaWNlbiBlbiB0ZXJyaXRvcmlvcyBpbmTDrWdlbmFzIHkgc2UgZW5jdWVudHJlbiByZWxhY2lvbmFkYXMgY29uIGVsIGNvbm9jaW1pZW50byB0cmFkaWNpb25hbCBhc29jaWFkbzsgIGFzw60gY29tbyBlbCB1c28sIGN1aWRvLCB0ZW5lbmNpYSwgcHJvZHVjY2nDs24geSBleHBlcmltZW50YWNpw7NuIGNvbiBhbmltYWxlcywgIHJlcXVlcmlyw6FuIGRlIGxhIHJldmlzacOzbiwgYXV0b3JpemFjacOzbiB5IGFwcm9iYWNpw7NuLCBzZWfDum4gY29ycmVzcG9uZGUgZGUgdW4gQ29taXTDqSDDiXRpY28gQ2llbnTDrWZpY28sIGRlIGxhIENvbWlzacOzbiBkZSBCaW9kaXZlcnNpZGFkIGRlIGxhIFVDUiAoQ0lCKSBvIGVsIENPTkFHRUJJTyBvIGVsIENvbWl0w6kgSW5zdGl0dWNpb25hbCBwYXJhIGVsIEN1aWRhZG8geSBVc28gZGUgbG9zIEFuaW1hbGVzIChDSUNVQSksIHJlc3BlY3RpdmFtZW50ZS4KCkNvbm96Y28geSBhcHJ1ZWJvIHF1ZTogCgpFbCBSZXBvc2l0b3JpbyBLw6lyd8OhIGRlIGxhIFVuaXZlcnNpZGFkIGRlIENvc3RhIFJpY2Egc2UgcmVzZXJ2YSBlbCBkZXJlY2hvIGRlIHJldGlyYXIgZWwgYWNjZXNvIGFsIHRyYWJham8gZGVwb3NpdGFkbyBjdWFuZG8gc2UgZGV0ZWN0ZSBxdWUgbG9zIGRlcmVjaG9zIGRlIHByb3BpZWRhZCBpbnRlbGVjdHVhbCBoYW4gc2lkbyBpbmZyaW5naWRvcyBvIGFwZWxhbmRvIGEgb3Ryb3MgY29tcHJvbWlzb3MgbGVnYWxlcywgcHJvZmVzaW9uYWxlcyB5L28gYWRtaW5pc3RyYXRpdm9zLgoKTGEgVW5pdmVyc2lkYWQgZGUgQ29zdGEgUmljYSBubyBoYXLDoSBuaW5ndW5hIGFsdGVyYWNpw7NuIGRpZmVyZW50ZSBhIGxhcyBwZXJtaXRpZGFzIGVuIGVzdGEgbGljZW5jaWEgYSBsYSBvYnJhIGRlcG9zaXRhZGEuCgpMYSBVbml2ZXJzaWRhZCBkZSBDb3N0YSBSaWNhIG5vIHNlIGhhY2UgcmVzcG9uc2FibGUgcG9yIGxhIHDDqXJkaWRhIG8gZGHDsW9zIHN1ZnJpZG9zIGVuIHJlbGFjacOzbiBjb24gZWwgdHJhYmFqbyBkZXBvc2l0YWRvIG8gZGF0b3MgcmVsYWNpb25hZG9zLgo=</field>
+   </element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

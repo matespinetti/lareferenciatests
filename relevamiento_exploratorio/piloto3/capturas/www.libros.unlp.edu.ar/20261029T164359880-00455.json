@@ -1,0 +1,49 @@
+{
+ "pedido": "20261029T164359880-00455",
+ "url": "https://www.libros.unlp.edu.ar/index.php/unlp",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:57:31 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.59 (Debian)"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "set-cookie",
+   "OMPSID=fucsej5dhbrnboiqj3i1flc5s2; path=/"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "content-length",
+   "6183"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

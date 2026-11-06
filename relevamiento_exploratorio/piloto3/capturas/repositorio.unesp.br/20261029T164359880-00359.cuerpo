@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:54:05Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.unesp.br:11449/129387" metadataPrefix="xoai">https://repositorio.unesp.br/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.unesp.br:11449/129387</identifier><datestamp>2026-07-20T14:22:11Z</datestamp><setSpec>com_11449_253719</setSpec><setSpec>com_11449_1</setSpec><setSpec>col_11449_253730</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="author">
+            <element name="none">
+               <field name="value">Calixto, Giovana [UNESP]</field>
+               <field name="value">Yoshii, Ana Carolina [UNESP]</field>
+               <field name="value">Rocha e Silva, Hilris [UNESP]</field>
+               <field name="value">Ferreira Cury, Beatriz Stringhetti [UNESP]</field>
+               <field name="value">Chorilli, Marlus [UNESP]</field>
+            </element>
+         </element>
+         <element name="institution">
+            <element name="none">
+               <field name="value">Universidade Estadual Paulista (Unesp)</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2015-10-21T20:59:12Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2015-10-21T20:59:12Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2015-06-01</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="none">
+            <field name="value">http://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941</field>
+         </element>
+         <element name="citation">
+            <element name="none">
+               <field name="value">Pharmaceutical Development And Technology, v. 20, n. 4, p. 490-496, 2015.</field>
+            </element>
+         </element>
+         <element name="issn">
+            <element name="none">
+               <field name="value">1083-7450</field>
+               <field name="value">1097-9867</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://hdl.handle.net/11449/129387</field>
+            </element>
+         </element>
+         <element name="doi">
+            <element name="none">
+               <field name="value">10.3109/10837450.2014.882941</field>
+            </element>
+         </element>
+         <element name="wos">
+            <element name="none">
+               <field name="value">WOS:000354609900012</field>
+            </element>
+         </element>
+         <element name="lattes">
+            <element name="none">
+               <field name="value">1427125996716282</field>
+               <field name="value">1427125996716282</field>
+            </element>
+         </element>
+         <element name="orcid">
+            <element name="none">
+               <field name="value">0000-0002-5167-2822</field>
+               <field name="value">0000-0002-6698-0545</field>
+               <field name="value">0000-0003-3020-9238</field>
+               <field name="value">0000-0003-1041-5835</field>
+            </element>
+         </element>
+         <element name="dimensions">
+            <element name="none">
+               <field name="value">pub.1045534850</field>
+            </element>
+         </element>
+         <element name="pmid">
+            <element name="none">
+               <field name="value">25975700</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="en">
+               <field name="value">Context: Bioadhesiviness of polyacrylic acid polymers make them promising hydrogels to design topical drug delivery systems, allowing a close contact with biological substrate as well as an enhanced local concentration gradient, both factors that may improve the biological performance of the drugs.Aim: Texture and bioadhesive properties of hydrogels were assessed by using texture analyzer and they were correlated with their rheological behavior and performance as drug delivery systems.Methods: Aqueous dispersions of both polymers were prepared at 0.5%, 1.0% and 1.5% w/v. Hardness, compressibility, adhesiveness, cohesiveness, bioadhesion, continuous flow, oscillatory dynamic test and in vitro drug release were evaluated.Results: Rheological and texture parameters were dependent on polymer concentration and C974P polymer built the strongest structures. Both 1.5% hydrogels presented high bioadhesion values. About 50% of the metronidazole (MTZ) was sustained released from hydrogels within 2 h with an initial burst release at early stage. After, the release rates were decreased and 10% of the MTZ was released in the next 10 h. The drug release process was driven by Fickian diffusion and complex mechanism for PP and C974P hydrogels, respectively.Conclusion: The set of results demonstrated that these hydrogels are promising to be used as topical controlled drug delivery system.</field>
+            </element>
+         </element>
+         <element name="sponsorship">
+            <element name="none">
+               <field name="value">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)</field>
+               <field name="value">Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)</field>
+               <field name="value">Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)</field>
+               <field name="value">PADC-UNESP</field>
+            </element>
+         </element>
+         <element name="affiliation">
+            <element name="none">
+               <field name="value">Sao Paulo State Univ UNESP, Dept Drugs &amp;amp;Pharmaceut, Sch Pharmaceut Sci, BR-14801902 Araraquara, SP, Brazil</field>
+            </element>
+         </element>
+         <element name="affiliationUnesp">
+            <element name="none">
+               <field name="value">Sao Paulo State Univ UNESP, Dept Drugs &amp;amp; Pharmaceut, Sch Pharmaceut Sci, BR-14801902 Araraquara, SP, Brazil</field>
+            </element>
+         </element>
+      </element>
+      <element name="format">
+         <element name="extent">
+            <element name="none">
+               <field name="value">490-496</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">eng</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">Informa Healthcare</field>
+            <field name="value">Taylor &amp;amp; Francis</field>
+         </element>
+      </element>
+      <element name="relation">
+         <element name="ispartof">
+            <element name="none">
+               <field name="value">Pharmaceutical Development And Technology</field>
+            </element>
+         </element>
+         <element name="ispartofjcr">
+            <element name="none">
+               <field name="value">1.945</field>
+            </element>
+         </element>
+         <element name="ispartofsjr">
+            <element name="none">
+               <field name="value">0,479</field>
+            </element>
+         </element>
+      </element>
+      <element name="source">
+         <element name="none">
+            <field name="value">Web of Science</field>
+            <field name="value">Dimensions</field>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="en">
+            <field name="value">Bioadhesion</field>
+            <field name="value">Hydrogel</field>
+            <field name="value">Metronidazole</field>
+            <field name="value">Polyacrylic acid polymers</field>
+            <field name="value">Topical drug delivery system</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="en">
+            <field name="value">Polyacrylic acid polymers hydrogels intended to topical drug delivery: preparation and characterization</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="pt">
+            <field name="value">Artigo</field>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="accessRights">
+            <element name="pt">
+               <field name="value">Acesso restrito</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="dcterms">
+      <element name="license">
+         <element name="none">
+            <field name="value">http://informahealthcare.com/userimages/ContentEditor/1255620309227/Copyright_And_Permissions.pdf</field>
+         </element>
+      </element>
+      <element name="rightsHolder">
+         <element name="none">
+            <field name="value">Informa Healthcare</field>
+         </element>
+      </element>
+   </element>
+   <element name="unesp">
+      <element name="campus">
+         <element name="pt">
+            <field name="value">Universidade Estadual Paulista (UNESP), Faculdade de Ciências Farmacêuticas, Araraquara</field>
+         </element>
+      </element>
+      <element name="department">
+         <element name="pt">
+            <field name="value">Fármacos e Medicamentos - FCF</field>
+         </element>
+      </element>
+      <element name="author">
+         <element name="lattes">
+            <element name="none">
+               <field name="value">1427125996716282</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="dspace">
+      <element name="entity">
+         <element name="type">
+            <element name="none">
+               <field name="value">Publication</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="relation">
+      <element name="isOrgUnitOfPublication">
+         <element name="none">
+            <field name="value">95697b0b-8977-4af6-88d5-c29c80b5ee92</field>
+            <field name="authority">virtual::14115</field>
+            <field name="confidence">-1</field>
+         </element>
+         <element name="latestForDiscovery">
+            <element name="none">
+               <field name="value">95697b0b-8977-4af6-88d5-c29c80b5ee92</field>
+               <field name="authority">virtual::14115</field>
+               <field name="confidence">-1</field>
+            </element>
+         </element>
+      </element>
+      <element name="isDepartmentOfPublication">
+         <element name="none">
+            <field name="value">e214da1b-9929-4ae9-b8fd-655e9bfeda4b</field>
+            <field name="authority">virtual::11216</field>
+            <field name="confidence">-1</field>
+         </element>
+         <element name="latestForDiscovery">
+            <element name="none">
+               <field name="value">e214da1b-9929-4ae9-b8fd-655e9bfeda4b</field>
+               <field name="authority">virtual::11216</field>
+               <field name="confidence">-1</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles"/>
+   <element name="others">
+      <field name="handle">11449/129387</field>
+      <field name="identifier">oai:repositorio.unesp.br:11449/129387</field>
+      <field name="lastModifyDate">2026-07-20T14:22:11.530093Z</field>
+      <element name="access-status">
+         <field name="value">metadata.only</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://repositorio.unesp.br</field>
+      <field name="name">Repositório Institucional Unesp</field>
+      <field name="mail">repositoriounesp@unesp.br</field>
+   </element>
+   <element name="license"/>
+</metadata></metadata></record></GetRecord></OAI-PMH>

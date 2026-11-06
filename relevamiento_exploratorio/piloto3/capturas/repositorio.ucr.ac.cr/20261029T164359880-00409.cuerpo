@@ -1,0 +1,207 @@
+{
+  "id" : "00059353-d9b3-4335-a775-48edc7e61639",
+  "uuid" : "00059353-d9b3-4335-a775-48edc7e61639",
+  "name" : "Proceso de enfermería a un usuario intervenido por resección de colon, en el posoperatorio tardio: reporte de caso",
+  "handle" : "10669/104675",
+  "metadata" : {
+    "dc.contributor.advisor" : [ {
+      "value" : "Vargas Leitón, Patricia",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.creator" : [ {
+      "value" : "Quesada Gonzalez, Nancy Johanna",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Gómez Pereira, Priscila",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2026-06-03T20:03:13Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2026",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Introducción: La finalidad del presente proyecto es abordar un usuario en el posoperatorio tardío, con diagnóstico de neoplasia de colon, para la implementación del Proceso de enfermería (PE). \n\nObjetivo: el presente Trabajo Final de Investigación Aplicado (TFIA) se elabora con la finalidad de valorar las principales necesidades del usuario en el posoperatorio tardío, realizando los principales diagnósticos NANDA e implementar los NIC y NOC de acuerdo con las necesidades del usuario. \n\nMétodo: se utilizó la modalidad reporte de caso, en el cual se valoran los resultados suministrados por el usuario mediante recolección de datos, aplicación de escala de Merle. Mishel y valoración de patrones funcionales de Marjorie Gordon. \n\nResultados: Se logró determinar el grado de incertidumbre del usuario y la identificación de las principales necesidades, las cuales fueron planificadas y desarrolladas mediante el PE. Se realiza una interacción con el usuario en conjunto a su red de apoyo de ese momento. \n\nDiscusión: como la incertidumbre que presentan los usuarios ante diagnósticos de malignidad patológica logra afectar no solo al individuo, sino también al entorno familiar que lo rodea. \n\nConclusiones: es indispensable la atención y seguimiento de los usuarios en el hogar, para lograr una adecuada valoración de enfermería y resolución de necesidades. Como seres sociales, el entorno que nos rodea puede afectar la percepción de situaciones que en otros escenarios serian de fácil resolución. Sin embargo, un organismo enfermo en muchas ocasiones no puede solventar estas situaciones de manera tan sencilla. Es ahí, donde las enfermeras quirúrgicas pueden contribuir de manera significativa a proporcionar un bienestar en los ámbitos desequilibrados.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Introduction: The purpose of this project is to address the needs of a patient in the late postoperative period, diagnosed with colon cancer, for the implementation of the Nursing Process (NP). \n\nObjective: This Applied Research Final Project (ARFP) is designed to assess the main needs of the patient in the late postoperative period, making the main NANDA diagnoses and implementing the NIC and NOC according to the patient's needs. \n\nMethod: The case report approach was used, in which the results provided by the patient were assessed through data collection, application of the Merle-Mishel scale, and assessment of Marjorie Gordon's functional health patterns. \n\nResults: The patient's level of uncertainty was determined, and their main needs were identified. These needs were planned and addressed through the NP. Interaction was carried out with the patient and their support network at that time. \n\nDiscussion: The uncertainty experienced by patients with malignant diagnoses affects not only the individual but also their family environment. \n\nConclusions: Providing care and follow-up to patients at home is essential for accurate nursing assessment and addressing their needs. As social beings, our environment can influence our perception of situations that would be easily resolved in other settings. However, a sick individual often cannot resolve these situations so easily. This is where surgical nurses can make a significant contribution to promoting well-being in these challenging environments.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.description.procedence" : [ {
+      "value" : "UCR::Vicerrectoría de Investigación::Sistema de Estudios de Posgrado::Salud::Maestría Profesional en Enfermería Quirúrgica",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "https://hdl.handle.net/10669/104675",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "spa",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights" : [ {
+      "value" : "acceso abierto",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.source" : [ {
+      "value" : "San José, Costa Rica: Universidad de Costa Rica.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject" : [ {
+      "value" : "Neoplasia de colon",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Educación sanitaria",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Rehabilitación médica",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Bienestar",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Servicio de enfermería",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "Política de la salud",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 5
+    }, {
+      "value" : "Recopilación de datos",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 6
+    }, {
+      "value" : "Estudio de caso",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 7
+    }, {
+      "value" : "Medicina preventiva",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 8
+    }, {
+      "value" : "Tratamiento médico",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 9
+    } ],
+    "dc.title" : [ {
+      "value" : "Proceso de enfermería a un usuario intervenido por resección de colon, en el posoperatorio tardio: reporte de caso",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "tesis de maestría",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-06-04T09:00:18.449Z",
+  "entityType" : null,
+  "type" : "item",
+  "uniqueType" : "core.item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/00059353-d9b3-4335-a775-48edc7e61639/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/00059353-d9b3-4335-a775-48edc7e61639/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/00059353-d9b3-4335-a775-48edc7e61639/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/00059353-d9b3-4335-a775-48edc7e61639/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/00059353-d9b3-4335-a775-48edc7e61639/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/00059353-d9b3-4335-a775-48edc7e61639/relationships"
+    },
+    "version" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/00059353-d9b3-4335-a775-48edc7e61639/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/00059353-d9b3-4335-a775-48edc7e61639/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/00059353-d9b3-4335-a775-48edc7e61639/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/00059353-d9b3-4335-a775-48edc7e61639/submitter"
+    },
+    "self" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/00059353-d9b3-4335-a775-48edc7e61639"
+    }
+  }
+}

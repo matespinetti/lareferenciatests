@@ -1,0 +1,21 @@
+{
+ "pedido": "20261029T164359880-00065",
+ "url": "http://repositorio.unb.br/handle/10482/31534",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "cache-control",
+   "no-cache"
+  ],
+  [
+   "content-length",
+   "0"
+  ],
+  [
+   "location",
+   "https://repositorio.unb.br/handle/10482/31534"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

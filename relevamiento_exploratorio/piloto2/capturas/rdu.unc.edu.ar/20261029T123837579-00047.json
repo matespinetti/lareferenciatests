@@ -1,0 +1,69 @@
+{
+ "pedido": "20261029T123837579-00047",
+ "url": "https://rdu.unc.edu.ar/items/000fe402-5f8d-4f02-8cbd-cf4a895f4d58",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:39:58 GMT"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "498"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793277606"
+  ],
+  [
+   "link",
+   "<https://rdu.unc.edu.ar/bitstreams/78dd2bd4-91f3-4fa8-bc3a-b87fca1ce90c/download> ; rel=\"item\" ; type=\"image/tiff\" , <https://rdu.unc.edu.ar/bitstreams/835a4ce4-6719-4b2a-bda0-37d4b9fccb4e/download> ; rel=\"item\" ; type=\"application/pdf\" , <https://rdu.unc.edu.ar/bitstreams/ccd15c6b-c76b-4376-abc7-51e646c09db7/download> ; rel=\"item\" ; type=\"image/jpeg\" , <https://rdu.unc.edu.ar/bitstreams/bb59a600-c479-46f8-b3d2-a34ef9ce654b/download> ; rel=\"item\" ; type=\"text/csv\" , <https://rdu.unc.edu.ar/signposting/describedby/000fe402-5f8d-4f02-8cbd-cf4a895f4d58> ; rel=\"describedby\" ; type=\"application/vnd.datacite.datacite+xml\" , <http://hdl.handle.net/11086/27024> ; rel=\"cite-as\" , <https://creativecommons.org/licenses/by-nc-sa/4.0/> ; rel=\"license\" , <https://rdu.unc.edu.ar/signposting/linksets/000fe402-5f8d-4f02-8cbd-cf4a895f4d58> ; rel=\"linkset\" ; type=\"application/linkset\" , <https://rdu.unc.edu.ar/signposting/linksets/000fe402-5f8d-4f02-8cbd-cf4a895f4d58/json> ; rel=\"linkset\" ; type=\"application/linkset+json\" , <https://schema.org/AboutPage> ; rel=\"type\" , <https://schema.org/CreativeWork> ; rel=\"type\""
+  ],
+  [
+   "etag",
+   "W/\"68c4c-XY+dI+Ns3SVG++Xl6g8a+dx/SbA\""
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

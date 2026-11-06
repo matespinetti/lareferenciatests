@@ -1,0 +1,73 @@
+{
+ "pedido": "20261029T164359880-00348",
+ "url": "https://kerwa.ucr.ac.cr",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:53:48 GMT"
+  ],
+  [
+   "access-control-allow-origin",
+   "https://kerwa.ucr.ac.cr"
+  ],
+  [
+   "access-control-allow-methods",
+   "GET, POST, OPTIONS, PUT, DELETE"
+  ],
+  [
+   "access-control-allow-headers",
+   "Content-Type, Authorization"
+  ],
+  [
+   "access-control-allow-credentials",
+   "true"
+  ],
+  [
+   "ratelimit-policy",
+   "500;w=60"
+  ],
+  [
+   "ratelimit-limit",
+   "500"
+  ],
+  [
+   "ratelimit-remaining",
+   "499"
+  ],
+  [
+   "ratelimit-reset",
+   "60"
+  ],
+  [
+   "link",
+   "<https://repositorio.ucr.ac.cr/server/ldn/inbox> ; rel=\"http://www.w3.org/ns/ldp#inbox\""
+  ],
+  [
+   "etag",
+   "W/\"afc83-7WXs0/JCeNITMSLggHg7J06+v/w\""
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:49:45.463401252Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.filo.uba.ar:filodigital/17251" metadataPrefix="mets">https://repositorio.filo.uba.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.filo.uba.ar:filodigital/17251</identifier><datestamp>2026-06-25T21:48:17Z</datestamp><setSpec>com_filodigital_15388</setSpec><setSpec>com_filodigital_3535</setSpec><setSpec>com_filodigital_13</setSpec><setSpec>com_filodigital_7</setSpec><setSpec>com_filodigital_5</setSpec><setSpec>com_filodigital_151</setSpec><setSpec>col_filodigital_16981</setSpec><setSpec>col_filodigital_3533</setSpec><setSpec>snrd</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_filodigital-17251" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:filodigital/17251">
+   <metsHdr CREATEDATE="2026-10-29T16:49:44Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace de la Facultad de Filosofia y Letras</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_filodigital_17251">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2023-12-15T22:41:24Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2023-12-15T22:41:24Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2023</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="other">2603</mods:identifier>
+               <mods:identifier type="uri">http://repositorio.filo.uba.ar/handle/filodigital/17251</mods:identifier>
+               <mods:abstract>1° CuatrimestreMateriaPrograma N° 10020Aprobado Resolución N° 2847/2022</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">info:eu-repo/semantics/openAccess https://creativecommons.org/licenses/by-nc-nd/4.0/</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>PROGRAMAS</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>MATERIA</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>PRIMER CUATRIMESTRE</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>CIENCIAS DE LA EDUCACIÓN</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Problemas sociales y culturales de la educación en América Latina</mods:title>
+               </mods:titleInfo>
+               <mods:genre>info:eu-repo/semantics/other info:eu-repo/semantics/acceptedVersion</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_filodigital_17251_1">
+      <techMD ID="TECH_O_filodigital_17251_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://repositorio.filo.uba.ar/bitstreams/e0692763-dac6-4de6-94dd-22fd00c8a063/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>581ad32e75b0c27ab795bdcb941fad6e</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>3247464</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_filodigital_17251_4">
+      <techMD ID="TECH_T_filodigital_17251_4">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://repositorio.filo.uba.ar/bitstreams/8fb893ad-b663-4a20-8db3-3215c034ec90/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>457490654d2d83cd0efefff34093c02b</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>32735</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_filodigital_17251_1" MIMETYPE="application/pdf" SEQ="1" SIZE="3247464" CHECKSUM="581ad32e75b0c27ab795bdcb941fad6e" CHECKSUMTYPE="MD5" ADMID="FO_filodigital_17251_1" GROUPID="GROUP_BITSTREAM_filodigital_17251_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://repositorio.filo.uba.ar/bitstreams/e0692763-dac6-4de6-94dd-22fd00c8a063/download" />
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_filodigital_17251_4" MIMETYPE="text/plain" SEQ="4" SIZE="32735" CHECKSUM="457490654d2d83cd0efefff34093c02b" CHECKSUMTYPE="MD5" ADMID="FT_filodigital_17251_4" GROUPID="GROUP_BITSTREAM_filodigital_17251_4">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://repositorio.filo.uba.ar/bitstreams/8fb893ad-b663-4a20-8db3-3215c034ec90/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_filodigital_17251">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_filodigital_17251_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

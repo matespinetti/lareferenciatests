@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Program Flow Analysis for Reducing and Estimating the Cost of Test Coverage Criteria
+							| SADIO Electronic Journal of Informatics and Operations Research
+			</title>
+
+	
+<link rel="icon" href="https://revistas.unlp.edu.ar/public/journals/67/favicon_es_ES.png">
+<meta name="generator" content="Open Journal Systems 3.4.0.8">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Martina Marré"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="1998-06-01"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2019-05-10"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="1998-06-01"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2024-11-14"/>
+<meta name="DC.Description" xml:lang="en" content="Testing a software system consists of executing it over a suitable sample of input data and then checking if the output produced matches what was expected. Testing is widely used to enhance software quality, and, specifically, to uncover bugs that are inevitably introduced during the software development process.
+One of the most difficult problems in testing is knowing when to stop the testing process. On the one hand, it is not possible in general to give an answer to whether a test suite guarantees the absence of faults. On the other hand, we need a way to limit the cost of testing. Therefore, it is useful to have criteria to determine when a program has been tested ``enough&#039;&#039;. Ideally, the testing process should be planned in advance. However, in practice the tests are incorporated little by little, until some adequacy criterion is satisfied. In particular, different coverages can be used to determine when the program has been tested enough. The idea is to guarantee that each statement, decision or other feature of the program has been executed at least once under some test.
+A major problem is that testing takes a considerable amount of the time and resources spent on producing software [#!B88!#]. Therefore, it would be useful to have ways
+1. to reduce the cost of testing, and
+2. to estimate this cost.
+In particular, the number of tests to be executed impacts heavily on the cost of testing. In fact, the time and resources needed for testing increase as the number of test cases increases. Hence, to reduce the cost of testing, the number of test cases generated to satisfy a selected test criterion should be as small as possible. Moreover, a bound on the number of tests that have to be performed to satisfy a selected test strategy can be used by managers and testers to estimate the effort needed to carry out the tests.
+A test criterion in practice sets a collection of requirements to be fulfilled. For structural coverage criteria, these requirements are mapped onto a set of entities in the program flowgraph that must be covered when the tests are executed.
+In this work we present a method for reducing and estimating the number of tests needed to satisfy structural coverage criteria, based on the new concept of spanning sets of entities. This concept is based on the observation that one test generally covers more than one entity. However, this fact is not traditionally considered when coverage is measured and not covered entities are identified, or when more tests have to be selected in order to augment coverage. Methods for selecting tests generate a test datum for covering one entity selected arbitrarily and considered in isolation from the other entities. If the generated test datum also exercises other entities, these will then be considered as covered a-posteriori. But no effort is made to generate a-priori test data that satisfy multiple requirements.
+Our method overcomes these drawbacks by identifying with static analysis a minimum subset of entities with the property that any set of tests covering this subset covers every entity in the program. We call this minimum subset a ``spanning set of entities&#039;&#039;. In this work, we first define the sets of entities that are associated with a whole family of popular test coverage criteria. Then we present a generalized method of identifying a spanning set of entities for the criteria considered.
+Our method can be automated. Once it has been included in the software testing process, this information can be used for
+
+evaluating test adequacy more effectively;
+reducing the cost of testing;
+estimating the cost of testing;
+generating test suites.
+
+In this thesis we present our study of the use of spanning sets of entities in coverage testing."/>
+<meta name="DC.Description" xml:lang="es" content="Testing a software system consists of executing it over a suitable sample of input data and then checking if the output produced matches what was expected. Testing is widely used to enhance software quality, and, specifically, to uncover bugs that are inevitably introduced during the software development process.
+One of the most difficult problems in testing is knowing when to stop the testing process. On the one hand, it is not possible in general to give an answer to whether a test suite guarantees the absence of faults. On the other hand, we need a way to limit the cost of testing. Therefore, it is useful to have criteria to determine when a program has been tested ``enough&#039;&#039;. Ideally, the testing process should be planned in advance. However, in practice the tests are incorporated little by little, until some adequacy criterion is satisfied. In particular, different coverages can be used to determine when the program has been tested enough. The idea is to guarantee that each statement, decision or other feature of the program has been executed at least once under some test.
+A major problem is that testing takes a considerable amount of the time and resources spent on producing software [#!B88!#]. Therefore, it would be useful to have ways
+1. to reduce the cost of testing, and
+2. to estimate this cost.
+In particular, the number of tests to be executed impacts heavily on the cost of testing. In fact, the time and resources needed for testing increase as the number of test cases increases. Hence, to reduce the cost of testing, the number of test cases generated to satisfy a selected test criterion should be as small as possible. Moreover, a bound on the number of tests that have to be performed to satisfy a selected test strategy can be used by managers and testers to estimate the effort needed to carry out the tests.
+A test criterion in practice sets a collection of requirements to be fulfilled. For structural coverage criteria, these requirements are mapped onto a set of entities in the program flowgraph that must be covered when the tests are executed.
+In this work we present a method for reducing and estimating the number of tests needed to satisfy structural coverage criteria, based on the new concept of spanning sets of entities. This concept is based on the observation that one test generally covers more than one entity. However, this fact is not traditionally considered when coverage is measured and not covered entities are identified, or when more tests have to be selected in order to augment coverage. Methods for selecting tests generate a test datum for covering one entity selected arbitrarily and considered in isolation from the other entities. If the generated test datum also exercises other entities, these will then be considered as covered a-posteriori. But no effort is made to generate a-priori test data that satisfy multiple requirements.
+Our method overcomes these drawbacks by identifying with static analysis a minimum subset of entities with the property that any set of tests covering this subset covers every entity in the program. We call this minimum subset a ``spanning set of entities&#039;&#039;. In this work, we first define the sets of entities that are associated with a whole family of popular test coverage criteria. Then we present a generalized method of identifying a spanning set of entities for the criteria considered.
+Our method can be automated. Once it has been included in the software testing process, this information can be used for
+
+evaluating test adequacy more effectively;
+reducing the cost of testing;
+estimating the cost of testing;
+generating test suites.
+
+In this thesis we present our study of the use of spanning sets of entities in coverage testing."/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="17500"/>
+<meta name="DC.Identifier.URI" content="https://revistas.unlp.edu.ar/ejs/article/view/17500"/>
+<meta name="DC.Language" scheme="ISO639-1" content="es"/>
+<meta name="DC.Rights" content="Derechos de autor 1998 Martina Marré"/>
+<meta name="DC.Rights" content="https://creativecommons.org/licenses/by-nc-sa/4.0"/>
+<meta name="DC.Source" content="SADIO Electronic Journal of Informatics and Operations Research"/>
+<meta name="DC.Source.ISSN" content="1514-6774"/>
+<meta name="DC.Source.Volume" content="1"/>
+<meta name="DC.Source.URI" content="https://revistas.unlp.edu.ar/ejs"/>
+<meta name="DC.Subject" xml:lang="en" content="spanning sets of entities "/>
+<meta name="DC.Subject" xml:lang="en" content="coverage testing"/>
+<meta name="DC.Title" content="Program Flow Analysis for Reducing and Estimating the Cost of Test Coverage Criteria"/>
+<meta name="DC.Title.Alternative" xml:lang="en" content="Program Flow Analysis for Reducing and Estimating the Cost of Test Coverage Criteria"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Papers"/>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="SADIO Electronic Journal of Informatics and Operations Research"/>
+<meta name="citation_journal_abbrev" content="EJS"/>
+<meta name="citation_issn" content="1514-6774"/> 
+<meta name="citation_author" content="Martina Marré"/>
+<meta name="citation_author_institution" content="Universidad de Buenos Aires, Argentina"/>
+<meta name="citation_title" content="Program Flow Analysis for Reducing and Estimating the Cost of Test Coverage Criteria"/>
+<meta name="citation_language" content="es"/>
+<meta name="citation_date" content="1998/06/01"/>
+<meta name="citation_volume" content="1"/>
+<meta name="citation_abstract_html_url" content="https://revistas.unlp.edu.ar/ejs/article/view/17500"/>
+<meta name="citation_abstract" xml:lang="es" content="Testing a software system consists of executing it over a suitable sample of input data and then checking if the output produced matches what was expected. Testing is widely used to enhance software quality, and, specifically, to uncover bugs that are inevitably introduced during the software development process.
+One of the most difficult problems in testing is knowing when to stop the testing process. On the one hand, it is not possible in general to give an answer to whether a test suite guarantees the absence of faults. On the other hand, we need a way to limit the cost of testing. Therefore, it is useful to have criteria to determine when a program has been tested ``enough&#039;&#039;. Ideally, the testing process should be planned in advance. However, in practice the tests are incorporated little by little, until some adequacy criterion is satisfied. In particular, different coverages can be used to determine when the program has been tested enough. The idea is to guarantee that each statement, decision or other feature of the program has been executed at least once under some test.
+A major problem is that testing takes a considerable amount of the time and resources spent on producing software [#!B88!#]. Therefore, it would be useful to have ways
+1. to reduce the cost of testing, and
+2. to estimate this cost.
+In particular, the number of tests to be executed impacts heavily on the cost of testing. In fact, the time and resources needed for testing increase as the number of test cases increases. Hence, to reduce the cost of testing, the number of test cases generated to satisfy a selected test criterion should be as small as possible. Moreover, a bound on the number of tests that have to be performed to satisfy a selected test strategy can be used by managers and testers to estimate the effort needed to carry out the tests.
+A test criterion in practice sets a collection of requirements to be fulfilled. For structural coverage criteria, these requirements are mapped onto a set of entities in the program flowgraph that must be covered when the tests are executed.
+In this work we present a method for reducing and estimating the number of tests needed to satisfy structural coverage criteria, based on the new concept of spanning sets of entities. This concept is based on the observation that one test generally covers more than one entity. However, this fact is not traditionally considered when coverage is measured and not covered entities are identified, or when more tests have to be selected in order to augment coverage. Methods for selecting tests generate a test datum for covering one entity selected arbitrarily and considered in isolation from the other entities. If the generated test datum also exercises other entities, these will then be considered as covered a-posteriori. But no effort is made to generate a-priori test data that satisfy multiple requirements.
+Our method overcomes these drawbacks by identifying with static analysis a minimum subset of entities with the property that any set of tests covering this subset covers every entity in the program. We call this minimum subset a ``spanning set of entities&#039;&#039;. In this work, we first define the sets of entities that are associated with a whole family of popular test coverage criteria. Then we present a generalized method of identifying a spanning set of entities for the criteria considered.
+Our method can be automated. Once it has been included in the software testing process, this information can be used for
+
+evaluating test adequacy more effectively;
+reducing the cost of testing;
+estimating the cost of testing;
+generating test suites.
+
+In this thesis we present our study of the use of spanning sets of entities in coverage testing."/>
+<meta name="citation_keywords" xml:lang="en" content="spanning sets of entities "/>
+<meta name="citation_keywords" xml:lang="en" content="coverage testing"/>
+<meta name="citation_pdf_url" content="https://revistas.unlp.edu.ar/ejs/article/download/17500/17059"/>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9ZXB2CF1SP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9ZXB2CF1SP');
+</script>
+	<link rel="stylesheet" href="https://revistas.unlp.edu.ar/ejs/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/ejs/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/lib/pkp/styles/fontawesome/fontawesome.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/public/journals/67/styleSheet.css?d=2024-11-06+15%3A23%3A23" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/public/site/styleSheet.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/plugins/generic/citationStyleLanguage/css/citationStyleLanguagePlugin.css?v=3.4.0.8" type="text/css" />
+</head>
+<body class="pkp_page_article pkp_op_view has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Salta a los enlaces de contenido">
+	<a href="#pkp_content_main">Ir al contenido principal</a>
+	<a href="#siteNav">Ir al menú de navegación principal</a>
+		<a href="#pkp_content_footer">Ir al pie de página del sitio</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://revistas.unlp.edu.ar/ejs/index
+					" class="is_img">
+							<img src="https://revistas.unlp.edu.ar/public/journals/67/pageHeaderLogoImage_es_ES.png" width="800" height="240" alt="encabezado del sitio" />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Navegación del sitio">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://revistas.unlp.edu.ar/ejs/issue/current">
+					Actual
+				</a>
+							</li>
+								<li class="">
+				<a href="https://revistas.unlp.edu.ar/ejs/issue/archive">
+					Archivos
+				</a>
+							</li>
+															<li class="">
+				<a href="https://revistas.unlp.edu.ar/ejs/about/editorialTeam">
+					Equipo editorial
+				</a>
+							</li>
+								<li class="">
+				<a href="https://revistas.unlp.edu.ar/ejs/about">
+					ACERCA DE
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/about">
+										Sobre la revista
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/about/submissions">
+										Envíos
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/editorial_policies">
+										Políticas editoriales
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/stats">
+										Estadísticas
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/about/contact">
+										Contacto
+									</a>
+								</li>
+																		</ul>
+							</li>
+			</ul>
+
+				
+
+																						<div class="pkp_navigation_search_wrapper">
+									<a href="https://revistas.unlp.edu.ar/ejs/search" class="pkp_search pkp_search_desktop">
+										<span class="fa fa-search" aria-hidden="true"></span>
+										Buscar
+									</a>
+								</div>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+								<li class="profile">
+				<a href="https://revistas.unlp.edu.ar/ejs/user/register">
+					Registrarse
+				</a>
+							</li>
+								<li class="profile">
+				<a href="https://revistas.unlp.edu.ar/ejs/login">
+					Entrar
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="Usted está aquí:">
+	<ol>
+		<li>
+			<a href="https://revistas.unlp.edu.ar/ejs/index">
+				Inicio
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://revistas.unlp.edu.ar/ejs/issue/archive">
+				Archivos
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://revistas.unlp.edu.ar/ejs/issue/view/1068">
+					Vol. 1 (1998): Electronic Journal of SADIO (EJS)  Vol. 1 (1998)
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									Papers
+							</span>
+		</li>
+	</ol>
+</nav>
+	
+		  	 <article class="obj_article_details">
+
+		
+	<h1 class="page_title">
+		Program Flow Analysis for Reducing and Estimating the Cost of Test Coverage Criteria
+	</h1>
+
+	
+	<div class="row">
+		<div class="main_entry">
+
+							<section class="item authors">
+					<h2 class="pkp_screen_reader">Autores/as</h2>
+					<ul class="authors">
+											<li>
+							<span class="name">
+								Martina Marré
+							</span>
+															<span class="affiliation">
+									Universidad de Buenos Aires, Argentina
+																	</span>
+																																		</li>
+										</ul>
+				</section>
+			
+									
+
+									<section class="item keywords">
+				<h2 class="label">
+										Palabras clave:
+				</h2>
+				<span class="value">
+											spanning sets of entities , 											coverage testing									</span>
+			</section>
+			
+										<section class="item abstract">
+					<h2 class="label">Resumen</h2>
+					<p>Testing a software system consists of executing it over a suitable sample of input data and then checking if the output produced matches what was expected. Testing is widely used to enhance software quality, and, specifically, to uncover bugs that are inevitably introduced during the software development process.</p>
+<p>One of the most difficult problems in testing is knowing when to stop the testing process. On the one hand, it is not possible in general to give an answer to whether a test suite guarantees the absence of faults. On the other hand, we need a way to limit the cost of testing. Therefore, it is useful to have criteria to determine when a program has been tested ``enough''. Ideally, the testing process should be planned in advance. However, in practice the tests are incorporated little by little, until some adequacy criterion is satisfied. In particular, different coverages can be used to determine when the program has been tested enough. The idea is to guarantee that each statement, decision or other feature of the program has been executed at least once under some test.</p>
+<p>A major problem is that testing takes a considerable amount of the time and resources spent on producing software [#!B88!#]. Therefore, it would be useful to have ways</p>
+<p>1. to <em>reduce</em> the cost of testing, and</p>
+<p>2. to <em>estimate</em> this cost.</p>
+<p>In particular, <em>the number of tests to be executed</em> impacts heavily on the cost of testing. In fact, the time and resources needed for testing increase as the number of test cases increases. Hence, to reduce the cost of testing, the number of test cases generated to satisfy a selected test criterion should be as small as possible. Moreover, a bound on the number of tests that have to be performed to satisfy a selected test strategy can be used by managers and testers to estimate the effort needed to carry out the tests.</p>
+<p>A test criterion in practice sets a collection of <em>requirements</em> to be fulfilled. For structural coverage criteria, these requirements are mapped onto a set of <em>entities</em> in the program flowgraph that must be covered when the tests are executed.</p>
+<p>In this work we present a method for reducing and estimating the number of tests needed to satisfy structural coverage criteria, based on the new concept of <em>spanning sets</em> of entities. This concept is based on the observation that one test generally covers more than one entity. However, this fact is not traditionally considered when coverage is measured and not covered entities are identified, or when more tests have to be selected in order to augment coverage. Methods for selecting tests generate a test datum for covering one entity selected arbitrarily and considered in isolation from the other entities. If the generated test datum also exercises other entities, these will then be considered as covered a-posteriori. But no effort is made to generate a-priori test data that satisfy multiple requirements.</p>
+<p>Our method overcomes these drawbacks by identifying with static analysis a <em>minimum</em> subset of entities with the property that any set of tests covering this subset covers every entity in the program. We call this minimum subset a ``spanning set of entities''. In this work, we first define the sets of entities that are associated with a whole family of popular test coverage criteria. Then we present a generalized method of identifying a spanning set of entities for the criteria considered.</p>
+<p>Our method can be automated. Once it has been included in the software testing process, this information can be used for</p>
+<ul>
+<li>evaluating test adequacy more effectively;</li>
+<li>reducing the cost of testing;</li>
+<li>estimating the cost of testing;</li>
+<li>generating test suites.</li>
+</ul>
+<p>In this thesis we present our study of the use of spanning sets of entities in coverage testing.</p>
+				</section>
+			
+			
+
+										
+				<section class="item downloads_chart">
+					<h2 class="label">
+						Descargas
+					</h2>
+					<div class="value">
+						<canvas class="usageStatsGraph" data-object-type="Submission" data-object-id="17500"></canvas>
+						<div class="usageStatsUnavailable" data-object-type="Submission" data-object-id="17500">
+							Los datos de descarga aún no están disponibles.
+						</div>
+					</div>
+				</section>
+			
+																			
+						
+		</div><!-- .main_entry -->
+
+		<div class="entry_details">
+
+										<div class="item cover_image">
+					<div class="sub_item">
+													<a href="https://revistas.unlp.edu.ar/ejs/issue/view/1068">
+								<img src="https://revistas.unlp.edu.ar/public/journals/67/cover_issue_18_es_ES.jpg" alt="">
+							</a>
+											</div>
+				</div>
+			
+										<div class="item galleys">
+					<h2 class="pkp_screen_reader">
+						Descargas
+					</h2>
+					<ul class="value galleys_links">
+													<li>
+								
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/17500/17059">
+		
+	PDF (Inglés)
+
+	</a>
+							</li>
+											</ul>
+				</div>
+						
+						<div class="item published">
+				<section class="sub_item">
+					<h2 class="label">
+						Publicado
+					</h2>
+					<div class="value">
+																			<span>1998-06-01</span>
+																	</div>
+				</section>
+							</div>
+			
+						
+										<div class="item issue">
+
+											<section class="sub_item">
+							<h2 class="label">
+								Número
+							</h2>
+							<div class="value">
+								<a class="title" href="https://revistas.unlp.edu.ar/ejs/issue/view/1068">
+									Vol. 1 (1998): Electronic Journal of SADIO (EJS)  Vol. 1 (1998)
+								</a>
+							</div>
+						</section>
+					
+											<section class="sub_item">
+							<h2 class="label">
+								Sección
+							</h2>
+							<div class="value">
+								Papers
+							</div>
+						</section>
+					
+									</div>
+			
+						
+										<div class="item copyright">
+					<h2 class="label">
+						Licencia
+					</h2>
+																										<p>Derechos de autor 1998 Martina Marré</p>
+														<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><p>Esta obra está bajo una licencia internacional <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Atribución-NoComercial-CompartirIgual 4.0</a>.</p>
+																<h4>Aquellos autores/as que tengan publicaciones con esta revista, aceptan los términos siguientes:</h4>
+<ol type="a">
+<li class="show">Los autores/as conservarán sus derechos de autor y garantizarán a la revista el derecho de primera publicación de su obra, el cuál estará simultáneamente sujeto a la <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a> (CC BY-NC-SA 4.0) que permite a terceros compartir la obra siempre que se indique su autor y su primera publicación esta revista, no hagan uso comercial de ella y las obras derivadas de hagan bajo la misma licencia.</li>
+<li class="show">Los autores/as podrán adoptar otros acuerdos de licencia no exclusiva de distribución de la versión de la obra publicada (p. ej.: depositarla en un archivo telemático institucional o publicarla en un volumen monográfico) siempre que se indique la publicación inicial en esta revista.</li>
+<li class="show">Se permite y recomienda a los autores/as difundir su obra a través de Internet (p. ej.: en archivos telemáticos institucionales o en su página web) antes y durante el proceso de envío, lo cual puede producir intercambios interesantes y aumentar las citas de la obra publicada. (Véase <a href="http://opcit.eprints.org/oacitation-biblio.html" target="_new">El efecto del acceso abierto</a>).</li>
+</ol>
+				</div>
+			
+				<div class="item citation">
+		<section class="sub_item citation_display">
+			<h2 class="label">
+				Cómo citar
+			</h2>
+			<div class="value">
+				<div id="citationOutput" role="region" aria-live="polite">
+					<div class="csl-bib-body">
+  <div class="csl-entry">Marré, M. (1998). Program Flow Analysis for Reducing and Estimating the Cost of Test Coverage Criteria. <i>SADIO Electronic Journal of Informatics and Operations Research</i>, <i>1</i>. <a href="https://revistas.unlp.edu.ar/ejs/article/view/17500">https://revistas.unlp.edu.ar/ejs/article/view/17500</a></div>
+</div>
+				</div>
+				<div class="citation_formats">
+					<button class="citation_formats_button label" aria-controls="cslCitationFormats" aria-expanded="false" data-csl-dropdown="true">
+						Más formatos de cita
+					</button>
+					<div id="cslCitationFormats" class="citation_formats_list" aria-hidden="true">
+						<ul class="citation_formats_styles">
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/acm-sig-proceedings?submissionId=17500&amp;publicationId=20244&amp;issueId=1068"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/acm-sig-proceedings?submissionId=17500&amp;publicationId=20244&amp;issueId=1068&amp;return=json"
+									>
+										ACM
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/acs-nano?submissionId=17500&amp;publicationId=20244&amp;issueId=1068"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/acs-nano?submissionId=17500&amp;publicationId=20244&amp;issueId=1068&amp;return=json"
+									>
+										ACS
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/apa?submissionId=17500&amp;publicationId=20244&amp;issueId=1068"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/apa?submissionId=17500&amp;publicationId=20244&amp;issueId=1068&amp;return=json"
+									>
+										APA
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=17500&amp;publicationId=20244&amp;issueId=1068"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=17500&amp;publicationId=20244&amp;issueId=1068&amp;return=json"
+									>
+										ABNT
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/chicago-author-date?submissionId=17500&amp;publicationId=20244&amp;issueId=1068"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/chicago-author-date?submissionId=17500&amp;publicationId=20244&amp;issueId=1068&amp;return=json"
+									>
+										Chicago
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/harvard-cite-them-right?submissionId=17500&amp;publicationId=20244&amp;issueId=1068"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/harvard-cite-them-right?submissionId=17500&amp;publicationId=20244&amp;issueId=1068&amp;return=json"
+									>
+										Harvard
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/ieee?submissionId=17500&amp;publicationId=20244&amp;issueId=1068"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/ieee?submissionId=17500&amp;publicationId=20244&amp;issueId=1068&amp;return=json"
+									>
+										IEEE
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/modern-language-association?submissionId=17500&amp;publicationId=20244&amp;issueId=1068"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/modern-language-association?submissionId=17500&amp;publicationId=20244&amp;issueId=1068&amp;return=json"
+									>
+										MLA
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=17500&amp;publicationId=20244&amp;issueId=1068"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=17500&amp;publicationId=20244&amp;issueId=1068&amp;return=json"
+									>
+										Turabian
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/vancouver?submissionId=17500&amp;publicationId=20244&amp;issueId=1068"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/vancouver?submissionId=17500&amp;publicationId=20244&amp;issueId=1068&amp;return=json"
+									>
+										Vancouver
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/ama?submissionId=17500&amp;publicationId=20244&amp;issueId=1068"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/ama?submissionId=17500&amp;publicationId=20244&amp;issueId=1068&amp;return=json"
+									>
+										AMA
+									</a>
+								</li>
+													</ul>
+													<div class="label">
+								Descargar cita
+							</div>
+							<ul class="citation_formats_styles">
+																	<li>
+										<a href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/download/ris?submissionId=17500&amp;publicationId=20244&amp;issueId=1068">
+											<span class="fa fa-download"></span>
+											Endnote/Zotero/Mendeley (RIS)
+										</a>
+									</li>
+																	<li>
+										<a href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/download/bibtex?submissionId=17500&amp;publicationId=20244&amp;issueId=1068">
+											<span class="fa fa-download"></span>
+											BibTeX
+										</a>
+									</li>
+															</ul>
+											</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+		</div><!-- .entry_details -->
+	</div><!-- .row -->
+
+</article>
+
+	
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary">
+				<div class="pkp_block block_language">
+	<h2 class="title">
+		Idioma
+	</h2>
+
+	<div class="content">
+		<ul>
+							<li class="locale_en" lang="en">
+					<a href="https://revistas.unlp.edu.ar/ejs/user/setLocale/en?source=%2Fejs%2Farticle%2Fview%2F17500">
+						English
+					</a>
+				</li>
+							<li class="locale_es current" lang="es">
+					<a href="https://revistas.unlp.edu.ar/ejs/user/setLocale/es?source=%2Fejs%2Farticle%2Fview%2F17500">
+						Español
+					</a>
+				</li>
+					</ul>
+	</div>
+</div><!-- .block_language -->
+<div class="pkp_block block_custom" id="customblock-indizaciones">
+	<h2 class="title pkp_screen_reader">indizaciones</h2>
+	<div class="content">
+		<p><strong><a href="https://sedici.unlp.edu.ar/handle/10915/134623" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/sedici.jpg"></a></strong></p>
+<p><a href="https://www.caicyt-conicet.gov.ar/sitio/sadio-electronic-journal-of-informatics-and-operations-research/" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/LogoNucleoBasico.png"></a></p>
+<p><a href="https://www.latindex.org/latindex/ficha/26348" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/Logo-LATINDEX-2.png"></a></p>
+<p><a href="https://miar.ub.edu/issn/1514-6774" target="_blank" rel="noopener"><img style="width: 120px;" src="https://revistas.unlp.edu.ar/public/images/logos/Miar.png" alt="miar"></a></p>
+<p><a href="https://latinrev.flacso.org.ar/revistas/sadio-electronic-journal-of-informatics-and-operations-research" target="_blank" rel="noopener"><img style="width: 120px;" src="https://latinrev.flacso.org.ar/themes/latinrev/imgs/latinrev_logo.svg"></a></p>
+<p><a href="https://www.caicyt-conicet.gov.ar/malena/items/show/2050" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/Malena.jpg"></a></p>
+<p><a href="https://portal.issn.org/resource/ISSN/1514-6774" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/logo-road.png"></a></p>
+<p><a href="https://sfdora.org/" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/DORA.png"></a></p>
+	</div>
+</div>
+<div class="pkp_block block_web_feed">
+	<h2 class="title">Últimas publicaciones</h2>
+	<div class="content">
+		<ul>
+			<li>
+				<a href="https://revistas.unlp.edu.ar/ejs/gateway/plugin/WebFeedGatewayPlugin/atom">
+					<img src="https://revistas.unlp.edu.ar/lib/pkp/templates/images/atom.svg" alt="Logo Atom">
+				</a>
+			</li>
+			<li>
+				<a href="https://revistas.unlp.edu.ar/ejs/gateway/plugin/WebFeedGatewayPlugin/rss2">
+					<img src="https://revistas.unlp.edu.ar/lib/pkp/templates/images/rss20_logo.svg" alt="Logo RSS2">
+				</a>
+			</li>
+			<li>
+				<a href="https://revistas.unlp.edu.ar/ejs/gateway/plugin/WebFeedGatewayPlugin/rss">
+					<img src="https://revistas.unlp.edu.ar/lib/pkp/templates/images/rss10_logo.svg" alt="Logo RSS1">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+					<div class="pkp_footer_content">
+				<div style="width: 100%; display: flex; justify-content: center; padding: 5px;">
+<div style="text-align: center; color: #5f5f5f;">
+<p><strong>SADIO. Electronic Journal of Informatics and Operations Research</strong><br />Revista científica de la Sociedad Argentina de Informática e Investigación Operativa (SADIO)<br /><a href="https://revistas.unlp.edu.ar/ejs/index" target="_blank" rel="noopener">https://revistas.unlp.edu.ar/ejs/index</a></p>
+<p>e-ISSN 1514-6774 | Revista con periodicidad semestral</p>
+<p><a href="https://www.sadio.org.ar/">Sociedad Argentina de Informática e Investigación Operativa</a> | <a href="https://unlp.edu.ar/">Universidad Nacional de La Plata</a><a href="http://www.jursoc.unlp.edu.ar/index.php/institutos/informacion/item/158-instituto-de-relaciones-internacionales.html" target="_blank" rel="noopener"><br /></a>Uruguay N.° 252, piso 2 D | Ciudad Autónoma de Buenos Aires (1015) | Argentina | <a href="mailto:ejs-editorial@sadio.org.ar">ejs-editorial@sadio.org.ar</a></p>
+<p>El sitio y todos sus contenidos se encuentran bajo una licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">Creative Commons BY-NC-SA 4.0</a>  </p>
+</div>
+</div>
+<div id="contenedor-de-logos-al-pie1" style="border-bottom: 0px solid #A879B5; width: 100%; padding: 10px 0px 0px; margin: 0 0 0 0px;" align="center"><a href="https://binpar.caicyt.gov.ar/cgi-bin/koha/opac-detail.pl?biblionumber=108056&amp;query_desc=kw%2Cwrdl%3A%20SADIO" target="_blank" rel="noopener"><img style="height: 80px; margin: 0 0 0px 0;" src="https://revistas.unlp.edu.ar/public/images/logos/binpar.png" /></a><a href="https://www.sadio.org.ar/" target="_blank" rel="noopener"><img class="logos-al-pie1" style="height: 65px; margin: 0 5px 3px 15px;" src="https://revistas.unlp.edu.ar/public/site/images/pmarco/logo-sadio.jpg" /></a> <a href="http://sedici.unlp.edu.ar/" target="_blank" rel="noopener"> <img class="logos-al-pie1" style="height: 35px; margin-bottom: 20px;" src="https://revistas.unlp.edu.ar/public/images/logos/sedici_logo.png" alt="SEDICI" /></a> <a href="https://portalderevistas.unlp.edu.ar/" target="_blank" rel="noopener"> <img class="logos-al-pie1" style="height: 55px; margin-bottom: 18px;" src="https://revistas.unlp.edu.ar/public/images/logos/marca-portal-de-revistas-unlp-ok.png" alt="PORTAL" /></a> <a href="http://unlp.edu.ar/" target="_blank" rel="noopener"><img class="logos-al-pie1" style="height: 60px; margin: 0 0px 10px 0;" src="https://revistas.unlp.edu.ar/public/images/logos/marca-UNLP-ok.png" alt="UNLP" /></a></div>
+<div id="contenedor-de-logos-al-pie2" style="border-bottom: 0px solid #A879B5; width: 100%; padding: 10px 0px 0px; margin: 0 0 0 0px;" align="center"><a href="https://pkp.sfu.ca/" target="_blank" rel="noopener"><img class="logos-al-pie" src="https://revistas.unlp.edu.ar/public/images/logos/logo-pkp-1.png" /></a> <a href="https://www.budapestopenaccessinitiative.org/" target="_blank" rel="noopener"><img class="logos-al-pie" src="https://revistas.unlp.edu.ar/public/images/logos/open-access.png" /></a> <a href="https://creativecommons.org/" target="_blank" rel="noopener"><img class="logos-al-pie" style="height: 25px; margin: 10px 25px 20px 25px;" src="https://revistas.unlp.edu.ar/public/images/logos/Creative_Commons_logo_ok.png" alt="Licencia Creative Commons" /></a><a href="https://www.doi.org/" target="_blank" rel="noopener"> <img class="logos-al-pie" src="https://revistas.unlp.edu.ar/public/images/logos/doi.png" alt="DOI" /></a> <a href="https://orcid.org/" target="_blank" rel="noopener"> <img class="logos-al-pie" src="https://revistas.unlp.edu.ar/public/images/logos/ORCID_logo_ok.png" alt="ORCID" /></a></div>
+			</div>
+		
+		<div class="pkp_brand_footer">
+			<a href="https://revistas.unlp.edu.ar/ejs/about/aboutThisPublishingSystem">
+				<img alt="Más información acerca del sistema de publicación, de la plataforma y del flujo de trabajo de OJS/PKP." src="https://revistas.unlp.edu.ar/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://revistas.unlp.edu.ar/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/themes/default/js/lib/popper/popper.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/themes/default/js/lib/bootstrap/util.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/themes/default/js/main.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/generic/citationStyleLanguage/js/articleCitation.js?v=3.4.0.8" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.data = pkpUsageStats.data || {};pkpUsageStats.data.Submission = pkpUsageStats.data.Submission || {};pkpUsageStats.data.Submission[17500] = {"data":{"1998":{"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"1999":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2000":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2001":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2002":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2003":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2004":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2005":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2006":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2007":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2008":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2009":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2010":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2011":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2012":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2013":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2014":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2015":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2016":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2017":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2018":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2019":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2020":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2021":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2022":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2023":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2024":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":"1","12":0},"2025":{"1":0,"2":"1","3":0,"4":"1","5":0,"6":"3","7":"4","8":"4","9":0,"10":"1","11":"5","12":0},"2026":{"1":0,"2":0,"3":"1","4":"5","5":"2","6":"2","7":"2","8":"3","9":"1","10":"5"}},"label":"Todas las descargas","color":"79,181,217","total":41};</script><script src="https://revistas.unlp.edu.ar/lib/pkp/js/lib/Chart.min.js?v=3.4.0.8" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.locale = pkpUsageStats.locale || {};pkpUsageStats.locale.months = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];pkpUsageStats.config = pkpUsageStats.config || {};pkpUsageStats.config.chartType = "line";</script><script src="https://revistas.unlp.edu.ar/lib/pkp/js/usage-stats-chart.js?v=3.4.0.8" type="text/javascript"></script><script type="text/javascript">
+(function (w, d, s, l, i) { w[l] = w[l] || []; var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+j.src = 'https://www.googletagmanager.com/gtag/js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+function gtag(){dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config', i); })
+(window, document, 'script', 'dataLayer', 'G-X2LC461149');
+</script>
+
+
+</body>
+</html>

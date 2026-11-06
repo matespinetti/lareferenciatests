@@ -1,0 +1,49 @@
+{
+ "pedido": "20261029T121018255-00058",
+ "url": "https://revistas.unlp.edu.ar/ejs",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:11:54 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "set-cookie",
+   "OJSSID=70gqmg87djoccs2gpvsg6sgjun; path=/; domain=revistas.unlp.edu.ar; secure; HttpOnly; SameSite=Lax"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "content-length",
+   "7064"
+  ],
+  [
+   "keep-alive",
+   "timeout=2, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

@@ -1,0 +1,829 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RIUdeG: Página de inicio</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 6.3" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+
+        <link rel="alternate" type="application/rdf+xml" title="Items in RIUdeG" href="/feed/rss_1.0/site"/>
+
+        <link rel="alternate" type="application/rss+xml" title="Items in RIUdeG" href="/feed/rss_2.0/site"/>
+
+        <link rel="alternate" type="application/rss+xml" title="Items in RIUdeG" href="/feed/atom_1.0/site"/>
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+
+	<script type="text/javascript" src="/layout/ajustesRIUdeG.js"></script>	
+	<script type="text/javascript">separaRepositoriosRedUdeG();</script>
+
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-67819553-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+<a class="sr-only" href="#content">Skip navigation</a>
+<header id="cabeza" class="navbar navbar-inverse navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul class="nav navbar-nav">
+           <li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span> Página de inicio</a></li>
+
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Listar <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Comunidades en RIUdeG</a></li>
+				<li class="divider"></li>
+        <li class="dropdown-header">Browse Items by:</li>
+				
+
+				
+				      			<li><a href="/browse?type=dateissued">Fecha de titulación</a></li>
+					
+				      			<li><a href="/browse?type=author">Autor</a></li>
+					
+				      			<li><a href="/browse?type=title">Título</a></li>
+					
+				      			<li><a href="/browse?type=subject">Materia</a></li>
+					
+
+				
+
+            </ul>
+          </li>
+          <li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/help/index.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Ayuda<\/a>');
+// -->
+</script><noscript><a href="/help/index.html" target="dspacepopup">Ayuda</a></noscript></li>
+       </ul>
+
+ 
+    <div class="nav navbar-nav navbar-right">
+	 <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Language<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='en';
+                  document.repost.submit();" href="https://riudg.udg.mx/home.jsp?locale=en">
+         English
+       </a>
+      </li>
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='es';
+                  document.repost.submit();" href="https://riudg.udg.mx/home.jsp?locale=es">
+         español
+       </a>
+      </li>
+ 
+     </ul>
+    </li>
+    </ul>
+  </div>
+ 
+
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+         
+             <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Iniciar sesión <b class="caret"></b></a>-->
+             <!--<a href="/mydspace" class="loginRIUdeG-btn" ><span class="glyphicon glyphicon-user"></span> Iniciar sesión</a>-->
+	
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Mi perfil</a></li>
+               <li><a href="/subscribe">Alertas</a></li>
+               <li><a href="/profile">Editar perfil</a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+
+	
+	<form method="get" action="/simple-search" class="navbar-form navbar-right">
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Buscar en&nbsp;RIUdeG" name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form></div>
+    </nav>
+
+            </div>
+
+</header>
+
+<!-- Tema UdeG (Segundo navbar) -->
+<!--<div id="segundo-navbar" class="navbar navbar-default">
+	<nav class="container"> 
+	<div class="container-fluid">
+    		<!-- Brand and toggle get grouped for better mobile display -->
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="/">RIUdeG Inicio</a>
+    		</div>
+    		<!-- Collect the nav links, forms, and other content for toggling -->
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      			<ul class="nav navbar-nav">
+				<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Consultar<span class="caret"></span></a>
+         				<ul class="dropdown-menu">
+						<li><a href="http://www.riudg.udg.mx/info/consultar.jsp#colecciones">Colecciones</a></li>
+						<li><a href="http://www.riudg.udg.mx/info/consultar.jsp#autores">Autores</a></li>
+						<li><a href="http://www.riudg.udg.mx/info/consultar.jsp#temas">Temas</a></li>
+          				</ul>
+        			</li>
+				<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publicar <span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            					<li><a href="http://www.riudg.udg.mx/info/publicar.jsp#trabajos">Como agregar mis trabajos </a></li>
+						<li><a href="http://www.riudg.udg.mx/info/publicar.jsp#tesistas">Informaci&oacute;n para tesistas</a></li>
+						<li><a href="http://www.riudg.udg.mx/info/publicar.jsp#tesis">Subir tesis</a></li>
+						<li><a href="http://www.riudg.udg.mx/info/publicar.jsp#articulos">Subir art&iacute;culo</a></li>
+          				</ul>
+        			</li>
+				<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acerca de RIUdeG <span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            					<li><a href="http://www.riudg.udg.mx/info/acercaRIUdeG.jsp#contenidos">Contenidos </a></li>
+						<li><a href="http://www.riudg.udg.mx/info/acercaRIUdeG.jsp#politicas">Pol&iacute;ticas</a></li>
+						<li><a href="http://www.riudg.udg.mx/info/acercaRIUdeG.jsp#preguntas">Preguntas frecuentes</a></li>
+						<li><a href="http://www.riudg.udg.mx/info/acercaRIUdeG.jsp#contacto">Contacto</a></li>
+          				</ul>
+        			</li>
+      			</ul>
+    		</div><!-- /.navbar-collapse -->
+  	</div><!-- /.container-fluid -->
+</nav>
+<!--</div>-->
+<!-- Tema UdeG (Segundo navbar) -->
+
+<main id="content" role="main">
+<div class="container banner">
+	<!-- comienza logo de repositorio y logo de la universidad-->
+	<div id="primerbanner" class="row">
+		<!--<a href="/RIIA/"><div id="repositorio-logo" class="pull-left">
+		<img class="img-responsive" src="/image/verde.png">
+		</a></div></a>-->
+		<!--<div  id="udg-logo" class="pull-right">-->
+		<div id="logotiporiia" class="col-md-8 brand">
+			<a id="riia" href="/" target="_self">
+				<!--<img class="pull-left"  src="/image/logocaja.png">-->
+				<img id="riudeg-logo" class="pull-left"  src="/image/RIUdeG-logo.png">
+				<!--<img  class="pull-left" src="/image/riia1.png">-->
+				<!--<img id="riia-name" class="pull-left"  src="/image/nombre.png">-->
+				<img id="riia-name" class="pull-left"  style="height:40px;" src="/image/RIUdeG-logo.png">
+				<!--<h1>Repositorio Institucional de <br> Informaci&oacute;n Acad&eacute;mica</h1>-->
+			</a><br><br>
+			<a id="imgudg" href="http://udg.mx/" target="_blank">
+					<img  src="/image/red.png">
+			</a>
+		</div>
+		<div id='logotipoudgwdg' class="col-md-4">
+			<div id="derecha" class="pull-right">
+				<a id="imgudg" href="http://udg.mx/" target="_blank">
+					<!--<img  src="/image/logoUdeG.png">-->
+					<!--<img  src="/image/red.png">-->
+					<!--<img  src="/image/escudoUdeG.png">-->
+
+				</a>
+				<!--<img  src="/image/linea.png">-->
+				<a id="imgwdg" href="http://wdg.biblio.udg.mx/" target="_blank">
+					<!--<img  src="/image/wdgbiblio.png">-->
+					<!--<img  src="/image/wdg.png">-->
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- termina logo del repositorio y logo de la universidad -->
+	<!--<div id="texto-descriptivo" class="row">
+		<h4 id="texto-descriptivoh4">El Repositorio Institucional de la Universidad de Guadalajara facilita el acceso virtual, 
+		libre y abierto al conocimiento acad&eacute;mico y cient&iacute;fico producido en la Universidad de Guadalajara 
+		para incrementar las posibilidades de satisfacer las necesidades informativas de nuestra comunidad, 
+		as&iacute; como ampliar su visibilidad internacional, uso e impacto.</h4>-->
+		<!--<div class="col-md-9 brand">
+		<h1>RIUdeG <small>JSPUI</small></h1>
+        <h4>RIUdeG preserves and enables easy and open access to all types of digital content including text, images, moving images, mpegs and data sets</h4> <a href="http://www.dspace.org" class="btn btn-primary">Learn More</a> 
+        </div>
+        <div class="col-md-3"><img class="pull-right" src="/image/logo.gif">
+        </div>-->
+	</div>
+	
+	<!-- Tema UdeG -->
+	
+	<script>
+	 
+	  $(function() {
+			var value = window.location.pathname;
+			if( value !="/" ){ 
+				$("#texto-descriptivoh4").text("");
+				if($("#introComm").length !== 0) {
+					$("#introComm").appendTo("#texto-descriptivoh4");
+				}
+			}
+			
+	  });
+	 
+	</script>
+	
+</div>	
+<br/>
+                
+
+<div class="container">
+                
+
+
+
+  
+
+<ol class="breadcrumb btn-success">
+
+<li>RIUdeG</li>
+
+</ol>
+
+</div>                
+
+
+
+        
+<div class="container">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+
+<!--
+
+Comunidades
+
+-->
+
+  
+  	<div  id="lista-comunidades"  class="col-md-4">
+                 <!--<h3>Comunidades en RIUdeG</h3>
+                  <p>De click a alguna comunidad para visualizar su contenido.</p>-->
+  				<div class="list-group">
+  <div class="list-group-item row">
+  
+  	<div class="col-md-3">
+          <img alt="Logo" class="img-responsive" src="/retrieve/7b01fe0b-ffde-477f-a876-d8d028aa7c18" />
+  	</div>
+  	<div class="col-md-9">
+  
+  		<h4 class="list-group-item-heading"><a href="/handle/20.500.12104/1">Conferencias</a>
+  
+  		<span class="badge pull-right">20</span>
+  
+  		</h4>
+  		<p></p>
+      </div>
+  </div>
+  <div class="list-group-item row">
+  
+  	<div class="col-md-3">
+          <img alt="Logo" class="img-responsive" src="/retrieve/6937e020-5de3-48a2-8af2-ba165d33c9a8" />
+  	</div>
+  	<div class="col-md-9">
+  
+  		<h4 class="list-group-item-heading"><a href="/handle/20.500.12104/3">Fondo Histórico</a>
+  
+  		<span class="badge pull-right">5</span>
+  
+  		</h4>
+  		<p></p>
+      </div>
+  </div>
+  <div class="list-group-item row">
+  
+  	<div class="col-md-3">
+          <img alt="Logo" class="img-responsive" src="/retrieve/b8784d90-0b3f-4864-9747-7ac9efb7e402" />
+  	</div>
+  	<div class="col-md-9">
+  
+  		<h4 class="list-group-item-heading"><a href="/handle/20.500.12104/4">Libros</a>
+  
+  		<span class="badge pull-right">2336</span>
+  
+  		</h4>
+  		<p></p>
+      </div>
+  </div>
+  <div class="list-group-item row">
+  
+  	<div class="col-md-3">
+          <img alt="Logo" class="img-responsive" src="/retrieve/5c823a7b-42df-4a2a-afea-90f091a283bc" />
+  	</div>
+  	<div class="col-md-9">
+  
+  		<h4 class="list-group-item-heading"><a href="/handle/20.500.12104/20542">Manuales</a>
+  
+  		<span class="badge pull-right">4</span>
+  
+  		</h4>
+  		<p></p>
+      </div>
+  </div>
+  <div class="list-group-item row">
+  
+  	<div class="col-md-3">
+          <img alt="Logo" class="img-responsive" src="/retrieve/af0a928c-f876-4d33-a9c4-51c0823667b9" />
+  	</div>
+  	<div class="col-md-9">
+  
+  		<h4 class="list-group-item-heading"><a href="/handle/20.500.12104/20541">Normatividad</a>
+  
+  		<span class="badge pull-right">2</span>
+  
+  		</h4>
+  		<p></p>
+      </div>
+  </div>
+  <div class="list-group-item row">
+  
+  	<div class="col-md-3">
+          <img alt="Logo" class="img-responsive" src="/retrieve/015913dd-91a7-4408-9af3-d023aeef5dd7" />
+  	</div>
+  	<div class="col-md-9">
+  
+  		<h4 class="list-group-item-heading"><a href="/handle/20.500.12104/71723">Repositorios RedUdeG</a>
+  
+  		<span class="badge pull-right">6455</span>
+  
+  		</h4>
+  		<p></p>
+      </div>
+  </div>
+  <div class="list-group-item row">
+  
+  	<div class="col-md-3">
+          <img alt="Logo" class="img-responsive" src="/retrieve/0aeab08e-2c1d-4073-8af3-b9cd69c349c4" />
+  	</div>
+  	<div class="col-md-9">
+  
+  		<h4 class="list-group-item-heading"><a href="/handle/20.500.12104/8">Revistas</a>
+  
+  		<span class="badge pull-right">9053</span>
+  
+  		</h4>
+  		<p></p>
+      </div>
+  </div>
+  <div class="list-group-item row">
+  
+  	<div class="col-md-3">
+          <img alt="Logo" class="img-responsive" src="/retrieve/27bf5486-d2cf-4fdf-99d7-405c7c100f98" />
+  	</div>
+  	<div class="col-md-9">
+  
+  		<h4 class="list-group-item-heading"><a href="/handle/20.500.12104/9">Tesis</a>
+  
+  		<span class="badge pull-right">27425</span>
+  
+  		</h4>
+  		<p></p>
+      </div>
+  </div>
+  <div class="list-group-item row">
+  
+  	<div class="col-md-3">
+          <img alt="Logo" class="img-responsive" src="/retrieve/ba8126b1-8aac-4dd1-8cf0-314db9656ef3" />
+  	</div>
+  	<div class="col-md-9">
+  
+  		<h4 class="list-group-item-heading"><a href="/handle/20.500.12104/71702">Tutoriales</a>
+  
+  		<span class="badge pull-right">212</span>
+  
+  		</h4>
+  		<p></p>
+      </div>
+  </div>
+  
+  	</div>
+  	</div>
+  
+<!--
+
+Banner UdeG
+
+-->
+
+<div id="banner-gris" class="col-md-8">
+  <div style="margin-bottom: 40px; ">
+	<h4 id="texto-descriptivoh4" style="font-family: 'Trebuchet MS', sans-serif; line-height : 26px !important; text-align: justify;">El <b>Repositorio Institucional de la Universidad de Guadalajara</b> facilita el acceso virtual, 
+		libre y abierto al conocimiento acad&eacute;mico y cient&iacute;fico producido en la Universidad de Guadalajara 
+		para incrementar las posibilidades de satisfacer las necesidades informativas de nuestra comunidad, 
+		as&iacute; como ampliar su visibilidad internacional, uso e impacto.</h4>
+  </div>
+  <!--<div id="mensaje-login" align="left" style="display:align-block; width: 70%; margin: 0 auto; background-color: #203654; margin-bottom: -80px;margin-top: 20px;padding-top:20px; padding-left:20px; padding-right:5px; padding-bottom:16px;border-radius: 6px 6px 6px 6px;-moz-border-radius: 6px 6px 6px 6px;-webkit-border-radius: 6px 6px 6px 6px;border: 0px solid #000000;">
+    <p style="color:#FFF;font-size:16px;">Inicie sesi&oacute;n con su <b>c&oacute;digo</b> y <b>NIP</b> de SIIAU para poder visualizar los documentos en las diversas comunidades.</p>
+  </div>-->
+ 
+ <!--<div ><img style="display:align-block; width:100%; margin-bottom: -120px;" src="./image/cuentatempRIUDG.png" ></div>-->
+  
+<!--<div id="infografia" class="jumbotron">
+    <!--<= topNews %>
+  </div>-->
+</div>
+
+<!--
+
+Banner UdeG
+
+-->
+
+
+
+        <div id="carousel" class="col-md-8">
+        <div class="panel panel-primary">
+        <div id="recent-submissions-carousel" class="panel-heading carousel slide">
+          <h3>Nuevos documentos
+              
+	    <a href="/feed/rss_1.0/site"><img src="/image/rss1.gif" alt="RSS Feed" width="80" height="15" style="margin: 3px 0 3px" /></a>
+	
+	    <a href="/feed/rss_2.0/site"><img src="/image/rss2.gif" alt="RSS Feed" width="80" height="15" style="margin: 3px 0 3px" /></a>
+	
+	    <a href="/feed/atom_1.0/site"><img src="/image/rss.gif" alt="RSS Feed" width="36" height="15" style="margin: 3px 0 3px" /></a>
+	
+          </h3>
+          <link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700,400italic' rel='stylesheet' type='text/css' />
+          <link rel="stylesheet" type="text/css" href="/static/css/bootstrap/style.css" />
+          <script src="/static/js/modernizr.custom.97074.js"></script>
+          <noscript><link rel="stylesheet" type="text/css" href="/static/css/bootstrap/noJS.css"/></noscript>
+<!-- Tema UdeG -->
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+        <section>
+          <ul id="da-thumbs" class="da-thumbs">
+          	    
+
+              <li>
+                <a href="/handle/20.500.12104/112838">
+                  <img src="/image/sinimagen.png" />
+                  <div><span>Tutorial menú herramientas</span></div>
+                </a>
+              </li>
+
+          	
+
+              <li>
+                <a href="/handle/20.500.12104/112837">
+                  <img src="/image/sinimagen.png" />
+                  <div><span>Tutorial menú filtros</span></div>
+                </a>
+              </li>
+
+          	
+
+              <li>
+                <a href="/handle/20.500.12104/112835">
+                  <img src="/image/sinimagen.png" />
+                  <div><span>Taller: "Lineamientos para creación de Prompts exitosos con IA en la búsqueda de información", de Taylor & Francis"</span></div>
+                </a>
+              </li>
+
+          	
+
+              <li>
+                <a href="/handle/20.500.12104/112834">
+                  <img src="/image/sinimagen.png" />
+                  <div><span>Creatividad, innovación e inteligencia artificial: ante los nuevos retos educativos</span></div>
+                </a>
+              </li>
+
+          	
+
+              <li>
+                <a href="/handle/20.500.12104/112833">
+                  <img src="/image/sinimagen.png" />
+                  <div><span>Usos y actividades a través de dispositivos móviles y su relación con habilidades del pensamiento en estudiantes de Educación Superior en Tuxtla Gutiérrez, Chiapas</span></div>
+                </a>
+              </li>
+
+          	
+          </ul>
+        </section>
+		  </div>
+
+		  <!-- Controls -->
+<!-- Tema UdeG -->
+     </div>
+   </div>
+	<div id="infografia" class="jumbotron">
+    		<!--<h3>Repositorio Institucional de Informaci&oacute;n Acad&eacute;mica</h3><p>Bienvenido a RIIA donde puedes consultar la investigaci&oacute;n de la UdeG!</p><p>Consulta nuestros contenidos.</p>--><img src="/image/info.png" width="100%" height="100%"/>
+  	</div>
+ </div>
+
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ <script type="text/javascript" src="/static/js/jquery.hoverdir.js"></script>
+ <script type="text/javascript">
+     $(function() {
+       console.log("hola!!");
+
+       $(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+     });
+ </script>
+
+
+
+
+
+</div>
+  
+<div class="container row">
+  <div id="ultimo" class="row">
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-md-12">
+<h3 class="facets">Descubre</h3>
+<div id="facets" class="facetsBox row panel">
+<div id="facet_author" class="facet col-md-4">
+	    <span class="facetName">Autor</span>
+	    <ul class="list-group"><li class="list-group-item"><span class="badge">70</span> <a href="/simple-search?filterquery=V%C3%81SQUEZ+Mart%C3%ADnez%3B+Claudio+Rafael&amp;filtername=author&amp;filtertype=equals"
+	                title="Filter by VÁSQUEZ Martínez; Claudio Rafael">
+	                VÁSQUEZ Martínez; Claudio Rafael</a></li><li class="list-group-item"><span class="badge">60</span> <a href="/simple-search?filterquery=La+Ventana%2C+Revista&amp;filtername=author&amp;filtertype=equals"
+	                title="Filter by La Ventana, Revista">
+	                La Ventana, Revista</a></li><li class="list-group-item"><span class="badge">55</span> <a href="/simple-search?filterquery=L%C3%B3pez+Jim%C3%A9nez%2C+Jos%C3%A9+Jaime&amp;filtername=author&amp;filtertype=equals"
+	                title="Filter by López Jiménez, José Jaime">
+	                López Jiménez, José Jaime</a></li><li class="list-group-item"><span class="badge">52</span> <a href="/simple-search?filterquery=INESER%2C+Indicadores&amp;filtername=author&amp;filtertype=equals"
+	                title="Filter by INESER, Indicadores">
+	                INESER, Indicadores</a></li><li class="list-group-item"><span class="badge">49</span> <a href="/simple-search?filterquery=L%C3%B3pez+M%C3%A9ndez%2C+Graciela&amp;filtername=author&amp;filtertype=equals"
+	                title="Filter by López Méndez, Graciela">
+	                López Méndez, Graciela</a></li><li class="list-group-item"><span class="badge">47</span> <a href="/simple-search?filterquery=Hern%C3%A1ndez+Hern%C3%A1ndez%2C+Roberto&amp;filtername=author&amp;filtertype=equals"
+	                title="Filter by Hernández Hernández, Roberto">
+	                Hernández Hernández, Roberto</a></li><li class="list-group-item"><span class="badge">45</span> <a href="/simple-search?filterquery=Editorial%2C+Comit%C3%A9&amp;filtername=author&amp;filtertype=equals"
+	                title="Filter by Editorial, Comité">
+	                Editorial, Comité</a></li><li class="list-group-item"><span class="badge">42</span> <a href="/simple-search?filterquery=Falck+Reyes%2C+Melba+Eugenia&amp;filtername=author&amp;filtertype=equals"
+	                title="Filter by Falck Reyes, Melba Eugenia">
+	                Falck Reyes, Melba Eugenia</a></li><li class="list-group-item"><span class="badge">39</span> <a href="/simple-search?filterquery=Fregoso+Peralta%2C+Gilberto&amp;filtername=author&amp;filtertype=equals"
+	                title="Filter by Fregoso Peralta, Gilberto">
+	                Fregoso Peralta, Gilberto</a></li><li class="list-group-item"><span class="badge">39</span> <a href="/simple-search?filterquery=Rodr%C3%ADguez+Bautista%2C+Juan+Jorge&amp;filtername=author&amp;filtertype=equals"
+	                title="Filter by Rodríguez Bautista, Juan Jorge">
+	                Rodríguez Bautista, Juan Jorge</a></li><li class="list-group-item"><span style="visibility: hidden;">.</span>
+		        
+	            
+	            <a href="?author_page=1"><span class="pull-right">siguiente ></span></a>
+	            </li></ul></div><div id="facet_subject" class="facet col-md-4">
+	    <span class="facetName">Tema</span>
+	    <ul class="list-group"><li class="list-group-item"><span class="badge">205</span> <a href="/simple-search?filterquery=Administracion&amp;filtername=subject&amp;filtertype=equals"
+	                title="Filter by Administracion">
+	                Administracion</a></li><li class="list-group-item"><span class="badge">191</span> <a href="/simple-search?filterquery=M%C3%A9xico&amp;filtername=subject&amp;filtertype=equals"
+	                title="Filter by México">
+	                México</a></li><li class="list-group-item"><span class="badge">169</span> <a href="/simple-search?filterquery=Mexico&amp;filtername=subject&amp;filtertype=equals"
+	                title="Filter by Mexico">
+	                Mexico</a></li><li class="list-group-item"><span class="badge">144</span> <a href="/simple-search?filterquery=--&amp;filtername=subject&amp;filtertype=equals"
+	                title="Filter by --">
+	                --</a></li><li class="list-group-item"><span class="badge">128</span> <a href="/simple-search?filterquery=Derecho&amp;filtername=subject&amp;filtertype=equals"
+	                title="Filter by Derecho">
+	                Derecho</a></li><li class="list-group-item"><span class="badge">119</span> <a href="/simple-search?filterquery=Law&amp;filtername=subject&amp;filtertype=equals"
+	                title="Filter by Law">
+	                Law</a></li><li class="list-group-item"><span class="badge">115</span> <a href="/simple-search?filterquery=Jalisco&amp;filtername=subject&amp;filtertype=equals"
+	                title="Filter by Jalisco">
+	                Jalisco</a></li><li class="list-group-item"><span class="badge">89</span> <a href="/simple-search?filterquery=Literatura+y+ret%C3%B3rica+%3E+Generalidades+%3E+Literatura+y+ret%C3%B3rica&amp;filtername=subject&amp;filtertype=equals"
+	                title="Filter by Literatura y retórica > Generalidades > Literatura y retórica">
+	                Literatura y retórica > Generalid...</a></li><li class="list-group-item"><span class="badge">80</span> <a href="/simple-search?filterquery=Guadalajara&amp;filtername=subject&amp;filtertype=equals"
+	                title="Filter by Guadalajara">
+	                Guadalajara</a></li><li class="list-group-item"><span class="badge">79</span> <a href="/simple-search?filterquery=Literatura+y+ret%C3%B3rica+%3E+Literaturas+espa%C3%B1olas+y+portuguesas+%3E+Literatues+espa%C3%B1oles+y+portugueses&amp;filtername=subject&amp;filtertype=equals"
+	                title="Filter by Literatura y retórica > Literaturas españolas y portuguesas > Literatues españoles y portugueses">
+	                Literatura y retórica > Literatur...</a></li><li class="list-group-item"><span style="visibility: hidden;">.</span>
+		        
+	            
+	            <a href="?subject_page=1"><span class="pull-right">siguiente ></span></a>
+	            </li></ul></div><div id="facet_dateIssued" class="facet col-md-4">
+	    <span class="facetName">Fecha</span>
+	    <ul class="list-group"><li class="list-group-item"><span class="badge">10439</span> <a href="/simple-search?filterquery=%5B2000+TO+2107%5D&amp;filtername=dateIssued&amp;filtertype=equals"
+	                title="Filter by 2000 - 2107">
+	                2000 - 2107</a></li><li class="list-group-item"><span class="badge">578</span> <a href="/simple-search?filterquery=%5B1000+TO+1999%5D&amp;filtername=dateIssued&amp;filtertype=equals"
+	                title="Filter by 1000 - 1999">
+	                1000 - 1999</a></li><li class="list-group-item"><span class="badge">15</span> <a href="/simple-search?filterquery=%5B3+TO+999%5D&amp;filtername=dateIssued&amp;filtertype=equals"
+	                title="Filter by 3 - 999">
+	                3 - 999</a></li></ul></div></div></div>
+</div>
+</div>
+
+<div class="row">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+             <footer id='footer' class="navbar navbar-default navbar-bottom">
+             <div id="footer-container" class="container text-muted">
+			<ul>
+				<li>
+					<a href="https://www.riudg.udg.mx/info/consultar.jsp">Consultar</a>
+					<ul>
+						<li><a title="" href="https://www.riudg.udg.mx/info/consultar.jsp#colecciones">Colecciones</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/consultar.jsp#autores">Autores</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/consultar.jsp#temas">Temas</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="https://www.riudg.udg.mx/info/publicar.jsp">Publicar</a>
+					<ul>
+						<li><a title="" href="https://www.riudg.udg.mx/info/publicar.jsp#trabajos">Como agregar mis trabajos</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/publicar.jsp#tesistas">Informaci&oacute;n para tesistas</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/publicar.jsp#tesis">Subir tesis</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/publicar.jsp#articulos">Subir art&iacute;culo</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="https://www.riudg.udg.mx/info/acercaRIUdeG.jsp">Acerca de RIUdeG</a>
+					<ul>
+						<li><a title="" href="https://www.riudg.udg.mx/info/acercaRIUdeG.jsp#contenidos">Contenidos</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/acercaRIUdeG.jsp#politicas">Pol&iacute;ticas</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/acercaRIUdeG.jsp#preguntas">Preguntas frecuentes</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/acercaRIUdeG.jsp#contacto">Contacto</a></li>
+						<li><a href="/mydspace" >Administraci&oacute;n</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+             <div id="derechos" class="container text-muted">
+			&copy; Universidad de Guadalajara. Vicerrector&iacute;a Ejecutiva. Sistema Universitario de Bibliotecas. 2026.
+			<a href="mailto:bibliotecadigital@udg.mx"> bibliotecadigital@udg.mx</a> - Tel. 31 34 22 77 ext. 11959, 11924, 11914
+		</div>
+    		</footer>
+    </body>
+</html>
+

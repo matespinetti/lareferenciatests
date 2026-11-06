@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T15:39:55Z</responseDate><request verb="GetRecord" identifier="oai:riudg.udg.mx:20.500.12104/111064" metadataPrefix="xoai">https://riudg.udg.mx/oai/request</request><GetRecord><record><header><identifier>oai:riudg.udg.mx:20.500.12104/111064</identifier><datestamp>2026-01-28T14:37:57Z</datestamp><setSpec>com_20.500.12104_4</setSpec><setSpec>col_20.500.12104_110639</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="date">
+<element name="accessioned">
+<element name="none">
+<field name="value">2026-01-28T14:37:57Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2026-01-28T14:37:57Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="none">
+<field name="value">https://www.libreriacarlosfuentes.mx/es/producto/testimonio-sobrevivencia-y-sujeto</field>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">https://hdl.handle.net/20.500.12104/111064</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="none">
+<field name="value">Este libro plural los autores nos ofrecen acercamiento desde la filosofía, la antropología, el piscoanálisis y la sociología, a las reflexiones del régimen biopolítico que produce una vida reducida a la condición de mera sobrevivencia, en la que se instaura una fractura entre el mero hecho de existir y la vida narrada, entre el hablante y el viviente, entre el hombre y el no-hombre, entre el sobreviviente y el testigo absoluto. Adentrándose en la paradoja de que le testigo lo es por delegación, puesto que habla por lo que no pueden tomar la palabra, varios autores exploran la laguna de lo intestimoniable, presente en todo decir, en ese punto en el que el advenimiento de un sujeto viene a coincidir con una desubjetivación.Pero también se exploran las resignificaciones, las resistencias y los puntos de fuga de los dispositivos de poder/saber, valorando el testimonio como un acto político frente a la obturación de las memorias, o como un enfrentamiento con los regímenes de verdad que sospechan o descalifican la toma de palabra de los subalternos; resistencias que toma cuerpo en ontologías críticas o bien en esas "ceremonias mínimas" que cuestionan al determinismo biopolíticos al poner de relieve como, al mismo tiempo que los significantes quedan naturalizados y atados a la repetición incesante, movilizan otros decires con una potencialidad subversiva.</field>
+</element>
+</element>
+<element name="publisher">
+<element name="none">
+<field name="value">Editorial Universidad de Guadalajara</field>
+</element>
+</element>
+<element name="relation">
+<element name="none">
+<field name="value">Editorial Universidad de Guadalajara</field>
+</element>
+</element>
+<element name="subject">
+<element name="none">
+<field name="value">CIENCIAS SOCIALES > Antropología > General</field>
+<field name="value">EDUCACIÓN > Métodos y materiales de enseñanza > Ciencias Sociales</field>
+<field name="value">Antropología</field>
+<field name="value">Enseñanza de una materia específica</field>
+<field name="value">Enseñanza: ciencias sociales, estudios sociales</field>
+<field name="value">Sociología y Antropología > Ciencias Sociales > Sociología y antropología</field>
+</element>
+</element>
+<element name="title">
+<element name="none">
+<field name="value">Testimonio, sobrevivencia y sujeto</field>
+</element>
+</element>
+<element name="type">
+<element name="none">
+<field name="value">Libro</field>
+</element>
+</element>
+<element name="image">
+<element name="none">
+<field name="value">https://simehbucket.s3.amazonaws.com/images/2a5bb3c122b7bfef5b0f725582254a10-medium.jpg</field>
+</element>
+</element>
+<element name="contributor.author">
+<element name="none">
+<field name="value">Martín Reyes Pérez</field>
+<field name="value">Manuela Camus</field>
+<field name="value">Natalia Pérez Vilar</field>
+<field name="value">Hans R. Saettele</field>
+<field name="value">Manuela Camus</field>
+<field name="value">Martín Gabriel Reyes Pérez</field>
+<field name="value">Mercedes Minnicelli</field>
+<field name="value">Roque Farrán</field>
+</element>
+</element>
+<element name="type.conacyt">
+<element name="none">
+<field name="value">Book</field>
+</element>
+</element>
+<element name="language.iso">
+<element name="none">
+<field name="value">spa</field>
+</element>
+</element>
+<element name="date.issued">
+<element name="none">
+<field name="value">2019</field>
+</element>
+</element>
+<element name="rights.udg">
+<element name="none">
+<field name="value">https://www.riudg.udg.mx/info/politicas.jsp</field>
+</element>
+</element>
+<element name="identifier.isbn">
+<element name="none">
+<field name="value">978-607-547-787-9</field>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">20.500.12104/111064</field>
+<field name="identifier">oai:riudg.udg.mx:20.500.12104/111064</field>
+<field name="lastModifyDate">2026-01-28 08:37:57.146</field>
+</element>
+<element name="repository">
+<field name="name">RIUdeG</field>
+<field name="mail">wdgdigital@gmail.com</field>
+</element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

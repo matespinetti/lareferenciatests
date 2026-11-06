@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:52:13Z</responseDate><request verb="GetRecord" identifier="oai:arca.fiocruz.br:icict/61151" metadataPrefix="xoai">https://api.arca.fiocruz.br/oai/request</request><GetRecord><record><header><identifier>oai:arca.fiocruz.br:icict/61151</identifier><datestamp>2026-10-26T16:33:29Z</datestamp><setSpec>com_icict_44671</setSpec><setSpec>com_icict_1707</setSpec><setSpec>col_icict_44677</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="advisor">
+            <element name="none">
+               <field name="value">Correia, Fábio Veríssimo</field>
+            </element>
+         </element>
+         <element name="author">
+            <element name="none">
+               <field name="value">Araujo, Gabriel de Farias</field>
+            </element>
+         </element>
+         <element name="advisorco">
+            <element name="none">
+               <field name="value">Saggioro, Enrico Mendes</field>
+            </element>
+         </element>
+         <element name="member">
+            <element name="none">
+               <field name="value">Pereira, Henrique Marcelo Gualberto</field>
+               <field name="value">Gomes, Márcia Marques</field>
+               <field name="value">Sodré, Fernando Fabriz</field>
+               <field name="value">Medeiros, Renata Jurema</field>
+               <field name="value">Saggioro, Enrico Mendes</field>
+               <field name="value">Correia, Fábio Veríssimo</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2023-11-09T14:14:13Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2023-11-09T14:14:13Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2023</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="citation">
+            <element name="none">
+               <field name="value">ARAUJO, Gabriel de Farias. Monitoramento e avaliação ecotoxicológica de níveis ambientais de cocaína e benzoilecgonina em águas fluviais no Rio de Janeiro. 2023. 220 f. Tese (Doutorado em Saúde Pública e Meio Ambiente) - Escola Nacional de Saúde Pública Sergio Arouca, Fundação Oswaldo Cruz, Rio de Janeiro, 2023.</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://arca.fiocruz.br/handle/icict/61151</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="pt-BR">
+               <field name="value">Cocaína (COC) e benzoilecgonina (BE), seu principal metabólito, vêm sendo detectadas em corpos hídricos. A literatura relacionada a efeitos de concentrações ambientais de COC e BE (µg e ng L⁻¹) sobre organismos aquáticos não-alvo é escassa, sobretudo no modelo Danio rerio (zebrafish). Neste estudo, concentrações de COC e BE foram investigadas em cinco rios urbanos na cidade do Rio de Janeiro em campanhas de monitoramento nas estações seca e chuvosa. O espectrômetro de massas Q-Exactive Plus (Thermo Scientific) com ionização electrospray (ESI) foi utilizado na detecção de COC e BE nas amostras de água a partir de extração em fase sólida e análise em sistema Dionex 3000 UHPLC (Thermo Scientific). Embriões de zebrafish foram expostos à COC e BE por 96 h (50-5000 ng L⁻¹), utilizando o OECD Fish Embryo Toxicity Test adaptado em placas de 24 poços, verificando-se efeitos morfológicos e teratogênicos. Zebrafish adultos foram expostos por 21 dias à COC (10-1000 ng L⁻¹), BE (10-1000 ng L⁻¹) e sua combinação (COC+BE 10+1000 ng L⁻¹ e COC+BE 1000+10 ng L⁻¹), analisando-se biomarcadores antioxidantes e oxidativos. Cocaína e BE foram quantificadas (&amp;gt; LQ) com 100 % de frequência em todas as campanhas e pontos de coleta, indicando a contaminação potencial desses ambientes e sugerindo a exposição ininterrupta de organismos não-alvo. Maiores níveis médios de COC (383,68 ± 269,57 ng L⁻¹) e BE (1022,16 ± 535,04 ng L⁻¹) foram observados na estação chuvosa comparados à estação seca (COC 192,27 ± 127,23 ng L⁻¹; BE 504,30 ± 382,28 ng L⁻¹), contrastando com os maiores resultados de NNH3 e DQO observados nesta estação (estação seca), sugerindo a influência do comportamento de consumo de COC associado à primavera/verão (estação chuvosa). Alterações morfológicas e teratogênicas foram observadas nos embriões expostos, com efeitos acima do observado no controle já a partir da menor concentração de BE (50 ng L⁻¹) testada, a qual correspondeu à menos de 10 % da concentração média de BE monitorada. Modulações de biomarcadores de estresse oxidativo (principalmente no cérebro) foram observadas nos peixes adultos expostos, bem como estresse oxidativo associado à peroxidação lipídica e carbonilação de proteínas. Os resultados alertam para a presença de COC e BE em rios do Rio de Janeiro em níveis capazes de causar efeitos deletérios em organismo não-alvo, deflagrando um alarmante problema de saúde pública e meio ambiente.</field>
+            </element>
+         </element>
+         <element name="abstracten">
+            <element name="en">
+               <field name="value">Cocaine (COC) and benzoylecgonine (BE) (main metabolite) have been detected in water sources. The literature on the effects of COC and BE environmental concentrations (µg and ng L⁻¹) in non-target aquatic organisms is scarce, especially in the Danio rerio model (zebrafish). In this study, COC and BE concentrations were investigated in five urban rivers in Rio de Janeiro City, in monitoring campaigns in the dry and rainy seasons. The Q-Exactive Plus mass spectrometer (Thermo Scientific) with electrospray ionization (ESI) was used to detect COC and BE in water samples after solid phase extraction and analysis in a Dionex 3000 UHPLC system (Thermo Scientific). Zebrafish embryos were exposed to COC and BE for 96 h (50-5000 ng L⁻¹), using the OECD Fish Embryo Toxicity Test adapted in 24-well plates, verifying morphological and teratogenic effects. Adult zebrafish were exposed for 21 days to COC (10-1000 ng L⁻¹), BE (10-1000 ng L⁻¹) and their combination (COC+BE 10+1000 ng L⁻¹ and COC+BE 1000+ 10 ng L⁻¹), analyzing antioxidant and oxidative biomarkers. Cocaine and BE were quantified (&amp;gt; LQ) with 100% frequency in all campaigns and sampled rivers, indicating the potential contamination of these environments and suggesting the uninterrupted exposure of non-target organisms. Higher average levels of COC (383.68 ± 269.57 ng L⁻¹) and BE (1022.16 ± 535.04 ng L⁻¹) were observed in the rainy season compared to the dry season (COC 192.27 ± 127, 23 ng L⁻¹; BE 504.30 ± 382.28 ng L⁻¹), contrasting with the higher N-NH3 and COD results observed in this season (dry season), suggesting the influence of COC consumption behavior associated with spring/summer (rainy season). Morphological and teratogenic alterations were observed in the exposed embryos, with effects above those observed in the control already from the lowest BE tested concentration (50 ng L⁻¹), which corresponded to less than 10% of the average concentration of monitored BE. Modulations of oxidative stress biomarkers (mainly in the brain) were observed in exposed adult fish, as well as oxidative stress associated with lipid peroxidation and protein carbonylation. The results alert to the COC and BE presence in Rio de Janeiro rivers at levels capable of causing deleterious effects in non-target organisms, triggering an alarming public health and environmental problem.</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">por</field>
+            </element>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">open access</field>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="other">
+            <element name="pt-BR">
+               <field name="value">Contaminantes Emergentes</field>
+               <field name="value">Ecotoxicologia Aquática</field>
+               <field name="value">Estresse Oxidativo</field>
+               <field name="value">Drogas de Abuso</field>
+            </element>
+         </element>
+         <element name="en">
+            <element name="en">
+               <field name="value">Emerging Contaminants</field>
+               <field name="value">Aquatic Ecotoxicology</field>
+               <field name="value">Oxidative Stress</field>
+               <field name="value">Drugs of Abuse</field>
+            </element>
+         </element>
+         <element name="decs">
+            <element name="pt-BR">
+               <field name="value">ASSISTÊNCIA À SAÚDE [N]::Meio Ambiente e Saúde Pública::Saúde Pública::Prática de Saúde Pública::Programas de Rastreamento::Detecção do Abuso de Substâncias</field>
+               <field name="value">COMPOSTOS QUÍMICOS E DROGAS [D]::Preparações Farmacêuticas::Drogas Ilícitas</field>
+               <field name="value">SAÚDE PÚBLICA [SP]::Saúde Ambiental::Meio Ambiente::Recursos Naturais::Recursos Hídricos::Bacias::Bacias Fluviais</field>
+               <field name="value">COMPOSTOS QUÍMICOS E DROGAS [D]::Fatores Biológicos::Biomarcadores</field>
+               <field name="value">COMPOSTOS QUÍMICOS E DROGAS [D]::Compostos Orgânicos::Compostos Aza::Compostos Azabicíclicos::Tropanos::Cocaína</field>
+               <field name="value">ASSISTÊNCIA À SAÚDE [N]::Meio Ambiente e Saúde Pública::Saúde Pública::Poluição Ambiental::Exposição Ambiental::Monitoramento Ambiental::Qualidade da Água</field>
+               <field name="value">DISCIPLINAS E OCUPAÇÕES [H]::Disciplinas das Ciências Naturais::Disciplinas das Ciências Biológicas::Toxicologia::Ecotoxicologia</field>
+               <field name="value">FENÔMENOS E PROCESSOS [G]::Metabolismo::Estresse Oxidativo</field>
+            </element>
+         </element>
+      </element>
+      <element name="title">
+         <element name="pt-BR">
+            <field name="value">Monitoramento e avaliação ecotoxicológica de níveis ambientais de cocaína e benzoilecgonina em águas fluviais no Rio de Janeiro</field>
+         </element>
+         <element name="en">
+            <field name="value">Monitoring and ecotoxicological assessment of environmental levels of cocaine and benzoylecgonine in river waters in Rio de Janeiro</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">doctoral thesis</field>
+         </element>
+      </element>
+      <element name="degree">
+         <element name="date">
+            <element name="none">
+               <field name="value">2023-05-31</field>
+            </element>
+         </element>
+         <element name="department">
+            <element name="none">
+               <field name="value">Escola Nacional de Saúde Pública Sergio Arouca</field>
+            </element>
+         </element>
+         <element name="grantor">
+            <element name="none">
+               <field name="value">Fundação Oswaldo Cruz</field>
+            </element>
+         </element>
+         <element name="level">
+            <element name="none">
+               <field name="value">Doutorado Acadêmico</field>
+            </element>
+         </element>
+         <element name="local">
+            <element name="none">
+               <field name="value">Rio de Janeiro/RJ</field>
+            </element>
+         </element>
+         <element name="program">
+            <element name="none">
+               <field name="value">Programa de Pós-Graduação em Saúde Pública e Meio Ambiente</field>
+            </element>
+         </element>
+      </element>
+      <element name="creator">
+         <element name="affilliation">
+            <element name="none">
+               <field name="value">Fundação Oswaldo Cruz. Escola Nacional de Saúde Pública Sergio Arouca. Rio de Janeiro, RJ, Brasil.</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="dcterms">
+      <element name="provenance">
+         <element name="en">
+            <field name="value">[DECS-ORIGINAL] 2026-10-19 18:52 (v10.0.0) &amp;gt;&amp;gt;&amp;gt; [&amp;quot;Detecção do Abuso de Substâncias&amp;quot;, &amp;quot;Drogas Ilícitas&amp;quot;, &amp;quot;Bacias Fluviais&amp;quot;, &amp;quot;Biomarcadores&amp;quot;, &amp;quot;Cocaína&amp;quot;, &amp;quot;Qualidade da Água&amp;quot;, &amp;quot;Ecotoxicologia&amp;quot;, &amp;quot;Estresse Oxidativo&amp;quot;]</field>
+         </element>
+      </element>
+   </element>
+   <element name="capes">
+      <element name="hasProgramCode">
+         <element name="none">
+            <field name="value">31010016015P0</field>
+         </element>
+      </element>
+      <element name="outputType">
+         <element name="none">
+            <field name="value">Bibliográfica</field>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="format">text/plain</field>
+               <field name="size">1748</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/1f5f9ec9-7f96-4f5f-9ffb-79ed4cee2e34/download</field>
+               <field name="checksum">8a4605be74aa9ea9d79846c1fba20a33</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Administrator</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">gabriel_farias_araujo_ensp_dout_2023.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">8556059</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/c2f8fa55-0b7a-4768-bb3c-8a24cea89507/download</field>
+               <field name="checksum">e3376924827c42ca5ebb76dc219cf544</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">gabriel_farias_araujo_ensp_dout_2023.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2025-12-03T01:25:00Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">102851</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/2b37473a-d1f9-418a-8c31-aa62f1d1094a/download</field>
+               <field name="checksum">eff50053a5ff3a0bd8538eca962bc1ef</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">13</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">gabriel_farias_araujo_ensp_dout_2023.pdf.jpg</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">22086</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/10c32f9b-c5cd-4346-90c1-0272399597fe/download</field>
+               <field name="checksum">713d8c1bcdb918499fac7013fd7d73d3</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">14</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">icict/61151</field>
+      <field name="identifier">oai:arca.fiocruz.br:icict/61151</field>
+      <field name="lastModifyDate">2026-10-26T16:33:29.827534Z</field>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://arca.fiocruz.br</field>
+      <field name="name">Arca - Repositório Institucional da Fiocruz</field>
+      <field name="mail">repositorio.arca@fiocruz.br</field>
+   </element>
+   <element name="license" />
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

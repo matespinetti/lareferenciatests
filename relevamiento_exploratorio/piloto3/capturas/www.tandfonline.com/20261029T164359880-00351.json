@@ -1,0 +1,45 @@
+{
+ "pedido": "20261029T164359880-00351",
+ "url": "http://www.tandfonline.com/robots.txt",
+ "codigo": 301,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:53:50 GMT"
+  ],
+  [
+   "content-type",
+   "text/html; charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "location",
+   "https://www.tandfonline.com/robots.txt"
+  ],
+  [
+   "vary",
+   "accept-encoding"
+  ],
+  [
+   "server",
+   "cloudflare"
+  ],
+  [
+   "cf-ray",
+   "a523b2dc29679b1d-EZE"
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

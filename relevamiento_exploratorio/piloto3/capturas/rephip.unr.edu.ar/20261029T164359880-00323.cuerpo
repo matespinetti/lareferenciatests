@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:53:06Z</responseDate><request verb="GetRecord" identifier="oai:rephip.unr.edu.ar:2133/33995" metadataPrefix="xoai">https://rephip.unr.edu.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:rephip.unr.edu.ar:2133/33995</identifier><datestamp>2026-09-17T06:00:14Z</datestamp><setSpec>com_2133_697</setSpec><setSpec>com_2133_2746</setSpec><setSpec>com_2133_6</setSpec><setSpec>col_2133_33922</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="creator">
+         <element name="none">
+            <field name="value">Lenarduzzi, Victor</field>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2026-09-16T18:32:46Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2026-01</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="issn">
+            <element name="none">
+               <field name="value">2314-2634</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/2133/33995</field>
+            </element>
+         </element>
+         <element name="doi">
+            <element name="none">
+               <field name="value">https://doi.org/10.35305/lt.v30i01.918</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="none">
+               <field name="value">Este texto comenta los ejes centrales del libro La sociedad digital de Manuel Castells. Describe sus principales aportes, recupera conceptos de la trayectoria del autor y sintetiza sus líneas de abordaje. Castells es un autor clave en los estudios de comunicación y esta obra se plantea como una aproximación a los problemas contemporáneos, entre otros: la tendencia creciente a la digitalización, los cambios en la vida urbana, las transformaciones del trabajo, las brechas digitales, la relación entre redes y polarización política, los movimientos sociales y la guerra.</field>
+               <field name="value">This text discusses the central themes of Manuel Castells’ book, The Digital Society. It describes its main contributions, revisits concepts from the author’s career, and outlines his lines of inquiry. Castells is a key author in communication studies, and this work is presented as an approach to contemporary issues, among others: the constant trend towards digitization, changes in urban life, transformations in work, digital divides, the relationship between networks and political polarization, social movements and war.</field>
+            </element>
+         </element>
+         <element name="version">
+            <element name="none">
+               <field name="value">peerreviewed</field>
+            </element>
+         </element>
+         <element name="fil">
+            <element name="none">
+               <field name="value">Fil: Lenarduzzi, Victor. Universidad de Buenos Aires; Argentina.</field>
+            </element>
+         </element>
+      </element>
+      <element name="format">
+         <element name="extent">
+            <element name="none">
+               <field name="value">1-14</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">es</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">UNR Editora</field>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">openAccess</field>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+            </element>
+         </element>
+         <element name="holder">
+            <element name="none">
+               <field name="value">Autores y UNR Editora</field>
+            </element>
+         </element>
+         <element name="text">
+            <element name="en">
+               <field name="value">Attribution-NonCommercial-ShareAlike 4.0 International</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="none">
+            <field name="value">Digitalización</field>
+            <field name="value">Sociedad en red</field>
+            <field name="value">Movimientos sociales</field>
+            <field name="value">Polarización política</field>
+            <field name="value">Brecha digital</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="none">
+            <field name="value">Reseña del libro : La sociedad digital: etapa superior de la sociedad red, de  Manuel Castells</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">articulo</field>
+         </element>
+         <element name="version">
+            <element name="none">
+               <field name="value">publishedVersion</field>
+            </element>
+         </element>
+      </element>
+      <element name="relation">
+         <element name="publisherversion">
+            <element name="none">
+               <field name="value">https://latrama.unr.edu.ar/index.php/trama/article/view/918</field>
+            </element>
+         </element>
+      </element>
+      <element name="citation">
+         <element name="title">
+            <element name="none">
+               <field name="value">La Trama de la Comunicación</field>
+            </element>
+         </element>
+      </element>
+      <element name="contributor">
+         <element name="orcid">
+            <element name="none">
+               <field name="value">https://orcid.org/0000-0001-8167-1241</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">Reseña+de+Manuel+Castells,+La+sociedad+Digital.+Madrid+Alianza.pdf</field>
+               <field name="originalName">Reseña+de+Manuel+Castells,+La+sociedad+Digital.+Madrid+Alianza.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">363574</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/f3040f1d-83d4-457b-9fc0-8add24874e6a/download</field>
+               <field name="checksum">222b8cd4d71dc6487245003adec0addb</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">Written by org.dspace.content.LicenseUtils</field>
+               <field name="format">text/plain</field>
+               <field name="size">3960</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/77349ee5-8163-4c7e-85ae-df3ee679c74d/download</field>
+               <field name="checksum">621fd5e7599bd73fa864a4656ff7b1eb</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">CC-LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license_rdf</field>
+               <field name="originalName">org.dspace.license.CreativeCommons</field>
+               <field name="format">application/rdf+xml; charset=utf-8</field>
+               <field name="size">1161</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/f169a4e3-f562-43d7-a478-1298eadc1406/download</field>
+               <field name="checksum">69c7d1fea1b67f73a10c194afeb39b1b</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">Reseña+de+Manuel+Castells,+La+sociedad+Digital.+Madrid+Alianza.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-09-17T06:00:14Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">26262</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/fa0e175c-3e2b-4c3d-b42e-138989090a69/download</field>
+               <field name="checksum">bab190a65ff1f49ef2370b6dc8308ccc</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">Reseña+de+Manuel+Castells,+La+sociedad+Digital.+Madrid+Alianza.pdf.jpg</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2026-09-17T06:00:14Z (GMT).</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">4257</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/5878e6e4-1244-47dd-9582-d84ee96a3259/download</field>
+               <field name="checksum">a3d4bc17130a742d4584ff5d59169730</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">2133/33995</field>
+      <field name="identifier">oai:rephip.unr.edu.ar:2133/33995</field>
+      <field name="lastModifyDate">2026-09-17T06:00:14.328079Z</field>
+      <element name="cc">
+         <field name="uri">http://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+         <field name="name">Attribution-NonCommercial-ShareAlike 4.0 International</field>
+      </element>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://rephip.unr.edu.ar</field>
+      <field name="name">Repositorio Hipermedial UNR</field>
+      <field name="mail">rephip@unr.edu.ar</field>
+   </element>
+   <element name="license">
+      <field name="bin">PHA+UGFyYSBwZXJtaXRpciBhbCBSZXBIaXAgcmVwcm9kdWNpciwgdHJhZHVjaXIgeSBkaXN0cmlidWlyIHN1IGVudsOtbyBhIHRyYXbDqXMgZGVsIG11bmRvLCBuZWNlc2l0YW1vcyBzdSBjb25mb3JtaWRhZCBlbiBsb3Mgc2lndWllbnRlcyB0w6lybWlub3MuPC9wPjxwPkNvbmNlZGEgbGEgbGljZW5jaWEgZGUgZGlzdHJpYnVjacOzbiBlc3TDoW5kYXIgc2VsZWNjaW9uYW5kbyAnQ29uZmlybW8gbGEgbGljZW5jaWEnLjwvcD48aDQ+TGljZW5jaWEgUmVwSGlwVU5SIDwvaDQ+PHA+RWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIGVzIGVsIHJlcG9zaXRvcmlvIGluc3RpdHVjaW9uYWwgZGUgYWNjZXNvIGFiaWVydG8gZGUgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgUm9zYXJpbyBjcmVhZG8gcGFyYSBhcmNoaXZhciwgcHJlc2VydmFyIHkgZGlzdHJpYnVpciBkaWdpdGFsbWVudGUgbGEgY3JlYWNpw7NuIGludGVsZWN0dWFsIGRlIGVzdGEgdW5pdmVyc2lkYWQgZW4gYWNjZXNvIGxpYnJlIHkgZ3JhdHVpdG8geSByZXNndWFyZGFyIGEgc3UgdmV6IGxvcyBkZXJlY2hvcyBkZSBsb3MgYXV0b3Jlcy48L3A+PHA+UGFyYSBxdWUgZWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIChodHRwOi8vcmVwaGlwLnVuci5lZHUuYXIvKSBwdWVkYSBhbG1hY2VuYXIgeSBkaWZ1bmRpciBlbCBvYmpldG8gZGlnaXRhbCBkZXBvc2l0YWRvIChsYSBvYnJhKSwgZXMgbmVjZXNhcmlvIHF1ZSBsYSBwZXJzb25hIHF1ZSByZWFsaWNlIGVsIGRlcMOzc2l0byBsZWEgeSBhY2VwdGUgbGFzIGNvbmRpY2lvbmVzIGVzdGFibGVjaWRhcyBlbiBlc3RhIGxpY2VuY2lhOjwvcD48cD5MYS9FbCB0aXR1bGFyL2VzIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBsYSBvYnJhIGRlcG9zaXRhZGEgbyBsYSBwZXJzb25hIGRlbGVnYWRhIHBhcmEgaGFjZXJsbzo8L3A+PHA+R2FyYW50aXphIGEgbGEgVU5JVkVSU0lEQUQgZWwgZGVyZWNobyBubyBleGNsdXNpdm8gYSBhbG1hY2VuYXIgZW4gc2Vydmlkb3JlcywgcmVwcm9kdWNpciwgdHJhbnNmb3JtYXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pIHkgYSByZWFsaXphciBsYSBjb211bmljYWNpw7NuIHDDumJsaWNhIGRlIExBIE9CUkEgZGUgZm9ybWEgbGlicmUgeSBncmF0dWl0YSBhIHRvZG8gcMO6YmxpY28gZW4gZm9ybWF0byBkaWdpdGFsIGVuIGVsIHNpdGlvIHdlYiBkZWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIChodHRwOi8vcmVwaGlwLnVuci5lZHUuYXIvKS4gQWNlcHRhIHF1ZSBsYSBVTklWRVJTSURBRCBwdWVkZSwgc2luIGNhbWJpYXIgZWwgY29udGVuaWRvLCBjb252ZXJ0aXIgTEEgT0JSQSBhIGN1YWxxdWllciBvdHJvIGZvcm1hdG8gbyBtZWRpbyBjb24gZWwgcHJvcMOzc2l0byBkZSBwcmVzZXJ2YWNpw7NuIHkgcGFyYSBzdSBjb3JyZWN0YSB2aXN1YWxpemFjacOzbiBlbiBsYSB3ZWIuIEFjZXB0YSBxdWUgbGEgVU5JVkVSU0lEQUQgcHVlZGEgZ3VhcmRhciBtw6FzIGRlIHVuYSBjb3BpYSBkZSBMQSBPQlJBIGRlcG9zaXRhZGEgY29uIHByb3DDs3NpdG9zIGRlIHNlZ3VyaWRhZCwgY29waWFzIGRlIHJlZW1wbGF6byB5IHByZXNlcnZhY2nDs24uIFNpIGVsIG1hdGVyaWFsIGVudmlhZG8gY29udGllbmUgcGFydGVzIGRlIGxhcyBjdWFsZXMgRUwgQVVUT1Igbm8gZXMgZWwgdGl0dWxhciBkZSBsb3MgZGVyZWNob3MgZGUgcHJvcGllZGFkIGludGVsZWN0dWFsLCBlc3RlIG1hbmlmaWVzdGEgcXVlIGhhIG9idGVuaWRvIHBlcm1pc28gaXJyZXN0cmljdG8gZGVsIHRpdHVsYXIvZXMgZGUgZXN0b3MgZGVyZWNob3MgcGFyYSBvdG9yZ2FyIGEgbGEgVU5JVkVSU0lEQUQgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MgcG9yIGVzdGUgYWN1ZXJkbywgeSBxdWUgZXN0YSB0ZXJjZXJhIHBhcnRlIGVzIGNsYXJhbWVudGUgaWRlbnRpZmljYWJsZSBlbiBlbCB0ZXh0byBvIGNvbnRlbmlkbyBkZSBMQSBPQlJBIGRlcG9zaXRhZGEuIERlY2xhcmEgcXVlIGFsIGFjZXB0YXIgZWwgcHJlc2VudGUgYWN1ZXJkbyBubyBpbmZyaW5nZSBuaW5nw7puIGRlcmVjaG8gZGUgdGVyY2Vyb3MsIHNlYSBkZSBwcm9waWVkYWQgaW5kdXN0cmlhbCwgaW50ZWxlY3R1YWwsIHNlY3JldG8gY29tZXJjaWFsIG8gY3VhbHF1aWVyIG90cm8gZGVyZWNobyBzdXNjZXB0aWJsZSBkZSBwcm90ZWNjacOzbiBqdXLDrWRpY2EuIEFjZXB0YSBxdWUgbGFzIGdlc3Rpb25lcyBwYXJhIGxhIGV2ZW50dWFsIGluc2NyaXBjacOzbiBkZSBMQSBPQlJBIGFudGUgZWwgUmVnaXN0cm8gZGUgRGVyZWNob3MgZGUgQXV0b3Igc29uIGRlIHN1IGV4Y2x1c2l2YSByZXNwb25zYWJpbGlkYWQuIEVuIGNhc28gZGUgcXVlIExBIE9CUkEgZGVwb3NpdGFkYSBzZSBiYXNlIGVuIHVuIHRyYWJham8gcXVlIGZ1ZSBwYXRyb2NpbmFkbyBvIHBhZ2FkbyBwb3IgYWxndW5hIGFnZW5jaWEgdSBvcmdhbml6YWNpw7NuIGRpc3RpbnRhIGEgbGEgVU5JVkVSU0lEQUQsIG1hbmlmaWVzdGEgcXVlIGhhIGN1bXBsaWRvIGNvbiB0b2RhcyBsYXMgb2JsaWdhY2lvbmVzIHBvciBjb250cmF0byBvIGFjdWVyZG8gY29uIGVzdGEvcyBvcmdhbml6YWNpw7NuL2VzIG8gYWdlbmNpYS9zLiBEZWNsYXJhIHF1ZSBsYSBVTklWRVJTSURBRCBzZSBlbmN1ZW50cmEgbGlicmUgZGUgdG9kbyB0aXBvIGRlIHJlc3BvbnNhYmlsaWRhZCwgc2VhIGNpdmlsLCBhZG1pbmlzdHJhdGl2YSBvIHBlbmFsIHkgcXVlIGFzdW1lIHRvZGEgcmVzcG9uc2FiaWxpZGFkIGZyZW50ZSBhIGN1YWxxdWllciByZWNsYW1vIG8gZGVtYW5kYSBwb3IgcGFydGUgZGUgdGVyY2Vyb3MgZGUgbWFuZXJhIGV4Y2x1c2l2YS48L3A+PHA+RW4gdmlydHVkIGRlbCBjYXLDoWN0ZXIgbm8gZXhjbHVzaXZvIGRlbCBwcmVzZW50ZSBhY3VlcmRvLCBFTCBBVVRPUiBwb2Ryw6EgY29tdW5pY2FyIHkgZGFyIHB1YmxpY2lkYWQgbGlicmVtZW50ZSBhIExBIE9CUkEsIGVuIGN1YWxxdWllciB2ZXJzacOzbiB5IHBvciB0b2RvcyBsb3MgbWVkaW9zIHF1ZSBjb25zaWRlcmUgb3BvcnR1bm9zLiBBc2ltaXNtbyBlbCB0aXR1bGFyIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBwb2Ryw6Egc29saWNpdGFyIHVuIHJldHJhc28gdGVtcG9yYWwgKHBlcmlvZG8gZGUgZW1iYXJnbykgZGUgbGEgcHVlc3RhIGEgZGlzcG9zaWNpw7NuIHDDumJsaWNhIGRlIExBIE9CUkEuPC9wPjxwPkVsIEFVVE9SIHBvZHLDoSBzb2xpY2l0YXIgZWwgcmV0aXJvIGRlIExBIE9CUkEgZGVsIFJlcG9zaXRvcmlvIEhpcGVybWVkaWFsIFVOUiBzb2xhbWVudGUgcG9yIGNhdXNhcyBkZWJpZGFtZW50ZSBqdXN0aWZpY2FkYXMgeSBhY3JlZGl0YWRhcy48L3A+PHA+RW4gZnVuY2nDs24gZGUgbGFzIGNvbmRpY2lvbmVzIGVsZWdpZGFzIHBvciBFTCBBVVRPUiwgZWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIHNlbGVjY2lvbmFyw6EgdW5hIGxpY2VuY2lhIENyZWF0aXZlIENvbW1vbnMgY29tcGF0aWJsZSBxdWUgc2UgaW5jbHVpcsOhIHkgYXBsaWNhcsOhIGEgbGEgb2JyYS4gTGEgVU5JVkVSU0lEQUQgbm8gYXN1bWlyw6EgcmVzcG9uc2FiaWxpZGFkIGFsZ3VuYSBwb3Igb3Ryb3MgdXNvcyBubyBhdXRvcml6YWRvcyBkZSBMQSBPQlJBIG8gY29udHJhcmlvcyBhIGxhIGxlZ2lzbGFjacOzbiB2aWdlbnRlLjwvcD48cD5FbCBub21icmUgZGVsIEFVVE9SIHF1ZWRhcsOhIGNsYXJhbWVudGUgaWRlbnRpZmljYWRvIGVuIGVsIFJlcG9zaXRvcmlvIEhpcGVybWVkaWFsIFVOUiBjb21vIHJlc3BvbnNhYmxlIGRlbC9vcyBvYmpldG8vcyBkaWdpdGFsL2VzIGRlcG9zaXRhZG8vcywgeSBubyBzZSByZWFsaXphcsOhIG5pbmd1bmEgYWx0ZXJhY2nDs24sIHNhbHZvIGxhcyBwZXJtaXRpZGFzIHBvciBlc3RlIGFjdWVyZG8uPC9wPjxwPlNpIHRpZW5lIGFsZ3VuYSBkdWRhIHNvYnJlIGxhIGxpY2VuY2lhLCBwb3IgZmF2b3IsIGNvbnRhY3RlIGNvbiBlbCBhZG1pbmlzdHJhZG9yIGRlbCBzaXN0ZW1hLjwvcD4K</field>
+   </element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

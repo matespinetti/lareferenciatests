@@ -1,0 +1,989 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>La retención indebida como delito de omisión | Repositorio Institucional UCA</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="Generator" content="DSpace CRIS-5.10.0-SNAPSHOT" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">		
+        <link rel="resourcesync sitemap" href="http://emarmonti.com/rs/resourcesync.xml" type="application/xml"/>
+		
+        <link rel="shortcut icon" type="image/x-icon" href="/images/UCA-Logo-1.png">
+		
+		
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link href="/css/researcher.css" type="text/css" rel="stylesheet" />
+       <link href="/css/jdyna.css" type="text/css" rel="stylesheet" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+		
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		
+		<link href="/static/css/jstree/themes/default/style.min.css" rel="stylesheet"/>
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+	    <link rel="stylesheet" href="/css/orcid.css" type="text/css" />
+	    <link rel="stylesheet" type="text/css" href="/static/css/dataTables.bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/buttons.bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/responsive.bootstrap.min.css"/>
+		<link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap-datetimepicker.min.css" />
+			<link rel="stylesheet" type="text/css" href="/static/css/select.dataTables.min.css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+		
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.creator" content="Munilla Lacasa, Hernán" xml:lang="es" />
+<meta name="DCTERMS.dateAccepted" content="2019-04-02T21:46:01Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2019-04-02T21:46:01Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2013" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.bibliographicCitation" content="Munilla Lacasa, H. (2013). La retención indebida como delito de omisión [en línea]. Tesis de Doctorado, Universidad Católica Argentina, Facultad de Derecho. Disponible en: https://repositorio.uca.edu.ar/handle/123456789/204" xml:lang="es" />
+<meta name="DC.identifier" content="https://repositorio.uca.edu.ar/handle/123456789/204" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="El planteo de la cuestión. I.1. Justificación de la tesis y del método escogidos: Los enunciados típicos que constituyen el artículo 173 del Código Penal han sido históricamente fuente de un debate notorio que llega hasta nuestros días. En la primera aproximación al texto normativo parecieran concurrir, como de hecho muestra incluso la discusión en el derecho penal español, más de una formulación típica de difícil armonización. La disputa sobre el nomen iuris que cabe asignar a los comportamientos incluidos en la figura penal en cuestión es un expresivo indicador de las dificultades que plantea la identificación y autonomía sistemática del tipo frente a otras normas de imputación. Puede decirse entonces que, tanto en la dogmática del tipo, como en la praxis jurisdiccional, nos encontramos frente a un problema no resuelto. Esto es, en términos epistemológicos, un campo propicio para la investigación, la revisión de las soluciones enfrentadas sobre la cuestión y, en definitiva, la posibilidad de presentar una propuesta satisfactoria de solución. El relevamiento señalado es el que ha motivado la presentación de esta tesis doctoral, pues se aprecia una serie de aporías jurídico penales que promueven el análisis de la norma integrada a la Parte Especial del Código Penal, que requieren de una propuesta de solución..." xml:lang="es" />
+<meta name="DC.format" content="application/pdf" xml:lang="es" />
+<meta name="DC.language" content="spa" xml:lang="es" />
+<meta name="DC.language" content="spa" xml:lang="es" scheme="DCTERMS.RFC1766" />
+<meta name="DC.rights" content="Acceso Abierto" xml:lang="es" />
+<meta name="DC.rights" content="https://creativecommons.org/licenses/by-nc-sa/4.0/" xml:lang="es" scheme="DCTERMS.URI" />
+<meta name="DC.source" content="Tesis de Doctorado. Pontificia Universidad Católica Argentina. 2013" xml:lang="es" />
+<meta name="DC.subject" content="RETENCION INDEBIDA" xml:lang="es" />
+<meta name="DC.subject" content="DERECHO PENAL" xml:lang="es" />
+<meta name="DC.subject" content="OBLIGACIONES" xml:lang="es" />
+<meta name="DC.subject" content="OMISION" xml:lang="es" />
+<meta name="DC.subject" content="CODIGO PENAL" xml:lang="es" />
+<meta name="DC.title" content="La retención indebida como delito de omisión" xml:lang="es" />
+<meta name="DC.type" content="Tesis doctoral" xml:lang="es" />
+
+<meta name="citation_keywords" content="RETENCION INDEBIDA; DERECHO PENAL; OBLIGACIONES; OMISION; CODIGO PENAL; Tesis doctoral" />
+<meta name="citation_title" content="La retención indebida como delito de omisión" />
+<meta name="citation_language" content="spa" />
+<meta name="citation_author" content="Munilla Lacasa, Hernán" />
+<meta name="citation_pdf_url" content="https://repositorio.uca.edu.ar/bitstream/123456789/204/11/retencion-indebida-delito-omision.pdf" />
+<meta name="citation_date" content="2013" />
+<meta name="citation_abstract_html_url" content="https://repositorio.uca.edu.ar/handle/123456789/204" />
+
+
+        
+   	<script type="text/javascript" src="/ruxitagentjs_ICA7NVfqrux_10347260902154543.js" data-dtconfig="rid=RID_-68496291|rpid=676940504|domain=uca.edu.ar|reportUrl=/rb_bf83227qfx|app=0ade970f21eb0c97|srtbv=4|owasp=1|featureHash=ICA7NVfqrux|srsr=10000|rdnt=1|uxrgce=1|cuc=zb7kgom7|mel=100000|expw=1|dpvc=1|lastModification=1792055539109|tp=500,50,0|srbbv=3|agentUri=/ruxitagentjs_ICA7NVfqrux_10347260902154543.js"></script><script type='text/javascript' src="/static/js/jquery/jquery-1.11.3.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.11.4.min.js'></script>
+	<script type="text/javascript" src="/js/moment.js"></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+	<script type='text/javascript' src='/static/js/custom-functions.js'></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+    <script type="text/javascript" src="/js/jdyna/jdyna.js"></script>    
+    <script type="text/javascript" src="/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="/js/dataTables.bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/dataTables.buttons.min.js"></script>
+	<script type="text/javascript" src="/js/buttons.bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/buttons.html5.min.js"></script>
+	<script type="text/javascript" src="/js/dataTables.responsive.min.js"></script>	
+	<script type="text/javascript" src="/js/bootstrap-datetimepicker.min.js"></script>
+	<script type="text/javascript" src="/static/js/dataTables.select.min.js"></script>
+	<script type="text/javascript" src="/js/jszip.min.js"></script>
+	<script type='text/javascript'>
+		var j = jQuery.noConflict();
+		var $ = jQuery.noConflict();
+		var JQ = j;
+		dspaceContextPath = "";
+		jQuery(document).ready(function ($) {
+			  $('span[data-toggle="tooltip"]').tooltip();
+			  $('i[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+	
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-38717680-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        <!-- Google tag manager con ga4 (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FTZK6VTG8"></script>
+        <script>
+         window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+           gtag('config', 'G-7FTZK6VTG8');
+        </script>
+
+    
+		<script type="text/javascript"><!--
+j(document).ready(function() {
+	val=$(".btn[href$='.mp4']").attr('href');
+	console.log(val);
+$("td.standard > .btn[href$='.mp4']").html("<video src="+val+" style=\"width: 350px;\" controls></video>");
+	
+});
+--></script>
+
+<script type="text/javascript"><!--
+j(document).ready(function() {
+
+	
+	
+	 
+	
+});
+--></script>
+		
+    
+
+	<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>  
+	  <script src="/static/js/html5shiv.js"></script>
+	  <script src="/static/js/selectivizr-min.js"></script>
+	  <script src="/static/js/respond.min.js"></script>
+	  <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme-IElte9.css" type="text/css" />
+	<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation" dir="ltr">
+<a class="sr-only" href="#content">Skip navigation</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+	<div class="logobanner">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+				</div>
+				<div class="col-sm-6 text-center">
+				<a href="http://repositorio.uca.edu.ar" class="banner"><img class="center-block" src="/image/UCA.png" /></a>
+				</div>
+				<div class="col-sm-3">
+							
+								 <ul class="nav navbar-nav navbar-right">
+								  
+							 
+									<li><a onclick="javascript:document.repost.locale.value='en';
+											  document.repost.submit();" href="?locale=en">
+									  Inglés                  
+								   </a></li>
+							 
+									<li><a onclick="javascript:document.repost.locale.value='es';
+											  document.repost.submit();" href="?locale=es">
+									  Español                  
+								   </a></li>
+							 
+								 </ul>
+							 		
+				</div>
+			</div>
+			
+		</div>
+	</div>
+   
+</header>
+
+
+<header class="navbar navbar-inverse navbar-square sinespacio"> 
+	
+	
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul id="top-menu" class="nav navbar-nav navbar-left">
+            <!-- <li class="pull-left"><a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a></li> -->
+           <li id="home-top-menu" class="pull-left   "><a href="/">Inicio</a></li>
+		  
+		   <li id="communitylist-top-menu" class=""><a href="/community-list">Colecciones</a></li>
+        		  
+           
+		   
+
+		   	
+		   
+		    <li id="cris-top-menu" class="pull-left   "><a href="/indexcris.jsp">Investigación (CRIS)</a></li>
+		   
+		   <li id="cris-top-menu" class="pull-left   "><a href="/static/about.jsp">Acerca de </a></li>
+		   
+		   
+		   <li class="dropdown hidden-md hidden-lg">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Explorar por <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+           
+           
+           
+           <li class=""><a href="/cris/explore/publications">Publicaciones</a></li>
+           
+		   
+		   
+           </ul>
+           </li>
+ 
+
+		
+		<li id="cris-top-menu" class="pull-left   ">
+				   <a href="/cris/stats/site.html?handle=123456789/0">
+				   Estadísticas
+		           </a></li>
+				   
+				   
+				
+
+          
+       </ul>
+
+ 
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+                    <li id="search-top-menu" class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-search"></span><b class="caret"></b></a>
+          <div class="dropdown-menu">
+          
+	
+	<form id="formsearch-top-menu" method="get" action="/global-search" class="navbar-form navbar-right" scope="search">		
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Buscar en&nbsp;DSpace " name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form>
+	
+          </div>
+          </li>
+         
+			<li id="user-top-menu" class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Entrar / Registrarse <b class="caret"></b></a>
+	             
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Mi DSpace </a></li>
+               <li><a href="/subscribe">Alertas </a></li>
+               <li><a href="/profile">Editar perfil </a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+	</div>
+    </nav>
+
+            </div>
+
+
+
+<link rel="stylesheet" type="text/css" href="/static/css/cookieconsent/cookieconsent.min.css" />
+<script src="/static/js/cookieconsent/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#edeff5",
+      "text": "#838391"
+    },
+    "button": {
+      "background": "#4b81e8"
+    }
+  },
+  "position": "bottom-right",
+  "theme": "classic",
+  "content": {
+    "message": "<h1>Cookies</h1> Este sitio web utiliza cookies",
+    "dismiss": "OK!",
+    "link": "Averigüe más",
+    "href": "cookiespolicy.jsp"
+  }
+})});
+</script>
+
+</header>
+
+<div class="container-fluid banner-home">
+	<div class="container transp">
+	<div class="row">
+		<div class="col-md-12 sm-12 pull-left">
+	
+		<h2 class="main-legend-home">Repositorio Institucional UCA</h2>
+		
+		</div>
+	</div>
+	</div>	
+		
+</div>
+
+<main id="content" role="main">
+<div class="container banner">
+	<div class="row">
+		
+		
+		
+		<div class="col-sm-12">
+					
+		</div>
+		
+		
+		<!-- <div class="col-sm-8 brand pull-left">
+		<h1>DSpace <small>CRIS</small></h1>
+        <h4>DSpace almacena y facilita el acceso abierto a todo tipo de contenido digital incluyendo texto, imágenes, vídeos y colecciones de datos.</h4> <a href="http://www.dspace.org" class="btn btn-primary">Leer más</a> 
+        </div>
+        <div class="col-sm-4 hidden-xs pull-right">
+		<img class="img-responsive" src="/image/logo.gif" alt="DSpace logo" />
+        </div> -->
+		
+		
+	</div>
+</div>	
+<br/>
+  
+
+  
+
+  
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+                
+
+
+
+  
+
+<ol class="breadcrumb">
+
+  <li><a href="/">Repositorio Institucional UCA</a></li>
+
+  <li><a href="/handle/123456789/88">Facultad de Derecho</a></li>
+
+  <li><a href="/handle/123456789/636">Tesis</a></li>
+
+  <li><a href="/handle/123456789/89">Tesis de Doctorado en Ciencias Jurídicas</a></li>
+
+</ol>
+
+        </div>        
+    </div>
+</div>                
+
+
+
+
+        
+<div class="container fullheight">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+		
+		
+		
+		
+
+                
+                <div class="well">Por favor, use este identificador para citar o enlazar este ítem: 
+                <code>https://repositorio.uca.edu.ar/handle/123456789/204</code></div>
+       </div>         
+
+
+</div>
+
+
+<div class="row">
+<div id="wrapperDisplayItem" class="col-lg-9">
+    
+    <table class="table itemDisplayTable">
+<td class="metadataFieldLabel">Título:&nbsp;</td><td class="metadataFieldValue">La&#x20;retención&#x20;indebida&#x20;como&#x20;delito&#x20;de&#x20;omisión</td></tr>
+<td class="metadataFieldLabel">Autor:&nbsp;</td><td class="metadataFieldValue"><a href="/browse?type=author&amp;authority=rp00066&amp;authority_lang=es" class="authority author">Munilla&#x20;Lacasa,&#x20;Hernán</a>&nbsp;<a href="/cris/rp/rp00066" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></td></tr>
+<td class="metadataFieldLabel">Palabras clave:&nbsp;</td><td class="metadataFieldValue"><a href="/browse?type=subject&amp;value=RETENCION+INDEBIDA&amp;value_lang=es">RETENCION&#x20;INDEBIDA</a>;&nbsp;<a href="/browse?type=subject&amp;value=DERECHO+PENAL&amp;value_lang=es">DERECHO&#x20;PENAL</a>;&nbsp;<a href="/browse?type=subject&amp;value=OBLIGACIONES&amp;value_lang=es">OBLIGACIONES</a>;&nbsp;<a href="/browse?type=subject&amp;value=OMISION&amp;value_lang=es">OMISION</a>;&nbsp;<a href="/browse?type=subject&amp;value=CODIGO+PENAL&amp;value_lang=es">CODIGO&#x20;PENAL</a></td></tr>
+<td class="metadataFieldLabel">Fecha de publicación:&nbsp;</td><td class="metadataFieldValue">2013</td></tr>
+<td class="metadataFieldLabel">Cita:&nbsp;</td><td class="metadataFieldValue">Munilla&#x20;Lacasa,&#x20;H.&#x20;(2013).&#x20;La&#x20;retención&#x20;indebida&#x20;como&#x20;delito&#x20;de&#x20;omisión&#x20;[en&#x20;línea].&#x20;Tesis&#x20;de&#x20;Doctorado,&#x20;Universidad&#x20;Católica&#x20;Argentina,&#x20;Facultad&#x20;de&#x20;Derecho.&#x20;Disponible&#x20;en:&#x20;https:&#x2F;&#x2F;repositorio.uca.edu.ar&#x2F;handle&#x2F;123456789&#x2F;204</td></tr>
+<td class="metadataFieldLabel">Resumen:&nbsp;</td><td class="metadataFieldValue">El&#x20;planteo&#x20;de&#x20;la&#x20;cuestión.&#x20;I.1.&#x20;Justificación&#x20;de&#x20;la&#x20;tesis&#x20;y&#x20;del&#x20;método&#x20;escogidos:&#x20;Los&#x20;enunciados&#x20;típicos&#x20;que&#x20;constituyen&#x20;el&#x20;artículo&#x20;173&#x20;del&#x20;Código&#x20;Penal&#x20;han&#x20;sido&#x20;históricamente&#x20;fuente&#x20;de&#x20;un&#x20;debate&#x20;notorio&#x20;que&#x20;llega&#x20;hasta&#x20;nuestros&#x20;días.&#x20;En&#x20;la&#x20;primera&#x20;aproximación&#x20;al&#x20;texto&#x20;normativo&#x20;parecieran&#x20;concurrir,&#x20;como&#x20;de&#x20;hecho&#x20;muestra&#x20;incluso&#x20;la&#x20;discusión&#x20;en&#x20;el&#x20;derecho&#x20;penal&#x20;español,&#x20;más&#x20;de&#x20;una&#x20;formulación&#x20;típica&#x20;de&#x20;difícil&#x20;armonización.&#x20;La&#x20;disputa&#x20;sobre&#x20;el&#x20;nomen&#x20;iuris&#x20;que&#x20;cabe&#x20;asignar&#x20;a&#x20;los&#x20;comportamientos&#x20;incluidos&#x20;en&#x20;la&#x20;figura&#x20;penal&#x20;en&#x20;cuestión&#x20;es&#x20;un&#x20;expresivo&#x20;indicador&#x20;de&#x20;las&#x20;dificultades&#x20;que&#x20;plantea&#x20;la&#x20;identificación&#x20;y&#x20;autonomía&#x20;sistemática&#x20;del&#x20;tipo&#x20;frente&#x20;a&#x20;otras&#x20;normas&#x20;de&#x20;imputación.&#x20;Puede&#x20;decirse&#x20;entonces&#x20;que,&#x20;tanto&#x20;en&#x20;la&#x20;dogmática&#x20;del&#x20;tipo,&#x20;como&#x20;en&#x20;la&#x20;praxis&#x20;jurisdiccional,&#x20;nos&#x20;encontramos&#x20;frente&#x20;a&#x20;un&#x20;problema&#x20;no&#x20;resuelto.&#x20;Esto&#x20;es,&#x20;en&#x20;términos&#x20;epistemológicos,&#x20;un&#x20;campo&#x20;propicio&#x20;para&#x20;la&#x20;investigación,&#x20;la&#x20;revisión&#x20;de&#x20;las&#x20;soluciones&#x20;enfrentadas&#x20;sobre&#x20;la&#x20;cuestión&#x20;y,&#x20;en&#x20;definitiva,&#x20;la&#x20;posibilidad&#x20;de&#x20;presentar&#x20;una&#x20;propuesta&#x20;satisfactoria&#x20;de&#x20;solución.&#x20;El&#x20;relevamiento&#x20;señalado&#x20;es&#x20;el&#x20;que&#x20;ha&#x20;motivado&#x20;la&#x20;presentación&#x20;de&#x20;esta&#x20;tesis&#x20;doctoral,&#x20;pues&#x20;se&#x20;aprecia&#x20;una&#x20;serie&#x20;de&#x20;aporías&#x20;jurídico&#x20;penales&#x20;que&#x20;promueven&#x20;el&#x20;análisis&#x20;de&#x20;la&#x20;norma&#x20;integrada&#x20;a&#x20;la&#x20;Parte&#x20;Especial&#x20;del&#x20;Código&#x20;Penal,&#x20;que&#x20;requieren&#x20;de&#x20;una&#x20;propuesta&#x20;de&#x20;solución...</td></tr>
+<td class="metadataFieldLabel">URI:&nbsp;</td><td class="metadataFieldValue"><a href="https://repositorio.uca.edu.ar/handle/123456789/204">https://repositorio.uca.edu.ar/handle/123456789/204</a></td></tr>
+<td class="metadataFieldLabel">Disciplina:&nbsp;</td><td class="metadataFieldValue">DERECHO</td></tr>
+<td class="metadataFieldLabel">Derechos:&nbsp;</td><td class="metadataFieldValue">Acceso&#x20;Abierto</td></tr>
+<td class="metadataFieldLabel">Fuente:&nbsp;</td><td class="metadataFieldValue">Tesis&#x20;de&#x20;Doctorado.&#x20;Pontificia&#x20;Universidad&#x20;Católica&#x20;Argentina.&#x20;2013</td></tr>
+<tr><td class="metadataFieldLabel">Aparece en las colecciones: </td><td class="metadataFieldValue"><a href="/handle/123456789/89">Tesis de Doctorado en Ciencias Jurídicas</a><br/></td></tr>
+</table><br/>
+<div class="panel panel-default"><div class="panel-heading"><h6 class="panel-title">Ficheros en este ítem: </h6></div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Fichero </th>
+<th id="t2" class="standard">Descripción </th>
+<th id="t3" class="standard">Tamaño </th><th id="t4" class="standard">Formato 
+<tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/123456789/204/11/retencion-indebida-delito-omision.pdf">retencion-indebida-delito-omision.pdf</a></td><td headers="t2" class="standard"></td><td headers="t3" class="standard">1,24 MB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a target="_blank" href="/bitstream/123456789/204/11/retencion-indebida-delito-omision.pdf"><img src="/retrieve/28017/retencion-indebida-delito-omision.pdf.jpg" alt="Vista previa " /></a><br /><a class="btn btn-primary" target="_blank" href="/bitstream/123456789/204/11/retencion-indebida-delito-omision.pdf">Visualizar/Abrir </a></td></tr></table>
+</div>
+
+    
+
+
+
+    <a class="btn btn-default" href="/handle/123456789/204?mode=full">
+        Mostrar el registro Dublin Core completo del ítem 
+    </a>
+
+
+    		<form target="blank" class="form-inline"  id="exportform" action="/references">
+
+    		<div id="export-biblio-panel">
+    	
+    			    
+    		<label class="radio-inline">
+        		  <input id="refman" type="radio" name="format" value="refman" />RIS
+    	    </label>
+
+    		
+    	
+    			    
+    		<label class="radio-inline">
+        		  <input id="endnote" type="radio" name="format" value="endnote" />EndNote
+    	    </label>
+
+    		
+    	
+    			    
+    		<label class="radio-inline">
+        		  <input id="bibtex" type="radio" name="format" value="bibtex"  checked="checked"/>Bibtex
+    	    </label>
+
+    		
+    	
+    			    
+    		<label class="radio-inline">
+        		  <input id="refworks" type="radio" name="format" value="refworks" />RefWorks
+    	    </label>
+
+    		
+    	
+    			    
+    		<label class="radio-inline">
+        		  <input id="excel" type="radio" name="format" value="excel" />Excel
+    	    </label>
+
+    		
+    	
+    			    
+    		<label class="radio-inline">
+        		  <input id="csv" type="radio" name="format" value="csv" />CSV
+    	    </label>
+
+    		
+    	
+    			    
+    		<label class="radio-inline">
+        		  <input id="pdf" type="radio" name="format" value="pdf" />PDF
+    	    </label>
+
+    		
+    	
+    		<label class="checkbox-inline">
+    			<input type="checkbox" id="email" name="email" value="true"/>Enviar por mail
+    		</label> 
+    			<input type="hidden" name="item_id" value="66" />
+    			<input id="export-submit-button" class="btn btn-default" type="submit" name="submit_export" value="Exportar" />
+    		</div>	
+    		</form>
+    
+	
+</div>
+<div class="col-lg-3">
+<div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<script type="text/javascript">
+		j(document).ready(function() {
+			var obj = JSON.parse('{"link":"https://repositorio.uca.edu.ar/cris/stats/item.html?handle\u003d123456789/204"}');
+			j( "div" ).data( "moreLink", obj );
+			j( "#metric-counter-view" ).wrap(function() {
+				  return "<a target='_blank' href='" + j( "div" ).data( "moreLink" ).link + "'></a>";
+			}).append(" <i class='fa fa-info-circle' data-toggle='tooltip' title='Get updated citations from database'></i>");
+			
+			jQuery('[data-toggle="tooltip"]').tooltip();
+		});
+		</script>
+	
+<div class="col-lg-12 col-md-4 col-sm-6 col-xs-12 box-view">
+<div class="media view">
+	<div class="media-left">
+		<i class="fa fa-eye"></i>
+	</div>
+	<div class="media-body text-center">
+		<h4 class="media-heading">Visualizaciones de página(s)
+		
+		</h4>
+		<span id="metric-counter-view" class="metric-counter">
+				
+		
+		
+		
+			1.086
+		
+		
+		
+				
+		
+		
+		</span>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-12 text-center small">
+			comprobado en 30-abr-2024
+		</div>
+	</div>
+	</div>
+</div>
+
+
+
+
+
+	
+		<script type="text/javascript">
+		j(document).ready(function() {
+			var obj = JSON.parse('{"link":"https://repositorio.uca.edu.ar/cris/stats/item.html?handle\u003d123456789/204\u0026amp;type\u003dbitstream"}');
+			j( "div" ).data( "moreLink", obj );
+			j( "#metric-counter-download" ).wrap(function() {
+				  return "<a target='_blank' href='" + j( "div" ).data( "moreLink" ).link + "'></a>";
+			}).append(" <i class='fa fa-info-circle' data-toggle='tooltip' title='Get updated citations from database'></i>");
+			
+			jQuery('[data-toggle="tooltip"]').tooltip();
+		});
+		</script>
+	
+<div class="col-lg-12 col-md-4 col-sm-6 col-xs-12 box-download">
+<div class="media download">
+	<div class="media-left">
+		<i class="fa fa-cloud-download"></i>
+	</div>
+	<div class="media-body text-center">
+		<h4 class="media-heading">Descarga(s)
+		
+		</h4>
+		<span id="metric-counter-download" class="metric-counter">
+				
+		
+		
+		
+			9.859
+		
+		
+		
+				
+		
+		
+		</span>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-12 text-center small">
+			comprobado en 30-abr-2024
+		</div>
+	</div>
+	</div>
+</div>
+
+
+    
+<div class="col-lg-12 col-md-4 col-sm-6">
+<div class="media google">
+	<div class="media-left">
+		<img src="/image/google-favicon-png.ico" />
+	</div>
+	<div id="googleCitedResult" class="media-body text-center">
+		<h4 class="media-heading">Google Scholar<sup>TM</sup><br/></h4>
+		
+		
+   		    <span class="metric-counter"><a data-toggle="tooltip" target="_blank" title="Ver en Google Scholar" href="https://scholar.google.com/scholar?as_q=&as_epq=La retención indebida como delito de omisión&as_occt=any">Ver en Google Scholar</a></span>
+	</div>
+</div>	
+</div>
+<br class="visible-lg" />
+
+
+<div class="col-lg-12 col-md-4 col-sm-6">
+<div class="media redessociales">
+	<div class="media-left">
+		<div class="addthis_inline_share_toolbox"></div>
+	</div>
+	<div id="googleCitedResult" class="media-body text-center">
+		
+	</div>
+</div>	
+</div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d7d06638e781b8b"></script>
+<br class="visible-lg" />
+	
+	
+	
+
+    </div>
+</div>
+
+<div class="modal fade" id="dialogPMC" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+    </div>
+  </div>
+</div>
+
+
+
+	
+    
+</div>
+</div>
+<div class="container">
+    
+
+<br/>
+    
+
+    <p class="text-center alert alert-info">Este ítem está sujeto a una  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons </a>
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="/image/cc-somerights.gif" border="0" alt="Creative Commons" style="margin-top: -5px;" class="pull-right"/></a>
+    </p>
+    <!--
+    null
+    -->
+
+	</div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+<br/>
+</main>
+            
+            <footer class="navbar navbar-inverse navbar-footer navbar-bottom navbar-square">
+             
+			
+			
+			<div class="footer_container" id="footer"><span><div class="logoContainer">
+
+
+			<title>footer</title>
+			<style type="text/css">
+				.foot{text-decoration: none; color: white}
+			    .foot:hover{color: #27ae60}
+						
+				/*boton pa subir*/
+				#boton-arriba {
+				  display: none;
+				  position: fixed;
+				  bottom: 140px;
+				  right: 30px;
+				  z-index: 99;
+				  font-size: 18px;
+				  border: none;
+				  outline: none;
+				  background-color: #1e3e6f;
+				  color: white;
+				  cursor: pointer;
+				  padding: 15px;
+				  border-radius: 4px;
+				  -webkit-box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.4);
+					 box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.4);
+				}
+
+				#boton-arriba:hover {
+				  background-color: #27AE60;
+				}
+				@media (max-width: 768px) {
+					#matriz {text-align: center;}
+				}
+				
+				
+					
+				</style>
+						<meta charset="utf-8">
+
+
+						<button onclick="topFunction()" 
+						id="boton-arriba" title="Go to top" 
+						style="display: none;">Subir</button>
+						
+						
+						<!-- <div class="container-fluid">
+						
+						
+						
+						<div style="width: 100%; background-color: #1e3e6f; box-sizing: border-box; font-size: 12px" class="row" id="matriz">
+								<ul class="col-md-1"></ul>
+							
+								<ul style="color: #fff; font-family: roboto; line-height: 1.6; list-style: none; white-space: nowrap;" class="col-md-3">
+								<img src="/image/UCA-Logo-1.png" style="background-color: white; height: 80px; width: 80px;  border-radius: 50%">
+									<li style="font-weight: bold;">
+										Buenos Aires / +54 (11) 4349 0200
+									</li>
+									<li>
+										Av. Alicia Moreau de Justo 1300 (C1107AAZ). C.A.B.A.
+									</li>
+									<li style="font-weight: bold;">
+										Mendoza / +54 (0261) 442 9400
+									</li>
+									<li>
+										Uruguay 750, (M550AYH). Godoy Cruz, Mendoza
+									</li>
+									<li style="font-weight: bold;">
+										Paraná / +54 (0343) 431 2583
+									</li>
+									<li>
+										Buenos Aires 249 (E3100BQF). Paraná, Entre Ríos
+									</li>
+									<li style="font-weight: bold;">
+										Rosario / +54 (0341) 436 8000
+									</li>
+									<li>
+										Av. Pellegrini 3314 (S2002QEO). Rosario, Santa Fe<br>
+										<span>
+										  <a class="soc" href="https://www.facebook.com/universidad.catolica.argentina/" target="_blank">
+											<i class="fa fa-facebook b-white facebook" style="background-color: white; font-size:14px; color: #47589c; margin-left:2px; padding: 7px 9px; border-radius: 5px; margin-top: 5px"></i>
+										  </a>
+										  <a class="soc" href="https://www.youtube.com/user/UCAarg" target="_blank">
+											<i class="fa fa-youtube-play b-white youtube" style="background-color: white; font-size:14px; color: #47589c; margin-left:5px; padding: 7px 9px; border-radius: 5px;"></i>
+										  </a>
+										  <a class="soc" href="https://www.instagram.com/universidadcatolicaargentina/" target="_blank">
+											<i class="fa fa-instagram b-white instagram" style="background-color: white; font-size:14px; color: #47589c; margin-left:5px; padding: 7px 9px; border-radius: 5px;"></i>
+										  </a>
+										</span>
+									</li>
+								</ul>
+								
+								<ul style="color: #fff; font-family: roboto; line-height: 1.6; list-style: none;" class="col-md-2">
+									<li style="font-weight: bold;">
+										Comunidad UCA <br><br>
+									</li>
+									<li>
+										<a href= "https://uca.edu.ar/es/la-universidad-institucional/autoridades" class="foot">Autoridades</a>
+									</li>
+									<li>
+										<a href="https://uca.edu.ar/es/comunicacion-institucional" class="foot">Comunicación institucional</a>
+									</li>
+									<li>
+										<a href="https://uca.edu.ar/es/noticias-uca" class="foot">Noticias UCA</a>
+									</li>
+									<li>
+										<a href="https://biblioteca.uca.edu.ar/client/es_AR/default" class="foot">Biblioteca</a>
+									</li>
+									
+									<li>
+										&nbsp;
+									</li>
+									<li>
+										&nbsp;
+									</li>
+									<li>
+										&nbsp;
+									</li>
+								</ul>
+								<ul style="color: #fff; font-family: roboto; line-height: 1.6; list-style: none;" class="col-md-2">
+									<li style="font-weight: bold;">
+										Investigación y publicaciones<br><br>
+									</li>
+									<li>
+										<a href="http://uca.edu.ar/es/facultades/instituto-de-investigaciones-biomedicas" class="foot">Instituto de Investigaciones<br>Biomédicas -BIOMED</a>
+									</li>
+									<li>
+										<a href="http://uca.edu.ar/es/observatorio-de-la-deuda-social-argentina" class="foot">Observatorio de la Deuda Social</a>
+									</li>
+									<li>
+										<a href="http://uca.edu.ar/es/revista-ucactualidad" class="foot">Revista UCActualidad</a>
+									</li>
+									<li>
+										<a href="http://uca.edu.ar/es/editorial-educa" class="foot">Editorial Educa</a>
+									</li>
+									<li>
+										<a href="http://www.elderecho.com.ar/" class="foot">Editorial El Derecho<br><br></a>
+									</li>
+									<li>
+										<a href="https://erevistas.uca.edu.ar/index.php/index/index" class="foot">Portal de revistas<br><br></a>
+									</li>
+									<li>
+										<a href="https://omp.uca.edu.ar/index.php/uca/index" class="foot">Portal de libros<br><br></a>
+									</li>
+								</ul>
+
+
+						</div>
+						
+					</div>	
+						
+
+
+			
+			<div class="container-fluid extra-footer row">
+      			<div id="footer_feedback" class="col-sm-4 pull-left">                                    
+                     <a href="/feedback">Comentarios </a>
+                </div>
+	           	<div id="designedby" class="col-sm-8 text-right">
+            	 	<a target="_blank" href="http://www.dspace.org/" class="linkfooter">DSpace Software</a> Copyright&nbsp;&copy;&nbsp;2002-2008&nbsp;<a target="_blank" href="http://web.mit.edu/" class="linkfooter">MIT</a>&nbsp;and&nbsp;<a target="_blank" href="http://www.hp.com/" class="linkfooter">Hewlett-Packard</a> - 
+            	 	Extensión mantenida y optimizado por 
+            	 	<a href="http://www.4science.it/en/dspace-and-dspace-cris-services/">
+            	 		<img src="/image/logo-4science-small.png"
+                                    alt="Logo 4SCIENCE" height="32px"/></a>
+				</div>
+			</div>
+	    </footer> -->
+		
+		
+		<script>
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 240 || document.documentElement.scrollTop > 690) {
+					document.getElementById("boton-arriba").style.display = "block";
+				} else {
+					document.getElementById("boton-arriba").style.display = "none";
+				}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+			</script>
+		
+    </body>
+</html>
+

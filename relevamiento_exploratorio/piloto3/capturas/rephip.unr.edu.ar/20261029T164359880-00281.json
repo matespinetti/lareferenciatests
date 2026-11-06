@@ -1,0 +1,93 @@
+{
+ "pedido": "20261029T164359880-00281",
+ "url": "https://rephip.unr.edu.ar/server/api/core/bitstreams/c7c58d89-51c2-495c-964d-2bf8d8134025/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.28.3 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:52:05 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Wed, 04 Feb 2026 13:51:11 GMT"
+  ],
+  [
+   "etag",
+   "\"6d67538411e3c143473dadf3d4368134\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:52:06 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "attachment; filename=\"pfc.pdf\"; filename*=UTF-8''pfc.pdf"
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/37961393"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

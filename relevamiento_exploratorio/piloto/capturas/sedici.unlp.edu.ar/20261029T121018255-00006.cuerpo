@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ex="ar.edu.unlp.sedici.xmlui.xsl.XslExtensions" xmlns:java="http://xml.apache.org/xalan/java" xmlns:xalan="http://xml.apache.org/xalan" class="no-js">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" name="viewport" />
+<link href="https://sedici.unlp.edu.ar/moz-search-plugin.xml" title="SEDICI para Firefox" type="application/opensearchdescription+xml" rel="search" />
+<link rel="shortcut icon" href="/themes/Sedici2/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/themes/Sedici2/images/apple-touch-icon.png" />
+<meta name="Generator" content="DSpace 5.10-SNAPSHOT" />
+<link type="text/css" rel="stylesheet" media="screen" href="/themes/Sedici2/lib/css/reset.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/themes/Sedici2/lib/css/base.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/themes/Sedici2/lib/css/helper.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/themes/Sedici2/lib/css/jquery-ui-1.8.15.custom.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/themes/Sedici2/lib/css/style.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/themes/Sedici2/lib/css/authority-control.css" />
+<link type="text/css" rel="stylesheet" media="handheld" href="/themes/Sedici2/lib/css/handheld.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/themes/Sedici2/lib/css/print.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/themes/Sedici2/lib/css/media.css" />
+<link type="text/css" rel="stylesheet" media="" href="/themes/Sedici2/lib/css/slideshow-sedici.css" />
+<link media="screen" type="text/css" rel="stylesheet" href="/themes/Sedici2/lib/css/metadataGenerator.css" />
+<link type="application/rss+xml" rel="alternate" href="/feed/rss_2.0/site" />
+<link type="application/atom+xml" rel="alternate" href="/feed/atom_1.0/site" />
+<link type="application/opensearchdescription+xml" rel="search" href="http://sedici.unlp.edu.ar:80/open-search/description.xml" title="SeDiCI" />
+<script type="text/javascript">
+                //Clear default text of emty text areas on focus
+                function tFocus(element)
+                {
+                if (element.value == ' '){element.value='';}
+                }
+                //Clear default text of emty text areas on submit
+                function tSubmit(form)
+                {
+                var defaultedElements = document.getElementsByTagName("textarea");
+                for (var i=0; i != defaultedElements.length; i++){
+                if (defaultedElements[i].value == ' '){
+                defaultedElements[i].value='';}}
+                }
+                //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                function disableEnterKey(e)
+                {
+                var key;
+
+                if(window.event)
+                key = window.event.keyCode;     //Internet Explorer
+                else
+                key = e.which;     //Firefox and Netscape
+
+                if(key == 13)  //if "Enter" pressed, then disable!
+                return false;
+                else
+                return true;
+                }
+
+                function FnArray()
+                {
+                this.funcs = new Array;
+                }
+
+                FnArray.prototype.add = function(f)
+                {
+                if( typeof f!= "function" )
+                {
+                f = new Function(f);
+                }
+                this.funcs[this.funcs.length] = f;
+                };
+
+                FnArray.prototype.execute = function()
+                {
+                for( var i=0; i < this.funcs.length; i++ )
+                {
+                this.funcs[i]();
+                }
+                };
+
+                var runAfterJSImports = new FnArray();
+            </script>
+<title xmlns:i18n="http://apache.org/cocoon/i18n/2.1">SEDICI - Repositorio de la Universidad Nacional de La Plata </title>
+<meta xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://di.tamu.edu/DRI/1.0/" content="Repositorio institucional de la Universidad Nacional de La Plata" name="description" />
+<meta content="repositorio,dspace,argentina,acceso abierto,universidad nacional de la plata" name="keywords" />
+</head><!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
+                <!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+                <!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+                <!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
+                <!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+<div id="ds-main">
+<div id="ds-header-wrapper">
+<div class="clearfix" id="ds-header">
+<a id="ds-header-logo-link" href="/">
+<span id="ds-header-logo"> </span>
+<span id="ds-header-logo-text">SEDICI - Repositorio de la Universidad Nacional de La Plata </span>
+</a>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" id="unlp_logo">
+<a target="_blank" href="https://unlp.edu.ar/">
+<img src="/themes/Sedici2/images/logo_unlp_grande.png"> 
+			 		</img>
+</a>
+</div>
+</div>
+<div id="topNav">
+<ul id="ds-menu-superior">
+<li class="main">
+<a href="/">Inicio</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="main">
+<a href="/discover">Buscar material</a>
+<ul xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<li>
+<a href="/community-list">Colecciones</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<a href="/browse?type=author&amp;rpp=60">Autores</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<a href="/browse?type=subject">Temas</a>
+</li>
+</ul>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="main">
+<a href="/handle/10915/50/submit">Subir material</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="main">
+<a href="#">Institucional</a>
+<ul xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<li>
+<a href="/pages/queEsSedici">¿Que es SEDICI?</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<a href="/pages/politicas">Políticas del repositorio</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<a href="/pages/links">Links</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<a href="/pages/staff">Staff</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<a href="/pages/comoLlegar">Cómo llegar</a>
+</li>
+</ul>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="main">
+<a href="#">Preguntas frecuentes</a>
+<ul xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<li>
+<a href="/pages/comoAgregarTrabajos">Cómo agregar trabajos</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<a href="/pages/informacionTesistas">Información para tesistas</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<a href="/pages/revistasAccesoAbierto">Revistas de Acceso Abierto</a>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<a href="/pages/FAQ">Más preguntas frecuentes</a>
+</li>
+</ul>
+</li>
+<li xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="main">
+<a href="feedback">Contacto</a>
+</li>
+</ul>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" id="socialbar">
+<a title="Visitenos en Facebook" href="http://www.facebook.com/sedici.unlp">
+<img src="/themes/Sedici2/images/icono_facebook.png" />
+</a>
+<a title="Síganos en Twitter" href="https://twitter.com/sedici_unlp">
+<img src="/themes/Sedici2/images/icono_twitter.png" />
+</a>
+<a title="Visite el blog de SEDICI" href="https://sedici.unlp.edu.ar/blog">
+<img src="/themes/Sedici2/images/icono_blog.png" />
+</a>
+</div>
+</div>
+</div>
+<div class="hidden" id="no-js-warning-wrapper">
+<div id="no-js-warning">
+<div class="notice failure">JavaScript is disabled for your browser. Some features of this site may not work without it.</div>
+</div>
+</div>
+<div id="ds-content-wrapper">
+<div class="clearfix" id="ds-content">
+<div id="ds-left-section">
+<div id="home_search">
+<h2>Buscar material</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Busque entre los <span xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="resource_count">190494</span> recursos disponibles en el repositorio</p>
+<form xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="ds-interactive-div" action="/discover" method="GET" onsubmit="javascript:tSubmit(this);">
+<p class="ds-paragraph">
+<input name="query" value="" type="text" class="ds-text-field" id="aspect_discovery_SiteViewer_field_query" />
+<input name="submit" value="" type="submit" class="ds-button-field" id="aspect_discovery_SiteViewer_field_submit" />
+</p>
+</form>
+</div>
+<div id="home_autoarchivo">
+<h2>Subir material</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Suba sus trabajos a SEDICI, para mejorar notoriamente su visibilidad e impacto</p>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+<a href="/pages/comoAgregarTrabajos">
+<img xmlns:i18n="http://apache.org/cocoon/i18n/2.1" title="Cargar un documento" src="/themes/Sedici2/images/autoarchivo_home.png"> 
+			 		</img>
+</a>
+</div>
+<div>
+<a href="/pages/ayudaInvestigadores">
+<img xmlns:i18n="http://apache.org/cocoon/i18n/2.1" title="untranslated" src="/themes/Sedici2/images/ayuda_investigadores_home.png"> 
+					</img>
+</a>
+</div>
+</div>
+</div>
+<div class="home" id="ds-body">
+<div id="home_info">
+<p class="ds-paragraph">El Servicio de Difusión de la Creación Intelectual es el 
+Repositorio Institucional de la Universidad Nacional de La Plata, un servicio libre y gratuito 
+creado para albergar, preservar y dar visibilidad a las producciones de las Unidades Académicas 
+de la Universidad.</p>
+</div>
+<div class="html_content" id="home_slideshow">
+<div class="html_slide">
+<div class="html_slide_item" id="slide_recursos">
+<h2>Publicaciones Académicas y Cientificas</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Tesis de grado y postgrado, artículos, presentaciones en congresos, recursos de aprendizaje, informes técnicos, libros y múcho más</p>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="html_slide_item" id="slide_visibilidad">
+<h2>Datos</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Datos de investigación primarios y secundarios</p>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="html_slide_item" id="slide_preservacion">
+<h2>Colecciones Patrimoniales</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Documentos históricos digitalizados, material de museo</p>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="html_slide_item" id="slide_contacto">
+<h2>Documentos institucionales</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Documentos de carácter institucional, informativos, normativos y administrativos de la Universidad</p>
+</div>
+</div>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" id="home_obligacion_deposito_button">
+<a title="Acceder a las políticas de obligación de depósito." href="handle/10915/74049">
+<img src="/themes/Sedici2/images/home_obligacion_deposito_button.png"> 
+                </img>
+</a>
+</div>
+<div id="home_pagina_estadisticas_button">
+<a title="Acceder a las estadísticas de contenidos en el repositorio." href="/pages/estadisticasContenidoRepositorio">
+<img src="/themes/Sedici2/images/home_statistics_button.png"> 
+                </img>
+</a>
+</div>
+<div id="home_feed">
+<h1>
+<head xmlns="http://di.tamu.edu/DRI/1.0/" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Noticias</head>
+</h1>
+<ul class="ul_noticias">
+<li class="li_noticia_individual">
+<span class="news_date">20/02</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2026/02/20/sinergia-latindex-hera-cecic-impulsa-la-ciencia-abierta/">Sinergia Latindex-HERA-CECIC impulsa la ciencia abierta</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">08/04</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2025/04/08/visita-del-presidente-de-la-unlp-a-sedici/">Visita del presidente de la UNLP a SEDICI</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">31/03</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2025/03/31/presentacion-de-sumarc/">Presentación de SUMARC</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">27/02</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2024/02/27/xiii-conferencia-internacional-biredial-istec-2024/">XIII Conferencia Internacional BIREDIAL-ISTEC 2024</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">20/12</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2023/12/20/reconocimiento-de-la-cic-a-la-dra-marisa-de-giusti/">Reconocimiento de la CIC a la Dra. Marisa De Giusti</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">13/11</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2023/11/13/presentacion-del-repositorio-de-datos-de-investigacion-de-la-unlp/">Presentación del Repositorio de Datos de Investigación de la UNLP</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">09/12</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2021/12/09/cuarta-edicion-del-libro-de-cirugia-ya-disponible-en-el-repositorio/">Cuarta edición del libro de Cirugía, ya disponible en el repositorio</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">30/09</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2020/09/30/sedici-se-ubico-en-la-posicion-21-en-el-transparent-ranking-de-repositorios-2020/">SEDICI se ubicó en la posición 21 en el Transparent Ranking de repositorios 2020</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">29/09</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2020/09/29/recuerdo-y-presencia-de-emiliano-marmonti/">Recuerdo y presencia de Emiliano Marmonti</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">14/08</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2020/08/14/una-nueva-historia-del-laser-en-sedici/">Una nueva historia del láser en SEDICI</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">03/06</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2019/06/03/digitalizacion-de-publicaciones-oficiales-antiguas-sobre-inundaciones/">Digitalización de publicaciones oficiales antiguas sobre inundaciones</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">22/05</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2019/05/22/charla-en-la-facultad-de-ciencias-economicas-de-la-unlp/">Charla en la Facultad de Ciencias Económicas de la UNLP</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">14/05</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2019/05/14/nuevo-libro-electronico-sobre-cirugia-endovascular/">Nuevo libro electrónico sobre Cirugía Endovascular</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">09/05</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2019/05/09/tesis-del-dr-rene-favaloro-disponible-en-sedici/">Tesis del Dr. René Favaloro disponible en SEDICI</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">29/03</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2019/03/29/digitalizacion-de-libros-antiguos-en-sedici/">Digitalización de libros antiguos en SEDICI</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">09/04</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2018/04/09/viii-conferencia-internacional-biredial-istec-2018/">VIII Conferencia Internacional BIREDIAL-ISTEC 2018</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">25/10</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2017/10/25/semana-del-acceso-abierto-open-access-week/">Semana del Acceso Abierto – Open Access Week</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">25/08</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2017/08/25/taller-de-revistas-academicas-en-jursoc/">Taller de revistas académicas en JURSOC</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">02/08</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2017/08/02/sedici-en-el-ranking-webometrics/">SEDICI en el ranking Webometrics</a>
+</li>
+<li class="li_noticia_individual">
+<span class="news_date">09/05</span>
+<a target="_blank" href="https://blog.sedici.unlp.edu.ar/2017/05/09/plagio-recomendaciones-para-evitarlo-y-softwares-de-deteccion/">Plagio: recomendaciones para evitarlo y softwares de detección</a>
+</li>
+</ul>
+<a target="_blank" href="https://sedici.unlp.edu.ar/blog/" class="showall">Ver todas las noticias</a>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" id="home_envios_recientes">
+<h1>Últimos documentos</h1>
+<ul xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="ul_envios_recientes">
+<li class="li_envios_recientes">
+<a href="/handle/10915/200677">
+<span class="type">
+</span>
+<span class="title">Diseño y síntesis de nuevos híbridos de chalcona como promisorios agentes antihelmínticos</span>
+<span class="author">Gonçalves, Agustin L.; Menéndez, Cintia A.; ...</span>
+</a>
+</li>
+<li class="li_envios_recientes">
+<a href="/handle/10915/200676">
+<span class="type">
+</span>
+<span class="title">Estrategias de derivatización de lactonas sesquiterpénicas en la búsqueda de bibliotecas de compuestos bioactivos</span>
+<span class="author">Adessi, Tonino G.; Nicotra, Viviana E.; ...</span>
+</a>
+</li>
+<li class="li_envios_recientes">
+<a href="/handle/10915/200675">
+<span class="type">
+</span>
+<span class="title">Cribado virtual de productos naturales para debilitar la red de interacciones subyacente a la enfermedad de Chagas</span>
+<span class="author">Gómez Chávez, J. Leonardo; Conti, Germán A.; ...</span>
+</a>
+</li>
+<li class="li_envios_recientes">
+<a href="/handle/10915/200674">
+<span class="type">
+</span>
+<span class="title">Plantas alimenticias no convencionales (PANC): divulgación científica a través de redes sociales</span>
+<span class="author">Rodrigues Neves, Maria Eduarda; Horta Boscolo, Odara; </span>
+</a>
+</li>
+<li class="li_envios_recientes">
+<a href="/handle/10915/200673">
+<span class="type">
+</span>
+<span class="title">Nuevos horizontes en TDR Targets: modelos de aprendizaje automático para reposicionamiento de drogas</span>
+<span class="author">Didier Garnham, Mercedes; Jinich, Sebastian; ...</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="ds-right-section">
+<div id="ds-user-box">
+<div id="login_box">
+<a href="/login">Iniciar sesión</a>
+</div>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" id="home_main_communities">
+<h1 class="communities_header">Navegue por nuestras colecciones</h1>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="community_icon_container" id="icono_tesis">
+<a href="handle/10915/1">
+<h2>Tesis</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Tesis de grado, post-grado y otros documentos</p>
+</a>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="community_icon_container" id="icono_revistas">
+<a href="handle/10915/51">
+<h2>Revistas</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Publicaciones en revistas científicas</p>
+</a>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="community_icon_container" id="icono_eventos">
+<a href="handle/10915/1038">
+<h2>Eventos</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Ponencias realizadas en congresos y conferencias</p>
+</a>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="community_icon_container" id="icono_libros">
+<a href="discover?filtertype=type&amp;filter_relational_operator=equals&amp;filter=Libro&amp;sort_by=dc.date.accessioned_dt&amp;order=desc">
+<h2>Libros</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Libros digitalizados y e-books</p>
+</a>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="community_icon_container" id="icono_dataset">
+<a href="discover?filtertype=type&amp;filter_relational_operator=equals&amp;filter=Conjunto+de+datos&amp;sort_by=dc.date.accessioned_dt&amp;order=desc">
+<h2>Conjuntos de datos</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Datos primarios alojados en el repositorio</p>
+</a>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="community_icon_container" id="icono_redunci">
+<a href="handle/10915/18267">
+<h2>Red UNCI</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Artículos y ponencias de la Red UNCI</p>
+</a>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="community_icon_container" id="icono_radio">
+<a href="handle/10915/25224">
+<h2>Radio Universidad</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Entrevistas y producciones artísticas, entre otros audios</p>
+</a>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="community_icon_container" id="icono_rea">
+<a href="handle/10915/34144">
+<h2>Recursos educativos abiertos</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Material educativo de cursos dictados en la UNLP</p>
+</a>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="community_icon_container" id="icono_redmuseos">
+<a href="handle/10915/27268">
+<h2>Red de museos</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Material perteneciente a la red de museos de la UNLP</p>
+</a>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="community_icon_container" id="icono_ehidrica">
+<a href="handle/10915/26450">
+<h2>Emergencia hídrica</h2>
+<p xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Trabajos dentro del Plan de Gestión Integrada de Riesgos de Desastres</p>
+</a>
+</div>
+</div>
+<div xmlns:i18n="http://apache.org/cocoon/i18n/2.1" class="statisticsbox" id="ds-LRstatistics-box" />
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="ds-footer">
+<div id="footercol1" class="column">
+<div class="datos_unlp">
+<strong>
+<a target="_blank" href="http://prebi.unlp.edu.ar/">PREBI</a>
+<span> - </span>
+<a target="_blank" href="https://sedici.unlp.edu.ar/">SEDICI</a>
+		                    © 2003-2026<br />
+<a target="_blank" href="http://www.unlp.edu.ar">Universidad Nacional de La Plata</a>
+</strong>
+<br xmlns:i18n="http://apache.org/cocoon/i18n/2.1" />
+<span id="copyright-info">Todos los derechos reservados conforme a la ley 11.723</span>
+</div>
+<a xmlns:i18n="http://apache.org/cocoon/i18n/2.1" target="_blank" class="dspace_link" href="http://www.dspace.org">Soportado por <strong xmlns:i18n="http://apache.org/cocoon/i18n/2.1">Dspace</strong>
+</a>
+</div>
+<div id="footercol3" class="column">
+<div class="datos_sedici">Calle 49 y 115 s/n 1er piso - Edificio ex Liceo<br xmlns:i18n="http://apache.org/cocoon/i18n/2.1" />La Plata, Buenos Aires (C.P. 1900)<br xmlns:i18n="http://apache.org/cocoon/i18n/2.1" />Tel: +54 0221 6447282 <br xmlns:i18n="http://apache.org/cocoon/i18n/2.1" />Tel: +54 0221 423 6696/6677 (int. 141) </div>
+<div class="footer-icon">
+<a title="Como llegar a SEDICI" href="/pages/comoLlegar">
+<img class="vermapa" src="/themes/Sedici2/images/vermapa.png" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js" type="text/javascript"> </script>
+<script type="text/javascript" src="/themes/Sedici2/lib/js/slideshow-sedici.js"> </script><!--[if lt IE 7 ]>
+<script type="text/javascript" src="/themes/Sedici2/lib/js/DD_belatedPNG_0.0.8a.js?v=1"> 
+	        </script>
+<script type="text/javascript">DD_belatedPNG.fix('#ds-header-logo');DD_belatedPNG.fix('#ds-footer-logo');$.each($('img[src$=png]'), function() {DD_belatedPNG.fixPng(this);});</script><![endif]-->
+<script type="text/javascript">
+            runAfterJSImports.execute();
+        </script>
+<script type="text/javascript">
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+				Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-15165518-1', 'auto');
+				
+				ga('send', 'pageview');
+			</script>
+<script type="text/javascript">
+		  var _paq = window._paq || [];
+		  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+		    var u="https://matomo.sedici.unlp.edu.ar/";
+		    _paq.push(['setTrackerUrl', u+'matomo.php']);
+		    _paq.push(['setSiteId', '2']);
+		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+		  })();
+		</script>
+<script type="text/javascript">
+			$(document).ready(function() {
+				//add indicators and hovers to submenu parents
+				$("#topNav li.main").each(function() {
+					if ($(this).children("ul").length) {
+
+						//show subnav on hover
+						$(this).mouseenter(function() {
+							$(this).children("ul").show();
+						});
+
+						//hide submenus on exit
+						$(this).mouseleave(function() {
+							$(this).children("ul").hide();
+						});
+					}
+				});
+			});
+
+			$(document).ready(function() {
+				//click event on confident indicators
+				$("img.ds-authority-confidence").click(function() {
+					var self = $(this).siblings('.ds-authority-label').toggle();
+				});
+			});
+
+			</script>
+<script type="text/javascript" src="/themes/Sedici2/lib/js/slides.min.jquery.js">
+             
+        </script>
+<script type="text/javascript" src="/themes/Sedici2/lib/js/metadataGenerator.js">
+             
+        </script>
+<script type="text/javascript">
+            $(function() {
+	            $( "#community-tabs" ).tabs({
+		            collapsible: false,
+		            fx: {opacity: 'toggle', duration: 'fast'}
+	            });
+            });
+        </script>
+<script text="javascript">
+           	//Global variable to keep the i18n messages for every possible value of authority confidence
+           	confidenceMessages = [];
+           	confidenceMessages['cf_unset']='Confianza no establecida para este valor';
+			confidenceMessages['cf_novalue']='No se ha devuelto un valor de confianza razonable por parte de la Autoridad';
+			confidenceMessages['cf_rejected']='El control de autoridades recomienda que este envío sea rechazado';
+			confidenceMessages['cf_failed']='El control de autoridades ha encontrado un error interno';
+			confidenceMessages['cf_notfound']='No hay respuestas coincidentes en la Autoridad';
+			confidenceMessages['cf_ambigous']='Hay múltiples valores de autoridad conformes de igual validez';
+			confidenceMessages['cf_uncertain']='El valor es único y válido, pero no ha sido visto ni aceptado por ningún usuario por lo que es aún incierto';
+			confidenceMessages['cf_accepted']='Se ha confirmado la validez de este valor de autoridad por un usuario';
+			confidenceMessages['cf_acceptedvariant']='Este metadato está contectado a una autoridad, sin embargo su valor varía en relación al valor almacenado.';
+        </script>
+<script xmlns:i18n="http://apache.org/cocoon/i18n/2.1" type="text/javascript">
+			(function()
+					{var uv=document.createElement('script');
+					uv.type='text/javascript';
+					uv.async=true;
+					var s=document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(uv,s)})()
+		</script>
+<script type="text/javascript">
+				$(function() {
+					$("#accordion").accordion({autoHeight: false , collapsible: true, active: false});
+					$("#accordion h3 a").click(function(){
+						location.href = $(this).attr("href");
+						return false;
+					});
+				});
+		</script>
+<script type="text/javascript">
+			$(document).ready(function () {
+    			$('table').accordion({autoHeight: false , collapsible: true, active: false, header: '.collection-title' });
+			});
+		</script>
+<script text="text/javascript">
+				 /** twitter share **/    
+			    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+			
+			    /** facebook share **/
+			    (function(d, s, id) {
+			      var js, fjs = d.getElementsByTagName(s)[0];
+			      if (d.getElementById(id)) return;
+			      js = d.createElement(s); js.id = id;
+			      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+			      fjs.parentNode.insertBefore(js, fjs);
+			    }(document, 'script', 'facebook-jssdk'));
+			
+			    $(document).ready(function() {
+			        var share_fb = "#share_fb"; 
+			        var share_tw = "#share_tw"; 
+			        url = window.location.href;
+			
+			        $(share_tw).append('<a href="https://twitter.com/share" class="twitter-share-button" data-via="sedici_unlp" data-lang="es"   data-count="none">Twittear</a>');
+			        $(share_fb).append('<div class="fb-like" data-href="'+url+'" data-width="25" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>');
+			    });
+			</script></body></html>

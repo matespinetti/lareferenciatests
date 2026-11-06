@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:53:18Z</responseDate><request verb="GetRecord" identifier="oai:arca.fiocruz.br:icict/73215" metadataPrefix="xoai">https://api.arca.fiocruz.br/oai/request</request><GetRecord><record><header><identifier>oai:arca.fiocruz.br:icict/73215</identifier><datestamp>2026-10-26T16:39:28Z</datestamp><setSpec>com_icict_1745</setSpec><setSpec>com_icict_3802</setSpec><setSpec>col_icict_1747</setSpec><setSpec>col_icict_9180</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="author">
+            <element name="none">
+               <field name="value">Santos, Solange Laurentino dos</field>
+               <field name="value">Augusto, Lia Giraldo da Silva</field>
+               <field name="value">Medeiros, Marcilio Sandro de</field>
+               <field name="value">Costa, André Monteiro</field>
+               <field name="value">Mertens, Frederic Adelin Georges</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2025-10-30T19:27:46Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2023-03-17</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="citation">
+            <element name="none">
+               <field name="value">SANTOS, Solange Laurentino dos et al. Pandemia da COVID-19: revelando interfaces entre saúde, ambiente e desenvolvimento. Desenvolvimento e Meio Ambiente, v. 61, p. 43-57, 17 mar. 2023.</field>
+            </element>
+         </element>
+         <element name="issn">
+            <element name="none">
+               <field name="value">1518-952X</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://arca.fiocruz.br/handle/icict/73215</field>
+            </element>
+         </element>
+         <element name="doi">
+            <element name="none">
+               <field name="value">10.5380/dma.v61i0.78863</field>
+            </element>
+         </element>
+         <element name="eissn">
+            <element name="none">
+               <field name="value">2176-9109</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="pt-BR">
+               <field name="value">O ensaio analisou a situação da pandemia da COVID-19, apresentando as interfaces existentes entre o ambiente, o modelo de desenvolvimento econômico e a saúde pública. Como ponto de partida, considerou a compreensão da pandemia da COVID-19 como um problema complexo e propôs uma modelagem explicativa, aqui denominada ecossistêmica, para auxiliar as necessárias ações integradas em seu enfrentamento. Com base no conceito de reprodução social, foram analisados em sua determinação os condicionantes nos níveis de macro e micro contexto que estão em interação nos distintos planos &amp;quot;biocomunal&amp;quot;, da &amp;quot;autoconsciência e da conduta&amp;quot;, &amp;quot;tecno-econômica&amp;quot; e &amp;quot;ecológico-política&amp;quot;. A identificação deste conjunto de condicionantes interdependentes permitiu caracterizar as vulnerabilidades socioambientais que devem ser consideradas na tomada de decisões no âmbito das políticas públicas.</field>
+            </element>
+         </element>
+         <element name="abstracten">
+            <element name="en">
+               <field name="value">The essay analyzed the situation of the pandemic of COVID-19, presenting the existing interfaces between the environment, the economic development model and public health. As a starting point, it considered the understanding of the pandemic of COVID-19 as a complex problem and proposed an explanatory modeling, here called ecosystemic, to help the necessary integrated actions in its confrontation. Based on the concept of social reproduction, we have analyzed the determinants at the macro and micro contexts, that are in interaction at the different levels of &amp;quot;biocommunal&amp;quot;, &amp;quot;self-awareness and conduct&amp;quot;, &amp;quot;techno-economic&amp;quot;, and &amp;quot;ecological-political&amp;quot;. The identification of this set of interdependent conditioning factors has made it possible to characterize the socio-environmental vulnerabilities that must be considered when making public policies decisions.</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">por</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">Universidade Federal do Paraná. Programa de Pós-Graduação em Meio Ambiente e Desenvolvimento</field>
+         </element>
+      </element>
+      <element name="relation">
+         <element name="ispartof">
+            <element name="none">
+               <field name="value">Desenvolvimento e Meio Ambiente</field>
+            </element>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">open access</field>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="other">
+            <element name="pt-BR">
+               <field name="value">SARS-CoV-2</field>
+               <field name="value">Pandemia</field>
+               <field name="value">Complexidade</field>
+               <field name="value">Saúde Pública</field>
+               <field name="value">Desenvolvimento Econômico</field>
+            </element>
+         </element>
+         <element name="en">
+            <element name="en">
+               <field name="value">SARS-CoV-2</field>
+               <field name="value">Pandemic</field>
+               <field name="value">Complexity</field>
+               <field name="value">Public Health</field>
+               <field name="value">Economic Development</field>
+            </element>
+         </element>
+         <element name="decs">
+            <element name="pt-BR">
+               <field name="value">ORGANISMOS [B]::Vírus::Vírus de RNA::Vírus de RNA de Cadeia Positiva::Nidovirales::Coronaviridae::Coronavirus::Betacoronavirus::Coronavírus Relacionado à Síndrome Respiratória Aguda Grave::SARS-CoV-2</field>
+               <field name="value">ASSISTÊNCIA À SAÚDE [N]::Meio Ambiente e Saúde Pública::Saúde Pública::Surtos de Doenças::Epidemias::Pandemias</field>
+               <field name="value">ASSISTÊNCIA À SAÚDE [N]::Meio Ambiente e Saúde Pública::Saúde Pública</field>
+               <field name="value">SAÚDE PÚBLICA [SP]::Políticas, Planejamento e Administração em Saúde::Economia e Organizações de Saúde::Desenvolvimento Econômico</field>
+            </element>
+         </element>
+      </element>
+      <element name="title">
+         <element name="pt-BR">
+            <field name="value">Pandemia da COVID-19: revelando interfaces entre saúde, ambiente e desenvolvimento</field>
+         </element>
+         <element name="en">
+            <field name="value">Pandemic of the COVID-19: revealing interfaces between health, environment and development</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">journal article</field>
+         </element>
+      </element>
+      <element name="creator">
+         <element name="affilliation">
+            <element name="none">
+               <field name="value">Universidade Federal de Pernambuco. Recife, PE, Brasil.</field>
+               <field name="value">Fundação Oswaldo Cruz. Instituto Aggeu Magalhães. Recife, PE, Brasil.</field>
+               <field name="value">Fundação Oswaldo Cruz. Instituto Leônidas e Maria Deane. Manaus, AM, Brasil.</field>
+               <field name="value">Fundação Oswaldo Cruz. Instituto Aggeu Magalhães. Recife, PE, Brasil.</field>
+               <field name="value">Universidade de Brasília. Brasília, DF, Brasil.</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="dcterms">
+      <element name="provenance">
+         <element name="en">
+            <field name="value">[DECS-ORIGINAL] 2026-10-19 18:52 (v10.0.0) &amp;gt;&amp;gt;&amp;gt; [&amp;quot;SARS-CoV-2&amp;quot;, &amp;quot;Pandemias&amp;quot;, &amp;quot;Saúde Pública&amp;quot;, &amp;quot;Desenvolvimento Econômico&amp;quot;]</field>
+         </element>
+      </element>
+   </element>
+   <element name="oaire">
+      <element name="citation">
+         <element name="volume">
+            <element name="none">
+               <field name="value">61</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">Written by org.dspace.content.LicenseUtils</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">2991</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/49f56952-f76d-4293-849f-a20bde9ac6f9/download</field>
+               <field name="checksum">5a560609d32a3863062d77ff32785d58</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Administrator</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">ve_Lia_Augusto_etal_IAM_2023.pdf</field>
+               <field name="originalName">ve_Lia_Augusto_etal_IAM_2023.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">1114832</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/e9309fb9-dc97-467f-854f-ad2e4d783285/download</field>
+               <field name="checksum">371aaee1154a6c19c4a9030e6547f7d1</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">andriguettofilho,+Santos_Final.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2025-10-30T17:50:14Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">46873</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/868c5469-ddd0-4e3f-ac97-af5375765366/download</field>
+               <field name="checksum">5df39edb24ec943b3a2c613f1604568c</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+            <element name="bitstream">
+               <field name="name">ve_Lia_Augusto_etal_IAM_2023.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2025-12-03T01:25:02Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">46873</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/b9c5db6c-475b-48d8-bb15-1a1e8184d9e4/download</field>
+               <field name="checksum">5df39edb24ec943b3a2c613f1604568c</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">14</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">ve_Lia_Augusto_etal_IAM_2023.pdf.jpg</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">153773</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/f1c5c15a-f6e8-491e-b290-3f3df8a7f740/download</field>
+               <field name="checksum">f47446bcc7651c8c9bfa7a676ab155d7</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">15</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">icict/73215</field>
+      <field name="identifier">oai:arca.fiocruz.br:icict/73215</field>
+      <field name="lastModifyDate">2026-10-26T16:39:28.277107Z</field>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://arca.fiocruz.br</field>
+      <field name="name">Arca - Repositório Institucional da Fiocruz</field>
+      <field name="mail">repositorio.arca@fiocruz.br</field>
+   </element>
+   <element name="license" />
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

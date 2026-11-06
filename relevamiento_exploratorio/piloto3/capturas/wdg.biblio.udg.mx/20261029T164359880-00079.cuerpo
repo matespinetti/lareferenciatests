@@ -1,0 +1,1371 @@
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'html' -->
+<!-- FILE NAME SUGGESTIONS:
+   * html--front.html.twig
+   * html--home.html.twig
+   x html.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/drudg8b3/templates/html.html.twig' -->
+
+<!DOCTYPE html>
+<html  lang="es" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Homepage | Biblioteca Digital</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/libraries/bootstrap/css/bootstrap.min.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/modules/webform/modules/webform_bootstrap/css/webform_bootstrap.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/modules/custom/wdg_checklogin/css/wdg_checklogin.css?tm47jq" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.css" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.1/dist/3.4.0/8.x-3.x/drupal-bootstrap.css" integrity="sha512-RUOeVmsTRyTAbl6b8I+bazmSEhlTmS2Dt58NMpOvED7LJ6qy4CnfSoVoHcQw4a1uFYNxzaeDUbD7lQ/7Vo7OTg==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="/themes/drudg8b3/css/style.css?tm47jq" />
+<link rel="stylesheet" media="all" href="/themes/drudg8b3/css/style_newwdg23.css?tm47jq" />
+<link rel="stylesheet" media="all" href="http://www.udg.mx/menu/udg-menu2.css" />
+
+    
+  </head>
+  <body class="path-frontpage has-glyphicons">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Pasar al contenido principal
+    </a>
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'off_canvas_page_wrapper' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/off-canvas-page-wrapper.html.twig' -->
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'page' -->
+<!-- FILE NAME SUGGESTIONS:
+   * page--front.html.twig
+   * page--home.html.twig
+   x page.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/drudg8b3/templates/page.html.twig' -->
+<style>
+
+</style>
+<header class="navbar navbar-default" id="navbar">
+    
+    <div id="header" class="container-fluid">
+    <div class="container header">
+      <div class="content-title">
+        <div class="col-sm-3 col-xs-2 button menu">
+                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+          </button>
+        </div>
+        <div class="col-sm-6 text-center escudo">
+          <a href="http://www.udg.mx/">
+            <img alt="Universidad de Guadalajara" src="/themes/drudg8b3/images/BG_escudo-header-01.svg" class="logog">
+          </a>
+        </div>
+        <div class="col-xs-8 text-center offset-xs-2 escudoch">
+          <a href="http://www.udg.mx">
+            <img alt="Universidad de Guadalajara" src="/themes/drudg8b3/images/logo_udg_web_cads.svg" class="logoch"
+              style="max-height:75px;">
+          </a>
+        </div>
+        <div class="col-sm-3 col-xs-12" style="display:flex; height:50px;">
+          <form action="/search/node" method="get" style="margin:auto;width:100%;">
+            <div class="input-group">
+              <input title="" class="form-control" placeholder="Buscar" name="keys" value="" size="15" maxlength="128"
+                data-toggle="tooltip" data-original-title="Escriba lo que quiere buscar.">
+              <span class="input-group-btn">
+                <button type="submit" value="Buscar" class="form-submit btn-primary btn" name="Buscar">
+                  <span class="sr-only">Buscar</span>
+                  <span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+                </button>
+              </span>
+            </div>
+          </form>
+        </div>
+        <div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+      
+      <div id="liston" class="container-fluid">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--liston.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/system/region.html.twig' -->
+  <div class="region region-liston">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--headerprincipalpublic.html.twig
+   * block--block-content--8974fb63-7a3b-4219-8b3f-55fca51cdcbe.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/block/block.html.twig' -->
+<section id="block-headerprincipalpublic" class="block block-block-content block-block-content8974fb63-7a3b-4219-8b3f-55fca51cdcbe clearfix">
+  
+    
+
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--body--basic.html.twig
+   * field--block-content--body.html.twig
+   * field--block-content--basic.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/field/field.html.twig' -->
+
+  <div class="field field--name-body field--type-text-with-summary field--label-inline">
+    <div class="field--label">Cuerpo</div>
+              <div class="field--item"><div id="areamodal" style="display:none;">&nbsp;</div>
+<style type="text/css">
+</style>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+<div id="headerPrincipal">
+<div class="headerPrincipalLogo"><img src="/wdgManager/src/pages/redUDG.png" /></div>
+</div>
+</div>
+          </div>
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/field/field.html.twig' -->
+
+
+  </section>
+
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/block/block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/system/region.html.twig' -->
+
+
+  </div>
+    
+
+            <div id="precontent" class="container-fluid">
+    <div class="container precontent">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--precontent.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/system/region.html.twig' -->
+  <div class="region region-precontent">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--drudg8b3-branding.html.twig
+   x block--system-branding-block.html.twig
+   * block--system.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/block/block--system-branding-block.html.twig' -->
+        <a class="name navbar-brand" href="/" title="Inicio" rel="home">Biblioteca Digital</a>
+    
+<!-- END OUTPUT from 'themes/bootstrap/templates/block/block--system-branding-block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/system/region.html.twig' -->
+
+
+    </div>
+  </div>
+    
+    <div id="navigation" class="container-fluid">
+    <div class="container-fluid navigation">
+            <div class="navbar-header">
+        
+      </div>
+                  <div id="navbar-collapse" class="navbar-collapse collapse">
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--navigation-collapsible.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/system/region.html.twig' -->
+  <div class="region region-navigation-collapsible">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--drudg8b3-main-menu.html.twig
+   x block--system-menu-block--main.html.twig
+   * block--system-menu-block.html.twig
+   * block--system.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/drudg8b3/templates/block--system-menu-block--main.html.twig' -->
+<nav aria-labelledby="block-drudg8b3-main-menu-menu" id="block-drudg8b3-main-menu">
+            <h2 class="sr-only" id="block-drudg8b3-main-menu-menu">Navegación principal</h2>
+
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu__main' -->
+<!-- FILE NAME SUGGESTIONS:
+   x menu--main.html.twig
+   x menu--main.html.twig
+   * menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/menu/menu--main.html.twig' -->
+
+      <ul class="menu menu--main nav navbar-nav">
+                      <li class="first">
+                                        <a href="/" title="Homepage" data-drupal-link-system-path="&lt;front&gt;" class="is-active">Principal</a>
+              </li>
+                      <li>
+                                        <a href="/recursos-informativos-login" data-drupal-link-system-path="node/124">Recursos informativos</a>
+              </li>
+                      <li class="expanded dropdown">
+                                                                    <a href="https://www.riudg.udg.mx/" class="dropdown-toggle" data-toggle="dropdown">Repositorio institucional <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="https://www.riudg.udg.mx/handle/20.500.12104/3">Fondo histórico</a>
+              </li>
+                      <li>
+                                        <a href="https://www.riudg.udg.mx/handle/20.500.12104/1">Conferencias</a>
+              </li>
+                      <li>
+                                        <a href="https://www.riudg.udg.mx/handle/20.500.12104/20542">Manuales </a>
+              </li>
+                      <li>
+                                        <a href="https://www.riudg.udg.mx/handle/20.500.12104/20541">Normatividad </a>
+              </li>
+                      <li>
+                                        <a href="https://www.riudg.udg.mx/handle/20.500.12104/16">Producción científica</a>
+              </li>
+                      <li>
+                                        <a href="https://www.riudg.udg.mx/handle/20.500.12104/5">Producción editorial</a>
+              </li>
+                      <li>
+                                        <a href="https://www.riudg.udg.mx/handle/20.500.12104/4">Libros </a>
+              </li>
+                      <li>
+                                        <a href="https://www.riudg.udg.mx/handle/20.500.12104/8">Revistas </a>
+              </li>
+                      <li class="last">
+                                        <a href="https://www.riudg.udg.mx/handle/20.500.12104/9">Tesis </a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li>
+                                        <a href="http://148.202.248.73/F/?func=find-b-0&amp;local_base=UDG01">Catálogo en línea</a>
+              </li>
+                      <li class="expanded dropdown last">
+                                                                    <a href="/servicios-bibliotecarios" class="dropdown-toggle" data-toggle="dropdown" data-drupal-link-system-path="node/146">Servicios bibliotecarios <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="http://148.202.195.82/faqs">FAQS</a>
+              </li>
+                      <li>
+                                        <a href="/wdg-glosario" data-drupal-link-system-path="node/140">wdg.glosario</a>
+              </li>
+                      <li class="last">
+                                        <a href="http://148.202.195.82/redes-sociales">Redes sociales</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/menu/menu--main.html.twig' -->
+
+
+  </nav>
+
+<!-- END OUTPUT from 'themes/drudg8b3/templates/block--system-menu-block--main.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/system/region.html.twig' -->
+
+
+      </div>
+                </div>
+      </div>
+
+</header>
+
+
+
+
+
+
+
+<div role="main" id="main-container" class="container-fluid">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12" >
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--content.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/system/region.html.twig' -->
+  <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--wdgchecklogin.html.twig
+   * block--WDG Check Login.html.twig
+   * block--wdg-checklogin.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/block/block.html.twig' -->
+<section id="block-wdgchecklogin" class="block block-wdg-checklogin block-wdg-check-login clearfix">
+  
+    
+
+      
+  </section>
+
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/block/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--drudg8b3-content.html.twig
+   * block--system-main-block.html.twig
+   x block--system.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/block/block--system.html.twig' -->
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/system/container.html.twig' -->
+<div class="views-element-container form-group">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view' -->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/views/views-view.html.twig' -->
+<div class="view view-home view-id-home view-display-id-page_1 js-view-dom-id-8b7eaa8ac2d8a830e908eb627f9bd501d1654c00139b13749d09a4a7c6667dbd">
+  
+    
+      
+  
+          </div>
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/views/views-view.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/system/container.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/block/block--system.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--homepublic.html.twig
+   * block--block-content--2fdbcc93-fbbf-4ec0-8697-6d58dcccf179.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/block/block.html.twig' -->
+<section id="block-homepublic" class="block block-block-content block-block-content2fdbcc93-fbbf-4ec0-8697-6d58dcccf179 clearfix">
+  
+    
+
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--body--basic.html.twig
+   * field--block-content--body.html.twig
+   * field--block-content--basic.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/field/field.html.twig' -->
+
+  <div class="field field--name-body field--type-text-with-summary field--label-inline">
+    <div class="field--label">Cuerpo</div>
+              <div class="field--item"><div id="mainbody">
+<div class="row" id="banner_section">
+<div class="col-12 col-sm-12 col-md-12 col-lg-8 left-firstarea" id="jumbotron-container" style="padding: 0 !important;">
+<div class="img_portadaprincipal" id="mainimg"><img src="/wdgManager/src/pages/libroBienvenida.jpg" /></div>
+
+<div id="descubridor-bibliotecadigital">
+<div class="descubridor-title">Buscar en Biblioteca Digital</div>
+<input class="main-descrubridorstyle" id="summonbox" name="search-bd" placeholder="Ingrese palabras o término de búsqueda..." type="text" /> <a class="descubridor-btn" onclick="setPF('SUMMON:'+document.getElementById('summonbox').value); showModalLoginForm();"><img src="/wdgManager/src/icons/buscar.png" /></a><br />
+<!--<a class="btn_summ_mini" id="advsumm" target="_blank">Búsqueda avanzada</a>--></div>
+</div>
+
+<div class="col-12 col-sm-12 col-md-12 col-lg-4 right-firstarea" style="padding: 0 !important;">
+<div class="jumbotron text-justify bienvenida-area" id="card-text">
+<div class="imgbackgroundBienvenida">&nbsp;</div>
+<img class="logotipoBienvenida" src="/wdgManager/src/pages/letrasBibliotecaDigitalBienvenida.png" />
+<div class="mb-1" id="banner_content"><br />
+<span>Este espacio ofrece a la comunidad de la Universidad de Guadalajara, <span class="txt_wdgcian">acceso al acervo de recursos informativos digitales con que la institución cuenta*</span> así como suscripción a bases de datos científicas, libros y producción universitaria.</span><br />
+<br />
+<span style="display:block; width:80%;">*Ingresa con tu código y NIP de SIIAU y garantiza el acceso a los documentos.</span><img class="logoSIUBI" src="/wdgManager/src/pages/SIUBI_negro.png" /></div>
+<!--<div id="loginbutton"><a class="btn btn-lg btn-primary" href="/wdglogin" id="mainlogin_btn">Ingresa
+                        ahora</a></div>--></div>
+
+<div class="home-loginarea" id="home-loginarea" style="display: flex; justify-content: center;">
+<div class="modal-login" id="modal-login" style="display: none;">
+<p>Por favor, inicia sesión para acceder a los contenidos<i class="arrow arrowbottom">&nbsp;</i></p>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-12">
+<div id="loginform_body">
+<div>
+<div class="panel text-white">
+<div class="panel-body" style="display:flex; flex-direction: row;">
+<form action="/wdglogin" method="POST">
+<div>
+<div class="col-xs-12 text-center">
+<h4>COMUNIDAD UNIVERSITARIA Y EGRESADOS</h4>
+</div>
+
+<div class="col-xs-12 mb-1">
+<div class="form-group"><input class="user form-control wdginputloginform" id="user" name="user" placeholder="Código SIIAU / Usuario" type="text" /></div>
+</div>
+
+<div class="col-xs-12 mb-1">
+<div class="form-group"><input class="pass form-control wdginputloginform" id="pass" name="pass" placeholder="NIP / Password" type="password" /></div>
+</div>
+<input name="system" type="hidden" value="wdgvalidate" />
+<div class="col-xs-12 text-center"><button class="wdgbtn-primary txt-14" type="submit">INICIAR SESIÓN</button></div>
+</div>
+</form>
+
+<div style="display:block; height: auto; width: 6px; background-color: #FFFFFF;">&nbsp;</div>
+
+<form action="/wdglogin" method="POST">
+<div>
+<div class="text-center">
+<h4>ACCESO DE INVITADO</h4>
+</div>
+<input name="invitado" type="hidden" value="invitado" /> <input name="system" type="hidden" value="wdgvalidate" />
+<div class="col-xs-12 mb-1 text-center text-white"><span>Ingrese como invitado (algunas restricciones)</span><br />
+<br />
+<button class="btn btn-primary btn-sm" type="submit">Invitado</button></div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row" id="separador_areasconocimiento">
+<div class="separador">
+<p>Recursos informativos por áreas del conocimiento</p>
+
+<hr />
+<div class="colorseparador">&nbsp;</div>
+</div>
+</div>
+
+<div class="row" id="areas_conocimiento_area">
+<div class="row_area_conocimiento">
+<div class="area_element">
+<p><a onclick="setPF('CEI'); showModalLoginForm();">Ciencias Exactas e Ingenierías</a></p>
+<a onclick="setPF('CEI'); showModalLoginForm();"><img src="/wdgManager/src/pages/CsExactasIngenierias.png" /> </a></div>
+
+<div class="area_element">
+<p><a onclick="setPF('CEA'); showModalLoginForm();">Ciencias Económico Administrativas</a></p>
+<a onclick="setPF('CEA'); showModalLoginForm();"> <img src="/wdgManager/src/pages/csEconomicoAdministrativas.png" /> </a></div>
+
+<div class="area_element">
+<p><a onclick="setPF('CSH'); showModalLoginForm();">Ciencias Sociales y Humanidades</a></p>
+<a onclick="setPF('CSH'); showModalLoginForm();"> <img src="/wdgManager/src/pages/csSocialesHumanidades.png" /> </a></div>
+
+<div class="area_element">
+<p><a onclick="setPF('CBA'); showModalLoginForm();">Ciencias Biológicas y Agropecuarias</a></p>
+<a onclick="setPF('CBA'); showModalLoginForm();"> <img src="/wdgManager/src/pages/csBiologicasAgropecuarias.png" /> </a></div>
+</div>
+
+<div class="row_area_conocimiento">
+<div class="area_element">
+<p><a onclick="setPF('CSA'); showModalLoginForm();">Ciencias de la Salud</a></p>
+<a onclick="setPF('CSA'); showModalLoginForm();"> <img src="/wdgManager/src/pages/csSalud.png" /> </a></div>
+
+<div class="area_element">
+<p><a onclick="setPF('AAD'); showModalLoginForm();">Arte, Arquitectura y Diseño</a></p>
+<a onclick="setPF('AAD'); showModalLoginForm();"> <img src="/wdgManager/src/pages/ArteArquitecturaDiseno.png" /> </a></div>
+
+<div class="area_element">
+<p><a onclick="setPF('EMS'); showModalLoginForm();">Educación Media Superior (SEMS)</a></p>
+<a onclick="setPF('EMS'); showModalLoginForm();"> <img src="/wdgManager/src/pages/SEMS.png" /> </a></div>
+
+<div class="area_element" style="background-color: #0184b6 !important;">
+<p><a onclick="" style="color: #FFF !important;">¿No sabes donde empezar? (Próximamente)</a></p>
+<a onclick=""> <img src="/wdgManager/src/pages/dondeEmpezar.png" /> </a></div>
+</div>
+</div>
+
+<div class="row" id="separador_calendar">
+<div class="separador">
+<p>Próximos eventos, cursos, actividades</p>
+</div>
+</div>
+
+<div class="row" id="calendar_area">
+<div id="calendar-slider">&nbsp;</div>
+</div>
+<!--<div class="row" id="separador_produccionuniversitaria">
+<div class="separador">
+<p>Repositorio Institucional</p>
+
+<hr />
+<div class="colorseparador-repo">&nbsp;</div>
+</div>
+</div>-->
+
+<div class="row" id="repo_area">
+<div class="repocards_area">
+<div class="repocard-main"><a href="https://www.riudg.udg.mx/" target="_blank"><img src="/wdgManager/src/pages/logoRI.png" /></a>
+
+<div class="bottom_repocard-main">
+<p class="repocard_title-main"><a href="https://www.riudg.udg.mx/" target="_blank">El <b>RIUdeG</b> brinda acceso virtual, libre y abierto al conocimiento académico y científico producido en la Universidad de Guadalajara, dando visibilidad internacional.</a></p>
+
+<p>&nbsp;</p>
+</div>
+</div>
+
+<div class="repocard"><a href="https://www.riudg.udg.mx/handle/20.500.12104/9" target="_blank"><img src="/wdgManager/src/pages/tesis.png" /></a>
+
+<div class="bottom_repocard">
+<p class="repocard_title"><a href="https://www.riudg.udg.mx/handle/20.500.12104/9" target="_blank">Tesis UDG</a></p>
+
+<p>Descubre documentos de titulación producidos en programas educativos de licenciatura, maestría y doctorado.</p>
+</div>
+
+<div class="screen-repocard"><a href="https://www.riudg.udg.mx/handle/20.500.12104/9" target="_blank">&nbsp;</a></div>
+</div>
+
+<div class="repocard"><a href="https://www.riudg.udg.mx/handle/20.500.12104/4" target="_blank"><img src="/wdgManager/src/pages/libros.png" /> </a>
+
+<div class="bottom_repocard">
+<p class="repocard_title"><a href="https://www.riudg.udg.mx/handle/20.500.12104/4" target="_blank">Libros UDG</a></p>
+
+<p>Accede a publicaciones científicas y culturales editadas por la institución.</p>
+</div>
+
+<div class="screen-repocard"><a href="https://www.riudg.udg.mx/handle/20.500.12104/4" target="_blank">&nbsp;</a></div>
+</div>
+
+<div class="repocard"><a href="https://www.riudg.udg.mx/handle/20.500.12104/8" target="_blank"><img src="/wdgManager/src/pages/revistas.png" /> </a>
+
+<div class="bottom_repocard">
+<p class="repocard_title"><a href="https://www.riudg.udg.mx/handle/20.500.12104/8" target="_blank">Revistas UDG</a></p>
+
+<p>Encuentra títulos y artículos que producen los centros universitarios.</p>
+</div>
+
+<div class="screen-repocard"><a href="https://www.riudg.udg.mx/handle/20.500.12104/8" target="_blank">&nbsp;</a></div>
+</div>
+
+<div class="repocard"><a href="https://www.riudg.udg.mx/" target="_blank"><img src="/wdgManager/src/pages/otros_materiales.png" /> </a>
+
+<div class="bottom_repocard">
+<p class="repocard_title"><a href="https://www.riudg.udg.mx/" target="_blank">Materiales diversos</a></p>
+
+<p>Videos, gráficos, conferencias, multimedia, manuales, normatividad, fondo histórico, entre otros.</p>
+</div>
+
+<div class="screen-repocard"><a href="https://www.riudg.udg.mx/" target="_blank">&nbsp;</a></div>
+</div>
+</div>
+</div>
+
+<div class="row" id="publica_tesis"><img src="/wdgManager/src/pages/publicaTesis.png" />
+<div class="inner-publica_tesis">
+<div class="col-8">Publica tu tesis en el Repositorio Institucional UdeG</div>
+
+<div class="col-4"><a class="wdgbtn-secondary-orange txt-18" href="/publicacion-tesis">MÁS INFORMACIÓN</a></div>
+</div>
+</div>
+<!--<div class="row" id="separador_herramientas">
+<div class="separador">
+<p>Herramientas</p>
+
+<hr />
+<div class="colorseparador">&nbsp;</div>
+</div>
+</div>-->
+
+<div class="row" id="gestores_aula_antiplagio">
+<div id="herr-element">
+<div id="content-herr-element">
+<div style="color: #FFF; font-size: 38px; font-weigth: bold; font-family: 'sansationregular', Arial, sans-serif;">Herramientas</div>
+
+<div style="color: #FFF; font-size: 24px; max-width: 33%; text-align: right">útiles para facilitar el trabajo académico:</div>
+</div>
+
+<div id="herr-elem2">
+<div id="content-herr-elem2">
+<div class="herr-tool">
+<div class="herr-icon" id="icon-gr"><a onclick="setPF('GESREF'); showModalLoginForm();"><img src="/wdgManager/src/icons/ripage/gestoresReferencia.png" /></a></div>
+
+<div class="herr-content">
+<div class="herr-title"><a onclick="setPF('GESREF'); showModalLoginForm();">Gestores de referencia</a></div>
+
+<div class="herr-des"><a onclick="setPF('GESREF'); showModalLoginForm();">Gestiona referencias bibliográficas obtenidas de una o varias fuentes de información</a></div>
+</div>
+</div>
+
+<div class="herr-tool">
+<div class="herr-icon"><a href="http://148.202.195.115" target="_blank"><img src="/wdgManager/src/icons/ripage/wdgAula.png" /></a></div>
+
+<div class="herr-content">
+<div class="herr-title"><a href="http://148.202.195.115" target="_blank">Aula<br />
+Biblioteca Digital</a></div>
+
+<div class="herr-des"><a href="http://148.202.195.115" target="_blank">Plataforma de cursos sobre la Biblioteca Digital y temas relacionados</a></div>
+</div>
+</div>
+</div>
+
+<div id="herr_elem3">
+<div id="content-herr-elem3">
+<div class="herr-tool">
+<div class="herr-icon"><a onclick="setPF('ANTIPL'); showModalLoginForm();"><img src="/wdgManager/src/icons/ripage/turnitin.png" /></a></div>
+
+<div class="herr-content">
+<div class="herr-title"><a onclick="setPF('ANTIPL'); showModalLoginForm();">Anti-plagio</a></div>
+
+<div class="herr-des"><a onclick="setPF('ANTIPL'); showModalLoginForm();">Permiten revisar la autenticidad de documentos generados por universitarios</a></div>
+</div>
+</div>
+
+<div class="herr-tool">
+<div class="herr-icon"><a href="http://148.202.248.73/F/?func=find-b-0&amp;local_base=UDG01" target="_blank"><img src="/wdgManager/src/icons/ripage/catalogo.png" /></a></div>
+
+<div class="herr-content">
+<div class="herr-title"><a href="http://148.202.248.73/F/?func=find-b-0&amp;local_base=UDG01" target="_blank">Catálogo en línea</a></div>
+
+<div class="herr-des"><a href="http://148.202.248.73/F/?func=find-b-0&amp;local_base=UDG01" target="_blank">Consulta el catálogo de los recursos en físico que se encuentran en las bibliotecas de la red Universitaria (OPAC)</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--<img src="/wdgManager/src/pages/HerramientasSeccion.png" /></div>--><!--<div class="large_card"><a onclick="scrollToElement('home-loginarea');"> <img src="/wdgManager/src/pages/gestores_test.jpg" /> </a>
+
+<div class="bottom_large_card">
+<hr />
+<p class="large_card_title"><a onclick="scrollToElement('home-loginarea');">Gestores de referencia</a></p>
+
+<p>Herramientas que permiten gestionar referencias bibliográficas obtenidas de una o varias fuentes de información</p>
+</div>
+</div>
+
+<div class="large_card"><a onclick="scrollToElement('home-loginarea');"> <img src="/wdgManager/src/pages/auladigital_test.jpg" /> </a>
+
+<div class="bottom_large_card">
+<hr />
+<p class="large_card_title"><a onclick="scrollToElement('home-loginarea');">Aula Biblioteca Digital</a></p>
+
+<p>&nbsp;</p>
+</div>
+</div>
+
+<div class="large_card"><a onclick="scrollToElement('home-loginarea');"> <img src="/wdgManager/src/pages/antiplagio_test.png" /> </a>
+
+<div class="bottom_large_card">
+<hr />
+<p class="large_card_title"><a onclick="scrollToElement('home-loginarea');">Herramientas antiplagio</a></p>
+
+<p>Permiten revisar la autenticidad de documentos generados por universitarios</p>
+</div>
+</div>
+
+<div class="large_card"><a onclick="scrollToElement('home-loginarea');"> <img src="/wdgManager/src/pages/catalogolinea.jpg" /> </a>
+
+<div class="bottom_large_card">
+<hr />
+<p class="large_card_title"><a onclick="scrollToElement('home-loginarea');">Catálogo en línea</a></p>
+
+<p>El OPAC (Open Public Access Catalog) permite efectuar búsquedas para ubicación de los recursos físicos de nuestra institución.</p>
+</div>
+</div>-->
+
+<div class="row" id="separador_numeralia">
+<div class="separador">
+<p>Numeralia</p>
+
+<hr />
+<div class="colorseparador">&nbsp;</div>
+</div>
+</div>
+
+<div class="row" id="numeralia">
+<div id="numeralia_graphic">
+<div class="servicios_proporcionados_section1">
+<div class="numeralia_title">Servicios proporcionados 2025</div>
+
+<div class="servprop" id="servprop">
+<div class="servicios_superior">
+<div class="serv_column">
+<div class="serv_text">
+<p class="txt-24 txt-bold">Consultas</p>
+
+<p class="txt-28 txt-bold">1,352,798</p>
+
+<p class="txt-14">Durante el año 2025, para un acumulado de más de 10 millones desde su inicio</p>
+</div>
+
+<div class="serv_icon">
+<div class="c-triangle">&nbsp;</div>
+<img src="/wdgManager/src/icons/consultas.png" /></div>
+</div>
+
+<div class="serv_column">
+<div class="serv_text">
+<p class="txt-24 txt-bold">Capacitación presencial</p>
+
+<p class="txt-24 txt-bold">15</p>
+
+<p class="txt-14">Cursos impartidos</p>
+
+<p class="txt-24 txt-bold">3,730</p>
+
+<p class="txt-14">Usuarios beneficiados</p>
+
+<p class="txt-24 txt-bold">21,972</p>
+
+<p class="txt-14">visualizaciones posteriores en redes sociales</p>
+</div>
+
+<div class="serv_icon">
+<div class="c-triangle">&nbsp;</div>
+<img src="/wdgManager/src/icons/capacitacionPresencial.png" /></div>
+</div>
+
+<div class="serv_column">
+<div class="serv_text">
+<p class="txt-24 txt-bold">Capacitación virtual</p>
+
+<p class="txt-24 txt-bold">81</p>
+
+<p class="txt-14">Cursos impartidos</p>
+
+<p class="txt-24 txt-bold">2,969</p>
+
+<p class="txt-14">Usuarios beneficiados</p>
+</div>
+
+<div class="serv_icon">
+<div class="c-triangle">&nbsp;</div>
+<img src="/wdgManager/src/icons/capacitacionVirtual.png" /></div>
+</div>
+</div>
+
+<div class="servicios_inferior"><img src="/wdgManager/src/pages/Servicios.jpg" /></div>
+</div>
+</div>
+
+<div class="servicios_proporcionados_section2">
+<div class="numeralia_title">Acervo digital 2025</div>
+
+<div class="acervoprop" id="acervoprop">
+<div class="acervo_superior"><img src="/wdgManager/src/pages/acervo.jpg" />
+<div class="titles_acervo">
+<div class="acervo_recursossuscritos">Recursos suscritos</div>
+
+<div class="acervo_repo">Repositorio Institucional</div>
+</div>
+</div>
+
+<div class="acervo_inferior">
+<div class="acerv_column">
+<div class="serv_text">
+<p class="txt-28 txt-bold">92,101</p>
+
+<p class="txt-18">Revistas electrónicas</p>
+</div>
+
+<div class="serv_icon">
+<div class="c-triangle">&nbsp;</div>
+<img src="/wdgManager/src/icons/revistas.png" /></div>
+</div>
+
+<div class="acerv_column">
+<div class="serv_text">
+<p class="txt-28 txt-bold">4,347,494</p>
+
+<p class="txt-18">Libros electrónicos</p>
+</div>
+
+<div class="serv_icon">
+<div class="c-triangle">&nbsp;</div>
+<img src="/wdgManager/src/icons/libros.png" /></div>
+</div>
+
+<div class="acerv_column">
+<div class="serv_text">
+<p class="txt-28 txt-bold">4,189,225</p>
+
+<p class="txt-18">Tesis en bases de datos</p>
+</div>
+
+<div class="serv_icon">
+<div class="c-triangle">&nbsp;</div>
+<img src="/wdgManager/src/icons/tesisEnBasesDeDatos.png" /></div>
+</div>
+
+<div class="acerv_column acervcolum_green">
+<div class="serv_text">
+<p class="txt-28 txt-bold">44,877</p>
+
+<p class="txt-18">Documentos en producción UdeG</p>
+</div>
+
+<div class="serv_icon">
+<div class="c-triangle">&nbsp;</div>
+<img src="/wdgManager/src/icons/repositorio.png" /></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--<div class="row" id="separador_relevantes">
+<div class="separador">
+<p>Noticias relevantes</p>
+
+<hr />
+<div class="colorseparador">&nbsp;</div>
+</div>
+</div>-->
+
+<div class="row" id="relevantes">
+<div class="relevantes_block">
+<div id="info_area">
+<div class="title_relevante">Colaboración Repositorio Institucional y Editorial Universidad de Guadalajara</div>
+
+<hr />
+<div class="content_relevante">
+<p>El Repositorio Institucional de la Universidad de Guadalajara se ha integrado al catálogo de la Editorial Universitaria, un logro que refleja el esfuerzo coordinado y la dedicación constante de ambas dependencias. Este proyecto requirió múltiples ajustes informáticos, el desarrollo de módulos especializados y exhaustivas pruebas de interoperabilidad para asegurar que ambas plataformas dialogaran de manera eficiente y confiable. Gracias a este trabajo colaborativo, se ha consolidado un puente tecnológico que fortalece el ecosistema de información académica y editorial de nuestra Universidad.</p>
+
+<p>La principal ventaja de esta integración es el aumento significativo en la visibilidad de las publicaciones de la Editorial Universitaria. Ahora, los libros y materiales académicos aparecen directamente en el Repositorio Institucional, lo que permite que estudiantes, investigadores y público en general los localicen con mayor rapidez y facilidad. Además, esta vinculación facilita un acceso más claro a las distintas modalidades de disponibilidad de cada obra: cuando los títulos están en acceso abierto, pueden consultarse de inmediato desde el Repositorio; y cuando se encuentran bajo comercialización, el usuario puede acceder a la opción de compra, ya sea en formato electrónico o impreso, directamente desde la misma interfaz.</p>
+
+<p>De esta manera, la Universidad de Guadalajara consolida un entorno informativo más integrado, accesible y orientado a fortalecer la circulación del conocimiento. Este esfuerzo conjunto no solo impulsa la difusión del trabajo editorial universitario, sino que también mejora la experiencia de búsqueda y consulta para toda la comunidad académica.</p>
+</div>
+</div>
+
+<div id="relevante_graphic"><img src="/wdgManager/src/pages/EditorialUDG.png" /></div>
+</div>
+</div>
+<!--<div class="row" id="separador_faqs">
+<div class="separador">
+<p>Preguntas frecuentes</p>
+
+<hr />
+<div class="colorseparador">&nbsp;</div>
+</div>
+</div>
+
+<div class="row" id="faqs">
+<div class="faqs_block">
+<div id="faq-item">
+<div class="faq-title">¿Qué puedo encontrar en la Biblioteca Digital?<a class="faq-btn" onclick="showfaq('faq-content1')">Más</a></div>
+
+<div class="faq-content show" id="faq-content1">
+<p><b>Colecciones electrónicas;</b> organizadas acorde con la estructura académica y administrativa de la Universidad, así como por el tipo de formato.<br />
+<b>Catálogos en línea;</b> que permite efectuar búsquedas de los materiales bibliográficos existentes en la Red de Bibliotecas.<br />
+<b>Bases de datos;</b> que reportan información con referencias bibliográficas o en texto completo de libros, revistas y otros recursos de información en diversas áreas del conocimiento.<br />
+<b>Herramientas;</b> que amplían las posibilidades de búsqueda.<br />
+<b>Servicios Bibliotecarios;</b> Servicios la biblioteca digital que orientan a los usuarios en el uso correcto de los sistemas, apoyando el aprendizaje, la enseñanza y la investigación. Consulta y resuelve tus dudas consultando Accesoria en línea, Preguntas frecuentes, tutoriales y wdg.glosario.</p>
+</div>
+</div>
+
+<div id="faq-item">
+<div class="faq-title">¿Si no sé cómo buscar la información hay alguien que me pueda orientar?<a class="faq-btn" onclick="showfaq('faq-content2')">Más</a></div>
+
+<div class="faq-content show" id="faq-content2">
+<p>La Biblioteca digital cuenta con profesionales de la información que te orientarán en cómo hacer una búsqueda efectiva, así como también te podrán ofrecer algunos consejos que te permitirán dominar el manejo y uso de las bases de datos. Para ello en Servicios bibliotecarios entra a Asesoría en línea.<br />
+<b>Horario de atención:</b><br />
+Lunes-Viernes: 9:00 - 17:30 hrs.</p>
+</div>
+</div>
+
+<div id="faq-item">
+<div class="faq-title">¿Quién puede tener cuenta SIIAU?<a class="faq-btn" onclick="showfaq('faq-content3')">Más</a></div>
+
+<div class="faq-content show" id="faq-content3">
+<p>Alumnos, personal académico y administrativo, así como funcionarios de la Universidad de Guadalajara. El usuario en SIIAU es tu código de alumno o trabajador.<br />
+Si eres alumno y no cuentas con NIP de SIIAU o lo olvidaste solicítalo en Control Escolar de tu dependencia. Si eres académico, administrativo o funcionario solicítalo en Oficialía Mayor, Dirección ó con el Coordinador de Personal de tu área de trabajo.</p>
+</div>
+</div>
+
+<div id="faq-item">
+<div class="faq-title">Algunas de las bases de datos me piden usuario y password o no tengo acceso a ellas<a class="faq-btn" onclick="showfaq('faq-content4')">Más</a></div>
+
+<div class="faq-content show" id="faq-content4">
+<p>Una vez que ingresas a wdg.biblio puedes tener acceso a las Bases de Datos, en caso contrario verifica lo siguiente:<br />
+<br />
+Verifica tu contraseña de SIIAU si eres alumno vigente de la Universidad de Guadalajara.<br />
+Si eres Egresado de la Universidad, actualiza tu cuenta y contraseña que te proporcionó la Biblioteca Digital. Las cuentas tienen una vigencia de un año, si en este tiempo no la utilizaste, las cuentas y contraseñas se cancelan.</p>
+</div>
+</div>
+
+<div id="faq-item">
+<div class="faq-title">¿Para qué es necesario abrir una cuenta de usuario en las bases de datos de mi interés?<a class="faq-btn" onclick="showfaq('faq-content5')">Más</a></div>
+
+<div class="faq-content show" id="faq-content5">
+<p>La cuenta personal entre otros beneficios, permite a todos los usuarios de bases de datos guardar artículos y búsquedas para otras ocasiones y crear servicios de alerta de temas y de títulos de revistas de su interés particular. Estos beneficios varían de una base de datos a otra.</p>
+</div>
+</div>
+</div>
+</div>--><!--<div class="row" id="separador_ayuda">
+<div class="separador">
+<p>Servicios bibliotecarios</p>
+
+<hr />
+<div class="colorseparador">&nbsp;</div>
+</div>
+</div>-->
+
+<div class="row" id="otros">
+<div class="otros_title">
+<div class="separador">
+<p>Servicios bibliotecarios</p>
+</div>
+</div>
+
+<div class="otros_block"><!--<div class="other_item">
+<div class="other_img"><img src="/wdgManager/src/icons/contactoTelefono.png" /></div>
+
+<div class="other_title">Asesoria</div>
+</div>--><!--<div class="other_item">
+<div class="other_img"><img src="/wdgManager/src/icons/ayuda.png" /></div>
+
+<div class="other_title">Preguntas frecuentes</div>
+</div>-->
+<div class="other_item"><a class="other_img" href="https://www.youtube.com/@wdgbiblio/streams" target="_blank"><img src="/wdgManager/src/icons/videos.png" /></a>
+
+<div class="other_title">Capacitación y tutoriales</div>
+</div>
+<!--<div class="other_item">
+<div class="other_img"><img src="/wdgManager/src/icons/biblioteca.png" /></div>
+
+<div class="other_title">Fomento a la lectura</div>
+</div>-->
+
+<div class="other_item"><a class="other_img" onclick="createCalendarModal('','','Agenda');switchDesktop('close');"><img src="/wdgManager/src/icons/calendario.png" /></a>
+
+<div class="other_title">Actividades y elementos</div>
+</div>
+<!--<div class="other_item">
+<div class="other_img"><img src="/wdgManager/src/icons/politicas.png" /></div>
+
+<div class="other_title">Políticas</div>
+</div>-->
+
+<div class="other_item">
+<div class="other_img"><a href="/directorio"><img src="/wdgManager/src/icons/usuarios.png" /></a></div>
+
+<div class="other_title"><a href="/directorio">Directorio</a></div>
+</div>
+</div>
+</div>
+
+<div class="row" id="contactomsj">
+<div class="contactomsj_block">
+<p class="cmsj_title">Contáctanos</p>
+
+<p class="cmsj_descripcion">Acércate a nosotros y envíanos algúna duda o inquietud en la que podamos apoyarte, nosotros nos pondremos en contacto contigo posteriormente tras recibir tu mensaje</p>
+
+<form id="contactomsj_form">
+<div id="dupla_contactomsj_form"><input class="contactomsj_input" name="cmsj_name" placeholder="Tu nombre" type="text" /> <input class="contactomsj_input" name="cmsj_email" placeholder="Tu correo electrónico" type="text" /></div>
+<textarea class="contactomsj_txtarea" name="cmsj_text" placeholder="Tu mensaje"></textarea></form>
+
+<p><i>*Al enviar un mensaje estoy de acuerdo con los términos y condiciones del sitio.</i></p>
+
+<div id="send_message" style="display:none;">&nbsp;</div>
+<a class="btn btn-primary cmsj_btn" onclick="sendContactMSG();">Enviar</a></div>
+</div>
+</div>
+</div>
+          </div>
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/field/field.html.twig' -->
+
+
+  </section>
+
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/block/block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/system/region.html.twig' -->
+
+
+      </div>
+                                                                
+                
+                    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<footer id="footer" class="container-fluid">
+  <div class="container footer">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--footer.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/system/region.html.twig' -->
+  <div class="region region-footer">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--udegfooter.html.twig
+   * block--block-content--6df321b4-f818-42c4-a513-a736de1e2bf6.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/block/block.html.twig' -->
+<section id="block-udegfooter" class="block block-block-content block-block-content6df321b4-f818-42c4-a513-a736de1e2bf6 clearfix">
+  
+    
+
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--body--basic.html.twig
+   * field--block-content--body.html.twig
+   * field--block-content--basic.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/bootstrap/templates/field/field.html.twig' -->
+
+  <div class="field field--name-body field--type-text-with-summary field--label-inline">
+    <div class="field--label">Cuerpo</div>
+              <div class="field--item"><style type="text/css">/*#footer-row {
+        padding-top: 2.5em;
+    }
+
+    #footer_logo {
+        max-width: 350px;
+    }
+
+    .field--label {
+        display: none;
+    }
+
+    #footer-content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #footer-right {
+        padding-top: 20px;
+    }
+
+    #footer-right span {
+        display: block !important;
+    }
+
+    .footer_rs_icon {
+        text-decoration: none;
+        height: 50px;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .footer_rs_icon>img {
+        height: 100%;
+    }
+
+    #footer_rs,
+    #footer-main-menu {
+        margin-bottom: 1.5em;
+    }
+
+    #footer-main-menu {
+        padding: 0px;
+    }
+
+    #footer-main-menu li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    #footer-main-menu li a {
+        text-decoration: none !important;
+    }
+
+    #footer-main-menu li .caret {
+        display: none;
+    }
+
+    .footer-dropdown-menu {
+        position: relative !important;
+        float: none !important;
+    }
+
+    .footer-dropdown-menu li>a {
+        text-decoration: none;
+        color: #002e4a !important;
+    }*/
+</style>
+<div class="row justify-content-between" id="footer-row">
+<div class="col-xs-12 col-md-4">
+<div class="row">
+<div class="col-xs-12"><img alt="logo" id="footer_logo" src="..." /></div>
+
+<div class="col-xs-12" id="footer-content"><span>Sistema Universitario de Bibliotecas</span><br />
+<span>Av. Hidalgo N° 935</span><br />
+<span>Col. Centro Guadalajara, Jalisco, México</span><br />
+<span>C.P. 44100</span><br />
+<span>Teléfono: (01 33)31 34 22 77 Ext. 11959, 11924, 11914</span><br />
+<span>Correo: bibliotecadigital@udg.mx</span></div>
+</div>
+</div>
+
+<div class="col-xs-12 col-md-3">
+<div class="row">
+<div class="col-xs-12" id="footer_rs"><a class="footer_rs_icon" href="#"><img alt="" src="..." /> </a></div>
+
+<div class="col-xs-12">
+<div id="footer_rs">&nbsp;</div>
+
+<div id="footer_menu">&nbsp;</div>
+</div>
+</div>
+</div>
+
+<div class="col-xs-12 col-md-5"><iframe allowfullscreen="" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.817065324012!2d-103.36075522308374!3d20.67702019976351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b1e2b1d41f9f%3A0x3ec09c00593b6e5e!2sSistema%20Universitario%20de%20Bibliotecas%20de%20la%20Universidad%20de%20Guadalajara!5e0!3m2!1ses-419!2smx!4v1702329425300!5m2!1ses-419!2smx" style="border:0;" width="400"></iframe></div>
+
+<div class="col-xs-12 text-center" id="footer-right"><span>© Universidad de Guadalajara. Vicerrectoría Ejecutiva. Sistema Universitario de Bibliotecas. 2006 - 2026.</span></div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script><script>
+    $(function () {
+        $.getJSON('/api/footer_icon')
+            .done(function (response) {
+                let data = response[0];
+                $('#footer_logo').attr('src', data.link_image);
+            })
+            .fail(function (error) {
+                console.log(error);
+            });
+
+        $.getJSON('/api/rs_links')
+            .done(function (response) {
+                $content = ""
+                $.each(response, function (index, value) {
+                    $content += '<a href="' + value.link_url + '" class="footer_rs_icon" target="_BLANK"><img src="' + value.link_image + '" alt=""></a>';
+                });
+                $('#footer_rs').html($content);
+            })
+            .fail(function (error) {
+                console.log(error);
+            });
+
+        let
+            menu = $('.menu.menu--main.nav.navbar-nav').clone(),
+            footerMenu = '<ul id="footer-main-menu"></ul>';
+        menu.addClass('footer-menu').removeClass('.menu').removeClass('menu--main').removeClass('nav').removeClass('navbar-nav');
+        $.each(menu.find('li'), function (index, value) {
+            if (menu.find('li:eq("' + index + '")').find('.dropdown-menu').length > 0) {
+                menu.find('li:eq("' + index + '")').find('.dropdown-menu').addClass('footer-dropdown-menu');
+            }
+        });
+        $('#footer_menu').html(footerMenu);
+        $('#footer-main-menu').html(menu.html());
+    });
+</script></div>
+          </div>
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/field/field.html.twig' -->
+
+
+  </section>
+
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/block/block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/bootstrap/templates/system/region.html.twig' -->
+
+
+  </div>
+</footer>
+
+<script>
+$(function(){
+  $('.dropdown-menu>li>a').each(function(index,value){
+    let href=value.getAttribute('href');
+    if(href != null && href.includes('https://')){
+      value.setAttribute('target','_BLANK');
+    }
+  });
+
+  const menuItems = [
+    { name: "Recursos informativos", color: "#C40000" },
+    { name: "Repositorio Institucional", color: "#177509" },
+    { name: "Catálogo en Línea", color: "#0068FF" },
+    { name: "Herramientas", color: "#EEB292" },
+    { name: "Servicios bibliotecarios", color: "#8109B5" }
+  ];
+  $('.menu>li.expanded.dropdown>a').each(function(index,value){
+    let menuIndex = menuItems.findIndex((item) => (item.name).trim().toLowerCase() == (value.textContent).trim().toLowerCase() );
+    if(menuIndex > -1){
+      var dropdown = value.parentNode.querySelector('ul.dropdown-menu');
+      dropdown.style.backgroundColor = menuItems[menuIndex].color+"CC";
+    }
+  });
+  
+});
+</script>
+<!-- END OUTPUT from 'themes/drudg8b3/templates/page.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/off-canvas-page-wrapper.html.twig' -->
+
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"home","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"es"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"user":{"uid":0,"permissionsHash":"e9c9466f1a2746157be5f36da2f73711e357b95efd151149b5f9ad3c325b1d79"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.0"></script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.3"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.4.8"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=9.4.8"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=9.4.8"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.4.8"></script>
+<script src="/sites/default/files/languages/es_yUUJZBZscXzgYOvKrabNld0HO2zqHTJpYjmAA9KWVEM.js?tm47jq"></script>
+<script src="/core/misc/drupal.js?v=9.4.8"></script>
+<script src="/core/misc/drupal.init.js?v=9.4.8"></script>
+<script src="/libraries/bootstrap/js/bootstrap.min.js?tm47jq"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.js"></script>
+<script src="/themes/bootstrap/js/drupal.bootstrap.js?tm47jq"></script>
+<script src="/themes/bootstrap/js/attributes.js?tm47jq"></script>
+<script src="/themes/bootstrap/js/theme.js?tm47jq"></script>
+<script src="/themes/drudg8b3/libraries/jquery.smoove.min.js?tm47jq"></script>
+<script src="/themes/drudg8b3/libraries/smoveConf.js?tm47jq"></script>
+<script src="/themes/drudg8b3/libraries/wdg_global_script.js?tm47jq"></script>
+<script src="/modules/webform/js/webform.behaviors.js?v=9.4.8"></script>
+<script src="/core/misc/jquery.once.bc.js?v=9.4.8"></script>
+<script src="/core/misc/states.js?v=9.4.8"></script>
+<script src="/themes/bootstrap/js/misc/states.js?tm47jq"></script>
+<script src="/modules/webform/js/webform.states.js?v=9.4.8"></script>
+<script src="/modules/webform/modules/webform_bootstrap/js/webform_bootstrap.states.js?v=9.4.8"></script>
+<script src="/themes/bootstrap/js/popover.js?tm47jq"></script>
+<script src="/themes/bootstrap/js/tooltip.js?tm47jq"></script>
+<script src="http://www.udg.mx/menu/udg-menu2.js"></script>
+<script src="/modules/custom/wdg_checklogin/js/wdg_subjectmod_dewey.js?v=1"></script>
+<script src="/modules/custom/wdg_checklogin/js/wdg_modaladvices.js?v=1"></script>
+<script src="/modules/custom/wdg_checklogin/js/wdg_calendarmod.js?v=1"></script>
+<script src="/modules/custom/wdg_checklogin/js/wdg_checklogin.js?v=1"></script>
+
+  </body>
+</html>
+
+<!-- END OUTPUT from 'themes/drudg8b3/templates/html.html.twig' -->
+

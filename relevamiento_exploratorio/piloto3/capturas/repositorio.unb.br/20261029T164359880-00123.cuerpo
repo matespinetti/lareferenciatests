@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:47:45Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.unb.br:10482/43728" metadataPrefix="xoai">http://repositorio.unb.br/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.unb.br:10482/43728</identifier><datestamp>2025-11-05T20:29:38Z</datestamp><setSpec>com_10482_45725</setSpec><setSpec>col_10482_45731</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="advisor">
+            <element name="none">
+               <field name="value">Barbosa, João Alexandre Ribeiro Gonçalves</field>
+            </element>
+         </element>
+         <element name="author">
+            <element name="none">
+               <field name="value">Lima, Jônatas Cunha Barbosa</field>
+            </element>
+         </element>
+         <element name="email">
+            <element name="pt_BR">
+               <field name="value">jonatascbl@gmail.com</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2022-05-17T16:46:23Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2022-05-17T16:46:23Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2022-05-17</field>
+            </element>
+         </element>
+         <element name="submitted">
+            <element name="none">
+               <field name="value">2022-01-14</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="citation">
+            <element name="pt_BR">
+               <field name="value">LIMA, Jônatas Cunha Barbosa. Análises estruturais e de modelos de interação das proteases NS3 dos Flavivirus zika e dengue, e nsP2 dos Alphavirus chikungunya e mayaro utilizando ferramentas in silico e in vitro. 2022. 151 f., il. Tese (Doutorado em Biologia Molecular) — Universidade de Brasília, Brasília, 2022.</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://repositorio.unb.br/handle/10482/43728</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="pt_BR">
+            <field name="value">Tese (doutorado) — Universidade de Brasília, Instituto de Ciências Biológicas, Departamento de Biologia Celular, Programa de Pós-Graduação em Biologia Molecular, 2022.</field>
+         </element>
+         <element name="abstract">
+            <element name="pt_BR">
+               <field name="value">Os arbovírus (Arthropod-borne virus) são uma classificação que compreende grupos virais&#xd;
+cuja transmissão é realizada por vetores artrópodes que infectam vertebrados. Dentre&#xd;
+esses, alguns arbovírus têm se mostrado de grande relevância, devido ao grande número&#xd;
+de infecções, como os Flavivirus dengue (DENV) e o zika (ZIKV), e os Alphavirus&#xd;
+chikungunya (CHIK) e o mayaro (MAYV), sendo que todos carecem de estudos&#xd;
+estruturais mais aprofundados objetivando tanto um maior conhecimento da biologia&#xd;
+molecular destes, quanto visando possíveis alvos para novos fármacos. Dentre as&#xd;
+possíveis proteínas alvo, as proteases virais têm se mostrado excelentes alvos. Estas&#xd;
+proteínas (NS3 nos Flavivirus e nsP2 nos Alphavirus) possuem a função de clivar&#xd;
+determinadas regiões da poliproteína viral sendo essenciais para a replicação. O objetivo&#xd;
+do presente trabalho é realizar análises in silico e in vitro das proteases dos arbovírus&#xd;
+ZIKV, DENV, CHIK e MAYV visando uma melhor compreensão estrutural das proteases e&#xd;
+da interação com inibidores e substratos. Os genes da NS3 de ZIKV e DENV, e nsP2 de&#xd;
+MAYV e CHIK foram expressos em diversas cepas de E. coli e passaram por diversas&#xd;
+etapas de otimização de purificação. Realizou-se ultracentrifugação analítica e&#xd;
+cromatografia por exclusão molecular das proteases de ZIKV e DENV, que apontaram&#xd;
+uma possível formação de dímero. Análises de espectroscopia de fluorescência da NS3&#xd;
+de ZIKV em presença de aprotinina demonstraram uma redução na intensidade de&#xd;
+fluorescência possivelmente por maior exposição do Trp50 ao solvente, que poderia ser&#xd;
+explicada pela dissociação dos dímeros. Screening e refinamento da cristalização de das&#xd;
+proteases NS3 estudadas apresentaram condições onde havia formação de cristal de&#xd;
+proteína, todavia não foram obtidos cristais que permitissem a resolução da estrutura.&#xd;
+Foram realizados ensaios de inibição da NS3 de ZIKV com inibidores da protease&#xd;
+homóloga DENV, os quais apresentaram capacidade inibitória também para esta proteína&#xd;
+de ZIKV. Além disso, realizou-se a modelagem por homologia da protease do MAYV,&#xd;
+docking com peptídeos que possuem os sítios de clivagem das nsP2 de CHIK e MAYV e&#xd;
+dinâmica das principais poses. Neste experimento observou-se que as poses com&#xd;
+melhores scores apresentavam semelhante posicionamento de uma glicina, altamente&#xd;
+conservada na posição P2 de substratos de nsP2 de Alphavirus, em uma fissura estreita.&#xd;
+Este posicionamento possivelmente auxilia no posicionamento do carbono da carbonila do&#xd;
+substrato próximo ao enxofre da cisteína catalítica desprotonada facilitando o ataque&#xd;
+nucleofílico, uma das primeiras etapas para a quebra da cadeia polipeptídica. Além disso, estabiliza os ângulos diedros χ1 e χ2 dos resíduos que compõe o sítio catalítico.</field>
+            </element>
+         </element>
+         <element name="sponsorship">
+            <element name="pt_BR">
+               <field name="value">Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq).</field>
+            </element>
+         </element>
+         <element name="abstract1">
+            <element name="pt_BR">
+               <field name="value">The arbovirus (Arthropod-borne virus) are a classification that comprise viral groups whose&#xd;
+transmission is performed by Arthropod vectors infecting vertebrate hosts. Among the&#xd;
+arbovirus, dengue virus (DENV) and zika virus (ZIKV) of the family Flaviviridae and gender&#xd;
+Flavivirus, and chikungunya virus (CHIK) and mayaro virus (MAYV) of the family&#xd;
+Togaviridae and gender Alphavirus, have shown great relevance due to the large number&#xd;
+of human infecting cases. All these viruses require deeper structural studies aiming at a&#xd;
+much bigger knowledge of their molecular biology to develop new drugs able to counteract&#xd;
+their diseases. Among the protein targets, the viral proteases have been recognized as&#xd;
+excellent candidates. The proteins (NS3 of Flavivirus and nsP2 of Alphavirus) have a&#xd;
+cleavage function in specific regions of the viral polyprotein, therefore they are essential to&#xd;
+viral replication. The purpose of this work is to perform in silico and in vitro experiments of&#xd;
+ZIKV, DENV, CHIK and MAYV proteases aiming at a better understanding of the structure&#xd;
+and their interaction with inhibitors and substrates. The genes of ZIKV and DENV NS3&#xd;
+and, MAYV and CHIK nsP2 were expressed by several E. coli strains and followed by the&#xd;
+optimization of their purifications. Analytical ultracentrifugation experiments and size&#xd;
+exclusion chromatography were performed for the ZIKV and DENV protease, where a&#xd;
+protein dimer was encountered. Fluorescence spectroscopy analysis of ZIKV protease in&#xd;
+the presence of aprotinin demonstrated fluorescence intensity reduction possibly by the&#xd;
+increase of Trp50 solvent accessibility, which could be explained by dimer dissociation.&#xd;
+So far, crystal screening and refinement of the proteases yielded crystals with poor quality,&#xd;
+preventing structure solution. Inhibition assays with DENV inhibitors for ZIKV NS3&#xd;
+protease were performed and demonstrated inhibitory capacity of the ZIKV protein. In&#xd;
+addition, the MAYV protein homology modeling, docking of the CHIK and MAYV nsP2&#xd;
+cleavage site peptides and molecular dynamics of the best docking poses were performed.&#xd;
+In docking experiments, it was observed that best scored poses had the substrate P2&#xd;
+glicine, a highly conserved residue in Alphavirus, placed in a narrow cleft at the protein&#xd;
+surface. This arrangement possibly helps to position the substrate carbonyl carbon near&#xd;
+the sulfur atom of the deprotonated catalytic cysteine, thus facilitating the nucleophilic&#xd;
+attack, the first step of polypeptide chain cleavage. Moreover, this contact stabilizes&#xd;
+dihedral angles χ1 and χ2 of the active site residues.</field>
+            </element>
+         </element>
+         <element name="unidade">
+            <element name="pt_BR">
+               <field name="value">Instituto de Ciências Biológicas (IB)</field>
+               <field name="value">Departamento de Biologia Celular (IB CEL)</field>
+            </element>
+         </element>
+         <element name="ppg">
+            <element name="pt_BR">
+               <field name="value">Programa de Pós-Graduação em Biologia Molecular</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="pt_BR">
+               <field name="value">por</field>
+            </element>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="pt_BR">
+            <field name="value">Acesso Aberto</field>
+         </element>
+         <element name="license">
+            <element name="pt_BR">
+               <field name="value">A concessão da licença deste item refere-se ao termo de autorização impresso assinado pelo autor com as seguintes condições:Na qualidade de titular dos direitos de autor da publicação, autorizo a Universidade de Brasília e o IBICT a disponibilizar por meio dos sites www.bce.unb.br, www.ibict.br, http://hercules.vtls.com/cgi-bin/ndltd/chameleon?lng=pt&amp;skin=ndltd sem ressarcimento dos direitos autorais, de acordo com a Lei nº 9610/98, o texto integral da obra disponibilizada, conforme permissões assinaladas, para fins de leitura, impressão e/ou download, a título de divulgação da produção científica brasileira, a partir desta data.</field>
+            </element>
+         </element>
+      </element>
+      <element name="title">
+         <element name="pt_BR">
+            <field name="value">Análises estruturais e de modelos de interação das proteases NS3 dos Flavivirus zika e dengue, e nsP2 dos Alphavirus chikungunya e mayaro utilizando ferramentas in silico e in vitro</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="pt_BR">
+            <field name="value">Tese</field>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="keyword">
+            <element name="pt_BR">
+               <field name="value">Arbovírus</field>
+               <field name="value">Proteases</field>
+               <field name="value">Inibidores</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">license.txt</field>
+               <field name="format">text/plain</field>
+               <field name="size">676</field>
+               <field name="url">http://repositorio.unb.br/bitstream/10482/43728/2/license.txt</field>
+               <field name="checksum">59c0495af143a2dbef8cb1eca992b8cf</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="drm">open access</field>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">2022_JônatasCunhaBarbosaLima.pdf</field>
+               <field name="originalName">2022_JônatasCunhaBarbosaLima.pdf</field>
+               <field name="description" />
+               <field name="format">application/pdf</field>
+               <field name="size">10177501</field>
+               <field name="url">http://repositorio.unb.br/bitstream/10482/43728/1/2022_J%c3%b4natasCunhaBarbosaLima.pdf</field>
+               <field name="checksum">b982611f17af3965fcd2c0c9403098c6</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="drm">open access</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">10482/43728</field>
+      <field name="identifier">oai:repositorio.unb.br:10482/43728</field>
+      <field name="lastModifyDate">2025-11-05 17:29:38.225</field>
+      <field name="drm">open access</field>
+   </element>
+   <element name="repository">
+      <field name="name">Repositório Institucional da UnB</field>
+      <field name="mail">repositorio@unb.br</field>
+   </element>
+   <element name="license">
+      <field name="bin">QSBjb25jZXNzw6NvIGRhIGxpY2Vuw6dhIGRlc3RhIGNvbGXDp8OjbyByZWZlcmUtc2UgYW8gdGVybW8gZGUgYXV0b3JpemHDp8OjbyBpbXByZXNzbyBhc3NpbmFkbyANCnBlbG8gYXV0b3IgY29tIGFzIHNlZ3VpbnRlcyBjb25kacOnw7VlczoNCg0KTmEgcXVhbGlkYWRlIGRlIHRpdHVsYXIgZG9zIGRpcmVpdG9zIGRlIGF1dG9yIGRhIHB1YmxpY2HDp8OjbywgYXV0b3Jpem8gYSBVbml2ZXJzaWRhZGUgZGUgQnJhc8OtbGlhDQogZSBvIElCSUNUIGEgZGlzcG9uaWJpbGl6YXIgcG9yIG1laW8gZG9zIHNpdGVzIHd3dy5iY2UudW5iLmJyLCB3d3cuaWJpY3QuYnIsDQogaHR0cDovL2hlcmN1bGVzLnZ0bHMuY29tL2NnaS1iaW4vbmRsdGQvY2hhbWVsZW9uP2xuZz1wdCZza2luPW5kbHRkIHNlbSByZXNzYXJjaW1lbnRvIGRvcyANCmRpcmVpdG9zIGF1dG9yYWlzLCBkZSBhY29yZG8gY29tIGEgTGVpIG7CuiA5NjEwLzk4LCBvIHRleHRvIGludGVncmFsIGRhIG9icmEgZGlzcG9uaWJpbGl6YWRhLA0KIGNvbmZvcm1lIHBlcm1pc3PDtWVzIGFzc2luYWxhZGFzLCBwYXJhIGZpbnMgZGUgbGVpdHVyYSwgaW1wcmVzc8OjbyBlL291IGRvd25sb2FkLCBhIHTDrXR1bG8gZGUgDQpkaXZ1bGdhw6fDo28gZGEgcHJvZHXDp8OjbyBjaWVudMOtZmljYSBicmFzaWxlaXJhLCBhIHBhcnRpciBkZXN0YSBkYXRhLg==</field>
+   </element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

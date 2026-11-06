@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:49:06Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.ufmg.br:1843/1964" metadataPrefix="ore">https://repositorio.ufmg.br/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.ufmg.br:1843/1964</identifier><datestamp>2026-03-05T11:38:25Z</datestamp><setSpec>com_1843_6</setSpec><setSpec>com_1843_2</setSpec><setSpec>col_1843_139</setSpec></header><metadata><atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+   <atom:id>https://hdl.handle.net/1843/1964/ore.xml</atom:id>
+   <atom:link rel="alternate" href="https://hdl.handle.net/1843/1964" />
+   <atom:link rel="http://www.openarchives.org/ore/terms/describes" href="https://hdl.handle.net/1843/1964/ore.xml" />
+   <atom:link rel="self" type="application/atom+xml" href="https://hdl.handle.net/1843/1964/ore.xml#atom" />
+   <atom:published />
+   <atom:updated>2026-03-05T11:38:25Z</atom:updated>
+   <atom:source>
+      <atom:generator>"Repositório Institucional da UFMG"</atom:generator>
+   </atom:source>
+   <atom:title>Utilização do isótopo 7Be como método de investigação da erosão em escala de vertente</atom:title>
+   <atom:category scheme="http://www.openarchives.org/ore/terms/" term="http://www.openarchives.org/ore/terms/Aggregation" label="Aggregation" />
+   <atom:category scheme="http://www.openarchives.org/ore/atom/modified" term="2026-03-05T11:38:25Z" />
+   <atom:category scheme="http://www.dspace.org/objectModel/" term="DSpaceItem" label="DSpace Item" />
+   <atom:link rel="http://www.openarchives.org/ore/terms/aggregates" href="https://repositorio.ufmg.br//bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/download" title="Dissertação_Utilização do isótopo 7Be como método de investigação da erosão em escala de vertente.pdf" type="application/pdf" length="5120523" />
+   <oreatom:triples>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://hdl.handle.net/1843/1964/ore.xml#atom">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceItem" />
+         <dcterms:modified>2026-03-05T11:38:25Z</dcterms:modified>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://repositorio.ufmg.br//bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+         <dcterms:description>ORIGINAL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://repositorio.ufmg.br//bitstreams/2916d2ac-e874-433a-8521-3413cf835a43/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+         <dcterms:description>CC-LICENSE</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://repositorio.ufmg.br//bitstreams/31c5472d-75dd-487e-85d9-07e11e00de9d/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+         <dcterms:description>LICENSE</dcterms:description>
+      </rdf:Description>
+   </oreatom:triples>
+</atom:entry>
+</metadata></record></GetRecord></OAI-PMH>

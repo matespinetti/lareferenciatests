@@ -1,0 +1,45 @@
+{
+ "pedido": "20261029T164359880-00475",
+ "url": "https://www.libros.unlp.edu.ar/index.php/unlp/catalog/download/2950/8330/12841-1",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:58:19 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.59 (Debian)"
+  ],
+  [
+   "content-disposition",
+   "attachment; filename=\"2950-3-12841-1-10-20260928.pdf\""
+  ],
+  [
+   "cache-control",
+   "private"
+  ],
+  [
+   "pragma",
+   "public"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "archivo"
+}

@@ -1,0 +1,65 @@
+{
+  "escenario": {
+    "id": "5",
+    "lugares": 5000,
+    "repos": 50000,
+    "items": 125000000,
+    "descripcion": "Buscar el límite",
+    "modo": "corrutinas",
+    "db": false,
+    "duracion": 15.0,
+    "calentamiento": 5.0,
+    "tam_archivo": null
+  },
+  "semilla": 1,
+  "puerto": 8443,
+  "terminado_antes_de_tiempo": false,
+  "errores_por_tipo": {
+    "ClientConnectorError": 9210
+  },
+  "servidor": {
+    "pedidos": 14478,
+    "violaciones": 0,
+    "simultaneos": 0,
+    "intervalos_cortos": 0,
+    "ejemplos": [],
+    "cpu_servidor": [
+      30.9,
+      99.0,
+      86.6,
+      78.5,
+      79.3,
+      80.2,
+      75.0,
+      70.1,
+      73.8,
+      13.2,
+      1.7,
+      0.6,
+      9.4,
+      41.0,
+      8.1,
+      2.7,
+      0.5,
+      10.0,
+      0.0,
+      10.1,
+      17.0
+    ]
+  },
+  "versiones": {
+    "python": "3.12.11",
+    "aiohttp": "3.14.5",
+    "plataforma": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "supuestos": {
+    "ancho_por_conexion_mb_s": 2.0,
+    "intervalo_s": 1.0
+  },
+  "bucle": {
+    "p50_ms": 621.02,
+    "p99_ms": 5761.55,
+    "max_ms": 5761.55,
+    "muestras": 20
+  }
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T15:40:26Z</responseDate><request verb="GetRecord" identifier="oai:riudg.udg.mx:20.500.12104/112502" metadataPrefix="mets">https://riudg.udg.mx/oai/request</request><GetRecord><record><header><identifier>oai:riudg.udg.mx:20.500.12104/112502</identifier><datestamp>2026-04-13T19:45:27Z</datestamp><setSpec>com_20.500.12104_20530</setSpec><setSpec>com_20.500.12104_9</setSpec><setSpec>col_20.500.12104_34963</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" PROFILE="DSpace METS SIP Profile 1.0" TYPE="DSpace ITEM" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_20.500.12104-112502" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:20.500.12104/112502">
+<metsHdr CREATEDATE="2026-10-29T09:40:26Z">
+<agent TYPE="ORGANIZATION" ROLE="CUSTODIAN">
+<name>RIUdeG</name>
+</agent>
+</metsHdr>
+<dmdSec ID="DMD_20.500.12104_112502">
+<mdWrap MDTYPE="MODS">
+<xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+<mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+<mods:name>
+<mods:role>
+<mods:roleTerm type="text">author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Flores Arévalo, Ximena Alejandra</mods:namePart>
+</mods:name>
+<mods:name>
+<mods:role>
+<mods:roleTerm type="text">director</mods:roleTerm>
+</mods:role>
+<mods:namePart>López López, Zaira Del Rocío</mods:namePart>
+</mods:name>
+<mods:name>
+<mods:role>
+<mods:roleTerm type="text">codirector</mods:roleTerm>
+</mods:role>
+<mods:namePart>Cano González, Mario Eduardo</mods:namePart>
+</mods:name>
+<mods:extension>
+<mods:dateAccessioned encoding="iso8601">2026-04-13T19:45:27Z</mods:dateAccessioned>
+</mods:extension>
+<mods:extension>
+<mods:dateAvailable encoding="iso8601">2026-04-13T19:45:27Z</mods:dateAvailable>
+</mods:extension>
+<mods:originInfo>
+<mods:dateIssued encoding="iso8601">2024-07-05</mods:dateIssued>
+</mods:originInfo>
+<mods:identifier type="uri">https://wdg.biblio.udg.mx</mods:identifier>
+<mods:abstract>La nanotecnología se define como la tecnología aplicada durante la síntesis de materiales de tamaño nanométrico que va desde 1 nm hasta 100 nm. Esta ciencia se ha convertido en un área de investigación en las últimas décadas, especialmente en el área médica para tratar el cáncer debido a que las partículas en escala nanométrica pueden ingresar a las células de un tumor además de que poseen propiedades, ópticas o estructurales que las hace aptas para utilizarse en terapias de hipertermia. El cáncer es una enfermedad caracterizada por la multiplicación descontrolada de células que además evaden supresores de crecimiento y muerte celular. En este trabajo se explora la eficacia de nanopartículas de oro, mediante la terapia novedosa llamada Fototermia Plasmónica, como tratamiento adyuvante contra cáncer. En 1857, cuando Faraday descubrió que era posible obtener finas partículas de oro que exhibían tonalidad roja mediante un tratamiento de HAuCl4, con fosforo disuelto en CS2. Siguiendo el descubrimiento de Faraday, Gustav Mie estableció mediante la ecuación de Maxwell, que el tono rojo de las partículas de oro se atribuía a la absorción y dispersión de la luz, gracias a este descubrimiento, comenzó a estudiarse el fenómeno de resonancia del plasmón de superficie, entendiendo como plasmón de superficie a la oscilación que sufren los electrones encontrados en nanopartículas metálicas cuando estas interactúan con un rayo de luz láser. A partir de estas observaciones, se creó la terapia fototérmica plasmónica a través de la cual es posible generar hipertermia con la finalidad de inducir daño a células cancerígenas</mods:abstract>
+<mods:language>
+<mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+</mods:language>
+<mods:accessCondition type="useAndReproduction" />
+<mods:subject>
+<mods:topic>Sinergismo</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>Fototermia Plasmonica</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>Antineoplasicos</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>Cancer De Mama.</mods:topic>
+</mods:subject>
+<mods:titleInfo>
+<mods:title>Efecto sinérgico de fototermia plasmónica y antineoplásicos en células de cáncer de mama</mods:title>
+</mods:titleInfo>
+<mods:genre>Tesis de Maestría</mods:genre>
+</mods:mods>
+</xmlData>
+</mdWrap>
+</dmdSec>
+<amdSec ID="FO_20.500.12104_112502_1">
+<techMD ID="TECH_O_20.500.12104_112502_1">
+<mdWrap MDTYPE="PREMIS">
+<xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+<premis:premis>
+<premis:object>
+<premis:objectIdentifier>
+<premis:objectIdentifierType>URL</premis:objectIdentifierType>
+<premis:objectIdentifierValue>https://riudg.udg.mx//bitstream/20.500.12104/112502/1/MCUCIENEGA10055.pdf</premis:objectIdentifierValue>
+</premis:objectIdentifier>
+<premis:objectCategory>File</premis:objectCategory>
+<premis:objectCharacteristics>
+<premis:fixity>
+<premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+<premis:messageDigest>8479c25a638d81ff5cc7f374440df371</premis:messageDigest>
+</premis:fixity>
+<premis:size>5541620</premis:size>
+<premis:format>
+<premis:formatDesignation>
+<premis:formatName>application/pdf</premis:formatName>
+</premis:formatDesignation>
+</premis:format>
+</premis:objectCharacteristics>
+<premis:originalName>MCUCIENEGA10055.pdf</premis:originalName>
+</premis:object>
+</premis:premis>
+</xmlData>
+</mdWrap>
+</techMD>
+</amdSec>
+<fileSec>
+<fileGrp USE="ORIGINAL">
+<file ID="BITSTREAM_ORIGINAL_20.500.12104_112502_1" MIMETYPE="application/pdf" SEQ="1" SIZE="5541620" CHECKSUM="8479c25a638d81ff5cc7f374440df371" CHECKSUMTYPE="MD5" ADMID="FO_20.500.12104_112502_1" GROUPID="GROUP_BITSTREAM_20.500.12104_112502_1">
+<FLocat xlink:type="simple" LOCTYPE="URL" xlink:href="https://riudg.udg.mx//bitstream/20.500.12104/112502/1/MCUCIENEGA10055.pdf" />
+</file>
+</fileGrp>
+</fileSec>
+<structMap TYPE="LOGICAL" LABEL="DSpace Object">
+<div TYPE="DSpace Object Contents" ADMID="DMD_20.500.12104_112502">
+<div TYPE="DSpace BITSTREAM">
+<fptr FILEID="BITSTREAM_ORIGINAL_20.500.12104_112502_1" />
+</div>
+</div>
+</structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

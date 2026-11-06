@@ -1,0 +1,37 @@
+{
+ "pedido": "20261029T121018255-00103",
+ "url": "https://www.libros.unlp.edu.ar/index.php/unlp/oai?verb=ListRecords&metadataPrefix=oai_dc",
+ "codigo": 500,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:13:43 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.59 (Debian)"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "connection",
+   "close"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "content-type",
+   "text/html; charset=UTF-8"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

@@ -1,0 +1,57 @@
+{
+ "pedido": "20261106T121522500-00032",
+ "url": "https://ru.iiec.unam.mx/22/2/Pasta300Y400Dpis.pdf",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:16:13 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "etag",
+   "c1032a4c5a71ac54d40cd4ffce1a9a6f"
+  ],
+  [
+   "content-md5",
+   "wQMqTFpxrFTUDNT/zhqabw=="
+  ],
+  [
+   "last-modified",
+   "Tue, 18 Oct 2011 19:48:41 GMT"
+  ],
+  [
+   "expires",
+   "Sat, 06 Nov 2027 12:16:13 GMT"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=Pasta300Y400Dpis.pdf"
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "content-length",
+   "18813966"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "medicion"
+}

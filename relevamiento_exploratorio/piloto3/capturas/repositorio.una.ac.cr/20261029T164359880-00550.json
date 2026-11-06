@@ -1,0 +1,41 @@
+{
+ "pedido": "20261029T164359880-00550",
+ "url": "https://repositorio.una.ac.cr/cgi/oai2?verb=Identify",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "cache-control",
+   "no-store, must-revalidate, no-cache"
+  ],
+  [
+   "pragma",
+   "no-cache"
+  ],
+  [
+   "connection",
+   "close"
+  ],
+  [
+   "content-type",
+   "text/html"
+  ],
+  [
+   "content-length",
+   "28115"
+  ],
+  [
+   "x-frame-options",
+   "SAMEORIGIN"
+  ],
+  [
+   "x-xss-protection",
+   "1; mode=block"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

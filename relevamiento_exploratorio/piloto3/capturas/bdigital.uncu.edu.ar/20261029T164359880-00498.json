@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T164359880-00498",
+ "url": "https://bdigital.uncu.edu.ar",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:59:02 GMT"
+  ],
+  [
+   "content-type",
+   "text/html; charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "set-cookie",
+   "draphp2=2ih9l97a7tkov3kildl4m6s0tl; expires=Thu, 29-Oct-2026 21:59:02 GMT; Max-Age=18000; path=/"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "origin-agent-cluster",
+   "?1"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-permitted-cross-domain-policies",
+   "none"
+  ],
+  [
+   "referrer-policy",
+   "strict-origin-when-cross-origin"
+  ],
+  [
+   "x-frame-options",
+   "SAMEORIGIN"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

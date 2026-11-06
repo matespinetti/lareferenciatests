@@ -1,0 +1,1280 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Repositorio Institucional UCA</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="Generator" content="DSpace CRIS-5.10.0-SNAPSHOT" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">		
+        <script type="text/javascript" src="/ruxitagentjs_ICA7NVfqrux_10347260902154543.js" data-dtconfig="rid=RID_2418|rpid=158458550|domain=uca.edu.ar|reportUrl=/rb_bf83227qfx|app=0ade970f21eb0c97|srtbv=4|owasp=1|featureHash=ICA7NVfqrux|srsr=10000|rdnt=1|uxrgce=1|cuc=zb7kgom7|mel=100000|expw=1|dpvc=1|lastModification=1792055539109|tp=500,50,0|srbbv=3|agentUri=/ruxitagentjs_ICA7NVfqrux_10347260902154543.js"></script><link rel="resourcesync sitemap" href="http://emarmonti.com/rs/resourcesync.xml" type="application/xml"/>
+		
+        <link rel="shortcut icon" type="image/x-icon" href="/images/UCA-Logo-1.png">
+		
+				
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link href="/css/researcher.css" type="text/css" rel="stylesheet" />
+       <link href="/css/jdyna.css" type="text/css" rel="stylesheet" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<link href="/static/css/jstree/themes/default/style.min.css" rel="stylesheet"/>
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+	    <link rel="stylesheet" href="/css/orcid.css" type="text/css" />
+	    <link rel="stylesheet" type="text/css" href="/static/css/dataTables.bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/buttons.bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/responsive.bootstrap.min.css"/>
+		<link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap-datetimepicker.min.css" />
+			<link rel="stylesheet" type="text/css" href="/static/css/select.dataTables.min.css" />
+
+        <link rel="alternate" type="application/rdf+xml" title="Items in Repositorio Institucional UCA" href="/feed/rss_1.0/site"/>
+
+        <link rel="alternate" type="application/rss+xml" title="Items in Repositorio Institucional UCA" href="/feed/rss_2.0/site"/>
+
+        <link rel="alternate" type="application/rss+xml" title="Items in Repositorio Institucional UCA" href="/feed/atom_1.0/site"/>
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+        
+   	<script type='text/javascript' src="/static/js/jquery/jquery-1.11.3.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.11.4.min.js'></script>
+	<script type="text/javascript" src="/js/moment.js"></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+	<script type='text/javascript' src='/static/js/custom-functions.js'></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+    <script type="text/javascript" src="/js/jdyna/jdyna.js"></script>    
+    <script type="text/javascript" src="/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="/js/dataTables.bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/dataTables.buttons.min.js"></script>
+	<script type="text/javascript" src="/js/buttons.bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/buttons.html5.min.js"></script>
+	<script type="text/javascript" src="/js/dataTables.responsive.min.js"></script>	
+	<script type="text/javascript" src="/js/bootstrap-datetimepicker.min.js"></script>
+	<script type="text/javascript" src="/static/js/dataTables.select.min.js"></script>
+	<script type="text/javascript" src="/js/jszip.min.js"></script>
+	<script type='text/javascript'>
+		var j = jQuery.noConflict();
+		var $ = jQuery.noConflict();
+		var JQ = j;
+		dspaceContextPath = "";
+		jQuery(document).ready(function ($) {
+			  $('span[data-toggle="tooltip"]').tooltip();
+			  $('i[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+	
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-38717680-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+
+        <!-- Google tag manager con ga4 (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FTZK6VTG8"></script>
+        <script>
+         window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+           gtag('config', 'G-7FTZK6VTG8');
+        </script>
+
+    
+    
+
+	<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>  
+	  <script src="/static/js/html5shiv.js"></script>
+	  <script src="/static/js/selectivizr-min.js"></script>
+	  <script src="/static/js/respond.min.js"></script>
+	  <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme-IElte9.css" type="text/css" />
+	<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation" dir="ltr">
+<a class="sr-only" href="#content">Skip navigation</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+	<div class="logobanner">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+				</div>
+				<div class="col-sm-6 text-center">
+				<a href="http://repositorio.uca.edu.ar" class="banner"><img class="center-block" src="/image/UCA.png" /></a>
+				</div>
+				<div class="col-sm-3">
+							
+								 <ul class="nav navbar-nav navbar-right">
+								  
+							 
+									<li><a onclick="javascript:document.repost.locale.value='en';
+											  document.repost.submit();" href="?locale=en">
+									  Inglés                  
+								   </a></li>
+							 
+									<li><a onclick="javascript:document.repost.locale.value='es';
+											  document.repost.submit();" href="?locale=es">
+									  Español                  
+								   </a></li>
+							 
+								 </ul>
+							 		
+				</div>
+			</div>
+			
+		</div>
+	</div>
+   
+</header>
+
+
+<div class="navbar navbar-inverse navbar-square sinespacio">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul id="top-menu" class="nav navbar-nav navbar-left">
+            <!-- <li class="pull-left"><a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a></li> -->
+           <li id="home-top-menu" class="pull-left   active"><a href="/">Inicio</a></li>
+		  
+		   <li id="communitylist-top-menu" class=""><a href="/community-list">Colecciones</a></li>
+        		  
+           
+		   
+
+		   	
+		   
+		    <li id="cris-top-menu" class="pull-left   "><a href="/indexcris.jsp">Investigación (CRIS)</a></li>
+		   
+		   <li id="cris-top-menu" class="pull-left   "><a href="/static/about.jsp">Acerca de </a></li>
+		   
+		   
+		   <li class="dropdown hidden-md hidden-lg">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Explorar por <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+           
+           
+           
+           <li class=""><a href="/cris/explore/publications">Publicaciones</a></li>
+           
+		   
+		   
+           </ul>
+           </li>
+ 
+
+		
+		<li id="cris-top-menu" class="pull-left   ">
+				   <a href="/cris/stats/site.html?handle=123456789/0">
+				   Estadísticas
+		           </a></li>
+				   
+				   
+				
+
+          
+       </ul>
+
+ 
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+                    <li id="search-top-menu" class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-search"></span><b class="caret"></b></a>
+          <div class="dropdown-menu">
+          
+	
+	<form id="formsearch-top-menu" method="get" action="/global-search" class="navbar-form navbar-right" scope="search">		
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Buscar en&nbsp;DSpace " name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form>
+	
+          </div>
+          </li>
+         
+			<li id="user-top-menu" class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Entrar / Registrarse <b class="caret"></b></a>
+	             
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Mi DSpace </a></li>
+               <li><a href="/subscribe">Alertas </a></li>
+               <li><a href="/profile">Editar perfil </a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+	</div>
+    </nav>
+
+            </div>
+
+
+
+<link rel="stylesheet" type="text/css" href="/static/css/cookieconsent/cookieconsent.min.css" />
+<script src="/static/js/cookieconsent/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#edeff5",
+      "text": "#838391"
+    },
+    "button": {
+      "background": "#4b81e8"
+    }
+  },
+  "position": "bottom-right",
+  "theme": "classic",
+  "content": {
+    "message": "<h1>Cookies</h1> Este sitio web utiliza cookies",
+    "dismiss": "OK!",
+    "link": "Averigüe más",
+    "href": "cookiespolicy.jsp"
+  }
+})});
+</script>
+
+</div>
+
+<main id="content" role="main">
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+
+
+<!-- El container-fluid viene del header-home -->
+
+<div class="container-fluid banner-home">
+
+	<div class="container transp">
+	<div class="row">
+		<div class="col-md-12 sm-12 pull-left">
+	
+		<h2 class="main-legend-home">Repositorio Institucional UCA</h2>
+		
+		</div>
+		
+		
+		<!-- <div class="col-sm-8 brand pull-left">
+		<h1>DSpace <small>CRIS</small></h1>
+        <h4>DSpace almacena y facilita el acceso abierto a todo tipo de contenido digital incluyendo texto, imágenes, vídeos y colecciones de datos.</h4> <a href="http://www.dspace.org" class="btn btn-primary">Leer más</a> 
+        </div>
+        <div class="col-sm-4 hidden-xs pull-right">
+		<img class="img-responsive" src="/image/logo.gif" alt="DSpace logo" />
+        </div> -->
+		
+		
+	</div>
+	</div>
+
+	
+
+	<div class="row">
+	<div class="col-md-12 sm-12 pull-left">
+        <!--  -->
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+<!--
+	jQuery(document).ready(function(){
+		
+			jQuery("#searchglobalprocessor .search-panel .dropdown-menu li a").click(function(){
+				  jQuery('#search_param').val('');  
+				  jQuery('#search_param').val(jQuery(this).attr('title'));
+				  return jQuery('#searchglobalprocessor').submit();
+			});
+		
+			jQuery("#group-left-info").popover({
+			   	trigger: 'click',
+			   	html: true,
+				title: function(){
+					return jQuery('#group-left-info-popover-head').html();
+				},
+				content: function(){
+					return jQuery('#group-left-info-popover-content').html();
+				}
+			});
+			
+			jQuery('#group-left-info').on('click',function(){
+				jQuery('#group-center-info').popover('hide');
+				jQuery('#group-right-info').popover('hide');
+			});
+			
+			jQuery('#group-center-info').popover({
+			   	trigger: 'click',
+			   	html: true,
+				title: function(){
+					return jQuery('#group-center-info-popover-head').html();
+				},
+				content: function(){
+					return jQuery('#group-center-info-popover-content').html();
+				}
+			});
+			jQuery('#group-center-info').on('click',function(){
+				jQuery('#group-left-info').popover('hide');
+				jQuery('#group-right-info').popover('hide');
+			});
+			
+			jQuery('#group-right-info').popover({
+			   	trigger: 'click',
+			   	html: true,
+				title: function(){
+					return jQuery('#group-right-info-popover-head').html();
+				},
+				content: function(){
+					return jQuery('#group-right-info-popover-content').html();
+				}
+			});
+			jQuery('#group-right-info').on('click',function(){
+				jQuery('#group-left-info').popover('hide');
+				jQuery('#group-center-info').popover('hide');
+			});
+			
+
+			
+	});	
+-->
+</script>
+
+		
+		
+
+<div class="row">
+<form id="searchglobalprocessor" name="searchglobalprocessor" class="col-md-10 col-md-offset-1" action="/simple-search" method="get">
+<div class="input-group">
+    <input type="text" class="form-control" name="query" placeholder="T&eacute;rmino de b&uacute;squeda / Search term...">
+    <span class="input-group-btn">
+        <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
+		<button class="btn btn-info" type="button" onclick="javascript: window.location.href='cris/explore/publications'">B&uacute;squeda avanzada</button>
+		
+    </span> 
+
+
+	<input type="hidden" name="location" value="publications" id="search_param">         
+</div>
+</form>
+</div>
+
+
+
+<div class="row">
+	<div class="col-md-10 col-md-offset-1">
+		<p class="sublegend">Buscar en las 19846 publicaciones disponibles</p> 
+	</div>
+
+	<!-- 
+	 <a href="#group-left-info-popover-content"><div class="col-md-4 text-center">
+		<h4 class="text-white">Personas</h4>
+		<p><span class="fa fa-users fa-5x text-white" id="group-left-info" data-placement="right"></span> 
+		<span class="badge">19846</span></p>
+		<small class="label label-success">Explorar la comunidad</small>
+	</div></a>
+	
+	<a href="#group-center-info-popover-content"><div class="col-md-4 text-center">
+		<h4 class="text-white">Áreas y proyectos</h4>
+		<p><span class="fa fa-cogs fa-5x text-white" id="group-center-info"  data-placement="bottom"></span> 
+		<span class="badge">0</span></p>
+		<small class="label label-success">Explorar áreas y proyectos</small>
+	</div></a>
+	
+	<a href="#group-right-info-popover-content"><div class="col-md-4 text-center">
+		<h4 class="text-white">Publicaciones, <small>libros, artículos...</small></h4>
+		<p><span class="fa fa-file-text-o fa-5x text-white" id="group-right-info"  data-placement="left"></span> 
+		<span class="badge">0</span></p>
+		<small class="label label-success">Proyectos de Investigación</small>
+	</div></a>
+	-->
+	
+</div>
+
+
+
+	
+	<!-- 
+	 <a href="#group-left-info-popover-content"><div class="col-md-4 text-center">
+		<h4 class="text-white">Personas</h4>
+		<p><span class="fa fa-users fa-5x text-white" id="group-left-info" data-placement="right"></span> 
+		<span class="badge">19846</span></p>
+		<small class="label label-success">Explorar la comunidad</small>
+	</div></a>
+	
+	<a href="#group-center-info-popover-content"><div class="col-md-4 text-center">
+		<h4 class="text-white">Áreas y proyectos</h4>
+		<p><span class="fa fa-cogs fa-5x text-white" id="group-center-info"  data-placement="bottom"></span> 
+		<span class="badge">0</span></p>
+		<small class="label label-success">Explorar áreas y proyectos</small>
+	</div></a>
+	
+	<a href="#group-right-info-popover-content"><div class="col-md-4 text-center">
+		<h4 class="text-white">Publicaciones, <small>libros, artículos...</small></h4>
+		<p><span class="fa fa-file-text-o fa-5x text-white" id="group-right-info"  data-placement="left"></span> 
+		<span class="badge">0</span></p>
+		<small class="label label-success">Proyectos de Investigación</small>
+	</div></a>
+	-->
+	
+</div>
+
+
+
+
+
+<div id="group-left-info-popover-head" class="hide">
+	Equipos de Investigación
+</div>
+<div id="group-center-info-popover-head" class="hide">
+	Otra información
+</div>
+<div id="group-right-info-popover-head" class="hide">
+	Publicaciones info
+</div>
+
+<div id="group-left-info-popover-content" class="hide">
+	<ul class="list-group">
+        
+		
+		</ul>
+</div>		
+
+<div id="group-center-info-popover-content" class="hide">
+	<ul class="list-group">
+        
+		
+		</ul>
+</div>		
+
+<div id="group-right-info-popover-content" class="hide">
+	<ul class="list-group">
+        
+				
+		</ul>
+</div>		
+    
+	  
+    
+
+	        
+	
+	
+    
+    
+    
+	</div>
+	</div>
+
+	
+	
+	</div>
+	
+
+<!-- AQUÍ SE MUESTRA LA INFO DEL REPOSITORIO Y LO QUE HABÍA ANTES
+ <div class="container spacefromtop">
+	<div class="row">
+	
+		<!-- <div class="col-md-6 destacados-nobold">
+		 
+			<h2>Presentación</h2>
+			<p class="text-justify">El Repositorio Institucional UCA alberga la producción intelectual de la Universidad.<br/>Son sus principales objetivos:</p>
+			<ul class="listapres">
+				<li>Apoyar la filosofía de acceso abierto a la literatura científica, irrestricto y sin barreras económicas, legales o técnicas.</li>
+				<li>Acrecentar la visibilidad e impacto de la institución y de sus investigadores.</li>
+			</ul>	
+ 
+		    <p>Consulte <a href="static/policies.jsp">Aquí</a> las Políticas del Repositorio</p>
+			
+		</div>
+		
+		<div class="col-md-6">
+			<h2>Colecciones destacadas</h2>
+			<div class="row">
+			<div class="col-md-6">
+				<a href="handle/123456789/720" class="nodeco">
+				<div class="panel panel-default sinborderhome">
+                <div class="panel-body">
+                    <img src="image/osda.png" class="img-responsive center-block" />
+                </div>
+				<div class="panel-footer text-center destacados">Observatorio de la Deuda Social Argentina</div>
+				</div>
+				</a>
+                
+				
+			</div>
+			<div class="col-md-6">
+				<a href="handle/123456789/719" class="nodeco">
+				<div class="panel panel-default sinborderhome">
+                <div class="panel-body">
+                    <img src="image/revistas.jpg" class="img-responsive center-block home-round" />
+                </div>
+				<div class="panel-footer text-center destacados">Revistas de la UCA</div>
+                
+				</div>
+				</a>
+			</div>
+			
+			</div>
+			
+		</div>
+	
+	
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h3>Cómo está compuesto el Repositorio UCA?</h3>
+			<div class="row">
+			<div class="col-md-12 table-responsive">
+				<table class="table columns">
+					  <tr>
+						<td><div id="div_subject"></div></td>
+						<td><div id="div_type"></div></td>
+					  </tr>
+				</table>
+				   
+			</div>
+			
+			</div>
+			
+			
+		</div>
+		
+		
+	</div>
+  </div>	-->
+
+	<script>
+	
+  	  google.charts.load('current', {'packages':['corechart']});
+
+      // Draw the pie chart for Sarah's pizza when Charts is loaded.
+      google.charts.setOnLoadCallback(drawSubjects);
+
+      // Draw the pie chart for the Anthony's pizza when Charts is loaded.
+      google.charts.setOnLoadCallback(drawTypes);
+	  var charts;
+	  var chartt;
+	  var datas;
+	  var datat;
+
+	
+
+
+
+
+// Callback that draws the pie chart for Sarah's pizza.
+      function drawSubjects() {
+
+        // Create the data table for Sarah's pizza.
+        datas = new google.visualization.DataTable();
+        datas.addColumn('string', 'Materias');
+        datas.addColumn('number', 'Items');
+        datas.addRows([['FILOSOFIA',2801],['DERECHO',2185],['HISTORIA',1687],['LITERATURA',1680],['TEOLOGIA',1440],['PSICOLOGIA',1112],['ECONOMIA',1056],['CIENCIA POLITICA',675],['MUSICA',670],['SOCIOLOGIA',550],['MEDICINA',546],['BIOETICA',353],['CIENCIAS SOCIALES',311],['INGENIERIA',251],['PSICOPEDAGOGIA',240],['DERECHO CANONICO',239],['CIENCIAS AGRARIAS',238],['EDUCACION',168],['ADMINISTRACION DE EMPRESAS',137],['LENGUA',115],['INGENIERIA AMBIENTAL',107],['COMUNICACION',102],['ARQUEOLOGIA',84],['PRODUCCION AGROPECUARIA',78],['INGENIERIA EN ALIMENTOS',77],['INGENIERIA INDUSTRIAL',59],['QUIMICA',37],['INFORMATICA',28],['ARTE',20],['PERIODISMO',20],['BIBLIOTECOLOGIA',17],['BIOQUIMICA',1],['CIENCIAS MEDICAS',1],['CIENCIAS POLITICAS',1],['DERECHO PENAL',1],['LETRAS',1],['PSICOLOGÍA',1],]);
+
+        // Set options for Sarah's pie chart.
+        var options = {title:'Distribución por disciplina',
+					   is3D: true,	
+                       width:500,
+                       height:300};
+
+        // Instantiate and draw the chart for Sarah's pizza.
+        charts = new google.visualization.PieChart(document.getElementById('div_subject'));
+		google.visualization.events.addListener(charts, 'select', selectHandlerSubject); 
+        charts.draw(datas, options);
+      }
+
+      // Callback that draws the pie chart for Anthony's pizza.
+      function drawTypes() {
+
+        // Create the data table for Anthony's pizza.
+        datat = new google.visualization.DataTable();
+        datat.addColumn('string', 'Tipo de material');
+        datat.addColumn('number', 'Items');
+        datat.addRows([['Artículo',11543],['Documento de conferencia',1974],['Reseña libro',1441],['Revista (Número completo)',1063],['Parte de libro',1038],['Tesis de grado',598],['Trabajo final de grado',589],['Documento de trabajo',559],['Libro',351],['Tesis doctoral',243],]);
+
+        // Set options for Anthony's pie chart.
+        var options = {title:'Distribución por tipo de Item',
+					   is3D: true,	
+                       width:600,
+                       height:300};
+
+        // Instantiate and draw the chart for Anthony's pizza.
+        chartt = new google.visualization.PieChart(document.getElementById('div_type'));
+		google.visualization.events.addListener(chartt, 'select', selectHandlerType); 
+        chartt.draw(datat, options);
+      }
+
+	  
+	  
+	  function selectHandlerSubject() 
+      {
+		var selectedItem = charts.getSelection()[0];
+
+		if (selectedItem) 
+		{
+			var subject = datas.getValue(selectedItem.row, 0);
+			window.location.href = "simple-search?filterquery="+subject+"&filtername=publicationdisciplina&filtertype=equals&location=publications#";
+			//alert('The user selected ' + topping);
+		}
+      } 
+	  
+	  function selectHandlerType() 
+      {
+		var selectedItem = chartt.getSelection()[0];
+
+		if (selectedItem) 
+		{
+			var type = datat.getValue(selectedItem.row, 0);
+			window.location.href = "simple-search?filterquery="+type+"&filtername=itemtype&filtertype=authority&location=publications";
+			
+		}
+      } 
+
+
+
+    
+	</script>
+
+
+<div class="container fullheight spacefromtop">
+
+
+	
+
+<div class="row">
+	<div class="col-md-4 ">
+		
+
+        <div class="panel panel-primary vertical-carousel" data-itemstoshow="3">        
+        <div class="panel-heading">
+          <h3 class="panel-title">
+          		Más Vistos
+          </h3>
+       </div>   
+	   <div class="panel-body">
+	   		<div class="list-groups">
+
+		<div class="list-group-item">
+
+		<span class="badge" data-toggle="tooltip" data-placement="right" title="Cantidad de visualizaciones">64.752</span> <div class="list-group-item-heading">
+<b><a href="/handle/123456789/2871">Fin&#x20;de&#x20;la&#x20;existencia&#x20;de&#x20;las&#x20;personas</a></b>
+<span class='text-muted'><em>Muñiz,&#x20;Carlos&nbsp;<a href="/cris/rp/rp01831" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2012</small/>
+<span class="label label-default">Tipo</span> 
+<small>Parte de libro</small>
+</div>
+<div class="list-group-item-description">
+</div>
+
+		</div>
+
+
+		<div class="list-group-item">
+
+		<span class="badge" data-toggle="tooltip" data-placement="right" title="Cantidad de visualizaciones">52.545</span> <div class="list-group-item-heading">
+<b><a href="/handle/123456789/7818">No&#x20;he&#x20;venido&#x20;a&#x20;traer&#x20;la&#x20;paz&#x20;sino&#x20;la&#x20;espada&#x20;:&#x20;la&#x20;verdad&#x20;entera</a></b>
+<span class='text-muted'><em>Fernández,&#x20;Víctor&#x20;Manuel&nbsp;<a href="/cris/rp/rp01030" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2004</small/>
+<span class="label label-default">Tipo</span> 
+<small>Artículo</small>
+</div>
+<div class="list-group-item-description">
+</div>
+
+		</div>
+
+
+		<div class="list-group-item">
+
+		<span class="badge" data-toggle="tooltip" data-placement="right" title="Cantidad de visualizaciones">39.992</span> <div class="list-group-item-heading">
+<b><a href="/handle/123456789/7831">Hacer&#x20;“Obras&#x20;mayores”&#x20;que&#x20;las&#x20;de&#x20;Cristo&#x20;(Juan&#x20;14,12-14)</a></b>
+<span class='text-muted'><em>Fernández,&#x20;Víctor&#x20;Manuel&nbsp;<a href="/cris/rp/rp01030" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>1995</small/>
+<span class="label label-default">Tipo</span> 
+<small>Artículo</small>
+</div>
+<div class="list-group-item-description">
+</div>
+
+		</div>
+
+
+		<div class="list-group-item">
+
+		<span class="badge" data-toggle="tooltip" data-placement="right" title="Cantidad de visualizaciones">38.127</span> <div class="list-group-item-heading">
+<b><a href="/handle/123456789/4690">Cómo&#x20;hacer&#x20;conjuros&#x20;con&#x20;palabras&#x20;:&#x20;lineamientos&#x20;para&#x20;un&#x20;análisis&#x20;performativo&#x20;del&#x20;discurso&#x20;mágico-ritual&#x20;en&#x20;Séneca,&#x20;Medea,&#x20;1-55</a></b>
+<span class='text-muted'><em>Seijas,&#x20;Lara&nbsp;<a href="/cris/rp/rp02981" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2016</small/>
+<span class="label label-default">Tipo</span> 
+<small>Artículo</small>
+</div>
+<div class="list-group-item-description">
+</div>
+
+		</div>
+
+
+		<div class="list-group-item">
+
+		<span class="badge" data-toggle="tooltip" data-placement="right" title="Cantidad de visualizaciones">33.398</span> <div class="list-group-item-heading">
+<b><a href="/handle/123456789/6131">Los&#x20;sesgos&#x20;cognitivos&#x20;en&#x20;la&#x20;toma&#x20;de&#x20;decisiones</a></b>
+<span class='text-muted'><em>Cortada&#x20;de&#x20;Kohan,&#x20;Nuria&nbsp;<a href="/cris/rp/rp03784" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a>; Macbeth,&#x20;Guillermo&nbsp;<a href="/cris/rp/rp03783" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2006</small/>
+<span class="label label-default">Tipo</span> 
+<small>Artículo</small>
+</div>
+<div class="list-group-item-description">
+</div>
+
+		</div>
+
+
+			</div>
+		  </div>
+     </div>
+	
+	</div>
+	<div class="col-md-4 ">
+		
+
+        <div class="panel panel-primary vertical-carousel" data-itemstoshow="3">        
+        <div class="panel-heading">
+          <h3 class="panel-title">
+          		Más Descargados
+          </h3>
+       </div>   
+	   <div class="panel-body">
+	   		<div class="list-groups">
+
+		<div class="list-group-item">
+
+		<span class="badge" data-toggle="tooltip" data-placement="right" title="Número de descargas">510.656</span> <div class="list-group-item-heading">
+<b><a href="/handle/123456789/522">Metodologías&#x20;de&#x20;desarrollo&#x20;de&#x20;software</a></b>
+<span class='text-muted'><em>Maida,&#x20;Esteban&#x20;Gabriel&nbsp;<a href="/cris/rp/rp00405" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a>; Pacienzia,&#x20;Julián&nbsp;<a href="/cris/rp/rp00406" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2015</small/>
+<span class="label label-default">Tipo</span> 
+<small>Tesis de grado</small>
+</div>
+<div class="list-group-item-description">
+</div>
+
+		</div>
+
+
+		<div class="list-group-item">
+
+		<span class="badge" data-toggle="tooltip" data-placement="right" title="Número de descargas">293.667</span> <div class="list-group-item-heading">
+<b><a href="/handle/123456789/5345">Clasificación&#x20;de&#x20;categorías&#x20;gramaticales&#x20;en&#x20;la&#x20;lengua&#x20;materna&#x20;español</a></b>
+<span class='text-muted'><em>Beltramino,&#x20;Florencia&nbsp;<a href="/cris/rp/rp03194" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2013</small/>
+<span class="label label-default">Tipo</span> 
+<small>Documento de trabajo</small>
+</div>
+<div class="list-group-item-description">
+</div>
+
+		</div>
+
+
+		<div class="list-group-item">
+
+		<span class="badge" data-toggle="tooltip" data-placement="right" title="Número de descargas">263.946</span> <div class="list-group-item-heading">
+<b><a href="/handle/123456789/9774">Estrés&#x20;académico&#x20;en&#x20;estudiantes&#x20;universitarios&#x20;de&#x20;la&#x20;ciudad&#x20;de&#x20;Paraná</a></b>
+<span class='text-muted'><em>Kloster&#x20;Kantlen,&#x20;Gretel&#x20;Eugenia&nbsp;<a href="/cris/rp/rp06611" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a>; Perrotta,&#x20;Fátima&#x20;Daniela&nbsp;<a href="/cris/rp/rp06610" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2019</small/>
+<span class="label label-default">Tipo</span> 
+<small>Tesis de grado</small>
+</div>
+<div class="list-group-item-description">
+</div>
+
+		</div>
+
+
+		<div class="list-group-item">
+
+		<span class="badge" data-toggle="tooltip" data-placement="right" title="Número de descargas">179.808</span> <div class="list-group-item-heading">
+<b><a href="/handle/123456789/5346">Introducción&#x20;a&#x20;la&#x20;Filosofía&#x20;y&#x20;Antropología&#x20;Filosófica</a></b>
+<span class='text-muted'><em>Quijano&#x20;Guesalaga,&#x20;Hernán&nbsp;<a href="/cris/rp/rp03196" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a>; Asselborn,&#x20;Elida&nbsp;<a href="/cris/rp/rp03195" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2012</small/>
+<span class="label label-default">Tipo</span> 
+<small>Documento de trabajo</small>
+</div>
+<div class="list-group-item-description">
+</div>
+
+		</div>
+
+
+		<div class="list-group-item">
+
+		<span class="badge" data-toggle="tooltip" data-placement="right" title="Número de descargas">151.098</span> <div class="list-group-item-heading">
+<b><a href="/handle/123456789/1218">Los&#x20;instrumentos&#x20;musicales&#x20;aborígenes&#x20;y&#x20;criollos&#x20;de&#x20;la&#x20;Argentina</a></b>
+<span class='text-muted'><em>Vega,&#x20;Carlos&nbsp;<a href="/cris/rp/rp00533" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2016</small/>
+<span class="label label-default">Tipo</span> 
+<small>Libro</small>
+</div>
+<div class="list-group-item-description">
+</div>
+
+		</div>
+
+
+			</div>
+		  </div>
+     </div>
+
+	</div>
+	<div class="col-md-4 ">
+	<!--  -->
+		
+
+        <div class="panel panel-info vertical-carousel" data-itemstoshow="3">        
+        <div class="panel-heading">
+          <h3 class="panel-title">
+          		Envíos recientes 
+          </h3>
+       </div>   
+	   <div class="panel-body">
+	
+    	<div class="row">
+	   	<div class="col-md-12">
+	   	<div class="pull-right small">
+    	
+    	
+		
+	    <a href="/feed/rss_1.0/site"><i alt="RSS Feeds" class="fa fa-rss"></i> 
+	    <sup class="small">1.0</sup></a>
+	
+		
+	    <a href="/feed/rss_2.0/site"><i alt="RSS Feeds" class="fa fa-rss"></i> 
+	    <sup class="small">2.0</sup></a>
+	
+		
+	    <a href="/feed/atom_1.0/site"><i alt="RSS Feeds" class="fa fa-rss"></i> 
+	    <sup class="small">atom</sup></a>
+	
+	</div>
+	   	</div>
+	   </div>
+	
+	<div class="list-groups">
+	
+		
+				<div class="list-group-item">
+<div class="list-group-item-heading">
+<b><a href="/handle/123456789/22451">Germinación&#x20;de&#x20;semillas&#x20;de&#x20;festuca&#x20;alta&#x20;de&#x20;diferentes&#x20;cultivares&#x20;con&#x20;y&#x20;sin&#x20;endófito&#x20;no&#x20;tóxico&#x20;(AR854)&#x20;bajo&#x20;estrés&#x20;salino</a></b>
+<span class='text-muted'><em>Petigrosso&#x20;LR&nbsp;<a href="/cris/rp/rp12918" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a>; Morad&#x20;J&nbsp;<a href="/cris/rp/rp14070" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a>; Defferrari&#x20;A&nbsp;<a href="/cris/rp/rp14068" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a>; Echeverría&#x20;MM&nbsp;<a href="/cris/rp/rp08714" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a>; Crovo&#x20;V&nbsp;<a href="/cris/rp/rp14069" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a>; Miri&#x20;S&nbsp;<a href="/cris/rp/rp12920" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a>; Gundel&#x20;P&nbsp;<a href="/cris/rp/rp12919" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2026</small/>
+<span class="label label-default">Tipo</span> 
+<small>Artículo</small>
+</div>
+<div class="list-group-item-description">
+</div>
+</div>
+
+		
+		
+		
+				<div class="list-group-item">
+<div class="list-group-item-heading">
+<b><a href="/handle/123456789/22450">Evaluación&#x20;de&#x20;la&#x20;formación&#x20;bioética&#x20;de&#x20;la&#x20;escuela&#x20;de&#x20;medicina&#x20;de&#x20;la&#x20;UCA.&#x20;Análisis&#x20;de&#x20;las&#x20;10&#x20;primeras&#x20;cohortes&#x20;de&#x20;egresados</a></b>
+<span class='text-muted'><em>Revello,&#x20;Rubén&#x20;Oscar&nbsp;<a href="/cris/rp/rp13283" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2026</small/>
+<span class="label label-default">Tipo</span> 
+<small>Tesis doctoral</small>
+</div>
+<div class="list-group-item-description">
+</div>
+</div>
+
+		
+		
+		
+				<div class="list-group-item">
+<div class="list-group-item-heading">
+<b><a href="/handle/123456789/22449">Introducción</a></b>
+<span class='text-muted'><em>Liberti,&#x20;Luis&#x20;O.&nbsp;<a href="/cris/rp/rp12870" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a>; Tavelli,&#x20;Federico&nbsp;<a href="/cris/rp/rp04324" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2026</small/>
+<span class="label label-default">Tipo</span> 
+<small>Parte de libro</small>
+</div>
+<div class="list-group-item-description">
+</div>
+</div>
+
+		
+		
+		
+				<div class="list-group-item">
+<div class="list-group-item-heading">
+<b><a href="/handle/123456789/22448">Formación&#x20;en&#x20;Ética&#x20;y&#x20;Deontología&#x20;profesional&#x20;en&#x20;psicopedagogía:&#x20;experiencias&#x20;y&#x20;participación&#x20;estudiantil&#x20;ante&#x20;dilemas&#x20;actuales</a></b>
+<span class='text-muted'><em>Hernández-Silvera,&#x20;Dides-Iliana&nbsp;<a href="/cris/rp/rp00389" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2026</small/>
+<span class="label label-default">Tipo</span> 
+<small>Artículo</small>
+</div>
+<div class="list-group-item-description">
+</div>
+</div>
+
+		
+		
+		
+				<div class="list-group-item">
+<div class="list-group-item-heading">
+<b><a href="/handle/123456789/22447">Exploración&#x20;de&#x20;discriminación&#x20;percibida&#x20;y&#x20;afrontamiento&#x20;en&#x20;adultos&#x20;mayores&#x20;argentinos</a></b>
+<span class='text-muted'><em>Hernández-Silvera,&#x20;Dides&#x20;Iliana&nbsp;<a href="/cris/rp/rp00389" class="authority"><span data-toggle="tooltip" data-placement="top" title="Perfil" class="fa fa-user undefinedstaff"></span></a></em></span><br/>
+<small>2026</small/>
+<span class="label label-default">Tipo</span> 
+<small>Artículo</small>
+</div>
+<div class="list-group-item-description">
+</div>
+</div>
+
+		
+		
+		</div>
+		  </div>
+     </div>
+
+	
+	
+	
+	
+	</div>
+</div>
+	
+</div>
+<div class="row">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+<br/>
+</main>
+            
+            <footer class="navbar navbar-inverse navbar-footer navbar-bottom navbar-square"> 
+             
+			
+			
+			 <div class="footer_container" id="footer"><span><div class="logoContainer"> 
+
+
+			<title>footer</title>
+			<style type="text/css">
+				.foot{text-decoration: none; color: white}
+			    .foot:hover{color: #27ae60}
+						
+				/*boton pa subir*/
+				#boton-arriba {
+				  display: none;
+				  position: fixed;
+				  bottom: 140px;
+				  right: 30px;
+				  z-index: 99;
+				  font-size: 18px;
+				  border: none;
+				  outline: none;
+				  background-color: #1e3e6f;
+				  color: white;
+				  cursor: pointer;
+				  padding: 15px;
+				  border-radius: 4px;
+				  -webkit-box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.4);
+					 box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.4);
+				}
+
+				#boton-arriba:hover {
+				  background-color: #27AE60;
+				}
+				
+				@media (max-width: 768px) {
+					#matriz {text-align: center;}
+				}
+				
+					
+				</style>
+						<meta charset="utf-8">
+
+						
+						<button onclick="topFunction()" 
+						id="boton-arriba" title="Go to top" 
+						style="display: none;">Subir</button>
+
+						
+						
+						<div class="container-fluid">
+						
+						
+						
+						<!--<div style="width: 100%; background-color: #1e3e6f; box-sizing: border-box; font-size: 12px" class="row" id="matriz">-->
+								
+<div style="width: 100%; background-color: #1e3e6f; box-sizing: border-box; font-size: 12px; display: flex; justify-content: center; align-items: center; padding: 20px;" id="matriz">
+    <div style="margin-right: 20px;">
+        <img src="/image/isologoucablanco.png" style="height: 90px; width: 90px; border-radius: 50%;">
+    </div>
+    <div>
+        <img src="/image/sibuca20blanco.png" style="height: 80px;">
+    </div>
+
+</div>
+         <div style="width: 100%; display: flex; justify-content: center; align-items: center;" id="matriz">Pontificia Universidad Católica Argentina</div>
+    </div>
+                        
+                        <!-- <ul class="col-md-1"></ul>
+							
+								<ul style="color: #fff; font-family: roboto; line-height: 1.6; list-style: none; white-space: nowrap;" class="col-md-3">
+								<img src="/image/isologoucablanco.png" style="height: 90x; width: 90px;  border-radius: 50%">
+									
+								</ul>
+								
+								<ul style="color: #fff; font-family: roboto; line-height: 1.6; list-style: none;" class="col-md-2">
+                                <img src="/image/sibuca20blanco.png" style="height: 80px;">
+									
+								</ul>
+                        
+                       			<ul style="color: #fff; font-family: roboto; line-height: 1.6; list-style: none; white-space: nowrap;" class="col-md-4">
+                        	
+                        
+                        		</ul>-->
+								
+								
+
+
+						<!--</div>-->
+						
+					</div>	
+						
+
+
+			
+		
+	    </footer>
+		
+		
+		<script>
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 240 || document.documentElement.scrollTop > 690) {
+					document.getElementById("boton-arriba").style.display = "block";
+				} else {
+					document.getElementById("boton-arriba").style.display = "none";
+				}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+			</script>
+		
+    </body>
+</html>
+
+
+

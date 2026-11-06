@@ -1,0 +1,89 @@
+{
+ "pedido": "20261029T164359880-00446",
+ "url": "https://repositorio.inie.ucr.ac.cr/server/api/core/bitstreams/925e76de-6162-464f-9801-6966f53daddc/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:57:18 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.58 (Ubuntu)"
+  ],
+  [
+   "vary",
+   "Origin,Access-Control-Request-Method,Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "es"
+  ],
+  [
+   "last-modified",
+   "Thu, 16 Feb 2017 17:29:54 GMT"
+  ],
+  [
+   "etag",
+   "\"3b4cef2c3ec1d4daee591bcdb22e2d1b\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:57:18 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline;filename=\"06.03.06 2292pdf.pdf\""
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/799330"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "1; mode=block"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

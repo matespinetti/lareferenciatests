@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T164359880-00005",
+ "url": "https://repositorio.uchile.cl",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:44:05 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "content-type",
+   "text/html;charset=utf-8"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "x-cocoon-version",
+   "2.2.0"
+  ],
+  [
+   "x-frame-options",
+   "sameorigin"
+  ],
+  [
+   "keep-alive",
+   "timeout=1, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

@@ -1,0 +1,37 @@
+{
+ "pedido": "20261029T164359880-00231",
+ "url": "http://repositorio.filo.uba.ar/handle/filodigital/2977",
+ "codigo": 301,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:50:16 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "location",
+   "https://repositorio.filo.uba.ar/handle/filodigital/2977"
+  ],
+  [
+   "content-length",
+   "352"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/html; charset=iso-8859-1"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

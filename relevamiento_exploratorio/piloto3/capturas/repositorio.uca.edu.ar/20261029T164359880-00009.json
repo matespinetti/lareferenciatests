@@ -1,0 +1,37 @@
+{
+ "pedido": "20261029T164359880-00009",
+ "url": "https://repositorio.uca.edu.ar/oai/request?verb=ListMetadataFormats",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.18.0"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:46:36 GMT"
+  ],
+  [
+   "content-type",
+   "application/xml;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "server-timing",
+   "dtTrId;desc=\"6f7327682a19dfe853580c98e31fb5dc\", dtSInfo;desc=\"0\""
+  ],
+  [
+   "server-timing",
+   "dtRpid;desc=\"1460131617\""
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

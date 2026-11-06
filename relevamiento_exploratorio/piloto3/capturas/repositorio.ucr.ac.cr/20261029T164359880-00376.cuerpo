@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:54:40Z</responseDate><request verb="GetRecord" identifier="oai:kerwa.ucr.ac.cr:10669/105088" metadataPrefix="ore">https://repositorio.ucr.ac.cr/server/oai/request</request><GetRecord><record><header><identifier>oai:kerwa.ucr.ac.cr:10669/105088</identifier><datestamp>2026-09-08T09:00:14Z</datestamp><setSpec>com_10669_1420</setSpec><setSpec>com_10669_1419</setSpec><setSpec>col_10669_15782</setSpec></header><metadata><atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+   <atom:id>https://hdl.handle.net/10669/105088/ore.xml</atom:id>
+   <atom:link rel="alternate" href="https://hdl.handle.net/10669/105088" />
+   <atom:link rel="http://www.openarchives.org/ore/terms/describes" href="https://hdl.handle.net/10669/105088/ore.xml" />
+   <atom:link rel="self" type="application/atom+xml" href="https://hdl.handle.net/10669/105088/ore.xml#atom" />
+   <atom:published />
+   <atom:updated>2026-09-07T16:58:51Z</atom:updated>
+   <atom:source>
+      <atom:generator>Kérwá - Repositorio Universidad de Costa Rica</atom:generator>
+   </atom:source>
+   <atom:title>Optimizing raw material purchases and allocating sales in the juice and concentrate extraction agribusiness: The case of a small size company in Costa Rica</atom:title>
+   <atom:category scheme="http://www.openarchives.org/ore/terms/" term="http://www.openarchives.org/ore/terms/Aggregation" label="Aggregation" />
+   <atom:category scheme="http://www.openarchives.org/ore/atom/modified" term="2026-09-07T16:58:51Z" />
+   <atom:category scheme="http://www.dspace.org/objectModel/" term="DSpaceItem" label="DSpace Item" />
+   <atom:link rel="http://www.openarchives.org/ore/terms/aggregates" href="https://kerwa.ucr.ac.cr/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/download" title="C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf" type="application/pdf" length="380794" />
+   <oreatom:triples>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://hdl.handle.net/10669/105088/ore.xml#atom">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceItem" />
+         <dcterms:modified>2026-09-07T16:58:51Z</dcterms:modified>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://kerwa.ucr.ac.cr/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+         <dcterms:description>ORIGINAL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://kerwa.ucr.ac.cr/bitstreams/e3592934-d399-46c7-b13f-e0ea6ef8ed6f/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+         <dcterms:description>LICENSE</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://kerwa.ucr.ac.cr/bitstreams/64c37bf7-526b-42c8-8197-3ddc23a3bd73/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+         <dcterms:description>TEXT</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://kerwa.ucr.ac.cr/bitstreams/2e8612b8-1cae-46e3-81db-8fd8f75275e5/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+         <dcterms:description>THUMBNAIL</dcterms:description>
+      </rdf:Description>
+   </oreatom:triples>
+</atom:entry>
+</metadata></record></GetRecord></OAI-PMH>

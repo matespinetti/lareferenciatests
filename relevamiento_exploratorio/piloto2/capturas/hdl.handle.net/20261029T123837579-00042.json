@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T123837579-00042",
+ "url": "http://hdl.handle.net/11086/27024",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:39:48 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "location",
+   "https://rdu.unc.edu.ar/handle/11086/27024"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 12:41:27 GMT"
+  ],
+  [
+   "nel",
+   "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+  ],
+  [
+   "report-to",
+   "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YpWoigWca7cnYMgaCdQV7Ew4JiXr5BDwS9G8enLIBZRL56M0scfIZ2jli0w3TfFaE%2BahfCXzxvqfSxSg2sFPNpIMX9ytc8Ohlj1qjDX3p0MJLkcEyorZuIyrxbL%2Bk78KCw%3D%3D\"}]}"
+  ],
+  [
+   "cf-cache-status",
+   "DYNAMIC"
+  ],
+  [
+   "server",
+   "cloudflare"
+  ],
+  [
+   "cf-ray",
+   "a5223ebaae051873-EZE"
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

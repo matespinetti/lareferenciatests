@@ -1,0 +1,45 @@
+{
+ "pedido": "20261029T164359880-00478",
+ "url": "https://journal.isi.ac.id/index.php/ars/article/view/2760",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:59:16 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.39 (Ubuntu) OpenSSL/1.1.1b"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "content-length",
+   "5849"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

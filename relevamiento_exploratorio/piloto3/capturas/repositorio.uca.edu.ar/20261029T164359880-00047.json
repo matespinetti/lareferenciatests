@@ -1,0 +1,69 @@
+{
+ "pedido": "20261029T164359880-00047",
+ "url": "https://repositorio.uca.edu.ar/handle/123456789/515",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.18.0"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:47:49 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "last-modified",
+   "Wed, 14 Oct 2026 13:23:16 GMT"
+  ],
+  [
+   "link",
+   "https://repositorio.uca.edu.ar/bitstream/123456789/515/1/doc.pdf; rel=\"item\"; type=\"application/pdf\""
+  ],
+  [
+   "link",
+   "http://orcid.org/0000-0003-2545-8483; rel=\"author\""
+  ],
+  [
+   "content-language",
+   "es"
+  ],
+  [
+   "x-oneagent-js-injection",
+   "true"
+  ],
+  [
+   "x-ruxit-js-agent",
+   "true"
+  ],
+  [
+   "etag",
+   "W/\"1791984197:dtagent10347260902154543CGip\""
+  ],
+  [
+   "server-timing",
+   "dtTrId;desc=\"535bafa7691e7140e9d10c09641181a1\", dtSInfo;desc=\"0\""
+  ],
+  [
+   "server-timing",
+   "dtRpid;desc=\"274362674\""
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

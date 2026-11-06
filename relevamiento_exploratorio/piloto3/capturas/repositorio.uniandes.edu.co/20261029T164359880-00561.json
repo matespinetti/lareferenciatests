@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T164359880-00561",
+ "url": "https://repositorio.uniandes.edu.co/handle/1992/10571",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 17:02:07 GMT"
+  ],
+  [
+   "content-type",
+   "text/html"
+  ],
+  [
+   "content-length",
+   "138"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "set-cookie",
+   "O7VNPWEGso9ml9dc=AQAAk99m74wz0oUXFcj1nhJ4r52tWenkXm54jK6K_QFfW3lye-NqAJ0AAACcAABYKrOIigW45EC_u-U45y46AAAASucwuZUOSh0hZte52rc_fAXDXhLPyXWwd-mYfBL3akw4Snp3_knmZsUr6qoGCuUe9s5FIe2V4rZtCUPN1l8asTBVSbSD3GeO0uMEDpF--qSxpFijTtrPWSSXD-yt_YIFg9E2kZpRmDW0IpKE7u564jwsPHrA1-upCEVnfDE5m73RJNCB1u; Path=/; SameSite=Lax; HttpOnly; Secure"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "location",
+   "/challenge?next=%2Fhandle%2F1992%2F10571"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=63072000; includeSubDomains; preload"
+  ],
+  [
+   "x-forwarded-proto",
+   "\"https\""
+  ],
+  [
+   "content-security-policy",
+   "frame-ancestors 'self' https://biblioteca.uniandes.edu.co;"
+  ],
+  [
+   "x-forwarded-port",
+   "\"443\""
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

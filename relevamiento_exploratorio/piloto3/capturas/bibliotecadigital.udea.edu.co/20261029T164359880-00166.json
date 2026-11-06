@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T164359880-00166",
+ "url": "https://bibliotecadigital.udea.edu.co/challenge?next=%2Fbitstreams%2F4b979de4-4040-4796-b96a-9124d90dbeb8%2Fdownload",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:48:56 GMT"
+  ],
+  [
+   "content-type",
+   "text/html"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "set-cookie",
+   "RFfG7CPD5NlStjOd=AQAA6UOyT5uY2RGCUIW3MGQPm8NsdBX6y6q82QDNrUlOTCOdeONqAFsAAACyAQAZOCAP8MvT_zvkGQXvsJTQAAAAamzjJ6xvWFM82tF8VAbS6wJaz-2hcgVxKUK53pmd_NuyOYk3RAnTlQbsbKU2I82z6SkEuCypkj5n6-T65tBKhE1gZyBA6FGwYw6QqbOitJ67uKWRPHAushyPg8k-SKsSLjSMmeADbZpr9fKhywCB6Dzn65Sx7Z84rMjfUobbaLGUIXwBnqp5PBz6KiT4sYpL5HeVVyePWUlZgxPMr3HpVao1B6rUlK2hj2GERRHWnQc5VhyEiwI3pK4-DAMXbjbh7A-IwKb09CL0YoOW9Y6kZmH_Qko5t7osE4MVFbEV9rsKWLrmr6jw1VcL91VcpAp0OlzXWgaHB9aLCQx1zNq4KA95M0Kk2PXRwF6Wo-J3Hz-1yfkIaNRlty_9XTuH5jurGZHfpAm_gmIqSvZUeVS_3gRjVSFiFv_m4v9WU76yOSzk7NEP6AM5lazksif-QwC4FiE6HFfQ; Path=/; SameSite=Lax; HttpOnly; Secure"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "permissions-policy",
+   "geolocation=(self \"https://bibliotecadigital.udea.edu.co\"), camera=(self) geolocation=(self) microphone=(self)"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=63072000; includeSubDomains; preload"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-forwarded-port",
+   "\"443\""
+  ],
+  [
+   "x-forwarded-proto",
+   "\"https\""
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "content-security-policy",
+   "default-src 'none'; base-uri 'none'; img-src 'self' data:; worker-src blob:; font-src 'self' data:; script-src http: https: 'unsafe-inline' 'strict-dynamic' 'nonce-Ml40DjE5yGmyZfjm3XQdFmYdfCF78Y1C'; style-src 'self' 'nonce-Gugn9jd3dgBrv2cUmj9XCwSQbBRoBa7F'; frame-ancestors 'none'; require-trusted-types-for 'script';  upgrade-insecure-requests;"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "archivo"
+}

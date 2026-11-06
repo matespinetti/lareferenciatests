@@ -1,0 +1,2235 @@
+{
+  "ar-sedici": {
+    "repo_id": "ar-sedici",
+    "plataforma": "dspace 5.10-SNAPSHOT",
+    "host_base": "sedici.unlp.edu.ar",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "sedici.unlp.edu.ar",
+        "clase": "propio",
+        "pedidos": 12,
+        "por_paso": {
+          "reconocimiento": 6,
+          "metodo": 3,
+          "verificacion": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 3
+      }
+    ],
+    "hosts_propios": "sedici.unlp.edu.ar",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://sedici.unlp.edu.ar/handle/10915/2839",
+        "host_url": "sedici.unlp.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "sedici.unlp.edu.ar"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://sedici.unlp.edu.ar/handle/10915/2847",
+        "host_url": "sedici.unlp.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "sedici.unlp.edu.ar"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://sedici.unlp.edu.ar/handle/10915/2848",
+        "host_url": "sedici.unlp.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "sedici.unlp.edu.ar"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "sedici.unlp.edu.ar=3",
+    "clases_hosts": "propio=1"
+  },
+  "ar-uca": {
+    "repo_id": "ar-uca",
+    "plataforma": "dspace",
+    "host_base": "repositorio.uca.edu.ar",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "repositorio.uca.edu.ar",
+        "clase": "propio",
+        "pedidos": 22,
+        "por_paso": {
+          "reconocimiento": 7,
+          "metodo": 12,
+          "verificacion": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 3
+      }
+    ],
+    "hosts_propios": "repositorio.uca.edu.ar",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://repositorio.uca.edu.ar/handle/123456789/202",
+        "host_url": "repositorio.uca.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "repositorio.uca.edu.ar"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://repositorio.uca.edu.ar/handle/123456789/204",
+        "host_url": "repositorio.uca.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "repositorio.uca.edu.ar"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://repositorio.uca.edu.ar/handle/123456789/515",
+        "host_url": "repositorio.uca.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "repositorio.uca.edu.ar"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "repositorio.uca.edu.ar=3",
+    "clases_hosts": "propio=1"
+  },
+  "cl-uchile": {
+    "repo_id": "cl-uchile",
+    "plataforma": "dspace 6.3",
+    "host_base": "repositorio.uchile.cl",
+    "terminado": "abandono",
+    "motivo_abandono": "repositorio.uchile.cl: anti-bot: anubis",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "repositorio.uchile.cl",
+        "clase": "propio",
+        "pedidos": 12,
+        "por_paso": {
+          "reconocimiento": 6,
+          "metodo": 5,
+          "verificacion": 1
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "repositorio.uchile.cl",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://repositorio.uchile.cl/handle/2250/215317",
+        "host_url": "repositorio.uchile.cl",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "repositorio.uchile.cl"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://repositorio.uchile.cl/handle/2250/207834",
+        "host_url": "repositorio.uchile.cl",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": []
+      },
+      {
+        "idx": 2,
+        "url": "https://repositorio.uchile.cl/handle/2250/210139",
+        "host_url": "repositorio.uchile.cl",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": []
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "",
+    "clases_hosts": "propio=1"
+  },
+  "br-unb": {
+    "repo_id": "br-unb",
+    "plataforma": "dspace 6.4",
+    "host_base": "repositorio.unb.br",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "repositorio.unb.br",
+        "clase": "propio",
+        "pedidos": 30,
+        "por_paso": {
+          "reconocimiento": 7,
+          "metodo": 14,
+          "verificacion": 9
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 6
+      }
+    ],
+    "hosts_propios": "repositorio.unb.br",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "http://repositorio.unb.br/handle/10482/31534",
+        "host_url": "repositorio.unb.br",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "repositorio.unb.br"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "http://repositorio.unb.br/handle/10482/15590",
+        "host_url": "repositorio.unb.br",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "repositorio.unb.br"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://repositorio.unb.br/handle/10482/43728",
+        "host_url": "repositorio.unb.br",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "repositorio.unb.br"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "repositorio.unb.br=6",
+    "clases_hosts": "propio=1"
+  },
+  "mx-udg": {
+    "repo_id": "mx-udg",
+    "plataforma": "dspace 6.3",
+    "host_base": "riudg.udg.mx",
+    "terminado": "completo",
+    "motivo_abandono": "www.libreriacarlosfuentes.mx: anti-bot: cloudflare",
+    "n_hosts": 4,
+    "hosts": [
+      {
+        "host": "riudg.udg.mx",
+        "clase": "propio",
+        "pedidos": 18,
+        "por_paso": {
+          "reconocimiento": 6,
+          "metodo": 10,
+          "verificacion": 2
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      },
+      {
+        "host": "wdg.biblio.udg.mx",
+        "clase": "mismo_dominio",
+        "pedidos": 2,
+        "por_paso": {
+          "metodo": 2
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      },
+      {
+        "host": "www.libreriacarlosfuentes.mx",
+        "clase": "externo",
+        "pedidos": 1,
+        "por_paso": {
+          "metodo": 1
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      },
+      {
+        "host": "hdl.handle.net",
+        "clase": "resolver",
+        "pedidos": 1,
+        "por_paso": {
+          "metodo": 1
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "riudg.udg.mx wdg.biblio.udg.mx",
+    "hosts_resolver": "hdl.handle.net",
+    "hosts_externos": "www.libreriacarlosfuentes.mx",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://www.libreriacarlosfuentes.mx/es/producto/testimonio-sobrevivencia-y-sujeto",
+        "host_url": "www.libreriacarlosfuentes.mx",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "riudg.udg.mx"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://wdg.biblio.udg.mx",
+        "host_url": "wdg.biblio.udg.mx",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "riudg.udg.mx",
+          "wdg.biblio.udg.mx"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://hdl.handle.net/20.500.12104/111546",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "riudg.udg.mx",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "riudg.udg.mx"
+        ]
+      }
+    ],
+    "items_url_handle_net": 1,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 1,
+    "items_url_externa": 1,
+    "tipos_url": "handle=1 pagina=2",
+    "prefijos_handle": {
+      "20.500.12104": [
+        "riudg.udg.mx"
+      ]
+    },
+    "items_multi_host": 2,
+    "max_hosts_por_item": 2,
+    "pedidos_resolver": 1,
+    "hosts_de_archivos_ok": "",
+    "clases_hosts": "externo=1 mismo_dominio=1 propio=1 resolver=1"
+  },
+  "ar-rdu-unc": {
+    "repo_id": "ar-rdu-unc",
+    "plataforma": "dspace 7.6.7",
+    "host_base": "rdu.unc.edu.ar",
+    "terminado": "presupuesto",
+    "motivo_abandono": "",
+    "n_hosts": 2,
+    "hosts": [
+      {
+        "host": "rdu.unc.edu.ar",
+        "clase": "propio",
+        "pedidos": 36,
+        "por_paso": {
+          "reconocimiento": 6,
+          "metodo": 18,
+          "verificacion": 12
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 6
+      },
+      {
+        "host": "hdl.handle.net",
+        "clase": "resolver",
+        "pedidos": 4,
+        "por_paso": {
+          "metodo": 4
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "rdu.unc.edu.ar",
+    "hosts_resolver": "hdl.handle.net",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "http://hdl.handle.net/11086/560501",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "rdu.unc.edu.ar",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "rdu.unc.edu.ar"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "http://hdl.handle.net/11086/27024",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "rdu.unc.edu.ar",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "rdu.unc.edu.ar"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "http://hdl.handle.net/11086/24006",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "rdu.unc.edu.ar",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "rdu.unc.edu.ar"
+        ]
+      }
+    ],
+    "items_url_handle_net": 3,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 0,
+    "items_url_externa": 0,
+    "tipos_url": "handle=3",
+    "prefijos_handle": {
+      "11086": [
+        "rdu.unc.edu.ar"
+      ]
+    },
+    "items_multi_host": 3,
+    "max_hosts_por_item": 2,
+    "pedidos_resolver": 4,
+    "hosts_de_archivos_ok": "rdu.unc.edu.ar=6",
+    "clases_hosts": "propio=1 resolver=1"
+  },
+  "co-udea": {
+    "repo_id": "co-udea",
+    "plataforma": "dspace 8.1",
+    "host_base": "bibliotecadigital.udea.edu.co",
+    "terminado": "presupuesto",
+    "motivo_abandono": "",
+    "n_hosts": 2,
+    "hosts": [
+      {
+        "host": "bibliotecadigital.udea.edu.co",
+        "clase": "propio",
+        "pedidos": 37,
+        "por_paso": {
+          "reconocimiento": 7,
+          "metodo": 24,
+          "verificacion": 6
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 2
+      },
+      {
+        "host": "hdl.handle.net",
+        "clase": "resolver",
+        "pedidos": 3,
+        "por_paso": {
+          "metodo": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "bibliotecadigital.udea.edu.co",
+    "hosts_resolver": "hdl.handle.net",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://hdl.handle.net/10495/46151",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "bibliotecadigital.udea.edu.co",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "bibliotecadigital.udea.edu.co",
+          "hdl.handle.net"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://hdl.handle.net/10495/4345",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "bibliotecadigital.udea.edu.co",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "bibliotecadigital.udea.edu.co",
+          "hdl.handle.net"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://hdl.handle.net/10495/13726",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "bibliotecadigital.udea.edu.co",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "bibliotecadigital.udea.edu.co",
+          "hdl.handle.net"
+        ]
+      }
+    ],
+    "items_url_handle_net": 3,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 0,
+    "items_url_externa": 0,
+    "tipos_url": "handle=3",
+    "prefijos_handle": {
+      "10495": [
+        "bibliotecadigital.udea.edu.co"
+      ]
+    },
+    "items_multi_host": 3,
+    "max_hosts_por_item": 2,
+    "pedidos_resolver": 3,
+    "hosts_de_archivos_ok": "bibliotecadigital.udea.edu.co=2",
+    "clases_hosts": "propio=1 resolver=1"
+  },
+  "br-ufmg": {
+    "repo_id": "br-ufmg",
+    "plataforma": "dspace 8.2",
+    "host_base": "repositorio.ufmg.br",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 2,
+    "hosts": [
+      {
+        "host": "repositorio.ufmg.br",
+        "clase": "propio",
+        "pedidos": 36,
+        "por_paso": {
+          "reconocimiento": 6,
+          "metodo": 18,
+          "verificacion": 12
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 6
+      },
+      {
+        "host": "hdl.handle.net",
+        "clase": "resolver",
+        "pedidos": 3,
+        "por_paso": {
+          "metodo": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "repositorio.ufmg.br",
+    "hosts_resolver": "hdl.handle.net",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://hdl.handle.net/1843/1964",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "repositorio.ufmg.br",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "repositorio.ufmg.br"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://hdl.handle.net/1843/2895",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "repositorio.ufmg.br",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "repositorio.ufmg.br"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://hdl.handle.net/1843/5589",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "repositorio.ufmg.br",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "repositorio.ufmg.br"
+        ]
+      }
+    ],
+    "items_url_handle_net": 3,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 0,
+    "items_url_externa": 0,
+    "tipos_url": "handle=3",
+    "prefijos_handle": {
+      "1843": [
+        "repositorio.ufmg.br"
+      ]
+    },
+    "items_multi_host": 3,
+    "max_hosts_por_item": 2,
+    "pedidos_resolver": 3,
+    "hosts_de_archivos_ok": "repositorio.ufmg.br=6",
+    "clases_hosts": "propio=1 resolver=1"
+  },
+  "uy-colibri": {
+    "repo_id": "uy-colibri",
+    "plataforma": "dspace 9.1",
+    "host_base": "www.colibri.udelar.edu.uy",
+    "terminado": "sin_items",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "www.colibri.udelar.edu.uy",
+        "clase": "propio",
+        "pedidos": 6,
+        "por_paso": {
+          "reconocimiento": 6
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "www.colibri.udelar.edu.uy",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "ninguna",
+    "items": [],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 0,
+    "items_url_externa": 0,
+    "tipos_url": "",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 0,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "",
+    "clases_hosts": "propio=1"
+  },
+  "ar-filo-uba": {
+    "repo_id": "ar-filo-uba",
+    "plataforma": "dspace 9.1",
+    "host_base": "repositorio.filo.uba.ar",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "repositorio.filo.uba.ar",
+        "clase": "propio",
+        "pedidos": 36,
+        "por_paso": {
+          "reconocimiento": 6,
+          "metodo": 24,
+          "verificacion": 6
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 3
+      }
+    ],
+    "hosts_propios": "repositorio.filo.uba.ar",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "http://repositorio.filo.uba.ar/handle/filodigital/17251",
+        "host_url": "repositorio.filo.uba.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "repositorio.filo.uba.ar"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "http://repositorio.filo.uba.ar/handle/filodigital/2977",
+        "host_url": "repositorio.filo.uba.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "repositorio.filo.uba.ar"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "http://repositorio.filo.uba.ar/handle/filodigital/12756",
+        "host_url": "repositorio.filo.uba.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "repositorio.filo.uba.ar"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "repositorio.filo.uba.ar=3",
+    "clases_hosts": "propio=1"
+  },
+  "pe-pucp": {
+    "repo_id": "pe-pucp",
+    "plataforma": "",
+    "host_base": "repositorio.pucp.edu.pe",
+    "terminado": "abandono",
+    "motivo_abandono": "repositorio.pucp.edu.pe: anti-bot: anubis",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "repositorio.pucp.edu.pe",
+        "clase": "propio",
+        "pedidos": 1,
+        "por_paso": {
+          "reconocimiento": 1
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "repositorio.pucp.edu.pe",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "ninguna",
+    "items": [],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 0,
+    "items_url_externa": 0,
+    "tipos_url": "",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 0,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "",
+    "clases_hosts": "propio=1"
+  },
+  "ar-rephip-unr": {
+    "repo_id": "ar-rephip-unr",
+    "plataforma": "dspace 9.3",
+    "host_base": "rephip.unr.edu.ar",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 2,
+    "hosts": [
+      {
+        "host": "rephip.unr.edu.ar",
+        "clase": "propio",
+        "pedidos": 30,
+        "por_paso": {
+          "reconocimiento": 6,
+          "metodo": 18,
+          "verificacion": 6
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 3
+      },
+      {
+        "host": "hdl.handle.net",
+        "clase": "resolver",
+        "pedidos": 3,
+        "por_paso": {
+          "metodo": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "rephip.unr.edu.ar",
+    "hosts_resolver": "hdl.handle.net",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://hdl.handle.net/2133/32082",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "rephip.unr.edu.ar",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "rephip.unr.edu.ar"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://hdl.handle.net/2133/31409",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "rephip.unr.edu.ar",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "rephip.unr.edu.ar"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://hdl.handle.net/2133/33995",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "rephip.unr.edu.ar",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "rephip.unr.edu.ar"
+        ]
+      }
+    ],
+    "items_url_handle_net": 3,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 0,
+    "items_url_externa": 0,
+    "tipos_url": "handle=3",
+    "prefijos_handle": {
+      "2133": [
+        "rephip.unr.edu.ar"
+      ]
+    },
+    "items_multi_host": 3,
+    "max_hosts_por_item": 2,
+    "pedidos_resolver": 3,
+    "hosts_de_archivos_ok": "rephip.unr.edu.ar=3",
+    "clases_hosts": "propio=1 resolver=1"
+  },
+  "br-fiocruz": {
+    "repo_id": "br-fiocruz",
+    "plataforma": "dspace 9.3",
+    "host_base": "www.arca.fiocruz.br",
+    "terminado": "completo",
+    "motivo_abandono": "localhost: 3 errores de red seguidos",
+    "n_hosts": 4,
+    "hosts": [
+      {
+        "host": "api.arca.fiocruz.br",
+        "clase": "mismo_dominio",
+        "pedidos": 19,
+        "por_paso": {
+          "reconocimiento": 5,
+          "metodo": 12,
+          "verificacion": 2
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      },
+      {
+        "host": "arca.fiocruz.br",
+        "clase": "mismo_dominio",
+        "pedidos": 12,
+        "por_paso": {
+          "reconocimiento": 3,
+          "metodo": 6,
+          "verificacion": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 2
+      },
+      {
+        "host": "localhost",
+        "clase": "no_publico",
+        "pedidos": 3,
+        "por_paso": {
+          "verificacion": 3
+        },
+        "sin_respuesta": true,
+        "archivos_verificados_ok": 0
+      },
+      {
+        "host": "www.arca.fiocruz.br",
+        "clase": "propio",
+        "pedidos": 2,
+        "por_paso": {
+          "reconocimiento": 2
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "api.arca.fiocruz.br arca.fiocruz.br www.arca.fiocruz.br",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "localhost",
+    "hosts_sin_respuesta": "localhost",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://arca.fiocruz.br/handle/icict/61151",
+        "host_url": "arca.fiocruz.br",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "api.arca.fiocruz.br",
+          "arca.fiocruz.br",
+          "localhost"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://arca.fiocruz.br/handle/icict/6813",
+        "host_url": "arca.fiocruz.br",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "api.arca.fiocruz.br",
+          "arca.fiocruz.br"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://arca.fiocruz.br/handle/icict/73215",
+        "host_url": "arca.fiocruz.br",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "api.arca.fiocruz.br",
+          "arca.fiocruz.br",
+          "localhost"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 3,
+    "max_hosts_por_item": 3,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "arca.fiocruz.br=2",
+    "clases_hosts": "mismo_dominio=2 no_publico=1 propio=1"
+  },
+  "br-unesp": {
+    "repo_id": "br-unesp",
+    "plataforma": "dspace 10.0",
+    "host_base": "repositorio.unesp.br",
+    "terminado": "completo",
+    "motivo_abandono": "www.tandfonline.com: anti-bot: cloudflare",
+    "n_hosts": 6,
+    "hosts": [
+      {
+        "host": "repositorio.unesp.br",
+        "clase": "propio",
+        "pedidos": 29,
+        "por_paso": {
+          "reconocimiento": 6,
+          "metodo": 19,
+          "verificacion": 4
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 2
+      },
+      {
+        "host": "www.tandfonline.com",
+        "clase": "externo",
+        "pedidos": 4,
+        "por_paso": {
+          "metodo": 4
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      },
+      {
+        "host": "ojs.unesp.br",
+        "clase": "mismo_dominio",
+        "pedidos": 2,
+        "por_paso": {
+          "metodo": 2
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      },
+      {
+        "host": "ojs-new.unesp.brindex.php",
+        "clase": "externo",
+        "pedidos": 2,
+        "por_paso": {
+          "metodo": 2
+        },
+        "sin_respuesta": true,
+        "archivos_verificados_ok": 0
+      },
+      {
+        "host": "hdl.handle.net",
+        "clase": "resolver",
+        "pedidos": 1,
+        "por_paso": {
+          "metodo": 1
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      },
+      {
+        "host": "ojs-new.unesp.brrobots.txt",
+        "clase": "externo",
+        "pedidos": 1,
+        "por_paso": {
+          "metodo": 1
+        },
+        "sin_respuesta": true,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "repositorio.unesp.br ojs.unesp.br",
+    "hosts_resolver": "hdl.handle.net",
+    "hosts_externos": "www.tandfonline.com ojs-new.unesp.brindex.php ojs-new.unesp.brrobots.txt",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "ojs-new.unesp.brindex.php ojs-new.unesp.brrobots.txt",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "http://hdl.handle.net/11449/118219",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "repositorio.unesp.br",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "repositorio.unesp.br"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "http://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941",
+        "host_url": "www.tandfonline.com",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "repositorio.unesp.br",
+          "www.tandfonline.com"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "http://ojs.unesp.br/index.php/revista_proex/article/view/364",
+        "host_url": "ojs.unesp.br",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "ojs-new.unesp.brindex.php",
+          "ojs.unesp.br",
+          "repositorio.unesp.br"
+        ]
+      }
+    ],
+    "items_url_handle_net": 1,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 1,
+    "items_url_externa": 1,
+    "tipos_url": "handle=1 pagina=2",
+    "prefijos_handle": {
+      "11449": [
+        "repositorio.unesp.br"
+      ]
+    },
+    "items_multi_host": 3,
+    "max_hosts_por_item": 3,
+    "pedidos_resolver": 1,
+    "hosts_de_archivos_ok": "repositorio.unesp.br=2",
+    "clases_hosts": "externo=3 mismo_dominio=1 propio=1 resolver=1"
+  },
+  "ar-conicet": {
+    "repo_id": "ar-conicet",
+    "plataforma": "dspace 10.1",
+    "host_base": "ri.conicet.gov.ar",
+    "terminado": "sin_items",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "ri.conicet.gov.ar",
+        "clase": "propio",
+        "pedidos": 7,
+        "por_paso": {
+          "reconocimiento": 7
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "ri.conicet.gov.ar",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "ninguna",
+    "items": [],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 0,
+    "items_url_externa": 0,
+    "tipos_url": "",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 0,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "",
+    "clases_hosts": "propio=1"
+  },
+  "cr-kerwa": {
+    "repo_id": "cr-kerwa",
+    "plataforma": "dspace 10.1",
+    "host_base": "kerwa.ucr.ac.cr",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 4,
+    "hosts": [
+      {
+        "host": "repositorio.ucr.ac.cr",
+        "clase": "mismo_dominio",
+        "pedidos": 23,
+        "por_paso": {
+          "reconocimiento": 5,
+          "metodo": 16,
+          "verificacion": 2
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      },
+      {
+        "host": "repositorio.inie.ucr.ac.cr",
+        "clase": "mismo_dominio",
+        "pedidos": 10,
+        "por_paso": {
+          "metodo": 5,
+          "verificacion": 5
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 2
+      },
+      {
+        "host": "kerwa.ucr.ac.cr",
+        "clase": "propio",
+        "pedidos": 4,
+        "por_paso": {
+          "reconocimiento": 2,
+          "verificacion": 2
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 2
+      },
+      {
+        "host": "hdl.handle.net",
+        "clase": "resolver",
+        "pedidos": 2,
+        "por_paso": {
+          "metodo": 2
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "repositorio.ucr.ac.cr repositorio.inie.ucr.ac.cr kerwa.ucr.ac.cr",
+    "hosts_resolver": "hdl.handle.net",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://hdl.handle.net/10669/105088",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "hdl.handle.net",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "kerwa.ucr.ac.cr",
+          "repositorio.ucr.ac.cr"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://hdl.handle.net/10669/104675",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "hdl.handle.net",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "kerwa.ucr.ac.cr",
+          "repositorio.ucr.ac.cr"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "http://repositorio.inie.ucr.ac.cr/handle/123456789/424",
+        "host_url": "repositorio.inie.ucr.ac.cr",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "repositorio.inie.ucr.ac.cr",
+          "repositorio.ucr.ac.cr"
+        ]
+      }
+    ],
+    "items_url_handle_net": 2,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 1,
+    "items_url_externa": 0,
+    "tipos_url": "handle=2 pagina=1",
+    "prefijos_handle": {
+      "10669": [
+        "(error 500)"
+      ]
+    },
+    "items_multi_host": 3,
+    "max_hosts_por_item": 3,
+    "pedidos_resolver": 2,
+    "hosts_de_archivos_ok": "kerwa.ucr.ac.cr=2 repositorio.inie.ucr.ac.cr=2",
+    "clases_hosts": "mismo_dominio=2 propio=1 resolver=1"
+  },
+  "ar-sadio-ejs": {
+    "repo_id": "ar-sadio-ejs",
+    "plataforma": "ojs 3.4.0.8",
+    "host_base": "revistas.unlp.edu.ar",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "revistas.unlp.edu.ar",
+        "clase": "propio",
+        "pedidos": 11,
+        "por_paso": {
+          "reconocimiento": 5,
+          "metodo": 3,
+          "verificacion": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 3
+      }
+    ],
+    "hosts_propios": "revistas.unlp.edu.ar",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://revistas.unlp.edu.ar/ejs/article/view/17558",
+        "host_url": "revistas.unlp.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "revistas.unlp.edu.ar"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://revistas.unlp.edu.ar/ejs/article/view/17559",
+        "host_url": "revistas.unlp.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "revistas.unlp.edu.ar"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://revistas.unlp.edu.ar/ejs/article/view/17560",
+        "host_url": "revistas.unlp.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "revistas.unlp.edu.ar"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "revistas.unlp.edu.ar=3",
+    "clases_hosts": "propio=1"
+  },
+  "ar-question": {
+    "repo_id": "ar-question",
+    "plataforma": "ojs 3.4.0.10",
+    "host_base": "perio.unlp.edu.ar",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "perio.unlp.edu.ar",
+        "clase": "propio",
+        "pedidos": 11,
+        "por_paso": {
+          "reconocimiento": 5,
+          "metodo": 3,
+          "verificacion": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 3
+      }
+    ],
+    "hosts_propios": "perio.unlp.edu.ar",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://perio.unlp.edu.ar/ojs/index.php/question/article/view/5535",
+        "host_url": "perio.unlp.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "perio.unlp.edu.ar"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6502",
+        "host_url": "perio.unlp.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "perio.unlp.edu.ar"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6503",
+        "host_url": "perio.unlp.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "perio.unlp.edu.ar"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "perio.unlp.edu.ar=3",
+    "clases_hosts": "propio=1"
+  },
+  "ar-adnea": {
+    "repo_id": "ar-adnea",
+    "plataforma": "ojs 3.3.0.22",
+    "host_base": "revistas.unne.edu.ar",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "revistas.unne.edu.ar",
+        "clase": "propio",
+        "pedidos": 11,
+        "por_paso": {
+          "reconocimiento": 5,
+          "metodo": 3,
+          "verificacion": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 3
+      }
+    ],
+    "hosts_propios": "revistas.unne.edu.ar",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://revistas.unne.edu.ar/index.php/adn/article/view/9002",
+        "host_url": "revistas.unne.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "revistas.unne.edu.ar"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://revistas.unne.edu.ar/index.php/adn/article/view/9004",
+        "host_url": "revistas.unne.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "revistas.unne.edu.ar"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://revistas.unne.edu.ar/index.php/adn/article/view/9005",
+        "host_url": "revistas.unne.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "revistas.unne.edu.ar"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "revistas.unne.edu.ar=3",
+    "clases_hosts": "propio=1"
+  },
+  "cr-rbt": {
+    "repo_id": "cr-rbt",
+    "plataforma": "ojs 3.2.1.4",
+    "host_base": "revistas.ucr.ac.cr",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 2,
+    "hosts": [
+      {
+        "host": "archivo.revistas.ucr.ac.cr",
+        "clase": "mismo_dominio",
+        "pedidos": 12,
+        "por_paso": {
+          "reconocimiento": 6,
+          "metodo": 3,
+          "verificacion": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 3
+      },
+      {
+        "host": "revistas.ucr.ac.cr",
+        "clase": "propio",
+        "pedidos": 2,
+        "por_paso": {
+          "reconocimiento": 2
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "archivo.revistas.ucr.ac.cr revistas.ucr.ac.cr",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1750",
+        "host_url": "archivo.revistas.ucr.ac.cr",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "archivo.revistas.ucr.ac.cr"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751",
+        "host_url": "archivo.revistas.ucr.ac.cr",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "archivo.revistas.ucr.ac.cr"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1752",
+        "host_url": "archivo.revistas.ucr.ac.cr",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "archivo.revistas.ucr.ac.cr"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "archivo.revistas.ucr.ac.cr=3",
+    "clases_hosts": "mismo_dominio=1 propio=1"
+  },
+  "id-isi-ars": {
+    "repo_id": "id-isi-ars",
+    "plataforma": "ojs 2.4.8.3",
+    "host_base": "journal.isi.ac.id",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "journal.isi.ac.id",
+        "clase": "propio",
+        "pedidos": 14,
+        "por_paso": {
+          "reconocimiento": 6,
+          "metodo": 3,
+          "verificacion": 5
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 2
+      }
+    ],
+    "hosts_propios": "journal.isi.ac.id",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://journal.isi.ac.id/index.php/ars/article/view/251",
+        "host_url": "journal.isi.ac.id",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "journal.isi.ac.id"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://journal.isi.ac.id/index.php/ars/article/view/2760",
+        "host_url": "journal.isi.ac.id",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "journal.isi.ac.id"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://journal.isi.ac.id/index.php/ars/article/view/3029",
+        "host_url": "journal.isi.ac.id",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "journal.isi.ac.id"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "journal.isi.ac.id=2",
+    "clases_hosts": "propio=1"
+  },
+  "ar-libros-unlp": {
+    "repo_id": "ar-libros-unlp",
+    "plataforma": "omp 1.1.1.1",
+    "host_base": "www.libros.unlp.edu.ar",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "www.libros.unlp.edu.ar",
+        "clase": "propio",
+        "pedidos": 11,
+        "por_paso": {
+          "reconocimiento": 5,
+          "metodo": 3,
+          "verificacion": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 3
+      }
+    ],
+    "hosts_propios": "www.libros.unlp.edu.ar",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2845",
+        "host_url": "www.libros.unlp.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "www.libros.unlp.edu.ar"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2856",
+        "host_url": "www.libros.unlp.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "www.libros.unlp.edu.ar"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2950",
+        "host_url": "www.libros.unlp.edu.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "www.libros.unlp.edu.ar"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "www.libros.unlp.edu.ar=3",
+    "clases_hosts": "propio=1"
+  },
+  "mx-ru-economicas": {
+    "repo_id": "mx-ru-economicas",
+    "plataforma": "eprints 3.3.16",
+    "host_base": "ru.iiec.unam.mx",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "ru.iiec.unam.mx",
+        "clase": "propio",
+        "pedidos": 19,
+        "por_paso": {
+          "reconocimiento": 5,
+          "metodo": 9,
+          "verificacion": 5
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 5
+      }
+    ],
+    "hosts_propios": "ru.iiec.unam.mx",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "http://ru.iiec.unam.mx/110/1/voto_electronico.html",
+        "host_url": "ru.iiec.unam.mx",
+        "tipo_url": "archivo",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "ru.iiec.unam.mx"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "http://ru.iiec.unam.mx/2119/1/Olave%20Castillo%2C%20Patricia.pdf",
+        "host_url": "ru.iiec.unam.mx",
+        "tipo_url": "archivo",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "ru.iiec.unam.mx"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "http://ru.iiec.unam.mx/2120/1/Galindo%20Ledezma%2C%20Magdalena.pdf",
+        "host_url": "ru.iiec.unam.mx",
+        "tipo_url": "archivo",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "ru.iiec.unam.mx"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "archivo=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "ru.iiec.unam.mx=5",
+    "clases_hosts": "propio=1"
+  },
+  "ar-scielo": {
+    "repo_id": "ar-scielo",
+    "plataforma": "",
+    "host_base": "www.scielo.org.ar",
+    "terminado": "completo",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "www.scielo.org.ar",
+        "clase": "propio",
+        "pedidos": 17,
+        "por_paso": {
+          "reconocimiento": 8,
+          "metodo": 6,
+          "verificacion": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 3
+      }
+    ],
+    "hosts_propios": "www.scielo.org.ar",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300001",
+        "host_url": "www.scielo.org.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "www.scielo.org.ar"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300002",
+        "host_url": "www.scielo.org.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "www.scielo.org.ar"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300003",
+        "host_url": "www.scielo.org.ar",
+        "tipo_url": "pagina",
+        "resolver": null,
+        "destino_resolver": null,
+        "url_en_host_del_repo": true,
+        "hosts_tocados": [
+          "www.scielo.org.ar"
+        ]
+      }
+    ],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 3,
+    "items_url_externa": 0,
+    "tipos_url": "pagina=3",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 1,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "www.scielo.org.ar=3",
+    "clases_hosts": "propio=1"
+  },
+  "ar-bdigital-uncuyo": {
+    "repo_id": "ar-bdigital-uncuyo",
+    "plataforma": "",
+    "host_base": "bdigital.uncu.edu.ar",
+    "terminado": "sin_items",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "bdigital.uncu.edu.ar",
+        "clase": "propio",
+        "pedidos": 7,
+        "por_paso": {
+          "reconocimiento": 7
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "bdigital.uncu.edu.ar",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "ninguna",
+    "items": [],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 0,
+    "items_url_externa": 0,
+    "tipos_url": "",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 0,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "",
+    "clases_hosts": "propio=1"
+  },
+  "br-ufsc": {
+    "repo_id": "br-ufsc",
+    "plataforma": "",
+    "host_base": "repositorio.ufsc.br",
+    "terminado": "abandono",
+    "motivo_abandono": "repositorio.ufsc.br: anti-bot: turnstile",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "repositorio.ufsc.br",
+        "clase": "propio",
+        "pedidos": 1,
+        "por_paso": {
+          "reconocimiento": 1
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "repositorio.ufsc.br",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "ninguna",
+    "items": [],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 0,
+    "items_url_externa": 0,
+    "tipos_url": "",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 0,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "",
+    "clases_hosts": "propio=1"
+  },
+  "co-uniandes": {
+    "repo_id": "co-uniandes",
+    "plataforma": "",
+    "host_base": "repositorio.uniandes.edu.co",
+    "terminado": "completo",
+    "motivo_abandono": "dspace-new-uniandes.metabuscador.org: 3 errores de red seguidos",
+    "n_hosts": 3,
+    "hosts": [
+      {
+        "host": "repositorio.uniandes.edu.co",
+        "clase": "propio",
+        "pedidos": 26,
+        "por_paso": {
+          "reconocimiento": 11,
+          "metodo": 15
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      },
+      {
+        "host": "hdl.handle.net",
+        "clase": "resolver",
+        "pedidos": 3,
+        "por_paso": {
+          "metodo": 3
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      },
+      {
+        "host": "dspace-new-uniandes.metabuscador.org",
+        "clase": "externo",
+        "pedidos": 3,
+        "por_paso": {
+          "verificacion": 3
+        },
+        "sin_respuesta": true,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "repositorio.uniandes.edu.co",
+    "hosts_resolver": "hdl.handle.net",
+    "hosts_externos": "dspace-new-uniandes.metabuscador.org",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "dspace-new-uniandes.metabuscador.org",
+    "fuente_items": "oai_listrecords_desde_2025-10-29",
+    "items": [
+      {
+        "idx": 0,
+        "url": "https://hdl.handle.net/1992/77603",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "repositorio.uniandes.edu.co",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "dspace-new-uniandes.metabuscador.org",
+          "hdl.handle.net",
+          "repositorio.uniandes.edu.co"
+        ]
+      },
+      {
+        "idx": 1,
+        "url": "https://hdl.handle.net/1992/10571",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "repositorio.uniandes.edu.co",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "repositorio.uniandes.edu.co"
+        ]
+      },
+      {
+        "idx": 2,
+        "url": "https://hdl.handle.net/1992/20454",
+        "host_url": "hdl.handle.net",
+        "tipo_url": "handle",
+        "resolver": "handle",
+        "destino_resolver": "repositorio.uniandes.edu.co",
+        "url_en_host_del_repo": false,
+        "hosts_tocados": [
+          "hdl.handle.net",
+          "repositorio.uniandes.edu.co"
+        ]
+      }
+    ],
+    "items_url_handle_net": 3,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 0,
+    "items_url_externa": 0,
+    "tipos_url": "handle=3",
+    "prefijos_handle": {
+      "1992": [
+        "repositorio.uniandes.edu.co"
+      ]
+    },
+    "items_multi_host": 3,
+    "max_hosts_por_item": 3,
+    "pedidos_resolver": 3,
+    "hosts_de_archivos_ok": "",
+    "clases_hosts": "externo=1 propio=1 resolver=1"
+  },
+  "mx-tec": {
+    "repo_id": "mx-tec",
+    "plataforma": "",
+    "host_base": "repositorio.tec.mx",
+    "terminado": "abandono",
+    "motivo_abandono": "repositorio.tec.mx: 2 respuestas 403 seguidas",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "repositorio.tec.mx",
+        "clase": "propio",
+        "pedidos": 2,
+        "por_paso": {
+          "reconocimiento": 2
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "repositorio.tec.mx",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "ninguna",
+    "items": [],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 0,
+    "items_url_externa": 0,
+    "tipos_url": "",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 0,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "",
+    "clases_hosts": "propio=1"
+  },
+  "cr-una": {
+    "repo_id": "cr-una",
+    "plataforma": "",
+    "host_base": "repositorio.una.ac.cr",
+    "terminado": "sin_items",
+    "motivo_abandono": "",
+    "n_hosts": 1,
+    "hosts": [
+      {
+        "host": "repositorio.una.ac.cr",
+        "clase": "propio",
+        "pedidos": 7,
+        "por_paso": {
+          "reconocimiento": 7
+        },
+        "sin_respuesta": false,
+        "archivos_verificados_ok": 0
+      }
+    ],
+    "hosts_propios": "repositorio.una.ac.cr",
+    "hosts_resolver": "",
+    "hosts_externos": "",
+    "hosts_no_publicos": "",
+    "hosts_sin_respuesta": "",
+    "fuente_items": "ninguna",
+    "items": [],
+    "items_url_handle_net": 0,
+    "items_url_doi_org": 0,
+    "items_url_en_repo": 0,
+    "items_url_externa": 0,
+    "tipos_url": "",
+    "prefijos_handle": {},
+    "items_multi_host": 0,
+    "max_hosts_por_item": 0,
+    "pedidos_resolver": 0,
+    "hosts_de_archivos_ok": "",
+    "clases_hosts": "propio=1"
+  }
+}

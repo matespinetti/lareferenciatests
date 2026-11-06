@@ -1,0 +1,45 @@
+{
+ "pedido": "20261106T121522500-00014",
+ "url": "https://archivo.revistas.ucr.ac.cr/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:15:25 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "last-modified",
+   "Wed, 26 Nov 2025 18:09:21 GMT"
+  ],
+  [
+   "etag",
+   "\"20-644834bb73eee\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "content-length",
+   "32"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/plain"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

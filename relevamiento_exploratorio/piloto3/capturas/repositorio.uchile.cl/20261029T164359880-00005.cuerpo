@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+            <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+            <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+            <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+            <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+            <head><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<link rel="shortcut icon" href="/themes/Mirage2/images/favicon.ico">
+<link rel="apple-touch-icon" href="/themes/Mirage2/images/apple-touch-icon.png">
+<meta name="Generator" content="DSpace 6.3">
+<link href="/themes/Mirage2/styles/main.css" rel="stylesheet">
+<link href="/themes/Mirage2/styles/sisib.css" rel="stylesheet">
+<link type="application/rss+xml" rel="alternate" href="/feed/rss_1.0/site">
+<link type="application/rss+xml" rel="alternate" href="/feed/rss_2.0/site">
+<link type="application/atom+xml" rel="alternate" href="/feed/atom_1.0/site">
+<link type="application/opensearchdescription+xml" rel="search" href="http://repositorio.uchile.cl:80/open-search/description.xml" title="DSpace">
+<script>
+                //Clear default text of emty text areas on focus
+                function tFocus(element)
+                {
+                if (element.value == ' '){element.value='';}
+                }
+                //Clear default text of emty text areas on submit
+                function tSubmit(form)
+                {
+                var defaultedElements = document.getElementsByTagName("textarea");
+                for (var i=0; i != defaultedElements.length; i++){
+                if (defaultedElements[i].value == ' '){
+                defaultedElements[i].value='';}}
+                }
+                //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                function disableEnterKey(e)
+                {
+                var key;
+
+                if(window.event)
+                key = window.event.keyCode;     //Internet Explorer
+                else
+                key = e.which;     //Firefox and Netscape
+
+                if(key == 13)  //if "Enter" pressed, then disable!
+                return false;
+                else
+                return true;
+                }
+            </script><!--[if lt IE 9]>
+                <script src="/themes/Mirage2/vendor/html5shiv/dist/html5shiv.js"> </script>
+                <script src="/themes/Mirage2/vendor/respond/dest/respond.min.js"> </script>
+                <![endif]--><script src="/themes/Mirage2/vendor/modernizr/modernizr.js"></script>
+<title>Repositorio Acad&eacute;mico - Universidad de Chile</title>
+<script src="/themes/Mirage2/scripts/jquery.js"></script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-612527637d6edc53"></script><script src="/themes/Mirage2/scripts/ordenamiento_home.js"></script>
+<meta name="description" content="Repositorio acad&eacute;mico de la Universidad de Chile. Tesis, art&iacute;culos y libros publicados en formato digital con distintos niveles de acceso">
+<meta name="keywords" content="Repositorio acad&eacute;mico, Universidad de Chile, Uchile, Tesis, Art&iacute;culos de revistas, Libros, Tesis electr&oacute;nicas, ETD, Magister, Doctorado, Pregrado">
+<meta itemprop="description" content="Repositorio acad&eacute;mico de la Universidad de Chile. Tesis, art&iacute;culos y libros publicados en formato digital con distintos niveles de acceso">
+<meta itemprop="image" content="https://repositorio.uchile.cl/themes/Mirage2/images/respositorio-academico-uchile-Go.jpg">
+<meta itemprop="name" content="Repositorio Acad&eacute;mico - Universidad de Chile">
+<meta itemprop="image" content="https://repositorio.uchile.cl/themes/Mirage2/images/respositorio-academico-uchile-Go.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@sisib">
+<meta name="twitter:title" content="Repositorio Acad&eacute;mico - Universidad de Chile">
+<meta name="twitter:description" content="Repositorio acad&eacute;mico de la Universidad de Chile. Tesis, art&iacute;culos y libros publicados en formato digital con distintos niveles de acceso">
+<meta name="twitter:creator" content="@sisib">
+<meta name="twitter:image" content="https://repositorio.uchile.cl/themes/Mirage2/images/respositorio-academico-uchile-tw.jpg">
+<meta name="og:title" content="Repositorio Acad&eacute;mico - Universidad de Chile">
+<meta name="og:type" content="article">
+<meta name="og:url" content="https://repositorio.uchile.cl/">
+<meta name="og:image" content="https://repositorio.uchile.cl/themes/Mirage2/images/respositorio-academico-uchile-fb.jpg">
+<meta name="og:description" content="Repositorio acad&eacute;mico de la Universidad de Chile. Tesis, art&iacute;culos y libros publicados en formato digital con distintos niveles de acceso">
+<meta name="og:site_name" content="Repositorio Acad&eacute;mico - Universidad de Chile">
+<meta itemprop="image" content="https://repositorio.uchile.cl/themes/Mirage2/images/repositorio-academico.jpg">
+<script src="https://platform-api.sharethis.com/js/sharethis.js#property=6474baed58d85b001927bc70&product=sop" type="text/javascript"></script>
+</head><body>
+<div class="row">
+<header>
+<div role="navigation" class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button data-toggle="offcanvas" class="navbar-toggle" type="button"><span class="sr-only">xmlui.mirage2.page-structure.toggleNavigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+<div class="sup_header">
+<div class="header_acerca">
+<a href="/page/acerca">About</a>
+</div>
+<div class="header_contacto">
+<a href="/page/contacto">Contact</a>
+</div>
+<div class="header_ayuda">
+<a href="/page/ayuda">Help</a>
+</div>
+<div class="header_publicar">
+<a href="/page/envia_libros">Sending publications</a>
+</div>
+<div class="header_publicar">
+<a href="/page/comoPublicar">How to publish</a>
+</div>
+</div>
+<div class="container">
+<div class="navbar-default">
+<a title="Repositorio Acad&eacute;mico de la Universidad de Chile" class="navbar-brand" href="/">
+<h1>Repositorio Acad&eacute;mico de la Universidad de Chile</h1>
+</a>
+</div>
+</div>
+<div class="ds-option-set" id="ds-search-option">
+<form method="post" class="" id="ds-search-form" action="/discover">
+<fieldset>
+<div class="input-group">
+<label style=" text-indent: -5000px" id="label_buscar" for="query_buscar">Search</label><input placeholder="Search" size="100" type="text" class="ds-text-field form-control" id="query_buscar" name="query"><span class="input-group-btn"><button title="Search" class="ds-button-field btn btn-primary"><span title="Buscar" aria-hidden="true" class="glyphicon glyphicon-search"></span></button></span>
+</div>
+</fieldset>
+</form>
+<div id="busqueda-avan">
+<a href="/discover">Advanced Search</a>
+</div>
+</div>
+<div class="navbar-header pull-right visible-xs hidden-sm hidden-md hidden-lg">
+<ul class="nav nav-pills pull-left ">
+<li>
+<form method="get" action="/login" style="display: inline"></form>
+</li>
+</ul>
+</div>
+</div>
+<div class="navbar-header pull-right hidden-xs">
+<button type="button" class="navbar-toggle visible-sm" data-toggle="offcanvas"><span class="sr-only">xmlui.mirage2.page-structure.toggleNavigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+</div>
+</div>
+</div>
+</header>
+</div>
+<div class="trail-wrapper hidden-print">
+<div class="container">
+<div class="row">
+<div class="col-xs-8">
+<ul class="breadcrumb">
+<li>
+<i aria-hidden="true" class="glyphicon glyphicon-home"></i>&nbsp;
+		            Home</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden" id="no-js-warning-wrapper">
+<div id="no-js-warning">
+<div class="notice failure">JavaScript is disabled for your browser. Some features of this site may not work without it.</div>
+</div>
+</div>
+<div class="row" id="main-container">
+<div class="row row-offcanvas row-offcanvas-right">
+<div class="horizontal-slider clearfix">
+<div class="primero">
+<div class="container text-center">
+<div class="dc_type_home">
+<div class="col-sm-4 dc_type">
+<a href="/discover?filtertype=type&filter_relational_operator=equals&filter=Tesis">
+<div class="numero_home_caja">64304</div>
+<div class="texto_home_caja">Thesis</div>
+</a>
+</div>
+<div class="col-sm-4 dc_type">
+<a href="/discover?filtertype=type&filter_relational_operator=equals&filter=Art%C3%ADculo+de+revista">
+<div class="numero_home_caja">42826</div>
+<div class="texto_home_caja">Journal articles</div>
+</a>
+</div>
+<div class="col-sm-4 dc_type">
+<a href="/discover?filtertype=type&filter_relational_operator=equals&filter=Libro">
+<div class="numero_home_caja">1308</div>
+<div class="texto_home_caja">Books</div>
+</a>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li>
+<a href="/search-filter?field=type" class="view">View more</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="segunda">
+<div class="container">
+<div class="descubre_home">
+<div class="descubre title center-block">Discovery</div>
+<div class="cajas_descubre">
+<div class="descubre col-sm-4 autor">
+<a href="/search-filter?field=author">Authors</a>
+</div>
+<div class="descubre col-sm-4 tema">
+<a href="/browse?type=subject">Subject</a>
+</div>
+<div class="descubre col-sm-4 fecha dropdown">
+<span>Dates</span>
+<div class="dropdown-content">
+<p>
+<a class="lesst" href="/discover?filtertype=dateIssued&filter_relational_operator=equals&filter=%5B2000+TO+2026%5D">2000 - 2026 (102201)</a>
+</p>
+<p>
+<a class="lesst" href="/discover?filtertype=dateIssued&filter_relational_operator=equals&filter=%5B1900+TO+1999%5D">1900 - 1999 (8311)</a>
+</p>
+<p>
+<a class="lesst" href="/discover?filtertype=dateIssued&filter_relational_operator=equals&filter=%5B1843+TO+1899%5D">1843 - 1899 (72)</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="display:none;" id="mastraduccion">More communitys</div>
+<div class="tercera">
+<div class="container">
+<div class="facultades_new">
+<div id="ds-body">
+<input id="meta" type="hidden" value="
+/loginen
+http80repositorio.uchile.cl6.3UA-57282998-1DSpaceopen-search/description.xml/contact/feedbackenEnglishen
+  xmlui.general.dspace_home
+  xmlui.general.dspace_home
+/discover/discoverquery/feed/rss_1.0/site/feed/rss_2.0/site/feed/atom_1.0/siteMirage2/Mirage2/
+
+
+
+
+
+
+
+
+
+">
+<h2 class="ds-div-head page-header first-page-header">DSpace Repository</h2>
+<div id="file_news_div_news" class="ds-static-div primary"></div>
+
+<h2 class="ds-div-head page-header">Research and academic communities</h2>
+<div id="aspect_artifactbrowser_CommunityBrowser_div_comunity-browser" class="ds-static-div primary">
+<p class="ds-paragraph"></p>
+<div id="aspect_artifactbrowser_CommunityBrowser_referenceSet_community-browser" class="ds-static-div community-browser-wrapper">
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/137451" name="community-browser-link">Consejo Universitario</a>
+<p class="ds-paragraph hidden-xs">Consejo Universitario</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/170411" name="community-browser-link">Consejo de Evaluaci&oacute;n</a>
+<p class="ds-paragraph hidden-xs">Consejo de Evaluaci&oacute;n</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100000" name="community-browser-link">Facultad de Arquitectura y Urbanismo</a>
+<p class="ds-paragraph hidden-xs">Facultad de Arquitectura y Urbanismo</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100001" name="community-browser-link">Facultad de Artes</a>
+<p class="ds-paragraph hidden-xs">Facultad de Artes</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100002" name="community-browser-link">Facultad de Ciencias</a>
+<p class="ds-paragraph hidden-xs">Facultad de Ciencias</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100003" name="community-browser-link">Facultad de Ciencias Agron&oacute;micas</a>
+<p class="ds-paragraph hidden-xs">Facultad de Ciencias Agron&oacute;micas</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100005" name="community-browser-link">Facultad de Ciencias Forestales y de la Conservaci&oacute;n de la Naturaleza</a>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100004" name="community-browser-link">Facultad de Ciencias F&iacute;sicas y Matem&aacute;ticas</a>
+<p class="ds-paragraph hidden-xs">Facultad de Ciencias F&iacute;sicas y Matem&aacute;ticas</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100006" name="community-browser-link">Facultad de Ciencias Qu&iacute;micas y Farmac&eacute;uticas</a>
+<p class="ds-paragraph hidden-xs">Facultad de Ciencias Qu&iacute;micas y Farmac&eacute;uticas</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100007" name="community-browser-link">Facultad de Ciencias Sociales</a>
+<p class="ds-paragraph hidden-xs">Facultad de Ciencias Sociales</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100008" name="community-browser-link">Facultad de Ciencias Veterinarias y Pecuarias</a>
+<p class="ds-paragraph hidden-xs">Facultad de Ciencias Veterinarias y Pecuarias</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100015" name="community-browser-link">Facultad de Comunicaci&oacute;n e Imagen</a>
+<p class="ds-paragraph hidden-xs">Facultad de Gobierno</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100009" name="community-browser-link">Facultad de Derecho</a>
+<p class="ds-paragraph hidden-xs">Facultad de Derecho</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100010" name="community-browser-link">Facultad de Econom&iacute;a y Negocios</a>
+<p class="ds-paragraph hidden-xs">Facultad de Econom&iacute;a y Negocios</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100011" name="community-browser-link">Facultad de Filosof&iacute;a y Humanidades</a>
+<p class="ds-paragraph hidden-xs">Facultad de Filosof&iacute;a y Humanidades</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100014" name="community-browser-link">Facultad de Gobierno</a>
+<p class="ds-paragraph hidden-xs">Facultad de Asuntos P&uacute;blicos</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100012" name="community-browser-link">Facultad de Medicina</a>
+<p class="ds-paragraph hidden-xs">Facultad de Medicina</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100013" name="community-browser-link">Facultad de Odontolog&iacute;a</a>
+<p class="ds-paragraph hidden-xs">Facultad de Odontolog&iacute;a</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/117714" name="community-browser-link">Hospital Cl&iacute;nico</a>
+<p class="ds-paragraph hidden-xs">Hospital Cl&iacute;nico de la Universidad de Chile</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/170418" name="community-browser-link">Instituto de Estudios Avanzados en Educaci&oacute;n</a>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100016" name="community-browser-link">Instituto de Estudios Internacionales</a>
+<p class="ds-paragraph hidden-xs">Instituto de Estudios Internacionales</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/116236" name="community-browser-link">Instituto de Nutrici&oacute;n y Tecnolog&iacute;a de los Alimentos</a>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/117727" name="community-browser-link">Publicaciones anteriores a 1960</a>
+<p class="ds-paragraph hidden-xs">Publicaciones anteriores a 1960</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/117729" name="community-browser-link">Rector&iacute;a</a>
+<p class="ds-paragraph hidden-xs">Rector&iacute;a</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/131237" name="community-browser-link">Senado Universitario</a>
+<p class="ds-paragraph hidden-xs">Senado Universitario</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/100017" name="community-browser-link">Vicerrector&iacute;a de Asuntos Acad&eacute;micos (VAA)</a>
+<p class="ds-paragraph hidden-xs">Vicerrector&iacute;a de Asuntos Acad&eacute;micos</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/117738" name="community-browser-link">Vicerrector&iacute;a de Asuntos Econ&oacute;micos y Gesti&oacute;n Institucional (VAEGI)</a>
+<p class="ds-paragraph hidden-xs">Vicerrector&iacute;a de Asuntos Econ&oacute;micos y Gesti&oacute;n Institucional</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/141208" name="community-browser-link">Vicerrector&iacute;a de Asuntos Estudiantiles y Comunitarios (VAEC)</a>
+<p class="ds-paragraph hidden-xs">Vicerrector&iacute;a de Asuntos Estudiantiles y Comunitarios</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/117739" name="community-browser-link">Vicerrector&iacute;a de Extensi&oacute;n y Comunicaciones (VEXCOM)</a>
+<p class="ds-paragraph hidden-xs">Vicerrector&iacute;a de Extensi&oacute;n</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/117740" name="community-browser-link">Vicerrector&iacute;a de Investigaci&oacute;n y Desarrollo (VID)</a>
+<p class="ds-paragraph hidden-xs">Vicerrector&iacute;a de Investigaci&oacute;n y Desarrollo</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/2250/214169" name="community-browser-link">Vicerrector&iacute;a de Tecnolog&iacute;as de la Informaci&oacute;n (VTI)</a>
+</div>
+</div>
+</div>
+</div>
+<div id="aspect_discovery_SiteRecentSubmissions_div_site-home" class="ds-static-div primary repository">
+<h2 class="ds-div-head page-header">Recently Added</h2>
+<div id="aspect_discovery_SiteRecentSubmissions_div_site-recent-submission" class="ds-static-div secondary recent-submission">
+<ul class="ds-artifact-list list-unstyled">
+<!-- External Metadata URL: cocoon://metadata/handle/2250/217680/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item jumpUch_new  odd">
+<div class="item-wrapper">
+<div class="col-sm-3 hidden-xs"></div>
+<div class="col-sm-10">
+<div class="artifact-description">
+<div class="artifact-title">
+<a href="/handle/2250/217680">Plan de negocio para el crecimiento a nivel nacional de una empresa dedicada al servicio de certificaci&oacute;n ...</a><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=https%3A%2F%2Frepositorio.uchile.cl%2Fhandle%2F2250%2F217680&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</div>
+<div class="artifact-info">
+<span class="author h4"><small><span>Espinoza Fern&aacute;ndez, Ren&eacute; Mario Miguel</span></small></span> <span class="publisher-date h4"><small>(<span class="publisher">Universidad de Chile</span>, <span class="date">2025</span>)</small></span>
+</div>
+<div class="artifact-abstract">El servicio de Certificaci&oacute;n del Mantenimiento de Buses se encuentre regulado por el&#13;
+Ministerio de Transportes y Telecomunicaciones (MTT), para los sistemas de transporte&#13;
+p&uacute;blico urbano de Santiago RED, y en algunas ...</div>
+</div>
+</div>
+</div>
+</li>
+<!-- External Metadata URL: cocoon://metadata/handle/2250/217679/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item jumpUch_new  even">
+<div class="item-wrapper">
+<div class="col-sm-3 hidden-xs"></div>
+<div class="col-sm-10">
+<div class="artifact-description">
+<div class="artifact-title">
+<a href="/handle/2250/217679">Evaluaci&oacute;n de factibilidad estrat&eacute;gica, t&eacute;cnica y econ&oacute;mica para la creaci&oacute;n de una empresa de consultor&iacute;a ...</a><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=https%3A%2F%2Frepositorio.uchile.cl%2Fhandle%2F2250%2F217679&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</div>
+<div class="artifact-info">
+<span class="author h4"><small><span>Tapia V&aacute;squez, Viktor Andr&eacute;s</span></small></span> <span class="publisher-date h4"><small>(<span class="publisher">Universidad de Chile</span>, <span class="date">2025</span>)</small></span>
+</div>
+<div class="artifact-abstract">El presente trabajo evalu&oacute; la factibilidad estrat&eacute;gica, t&eacute;cnica y econ&oacute;mica de crear una&#13;
+empresa de consultor&iacute;a en tecnolog&iacute;as de informaci&oacute;n (TI), especializada en medios de&#13;
+pago para el sistema financiero chileno, que ...</div>
+</div>
+</div>
+</div>
+</li>
+<!-- External Metadata URL: cocoon://metadata/handle/2250/217678/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item jumpUch_new  odd">
+<div class="item-wrapper">
+<div class="col-sm-3 hidden-xs"></div>
+<div class="col-sm-10">
+<div class="artifact-description">
+<div class="artifact-title">
+<a href="/handle/2250/217678">Thiosemicarbazone- and Thiourea-Functionalized Calix[4]arenes in cone and 1,3-alternate Conformations: ...</a><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=Chemosensors%2C+vol.+13%2C+no.+2%2C+art.+48%2C+2025&amp;rft_id=2227-9040&amp;rft_id=10.3390%2Fchemosensors13020048&amp;rft_id=https%3A%2F%2Frepositorio.uchile.cl%2Fhandle%2F2250%2F217678&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</div>
+<div class="artifact-info">
+<span class="author h4"><small><span>Ochoa, Andres</span>; <span>Hernandez-Arancibia, Belen</span>; <span>Herrera-Munoz, Jose</span>; <span>Gomez-Machuca, Horacio</span>; <span>Saitz, Claudio</span></small></span> <span class="publisher-date h4"><small>(<span class="date">2025</span>)</small></span>
+</div>
+<div class="artifact-abstract">In this research we have synthesized and evaluated five calix[4]arene-based receptors functionalized with thiosemicarbazone or thiourea groups, incorporating pyridinyl naphthalene or triazolopyridine chromophores in ...</div>
+</div>
+</div>
+</div>
+</li>
+<!-- External Metadata URL: cocoon://metadata/handle/2250/217677/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item jumpUch_new  even">
+<div class="item-wrapper">
+<div class="col-sm-3 hidden-xs"></div>
+<div class="col-sm-10">
+<div class="artifact-description">
+<div class="artifact-title">
+<a href="/handle/2250/217677">Global and Local Infall in the ASHES Sample (GLASHES). I. Pilot Study in G337.541</a><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=Astrophysical+Journal%2C+vol.+979%2C+no.+2%2C+art.+233%2C+2025&amp;rft_id=0004-637X&amp;rft_id=1538-4357&amp;rft_id=10.3847%2F1538-4357%2Fada27f&amp;rft_id=https%3A%2F%2Frepositorio.uchile.cl%2Fhandle%2F2250%2F217677&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</div>
+<div class="artifact-info">
+<span class="author h4"><small><span>Morii, Kaho</span>; <span>Sanhueza, Patricio</span>; <span>Csengeri, Timea</span>; <span>Nakamura, Fumitaka</span>; <span>Bontemps, Sylvain</span>; <span>Garay, Guido</span>; <span>Zhang, Qizhou</span></small></span> <span class="publisher-date h4"><small>(<span class="date">2025</span>)</small></span>
+</div>
+<div class="artifact-abstract">Recent high-angular-resolution observations indicate the need for core growth to form high-mass stars. To understand the gas dynamics at the core scale in the very early evolutionary stages before being severely affected ...</div>
+</div>
+</div>
+</div>
+</li>
+<!-- External Metadata URL: cocoon://metadata/handle/2250/217676/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item jumpUch_new  odd">
+<div class="item-wrapper">
+<div class="col-sm-3 hidden-xs"></div>
+<div class="col-sm-10">
+<div class="artifact-description">
+<div class="artifact-title">
+<a href="/handle/2250/217676">Dise&ntilde;o de un modelo de gesti&oacute;n de datos de costos de distribuci&oacute;n para la mejora de toma de decisiones ...</a><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=https%3A%2F%2Frepositorio.uchile.cl%2Fhandle%2F2250%2F217676&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</div>
+<div class="artifact-info">
+<span class="author h4"><small><span>Mella Pe&ntilde;a, Mat&iacute;as Alejandro</span></small></span> <span class="publisher-date h4"><small>(<span class="publisher">Universidad de Chile</span>, <span class="date">2025</span>)</small></span>
+</div>
+<div class="artifact-abstract">El presente trabajo aborda el dise&ntilde;o de un modelo de gesti&oacute;n de datos para los costos de&#13;
+distribuci&oacute;n de una importante aerol&iacute;nea norteamericana. La compa&ntilde;&iacute;a enfrentaba un desaf&iacute;o&#13;
+estrat&eacute;gico: su proceso para analizar ...</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<p id="aspect_discovery_SiteRecentSubmissions_p_recent-submission-view-more" class="ds-paragraph recentSubmissionViewMore">
+<a href="/recent-submissions">View more</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tercerab"></div>
+<div class="cuarta">
+<div class="container">
+<div class="autores_home col-md-6">
+<div class="autores title center-block">Featured Authors</div>
+<ul class="autores">
+<li class="destacados">
+<a class="alto" href="/discover?filtertype=author&filter_relational_operator=equals&filter=Lavandero+Gonz%C3%A1lez%2C+Sergio">Lavandero Gonz&aacute;lez, Sergio (304)</a>
+</li>
+<li class="destacados">
+<a class="alto" href="/discover?filtertype=author&filter_relational_operator=equals&filter=Cassels+Niven%2C+Bruce">Cassels Niven, Bruce (298)</a>
+</li>
+<li class="destacados">
+<a class="alto" href="/discover?filtertype=author&filter_relational_operator=equals&filter=Squella+Serrano%2C+Juan">Squella Serrano, Juan (211)</a>
+</li>
+<li class="destacados">
+<a class="alto" href="/discover?filtertype=author&filter_relational_operator=equals&filter=N%C3%BA%C3%B1ez+Vergara%2C+Luis">N&uacute;&ntilde;ez Vergara, Luis (196)</a>
+</li>
+<li class="destacados">
+<a class="alto" href="/discover?filtertype=author&filter_relational_operator=equals&filter=Olea+Azar%2C+Claudio">Olea Azar, Claudio (178)</a>
+</li>
+<li class="destacados">
+<a class="alto" href="/discover?filtertype=author&filter_relational_operator=equals&filter=Hetz+Flores%2C+Claudio">Hetz Flores, Claudio (171)</a>
+</li>
+<li class="destacados">
+<a class="alto" href="/discover?filtertype=author&filter_relational_operator=equals&filter=Csendes+Juhasz%2C+Attila">Csendes Juhasz, Attila (164)</a>
+</li>
+<li class="destacados">
+<a class="alto" href="/discover?filtertype=author&filter_relational_operator=equals&filter=Chiong+Lay%2C+Mario">Chiong Lay, Mario (151)</a>
+</li>
+<li class="destacados">
+<a class="alto" href="/discover?filtertype=author&filter_relational_operator=equals&filter=Garland%2C+Mar%C3%ADa+Teresa">Garland, Mar&iacute;a Teresa (145)</a>
+</li>
+<li class="destacados">
+<a class="alto" href="/discover?filtertype=author&filter_relational_operator=equals&filter=Videla+Cabrera%2C+Luis">Videla Cabrera, Luis (140)</a>
+</li>
+<li class="destacados">
+<a class="alto" href="/search-filter?field=author&filterorder=COUNT">... View More</a>
+</li>
+</ul>
+</div>
+<div class="destacados_home col-md-6">
+<div class="destacados title center-block">Featured Titles</div>
+<ul class="destacados_contenido">
+<li class="destacados">
+<a href="https://repositorio.uchile.cl/handle/2250/184686" class="des_title">Cambio clim&aacute;tico y desastres naturales: una perspectiva macroregional</a>
+</li>
+<li class="destacados">
+<a href="https://repositorio.uchile.cl/handle/2250/185900" class="des_title">Pueblos ind&iacute;genas en el contexto del cambio clim&aacute;tico: tratamiento en la Convenci&oacute;n Marco de las Naciones Unidas sobre...</a>
+</li>
+<li class="destacados">
+<a href="https://repositorio.uchile.cl/handle/2250/150869" class="des_title">Efectos del cambio clima?tico en los cultivos de palto</a>
+</li>
+<li class="destacados">
+<a href="https://repositorio.uchile.cl/handle/2250/177217" class="des_title">COVID-19: precautions with children in home mechanical ventilation</a>
+</li>
+<li class="destacados">
+<a href="https://repositorio.uchile.cl/handle/2250/180365" class="des_title">Predictive modeling to estimate the demand for intensive care hospital beds nationwide in the context of the COVID-19 ...</a>
+</li>
+<li class="destacados">
+<a href="https://repositorio.uchile.cl/handle/2250/179709" class="des_title">An International Perspective on Racism: Foster Self-Determination Among Youth and Oppose Systemic Racism Globally</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-xs hidden-sm"></div>
+</div>
+<footer>
+<div class="row colors">
+<div class="container ">
+<div class="col-xs-12 col-sm-4 col-md-4 izqN">
+<div class="redRL">xmlui.footer.title</div>
+<div class="bajaMR">31 participating institutions</div>
+<div>More than 100,000 publications</div>
+<div>More than 110,000 topics</div>
+<div>More than 75,000 authors</div>
+</div>
+<div class="col-md-8">
+<div class="col-xs-12 col-sm-4 col-md-4 hidden-print derN">
+<div class="tituloCD">Published in the repository</div>
+<div class="coldes">
+		
+<ul>
+			
+<li>
+<a href="/page/comoPublicar">How to publish</a>
+</li>
+			
+<li>
+<a href="/page/definiciones">Definitions</a>
+</li>
+			
+<li>
+<a href="/page/derechos_autor">Copyright</a>
+</li>
+			
+<li>
+<a href="/page/faq">Frequent questions</a>
+</li>
+			
+		
+</ul>
+	
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 hidden-print derN">
+<div class="tituloCD">Documents</div>
+<div class="coldes">
+		
+<ul>
+			
+<li>
+<a href="/pdf/guia.pdf">Dating Guide</a>
+</li>
+			
+<li>
+<a href="/pdf/Formulario_de_Autorizacion_de_tesis.pdf">Thesis authorization</a>
+</li>
+			
+<li>
+<a href="/pdf/Formulario_de_Autorizacion_de_documentos.pdf">Document authorization</a>
+</li>
+			
+<li>
+<a href="/pdf/Pauta_de_presentacion_de_tesis_2015.pdf">How to prepare a thesis (PDF)</a>
+</li>
+		
+</ul>
+	
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 hidden-print derN">
+<div class="tituloCD">Services</div>
+<div class="coldes">
+		
+<ul>
+			
+<li>
+<a href="https://bibliotecadigital.uchile.cl" target="_blank" rel="noopener">Digital library</a>
+</li>
+			
+<li>
+<a href="https://revistaschilenas.uchile.cl" target="_blank" rel="noopener">Chilean academic journals portal</a>
+</li>
+			
+<li>
+<a href="https://repositorioslatinoamericanos.uchile.cl/" target="_blank" rel="noopener">Latin American Repository Network</a>
+</li>
+			
+<li>
+<a href="https://repositorioslatinoamericanos.uchile.cl/discover?filtertype=type&filter_relational_operator=equals&filter=Tesis" target="_blank" rel="noopener">Latin American theses</a>
+</li>
+			
+<li>
+<a href="https://repositorioslatinoamericanos.uchile.cl/handle/2250/1/discover?filtertype=type&filter_relational_operator=equals&filter=Tesis" target="_blank" rel="noopener">Chilean theses</a>
+</li>
+		
+</ul>
+	
+</div>
+</div>
+<div class="bajaMR zizbim col-md-8">
+<span class="footer_sisib">Direcci&oacute;n de Servicios de Informaci&oacute;n y Bibliotecas (SISIB)<br>Universidad de Chile</span>
+<br>&copy; 2020 DSpace</div>
+<div class="col-md-2 ka">
+<div class="header_login login_footer">
+<ul class="nav navbar-nav">
+<li>
+<a href="/login">Access my account</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<a class="hidden" href="/htmlmap">&nbsp;</a>
+</footer>
+<script type="text/javascript">
+                         if(typeof window.publication === 'undefined'){
+                            window.publication={};
+                          };
+                        window.publication.contextPath= '';window.publication.themePath= '/themes/Mirage2/';</script><script>if(!window.DSpace){window.DSpace={};}window.DSpace.context_path='';window.DSpace.theme_path='/themes/Mirage2/';</script><script src="/themes/Mirage2/scripts/theme.js"> </script><script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-57282998-1', 'repositorio.uchile.cl');
+                ga('send', 'pageview');
+            </script><script src="https://www.googletagmanager.com/gtag/js?id=G-5VTJWRS9K3"></script><script>
+		
+			window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-5VTJWRS9K3');
+		
+		</script>
+</body></html>

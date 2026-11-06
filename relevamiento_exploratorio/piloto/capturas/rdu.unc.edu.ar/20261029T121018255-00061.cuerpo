@@ -1,0 +1,497 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "f8973981-9650-41e0-b688-5a9f6c9415f3",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/f8973981-9650-41e0-b688-5a9f6c9415f3/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/f8973981-9650-41e0-b688-5a9f6c9415f3/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/f8973981-9650-41e0-b688-5a9f6c9415f3/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/f8973981-9650-41e0-b688-5a9f6c9415f3"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "0f0a403c-b064-4b8a-8b48-d40e29c3cea6",
+              "uuid" : "0f0a403c-b064-4b8a-8b48-d40e29c3cea6",
+              "name" : "UNC Transporte Publico Falavigna.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "UNC Transporte Publico Falavigna.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "UNC Transporte Publico Falavigna.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 4638220,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "4a0c25ae521efcc3ac50e092b627ddd4"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/0f0a403c-b064-4b8a-8b48-d40e29c3cea6/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/0f0a403c-b064-4b8a-8b48-d40e29c3cea6/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/0f0a403c-b064-4b8a-8b48-d40e29c3cea6/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/0f0a403c-b064-4b8a-8b48-d40e29c3cea6/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/0f0a403c-b064-4b8a-8b48-d40e29c3cea6"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/f8973981-9650-41e0-b688-5a9f6c9415f3/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "9f22d7ae-f09f-4497-9dd3-751072db538d",
+      "name" : "CC-LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "CC-LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/9f22d7ae-f09f-4497-9dd3-751072db538d/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/9f22d7ae-f09f-4497-9dd3-751072db538d/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/9f22d7ae-f09f-4497-9dd3-751072db538d/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/9f22d7ae-f09f-4497-9dd3-751072db538d"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "46d5a29a-feaa-4915-b476-95d02ff814f7",
+              "uuid" : "46d5a29a-feaa-4915-b476-95d02ff814f7",
+              "name" : "license_rdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "org.dspace.license.CreativeCommons",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license_rdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "CC-LICENSE",
+              "sizeBytes" : 1527,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "79a5b6cf1eb48c19b70211975714b4c5"
+              },
+              "sequenceId" : 2,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/46d5a29a-feaa-4915-b476-95d02ff814f7/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/46d5a29a-feaa-4915-b476-95d02ff814f7/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/46d5a29a-feaa-4915-b476-95d02ff814f7/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/46d5a29a-feaa-4915-b476-95d02ff814f7/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/46d5a29a-feaa-4915-b476-95d02ff814f7"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/9f22d7ae-f09f-4497-9dd3-751072db538d/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "48aaf7a1-a462-4da4-a532-9ed61fb391ce",
+      "name" : "LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/48aaf7a1-a462-4da4-a532-9ed61fb391ce/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/48aaf7a1-a462-4da4-a532-9ed61fb391ce/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/48aaf7a1-a462-4da4-a532-9ed61fb391ce/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/48aaf7a1-a462-4da4-a532-9ed61fb391ce"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "67a55c1a-dc23-4c60-9143-aede7d47d538",
+              "uuid" : "67a55c1a-dc23-4c60-9143-aede7d47d538",
+              "name" : "license.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "Written by org.dspace.content.LicenseUtils",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "LICENSE",
+              "sizeBytes" : 2067,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "eb07d85a87b80708c1cede9b4dac4ba6"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/67a55c1a-dc23-4c60-9143-aede7d47d538/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/67a55c1a-dc23-4c60-9143-aede7d47d538/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/67a55c1a-dc23-4c60-9143-aede7d47d538/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/67a55c1a-dc23-4c60-9143-aede7d47d538/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/67a55c1a-dc23-4c60-9143-aede7d47d538"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/48aaf7a1-a462-4da4-a532-9ed61fb391ce/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "132043a0-af38-48cd-906e-5bbac2f2d002",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/132043a0-af38-48cd-906e-5bbac2f2d002/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/132043a0-af38-48cd-906e-5bbac2f2d002/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/132043a0-af38-48cd-906e-5bbac2f2d002/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/132043a0-af38-48cd-906e-5bbac2f2d002"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "b1e8cbde-420a-4fb1-a461-fcd2a8c4e07d",
+              "uuid" : "b1e8cbde-420a-4fb1-a461-fcd2a8c4e07d",
+              "name" : "UNC Transporte Publico Falavigna.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFFilter on 2022-03-24T09:23:25Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "UNC Transporte Publico Falavigna.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 348182,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "68724f8d3f2e81ce3740ea1e22f38b9b"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/b1e8cbde-420a-4fb1-a461-fcd2a8c4e07d/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/b1e8cbde-420a-4fb1-a461-fcd2a8c4e07d/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/b1e8cbde-420a-4fb1-a461-fcd2a8c4e07d/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/b1e8cbde-420a-4fb1-a461-fcd2a8c4e07d/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/b1e8cbde-420a-4fb1-a461-fcd2a8c4e07d"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/132043a0-af38-48cd-906e-5bbac2f2d002/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "32b08d53-856b-44a8-b6dd-a8e0fe811a0b",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/32b08d53-856b-44a8-b6dd-a8e0fe811a0b/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/32b08d53-856b-44a8-b6dd-a8e0fe811a0b/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/32b08d53-856b-44a8-b6dd-a8e0fe811a0b/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/32b08d53-856b-44a8-b6dd-a8e0fe811a0b"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "8e365aa2-7684-4206-bc04-760b26253215",
+              "uuid" : "8e365aa2-7684-4206-bc04-760b26253215",
+              "name" : "UNC Transporte Publico Falavigna.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "IM Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.ImageMagickPdfThumbnailFilter on 2022-03-24T09:23:26Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "UNC Transporte Publico Falavigna.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 8733,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "0a08a7c29134c424e9c6a24f211e1363"
+              },
+              "sequenceId" : 5,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/8e365aa2-7684-4206-bc04-760b26253215/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/8e365aa2-7684-4206-bc04-760b26253215/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/8e365aa2-7684-4206-bc04-760b26253215/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/8e365aa2-7684-4206-bc04-760b26253215/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/8e365aa2-7684-4206-bc04-760b26253215"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/32b08d53-856b-44a8-b6dd-a8e0fe811a0b/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://rdu.unc.edu.ar/server/api/core/items/0008f891-c9cb-421a-a43a-9bee12454516/bundles?embed=bitstreams"
+    }
+  }
+}

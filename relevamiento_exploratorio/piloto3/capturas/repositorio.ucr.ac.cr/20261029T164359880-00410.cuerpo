@@ -1,0 +1,425 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "f95b3378-eba8-43ad-81bb-b1b06da69515",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/f95b3378-eba8-43ad-81bb-b1b06da69515/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/f95b3378-eba8-43ad-81bb-b1b06da69515/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/f95b3378-eba8-43ad-81bb-b1b06da69515/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/f95b3378-eba8-43ad-81bb-b1b06da69515"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "0e1133ec-ba0c-4ee9-8ec4-11e822c9c309",
+              "uuid" : "0e1133ec-ba0c-4ee9-8ec4-11e822c9c309",
+              "name" : "PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 1204370,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "67f1b7c4610651a1ef05f6d200bf44f0"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "uniqueType" : "core.bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/f95b3378-eba8-43ad-81bb-b1b06da69515/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "007e3c0c-40a3-4b5f-ba45-dcea0ab5ef7d",
+      "name" : "LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/007e3c0c-40a3-4b5f-ba45-dcea0ab5ef7d/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/007e3c0c-40a3-4b5f-ba45-dcea0ab5ef7d/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/007e3c0c-40a3-4b5f-ba45-dcea0ab5ef7d/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/007e3c0c-40a3-4b5f-ba45-dcea0ab5ef7d"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "9fd46825-b5c8-45e5-8b9d-ea63b873dbb4",
+              "uuid" : "9fd46825-b5c8-45e5-8b9d-ea63b873dbb4",
+              "name" : "license.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "Written by org.dspace.content.LicenseUtils",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dcterms.accessRights" : [ {
+                  "value" : "2026-06-03T18:47:10Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "LICENSE",
+              "sizeBytes" : 3584,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "b39c1930822b6ee5a194051b92f3a43e"
+              },
+              "sequenceId" : 2,
+              "type" : "bitstream",
+              "uniqueType" : "core.bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/9fd46825-b5c8-45e5-8b9d-ea63b873dbb4/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/9fd46825-b5c8-45e5-8b9d-ea63b873dbb4/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/9fd46825-b5c8-45e5-8b9d-ea63b873dbb4/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/9fd46825-b5c8-45e5-8b9d-ea63b873dbb4/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/9fd46825-b5c8-45e5-8b9d-ea63b873dbb4/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/9fd46825-b5c8-45e5-8b9d-ea63b873dbb4"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/007e3c0c-40a3-4b5f-ba45-dcea0ab5ef7d/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "a136b7b2-3f44-4d1e-88ac-66d6f7abecc2",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/a136b7b2-3f44-4d1e-88ac-66d6f7abecc2/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/a136b7b2-3f44-4d1e-88ac-66d6f7abecc2/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/a136b7b2-3f44-4d1e-88ac-66d6f7abecc2/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/a136b7b2-3f44-4d1e-88ac-66d6f7abecc2"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "8f6a53da-1d88-4ac7-88d6-5e3a46d9c131",
+              "uuid" : "8f6a53da-1d88-4ac7-88d6-5e3a46d9c131",
+              "name" : "PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-06-04T09:00:17Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 105621,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "ec22ff81c1373bf4ac8b2f805d96e090"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "uniqueType" : "core.bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/8f6a53da-1d88-4ac7-88d6-5e3a46d9c131/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/8f6a53da-1d88-4ac7-88d6-5e3a46d9c131/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/8f6a53da-1d88-4ac7-88d6-5e3a46d9c131/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/8f6a53da-1d88-4ac7-88d6-5e3a46d9c131/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/8f6a53da-1d88-4ac7-88d6-5e3a46d9c131/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/8f6a53da-1d88-4ac7-88d6-5e3a46d9c131"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/a136b7b2-3f44-4d1e-88ac-66d6f7abecc2/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "9ab6eb08-fefa-480b-93ee-cd858a7d3a06",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/9ab6eb08-fefa-480b-93ee-cd858a7d3a06/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/9ab6eb08-fefa-480b-93ee-cd858a7d3a06/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/9ab6eb08-fefa-480b-93ee-cd858a7d3a06/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/9ab6eb08-fefa-480b-93ee-cd858a7d3a06"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "47f44abc-b4b0-4611-9236-9b0da2de68df",
+              "uuid" : "47f44abc-b4b0-4611-9236-9b0da2de68df",
+              "name" : "PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Generated Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2026-06-04T09:00:18Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 3789,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "fa680a5477e001ee36f5ddb7a5cbf911"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "uniqueType" : "core.bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/47f44abc-b4b0-4611-9236-9b0da2de68df/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/47f44abc-b4b0-4611-9236-9b0da2de68df/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/47f44abc-b4b0-4611-9236-9b0da2de68df/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/47f44abc-b4b0-4611-9236-9b0da2de68df/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/47f44abc-b4b0-4611-9236-9b0da2de68df/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/47f44abc-b4b0-4611-9236-9b0da2de68df"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/9ab6eb08-fefa-480b-93ee-cd858a7d3a06/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/00059353-d9b3-4335-a775-48edc7e61639/bundles?embed=bitstreams"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+ "pedido": "20261029T164359880-00242",
+ "url": "https://repositorio.ufmg.br/server/api/core/items/000ea630-72aa-4c8e-a3ae-2dda1faff8fd/bundles?embed=bitstreams",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:51:06 GMT"
+  ],
+  [
+   "content-type",
+   "application/json;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "cache-control",
+   "no-cache, no-store, max-age=0, must-revalidate"
+  ],
+  [
+   "pragma",
+   "no-cache"
+  ],
+  [
+   "expires",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=15724800; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

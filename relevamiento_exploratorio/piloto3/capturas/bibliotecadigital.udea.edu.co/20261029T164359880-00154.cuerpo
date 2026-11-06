@@ -1,0 +1,437 @@
+{
+  "id" : "000317dd-d3df-4ff7-b57b-4085347cb1f7",
+  "uuid" : "000317dd-d3df-4ff7-b57b-4085347cb1f7",
+  "name" : "Evaluation of the potential use of the by-products of Passiflora maliformis L. and Passiflora edulis Sims from the Southern Colombian Massif as dietary fibre and prebiotic activity",
+  "handle" : "10495/46151",
+  "metadata" : {
+    "dc.contributor.author" : [ {
+      "value" : "Sabogal Palma, Angie Carolina",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Zapata Ocampo, Paola Andrea",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Rodríguez Cabal, Héctor Alejandro",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Monsalve Fonnegra, Zulma Isabel",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Ocampo Jiménez, Omar",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "Mendez Arteaga, John Jairo",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 5
+    } ],
+    "dc.contributor.researchgroup" : [ {
+      "value" : "AgroBiotecnología",
+      "language" : null,
+      "authority" : "virtual::16798",
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.coverage.spatial" : [ {
+      "value" : "El macizo colombiano",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2025-05-28T23:40:28Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2024",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Within tropical fruits, the Passifloraceae family is distinguished; Colombia is recognised as the most diverse country in this family. In this study, we aimed to evaluate the potential use of by-products\n(shell-seeds + pulp) of Passiflora maliformis L. and Passiflora edulis Sims as dietary fibre and prebiotic activity, through tests of water, oil and swelling retention capacity and dietary fibre, its potential application was evident in products that require hydration, viscosity development and freshness conservation. Toxicity test, extracts can be classified as ‘safe’ when ingested, as cell viability is equal to or greater than\n90%. Probiotic potential is evident for a growth of Latilactobacillus sakei BAP110-FSC111 ranging from 15% to 100%, Lactiplantibacillus plantarum CECT220 ranging from 10% to 75%, acid digestibility test,\nhydrolysis percentage varied from 20% to 100%, values according to the by-product, extract and study species. Highlighting its use as a source of prebiotics, because it increases the proliferation of probiotics from the Lactobacillus family.",
+      "language" : "eng",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.researchgroupid" : [ {
+      "value" : "COL0122947",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.format.extent" : [ {
+      "value" : "16 paginas",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.format.mimetype" : [ {
+      "value" : "application/pdf",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.citation" : [ {
+      "value" : "Sabogal-Palma, A. C., Zapata-Ocampo, P. A., Rodríguez-Cabal, H. A., Ocampo-Jiménez, O., Méndez-Arteaga, J. J., & Monsalve, Z. I. (2024). Evaluation of the potential use of the by-products of Passiflora maliformis L. and Passiflora edulis Sims from the Southern Colombian Massif as dietary fibre and prebiotic activity. International Journal of Food Science & Technology, 59(6), 3744-3754. https://doi.org/10.1111/ijfs.17116",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.doi" : [ {
+      "value" : "10.1111/ijfs.17116",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.eissn" : [ {
+      "value" : "1365-2621",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.issn" : [ {
+      "value" : "0950-5423",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "https://hdl.handle.net/10495/46151",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "eng",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.publisher" : [ {
+      "value" : "Oxford University Press ",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Wiley",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.publisher.place" : [ {
+      "value" : "Oxford, Inglaterra",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.citationendpage" : [ {
+      "value" : "3759",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.citationissue" : [ {
+      "value" : "6",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.citationstartpage" : [ {
+      "value" : "3744",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.citationvolume" : [ {
+      "value" : "59",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.ispartofjournal" : [ {
+      "value" : "International Journal of Food Science + Technology",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.ispartofjournalabbrev" : [ {
+      "value" : "Int. J. Food Sci. Technol.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.accessrights" : [ {
+      "value" : "info:eu-repo/semantics/openAccess",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.coar" : [ {
+      "value" : "http://purl.org/coar/access_right/c_abf2",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.license" : [ {
+      "value" : "Attribution 4.0 International",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.uri" : [ {
+      "value" : "http://creativecommons.org/licenses/by/4.0/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.decs" : [ {
+      "value" : "Alimentos Funcionales",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Functional Food",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Prebióticos",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Prebiotics",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    } ],
+    "dc.subject.lcsh" : [ {
+      "value" : "Passiflora",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.lcshuri" : [ {
+      "value" : "http://id.loc.gov/authorities/subjects/sh85098513",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.lemb" : [ {
+      "value" : "Alimentos dietéticos",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Dietetic foods",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Fibra en la nutrición humana",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Fiber in human nutrition",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Absorción (fisiología)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "Absorption (physiology)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 5
+    } ],
+    "dc.subject.meshuri" : [ {
+      "value" : "https://id.nlm.nih.gov/mesh/D055951",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "https://id.nlm.nih.gov/mesh/D056692",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.title" : [ {
+      "value" : "Evaluation of the potential use of the by-products of Passiflora maliformis L. and Passiflora edulis Sims from the Southern Colombian Massif as dietary fibre and prebiotic activity",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Artículo de investigación",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.coar" : [ {
+      "value" : "http://purl.org/coar/resource_type/c_2df8fbb1",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.coarversion" : [ {
+      "value" : "http://purl.org/coar/version/c_970fb48d4fbd8a85",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.content" : [ {
+      "value" : "Text",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.driver" : [ {
+      "value" : "info:eu-repo/semantics/article",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.redcol" : [ {
+      "value" : "http://purl.org/redcol/resource_type/ART",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.version" : [ {
+      "value" : "info:eu-repo/semantics/publishedVersion",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dspace.entity.type" : [ {
+      "value" : "Publication",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "relation.isOrgUnitOfPublication" : [ {
+      "value" : "309f7783-c61c-4db4-a7f5-74ba4bd99fa4",
+      "language" : null,
+      "authority" : "virtual::16798",
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "relation.isOrgUnitOfPublication.latestForDiscovery" : [ {
+      "value" : "309f7783-c61c-4db4-a7f5-74ba4bd99fa4",
+      "language" : null,
+      "authority" : "virtual::16798",
+      "confidence" : -1,
+      "place" : -1
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-10-06T19:06:41.067+00:00",
+  "entityType" : "Publication",
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000317dd-d3df-4ff7-b57b-4085347cb1f7/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000317dd-d3df-4ff7-b57b-4085347cb1f7/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000317dd-d3df-4ff7-b57b-4085347cb1f7/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000317dd-d3df-4ff7-b57b-4085347cb1f7/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000317dd-d3df-4ff7-b57b-4085347cb1f7/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000317dd-d3df-4ff7-b57b-4085347cb1f7/relationships"
+    },
+    "version" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000317dd-d3df-4ff7-b57b-4085347cb1f7/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000317dd-d3df-4ff7-b57b-4085347cb1f7/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000317dd-d3df-4ff7-b57b-4085347cb1f7/thumbnail"
+    },
+    "self" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000317dd-d3df-4ff7-b57b-4085347cb1f7"
+    }
+  }
+}

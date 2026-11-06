@@ -1,0 +1,314 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "0961e164-cf7f-4895-84c8-305f6bafe749",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.unesp.br/server/api/core/bundles/0961e164-cf7f-4895-84c8-305f6bafe749/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.unesp.br/server/api/core/bundles/0961e164-cf7f-4895-84c8-305f6bafe749/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.unesp.br/server/api/core/bundles/0961e164-cf7f-4895-84c8-305f6bafe749/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.unesp.br/server/api/core/bundles/0961e164-cf7f-4895-84c8-305f6bafe749"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "43c9948e-9768-4351-860c-616e1007460d",
+              "uuid" : "43c9948e-9768-4351-860c-616e1007460d",
+              "name" : "ISSN1679-4605-2006-03-01-81-97.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.title" : [ {
+                  "value" : "ISSN1679-4605-2006-03-01-81-97.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 300929,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "559dfba90eba65f079612e9de3046c73"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "uniqueType" : "core.bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/43c9948e-9768-4351-860c-616e1007460d/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/43c9948e-9768-4351-860c-616e1007460d/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/43c9948e-9768-4351-860c-616e1007460d/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/43c9948e-9768-4351-860c-616e1007460d/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/43c9948e-9768-4351-860c-616e1007460d/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/43c9948e-9768-4351-860c-616e1007460d"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.unesp.br/server/api/core/bundles/0961e164-cf7f-4895-84c8-305f6bafe749/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "d9c82e72-50a8-4076-a48f-c0d2491e5486",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.unesp.br/server/api/core/bundles/d9c82e72-50a8-4076-a48f-c0d2491e5486/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.unesp.br/server/api/core/bundles/d9c82e72-50a8-4076-a48f-c0d2491e5486/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.unesp.br/server/api/core/bundles/d9c82e72-50a8-4076-a48f-c0d2491e5486/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.unesp.br/server/api/core/bundles/d9c82e72-50a8-4076-a48f-c0d2491e5486"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "b3d631ec-279a-43cf-b8ab-9e7fc5e9b434",
+              "uuid" : "b3d631ec-279a-43cf-b8ab-9e7fc5e9b434",
+              "name" : "ISSN1679-4605-2006-03-01-81-97.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2023-09-30T06:00:13Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "ISSN1679-4605-2006-03-01-81-97.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 40476,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "77e738d91ba76e81fc3297613da58e0e"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "uniqueType" : "core.bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/b3d631ec-279a-43cf-b8ab-9e7fc5e9b434/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/b3d631ec-279a-43cf-b8ab-9e7fc5e9b434/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/b3d631ec-279a-43cf-b8ab-9e7fc5e9b434/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/b3d631ec-279a-43cf-b8ab-9e7fc5e9b434/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/b3d631ec-279a-43cf-b8ab-9e7fc5e9b434/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/b3d631ec-279a-43cf-b8ab-9e7fc5e9b434"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.unesp.br/server/api/core/bundles/d9c82e72-50a8-4076-a48f-c0d2491e5486/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "06e193ad-ec5c-4945-a6ed-82d4e2b4ddfa",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.unesp.br/server/api/core/bundles/06e193ad-ec5c-4945-a6ed-82d4e2b4ddfa/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.unesp.br/server/api/core/bundles/06e193ad-ec5c-4945-a6ed-82d4e2b4ddfa/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.unesp.br/server/api/core/bundles/06e193ad-ec5c-4945-a6ed-82d4e2b4ddfa/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.unesp.br/server/api/core/bundles/06e193ad-ec5c-4945-a6ed-82d4e2b4ddfa"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "c888b95e-8984-461c-9acd-04f8586bb376",
+              "uuid" : "c888b95e-8984-461c-9acd-04f8586bb376",
+              "name" : "ISSN1679-4605-2006-03-01-81-97.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "IM Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.ImageMagickPdfThumbnailFilter on 2016-11-11T14:58:54Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "ISSN1679-4605-2006-03-01-81-97.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 7439,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "cec60e3243a180db38ff6af0d3c3923d"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "uniqueType" : "core.bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/c888b95e-8984-461c-9acd-04f8586bb376/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/c888b95e-8984-461c-9acd-04f8586bb376/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/c888b95e-8984-461c-9acd-04f8586bb376/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/c888b95e-8984-461c-9acd-04f8586bb376/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/c888b95e-8984-461c-9acd-04f8586bb376/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.unesp.br/server/api/core/bitstreams/c888b95e-8984-461c-9acd-04f8586bb376"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.unesp.br/server/api/core/bundles/06e193ad-ec5c-4945-a6ed-82d4e2b4ddfa/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000ddb2-8599-4b46-a7c0-6c7e79216645/bundles?embed=bitstreams"
+    }
+  }
+}

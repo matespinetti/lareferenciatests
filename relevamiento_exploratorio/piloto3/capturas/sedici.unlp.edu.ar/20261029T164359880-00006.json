@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00006",
+ "url": "https://sedici.unlp.edu.ar",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:44:08 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-cocoon-version",
+   "2.2.0"
+  ],
+  [
+   "content-language",
+   "es-AR"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "x-frame-options",
+   "SAMEORIGIN"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "1; mode=block"
+  ],
+  [
+   "x-cache",
+   "MISS"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

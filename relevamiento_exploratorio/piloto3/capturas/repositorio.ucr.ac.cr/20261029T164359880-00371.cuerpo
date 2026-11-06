@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:54:34Z</responseDate><request verb="GetRecord" identifier="oai:kerwa.ucr.ac.cr:10669/105088" metadataPrefix="xoai">https://repositorio.ucr.ac.cr/server/oai/request</request><GetRecord><record><header><identifier>oai:kerwa.ucr.ac.cr:10669/105088</identifier><datestamp>2026-09-08T09:00:14Z</datestamp><setSpec>com_10669_1420</setSpec><setSpec>com_10669_1419</setSpec><setSpec>col_10669_15782</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="creator">
+         <element name="none">
+            <field name="value">Solórzano Thompson, Johanna</field>
+            <field name="value">Paniagua Molina, Hernán Javier</field>
+            <field name="value">Víquez Ramírez, Nicole Valeria</field>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2026-09-07T16:58:51Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2026-01-05</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="issn">
+            <element name="none">
+               <field name="value">0425-368X</field>
+               <field name="value">2525-1295</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/10669/105088</field>
+            </element>
+         </element>
+         <element name="doi">
+            <element name="none">
+               <field name="value">https://doi.org/10.52292/j.estudecon.2026.5028</field>
+            </element>
+         </element>
+         <element name="codproyecto">
+            <element name="none">
+               <field name="value">822-C3231</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="none">
+               <field name="value">This article presents an optimization model for raw material purchase and sales allocation, developed using linear programming techniques to enhance the performance of a company in the agro-industrial sector. The study focuses on the production of concentrated fruit juices, which is carried out using two daily-operated production and packaging lines with different capacities. By analysing monthly machinery capacity and efficiency requirements, fruit supply availability, and customer demand, the proposed model significantly improved operational efficiency and positively impacted the company’s profitability.</field>
+               <field name="value">Este artigo tem como objetivo desenvolver um modelo de otimização de compra de matéria-prima e alocação de vendas desenvolvido a partir de modelos de programação linear para o fortalecimento de uma empresa do setor agroindustrial. A área fabril, na qual este estudo foi desenvolvido, é a produção de sucos de frutas concentrados, utilizando duas linhas de produção e envase para uso diário, mas com capacidades diferentes. O modelo proposto aumentou significativamente a eficiência da operação atual e impactou positivamente a lucratividade da empresa com a análise dos requisitos mensais de capacidade e eficiência do maquinário, fornecimento de fornecedores de frutas e demandas de clientes atuais.</field>
+               <field name="value">Este artículo tiene como objetivo desarrollar un modelo para optimizar la compra de materias primas y la asignación de ventas, basado en modelos de programación lineal, para fortalecer una empresa del sector agroindustrial. El área de producción donde se desarrolló este estudio es la elaboración de jugos de frutas concentrados, utilizando dos líneas de producción y embotellado para uso diario, pero con capacidades diferentes. El modelo propuesto incrementó significativamente la eficiencia de la operación actual e impactó positivamente la rentabilidad de la empresa mediante el análisis de los requisitos mensuales de capacidad y eficiencia de la maquinaria, el suministro de los proveedores de fruta y la demanda de los clientes actuales.</field>
+            </element>
+         </element>
+         <element name="sponsorship">
+            <element name="none">
+               <field name="value">Centro de Investigación en Economía Agrícola y Desarrollo Agroempresarial/[822-C3231]/CIEDA/Costa Rica</field>
+            </element>
+         </element>
+         <element name="procedence">
+            <element name="none">
+               <field name="value">UCR::Vicerrectoría de Investigación::Unidades de Investigación::Ciencias Agroalimentarias::Centro de Investigación en Economía Agrícola y Desarrollo Agroempresarial (CIEDA)</field>
+               <field name="value">UCR::Vicerrectoría de Docencia::Ciencias Agroalimentarias::Facultad de Ciencias Agroalimentarias::Escuela de Economía Agrícola y Agronegocios</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">eng</field>
+            </element>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">acceso abierto</field>
+         </element>
+      </element>
+      <element name="source">
+         <element name="none">
+            <field name="value">Estudios Económicos, 43 (86), 191-207</field>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="none">
+            <field name="value">Linear programming</field>
+            <field name="value">Fruit juice production</field>
+            <field name="value">Sales allocation</field>
+            <field name="value">Raw material purchase</field>
+            <field name="value">Cost optimization</field>
+            <field name="value">Programação linear</field>
+            <field name="value">Sucos de frutas</field>
+            <field name="value">Distribuição</field>
+            <field name="value">Compra de materiais</field>
+            <field name="value">Custos</field>
+            <field name="value">Programación lineal</field>
+            <field name="value">Jugo de frutas</field>
+            <field name="value">Optimización económica</field>
+            <field name="value">Investigación de operaciones</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="none">
+            <field name="value">Optimizing raw material purchases and allocating sales in the juice and concentrate extraction agribusiness: The case of a small size company in Costa Rica</field>
+         </element>
+         <element name="alternative">
+            <element name="none">
+               <field name="value">Otimização da compra de matéria-prima e alocação de vendas no agronegócio de extração de sucos e concentrados: o caso de uma pequena empresa na Costa Rica</field>
+            </element>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">artículo original</field>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf</field>
+               <field name="originalName">C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">380794</field>
+               <field name="url">https://kerwa.ucr.ac.cr/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/download</field>
+               <field name="checksum">d32c9b96f8dd439a06afab0a43e8bbf4</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">Written by org.dspace.content.LicenseUtils</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">3584</field>
+               <field name="url">https://kerwa.ucr.ac.cr/bitstreams/e3592934-d399-46c7-b13f-e0ea6ef8ed6f/download</field>
+               <field name="checksum">b39c1930822b6ee5a194051b92f3a43e</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-09-08T09:00:14Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">37514</field>
+               <field name="url">https://kerwa.ucr.ac.cr/bitstreams/64c37bf7-526b-42c8-8197-3ddc23a3bd73/download</field>
+               <field name="checksum">ebe7b2654f4b3d9867c341e3e10366d2</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf.jpg</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2026-09-08T09:00:14Z (GMT).</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">5296</field>
+               <field name="url">https://kerwa.ucr.ac.cr/bitstreams/2e8612b8-1cae-46e3-81db-8fd8f75275e5/download</field>
+               <field name="checksum">ea847717811bf44e69ab190e9297232f</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">10669/105088</field>
+      <field name="identifier">oai:kerwa.ucr.ac.cr:10669/105088</field>
+      <field name="lastModifyDate">2026-09-08T09:00:14.736Z</field>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://kerwa.ucr.ac.cr</field>
+      <field name="name">Kérwá - Repositorio Universidad de Costa Rica</field>
+      <field name="mail">KERWA@ucr.ac.cr</field>
+   </element>
+   <element name="license">
+      <field name="bin">TGljZW5jaWEgZGUgRGVww7NzaXRvIFJlcG9zaXRvcmlvIEvDqXJ3w6EgKFZlcnNpw7NuIDcsIDIwLzA3LzIwMjEpIAoKRGVjbGFybyBjb21vIGF1dG9yKGEpIGRlIGVzdGUgdHJhYmFqbyBhY2Fkw6ltaWNvIG8gdGl0dWxhciBkZSBzdXMgZGVyZWNob3MgZGUgYXV0b3IsIHF1ZSBlc3RveSBkZSBhY3VlcmRvIGNvbiBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgZGUgQ29zdGEgUmljYSwgZWwgZGVyZWNobyBubyBleGNsdXNpdm8gZGUgcmVwcm9kdWNpciwgdHJhZHVjaXIgbyBkaXN0cmlidWlyIGVuIGZvcm1hdG8gZWxlY3Ryw7NuaWNvIGVsIGRvY3VtZW50byBkZXBvc2l0YWRvIHBvciB1biBwZXLDrW9kbyBpbmRlZmluaWRvIGRlIHRpZW1wby4gCgpBY2VwdG8gcXVlIHNlIHJlYWxpY2UgbcOhcyBkZSB1bmEgY29waWEgZGlnaXRhbCBkZWwgdHJhYmFqbyBwYXJhIGdhcmFudGl6YXIgbGEgc2VndXJpZGFkIHkgbGEgcHJlc2VydmFjacOzbiBkZWwgbWlzbW8uIAoKQXV0b3Jpem8gcXVlIGN1YW5kbyBsYSBVbml2ZXJzaWRhZCBkZSBDb3N0YSBSaWNhIGxvIGVzdGltZSBuZWNlc2FyaW8gcG9kcsOhIG1vZGlmaWNhciBlbCBmb3JtYXRvIGRlbCBkb2N1bWVudG8gcGFyYSByZXByb2R1Y2lybG8gZW4gc2lzdGVtYXMgZGUgaW5mb3JtYWNpw7NuLCBzaW4gYWx0ZXJhciBvIG1vZGlmaWNhciBlbCBjb250ZW5pZG8gZGVsIG1pc21vLiAKCkVzdG95IGRlIGFjdWVyZG8gY29uIHF1ZSBsYXMgeSBsb3MgdXN1YXJpb3MgZGVzY2FyZ3VlbiBsaWJyZW1lbnRlIGVsIHRyYWJham8geSBsbyB1dGlsaWNlbiBjb24gZmluZXMgbm8gY29tZXJjaWFsZXMsIHJlc3BldGFuZG8gbGEgaW50ZWdyaWRhZCBkZSBzdSBjb250ZW5pZG8gYXPDrSBjb21vIGxhIG1lbmNpw7NuIGRlbCBhdXRvciBvIHBvc2VlZG9yIGRlIHN1cyBkZXJlY2hvcy4gCgpHYXJhbnRpem8gcXVlIGVsIGRvY3VtZW50byBkZXBvc2l0YWRvIGVzIHVuIHRyYWJham8gb3JpZ2luYWwgeSBubyBpbmZyaW5nZSBkZXJlY2hvcyBkZSBhdXRvciB1IG90cm9zIGRlcmVjaG9zIGRlIHRlcmNlcm9zIChjby1hdXRvcmVzLCBvcmdhbml6YWNpb25lcyBkZSBmaW5hbmNpYW1pZW50bywgc3VqZXRvcyBkZSBpbnZlc3RpZ2FjacOzbiwgbWF0ZXJpYWwgZGUgdGVyY2Vyb3Mgc3VqZXRvIGEgcHJvdGVjY2nDs24gZGUgZGVyZWNob3MgZGUgYXV0b3IsIGVudHJlIG90cm9zKSwgc2UgcHJlc3Vwb25lIHF1ZSBoYSBjdW1wbGlkbyBjb24gZGVyZWNob3MgZGUgcmV2aXNpw7NuIHUgb3RyYXMgb2JsaWdhY2lvbmVzIHBhcmEgY29uIGxhcyBwYXJ0ZXMgaW52b2x1Y3JhZGFzLCBwb3IgZWplbXBsbzogb2JzZXJ2YW5jaWEgZGUgY2zDoXVzdWxhcyBkZSBjb25maWRlbmNpYWxpZGFkIC1zaSBhcGxpY2FuLS4gCgpFbiBjYXNvIGRlIG5vIHNlciBlbCBhdXRvciBkZWNsYXJvIHF1ZSBwb3NlbyBvIGhlIG9idGVuaWRvIGVsIHBlcm1pc28gc2luIHJlc3RyaWNjaW9uZXMgZGVsIHByb3BpZXRhcmlvIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBwYXJhIG90b3JnYXIgYSBsYSBVbml2ZXJzaWRhZCBkZSBDb3N0YSBSaWNhIGxvcyBwZXJtaXNvcyByZXF1ZXJpZG9zIHBhcmEgZXN0YSBsaWNlbmNpYSwgcXVlIGRpY2hvIHByb3BpZXRhcmlvIGNvbm9jZSBlbCB0ZXh0byB5IGVsIGNvbnRlbmlkbyBkZSBlc3RhIGxpY2VuY2lhLgoKQWwgb2J0ZW5lciBlbCBjb25zZW50aW1pZW50byBoZSByZXNwZXRhZG8gbGEgdm9sdW50YWQgZGVsIGF1dG9yIGFsIGRlc2NhcnRhciBxdWUgc2UgdHJhdGEgZGUgb2JyYXMgY2FwYWNlcyBkZSBnZW5lcmFyIGNvbm9jaW1pZW50byBhcHJvcGlhYmxlIG8gc3VzY2VwdGlibGUgZGUgcHJvdGVjY2nDs24gcG9yIGxvcyBtZWNhbmlzbW9zIGRlIGxhIHByb3BpZWRhZCBpbmR1c3RyaWFsLCBkZXNhcnJvbGxhZGFzIGVuIGVsIG1hcmNvIGRlIGludmVzdGlnYWNpb25lcyBlbiBjdXJzbywgcG9yIGVzdGFyIHN1amV0YXMgYSBwZXLDrW9kb3MgZGUgZW1iYXJnbywgcG9yIGVsIHRpcG8gZGUgaW52ZXN0aWdhY2lvbmVzIHkgbGEgbmF0dXJhbGV6YSBkZSBsYSBpbmZvcm1hY2nDs24gKGVzdG9zIGluY2x1eWVuIGluZm9ybWFjacOzbiBzZW5zaWJsZSAocGVyc29uYXMpIG8gcHJpdmlsZWdpYWRhIChvcmdhbml6YWNpb25lcyksIGV4aXN0ZW5jaWEgZGUgY29udmVuaW9zIG8gY29udHJhdG9zIHF1ZSBkYW4gb3JpZ2VuIGEgbGEgcmVsYWNpw7NuIGNvbiBsYSBVbml2ZXJzaWRhZCBwYXJhIGRlY2lkaXIgc3UgbWFuZWpvIG8gcG9ycXVlIHNlIGhhIG9idGVuaWRvIGxhIGF1dG9yaXphY2nDs24gZGUgbG9zIGVzdHVkaWFudGVzIGN1YW5kbyBlc3RvcyBzb24gbG9zIGF1dG9yZXMuIAoKRGVjbGFybyBiYWpvIGZlIGRlIGp1cmFtZW50byBxdWUgbGFzIHB1YmxpY2FjaW9uZXMgZGVwb3NpdGFkYXMgZGVyaXZhZGFzIGRlIGludmVzdGlnYWNpw7NuIGNvbiBzZXJlcyBodW1hbm9zOyBpbnZlc3RpZ2FjacOzbiB5IHVzbyBkZSBsb3MgcmVjdXJzb3MgZGUgbGEgYmlvZGl2ZXJzaWRhZCwgYWNjZXNvIGEgcmVjdXJzb3MgZ2Vuw6l0aWNvcyBvIGN1YW5kbyBlc3RhcyBvcGVyYWNpb25lcyBzZSByZWFsaWNlbiBlbiB0ZXJyaXRvcmlvcyBpbmTDrWdlbmFzIHkgc2UgZW5jdWVudHJlbiByZWxhY2lvbmFkYXMgY29uIGVsIGNvbm9jaW1pZW50byB0cmFkaWNpb25hbCBhc29jaWFkbzsgIGFzw60gY29tbyBlbCB1c28sIGN1aWRvLCB0ZW5lbmNpYSwgcHJvZHVjY2nDs24geSBleHBlcmltZW50YWNpw7NuIGNvbiBhbmltYWxlcywgIHJlcXVlcmlyw6FuIGRlIGxhIHJldmlzacOzbiwgYXV0b3JpemFjacOzbiB5IGFwcm9iYWNpw7NuLCBzZWfDum4gY29ycmVzcG9uZGUgZGUgdW4gQ29taXTDqSDDiXRpY28gQ2llbnTDrWZpY28sIGRlIGxhIENvbWlzacOzbiBkZSBCaW9kaXZlcnNpZGFkIGRlIGxhIFVDUiAoQ0lCKSBvIGVsIENPTkFHRUJJTyBvIGVsIENvbWl0w6kgSW5zdGl0dWNpb25hbCBwYXJhIGVsIEN1aWRhZG8geSBVc28gZGUgbG9zIEFuaW1hbGVzIChDSUNVQSksIHJlc3BlY3RpdmFtZW50ZS4KCkNvbm96Y28geSBhcHJ1ZWJvIHF1ZTogCgpFbCBSZXBvc2l0b3JpbyBLw6lyd8OhIGRlIGxhIFVuaXZlcnNpZGFkIGRlIENvc3RhIFJpY2Egc2UgcmVzZXJ2YSBlbCBkZXJlY2hvIGRlIHJldGlyYXIgZWwgYWNjZXNvIGFsIHRyYWJham8gZGVwb3NpdGFkbyBjdWFuZG8gc2UgZGV0ZWN0ZSBxdWUgbG9zIGRlcmVjaG9zIGRlIHByb3BpZWRhZCBpbnRlbGVjdHVhbCBoYW4gc2lkbyBpbmZyaW5naWRvcyBvIGFwZWxhbmRvIGEgb3Ryb3MgY29tcHJvbWlzb3MgbGVnYWxlcywgcHJvZmVzaW9uYWxlcyB5L28gYWRtaW5pc3RyYXRpdm9zLgoKTGEgVW5pdmVyc2lkYWQgZGUgQ29zdGEgUmljYSBubyBoYXLDoSBuaW5ndW5hIGFsdGVyYWNpw7NuIGRpZmVyZW50ZSBhIGxhcyBwZXJtaXRpZGFzIGVuIGVzdGEgbGljZW5jaWEgYSBsYSBvYnJhIGRlcG9zaXRhZGEuCgpMYSBVbml2ZXJzaWRhZCBkZSBDb3N0YSBSaWNhIG5vIHNlIGhhY2UgcmVzcG9uc2FibGUgcG9yIGxhIHDDqXJkaWRhIG8gZGHDsW9zIHN1ZnJpZG9zIGVuIHJlbGFjacOzbiBjb24gZWwgdHJhYmFqbyBkZXBvc2l0YWRvIG8gZGF0b3MgcmVsYWNpb25hZG9zLgo=</field>
+   </element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

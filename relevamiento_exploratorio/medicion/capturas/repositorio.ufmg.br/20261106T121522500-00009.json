@@ -1,0 +1,41 @@
+{
+ "pedido": "20261106T121522500-00009",
+ "url": "https://repositorio.ufmg.br/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:15:23 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "3392"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "set-cookie",
+   "rifnd-cookie=1793967324.513.26727.65179|8ae2ea650b3ed008b3180550f55c57c4; Max-Age=3600; Path=/; Secure; HttpOnly; SameSite=Lax"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "etag",
+   "W/\"d40-5hoPrr9YYpVKvDJ7Y4KoJE29Ge0\""
+  ],
+  [
+   "strict-transport-security",
+   "max-age=15724800; includeSubDomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

@@ -1,0 +1,97 @@
+{
+ "pedido": "20261106T121522500-00028",
+ "url": "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.24.0 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:16:09 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "1204370"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "dspace-xsrf-token",
+   "7a541a0a-49be-4c35-be27-57f9c39924d3"
+  ],
+  [
+   "set-cookie",
+   "DSPACE-XSRF-COOKIE=7a541a0a-49be-4c35-be27-57f9c39924d3; Path=/server; Secure; HttpOnly; SameSite=None"
+  ],
+  [
+   "content-language",
+   "es"
+  ],
+  [
+   "last-modified",
+   "Sat, 19 Sep 2026 13:51:05 GMT"
+  ],
+  [
+   "etag",
+   "\"67f1b7c4610651a1ef05f6d200bf44f0\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Fri, 06 Nov 2026 13:16:09 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCION DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf\"; filename*=UTF-8''PROCESO%20DE%20ENFERMERIA%20A%20UN%20USUARIO%20INTERVENIDO%20POR%20RESECCI%C3%93N%20DE%20COLON%2C%20EN%20EL%20POSOPERATORIO%20TARDIO%20REPORTE%20DE%20CASO.pdf"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

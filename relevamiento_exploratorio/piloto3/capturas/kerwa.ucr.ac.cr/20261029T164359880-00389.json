@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T164359880-00389",
+ "url": "https://kerwa.ucr.ac.cr/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/download",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "123"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:55:05 GMT"
+  ],
+  [
+   "access-control-allow-origin",
+   "https://kerwa.ucr.ac.cr"
+  ],
+  [
+   "access-control-allow-methods",
+   "GET, POST, OPTIONS, PUT, DELETE"
+  ],
+  [
+   "access-control-allow-headers",
+   "Content-Type, Authorization"
+  ],
+  [
+   "access-control-allow-credentials",
+   "true"
+  ],
+  [
+   "ratelimit-policy",
+   "500;w=60"
+  ],
+  [
+   "ratelimit-limit",
+   "500"
+  ],
+  [
+   "ratelimit-remaining",
+   "498"
+  ],
+  [
+   "ratelimit-reset",
+   "3"
+  ],
+  [
+   "location",
+   "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/content"
+  ],
+  [
+   "vary",
+   "Accept"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

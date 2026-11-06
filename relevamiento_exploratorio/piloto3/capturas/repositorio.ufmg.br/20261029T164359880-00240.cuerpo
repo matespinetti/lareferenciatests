@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:51:01Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.ufmg.br:1843/5589" metadataPrefix="mets">https://repositorio.ufmg.br/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.ufmg.br:1843/5589</identifier><datestamp>2026-10-09T03:00:12Z</datestamp><setSpec>com_1843_5</setSpec><setSpec>com_1843_2</setSpec><setSpec>col_1843_343</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_1843-5589" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:1843/5589">
+   <metsHdr CREATEDATE="2026-10-29T13:51:01Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>"Repositório Institucional da UFMG"</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_1843_5589">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2026-10-08T15:03:18Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2025-10-27</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">https://hdl.handle.net/1843/5589</mods:identifier>
+               <mods:abstract>The teaching through inquiry aims to develop skills by providing an environment in which students work from a problem. The objective of the study was to analyze inquiry-based teaching with 6th-grade students in a public school in the interior of Bahia, focusing on the separation of homogeneous and heterogeneous mixtures. The qualitative research used questionnaires, recordings, and drawings for data collection, analyzed according to Bardin. The central activity was an investigative experimental practice. The students formulated hypotheses, observed, critically analyzed, and systematized the results. The data reveal that inquiry-based teaching favored the understanding of separation methods and promoted greater student engagement in class, contributing to the development of skills such as autonomy, critical thinking, and problem-solving ability. Thus, this approach proved effective for Science teaching, making learning more meaningful and participatory.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066" />
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Acesso aberto Attribution-NonCommercial-NoDerivs 3.0 Brazil</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Ciência - Estudo e ensino</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Aprendizagem experimental</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Mistura (Química)</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>A atividade experimental investigativa com alunos do 6º ano do ensino fundamental II propicia a aprendizagem?</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Monografia de especialização</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_1843_5589_1">
+      <techMD ID="TECH_O_1843_5589_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://repositorio.ufmg.br//bitstreams/934dc24e-dac4-4db0-a9b7-267f01cc243a/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>706d56e8eae697d0963b0cae9957722d</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>20156503</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>TCC Final CECi - Francisnaide Souza.pdfA.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_1843_5589_4">
+      <techMD ID="TECH_T_1843_5589_4">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://repositorio.ufmg.br//bitstreams/b9757740-e089-4c62-a0e1-4c1b286e1cec/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>984ddd843ec5bf60aaac28c5283fd8ac</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>7661</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>TCC Final CECi - Francisnaide Souza.pdfA.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_1843_5589_1" MIMETYPE="application/pdf" SEQ="1" SIZE="20156503" CHECKSUM="706d56e8eae697d0963b0cae9957722d" CHECKSUMTYPE="MD5" ADMID="FO_1843_5589_1" GROUPID="GROUP_BITSTREAM_1843_5589_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://repositorio.ufmg.br//bitstreams/934dc24e-dac4-4db0-a9b7-267f01cc243a/download" />
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_1843_5589_4" MIMETYPE="text/plain" SEQ="4" SIZE="7661" CHECKSUM="984ddd843ec5bf60aaac28c5283fd8ac" CHECKSUMTYPE="MD5" ADMID="FT_1843_5589_4" GROUPID="GROUP_BITSTREAM_1843_5589_4">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://repositorio.ufmg.br//bitstreams/b9757740-e089-4c62-a0e1-4c1b286e1cec/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_1843_5589">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_1843_5589_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

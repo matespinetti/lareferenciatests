@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:49:26Z</responseDate><request verb="GetRecord" identifier="oai:bibliotecadigital.udea.edu.co:10495/4345" metadataPrefix="ore">https://bibliotecadigital.udea.edu.co/server/oai/request</request><GetRecord><record><header><identifier>oai:bibliotecadigital.udea.edu.co:10495/4345</identifier><datestamp>2026-06-25T19:23:39Z</datestamp><setSpec>com_10495_18870</setSpec><setSpec>com_10495_1670</setSpec><setSpec>col_10495_18972</setSpec></header><metadata><atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+   <atom:id>https://hdl.handle.net/10495/4345/ore.xml</atom:id>
+   <atom:link rel="alternate" href="https://hdl.handle.net/10495/4345"/>
+   <atom:link rel="http://www.openarchives.org/ore/terms/describes" href="https://hdl.handle.net/10495/4345/ore.xml"/>
+   <atom:link rel="self" type="application/atom+xml" href="https://hdl.handle.net/10495/4345/ore.xml#atom"/>
+   <atom:published>2016-09-08T15:39:53Z</atom:published>
+   <atom:updated>2016-09-08T15:39:53Z</atom:updated>
+   <atom:source>
+      <atom:generator>Repositorio Institucional de la Universidad de Antioquia</atom:generator>
+   </atom:source>
+   <atom:title>Escenarios de explotación sexual comercial de niños, niñas y adolescentes, modalidad abierta, Medellín, 2012</atom:title>
+   <atom:author>
+      <atom:name>Muñoz Echeverri, Iván Felipe</atom:name>
+   </atom:author>
+   <atom:author>
+      <atom:name>Noreña Herrera, Camilo</atom:name>
+   </atom:author>
+   <atom:author>
+      <atom:name>Rodríguez Garzón, Sergio Andrés</atom:name>
+   </atom:author>
+   <atom:author>
+      <atom:name>Ossa Estrada, Diego Alejandro</atom:name>
+   </atom:author>
+   <atom:author>
+      <atom:name>Bastidas Lopera, Diego León</atom:name>
+   </atom:author>
+   <atom:category scheme="http://www.openarchives.org/ore/terms/" term="http://www.openarchives.org/ore/terms/Aggregation" label="Aggregation"/>
+   <atom:category scheme="http://www.openarchives.org/ore/atom/modified" term="2016-09-08T15:39:53Z"/>
+   <atom:category scheme="http://www.dspace.org/objectModel/" term="DSpaceItem" label="DSpace Item"/>
+   <atom:link rel="http://www.openarchives.org/ore/terms/aggregates" href="https://bibliotecadigital.udea.edu.co/bitstreams/c739784e-4391-4c27-b6fa-4b9214fef39e/download" title="MunozIvan_2016_EscenariosExplotacionSexual.pdf" type="application/pdf" length="669026"/>
+   <oreatom:triples>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://hdl.handle.net/10495/4345/ore.xml#atom">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceItem"/>
+         <dcterms:modified>2016-09-08T15:39:53Z</dcterms:modified>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://bibliotecadigital.udea.edu.co/bitstreams/c739784e-4391-4c27-b6fa-4b9214fef39e/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>ORIGINAL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://bibliotecadigital.udea.edu.co/bitstreams/67024ddf-0a36-4913-8ef4-e03e1c64dea9/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>CC-LICENSE</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://bibliotecadigital.udea.edu.co/bitstreams/6f15ef42-37ba-4010-bdf9-0aa6b76713ee/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>CC-LICENSE</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://bibliotecadigital.udea.edu.co/bitstreams/b0d73c84-98d9-4e31-a8b0-a5bfafb5a9a9/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>CC-LICENSE</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://bibliotecadigital.udea.edu.co/bitstreams/e84bd2c0-1bd9-4ec9-96e3-7ac4bbc3029a/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>LICENSE</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://bibliotecadigital.udea.edu.co/bitstreams/979860c0-ff3f-4808-b49d-d3df79b55082/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>TEXT</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://bibliotecadigital.udea.edu.co/bitstreams/0847c187-d7c7-4999-8f94-89478315f004/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>THUMBNAIL</dcterms:description>
+      </rdf:Description>
+   </oreatom:triples>
+</atom:entry></metadata></record></GetRecord></OAI-PMH>

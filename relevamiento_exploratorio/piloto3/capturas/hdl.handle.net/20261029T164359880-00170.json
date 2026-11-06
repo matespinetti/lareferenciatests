@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00170",
+ "url": "https://hdl.handle.net/10495/4345",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:49:03 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "location",
+   "https://bibliotecadigital.udea.edu.co/handle/10495/4345"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 16:50:42 GMT"
+  ],
+  [
+   "cf-cache-status",
+   "DYNAMIC"
+  ],
+  [
+   "nel",
+   "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+  ],
+  [
+   "report-to",
+   "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=E9kmKI%2BkepHKkzlRXp42U8tF365lKFMjLEEkS79WwddUzS4E%2BM6Qbma8voFtsx787alCJ1VIRF%2B0n6C%2Bmp4HV26lQMaG60iJiW7Wd2aY5vsGRsytKXfsoelwLLByX5rZBg%3D%3D\"}]}"
+  ],
+  [
+   "server",
+   "cloudflare"
+  ],
+  [
+   "cf-ray",
+   "a523abd92b87fafe-EZE"
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

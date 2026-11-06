@@ -1,0 +1,93 @@
+{
+ "pedido": "20261029T164359880-00338",
+ "url": "https://rephip.unr.edu.ar/server/api/core/bitstreams/f3040f1d-83d4-457b-9fc0-8add24874e6a/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.28.3 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:53:32 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Wed, 16 Sep 2026 18:20:08 GMT"
+  ],
+  [
+   "etag",
+   "\"222b8cd4d71dc6487245003adec0addb\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:53:33 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"Resena+de+Manuel+Castells,+La+sociedad+Digital.+Madrid+Alianza.pdf\"; filename*=UTF-8''Rese%C3%B1a%2Bde%2BManuel%2BCastells%2C%2BLa%2Bsociedad%2BDigital.%2BMadrid%2BAlianza.pdf"
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/363574"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

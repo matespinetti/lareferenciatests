@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/oai2.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2026-10-29T17:00:13Z</responseDate>
+  <request verb="GetRecord" identifier="oai:ru.iiec.unam.mx:2120" metadataPrefix="mets">http://ru.iiec.unam.mx/cgi/oai2</request>
+  <GetRecord>
+    <record>
+    <header>
+      <identifier>oai:ru.iiec.unam.mx:2120</identifier>
+      <datestamp>2026-06-22T17:21:43Z</datestamp>
+      <setSpec>7374617475733D707562</setSpec>
+      <setSpec>7375626A656374733D44:4433:443331</setSpec>
+      <setSpec>7375626A656374733D45:4532:453232</setSpec>
+      <setSpec>7375626A656374733D46:4633:463334</setSpec>
+      <setSpec>7375626A656374733D46:4635:463532</setSpec>
+      <setSpec>7375626A656374733D48:4835:483533</setSpec>
+      <setSpec>7375626A656374733D48:4836:483633</setSpec>
+      <setSpec>636F6C6C656374696F6E733D72657669737461735F69696563:7265765F6D6F6D656E746F5F65636F6E6F6D69636F</setSpec>
+      <setSpec>74797065733D61727469636C65</setSpec>
+      <setSpec>63726561746F72733D47616C696E646F204C6564657A6D613A4D616764616C656E613A3A</setSpec></header>
+    <metadata>
+      <mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" OBJID="eprint_2120" LABEL="Eprints Item" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><mets:metsHdr CREATEDATE="2026-10-29T17:00:13Z"><mets:agent ROLE="CUSTODIAN" TYPE="ORGANIZATION"><mets:name>RU-Económicas</mets:name></mets:agent></mets:metsHdr><mets:dmdSec ID="DMD_eprint_2120_mods"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:titleInfo><mods:title>Segundo Informe de Gobierno. Razones del énfasis en el Pronasol y la soberanía nacional</mods:title></mods:titleInfo><mods:name type="personal"><mods:namePart type="given">Magdalena</mods:namePart><mods:namePart type="family">Galindo Ledezma</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name><mods:abstract>El Segundo Informe de Gobierno del presidente Carlos Salinas enfatiza dos aspecto principales: la soberanía y el Pronasol (Programa Nacional de Solidaridad). Dicho hincapié puede explicarse a partir de la situación real que vive el país, en la que, sin duda, los dos aspectos más relevantes son la impresionante desigualdad en la distribución del ingreso y los peligros que atraviesa la soberanía en las nuevas condiciones de la globalización y la formación de bloques económicos. En este sentido, la autora analiza el contexto en el que se inscribe el informe y algunos de los rasgos de la política económica vigente, para entender el matiz político  que se le otorga.</mods:abstract><mods:classification authority="lcc">D31 - Renta personal, riqueza y sus distribuciones</mods:classification><mods:classification authority="lcc">E22 - Capital ; Inversión (incluidas existencias) ; Capacidad</mods:classification><mods:classification authority="lcc">F34 - Préstamos internacionales y problemas relacionados con la deuda externa</mods:classification><mods:classification authority="lcc">F52 - Seguridad nacional ; Nacionalismo económico</mods:classification><mods:classification authority="lcc">H53 - Gasto público de la administración y programas de bienestar</mods:classification><mods:classification authority="lcc">H63 - Deuda ; Gestión de la deuda</mods:classification><mods:originInfo><mods:dateIssued encoding="iso8061">1991-01</mods:dateIssued></mods:originInfo><mods:originInfo><mods:publisher>Instituto de Investigaciones Económicas, UNAM</mods:publisher></mods:originInfo><mods:genre>Artículo</mods:genre></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:amdSec ID="TMD_eprint_2120"><mets:rightsMD ID="rights_eprint_2120_mods"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:useAndReproduction>
+<p xmlns="http://www.w3.org/1999/xhtml"><strong>Para trabajos depositados por el propio autor:</strong> 
+Al auto archivar esta colección de ficheros y metadatos bibliográficos asociados, otorgo a RU-Económicas el derecho para almacenarlos y ponerlos a disposición pública permanentemente de un modo gratuito y en línea. 
+Declaro que este material es de mi propiedad intelectual y entiendo que RU-Económicas no asume ninguna responsabilidad en caso de que se produzca una violación de derechos de propiedad al distribuir estos ficheros o metadatos. (Se insta encarecidamente a todos los autores a destacar sus derechos de autor en la página de título de su trabajo.)</p>
+
+<p xmlns="http://www.w3.org/1999/xhtml"><strong>Para trabajos depositados por otras personas distintas a su autor:</strong> Por la presente, declaro que la colección de ficheros y metadatos bibliográficos asociados que estoy archivando en RU-Económicas) es de dominio público. Si este no fuese el caso, acepto totalmente la responsabilidad por cualquier infracción de derechos de autor que conlleve la distribución de estos ficheros o metadatos.</p>
+
+<p xmlns="http://www.w3.org/1999/xhtml">Pulsar sobre el botón de depósito indica que está de acuerdo con estos términos.</p>
+    </mods:useAndReproduction></mets:xmlData></mets:mdWrap></mets:rightsMD></mets:amdSec><mets:fileSec><mets:fileGrp USE="reference"><mets:file ID="eprint_2120_58480_1" SIZE="310625" OWNERID="http://ru.iiec.unam.mx/2120/1/Galindo%20Ledezma%2C%20Magdalena.pdf" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://ru.iiec.unam.mx/2120/1/Galindo%20Ledezma%2C%20Magdalena.pdf"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_eprint_2120_mods" ADMID="TMD_eprint_2120"><mets:fptr FILEID="eprint_2120_document_58480_1"/></mets:div></mets:structMap></mets:mets></metadata></record>
+  </GetRecord>
+</OAI-PMH>

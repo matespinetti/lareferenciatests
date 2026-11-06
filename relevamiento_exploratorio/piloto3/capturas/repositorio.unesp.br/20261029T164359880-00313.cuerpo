@@ -1,0 +1,274 @@
+{
+  "dspaceUI" : "https://repositorio.unesp.br",
+  "dspaceName" : "Repositório Institucional Unesp",
+  "dspaceServer" : "https://repositorio.unesp.br/server",
+  "dspaceVersion" : "DSpace 10.0",
+  "type" : "root",
+  "uniqueType" : "root.root",
+  "_links" : {
+    "actuator" : {
+      "href" : "https://repositorio.unesp.br/server/actuator"
+    },
+    "auditevents" : {
+      "href" : "https://repositorio.unesp.br/server/api/system/auditevents"
+    },
+    "authn" : {
+      "href" : "https://repositorio.unesp.br/server/api/authn"
+    },
+    "authorizations" : {
+      "href" : "https://repositorio.unesp.br/server/api/authz/authorizations"
+    },
+    "bitstreamformats" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/bitstreamformats"
+    },
+    "bitstreams" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/bitstreams"
+    },
+    "browses" : {
+      "href" : "https://repositorio.unesp.br/server/api/discover/browses"
+    },
+    "bulkaccessconditionoptions" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/bulkaccessconditionoptions"
+    },
+    "bundles" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/bundles"
+    },
+    "captcha" : {
+      "href" : "https://repositorio.unesp.br/server/api/captcha"
+    },
+    "claimedtasks" : {
+      "href" : "https://repositorio.unesp.br/server/api/workflow/claimedtasks"
+    },
+    "claimedtasks-search" : {
+      "href" : "https://repositorio.unesp.br/server/api/workflow/claimedtasks/search"
+    },
+    "collections" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/collections"
+    },
+    "communities" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/communities"
+    },
+    "contentreport" : {
+      "href" : "https://repositorio.unesp.br/server/api/contentreport"
+    },
+    "correctiontypes" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/correctiontypes"
+    },
+    "discover" : {
+      "href" : "https://repositorio.unesp.br/server/api/discover"
+    },
+    "dso" : {
+      "href" : "https://repositorio.unesp.br/server/api/dso/find{?uuid}",
+      "templated" : true
+    },
+    "edititemmodes" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/edititemmodes"
+    },
+    "edititems" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/edititems"
+    },
+    "enqueueretry" : {
+      "href" : "https://repositorio.unesp.br/server/api/ldn/messages/{id}/enqueueretry",
+      "templated" : true
+    },
+    "entitytypes" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/entitytypes"
+    },
+    "eperson-registration" : {
+      "href" : "https://repositorio.unesp.br/server/api/eperson/registrations"
+    },
+    "epersons" : {
+      "href" : "https://repositorio.unesp.br/server/api/eperson/epersons"
+    },
+    "externalsources" : {
+      "href" : "https://repositorio.unesp.br/server/api/integration/externalsources"
+    },
+    "features" : {
+      "href" : "https://repositorio.unesp.br/server/api/authz/features"
+    },
+    "feedbacks" : {
+      "href" : "https://repositorio.unesp.br/server/api/tools/feedbacks"
+    },
+    "groups" : {
+      "href" : "https://repositorio.unesp.br/server/api/eperson/groups"
+    },
+    "identifiers" : {
+      "href" : "https://repositorio.unesp.br/server/api/pid/identifiers"
+    },
+    "itemfilters" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/itemfilters"
+    },
+    "itemrequests" : {
+      "href" : "https://repositorio.unesp.br/server/api/tools/itemrequests"
+    },
+    "items" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items"
+    },
+    "itemtemplates" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/itemtemplates"
+    },
+    "ldnservices" : {
+      "href" : "https://repositorio.unesp.br/server/api/ldn/ldnservices"
+    },
+    "messages" : {
+      "href" : "https://repositorio.unesp.br/server/api/ldn/messages"
+    },
+    "metadatafields" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/metadatafields"
+    },
+    "metadataschemas" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/metadataschemas"
+    },
+    "notifyrequests" : {
+      "href" : "https://repositorio.unesp.br/server/api/ldn/notifyrequests"
+    },
+    "oidc" : {
+      "href" : "https://repositorio.unesp.br/server/api/authn"
+    },
+    "orcidhistories" : {
+      "href" : "https://repositorio.unesp.br/server/api/eperson/orcidhistories"
+    },
+    "orcidqueues" : {
+      "href" : "https://repositorio.unesp.br/server/api/eperson/orcidqueues"
+    },
+    "pid" : {
+      "href" : "https://repositorio.unesp.br/server/api/pid/find{?id}",
+      "templated" : true
+    },
+    "pooltasks" : {
+      "href" : "https://repositorio.unesp.br/server/api/workflow/pooltasks"
+    },
+    "pooltasks-search" : {
+      "href" : "https://repositorio.unesp.br/server/api/workflow/pooltasks/search"
+    },
+    "processes" : {
+      "href" : "https://repositorio.unesp.br/server/api/system/processes"
+    },
+    "profiles" : {
+      "href" : "https://repositorio.unesp.br/server/api/eperson/profiles"
+    },
+    "properties" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/properties"
+    },
+    "qualityassuranceevents" : {
+      "href" : "https://repositorio.unesp.br/server/api/integration/qualityassuranceevents"
+    },
+    "qualityassurancesources" : {
+      "href" : "https://repositorio.unesp.br/server/api/integration/qualityassurancesources"
+    },
+    "qualityassurancetopics" : {
+      "href" : "https://repositorio.unesp.br/server/api/integration/qualityassurancetopics"
+    },
+    "registrations" : {
+      "href" : "https://repositorio.unesp.br/server/api/eperson/registrations"
+    },
+    "relationships" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/relationships"
+    },
+    "relationshiptypes" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/relationshiptypes"
+    },
+    "resourcepolicies" : {
+      "href" : "https://repositorio.unesp.br/server/api/authz/resourcepolicies"
+    },
+    "resourcepolicies-search" : {
+      "href" : "https://repositorio.unesp.br/server/api/authz/resourcepolicies/search"
+    },
+    "scripts" : {
+      "href" : "https://repositorio.unesp.br/server/api/system/scripts"
+    },
+    "securitysettings" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/securitysettings"
+    },
+    "self" : {
+      "href" : "https://repositorio.unesp.br/server/api"
+    },
+    "sites" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/sites"
+    },
+    "statistics" : {
+      "href" : "https://repositorio.unesp.br/server/api/statistics"
+    },
+    "submissionaccessoptions" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/submissionaccessoptions"
+    },
+    "submissioncclicenseUrls" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/submissioncclicenseUrls"
+    },
+    "submissioncclicenseUrls-search" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/submissioncclicenseUrls/search"
+    },
+    "submissioncclicenses" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/submissioncclicenses"
+    },
+    "submissioncoarnotifyconfigs" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/submissioncoarnotifyconfigs"
+    },
+    "submissiondefinitions" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/submissiondefinitions"
+    },
+    "submissionforms" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/submissionforms"
+    },
+    "submissionsections" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/submissionsections"
+    },
+    "submissionuploads" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/submissionuploads"
+    },
+    "subscriptions" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/subscriptions"
+    },
+    "subscriptions-search" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/subscriptions/search"
+    },
+    "suggestions" : {
+      "href" : "https://repositorio.unesp.br/server/api/integration/suggestions"
+    },
+    "suggestionsources" : {
+      "href" : "https://repositorio.unesp.br/server/api/integration/suggestionsources"
+    },
+    "suggestiontargets" : {
+      "href" : "https://repositorio.unesp.br/server/api/integration/suggestiontargets"
+    },
+    "supervisionorders" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/supervisionorders"
+    },
+    "systemwidealerts" : {
+      "href" : "https://repositorio.unesp.br/server/api/system/systemwidealerts"
+    },
+    "usagereports" : {
+      "href" : "https://repositorio.unesp.br/server/api/statistics/usagereports"
+    },
+    "versionhistories" : {
+      "href" : "https://repositorio.unesp.br/server/api/versioning/versionhistories"
+    },
+    "versions" : {
+      "href" : "https://repositorio.unesp.br/server/api/versioning/versions"
+    },
+    "vocabularies" : {
+      "href" : "https://repositorio.unesp.br/server/api/submission/vocabularies"
+    },
+    "vocabularyEntryDetails" : {
+      "href" : "https://repositorio.unesp.br/server/api/submission/vocabularyEntryDetails"
+    },
+    "vocabularyEntryDetails-search" : {
+      "href" : "https://repositorio.unesp.br/server/api/submission/vocabularyEntryDetails/search"
+    },
+    "workflowactions" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/workflowactions"
+    },
+    "workflowdefinitions" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/workflowdefinitions"
+    },
+    "workflowitems" : {
+      "href" : "https://repositorio.unesp.br/server/api/workflow/workflowitems"
+    },
+    "workflowsteps" : {
+      "href" : "https://repositorio.unesp.br/server/api/config/workflowsteps"
+    },
+    "workspaceitems" : {
+      "href" : "https://repositorio.unesp.br/server/api/submission/workspaceitems"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html data-beasties-container>
+
+<head>
+  <meta charset="UTF-8">
+  <base href="/">
+  <title>Repositório Institucional UNESP</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta http-equiv="cache-control" content="no-store">
+<link rel="stylesheet" href="styles.f3b1fba60ec7970c.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.f3b1fba60ec7970c.css"></noscript><script id="hashed-file-mapping" type="application/json">{"assets/config.json":"assets/config.f4fc7abb124c4c362ebf3c929adbda7d.json","repositorio-theme.css":"repositorio-theme.100efa37e45eeacb9322c4dc0e5340b0.css"}</script><link rel="preload" as="fetch" href="assets/config.f4fc7abb124c4c362ebf3c929adbda7d.json" crossorigin="anonymous" class="hfm"><link rel="prefetch" as="style" href="repositorio-theme.100efa37e45eeacb9322c4dc0e5340b0.css" class="hfm"></head>
+
+<body>
+  <ds-app></ds-app>
+  <script src="https://plugin.handtalk.me/web/latest/handtalk.min.js"></script>
+  <script>
+    var ht = new HT({
+      token: "1ba0e2ad4e4a77523eed6bf728acc085",
+      pageSpeech: true,
+      avatar: "MAYA"
+    });
+  </script>
+<script src="runtime.22c9b186bd11171e.js" type="module"></script><script src="polyfills.69d93c400fcee338.js" type="module"></script><script src="main.a5502218f5c9cbf2.js" type="module"></script></body>
+
+
+
+</html>

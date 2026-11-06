@@ -1,0 +1,536 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "bf6e9f02-0d32-462c-b2e0-1f54567ed7a2",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/bf6e9f02-0d32-462c-b2e0-1f54567ed7a2/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/bf6e9f02-0d32-462c-b2e0-1f54567ed7a2/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/bf6e9f02-0d32-462c-b2e0-1f54567ed7a2/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/bf6e9f02-0d32-462c-b2e0-1f54567ed7a2"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "bcd89f1b-603a-4252-a800-1b3d9307c6c6",
+              "uuid" : "bcd89f1b-603a-4252-a800-1b3d9307c6c6",
+              "name" : "CORD00006781.tif",
+              "handle" : null,
+              "metadata" : {
+                "dc.title" : [ {
+                  "value" : "CORD00006781.tif",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 204706414,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "aeca44c213b26f468bafd798182df3c0"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/bcd89f1b-603a-4252-a800-1b3d9307c6c6/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/bcd89f1b-603a-4252-a800-1b3d9307c6c6/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/bcd89f1b-603a-4252-a800-1b3d9307c6c6/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/bcd89f1b-603a-4252-a800-1b3d9307c6c6/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/bcd89f1b-603a-4252-a800-1b3d9307c6c6"
+                }
+              }
+            }, {
+              "id" : "c4a29b47-4c03-4e21-b4d6-1ae817bd3ffb",
+              "uuid" : "c4a29b47-4c03-4e21-b4d6-1ae817bd3ffb",
+              "name" : "darwin_core.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.title" : [ {
+                  "value" : "darwin_core.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 11784,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "419f116e44f3a6540099dcaa8b68892f"
+              },
+              "sequenceId" : 2,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/c4a29b47-4c03-4e21-b4d6-1ae817bd3ffb/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/c4a29b47-4c03-4e21-b4d6-1ae817bd3ffb/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/c4a29b47-4c03-4e21-b4d6-1ae817bd3ffb/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/c4a29b47-4c03-4e21-b4d6-1ae817bd3ffb/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/c4a29b47-4c03-4e21-b4d6-1ae817bd3ffb"
+                }
+              }
+            }, {
+              "id" : "f2131285-916c-422e-9d1d-9809726a49f6",
+              "uuid" : "f2131285-916c-422e-9d1d-9809726a49f6",
+              "name" : "CORD00006781.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "CORD00006781.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "CORD00006781.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 8389886,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "4bb3a16f2769959207479bd6d9937ee0"
+              },
+              "sequenceId" : 6,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/f2131285-916c-422e-9d1d-9809726a49f6/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/f2131285-916c-422e-9d1d-9809726a49f6/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/f2131285-916c-422e-9d1d-9809726a49f6/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/f2131285-916c-422e-9d1d-9809726a49f6/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/f2131285-916c-422e-9d1d-9809726a49f6"
+                }
+              }
+            }, {
+              "id" : "15a07799-5680-4b02-b234-4cee396703d7",
+              "uuid" : "15a07799-5680-4b02-b234-4cee396703d7",
+              "name" : "darwin_core.csv",
+              "handle" : null,
+              "metadata" : {
+                "dc.title" : [ {
+                  "value" : "darwin_core.csv",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 1112,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "b39383ac2cd40b612877e4cc0e7b6d34"
+              },
+              "sequenceId" : 8,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/15a07799-5680-4b02-b234-4cee396703d7/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/15a07799-5680-4b02-b234-4cee396703d7/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/15a07799-5680-4b02-b234-4cee396703d7/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/15a07799-5680-4b02-b234-4cee396703d7/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/15a07799-5680-4b02-b234-4cee396703d7"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 4
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/bf6e9f02-0d32-462c-b2e0-1f54567ed7a2/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "849be943-5dda-4c66-bdb2-a0be0eac9789",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/849be943-5dda-4c66-bdb2-a0be0eac9789/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/849be943-5dda-4c66-bdb2-a0be0eac9789/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/849be943-5dda-4c66-bdb2-a0be0eac9789/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/849be943-5dda-4c66-bdb2-a0be0eac9789"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "be29af8f-b094-4a4f-9980-a34089cf489f",
+              "uuid" : "be29af8f-b094-4a4f-9980-a34089cf489f",
+              "name" : "CORD00006781.tif.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "IM Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.ImageMagickImageThumbnailFilter on 2022-04-22T09:33:50Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "CORD00006781.tif.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 40527,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "8b11cc2ba962ebf0062aaee5de6f4532"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/be29af8f-b094-4a4f-9980-a34089cf489f/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/be29af8f-b094-4a4f-9980-a34089cf489f/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/be29af8f-b094-4a4f-9980-a34089cf489f/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/be29af8f-b094-4a4f-9980-a34089cf489f/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/be29af8f-b094-4a4f-9980-a34089cf489f"
+                }
+              }
+            }, {
+              "id" : "d5682b68-0ad7-4e58-847f-3b81c567d3a5",
+              "uuid" : "d5682b68-0ad7-4e58-847f-3b81c567d3a5",
+              "name" : "darwin_core.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "IM Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.ImageMagickPdfThumbnailFilter on 2022-04-22T09:33:50Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "darwin_core.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 10404,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "011a662e183d9d16ba7c882323808230"
+              },
+              "sequenceId" : 5,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/d5682b68-0ad7-4e58-847f-3b81c567d3a5/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/d5682b68-0ad7-4e58-847f-3b81c567d3a5/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/d5682b68-0ad7-4e58-847f-3b81c567d3a5/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/d5682b68-0ad7-4e58-847f-3b81c567d3a5/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/d5682b68-0ad7-4e58-847f-3b81c567d3a5"
+                }
+              }
+            }, {
+              "id" : "53925604-c470-4692-95e5-e87d27a4791f",
+              "uuid" : "53925604-c470-4692-95e5-e87d27a4791f",
+              "name" : "CORD00006781.jpg.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "IM Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.ImageMagickImageThumbnailFilter on 2022-04-27T09:20:34Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "CORD00006781.jpg.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 21591,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "8e06bb3629cea678fc9bd6bffab6b77f"
+              },
+              "sequenceId" : 7,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/53925604-c470-4692-95e5-e87d27a4791f/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/53925604-c470-4692-95e5-e87d27a4791f/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/53925604-c470-4692-95e5-e87d27a4791f/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/53925604-c470-4692-95e5-e87d27a4791f/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/53925604-c470-4692-95e5-e87d27a4791f"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 3
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/849be943-5dda-4c66-bdb2-a0be0eac9789/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "b270ad1e-1751-465c-8c2a-5f648c8f9555",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/b270ad1e-1751-465c-8c2a-5f648c8f9555/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/b270ad1e-1751-465c-8c2a-5f648c8f9555/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/b270ad1e-1751-465c-8c2a-5f648c8f9555/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/b270ad1e-1751-465c-8c2a-5f648c8f9555"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "9853259e-40e8-4e7e-8656-b8d9278660a1",
+              "uuid" : "9853259e-40e8-4e7e-8656-b8d9278660a1",
+              "name" : "darwin_core.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFFilter on 2022-04-22T09:33:50Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "darwin_core.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 1241,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "6a05e49e77e61f08c4a75b6380b818d7"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/9853259e-40e8-4e7e-8656-b8d9278660a1/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/9853259e-40e8-4e7e-8656-b8d9278660a1/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/9853259e-40e8-4e7e-8656-b8d9278660a1/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/9853259e-40e8-4e7e-8656-b8d9278660a1/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/9853259e-40e8-4e7e-8656-b8d9278660a1"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/b270ad1e-1751-465c-8c2a-5f648c8f9555/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://rdu.unc.edu.ar/server/api/core/items/0013af39-226c-425d-a2de-c2f18033cf99/bundles?embed=bitstreams"
+    }
+  }
+}

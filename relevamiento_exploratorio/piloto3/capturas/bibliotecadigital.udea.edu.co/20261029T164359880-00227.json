@@ -1,0 +1,81 @@
+{
+ "pedido": "20261029T164359880-00227",
+ "url": "https://bibliotecadigital.udea.edu.co/server/api/pid/find?id=10495/13726",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:50:42 GMT"
+  ],
+  [
+   "content-length",
+   "0"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin,Access-Control-Request-Method,Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "es,en"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "cache-control",
+   "no-cache, no-store, max-age=0, must-revalidate"
+  ],
+  [
+   "pragma",
+   "no-cache"
+  ],
+  [
+   "expires",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "location",
+   "https://bibliotecadigital.udea.edu.co/server/api/core/items/000d88f5-8cd2-4dba-82ff-9328b26769c9"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "permissions-policy",
+   "geolocation=(self \"https://bibliotecadigital.udea.edu.co\"), camera=(self) geolocation=(self) microphone=(self)"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "x-forwarded-port",
+   "\"443\""
+  ],
+  [
+   "x-forwarded-proto",
+   "\"https\""
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

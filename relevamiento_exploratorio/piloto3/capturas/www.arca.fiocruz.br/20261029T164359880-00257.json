@@ -1,0 +1,37 @@
+{
+ "pedido": "20261029T164359880-00257",
+ "url": "https://www.arca.fiocruz.br/robots.txt",
+ "codigo": 301,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:51:31 GMT"
+  ],
+  [
+   "content-type",
+   "text/html"
+  ],
+  [
+   "content-length",
+   "162"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "location",
+   "https://arca.fiocruz.br/robots.txt"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubdomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

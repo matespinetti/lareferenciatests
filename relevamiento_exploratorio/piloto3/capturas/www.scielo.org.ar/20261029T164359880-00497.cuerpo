@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+          http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+ <responseDate>2026-10-29T16:58:04Z</responseDate>
+ <request verb="Identify">http://www.scielo.org.ar/oai/scielo-oai.php</request>
+ <Identify>
+  <repositoryName>SciELO - Scientific Electronic Library Online</repositoryName>
+  <baseURL>http://www.scielo.org.ar/oai/scielo-oai.php</baseURL>
+  <protocolVersion>2.0</protocolVersion>
+ <adminEmail>scielo-caicyt@conicet.gov.ar</adminEmail>
+<earliestDatestamp xmlns:dc="http://purl.org/dc/elements/1.1/">2002-07-01</earliestDatestamp>
+<!--transformed by PHP 01:10:04 29-10-2026-->  <deletedRecord>no</deletedRecord>
+  <granularity>YYYY-MM-DD</granularity>
+ </Identify>
+</OAI-PMH>

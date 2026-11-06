@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/oai2.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2026-10-29T12:14:15Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mets" identifier="oai:ru.iiec.unam.mx:12">http://ru.iiec.unam.mx/cgi/oai2</request>
+  <GetRecord>
+    <record>
+    <header>
+      <identifier>oai:ru.iiec.unam.mx:12</identifier>
+      <datestamp>2012-06-22T21:02:44Z</datestamp>
+      <setSpec>7375626A656374733D45:4533:453331</setSpec>
+      <setSpec>7375626A656374733D48:4837:483732</setSpec>
+      <setSpec>7375626A656374733D4C:4C33</setSpec>
+      <setSpec>7375626A656374733D4C:4C37</setSpec>
+      <setSpec>7375626A656374733D51:5134:513431</setSpec>
+      <setSpec>7375626A656374733D52:5235:523538</setSpec>
+      <setSpec>636F6C6C656374696F6E733D72657669737461735F69696563:7265765F6D6F6D656E746F5F65636F6E6F6D69636F</setSpec>
+      <setSpec>74797065733D6D6167617A696E655F6E756D626572</setSpec>
+      <setSpec>63726561746F72733D4D617274C3AD6E657A20457363616D696C6C613A52616DC3B36E3A3A</setSpec>
+      <setSpec>63726561746F72733D5A6570656461204D617274C3AD6E657A3A4D6172696F3A3A</setSpec>
+      <setSpec>63726561746F72733D50616C6163696F7320536F6C616E6F3A49736161633A3A</setSpec>
+      <setSpec>63726561746F72733D476F6E7AC3A16C657A20536F7269616E6F3A5261C3BA6C3A3A</setSpec>
+      <setSpec>63726561746F72733D4DC3A96E64657A20526F6472C3AD6775657A3A416C656A616E64726F3A3A</setSpec>
+      <setSpec>63726561746F72733D4E61766172726F20422E3A4265726E6172646F3A3A</setSpec>
+      <setSpec>63726561746F72733D52616DC3AD72657A20532E3A4A75616E204D616E75656C3A3A</setSpec></header>
+    <metadata>
+      <mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" OBJID="eprint_12" LABEL="Eprints Item" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><mets:metsHdr CREATEDATE="2026-10-29T12:14:15Z"><mets:agent ROLE="CUSTODIAN" TYPE="ORGANIZATION"><mets:name>RU-Económicas</mets:name></mets:agent></mets:metsHdr><mets:dmdSec ID="DMD_eprint_12_mods"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:titleInfo><mods:title>Momento Económico (13)</mods:title></mods:titleInfo><mods:name type="personal"><mods:namePart type="given">Ramón</mods:namePart><mods:namePart type="family">Martínez Escamilla</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name><mods:name type="personal"><mods:namePart type="given">Mario</mods:namePart><mods:namePart type="family">Zepeda Martínez</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name><mods:name type="personal"><mods:namePart type="given">Isaac</mods:namePart><mods:namePart type="family">Palacios Solano</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name><mods:name type="personal"><mods:namePart type="given">Raúl</mods:namePart><mods:namePart type="family">González Soriano</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name><mods:name type="personal"><mods:namePart type="given">Alejandro</mods:namePart><mods:namePart type="family">Méndez Rodríguez</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name><mods:name type="personal"><mods:namePart type="given">Bernardo</mods:namePart><mods:namePart type="family">Navarro B.</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name><mods:name type="personal"><mods:namePart type="given">Juan Manuel</mods:namePart><mods:namePart type="family">Ramírez S.</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name><mods:abstract>En este número Temas de hoy, El desprendimiento de las paraestatales, 21 México: La coyuntura del susector paraestatal, Ramón Martínez Escamilla, 3/ Imperialismo y petróleo: una evocación de la leyenda de Transilvania, Isaac Palacios Solano, 6/ El mercado petrolero mundial y las perspectivas de recuperación de la economía mexicana, Raúl Gonzlllez Soriano, 9/ Presupuesto del D.F. para 1985: 6% menos que en 1984, Alejandro Méndez Rodriguez, 11/ El impacto de&#13;
+la política urbana del régimen actual en los sectores populares, Bernardo Navano y Jum Manuel Ramírez S., 13</mods:abstract><mods:classification authority="lcc">E31 - Nivel de precios ; Inflación ; Deflación</mods:classification><mods:classification authority="lcc">H72 - Presupuesto y gasto de la administración estatal, autonómica y local</mods:classification><mods:classification authority="lcc">L3 - Organizaciones no lucrativas y empresas públicas</mods:classification><mods:classification authority="lcc">L7 - Estudios sectoriales : productos primarios y construcción</mods:classification><mods:classification authority="lcc">Q41 - Oferta y demanda</mods:classification><mods:classification authority="lcc">R58 - Política de desarrollo regional</mods:classification><mods:originInfo><mods:dateIssued encoding="iso8061">1984-12</mods:dateIssued></mods:originInfo><mods:originInfo><mods:publisher>Instituto de Investigaciones Económicas, UNAM</mods:publisher></mods:originInfo><mods:genre>Número de una revista</mods:genre></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:amdSec ID="TMD_eprint_12"><mets:rightsMD ID="rights_eprint_12_mods"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:useAndReproduction>
+<p xmlns="http://www.w3.org/1999/xhtml"><strong>Para trabajos depositados por el propio autor:</strong> 
+Al auto archivar esta colección de ficheros y metadatos bibliográficos asociados, otorgo a RU-Económicas el derecho para almacenarlos y ponerlos a disposición pública permanentemente de un modo gratuito y en línea. 
+Declaro que este material es de mi propiedad intelectual y entiendo que RU-Económicas no asume ninguna responsabilidad en caso de que se produzca una violación de derechos de propiedad al distribuir estos ficheros o metadatos. (Se insta encarecidamente a todos los autores a destacar sus derechos de autor en la página de título de su trabajo.)</p>
+
+<p xmlns="http://www.w3.org/1999/xhtml"><strong>Para trabajos depositados por otras personas distintas a su autor:</strong> Por la presente, declaro que la colección de ficheros y metadatos bibliográficos asociados que estoy archivando en RU-Económicas) es de dominio público. Si este no fuese el caso, acepto totalmente la responsabilidad por cualquier infracción de derechos de autor que conlleve la distribución de estos ficheros o metadatos.</p>
+
+<p xmlns="http://www.w3.org/1999/xhtml">Pulsar sobre el botón de depósito indica que está de acuerdo con estos términos.</p>
+    </mods:useAndReproduction></mets:xmlData></mets:mdWrap></mets:rightsMD></mets:amdSec><mets:fileSec><mets:fileGrp USE="reference"><mets:file ID="eprint_12_2688_1" SIZE="1511451" OWNERID="http://ru.iiec.unam.mx/12/1/Revista13_momento_economico.pdf" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://ru.iiec.unam.mx/12/1/Revista13_momento_economico.pdf"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_eprint_12_mods" ADMID="TMD_eprint_12"><mets:fptr FILEID="eprint_12_document_2688_1"/></mets:div></mets:structMap></mets:mets></metadata></record>
+  </GetRecord>
+</OAI-PMH>

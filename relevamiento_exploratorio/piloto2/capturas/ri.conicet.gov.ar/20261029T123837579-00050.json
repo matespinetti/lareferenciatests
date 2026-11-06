@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T123837579-00050",
+ "url": "https://ri.conicet.gov.ar/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:40:02 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "link",
+   "<https://ri.conicet.gov.ar/wp-json/>; rel=\"https://api.w.org/\""
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-frame-options",
+   "SAMEORIGIN"
+  ],
+  [
+   "referrer-policy",
+   "strict-origin-when-cross-origin"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=16000000"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

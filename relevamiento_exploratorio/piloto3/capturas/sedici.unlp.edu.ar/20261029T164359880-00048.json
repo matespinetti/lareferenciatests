@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00048",
+ "url": "https://sedici.unlp.edu.ar/bitstream/handle/10915/2848/Documento_completo.pdf?sequence=1",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:45:32 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ],
+  [
+   "content-length",
+   "14582059"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-cocoon-version",
+   "2.2.0"
+  ],
+  [
+   "vary",
+   "User-Agent"
+  ],
+  [
+   "last-modified",
+   "Fri, 09 Oct 2026 04:37:19 GMT"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:45:32 GMT"
+  ],
+  [
+   "content-language",
+   "es-AR"
+  ],
+  [
+   "x-frame-options",
+   "SAMEORIGIN"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "1; mode=block"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "archivo"
+}

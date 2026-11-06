@@ -1,0 +1,41 @@
+{
+ "pedido": "20261029T164359880-00396",
+ "url": "https://revistas.unlp.edu.ar/ejs/oai?verb=ListRecords&metadataPrefix=oai_dc&from=2025-10-29",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:55:22 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "keep-alive",
+   "timeout=2, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "content-type",
+   "text/xml;charset=utf-8"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

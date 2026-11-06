@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T15:40:14Z</responseDate><request verb="GetRecord" identifier="oai:riudg.udg.mx:20.500.12104/112502" metadataPrefix="xoai">https://riudg.udg.mx/oai/request</request><GetRecord><record><header><identifier>oai:riudg.udg.mx:20.500.12104/112502</identifier><datestamp>2026-04-13T19:45:27Z</datestamp><setSpec>com_20.500.12104_20530</setSpec><setSpec>com_20.500.12104_9</setSpec><setSpec>col_20.500.12104_34963</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="contributor">
+<element name="author">
+<element name="none">
+<field name="value">Flores Arévalo, Ximena Alejandra</field>
+</element>
+</element>
+<element name="director">
+<element name="none">
+<field name="value">López López, Zaira Del Rocío</field>
+</element>
+</element>
+<element name="codirector">
+<element name="none">
+<field name="value">Cano González, Mario Eduardo</field>
+</element>
+</element>
+</element>
+<element name="date">
+<element name="accessioned">
+<element name="none">
+<field name="value">2026-04-13T19:45:27Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2026-04-13T19:45:27Z</field>
+</element>
+</element>
+<element name="issued">
+<element name="none">
+<field name="value">2024-07-05</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="uri">
+<element name="none">
+<field name="value">https://wdg.biblio.udg.mx</field>
+<field name="value">https://hdl.handle.net/20.500.12104/112502</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="abstract">
+<element name="none">
+<field name="value">La nanotecnología se define como la tecnología aplicada durante la síntesis de materiales de tamaño nanométrico que va desde 1 nm hasta 100 nm. Esta ciencia se ha convertido en un área de investigación en las últimas décadas, especialmente en el área médica para tratar el cáncer debido a que las partículas en escala nanométrica pueden ingresar a las células de un tumor además de que poseen propiedades, ópticas o estructurales que las hace aptas para utilizarse en terapias de hipertermia. El cáncer es una enfermedad caracterizada por la multiplicación descontrolada de células que además evaden supresores de crecimiento y muerte celular. En este trabajo se explora la eficacia de nanopartículas de oro, mediante la terapia novedosa llamada Fototermia Plasmónica, como tratamiento adyuvante contra cáncer. En 1857, cuando Faraday descubrió que era posible obtener finas partículas de oro que exhibían tonalidad roja mediante un tratamiento de HAuCl4, con fosforo disuelto en CS2. Siguiendo el descubrimiento de Faraday, Gustav Mie estableció mediante la ecuación de Maxwell, que el tono rojo de las partículas de oro se atribuía a la absorción y dispersión de la luz, gracias a este descubrimiento, comenzó a estudiarse el fenómeno de resonancia del plasmón de superficie, entendiendo como plasmón de superficie a la oscilación que sufren los electrones encontrados en nanopartículas metálicas cuando estas interactúan con un rayo de luz láser. A partir de estas observaciones, se creó la terapia fototérmica plasmónica a través de la cual es posible generar hipertermia con la finalidad de inducir daño a células cancerígenas</field>
+</element>
+</element>
+<element name="tableofcontents">
+<element name="none">
+<field name="value">Introducción ……………………………………………………………………........... 6
+1. Antecedentes …………………………………………………………………… … 7
+1.1 Generalidades: Cáncer …………………………………………………………. ..7
+1.2 Terapias convencionales contra cáncer: quimioterapia y radioterapia ……..….... 9
+1.2.1 Antineoplásicos: doxorrubicina …………………………………………… 10
+1.3 Terapias adyuvantes en el tratamiento de cáncer ………………………………. 12
+1.3.1 Fototermia plasmónica ……………………………………………………. 13
+1.4 Nanocorazas de oro (Au NSHs) ………………………………………………... 15
+1.4.1 Propiedades fisicoquímicas de las nanocorazas involucradas en la funcionalidad ……………………………………………………………………..….. 15
+1.5 Tetrahidroxiquinona (THQ) como antineoplásico ………………………...…...17
+1.6 Respuestas celulares frente al tratamiento térmico ……………………............ 18
+1.6.1 Termotolerancia y autofagia ……………………………………………... 19
+1.6.2 Estrés oxidativo ………………………………………………………….. 22
+1.6.3 Apoptosis ……………………………………………………………...….. 24
+1.6.4 Necrosis …………………………………………………………………... 26
+2. Planteamiento del problema …………………………………………………….. .27
+3. Justificación ………………………………………………………………………. 28
+4. Pregunta de investigación …………………………………………………...…… 29
+5. Hipótesis …………………………………………………………………………... 29
+6. Objetivos ………………………………………………………………………….. 30
+7. Metodología ………………………………………………………………………. 31
+8. Resultados ………………………………………………………………………… 40
+9. Discusión ………………………………………………………………………….. 66
+10.Conclusión ………………………………………………………………………...75
+11. Referencias bibliográficas …………………………………………………….....76
+Anexos ……………………………………………………………………………...... 81</field>
+</element>
+</element>
+</element>
+<element name="format">
+<element name="none">
+<field name="value">application/PDF</field>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="none">
+<field name="value">spa</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="none">
+<field name="value">Biblioteca Digital wdg.biblio</field>
+<field name="value">Universidad de Guadalajara</field>
+</element>
+</element>
+<element name="rights">
+<element name="uri">
+<element name="none">
+<field name="value">https://www.riudg.udg.mx/info/politicas.jsp</field>
+</element>
+</element>
+<element name="holder">
+<element name="none">
+<field name="value">Universidad de Guadalajara</field>
+<field name="value">Flores Arévalo, Ximena Alejandra</field>
+</element>
+</element>
+</element>
+<element name="subject">
+<element name="none">
+<field name="value">Sinergismo</field>
+<field name="value">Fototermia Plasmonica</field>
+<field name="value">Antineoplasicos</field>
+<field name="value">Cancer De Mama.</field>
+</element>
+</element>
+<element name="title">
+<element name="none">
+<field name="value">Efecto sinérgico de fototermia plasmónica y antineoplásicos en células de cáncer de mama</field>
+</element>
+</element>
+<element name="type">
+<element name="none">
+<field name="value">Tesis de Maestría</field>
+</element>
+<element name="conacyt">
+<element name="none">
+<field name="value">masterThesis</field>
+</element>
+</element>
+</element>
+<element name="coverage">
+<element name="none">
+<field name="value">OCOTLAN, JALISCO</field>
+</element>
+</element>
+<element name="degree">
+<element name="name">
+<element name="none">
+<field name="value">MAESTRIA EN CIENCIAS</field>
+</element>
+</element>
+<element name="department">
+<element name="none">
+<field name="value">CUCIENEGA</field>
+</element>
+</element>
+<element name="grantor">
+<element name="none">
+<field name="value">Universidad de Guadalajara</field>
+</element>
+</element>
+<element name="creator">
+<element name="none">
+<field name="value">MAESTRO EN CIENCIAS</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">MCUCIENEGA10055.pdf</field>
+<field name="format">application/pdf</field>
+<field name="size">5541620</field>
+<field name="url">https://riudg.udg.mx//bitstream/20.500.12104/112502/1/MCUCIENEGA10055.pdf</field>
+<field name="checksum">8479c25a638d81ff5cc7f374440df371</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">20.500.12104/112502</field>
+<field name="identifier">oai:riudg.udg.mx:20.500.12104/112502</field>
+<field name="lastModifyDate">2026-04-13 14:45:27.422</field>
+</element>
+<element name="repository">
+<field name="name">RIUdeG</field>
+<field name="mail">wdgdigital@gmail.com</field>
+</element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

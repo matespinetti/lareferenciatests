@@ -1,0 +1,57 @@
+{
+ "pedido": "20261029T164359880-00335",
+ "url": "https://rephip.unr.edu.ar/bitstreams/f3040f1d-83d4-457b-9fc0-8add24874e6a/download",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.28.3 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:53:27 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "119"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793292828"
+  ],
+  [
+   "link",
+   "<https://rephip.unr.edu.ar/signposting/linksets/00550948-3883-477c-890b-d7a935c13693> ; rel=\"linkset\" ; type=\"application/linkset\" , <https://rephip.unr.edu.ar/signposting/linksets/00550948-3883-477c-890b-d7a935c13693/json> ; rel=\"linkset\" ; type=\"application/linkset+json\" , <https://rephip.unr.edu.ar/items/00550948-3883-477c-890b-d7a935c13693> ; rel=\"collection\" ; type=\"text/html\""
+  ],
+  [
+   "location",
+   "https://rephip.unr.edu.ar/server/api/core/bitstreams/f3040f1d-83d4-457b-9fc0-8add24874e6a/content"
+  ],
+  [
+   "vary",
+   "Accept"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

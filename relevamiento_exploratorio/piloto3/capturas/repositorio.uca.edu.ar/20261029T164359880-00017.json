@@ -1,0 +1,37 @@
+{
+ "pedido": "20261029T164359880-00017",
+ "url": "https://repositorio.uca.edu.ar/oai/request?verb=ListRecords&metadataPrefix=oai_dc&from=2025-10-29",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.18.0"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:46:52 GMT"
+  ],
+  [
+   "content-type",
+   "application/xml;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "server-timing",
+   "dtTrId;desc=\"55883aa06189ac4d340ad7f38a168af7\", dtSInfo;desc=\"0\""
+  ],
+  [
+   "server-timing",
+   "dtRpid;desc=\"822936640\""
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

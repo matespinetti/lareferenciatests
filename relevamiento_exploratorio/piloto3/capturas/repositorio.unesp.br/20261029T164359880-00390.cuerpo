@@ -1,0 +1,406 @@
+{
+  "id" : "0000ddb2-8599-4b46-a7c0-6c7e79216645",
+  "uuid" : "0000ddb2-8599-4b46-a7c0-6c7e79216645",
+  "name" : "Estudo de indicadores da qualidade da água em manancial superficial de abastecimento público",
+  "handle" : "11449/143233",
+  "metadata" : {
+    "dc.contributor.author" : [ {
+      "value" : "Navarro, André Luiz Sanchez [UNESP]",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Piranha, Joseli Maria [UNESP]",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Pacheco, Alberto",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dc.contributor.institution" : [ {
+      "value" : "Universidade Estadual Paulista (Unesp)",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2016-08-24T12:43:54Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2016-08-24T12:43:54Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2006",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "The present study attempted to the evaluation of water quality in a public superficial water supplying exposed to diverse anthropic impacts, to create consequently, subsidies for its management. The study was carried out in the municipal dams' complex in Sao Jose do Rio Preto-SP, involving four campaigns of data collection on five different points of the studied water body. Were realized physical-chemical, organoleptic, chemical and microbiological analysis for the appraisal of 31 water quality parameters. These parameters are included in national and international guidelines related to bathing and drinking water conditions, protection of aquatic life and trophic situation of waters. The values obtained were then compared with the limits prescript on those guidelines. Parameters with values in discordance with those prescripts were found in all the guidelines consulted. Among these parameters, Fe, Cu, Zn, Mn, P total and fecal coliphorms, became detached because of the discordances frequency. Results show an alarming scene in relation to water quality in thewater supplying source. This situation remits to the importance of theeffectuation of mitigating and management actions in the river Rio Preto's basin and, in addiction, emphasizes the importance of future studies for the investigation of the effect of these contaminants in aquatic organisms, which are used as food by a portion of local population.",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "El presente trabajo tuvo como objetivo la evaluación de la calidad del agua de manantial superficial reservada para abastecimiento público expuesto a diversos impactos antrópicos, con el propósito de crear susidios a proyectos emprendedores. El estudio fue realizado en el complejo de represas municipales de São José de Rio Preto-SP, envolvió cuatro campañas de colecta de datos en cinco puntos distintos del cuerpo hídrico estudiado. Fueron realizados análisis físico-químicos, organolépticos, químicos y microbiológicos para la evaluación de 31 parámetros de calidad del agua. Tales parámetrosestán incluidos en las normas nacionales e internacionales relativos a la clasificación de los cuerpos hídricos, potabilidad, balneabilidad, protección de la vida acuática y condición trófica del ambiente estudiado. Los valores obtenidos fueron comparados con los límites prescritos por las normas mencionadas. Fue comprobado que los parámetros no estaban de acuerdo a los prescritos en las normas consultadas. Entre esos parámetros se destacaron por la frecuencia de discordancia: FE, CU, Zn, Mn, P total y coniformes fecales. Los resultados obtenidos demostraron un resultado alarmante referente a la calidad del agua del manantial. Esta situación demuestra la necesidad de medidas urgentes que modifiquen la situación en la cuenca hidrográfica del Rio Preto, resalta laimportancia de estudios futuros, para investigar los efectos de esacontaminación en los organismos acuáticos que sirven de alimento para la población local. ",
+      "language" : "es",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "O presente trabalho objetivou a avaliação da qualidade da água em manancial superficial de abastecimento público sujeito a impactos antrópicos diversos, a fim de gerar subsídios para a gestão do mesmo. O estudo foi realizado no complexo de represas municipais de São José do Rio Preto-SP, envolvendo quatro campanhas de coleta de dados em cinco pontos distintos do corpo hídrico estudado. Foram realizadas análises físico-químicas, organolépticas, químicas e microbiológicas para a avaliação de 31 parâmetros de qualidade da água. Tais parâmetros constam de normas nacionais e internacionais relativas à classificação de corpos hídricos, potabilidade, balneabilidade, proteção da vida aquática e condição trófica do ambiente estudado. Os valores obtidos foram então comparados com os limites prescritos nessas normas. Constataram-se parâmetros com valores em desacordo com os prescritos em todas as normas consultadas. Dentre esses parâmetros destacaram-se pela freqüência de discordâncias: Fe, Cu, Zn, Mn, Ptotal e coliformes fecais. Os resultados obtidos demonstram um quadro alarmante em relação à qualidade da água no manancial. Tal situação remete à importância na efetivação de medidas mitigadoras e de gestão na bacia do Rio Preto e, ainda, ressalta a importância de estudos futuros, para a investigação do efeito desses contaminantes em organismos aquáticos que são utilizados como alimento por parte da população local.",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dc.description.affiliationUnesp" : [ {
+      "value" : "Universidade Estadual Paulista, Departamento de Química e Ciências Ambientais, Instituto de Biociências, Letras e Ciências Exatas de São José do Rio Preto",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.sponsorship" : [ {
+      "value" : "Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.sponsorshipId" : [ {
+      "value" : "FAPESP: 2004/02480-0",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "FAPESP: 2004/02481-7",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.format.extent" : [ {
+      "value" : "81-97",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier" : [ {
+      "value" : "http://ojs.unesp.br/index.php/revista_proex/article/view/364",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.citation" : [ {
+      "value" : "Revista Ciência em Extensão, v. 3, n. 1, p. 81-97, 2006.",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.file" : [ {
+      "value" : "ISSN1679-4605-2006-03-01-81-97.pdf",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.issn" : [ {
+      "value" : "1679-4605",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.lattes" : [ {
+      "value" : "6234308859636324",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://hdl.handle.net/11449/143233",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "por",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.publisher" : [ {
+      "value" : "Universidade Estadual Paulista (Unesp)",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.ispartof" : [ {
+      "value" : "Revista Ciência em Extensão",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.accessRights" : [ {
+      "value" : "Acesso aberto",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.source" : [ {
+      "value" : "PROEX",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject" : [ {
+      "value" : "Water quality",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Water pollution",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Water quality standards",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Reservoirs",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Water supply",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "Calidad del agua",
+      "language" : "es",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 5
+    }, {
+      "value" : "Contaminación del agua",
+      "language" : "es",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 6
+    }, {
+      "value" : "Normas de calidad del agua",
+      "language" : "es",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 7
+    }, {
+      "value" : "Reservatorios",
+      "language" : "es",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 8
+    }, {
+      "value" : "Abastecimento de agua",
+      "language" : "es",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 9
+    }, {
+      "value" : "Biológicas",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 10
+    }, {
+      "value" : "Meio ambiente",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 11
+    }, {
+      "value" : "Qualidade da água",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 12
+    }, {
+      "value" : "Poluição da água",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 13
+    }, {
+      "value" : "Normas de qualidade da água",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 14
+    }, {
+      "value" : "Reservatórios",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 15
+    }, {
+      "value" : "Abastecimento de água",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 16
+    } ],
+    "dc.title" : [ {
+      "value" : "Estudo de indicadores da qualidade da água em manancial superficial de abastecimento público",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title.alternative" : [ {
+      "value" : "Study of water quality indicators in superficial water source for public supply",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Estudio de los indicadores de la calidad del agua de manantial superficial reservada para abastecimiento público",
+      "language" : "es",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.type" : [ {
+      "value" : "Artigo",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dcterms.license" : [ {
+      "value" : "http://www.periodicos.rc.biblioteca.unesp.br/index.php/pesquisa/about/editorialPolicies#openAccessPolicy",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dspace.entity.type" : [ {
+      "value" : "Publication",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "relation.isOrgUnitOfPublication" : [ {
+      "value" : "43c38943-bd6f-4fb6-a9a5-8482a1f632c0",
+      "language" : null,
+      "authority" : "virtual::255912",
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "relation.isOrgUnitOfPublication.latestForDiscovery" : [ {
+      "value" : "43c38943-bd6f-4fb6-a9a5-8482a1f632c0",
+      "language" : null,
+      "authority" : "virtual::255912",
+      "confidence" : -1,
+      "place" : -1
+    } ],
+    "unesp.author.lattes" : [ {
+      "value" : "6234308859636324",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "unesp.campus" : [ {
+      "value" : "Universidade Estadual Paulista (UNESP), Instituto de Biociências, Letras e Ciências Exatas, São José do Rio Preto",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "unesp.department" : [ {
+      "value" : "Química e Ciências Ambientais - IBILCE",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-04-24T05:08:27.002756Z",
+  "entityType" : "Publication",
+  "type" : "item",
+  "uniqueType" : "core.item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000ddb2-8599-4b46-a7c0-6c7e79216645/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000ddb2-8599-4b46-a7c0-6c7e79216645/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000ddb2-8599-4b46-a7c0-6c7e79216645/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000ddb2-8599-4b46-a7c0-6c7e79216645/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000ddb2-8599-4b46-a7c0-6c7e79216645/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000ddb2-8599-4b46-a7c0-6c7e79216645/relationships"
+    },
+    "version" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000ddb2-8599-4b46-a7c0-6c7e79216645/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000ddb2-8599-4b46-a7c0-6c7e79216645/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000ddb2-8599-4b46-a7c0-6c7e79216645/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000ddb2-8599-4b46-a7c0-6c7e79216645/submitter"
+    },
+    "self" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000ddb2-8599-4b46-a7c0-6c7e79216645"
+    }
+  }
+}

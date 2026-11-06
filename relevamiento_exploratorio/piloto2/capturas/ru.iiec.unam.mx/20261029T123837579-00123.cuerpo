@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/oai2.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2026-10-29T12:42:42Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mets" identifier="oai:ru.iiec.unam.mx:110">http://ru.iiec.unam.mx/cgi/oai2</request>
+  <GetRecord>
+    <record>
+    <header>
+      <identifier>oai:ru.iiec.unam.mx:110</identifier>
+      <datestamp>2026-05-20T16:02:27Z</datestamp>
+      <setSpec>7374617475733D707562</setSpec>
+      <setSpec>7375626A656374733D46:4635:463532</setSpec>
+      <setSpec>7375626A656374733D59:5938:593830</setSpec>
+      <setSpec>74797065733D61727469636C65</setSpec>
+      <setSpec>63726561746F72733D576F6C663A47756E6E61723A3A</setSpec></header>
+    <metadata>
+      <mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" OBJID="eprint_110" LABEL="Eprints Item" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><mets:metsHdr CREATEDATE="2026-10-29T12:42:42Z"><mets:agent ROLE="CUSTODIAN" TYPE="ORGANIZATION"><mets:name>RU-Económicas</mets:name></mets:agent></mets:metsHdr><mets:dmdSec ID="DMD_eprint_110_mods"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:titleInfo><mods:title>Voto electrónico: Un peligro para la democracia</mods:title></mods:titleInfo><mods:name type="personal"><mods:namePart type="given">Gunnar</mods:namePart><mods:namePart type="family">Wolf</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name><mods:abstract>En varios países de Latinoamérica, las autoridades electorales están comenzando a voltear hacia las urnas de votación electrónicas. Los argumentos con los cuales presentan estas urnas a la población se centran particularmente en la disminución de costos del proceso electoral, una mayor agilidad en la obtención de resultados, y en poder tener más confianza en que las personas involucradas no engañen a la población con resultados ilegítimos, enfermedad de la cual Latinoamérica ha sufrido largamente. &#13;
+&#13;
+Las urnas electrónicas no son ya una novedad — Han sido utilizadas por varios países, desde las primeras pruebas en la India en 1982 hasta una amplia base en la última década. Sin embargo, un análisis sobre las experiencias vividas en ellos dista de ser positiva — y dista de ser homogénea.&#13;
+&#13;
+En el presente artículo serán analizados los desarrollos de estas tres líneas argumentativas resultan huecos, en el mejor de los casos, o directamente falaces. Se hace además una revisión de algunos casos emblemáticos de fallas que han llevado al replanteamiento –llegando incluso a la prohibición legal en algunos casos– del voto electrónico alrededor del mundo.</mods:abstract><mods:classification authority="lcc">F52 - Seguridad nacional ; Nacionalismo económico</mods:classification><mods:classification authority="lcc">Y80 - Disciplinas relacionadas</mods:classification><mods:originInfo><mods:dateIssued encoding="iso8061">2010-07</mods:dateIssued></mods:originInfo><mods:genre>Artículo</mods:genre></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:amdSec ID="TMD_eprint_110"><mets:rightsMD ID="rights_eprint_110_mods"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:useAndReproduction>
+<p xmlns="http://www.w3.org/1999/xhtml"><strong>Para trabajos depositados por el propio autor:</strong> 
+Al auto archivar esta colección de ficheros y metadatos bibliográficos asociados, otorgo a RU-Económicas el derecho para almacenarlos y ponerlos a disposición pública permanentemente de un modo gratuito y en línea. 
+Declaro que este material es de mi propiedad intelectual y entiendo que RU-Económicas no asume ninguna responsabilidad en caso de que se produzca una violación de derechos de propiedad al distribuir estos ficheros o metadatos. (Se insta encarecidamente a todos los autores a destacar sus derechos de autor en la página de título de su trabajo.)</p>
+
+<p xmlns="http://www.w3.org/1999/xhtml"><strong>Para trabajos depositados por otras personas distintas a su autor:</strong> Por la presente, declaro que la colección de ficheros y metadatos bibliográficos asociados que estoy archivando en RU-Económicas) es de dominio público. Si este no fuese el caso, acepto totalmente la responsabilidad por cualquier infracción de derechos de autor que conlleve la distribución de estos ficheros o metadatos.</p>
+
+<p xmlns="http://www.w3.org/1999/xhtml">Pulsar sobre el botón de depósito indica que está de acuerdo con estos términos.</p>
+    </mods:useAndReproduction></mets:xmlData></mets:mdWrap></mets:rightsMD></mets:amdSec><mets:fileSec><mets:fileGrp USE="reference"><mets:file ID="eprint_110_148_1" SIZE="45403" OWNERID="http://ru.iiec.unam.mx/110/1/voto_electronico.html" MIMETYPE="text/html"><mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://ru.iiec.unam.mx/110/1/voto_electronico.html"/></mets:file></mets:fileGrp><mets:fileGrp USE="reference"><mets:file ID="eprint_110_57668_1" SIZE="253779" OWNERID="http://ru.iiec.unam.mx/110/3/VI2010.pdf" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://ru.iiec.unam.mx/110/3/VI2010.pdf"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_eprint_110_mods" ADMID="TMD_eprint_110"><mets:fptr FILEID="eprint_110_document_148_1"/><mets:fptr FILEID="eprint_110_document_57668_1"/></mets:div></mets:structMap></mets:mets></metadata></record>
+  </GetRecord>
+</OAI-PMH>

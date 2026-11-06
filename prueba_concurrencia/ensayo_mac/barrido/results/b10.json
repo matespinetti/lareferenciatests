@@ -1,0 +1,74 @@
+{
+  "escenario": {
+    "id": "b10",
+    "lugares": 10,
+    "repos": 2400,
+    "items": 6000000,
+    "descripcion": "Barrido con la red de una t3.small, 10 lugares",
+    "modo": "corrutinas",
+    "db": false,
+    "duracion": 20.0,
+    "calentamiento": 10.0,
+    "tam_archivo": null,
+    "red": 16000000.0,
+    "grupo": "barrido_red"
+  },
+  "semilla": 1,
+  "puerto": 8443,
+  "terminado_antes_de_tiempo": false,
+  "errores_por_tipo": {},
+  "servidor": {
+    "pedidos": 126,
+    "violaciones": 0,
+    "simultaneos": 0,
+    "intervalos_cortos": 0,
+    "ejemplos": [],
+    "cpu_servidor": [
+      3.0,
+      2.0,
+      4.3,
+      4.8,
+      4.8,
+      5.0,
+      5.8,
+      4.6,
+      4.8,
+      5.1,
+      5.0,
+      5.9,
+      7.0,
+      4.3,
+      6.0,
+      5.0,
+      5.5,
+      5.0,
+      5.6,
+      4.7,
+      5.5,
+      5.9,
+      5.4,
+      5.0,
+      5.1,
+      5.0,
+      4.4,
+      5.4,
+      5.9,
+      5.5
+    ]
+  },
+  "versiones": {
+    "python": "3.12.11",
+    "aiohttp": "3.14.5",
+    "plataforma": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "supuestos": {
+    "ancho_por_conexion_mb_s": 2.0,
+    "intervalo_s": 1.0
+  },
+  "bucle": {
+    "p50_ms": 0.27,
+    "p99_ms": 1.31,
+    "max_ms": 2.61,
+    "muestras": 190
+  }
+}

@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Democratización de frecuencias: Los derechos negados de la Ley de Comunicación en Ecuador
+							| Question/Cuestión
+			</title>
+
+	
+<link rel="icon" href="https://perio.unlp.edu.ar/ojs/public/journals/5/favicon_es_ES.png" />
+<meta name="generator" content="Open Journal Systems 3.4.0.10" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="María Isabel Punin"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2022-09-01"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2019-09-12"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2022-09-01"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2022-09-01"/>
+<meta name="DC.Description" xml:lang="es" content="La democratización de la comunicación basada en la distribución equitativa de las frecuencias fue una de las promesas de la Ley de Comunicación (LOC-2013). El artículo 106 establecía en un principio el 33% de frecuencias para la operación de medios públicos, el 33% para la operación de medios privados y un 34% para la operación de medios comunitarios. Actualmente de acuerdo a la última reforma a la (LOC-febrero 2019), se estableció la escala en: 10% para medios públicos, 56% para medios privados y 34% para medios comunitarios.
+Un examen especial de los organismos de control del Estado (Contraloría General) (DNA4-0025- 2018), posterior a la expedición de la (LOC- 2013), evidenciaba que tres grupos manejaban el espectro mediático radial ecuatoriano, en particular; continuando la concentración monopólica en manos privadas, con amplia participación en la política partidista del Ecuador.
+El concurso público estimulado a raíz de la aprobación de la Ley sostiene que de 1.486 solicitudes, el 82% fueron del sector privado y apenas el 18% del sector comunitario, lo cual invalida la promesa de democratización. La radio es el segundo sector mediático más amplio y con mayor informalidad en el país."/>
+<meta name="DC.Description" xml:lang="en" content="The democratization of communication based on the equitable distribution of frequencies was one of the promises of the Communication Law (LOC-2013). Article 106 initially established 33% of frequencies for the operation of public media, 33% for the operation of private media and 34% for the operation of community media. Currently according to the latest reform to the LOC (February 2019), the scale was established at: 10% for public media, 56% for private media and 34% for community media.
+A special examination of the State control agencies (Comptroller General) (DNA4-0025-2018), after to the issuance of the LOC-2013, showed that three groups handled the Ecuadorian radial media spectrum, in particular; continuing the monopoly concentration in private hands linked to a broad participation in the partisan politics of Ecuador.
+The public contest stimulated following the approval of the Communication Law (LOC-2013) maintains that of 1,486 applications, 82% were from the private sector and only 18% from the community sector, which invalidates the promise of democratization. Radio is the second largest and most informal media sector in the country."/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="5535"/>
+<meta name="DC.Identifier.pageNumber" content="E727"/>
+<meta name="DC.Identifier.DOI" content="10.24215/16696581e727"/>
+<meta name="DC.Identifier.URI" content="https://perio.unlp.edu.ar/ojs/index.php/question/article/view/5535"/>
+<meta name="DC.Language" scheme="ISO639-1" content="es"/>
+<meta name="DC.Rights" content="Derechos de autor 2020 Question"/>
+<meta name="DC.Source" content="Question/Cuestión"/>
+<meta name="DC.Source.ISSN" content="1669-6581"/>
+<meta name="DC.Source.Issue" content="72"/>
+<meta name="DC.Source.Volume" content="3"/>
+<meta name="DC.Source.URI" content="https://perio.unlp.edu.ar/ojs/index.php/question"/>
+<meta name="DC.Subject" xml:lang="es" content="Democratización"/>
+<meta name="DC.Subject" xml:lang="es" content="Radios Comunitarias"/>
+<meta name="DC.Subject" xml:lang="es" content="acceso"/>
+<meta name="DC.Subject" xml:lang="es" content="frecuencias"/>
+<meta name="DC.Subject" xml:lang="en" content="Democratization; Community Radios; access; frequencies."/>
+<meta name="DC.Title" content="Democratización de frecuencias: Los derechos negados de la Ley de Comunicación en Ecuador"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Informes"/>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="Question/Cuestión"/>
+<meta name="citation_journal_abbrev" content="C"/>
+<meta name="citation_issn" content="1669-6581"/> 
+<meta name="citation_author" content="María Isabel Punin"/>
+<meta name="citation_author_institution" content="Universidad Técnica Particular de Loja - Ecuador"/>
+<meta name="citation_title" content="Democratización de frecuencias: Los derechos negados de la Ley de Comunicación en Ecuador"/>
+<meta name="citation_language" content="es"/>
+<meta name="citation_date" content="2022/09/01"/>
+<meta name="citation_volume" content="3"/>
+<meta name="citation_issue" content="72"/>
+<meta name="citation_firstpage" content="E727"/>
+<meta name="citation_lastpage" content="E727"/>
+<meta name="citation_doi" content="10.24215/16696581e727"/>
+<meta name="citation_abstract_html_url" content="https://perio.unlp.edu.ar/ojs/index.php/question/article/view/5535"/>
+<meta name="citation_abstract" xml:lang="es" content="La democratización de la comunicación basada en la distribución equitativa de las frecuencias fue una de las promesas de la Ley de Comunicación (LOC-2013). El artículo 106 establecía en un principio el 33% de frecuencias para la operación de medios públicos, el 33% para la operación de medios privados y un 34% para la operación de medios comunitarios. Actualmente de acuerdo a la última reforma a la (LOC-febrero 2019), se estableció la escala en: 10% para medios públicos, 56% para medios privados y 34% para medios comunitarios.
+Un examen especial de los organismos de control del Estado (Contraloría General) (DNA4-0025- 2018), posterior a la expedición de la (LOC- 2013), evidenciaba que tres grupos manejaban el espectro mediático radial ecuatoriano, en particular; continuando la concentración monopólica en manos privadas, con amplia participación en la política partidista del Ecuador.
+El concurso público estimulado a raíz de la aprobación de la Ley sostiene que de 1.486 solicitudes, el 82% fueron del sector privado y apenas el 18% del sector comunitario, lo cual invalida la promesa de democratización. La radio es el segundo sector mediático más amplio y con mayor informalidad en el país."/>
+<meta name="citation_keywords" xml:lang="en" content="Democratization; Community Radios; access; frequencies."/>
+<meta name="citation_keywords" xml:lang="es" content="Radios Comunitarias"/>
+<meta name="citation_keywords" xml:lang="es" content="acceso"/>
+<meta name="citation_keywords" xml:lang="es" content="frecuencias"/>
+<meta name="citation_pdf_url" content="https://perio.unlp.edu.ar/ojs/index.php/question/article/download/5535/6595"/>
+<meta name="citation_reference" content="Aladro, E. (2013). Las teorías profesionales y las 5 crisis del periodismo. Revista Cuadernos de Información y Comunicación, número 18, Universidad Complutense, Madrid, pp. 69-81."/>
+<meta name="citation_reference" content="Benozzi, M. (2011). Los servicios de comunicación audiovisual y su trascendencia en América Latina. Revista Síntesis Clave, número 70, Universidad Nacional de La Matanza, Buenos Aires. Recuperado de: http://observatoriosocial.unlam.edu.ar/descargas/19_sintesis_70.pdf"/>
+<meta name="citation_reference" content="Contraloría General del Estado, (2018). Agencia de Regulación y Control de las Telecomunicaciones ARCOTEL. Informe General DNA4-0025-2018."/>
+<meta name="citation_reference" content="Consejo de Regulación y Desarrollo de la Información y Comunicación (2018). Medios de Comunicación Social a Nivel Nacional. Recuperado de: http://www.cordicom.gob.ec/rpm/ (Última consulta: 1 de septiembre de 2018)."/>
+<meta name="citation_reference" content="Coronel, G. y otros (2011). Anuario de las empresas de comunicación de Ecuador (2011-2012). Loja: Universidad Técnica Particular de Loja."/>
+<meta name="citation_reference" content="De Mateo, R., Sabater, M. y Bergés, L. (2009). Gestión de las empresas de comunicación. Madrid: Ediciones Comunicación Social."/>
+<meta name="citation_reference" content="Follari, R. (2009). Los grandes medios como oposición encubierta [conferencia]. Ponencia presentada al Encuentro de Investigadores Argentina-Brasil. Mendoza: Facultad de Ciencias Políticas y Sociales, Universidad Nacional de Cuyo."/>
+<meta name="citation_reference" content="Fox, E., Waisbord S. (2002). Política latina, medios globales. Austin: University of Texas Press."/>
+<meta name="citation_reference" content="Kitzberger, P. (2014). Medios y política democrática en América Latina: ¿ha llegado la hora de las reformas?. Revista Observatorio Latinoamericano, número 14, Universidad de Buenos Aires, Buenos Aires, pp. 66- 77."/>
+<meta name="citation_reference" content="Macaroff, A. (2010). ¿Es posible democratizar la comunicación? Debates sobre los medios públicos y privados en el Ecuador. Ágora, espacio de autoarchivo e intercambio de documentos y trabajos de investigación, Quito: FLACSO-Andes. Recuperado de: http://www.flacsoandes.edu.ec/web/imagesFTP/1269834506.trabajo_Follariv1.pdf (Última consulta: 1 de septiembre de 2018)."/>
+<meta name="citation_reference" content="Mastrini, G., Mestman, M. (1996). ¿Desregulación o re-regulación? De la derrota de las políticas a la política de la derrota. Revista Cuadernos de Información y Cultura, número 2, Universidad Complutense de Madrid, Madrid, pp.81-88."/>
+<meta name="citation_reference" content="Rincón, O. (2010). ¿Por qué nos odian tanto? Estado y medios de comunicación en América Latina.. Bogotá: Centro de Competencia en Comunicación para América Latina. Recuperado de: https://goo.gl/dZ5kC7 (Última consulta: 20 de agosto de 2018)."/>
+<meta name="citation_reference" content="Santoro, D. y otros (2012). Antídoto contra el silencio: testimonios desde el periodismo de investigación y el uso de herramientas web. Quito: Fundamedios. Recuperado de: https://www.dropbox.com/s/n9h90td6mei031b/antidoto_contra_el_silencio.compressed.pdf?dl=0 (Última consulta: 15 de septiembre de 2018)."/>
+<meta name="citation_reference" content="Segura, M. (2014). La sociedad civil y la democratización de las comunicaciones en Latinoamérica. Revista Iconos, número 4. FLACSO-Ecuador, Quito, pp. 65-80."/>
+<meta name="citation_reference" content="Tuvilla, J. (1997). Derechos Humanos y medios de comunicación. Revista Comunicar, número 9. Grupo Comunicar Ediciones, Madrid, pp.77-86."/>
+<meta name="citation_reference" content="Waisbord, S. (2013). Vox populista. Medios, periodismo, democracia. Buenos Aires: Gedisa."/>
+	<link rel="stylesheet" href="https://perio.unlp.edu.ar/ojs/index.php/question/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://perio.unlp.edu.ar/ojs/index.php/question/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://perio.unlp.edu.ar/ojs/lib/pkp/styles/fontawesome/fontawesome.css?v=3.4.0.10" type="text/css" /><link rel="stylesheet" href="https://perio.unlp.edu.ar/ojs/public/journals/5/styleSheet.css?d=2022-08-31+21%3A40%3A47" type="text/css" /><link rel="stylesheet" href="https://perio.unlp.edu.ar/ojs/public/site/styleSheet.css?v=3.4.0.10" type="text/css" /><link rel="stylesheet" href="https://perio.unlp.edu.ar/ojs/plugins/generic/citationStyleLanguage/css/citationStyleLanguagePlugin.css?v=3.4.0.10" type="text/css" />
+</head>
+<body class="pkp_page_article pkp_op_view has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Salta a los enlaces de contenido">
+	<a href="#pkp_content_main">Ir al contenido principal</a>
+	<a href="#siteNav">Ir al menú de navegación principal</a>
+		<a href="#pkp_content_footer">Ir al pie de página del sitio</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://perio.unlp.edu.ar/ojs/index.php/question/index
+					" class="is_img">
+							<img src="https://perio.unlp.edu.ar/ojs/public/journals/5/pageHeaderLogoImage_es_ES.png" width="800" height="240" alt="logo unlp" />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Navegación del sitio">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://perio.unlp.edu.ar/ojs/index.php/question">
+					Inicio
+				</a>
+							</li>
+								<li class="">
+				<a href="https://perio.unlp.edu.ar/ojs/index.php/question/issue/current">
+					Actual
+				</a>
+							</li>
+								<li class="">
+				<a href="https://perio.unlp.edu.ar/ojs/index.php/question/issue/archive">
+					Archivos
+				</a>
+							</li>
+															<li class="">
+				<a href="https://perio.unlp.edu.ar/ojs/index.php/question/about">
+					Acerca de
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://perio.unlp.edu.ar/ojs/index.php/question/politica_editorial">
+										Política Editorial
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://perio.unlp.edu.ar/ojs/index.php/question/about">
+										Sobre la revista
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://perio.unlp.edu.ar/ojs/index.php/question/about/editorialTeam">
+										Equipo editorial
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://perio.unlp.edu.ar/ojs/index.php/question/stats">
+										Estadísticas
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://perio.unlp.edu.ar/ojs/index.php/question/about/submissions">
+										ENVÍOS
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://perio.unlp.edu.ar/ojs/index.php/question/about/contact">
+										Contacto
+									</a>
+								</li>
+																		</ul>
+							</li>
+			</ul>
+
+				
+
+																						<div class="pkp_navigation_search_wrapper">
+									<a href="https://perio.unlp.edu.ar/ojs/index.php/question/search" class="pkp_search pkp_search_desktop">
+										<span class="fa fa-search" aria-hidden="true"></span>
+										Buscar
+									</a>
+								</div>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+								<li class="profile">
+				<a href="https://perio.unlp.edu.ar/ojs/index.php/question/user/register">
+					Registrarse
+				</a>
+							</li>
+								<li class="profile">
+				<a href="https://perio.unlp.edu.ar/ojs/index.php/question/login">
+					Entrar
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="Usted está aquí:">
+	<ol>
+		<li>
+			<a href="https://perio.unlp.edu.ar/ojs/index.php/question/index">
+				Inicio
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://perio.unlp.edu.ar/ojs/index.php/question/issue/archive">
+				Archivos
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://perio.unlp.edu.ar/ojs/index.php/question/issue/view/282">
+					Vol. 3 Núm. 72 (2022): Agosto 2022
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									Informes
+							</span>
+		</li>
+	</ol>
+</nav>
+	
+		  	 <article class="obj_article_details">
+
+		
+	<h1 class="page_title">
+		Democratización de frecuencias: Los derechos negados de la Ley de Comunicación en Ecuador
+	</h1>
+
+	
+	<div class="row">
+		<div class="main_entry">
+
+							<section class="item authors">
+					<h2 class="pkp_screen_reader">Autores/as</h2>
+					<ul class="authors">
+											<li>
+							<span class="name">
+								María Isabel Punin
+							</span>
+															<span class="affiliation">
+									Universidad Técnica Particular de Loja - Ecuador
+																	</span>
+																																				<span class="orcid">
+																		<a href="http://orcid.org/0000-0001-5052-824X" target="_blank">
+										http://orcid.org/0000-0001-5052-824X
+									</a>
+								</span>
+													</li>
+										</ul>
+				</section>
+			
+																	<section class="item doi">
+					<h2 class="label">
+												DOI:
+					</h2>
+					<span class="value">
+						<a href="https://doi.org/10.24215/16696581e727">
+							https://doi.org/10.24215/16696581e727
+						</a>
+					</span>
+				</section>
+			
+
+									<section class="item keywords">
+				<h2 class="label">
+										Palabras clave:
+				</h2>
+				<span class="value">
+											Democratización, 											Radios Comunitarias, 											acceso, 											frecuencias									</span>
+			</section>
+			
+										<section class="item abstract">
+					<h2 class="label">Resumen</h2>
+					<p>La democratización de la comunicación basada en la distribución equitativa de las frecuencias fue una de las promesas de la Ley de Comunicación (LOC-2013). El artículo 106 establecía en un principio el 33% de frecuencias para la operación de medios públicos, el 33% para la operación de medios privados y un 34% para la operación de medios comunitarios. Actualmente de acuerdo a la última reforma a la (LOC-febrero 2019), se estableció la escala en: 10% para medios públicos, 56% para medios privados y 34% para medios comunitarios.</p>
+<p>Un examen especial de los organismos de control del Estado (Contraloría General) (DNA4-0025- 2018), posterior a la expedición de la (LOC- 2013), evidenciaba que tres grupos manejaban el espectro mediático radial ecuatoriano, en particular; continuando la concentración monopólica en manos privadas, con amplia participación en la política partidista del Ecuador.</p>
+<p>El concurso público estimulado a raíz de la aprobación de la Ley sostiene que de 1.486 solicitudes, el 82% fueron del sector privado y apenas el 18% del sector comunitario, lo cual invalida la promesa de democratización. La radio es el segundo sector mediático más amplio y con mayor informalidad en el país.</p>
+				</section>
+			
+			
+
+										
+				<section class="item downloads_chart">
+					<h2 class="label">
+						Descargas
+					</h2>
+					<div class="value">
+						<canvas class="usageStatsGraph" data-object-type="Submission" data-object-id="5535"></canvas>
+						<div class="usageStatsUnavailable" data-object-type="Submission" data-object-id="5535">
+							Los datos de descarga aún no están disponibles.
+						</div>
+					</div>
+				</section>
+			
+																																<section class="item author_bios">
+					<h2 class="label">
+													Biografía del autor/a
+											</h2>
+					<ul class="authors">
+																		<li class="sub_item">
+								<div class="label">
+																																							María Isabel Punin,  Universidad Técnica Particular de Loja - Ecuador 
+																	</div>
+								<div class="value">
+									<p>2000: Profesor titular de la materia de Géneros Periodísticos. Universidad Técnica Particular de Loja ( UTPL – Ecuador).</p><p>2000: Profesor Investigador de la Universidad Técnica Particular de Loja ( UTPL – Ecuador).  </p><p>2007: Diplomado Superior Experto en Gestión y Calidad Universitaria. Universidad de Sevilla.</p><p>2012: Coordinadora de la Titulación de Comunicación Social. Modalidad Abierta y Modalidad Presencial. Universidad Técnica Particular de Loja. ( UTPL – Ecuador).</p><p>2012: Integrante del  Consejo Asesor de Contenidos Revista Diálogos.  Publicación ISI.</p><p>2012: PhD en Comunicación y Periodismo.  Universidad Santiago de Compostela. España.  </p><p>Tema de tesis: La formación de Comunicadores Sociales en Ecuador. Estudios de casos: Universidad  Central del Ecuador, Universidad del Azuay y Universidad Técnica Particular de Loja.</p>
+								</div>
+							</li>
+																</ul>
+				</section>
+			
+										<section class="item references">
+					<h2 class="label">
+						Referencias
+					</h2>
+					<div class="value">
+																					<p>Aladro, E. (2013). Las teorías profesionales y las 5 crisis del periodismo. Revista Cuadernos de Información y Comunicación, número 18, Universidad Complutense, Madrid, pp. 69-81. </p>
+															<p>Benozzi, M. (2011). Los servicios de comunicación audiovisual y su trascendencia en América Latina. Revista Síntesis Clave, número 70, Universidad Nacional de La Matanza, Buenos Aires. Recuperado de: <a href="http://observatoriosocial.unlam.edu.ar/descargas/19_sintesis_70.pdf">http://observatoriosocial.unlam.edu.ar/descargas/19_sintesis_70.pdf</a> </p>
+															<p>Contraloría General del Estado, (2018). Agencia de Regulación y Control de las Telecomunicaciones ARCOTEL. Informe General DNA4-0025-2018. </p>
+															<p>Consejo de Regulación y Desarrollo de la Información y Comunicación (2018). Medios de Comunicación Social a Nivel Nacional. Recuperado de: <a href="http://www.cordicom.gob.ec/rpm/">http://www.cordicom.gob.ec/rpm/</a> (Última consulta: 1 de septiembre de 2018). </p>
+															<p>Coronel, G. y otros (2011). Anuario de las empresas de comunicación de Ecuador (2011-2012). Loja: Universidad Técnica Particular de Loja. </p>
+															<p>De Mateo, R., Sabater, M. y Bergés, L. (2009). Gestión de las empresas de comunicación. Madrid: Ediciones Comunicación Social. </p>
+															<p>Follari, R. (2009). Los grandes medios como oposición encubierta [conferencia]. Ponencia presentada al Encuentro de Investigadores Argentina-Brasil. Mendoza: Facultad de Ciencias Políticas y Sociales, Universidad Nacional de Cuyo. </p>
+															<p>Fox, E., Waisbord S. (2002). Política latina, medios globales. Austin: University of Texas Press. </p>
+															<p>Kitzberger, P. (2014). Medios y política democrática en América Latina: ¿ha llegado la hora de las reformas?. Revista Observatorio Latinoamericano, número 14, Universidad de Buenos Aires, Buenos Aires, pp. 66- 77. </p>
+															<p>Macaroff, A. (2010). ¿Es posible democratizar la comunicación? Debates sobre los medios públicos y privados en el Ecuador. Ágora, espacio de autoarchivo e intercambio de documentos y trabajos de investigación, Quito: FLACSO-Andes. Recuperado de: <a href="http://www.flacsoandes.edu.ec/web/imagesFTP/1269834506.trabajo_Follariv1.pdf">http://www.flacsoandes.edu.ec/web/imagesFTP/1269834506.trabajo_Follariv1.pdf</a> (Última consulta: 1 de septiembre de 2018). </p>
+															<p>Mastrini, G., Mestman, M. (1996). ¿Desregulación o re-regulación? De la derrota de las políticas a la política de la derrota. Revista Cuadernos de Información y Cultura, número 2, Universidad Complutense de Madrid, Madrid, pp.81-88. </p>
+															<p>Rincón, O. (2010). ¿Por qué nos odian tanto? Estado y medios de comunicación en América Latina.. Bogotá: Centro de Competencia en Comunicación para América Latina. Recuperado de: <a href="https://goo.gl/dZ5kC7">https://goo.gl/dZ5kC7</a> (Última consulta: 20 de agosto de 2018). </p>
+															<p>Santoro, D. y otros (2012). Antídoto contra el silencio: testimonios desde el periodismo de investigación y el uso de herramientas web. Quito: Fundamedios. Recuperado de: <a href="https://www.dropbox.com/s/n9h90td6mei031b/antidoto_contra_el_silencio.compressed.pdf?dl=0">https://www.dropbox.com/s/n9h90td6mei031b/antidoto_contra_el_silencio.compressed.pdf?dl=0</a> (Última consulta: 15 de septiembre de 2018). </p>
+															<p>Segura, M. (2014). La sociedad civil y la democratización de las comunicaciones en Latinoamérica. Revista Iconos, número 4. FLACSO-Ecuador, Quito, pp. 65-80. </p>
+															<p>Tuvilla, J. (1997). Derechos Humanos y medios de comunicación. Revista Comunicar, número 9. Grupo Comunicar Ediciones, Madrid, pp.77-86. </p>
+															<p>Waisbord, S. (2013). Vox populista. Medios, periodismo, democracia. Buenos Aires: Gedisa. </p>
+																		</div>
+				</section>
+			
+		</div><!-- .main_entry -->
+
+		<div class="entry_details">
+
+						
+										<div class="item galleys">
+					<h2 class="pkp_screen_reader">
+						Descargas
+					</h2>
+					<ul class="value galleys_links">
+													<li>
+								
+	
+													
+
+<a class="obj_galley_link pdf" href="https://perio.unlp.edu.ar/ojs/index.php/question/article/view/5535/6595">
+		
+	PDF
+
+	</a>
+							</li>
+											</ul>
+				</div>
+						
+						<div class="item published">
+				<section class="sub_item">
+					<h2 class="label">
+						Publicado
+					</h2>
+					<div class="value">
+																			<span>2022-09-01</span>
+																	</div>
+				</section>
+							</div>
+			
+						
+										<div class="item issue">
+
+											<section class="sub_item">
+							<h2 class="label">
+								Número
+							</h2>
+							<div class="value">
+								<a class="title" href="https://perio.unlp.edu.ar/ojs/index.php/question/issue/view/282">
+									Vol. 3 Núm. 72 (2022): Agosto 2022
+								</a>
+							</div>
+						</section>
+					
+											<section class="sub_item">
+							<h2 class="label">
+								Sección
+							</h2>
+							<div class="value">
+								Informes
+							</div>
+						</section>
+					
+									</div>
+			
+																					
+										<div class="item copyright">
+					<h2 class="label">
+						Licencia
+					</h2>
+										<p><a name="derechos"></a></p>
+<p>La aceptación de un original por parte de la revista implica la cesión no exclusiva de los derechos patrimoniales de los/as autores/as en favor del editor, quien permite la reutilización, luego de su edición (postprint), bajo una <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional&nbsp;(CC BY-NC-SA 4.0)</a></p>
+<p>Acorde a estos términos, el material se puede compartir (copiar y redistribuir en cualquier medio o formato) y adaptar (remezclar, transformar y crear a partir del material otra obra), siempre que a) se cite la autoría y la fuente original de su publicación (revista y URL de la obra), b) no se use para fines comerciales y c) se mantengan los mismos términos de la licencia.</p>
+<p>La cesión de derechos no exclusivos implica que luego de su edición (postprint) en <em>Question</em> las/os autoras/es pueden publicar su trabajo en cualquier idioma, medio y formato; en tales casos, se solicita que se consigne que el material fue publicado originalmente en esta revista.&nbsp;</p>
+<p>Tal cesión supone, también, la autorización de los/as autores/as para que el trabajo sea cosechado por <a href="http://sedici.unlp.edu.ar/handle/10915/29475" target="_blank" rel="noopener">SEDICI</a>, el repositorio institucional de la Universidad Nacional de La Plata, y sea difundido en las bases de datos que el equipo editorial considere adecuadas para incrementar la visibilidad de la publicación y de sus autores/as.&nbsp;</p>
+<p>Asimismo, la revista incentiva a las/os autoras/es para que luego de su publicación en <em>Question </em>depositen sus producciones en otros repositorios institucionales y temáticos, bajo el principio de que ofrecer a la sociedad la producción científica y académica sin restricciones contribuye a un mayor intercambio del conocimiento global.&nbsp;</p>
+				</div>
+			
+				<div class="item citation">
+		<section class="sub_item citation_display">
+			<h2 class="label">
+				Cómo citar
+			</h2>
+			<div class="value">
+				<div id="citationOutput" role="region" aria-live="polite">
+					<div class="csl-bib-body">
+  <div class="csl-entry">Democratización de frecuencias: Los derechos negados de la Ley de Comunicación en Ecuador. (2022). <i>Question/Cuestión</i>, <i>3</i>(72), E727. <a href="https://doi.org/10.24215/16696581e727">https://doi.org/10.24215/16696581e727</a></div>
+</div>
+				</div>
+				<div class="citation_formats">
+					<button class="citation_formats_button label" aria-controls="cslCitationFormats" aria-expanded="false" data-csl-dropdown="true">
+						Más formatos de cita
+					</button>
+					<div id="cslCitationFormats" class="citation_formats_list" aria-hidden="true">
+						<ul class="citation_formats_styles">
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/acm-sig-proceedings?submissionId=5535&amp;publicationId=4426&amp;issueId=282"
+											data-load-citation
+											data-json-href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/acm-sig-proceedings?submissionId=5535&amp;publicationId=4426&amp;issueId=282&amp;return=json"
+									>
+										ACM
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/acs-nano?submissionId=5535&amp;publicationId=4426&amp;issueId=282"
+											data-load-citation
+											data-json-href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/acs-nano?submissionId=5535&amp;publicationId=4426&amp;issueId=282&amp;return=json"
+									>
+										ACS
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/apa?submissionId=5535&amp;publicationId=4426&amp;issueId=282"
+											data-load-citation
+											data-json-href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/apa?submissionId=5535&amp;publicationId=4426&amp;issueId=282&amp;return=json"
+									>
+										APA
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=5535&amp;publicationId=4426&amp;issueId=282"
+											data-load-citation
+											data-json-href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=5535&amp;publicationId=4426&amp;issueId=282&amp;return=json"
+									>
+										ABNT
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/chicago-author-date?submissionId=5535&amp;publicationId=4426&amp;issueId=282"
+											data-load-citation
+											data-json-href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/chicago-author-date?submissionId=5535&amp;publicationId=4426&amp;issueId=282&amp;return=json"
+									>
+										Chicago
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/harvard-cite-them-right?submissionId=5535&amp;publicationId=4426&amp;issueId=282"
+											data-load-citation
+											data-json-href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/harvard-cite-them-right?submissionId=5535&amp;publicationId=4426&amp;issueId=282&amp;return=json"
+									>
+										Harvard
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/ieee?submissionId=5535&amp;publicationId=4426&amp;issueId=282"
+											data-load-citation
+											data-json-href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/ieee?submissionId=5535&amp;publicationId=4426&amp;issueId=282&amp;return=json"
+									>
+										IEEE
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/modern-language-association?submissionId=5535&amp;publicationId=4426&amp;issueId=282"
+											data-load-citation
+											data-json-href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/modern-language-association?submissionId=5535&amp;publicationId=4426&amp;issueId=282&amp;return=json"
+									>
+										MLA
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=5535&amp;publicationId=4426&amp;issueId=282"
+											data-load-citation
+											data-json-href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=5535&amp;publicationId=4426&amp;issueId=282&amp;return=json"
+									>
+										Turabian
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/vancouver?submissionId=5535&amp;publicationId=4426&amp;issueId=282"
+											data-load-citation
+											data-json-href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/vancouver?submissionId=5535&amp;publicationId=4426&amp;issueId=282&amp;return=json"
+									>
+										Vancouver
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/ama?submissionId=5535&amp;publicationId=4426&amp;issueId=282"
+											data-load-citation
+											data-json-href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/get/ama?submissionId=5535&amp;publicationId=4426&amp;issueId=282&amp;return=json"
+									>
+										AMA
+									</a>
+								</li>
+													</ul>
+													<div class="label">
+								Descargar cita
+							</div>
+							<ul class="citation_formats_styles">
+																	<li>
+										<a href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/download/ris?submissionId=5535&amp;publicationId=4426&amp;issueId=282">
+											<span class="fa fa-download"></span>
+											Endnote/Zotero/Mendeley (RIS)
+										</a>
+									</li>
+																	<li>
+										<a href="https://perio.unlp.edu.ar/ojs/index.php/question/citationstylelanguage/download/bibtex?submissionId=5535&amp;publicationId=4426&amp;issueId=282">
+											<span class="fa fa-download"></span>
+											BibTeX
+										</a>
+									</li>
+															</ul>
+											</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+		</div><!-- .entry_details -->
+	</div><!-- .row -->
+
+</article>
+
+	
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary">
+				<div class="pkp_block block_custom" id="customblock-malvinas">
+	<h2 class="title pkp_screen_reader">malvinas</h2>
+	<div class="content">
+		<p style="text-align: center;"><a title="Acceda a los artículos" href="https://perio.unlp.edu.ar/ojs/index.php/question/issue/view/278#article-7463" target="_blank" rel="noopener"><img style="margin-top: -20px; margin-left: -6px;" src="https://perio.unlp.edu.ar/ojs/public/site/images/dpc/mceclip0.png" alt="Acceda a los artículos" width="100%"></a></p>
+	</div>
+</div>
+<div class="pkp_block block_make_submission">
+	<h2 class="pkp_screen_reader">
+		Enviar un artículo
+	</h2>
+
+	<div class="content">
+		<a class="block_make_submission_link" href="https://perio.unlp.edu.ar/ojs/index.php/question/about/submissions">
+			Enviar un artículo
+		</a>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-alertas">
+	<h2 class="title pkp_screen_reader">Alertas</h2>
+	<div class="content">
+		<div><a title="Alertas" href="https://perio.unlp.edu.ar/ojs/index.php/question/information/readers"><img style="width: 40px;" src="/ojs/public/site/images/admin/Alertas50.png" alt="alertas" width="40px"></a> <a title="Estadísticas" href="https://perio.unlp.edu.ar/ojs/index.php/question/stats"><img style="width: 40px;" src="https://perio.unlp.edu.ar/ojs/public/site/images/dpc/stats-ok.png" alt="alertas" width="40px"></a> <a title="Facebook" href="https://www.facebook.com/revistascientificasdecomunicacion/" target="_blank" rel="noopener"><img style="height: 27px; margin: 0 0 6px 10px;" src="https://perio.unlp.edu.ar/ojs/public/site/images/dpc/facebook-logo-ok.png" alt="Facebook">&nbsp;</a><a title="Instagram" href="https://www.instagram.com/revistas_periodismo_unlp/?hl=es-la" target="_blank" rel="noopener"><img style="height: 32px; margin: 0 0 3px 10px;" src="/ojs//public/site/images/admin/Instagram1.png" alt="Instagram">&nbsp;</a></div>
+	</div>
+</div>
+<div class="pkp_block block_language">
+	<h2 class="title">
+		Idioma
+	</h2>
+
+	<div class="content">
+		<ul>
+							<li class="locale_en" lang="en">
+					<a href="https://perio.unlp.edu.ar/ojs/index.php/question/user/setLocale/en?source=%2Fojs%2Findex.php%2Fquestion%2Farticle%2Fview%2F5535">
+						English
+					</a>
+				</li>
+							<li class="locale_es current" lang="es">
+					<a href="https://perio.unlp.edu.ar/ojs/index.php/question/user/setLocale/es?source=%2Fojs%2Findex.php%2Fquestion%2Farticle%2Fview%2F5535">
+						Español
+					</a>
+				</li>
+							<li class="locale_pt_BR" lang="pt-BR">
+					<a href="https://perio.unlp.edu.ar/ojs/index.php/question/user/setLocale/pt_BR?source=%2Fojs%2Findex.php%2Fquestion%2Farticle%2Fview%2F5535">
+						Português
+					</a>
+				</li>
+					</ul>
+	</div>
+</div><!-- .block_language -->
+<div class="pkp_block block_custom" id="customblock-repositorios">
+	<h2 class="title pkp_screen_reader">repositorios</h2>
+	<div class="content">
+		<div style="border-bottom: 0px solid #A879B5; width: 100%; padding: 10px 0px 10px; margin: 0 0 0 0px;" align="center"><a href="http://mjl.clarivate.com/cgi-bin/jrnlst/jlresults.cgi?PC=MASTER&amp;ISSN=*1669-6581" target="_blank" rel="noopener"><img style="height: 85px; margin: 0 5px;" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/ESCI_button_crvs.fw_.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="https://www.latindex.org/latindex/ficha/16538" target="_blank" rel="noopener"><img style="height: 80px; margin: 0 5px;" src="https://perio.unlp.edu.ar/ojs/public/site/images/adela/blobid0-b3646e72f19d46826dc0598db8a9eac4.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="https://doaj.org/toc/1669-6581" target="_blank" rel="noopener"><img class="repositorios" src="/ojs/public/site/images/admin/DOAJ_perio.jpg" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="http://132.248.9.1:8991/F/R9AB927QTIALCI28QLQF3FJI844KYU85K263KARNHQFER554GJ-01482?func=find-b-0&amp;local_base=cla01" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/clase12_SF.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="https://kanalregister.hkdir.no/publiseringskanaler/erihplus/periodical/info.action?id=488317" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/erihplus_SF.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="https://dialnet.unirioja.es/servlet/revista?codigo=21226" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/dpc/blobid0.jpg" alt="Facultad de Periodismo y Comunicación Social"></a><a href="https://atoz.ebsco.com/Titles/SearchResults/8623?SearchType=Contains&amp;Find=1669-6581&amp;GetResourcesBy=QuickSearch&amp;resourceTypeName=allTitles&amp;resourceType=&amp;radioButtonChanged=%20" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/EBSCO_AtoZ_SF.gif" alt="Facultad de Periodismo y Comunicación Social"></a><a href="http://ezb.uni-regensburg.de/searchres.phtml?bibid=AAAAA&amp;colors=7&amp;lang=en&amp;jq_type1=QS&amp;jq_term1=1669-6581" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/Electronic_Journals_Library_EZB.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="http://www.periodicos.capes.gov.br/index.php?option=com_pmetabusca&amp;mn=70&amp;smn=78&amp;sfx=find-ej-1&amp;type=p&amp;sfx=buscaRapida&amp;Itemid=120" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/logo-capes_SF.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="http://miar.ub.edu/issn/1669-6581" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/MIAR_SF.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="http://www.caicyt-conicet.gov.ar/malena/items/show/1890" target="_blank" rel="noopener"><img class="repositorios" src="/ojs//public/site/images/admin/Logo_MALENA.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="http://www.sherpa.ac.uk/romeo/search.php?issn=1669-6581" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/SHERPA-RoMEO-long.jpg" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="https://www.base-search.net/Search/Results?lookfor=1669-6581&amp;type=all&amp;page=1&amp;l=es&amp;oaboost=1&amp;refid=dcpagees" target="_blank" rel="noopener"><img class="repositorios" src="/ojs/public/site/images/admin/Logo_BASE.jpg" alt="Facultad de Periodismo y Comunicación Social"></a><a href="https://clasificacioncirc.es/resultados_busqueda?_pag=1&amp;_busqueda2=1669-6581" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/logo_CIRC_SF.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="https://iamcr.org/open-access-journals" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/IAMCR.png" alt="Facultad de Periodismo y Comunicación Social"></a>
+<p style="text-align: center;"><span style="font-size: x-small;"><strong><span style="font-family: arial, helvetica, sans-serif;">International Association for Media</span></strong></span><br><span style="font-size: x-small;"><strong><span style="font-family: arial, helvetica, sans-serif;">and Communication Research</span> </strong></span></p>
+<a href="https://www.google.com/maps/d/viewer?mid=1ZqUDt08iTeenVxLhIm5B3QOhAaY&amp;ll=-32.08477871052685%2C-61.554586509374985&amp;z=6" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/latinrev_sf1.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="http://www.journaltocs.ac.uk/index.php?action=browse&amp;subAction=pub&amp;publisherID=1307&amp;journalID=34888&amp;pageb=1&amp;userQueryID=&amp;sort=&amp;local_page=1&amp;sorType=DESC&amp;sorCol=5" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/JOURNAL_TOCs_SF.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="https://biblat.unam.mx/es/revista/revista-question" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/biblat_SF.png" alt="Facultad de Periodismo y Comunicación Social"></a>&nbsp; <a href="http://rebiun.baratz.es/rebiun/record/Rebiun00095648" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/REBIUN_SF4.png" alt="Facultad de Periodismo y Comunicación Social"></a><a href="https://www.worldcat.org/title/revista-question-revista-especializada-en-periodismo-y-comunicacion/oclc/881810983?lang=es%20" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/WORLDCAT_SF.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="http://copac.jisc.ac.uk/search?&amp;isn=1669%2D6581" target="_blank" rel="noopener"><img class="repositorios" src="/ojs/public/site/images/dpc/COPAC.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="http://librarysearch.le.ac.uk/primo_library/libweb/action/dlSearch.do?vl%28freeText0%29=revista+question&amp;institution=44UOLE&amp;vid=44UOLE_VU1&amp;indx=1&amp;bulkSize=30&amp;dym=false&amp;loc=local%2Cscope%3A%28AZ44UOLE%29&amp;fn=goAlmaAz&amp;almaAzSearch=true&amp;initialSearch=true%20" target="_blank" rel="noopener"><img class="repositorios" src="https://perio.unlp.edu.ar/ojs/public/site/images/ssouza/Intute1.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="https://portal.issn.org/resource/ISSN/1669-6581" target="_blank" rel="noopener"><img class="repositorios" src="/ojs//public/site/images/admin/road-issn.png"></a> <a href="https://reseau-mirabel.info/revue/8880/Revista-question" target="_blank" rel="noopener"><img class="repositorios" style="height: 65px;" src="/ojs//public/site/images/admin/Logo1.png"></a></div>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-politicas">
+	<h2 class="title pkp_screen_reader">politicas</h2>
+	<div class="content">
+		<hr>
+<div style="border-bottom: 0px solid #A879B5; width: 100%; padding: 10px 0px 10px; margin: 0 0 0 0px;" align="center"><a href="https://sfdora.org/read/es/" target="_blank" rel="noopener"><img style="height: 90px; margin: 5px 10px;" src="/ojs/public/site/images/admin/Dora3.png" alt="Facultad de Periodismo y Comunicación Social"></a> <a href="https://www.redalyc.org/jatsRepo/356/35656002017/index.html" target="_blank" rel="noopener"><img style="height: 90px; margin: 5px 10px;" src="/ojs/public/site/images/admin/DecMexico.png"></a></div>
+<hr>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+					<div class="pkp_footer_content">
+				<div style="width: 100%; display: flex; justify-content: center; padding: 5px;">
+<div style="text-align: center; color: #5f5f5f;">
+<p><strong>Question/Cuestión<br /></strong>Revista científica especializada en periodismo y comunicación<br /><a href="http://perio.unlp.edu.ar/ojs/index.php/question">http://perio.unlp.edu.ar/ojs/index.php/question</a><br /><br />ISSNe 1669-6581 | Publicación con periodicidad cuatrimestral</p>
+<p><a href="https://unlp.edu.ar/" target="_blank" rel="noopener">Universidad Nacional de La Plata</a>, <a href="https://perio.unlp.edu.ar/" target="_blank" rel="noopener">Facultad de Periodismo y Comunicación Social</a><br />Instituto de Investigaciones en Comunicación (IICOM)<br />Diagonal 113 esquina 63 N.° 291 | La Plata (1900) | Buenos Aires | Argentina | <a href="mailto:question@perio.unlp.edu.ar">question@perio.unlp.edu.ar</a></p>
+</div>
+</div>
+<div id="contenedor-de-logos-al-pie1" style="border-bottom: 0px solid #A879B5; width: 100%; padding: 10px 0px 0px; margin: 0 0 0 0px;" align="center"><a href="http://www.caicyt-conicet.gov.ar/sitio/servicios-documentales/binpar/" target="_blank" rel="noopener"><img style="height: 60px; margin: 0 0 10px 0;" src="https://perio.unlp.edu.ar/ojs/public/site/images/dpc/logo-base-binpar-ok.jpg" /></a> <a href="https://biblioteca.sicyt.gob.ar/catalogo/21594" target="_blank" rel="noopener"><img class="logos-al-pie1" style="height: 45px; margin-bottom: 16px;" src="https://perio.unlp.edu.ar/ojs/public/site/images/admin/biblioteca_logo.jpg" alt="Biblioteca" /></a> <a href="http://sedici.unlp.edu.ar/" target="_blank" rel="noopener"> <img class="logos-al-pie1" style="height: 40px; margin-bottom: 20px;" src="https://perio.unlp.edu.ar/ojs/public/site/images/admin/sedici_logo.png" alt="SEDICI" /></a> <a href="https://portalderevistas.unlp.edu.ar/" target="_blank" rel="noopener"> <img class="logos-al-pie1" style="height: 55px; margin-bottom: 17px;" src="https://perio.unlp.edu.ar/ojs/public/site/images/dpc/marca-portal-de-revistas-unlp-ok.png" alt="PORTAL" /></a> <a href="http://unlp.edu.ar/" target="_blank" rel="noopener"> <img class="logos-al-pie1" style="height: 65px; margin: 0 0 8px 0;" src="https://perio.unlp.edu.ar/ojs/public/site/images/dpc/marca-unlp-ok.png" alt="UNLP" /></a></div>
+<div id="contenedor-de-logos-al-pie2" style="border-bottom: 0px solid #A879B5; width: 100%; padding: 10px 0px 0px; margin: 0 0 0 0px;" align="center"><a href="https://pkp.sfu.ca/" target="_blank" rel="noopener"><img class="logos-al-pie" src="https://perio.unlp.edu.ar/ojs/public/site/images/dpc/logo-pkp-1.png" /></a> <a href="https://www.budapestopenaccessinitiative.org/" target="_blank" rel="noopener"><img class="logos-al-pie" src="https://perio.unlp.edu.ar/ojs/public/site/images/dpc/open-access.png" /></a> <a href="https://creativecommons.org/" target="_blank" rel="noopener"><img class="logos-al-pie" style="height: 25px; margin: 10px 25px 20px 25px;" src="https://perio.unlp.edu.ar/ojs/public/site/images/dpc/creative-commons-logo-ok.png" alt="Licencia Creative Commons" /></a> <a href="https://www.doi.org/" target="_blank" rel="noopener"> <img class="logos-al-pie" src="https://perio.unlp.edu.ar/ojs/public/site/images/dpc/logo-doi-ok.png" alt="ORCID" /></a> <a href="https://orcid.org/" target="_blank" rel="noopener"> <img class="logos-al-pie" src="https://perio.unlp.edu.ar/ojs/public/site/images/dpc/orcid-logo-ok.png" alt="ORCID" /></a></div>
+			</div>
+		
+		<div class="pkp_brand_footer">
+			<a href="https://perio.unlp.edu.ar/ojs/index.php/question/about/aboutThisPublishingSystem">
+				<img alt="Más información acerca del sistema de publicación, de la plataforma y del flujo de trabajo de OJS/PKP." src="https://perio.unlp.edu.ar/ojs/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://perio.unlp.edu.ar/ojs/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.4.0.10" type="text/javascript"></script><script src="https://perio.unlp.edu.ar/ojs/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.4.0.10" type="text/javascript"></script><script src="https://perio.unlp.edu.ar/ojs/plugins/themes/default/js/lib/popper/popper.js?v=3.4.0.10" type="text/javascript"></script><script src="https://perio.unlp.edu.ar/ojs/plugins/themes/default/js/lib/bootstrap/util.js?v=3.4.0.10" type="text/javascript"></script><script src="https://perio.unlp.edu.ar/ojs/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.4.0.10" type="text/javascript"></script><script src="https://perio.unlp.edu.ar/ojs/plugins/themes/default/js/main.js?v=3.4.0.10" type="text/javascript"></script><script src="https://perio.unlp.edu.ar/ojs/plugins/generic/citationStyleLanguage/js/articleCitation.js?v=3.4.0.10" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.data = pkpUsageStats.data || {};pkpUsageStats.data.Submission = pkpUsageStats.data.Submission || {};pkpUsageStats.data.Submission[5535] = {"data":{"2022":{"9":0,"10":0,"11":0,"12":0},"2023":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":3,"12":18},"2024":{"1":6,"2":7,"3":6,"4":4,"5":4,"6":6,"7":8,"8":5,"9":2,"10":5,"11":2,"12":5},"2025":{"1":7,"2":7,"3":5,"4":8,"5":2,"6":14,"7":5,"8":0,"9":0,"10":0,"11":0,"12":0},"2026":{"1":0,"2":2,"3":9,"4":9,"5":12,"6":7,"7":12,"8":19,"9":17,"10":17}},"label":"Todas las descargas","color":"79,181,217","total":233};</script><script src="https://perio.unlp.edu.ar/ojs/lib/pkp/js/lib/Chart.min.js?v=3.4.0.10" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.locale = pkpUsageStats.locale || {};pkpUsageStats.locale.months = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];pkpUsageStats.config = pkpUsageStats.config || {};pkpUsageStats.config.chartType = "line";</script><script src="https://perio.unlp.edu.ar/ojs/lib/pkp/js/usage-stats-chart.js?v=3.4.0.10" type="text/javascript"></script><script type="text/javascript">
+(function (w, d, s, l, i) { w[l] = w[l] || []; var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+j.src = 'https://www.googletagmanager.com/gtag/js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+function gtag(){dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config', i); })
+(window, document, 'script', 'dataLayer', 'UA-22356047-1');
+</script>
+
+
+</body>
+</html>

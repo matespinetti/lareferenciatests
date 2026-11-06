@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T12:11:59Z</responseDate><request verb="GetRecord" identifier="oai:rdu.unc.edu.ar:11086/23398" metadataPrefix="mets">https://rdu.unc.edu.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:rdu.unc.edu.ar:11086/23398</identifier><datestamp>2022-03-24T09:23:26Z</datestamp><setSpec>com_11086_489</setSpec><setSpec>com_11086_166</setSpec><setSpec>col_11086_493</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11086-23398" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11086/23398">
+   <metsHdr CREATEDATE="2026-10-29T12:11:59Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace 7</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11086_23398">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Herz, Marcelo</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Falavigna, Claudio</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2022-03-22T23:40:08Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2022-03-22T23:40:08Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2009</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/11086/23398</mods:identifier>
+               <mods:abstract>Desarrolla una metodología para cuantificar accesibilidad y conveniencia en líneas de ómnibus teniendo en cuenta las expectativas de calidad del usuario local y aplicarla al caso de sistema de transporte por ómnibus de la ciudad de Córdoba.</mods:abstract>
+               <mods:abstract>Uno de los principales problemas urbanos que presentan las grandes ciudades es el constante incremento&#xd;
+de las tasas de motorización y la disminución del porcentaje de viajes realizados en medios masivos. Esta&#xd;
+situación es particularmente notoria en los países en desarrollo donde existe una mayor proporción de&#xd;
+usuarios cautivos. El presente trabajo desarrolla una metodología que permite cuantificar accesibilidad y&#xd;
+conveniencia en líneas de ómnibus considerando las expectativas de calidad de los posibles segmentos de&#xd;
+usuarios y las características de uso de suelo de lo s sectores atendidos. El objeto es obtener indicadores&#xd;
+relativos que permitan comparar y seleccionar servicios de ómnibus, cuantificando la calidad de servicio&#xd;
+y la sustentabilidad de cada línea, en la etapa de planificación previa a la implementación de los mismos.&#xd;
+Los datos para el desarrollo de la metodología fuer on obtenidos a partir de encuestas a usuarios de&#xd;
+servicios ómnibus de la Ciudad de Córdoba.</mods:abstract>
+               <mods:abstract>One of the main urban problems that have large c ities is the steady increase in motorization rates and&#xd;
+decreased the percentage of trips in mass transit. Th is is particularly noticeable in developing countries&#xd;
+where higher proportions of captive users are. This research develops a methodology to quantify&#xd;
+accessibility and convenience of bus lines taking into consideration the quality expectations of the&#xd;
+potential segments and land use characteristics of the sectors covered. The object is to get indicators for&#xd;
+comparing and selecting bus services, quantifying service quality and sustainability of each line in the&#xd;
+planning stage prior to implementing them.&#xd;
+The data for developing the methodology were obtained fro m user surveys of bus services in the City of&#xd;
+Cordoba.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Atribución-NoComercial-CompartirIgual 4.0 Internacional</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Maestría Ciencias de la Ingeniería Mención Transporte</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Transporte</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Transporte por carretera</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Transporte colectivo</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Ingeniería del transporte</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Planificación del transporte</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Política de transporte</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Transporte urbano</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Investigación sobre el transporte</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Control de calidad</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Gestión de calidad</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Metodología para cuantificar accesibilidad y conveniencia de un sistema de transporte público masivo de pasajeros : aplicación al caso de la ciudad de Córdoba</mods:title>
+               </mods:titleInfo>
+               <mods:genre>masterThesis</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_11086_23398">
+      <rightsMD ID="RIG_11086_23398">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TGljZW5jaWEgZGUgRGlzdHJpYnVjacOzbiBObyBFeGNsdXNpdmEKClBhcmEgcXVlIGVsIFJlcG9zaXRvcmlvIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIHB1ZWRhIHJlcHJvZHVjaXIgeQpjb211bmljYXIgcMO6YmxpY2FtZW50ZSBzdSBkb2N1bWVudG8gZXMgbmVjZXNhcmlvIGxhIGFjZXB0YWNpw7NuIGRlIGxvcyBzaWd1aWVudGVzCnTDqXJtaW5vcy4gUG9yIGZhdm9yLCBsZWEgbGFzIHNpZ3VpZW50ZXMgY29uZGljaW9uZXMgZGUgbGljZW5jaWE6CgoxLiBBY2VwdGFuZG8gZXN0YSBsaWNlbmNpYSwgdXN0ZWQgKGVsIGF1dG9yL2VzIG8gZWwgcHJvcGlldGFyaW8vcyBkZSBsb3MgZGVyZWNob3MgZGUgYXV0b3IpCmdhcmFudGl6YSBhIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIGVsIGRlcmVjaG8gbm8gZXhjbHVzaXZvIGRlCmFyY2hpdmFyLCByZXByb2R1Y2lyLCBjb252ZXJ0aXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pLCBjb211bmljYXIgeS9vIGRpc3RyaWJ1aXIgc3UKZG9jdW1lbnRvIG11bmRpYWxtZW50ZSBlbiBmb3JtYXRvIGVsZWN0csOzbmljby4KCjIuIFRhbWJpw6luIGVzdMOhIGRlIGFjdWVyZG8gY29uIHF1ZSBsYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBwdWVkYQpjb25zZXJ2YXIgbcOhcyBkZSB1bmEgY29waWEgZGUgZXN0ZSBkb2N1bWVudG8geSwgc2luIGFsdGVyYXIgc3UgY29udGVuaWRvLCBjb252ZXJ0aXJsbwphIGN1YWxxdWllciBmb3JtYXRvIGRlIGZpY2hlcm8sIG1lZGlvIG8gc29wb3J0ZSwgcGFyYSBwcm9ww7NzaXRvcyBkZSBzZWd1cmlkYWQsCnByZXNlcnZhY2nDs24geSBhY2Nlc28uCgozLiBEZWNsYXJhIHF1ZSBlbCBkb2N1bWVudG8gZXMgdW4gdHJhYmFqbyBvcmlnaW5hbCBzdXlvIHkvbyBxdWUgdGllbmUgZWwgZGVyZWNobyBwYXJhCm90b3JnYXIgbG9zIGRlcmVjaG9zIGNvbnRlbmlkb3MgZW4gZXN0YSBsaWNlbmNpYS4gVGFtYmnDqW4gZGVjbGFyYSBxdWUgc3UgZG9jdW1lbnRvCm5vIGluZnJpbmdlLCBlbiB0YW50byBlbiBjdWFudG8gbGUgc2VhIHBvc2libGUgc2FiZXIsIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBuaW5ndW5hCm90cmEgcGVyc29uYSBvIGVudGlkYWQuCgo0LiBTaSBlbCBkb2N1bWVudG8gY29udGllbmUgbWF0ZXJpYWxlcyBkZSBsb3MgY3VhbGVzIG5vIHRpZW5lIGxvcyBkZXJlY2hvcyBkZSBhdXRvciwKZGVjbGFyYSBxdWUgaGEgb2J0ZW5pZG8gZWwgcGVybWlzbyBzaW4gcmVzdHJpY2Npw7NuIGRlbCBwcm9waWV0YXJpbyBkZSBsb3MgZGVyZWNob3MgZGUKYXV0b3IgcGFyYSBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MKcG9yIGVzdGEgbGljZW5jaWEsIHkgcXVlIGVzZSBtYXRlcmlhbCBjdXlvcyBkZXJlY2hvcyBzb24gZGUgdGVyY2Vyb3MgZXN0w6EgY2xhcmFtZW50ZQppZGVudGlmaWNhZG8geSByZWNvbm9jaWRvIGVuIGVsIHRleHRvIG8gY29udGVuaWRvIGRlbCBkb2N1bWVudG8gZW50cmVnYWRvLgoKNS4gU2kgZWwgZG9jdW1lbnRvIHNlIGJhc2EgZW4gdW5hIG9icmEgcXVlIGhhIHNpZG8gcGF0cm9jaW5hZGEgbyBhcG95YWRhIHBvciB1bmEKYWdlbmNpYSB1IG9yZ2FuaXphY2nDs24gZGlmZXJlbnRlIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhLCBzZQpwcmVzdXBvbmUgcXVlIHNlIGhhIGN1bXBsaWRvIGNvbiBjdWFscXVpZXIgZGVyZWNobyBkZSByZXZpc2nDs24gdSBvdHJhcyBvYmxpZ2FjaW9uZXMKcmVxdWVyaWRhcyBwb3IgZXN0ZSBjb250cmF0byBvIGFjdWVyZG8uCgo2LiBMYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBpZGVudGlmaWNhcsOhIGNsYXJhbWVudGUgc3UvcyBub21icmUvcyBjb21vCmVsL2xvcyBhdXRvci9lcyBvIHByb3BpZXRhcmlvL3MgZGUgbG9zIGRlcmVjaG9zIGRlbCBkb2N1bWVudG8sIHkgbm8gaGFyw6EgbmluZ3VuYQphbHRlcmFjacOzbiBkZSBzdSBkb2N1bWVudG8gZGlmZXJlbnRlIGEgbGFzIHBlcm1pdGlkYXMgZW4gZXN0YSBsaWNlbmNpYS4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_11086_23398_1">
+      <techMD ID="TECH_O_11086_23398_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/0f0a403c-b064-4b8a-8b48-d40e29c3cea6/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>4a0c25ae521efcc3ac50e092b627ddd4</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>4638220</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>UNC Transporte Publico Falavigna.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_11086_23398_4">
+      <techMD ID="TECH_T_11086_23398_4">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/b1e8cbde-420a-4fb1-a461-fcd2a8c4e07d/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>68724f8d3f2e81ce3740ea1e22f38b9b</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>348182</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>UNC Transporte Publico Falavigna.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_11086_23398_1" MIMETYPE="application/pdf" SEQ="1" SIZE="4638220" CHECKSUM="4a0c25ae521efcc3ac50e092b627ddd4" CHECKSUMTYPE="MD5" ADMID="FO_11086_23398_1" GROUPID="GROUP_BITSTREAM_11086_23398_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/0f0a403c-b064-4b8a-8b48-d40e29c3cea6/download"/>
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_11086_23398_4" MIMETYPE="text/plain" SEQ="4" SIZE="348182" CHECKSUM="68724f8d3f2e81ce3740ea1e22f38b9b" CHECKSUMTYPE="MD5" ADMID="FT_11086_23398_4" GROUPID="GROUP_BITSTREAM_11086_23398_4">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/b1e8cbde-420a-4fb1-a461-fcd2a8c4e07d/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11086_23398">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_23398_1"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record></GetRecord></OAI-PMH>

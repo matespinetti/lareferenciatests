@@ -1,0 +1,37 @@
+{
+ "pedido": "20261029T123837579-00125",
+ "url": "http://ru.iiec.unam.mx/110/1/voto_electronico.html",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:42:53 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "location",
+   "https://ru.iiec.unam.mx/110/1/voto_electronico.html"
+  ],
+  [
+   "content-length",
+   "235"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/html; charset=iso-8859-1"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

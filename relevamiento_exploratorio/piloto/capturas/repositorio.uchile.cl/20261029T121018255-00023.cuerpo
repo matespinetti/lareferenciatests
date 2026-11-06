@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T12:10:56Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.uchile.cl:2250/149589" metadataPrefix="xoai">https://repositorio.uchile.cl/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.uchile.cl:2250/149589</identifier><datestamp>2024-05-07T21:20:21Z</datestamp><setSpec>com_2250_100012</setSpec><setSpec>col_2250_117708</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="contributor">
+<element name="author">
+<element name="none">
+<field name="value">Lucero Álvarez, Yalda</field>
+<field name="value">Oyarzún, Amaya</field>
+<field name="value">O'Ryan Gallardo, Miguel</field>
+<field name="value">Valenzuela, Romina</field>
+<field name="value">Alcalde Ruíz, Elisa</field>
+<field name="value">Arce Fricke, Claudio</field>
+<field name="value">Farfán Urzúa, Mauricio</field>
+<field name="value">Vergara, Alejandra F.</field>
+<field name="value">Sandoval Gajardo, Iván Elías</field>
+<field name="value">Méndez, Jocelyn</field>
+<field name="value">Carrasco, Jorge</field>
+<field name="value">Ossa Alemparte, Juan</field>
+<field name="value">Pérez Bravo, Francisco</field>
+<field name="value">Castro Lebrero, Magdalena</field>
+<field name="value">Araya, Magdalena</field>
+</element>
+</element>
+</element>
+<element name="date">
+<element name="accessioned">
+<element name="none">
+<field name="value">2018-07-06T14:33:20Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2018-07-06T14:33:20Z</field>
+</element>
+</element>
+<element name="issued">
+<element name="none">
+<field name="value">2017</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="citation">
+<element name="es_ES">
+<field name="value">Front. Cell. Infect. Microbiol. 7: 376</field>
+</element>
+</element>
+<element name="other">
+<element name="none">
+<field name="value">10.3389/fcimb.2017.00376</field>
+</element>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">https://repositorio.uchile.cl/handle/2250/149589</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="abstract">
+<element name="none">
+<field name="value">Background: Mechanisms underlying the high clinical and histological diversity of celiac disease (CD) remain elusive. Helicobacter pylori (Hp) chronically infects gastric and duodenal mucosa and has been associated with protection against some immune-mediated conditions, but its role (specifically of cagA+ strains) in CD is unclear. Objective: To assess the relationship between gastric Hp infection (cagA+ strains) and duodenal histological damage in patients with CD. Design: Case-control study including patients with active-CD, potential-CD and nonceliac individuals. Clinical presentation, HLA genotype, Hp/cagA gene detection in gastric mucosa, duodenal histology, Foxp3 positive cells and TGF-β expression in duodenal lamina propria were analyzed. Results: We recruited 116 patients, 29 active-CD, 37 potential-CD, and 50 non-CD controls. Hp detection was similar in the three groups (∼30–40%), but cagA+ strains were more common in infected potential-CD than in active-CD (10/11 vs. 4/10; p = 0.020) and non-CD (10/20; p = 0.025). Among active-CD patients, Foxp3 positivity was significantly higher in subjects with cagA+ Hp+ compared to cagA- Hp+ (p &lt; 0.01) and Hp- (p &lt; 0.01). In cagA+ Hp+ individuals, Foxp3 positivity was also higher comparing active- to potential-CD (p &lt; 0.01). TGF-β expression in duodenum was similar in activeCD with cagA+ Hp+ compared to Hp- and was significantly downregulated in cagA+ potential-CD subjects compared to other groups. Conclusion: Hp infection rates were similar among individuals with/without CD, but infection with cagA+ strains was associated with milder histological damage in celiac patients infected by Hp, and in active-CD cases with higher expression of T-reg markers. Results suggest that infection by cagA+ Hp may be protective for CD progression, or conversely, that these strains are prone to colonize intestinal mucosa with less severe damage.</field>
+</element>
+</element>
+<element name="sponsorship">
+<element name="es_ES">
+<field name="value">Comision Nacional de Investigacion Cientifica y Tecnologica (CONICYT) CONICYT FONDECYT 11121671</field>
+</element>
+</element>
+</element>
+<element name="language">
+<element name="iso">
+<element name="es_ES">
+<field name="value">en</field>
+</element>
+</element>
+</element>
+<element name="publisher">
+<element name="es_ES">
+<field name="value">Frontiers Media</field>
+</element>
+</element>
+<element name="rights">
+<element name="*">
+<field name="value">Attribution-NonCommercial-NoDerivs 3.0 Chile</field>
+</element>
+<element name="uri">
+<element name="*">
+<field name="value">http://creativecommons.org/licenses/by-nc-nd/3.0/cl/</field>
+</element>
+</element>
+</element>
+<element name="source">
+<element name="es_ES">
+<field name="value">Frontiers in Cellular and Infection Microbiology</field>
+</element>
+</element>
+<element name="subject">
+<element name="es_ES">
+<field name="value">Celiac disease</field>
+<field name="value">Potential celiac disease</field>
+<field name="value">Helicobacter pylori</field>
+<field name="value">cagA gene</field>
+<field name="value">Duodenal atrophy</field>
+</element>
+</element>
+<element name="title">
+<element name="es_ES">
+<field name="value">Helicobacter pylori cagA + is associated with milder duodenal histological changes in chilean celiac patients</field>
+</element>
+</element>
+<element name="type">
+<element name="none">
+<field name="value">Artículo de revista</field>
+</element>
+</element>
+</element>
+<element name="uchile">
+<element name="catalogador">
+<element name="es_ES">
+<field name="value">tjn</field>
+</element>
+</element>
+<element name="index">
+<element name="es_ES">
+<field name="value">Artículo de publicación ISI</field>
+</element>
+</element>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">LICENSE</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">license.txt</field>
+<field name="originalName">license.txt</field>
+<field name="format">text/plain; charset=utf-8</field>
+<field name="size">1748</field>
+<field name="url">https://repositorio.uchile.cl/bitstream/2250/149589/3/license.txt</field>
+<field name="checksum">8a4605be74aa9ea9d79846c1fba20a33</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">3</field>
+</element>
+</element>
+</element>
+<element name="bundle">
+<field name="name">CC-LICENSE</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">license_rdf</field>
+<field name="originalName">license_rdf</field>
+<field name="format">application/rdf+xml; charset=utf-8</field>
+<field name="size">1232</field>
+<field name="url">https://repositorio.uchile.cl/bitstream/2250/149589/2/license_rdf</field>
+<field name="checksum">f97bcfdf58f3e17b5cec231112dab5b1</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">2</field>
+</element>
+</element>
+</element>
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="name">Helicobacter-pylori.pdf</field>
+<field name="originalName">Helicobacter-pylori.pdf</field>
+<field name="description"/>
+<field name="format">application/pdf</field>
+<field name="size">889165</field>
+<field name="url">https://repositorio.uchile.cl/bitstream/2250/149589/1/Helicobacter-pylori.pdf</field>
+<field name="checksum">bd267dd6f755e47bbe2c11e7913ca8f7</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+</element>
+</element>
+</element>
+<element name="bundle">
+<field name="name">TEXT</field>
+<element name="bitstreams"/>
+</element>
+</element>
+<element name="others">
+<field name="handle">2250/149589</field>
+<field name="identifier">oai:repositorio.uchile.cl:2250/149589</field>
+<field name="lastModifyDate">2024-05-07 17:20:21.112</field>
+</element>
+<element name="repository">
+<field name="name">Repositorio Académico de la Universidad de Chile</field>
+<field name="mail">dspace-help@myu.edu</field>
+</element>
+<element name="license">
+<field name="bin">Tk9URTogUExBQ0UgWU9VUiBPV04gTElDRU5TRSBIRVJFClRoaXMgc2FtcGxlIGxpY2Vuc2UgaXMgcHJvdmlkZWQgZm9yIGluZm9ybWF0aW9uYWwgcHVycG9zZXMgb25seS4KCk5PTi1FWENMVVNJVkUgRElTVFJJQlVUSU9OIExJQ0VOU0UKCkJ5IHNpZ25pbmcgYW5kIHN1Ym1pdHRpbmcgdGhpcyBsaWNlbnNlLCB5b3UgKHRoZSBhdXRob3Iocykgb3IgY29weXJpZ2h0Cm93bmVyKSBncmFudHMgdG8gRFNwYWNlIFVuaXZlcnNpdHkgKERTVSkgdGhlIG5vbi1leGNsdXNpdmUgcmlnaHQgdG8gcmVwcm9kdWNlLAp0cmFuc2xhdGUgKGFzIGRlZmluZWQgYmVsb3cpLCBhbmQvb3IgZGlzdHJpYnV0ZSB5b3VyIHN1Ym1pc3Npb24gKGluY2x1ZGluZwp0aGUgYWJzdHJhY3QpIHdvcmxkd2lkZSBpbiBwcmludCBhbmQgZWxlY3Ryb25pYyBmb3JtYXQgYW5kIGluIGFueSBtZWRpdW0sCmluY2x1ZGluZyBidXQgbm90IGxpbWl0ZWQgdG8gYXVkaW8gb3IgdmlkZW8uCgpZb3UgYWdyZWUgdGhhdCBEU1UgbWF5LCB3aXRob3V0IGNoYW5naW5nIHRoZSBjb250ZW50LCB0cmFuc2xhdGUgdGhlCnN1Ym1pc3Npb24gdG8gYW55IG1lZGl1bSBvciBmb3JtYXQgZm9yIHRoZSBwdXJwb3NlIG9mIHByZXNlcnZhdGlvbi4KCllvdSBhbHNvIGFncmVlIHRoYXQgRFNVIG1heSBrZWVwIG1vcmUgdGhhbiBvbmUgY29weSBvZiB0aGlzIHN1Ym1pc3Npb24gZm9yCnB1cnBvc2VzIG9mIHNlY3VyaXR5LCBiYWNrLXVwIGFuZCBwcmVzZXJ2YXRpb24uCgpZb3UgcmVwcmVzZW50IHRoYXQgdGhlIHN1Ym1pc3Npb24gaXMgeW91ciBvcmlnaW5hbCB3b3JrLCBhbmQgdGhhdCB5b3UgaGF2ZQp0aGUgcmlnaHQgdG8gZ3JhbnQgdGhlIHJpZ2h0cyBjb250YWluZWQgaW4gdGhpcyBsaWNlbnNlLiBZb3UgYWxzbyByZXByZXNlbnQKdGhhdCB5b3VyIHN1Ym1pc3Npb24gZG9lcyBub3QsIHRvIHRoZSBiZXN0IG9mIHlvdXIga25vd2xlZGdlLCBpbmZyaW5nZSB1cG9uCmFueW9uZSdzIGNvcHlyaWdodC4KCklmIHRoZSBzdWJtaXNzaW9uIGNvbnRhaW5zIG1hdGVyaWFsIGZvciB3aGljaCB5b3UgZG8gbm90IGhvbGQgY29weXJpZ2h0LAp5b3UgcmVwcmVzZW50IHRoYXQgeW91IGhhdmUgb2J0YWluZWQgdGhlIHVucmVzdHJpY3RlZCBwZXJtaXNzaW9uIG9mIHRoZQpjb3B5cmlnaHQgb3duZXIgdG8gZ3JhbnQgRFNVIHRoZSByaWdodHMgcmVxdWlyZWQgYnkgdGhpcyBsaWNlbnNlLCBhbmQgdGhhdApzdWNoIHRoaXJkLXBhcnR5IG93bmVkIG1hdGVyaWFsIGlzIGNsZWFybHkgaWRlbnRpZmllZCBhbmQgYWNrbm93bGVkZ2VkCndpdGhpbiB0aGUgdGV4dCBvciBjb250ZW50IG9mIHRoZSBzdWJtaXNzaW9uLgoKSUYgVEhFIFNVQk1JU1NJT04gSVMgQkFTRUQgVVBPTiBXT1JLIFRIQVQgSEFTIEJFRU4gU1BPTlNPUkVEIE9SIFNVUFBPUlRFRApCWSBBTiBBR0VOQ1kgT1IgT1JHQU5JWkFUSU9OIE9USEVSIFRIQU4gRFNVLCBZT1UgUkVQUkVTRU5UIFRIQVQgWU9VIEhBVkUKRlVMRklMTEVEIEFOWSBSSUdIVCBPRiBSRVZJRVcgT1IgT1RIRVIgT0JMSUdBVElPTlMgUkVRVUlSRUQgQlkgU1VDSApDT05UUkFDVCBPUiBBR1JFRU1FTlQuCgpEU1Ugd2lsbCBjbGVhcmx5IGlkZW50aWZ5IHlvdXIgbmFtZShzKSBhcyB0aGUgYXV0aG9yKHMpIG9yIG93bmVyKHMpIG9mIHRoZQpzdWJtaXNzaW9uLCBhbmQgd2lsbCBub3QgbWFrZSBhbnkgYWx0ZXJhdGlvbiwgb3RoZXIgdGhhbiBhcyBhbGxvd2VkIGJ5IHRoaXMKbGljZW5zZSwgdG8geW91ciBzdWJtaXNzaW9uLgo=</field>
+</element>
+</metadata></metadata></record></GetRecord></OAI-PMH>

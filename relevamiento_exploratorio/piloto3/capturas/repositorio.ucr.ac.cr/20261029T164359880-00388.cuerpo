@@ -1,0 +1,425 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "354c3387-600e-48af-9137-fca0ed422634",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/354c3387-600e-48af-9137-fca0ed422634/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/354c3387-600e-48af-9137-fca0ed422634/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/354c3387-600e-48af-9137-fca0ed422634/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/354c3387-600e-48af-9137-fca0ed422634"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "02a0e590-75bf-4b69-967a-02387ea2ac6e",
+              "uuid" : "02a0e590-75bf-4b69-967a-02387ea2ac6e",
+              "name" : "C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 380794,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "d32c9b96f8dd439a06afab0a43e8bbf4"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "uniqueType" : "core.bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/354c3387-600e-48af-9137-fca0ed422634/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "94e3b38f-bbcd-40a6-96de-b05643b25a55",
+      "name" : "LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/94e3b38f-bbcd-40a6-96de-b05643b25a55/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/94e3b38f-bbcd-40a6-96de-b05643b25a55/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/94e3b38f-bbcd-40a6-96de-b05643b25a55/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/94e3b38f-bbcd-40a6-96de-b05643b25a55"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "e3592934-d399-46c7-b13f-e0ea6ef8ed6f",
+              "uuid" : "e3592934-d399-46c7-b13f-e0ea6ef8ed6f",
+              "name" : "license.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "Written by org.dspace.content.LicenseUtils",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dcterms.accessRights" : [ {
+                  "value" : "2026-08-28T19:08:48Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "LICENSE",
+              "sizeBytes" : 3584,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "b39c1930822b6ee5a194051b92f3a43e"
+              },
+              "sequenceId" : 2,
+              "type" : "bitstream",
+              "uniqueType" : "core.bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/e3592934-d399-46c7-b13f-e0ea6ef8ed6f/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/e3592934-d399-46c7-b13f-e0ea6ef8ed6f/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/e3592934-d399-46c7-b13f-e0ea6ef8ed6f/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/e3592934-d399-46c7-b13f-e0ea6ef8ed6f/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/e3592934-d399-46c7-b13f-e0ea6ef8ed6f/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/e3592934-d399-46c7-b13f-e0ea6ef8ed6f"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/94e3b38f-bbcd-40a6-96de-b05643b25a55/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "6d9bb153-9730-4155-978e-5bd360546745",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/6d9bb153-9730-4155-978e-5bd360546745/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/6d9bb153-9730-4155-978e-5bd360546745/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/6d9bb153-9730-4155-978e-5bd360546745/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/6d9bb153-9730-4155-978e-5bd360546745"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "64c37bf7-526b-42c8-8197-3ddc23a3bd73",
+              "uuid" : "64c37bf7-526b-42c8-8197-3ddc23a3bd73",
+              "name" : "C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-09-08T09:00:14Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 37514,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "ebe7b2654f4b3d9867c341e3e10366d2"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "uniqueType" : "core.bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/64c37bf7-526b-42c8-8197-3ddc23a3bd73/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/64c37bf7-526b-42c8-8197-3ddc23a3bd73/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/64c37bf7-526b-42c8-8197-3ddc23a3bd73/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/64c37bf7-526b-42c8-8197-3ddc23a3bd73/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/64c37bf7-526b-42c8-8197-3ddc23a3bd73/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/64c37bf7-526b-42c8-8197-3ddc23a3bd73"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/6d9bb153-9730-4155-978e-5bd360546745/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "ec3dd1f7-4790-4bc4-b357-37979cd24ef3",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "uniqueType" : "core.bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/ec3dd1f7-4790-4bc4-b357-37979cd24ef3/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/ec3dd1f7-4790-4bc4-b357-37979cd24ef3/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/ec3dd1f7-4790-4bc4-b357-37979cd24ef3/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/ec3dd1f7-4790-4bc4-b357-37979cd24ef3"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "2e8612b8-1cae-46e3-81db-8fd8f75275e5",
+              "uuid" : "2e8612b8-1cae-46e3-81db-8fd8f75275e5",
+              "name" : "C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Generated Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2026-09-08T09:00:14Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 5296,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "ea847717811bf44e69ab190e9297232f"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "uniqueType" : "core.bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/2e8612b8-1cae-46e3-81db-8fd8f75275e5/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/2e8612b8-1cae-46e3-81db-8fd8f75275e5/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/2e8612b8-1cae-46e3-81db-8fd8f75275e5/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/2e8612b8-1cae-46e3-81db-8fd8f75275e5/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/2e8612b8-1cae-46e3-81db-8fd8f75275e5/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/2e8612b8-1cae-46e3-81db-8fd8f75275e5"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles/ec3dd1f7-4790-4bc4-b357-37979cd24ef3/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3/bundles?embed=bitstreams"
+    }
+  }
+}

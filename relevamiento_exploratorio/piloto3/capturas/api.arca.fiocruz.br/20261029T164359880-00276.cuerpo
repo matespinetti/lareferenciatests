@@ -1,0 +1,264 @@
+{
+  "dspaceUI" : "https://arca.fiocruz.br",
+  "dspaceName" : "Arca - Repositório Institucional da Fiocruz",
+  "dspaceServer" : "https://api.arca.fiocruz.br",
+  "dspaceVersion" : "DSpace 9.3",
+  "type" : "root",
+  "_links" : {
+    "actuator" : {
+      "href" : "https://api.arca.fiocruz.br/actuator"
+    },
+    "authn" : {
+      "href" : "https://api.arca.fiocruz.br/api/authn"
+    },
+    "authorizations" : {
+      "href" : "https://api.arca.fiocruz.br/api/authz/authorizations"
+    },
+    "bitstreamformats" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/bitstreamformats"
+    },
+    "bitstreams" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/bitstreams"
+    },
+    "browses" : {
+      "href" : "https://api.arca.fiocruz.br/api/discover/browses"
+    },
+    "bulkaccessconditionoptions" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/bulkaccessconditionoptions"
+    },
+    "bundles" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/bundles"
+    },
+    "captcha" : {
+      "href" : "https://api.arca.fiocruz.br/api/captcha"
+    },
+    "claimedtasks" : {
+      "href" : "https://api.arca.fiocruz.br/api/workflow/claimedtasks"
+    },
+    "claimedtasks-search" : {
+      "href" : "https://api.arca.fiocruz.br/api/workflow/claimedtasks/search"
+    },
+    "collections" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/collections"
+    },
+    "communities" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/communities"
+    },
+    "contentreport" : {
+      "href" : "https://api.arca.fiocruz.br/api/contentreport"
+    },
+    "correctiontypes" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/correctiontypes"
+    },
+    "discover" : {
+      "href" : "https://api.arca.fiocruz.br/api/discover"
+    },
+    "dso" : {
+      "href" : "https://api.arca.fiocruz.br/api/dso/find{?uuid}",
+      "templated" : true
+    },
+    "duplicates" : {
+      "href" : "https://api.arca.fiocruz.br/api/submission/duplicates"
+    },
+    "duplicates-search" : {
+      "href" : "https://api.arca.fiocruz.br/api/submission/duplicates/search"
+    },
+    "enqueueretry" : {
+      "href" : "https://api.arca.fiocruz.br/api/ldn/messages/{id}/enqueueretry",
+      "templated" : true
+    },
+    "entitytypes" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/entitytypes"
+    },
+    "eperson-registration" : {
+      "href" : "https://api.arca.fiocruz.br/api/eperson/registrations"
+    },
+    "epersons" : {
+      "href" : "https://api.arca.fiocruz.br/api/eperson/epersons"
+    },
+    "externalsources" : {
+      "href" : "https://api.arca.fiocruz.br/api/integration/externalsources"
+    },
+    "features" : {
+      "href" : "https://api.arca.fiocruz.br/api/authz/features"
+    },
+    "feedbacks" : {
+      "href" : "https://api.arca.fiocruz.br/api/tools/feedbacks"
+    },
+    "groups" : {
+      "href" : "https://api.arca.fiocruz.br/api/eperson/groups"
+    },
+    "identifiers" : {
+      "href" : "https://api.arca.fiocruz.br/api/pid/identifiers"
+    },
+    "itemfilters" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/itemfilters"
+    },
+    "itemrequests" : {
+      "href" : "https://api.arca.fiocruz.br/api/tools/itemrequests"
+    },
+    "items" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/items"
+    },
+    "itemtemplates" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/itemtemplates"
+    },
+    "ldnservices" : {
+      "href" : "https://api.arca.fiocruz.br/api/ldn/ldnservices"
+    },
+    "messages" : {
+      "href" : "https://api.arca.fiocruz.br/api/ldn/messages"
+    },
+    "metadatafields" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/metadatafields"
+    },
+    "metadataschemas" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/metadataschemas"
+    },
+    "notifyrequests" : {
+      "href" : "https://api.arca.fiocruz.br/api/ldn/notifyrequests"
+    },
+    "oidc" : {
+      "href" : "https://api.arca.fiocruz.br/api/authn"
+    },
+    "orcidhistories" : {
+      "href" : "https://api.arca.fiocruz.br/api/eperson/orcidhistories"
+    },
+    "orcidqueues" : {
+      "href" : "https://api.arca.fiocruz.br/api/eperson/orcidqueues"
+    },
+    "pid" : {
+      "href" : "https://api.arca.fiocruz.br/api/pid/find{?id}",
+      "templated" : true
+    },
+    "pooltasks" : {
+      "href" : "https://api.arca.fiocruz.br/api/workflow/pooltasks"
+    },
+    "pooltasks-search" : {
+      "href" : "https://api.arca.fiocruz.br/api/workflow/pooltasks/search"
+    },
+    "processes" : {
+      "href" : "https://api.arca.fiocruz.br/api/system/processes"
+    },
+    "properties" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/properties"
+    },
+    "qualityassuranceevents" : {
+      "href" : "https://api.arca.fiocruz.br/api/integration/qualityassuranceevents"
+    },
+    "qualityassurancesources" : {
+      "href" : "https://api.arca.fiocruz.br/api/integration/qualityassurancesources"
+    },
+    "qualityassurancetopics" : {
+      "href" : "https://api.arca.fiocruz.br/api/integration/qualityassurancetopics"
+    },
+    "registrations" : {
+      "href" : "https://api.arca.fiocruz.br/api/eperson/registrations"
+    },
+    "relationships" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/relationships"
+    },
+    "relationshiptypes" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/relationshiptypes"
+    },
+    "resourcepolicies" : {
+      "href" : "https://api.arca.fiocruz.br/api/authz/resourcepolicies"
+    },
+    "resourcepolicies-search" : {
+      "href" : "https://api.arca.fiocruz.br/api/authz/resourcepolicies/search"
+    },
+    "scripts" : {
+      "href" : "https://api.arca.fiocruz.br/api/system/scripts"
+    },
+    "self" : {
+      "href" : "https://api.arca.fiocruz.br/api"
+    },
+    "sites" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/sites"
+    },
+    "statistics" : {
+      "href" : "https://api.arca.fiocruz.br/api/statistics"
+    },
+    "submissionaccessoptions" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/submissionaccessoptions"
+    },
+    "submissioncclicenseUrls" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/submissioncclicenseUrls"
+    },
+    "submissioncclicenseUrls-search" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/submissioncclicenseUrls/search"
+    },
+    "submissioncclicenses" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/submissioncclicenses"
+    },
+    "submissioncoarnotifyconfigs" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/submissioncoarnotifyconfigs"
+    },
+    "submissiondefinitions" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/submissiondefinitions"
+    },
+    "submissionforms" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/submissionforms"
+    },
+    "submissionsections" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/submissionsections"
+    },
+    "submissionuploads" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/submissionuploads"
+    },
+    "subscriptions" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/subscriptions"
+    },
+    "subscriptions-search" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/subscriptions/search"
+    },
+    "suggestions" : {
+      "href" : "https://api.arca.fiocruz.br/api/integration/suggestions"
+    },
+    "suggestionsources" : {
+      "href" : "https://api.arca.fiocruz.br/api/integration/suggestionsources"
+    },
+    "suggestiontargets" : {
+      "href" : "https://api.arca.fiocruz.br/api/integration/suggestiontargets"
+    },
+    "supervisionorders" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/supervisionorders"
+    },
+    "systemwidealerts" : {
+      "href" : "https://api.arca.fiocruz.br/api/system/systemwidealerts"
+    },
+    "usagereports" : {
+      "href" : "https://api.arca.fiocruz.br/api/statistics/usagereports"
+    },
+    "versionhistories" : {
+      "href" : "https://api.arca.fiocruz.br/api/versioning/versionhistories"
+    },
+    "versions" : {
+      "href" : "https://api.arca.fiocruz.br/api/versioning/versions"
+    },
+    "vocabularies" : {
+      "href" : "https://api.arca.fiocruz.br/api/submission/vocabularies"
+    },
+    "vocabularyEntryDetails" : {
+      "href" : "https://api.arca.fiocruz.br/api/submission/vocabularyEntryDetails"
+    },
+    "vocabularyEntryDetails-search" : {
+      "href" : "https://api.arca.fiocruz.br/api/submission/vocabularyEntryDetails/search"
+    },
+    "workflowactions" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/workflowactions"
+    },
+    "workflowdefinitions" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/workflowdefinitions"
+    },
+    "workflowitems" : {
+      "href" : "https://api.arca.fiocruz.br/api/workflow/workflowitems"
+    },
+    "workflowsteps" : {
+      "href" : "https://api.arca.fiocruz.br/api/config/workflowsteps"
+    },
+    "workspaceitems" : {
+      "href" : "https://api.arca.fiocruz.br/api/submission/workspaceitems"
+    }
+  }
+}

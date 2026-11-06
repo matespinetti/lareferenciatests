@@ -1,0 +1,49 @@
+{
+ "pedido": "20261029T164359880-00403",
+ "url": "https://revistas.unlp.edu.ar/ejs/article/download/17558/17120",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:55:44 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "accept-ranges",
+   "none"
+  ],
+  [
+   "content-disposition",
+   "attachment;filename=EJS_11_Paper_4.pdf;filename*=UTF-8''EJS_11_Paper_4.pdf"
+  ],
+  [
+   "cache-control",
+   "private"
+  ],
+  [
+   "pragma",
+   "public"
+  ],
+  [
+   "keep-alive",
+   "timeout=2, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "archivo"
+}

@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T164359880-00162",
+ "url": "https://bibliotecadigital.udea.edu.co/bitstreams/4b979de4-4040-4796-b96a-9124d90dbeb8/download",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:48:50 GMT"
+  ],
+  [
+   "content-type",
+   "text/html"
+  ],
+  [
+   "content-length",
+   "138"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "set-cookie",
+   "RFfG7CPD5NlStjOd=AQAAk5miHrLeZW4o-v2c98PmGHlYlHdfZ9pivVkyFOHV-0edeONqAFUAAACcAAChPO31TKu72HEDrz__gVWJAAAA1_KGSljmgQGer4RUS0Yf7gKFeDomTrN0IJ52v4pVbPemh6zrJzlMYzlQ8EOP35WcxUAVoCOZ2xLDx6q_pkyrhKxRMsMw6Ahph0ar2hYpRnUhAb2bLEyrIXN8l2rsckPu_NhLSIEXpBJwrX3BSfUugIb26wt6V6cl-WLjK1shhAlyCtWnJb; Path=/; SameSite=Lax; HttpOnly; Secure"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "location",
+   "/challenge?next=%2Fbitstreams%2F4b979de4-4040-4796-b96a-9124d90dbeb8%2Fdownload"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "permissions-policy",
+   "geolocation=(self \"https://bibliotecadigital.udea.edu.co\"), camera=(self) geolocation=(self) microphone=(self)"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=63072000; includeSubDomains; preload"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-forwarded-port",
+   "\"443\""
+  ],
+  [
+   "x-forwarded-proto",
+   "\"https\""
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

@@ -1,0 +1,37 @@
+{
+ "pedido": "20261029T164359880-00523",
+ "url": "http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300002",
+ "codigo": 301,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:59:46 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.52 (Ubuntu)"
+  ],
+  [
+   "location",
+   "https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300002"
+  ],
+  [
+   "content-length",
+   "378"
+  ],
+  [
+   "keep-alive",
+   "timeout=1, max=50"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/html; charset=iso-8859-1"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

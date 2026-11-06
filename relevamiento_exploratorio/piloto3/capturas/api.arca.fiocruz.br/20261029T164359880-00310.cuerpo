@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:52:47Z</responseDate><request verb="GetRecord" identifier="oai:arca.fiocruz.br:icict/6813" metadataPrefix="xoai">https://api.arca.fiocruz.br/oai/request</request><GetRecord><record><header><identifier>oai:arca.fiocruz.br:icict/6813</identifier><datestamp>2026-07-24T18:50:22Z</datestamp><setSpec>com_icict_3244</setSpec><setSpec>col_icict_3245</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="author">
+            <element name="none">
+               <field name="value">Avelar, Danielle Marquete Vitelli</field>
+               <field name="value">Avelar, Renato Sathler</field>
+               <field name="value">Dias, João Carlos Pinto</field>
+               <field name="value">Pascoal, Vanessa Peruhype Magalhães</field>
+               <field name="value">Carvalho, Andréa Teixeira de</field>
+               <field name="value">Lage, Paula Souza</field>
+               <field name="value">Santos, Silvana Maria Elói</field>
+               <field name="value">Oliveira, Rodrigo Corrêa de</field>
+               <field name="value">Martins Filho, Olindo Assis</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2013-08-21T17:19:52Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2013-08-21T17:19:52Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2005</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="citation">
+            <element name="none">
+               <field name="value">AVELAR, Danielle Marquete Vitelli et al. Chagasic Patients with Indeterminate Clinical Form of the Disease have High Frequencies of Circulating CD3 Þ CD16 –CD56 þNatural Killer T Cells and CD4 þ CD25 High Regulatory T Lymphocytes. Scandinavian Journal of Immunology, n. 62, p. 297-308, 2005.</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://arca.fiocruz.br/handle/icict/6813</field>
+            </element>
+         </element>
+         <element name="doi">
+            <element name="none">
+               <field name="value">10.1111/j.1365-3083.2005.01668.x</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">eng</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">Blackwell Publishing</field>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">restricted access</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="en">
+            <field name="value">Chagasic Patients with Indeterminate Clinical Form of the Disease have High Frequencies of Circulating CD3 Þ CD16 –CD56 þNatural Killer T Cells and CD4 þ CD25 High Regulatory T Lymphocytes</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">journal article</field>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstracten">
+            <element name="en">
+               <field name="value">Several studies have demonstrated that different clinical manifestations of human Chagas&amp;apos; disease are associated with distinct and complex host–parasite relationships directly involving the immune system. In this context, it has been proposed that tissue damage might be more severe in the absence of regulatory mechanisms that involve both innate and adaptive immune responses. Herein, we describe a descriptive phenotypic profile focusing on the frequency of major regulatory T cells [CD4 þ CD25 high and natural killer T (NKT) lymphocytes] in different clinical forms of Chagas&amp;apos; disease. Ex vivo immunophenotyping of whole blood demonstrated that the indeterminate clinical form displays a higher frequency of both CD4 þ CD25 high and NKT regulatory cells (CD3 þ CD16 – CD56 þ ), associated with increased levels of circulating cytotoxic NK cells (CD3 – CD16 þ CD56 þ and CD3 – CD16 þ CD56 dim NK cells). By con-trast, the increased percentage of activated CD8 þ HLA-DR þ T-cell subset was exclusively associated with severe clinical forms of Chagas&amp;apos; disease. We hypothe-size that regulatory T cells may be able to control the deleterious cytotoxic activity in the indeterminate clinical form by inhibiting the activation of CD8 þ HLA-DR þ T cells. The lack of regulated populations in cardiac and digestive clinical forms could account for impaired immune response that culminates in strong cytotoxic activity and tissue damage.</field>
+            </element>
+         </element>
+      </element>
+      <element name="creator">
+         <element name="affilliation">
+            <element name="none">
+               <field name="value">Fundação Oswaldo Cruz. Centro de Pesquisas Rene Rachou. Laboratório de Doença de Chagas. Belo Horizonte, MG, Brasil / Fundação Oswaldo Cruz. Centro de Pesquisas Rene Rachou. Laboratório de Imunologia Celular e Molecular. Belo Horizonte, MG, Brasil/Universidade Federal de Minas Gerais. Instituto de Ciências Biológicas. Departamento de Bioquímica e Imunologia. Belo Horizonte, MG, Brasil.</field>
+               <field name="value">Fundação Oswaldo Cruz. Centro de Pesquisas Rene Rachou. Laboratório de Doença de Chagas. Belo Horizonte, MG, Brasil / Universidade Federal de Minas Gerais. Faculdade de Medicina. Departamento de Patologia. Belo Horizonte, MG, Brasil.</field>
+               <field name="value">Fundação Oswaldo Cruz. Centro de Pesquisas Rene Rachou. Laboratório de Triatomíneos e Epidemiologia da Doença de Chagas. Belo Horizonte, MG, Brasil.</field>
+               <field name="value">Fundação Oswaldo Cruz. Centro de Pesquisas Rene Rachou. Laboratório de Imunologia Celular e Molecular. Belo Horizonte, MG, Brasil.</field>
+               <field name="value">Fundação Oswaldo Cruz. Centro de Pesquisas Rene Rachou. Laboratório de Imunologia Celular e Molecular. Belo Horizonte, MG, Brasil / Fundação Oswaldo Cruz. Centro de Pesquisas Rene Rachou. Laboratório de Doença de Chagas. Belo Horizonte, MG, Brasil/Universidade Federal de Ouro Preto. Escola de Farmácia. Departamento de Analises Clínicas. Ouro Preto, MG, Brasil.</field>
+               <field name="value">Fundação Oswaldo Cruz. Centro de Pesquisas Rene Rachou. Laboratório de Doença de Chagas. Belo Horizonte, MG, Brasil.</field>
+               <field name="value">Fundação Oswaldo Cruz. Centro de Pesquisas Rene Rachou. Laboratório de Imunologia Celular e Molecular. Belo Horizonte, MG, Brasil.</field>
+               <field name="value">Fundação Oswaldo Cruz. Centro de Pesquisas Rene Rachou. Laboratório de Imunologia Celular e Molecular. Belo Horizonte, MG, Brasil / Universidade Federal de Minas Gerais. Instituto de Ciências Biológicas. Departamento de Bioquímica e Imunologia. Belo Horizonte, MG, Brasil.</field>
+               <field name="value">Fundação Oswaldo Cruz. Centro de Pesquisas Rene Rachou. Laboratório de Doença de Chagas. Belo Horizonte, MG, Brasil.</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">90. Chagasic Patients with Indeterminate Clinical Form of.pdf</field>
+               <field name="originalName">/home/dspace/upload/90. Chagasic Patients with Indeterminate Clinical Form of.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">226974</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/ba11d865-900d-4222-afe9-3f65731b9785/download</field>
+               <field name="checksum">b56648866b9235654ec8cedca2777738</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">COLLECTION_34_DEFAULT_ITEM_READ</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">Written by org.dspace.content.LicenseUtils</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">1914</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/78b4047b-e9d8-437f-88a4-a72f92178770/download</field>
+               <field name="checksum">7d48279ffeed55da8dfe2f8e81f3b81f</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">COLLECTION_34_DEFAULT_ITEM_READ</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">90. Chagasic Patients with Indeterminate Clinical Form of.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2025-12-03T01:25:02Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">54805</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/47e28b99-31eb-4ac8-bc55-9e718bbec6cc/download</field>
+               <field name="checksum">a306cc32fe76a4adada3440dd2cd7106</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">16</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">COLLECTION_34_DEFAULT_ITEM_READ</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">90. Chagasic Patients with Indeterminate Clinical Form of.pdf.jpg</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">19693</field>
+               <field name="url">https://arca.fiocruz.br/bitstreams/4ef542dd-cff7-47cb-a7d9-1bcc4af4ee51/download</field>
+               <field name="checksum">37c1abb6d9bcc59271c92ca7acb74092</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">17</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">icict/6813</field>
+      <field name="identifier">oai:arca.fiocruz.br:icict/6813</field>
+      <field name="lastModifyDate">2026-07-24T18:50:22.540396Z</field>
+      <element name="access-status">
+         <field name="value">restricted</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://arca.fiocruz.br</field>
+      <field name="name">Arca - Repositório Institucional da Fiocruz</field>
+      <field name="mail">repositorio.arca@fiocruz.br</field>
+   </element>
+   <element name="license" />
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

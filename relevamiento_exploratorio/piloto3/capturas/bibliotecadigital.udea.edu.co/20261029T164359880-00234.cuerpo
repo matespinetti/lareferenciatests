@@ -1,0 +1,497 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "f34a4b9b-8dd8-49bc-ae26-2aafbfa09d04",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/f34a4b9b-8dd8-49bc-ae26-2aafbfa09d04/item"
+        },
+        "bitstreams" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/f34a4b9b-8dd8-49bc-ae26-2aafbfa09d04/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/f34a4b9b-8dd8-49bc-ae26-2aafbfa09d04/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/f34a4b9b-8dd8-49bc-ae26-2aafbfa09d04"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "495a0e0b-ec4c-4df7-9aa2-7c2b5f3a2d47",
+              "uuid" : "495a0e0b-ec4c-4df7-9aa2-7c2b5f3a2d47",
+              "name" : "RodriguezYirlean_2018_EnseñanzaCienciasSociales.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Trabajo de grado de pregrado",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "c:/dspace/upload\\RodriguezYirlean_2018_EnseñanzaCienciasSociales.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "RodriguezYirlean_2018_EnseñanzaCienciasSociales.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 2478229,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "5a78fe462d8515b62450aeab6f1692fd"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/495a0e0b-ec4c-4df7-9aa2-7c2b5f3a2d47/content"
+                },
+                "bundle" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/495a0e0b-ec4c-4df7-9aa2-7c2b5f3a2d47/bundle"
+                },
+                "format" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/495a0e0b-ec4c-4df7-9aa2-7c2b5f3a2d47/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/495a0e0b-ec4c-4df7-9aa2-7c2b5f3a2d47/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/495a0e0b-ec4c-4df7-9aa2-7c2b5f3a2d47"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/f34a4b9b-8dd8-49bc-ae26-2aafbfa09d04/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "b1dd795e-c76d-4dfb-a063-61427cb272e7",
+      "name" : "CC-LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "CC-LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/b1dd795e-c76d-4dfb-a063-61427cb272e7/item"
+        },
+        "bitstreams" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/b1dd795e-c76d-4dfb-a063-61427cb272e7/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/b1dd795e-c76d-4dfb-a063-61427cb272e7/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/b1dd795e-c76d-4dfb-a063-61427cb272e7"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "36bb0b24-6be8-4f44-9617-1a899f4df7b7",
+              "uuid" : "36bb0b24-6be8-4f44-9617-1a899f4df7b7",
+              "name" : "license_rdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "org.dspace.license.CreativeCommons",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license_rdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "CC-LICENSE",
+              "sizeBytes" : 823,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "b88b088d9957e670ce3b3fbe2eedbc13"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/36bb0b24-6be8-4f44-9617-1a899f4df7b7/content"
+                },
+                "bundle" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/36bb0b24-6be8-4f44-9617-1a899f4df7b7/bundle"
+                },
+                "format" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/36bb0b24-6be8-4f44-9617-1a899f4df7b7/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/36bb0b24-6be8-4f44-9617-1a899f4df7b7/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/36bb0b24-6be8-4f44-9617-1a899f4df7b7"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/b1dd795e-c76d-4dfb-a063-61427cb272e7/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "2f5443e9-d9b8-43ac-87f8-278da2dd4466",
+      "name" : "LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/2f5443e9-d9b8-43ac-87f8-278da2dd4466/item"
+        },
+        "bitstreams" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/2f5443e9-d9b8-43ac-87f8-278da2dd4466/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/2f5443e9-d9b8-43ac-87f8-278da2dd4466/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/2f5443e9-d9b8-43ac-87f8-278da2dd4466"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "bfcc697a-f2d4-4715-adfb-6546e13f6b4f",
+              "uuid" : "bfcc697a-f2d4-4715-adfb-6546e13f6b4f",
+              "name" : "license.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "Written by org.dspace.content.LicenseUtils",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "LICENSE",
+              "sizeBytes" : 1748,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "8a4605be74aa9ea9d79846c1fba20a33"
+              },
+              "sequenceId" : 5,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/bfcc697a-f2d4-4715-adfb-6546e13f6b4f/content"
+                },
+                "bundle" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/bfcc697a-f2d4-4715-adfb-6546e13f6b4f/bundle"
+                },
+                "format" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/bfcc697a-f2d4-4715-adfb-6546e13f6b4f/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/bfcc697a-f2d4-4715-adfb-6546e13f6b4f/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/bfcc697a-f2d4-4715-adfb-6546e13f6b4f"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/2f5443e9-d9b8-43ac-87f8-278da2dd4466/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "2e654f78-3067-4c86-a50a-45ae458ca8c0",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/2e654f78-3067-4c86-a50a-45ae458ca8c0/item"
+        },
+        "bitstreams" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/2e654f78-3067-4c86-a50a-45ae458ca8c0/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/2e654f78-3067-4c86-a50a-45ae458ca8c0/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/2e654f78-3067-4c86-a50a-45ae458ca8c0"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "779d10ea-e944-411d-9c8d-44fd0a86faaf",
+              "uuid" : "779d10ea-e944-411d-9c8d-44fd0a86faaf",
+              "name" : "RodriguezYirlean_2018_EnseñanzaCienciasSociales.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2025-03-26T22:05:37Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "RodriguezYirlean_2018_EnseñanzaCienciasSociales.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 102485,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "2713d41d5680476fbf9bc42f88de29db"
+              },
+              "sequenceId" : 10,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/779d10ea-e944-411d-9c8d-44fd0a86faaf/content"
+                },
+                "bundle" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/779d10ea-e944-411d-9c8d-44fd0a86faaf/bundle"
+                },
+                "format" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/779d10ea-e944-411d-9c8d-44fd0a86faaf/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/779d10ea-e944-411d-9c8d-44fd0a86faaf/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/779d10ea-e944-411d-9c8d-44fd0a86faaf"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/2e654f78-3067-4c86-a50a-45ae458ca8c0/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "d72bccac-409d-4cba-af06-82ca4adb812b",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/d72bccac-409d-4cba-af06-82ca4adb812b/item"
+        },
+        "bitstreams" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/d72bccac-409d-4cba-af06-82ca4adb812b/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/d72bccac-409d-4cba-af06-82ca4adb812b/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/d72bccac-409d-4cba-af06-82ca4adb812b"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "5c276655-e3b1-4055-ad2d-2d87c3812091",
+              "uuid" : "5c276655-e3b1-4055-ad2d-2d87c3812091",
+              "name" : "RodriguezYirlean_2018_EnseñanzaCienciasSociales.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Generated Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2025-03-26T22:05:38Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "RodriguezYirlean_2018_EnseñanzaCienciasSociales.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 10208,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "486b4cb8b21e9e105516c7957843f02f"
+              },
+              "sequenceId" : 11,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/5c276655-e3b1-4055-ad2d-2d87c3812091/content"
+                },
+                "bundle" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/5c276655-e3b1-4055-ad2d-2d87c3812091/bundle"
+                },
+                "format" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/5c276655-e3b1-4055-ad2d-2d87c3812091/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/5c276655-e3b1-4055-ad2d-2d87c3812091/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/5c276655-e3b1-4055-ad2d-2d87c3812091"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/d72bccac-409d-4cba-af06-82ca4adb812b/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000d88f5-8cd2-4dba-82ff-9328b26769c9/bundles?embed=bitstreams"
+    }
+  }
+}

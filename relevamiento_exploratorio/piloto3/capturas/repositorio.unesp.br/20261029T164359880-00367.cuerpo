@@ -1,0 +1,438 @@
+{
+  "id" : "0000d9a4-98d1-4b4e-83df-5b8e5a466d25",
+  "uuid" : "0000d9a4-98d1-4b4e-83df-5b8e5a466d25",
+  "name" : "Polyacrylic acid polymers hydrogels intended to topical drug delivery: preparation and characterization",
+  "handle" : "11449/129387",
+  "metadata" : {
+    "dc.contributor.author" : [ {
+      "value" : "Calixto, Giovana [UNESP]",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Yoshii, Ana Carolina [UNESP]",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Rocha e Silva, Hilris [UNESP]",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Ferreira Cury, Beatriz Stringhetti [UNESP]",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Chorilli, Marlus [UNESP]",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    } ],
+    "dc.contributor.institution" : [ {
+      "value" : "Universidade Estadual Paulista (Unesp)",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2015-10-21T20:59:12Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2015-10-21T20:59:12Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2015-06-01",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Context: Bioadhesiviness of polyacrylic acid polymers make them promising hydrogels to design topical drug delivery systems, allowing a close contact with biological substrate as well as an enhanced local concentration gradient, both factors that may improve the biological performance of the drugs.Aim: Texture and bioadhesive properties of hydrogels were assessed by using texture analyzer and they were correlated with their rheological behavior and performance as drug delivery systems.Methods: Aqueous dispersions of both polymers were prepared at 0.5%, 1.0% and 1.5% w/v. Hardness, compressibility, adhesiveness, cohesiveness, bioadhesion, continuous flow, oscillatory dynamic test and in vitro drug release were evaluated.Results: Rheological and texture parameters were dependent on polymer concentration and C974P polymer built the strongest structures. Both 1.5% hydrogels presented high bioadhesion values. About 50% of the metronidazole (MTZ) was sustained released from hydrogels within 2 h with an initial burst release at early stage. After, the release rates were decreased and 10% of the MTZ was released in the next 10 h. The drug release process was driven by Fickian diffusion and complex mechanism for PP and C974P hydrogels, respectively.Conclusion: The set of results demonstrated that these hydrogels are promising to be used as topical controlled drug delivery system.",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.affiliation" : [ {
+      "value" : "Sao Paulo State Univ UNESP, Dept Drugs &Pharmaceut, Sch Pharmaceut Sci, BR-14801902 Araraquara, SP, Brazil",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.affiliationUnesp" : [ {
+      "value" : "Sao Paulo State Univ UNESP, Dept Drugs & Pharmaceut, Sch Pharmaceut Sci, BR-14801902 Araraquara, SP, Brazil",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.sponsorship" : [ {
+      "value" : "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "PADC-UNESP",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    } ],
+    "dc.format.extent" : [ {
+      "value" : "490-496",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier" : [ {
+      "value" : "http://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.citation" : [ {
+      "value" : "Pharmaceutical Development And Technology, v. 20, n. 4, p. 490-496, 2015.",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.dimensions" : [ {
+      "value" : "pub.1045534850",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.doi" : [ {
+      "value" : "10.3109/10837450.2014.882941",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.issn" : [ {
+      "value" : "1083-7450",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "1097-9867",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.identifier.lattes" : [ {
+      "value" : "1427125996716282",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "1427125996716282",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.identifier.orcid" : [ {
+      "value" : "0000-0002-5167-2822",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "0000-0002-6698-0545",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "0000-0003-3020-9238",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "0000-0003-1041-5835",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    } ],
+    "dc.identifier.pmid" : [ {
+      "value" : "25975700",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://hdl.handle.net/11449/129387",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.wos" : [ {
+      "value" : "WOS:000354609900012",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "eng",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.publisher" : [ {
+      "value" : "Informa Healthcare",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Taylor & Francis",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.relation.ispartof" : [ {
+      "value" : "Pharmaceutical Development And Technology",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.ispartofjcr" : [ {
+      "value" : "1.945",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.ispartofsjr" : [ {
+      "value" : "0,479",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.accessRights" : [ {
+      "value" : "Acesso restrito",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.source" : [ {
+      "value" : "Web of Science",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Dimensions",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.subject" : [ {
+      "value" : "Bioadhesion",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Hydrogel",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Metronidazole",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Polyacrylic acid polymers",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Topical drug delivery system",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    } ],
+    "dc.title" : [ {
+      "value" : "Polyacrylic acid polymers hydrogels intended to topical drug delivery: preparation and characterization",
+      "language" : "en",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Artigo",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dcterms.license" : [ {
+      "value" : "http://informahealthcare.com/userimages/ContentEditor/1255620309227/Copyright_And_Permissions.pdf",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dcterms.rightsHolder" : [ {
+      "value" : "Informa Healthcare",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dspace.entity.type" : [ {
+      "value" : "Publication",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "relation.isDepartmentOfPublication" : [ {
+      "value" : "e214da1b-9929-4ae9-b8fd-655e9bfeda4b",
+      "language" : null,
+      "authority" : "virtual::11216",
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "relation.isDepartmentOfPublication.latestForDiscovery" : [ {
+      "value" : "e214da1b-9929-4ae9-b8fd-655e9bfeda4b",
+      "language" : null,
+      "authority" : "virtual::11216",
+      "confidence" : -1,
+      "place" : -1
+    } ],
+    "relation.isOrgUnitOfPublication" : [ {
+      "value" : "95697b0b-8977-4af6-88d5-c29c80b5ee92",
+      "language" : null,
+      "authority" : "virtual::14115",
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "relation.isOrgUnitOfPublication.latestForDiscovery" : [ {
+      "value" : "95697b0b-8977-4af6-88d5-c29c80b5ee92",
+      "language" : null,
+      "authority" : "virtual::14115",
+      "confidence" : -1,
+      "place" : -1
+    } ],
+    "unesp.author.lattes" : [ {
+      "value" : "1427125996716282",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "unesp.campus" : [ {
+      "value" : "Universidade Estadual Paulista (UNESP), Faculdade de Ciências Farmacêuticas, Araraquara",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "unesp.department" : [ {
+      "value" : "Fármacos e Medicamentos - FCF",
+      "language" : "pt",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-07-20T14:22:11.530093Z",
+  "entityType" : "Publication",
+  "type" : "item",
+  "uniqueType" : "core.item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000d9a4-98d1-4b4e-83df-5b8e5a466d25/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000d9a4-98d1-4b4e-83df-5b8e5a466d25/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000d9a4-98d1-4b4e-83df-5b8e5a466d25/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000d9a4-98d1-4b4e-83df-5b8e5a466d25/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000d9a4-98d1-4b4e-83df-5b8e5a466d25/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000d9a4-98d1-4b4e-83df-5b8e5a466d25/relationships"
+    },
+    "version" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000d9a4-98d1-4b4e-83df-5b8e5a466d25/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000d9a4-98d1-4b4e-83df-5b8e5a466d25/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000d9a4-98d1-4b4e-83df-5b8e5a466d25/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000d9a4-98d1-4b4e-83df-5b8e5a466d25/submitter"
+    },
+    "self" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000d9a4-98d1-4b4e-83df-5b8e5a466d25"
+    }
+  }
+}

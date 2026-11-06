@@ -1,0 +1,89 @@
+{
+ "pedido": "20261029T164359880-00294",
+ "url": "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8ad16c60-e4d1-4c4c-81cb-a475e5ff710e/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:51:54 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "vary",
+   "Origin,Access-Control-Request-Method,Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Mon, 23 Feb 2026 22:59:25 GMT"
+  ],
+  [
+   "etag",
+   "\"37870d06b342960951d52e277f3f70bd\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:51:54 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline;filename=\"=?UTF-8?Q?uba=5Fffyl=5Fp=5F2020=5Fedu=5Feducaci?= =?UTF-8?Q?=C3=B3n_a_distancia_y_Virtual.pdf?=\""
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/381098"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

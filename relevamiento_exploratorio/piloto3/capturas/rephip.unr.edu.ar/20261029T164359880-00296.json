@@ -1,0 +1,49 @@
+{
+ "pedido": "20261029T164359880-00296",
+ "url": "https://rephip.unr.edu.ar/server/oai/request?verb=GetRecord&metadataPrefix=ore&identifier=oai:rephip.unr.edu.ar:2133/31409",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.28.3 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:52:27 GMT"
+  ],
+  [
+   "content-type",
+   "text/xml;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "vary",
+   "Accept"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

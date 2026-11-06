@@ -1,0 +1,49 @@
+{
+ "pedido": "20261106T121522500-00042",
+ "url": "https://journal.isi.ac.id/index.php/ars/article/download/2760/1569",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:18:07 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.39 (Ubuntu) OpenSSL/1.1.1b"
+  ],
+  [
+   "set-cookie",
+   "OJSSID=5ucl4pc4ladv9774osrhkqrf42; path=/; domain=journal.isi.ac.id"
+  ],
+  [
+   "content-length",
+   "1158303"
+  ],
+  [
+   "content-disposition",
+   "attachment; filename=\"2760-7502-1-PB.pdf\""
+  ],
+  [
+   "cache-control",
+   "private"
+  ],
+  [
+   "pragma",
+   "public"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

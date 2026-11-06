@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T164359880-00518",
+ "url": "https://repositorio.uniandes.edu.co/challenge?next=%2Frobots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:59:36 GMT"
+  ],
+  [
+   "content-type",
+   "text/html"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "set-cookie",
+   "O7VNPWEGso9ml9dc=AQAAKhAnXqCRZNBXjkTDD4_OsYeLBypBd6MUjJrc69feSVFye-NqAAYAAAAoAQAT-TNWfQAe-utQA5gV5B1xAAAAFIR-J4yCjA4Zw59PZi1ToAAOP_3kXMtQLJLyNV_ZCb_A6qUQMhFIbaOo7e1rhNHU-EGl4RJBn6qHX7lHzEzOsTYh5ZL52vHKrEdYBA-xla68KIWZYH3Ta0q26Y-WKm9kIP8WEN6gFK4Qm0yT5zNuKHClPoxhLHnE3RL-XFGS5X2DjhhNisGqa2StXNW6jhRA_NWLdJy6AWYkKDxR4Gt6KipOh5XMqCKnu0YaaIHDyapc8n1-3xUtVNewSE3r3vDxmCCWtjZnNZ4Bf9aKrOojfqZ-sM-KEAtfDnkwM59vLG-tNvyc3huyR5qf92zLuU; Path=/; SameSite=Lax; HttpOnly; Secure"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=63072000; includeSubDomains; preload"
+  ],
+  [
+   "x-forwarded-proto",
+   "\"https\""
+  ],
+  [
+   "content-security-policy",
+   "default-src 'none'; base-uri 'none'; img-src 'self' data:; font-src 'self' data:; script-src 'nonce-aE1j2p7sAQUDT5PXyczNg3ExcPBcsYYl'; style-src 'self' 'nonce-6TH9wHSnR74sq5zDN9u1F81xKbYy4xHM'; frame-src 'self'; frame-ancestors 'none'; require-trusted-types-for 'script';  upgrade-insecure-requests;"
+  ],
+  [
+   "x-forwarded-port",
+   "\"443\""
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

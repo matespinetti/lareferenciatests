@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T164359880-00176",
+ "url": "https://bibliotecadigital.udea.edu.co/challenge?next=%2Fhandle%2F10495%2F4345",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:49:14 GMT"
+  ],
+  [
+   "content-type",
+   "text/html"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "permissions-policy",
+   "geolocation=(self \"https://bibliotecadigital.udea.edu.co\"), camera=(self) geolocation=(self) microphone=(self)"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=63072000; includeSubDomains; preload"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-forwarded-port",
+   "\"443\""
+  ],
+  [
+   "x-forwarded-proto",
+   "\"https\""
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "content-security-policy",
+   "default-src 'none'; base-uri 'none'; img-src 'self' data:; worker-src blob:; font-src 'self' data:; script-src http: https: 'unsafe-inline' 'strict-dynamic' 'nonce-VmpaVpvKsRhOPNnWbsF8wUTYcRethtvN'; style-src 'self' 'nonce-N6yPaLkswkI452w8uD5Zwp2hNazQRCM3'; frame-ancestors 'none'; require-trusted-types-for 'script';  upgrade-insecure-requests;"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:45:16Z</responseDate><request verb="GetRecord" identifier="oai:ucacris:123456789/204" metadataPrefix="mets">https://repositorio.uca.edu.ar/oai/request</request><GetRecord><record><header><identifier>oai:ucacris:123456789/204</identifier><datestamp>2026-10-14T13:15:57Z</datestamp><setSpec>com_123456789_636</setSpec><setSpec>com_123456789_88</setSpec><setSpec>col_123456789_89</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" PROFILE="DSpace METS SIP Profile 1.0" TYPE="DSpace ITEM" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_123456789-204" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:123456789/204">
+<metsHdr CREATEDATE="2026-10-29T13:45:16Z">
+<agent TYPE="ORGANIZATION" ROLE="CUSTODIAN">
+<name>Repositorio Institucional UCA</name>
+</agent>
+</metsHdr>
+<dmdSec ID="DMD_123456789_204">
+<mdWrap MDTYPE="MODS">
+<xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+<mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+<mods:name>
+<mods:role>
+<mods:roleTerm type="text">author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Munilla Lacasa, Hernán</mods:namePart>
+</mods:name>
+<mods:extension>
+<mods:dateAccessioned encoding="iso8601">2019-04-02T21:46:01Z</mods:dateAccessioned>
+</mods:extension>
+<mods:extension>
+<mods:dateAvailable encoding="iso8601">2019-04-02T21:46:01Z</mods:dateAvailable>
+</mods:extension>
+<mods:originInfo>
+<mods:dateIssued encoding="iso8601">2013</mods:dateIssued>
+</mods:originInfo>
+<mods:identifier type="citation">Munilla Lacasa, H. (2013). La retención indebida como delito de omisión [en línea]. Tesis de Doctorado, Universidad Católica Argentina, Facultad de Derecho. Disponible en: https://repositorio.uca.edu.ar/handle/123456789/204</mods:identifier>
+<mods:identifier type="uri">https://repositorio.uca.edu.ar/handle/123456789/204</mods:identifier>
+<mods:abstract>El planteo de la cuestión. I.1. Justificación de la tesis y del método escogidos: Los enunciados típicos que constituyen el artículo 173 del Código Penal han sido históricamente fuente de un debate notorio que llega hasta nuestros días. En la primera aproximación al texto normativo parecieran concurrir, como de hecho muestra incluso la discusión en el derecho penal español, más de una formulación típica de difícil armonización. La disputa sobre el nomen iuris que cabe asignar a los comportamientos incluidos en la figura penal en cuestión es un expresivo indicador de las dificultades que plantea la identificación y autonomía sistemática del tipo frente a otras normas de imputación. Puede decirse entonces que, tanto en la dogmática del tipo, como en la praxis jurisdiccional, nos encontramos frente a un problema no resuelto. Esto es, en términos epistemológicos, un campo propicio para la investigación, la revisión de las soluciones enfrentadas sobre la cuestión y, en definitiva, la posibilidad de presentar una propuesta satisfactoria de solución. El relevamiento señalado es el que ha motivado la presentación de esta tesis doctoral, pues se aprecia una serie de aporías jurídico penales que promueven el análisis de la norma integrada a la Parte Especial del Código Penal, que requieren de una propuesta de solución...</mods:abstract>
+<mods:language>
+<mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+</mods:language>
+<mods:accessCondition type="useAndReproduction">Acceso Abierto</mods:accessCondition>
+<mods:subject>
+<mods:topic>RETENCION INDEBIDA</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>DERECHO PENAL</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>OBLIGACIONES</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>OMISION</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>CODIGO PENAL</mods:topic>
+</mods:subject>
+<mods:titleInfo>
+<mods:title>La retención indebida como delito de omisión</mods:title>
+</mods:titleInfo>
+<mods:genre>Tesis doctoral</mods:genre>
+</mods:mods>
+</xmlData>
+</mdWrap>
+</dmdSec>
+<amdSec ID="FO_123456789_204_11">
+<techMD ID="TECH_O_123456789_204_11">
+<mdWrap MDTYPE="PREMIS">
+<xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+<premis:premis>
+<premis:object>
+<premis:objectIdentifier>
+<premis:objectIdentifierType>URL</premis:objectIdentifierType>
+<premis:objectIdentifierValue>https://repositorio.uca.edu.ar/bitstream/123456789/204/11/retencion-indebida-delito-omision.pdf</premis:objectIdentifierValue>
+</premis:objectIdentifier>
+<premis:objectCategory>File</premis:objectCategory>
+<premis:objectCharacteristics>
+<premis:fixity>
+<premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+<premis:messageDigest>79830601ea6cded357538312e19bd00e</premis:messageDigest>
+</premis:fixity>
+<premis:size>1266046</premis:size>
+<premis:format>
+<premis:formatDesignation>
+<premis:formatName>application/pdf</premis:formatName>
+</premis:formatDesignation>
+</premis:format>
+</premis:objectCharacteristics>
+<premis:originalName>retencion-indebida-delito-omision.pdf</premis:originalName>
+</premis:object>
+</premis:premis>
+</xmlData>
+</mdWrap>
+</techMD>
+</amdSec>
+<amdSec ID="FT_123456789_204_9">
+<techMD ID="TECH_T_123456789_204_9">
+<mdWrap MDTYPE="PREMIS">
+<xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+<premis:premis>
+<premis:object>
+<premis:objectIdentifier>
+<premis:objectIdentifierType>URL</premis:objectIdentifierType>
+<premis:objectIdentifierValue>https://repositorio.uca.edu.ar/bitstream/123456789/204/9/doc.pdf.txt</premis:objectIdentifierValue>
+</premis:objectIdentifier>
+<premis:objectCategory>File</premis:objectCategory>
+<premis:objectCharacteristics>
+<premis:fixity>
+<premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+<premis:messageDigest>33dc3a0bf6521f3e06e311f31dc259eb</premis:messageDigest>
+</premis:fixity>
+<premis:size>945</premis:size>
+<premis:format>
+<premis:formatDesignation>
+<premis:formatName>text/plain</premis:formatName>
+</premis:formatDesignation>
+</premis:format>
+</premis:objectCharacteristics>
+<premis:originalName>doc.pdf.txt</premis:originalName>
+</premis:object>
+</premis:premis>
+</xmlData>
+</mdWrap>
+</techMD>
+</amdSec>
+<amdSec ID="FT_123456789_204_12">
+<techMD ID="TECH_T_123456789_204_12">
+<mdWrap MDTYPE="PREMIS">
+<xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+<premis:premis>
+<premis:object>
+<premis:objectIdentifier>
+<premis:objectIdentifierType>URL</premis:objectIdentifierType>
+<premis:objectIdentifierValue>https://repositorio.uca.edu.ar/bitstream/123456789/204/12/retencion-indebida-delito-omision.pdf.txt</premis:objectIdentifierValue>
+</premis:objectIdentifier>
+<premis:objectCategory>File</premis:objectCategory>
+<premis:objectCharacteristics>
+<premis:fixity>
+<premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+<premis:messageDigest>064a4b715b53dce3fb21d283eba3e008</premis:messageDigest>
+</premis:fixity>
+<premis:size>621294</premis:size>
+<premis:format>
+<premis:formatDesignation>
+<premis:formatName>text/plain</premis:formatName>
+</premis:formatDesignation>
+</premis:format>
+</premis:objectCharacteristics>
+<premis:originalName>retencion-indebida-delito-omision.pdf.txt</premis:originalName>
+</premis:object>
+</premis:premis>
+</xmlData>
+</mdWrap>
+</techMD>
+</amdSec>
+<fileSec>
+<fileGrp USE="ORIGINAL">
+<file ID="BITSTREAM_ORIGINAL_123456789_204_11" MIMETYPE="application/pdf" SEQ="11" SIZE="1266046" CHECKSUM="79830601ea6cded357538312e19bd00e" CHECKSUMTYPE="MD5" ADMID="FO_123456789_204_11" GROUPID="GROUP_BITSTREAM_123456789_204_11">
+<FLocat xlink:type="simple" LOCTYPE="URL" xlink:href="https://repositorio.uca.edu.ar/bitstream/123456789/204/11/retencion-indebida-delito-omision.pdf"/>
+</file>
+</fileGrp>
+<fileGrp USE="TEXT">
+<file ID="BITSTREAM_TEXT_123456789_204_9" MIMETYPE="text/plain" SEQ="9" SIZE="945" CHECKSUM="33dc3a0bf6521f3e06e311f31dc259eb" CHECKSUMTYPE="MD5" ADMID="FT_123456789_204_9" GROUPID="GROUP_BITSTREAM_123456789_204_9">
+<FLocat xlink:type="simple" LOCTYPE="URL" xlink:href="https://repositorio.uca.edu.ar/bitstream/123456789/204/9/doc.pdf.txt"/>
+</file>
+<file ID="BITSTREAM_TEXT_123456789_204_12" MIMETYPE="text/plain" SEQ="12" SIZE="621294" CHECKSUM="064a4b715b53dce3fb21d283eba3e008" CHECKSUMTYPE="MD5" ADMID="FT_123456789_204_12" GROUPID="GROUP_BITSTREAM_123456789_204_12">
+<FLocat xlink:type="simple" LOCTYPE="URL" xlink:href="https://repositorio.uca.edu.ar/bitstream/123456789/204/12/retencion-indebida-delito-omision.pdf.txt"/>
+</file>
+</fileGrp>
+</fileSec>
+<structMap TYPE="LOGICAL" LABEL="DSpace Object">
+<div TYPE="DSpace Object Contents" ADMID="DMD_123456789_204">
+<div TYPE="DSpace BITSTREAM">
+<fptr FILEID="BITSTREAM_ORIGINAL_123456789_204_11"/>
+</div>
+</div>
+</structMap>
+</mets></metadata></record></GetRecord></OAI-PMH>

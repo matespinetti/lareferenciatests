@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:44:47Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.uchile.cl:2250/215317" metadataPrefix="mets">https://repositorio.uchile.cl/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.uchile.cl:2250/215317</identifier><datestamp>2026-08-24T15:56:20Z</datestamp><setSpec>com_2250_100004</setSpec><setSpec>col_2250_117687</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" PROFILE="DSpace METS SIP Profile 1.0" TYPE="DSpace ITEM" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_2250-215317" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:2250/215317">
+<metsHdr CREATEDATE="2026-10-29T09:39:25Z">
+<agent TYPE="ORGANIZATION" ROLE="CUSTODIAN">
+<name>Repositorio Académico de la Universidad de Chile</name>
+</agent>
+</metsHdr>
+<dmdSec ID="DMD_2250_215317">
+<mdWrap MDTYPE="MODS">
+<xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+<mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+<mods:name>
+<mods:role>
+<mods:roleTerm type="text">author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Vergara, Patricio</mods:namePart>
+</mods:name>
+<mods:name>
+<mods:role>
+<mods:roleTerm type="text">author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Saez, Guidobeth</mods:namePart>
+</mods:name>
+<mods:name>
+<mods:role>
+<mods:roleTerm type="text">author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Castro, Mario</mods:namePart>
+</mods:name>
+<mods:name>
+<mods:role>
+<mods:roleTerm type="text">author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Allende, Sebastian</mods:namePart>
+</mods:name>
+<mods:name>
+<mods:role>
+<mods:roleTerm type="text">author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Nunez, Alvaro S.</mods:namePart>
+</mods:name>
+<mods:extension>
+<mods:dateAccessioned encoding="iso8601">2026-08-24T15:56:12Z</mods:dateAccessioned>
+</mods:extension>
+<mods:extension>
+<mods:dateAvailable encoding="iso8601">2026-08-24T15:56:12Z</mods:dateAvailable>
+</mods:extension>
+<mods:originInfo>
+<mods:dateIssued encoding="iso8601">2024</mods:dateIssued>
+</mods:originInfo>
+<mods:identifier type="citation">Npj 2D Materials and Applications, vol. 8, no. 1, art. 41, 2024</mods:identifier>
+<mods:identifier type="issn">2397-7132</mods:identifier>
+<mods:identifier type="other">10.1038/s41699-024-00478-5</mods:identifier>
+<mods:identifier type="uri">https://repositorio.uchile.cl/handle/2250/215317</mods:identifier>
+<mods:abstract>We introduce a two-dimensional dimerized lattice model that reveals a remarkable feature: the emergence of a complex, non-trivial topological multiferroic phase marked by zero Berry curvature and a significant Berry connection that influences the model's bulk topology. This model extends the one-dimensional Rice-Mele Hamiltonian model to explore polarization-dependent topological properties in a 2D Su-Schrieffer-Heeger lattice, providing a detailed framework for studying the impact of symmetry-breaking and spatially varying potentials on electronic and spin properties. The findings are particularly relevant for spintronics, offering a foundation for topologically robust and electrically controlled spin-conducting edge states, with implications for developing advanced spin-dependent transport devices.</mods:abstract>
+<mods:language>
+<mods:languageTerm authority="rfc3066"/>
+</mods:language>
+<mods:accessCondition type="useAndReproduction">Attribution-NonCommercial-NoDerivatives 4.0 International</mods:accessCondition>
+<mods:titleInfo>
+<mods:title>Emerging topological multiferroics from the 2D Rice-Mele model</mods:title>
+</mods:titleInfo>
+<mods:genre>Artículo de revista</mods:genre>
+</mods:mods>
+</xmlData>
+</mdWrap>
+</dmdSec>
+<amdSec ID="FO_2250_215317_-1">
+<techMD ID="TECH_O_2250_215317_-1">
+<mdWrap MDTYPE="PREMIS">
+<xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+<premis:premis>
+<premis:object>
+<premis:objectIdentifier>
+<premis:objectIdentifierType>URL</premis:objectIdentifierType>
+<premis:objectIdentifierValue>https://repositorio.uchile.cl/bitstream/2250/215317/-1/s41699-024-00478-5.pdf</premis:objectIdentifierValue>
+</premis:objectIdentifier>
+<premis:objectCategory>File</premis:objectCategory>
+<premis:objectCharacteristics>
+<premis:fixity>
+<premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+<premis:messageDigest>35b26ce52edf86ba7a041574f2f9b46b</premis:messageDigest>
+</premis:fixity>
+<premis:size>1550029</premis:size>
+<premis:format>
+<premis:formatDesignation>
+<premis:formatName>application/pdf</premis:formatName>
+</premis:formatDesignation>
+</premis:format>
+</premis:objectCharacteristics>
+<premis:originalName>s41699-024-00478-5.pdf</premis:originalName>
+</premis:object>
+</premis:premis>
+</xmlData>
+</mdWrap>
+</techMD>
+</amdSec>
+<fileSec>
+<fileGrp USE="ORIGINAL">
+<file ID="BITSTREAM_ORIGINAL_2250_215317_-1" MIMETYPE="application/pdf" SEQ="-1" SIZE="1550029" CHECKSUM="35b26ce52edf86ba7a041574f2f9b46b" CHECKSUMTYPE="MD5" ADMID="FO_2250_215317_-1" GROUPID="GROUP_BITSTREAM_2250_215317_-1">
+<FLocat xlink:type="simple" LOCTYPE="URL" xlink:href="https://repositorio.uchile.cl/bitstream/2250/215317/-1/s41699-024-00478-5.pdf"/>
+</file>
+</fileGrp>
+</fileSec>
+<structMap TYPE="LOGICAL" LABEL="DSpace Object">
+<div TYPE="DSpace Object Contents" ADMID="DMD_2250_215317">
+<div TYPE="DSpace BITSTREAM">
+<fptr FILEID="BITSTREAM_ORIGINAL_2250_215317_-1"/>
+</div>
+</div>
+</structMap>
+</mets></metadata></record></GetRecord></OAI-PMH>

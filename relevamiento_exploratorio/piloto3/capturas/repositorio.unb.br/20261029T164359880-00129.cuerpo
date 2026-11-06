@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:47:56Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.unb.br:10482/43728" metadataPrefix="mets">http://repositorio.unb.br/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.unb.br:10482/43728</identifier><datestamp>2025-11-05T20:29:38Z</datestamp><setSpec>com_10482_45725</setSpec><setSpec>col_10482_45731</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_10482-43728" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:10482/43728">
+   <metsHdr CREATEDATE="2026-10-29T13:47:56Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositório Institucional da UnB</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_10482_43728">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Barbosa, João Alexandre Ribeiro Gonçalves</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Lima, Jônatas Cunha Barbosa</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">email</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>jonatascbl@gmail.com</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2022-05-17T16:46:23Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2022-05-17T16:46:23Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2022-05-17</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="citation">LIMA, Jônatas Cunha Barbosa. Análises estruturais e de modelos de interação das proteases NS3 dos Flavivirus zika e dengue, e nsP2 dos Alphavirus chikungunya e mayaro utilizando ferramentas in silico e in vitro. 2022. 151 f., il. Tese (Doutorado em Biologia Molecular) — Universidade de Brasília, Brasília, 2022.</mods:identifier>
+               <mods:identifier type="uri">https://repositorio.unb.br/handle/10482/43728</mods:identifier>
+               <mods:abstract>Os arbovírus (Arthropod-borne virus) são uma classificação que compreende grupos virais&#xd;
+cuja transmissão é realizada por vetores artrópodes que infectam vertebrados. Dentre&#xd;
+esses, alguns arbovírus têm se mostrado de grande relevância, devido ao grande número&#xd;
+de infecções, como os Flavivirus dengue (DENV) e o zika (ZIKV), e os Alphavirus&#xd;
+chikungunya (CHIK) e o mayaro (MAYV), sendo que todos carecem de estudos&#xd;
+estruturais mais aprofundados objetivando tanto um maior conhecimento da biologia&#xd;
+molecular destes, quanto visando possíveis alvos para novos fármacos. Dentre as&#xd;
+possíveis proteínas alvo, as proteases virais têm se mostrado excelentes alvos. Estas&#xd;
+proteínas (NS3 nos Flavivirus e nsP2 nos Alphavirus) possuem a função de clivar&#xd;
+determinadas regiões da poliproteína viral sendo essenciais para a replicação. O objetivo&#xd;
+do presente trabalho é realizar análises in silico e in vitro das proteases dos arbovírus&#xd;
+ZIKV, DENV, CHIK e MAYV visando uma melhor compreensão estrutural das proteases e&#xd;
+da interação com inibidores e substratos. Os genes da NS3 de ZIKV e DENV, e nsP2 de&#xd;
+MAYV e CHIK foram expressos em diversas cepas de E. coli e passaram por diversas&#xd;
+etapas de otimização de purificação. Realizou-se ultracentrifugação analítica e&#xd;
+cromatografia por exclusão molecular das proteases de ZIKV e DENV, que apontaram&#xd;
+uma possível formação de dímero. Análises de espectroscopia de fluorescência da NS3&#xd;
+de ZIKV em presença de aprotinina demonstraram uma redução na intensidade de&#xd;
+fluorescência possivelmente por maior exposição do Trp50 ao solvente, que poderia ser&#xd;
+explicada pela dissociação dos dímeros. Screening e refinamento da cristalização de das&#xd;
+proteases NS3 estudadas apresentaram condições onde havia formação de cristal de&#xd;
+proteína, todavia não foram obtidos cristais que permitissem a resolução da estrutura.&#xd;
+Foram realizados ensaios de inibição da NS3 de ZIKV com inibidores da protease&#xd;
+homóloga DENV, os quais apresentaram capacidade inibitória também para esta proteína&#xd;
+de ZIKV. Além disso, realizou-se a modelagem por homologia da protease do MAYV,&#xd;
+docking com peptídeos que possuem os sítios de clivagem das nsP2 de CHIK e MAYV e&#xd;
+dinâmica das principais poses. Neste experimento observou-se que as poses com&#xd;
+melhores scores apresentavam semelhante posicionamento de uma glicina, altamente&#xd;
+conservada na posição P2 de substratos de nsP2 de Alphavirus, em uma fissura estreita.&#xd;
+Este posicionamento possivelmente auxilia no posicionamento do carbono da carbonila do&#xd;
+substrato próximo ao enxofre da cisteína catalítica desprotonada facilitando o ataque&#xd;
+nucleofílico, uma das primeiras etapas para a quebra da cadeia polipeptídica. Além disso, estabiliza os ângulos diedros χ1 e χ2 dos resíduos que compõe o sítio catalítico.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">por</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Acesso Aberto</mods:accessCondition>
+               <mods:titleInfo>
+                  <mods:title>Análises estruturais e de modelos de interação das proteases NS3 dos Flavivirus zika e dengue, e nsP2 dos Alphavirus chikungunya e mayaro utilizando ferramentas in silico e in vitro</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Tese</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_10482_43728">
+      <rightsMD ID="RIG_10482_43728">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>QSBjb25jZXNzw6NvIGRhIGxpY2Vuw6dhIGRlc3RhIGNvbGXDp8OjbyByZWZlcmUtc2UgYW8gdGVybW8gZGUgYXV0b3JpemHDp8OjbyBpbXByZXNzbyBhc3NpbmFkbyANCnBlbG8gYXV0b3IgY29tIGFzIHNlZ3VpbnRlcyBjb25kacOnw7VlczoNCg0KTmEgcXVhbGlkYWRlIGRlIHRpdHVsYXIgZG9zIGRpcmVpdG9zIGRlIGF1dG9yIGRhIHB1YmxpY2HDp8OjbywgYXV0b3Jpem8gYSBVbml2ZXJzaWRhZGUgZGUgQnJhc8OtbGlhDQogZSBvIElCSUNUIGEgZGlzcG9uaWJpbGl6YXIgcG9yIG1laW8gZG9zIHNpdGVzIHd3dy5iY2UudW5iLmJyLCB3d3cuaWJpY3QuYnIsDQogaHR0cDovL2hlcmN1bGVzLnZ0bHMuY29tL2NnaS1iaW4vbmRsdGQvY2hhbWVsZW9uP2xuZz1wdCZza2luPW5kbHRkIHNlbSByZXNzYXJjaW1lbnRvIGRvcyANCmRpcmVpdG9zIGF1dG9yYWlzLCBkZSBhY29yZG8gY29tIGEgTGVpIG7CuiA5NjEwLzk4LCBvIHRleHRvIGludGVncmFsIGRhIG9icmEgZGlzcG9uaWJpbGl6YWRhLA0KIGNvbmZvcm1lIHBlcm1pc3PDtWVzIGFzc2luYWxhZGFzLCBwYXJhIGZpbnMgZGUgbGVpdHVyYSwgaW1wcmVzc8OjbyBlL291IGRvd25sb2FkLCBhIHTDrXR1bG8gZGUgDQpkaXZ1bGdhw6fDo28gZGEgcHJvZHXDp8OjbyBjaWVudMOtZmljYSBicmFzaWxlaXJhLCBhIHBhcnRpciBkZXN0YSBkYXRhLg==</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_10482_43728_1">
+      <techMD ID="TECH_O_10482_43728_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>http://repositorio.unb.br/bitstream/10482/43728/1/2022_J%c3%b4natasCunhaBarbosaLima.pdf</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>b982611f17af3965fcd2c0c9403098c6</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>10177501</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>2022_JônatasCunhaBarbosaLima.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_10482_43728_1" MIMETYPE="application/pdf" SEQ="1" SIZE="10177501" CHECKSUM="b982611f17af3965fcd2c0c9403098c6" CHECKSUMTYPE="MD5" ADMID="FO_10482_43728_1" GROUPID="GROUP_BITSTREAM_10482_43728_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://repositorio.unb.br/bitstream/10482/43728/1/2022_J%c3%b4natasCunhaBarbosaLima.pdf" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_10482_43728">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_10482_43728_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

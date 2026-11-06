@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T15:40:51Z</responseDate><request verb="GetRecord" identifier="oai:riudg.udg.mx:20.500.12104/111546" metadataPrefix="xoai">https://riudg.udg.mx/oai/request</request><GetRecord><record><header><identifier>oai:riudg.udg.mx:20.500.12104/111546</identifier><datestamp>2026-01-28T14:42:07Z</datestamp><setSpec>com_20.500.12104_4</setSpec><setSpec>col_20.500.12104_110639</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="date">
+<element name="accessioned">
+<element name="none">
+<field name="value">2026-01-28T14:42:07Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2026-01-28T14:42:07Z</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="uri">
+<element name="none">
+<field name="value">https://hdl.handle.net/20.500.12104/111546</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="none">
+<field name="value">Ninguna ciencia ha procurado tanto como la psicología el aplicar las ideas de Thomas S. Kuhn a su propio desarrollo y articulación. Desde que en 1962 se publicó el célebre The Structure of Scientific Revolutions del autor norteamericano, diversos estudiosos de la ciencia psicológica han defendido narrativas históricas y epistemológicas que pretenden dar cuenta mediante los conceptos kuhnianos del desarrollo de esta discipina sin que prevalezca hasta la fecha un consenso académico al respecto. Hay quienes hablan de ella como una preciencia, o como una ciencia normal poseedora de algún paradigma dominante, o como una ciencia anormal en estado perpetuo de crisis, o como una ciencia multiparadigmática.Este texto explora los conceptos de la filosofía kuhniana de la ciencia, así como los vericuetos de su implementación como aparato interpretativo tanto de la psicología clásica como de la psicología actual. Cualquier persona interesada en la psicología o en la filosofía de las ciencias hallará aquí un espacio rico en debates y reflexiones que iluminan la compleja e intrincada naturaleza laberíntica de los estudios sobre la mente, la conducta, el cerebro, o lo que sea que estudia la ciencia psicológica.</field>
+</element>
+</element>
+<element name="publisher">
+<element name="none">
+<field name="value">Editorial Universidad de Guadalajara</field>
+</element>
+</element>
+<element name="relation">
+<element name="none">
+<field name="value">Editorial Universidad de Guadalajara</field>
+</element>
+</element>
+<element name="subject">
+<element name="none">
+<field name="value">PSICOLOGÍA > Referencia</field>
+<field name="value">Psicología</field>
+<field name="value">Obras de consulta</field>
+<field name="value">Filosofía y psicología > Psicología > Psicología > Filosofía y teoría</field>
+</element>
+</element>
+<element name="title">
+<element name="none">
+<field name="value">Sistemas y paradigmas</field>
+</element>
+</element>
+<element name="type">
+<element name="none">
+<field name="value">Libro</field>
+</element>
+</element>
+<element name="image">
+<element name="none">
+<field name="value">https://simehbucket.s3.amazonaws.com/images/ac01c4874a1d5c9576b4499e3bb40f2a-medium.jpg</field>
+</element>
+</element>
+<element name="contributor.author">
+<element name="none">
+<field name="value">Mario Alberto Lozano González</field>
+</element>
+</element>
+<element name="type.conacyt">
+<element name="none">
+<field name="value">Book</field>
+</element>
+</element>
+<element name="language.iso">
+<element name="none">
+<field name="value">spa</field>
+</element>
+</element>
+<element name="date.issued">
+<element name="none">
+<field name="value">2024</field>
+</element>
+</element>
+<element name="rights.udg">
+<element name="none">
+<field name="value">https://www.riudg.udg.mx/info/politicas.jsp</field>
+</element>
+</element>
+<element name="title.alternative">
+<element name="none">
+<field name="value">La psicología desde la perspectiva kuhniana</field>
+</element>
+</element>
+<element name="identifier.isbn">
+<element name="none">
+<field name="value">978-607-581-303-5</field>
+</element>
+</element>
+</element>
+<element name="bundles" />
+<element name="others">
+<field name="handle">20.500.12104/111546</field>
+<field name="identifier">oai:riudg.udg.mx:20.500.12104/111546</field>
+<field name="lastModifyDate">2026-01-28 08:42:07.851</field>
+</element>
+<element name="repository">
+<field name="name">RIUdeG</field>
+<field name="mail">wdgdigital@gmail.com</field>
+</element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

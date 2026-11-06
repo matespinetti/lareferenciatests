@@ -1,0 +1,69 @@
+{
+ "pedido": "20261029T164359880-00003",
+ "url": "https://repositorio.uchile.cl/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:44:00 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "content-type",
+   "text/plain;charset=ISO-8859-1"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:44:00 GMT"
+  ],
+  [
+   "last-modified",
+   "Tue, 21 Apr 2026 19:38:27 GMT"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "x-cocoon-version",
+   "2.2.0"
+  ],
+  [
+   "x-frame-options",
+   "sameorigin"
+  ],
+  [
+   "set-cookie",
+   "JSESSIONID=61135439565B3DCD3E81E465A1A9D32C; Path=/; HttpOnly"
+  ],
+  [
+   "keep-alive",
+   "timeout=1, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

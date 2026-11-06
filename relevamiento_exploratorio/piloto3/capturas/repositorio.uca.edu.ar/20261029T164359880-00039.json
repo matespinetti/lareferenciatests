@@ -1,0 +1,37 @@
+{
+ "pedido": "20261029T164359880-00039",
+ "url": "https://repositorio.uca.edu.ar/oai/request?verb=GetRecord&metadataPrefix=ore&identifier=oai:ucacris:123456789/204",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.18.0"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:47:33 GMT"
+  ],
+  [
+   "content-type",
+   "application/xml;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "server-timing",
+   "dtTrId;desc=\"fbc6a865233881f62532d1ab34ea8a6f\", dtSInfo;desc=\"0\""
+  ],
+  [
+   "server-timing",
+   "dtRpid;desc=\"1601565186\""
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

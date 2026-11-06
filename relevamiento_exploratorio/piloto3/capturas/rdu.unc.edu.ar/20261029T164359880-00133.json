@@ -1,0 +1,109 @@
+{
+ "pedido": "20261029T164359880-00133",
+ "url": "https://rdu.unc.edu.ar/server/api/core/bitstreams/ccd15c6b-c76b-4376-abc7-51e646c09db7/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:48:01 GMT"
+  ],
+  [
+   "content-type",
+   "image/jpeg;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Fri, 08 Jul 2022 14:53:49 GMT"
+  ],
+  [
+   "etag",
+   "\"52c7f5960c065dff372bc6abf3e2650b\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:48:01 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"CORD00005698.jpg\"; filename*=UTF-8''CORD00005698.jpg"
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/5402387"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "1; mode=block"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ],
+  [
+   "access-control-allow-methods",
+   "GET, POST, OPTIONS"
+  ],
+  [
+   "access-control-allow-headers",
+   "Origin, X-Requested-With, Content-Type, Accept, X-Correlation-ID, X-Referrer"
+  ],
+  [
+   "content-security-policy",
+   "frame-ancestors 'self' https://dspace-rdu-1.psi.unc.edu.ar"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

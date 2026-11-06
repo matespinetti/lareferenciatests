@@ -1,0 +1,93 @@
+{
+ "pedido": "20261029T164359880-00276",
+ "url": "https://api.arca.fiocruz.br/api",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:51:59 GMT"
+  ],
+  [
+   "content-type",
+   "application/json;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "dspace-xsrf-token",
+   "abcabb30-33db-4879-b162-6f436e4a5a9a"
+  ],
+  [
+   "set-cookie",
+   "DSPACE-XSRF-COOKIE=abcabb30-33db-4879-b162-6f436e4a5a9a; Path=/; Secure; HttpOnly; SameSite=None"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "cache-control",
+   "no-cache, no-store, max-age=0, must-revalidate"
+  ],
+  [
+   "pragma",
+   "no-cache"
+  ],
+  [
+   "expires",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubdomains"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

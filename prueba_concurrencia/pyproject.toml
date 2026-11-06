@@ -1,0 +1,38 @@
+[project]
+name = "concurrencia"
+version = "0.1.0"
+description = "Prueba de concurrencia del motor del descargador: corrutinas contra hilos en una máquina chica"
+authors = [
+    { name = "mateospinetti", email = "mateospinetti1@gmail.com" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "aiohttp>=3.11",
+    "asyncpg>=0.30",
+    "matplotlib>=3.9",
+    "psutil>=6.1",
+    "requests>=2.32",
+    "selectolax>=1.0.2",
+    "typer>=0.13",
+]
+
+[project.scripts]
+servidor = "concurrencia.cli:servidor_app"
+motor = "concurrencia.cli:motor_app"
+informe = "concurrencia.cli:informe_app"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+markers = ["integration: necesita PostgreSQL local (CONCURRENCIA_DSN)"]

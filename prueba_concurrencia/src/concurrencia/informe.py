@@ -1,0 +1,680 @@
+"""Informe: tablas por escenario, gráficos, proyección al problema real y criterio de decisión.
+
+Lee `results/<escenario>.csv` y `.json`, descarta el calentamiento y escribe `report.md`. Las
+cuentas de la proyección quedan escritas en el informe para que se puedan revisar.
+"""
+
+import csv
+import json
+import math
+import statistics
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any
+
+from concurrencia import config
+from concurrencia.config import Modo
+from concurrencia.distribucion import ARCHIVO, LATENCIA, PAGINA, items_por_repo
+from concurrencia.metricas import percentil
+
+# Criterio de decisión de la spec (propuesto, a acordar).
+DESPACHO_P99_MAX_MS = 100.0
+BUCLE_P99_MAX_MS = 50.0
+RSS_MAX_FRACCION = 0.5
+DERIVA_RSS_MAX = 0.10
+"""Crecimiento de la RSS en la hora del escenario 9, como fracción de la media."""
+CPU_SERVIDOR_MAX = 90.0
+"""Si el servidor pasa este % de un núcleo, el escenario no es válido: el límite fue él."""
+
+
+@dataclass
+class Resultado:
+    id: str
+    escenario: dict[str, Any]
+    filas: list[dict[str, float]]
+    datos: dict[str, Any]
+
+    def col(self, nombre: str) -> list[float]:
+        return [f.get(nombre, 0.0) for f in self.filas]
+
+
+def cargar(resultados: Path) -> list[Resultado]:
+    salida = []
+    for ruta in sorted(resultados.glob("*.json")):
+        datos = json.loads(ruta.read_text())
+        if "escenario" not in datos or not ruta.with_suffix(".csv").exists():
+            continue
+        with ruta.with_suffix(".csv").open() as f:
+            filas = [{k: float(v) for k, v in fila.items()} for fila in csv.DictReader(f)]
+        medicion = [f for f in filas if not f["calentamiento"]]
+        salida.append(Resultado(datos["escenario"]["id"], datos["escenario"], medicion, datos))
+    return sorted(salida, key=lambda r: (len(r.id), r.id))
+
+
+def _pendiente(xs: list[float], ys: list[float]) -> float:
+    if len(xs) < 2 or len(set(xs)) < 2:
+        return 0.0
+    return statistics.linear_regression(xs, ys).slope
+
+
+def resumir(r: Resultado) -> dict[str, Any]:
+    e, servidor = r.escenario, r.datos["servidor"]
+    cpu = r.col("cpu")
+    pedidos = sum(r.col("pedidos"))
+    mb = sum(r.col("mb_recibidos"))
+    cpu_seg = sum(c / 100 for c in cpu)
+    calentamiento = int(e["calentamiento"])
+    cpu_srv = servidor.get("cpu_servidor", [])[calentamiento:] or [0.0]
+    descargas = r.col("duracion_descarga_s")
+    resoluciones = r.col("duracion_resolucion_s")
+    rss = r.col("rss_mb")
+    t = r.col("t")
+    return {
+        "id": r.id,
+        "descripcion": e["descripcion"],
+        "modo": e["modo"],
+        "lugares": e["lugares"],
+        "repos": e["repos"],
+        "db": e["db"],
+        "red": e.get("red"),
+        "grupo": e.get("grupo"),
+        "instancia": e.get("instancia"),
+        "segundos": len(r.filas),
+        "items_s": statistics.fmean(r.col("items_ok")) if r.filas else 0.0,
+        "ocupacion": statistics.fmean(r.col("ocupacion")) if r.filas else 0.0,
+        "pedidos_s": statistics.fmean(r.col("pedidos")) if r.filas else 0.0,
+        "mb_s": statistics.fmean(r.col("mb_recibidos")) if r.filas else 0.0,
+        "cpu_media": statistics.fmean(cpu) if cpu else 0.0,
+        "cpu_max": max(cpu, default=0.0),
+        "cpu_sistema": statistics.fmean(r.col("cpu_sistema")) if cpu else 0.0,
+        "rss_max": max(rss, default=0.0),
+        "deriva_rss_mb_h": _pendiente(t, rss) * 3600,
+        "rss_media": statistics.fmean(rss) if rss else 0.0,
+        "hilos_max": max(r.col("hilos"), default=0),
+        "descriptores_max": max(r.col("descriptores"), default=0),
+        "conexiones_max": max(r.col("conexiones_tcp"), default=0),
+        "bucle_p99": r.datos.get("bucle", {}).get("p99_ms", percentil(r.col("bucle_p99_ms"), 0.99)),
+        "bucle_max": r.datos.get("bucle", {}).get("max_ms", max(r.col("bucle_max_ms"), default=0.0)),
+        # Conservador: percentil 99 de los p99 de cada segundo.
+        "despacho_p99": percentil(r.col("despacho_p99_ms"), 0.99),
+        "listos_sin_atender": statistics.fmean(r.col("listos_sin_atender")) if r.filas else 0.0,
+        "lat_p50": statistics.median(r.col("lat_p50_ms")) if r.filas else 0.0,
+        "lat_p95": statistics.median(r.col("lat_p95_ms")) if r.filas else 0.0,
+        "agregada_p95": statistics.median(r.col("agregada_p95_ms")) if r.filas else 0.0,
+        "gc_ms_s": statistics.fmean(r.col("gc_ms")) if r.filas else 0.0,
+        "steal": statistics.fmean(r.col("steal")) if r.filas else 0.0,
+        "cpu_ms_por_pedido": 1000 * cpu_seg / pedidos if pedidos else 0.0,
+        "cpu_ms_por_mb": 1000 * cpu_seg / mb if mb else 0.0,
+        "t_resolucion": statistics.fmean([x for x in resoluciones if x]) if any(resoluciones) else 0.0,
+        "t_descarga": statistics.fmean([x for x in descargas if x]) if any(descargas) else 0.0,
+        "db_tx": statistics.fmean(r.col("db_tx")) if r.filas else 0.0,
+        "db_commit_p95": statistics.median(r.col("db_commit_p95_ms")) if r.filas else 0.0,
+        "errores": sum(r.datos["errores_por_tipo"].values()),
+        "errores_por_tipo": r.datos["errores_por_tipo"],
+        "violaciones": servidor["violaciones"],
+        "cpu_servidor_media": statistics.fmean(cpu_srv),
+        "cpu_servidor_max": max(cpu_srv),
+        "valido": max(cpu_srv) < CPU_SERVIDOR_MAX,
+        "terminado_antes": r.datos.get("terminado_antes_de_tiempo", False),
+    }
+
+
+def _interpolar(puntos: list[tuple[float, float]], x: float) -> float | None:
+    """Interpolación lineal en `puntos` (x creciente); fuera del rango, el extremo más cercano."""
+    if not puntos:
+        return None
+    if x <= puntos[0][0]:
+        return puntos[0][1]
+    for (x0, y0), (x1, y1) in zip(puntos, puntos[1:], strict=False):
+        if x <= x1:
+            return y0 + (y1 - y0) * (x - x0) / (x1 - x0)
+    return puntos[-1][1]
+
+
+def modelo_item(ancho: float) -> dict[str, float]:
+    """Cuánto ocupa un ítem a su repositorio con `ancho` bytes/s por conexión (modelo calibrado:
+    latencia de los pilotos; la página llega de una vez; cada archivo, a `ancho`)."""
+    descargas = (config.DESCARGAS_MIN + config.DESCARGAS_MAX) / 2
+    t_res = LATENCIA.media()
+    t_desc = LATENCIA.media() + ARCHIVO.media() / ancho
+    return {
+        "descargas": descargas,
+        "t_res": t_res,
+        "t_desc": t_desc,
+        "ciclo": (t_res + config.INTERVALO) + descargas * (t_desc + config.INTERVALO),
+        "ocupado": t_res + descargas * t_desc,
+        "bytes_item": PAGINA.media() + descargas * ARCHIVO.media(),
+    }
+
+
+def sensibilidad(simulada: config.Instancia, anchos: tuple[float, ...] = config.ANCHOS_SENSIBILIDAD) -> list[dict[str, Any]]:
+    """La duración y las corrutinas según la velocidad por conexión, con la red de `simulada`."""
+    items = items_por_repo(config.REPOS_REALES, config.ITEMS_REALES, config.SEMILLA)
+    filas = []
+    for mb_s in anchos:
+        m = modelo_item(mb_s * config.MB)
+        c = curva(items, m["ciclo"], m["ocupado"], m["bytes_item"], simulada.red_base, m["descargas"])
+        filas.append(
+            {
+                "mb_s": mb_s,
+                "ciclo": m["ciclo"],
+                "duracion_cortesia_dias": max(items) * m["ciclo"] / 86400,
+                "duracion_dias": c["duracion_dias"],
+                "lugares": c["lugares_red"],
+            }
+        )
+    return filas
+
+
+def proyeccion(
+    resumenes: list[dict[str, Any]], simulada: config.Instancia | None = None, ancho: float | None = None
+) -> dict[str, Any]:
+    """El problema real (2.400 repositorios, 6 M de ítems) con lo calibrado y lo medido."""
+    items = items_por_repo(config.REPOS_REALES, config.ITEMS_REALES, config.SEMILLA)
+    descargas = (config.DESCARGAS_MIN + config.DESCARGAS_MAX) / 2
+    i = config.INTERVALO
+    # Modelo calibrado: latencia de los pilotos; la página llega de una vez; el archivo, a 2 MB/s.
+    t_res = LATENCIA.media()
+    t_desc = LATENCIA.media() + ARCHIVO.media() / (ancho or config.ANCHO_POR_CONEXION)
+    ciclo = (t_res + i) + descargas * (t_desc + i)
+    ocupado = t_res + descargas * t_desc
+    bytes_item = PAGINA.media() + descargas * ARCHIVO.media()
+    total_bytes = config.ITEMS_REALES * bytes_item
+    pico_mb_s = config.REPOS_REALES * bytes_item / ciclo / config.MB
+    # La capacidad de un proceso sale de los escenarios sin tope de red.
+    corrutinas = [r for r in resumenes if r["modo"] == Modo.CORRUTINAS and r["mb_s"] > 0 and not r["red"]]
+    validos = [r for r in corrutinas if r["valido"] and r["violaciones"] == 0 and r["errores"] == 0]
+    capacidad = max(validos or corrutinas, key=lambda r: r["mb_s"], default=None)
+    referencia = next((r for r in resumenes if r["id"] == "4"), capacidad)
+    # La CPU por MB sale del escenario sin tope que más bajó; si no hay, del que más bajó con tope
+    # (sobreestima un poco: con poco tráfico pesa más el costo fijo de las conexiones).
+    fuente_cpu = capacidad or max(
+        (r for r in resumenes if r["modo"] == Modo.CORRUTINAS and r["mb_s"] > 0), key=lambda r: r["mb_s"], default=None
+    )
+    cpu_ms_por_mb = fuente_cpu["cpu_ms_por_mb"] if fuente_cpu else 0.0
+    simulada = simulada or config.instancia()
+    redes = {
+        f"{simulada.nombre}, línea base": simulada.red_base,
+        f"{simulada.nombre}, ráfaga": simulada.red_rafaga,
+    }
+    # Memoria según los lugares, medida en el barrido con red (si se corrió).
+    barrido = sorted((r for r in resumenes if r["grupo"] == config.BARRIDO_RED), key=lambda r: r["lugares"])
+    rss_por_lugares = [(float(r["lugares"]), r["rss_max"]) for r in barrido]
+    candidatas = []
+    for inst in config.INSTANCIAS.values():
+        c = curva(items, ciclo, ocupado, bytes_item, inst.red_base, descargas)
+        lugares = min(c["lugares_red"], config.REPOS_REALES * ocupado / ciclo)
+        mb_s = min(inst.red_base, pico_mb_s * config.MB) / config.MB
+        cpu = 100 * cpu_ms_por_mb / 1000 * mb_s if cpu_ms_por_mb else None
+        candidatas.append(
+            {
+                "instancia": inst,
+                "duracion_dias": c["duracion_dias"],
+                "lugares": lugares,
+                "mb_s": mb_s,
+                "cpu": cpu,
+                "cpu_alcanza": None if cpu is None else cpu <= inst.cpu_disponible,
+                "rss_mb": _interpolar(rss_por_lugares, lugares),
+                "costo": inst.precio_hora * c["duracion_dias"] * 24,
+            }
+        )
+    return {
+        "simulada": simulada,
+        "candidatas": candidatas,
+        "items_max": max(items),
+        "items_mediana": statistics.median(items),
+        "items_top4": sum(sorted(items, reverse=True)[: config.REPOS_REALES // 25]) / config.ITEMS_REALES,
+        "descargas_por_item": descargas,
+        "t_res": t_res,
+        "t_desc": t_desc,
+        "t_res_medido": referencia["t_resolucion"] if referencia else None,
+        "t_desc_medido": referencia["t_descarga"] if referencia else None,
+        "ciclo_item": ciclo,
+        "ocupado_item": ocupado,
+        "curvas": {
+            nombre: curva(items, ciclo, ocupado, bytes_item, red, descargas)
+            for nombre, red in {**redes, "sin tope de red": None}.items()
+        },
+        "bytes_item": bytes_item,
+        "total_tb": total_bytes / 1e12,
+        "pico_pedidos_s": config.REPOS_REALES * (1 + descargas) / ciclo,
+        "pico_mb_s": pico_mb_s,
+        "pico_lugares": config.REPOS_REALES * ((t_res + descargas * t_desc) / ciclo),
+        "duracion_cortesia_dias": max(items) * ciclo / 86400,
+        "duracion_red_dias": {nombre: total_bytes / red / 86400 for nombre, red in redes.items()},
+        "red_mb_s": {nombre: red / config.MB for nombre, red in redes.items()},
+        "cpu_nucleos_para_red": {nombre: cpu_ms_por_mb / 1000 * red / config.MB for nombre, red in redes.items()},
+        "cpu_ms_por_mb": cpu_ms_por_mb,
+        "cpu_mb_escenario": fuente_cpu["id"] if fuente_cpu else None,
+        "capacidad_mb_s": capacidad["mb_s"] if capacidad else None,
+        "capacidad_escenario": capacidad["id"] if capacidad else None,
+        "capacidad_es_cota_inferior": bool(capacidad and not capacidad["valido"]),
+    }
+
+
+FRACCION_RODILLA = 0.95
+
+
+def rodilla(barrido: list[dict[str, Any]], clave: str) -> dict[str, Any] | None:
+    """El escenario con menos lugares que llega al 95 % del máximo de `clave` en el barrido."""
+    maximo = max((r[clave] for r in barrido), default=0.0)
+    if maximo <= 0:
+        return None
+    return next(r for r in sorted(barrido, key=lambda r: r["lugares"]) if r[clave] >= FRACCION_RODILLA * maximo)
+
+
+def barridos(resumenes: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """Por grupo de barrido: los escenarios en orden, la rodilla y el costo de sobrar."""
+    salida = {}
+    for grupo in (config.BARRIDO_RED, config.BARRIDO_SIN_TOPE):
+        filas = sorted((r for r in resumenes if r["grupo"] == grupo), key=lambda r: r["lugares"])
+        if len(filas) < 2:
+            continue
+        por_mb = rodilla(filas, "mb_s")
+        ultimo = filas[-1]
+        sobran = ultimo["lugares"] - por_mb["lugares"] if por_mb else 0
+        salida[grupo] = {
+            "filas": filas,
+            "rodilla_mb": por_mb,
+            "sobran": sobran,
+            # Lo que cuesta cada lugar de más después de la rodilla.
+            "rss_kb_por_lugar": 1024 * (ultimo["rss_max"] - por_mb["rss_max"]) / sobran if sobran > 0 else 0.0,
+            "cpu_por_lugar": (ultimo["cpu_media"] - por_mb["cpu_media"]) / sobran if sobran > 0 else 0.0,
+        }
+    return salida
+
+
+def curva(
+    items: list[int], ciclo: float, ocupado: float, bytes_item: float, red: float | None, descargas: float
+) -> dict[str, Any]:
+    """Modelo de fluido de toda la descarga: repositorios activos y lugares necesarios en el tiempo.
+
+    Mientras hay repositorios activos, todos avanzan al mismo ritmo: el de la cortesía
+    (un ítem cada `ciclo` segundos) o, si la red no alcanza para todos, la parte que les toca.
+    Terminan en orden de tamaño. Lugares necesarios: los que pide la cortesía
+    (cada repositorio ocupado `ocupado / ciclo` del tiempo) o los que llenan la red, lo que sea menor.
+    """
+    restantes = sorted(n for n in items if n > 0)
+    total, t, hechos, i = len(restantes), 0.0, 0.0, 0
+    lugares_red = math.inf if red is None else red * ocupado / bytes_item
+    puntos = []
+    while i < total:
+        activos = total - i
+        ritmo = 1 / ciclo if red is None else min(1 / ciclo, red / (activos * bytes_item))
+        puntos.append(
+            {
+                "t": t,
+                "activos": activos,
+                "lugares": min(activos * ocupado / ciclo, lugares_red),
+                "items_s": activos * ritmo,
+                "mb_s": activos * ritmo * bytes_item / config.MB,
+            }
+        )
+        t += (restantes[i] - hechos) / ritmo
+        hechos = restantes[i]
+        while i < total and restantes[i] <= hechos:
+            i += 1
+    puntos.append({"t": t, "activos": 0, "lugares": 0.0, "items_s": 0.0, "mb_s": 0.0})
+    return {"red": red, "duracion_dias": t / 86400, "lugares_red": lugares_red, "puntos": puntos}
+
+
+def en_el_dia(curva_: dict[str, Any], dia: float) -> dict[str, Any]:
+    """El estado del modelo en el día `dia` (función escalonada)."""
+    segundos = dia * 86400
+    return [p for p in curva_["puntos"] if p["t"] <= segundos][-1]
+
+
+def criterio(
+    resumenes: list[dict[str, Any]], simulada: config.Instancia | None = None
+) -> list[tuple[str, str, bool | None]]:
+    """(escenario, condición, cumple) para la instancia simulada. None si el escenario no se corrió."""
+    simulada = simulada or config.instancia()
+    linea_base = simulada.cpu_disponible
+    rss_max = RSS_MAX_FRACCION * simulada.memoria / config.MB
+    texto_cpu = (
+        f"CPU media dentro de la línea base de la {simulada.nombre} ({linea_base:.0f} % de un núcleo)"
+        if simulada.linea_base_cpu is not None
+        else f"CPU media < {linea_base:.0f} % de un núcleo (un proceso usa uno; margen para Postgres)"
+    )
+    por_id = {r["id"]: r for r in resumenes}
+    filas: list[tuple[str, str, bool | None]] = []
+    for id in ("4", "9"):
+        r = por_id.get(id)
+        condiciones = [
+            ("Cero violaciones de cortesía y cero errores", lambda r: r["violaciones"] == 0 and r["errores"] == 0),
+            (f"Retraso de despacho p99 < {DESPACHO_P99_MAX_MS:.0f} ms", lambda r: r["despacho_p99"] < DESPACHO_P99_MAX_MS),
+            (f"Retraso del bucle p99 < {BUCLE_P99_MAX_MS:.0f} ms", lambda r: r["bucle_p99"] < BUCLE_P99_MAX_MS),
+            (texto_cpu, lambda r: r["cpu_media"] <= linea_base),
+            (f"RSS máxima < {rss_max:.0f} MB", lambda r: r["rss_max"] < rss_max),
+            ("El servidor simulado no fue el límite", lambda r: r["valido"]),
+        ]  # fmt: skip
+        if id == "9":
+            condiciones.append(
+                (
+                    f"Memoria estable: deriva < {DERIVA_RSS_MAX:.0%} de la RSS media por hora",
+                    lambda r: abs(r["deriva_rss_mb_h"]) < DERIVA_RSS_MAX * r["rss_media"],
+                )
+            )
+        for texto, cumple in condiciones:
+            filas.append((id, texto, None if r is None else bool(cumple(r))))
+    return filas
+
+
+def _graficos(resumenes: list[dict[str, Any]], destino: Path) -> bool:
+    sinteticos = [r for r in resumenes if not r["db"] and not r["grupo"] and r["id"] not in {"6", "9"}]
+    if not sinteticos:
+        return False
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    figura, ejes = plt.subplots(1, 3, figsize=(15, 4.5))
+    medidas = [("cpu_media", "CPU media (% de un núcleo)"), ("rss_max", "RSS máxima (MB)"), ("bucle_p99", "Retraso p99 (ms)")]
+    for eje, (clave, titulo) in zip(ejes, medidas, strict=True):
+        for modo, marca in ((Modo.CORRUTINAS, "o-"), (Modo.HILOS, "s--")):
+            puntos = sorted((r["lugares"], r[clave]) for r in sinteticos if r["modo"] == modo)
+            if puntos:
+                eje.plot(*zip(*puntos, strict=True), marca, label=str(modo))
+        eje.set_xscale("log")
+        eje.set_xlabel("Lugares de ejecución")
+        eje.set_title(titulo)
+        eje.grid(alpha=0.3)
+        eje.legend()
+    figura.tight_layout()
+    figura.savefig(destino, dpi=120)
+    plt.close(figura)
+    return True
+
+
+def _grafico_barrido(grupos: dict[str, dict[str, Any]], destino: Path) -> None:
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    figura, ejes = plt.subplots(1, 3, figsize=(15, 4.5))
+    medidas = [("mb_s", "MB/s bajados"), ("rss_max", "RSS máxima (MB)"), ("cpu_media", "CPU media (% de un núcleo)")]
+    for eje, (clave, titulo) in zip(ejes, medidas, strict=True):
+        for grupo, datos in grupos.items():
+            xs = [r["lugares"] for r in datos["filas"]]
+            linea = eje.plot(xs, [r[clave] for r in datos["filas"]], "o-", label=_NOMBRE_GRUPO[grupo])[0]
+            if datos["rodilla_mb"]:
+                eje.axvline(datos["rodilla_mb"]["lugares"], color=linea.get_color(), linestyle=":", alpha=0.7)
+        eje.set_xscale("log")
+        eje.set_xlabel("Lugares de ejecución (corrutinas)")
+        eje.set_title(titulo)
+        eje.grid(alpha=0.3)
+        eje.legend()
+    figura.tight_layout()
+    figura.savefig(destino, dpi=120)
+    plt.close(figura)
+
+
+def _grafico_curva(curvas: dict[str, dict[str, Any]], destino: Path) -> None:
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    figura, ejes = plt.subplots(1, 2, figsize=(12, 4.5))
+    for nombre, c in curvas.items():
+        dias = [p["t"] / 86400 for p in c["puntos"]]
+        ejes[0].step(dias, [p["activos"] for p in c["puntos"]], where="post", label=nombre)
+        ejes[1].step(dias, [p["lugares"] for p in c["puntos"]], where="post", label=nombre)
+    for eje, titulo in zip(ejes, ("Repositorios activos", "Lugares necesarios"), strict=True):
+        eje.set_xlabel("Días desde el inicio")
+        eje.set_title(titulo)
+        eje.set_yscale("log")
+        eje.grid(alpha=0.3)
+        eje.legend()
+    figura.tight_layout()
+    figura.savefig(destino, dpi=120)
+    plt.close(figura)
+
+
+_NOMBRE_GRUPO = {config.BARRIDO_RED: "con la red de la instancia simulada", config.BARRIDO_SIN_TOPE: "sin tope de red"}
+_DIAS = (0, 1, 7, 14, 30, 60)
+
+
+def _f(valor: float, decimales: int = 1) -> str:
+    return f"{valor:,.{decimales}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def _marca(cumple: bool | None) -> str:
+    return {True: "cumple", False: "**no cumple**", None: "sin datos"}[cumple]
+
+
+def armar(resultados: Path, salida: Path) -> None:
+    todos = [resumir(r) for r in cargar(resultados)]
+    if not todos:
+        raise SystemExit(f"no hay resultados en {resultados}")
+    # La instancia simulada es la de los resultados (los viejos, sin ese dato, eran de la t3.small).
+    simuladas = {r["instancia"] or "t3.small" for r in todos}
+    simulada = config.instancia(sorted(simuladas)[0])
+    # La velocidad por conexión con la que corrió el servidor (ANCHO_MB_S), según los resultados.
+    supuestos = json.loads(next(resultados.glob("*.json")).read_text()).get("supuestos", {})
+    ancho = supuestos.get("ancho_por_conexion_mb_s", config.ANCHO_POR_CONEXION / config.MB) * config.MB
+    p = proyeccion(todos, simulada, ancho)
+    grupos = barridos(todos)
+    # Las tablas generales no repiten los escenarios del barrido: tienen su propia sección.
+    resumenes = [r for r in todos if not r["grupo"]]
+    lineas = ["# Prueba de concurrencia: resultados", ""]
+
+    instancia = resultados / "instancia.json"
+    if instancia.exists():
+        datos = json.loads(instancia.read_text())
+        lineas += ["## Instancia", "", *[f"- **{k}:** {v}" for k, v in datos.items()], ""]
+    versiones = json.loads(next(resultados.glob("*.json")).read_text()).get("versiones", {})
+    lineas += [
+        "## Supuestos",
+        "",
+        f"- Velocidad por conexión: {_f(ancho / config.MB)} MB/s. Es el supuesto que más mueve la duración: "
+        "ver la tabla de sensibilidad en la proyección (y `relevamiento medir-velocidad` para medirla).",
+        f"- Latencia hasta los encabezados: log-normal con p50 {config.LATENCIA_P50} s y p95 {config.LATENCIA_P95} s (pilotos).",
+        f"- Archivos: log-normal con p50 {_f(config.ARCHIVO_P50 / 1e6, 2)} MB y p95 {_f(config.ARCHIVO_P95 / 1e6)} MB, "
+        f"cortada en {_f(config.ARCHIVO_MAXIMO / 1e6)} MB: media {_f(ARCHIVO.media() / 1e6)} MB (pilotos, 51 archivos).",
+        f"- Intervalo de cortesía: {config.INTERVALO} s desde el fin de cada pedido.",
+        f"- Versiones: {', '.join(f'{k} {v}' for k, v in versiones.items())}.",
+        "",
+        "## Escenarios",
+        "",
+        f"Instancia simulada: **{simulada.nombre}** ({simulada.vcpu} vCPU, {_f(simulada.memoria_gb, 0)} GB, red base "
+        f"{_f(simulada.red_base / config.MB)} MB/s). Valores sin el calentamiento; CPU en % de un núcleo."
+        + (f" ⚠ Hay resultados de varias instancias simuladas: {', '.join(sorted(simuladas))}." if len(simuladas) > 1 else ""),
+        "",
+        "| Esc. | Modo | Lugares | Repos | Tope de red (MB/s) | Pedidos/s | MB/s | CPU media | CPU máx | RSS máx (MB) | Bucle p99 (ms) "
+        "| Despacho p99 (ms) | Lat. p50 (ms) | Lat. p95 (ms) | Errores | Violaciones | CPU servidor máx |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+    ]
+    for r in resumenes:
+        lineas.append(
+            f"| {r['id']} | {r['modo']}{' + db' if r['db'] else ''} | {r['lugares']} | {r['repos']} "
+            f"| {_f(r['red'] / config.MB) if r['red'] else 'sin tope'} | {_f(r['pedidos_s'])} | {_f(r['mb_s'])} | {_f(r['cpu_media'])} | {_f(r['cpu_max'])} "
+            f"| {_f(r['rss_max'])} | {_f(r['bucle_p99'], 2)} | {_f(r['despacho_p99'], 2)} | {_f(r['lat_p50'])} "
+            f"| {_f(r['lat_p95'])} | {r['errores']} | {r['violaciones']} "
+            f"| {_f(r['cpu_servidor_max'])}{'' if r['valido'] else ' ⚠'} |"
+        )
+    lineas += [
+        "",
+        "Más detalle por escenario:",
+        "",
+        "| Esc. | CPU sistema | CPU ms/pedido | CPU ms/MB | Hilos máx | Descriptores máx | Conexiones máx "
+        "| Listos sin atender | GC ms/s | Steal % | Deriva RSS (MB/h) | DB tx/s | Commit p95 (ms) |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+    ]
+    for r in resumenes:
+        lineas.append(
+            f"| {r['id']} | {_f(r['cpu_sistema'])} | {_f(r['cpu_ms_por_pedido'], 2)} | {_f(r['cpu_ms_por_mb'], 2)} "
+            f"| {r['hilos_max']:.0f} | {r['descriptores_max']:.0f} | {r['conexiones_max']:.0f} "
+            f"| {_f(r['listos_sin_atender'])} | {_f(r['gc_ms_s'], 2)} | {_f(r['steal'], 2)} "
+            f"| {_f(r['deriva_rss_mb_h'])} | {_f(r['db_tx'])} | {_f(r['db_commit_p95'], 2)} |"
+        )
+    invalidos = [r["id"] for r in resumenes if not r["valido"]]
+    if invalidos:
+        lineas += [
+            "",
+            f"⚠ En los escenarios {', '.join(invalidos)} el servidor simulado pasó el {CPU_SERVIDOR_MAX:.0f} % de un "
+            "núcleo: el límite pudo ser él y no el motor. Sus números son una cota inferior de lo que aguanta el motor.",
+        ]
+    errores = {r["id"]: r["errores_por_tipo"] for r in resumenes if r["errores"]}
+    if errores:
+        lineas += ["", f"Errores por tipo: `{json.dumps(errores, ensure_ascii=False)}`"]
+
+    if _graficos(resumenes, resultados / "graficos.png"):
+        lineas += ["", "## Gráficos", "", f"![CPU, memoria y retraso según los lugares]({resultados.name}/graficos.png)"]
+
+    if grupos:
+        lineas += [
+            "",
+            "## Barrido: cuántas tareas concurrentes convienen",
+            "",
+            "El problema real (2.400 repositorios) con distintas cantidades de lugares de ejecución. La **rodilla** es "
+            f"la menor cantidad de lugares que llega al {FRACCION_RODILLA:.0%} del máximo: más lugares ya no bajan más "
+            "rápido, solo esperan. Con pocos lugares, la ocupación alta y el despacho largo son lo esperado: hay más "
+            "trabajo que lugares.",
+        ]
+        for grupo, datos in grupos.items():
+            lineas += [
+                "",
+                f"### {_NOMBRE_GRUPO[grupo].capitalize()}",
+                "",
+                "| Lugares | Ocupación % | Pedidos/s | Ítems/s | MB/s | CPU media | RSS máx (MB) | Bucle p99 (ms) "
+                "| Despacho p99 (ms) | Errores | Violaciones |",
+                "|---|---|---|---|---|---|---|---|---|---|---|",
+                *[
+                    f"| {r['lugares']} | {_f(r['ocupacion'])} | {_f(r['pedidos_s'])} | {_f(r['items_s'], 2)} "
+                    f"| {_f(r['mb_s'])} | {_f(r['cpu_media'])} | {_f(r['rss_max'])} | {_f(r['bucle_p99'], 2)} "
+                    f"| {_f(r['despacho_p99'], 1)} | {r['errores']} | {r['violaciones']} |"
+                    for r in datos["filas"]
+                ],
+                "",
+            ]
+            if datos["rodilla_mb"]:
+                lineas.append(
+                    f"- **Rodilla:** con {datos['rodilla_mb']['lugares']} lugares se llega al {FRACCION_RODILLA:.0%} de los "
+                    f"MB/s máximos ({_f(datos['rodilla_mb']['mb_s'])} MB/s). Los ítems/s no sirven para esto en corridas "
+                    "cortas: con más lugares se terminan primero los ítems chicos aunque los MB/s sean los mismos; a la "
+                    "larga, ítems/s = MB/s / MB por ítem."
+                )
+                lineas.append(
+                    f"- **Costo de sobrar:** cada lugar de más después de la rodilla suma {_f(datos['rss_kb_por_lugar'])} KB "
+                    f"de memoria y {_f(datos['cpu_por_lugar'], 3)} puntos de CPU ({datos['sobran']} lugares de más)."
+                )
+        _grafico_barrido(grupos, resultados / "barrido.png")
+        lineas += ["", f"![Rendimiento y CPU según los lugares]({resultados.name}/barrido.png)"]
+
+    lineas += [
+        "",
+        "## Proyección al problema real",
+        "",
+        f"{config.REPOS_REALES} repositorios y {_f(config.ITEMS_REALES / 1e6, 0)} M de ítems repartidos con la regla del "
+        f"simulador del descargador: el repositorio más grande tiene {p['items_max']:,} ítems, la mediana es "
+        f"{_f(p['items_mediana'], 0)} y el 4 % más grande concentra el {_f(100 * p['items_top4'])} %.",
+        "",
+        "Modelo calibrado (cuentas):",
+        "",
+        f"- Resolución: latencia media {_f(p['t_res'], 2)} s. Descarga: latencia + archivo medio / ancho = "
+        f"{_f(p['t_desc'], 2)} s. Medido en el escenario de referencia: resolución "
+        f"{_f(p['t_res_medido'] or 0, 2)} s y descarga {_f(p['t_desc_medido'] or 0, 2)} s.",
+        f"- Un ítem son 1 resolución y {_f(p['descargas_por_item'])} descargas: con {config.INTERVALO} s de cortesía después de "
+        f"cada pedido, ocupa al repositorio {_f(p['ciclo_item'])} s y baja {_f(p['bytes_item'] / 1e6)} MB.",
+        f"- Total a bajar: {_f(p['total_tb'])} TB.",
+        f"- **Pico** (todos los repositorios activos): {_f(p['pico_pedidos_s'], 0)} pedidos/s, "
+        f"{_f(p['pico_mb_s'], 0)} MB/s de demanda y unos {_f(p['pico_lugares'], 0)} pedidos en curso.",
+        f"- **Cota por cortesía:** el repositorio más grande tarda {p['items_max']:,} × {_f(p['ciclo_item'])} s = "
+        f"**{_f(p['duracion_cortesia_dias'])} días**, haya una máquina o cien.",
+    ]
+    for nombre, dias in p["duracion_red_dias"].items():
+        lineas.append(
+            f"- **Cota por red ({nombre}, {_f(p['red_mb_s'][nombre])} MB/s):** {_f(p['total_tb'])} TB / red = "
+            f"**{_f(dias)} días**. CPU que pide procesar esa red a {_f(p['cpu_ms_por_mb'], 2)} ms de CPU por MB: "
+            f"{_f(p['cpu_nucleos_para_red'][nombre], 2)} núcleos."
+        )
+    if p["capacidad_mb_s"] is not None:
+        cota = " (cota inferior: el servidor simulado saturó antes)" if p["capacidad_es_cota_inferior"] else ""
+        lineas.append(
+            f"- **Capacidad medida de un proceso con corrutinas:** {_f(p['capacidad_mb_s'])} MB/s en el escenario "
+            f"{p['capacidad_escenario']}{cota}."
+        )
+    lineas += [
+        "",
+        "Distribuir solo ayuda si un proceso no llega a procesar lo que da la red de la instancia; si llega, el "
+        "límite es la red, y se resuelve con una instancia de más red.",
+        "",
+        "### A lo largo de toda la descarga",
+        "",
+        "Modelo de fluido con la distribución de ítems: mientras hay repositorios activos, todos avanzan al ritmo "
+        "de la cortesía o, si la red no alcanza, a la parte de la red que les toca; los chicos terminan primero. "
+        f"Lugares necesarios: los que pide la cortesía (cada repositorio está ocupado {_f(p['ocupado_item'], 2)} s de "
+        f"cada {_f(p['ciclo_item'], 2)} s) o los que llenan la red, lo que sea menor.",
+        "",
+        "| Red | Duración (días) | Lugares que llenan la red | "
+        + " | ".join(f"Día {d}: activos / lugares / MB/s" for d in _DIAS)
+        + " |",
+        "|---|---|---|" + "---|" * len(_DIAS),
+    ]
+    for nombre, c in p["curvas"].items():
+        celdas = []
+        for d in _DIAS:
+            if d * 86400 > c["puntos"][-1]["t"]:
+                celdas.append("terminó")
+                continue
+            punto = en_el_dia(c, d)
+            celdas.append(f"{punto['activos']} / {_f(punto['lugares'], 0)} / {_f(punto['mb_s'])}")
+        llenan = "—" if c["red"] is None else _f(c["lugares_red"], 0)
+        lineas.append(f"| {nombre} | {_f(c['duracion_dias'])} | {llenan} | " + " | ".join(celdas) + " |")
+    _grafico_curva(p["curvas"], resultados / "curva.png")
+    lineas += [
+        "",
+        f"![Repositorios activos y lugares necesarios en el tiempo]({resultados.name}/curva.png)",
+        "",
+        "### Sensibilidad a la velocidad por conexión",
+        "",
+        "Como cada repositorio recibe un pedido a la vez, si sus archivos llegan más lento avanza más lento, y el "
+        "repositorio más grande tarda más: ninguna máquina ni más red compensa eso. Con la red de la "
+        f"{simulada.nombre}:",
+        "",
+        "| MB/s por conexión | Tiempo por ítem (s) | Repositorio más grande (días) | Duración total (días) | Corrutinas que llenan la red |",
+        "|---|---|---|---|---|",
+        *[
+            f"| {_f(s['mb_s'])}{' ← esta corrida' if abs(s['mb_s'] * config.MB - ancho) < 1 else ''} | {_f(s['ciclo'])} "
+            f"| {_f(s['duracion_cortesia_dias'])} | {_f(s['duracion_dias'])} | {_f(s['lugares'], 0)} |"
+            for s in sensibilidad(simulada, tuple(sorted({*config.ANCHOS_SENSIBILIDAD, ancho / config.MB})))
+        ],
+        "",
+        "### Instancias candidatas",
+        "",
+        "Para cada instancia, con su red base: duración del modelo, corrutinas que llenan la red, MB/s al principio, "
+        f"CPU que pide procesarlos ({_f(p['cpu_ms_por_mb'], 2)} ms de CPU por MB, medidos en el escenario "
+        f"{p['cpu_mb_escenario'] or '—'} en la máquina de esta corrida: vale para ese mismo tipo de procesador), memoria según el barrido y costo on-demand en us-east-1 "
+        "por toda la descarga. Precios y redes de config.INSTANCIAS: verificar antes de decidir.",
+        "",
+        "| Instancia | vCPU / RAM | Red base (MB/s) | $/h | Duración (días) | Corrutinas | MB/s | CPU (% de un núcleo) | Memoria (MB) | Costo total |",
+        "|---|---|---|---|---|---|---|---|---|---|",
+        *[
+            f"| {c['instancia'].nombre}{' ←' if c['instancia'] == simulada else ''} | {c['instancia'].vcpu} / "
+            f"{_f(c['instancia'].memoria_gb, 0)} GB | {_f(c['instancia'].red_base / config.MB)} "
+            f"| {_f(c['instancia'].precio_hora, 4)} | {_f(c['duracion_dias'])} | {_f(c['lugares'], 0)} | {_f(c['mb_s'])} "
+            f"| {'—' if c['cpu'] is None else _f(c['cpu']) + ('' if c['cpu_alcanza'] else ' ⚠')} "
+            f"| {'—' if c['rss_mb'] is None else _f(c['rss_mb'], 0)} | ${_f(c['costo'], 0)} |"
+            for c in p["candidatas"]
+        ],
+        "",
+        f"⚠: la CPU que pide pasa lo que la instancia sostiene (línea base de créditos en las t3; 80 % de un núcleo en "
+        "las demás, porque un proceso de Python usa uno solo).",
+        "",
+        "",
+        "## Criterio de decisión",
+        "",
+        "| Escenario | Condición | Resultado |",
+        "|---|---|---|",
+        *[f"| {id} | {texto} | {_marca(cumple)} |" for id, texto, cumple in criterio(resumenes, simulada)],
+        "",
+        "## Conclusión",
+        "",
+        "_Completar a mano con los números de arriba: si alcanza un proceso con corrutinas, en qué instancia, qué "
+        "recurso se agota primero y cómo se comparan las corrutinas con los hilos._",
+        "",
+    ]
+    salida.write_text("\n".join(lineas))

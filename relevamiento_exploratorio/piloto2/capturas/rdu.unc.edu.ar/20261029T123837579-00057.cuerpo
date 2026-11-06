@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T12:40:13Z</responseDate><request verb="GetRecord" identifier="oai:rdu.unc.edu.ar:11086/27024" metadataPrefix="mets">https://rdu.unc.edu.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:rdu.unc.edu.ar:11086/27024</identifier><datestamp>2026-05-06T12:45:43Z</datestamp><setSpec>com_11086_13237</setSpec><setSpec>com_11086_301</setSpec><setSpec>com_11086_166</setSpec><setSpec>col_11086_15046</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11086-27024" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11086/27024">
+   <metsHdr CREATEDATE="2026-10-29T12:40:13Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>RDU</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11086_27024">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Ariza Espinar, L.</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Hieronymus, G. H. E. W.</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2022-07-08T14:47:51Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2022-07-08T14:47:51Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">1876</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/11086/27024https://www.gbif.org/occurrence/2252106439</mods:identifier>
+               <mods:abstract>Entre Mina Argentina y Yerba Buena, en las cercanías del Cerro de Oriusu</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Attribution-NonCommercial-ShareAlike 4.0 International Attribution-NonCommercial-ShareAlike 4.0 International</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Magnoliopsida</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Myrtales</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Onagraceae</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Oenothera curtiflora W.L. Wagner &amp; Hoch</mods:title>
+               </mods:titleInfo>
+               <mods:genre>dataSet</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_11086_27024_1">
+      <techMD ID="TECH_O_11086_27024_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/78dd2bd4-91f3-4fa8-bc3a-b87fca1ce90c/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>5cc7fd1c672a08e75000c9c26b28001e</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>200605784</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>image/tiff</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>CORD00005698.tif</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FO_11086_27024_2">
+      <techMD ID="TECH_O_11086_27024_2">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/835a4ce4-6719-4b2a-bda0-37d4b9fccb4e/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>1c75f07950931381b48e826529858ee7</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>11594</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>darwin_core.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FO_11086_27024_3">
+      <techMD ID="TECH_O_11086_27024_3">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/ccd15c6b-c76b-4376-abc7-51e646c09db7/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>52c7f5960c065dff372bc6abf3e2650b</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>5402387</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>image/jpeg</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>CORD00005698.jpg</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FO_11086_27024_8">
+      <techMD ID="TECH_O_11086_27024_8">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/bb59a600-c479-46f8-b3d2-a34ef9ce654b/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>d64aa39c3bce64e3e6ac1740fa82c55e</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>1033</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/csv</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>darwin_core.csv</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_11086_27024_5">
+      <techMD ID="TECH_T_11086_27024_5">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/e66e5b88-c65f-4d0f-ba41-5e1f0355ec96/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>35a57ee9b2df562fe42bb1fa6220e656</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>1074</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>darwin_core.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_11086_27024_1" MIMETYPE="image/tiff" SEQ="1" SIZE="200605784" CHECKSUM="5cc7fd1c672a08e75000c9c26b28001e" CHECKSUMTYPE="MD5" ADMID="FO_11086_27024_1" GROUPID="GROUP_BITSTREAM_11086_27024_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/78dd2bd4-91f3-4fa8-bc3a-b87fca1ce90c/download"/>
+         </file>
+         <file ID="BITSTREAM_ORIGINAL_11086_27024_2" MIMETYPE="application/pdf" SEQ="2" SIZE="11594" CHECKSUM="1c75f07950931381b48e826529858ee7" CHECKSUMTYPE="MD5" ADMID="FO_11086_27024_2" GROUPID="GROUP_BITSTREAM_11086_27024_2">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/835a4ce4-6719-4b2a-bda0-37d4b9fccb4e/download"/>
+         </file>
+         <file ID="BITSTREAM_ORIGINAL_11086_27024_3" MIMETYPE="image/jpeg" SEQ="3" SIZE="5402387" CHECKSUM="52c7f5960c065dff372bc6abf3e2650b" CHECKSUMTYPE="MD5" ADMID="FO_11086_27024_3" GROUPID="GROUP_BITSTREAM_11086_27024_3">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/ccd15c6b-c76b-4376-abc7-51e646c09db7/download"/>
+         </file>
+         <file ID="BITSTREAM_ORIGINAL_11086_27024_8" MIMETYPE="text/csv" SEQ="8" SIZE="1033" CHECKSUM="d64aa39c3bce64e3e6ac1740fa82c55e" CHECKSUMTYPE="MD5" ADMID="FO_11086_27024_8" GROUPID="GROUP_BITSTREAM_11086_27024_8">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/bb59a600-c479-46f8-b3d2-a34ef9ce654b/download"/>
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_11086_27024_5" MIMETYPE="text/plain" SEQ="5" SIZE="1074" CHECKSUM="35a57ee9b2df562fe42bb1fa6220e656" CHECKSUMTYPE="MD5" ADMID="FT_11086_27024_5" GROUPID="GROUP_BITSTREAM_11086_27024_5">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/e66e5b88-c65f-4d0f-ba41-5e1f0355ec96/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11086_27024">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_27024_1"/>
+         </div>
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_27024_2"/>
+         </div>
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_27024_3"/>
+         </div>
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_27024_8"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record></GetRecord></OAI-PMH>

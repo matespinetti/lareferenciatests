@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:51:18.891712253Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.filo.uba.ar:filodigital/12756" metadataPrefix="xoai">https://repositorio.filo.uba.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.filo.uba.ar:filodigital/12756</identifier><datestamp>2026-06-25T21:48:21Z</datestamp><setSpec>com_filodigital_11912</setSpec><setSpec>com_filodigital_3535</setSpec><setSpec>com_filodigital_13</setSpec><setSpec>com_filodigital_7</setSpec><setSpec>com_filodigital_5</setSpec><setSpec>com_filodigital_151</setSpec><setSpec>col_filodigital_11913</setSpec><setSpec>col_filodigital_3533</setSpec><setSpec>snrd</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="creator">
+         <element name="none">
+            <field name="value">Mansur, Anahí</field>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2021-10-14T19:44:02Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2021-10-14T19:44:02Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2020</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="other">
+            <element name="none">
+               <field name="value">1431</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://repositorio.filo.uba.ar/handle/filodigital/12756</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="es_AR">
+               <field name="value">2ºCuatrimestre</field>
+               <field name="value">Materia</field>
+               <field name="value">Programa N°0179 (año 1985); 11030 (año 2016)</field>
+               <field name="value">Aprobado Resolución Nº D 732/20</field>
+            </element>
+         </element>
+      </element>
+      <element name="format">
+         <element name="none">
+            <field name="value">application/pdf</field>
+         </element>
+      </element>
+      <element name="language">
+         <element name="none">
+            <field name="value">spa</field>
+         </element>
+         <element name="iso">
+            <element name="none">
+               <field name="value">spa</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="es_AR">
+            <field name="value">Universidad de Buenos Aires. Facultad de Filosofía y Letras. Departamento de Ciencias de la Educación</field>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">info:eu-repo/semantics/openAccess</field>
+            <field name="value">https://creativecommons.org/licenses/by-nc-nd/4.0/</field>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="es_AR">
+            <field name="value">PROGRAMAS</field>
+            <field name="value">MATERIA</field>
+            <field name="value">SEGUNDO CUATRIMESTRE</field>
+            <field name="value">CIENCIAS DE LA EDUCACIÓN</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="es_AR">
+            <field name="value">Educación a distancia (plan año 1985) / Educación a distancia y virtual (plan año 2016)</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">info:eu-repo/semantics/other</field>
+            <field name="value">info:eu-repo/semantics/acceptedVersion</field>
+         </element>
+      </element>
+   </element>
+   <element name="dspace">
+      <element name="entity">
+         <element name="type">
+            <element name="none">
+               <field name="value">Publication</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="ubaffyl">
+      <element name="tipodocumento">
+         <element name="none">
+            <field name="value">Programa</field>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf</field>
+               <field name="originalName">uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf</field>
+               <field name="description" />
+               <field name="format">application/pdf</field>
+               <field name="size">381098</field>
+               <field name="url">https://repositorio.filo.uba.ar/bitstreams/8ad16c60-e4d1-4c4c-81cb-a475e5ff710e/download</field>
+               <field name="checksum">37870d06b342960951d52e277f3f70bd</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf.txt</field>
+               <field name="originalName">uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf.txt</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">16694</field>
+               <field name="url">https://repositorio.filo.uba.ar/bitstreams/c6266828-a3ab-46cd-84ca-2c463fef071c/download</field>
+               <field name="checksum">97958680784e7579b5431d9a2b5881c1</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf.jpg</field>
+               <field name="originalName">uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf.jpg</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">9548</field>
+               <field name="url">https://repositorio.filo.uba.ar/bitstreams/e87de007-96c6-41fc-a3c5-9adfe2eb79ca/download</field>
+               <field name="checksum">5fc7e1a9c4feb824dad224e74cd57440</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">filodigital/12756</field>
+      <field name="identifier">oai:repositorio.filo.uba.ar:filodigital/12756</field>
+      <field name="lastModifyDate">2026-06-25T21:48:21.000510Z</field>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://repositorio.filo.uba.ar</field>
+      <field name="name">DSpace de la Facultad de Filosofia y Letras</field>
+      <field name="mail">sysadmin@filo.uba.ar</field>
+   </element>
+   <element name="license" />
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

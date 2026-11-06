@@ -1,0 +1,283 @@
+{
+  "id" : "0003d8c6-1adc-403c-9ed5-4411cdb524e3",
+  "uuid" : "0003d8c6-1adc-403c-9ed5-4411cdb524e3",
+  "name" : "Optimizing raw material purchases and allocating sales in the juice and concentrate extraction agribusiness: The case of a small size company in Costa Rica",
+  "handle" : "10669/105088",
+  "metadata" : {
+    "dc.creator" : [ {
+      "value" : "Solórzano Thompson, Johanna",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Paniagua Molina, Hernán Javier",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Víquez Ramírez, Nicole Valeria",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2026-09-07T16:58:51Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2026-01-05",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "This article presents an optimization model for raw material purchase and sales allocation, developed using linear programming techniques to enhance the performance of a company in the agro-industrial sector. The study focuses on the production of concentrated fruit juices, which is carried out using two daily-operated production and packaging lines with different capacities. By analysing monthly machinery capacity and efficiency requirements, fruit supply availability, and customer demand, the proposed model significantly improved operational efficiency and positively impacted the company’s profitability.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Este artigo tem como objetivo desenvolver um modelo de otimização de compra de matéria-prima e alocação de vendas desenvolvido a partir de modelos de programação linear para o fortalecimento de uma empresa do setor agroindustrial. A área fabril, na qual este estudo foi desenvolvido, é a produção de sucos de frutas concentrados, utilizando duas linhas de produção e envase para uso diário, mas com capacidades diferentes. O modelo proposto aumentou significativamente a eficiência da operação atual e impactou positivamente a lucratividade da empresa com a análise dos requisitos mensais de capacidade e eficiência do maquinário, fornecimento de fornecedores de frutas e demandas de clientes atuais.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Este artículo tiene como objetivo desarrollar un modelo para optimizar la compra de materias primas y la asignación de ventas, basado en modelos de programación lineal, para fortalecer una empresa del sector agroindustrial. El área de producción donde se desarrolló este estudio es la elaboración de jugos de frutas concentrados, utilizando dos líneas de producción y embotellado para uso diario, pero con capacidades diferentes. El modelo propuesto incrementó significativamente la eficiencia de la operación actual e impactó positivamente la rentabilidad de la empresa mediante el análisis de los requisitos mensuales de capacidad y eficiencia de la maquinaria, el suministro de los proveedores de fruta y la demanda de los clientes actuales.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dc.description.procedence" : [ {
+      "value" : "UCR::Vicerrectoría de Investigación::Unidades de Investigación::Ciencias Agroalimentarias::Centro de Investigación en Economía Agrícola y Desarrollo Agroempresarial (CIEDA)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "UCR::Vicerrectoría de Docencia::Ciencias Agroalimentarias::Facultad de Ciencias Agroalimentarias::Escuela de Economía Agrícola y Agronegocios",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.description.sponsorship" : [ {
+      "value" : "Centro de Investigación en Economía Agrícola y Desarrollo Agroempresarial/[822-C3231]/CIEDA/Costa Rica",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.codproyecto" : [ {
+      "value" : "822-C3231",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.doi" : [ {
+      "value" : "https://doi.org/10.52292/j.estudecon.2026.5028",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.issn" : [ {
+      "value" : "0425-368X",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "2525-1295",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "https://hdl.handle.net/10669/105088",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "eng",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights" : [ {
+      "value" : "acceso abierto",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.source" : [ {
+      "value" : "Estudios Económicos, 43 (86), 191-207",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject" : [ {
+      "value" : "Linear programming",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Fruit juice production",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Sales allocation",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Raw material purchase",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Cost optimization",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "Programação linear",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 5
+    }, {
+      "value" : "Sucos de frutas",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 6
+    }, {
+      "value" : "Distribuição",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 7
+    }, {
+      "value" : "Compra de materiais",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 8
+    }, {
+      "value" : "Custos",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 9
+    }, {
+      "value" : "Programación lineal",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 10
+    }, {
+      "value" : "Jugo de frutas",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 11
+    }, {
+      "value" : "Optimización económica",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 12
+    }, {
+      "value" : "Investigación de operaciones",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 13
+    } ],
+    "dc.title" : [ {
+      "value" : "Optimizing raw material purchases and allocating sales in the juice and concentrate extraction agribusiness: The case of a small size company in Costa Rica",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title.alternative" : [ {
+      "value" : "Otimização da compra de matéria-prima e alocação de vendas no agronegócio de extração de sucos e concentrados: o caso de uma pequena empresa na Costa Rica",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "artículo original",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-09-08T09:00:14.736Z",
+  "entityType" : null,
+  "type" : "item",
+  "uniqueType" : "core.item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3/relationships"
+    },
+    "version" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3/submitter"
+    },
+    "self" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "id" : "0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1",
+  "uuid" : "0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1",
+  "name" : "Desarrollos para una teoría de la construcción social del cuerpo y la subjetividad en el campo educativo. Estudio de caso sobre la Institución y el sujeto en acto, en el campo de la Formación Docente.",
+  "handle" : "filodigital/2977",
+  "metadata" : {
+    "dc.contributor" : [ {
+      "value" : "Kaplan, Carina",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.creator" : [ {
+      "value" : "Bravin, Clara",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2017-03-29T23:26:26Z",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2017-03-29T23:26:26Z",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2015",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Resumen temporalmente no disponible. La presente obra no cuenta con resumen provisto por el autor.",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Fil: Bravin, Clara. Universidad de Buenos Aires. Facultad de Filosofía y Letras.",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.format" : [ {
+      "value" : "application/pdf",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.other" : [ {
+      "value" : "3430",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://repositorio.filo.uba.ar/handle/filodigital/2977",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "es",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "spa",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.publisher" : [ {
+      "value" : "Universidad de Buenos Aires. Facultad de Filosofía y Letras.",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights" : [ {
+      "value" : "info:eu-repo/semantics/openAccess",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.title" : [ {
+      "value" : "Desarrollos para una teoría de la construcción social del cuerpo y la subjetividad en el campo educativo. Estudio de caso sobre la Institución y el sujeto en acto, en el campo de la Formación Docente.",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "info:eu-repo/semantics/doctoralThesis",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "info:ar-repo/semantics/tesis doctoral",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "info:eu-repo/semantics/acceptedVersion",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dspace.entity.type" : [ {
+      "value" : "Publication",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "ubaffyl.tipodocumento" : [ {
+      "value" : "Tesis doctoral",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-03-25T16:08:25.855386Z",
+  "entityType" : "Publication",
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1/relationships"
+    },
+    "version" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1/submitter"
+    },
+    "self" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1"
+    }
+  }
+}

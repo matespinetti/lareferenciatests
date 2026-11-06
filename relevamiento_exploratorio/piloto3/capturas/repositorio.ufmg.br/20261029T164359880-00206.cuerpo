@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:50:06Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.ufmg.br:1843/2895" metadataPrefix="mets">https://repositorio.ufmg.br/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.ufmg.br:1843/2895</identifier><datestamp>2026-05-26T19:02:46Z</datestamp><setSpec>com_1843_5</setSpec><setSpec>com_1843_2</setSpec><setSpec>col_1843_276</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_1843-2895" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:1843/2895">
+   <metsHdr CREATEDATE="2026-10-29T13:50:06Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>"Repositório Institucional da UFMG"</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_1843_2895">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2026-05-26T19:02:46Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2024-11-11</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">https://hdl.handle.net/1843/2895</mods:identifier>
+               <mods:abstract>Diabetes Mellitus is a comorbidity characterized by multiple signs and symptoms resulting from
+alterations in the metabolism of fats, carbohydrates, and proteins, leading to elevated blood
+glucose levels and reduced cellular ability to utilize glucose effectively. This Intervention
+Project (IP) was developed with the purpose of providing a prompt assessment of the local
+problem, based on data obtained from electronic medical records, which revealed a high number
+of decompensated diabetic patients. In view of this scenario, the need for a nonpharmacological approach was identified, focusing on the analysis of dietary habits among
+individuals diagnosed with Diabetes Mellitus within the population assigned to the Family
+Health Unit (USF). The objective of this project is to develop and implement a nutritional menu
+using foods readily available in the region, aimed at diabetic patients registered at the Dr. João
+Costa Family Health Unit, located in Barreiros, Pernambuco, Brazil. The intervention seeks to
+promote Diabetes Mellitus control through adequate, accessible, and sustainable dietary
+strategies, emphasizing non-drug treatment and improvement in patients’ quality of life. The
+implementation steps include: meetings with the health team; active search for patients
+diagnosed with Diabetes Mellitus; educational activities held every 15 days; weight
+measurement and body mass index (BMI) calculation after each session; and periodic
+reassessments to reinforce guidance provided during educational interventions. The
+presentation and execution of the nutritional menu will involve the participation of the
+multidisciplinary team — including a physician, nurse, nursing technician, community health
+agents, and a nutritionist from the e-MULTI program. After project implementation, it is
+expected that participants will experience reduced blood glucose levels, improved glycated
+hemoglobin rates, and weight loss in follow-up evaluations conducted at three and six months.
+Throughout the 12-month execution period, approximately 60% to 65% of the patients are
+expected to maintain continuous follow-up and demonstrate measurable progress, benefiting
+from dietary and lifestyle changes that contribute not only to diabetes control but also to an
+overall improvement in quality of life.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066" />
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Acesso aberto Attribution-NonCommercial-NoDerivs 3.0 Brazil</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Nutrição dos Grupos Vulneráveis</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Diabetes Mellitus Tipo 2</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Atenção Primária à Saúde</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Dissertação Acadêmica</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Projeto de intervenção: criação de cardápio nutricional através de alimentos disponíveis na região para controle do Diabetes Mellitus dos pacientes diabéticos cadastrados na Unidade de Saúde da Família Dr João Costa em Barreiros PE</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Trabalho de conclusão de curso</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_1843_2895">
+      <rightsMD ID="RIG_1843_2895">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TElDRU7Dh0EgREUgRElTVFJJQlVJw4fDg08gTsODTy1FWENMVVNJVkEgRE8gUkVQT1NJVMOTUklPIElOU1RJVFVDSU9OQUwgREEgVUZNRwoKQ29tIGEgYXByZXNlbnRhw6fDo28gZGVzdGEgbGljZW7Dp2EsIHZvY8OqIChvIGF1dG9yIChlcykgb3UgbyB0aXR1bGFyIGRvcyBkaXJlaXRvcyBkZSBhdXRvcikgY29uY2VkZSBhbyBSZXBvc2l0w7NyaW8gSW5zdGl0dWNpb25hbCBkYSBVRk1HIChSSS1VRk1HKSBvIGRpcmVpdG8gbsOjbyBleGNsdXNpdm8gZSBpcnJldm9nw6F2ZWwgZGUgcmVwcm9kdXppciBlL291IGRpc3RyaWJ1aXIgYSBzdWEgcHVibGljYcOnw6NvIChpbmNsdWluZG8gbyByZXN1bW8pIHBvciB0b2RvIG8gbXVuZG8gbm8gZm9ybWF0byBpbXByZXNzbyBlIGVsZXRyw7RuaWNvIGUgZW0gcXVhbHF1ZXIgbWVpbywgaW5jbHVpbmRvIG9zIGZvcm1hdG9zIMOhdWRpbyBvdSB2w61kZW8uCgpWb2PDqiBkZWNsYXJhIHF1ZSBjb25oZWNlIGEgcG9sw610aWNhIGRlIGNvcHlyaWdodCBkYSBlZGl0b3JhIGRvIHNldSBkb2N1bWVudG8gZSBxdWUgY29uaGVjZSBlIGFjZWl0YSBhcyBEaXJldHJpemVzIGRvIFJJLVVGTUcuCgpWb2PDqiBjb25jb3JkYSBxdWUgbyBSZXBvc2l0w7NyaW8gSW5zdGl0dWNpb25hbCBkYSBVRk1HIHBvZGUsIHNlbSBhbHRlcmFyIG8gY29udGXDumRvLCB0cmFuc3BvciBhIHN1YSBwdWJsaWNhw6fDo28gcGFyYSBxdWFscXVlciBtZWlvIG91IGZvcm1hdG8gcGFyYSBmaW5zIGRlIHByZXNlcnZhw6fDo28uCgpWb2PDqiB0YW1iw6ltIGNvbmNvcmRhIHF1ZSBvIFJlcG9zaXTDs3JpbyBJbnN0aXR1Y2lvbmFsIGRhIFVGTUcgcG9kZSBtYW50ZXIgbWFpcyBkZSB1bWEgY8OzcGlhIGRlIHN1YSBwdWJsaWNhw6fDo28gcGFyYSBmaW5zIGRlIHNlZ3VyYW7Dp2EsIGJhY2stdXAgZSBwcmVzZXJ2YcOnw6NvLgoKVm9jw6ogZGVjbGFyYSBxdWUgYSBzdWEgcHVibGljYcOnw6NvIMOpIG9yaWdpbmFsIGUgcXVlIHZvY8OqIHRlbSBvIHBvZGVyIGRlIGNvbmNlZGVyIG9zIGRpcmVpdG9zIGNvbnRpZG9zIG5lc3RhIGxpY2Vuw6dhLiBWb2PDqiB0YW1iw6ltIGRlY2xhcmEgcXVlIG8gZGVww7NzaXRvIGRlIHN1YSBwdWJsaWNhw6fDo28gbsOjbywgcXVlIHNlamEgZGUgc2V1IGNvbmhlY2ltZW50bywgaW5mcmluZ2UgZGlyZWl0b3MgYXV0b3JhaXMgZGUgbmluZ3XDqW0uCgpDYXNvIGEgc3VhIHB1YmxpY2HDp8OjbyBjb250ZW5oYSBtYXRlcmlhbCBxdWUgdm9jw6ogbsOjbyBwb3NzdWkgYSB0aXR1bGFyaWRhZGUgZG9zIGRpcmVpdG9zIGF1dG9yYWlzLCB2b2PDqiBkZWNsYXJhIHF1ZSBvYnRldmUgYSBwZXJtaXNzw6NvIGlycmVzdHJpdGEgZG8gZGV0ZW50b3IgZG9zIGRpcmVpdG9zIGF1dG9yYWlzIHBhcmEgY29uY2VkZXIgYW8gUmVwb3NpdMOzcmlvIEluc3RpdHVjaW9uYWwgZGEgVUZNRyBvcyBkaXJlaXRvcyBhcHJlc2VudGFkb3MgbmVzdGEgbGljZW7Dp2EsIGUgcXVlIGVzc2UgbWF0ZXJpYWwgZGUgcHJvcHJpZWRhZGUgZGUgdGVyY2Vpcm9zIGVzdMOhIGNsYXJhbWVudGUgaWRlbnRpZmljYWRvIGUgcmVjb25oZWNpZG8gbm8gdGV4dG8gb3Ugbm8gY29udGXDumRvIGRhIHB1YmxpY2HDp8OjbyBvcmEgZGVwb3NpdGFkYS4KCkNBU08gQSBQVUJMSUNBw4fDg08gT1JBIERFUE9TSVRBREEgVEVOSEEgU0lETyBSRVNVTFRBRE8gREUgVU0gUEFUUk9Dw41OSU8gT1UgQVBPSU8gREUgVU1BIEFHw4pOQ0lBIERFIEZPTUVOVE8gT1UgT1VUUk8gT1JHQU5JU01PLCBWT0PDiiBERUNMQVJBIFFVRSBSRVNQRUlUT1UgVE9ET1MgRSBRVUFJU1FVRVIgRElSRUlUT1MgREUgUkVWSVPDg08gQ09NTyBUQU1Cw4lNIEFTIERFTUFJUyBPQlJJR0HDh8OVRVMgRVhJR0lEQVMgUE9SIENPTlRSQVRPIE9VIEFDT1JETy4KCk8gUmVwb3NpdMOzcmlvIEluc3RpdHVjaW9uYWwgZGEgVUZNRyBzZSBjb21wcm9tZXRlIGEgaWRlbnRpZmljYXIgY2xhcmFtZW50ZSBvIHNldSBub21lKHMpIG91IG8ocykgbm9tZXMocykgZG8ocykgZGV0ZW50b3IoZXMpIGRvcyBkaXJlaXRvcyBhdXRvcmFpcyBkYSBwdWJsaWNhw6fDo28sIGUgbsOjbyBmYXLDoSBxdWFscXVlciBhbHRlcmHDp8OjbywgYWzDqW0gZGFxdWVsYXMgY29uY2VkaWRhcyBwb3IgZXN0YSBsaWNlbsOnYS4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_1843_2895_5">
+      <techMD ID="TECH_O_1843_2895_5">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://repositorio.ufmg.br//bitstreams/acb1c00c-edd3-41bf-8b65-14c24f705cf6/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>906a740f6a0d8c0c15e4e730e6884e5a</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>1896352</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>TCC_Joany_Marcelle_da_Silva_Luis_corrigido (1).pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_1843_2895_5" MIMETYPE="application/pdf" SEQ="5" SIZE="1896352" CHECKSUM="906a740f6a0d8c0c15e4e730e6884e5a" CHECKSUMTYPE="MD5" ADMID="FO_1843_2895_5" GROUPID="GROUP_BITSTREAM_1843_2895_5">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://repositorio.ufmg.br//bitstreams/acb1c00c-edd3-41bf-8b65-14c24f705cf6/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_1843_2895">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_1843_2895_5" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

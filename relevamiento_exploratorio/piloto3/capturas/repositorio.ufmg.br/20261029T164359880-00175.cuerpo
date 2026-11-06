@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:49:12Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.ufmg.br:1843/1964" metadataPrefix="mets">https://repositorio.ufmg.br/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.ufmg.br:1843/1964</identifier><datestamp>2026-03-05T11:38:25Z</datestamp><setSpec>com_1843_6</setSpec><setSpec>com_1843_2</setSpec><setSpec>col_1843_139</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_1843-1964" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:1843/1964">
+   <metsHdr CREATEDATE="2026-10-29T13:49:11Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>"Repositório Institucional da UFMG"</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_1843_1964">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2026-03-05T11:38:25Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2020-06-20</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">https://hdl.handle.net/1843/1964</mods:identifier>
+               <mods:abstract>Erosive processes are natural modelers of the Earth's surface. When intensified, they can cause significant environmental impacts. Measuring sediment losses is therefore an important step in evaluating these impacts and building preventive models. However, as the literature shows, the use of already established methods still presents methodological flaws or application difficulties. This work aims to apply the 7Be radionuclide quantification method through gamma spectrometry and relate the results with data obtained through physical and chemical analyzes of regolith samples, collected in the central portions of geomorphological sites (SG), which were identified through measurements of slope along transects from the top to the base of slopes located in different portions of the Pandeiros River basin – MG, Brazil. The results show that the reference site, located in Chapada das Gerais, a relatively flat surface in the highest portion of the basin, presented an inventory of 139.94 Bq.m-2 of sediment loss, while all three SG along the transect of Córrego Catolé, located in the central portion of the basin, showed significant loss, as did the transects sampled in Córrego Mandim, in the lower portion of the basin. The data from this work supported the spatialization of processes in similar geomorphological units, formed by siliciclastic rock substrate, fulfilling the initially proposed objective.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066" />
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Acesso aberto Attribution-NoDerivatives 4.0 International</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Solos – Erosão – Teses</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Isótopos – Teses</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Impacto ambiental – Teses</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Bacias hidrográficas – Minas Gerais – Teses</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Utilização do isótopo 7Be como método de investigação da erosão em escala de vertente</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Dissertação de mestrado</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_1843_1964">
+      <rightsMD ID="RIG_1843_1964">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TElDRU7Dh0EgREUgRElTVFJJQlVJw4fDg08gTsODTy1FWENMVVNJVkEgRE8gUkVQT1NJVMOTUklPIElOU1RJVFVDSU9OQUwgREEgVUZNRwoKQ29tIGEgYXByZXNlbnRhw6fDo28gZGVzdGEgbGljZW7Dp2EsIHZvY8OqIChvIGF1dG9yIChlcykgb3UgbyB0aXR1bGFyIGRvcyBkaXJlaXRvcyBkZSBhdXRvcikgY29uY2VkZSBhbyBSZXBvc2l0w7NyaW8gSW5zdGl0dWNpb25hbCBkYSBVRk1HIChSSS1VRk1HKSBvIGRpcmVpdG8gbsOjbyBleGNsdXNpdm8gZSBpcnJldm9nw6F2ZWwgZGUgcmVwcm9kdXppciBlL291IGRpc3RyaWJ1aXIgYSBzdWEgcHVibGljYcOnw6NvIChpbmNsdWluZG8gbyByZXN1bW8pIHBvciB0b2RvIG8gbXVuZG8gbm8gZm9ybWF0byBpbXByZXNzbyBlIGVsZXRyw7RuaWNvIGUgZW0gcXVhbHF1ZXIgbWVpbywgaW5jbHVpbmRvIG9zIGZvcm1hdG9zIMOhdWRpbyBvdSB2w61kZW8uCgpWb2PDqiBkZWNsYXJhIHF1ZSBjb25oZWNlIGEgcG9sw610aWNhIGRlIGNvcHlyaWdodCBkYSBlZGl0b3JhIGRvIHNldSBkb2N1bWVudG8gZSBxdWUgY29uaGVjZSBlIGFjZWl0YSBhcyBEaXJldHJpemVzIGRvIFJJLVVGTUcuCgpWb2PDqiBjb25jb3JkYSBxdWUgbyBSZXBvc2l0w7NyaW8gSW5zdGl0dWNpb25hbCBkYSBVRk1HIHBvZGUsIHNlbSBhbHRlcmFyIG8gY29udGXDumRvLCB0cmFuc3BvciBhIHN1YSBwdWJsaWNhw6fDo28gcGFyYSBxdWFscXVlciBtZWlvIG91IGZvcm1hdG8gcGFyYSBmaW5zIGRlIHByZXNlcnZhw6fDo28uCgpWb2PDqiB0YW1iw6ltIGNvbmNvcmRhIHF1ZSBvIFJlcG9zaXTDs3JpbyBJbnN0aXR1Y2lvbmFsIGRhIFVGTUcgcG9kZSBtYW50ZXIgbWFpcyBkZSB1bWEgY8OzcGlhIGRlIHN1YSBwdWJsaWNhw6fDo28gcGFyYSBmaW5zIGRlIHNlZ3VyYW7Dp2EsIGJhY2stdXAgZSBwcmVzZXJ2YcOnw6NvLgoKVm9jw6ogZGVjbGFyYSBxdWUgYSBzdWEgcHVibGljYcOnw6NvIMOpIG9yaWdpbmFsIGUgcXVlIHZvY8OqIHRlbSBvIHBvZGVyIGRlIGNvbmNlZGVyIG9zIGRpcmVpdG9zIGNvbnRpZG9zIG5lc3RhIGxpY2Vuw6dhLiBWb2PDqiB0YW1iw6ltIGRlY2xhcmEgcXVlIG8gZGVww7NzaXRvIGRlIHN1YSBwdWJsaWNhw6fDo28gbsOjbywgcXVlIHNlamEgZGUgc2V1IGNvbmhlY2ltZW50bywgaW5mcmluZ2UgZGlyZWl0b3MgYXV0b3JhaXMgZGUgbmluZ3XDqW0uCgpDYXNvIGEgc3VhIHB1YmxpY2HDp8OjbyBjb250ZW5oYSBtYXRlcmlhbCBxdWUgdm9jw6ogbsOjbyBwb3NzdWkgYSB0aXR1bGFyaWRhZGUgZG9zIGRpcmVpdG9zIGF1dG9yYWlzLCB2b2PDqiBkZWNsYXJhIHF1ZSBvYnRldmUgYSBwZXJtaXNzw6NvIGlycmVzdHJpdGEgZG8gZGV0ZW50b3IgZG9zIGRpcmVpdG9zIGF1dG9yYWlzIHBhcmEgY29uY2VkZXIgYW8gUmVwb3NpdMOzcmlvIEluc3RpdHVjaW9uYWwgZGEgVUZNRyBvcyBkaXJlaXRvcyBhcHJlc2VudGFkb3MgbmVzdGEgbGljZW7Dp2EsIGUgcXVlIGVzc2UgbWF0ZXJpYWwgZGUgcHJvcHJpZWRhZGUgZGUgdGVyY2Vpcm9zIGVzdMOhIGNsYXJhbWVudGUgaWRlbnRpZmljYWRvIGUgcmVjb25oZWNpZG8gbm8gdGV4dG8gb3Ugbm8gY29udGXDumRvIGRhIHB1YmxpY2HDp8OjbyBvcmEgZGVwb3NpdGFkYS4KCkNBU08gQSBQVUJMSUNBw4fDg08gT1JBIERFUE9TSVRBREEgVEVOSEEgU0lETyBSRVNVTFRBRE8gREUgVU0gUEFUUk9Dw41OSU8gT1UgQVBPSU8gREUgVU1BIEFHw4pOQ0lBIERFIEZPTUVOVE8gT1UgT1VUUk8gT1JHQU5JU01PLCBWT0PDiiBERUNMQVJBIFFVRSBSRVNQRUlUT1UgVE9ET1MgRSBRVUFJU1FVRVIgRElSRUlUT1MgREUgUkVWSVPDg08gQ09NTyBUQU1Cw4lNIEFTIERFTUFJUyBPQlJJR0HDh8OVRVMgRVhJR0lEQVMgUE9SIENPTlRSQVRPIE9VIEFDT1JETy4KCk8gUmVwb3NpdMOzcmlvIEluc3RpdHVjaW9uYWwgZGEgVUZNRyBzZSBjb21wcm9tZXRlIGEgaWRlbnRpZmljYXIgY2xhcmFtZW50ZSBvIHNldSBub21lKHMpIG91IG8ocykgbm9tZXMocykgZG8ocykgZGV0ZW50b3IoZXMpIGRvcyBkaXJlaXRvcyBhdXRvcmFpcyBkYSBwdWJsaWNhw6fDo28sIGUgbsOjbyBmYXLDoSBxdWFscXVlciBhbHRlcmHDp8OjbywgYWzDqW0gZGFxdWVsYXMgY29uY2VkaWRhcyBwb3IgZXN0YSBsaWNlbsOnYS4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_1843_1964_1">
+      <techMD ID="TECH_O_1843_1964_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://repositorio.ufmg.br//bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>3c2513c144aa3398f76b43594f068b59</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>5120523</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Dissertação_Utilização do isótopo 7Be como método de investigação da erosão em escala de vertente.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_1843_1964_1" MIMETYPE="application/pdf" SEQ="1" SIZE="5120523" CHECKSUM="3c2513c144aa3398f76b43594f068b59" CHECKSUMTYPE="MD5" ADMID="FO_1843_1964_1" GROUPID="GROUP_BITSTREAM_1843_1964_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://repositorio.ufmg.br//bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_1843_1964">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_1843_1964_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

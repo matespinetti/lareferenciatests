@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:49:01Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.ufmg.br:1843/1964" metadataPrefix="xoai">https://repositorio.ufmg.br/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.ufmg.br:1843/1964</identifier><datestamp>2026-03-05T11:38:25Z</datestamp><setSpec>com_1843_6</setSpec><setSpec>com_1843_2</setSpec><setSpec>col_1843_139</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="creator">
+         <element name="none">
+            <field name="value">Polyana Duarte de Oliveira Silva</field>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2026-03-05T11:38:25Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2020-06-20</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/1843/1964</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="none">
+               <field name="value">Erosive processes are natural modelers of the Earth's surface. When intensified, they can cause significant environmental impacts. Measuring sediment losses is therefore an important step in evaluating these impacts and building preventive models. However, as the literature shows, the use of already established methods still presents methodological flaws or application difficulties. This work aims to apply the 7Be radionuclide quantification method through gamma spectrometry and relate the results with data obtained through physical and chemical analyzes of regolith samples, collected in the central portions of geomorphological sites (SG), which were identified through measurements of slope along transects from the top to the base of slopes located in different portions of the Pandeiros River basin – MG, Brazil. The results show that the reference site, located in Chapada das Gerais, a relatively flat surface in the highest portion of the basin, presented an inventory of 139.94 Bq.m-2 of sediment loss, while all three SG along the transect of Córrego Catolé, located in the central portion of the basin, showed significant loss, as did the transects sampled in Córrego Mandim, in the lower portion of the basin. The data from this work supported the spatialization of processes in similar geomorphological units, formed by siliciclastic rock substrate, fulfilling the initially proposed objective.</field>
+            </element>
+         </element>
+         <element name="sponsorship">
+            <element name="none">
+               <field name="value">FAPEMIG - Fundação de Amparo à Pesquisa do Estado de Minas Gerais</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="none">
+            <field name="value">por</field>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">Universidade Federal de Minas Gerais</field>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">Acesso aberto</field>
+         </element>
+         <element name="en">
+            <field name="value">Attribution-NoDerivatives 4.0 International</field>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://creativecommons.org/licenses/by-nd/4.0/</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="none">
+            <field name="value">Solos – Erosão – Teses</field>
+            <field name="value">Isótopos – Teses</field>
+            <field name="value">Impacto ambiental – Teses</field>
+            <field name="value">Bacias hidrográficas – Minas Gerais – Teses</field>
+         </element>
+         <element name="other">
+            <element name="none">
+               <field name="value">Uso de 7Be</field>
+               <field name="value">Perda erosiva</field>
+               <field name="value">Erosão dispersa</field>
+               <field name="value">Processos de vertente</field>
+               <field name="value">Bacia do rio Pandeiros - MG</field>
+            </element>
+         </element>
+      </element>
+      <element name="title">
+         <element name="none">
+            <field name="value">Utilização do isótopo 7Be como método de investigação da erosão em escala de vertente</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">Dissertação de mestrado</field>
+         </element>
+      </element>
+   </element>
+   <element name="local">
+      <element name="creator">
+         <element name="Lattes">
+            <element name="none">
+               <field name="value">http://lattes.cnpq.br/4575565619660900</field>
+            </element>
+         </element>
+      </element>
+      <element name="contributor">
+         <element name="advisor1">
+            <element name="none">
+               <field name="value">Cristina Helena Ribeiro Rocha Augustin</field>
+            </element>
+         </element>
+         <element name="advisor1ID">
+            <element name="none">
+               <field name="value">https://orcid.org/0000-0003-3793-9989</field>
+            </element>
+         </element>
+         <element name="advisor1Lattes">
+            <element name="none">
+               <field name="value">http://lattes.cnpq.br/1774474593379334</field>
+            </element>
+         </element>
+         <element name="advisor-co1">
+            <element name="none">
+               <field name="value">Rubens Martins Moreira</field>
+               <field name="value">Alexander Dario Esquivel López</field>
+            </element>
+         </element>
+         <element name="advisor-co1Lattes">
+            <element name="none">
+               <field name="value">http://lattes.cnpq.br/7589172182867151</field>
+               <field name="value">http://lattes.cnpq.br/7154101253969676</field>
+            </element>
+         </element>
+         <element name="referee1">
+            <element name="none">
+               <field name="value">Cristina Helena Ribeiro Rocha Augustin</field>
+               <field name="value">Rubens Martins Moreira</field>
+               <field name="value">Roberto Célio Valadão</field>
+               <field name="value">Fábio Soares de Oliveira</field>
+               <field name="value">Edivaldo Lopes Thomaz</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="resumo">
+            <element name="none">
+               <field name="value">Processos erosivos são naturais modeladores da superfície terrestre. Quando intensificados podem causar impactos ambientais significativos. Medir as perdas de sedimentos constitui, assim, importante etapa na avaliação desses impactos e na construção de modelos preventivos. Entretanto, como mostra a literatura, a utilização dos métodos já consagrados ainda apresenta falhas metodológicas ou dificuldades de aplicação. Este trabalho objetiva aplicar o método de
+quantificação do radionuclídeo 7Be através da espectrometria gama e relacionar os resultados com dados obtidos por meio de análises físicas e químicas de amostras de regolitos, coletadas nas porções centrais de sítios geomorfológicos (SG), identificados através de medidas de declividade ao longo de transectos, do topo até a base de vertentes, em diferentes porções da bacia do Rio Pandeiros – MG, Brasil. Os resultados mostram que o sítio de referência, localizado na Chapada das Gerais, superfície relativamente plana da porção mais elevada da bacia, apresentou um inventário de 139,94 Bq.m-2 de perda de sedimentos, enquanto todos os três SG ao longo do transecto do Córrego Catolé, localizado na porção central da bacia, mostraram perda significativa assim como os transectos amostrados no Córrego Mandim, na baixa porção da bacia. Os dados deste trabalho subsidiaram a espacialização dos processos em unidades geomorfológicas semelhantes, formadas por substrato de rochas siliciclásticas, cumprindo o objetivo inicialmente proposto.</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="country">
+            <element name="none">
+               <field name="value">Brasil</field>
+            </element>
+         </element>
+         <element name="department">
+            <element name="none">
+               <field name="value">IGC - INSTITUTO DE GEOCIENCIAS</field>
+            </element>
+         </element>
+         <element name="program">
+            <element name="none">
+               <field name="value">Programa de Pós-Graduação em Geografia</field>
+            </element>
+         </element>
+         <element name="initials">
+            <element name="none">
+               <field name="value">UFMG</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="cnpq">
+            <element name="none">
+               <field name="value">CIENCIAS EXATAS E DA TERRA::GEOCIENCIAS::GEOMORFOLOGIA</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">Dissertação_Utilização do isótopo 7Be como método de investigação da erosão em escala de vertente.pdf</field>
+               <field name="originalName">Dissertação_Utilização do isótopo 7Be como método de investigação da erosão em escala de vertente.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">5120523</field>
+               <field name="url">https://repositorio.ufmg.br//bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/download</field>
+               <field name="checksum">3c2513c144aa3398f76b43594f068b59</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">CC-LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license_rdf</field>
+               <field name="originalName">license_rdf</field>
+               <field name="format">application/rdf+xml; charset=utf-8</field>
+               <field name="size">894</field>
+               <field name="url">https://repositorio.ufmg.br//bitstreams/2916d2ac-e874-433a-8521-3413cf835a43/download</field>
+               <field name="checksum">5f8273278d594193e01088c4cda9a964</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">license.txt</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">2118</field>
+               <field name="url">https://repositorio.ufmg.br//bitstreams/31c5472d-75dd-487e-85d9-07e11e00de9d/download</field>
+               <field name="checksum">cda590c95a0b51b4d15f60c9642ca272</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">1843/1964</field>
+      <field name="identifier">oai:repositorio.ufmg.br:1843/1964</field>
+      <field name="lastModifyDate">2026-03-05 08:38:25.655</field>
+      <element name="cc">
+         <field name="uri">http://creativecommons.org/licenses/by-nd/4.0/</field>
+         <field name="name">Acesso aberto</field>
+      </element>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://repositorio.ufmg.br/</field>
+      <field name="name">"Repositório Institucional da UFMG"</field>
+      <field name="mail">naoresponder@ufmg.br</field>
+   </element>
+   <element name="license">
+      <field name="bin">TElDRU7Dh0EgREUgRElTVFJJQlVJw4fDg08gTsODTy1FWENMVVNJVkEgRE8gUkVQT1NJVMOTUklPIElOU1RJVFVDSU9OQUwgREEgVUZNRwoKQ29tIGEgYXByZXNlbnRhw6fDo28gZGVzdGEgbGljZW7Dp2EsIHZvY8OqIChvIGF1dG9yIChlcykgb3UgbyB0aXR1bGFyIGRvcyBkaXJlaXRvcyBkZSBhdXRvcikgY29uY2VkZSBhbyBSZXBvc2l0w7NyaW8gSW5zdGl0dWNpb25hbCBkYSBVRk1HIChSSS1VRk1HKSBvIGRpcmVpdG8gbsOjbyBleGNsdXNpdm8gZSBpcnJldm9nw6F2ZWwgZGUgcmVwcm9kdXppciBlL291IGRpc3RyaWJ1aXIgYSBzdWEgcHVibGljYcOnw6NvIChpbmNsdWluZG8gbyByZXN1bW8pIHBvciB0b2RvIG8gbXVuZG8gbm8gZm9ybWF0byBpbXByZXNzbyBlIGVsZXRyw7RuaWNvIGUgZW0gcXVhbHF1ZXIgbWVpbywgaW5jbHVpbmRvIG9zIGZvcm1hdG9zIMOhdWRpbyBvdSB2w61kZW8uCgpWb2PDqiBkZWNsYXJhIHF1ZSBjb25oZWNlIGEgcG9sw610aWNhIGRlIGNvcHlyaWdodCBkYSBlZGl0b3JhIGRvIHNldSBkb2N1bWVudG8gZSBxdWUgY29uaGVjZSBlIGFjZWl0YSBhcyBEaXJldHJpemVzIGRvIFJJLVVGTUcuCgpWb2PDqiBjb25jb3JkYSBxdWUgbyBSZXBvc2l0w7NyaW8gSW5zdGl0dWNpb25hbCBkYSBVRk1HIHBvZGUsIHNlbSBhbHRlcmFyIG8gY29udGXDumRvLCB0cmFuc3BvciBhIHN1YSBwdWJsaWNhw6fDo28gcGFyYSBxdWFscXVlciBtZWlvIG91IGZvcm1hdG8gcGFyYSBmaW5zIGRlIHByZXNlcnZhw6fDo28uCgpWb2PDqiB0YW1iw6ltIGNvbmNvcmRhIHF1ZSBvIFJlcG9zaXTDs3JpbyBJbnN0aXR1Y2lvbmFsIGRhIFVGTUcgcG9kZSBtYW50ZXIgbWFpcyBkZSB1bWEgY8OzcGlhIGRlIHN1YSBwdWJsaWNhw6fDo28gcGFyYSBmaW5zIGRlIHNlZ3VyYW7Dp2EsIGJhY2stdXAgZSBwcmVzZXJ2YcOnw6NvLgoKVm9jw6ogZGVjbGFyYSBxdWUgYSBzdWEgcHVibGljYcOnw6NvIMOpIG9yaWdpbmFsIGUgcXVlIHZvY8OqIHRlbSBvIHBvZGVyIGRlIGNvbmNlZGVyIG9zIGRpcmVpdG9zIGNvbnRpZG9zIG5lc3RhIGxpY2Vuw6dhLiBWb2PDqiB0YW1iw6ltIGRlY2xhcmEgcXVlIG8gZGVww7NzaXRvIGRlIHN1YSBwdWJsaWNhw6fDo28gbsOjbywgcXVlIHNlamEgZGUgc2V1IGNvbmhlY2ltZW50bywgaW5mcmluZ2UgZGlyZWl0b3MgYXV0b3JhaXMgZGUgbmluZ3XDqW0uCgpDYXNvIGEgc3VhIHB1YmxpY2HDp8OjbyBjb250ZW5oYSBtYXRlcmlhbCBxdWUgdm9jw6ogbsOjbyBwb3NzdWkgYSB0aXR1bGFyaWRhZGUgZG9zIGRpcmVpdG9zIGF1dG9yYWlzLCB2b2PDqiBkZWNsYXJhIHF1ZSBvYnRldmUgYSBwZXJtaXNzw6NvIGlycmVzdHJpdGEgZG8gZGV0ZW50b3IgZG9zIGRpcmVpdG9zIGF1dG9yYWlzIHBhcmEgY29uY2VkZXIgYW8gUmVwb3NpdMOzcmlvIEluc3RpdHVjaW9uYWwgZGEgVUZNRyBvcyBkaXJlaXRvcyBhcHJlc2VudGFkb3MgbmVzdGEgbGljZW7Dp2EsIGUgcXVlIGVzc2UgbWF0ZXJpYWwgZGUgcHJvcHJpZWRhZGUgZGUgdGVyY2Vpcm9zIGVzdMOhIGNsYXJhbWVudGUgaWRlbnRpZmljYWRvIGUgcmVjb25oZWNpZG8gbm8gdGV4dG8gb3Ugbm8gY29udGXDumRvIGRhIHB1YmxpY2HDp8OjbyBvcmEgZGVwb3NpdGFkYS4KCkNBU08gQSBQVUJMSUNBw4fDg08gT1JBIERFUE9TSVRBREEgVEVOSEEgU0lETyBSRVNVTFRBRE8gREUgVU0gUEFUUk9Dw41OSU8gT1UgQVBPSU8gREUgVU1BIEFHw4pOQ0lBIERFIEZPTUVOVE8gT1UgT1VUUk8gT1JHQU5JU01PLCBWT0PDiiBERUNMQVJBIFFVRSBSRVNQRUlUT1UgVE9ET1MgRSBRVUFJU1FVRVIgRElSRUlUT1MgREUgUkVWSVPDg08gQ09NTyBUQU1Cw4lNIEFTIERFTUFJUyBPQlJJR0HDh8OVRVMgRVhJR0lEQVMgUE9SIENPTlRSQVRPIE9VIEFDT1JETy4KCk8gUmVwb3NpdMOzcmlvIEluc3RpdHVjaW9uYWwgZGEgVUZNRyBzZSBjb21wcm9tZXRlIGEgaWRlbnRpZmljYXIgY2xhcmFtZW50ZSBvIHNldSBub21lKHMpIG91IG8ocykgbm9tZXMocykgZG8ocykgZGV0ZW50b3IoZXMpIGRvcyBkaXJlaXRvcyBhdXRvcmFpcyBkYSBwdWJsaWNhw6fDo28sIGUgbsOjbyBmYXLDoSBxdWFscXVlciBhbHRlcmHDp8OjbywgYWzDqW0gZGFxdWVsYXMgY29uY2VkaWRhcyBwb3IgZXN0YSBsaWNlbsOnYS4K</field>
+   </element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

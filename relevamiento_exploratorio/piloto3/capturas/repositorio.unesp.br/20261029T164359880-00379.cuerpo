@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:54:45Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.unesp.br:11449/143233" metadataPrefix="xoai">https://repositorio.unesp.br/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.unesp.br:11449/143233</identifier><datestamp>2026-04-24T05:08:27Z</datestamp><setSpec>com_11449_253719</setSpec><setSpec>com_11449_1</setSpec><setSpec>col_11449_253776</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="author">
+            <element name="none">
+               <field name="value">Navarro, André Luiz Sanchez [UNESP]</field>
+               <field name="value">Piranha, Joseli Maria [UNESP]</field>
+               <field name="value">Pacheco, Alberto</field>
+            </element>
+         </element>
+         <element name="institution">
+            <element name="none">
+               <field name="value">Universidade Estadual Paulista (Unesp)</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2016-08-24T12:43:54Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2016-08-24T12:43:54Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2006</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="none">
+            <field name="value">http://ojs.unesp.br/index.php/revista_proex/article/view/364</field>
+         </element>
+         <element name="citation">
+            <element name="none">
+               <field name="value">Revista Ciência em Extensão, v. 3, n. 1, p. 81-97, 2006.</field>
+            </element>
+         </element>
+         <element name="issn">
+            <element name="none">
+               <field name="value">1679-4605</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://hdl.handle.net/11449/143233</field>
+            </element>
+         </element>
+         <element name="file">
+            <element name="none">
+               <field name="value">ISSN1679-4605-2006-03-01-81-97.pdf</field>
+            </element>
+         </element>
+         <element name="lattes">
+            <element name="none">
+               <field name="value">6234308859636324</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="en">
+               <field name="value">The present study attempted to the evaluation of water quality in a public superficial water supplying exposed to diverse anthropic impacts, to create consequently, subsidies for its management. The study was carried out in the municipal dams&amp;apos; complex in Sao Jose do Rio Preto-SP, involving four campaigns of data collection on five different points of the studied water body. Were realized physical-chemical, organoleptic, chemical and microbiological analysis for the appraisal of 31 water quality parameters. These parameters are included in national and international guidelines related to bathing and drinking water conditions, protection of aquatic life and trophic situation of waters. The values obtained were then compared with the limits prescript on those guidelines. Parameters with values in discordance with those prescripts were found in all the guidelines consulted. Among these parameters, Fe, Cu, Zn, Mn, P total and fecal coliphorms, became detached because of the discordances frequency. Results show an alarming scene in relation to water quality in thewater supplying source. This situation remits to the importance of theeffectuation of mitigating and management actions in the river Rio Preto&amp;apos;s basin and, in addiction, emphasizes the importance of future studies for the investigation of the effect of these contaminants in aquatic organisms, which are used as food by a portion of local population.</field>
+            </element>
+            <element name="es">
+               <field name="value">El presente trabajo tuvo como objetivo la evaluación de la calidad del agua de manantial superficial reservada para abastecimiento público expuesto a diversos impactos antrópicos, con el propósito de crear susidios a proyectos emprendedores. El estudio fue realizado en el complejo de represas municipales de São José de Rio Preto-SP, envolvió cuatro campañas de colecta de datos en cinco puntos distintos del cuerpo hídrico estudiado. Fueron realizados análisis físico-químicos, organolépticos, químicos y microbiológicos para la evaluación de 31 parámetros de calidad del agua. Tales parámetrosestán incluidos en las normas nacionales e internacionales relativos a la clasificación de los cuerpos hídricos, potabilidad, balneabilidad, protección de la vida acuática y condición trófica del ambiente estudiado. Los valores obtenidos fueron comparados con los límites prescritos por las normas mencionadas. Fue comprobado que los parámetros no estaban de acuerdo a los prescritos en las normas consultadas. Entre esos parámetros se destacaron por la frecuencia de discordancia: FE, CU, Zn, Mn, P total y coniformes fecales. Los resultados obtenidos demostraron un resultado alarmante referente a la calidad del agua del manantial. Esta situación demuestra la necesidad de medidas urgentes que modifiquen la situación en la cuenca hidrográfica del Rio Preto, resalta laimportancia de estudios futuros, para investigar los efectos de esacontaminación en los organismos acuáticos que sirven de alimento para la población local. </field>
+            </element>
+            <element name="pt">
+               <field name="value">O presente trabalho objetivou a avaliação da qualidade da água em manancial superficial de abastecimento público sujeito a impactos antrópicos diversos, a fim de gerar subsídios para a gestão do mesmo. O estudo foi realizado no complexo de represas municipais de São José do Rio Preto-SP, envolvendo quatro campanhas de coleta de dados em cinco pontos distintos do corpo hídrico estudado. Foram realizadas análises físico-químicas, organolépticas, químicas e microbiológicas para a avaliação de 31 parâmetros de qualidade da água. Tais parâmetros constam de normas nacionais e internacionais relativas à classificação de corpos hídricos, potabilidade, balneabilidade, proteção da vida aquática e condição trófica do ambiente estudado. Os valores obtidos foram então comparados com os limites prescritos nessas normas. Constataram-se parâmetros com valores em desacordo com os prescritos em todas as normas consultadas. Dentre esses parâmetros destacaram-se pela freqüência de discordâncias: Fe, Cu, Zn, Mn, Ptotal e coliformes fecais. Os resultados obtidos demonstram um quadro alarmante em relação à qualidade da água no manancial. Tal situação remete à importância na efetivação de medidas mitigadoras e de gestão na bacia do Rio Preto e, ainda, ressalta a importância de estudos futuros, para a investigação do efeito desses contaminantes em organismos aquáticos que são utilizados como alimento por parte da população local.</field>
+            </element>
+         </element>
+         <element name="sponsorship">
+            <element name="none">
+               <field name="value">Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)</field>
+            </element>
+         </element>
+         <element name="affiliationUnesp">
+            <element name="none">
+               <field name="value">Universidade Estadual Paulista, Departamento de Química e Ciências Ambientais, Instituto de Biociências, Letras e Ciências Exatas de São José do Rio Preto</field>
+            </element>
+         </element>
+         <element name="sponsorshipId">
+            <element name="none">
+               <field name="value">FAPESP: 2004/02480-0</field>
+               <field name="value">FAPESP: 2004/02481-7</field>
+            </element>
+         </element>
+      </element>
+      <element name="format">
+         <element name="extent">
+            <element name="none">
+               <field name="value">81-97</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">por</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">Universidade Estadual Paulista (Unesp)</field>
+         </element>
+      </element>
+      <element name="relation">
+         <element name="ispartof">
+            <element name="none">
+               <field name="value">Revista Ciência em Extensão</field>
+            </element>
+         </element>
+      </element>
+      <element name="source">
+         <element name="none">
+            <field name="value">PROEX</field>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="en">
+            <field name="value">Water quality</field>
+            <field name="value">Water pollution</field>
+            <field name="value">Water quality standards</field>
+            <field name="value">Reservoirs</field>
+            <field name="value">Water supply</field>
+         </element>
+         <element name="es">
+            <field name="value">Calidad del agua</field>
+            <field name="value">Contaminación del agua</field>
+            <field name="value">Normas de calidad del agua</field>
+            <field name="value">Reservatorios</field>
+            <field name="value">Abastecimento de agua</field>
+         </element>
+         <element name="pt">
+            <field name="value">Biológicas</field>
+            <field name="value">Meio ambiente</field>
+            <field name="value">Qualidade da água</field>
+            <field name="value">Poluição da água</field>
+            <field name="value">Normas de qualidade da água</field>
+            <field name="value">Reservatórios</field>
+            <field name="value">Abastecimento de água</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="pt">
+            <field name="value">Estudo de indicadores da qualidade da água em manancial superficial de abastecimento público</field>
+         </element>
+         <element name="alternative">
+            <element name="en">
+               <field name="value">Study of water quality indicators in superficial water source for public supply</field>
+            </element>
+            <element name="es">
+               <field name="value">Estudio de los indicadores de la calidad del agua de manantial superficial reservada para abastecimiento público</field>
+            </element>
+         </element>
+      </element>
+      <element name="type">
+         <element name="pt">
+            <field name="value">Artigo</field>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="accessRights">
+            <element name="pt">
+               <field name="value">Acesso aberto</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="dcterms">
+      <element name="license">
+         <element name="none">
+            <field name="value">http://www.periodicos.rc.biblioteca.unesp.br/index.php/pesquisa/about/editorialPolicies#openAccessPolicy</field>
+         </element>
+      </element>
+   </element>
+   <element name="unesp">
+      <element name="campus">
+         <element name="pt">
+            <field name="value">Universidade Estadual Paulista (UNESP), Instituto de Biociências, Letras e Ciências Exatas, São José do Rio Preto</field>
+         </element>
+      </element>
+      <element name="department">
+         <element name="pt">
+            <field name="value">Química e Ciências Ambientais - IBILCE</field>
+         </element>
+      </element>
+      <element name="author">
+         <element name="lattes">
+            <element name="none">
+               <field name="value">6234308859636324</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="dspace">
+      <element name="entity">
+         <element name="type">
+            <element name="none">
+               <field name="value">Publication</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="relation">
+      <element name="isOrgUnitOfPublication">
+         <element name="none">
+            <field name="value">43c38943-bd6f-4fb6-a9a5-8482a1f632c0</field>
+            <field name="authority">virtual::255912</field>
+            <field name="confidence">-1</field>
+         </element>
+         <element name="latestForDiscovery">
+            <element name="none">
+               <field name="value">43c38943-bd6f-4fb6-a9a5-8482a1f632c0</field>
+               <field name="authority">virtual::255912</field>
+               <field name="confidence">-1</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">ISSN1679-4605-2006-03-01-81-97.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">300929</field>
+               <field name="url">https://repositorio.unesp.br/bitstreams/43c9948e-9768-4351-860c-616e1007460d/download</field>
+               <field name="checksum">559dfba90eba65f079612e9de3046c73</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">ISSN1679-4605-2006-03-01-81-97.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2023-09-30T06:00:13Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">40476</field>
+               <field name="url">https://repositorio.unesp.br/bitstreams/b3d631ec-279a-43cf-b8ab-9e7fc5e9b434/download</field>
+               <field name="checksum">77e738d91ba76e81fc3297613da58e0e</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">ISSN1679-4605-2006-03-01-81-97.pdf.jpg</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.ImageMagickPdfThumbnailFilter on 2016-11-11T14:58:54Z (GMT).</field>
+               <field name="description">IM Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">7439</field>
+               <field name="url">https://repositorio.unesp.br/bitstreams/c888b95e-8984-461c-9acd-04f8586bb376/download</field>
+               <field name="checksum">cec60e3243a180db38ff6af0d3c3923d</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">11449/143233</field>
+      <field name="identifier">oai:repositorio.unesp.br:11449/143233</field>
+      <field name="lastModifyDate">2026-04-24T05:08:27.002756Z</field>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://repositorio.unesp.br</field>
+      <field name="name">Repositório Institucional Unesp</field>
+      <field name="mail">repositoriounesp@unesp.br</field>
+   </element>
+   <element name="license"/>
+</metadata></metadata></record></GetRecord></OAI-PMH>

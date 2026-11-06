@@ -1,0 +1,121 @@
+# =========================================================
+# OJS 3.4 ROBOTS.TXT - CONFIGURACIÓN AVANZADA Y PROTECCIÓN
+# =========================================================
+
+# ---------------------------------------------------------
+# 1. BUSCADORES PRINCIPALES (Con delay para suavizar carga)
+# ---------------------------------------------------------
+
+User-agent: Googlebot
+# Google no soporta crawl-delay en robots.txt (se ajusta en Search Console)
+Disallow: /*/search
+Disallow: /*/user/register
+Disallow: /*/user/setLocale
+Disallow: /*/citationstylelanguage
+Disallow: /*/gateway
+Disallow: /*/api
+Disallow: /*/manager
+Disallow: /cache/
+
+User-agent: bingbot
+User-agent: msnbot
+Crawl-delay: 10
+Disallow: /*/search
+Disallow: /*/user/register
+Disallow: /*/user/setLocale
+Disallow: /*/citationstylelanguage
+Disallow: /*/gateway
+Disallow: /*/api
+Disallow: /cache/
+
+User-agent: YandexBot
+User-agent: Baiduspider
+User-agent: DuckDuckBot
+Crawl-delay: 15
+Disallow: /*/search
+Disallow: /*/user/register
+Disallow: /*/user/setLocale
+Disallow: /*/citationstylelanguage
+Disallow: /*/gateway
+Disallow: /*/api
+Disallow: /cache/
+
+# ---------------------------------------------------------
+# 2. IA Y DATA SCRAPERS (Protección de recursos)
+# ---------------------------------------------------------
+
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: anthropic-ai
+User-agent: Claude-Web
+User-agent: CCBot
+User-agent: OAI-SearchBot
+User-agent: UR-Dorkbot
+User-agent: AliyunSecBot
+User-agent: quillbot
+Crawl-delay: 20
+Disallow: /*/search
+Disallow: /*/user/register
+Disallow: /*/user/setLocale
+Disallow: /*/citationstylelanguage
+Disallow: /*/gateway
+Disallow: /*/api
+Disallow: /cache/
+
+# ---------------------------------------------------------
+# 3. HERRAMIENTAS SEO Y MARKETING (Muy agresivos en OJS)
+# ---------------------------------------------------------
+
+User-agent: SemrushBot
+User-agent: SemrushBot-SA
+User-agent: DotBot
+User-agent: AhrefsBot
+User-agent: Rogerbot
+User-agent: MJ12bot
+User-agent: Timpibot
+Crawl-delay: 30
+Disallow: /*/search
+Disallow: /*/user/register
+Disallow: /*/user/setLocale
+Disallow: /*/citationstylelanguage
+Disallow: /*/gateway
+Disallow: /*/api
+Disallow: /cache/
+
+
+# ---------------------------------------------------------
+# 4. OTROS BOTS ESPECÍFICOS IDENTIFICADOS EN LOGS
+# ---------------------------------------------------------
+
+User-agent: Amazonbot
+Crawl-delay: 20
+Disallow: /
+
+# ---------------------------------------------------------
+# 5. REGLAS GENERALES PARA EL RESTO DE LOS BOTS
+# ---------------------------------------------------------
+
+User-agent: *
+Crawl-delay: 10
+# Bloqueo universal de funciones pesadas de OJS
+Disallow: /*/search
+Disallow: /*/user/register
+Disallow: /*/user/setLocale
+Disallow: /*/citationstylelanguage
+Disallow: /*/gateway
+Disallow: /*/api
+Disallow: /*/manager
+Disallow: /*/submission
+Disallow: /*/workflow
+Disallow: /*/about/submissions
+Disallow: /cache/
+
+
+# Permitir explícitamente el contenido de valor (indexación)
+Allow: /*/article/view
+Allow: /*/issue/view
+Allow: /*/article/download
+
+# Mapa del sitio (Asegúrate de que la ruta sea correcta para tu instalación)
+Sitemap: https://revistas.unlp.edu.ar/index.php/index/sitemap

@@ -1,0 +1,216 @@
+{
+  "id" : "0015acee-fb79-438a-9b80-f82b0c521327",
+  "uuid" : "0015acee-fb79-438a-9b80-f82b0c521327",
+  "name" : "Educación a distancia (plan año 1985) / Educación a distancia y virtual (plan año 2016)",
+  "handle" : "filodigital/12756",
+  "metadata" : {
+    "dc.creator" : [ {
+      "value" : "Mansur, Anahí",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2021-10-14T19:44:02Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2021-10-14T19:44:02Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2020",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "2ºCuatrimestre",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Materia",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Programa N°0179 (año 1985); 11030 (año 2016)",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Aprobado Resolución Nº D 732/20",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    } ],
+    "dc.format" : [ {
+      "value" : "application/pdf",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.other" : [ {
+      "value" : "1431",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://repositorio.filo.uba.ar/handle/filodigital/12756",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language" : [ {
+      "value" : "spa",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "spa",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.publisher" : [ {
+      "value" : "Universidad de Buenos Aires. Facultad de Filosofía y Letras. Departamento de Ciencias de la Educación",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights" : [ {
+      "value" : "info:eu-repo/semantics/openAccess",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.subject" : [ {
+      "value" : "PROGRAMAS",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "MATERIA",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "SEGUNDO CUATRIMESTRE",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "CIENCIAS DE LA EDUCACIÓN",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    } ],
+    "dc.title" : [ {
+      "value" : "Educación a distancia (plan año 1985) / Educación a distancia y virtual (plan año 2016)",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "info:eu-repo/semantics/other",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "info:eu-repo/semantics/acceptedVersion",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dspace.entity.type" : [ {
+      "value" : "Publication",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "ubaffyl.tipodocumento" : [ {
+      "value" : "Programa",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-06-25T21:48:21.000510Z",
+  "entityType" : "Publication",
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0015acee-fb79-438a-9b80-f82b0c521327/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0015acee-fb79-438a-9b80-f82b0c521327/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0015acee-fb79-438a-9b80-f82b0c521327/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0015acee-fb79-438a-9b80-f82b0c521327/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0015acee-fb79-438a-9b80-f82b0c521327/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0015acee-fb79-438a-9b80-f82b0c521327/relationships"
+    },
+    "version" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0015acee-fb79-438a-9b80-f82b0c521327/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0015acee-fb79-438a-9b80-f82b0c521327/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0015acee-fb79-438a-9b80-f82b0c521327/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0015acee-fb79-438a-9b80-f82b0c521327/submitter"
+    },
+    "self" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0015acee-fb79-438a-9b80-f82b0c521327"
+    }
+  }
+}

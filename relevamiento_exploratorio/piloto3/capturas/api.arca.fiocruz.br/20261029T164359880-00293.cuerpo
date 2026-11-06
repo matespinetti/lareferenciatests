@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:52:24Z</responseDate><request verb="GetRecord" identifier="oai:arca.fiocruz.br:icict/61151" metadataPrefix="mets">https://api.arca.fiocruz.br/oai/request</request><GetRecord><record><header><identifier>oai:arca.fiocruz.br:icict/61151</identifier><datestamp>2026-10-26T16:33:29Z</datestamp><setSpec>com_icict_44671</setSpec><setSpec>com_icict_1707</setSpec><setSpec>col_icict_44677</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_icict-61151" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:icict/61151">
+   <metsHdr CREATEDATE="2026-10-29T16:52:24Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Arca - Repositório Institucional da Fiocruz</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_icict_61151">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Correia, Fábio Veríssimo</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Araujo, Gabriel de Farias</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisorco</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Saggioro, Enrico Mendes</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">member</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Pereira, Henrique Marcelo Gualberto</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">member</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Gomes, Márcia Marques</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">member</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Sodré, Fernando Fabriz</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">member</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Medeiros, Renata Jurema</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">member</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Saggioro, Enrico Mendes</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">member</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Correia, Fábio Veríssimo</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2023-11-09T14:14:13Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2023-11-09T14:14:13Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2023</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="citation">ARAUJO, Gabriel de Farias. Monitoramento e avaliação ecotoxicológica de níveis ambientais de cocaína e benzoilecgonina em águas fluviais no Rio de Janeiro. 2023. 220 f. Tese (Doutorado em Saúde Pública e Meio Ambiente) - Escola Nacional de Saúde Pública Sergio Arouca, Fundação Oswaldo Cruz, Rio de Janeiro, 2023.</mods:identifier>
+               <mods:identifier type="uri">https://arca.fiocruz.br/handle/icict/61151</mods:identifier>
+               <mods:abstract>Cocaína (COC) e benzoilecgonina (BE), seu principal metabólito, vêm sendo detectadas em corpos hídricos. A literatura relacionada a efeitos de concentrações ambientais de COC e BE (µg e ng L⁻¹) sobre organismos aquáticos não-alvo é escassa, sobretudo no modelo Danio rerio (zebrafish). Neste estudo, concentrações de COC e BE foram investigadas em cinco rios urbanos na cidade do Rio de Janeiro em campanhas de monitoramento nas estações seca e chuvosa. O espectrômetro de massas Q-Exactive Plus (Thermo Scientific) com ionização electrospray (ESI) foi utilizado na detecção de COC e BE nas amostras de água a partir de extração em fase sólida e análise em sistema Dionex 3000 UHPLC (Thermo Scientific). Embriões de zebrafish foram expostos à COC e BE por 96 h (50-5000 ng L⁻¹), utilizando o OECD Fish Embryo Toxicity Test adaptado em placas de 24 poços, verificando-se efeitos morfológicos e teratogênicos. Zebrafish adultos foram expostos por 21 dias à COC (10-1000 ng L⁻¹), BE (10-1000 ng L⁻¹) e sua combinação (COC+BE 10+1000 ng L⁻¹ e COC+BE 1000+10 ng L⁻¹), analisando-se biomarcadores antioxidantes e oxidativos. Cocaína e BE foram quantificadas (&amp;gt; LQ) com 100 % de frequência em todas as campanhas e pontos de coleta, indicando a contaminação potencial desses ambientes e sugerindo a exposição ininterrupta de organismos não-alvo. Maiores níveis médios de COC (383,68 ± 269,57 ng L⁻¹) e BE (1022,16 ± 535,04 ng L⁻¹) foram observados na estação chuvosa comparados à estação seca (COC 192,27 ± 127,23 ng L⁻¹; BE 504,30 ± 382,28 ng L⁻¹), contrastando com os maiores resultados de NNH3 e DQO observados nesta estação (estação seca), sugerindo a influência do comportamento de consumo de COC associado à primavera/verão (estação chuvosa). Alterações morfológicas e teratogênicas foram observadas nos embriões expostos, com efeitos acima do observado no controle já a partir da menor concentração de BE (50 ng L⁻¹) testada, a qual correspondeu à menos de 10 % da concentração média de BE monitorada. Modulações de biomarcadores de estresse oxidativo (principalmente no cérebro) foram observadas nos peixes adultos expostos, bem como estresse oxidativo associado à peroxidação lipídica e carbonilação de proteínas. Os resultados alertam para a presença de COC e BE em rios do Rio de Janeiro em níveis capazes de causar efeitos deletérios em organismo não-alvo, deflagrando um alarmante problema de saúde pública e meio ambiente.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">por</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">open access</mods:accessCondition>
+               <mods:titleInfo>
+                  <mods:title>Monitoramento e avaliação ecotoxicológica de níveis ambientais de cocaína e benzoilecgonina em águas fluviais no Rio de Janeiro Monitoring and ecotoxicological assessment of environmental levels of cocaine and benzoylecgonine in river waters in Rio de Janeiro</mods:title>
+               </mods:titleInfo>
+               <mods:genre>doctoral thesis</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_icict_61151_2">
+      <techMD ID="TECH_O_icict_61151_2">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://arca.fiocruz.br/bitstreams/c2f8fa55-0b7a-4768-bb3c-8a24cea89507/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>e3376924827c42ca5ebb76dc219cf544</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>8556059</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>gabriel_farias_araujo_ensp_dout_2023.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_icict_61151_13">
+      <techMD ID="TECH_T_icict_61151_13">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://arca.fiocruz.br/bitstreams/2b37473a-d1f9-418a-8c31-aa62f1d1094a/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>eff50053a5ff3a0bd8538eca962bc1ef</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>102851</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>gabriel_farias_araujo_ensp_dout_2023.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_icict_61151_2" MIMETYPE="application/pdf" SEQ="2" SIZE="8556059" CHECKSUM="e3376924827c42ca5ebb76dc219cf544" CHECKSUMTYPE="MD5" ADMID="FO_icict_61151_2" GROUPID="GROUP_BITSTREAM_icict_61151_2">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://arca.fiocruz.br/bitstreams/c2f8fa55-0b7a-4768-bb3c-8a24cea89507/download" />
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_icict_61151_13" MIMETYPE="text/plain" SEQ="13" SIZE="102851" CHECKSUM="eff50053a5ff3a0bd8538eca962bc1ef" CHECKSUMTYPE="MD5" ADMID="FT_icict_61151_13" GROUPID="GROUP_BITSTREAM_icict_61151_13">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://arca.fiocruz.br/bitstreams/2b37473a-d1f9-418a-8c31-aa62f1d1094a/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_icict_61151">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_icict_61151_2" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

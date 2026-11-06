@@ -1,0 +1,49 @@
+{
+ "pedido": "20261106T121522500-00041",
+ "url": "https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/download/1750/53201",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:16:43 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "content-length",
+   "1160850"
+  ],
+  [
+   "accept-ranges",
+   "none"
+  ],
+  [
+   "content-disposition",
+   "attachment; filename=\"1750-Article Text (please provide a single file with figures and tables integrated)-2705-1-10-20120904.pdf\""
+  ],
+  [
+   "cache-control",
+   "private"
+  ],
+  [
+   "pragma",
+   "public"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

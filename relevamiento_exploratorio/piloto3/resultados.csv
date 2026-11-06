@@ -1,0 +1,529 @@
+repo_id,item_idx,item_url,tipo_url,metodo,resultado,nota,pedidos,archivos_encontrados,archivos_verificados,archivos_equivalentes,tipos,bundles
+ar-sedici,0,https://sedici.unlp.edu.ar/handle/10915/2839,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-sedici,0,https://sedici.unlp.edu.ar/handle/10915/2839,pagina,pagina,ok,,1,2,1,1,pdf,
+ar-sedici,0,https://sedici.unlp.edu.ar/handle/10915/2839,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-sedici,0,https://sedici.unlp.edu.ar/handle/10915/2839,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-sedici,0,https://sedici.unlp.edu.ar/handle/10915/2839,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-sedici,0,https://sedici.unlp.edu.ar/handle/10915/2839,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-sedici,0,https://sedici.unlp.edu.ar/handle/10915/2839,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-sedici,0,https://sedici.unlp.edu.ar/handle/10915/2839,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-uca,0,https://repositorio.uca.edu.ar/handle/123456789/202,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-uca,0,https://repositorio.uca.edu.ar/handle/123456789/202,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-uca,0,https://repositorio.uca.edu.ar/handle/123456789/202,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-uca,0,https://repositorio.uca.edu.ar/handle/123456789/202,pagina,oai_xoai,ok,,1,3,1,0,pdf,ORIGINAL TEXT THUMBNAIL
+ar-uca,0,https://repositorio.uca.edu.ar/handle/123456789/202,pagina,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+ar-uca,0,https://repositorio.uca.edu.ar/handle/123456789/202,pagina,oai_mets,ok,,1,2,1,0,pdf,ORIGINAL TEXT
+ar-uca,0,https://repositorio.uca.edu.ar/handle/123456789/202,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-uca,0,https://repositorio.uca.edu.ar/handle/123456789/202,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+cl-uchile,0,https://repositorio.uchile.cl/handle/2250/215317,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+cl-uchile,0,https://repositorio.uchile.cl/handle/2250/215317,pagina,pagina,ok,,1,2,0,0,,
+cl-uchile,0,https://repositorio.uchile.cl/handle/2250/215317,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+cl-uchile,0,https://repositorio.uchile.cl/handle/2250/215317,pagina,oai_xoai,ok,,1,1,0,0,,ORIGINAL
+cl-uchile,0,https://repositorio.uchile.cl/handle/2250/215317,pagina,oai_ore,ok,,1,1,0,0,,ORIGINAL
+cl-uchile,0,https://repositorio.uchile.cl/handle/2250/215317,pagina,oai_mets,ok,,1,1,0,0,,ORIGINAL
+cl-uchile,0,https://repositorio.uchile.cl/handle/2250/215317,pagina,rest56,ok,,1,1,0,0,,ORIGINAL
+cl-uchile,0,https://repositorio.uchile.cl/handle/2250/215317,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+cl-uchile,1,https://repositorio.uchile.cl/handle/2250/207834,pagina,directo,no probado,host abandonado (repositorio.uchile.cl): anti-bot: anubis,0,0,0,0,,
+cl-uchile,1,https://repositorio.uchile.cl/handle/2250/207834,pagina,pagina,no probado,host abandonado (repositorio.uchile.cl): anti-bot: anubis,0,0,0,0,,
+cl-uchile,1,https://repositorio.uchile.cl/handle/2250/207834,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+cl-uchile,1,https://repositorio.uchile.cl/handle/2250/207834,pagina,oai_xoai,no probado,host abandonado (repositorio.uchile.cl): anti-bot: anubis,0,0,0,0,,
+cl-uchile,1,https://repositorio.uchile.cl/handle/2250/207834,pagina,oai_ore,no probado,host abandonado (repositorio.uchile.cl): anti-bot: anubis,0,0,0,0,,
+cl-uchile,1,https://repositorio.uchile.cl/handle/2250/207834,pagina,oai_mets,no probado,host abandonado (repositorio.uchile.cl): anti-bot: anubis,0,0,0,0,,
+cl-uchile,1,https://repositorio.uchile.cl/handle/2250/207834,pagina,rest56,no aplica,sin handle del ítem,0,0,0,0,,
+cl-uchile,1,https://repositorio.uchile.cl/handle/2250/207834,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+cl-uchile,2,https://repositorio.uchile.cl/handle/2250/210139,pagina,directo,no probado,host abandonado (repositorio.uchile.cl): anti-bot: anubis,0,0,0,0,,
+cl-uchile,2,https://repositorio.uchile.cl/handle/2250/210139,pagina,pagina,no probado,host abandonado (repositorio.uchile.cl): anti-bot: anubis,0,0,0,0,,
+cl-uchile,2,https://repositorio.uchile.cl/handle/2250/210139,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+cl-uchile,2,https://repositorio.uchile.cl/handle/2250/210139,pagina,oai_xoai,no probado,host abandonado (repositorio.uchile.cl): anti-bot: anubis,0,0,0,0,,
+cl-uchile,2,https://repositorio.uchile.cl/handle/2250/210139,pagina,oai_ore,no probado,host abandonado (repositorio.uchile.cl): anti-bot: anubis,0,0,0,0,,
+cl-uchile,2,https://repositorio.uchile.cl/handle/2250/210139,pagina,oai_mets,no probado,host abandonado (repositorio.uchile.cl): anti-bot: anubis,0,0,0,0,,
+cl-uchile,2,https://repositorio.uchile.cl/handle/2250/210139,pagina,rest56,no aplica,sin handle del ítem,0,0,0,0,,
+cl-uchile,2,https://repositorio.uchile.cl/handle/2250/210139,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-sedici,1,https://sedici.unlp.edu.ar/handle/10915/2847,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-sedici,1,https://sedici.unlp.edu.ar/handle/10915/2847,pagina,pagina,ok,,1,2,1,1,pdf,
+ar-sedici,1,https://sedici.unlp.edu.ar/handle/10915/2847,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-sedici,1,https://sedici.unlp.edu.ar/handle/10915/2847,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-sedici,1,https://sedici.unlp.edu.ar/handle/10915/2847,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-sedici,1,https://sedici.unlp.edu.ar/handle/10915/2847,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-sedici,1,https://sedici.unlp.edu.ar/handle/10915/2847,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-sedici,1,https://sedici.unlp.edu.ar/handle/10915/2847,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-uca,1,https://repositorio.uca.edu.ar/handle/123456789/204,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-uca,1,https://repositorio.uca.edu.ar/handle/123456789/204,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-uca,1,https://repositorio.uca.edu.ar/handle/123456789/204,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-uca,1,https://repositorio.uca.edu.ar/handle/123456789/204,pagina,oai_xoai,ok,,1,5,1,0,pdf,ORIGINAL TEXT THUMBNAIL
+ar-uca,1,https://repositorio.uca.edu.ar/handle/123456789/204,pagina,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+ar-uca,1,https://repositorio.uca.edu.ar/handle/123456789/204,pagina,oai_mets,ok,,1,3,1,0,pdf,ORIGINAL TEXT
+ar-uca,1,https://repositorio.uca.edu.ar/handle/123456789/204,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-uca,1,https://repositorio.uca.edu.ar/handle/123456789/204,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-sedici,2,https://sedici.unlp.edu.ar/handle/10915/2848,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-sedici,2,https://sedici.unlp.edu.ar/handle/10915/2848,pagina,pagina,ok,,1,2,1,1,pdf,
+ar-sedici,2,https://sedici.unlp.edu.ar/handle/10915/2848,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-sedici,2,https://sedici.unlp.edu.ar/handle/10915/2848,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-sedici,2,https://sedici.unlp.edu.ar/handle/10915/2848,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-sedici,2,https://sedici.unlp.edu.ar/handle/10915/2848,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-sedici,2,https://sedici.unlp.edu.ar/handle/10915/2848,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-sedici,2,https://sedici.unlp.edu.ar/handle/10915/2848,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-uca,2,https://repositorio.uca.edu.ar/handle/123456789/515,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-uca,2,https://repositorio.uca.edu.ar/handle/123456789/515,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-uca,2,https://repositorio.uca.edu.ar/handle/123456789/515,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-uca,2,https://repositorio.uca.edu.ar/handle/123456789/515,pagina,oai_xoai,ok,,1,3,1,0,pdf,ORIGINAL TEXT THUMBNAIL
+ar-uca,2,https://repositorio.uca.edu.ar/handle/123456789/515,pagina,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+ar-uca,2,https://repositorio.uca.edu.ar/handle/123456789/515,pagina,oai_mets,ok,,1,2,1,0,pdf,ORIGINAL TEXT
+ar-uca,2,https://repositorio.uca.edu.ar/handle/123456789/515,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-uca,2,https://repositorio.uca.edu.ar/handle/123456789/515,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+mx-udg,0,https://www.libreriacarlosfuentes.mx/es/producto/testimonio-sobrevivencia-y-sujeto,pagina,directo,no probado,host abandonado (www.libreriacarlosfuentes.mx): anti-bot: cloudflare,0,0,0,0,,
+mx-udg,0,https://www.libreriacarlosfuentes.mx/es/producto/testimonio-sobrevivencia-y-sujeto,pagina,pagina,no probado,host abandonado (www.libreriacarlosfuentes.mx): anti-bot: cloudflare,0,0,0,0,,
+mx-udg,0,https://www.libreriacarlosfuentes.mx/es/producto/testimonio-sobrevivencia-y-sujeto,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+mx-udg,0,https://www.libreriacarlosfuentes.mx/es/producto/testimonio-sobrevivencia-y-sujeto,pagina,oai_xoai,sin archivos,,1,0,0,0,,
+mx-udg,0,https://www.libreriacarlosfuentes.mx/es/producto/testimonio-sobrevivencia-y-sujeto,pagina,oai_ore,sin archivos,,1,0,0,0,,
+mx-udg,0,https://www.libreriacarlosfuentes.mx/es/producto/testimonio-sobrevivencia-y-sujeto,pagina,oai_mets,sin archivos,,1,0,0,0,,
+mx-udg,0,https://www.libreriacarlosfuentes.mx/es/producto/testimonio-sobrevivencia-y-sujeto,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+mx-udg,0,https://www.libreriacarlosfuentes.mx/es/producto/testimonio-sobrevivencia-y-sujeto,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+br-unb,0,http://repositorio.unb.br/handle/10482/31534,pagina,directo,no aplica,la URL devuelve una página,2,0,0,0,,
+br-unb,0,http://repositorio.unb.br/handle/10482/31534,pagina,pagina,ok,,2,2,2,0,pdf,
+br-unb,0,http://repositorio.unb.br/handle/10482/31534,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+br-unb,0,http://repositorio.unb.br/handle/10482/31534,pagina,oai_xoai,ok,,1,2,1,0,pdf,LICENSE ORIGINAL
+br-unb,0,http://repositorio.unb.br/handle/10482/31534,pagina,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+br-unb,0,http://repositorio.unb.br/handle/10482/31534,pagina,oai_mets,ok,,1,1,1,0,pdf,ORIGINAL
+br-unb,0,http://repositorio.unb.br/handle/10482/31534,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+br-unb,0,http://repositorio.unb.br/handle/10482/31534,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+mx-udg,1,https://wdg.biblio.udg.mx,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+mx-udg,1,https://wdg.biblio.udg.mx,pagina,pagina,sin archivos,,1,0,0,0,,
+mx-udg,1,https://wdg.biblio.udg.mx,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+mx-udg,1,https://wdg.biblio.udg.mx,pagina,oai_xoai,ok,,1,1,0,0,,ORIGINAL
+mx-udg,1,https://wdg.biblio.udg.mx,pagina,oai_ore,ok,,1,1,0,0,,ORIGINAL
+mx-udg,1,https://wdg.biblio.udg.mx,pagina,oai_mets,ok,,1,1,0,0,,ORIGINAL
+mx-udg,1,https://wdg.biblio.udg.mx,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+mx-udg,1,https://wdg.biblio.udg.mx,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-rdu-unc,0,http://hdl.handle.net/11086/560501,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+ar-rdu-unc,0,http://hdl.handle.net/11086/560501,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+ar-rdu-unc,0,http://hdl.handle.net/11086/560501,handle,doi_handle,ok,,3,1,1,0,pdf,
+ar-rdu-unc,0,http://hdl.handle.net/11086/560501,handle,oai_xoai,ok,,1,3,1,0,pdf,LICENSE ORIGINAL THUMBNAIL
+ar-rdu-unc,0,http://hdl.handle.net/11086/560501,handle,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+ar-rdu-unc,0,http://hdl.handle.net/11086/560501,handle,oai_mets,ok,,1,1,1,0,pdf,ORIGINAL
+ar-rdu-unc,0,http://hdl.handle.net/11086/560501,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-rdu-unc,0,http://hdl.handle.net/11086/560501,handle,rest7,ok,,1,3,0,1,pdf,LICENSE ORIGINAL THUMBNAIL
+br-unb,1,http://repositorio.unb.br/handle/10482/15590,pagina,directo,no aplica,la URL devuelve una página,2,0,0,0,,
+br-unb,1,http://repositorio.unb.br/handle/10482/15590,pagina,pagina,ok,,2,2,2,0,pdf,
+br-unb,1,http://repositorio.unb.br/handle/10482/15590,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+br-unb,1,http://repositorio.unb.br/handle/10482/15590,pagina,oai_xoai,ok,,1,2,1,0,pdf,LICENSE ORIGINAL
+br-unb,1,http://repositorio.unb.br/handle/10482/15590,pagina,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+br-unb,1,http://repositorio.unb.br/handle/10482/15590,pagina,oai_mets,ok,,1,1,1,0,pdf,ORIGINAL
+br-unb,1,http://repositorio.unb.br/handle/10482/15590,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+br-unb,1,http://repositorio.unb.br/handle/10482/15590,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+mx-udg,2,https://hdl.handle.net/20.500.12104/111546,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+mx-udg,2,https://hdl.handle.net/20.500.12104/111546,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+mx-udg,2,https://hdl.handle.net/20.500.12104/111546,handle,doi_handle,sin archivos,,2,0,0,0,,
+mx-udg,2,https://hdl.handle.net/20.500.12104/111546,handle,oai_xoai,sin archivos,,1,0,0,0,,
+mx-udg,2,https://hdl.handle.net/20.500.12104/111546,handle,oai_ore,sin archivos,,1,0,0,0,,
+mx-udg,2,https://hdl.handle.net/20.500.12104/111546,handle,oai_mets,sin archivos,,1,0,0,0,,
+mx-udg,2,https://hdl.handle.net/20.500.12104/111546,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+mx-udg,2,https://hdl.handle.net/20.500.12104/111546,handle,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-rdu-unc,1,http://hdl.handle.net/11086/27024,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+ar-rdu-unc,1,http://hdl.handle.net/11086/27024,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+ar-rdu-unc,1,http://hdl.handle.net/11086/27024,handle,doi_handle,ok,,3,4,4,0,jpeg pdf texto tiff,
+ar-rdu-unc,1,http://hdl.handle.net/11086/27024,handle,oai_xoai,ok,,1,8,4,0,jpeg pdf texto tiff,ORIGINAL TEXT THUMBNAIL
+ar-rdu-unc,1,http://hdl.handle.net/11086/27024,handle,oai_ore,ok,,1,4,4,0,jpeg pdf texto tiff,ORIGINAL
+ar-rdu-unc,1,http://hdl.handle.net/11086/27024,handle,oai_mets,ok,,1,5,4,0,jpeg pdf texto tiff,ORIGINAL TEXT
+ar-rdu-unc,1,http://hdl.handle.net/11086/27024,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-rdu-unc,1,http://hdl.handle.net/11086/27024,handle,rest7,ok,,1,8,0,4,jpeg pdf texto tiff,ORIGINAL TEXT THUMBNAIL
+br-unb,2,https://repositorio.unb.br/handle/10482/43728,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+br-unb,2,https://repositorio.unb.br/handle/10482/43728,pagina,pagina,ok,,1,2,2,0,pdf,
+br-unb,2,https://repositorio.unb.br/handle/10482/43728,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+br-unb,2,https://repositorio.unb.br/handle/10482/43728,pagina,oai_xoai,ok,,1,2,1,0,pdf,LICENSE ORIGINAL
+br-unb,2,https://repositorio.unb.br/handle/10482/43728,pagina,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+br-unb,2,https://repositorio.unb.br/handle/10482/43728,pagina,oai_mets,ok,,1,1,1,0,pdf,ORIGINAL
+br-unb,2,https://repositorio.unb.br/handle/10482/43728,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+br-unb,2,https://repositorio.unb.br/handle/10482/43728,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-rdu-unc,2,http://hdl.handle.net/11086/24006,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+ar-rdu-unc,2,http://hdl.handle.net/11086/24006,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+ar-rdu-unc,2,http://hdl.handle.net/11086/24006,handle,doi_handle,ok,,3,4,1,0,pdf,
+ar-rdu-unc,2,http://hdl.handle.net/11086/24006,handle,oai_xoai,ok,,1,8,1,0,pdf,ORIGINAL TEXT THUMBNAIL
+ar-rdu-unc,2,http://hdl.handle.net/11086/24006,handle,oai_ore,ok,,1,4,1,0,pdf,ORIGINAL
+ar-rdu-unc,2,http://hdl.handle.net/11086/24006,handle,oai_mets,ok,,1,5,1,0,pdf,ORIGINAL TEXT
+ar-rdu-unc,2,http://hdl.handle.net/11086/24006,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-rdu-unc,2,http://hdl.handle.net/11086/24006,handle,rest7,ok,,1,8,0,1,pdf,ORIGINAL TEXT THUMBNAIL
+co-udea,0,https://hdl.handle.net/10495/46151,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+co-udea,0,https://hdl.handle.net/10495/46151,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+co-udea,0,https://hdl.handle.net/10495/46151,handle,doi_handle,sin archivos,,3,0,0,0,,
+co-udea,0,https://hdl.handle.net/10495/46151,handle,oai_xoai,ok,,1,5,0,0,,CC-LICENSE LICENSE ORIGINAL TEXT THUMBNAIL
+co-udea,0,https://hdl.handle.net/10495/46151,handle,oai_ore,ok,,1,1,0,0,,ORIGINAL
+co-udea,0,https://hdl.handle.net/10495/46151,handle,oai_mets,ok,,1,2,0,0,,ORIGINAL TEXT
+co-udea,0,https://hdl.handle.net/10495/46151,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+co-udea,0,https://hdl.handle.net/10495/46151,handle,rest7,ok,,3,3,1,0,pdf,CC-LICENSE LICENSE ORIGINAL
+br-ufmg,0,https://hdl.handle.net/1843/1964,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+br-ufmg,0,https://hdl.handle.net/1843/1964,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+br-ufmg,0,https://hdl.handle.net/1843/1964,handle,doi_handle,ok,,3,1,1,0,pdf,
+br-ufmg,0,https://hdl.handle.net/1843/1964,handle,oai_xoai,ok,,1,3,1,0,pdf,CC-LICENSE LICENSE ORIGINAL
+br-ufmg,0,https://hdl.handle.net/1843/1964,handle,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+br-ufmg,0,https://hdl.handle.net/1843/1964,handle,oai_mets,ok,,1,1,1,0,pdf,ORIGINAL
+br-ufmg,0,https://hdl.handle.net/1843/1964,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+br-ufmg,0,https://hdl.handle.net/1843/1964,handle,rest7,ok,,1,3,0,1,pdf,CC-LICENSE LICENSE ORIGINAL
+co-udea,1,https://hdl.handle.net/10495/4345,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+co-udea,1,https://hdl.handle.net/10495/4345,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+co-udea,1,https://hdl.handle.net/10495/4345,handle,doi_handle,sin archivos,,3,0,0,0,,
+co-udea,1,https://hdl.handle.net/10495/4345,handle,oai_xoai,ok,,1,7,0,0,,CC-LICENSE LICENSE ORIGINAL TEXT THUMBNAIL
+co-udea,1,https://hdl.handle.net/10495/4345,handle,oai_ore,ok,,1,1,0,0,,ORIGINAL
+co-udea,1,https://hdl.handle.net/10495/4345,handle,oai_mets,ok,,1,2,0,0,,ORIGINAL TEXT
+co-udea,1,https://hdl.handle.net/10495/4345,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+co-udea,1,https://hdl.handle.net/10495/4345,handle,rest7,ok,,3,7,1,0,pdf,CC-LICENSE LICENSE ORIGINAL TEXT THUMBNAIL
+br-ufmg,1,https://hdl.handle.net/1843/2895,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+br-ufmg,1,https://hdl.handle.net/1843/2895,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+br-ufmg,1,https://hdl.handle.net/1843/2895,handle,doi_handle,ok,,3,1,1,0,pdf,
+br-ufmg,1,https://hdl.handle.net/1843/2895,handle,oai_xoai,ok,,1,3,1,0,pdf,CC-LICENSE LICENSE ORIGINAL
+br-ufmg,1,https://hdl.handle.net/1843/2895,handle,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+br-ufmg,1,https://hdl.handle.net/1843/2895,handle,oai_mets,ok,,1,1,1,0,pdf,ORIGINAL
+br-ufmg,1,https://hdl.handle.net/1843/2895,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+br-ufmg,1,https://hdl.handle.net/1843/2895,handle,rest7,ok,,1,3,0,1,pdf,CC-LICENSE LICENSE ORIGINAL
+ar-filo-uba,0,http://repositorio.filo.uba.ar/handle/filodigital/17251,pagina,directo,no aplica,la URL devuelve una página,2,0,0,0,,
+ar-filo-uba,0,http://repositorio.filo.uba.ar/handle/filodigital/17251,pagina,pagina,sin archivos,,2,0,0,0,,
+ar-filo-uba,0,http://repositorio.filo.uba.ar/handle/filodigital/17251,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-filo-uba,0,http://repositorio.filo.uba.ar/handle/filodigital/17251,pagina,oai_xoai,ok,,1,3,0,0,,ORIGINAL TEXT THUMBNAIL
+ar-filo-uba,0,http://repositorio.filo.uba.ar/handle/filodigital/17251,pagina,oai_ore,ok,,1,1,0,0,,ORIGINAL
+ar-filo-uba,0,http://repositorio.filo.uba.ar/handle/filodigital/17251,pagina,oai_mets,ok,,1,2,0,0,,ORIGINAL TEXT
+ar-filo-uba,0,http://repositorio.filo.uba.ar/handle/filodigital/17251,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-filo-uba,0,http://repositorio.filo.uba.ar/handle/filodigital/17251,pagina,rest7,ok,,3,3,1,0,pdf,ORIGINAL TEXT THUMBNAIL
+co-udea,2,https://hdl.handle.net/10495/13726,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+co-udea,2,https://hdl.handle.net/10495/13726,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+co-udea,2,https://hdl.handle.net/10495/13726,handle,doi_handle,sin archivos,,3,0,0,0,,
+co-udea,2,https://hdl.handle.net/10495/13726,handle,oai_xoai,ok,,1,5,0,0,,CC-LICENSE LICENSE ORIGINAL TEXT THUMBNAIL
+co-udea,2,https://hdl.handle.net/10495/13726,handle,oai_ore,ok,,1,1,0,0,,ORIGINAL
+co-udea,2,https://hdl.handle.net/10495/13726,handle,oai_mets,ok,,1,2,0,0,,ORIGINAL TEXT
+co-udea,2,https://hdl.handle.net/10495/13726,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+co-udea,2,https://hdl.handle.net/10495/13726,handle,rest7,ok,,3,5,0,0,,CC-LICENSE LICENSE ORIGINAL TEXT THUMBNAIL
+br-ufmg,2,https://hdl.handle.net/1843/5589,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+br-ufmg,2,https://hdl.handle.net/1843/5589,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+br-ufmg,2,https://hdl.handle.net/1843/5589,handle,doi_handle,ok,,3,1,1,0,pdf,
+br-ufmg,2,https://hdl.handle.net/1843/5589,handle,oai_xoai,ok,,1,5,1,0,pdf,CC-LICENSE LICENSE ORIGINAL TEXT THUMBNAIL
+br-ufmg,2,https://hdl.handle.net/1843/5589,handle,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+br-ufmg,2,https://hdl.handle.net/1843/5589,handle,oai_mets,ok,,1,2,1,0,pdf,ORIGINAL TEXT
+br-ufmg,2,https://hdl.handle.net/1843/5589,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+br-ufmg,2,https://hdl.handle.net/1843/5589,handle,rest7,ok,,1,5,0,1,pdf,CC-LICENSE LICENSE ORIGINAL TEXT THUMBNAIL
+ar-filo-uba,1,http://repositorio.filo.uba.ar/handle/filodigital/2977,pagina,directo,no aplica,la URL devuelve una página,2,0,0,0,,
+ar-filo-uba,1,http://repositorio.filo.uba.ar/handle/filodigital/2977,pagina,pagina,sin archivos,,2,0,0,0,,
+ar-filo-uba,1,http://repositorio.filo.uba.ar/handle/filodigital/2977,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-filo-uba,1,http://repositorio.filo.uba.ar/handle/filodigital/2977,pagina,oai_xoai,ok,,1,3,0,0,,ORIGINAL TEXT THUMBNAIL
+ar-filo-uba,1,http://repositorio.filo.uba.ar/handle/filodigital/2977,pagina,oai_ore,ok,,1,1,0,0,,ORIGINAL
+ar-filo-uba,1,http://repositorio.filo.uba.ar/handle/filodigital/2977,pagina,oai_mets,ok,,1,2,0,0,,ORIGINAL TEXT
+ar-filo-uba,1,http://repositorio.filo.uba.ar/handle/filodigital/2977,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-filo-uba,1,http://repositorio.filo.uba.ar/handle/filodigital/2977,pagina,rest7,ok,,3,3,1,0,pdf,ORIGINAL TEXT THUMBNAIL
+ar-rephip-unr,0,https://hdl.handle.net/2133/32082,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+ar-rephip-unr,0,https://hdl.handle.net/2133/32082,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+ar-rephip-unr,0,https://hdl.handle.net/2133/32082,handle,doi_handle,ok,,3,1,1,0,pdf,
+ar-rephip-unr,0,https://hdl.handle.net/2133/32082,handle,oai_xoai,ok,,1,5,1,0,pdf,CC-LICENSE LICENSE ORIGINAL TEXT THUMBNAIL
+ar-rephip-unr,0,https://hdl.handle.net/2133/32082,handle,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+ar-rephip-unr,0,https://hdl.handle.net/2133/32082,handle,oai_mets,ok,,1,2,1,0,pdf,ORIGINAL TEXT
+ar-rephip-unr,0,https://hdl.handle.net/2133/32082,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-rephip-unr,0,https://hdl.handle.net/2133/32082,handle,rest7,ok,,1,5,0,1,pdf,CC-LICENSE LICENSE ORIGINAL TEXT THUMBNAIL
+ar-filo-uba,2,http://repositorio.filo.uba.ar/handle/filodigital/12756,pagina,directo,no aplica,la URL devuelve una página,2,0,0,0,,
+ar-filo-uba,2,http://repositorio.filo.uba.ar/handle/filodigital/12756,pagina,pagina,sin archivos,,2,0,0,0,,
+ar-filo-uba,2,http://repositorio.filo.uba.ar/handle/filodigital/12756,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-filo-uba,2,http://repositorio.filo.uba.ar/handle/filodigital/12756,pagina,oai_xoai,ok,,1,3,0,0,,ORIGINAL TEXT THUMBNAIL
+ar-filo-uba,2,http://repositorio.filo.uba.ar/handle/filodigital/12756,pagina,oai_ore,ok,,1,1,0,0,,ORIGINAL
+ar-filo-uba,2,http://repositorio.filo.uba.ar/handle/filodigital/12756,pagina,oai_mets,ok,,1,2,0,0,,ORIGINAL TEXT
+ar-filo-uba,2,http://repositorio.filo.uba.ar/handle/filodigital/12756,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-filo-uba,2,http://repositorio.filo.uba.ar/handle/filodigital/12756,pagina,rest7,ok,,3,3,1,0,pdf,ORIGINAL TEXT THUMBNAIL
+br-fiocruz,0,https://arca.fiocruz.br/handle/icict/61151,pagina,directo,no aplica,la URL devuelve una página,2,0,0,0,,
+br-fiocruz,0,https://arca.fiocruz.br/handle/icict/61151,pagina,pagina,ok,,2,2,1,0,pdf,
+br-fiocruz,0,https://arca.fiocruz.br/handle/icict/61151,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+br-fiocruz,0,https://arca.fiocruz.br/handle/icict/61151,pagina,oai_xoai,ok,,1,4,1,0,pdf,LICENSE ORIGINAL TEXT THUMBNAIL
+br-fiocruz,0,https://arca.fiocruz.br/handle/icict/61151,pagina,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+br-fiocruz,0,https://arca.fiocruz.br/handle/icict/61151,pagina,oai_mets,ok,,1,2,1,0,pdf,ORIGINAL TEXT
+br-fiocruz,0,https://arca.fiocruz.br/handle/icict/61151,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+br-fiocruz,0,https://arca.fiocruz.br/handle/icict/61151,pagina,rest7,ok,,1,3,0,1,pdf,ORIGINAL TEXT THUMBNAIL
+ar-rephip-unr,1,https://hdl.handle.net/2133/31409,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+ar-rephip-unr,1,https://hdl.handle.net/2133/31409,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+ar-rephip-unr,1,https://hdl.handle.net/2133/31409,handle,doi_handle,ok,,3,1,1,0,pdf,
+ar-rephip-unr,1,https://hdl.handle.net/2133/31409,handle,oai_xoai,ok,,1,4,1,0,pdf,LICENSE ORIGINAL TEXT THUMBNAIL
+ar-rephip-unr,1,https://hdl.handle.net/2133/31409,handle,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+ar-rephip-unr,1,https://hdl.handle.net/2133/31409,handle,oai_mets,ok,,1,2,1,0,pdf,ORIGINAL TEXT
+ar-rephip-unr,1,https://hdl.handle.net/2133/31409,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-rephip-unr,1,https://hdl.handle.net/2133/31409,handle,rest7,ok,,1,4,0,1,pdf,LICENSE ORIGINAL TEXT THUMBNAIL
+br-fiocruz,1,https://arca.fiocruz.br/handle/icict/6813,pagina,directo,no aplica,la URL devuelve una página,2,0,0,0,,
+br-fiocruz,1,https://arca.fiocruz.br/handle/icict/6813,pagina,pagina,sin archivos,,2,0,0,0,,
+br-fiocruz,1,https://arca.fiocruz.br/handle/icict/6813,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+br-fiocruz,1,https://arca.fiocruz.br/handle/icict/6813,pagina,oai_xoai,ok,,1,4,0,0,,LICENSE ORIGINAL TEXT THUMBNAIL
+br-fiocruz,1,https://arca.fiocruz.br/handle/icict/6813,pagina,oai_ore,ok,,1,1,0,0,,ORIGINAL
+br-fiocruz,1,https://arca.fiocruz.br/handle/icict/6813,pagina,oai_mets,ok,,1,2,0,0,,ORIGINAL TEXT
+br-fiocruz,1,https://arca.fiocruz.br/handle/icict/6813,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+br-fiocruz,1,https://arca.fiocruz.br/handle/icict/6813,pagina,rest7,sin archivos,,1,0,0,0,,
+ar-rephip-unr,2,https://hdl.handle.net/2133/33995,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+ar-rephip-unr,2,https://hdl.handle.net/2133/33995,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+ar-rephip-unr,2,https://hdl.handle.net/2133/33995,handle,doi_handle,ok,,3,1,1,0,pdf,
+ar-rephip-unr,2,https://hdl.handle.net/2133/33995,handle,oai_xoai,ok,,1,5,1,0,pdf,CC-LICENSE LICENSE ORIGINAL TEXT THUMBNAIL
+ar-rephip-unr,2,https://hdl.handle.net/2133/33995,handle,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+ar-rephip-unr,2,https://hdl.handle.net/2133/33995,handle,oai_mets,ok,,1,2,1,0,pdf,ORIGINAL TEXT
+ar-rephip-unr,2,https://hdl.handle.net/2133/33995,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-rephip-unr,2,https://hdl.handle.net/2133/33995,handle,rest7,ok,,1,5,0,1,pdf,CC-LICENSE LICENSE ORIGINAL TEXT THUMBNAIL
+br-fiocruz,2,https://arca.fiocruz.br/handle/icict/73215,pagina,directo,no aplica,la URL devuelve una página,2,0,0,0,,
+br-fiocruz,2,https://arca.fiocruz.br/handle/icict/73215,pagina,pagina,ok,,2,2,1,0,pdf,
+br-fiocruz,2,https://arca.fiocruz.br/handle/icict/73215,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+br-fiocruz,2,https://arca.fiocruz.br/handle/icict/73215,pagina,oai_xoai,ok,,1,5,1,0,pdf,LICENSE ORIGINAL TEXT THUMBNAIL
+br-fiocruz,2,https://arca.fiocruz.br/handle/icict/73215,pagina,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+br-fiocruz,2,https://arca.fiocruz.br/handle/icict/73215,pagina,oai_mets,ok,,1,3,1,0,pdf,ORIGINAL TEXT
+br-fiocruz,2,https://arca.fiocruz.br/handle/icict/73215,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+br-fiocruz,2,https://arca.fiocruz.br/handle/icict/73215,pagina,rest7,ok,,1,4,0,1,pdf,ORIGINAL TEXT THUMBNAIL
+br-unesp,0,http://hdl.handle.net/11449/118219,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+br-unesp,0,http://hdl.handle.net/11449/118219,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+br-unesp,0,http://hdl.handle.net/11449/118219,handle,doi_handle,sin archivos,,2,0,0,0,,
+br-unesp,0,http://hdl.handle.net/11449/118219,handle,oai_xoai,ok,,1,3,0,0,,ORIGINAL TEXT THUMBNAIL
+br-unesp,0,http://hdl.handle.net/11449/118219,handle,oai_ore,ok,,1,1,0,0,,ORIGINAL
+br-unesp,0,http://hdl.handle.net/11449/118219,handle,oai_mets,ok,,1,2,0,0,,ORIGINAL TEXT
+br-unesp,0,http://hdl.handle.net/11449/118219,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+br-unesp,0,http://hdl.handle.net/11449/118219,handle,rest7,ok,,3,3,1,0,pdf,ORIGINAL TEXT THUMBNAIL
+br-unesp,1,http://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941,pagina,directo,anti-bot,cloudflare,2,0,0,0,,
+br-unesp,1,http://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941,pagina,pagina,anti-bot,cloudflare,2,0,0,0,,
+br-unesp,1,http://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+br-unesp,1,http://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941,pagina,oai_xoai,sin archivos,,1,0,0,0,,
+br-unesp,1,http://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941,pagina,oai_ore,sin archivos,,1,0,0,0,,
+br-unesp,1,http://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941,pagina,oai_mets,sin archivos,,1,0,0,0,,
+br-unesp,1,http://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+br-unesp,1,http://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941,pagina,rest7,sin archivos,,3,0,0,0,,
+cr-kerwa,0,https://hdl.handle.net/10669/105088,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+cr-kerwa,0,https://hdl.handle.net/10669/105088,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+cr-kerwa,0,https://hdl.handle.net/10669/105088,handle,doi_handle,error,código 500,1,0,0,0,,
+cr-kerwa,0,https://hdl.handle.net/10669/105088,handle,oai_xoai,ok,,1,4,1,0,pdf,LICENSE ORIGINAL TEXT THUMBNAIL
+cr-kerwa,0,https://hdl.handle.net/10669/105088,handle,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+cr-kerwa,0,https://hdl.handle.net/10669/105088,handle,oai_mets,ok,,1,2,1,0,pdf,ORIGINAL TEXT
+cr-kerwa,0,https://hdl.handle.net/10669/105088,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+cr-kerwa,0,https://hdl.handle.net/10669/105088,handle,rest7,ok,,3,4,0,1,pdf,LICENSE ORIGINAL TEXT THUMBNAIL
+br-unesp,2,http://ojs.unesp.br/index.php/revista_proex/article/view/364,pagina,directo,error,red,2,0,0,0,,
+br-unesp,2,http://ojs.unesp.br/index.php/revista_proex/article/view/364,pagina,pagina,error,red,2,0,0,0,,
+br-unesp,2,http://ojs.unesp.br/index.php/revista_proex/article/view/364,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+br-unesp,2,http://ojs.unesp.br/index.php/revista_proex/article/view/364,pagina,oai_xoai,ok,,1,3,0,0,,ORIGINAL TEXT THUMBNAIL
+br-unesp,2,http://ojs.unesp.br/index.php/revista_proex/article/view/364,pagina,oai_ore,ok,,1,1,0,0,,ORIGINAL
+br-unesp,2,http://ojs.unesp.br/index.php/revista_proex/article/view/364,pagina,oai_mets,ok,,1,2,0,0,,ORIGINAL TEXT
+br-unesp,2,http://ojs.unesp.br/index.php/revista_proex/article/view/364,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+br-unesp,2,http://ojs.unesp.br/index.php/revista_proex/article/view/364,pagina,rest7,ok,,3,3,1,0,pdf,ORIGINAL TEXT THUMBNAIL
+ar-sadio-ejs,0,https://revistas.unlp.edu.ar/ejs/article/view/17558,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-sadio-ejs,0,https://revistas.unlp.edu.ar/ejs/article/view/17558,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-sadio-ejs,0,https://revistas.unlp.edu.ar/ejs/article/view/17558,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-sadio-ejs,0,https://revistas.unlp.edu.ar/ejs/article/view/17558,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-sadio-ejs,0,https://revistas.unlp.edu.ar/ejs/article/view/17558,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-sadio-ejs,0,https://revistas.unlp.edu.ar/ejs/article/view/17558,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-sadio-ejs,0,https://revistas.unlp.edu.ar/ejs/article/view/17558,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-sadio-ejs,0,https://revistas.unlp.edu.ar/ejs/article/view/17558,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-sadio-ejs,1,https://revistas.unlp.edu.ar/ejs/article/view/17559,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-sadio-ejs,1,https://revistas.unlp.edu.ar/ejs/article/view/17559,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-sadio-ejs,1,https://revistas.unlp.edu.ar/ejs/article/view/17559,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-sadio-ejs,1,https://revistas.unlp.edu.ar/ejs/article/view/17559,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-sadio-ejs,1,https://revistas.unlp.edu.ar/ejs/article/view/17559,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-sadio-ejs,1,https://revistas.unlp.edu.ar/ejs/article/view/17559,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-sadio-ejs,1,https://revistas.unlp.edu.ar/ejs/article/view/17559,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-sadio-ejs,1,https://revistas.unlp.edu.ar/ejs/article/view/17559,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+cr-kerwa,1,https://hdl.handle.net/10669/104675,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+cr-kerwa,1,https://hdl.handle.net/10669/104675,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+cr-kerwa,1,https://hdl.handle.net/10669/104675,handle,doi_handle,error,código 500,1,0,0,0,,
+cr-kerwa,1,https://hdl.handle.net/10669/104675,handle,oai_xoai,ok,,1,4,1,0,pdf,LICENSE ORIGINAL TEXT THUMBNAIL
+cr-kerwa,1,https://hdl.handle.net/10669/104675,handle,oai_ore,ok,,1,1,1,0,pdf,ORIGINAL
+cr-kerwa,1,https://hdl.handle.net/10669/104675,handle,oai_mets,ok,,1,2,1,0,pdf,ORIGINAL TEXT
+cr-kerwa,1,https://hdl.handle.net/10669/104675,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+cr-kerwa,1,https://hdl.handle.net/10669/104675,handle,rest7,ok,,3,4,0,1,pdf,LICENSE ORIGINAL TEXT THUMBNAIL
+ar-sadio-ejs,2,https://revistas.unlp.edu.ar/ejs/article/view/17560,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-sadio-ejs,2,https://revistas.unlp.edu.ar/ejs/article/view/17560,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-sadio-ejs,2,https://revistas.unlp.edu.ar/ejs/article/view/17560,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-sadio-ejs,2,https://revistas.unlp.edu.ar/ejs/article/view/17560,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-sadio-ejs,2,https://revistas.unlp.edu.ar/ejs/article/view/17560,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-sadio-ejs,2,https://revistas.unlp.edu.ar/ejs/article/view/17560,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-sadio-ejs,2,https://revistas.unlp.edu.ar/ejs/article/view/17560,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-sadio-ejs,2,https://revistas.unlp.edu.ar/ejs/article/view/17560,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-question,0,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/5535,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-question,0,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/5535,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-question,0,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/5535,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-question,0,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/5535,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-question,0,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/5535,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-question,0,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/5535,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-question,0,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/5535,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-question,0,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/5535,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-question,1,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6502,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-question,1,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6502,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-question,1,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6502,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-question,1,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6502,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-question,1,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6502,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-question,1,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6502,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-question,1,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6502,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-question,1,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6502,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+cr-kerwa,2,http://repositorio.inie.ucr.ac.cr/handle/123456789/424,pagina,directo,no aplica,la URL devuelve una página,3,0,0,0,,
+cr-kerwa,2,http://repositorio.inie.ucr.ac.cr/handle/123456789/424,pagina,pagina,ok,,3,2,2,0,pdf,
+cr-kerwa,2,http://repositorio.inie.ucr.ac.cr/handle/123456789/424,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+cr-kerwa,2,http://repositorio.inie.ucr.ac.cr/handle/123456789/424,pagina,oai_xoai,sin archivos,,1,0,0,0,,
+cr-kerwa,2,http://repositorio.inie.ucr.ac.cr/handle/123456789/424,pagina,oai_ore,sin archivos,,1,0,0,0,,
+cr-kerwa,2,http://repositorio.inie.ucr.ac.cr/handle/123456789/424,pagina,oai_mets,sin archivos,,1,0,0,0,,
+cr-kerwa,2,http://repositorio.inie.ucr.ac.cr/handle/123456789/424,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+cr-kerwa,2,http://repositorio.inie.ucr.ac.cr/handle/123456789/424,pagina,rest7,error,código 404,1,0,0,0,,
+ar-adnea,0,https://revistas.unne.edu.ar/index.php/adn/article/view/9002,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-adnea,0,https://revistas.unne.edu.ar/index.php/adn/article/view/9002,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-adnea,0,https://revistas.unne.edu.ar/index.php/adn/article/view/9002,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-adnea,0,https://revistas.unne.edu.ar/index.php/adn/article/view/9002,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-adnea,0,https://revistas.unne.edu.ar/index.php/adn/article/view/9002,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-adnea,0,https://revistas.unne.edu.ar/index.php/adn/article/view/9002,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-adnea,0,https://revistas.unne.edu.ar/index.php/adn/article/view/9002,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-adnea,0,https://revistas.unne.edu.ar/index.php/adn/article/view/9002,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-question,2,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6503,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-question,2,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6503,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-question,2,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6503,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-question,2,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6503,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-question,2,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6503,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-question,2,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6503,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-question,2,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6503,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-question,2,https://perio.unlp.edu.ar/ojs/index.php/question/article/view/6503,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-adnea,1,https://revistas.unne.edu.ar/index.php/adn/article/view/9004,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-adnea,1,https://revistas.unne.edu.ar/index.php/adn/article/view/9004,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-adnea,1,https://revistas.unne.edu.ar/index.php/adn/article/view/9004,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-adnea,1,https://revistas.unne.edu.ar/index.php/adn/article/view/9004,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-adnea,1,https://revistas.unne.edu.ar/index.php/adn/article/view/9004,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-adnea,1,https://revistas.unne.edu.ar/index.php/adn/article/view/9004,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-adnea,1,https://revistas.unne.edu.ar/index.php/adn/article/view/9004,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-adnea,1,https://revistas.unne.edu.ar/index.php/adn/article/view/9004,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-adnea,2,https://revistas.unne.edu.ar/index.php/adn/article/view/9005,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-adnea,2,https://revistas.unne.edu.ar/index.php/adn/article/view/9005,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-adnea,2,https://revistas.unne.edu.ar/index.php/adn/article/view/9005,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-adnea,2,https://revistas.unne.edu.ar/index.php/adn/article/view/9005,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-adnea,2,https://revistas.unne.edu.ar/index.php/adn/article/view/9005,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-adnea,2,https://revistas.unne.edu.ar/index.php/adn/article/view/9005,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-adnea,2,https://revistas.unne.edu.ar/index.php/adn/article/view/9005,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-adnea,2,https://revistas.unne.edu.ar/index.php/adn/article/view/9005,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-libros-unlp,0,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2845,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-libros-unlp,0,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2845,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-libros-unlp,0,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2845,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-libros-unlp,0,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2845,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-libros-unlp,0,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2845,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-libros-unlp,0,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2845,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-libros-unlp,0,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2845,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-libros-unlp,0,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2845,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-libros-unlp,1,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2856,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-libros-unlp,1,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2856,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-libros-unlp,1,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2856,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-libros-unlp,1,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2856,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-libros-unlp,1,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2856,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-libros-unlp,1,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2856,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-libros-unlp,1,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2856,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-libros-unlp,1,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2856,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+id-isi-ars,0,https://journal.isi.ac.id/index.php/ars/article/view/251,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+id-isi-ars,0,https://journal.isi.ac.id/index.php/ars/article/view/251,pagina,pagina,ok,,1,1,0,0,,
+id-isi-ars,0,https://journal.isi.ac.id/index.php/ars/article/view/251,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+id-isi-ars,0,https://journal.isi.ac.id/index.php/ars/article/view/251,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+id-isi-ars,0,https://journal.isi.ac.id/index.php/ars/article/view/251,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+id-isi-ars,0,https://journal.isi.ac.id/index.php/ars/article/view/251,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+id-isi-ars,0,https://journal.isi.ac.id/index.php/ars/article/view/251,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+id-isi-ars,0,https://journal.isi.ac.id/index.php/ars/article/view/251,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-libros-unlp,2,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2950,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+ar-libros-unlp,2,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2950,pagina,pagina,ok,,1,1,1,0,pdf,
+ar-libros-unlp,2,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2950,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-libros-unlp,2,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2950,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-libros-unlp,2,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2950,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-libros-unlp,2,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2950,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-libros-unlp,2,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2950,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-libros-unlp,2,https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2950,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+cr-rbt,0,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1750,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+cr-rbt,0,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1750,pagina,pagina,ok,,1,1,1,0,pdf,
+cr-rbt,0,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1750,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+cr-rbt,0,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1750,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+cr-rbt,0,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1750,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+cr-rbt,0,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1750,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+cr-rbt,0,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1750,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+cr-rbt,0,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1750,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+id-isi-ars,1,https://journal.isi.ac.id/index.php/ars/article/view/2760,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+id-isi-ars,1,https://journal.isi.ac.id/index.php/ars/article/view/2760,pagina,pagina,ok,,1,2,1,0,pdf,
+id-isi-ars,1,https://journal.isi.ac.id/index.php/ars/article/view/2760,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+id-isi-ars,1,https://journal.isi.ac.id/index.php/ars/article/view/2760,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+id-isi-ars,1,https://journal.isi.ac.id/index.php/ars/article/view/2760,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+id-isi-ars,1,https://journal.isi.ac.id/index.php/ars/article/view/2760,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+id-isi-ars,1,https://journal.isi.ac.id/index.php/ars/article/view/2760,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+id-isi-ars,1,https://journal.isi.ac.id/index.php/ars/article/view/2760,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+cr-rbt,1,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+cr-rbt,1,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751,pagina,pagina,ok,,1,1,1,0,pdf,
+cr-rbt,1,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+cr-rbt,1,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+cr-rbt,1,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+cr-rbt,1,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+cr-rbt,1,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+cr-rbt,1,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+cr-rbt,2,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1752,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+cr-rbt,2,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1752,pagina,pagina,ok,,1,1,1,0,pdf,
+cr-rbt,2,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1752,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+cr-rbt,2,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1752,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+cr-rbt,2,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1752,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+cr-rbt,2,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1752,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+cr-rbt,2,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1752,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+cr-rbt,2,https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1752,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+id-isi-ars,2,https://journal.isi.ac.id/index.php/ars/article/view/3029,pagina,directo,no aplica,la URL devuelve una página,1,0,0,0,,
+id-isi-ars,2,https://journal.isi.ac.id/index.php/ars/article/view/3029,pagina,pagina,ok,,1,2,1,0,pdf,
+id-isi-ars,2,https://journal.isi.ac.id/index.php/ars/article/view/3029,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+id-isi-ars,2,https://journal.isi.ac.id/index.php/ars/article/view/3029,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+id-isi-ars,2,https://journal.isi.ac.id/index.php/ars/article/view/3029,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+id-isi-ars,2,https://journal.isi.ac.id/index.php/ars/article/view/3029,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+id-isi-ars,2,https://journal.isi.ac.id/index.php/ars/article/view/3029,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+id-isi-ars,2,https://journal.isi.ac.id/index.php/ars/article/view/3029,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+mx-ru-economicas,0,http://ru.iiec.unam.mx/110/1/voto_electronico.html,archivo,directo,no aplica,la URL devuelve una página,2,0,0,0,,
+mx-ru-economicas,0,http://ru.iiec.unam.mx/110/1/voto_electronico.html,archivo,pagina,ok,,2,1,0,0,,
+mx-ru-economicas,0,http://ru.iiec.unam.mx/110/1/voto_electronico.html,archivo,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+mx-ru-economicas,0,http://ru.iiec.unam.mx/110/1/voto_electronico.html,archivo,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+mx-ru-economicas,0,http://ru.iiec.unam.mx/110/1/voto_electronico.html,archivo,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+mx-ru-economicas,0,http://ru.iiec.unam.mx/110/1/voto_electronico.html,archivo,oai_mets,ok,,1,2,1,0,pdf,reference
+mx-ru-economicas,0,http://ru.iiec.unam.mx/110/1/voto_electronico.html,archivo,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+mx-ru-economicas,0,http://ru.iiec.unam.mx/110/1/voto_electronico.html,archivo,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-scielo,0,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300001,pagina,directo,no aplica,la URL devuelve una página,2,0,0,0,,
+ar-scielo,0,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300001,pagina,pagina,ok,,2,1,1,0,pdf,
+ar-scielo,0,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300001,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-scielo,0,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300001,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-scielo,0,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300001,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-scielo,0,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300001,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-scielo,0,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300001,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-scielo,0,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300001,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-scielo,1,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300002,pagina,directo,no aplica,la URL devuelve una página,2,0,0,0,,
+ar-scielo,1,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300002,pagina,pagina,ok,,2,1,1,0,pdf,
+ar-scielo,1,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300002,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-scielo,1,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300002,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-scielo,1,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300002,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-scielo,1,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300002,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-scielo,1,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300002,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-scielo,1,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300002,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+mx-ru-economicas,1,http://ru.iiec.unam.mx/2119/1/Olave%20Castillo%2C%20Patricia.pdf,archivo,directo,ok,,2,1,1,0,pdf,
+mx-ru-economicas,1,http://ru.iiec.unam.mx/2119/1/Olave%20Castillo%2C%20Patricia.pdf,archivo,pagina,no aplica,la URL devuelve un archivo,2,0,0,0,,
+mx-ru-economicas,1,http://ru.iiec.unam.mx/2119/1/Olave%20Castillo%2C%20Patricia.pdf,archivo,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+mx-ru-economicas,1,http://ru.iiec.unam.mx/2119/1/Olave%20Castillo%2C%20Patricia.pdf,archivo,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+mx-ru-economicas,1,http://ru.iiec.unam.mx/2119/1/Olave%20Castillo%2C%20Patricia.pdf,archivo,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+mx-ru-economicas,1,http://ru.iiec.unam.mx/2119/1/Olave%20Castillo%2C%20Patricia.pdf,archivo,oai_mets,ok,,1,1,1,0,pdf,reference
+mx-ru-economicas,1,http://ru.iiec.unam.mx/2119/1/Olave%20Castillo%2C%20Patricia.pdf,archivo,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+mx-ru-economicas,1,http://ru.iiec.unam.mx/2119/1/Olave%20Castillo%2C%20Patricia.pdf,archivo,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+ar-scielo,2,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300003,pagina,directo,no aplica,la URL devuelve una página,2,0,0,0,,
+ar-scielo,2,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300003,pagina,pagina,ok,,2,1,1,0,pdf,
+ar-scielo,2,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300003,pagina,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+ar-scielo,2,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300003,pagina,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+ar-scielo,2,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300003,pagina,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+ar-scielo,2,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300003,pagina,oai_mets,no aplica,el repositorio no ofrece mets,0,0,0,0,,
+ar-scielo,2,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300003,pagina,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+ar-scielo,2,http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300003,pagina,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+mx-ru-economicas,2,http://ru.iiec.unam.mx/2120/1/Galindo%20Ledezma%2C%20Magdalena.pdf,archivo,directo,ok,,2,1,1,0,pdf,
+mx-ru-economicas,2,http://ru.iiec.unam.mx/2120/1/Galindo%20Ledezma%2C%20Magdalena.pdf,archivo,pagina,no aplica,la URL devuelve un archivo,2,0,0,0,,
+mx-ru-economicas,2,http://ru.iiec.unam.mx/2120/1/Galindo%20Ledezma%2C%20Magdalena.pdf,archivo,doi_handle,no aplica,la URL no es un DOI ni un handle,0,0,0,0,,
+mx-ru-economicas,2,http://ru.iiec.unam.mx/2120/1/Galindo%20Ledezma%2C%20Magdalena.pdf,archivo,oai_xoai,no aplica,el repositorio no ofrece xoai,0,0,0,0,,
+mx-ru-economicas,2,http://ru.iiec.unam.mx/2120/1/Galindo%20Ledezma%2C%20Magdalena.pdf,archivo,oai_ore,no aplica,el repositorio no ofrece ore,0,0,0,0,,
+mx-ru-economicas,2,http://ru.iiec.unam.mx/2120/1/Galindo%20Ledezma%2C%20Magdalena.pdf,archivo,oai_mets,ok,,1,1,1,0,pdf,reference
+mx-ru-economicas,2,http://ru.iiec.unam.mx/2120/1/Galindo%20Ledezma%2C%20Magdalena.pdf,archivo,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+mx-ru-economicas,2,http://ru.iiec.unam.mx/2120/1/Galindo%20Ledezma%2C%20Magdalena.pdf,archivo,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+co-uniandes,0,https://hdl.handle.net/1992/77603,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+co-uniandes,0,https://hdl.handle.net/1992/77603,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+co-uniandes,0,https://hdl.handle.net/1992/77603,handle,doi_handle,sin archivos,,3,0,0,0,,
+co-uniandes,0,https://hdl.handle.net/1992/77603,handle,oai_xoai,ok,,1,8,0,0,,CC-LICENSE LICENSE ORIGINAL TEXT THUMBNAIL
+co-uniandes,0,https://hdl.handle.net/1992/77603,handle,oai_ore,ok,,1,2,0,0,,ORIGINAL
+co-uniandes,0,https://hdl.handle.net/1992/77603,handle,oai_mets,ok,,1,4,0,0,,ORIGINAL TEXT
+co-uniandes,0,https://hdl.handle.net/1992/77603,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+co-uniandes,0,https://hdl.handle.net/1992/77603,handle,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+co-uniandes,1,https://hdl.handle.net/1992/10571,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+co-uniandes,1,https://hdl.handle.net/1992/10571,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+co-uniandes,1,https://hdl.handle.net/1992/10571,handle,doi_handle,sin archivos,,3,0,0,0,,
+co-uniandes,1,https://hdl.handle.net/1992/10571,handle,oai_xoai,ok,,1,3,0,0,,ORIGINAL TEXT THUMBNAIL
+co-uniandes,1,https://hdl.handle.net/1992/10571,handle,oai_ore,ok,,1,1,0,0,,ORIGINAL
+co-uniandes,1,https://hdl.handle.net/1992/10571,handle,oai_mets,ok,,1,2,0,0,,ORIGINAL TEXT
+co-uniandes,1,https://hdl.handle.net/1992/10571,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+co-uniandes,1,https://hdl.handle.net/1992/10571,handle,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,
+co-uniandes,2,https://hdl.handle.net/1992/20454,handle,directo,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+co-uniandes,2,https://hdl.handle.net/1992/20454,handle,pagina,no aplica,la URL es un resolver (lo cubre doi_handle),0,0,0,0,,
+co-uniandes,2,https://hdl.handle.net/1992/20454,handle,doi_handle,sin archivos,,3,0,0,0,,
+co-uniandes,2,https://hdl.handle.net/1992/20454,handle,oai_xoai,ok,,1,5,0,0,,ORIGINAL TEXT THUMBNAIL
+co-uniandes,2,https://hdl.handle.net/1992/20454,handle,oai_ore,ok,,1,1,0,0,,ORIGINAL
+co-uniandes,2,https://hdl.handle.net/1992/20454,handle,oai_mets,ok,,1,3,0,0,,ORIGINAL TEXT
+co-uniandes,2,https://hdl.handle.net/1992/20454,handle,rest56,no aplica,sin REST de DSpace 5/6,0,0,0,0,,
+co-uniandes,2,https://hdl.handle.net/1992/20454,handle,rest7,no aplica,sin REST de DSpace 7+,0,0,0,0,,

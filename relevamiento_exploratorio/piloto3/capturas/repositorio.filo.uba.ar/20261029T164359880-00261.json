@@ -1,0 +1,89 @@
+{
+ "pedido": "20261029T164359880-00261",
+ "url": "https://repositorio.filo.uba.ar/server/api/core/bitstreams/822d1db6-cfb6-4a1f-9528-076f7ba6133c/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:51:03 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "vary",
+   "Origin,Access-Control-Request-Method,Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Mon, 23 Feb 2026 22:40:13 GMT"
+  ],
+  [
+   "etag",
+   "\"36175f43d00c44ea83d925c9a1459792\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:51:03 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline;filename=\"uba_ffyl_t_2015_904652.pdf\""
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/4415972"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

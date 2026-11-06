@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00318",
+ "url": "http://hdl.handle.net/11449/118219",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:53:00 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "location",
+   "https://repositorio.unesp.br/handle/11449/118219"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 16:54:39 GMT"
+  ],
+  [
+   "nel",
+   "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+  ],
+  [
+   "report-to",
+   "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=nPb7ec28LjByafSqXMMBTmOpvOSr%2F2OXbe42yNqcEskqVc%2Bq3cn0CE8vJ7jOnT0COXD5tD3uRfvG8B2llxWMJBDIfINbpJ1QAEmy46vuUZSXpxm9GeluqWUX4WVpwv1xQg%3D%3D\"}]}"
+  ],
+  [
+   "cf-cache-status",
+   "DYNAMIC"
+  ],
+  [
+   "server",
+   "cloudflare"
+  ],
+  [
+   "cf-ray",
+   "a523b19e8d4bfafe-EZE"
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

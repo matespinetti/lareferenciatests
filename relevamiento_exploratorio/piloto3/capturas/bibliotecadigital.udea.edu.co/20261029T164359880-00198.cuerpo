@@ -1,0 +1,589 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "8a96d364-10e3-4626-83ac-258778bfde98",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/8a96d364-10e3-4626-83ac-258778bfde98/item"
+        },
+        "bitstreams" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/8a96d364-10e3-4626-83ac-258778bfde98/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/8a96d364-10e3-4626-83ac-258778bfde98/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/8a96d364-10e3-4626-83ac-258778bfde98"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "c739784e-4391-4c27-b6fa-4b9214fef39e",
+              "uuid" : "c739784e-4391-4c27-b6fa-4b9214fef39e",
+              "name" : "MunozIvan_2016_EscenariosExplotacionSexual.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Artículo de investigación",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "c:/dspace/upload\\MunozIvan_2016_EscenariosExplotacionSexual.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "MunozIvan_2016_EscenariosExplotacionSexual.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 669026,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "5cdb0315d1a7bb1b4a9fe973d5d258fb"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/c739784e-4391-4c27-b6fa-4b9214fef39e/content"
+                },
+                "bundle" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/c739784e-4391-4c27-b6fa-4b9214fef39e/bundle"
+                },
+                "format" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/c739784e-4391-4c27-b6fa-4b9214fef39e/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/c739784e-4391-4c27-b6fa-4b9214fef39e/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/c739784e-4391-4c27-b6fa-4b9214fef39e"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/8a96d364-10e3-4626-83ac-258778bfde98/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "16d7372b-ae55-4a82-a310-9edf677ab3a9",
+      "name" : "CC-LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "CC-LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/16d7372b-ae55-4a82-a310-9edf677ab3a9/item"
+        },
+        "bitstreams" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/16d7372b-ae55-4a82-a310-9edf677ab3a9/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/16d7372b-ae55-4a82-a310-9edf677ab3a9/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/16d7372b-ae55-4a82-a310-9edf677ab3a9"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "67024ddf-0a36-4913-8ef4-e03e1c64dea9",
+              "uuid" : "67024ddf-0a36-4913-8ef4-e03e1c64dea9",
+              "name" : "license_url",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "org.dspace.license.CreativeCommons",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license_url",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "CC-LICENSE",
+              "sizeBytes" : 49,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "4afdbb8c545fd630ea7db775da747b2f"
+              },
+              "sequenceId" : 2,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/67024ddf-0a36-4913-8ef4-e03e1c64dea9/content"
+                },
+                "bundle" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/67024ddf-0a36-4913-8ef4-e03e1c64dea9/bundle"
+                },
+                "format" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/67024ddf-0a36-4913-8ef4-e03e1c64dea9/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/67024ddf-0a36-4913-8ef4-e03e1c64dea9/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/67024ddf-0a36-4913-8ef4-e03e1c64dea9"
+                }
+              }
+            }, {
+              "id" : "6f15ef42-37ba-4010-bdf9-0aa6b76713ee",
+              "uuid" : "6f15ef42-37ba-4010-bdf9-0aa6b76713ee",
+              "name" : "license_text",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "org.dspace.license.CreativeCommons",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license_text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "CC-LICENSE",
+              "sizeBytes" : 0,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "d41d8cd98f00b204e9800998ecf8427e"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/6f15ef42-37ba-4010-bdf9-0aa6b76713ee/content"
+                },
+                "bundle" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/6f15ef42-37ba-4010-bdf9-0aa6b76713ee/bundle"
+                },
+                "format" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/6f15ef42-37ba-4010-bdf9-0aa6b76713ee/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/6f15ef42-37ba-4010-bdf9-0aa6b76713ee/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/6f15ef42-37ba-4010-bdf9-0aa6b76713ee"
+                }
+              }
+            }, {
+              "id" : "b0d73c84-98d9-4e31-a8b0-a5bfafb5a9a9",
+              "uuid" : "b0d73c84-98d9-4e31-a8b0-a5bfafb5a9a9",
+              "name" : "license_rdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "org.dspace.license.CreativeCommons",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license_rdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "CC-LICENSE",
+              "sizeBytes" : 0,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "d41d8cd98f00b204e9800998ecf8427e"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/b0d73c84-98d9-4e31-a8b0-a5bfafb5a9a9/content"
+                },
+                "bundle" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/b0d73c84-98d9-4e31-a8b0-a5bfafb5a9a9/bundle"
+                },
+                "format" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/b0d73c84-98d9-4e31-a8b0-a5bfafb5a9a9/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/b0d73c84-98d9-4e31-a8b0-a5bfafb5a9a9/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/b0d73c84-98d9-4e31-a8b0-a5bfafb5a9a9"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 3
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/16d7372b-ae55-4a82-a310-9edf677ab3a9/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "1507d7c8-525b-4b16-908c-2bfb90310b78",
+      "name" : "LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/1507d7c8-525b-4b16-908c-2bfb90310b78/item"
+        },
+        "bitstreams" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/1507d7c8-525b-4b16-908c-2bfb90310b78/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/1507d7c8-525b-4b16-908c-2bfb90310b78/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/1507d7c8-525b-4b16-908c-2bfb90310b78"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "e84bd2c0-1bd9-4ec9-96e3-7ac4bbc3029a",
+              "uuid" : "e84bd2c0-1bd9-4ec9-96e3-7ac4bbc3029a",
+              "name" : "license.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "Written by org.dspace.content.LicenseUtils",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "LICENSE",
+              "sizeBytes" : 1748,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "8a4605be74aa9ea9d79846c1fba20a33"
+              },
+              "sequenceId" : 5,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/e84bd2c0-1bd9-4ec9-96e3-7ac4bbc3029a/content"
+                },
+                "bundle" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/e84bd2c0-1bd9-4ec9-96e3-7ac4bbc3029a/bundle"
+                },
+                "format" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/e84bd2c0-1bd9-4ec9-96e3-7ac4bbc3029a/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/e84bd2c0-1bd9-4ec9-96e3-7ac4bbc3029a/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/e84bd2c0-1bd9-4ec9-96e3-7ac4bbc3029a"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/1507d7c8-525b-4b16-908c-2bfb90310b78/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "6849ed32-92f1-49b7-876c-09b87c751153",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/6849ed32-92f1-49b7-876c-09b87c751153/item"
+        },
+        "bitstreams" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/6849ed32-92f1-49b7-876c-09b87c751153/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/6849ed32-92f1-49b7-876c-09b87c751153/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/6849ed32-92f1-49b7-876c-09b87c751153"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "979860c0-ff3f-4808-b49d-d3df79b55082",
+              "uuid" : "979860c0-ff3f-4808-b49d-d3df79b55082",
+              "name" : "MunozIvan_2016_EscenariosExplotacionSexual.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2025-03-26T22:05:34Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "MunozIvan_2016_EscenariosExplotacionSexual.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 48682,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "a914b009cae6650d6b17d359a7d10af8"
+              },
+              "sequenceId" : 10,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/979860c0-ff3f-4808-b49d-d3df79b55082/content"
+                },
+                "bundle" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/979860c0-ff3f-4808-b49d-d3df79b55082/bundle"
+                },
+                "format" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/979860c0-ff3f-4808-b49d-d3df79b55082/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/979860c0-ff3f-4808-b49d-d3df79b55082/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/979860c0-ff3f-4808-b49d-d3df79b55082"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/6849ed32-92f1-49b7-876c-09b87c751153/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "a040685f-f433-45a4-8046-a0829c664fd2",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/a040685f-f433-45a4-8046-a0829c664fd2/item"
+        },
+        "bitstreams" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/a040685f-f433-45a4-8046-a0829c664fd2/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/a040685f-f433-45a4-8046-a0829c664fd2/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/a040685f-f433-45a4-8046-a0829c664fd2"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "0847c187-d7c7-4999-8f94-89478315f004",
+              "uuid" : "0847c187-d7c7-4999-8f94-89478315f004",
+              "name" : "MunozIvan_2016_EscenariosExplotacionSexual.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Generated Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2025-03-26T22:05:34Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "MunozIvan_2016_EscenariosExplotacionSexual.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 13848,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "c1840d7174f1f683031ed7a25bbeadc1"
+              },
+              "sequenceId" : 11,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/0847c187-d7c7-4999-8f94-89478315f004/content"
+                },
+                "bundle" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/0847c187-d7c7-4999-8f94-89478315f004/bundle"
+                },
+                "format" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/0847c187-d7c7-4999-8f94-89478315f004/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/0847c187-d7c7-4999-8f94-89478315f004/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/0847c187-d7c7-4999-8f94-89478315f004"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles/a040685f-f433-45a4-8046-a0829c664fd2/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/00092240-5462-4530-b9c9-fa2b61b82e33/bundles?embed=bitstreams"
+    }
+  }
+}

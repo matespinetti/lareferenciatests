@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T15:41:02Z</responseDate><request verb="GetRecord" identifier="oai:riudg.udg.mx:20.500.12104/111546" metadataPrefix="mets">https://riudg.udg.mx/oai/request</request><GetRecord><record><header><identifier>oai:riudg.udg.mx:20.500.12104/111546</identifier><datestamp>2026-01-28T14:42:07Z</datestamp><setSpec>com_20.500.12104_4</setSpec><setSpec>col_20.500.12104_110639</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" PROFILE="DSpace METS SIP Profile 1.0" TYPE="DSpace ITEM" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_20.500.12104-111546" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:20.500.12104/111546">
+<metsHdr CREATEDATE="2026-10-29T09:41:02Z">
+<agent TYPE="ORGANIZATION" ROLE="CUSTODIAN">
+<name>RIUdeG</name>
+</agent>
+</metsHdr>
+<dmdSec ID="DMD_20.500.12104_111546">
+<mdWrap MDTYPE="MODS">
+<xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+<mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+<mods:extension>
+<mods:dateAccessioned encoding="iso8601">2026-01-28T14:42:07Z</mods:dateAccessioned>
+</mods:extension>
+<mods:extension>
+<mods:dateAvailable encoding="iso8601">2026-01-28T14:42:07Z</mods:dateAvailable>
+</mods:extension>
+<mods:identifier type="uri">https://hdl.handle.net/20.500.12104/111546</mods:identifier>
+<mods:language>
+<mods:languageTerm authority="rfc3066" />
+</mods:language>
+<mods:accessCondition type="useAndReproduction" />
+<mods:subject>
+<mods:topic>PSICOLOGÍA > Referencia</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>Psicología</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>Obras de consulta</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>Filosofía y psicología > Psicología > Psicología > Filosofía y teoría</mods:topic>
+</mods:subject>
+<mods:titleInfo>
+<mods:title>Sistemas y paradigmas</mods:title>
+</mods:titleInfo>
+<mods:genre>Libro</mods:genre>
+</mods:mods>
+</xmlData>
+</mdWrap>
+</dmdSec>
+<structMap TYPE="LOGICAL" LABEL="DSpace Object">
+<div TYPE="DSpace Object Contents" ADMID="DMD_20.500.12104_111546" />
+</structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

@@ -1,0 +1,109 @@
+{
+ "pedido": "20261029T121018255-00090",
+ "url": "https://rdu.unc.edu.ar/server/api/core/bitstreams/4166b297-a5e5-4334-866d-3f01b1c9c4da/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:13:22 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Wed, 19 Aug 2020 22:22:17 GMT"
+  ],
+  [
+   "etag",
+   "\"4863d09b9ef80a52cff6b47af3062b66\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 13:13:22 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"Oddone-charla.pdf\"; filename*=UTF-8''Oddone-charla.pdf"
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/279884"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "1; mode=block"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ],
+  [
+   "access-control-allow-methods",
+   "GET, POST, OPTIONS"
+  ],
+  [
+   "access-control-allow-headers",
+   "Origin, X-Requested-With, Content-Type, Accept, X-Correlation-ID, X-Referrer"
+  ],
+  [
+   "content-security-policy",
+   "frame-ancestors 'self' https://dspace-rdu-1.psi.unc.edu.ar"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

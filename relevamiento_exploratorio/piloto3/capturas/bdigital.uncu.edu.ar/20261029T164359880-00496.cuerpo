@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow:
+
+Sitemap: /sitemap.php
+
+
+Disallow: /remoto/
+Disallow: /ojs/
+Disallow: /OAI/
+Disallow: /OAIsnrd/
+Disallow: /cache/

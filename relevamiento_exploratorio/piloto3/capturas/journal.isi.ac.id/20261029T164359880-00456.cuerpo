@@ -1,0 +1,454 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Ars: Jurnal Seni Rupa dan Desain</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="Ars; seni rupa; desain; humaniora; budaya; kriya" />
+	<meta name="generator" content="Open Journal Systems 2.4.8.3" />
+	
+	<link rel="icon" href="https://journal.isi.ac.id/public/journals/1/journalFavicon_en_US.png" type="image/png" />	<link rel="stylesheet" href="https://journal.isi.ac.id/lib/pkp/styles/pkp.css" type="text/css" />
+	<link rel="stylesheet" href="https://journal.isi.ac.id/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://journal.isi.ac.id/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://journal.isi.ac.id/styles/compiled.css" type="text/css" />
+
+	<!-- Base Jquery -->
+	<script type="text/javascript" src="//www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			<!--
+			// Provide a local fallback if the CDN cannot be reached
+			if (typeof google == 'undefined') {
+				document.write(unescape("%3Cscript src='https://journal.isi.ac.id/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+				document.write(unescape("%3Cscript src='https://journal.isi.ac.id/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
+			} else {
+				google.load("jquery", "1.4.4");
+				google.load("jqueryui", "1.8.6");
+			}
+			// -->
+		</script>
+	
+	
+	
+	<link rel="stylesheet" href="https://journal.isi.ac.id/styles/sidebar.css" type="text/css" />		<link rel="stylesheet" href="https://journal.isi.ac.id/styles/rightSidebar.css" type="text/css" />	
+			<link rel="stylesheet" href="https://journal.isi.ac.id/public/journals/1/journalStyleSheet.css" type="text/css" />
+	
+	<!-- Default global locale keys for JavaScript -->
+	
+<script type="text/javascript">
+	jQuery.pkp = jQuery.pkp || { };
+	jQuery.pkp.locale = { };
+			
+				jQuery.pkp.locale.form_dataHasChanged = 'The data on this form has changed. Continue anyway?';
+	</script>
+	<!-- Compiled scripts -->
+			
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/functions/fontController.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/functions/general.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/functions/jqueryValidatorI18n.js"></script>
+
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/classes/Helper.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/classes/ObjectProxy.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/classes/Handler.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/classes/linkAction/LinkActionRequest.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/classes/features/Feature.js"></script>
+
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/controllers/SiteHandler.js"></script><!-- Included only for namespace definition -->
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/controllers/UrlInDivHandler.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/controllers/AutocompleteHandler.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/controllers/ExtrasOnDemandHandler.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/controllers/form/FormHandler.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/controllers/form/AjaxFormHandler.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/controllers/form/ClientFormHandler.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/controllers/grid/GridHandler.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/controllers/linkAction/LinkActionHandler.js"></script>
+
+<script type="text/javascript" src="https://journal.isi.ac.id/js/pages/search/SearchFormHandler.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/js/statistics/ReportGeneratorFormHandler.js"></script>
+<script type="text/javascript" src="https://journal.isi.ac.id/plugins/generic/lucene/js/LuceneAutocompleteHandler.js"></script>
+
+<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.pkp.js"></script>	
+	<!-- Form validation -->
+	<script type="text/javascript" src="https://journal.isi.ac.id/lib/pkp/js/lib/jquery/plugins/validate/jquery.validate.js"></script>
+	<script type="text/javascript">
+		<!--
+		// initialise plugins
+		
+		$(function(){
+			jqueryValidatorI18n("https://journal.isi.ac.id", "en_US"); // include the appropriate validation localization
+			
+			$(".tagit").live('click', function() {
+				$(this).find('input').focus();
+			});
+		});
+		// -->
+		
+	</script>
+
+		
+	<link rel="alternate" type="application/atom+xml" title="Ars: Jurnal Seni Rupa dan Desain (atom+xml)" href="https://journal.isi.ac.id/index.php/ars/gateway/plugin/WebFeedGatewayPlugin/atom" />
+	<link rel="alternate" type="application/rdf+xml" title="Ars: Jurnal Seni Rupa dan Desain (rdf+xml)" href="https://journal.isi.ac.id/index.php/ars/gateway/plugin/WebFeedGatewayPlugin/rss" />
+	<link rel="alternate" type="application/rss+xml" title="Ars: Jurnal Seni Rupa dan Desain (rss+xml)" href="https://journal.isi.ac.id/index.php/ars/gateway/plugin/WebFeedGatewayPlugin/rss2" />
+</head>
+<body id="pkp-common-openJournalSystems">
+<div id="container">
+
+<div id="header">
+<div id="headerTitle">
+<h1>
+	<img src="https://journal.isi.ac.id/public/journals/1/homeHeaderTitleImage_en_US.png" width="1021" height="154" alt="Ars: Jurnal Seni dan Desain" />
+</h1>
+</div>
+</div>
+
+<div id="body">
+
+	<div id="sidebar">
+							<div id="rightSidebar">
+				<div class="block" id="sidebarUser">
+			<span class="blockTitle">User</span>
+	
+												<form method="post" action="https://journal.isi.ac.id/index.php/ars/login/signIn">
+					<table>
+						<tr>
+							<td><label for="sidebar-username">Username</label></td>
+							<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+						</tr>
+						<tr>
+							<td><label for="sidebar-password">Password</label></td>
+							<td><input type="password" id="sidebar-password" name="password" value="" size="12" class="textField" /></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Remember me</label></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" value="Login" class="button" /></td>
+						</tr>
+					</table>
+				</form>
+						</div>
+<div class="block custom" id="customblock-Menu">
+	<ul class="sidemenu full">
+<li><a href="/index.php/ars/about/editorialPolicies#focusAndScope">Focus and Scope</a></li>
+<li><a href="/index.php/ars/about/editorialPolicies#sectionPolicies">Section Policies</a></li>
+<li><a href="/index.php/ars/about/editorialPolicies#peerReviewProcess">Peer Review Process</a></li>
+<li><a href="/index.php/ars/about/editorialPolicies#publicationFrequency">Publication Frequency</a></li>
+<li><a href="/index.php/ars/about/editorialPolicies#openAccessPolicy">Open Access Policy</a></li>
+<li><a href="/index.php/ars/about/editorialPolicies#custom-0">Publication Ethics</a></li>
+<li><a href="/index.php/ars/about/editorialPolicies#custom-1">Abstracting and Indexing</a></li>
+<li><a href="/index.php/ars/about/submissions#onlineSubmissions">Online Submissions</a></li>
+<li><a href="/index.php/ars/about/submissions#authorGuidelines">Author Guidelines</a></li>
+<li><a href="/index.php/ars/about/submissions#submissionPreparationChecklist">Submission Preparation Checklist</a></li>
+<li><a href="/index.php/ars/about/submissions#copyrightNotice">Copyright Notice</a></li>
+<li><a href="/index.php/ars/about/submissions#privacyStatement">Privacy Statement</a></li>
+<li><a href="/index.php/ars/about/submissions#authorFees">Author Fees</a></li>
+<li><a href="/index.php/ars/about/editorialTeam">Editorial Team</a></li>
+<li><a href="/index.php/ars/about/displayMembership/122">Reviewers</a></li>
+<li><a href="/index.php/ars/about/contact">Contact</a></li>
+</ul>
+</div>	<div class="block custom" id="customblock-Sidebar">
+	<p><span style="font-size: small;"><strong>Publisher:</strong></span></p>
+<p><a title="Faculty of Visual Arts and Design, Institut Seni Indonesia Yogyakarta" href="https://fsrd.isi.ac.id" target="_blank">Faculty of Visual Arts and Design, Institut Seni Indonesia Yogyakarta</a></p>
+<p>&nbsp;</p>
+<p>Jl. Parangtritis Km. 6,5 Sewon, Bantul, D. I. Yogyakarta, 55188, Indonesia</p>
+<p>Email: <a href="mailto:jurnal.ars@isi.ac.id">jurnal.ars@isi.ac.id</a></p>
+<p>&nbsp;</p>
+<p><a title="SINTA 3" href="https://drive.google.com/drive/folders/1ohDO53eiLNx8_qw8FMNZt2-by7wRn2uI?usp=drive_link" target="_blank"><img src="/public/site/images/widodo/SINTA_3.jpg" alt="Accreditation: SINTA 3" /></a></p>
+<p>&nbsp;</p>
+<p><a title="Journal Template" href="https://drive.google.com/drive/u/3/folders/1fTTj_xY_diA5hlOFwswEaYKwJ48ve_x8" target="_blank"><img src="/public/site/images/widodo/Journal_Template.png" alt="Journal Template" /></a></p>
+<p>&nbsp;</p>
+<p><a href="https://info.flagcounter.com/UVM2" target="_blank"><img src="https://s01.flagcounter.com/count/UVM2/bg_FFFFFF/txt_000000/border_FF00FF/columns_2/maxflags_10/viewers_Readers/labels_1/pageviews_1/flags_1/percent_0/" alt="Visitor Counter" border="0" /></a></p>
+</div>	<div class="block" id="sidebarNavigation">
+	<span class="blockTitle">Journal Content</span>
+
+	
+	
+	<form id="simpleSearchForm" action="https://journal.isi.ac.id/index.php/ars/search/search">
+				<table id="simpleSearchInput">
+			<tr>
+				<td>
+													<label for="simpleQuery">Search <br />
+					<input type="text" id="simpleQuery" name="simpleQuery" size="15" maxlength="255" value="" class="textField" /></label>
+								</td>
+			</tr>
+			<tr>
+				<td><label for="searchField">
+				Search Scope
+				<br />
+				<select id="searchField" name="searchField" size="1" class="selectMenu">
+					<option label="All" value="query">All</option>
+<option label="Authors" value="authors">Authors</option>
+<option label="Title" value="title">Title</option>
+<option label="Abstract" value="abstract">Abstract</option>
+<option label="Index terms" value="indexTerms">Index terms</option>
+<option label="Full Text" value="galleyFullText">Full Text</option>
+
+				</select></label>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Search" class="button" /></td>
+			</tr>
+		</table>
+	</form>
+
+	<br />
+
+		<span class="blockSubtitle">Browse</span>
+	<ul>
+		<li><a href="https://journal.isi.ac.id/index.php/ars/issue/archive">By Issue</a></li>
+		<li><a href="https://journal.isi.ac.id/index.php/ars/search/authors">By Author</a></li>
+		<li><a href="https://journal.isi.ac.id/index.php/ars/search/titles">By Title</a></li>
+		
+					<li><a href="https://journal.isi.ac.id/index.php/index">Other Journals</a></li>
+			<li><a href="https://journal.isi.ac.id/index.php/index/search/categories">Categories</a></li>			</ul>
+	</div>
+<div class="block" id="sidebarKeywordCloud">
+	<span class="blockTitle">Keywords</span>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=3D%20pen"><span style="font-size: 75%;">3D pen</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=Instagram"><span style="font-size: 77%;">Instagram</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=Sculpture%2C%20Technology%2C%20Binary%200%201"><span style="font-size: 77%;">Sculpture, Technology, Binary 0 1</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=desain"><span style="font-size: 92%;">desain</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=desain%20komunikasi%20visual"><span style="font-size: 77%;">desain komunikasi visual</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=desain%20pakaian"><span style="font-size: 77%;">desain pakaian</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=endemik%20Indonesia"><span style="font-size: 75%;">endemik Indonesia</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=filamen%20PLA"><span style="font-size: 75%;">filamen PLA</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=hibrida"><span style="font-size: 75%;">hibrida</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=kearifan%20lokal"><span style="font-size: 77%;">kearifan lokal</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=kritik%20sosial"><span style="font-size: 75%;">kritik sosial</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=lansia"><span style="font-size: 77%;">lansia</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=mural"><span style="font-size: 77%;">mural</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=pop-up"><span style="font-size: 75%;">pop-up</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=sampah"><span style="font-size: 75%;">sampah</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=semiotika%20visual"><span style="font-size: 77%;">semiotika visual</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=seni%20rupa"><span style="font-size: 92%;">seni rupa</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=seni%20rupa%2C%20desain"><span style="font-size: 173%;">seni rupa, desain</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=teknologi%20digital"><span style="font-size: 75%;">teknologi digital</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=transformasi"><span style="font-size: 75%;">transformasi</span></a>
+			<a href="https://journal.isi.ac.id/index.php/ars/search?subject=website"><span style="font-size: 75%;">website</span></a>
+	</div>
+			</div>
+			</div>
+
+<div id="main">
+<div id="navbar">
+	<ul class="menu">
+		<li id="home"><a href="https://journal.isi.ac.id/index.php/ars/index">Home</a></li>
+		<li id="about"><a href="https://journal.isi.ac.id/index.php/ars/about">About</a></li>
+
+					<li id="login"><a href="https://journal.isi.ac.id/index.php/ars/login">Login</a></li>
+							<li id="register"><a href="https://journal.isi.ac.id/index.php/ars/user/register">Register</a></li>
+										<li id="categories"><a href="https://journal.isi.ac.id/index.php/index/search/categories">Categories</a></li>
+							<li id="search"><a href="https://journal.isi.ac.id/index.php/ars/search">Search</a></li>
+		
+					<li id="current"><a href="https://journal.isi.ac.id/index.php/ars/issue/current">Current</a></li>
+			<li id="archives"><a href="https://journal.isi.ac.id/index.php/ars/issue/archive">Archives</a></li>
+		
+					<li id="announcements"><a href="https://journal.isi.ac.id/index.php/ars/announcement">Announcements</a></li>
+				
+
+													</ul>
+</div>
+<div id="breadcrumb">
+	<a href="https://journal.isi.ac.id/index.php/ars/index">Home</a> &gt;
+			<a href="https://journal.isi.ac.id/index.php/ars" class="current">Vol 29, No 2 (2026)</a></div>
+
+<h2>Ars: Jurnal Seni Rupa dan Desain</h2>
+
+
+<div id="content">
+
+
+	<div id="journalDescription"><p><strong><em>Ars: Jurnal Seni Rupa dan Desain</em></strong> is a peer-reviewed journal published by the Faculty of Visual Arts and Design, Institut Seni Indonesia Yogyakarta, Indonesia. The journal aims to publish academic works in the form of research findings, artistic research, critical studies, and literature reviews in the fields of visual arts and design.</p><p><em>Ars: Jurnal Seni Rupa dan Desain</em> is published three times a year, covering the periods January-April, May-August, and September-December. All published articles are assigned a DOI (Digital Object Identifier).</p><p>Since Volume 21 Year 2018, <em>Ars</em> has been nationally accredited. Based on <strong>Keputusan Direktur Jenderal Riset dan Pengembangan Kementerian Pendidikan Tinggi, Sains, dan Teknologi Nomor 156/C/C3/KPT/2026 tentang Peringkat Akreditasi Baru Jurnal Ilmiah Peringkat 3 sampai 6 Periode 2 Tahun 2025</strong>, dated 7 April 2026, <em>Ars</em> has been <strong>re-accredited at SINTA 3</strong>. The official decree listing <em>Ars</em> can be accessed at: <br /> <a title="SINTA 3" href="https://arjuna.kemdiktisaintek.go.id/#/pengumuman/710" target="_blank">https://arjuna.kemdiktisaintek.go.id/#/pengumuman/710</a><br />(see Appendix number 65/<em>Lampiran nomor 65</em>).</p><p><em>Ars: Jurnal Seni Rupa dan Desain</em> is indexed by</p><p><a href="https://scholar.google.com/citations?user=fEDHWd8AAAAJ" target="_blank"><img src="/public/site/images/widodo/Google_Scholar.jpg" alt="Google Scholar" /></a> <a href="https://garuda.kemdiktisaintek.go.id/journal/view/5600" target="_blank"><img src="/public/site/images/widodo/GARUDA.jpg" alt="GARUDA" /></a> <a href="https://sinta.kemdiktisaintek.go.id/journals/profile/4633" target="_blank"><img src="/public/site/images/widodo/SINTA.jpg" alt="SINTA" /></a> <a href="https://catalogue.leidenuniv.nl/primo-explore/search?query=any,contains,1829-7412&amp;tab=all_content&amp;vid=UBL_V1&amp;offset=0&amp;sortby=rank&amp;pcAvailability=true" target="_blank"><img src="/public/site/images/widodo/Universiteit_Leiden.jpg" alt="Universiteit Leiden" /></a> <a href="https://hollis.harvard.edu/primo-explore/search?query=any,contains,1829-7412&amp;tab=everything&amp;search_scope=everything&amp;vid=HVD2&amp;lang=en_US&amp;offset=0" target="_blank"><img src="/public/site/images/widodo/Harvard_Library.jpg" alt="Harvard Library" /></a></p><p>p-ISSN: <a title="p-ISSN" href="https://portal.issn.org/resource/ISSN/1829-7412" target="_blank">1829-7412</a> <br />e-ISSN: <a title="e-ISSN" href="https://portal.issn.org/resource/ISSN/2580-7374" target="_blank">2580-7374</a></p><div> </div></div>
+
+
+
+<br />
+<div id="homepageImage"><img src="https://journal.isi.ac.id/public/journals/1/homepageImage_en_US.jpg" width="1061" height="1500" alt="Ars: Jurnal Seni Rupa dan Desain" /></div>
+
+<br />
+<div id="additionalHomeContent"><!-- Banner 1: Submission --><div style="border: 0.5px solid #f0a0c0; border-radius: 12px; overflow: hidden;"><div style="border-left: 4px solid #C2185B; padding: 2rem 2.5rem; background: #fff0f5; display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap;"><!-- Left: Text content --><div style="flex: 1; min-width: 220px;"><p style="font-size: 15px; font-weight: bold; letter-spacing: 0.12em; color: #c2185b; margin: 0 0 0.5rem; text-transform: uppercase;">Submission</p><p style="font-size: 15px; color: #1a1a1a; margin: 0 0 0.6rem; line-height: 1.6;">Please log in to our website system using your username to begin a submission to <em>Ars: Jurnal Seni Rupa dan Desain</em> and click <span style="white-space: nowrap;">"New Submission"</span> in the Author role.</p><p style="font-size: 13px; color: #555; margin: 0; line-height: 1.6;">If you do not have a username, please register first by clicking the <strong style="color: #c2185b; font-weight: 500;">Register</strong> button.</p></div><!-- Right: Buttons --><div style="flex-shrink: 0; display: flex; flex-direction: column; gap: 10px; align-items: stretch;"><a style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 22px; border: 1px solid #C2185B; border-radius: 8px; font-size: 13px; font-weight: bold; color: #ffffff; text-decoration: none; background: #C2185B;" title="Log in to submit" href="/index.php/ars/login" target="_blank"> Log in to submit </a> <a style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 22px; border: 1px solid #C2185B; border-radius: 8px; font-size: 13px; font-weight: 500; color: #c2185b; text-decoration: none; background: #fff0f5;" title="Register" href="/index.php/ars/user/register" target="_blank"> Register </a></div></div></div><!-- Banner 2: Roles reminder --><div style="border: 0.5px solid #f0a0c0; border-radius: 12px; overflow: hidden; margin-top: 1rem;"><div style="border-left: 4px solid #C2185B; padding: 1.5rem 2.5rem; background: #fff0f5; display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap;"><!-- Left: Warning text --><p style="font-size: 13px; color: #555; margin: 0; line-height: 1.6; flex: 1; min-width: 220px;">⚠️ Do not forget to tick <strong style="color: #c2185b; font-weight: 500;">"Author"</strong> in the <strong style="color: #c2185b; font-weight: 600;">Roles</strong> selection in <a style="background: #ffd6e7; color: #c2185b; font-weight: 600; padding: 1px 6px; border-radius: 4px; text-decoration: none; white-space: nowrap;" href="/index.php/ars/user/profile#:~:text=%C2%A0%20Reader-,Author,-Bio%20Statement%0A(E" target="_blank">My Profile</a> to be able to submit a manuscript to <em>Ars: Jurnal Seni Rupa dan Desain</em>.</p><!-- Right: Roles widget --><div style="flex-shrink: 0; min-width: 150px; display: flex; flex-direction: column; align-items: center;"><div style="background: #ffffff; border: 0.5px solid #e0b0c8; border-radius: 8px; padding: 0.6rem 1rem; display: flex; flex-direction: column; gap: 5px; box-shadow: 0 1px 4px rgba(194,24,91,0.06);"><p style="font-size: 10px; font-weight: bold; color: #c2185b; margin: 0 0 5px; letter-spacing: 0.08em; text-transform: uppercase;">Roles</p><label style="display: flex; align-items: center; gap: 7px; font-size: 12px; color: #555;"> <span style="width: 14px; height: 14px; border-radius: 3px; background: #9c6fad; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: white; font-size: 10px;"> ✓ </span> Reader </label> <label style="display: flex; align-items: center; gap: 7px; font-size: 12px; color: #1a1a1a; font-weight: 600;"> <span style="width: 14px; height: 14px; border-radius: 3px; background: #9c6fad; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: white; font-size: 10px;"> ✓ </span> Author </label></div></div></div></div></div>
+
+		<div id="announcementsHome">
+		<h3>Announcements</h3>
+		<table class="announcements">
+	<tr>
+		<td colspan="2" class="headseparator">&nbsp;</td>
+	</tr>
+
+
+			<tr class="title">
+					<td class="title"><h4>Accreditation Update: SINTA 3</h4></td>
+					<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="description">
+			<td class="description"><p>We are pleased to announce that <em>Ars: Jurnal Seni Rupa dan Desain</em> has been re-accredited at SINTA 3, based on <strong>Keputusan Direktur Jenderal Riset dan Pengembangan Kementerian Pendidikan Tinggi, Sains, dan Teknologi Nomor 156/C/C3/KPT/2026 tentang Peringkat Akreditasi Baru Jurnal Ilmiah Peringkat 3 sampai 6 Periode 2 Tahun 2025</strong>, dated 7 April 2026.</p><p>The official decree can be accessed at: <a title="SINTA 3" href="https://arjuna.kemdiktisaintek.go.id/#/pengumuman/710" target="_blank">https://arjuna.kemdiktisaintek.go.id/#/pengumuman/710</a><br />(see Appendix number 65/<em>Lampiran nomor 65</em>).</p><p>We extend our sincere gratitude to all authors, reviewers, and editorial board members whose contributions have made this achievement possible.</p></td>
+			<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="details">
+			<td class="posted">Posted: 2026-04-10</td>
+					</tr>
+		<tr>
+		<td colspan="2" class="endseparator">&nbsp;</td>
+	</tr>
+	
+</table>	
+		<table class="announcementsMore">
+			<tr>
+				<td><a href="https://journal.isi.ac.id/index.php/ars/announcement">More Announcements...</a></td>
+			</tr>
+		</table>
+	</div>
+
+		<br />
+	<h3>Vol 29, No 2 (2026): Mei-Agustus 2026</h3>
+		<div id="issueDescription"></div>
+		<h3>Table of Contents</h3>
+	<h4 class="tocSectionTitle">Articles</h4>
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://journal.isi.ac.id/index.php/ars/article/view/19859">INSTAGRAM SEBAGAI RUANG APRESIASI DIGITAL: ANALISIS LUKISAN ABSTRAK KARYA DINIYAH NURMALA</a>
+					</div>
+		<div class="tocAuthors">
+												Aisyah Nurvita Pranata,									Ratih Ayu Pratiwinindya									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://journal.isi.ac.id/index.php/ars/article/view/19859/4945" class="file">PDF</a>
+																		</div>
+		<div class="tocPages">
+			81-94
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://journal.isi.ac.id/index.php/ars/article/view/19074">VISUALISASI WAKTU SEBAGAI WAJAH KEHIDUPAN MELALUI MEDIA SENI GRAFIS CETAK TINGGI</a>
+					</div>
+		<div class="tocAuthors">
+												Lutfi Rachman,									Dona Prawita Arissuta									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://journal.isi.ac.id/index.php/ars/article/view/19074/4978" class="file">PDF</a>
+																		</div>
+		<div class="tocPages">
+			95-102
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://journal.isi.ac.id/index.php/ars/article/view/19823">MODEL KONSEPTUAL ARTS-BASED ENTREPRENEURSHIP LEARNING (ABEL) PADA PEMBELAJARAN KEWIRAUSAHAAN DKV SMK: KAJIAN LITERATUR</a>
+					</div>
+		<div class="tocAuthors">
+												Kukuh Pribadi,									Dwi Kusumawardani,									Aprina Murwanti									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://journal.isi.ac.id/index.php/ars/article/view/19823/4980" class="file">PDF</a>
+																		</div>
+		<div class="tocPages">
+			103-110
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://journal.isi.ac.id/index.php/ars/article/view/19867">MOTIF ORNAMEN PADA KERAJINAN ALAT MUSIK TRADISIONAL MINANGKABAU: STUDI KASUS UMKM KERAJINAN SARI ALFATIH, NAGARI ANDALEH BARUH BUKIK, SUMATRA BARAT</a>
+					</div>
+		<div class="tocAuthors">
+												Fathur Rahman,									Ranelis Ranelis									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://journal.isi.ac.id/index.php/ars/article/view/19867/4981" class="file">PDF</a>
+																		</div>
+		<div class="tocPages">
+			111-122
+		</div>
+	</td>
+</tr>
+</table>
+
+
+
+
+	<br /><br />
+	<div id="pageFooter"><hr /><p>© 2026 <a title="Faculty of Visual Arts and Design, Institut Seni Indonesia Yogyakarta" href="https://fsrd.isi.ac.id" target="_blank">Faculty of Visual Arts and Design, Institut Seni Indonesia Yogyakarta</a>.</p><a title="CC BY-NC-ND 4.0" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license" target="_blank"><img style="border-width: 0;" src="/public/site/images/widodo/by-nc-nd.png" alt="The CC BY-NC-ND license" /></a><br /><a title="Ars" href="/index.php/ars/index" target="_blank"><em>Ars: Jurnal Seni Rupa dan Desain</em></a> is licensed under a <a title="Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license" target="_blank">CC BY-NC-ND 4.0</a>.<p> </p><!-- Default Statcounter code for Ars: Jurnal Seni Rupa dan
+Desain http://journal.isi.ac.id/index.php/ars --><script type="text/javascript">// <![CDATA[
+var sc_project=12059061; 
+var sc_invisible=0; 
+var sc_security="04db8163"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+// ]]></script><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div class="statcounter"&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a title="Web Analytics Made Easy - Statcounter" href="https://statcounter.com/" target="_blank"&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img class="statcounter" src="https://c.statcounter.com/12059061/0/04db8163/0/" alt="Web Analytics Made Easy - Statcounter" referrerPolicy="no-referrer-when-downgrade"&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- End of Statcounter Code --> <a title="Visitor" href="https://statcounter.com/p12059061/?guest=1" target="_blank">Visitor</a></div>
+</div><!-- content -->
+</div><!-- main -->
+</div><!-- body -->
+
+
+
+</div><!-- container -->
+</body>
+</html>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:46:21Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.unb.br:10482/31534" metadataPrefix="xoai">http://repositorio.unb.br/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.unb.br:10482/31534</identifier><datestamp>2026-10-06T20:06:05Z</datestamp><setSpec>com_10482_45725</setSpec><setSpec>col_10482_45732</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="author">
+            <element name="none">
+               <field name="value">Vilan Filho, Jayme Leiro</field>
+               <field name="value">Café, Luísa Chaves</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2018-04-01T18:58:36Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2018-04-01T18:58:36Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2013</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="citation">
+            <element name="pt_BR">
+               <field name="value">VILAN FILHO, Jayme Leiro; CAFÉ, Luísa Chaves. A comunidade de Museologia no Brasil: aspectos da produção e dos canais de comunicação. In: ENCONTRO NACIONAL DE PESQUISA EM CIÊNCIA DA INFORMAÇÃO, 14., 2013, Florianópolis. Anais... Florianópolis: ANCIB, 2013. Disponível em:&lt;http://enancib.sites.ufsc.br/index.php/enancib2013/XIVenancib/paper/viewFile/185/286>. Acesso em: 22 nov. 2013.</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://repositorio.unb.br/handle/10482/31534</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="pt_BR">
+            <field name="value">Evento realizado pela Associação Nacional de Pesquisa em Ciência da Informação (ANCIB) e organizado pelo Programa de Pós-Graduação em Ciência da Informação da Universidade Federal de Santa Catarina  (PGCIN-/UFSC).</field>
+         </element>
+         <element name="abstract">
+            <element name="pt_BR">
+               <field name="value">Apresenta estudo da área de Comunicação Científica referente a alguns aspectos da produção de artigos científicos e dos canais de comunicação mais utilizados pela comunidade científica de Museologia no Brasil entre 2000 e 2011. O objetivo do trabalho é identificar características da produção e dos canais formais de comunicação da área de Museologia em relação a: níveis de produção e colaboração, gênero dos autores, tipo de documento, idioma e nacionalidade. Apresenta um estudo descritivo que utiliza como metodologia a bibliometria, incluindo a análise de produção e de citação. Conclui que no período estudado a produção de artigos apresentou crescimento irregular, aumentaram os índices de colaboração, houve prevalência de autorias femininas, os documentos mais citados foram os livros seguidos pelos artigos de periódicos e a maioria dos documentos citados foi publicada no Brasil em língua portuguesa.</field>
+            </element>
+         </element>
+         <element name="abstract1">
+            <element name="pt_BR">
+               <field name="value">Presents study of scientific communication area for some aspects of the production of scientific papers and the communication channels used by the scientific community of Museology in Brazil between 2000 and 2011. The objective of this work is to identify characteristics of the production and formal channels of communication in the area of Museology in relation to: levels of production and collaboration, gender of authors, document type, language and nationality. Use bibliometrics including analysis of production and citation. Concludes that in the period studied the production of articles presented irregular growth, increased levels of collaboration, there was prevalence of female authorship, most cited papers were the books followed by journal articles and most of the citations were published in Brazil in Portuguese.</field>
+            </element>
+         </element>
+         <element name="unidade">
+            <element name="none">
+               <field name="value">Faculdade de Ciência da Informação (FCI)</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="pt_BR">
+               <field name="value">Português</field>
+            </element>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="pt_BR">
+            <field name="value">Acesso Aberto</field>
+         </element>
+         <element name="license">
+            <element name="pt_BR">
+               <field name="value">XIV ENCONTRO NACIONAL DE PESQUISA EM CIÊNCIA DA INFORMAÇÃO Declaração de Direito Autoral Autores que submetem a esta conferência concordam com os seguintes termos: a) Autores mantém os direitos autorais sobre o trabalho, permitindo à conferência colocá-lo sob uma licença Licença Creative Commons Attribution, que permite livremente a outros acessar, usar e compartilhar o trabalho com o crédito de autoria e apresentação inicial nesta conferência. b) Autores podem abrir mão dos termos da licença CC e definir contratos adicionais para a distribuição não-exclusiva e subseqüente publicação deste trabalho (ex.: publicar uma versão atualizada em um periódico, disponibilizar em repositório institucional, ou publicá-lo em livro), com o crédito de autoria e apresentação inicial nesta conferência. c) Além disso, autores são incentivados a publicar e compartilhar seus trabalhos online (ex.: em repositório institucional ou em sua página pessoal) a qualquer momento antes e depois da conferência. FONTE: http://enancib.sites.ufsc.br/index.php/enancib2013/XIVenancib/paper/viewFile/185/286. Acesso em: 22 nov. 2013.</field>
+            </element>
+         </element>
+      </element>
+      <element name="title">
+         <element name="pt_BR">
+            <field name="value">A comunidade de Museologia no Brasil : aspectos da produção e dos canais de comunicação</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="pt_BR">
+            <field name="value">Trabalho apresentado em evento</field>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="keyword">
+            <element name="pt_BR">
+               <field name="value">Bibliometria</field>
+               <field name="value">Produção científica</field>
+               <field name="value">Canais de comunicação</field>
+               <field name="value">Museologia</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">EVENTO_AcomunidadedeMuseologianoBrasil.pdf</field>
+               <field name="originalName">EVENTO_AcomunidadedeMuseologianoBrasil.pdf</field>
+               <field name="description" />
+               <field name="format">application/pdf</field>
+               <field name="size">776569</field>
+               <field name="url">http://repositorio.unb.br/bitstream/10482/31534/1/EVENTO_AcomunidadedeMuseologianoBrasil.pdf</field>
+               <field name="checksum">aff976035b40e900ae6baa33519d6458</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="drm">open access</field>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">license.txt</field>
+               <field name="format">text/plain</field>
+               <field name="size">102</field>
+               <field name="url">http://repositorio.unb.br/bitstream/10482/31534/2/license.txt</field>
+               <field name="checksum">aed4704d04bb260d4decd80db311aaa5</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="drm">open access</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">10482/31534</field>
+      <field name="identifier">oai:repositorio.unb.br:10482/31534</field>
+      <field name="lastModifyDate">2026-10-06 17:06:05.183</field>
+      <field name="drm">open access</field>
+   </element>
+   <element name="repository">
+      <field name="name">Repositório Institucional da UnB</field>
+      <field name="mail">repositorio@unb.br</field>
+   </element>
+   <element name="license">
+      <field name="bin">U3VibWlzc8OjbyBlZmV0aXZhZGEgZGUgYWNvcmRvIGNvbSBsaWNlbsOnYSBjb25jZWRpZGEgcGVsbyBhdXRvciBlL291IGRldGVudG9yIGRvcyBkaXJlaXRvcyBhdXRvcmFpcy4K</field>
+   </element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

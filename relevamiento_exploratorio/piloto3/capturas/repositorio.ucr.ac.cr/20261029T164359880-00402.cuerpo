@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:55:42Z</responseDate><request verb="GetRecord" identifier="oai:kerwa.ucr.ac.cr:10669/104675" metadataPrefix="ore">https://repositorio.ucr.ac.cr/server/oai/request</request><GetRecord><record><header><identifier>oai:kerwa.ucr.ac.cr:10669/104675</identifier><datestamp>2026-06-04T09:00:18Z</datestamp><setSpec>com_10669_1424</setSpec><setSpec>com_10669_1419</setSpec><setSpec>col_10669_255</setSpec></header><metadata><atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+   <atom:id>https://hdl.handle.net/10669/104675/ore.xml</atom:id>
+   <atom:link rel="alternate" href="https://hdl.handle.net/10669/104675" />
+   <atom:link rel="http://www.openarchives.org/ore/terms/describes" href="https://hdl.handle.net/10669/104675/ore.xml" />
+   <atom:link rel="self" type="application/atom+xml" href="https://hdl.handle.net/10669/104675/ore.xml#atom" />
+   <atom:published />
+   <atom:updated>2026-06-03T20:03:13Z</atom:updated>
+   <atom:source>
+      <atom:generator>Kérwá - Repositorio Universidad de Costa Rica</atom:generator>
+   </atom:source>
+   <atom:title>Proceso de enfermería a un usuario intervenido por resección de colon, en el posoperatorio tardio: reporte de caso</atom:title>
+   <atom:category scheme="http://www.openarchives.org/ore/terms/" term="http://www.openarchives.org/ore/terms/Aggregation" label="Aggregation" />
+   <atom:category scheme="http://www.openarchives.org/ore/atom/modified" term="2026-06-03T20:03:13Z" />
+   <atom:category scheme="http://www.dspace.org/objectModel/" term="DSpaceItem" label="DSpace Item" />
+   <atom:link rel="http://www.openarchives.org/ore/terms/aggregates" href="https://kerwa.ucr.ac.cr/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309/download" title="PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCIÓN DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf" type="application/pdf" length="1204370" />
+   <oreatom:triples>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://hdl.handle.net/10669/104675/ore.xml#atom">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceItem" />
+         <dcterms:modified>2026-06-03T20:03:13Z</dcterms:modified>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://kerwa.ucr.ac.cr/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+         <dcterms:description>ORIGINAL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://kerwa.ucr.ac.cr/bitstreams/9fd46825-b5c8-45e5-8b9d-ea63b873dbb4/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+         <dcterms:description>LICENSE</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://kerwa.ucr.ac.cr/bitstreams/8f6a53da-1d88-4ac7-88d6-5e3a46d9c131/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+         <dcterms:description>TEXT</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://kerwa.ucr.ac.cr/bitstreams/47f44abc-b4b0-4611-9236-9b0da2de68df/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+         <dcterms:description>THUMBNAIL</dcterms:description>
+      </rdf:Description>
+   </oreatom:triples>
+</atom:entry>
+</metadata></record></GetRecord></OAI-PMH>

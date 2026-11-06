@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T121018255-00033",
+ "url": "https://repositorio.uchile.cl/bitstream/2250/149589/1/Helicobacter-pylori.pdf",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:11:17 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ],
+  [
+   "set-cookie",
+   "techaro.lol-anubis-auth=; Path=/; Expires=Thu, 29 Oct 2026 12:10:17 GMT; Max-Age=0; Secure; SameSite=None"
+  ],
+  [
+   "set-cookie",
+   "techaro.lol-anubis-cookie-verification=01a18792-598c-794e-bfa1-9bf10cefa42d; Path=/; Expires=Thu, 29 Oct 2026 12:41:17 GMT; Secure; SameSite=None"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "x-frame-options",
+   "sameorigin"
+  ],
+  [
+   "keep-alive",
+   "timeout=1, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "archivo"
+}

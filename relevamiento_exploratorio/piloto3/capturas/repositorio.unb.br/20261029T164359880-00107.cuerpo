@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:47:16Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.unb.br:10482/15590" metadataPrefix="mets">http://repositorio.unb.br/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.unb.br:10482/15590</identifier><datestamp>2025-11-13T15:39:51Z</datestamp><setSpec>com_10482_45725</setSpec><setSpec>col_10482_45731</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_10482-15590" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:10482/15590">
+   <metsHdr CREATEDATE="2026-10-29T13:47:16Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositório Institucional da UnB</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_10482_15590">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Silva, Sérgio Leme da</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Coelho, Milena Vieira</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2014-05-12T14:34:03Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2014-05-12T14:34:03Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2014-05-12</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="citation">COELHO, Milena Vieira. “A influência da atividade física nos perfis de fragilidade, funcionalidade, cognição e qualidade de vida em populações de diferentes contextos ambientais rurais e urbanos”. x, 49 f., il. Dissertação (Mestrado em Ciências do Comportamento)—Universidade de Brasília, Brasília, 2014.</mods:identifier>
+               <mods:identifier type="uri">http://repositorio.unb.br/handle/10482/15590</mods:identifier>
+               <mods:abstract>O envelhecimento populacional vem acompanhado de vários declínios, entre eles o cognitivo e o funcional. O objetivo desta pesquisa foi avaliar se a atividade física pode ser um parâmetro protetor para os perfis de fragilidade, funcionalidade, cognição e qualidade de vida. Coletou-se dados de 240 participantes, sendo eles 107 de regiões rurais e 133 de regiões urbanas. Percebeu-se que, em ambos os grupos, aqueles que praticavam exercícios físicos possuíam melhores índices nas escalas. A Escala de Atividade de Vida Diária de Barthel mostrou diferença significativa apenas no meio rural, enquanto a escala de Atividades de Vida Diária Instrumentais de Pfeffer apresentou diferença significativa em ambos os grupos, indicando melhor funcionalidade nos grupos que praticam atividade física. A Escala de Fragilidade de Edmonton e o questionário de Qualidade de vida da OMS, World Health Organization Quality of Life- Old, mostraram diferença significativa apenas no grupo urbano, apontando uma maior fragilidade e menor qualidade de vida para aqueles que não fazem atividade física, diferentemente de idosos rurais. Em relação ao Mini Exame de Estado Mental- 2, houve diferença significativa nos grupos rural e urbano, sendo os praticantes de atividade física os que obtiveram os mais altos índices. Assim, a atividade física aparece como um possível fator de proteção aos declínios decorrentes do envelhecimento.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">por</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Acesso Aberto</mods:accessCondition>
+               <mods:titleInfo>
+                  <mods:title>“A influência da atividade física nos perfis de fragilidade, funcionalidade, cognição e qualidade de vida em populações de diferentes contextos ambientais rurais e urbanos”</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Dissertação</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_10482_15590">
+      <rightsMD ID="RIG_10482_15590">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TGljZW5zZSBncmFudGVkIGJ5IEFsYsOibmlhIEPDqXphciBkZSBNZWxvIChhbGJhbmlhQGJjZS51bmIuYnIpIG9uIDIwMTQtMDUtMDlUMTM6MjQ6MTlaIChHTVQpOgoKQSBjb25jZXNzw6NvIGRhIGxpY2Vuw6dhIGRlc3RlIGl0ZW0gcmVmZXJlLXNlIGFvIHRlcm1vIGRlIGF1dG9yaXphw6fDo28gaW1wcmVzc28gYXNzaW5hZG8gDQpwZWxvIGF1dG9yIGNvbSBhcyBzZWd1aW50ZXMgY29uZGnDp8O1ZXM6DQoNCk5hIHF1YWxpZGFkZSBkZSB0aXR1bGFyIGRvcyBkaXJlaXRvcyBkZSBhdXRvciBkYSBwdWJsaWNhw6fDo28sIGF1dG9yaXpvIGEgVW5pdmVyc2lkYWRlIGRlIEJyYXPDrWxpYQ0KIGUgbyBJQklDVCBhIGRpc3BvbmliaWxpemFyIHBvciBtZWlvIGRvcyBzaXRlcyB3d3cuYmNlLnVuYi5iciwgd3d3LmliaWN0LmJyLA0KIGh0dHA6Ly9oZXJjdWxlcy52dGxzLmNvbS9jZ2ktYmluL25kbHRkL2NoYW1lbGVvbj9sbmc9cHQmc2tpbj1uZGx0ZCBzZW0gcmVzc2FyY2ltZW50byBkb3MgDQpkaXJlaXRvcyBhdXRvcmFpcywgZGUgYWNvcmRvIGNvbSBhIExlaSBuwrogOTYxMC85OCwgbyB0ZXh0byBpbnRlZ3JhbCBkYSBvYnJhIGRpc3BvbmliaWxpemFkYSwNCiBjb25mb3JtZSBwZXJtaXNzw7VlcyBhc3NpbmFsYWRhcywgcGFyYSBmaW5zIGRlIGxlaXR1cmEsIGltcHJlc3PDo28gZS9vdSBkb3dubG9hZCwgYSB0w610dWxvIGRlIA0KZGl2dWxnYcOnw6NvIGRhIHByb2R1w6fDo28gY2llbnTDrWZpY2EgYnJhc2lsZWlyYSwgYSBwYXJ0aXIgZGVzdGEgZGF0YS4=</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_10482_15590_1">
+      <techMD ID="TECH_O_10482_15590_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>http://repositorio.unb.br/bitstream/10482/15590/1/2014_MilenaVieiraCoelho.pdf</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>3b9b43165d52661505ffa17eb8e05cfa</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>1241262</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>2014_MilenaVieiraCoelho.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_10482_15590_1" MIMETYPE="application/pdf" SEQ="1" SIZE="1241262" CHECKSUM="3b9b43165d52661505ffa17eb8e05cfa" CHECKSUMTYPE="MD5" ADMID="FO_10482_15590_1" GROUPID="GROUP_BITSTREAM_10482_15590_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://repositorio.unb.br/bitstream/10482/15590/1/2014_MilenaVieiraCoelho.pdf" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_10482_15590">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_10482_15590_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

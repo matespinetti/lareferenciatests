@@ -1,0 +1,512 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "23dc7f58-59c8-4165-9587-db438db1b20c",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/23dc7f58-59c8-4165-9587-db438db1b20c/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/23dc7f58-59c8-4165-9587-db438db1b20c/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/23dc7f58-59c8-4165-9587-db438db1b20c/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/23dc7f58-59c8-4165-9587-db438db1b20c"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "c7c58d89-51c2-495c-964d-2bf8d8134025",
+              "uuid" : "c7c58d89-51c2-495c-964d-2bf8d8134025",
+              "name" : "pfc.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "pfc.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "pfc.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 37961393,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "6d67538411e3c143473dadf3d4368134"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/c7c58d89-51c2-495c-964d-2bf8d8134025/content"
+                },
+                "bundle" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/c7c58d89-51c2-495c-964d-2bf8d8134025/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/c7c58d89-51c2-495c-964d-2bf8d8134025/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/c7c58d89-51c2-495c-964d-2bf8d8134025/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/c7c58d89-51c2-495c-964d-2bf8d8134025/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/c7c58d89-51c2-495c-964d-2bf8d8134025"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/23dc7f58-59c8-4165-9587-db438db1b20c/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "97b3fc93-e356-4003-8666-03267e74f16e",
+      "name" : "LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/97b3fc93-e356-4003-8666-03267e74f16e/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/97b3fc93-e356-4003-8666-03267e74f16e/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/97b3fc93-e356-4003-8666-03267e74f16e/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/97b3fc93-e356-4003-8666-03267e74f16e"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "5a29bea0-2336-469e-b4d9-f9ff5e056d9d",
+              "uuid" : "5a29bea0-2336-469e-b4d9-f9ff5e056d9d",
+              "name" : "license.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "Written by org.dspace.content.LicenseUtils",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dcterms.accessRights" : [ {
+                  "value" : "2026-02-04T13:51:13Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "LICENSE",
+              "sizeBytes" : 3960,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "621fd5e7599bd73fa864a4656ff7b1eb"
+              },
+              "sequenceId" : 2,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/5a29bea0-2336-469e-b4d9-f9ff5e056d9d/content"
+                },
+                "bundle" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/5a29bea0-2336-469e-b4d9-f9ff5e056d9d/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/5a29bea0-2336-469e-b4d9-f9ff5e056d9d/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/5a29bea0-2336-469e-b4d9-f9ff5e056d9d/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/5a29bea0-2336-469e-b4d9-f9ff5e056d9d/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/5a29bea0-2336-469e-b4d9-f9ff5e056d9d"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/97b3fc93-e356-4003-8666-03267e74f16e/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "57d2c8c7-dc99-4eca-89e6-ebe60ff76b40",
+      "name" : "CC-LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "CC-LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/57d2c8c7-dc99-4eca-89e6-ebe60ff76b40/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/57d2c8c7-dc99-4eca-89e6-ebe60ff76b40/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/57d2c8c7-dc99-4eca-89e6-ebe60ff76b40/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/57d2c8c7-dc99-4eca-89e6-ebe60ff76b40"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "03f49416-22e0-49fc-87c2-6c05d30273fa",
+              "uuid" : "03f49416-22e0-49fc-87c2-6c05d30273fa",
+              "name" : "license_rdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "org.dspace.license.CreativeCommons",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license_rdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "CC-LICENSE",
+              "sizeBytes" : 811,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "dcd65b54ea44c96ec931a7b8e0eb4099"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/03f49416-22e0-49fc-87c2-6c05d30273fa/content"
+                },
+                "bundle" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/03f49416-22e0-49fc-87c2-6c05d30273fa/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/03f49416-22e0-49fc-87c2-6c05d30273fa/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/03f49416-22e0-49fc-87c2-6c05d30273fa/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/03f49416-22e0-49fc-87c2-6c05d30273fa/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/03f49416-22e0-49fc-87c2-6c05d30273fa"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/57d2c8c7-dc99-4eca-89e6-ebe60ff76b40/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "6f1ae22b-b75b-4853-9811-e9d95c02fe53",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/6f1ae22b-b75b-4853-9811-e9d95c02fe53/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/6f1ae22b-b75b-4853-9811-e9d95c02fe53/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/6f1ae22b-b75b-4853-9811-e9d95c02fe53/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/6f1ae22b-b75b-4853-9811-e9d95c02fe53"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "cd51098a-9c89-461a-96f3-f7d2eea10860",
+              "uuid" : "cd51098a-9c89-461a-96f3-f7d2eea10860",
+              "name" : "pfc.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Generated Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2026-02-04T14:00:15Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "pfc.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 5741,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "a8a7a234133b7b8b48859337e0e61df6"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/cd51098a-9c89-461a-96f3-f7d2eea10860/content"
+                },
+                "bundle" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/cd51098a-9c89-461a-96f3-f7d2eea10860/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/cd51098a-9c89-461a-96f3-f7d2eea10860/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/cd51098a-9c89-461a-96f3-f7d2eea10860/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/cd51098a-9c89-461a-96f3-f7d2eea10860/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/cd51098a-9c89-461a-96f3-f7d2eea10860"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/6f1ae22b-b75b-4853-9811-e9d95c02fe53/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "44e566e1-64e4-463b-99f3-d73132b3687b",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/44e566e1-64e4-463b-99f3-d73132b3687b/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/44e566e1-64e4-463b-99f3-d73132b3687b/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/44e566e1-64e4-463b-99f3-d73132b3687b/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/44e566e1-64e4-463b-99f3-d73132b3687b"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "a79ef414-e1af-4734-ab52-27686d215921",
+              "uuid" : "a79ef414-e1af-4734-ab52-27686d215921",
+              "name" : "pfc.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-07-01T06:00:13Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "pfc.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 47171,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "1d1da47e364a53f5cbfca2dc55ae1dc9"
+              },
+              "sequenceId" : 5,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/a79ef414-e1af-4734-ab52-27686d215921/content"
+                },
+                "bundle" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/a79ef414-e1af-4734-ab52-27686d215921/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/a79ef414-e1af-4734-ab52-27686d215921/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/a79ef414-e1af-4734-ab52-27686d215921/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/a79ef414-e1af-4734-ab52-27686d215921/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams/a79ef414-e1af-4734-ab52-27686d215921"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rephip.unr.edu.ar/server/api/core/bundles/44e566e1-64e4-463b-99f3-d73132b3687b/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/items/003f97d3-9f8c-4c3f-8745-ac9d88f28785/bundles?embed=bitstreams"
+    }
+  }
+}

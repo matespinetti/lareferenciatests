@@ -1,0 +1,131 @@
+# Colibri - Repositorio Institucional, UdelaR
+# Politica de acceso automatizado v2 (DSpace 9.1) - 2026-09-18
+
+Sitemap: https://www.colibri.udelar.edu.uy/sitemap_index.xml
+Sitemap: https://www.colibri.udelar.edu.uy/sitemap_index.html
+
+
+User-agent: *
+Disallow: /search
+Disallow: /communities/*/search
+Disallow: /collections/*/search
+Disallow: /communities/*?spc.page
+Disallow: /collections/*?f
+Disallow: /entities/*?f
+Disallow: /server/opensearch
+Disallow: /statistics
+Disallow: /mydspace
+Disallow: /login
+Disallow: /register
+Disallow: /forgot
+Disallow: /profile
+Disallow: /subscriptions
+Disallow: /info/feedback
+Disallow: /submit
+Disallow: /workspaceitems
+Disallow: /workflowitems
+Disallow: /admin
+Disallow: /processes
+Crawl-delay: 5
+
+# ---------------------------------------------------------------------------
+# Buscadores
+# ---------------------------------------------------------------------------
+
+User-agent: Googlebot
+Allow: /handle/
+Allow: /items/
+Allow: /entities/
+Allow: /bitstreams/
+Allow: /bitstream/
+Allow: /browse
+Allow: /community-list
+Allow: /communities/
+Allow: /collections/
+Disallow: /search
+Disallow: /communities/*/search
+Disallow: /collections/*/search
+Disallow: /server/opensearch
+Disallow: /statistics
+
+# ---------------------------------------------------------------------------
+# SEO y analisis de backlinks: sin interes para el repositorio.
+# ---------------------------------------------------------------------------
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+# ---------------------------------------------------------------------------
+# Crawlers de entrenamiento de IA
+# ---------------------------------------------------------------------------
+
+User-agent: meta-externalagent
+Disallow: /search
+Disallow: /communities/*/search
+Disallow: /collections/*/search
+Disallow: /server/opensearch
+Disallow: /browse
+Disallow: /communities/*/browse
+Disallow: /collections/*/browse
+Crawl-delay: 10
+
+User-agent: GPTBot
+Disallow: /search
+Disallow: /communities/*/search
+Disallow: /collections/*/search
+Disallow: /server/opensearch
+Disallow: /browse
+Disallow: /communities/*/browse
+Disallow: /collections/*/browse
+Crawl-delay: 10
+
+User-agent: ClaudeBot
+Disallow: /search
+Disallow: /communities/*/search
+Disallow: /collections/*/search
+Disallow: /server/opensearch
+Disallow: /browse
+Disallow: /communities/*/browse
+Disallow: /collections/*/browse
+Crawl-delay: 10
+
+User-agent: Amazonbot
+Disallow: /search
+Disallow: /communities/*/search
+Disallow: /collections/*/search
+Disallow: /server/opensearch
+Disallow: /browse
+Disallow: /communities/*/browse
+Disallow: /collections/*/browse
+Crawl-delay: 10
+
+User-agent: PerplexityBot
+Disallow: /search
+Disallow: /communities/*/search
+Disallow: /collections/*/search
+Disallow: /server/opensearch
+Crawl-delay: 10
+
+User-agent: ChatGPT-User
+Disallow: /search
+Disallow: /communities/*/search
+Disallow: /collections/*/search
+Disallow: /server/opensearch

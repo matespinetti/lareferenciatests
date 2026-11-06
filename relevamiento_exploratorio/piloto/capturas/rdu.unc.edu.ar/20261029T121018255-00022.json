@@ -1,0 +1,69 @@
+{
+ "pedido": "20261029T121018255-00022",
+ "url": "https://rdu.unc.edu.ar/items/0008ac90-6815-41f6-981c-21855d1a1f73",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:10:56 GMT"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "498"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793275866"
+  ],
+  [
+   "link",
+   "<https://rdu.unc.edu.ar/bitstreams/7f7528f9-4043-4ded-90e6-d27100157eef/download> ; rel=\"item\" ; type=\"application/pdf\" , <https://rdu.unc.edu.ar/signposting/describedby/0008ac90-6815-41f6-981c-21855d1a1f73> ; rel=\"describedby\" ; type=\"application/vnd.datacite.datacite+xml\" , <http://hdl.handle.net/11086/560501> ; rel=\"cite-as\" , <https://rdu.unc.edu.ar/signposting/linksets/0008ac90-6815-41f6-981c-21855d1a1f73> ; rel=\"linkset\" ; type=\"application/linkset\" , <https://rdu.unc.edu.ar/signposting/linksets/0008ac90-6815-41f6-981c-21855d1a1f73/json> ; rel=\"linkset\" ; type=\"application/linkset+json\" , <https://schema.org/AboutPage> ; rel=\"type\" , <https://schema.org/CreativeWork> ; rel=\"type\""
+  ],
+  [
+   "etag",
+   "W/\"5e873-y7iDvOsrbp1w79qCW8CV3/z1tOg\""
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

@@ -1,0 +1,73 @@
+{
+ "pedido": "20261029T164359880-00408",
+ "url": "https://perio.unlp.edu.ar/ojs/index.php/question/oai?verb=ListMetadataFormats",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:55:57 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.63 (AlmaLinux) OpenSSL/3.5.8"
+  ],
+  [
+   "x-powered-by",
+   "PHP/8.3.36"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "x-frame-options",
+   "SAMEORIGIN"
+  ],
+  [
+   "referrer-policy",
+   "strict-origin-when-cross-origin"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000"
+  ],
+  [
+   "cache-control",
+   "max-age=3600"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:55:57 GMT"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "content-type",
+   "text/xml;charset=utf-8"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

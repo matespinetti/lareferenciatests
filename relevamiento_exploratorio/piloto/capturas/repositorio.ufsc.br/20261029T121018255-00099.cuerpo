@@ -1,0 +1,22 @@
+<html>
+<head>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body bgcolor="#f1f1f1">
+<div  style="text-align:center; width:100%;">
+<image src=/ufsct.png?20261029 width=500px >
+<h3>Sistema de Prevenção de Ataques da RedeUFSC</h3>
+<font color="#a0a0a0">Por motivos de segurança, esta validação será solicitada</br>caso o acesso ao site seja de fora da RedeUFSC,</br>ou se não estiver utilizando VPN.</font></br></br>
+<form action="" method="post" align=center>
+  <div style="text-align: center;">
+    <div class="cf-turnstile" data-sitekey="0x4AAAAAABz5ryErwCntgpE2"></div>
+    <!--div class="g-recaptcha" data-sitekey="" style="display: inline-block;"></div-->
+  </div>
+  <br>
+  <input type="submit" value="Acessar o site protegido" name="valida_">
+</form>
+</br><font color="#a0a0a0">Caso ainda tenha dúvidas de porque está vendo essa página,</br>abra um chamado no sistema de atendimento da SeTIC.</font>
+</div>
+</body>
+</html>
+

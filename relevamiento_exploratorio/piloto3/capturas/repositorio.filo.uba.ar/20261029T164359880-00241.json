@@ -1,0 +1,45 @@
+{
+ "pedido": "20261029T164359880-00241",
+ "url": "https://repositorio.filo.uba.ar/server/oai/request?verb=GetRecord&metadataPrefix=ore&identifier=oai:repositorio.filo.uba.ar:filodigital/2977",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:50:31 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "vary",
+   "Origin,Accept-Encoding,Access-Control-Request-Method,Access-Control-Request-Headers"
+  ],
+  [
+   "content-type",
+   "text/xml;charset=UTF-8"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "content-length",
+   "1274"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

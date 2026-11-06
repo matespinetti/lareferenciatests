@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+            <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+            <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+            <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+            <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+            <head><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<link rel="shortcut icon" href="/themes/Mirage2/images/favicon.ico">
+<link rel="apple-touch-icon" href="/themes/Mirage2/images/apple-touch-icon.png">
+<meta name="Generator" content="DSpace 6.3">
+<link href="/themes/Mirage2/styles/main.css" rel="stylesheet">
+<link href="/themes/Mirage2/styles/sisib.css" rel="stylesheet">
+<link type="application/opensearchdescription+xml" rel="search" href="http://repositorio.uchile.cl:80/open-search/description.xml" title="DSpace">
+<script>
+                //Clear default text of emty text areas on focus
+                function tFocus(element)
+                {
+                if (element.value == ' '){element.value='';}
+                }
+                //Clear default text of emty text areas on submit
+                function tSubmit(form)
+                {
+                var defaultedElements = document.getElementsByTagName("textarea");
+                for (var i=0; i != defaultedElements.length; i++){
+                if (defaultedElements[i].value == ' '){
+                defaultedElements[i].value='';}}
+                }
+                //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                function disableEnterKey(e)
+                {
+                var key;
+
+                if(window.event)
+                key = window.event.keyCode;     //Internet Explorer
+                else
+                key = e.which;     //Firefox and Netscape
+
+                if(key == 13)  //if "Enter" pressed, then disable!
+                return false;
+                else
+                return true;
+                }
+            </script><!--[if lt IE 9]>
+                <script src="/themes/Mirage2/vendor/html5shiv/dist/html5shiv.js"> </script>
+                <script src="/themes/Mirage2/vendor/respond/dest/respond.min.js"> </script>
+                <![endif]--><script src="/themes/Mirage2/vendor/modernizr/modernizr.js"></script>
+<title>Emerging topological multiferroics from the 2D Rice-Mele model</title>
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.creator" content="Vergara, Patricio" />
+<meta name="DC.creator" content="Saez, Guidobeth" />
+<meta name="DC.creator" content="Castro, Mario" />
+<meta name="DC.creator" content="Allende, Sebastian" />
+<meta name="DC.creator" content="Nunez, Alvaro S." />
+<meta name="DCTERMS.dateAccepted" content="2026-08-24T15:56:12Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2026-08-24T15:56:12Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2024" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.bibliographicCitation" content="Npj 2D Materials and Applications, vol. 8, no. 1, art. 41, 2024" />
+<meta name="DC.identifier" content="2397-7132" />
+<meta name="DC.identifier" content="10.1038/s41699-024-00478-5" />
+<meta name="DC.identifier" content="https://repositorio.uchile.cl/handle/2250/215317" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="We introduce a two-dimensional dimerized lattice model that reveals a remarkable feature: the emergence of a complex, non-trivial topological multiferroic phase marked by zero Berry curvature and a significant Berry connection that influences the model's bulk topology. This model extends the one-dimensional Rice-Mele Hamiltonian model to explore polarization-dependent topological properties in a 2D Su-Schrieffer-Heeger lattice, providing a detailed framework for studying the impact of symmetry-breaking and spatially varying potentials on electronic and spin properties. The findings are particularly relevant for spintronics, offering a foundation for topologically robust and electrically controlled spin-conducting edge states, with implications for developing advanced spin-dependent transport devices." />
+<meta name="DC.rights" content="Attribution-NonCommercial-NoDerivatives 4.0 International" />
+<meta name="DC.rights" content="https://creativecommons.org/licenses/by-nc-nd/4.0" scheme="DCTERMS.URI" />
+<meta name="DC.source" content="Npj 2D Materials and Applications" />
+<meta name="DC.title" content="Emerging topological multiferroics from the 2D Rice-Mele model" />
+<meta name="DC.type" content="Artículo de revista" />
+<meta name="DC.description" content="Versión publicada - versión final del editor" />
+<meta content="Art&iacute;culo de revista" name="citation_keywords">
+<meta content="Emerging topological multiferroics from the 2D Rice-Mele model" name="citation_title">
+<meta content="2397-7132" name="citation_issn">
+<meta content="Vergara, Patricio" name="citation_author">
+<meta content="Saez, Guidobeth" name="citation_author">
+<meta content="Castro, Mario" name="citation_author">
+<meta content="Allende, Sebastian" name="citation_author">
+<meta content="Nunez, Alvaro S." name="citation_author">
+<meta content="https://repositorio.uchile.cl/bitstream/2250/215317/-1/s41699-024-00478-5.pdf" name="citation_pdf_url">
+<meta content="2024" name="citation_date">
+<meta content="https://repositorio.uchile.cl/handle/2250/215317" name="citation_abstract_html_url">
+<script src="/themes/Mirage2/scripts/jquery.js"></script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-612527637d6edc53"></script><script src="/themes/Mirage2/scripts/selectFacultad.js"></script><script type="text/javascript" src="/themes/Mirage2/scripts/citacion.js"> 
+				</script><script src="/themes/Mirage2/scripts/sisib.js"></script><script src="/themes/Mirage2/scripts/citacion.js"></script><script src="/themes/Mirage2/scripts/copiar_cita.js"></script>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta itemprop="name" content="Repositorio Acad&eacute;mico - Universidad de Chile">
+<meta itemprop="description" content="">
+<meta itemprop="image" content="https://repositorio.uchile.cl/themes/Mirage2/images/respositorio-academico-uchile-Go.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@sisib">
+<meta name="twitter:title" content="Repositorio Acad&eacute;mico - Universidad de Chile">
+<meta name="twitter:description" content="Repositorio acad&eacute;mico de la Universidad de Chile. Tesis, art&iacute;culos y libros publicados en formato digital con distintos niveles de acceso">
+<meta name="twitter:creator" content="@sisib">
+<meta name="twitter:image" content="https://repositorio.uchile.cl/themes/Mirage2/images/respositorio-academico-uchile-tw.jpg">
+<meta name="og:title" content="Repositorio Acad&eacute;mico - Universidad de Chile">
+<meta name="og:type" content="article">
+<meta name="og:url" content="https://repositorio.uchile.cl/handle/2250/215317">
+<meta name="og:image" content="https://repositorio.uchile.cl/themes/Mirage2/images/respositorio-academico-uchile-fb.jpg">
+<meta name="og:description" content="Repositorio acad&eacute;mico de la Universidad de Chile. Tesis, art&iacute;culos y libros publicados en formato digital con distintos niveles de acceso">
+<meta name="og:site_name" content="Repositorio Acad&eacute;mico - Universidad de Chile">
+<meta itemprop="image" content="https://repositorio.uchile.cl/themes/Mirage2/images/repositorio-academico.jpg">
+<script src="https://platform-api.sharethis.com/js/sharethis.js#property=6474baed58d85b001927bc70&product=sop" type="text/javascript"></script>
+</head><body>
+<div class="row">
+<header>
+<div role="navigation" class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button data-toggle="offcanvas" class="navbar-toggle" type="button"><span class="sr-only">xmlui.mirage2.page-structure.toggleNavigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+<div class="sup_header">
+<div class="header_acerca">
+<a href="/page/acerca">About</a>
+</div>
+<div class="header_contacto">
+<a href="/page/contacto">Contact</a>
+</div>
+<div class="header_ayuda">
+<a href="/page/ayuda">Help</a>
+</div>
+<div class="header_publicar">
+<a href="/page/envia_libros">Sending publications</a>
+</div>
+<div class="header_publicar">
+<a href="/page/comoPublicar">How to publish</a>
+</div>
+</div>
+<div class="container">
+<div class="navbar-default">
+<a title="Repositorio Acad&eacute;mico de la Universidad de Chile" class="navbar-brand" href="/"></a>
+</div>
+</div>
+<div class="ds-option-set" id="ds-search-option">
+<form method="post" class="" id="ds-search-form" action="/discover">
+<fieldset>
+<div class="input-group">
+<label style=" text-indent: -5000px" id="label_buscar" for="query_buscar">Search</label><input placeholder="Search" size="100" type="text" class="ds-text-field form-control" id="query_buscar" name="query"><span class="input-group-btn"><button title="Search" class="ds-button-field btn btn-primary"><span title="Buscar" aria-hidden="true" class="glyphicon glyphicon-search"></span></button></span>
+</div>
+</fieldset>
+</form>
+<div id="busqueda-avan">
+<a href="/discover">Advanced Search</a>
+</div>
+</div>
+<div class="navbar-header pull-right visible-xs hidden-sm hidden-md hidden-lg">
+<ul class="nav nav-pills pull-left ">
+<li>
+<form method="get" action="/login" style="display: inline"></form>
+</li>
+</ul>
+</div>
+</div>
+<div class="navbar-header pull-right hidden-xs">
+<button type="button" class="navbar-toggle visible-sm" data-toggle="offcanvas"><span class="sr-only">xmlui.mirage2.page-structure.toggleNavigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+</div>
+</div>
+</div>
+</header>
+</div>
+<div class="trail-wrapper hidden-print">
+<div class="container">
+<div class="row">
+<div class="col-xs-8">
+<div class="breadcrumb dropdown visible-xs">
+<a data-toggle="dropdown" class="dropdown-toggle" role="button" href="#" id="trail-dropdown-toggle">View Item&nbsp;<b class="caret"></b></a>
+<ul aria-labelledby="trail-dropdown-toggle" role="menu" class="dropdown-menu">
+<li role="presentation">
+<a role="menuitem" href="/"><i aria-hidden="true" class="glyphicon glyphicon-home"></i>&nbsp;
+                        Home</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="/handle/2250/100004">Facultad de Ciencias F&iacute;sicas y Matem&aacute;ticas</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="/handle/2250/117687">Art&iacute;culos de revistas</a>
+</li>
+<li role="presentation" class="disabled">
+<a href="#" role="menuitem">View Item</a>
+</li>
+</ul>
+</div>
+<ul class="breadcrumb hidden-xs">
+<li>
+<i aria-hidden="true" class="glyphicon glyphicon-home"></i>&nbsp;
+		            <a href="/">Home</a>
+</li>
+<li>
+<a href="/handle/2250/100004">Facultad de Ciencias F&iacute;sicas y Matem&aacute;ticas</a>
+</li>
+<li>
+<a href="/handle/2250/117687">Art&iacute;culos de revistas</a>
+</li>
+<li class="active">View Item</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden" id="no-js-warning-wrapper">
+<div id="no-js-warning">
+<div class="notice failure">JavaScript is disabled for your browser. Some features of this site may not work without it.</div>
+</div>
+</div>
+<div class="row" id="main-container">
+<div class="row row-offcanvas row-offcanvas-right">
+<div class="horizontal-slider clearfix">
+<div class="container">
+<div role="navigation" id="sidebar" class="col-xs-6 col-sm-3 sidebar-offcanvas">
+<div class="word-break hidden-print" id="ds-options">
+<div>
+<h3 class="ds-option-set-head  h6"></h3>
+</div>
+<div id="aspect_viewArtifacts_Navigation_list_browse" class="list-group">
+<a class="list-group-item active"><span class="h5 list-group-item-heading  h5">Browse by</span></a><a href="/community-list" class="list-group-item ds-option">Communities and Collections</a><a href="/browse?type=dateissued" class="list-group-item ds-option">Date</a><a href="/browse?type=author" class="list-group-item ds-option">Authors</a><a href="/browse?type=title" class="list-group-item ds-option">Titles</a><a href="/browse?type=subject" class="list-group-item ds-option">Subjects</a><a class="list-group-item active"><span class="h5 list-group-item-heading  h5">This Collection</span></a><a href="/handle/2250/117687/browse?type=dateissued" class="list-group-item ds-option">Date</a><a href="/handle/2250/117687/browse?type=author" class="list-group-item ds-option">Authors</a><a href="/handle/2250/117687/browse?type=title" class="list-group-item ds-option">Titles</a><a href="/handle/2250/117687/browse?type=subject" class="list-group-item ds-option">Subjects</a>
+</div>
+<div>
+<h3 class="ds-option-set-head  h6">My Account</h3>
+</div>
+<div id="aspect_viewArtifacts_Navigation_list_account" class="list-group">
+<a href="/login" class="list-group-item ds-option">Login to my account</a><a href="/register" class="list-group-item ds-option">Register</a>
+</div>
+<div id="aspect_viewArtifacts_Navigation_list_context" class="list-group"></div>
+<div id="aspect_viewArtifacts_Navigation_list_administrative" class="list-group"></div>
+<div id="aspect_discovery_Navigation_list_discovery" class="list-group"></div>
+</div>
+<div id="dv_catalogo">
+<a onclick="window.open(this.href,'_blank'); return false;" href="https://bibliotecadigital.uchile.cl/" alt="Biblioteca Digital - Universidad de Chile" style="background: url(/themes/Mirage2/images/logo_biblioteca.svg) no-repeat">
+<div style="text-indent: -5000px">Biblioteca Digital - Universidad de Chile</div>
+</a>
+</div>
+<div id="revistaschilenas">
+<a href="https://revistaschilenas.uchile.cl" target="_blank" alt="Revistas Chilenas" style="background: url(/themes/Mirage2/images/banner-revistas.svg) no-repeat">
+<div style="text-indent: -5000px">Revistas Chilenas</div>
+</a>
+</div>
+<div id="repositorioslatinoamericanos">
+<a href="http://repositorioslatinoamericanos.uchile.cl" target="_blank" alt="Repositorios Latinoamericanos" style="background: url(/themes/Mirage2/images/rla.svg) no-repeat">
+<div style="text-indent: -5000px">Repositorios Latinoamericanos</div>
+</a>
+</div>
+<div id="tesislatinoamericanas">
+<a href="http://repositorioslatinoamericanos.uchile.cl/discover?filtertype=type&filter_relational_operator=equals&filter=Tesis" target="_blank" alt="Tesis LatinoAmericanas" style="background: url(/themes/Mirage2/images/telaam.svg) no-repeat">
+<div style="text-indent: -5000px">Tesis LatinoAmericanas</div>
+</a>
+</div>
+<div id="tesischilenas">
+<a href="http://repositorioslatinoamericanos.uchile.cl/handle/2250/1/discover?filtertype=type&filter_relational_operator=equals&filter=Tesis" target="_blank" alt="Tesis chilenas" style="background: url(/themes/Mirage2/images/tesis-chilenas.svg) no-repeat">
+<div style="text-indent: -5000px">Tesis chilenas</div>
+</a>
+</div>
+<div class="list-group" id="dv_enlacesRelacionados">
+<a class="list-group-item active"><span class="h5 list-group-item-heading h5">Related links</span></a><a class="list-group-item ds-option" href="http://roar.eprints.org/" id="EnlacesRelacionados2-link" onclick="window.open(this.href,'_blank');return false;" style="white-space:normal;"><span id="EnlacesRelacionados12-link">Registry of Open Access Repositories</span></a><a class="list-group-item ds-option" href="http://www.opendoar.org/" id="EnlacesRelacionados3-link" onclick="window.open(this.href,'_blank');return false;"><span id="EnlacesRelacionados13-link">OpenDOAR</span></a><a class="list-group-item ds-option" target="_black" href="https://scholar.google.com/">Google scholar</a><a class="list-group-item ds-option" target="_black" href="http://core.ac.uk/">CORE</a><a class="list-group-item ds-option" target="_black" href="https://www.base-search.net">BASE</a>
+</div>
+<div class="user_option">
+<a class="list-group-item active"><span class="h5 list-group-item-heading h5">My Account</span></a>
+<div class="list-group" id="aspect_viewArtifacts_Navigation_list_account">
+<a class="list-group-item ds-option" href="/login">Login to my account</a><a class="list-group-item ds-option" href="/register">Register</a>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-9 main-content">
+<div id="ds-body">
+<input id="meta" type="hidden" value="
+/loginen
+http80repositorio.uchile.clhandle/2250/2153176.3UA-57282998-1DSpaceopen-search/description.xml/contact/feedbackenEnglishentype:itemhdl:2250/215317type:collectionhdl:2250/117687Emerging topological multiferroics from the 2D Rice-Mele modelArt&iacute;culo de revistaEmerging topological multiferroics from the 2D Rice-Mele model2397-7132Vergara, PatricioSaez, GuidobethCastro, MarioAllende, SebastianNunez, Alvaro S.https://repositorio.uchile.cl/bitstream/2250/215317/-1/s41699-024-00478-5.pdf2024https://repositorio.uchile.cl/handle/2250/215317
+<link rel=&quot;schema.DCTERMS&quot; href=&quot;http://purl.org/dc/terms/&quot; />
+<link rel=&quot;schema.DC&quot; href=&quot;http://purl.org/dc/elements/1.1/&quot; />
+<meta name=&quot;DC.creator&quot; content=&quot;Vergara, Patricio&quot; />
+<meta name=&quot;DC.creator&quot; content=&quot;Saez, Guidobeth&quot; />
+<meta name=&quot;DC.creator&quot; content=&quot;Castro, Mario&quot; />
+<meta name=&quot;DC.creator&quot; content=&quot;Allende, Sebastian&quot; />
+<meta name=&quot;DC.creator&quot; content=&quot;Nunez, Alvaro S.&quot; />
+<meta name=&quot;DCTERMS.dateAccepted&quot; content=&quot;2026-08-24T15:56:12Z&quot; scheme=&quot;DCTERMS.W3CDTF&quot; />
+<meta name=&quot;DCTERMS.available&quot; content=&quot;2026-08-24T15:56:12Z&quot; scheme=&quot;DCTERMS.W3CDTF&quot; />
+<meta name=&quot;DCTERMS.issued&quot; content=&quot;2024&quot; scheme=&quot;DCTERMS.W3CDTF&quot; />
+<meta name=&quot;DCTERMS.bibliographicCitation&quot; content=&quot;Npj 2D Materials and Applications, vol. 8, no. 1, art. 41, 2024&quot; />
+<meta name=&quot;DC.identifier&quot; content=&quot;2397-7132&quot; />
+<meta name=&quot;DC.identifier&quot; content=&quot;10.1038/s41699-024-00478-5&quot; />
+<meta name=&quot;DC.identifier&quot; content=&quot;https://repositorio.uchile.cl/handle/2250/215317&quot; scheme=&quot;DCTERMS.URI&quot; />
+<meta name=&quot;DCTERMS.abstract&quot; content=&quot;We introduce a two-dimensional dimerized lattice model that reveals a remarkable feature: the emergence of a complex, non-trivial topological multiferroic phase marked by zero Berry curvature and a significant Berry connection that influences the model's bulk topology. This model extends the one-dimensional Rice-Mele Hamiltonian model to explore polarization-dependent topological properties in a 2D Su-Schrieffer-Heeger lattice, providing a detailed framework for studying the impact of symmetry-breaking and spatially varying potentials on electronic and spin properties. The findings are particularly relevant for spintronics, offering a foundation for topologically robust and electrically controlled spin-conducting edge states, with implications for developing advanced spin-dependent transport devices.&quot; />
+<meta name=&quot;DC.rights&quot; content=&quot;Attribution-NonCommercial-NoDerivatives 4.0 International&quot; />
+<meta name=&quot;DC.rights&quot; content=&quot;https://creativecommons.org/licenses/by-nc-nd/4.0&quot; scheme=&quot;DCTERMS.URI&quot; />
+<meta name=&quot;DC.source&quot; content=&quot;Npj 2D Materials and Applications&quot; />
+<meta name=&quot;DC.title&quot; content=&quot;Emerging topological multiferroics from the 2D Rice-Mele model&quot; />
+<meta name=&quot;DC.type&quot; content=&quot;Art&iacute;culo de revista&quot; />
+<meta name=&quot;DC.description&quot; content=&quot;Versi&oacute;n publicada - versi&oacute;n final del editor&quot; />
+xmlui.general.dspace_homeFacultad de Ciencias F&iacute;sicas y Matem&aacute;ticasArt&iacute;culos de revistasxmlui.ArtifactBrowser.ItemViewer.trail/discover/discoverqueryMirage2/Mirage2/
+
+">
+<div id="aspect_artifactbrowser_ItemViewer_div_item-view" class="ds-static-div primary">
+<!-- External Metadata URL: cocoon://metadata/handle/2250/215317/mets.xml-->
+<div class="item-summary-view-metadata" itemtype="http://schema.org/ScholarlyArticle" itemscope="itemscope">
+<h2 class="page-header first-page-header ourUch" itemprop="name">Emerging topological multiferroics from the 2D Rice-Mele model</h2>
+<div class="row paso">
+<div class="col-sm-4">
+<div class="row">
+<div class="col-xs-4 col-sm-12">
+<span class="tipo_obra_detalle"> Art&iacute;culo</span>
+<div class="thumbnail">
+<img alt="Thumbnail" src="/themes/Mirage2/images/cubierta.jpg"></div>
+</div>
+<div class="col-xs-8 col-sm-12">
+<div class="item-page-field-wrapper table word-break">
+<div class="boldc">Open/<wbr></wbr>Download</div>
+<div class="descargaSm">
+<a target="_black" href="/bitstream/handle/2250/215317/s41699-024-00478-5.pdf?sequence=-1&isAllowed=y"><img class="punto" src="/themes/Mirage2//images/pdf.png" alt="Icon">s41699-024-00478-5.pdf (1.478Mb)</a>
+</div>
+</div>
+</div>
+</div>
+<div class="simple-item-view-uri item-page-field-wrapper table acceso_nota">
+<div class="boldc">Access note</div>
+<span><span>Acceso abierto</span></span>
+</div>
+<div class="simple-item-view-date word-break item-page-field-wrapper table">
+<div class="boldc">Publication date</div>2024</div>
+<div class="simple-item-view-show-full item-page-field-wrapper table">
+<div class="boldc">Metadata</div>
+<a href="/handle/2250/215317?show=full">Show full item record</a>
+<div id="link1">
+<a href="javascript:void(0);" onclick="citarInicial()" title="Citar esta tesis">C&oacute;mo citar</a>
+<div id="cuadro_principal_cita">
+<div>
+<div style="display:none" id="mcontributor">Vergara, Patricio</div>
+<div class="tit_citar">C&oacute;mo citar</div>
+<span><b>Emerging topological multiferroics from the 2D Rice-Mele model</b></span><label>Formato de cita	
+								<select onchange=" actualizar()" id="formato" name="formato"><option selected value="apa">APA</option><option value="iso">ISO 690-2</option><option value="chicago">Chicago</option><option value="mla">MLA</option><option value="vancouver">Vancouver</option></select></label>
+<div id="herramientas">
+<div id="cuadro_citacion">
+<div id="cita" class="cita">.</div>
+<div style="position:relative;" id="d_clip_container" class="texto_compartir">
+<span class="d_clip_button" id="d_clip_button">Copiar</span>
+</div>
+<div style="position:relative;" class="texto_compartir">
+<a onclick="document.getElementById('cuadro_principal_cita').style.display = 'none'; return false;">Cerrar</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="impact-altmetric">
+<script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" type="text/javascript">﻿</script>
+<div class="altmetric-embed" id="altmetric" data-badge-type="donut" data-badge-popover="bottom" data-doi="10.1038/s41699-024-00478-5">
+                ﻿
+            </div>
+</div>
+</div>
+<div class="col-sm-8">
+<div class="simple-item-view-authors item-page-field-wrapper table">
+<div class="boldc">Author</div>
+<ul class="list-inline">
+<li>
+<a itemprop="author" href="/browse?type=author&value=Vergara, Patricio">Vergara, Patricio</a>;</li>
+<li>
+<a itemprop="author" href="/browse?type=author&value=Saez, Guidobeth">Saez, Guidobeth</a>;</li>
+<li>
+<a itemprop="author" href="/browse?type=author&value=Castro, Mario">Castro, Mario</a>;</li>
+<li>
+<a itemprop="author" href="/browse?type=author&value=Allende, Sebastian">Allende, Sebastian</a>;</li>
+<li>
+<a itemprop="author" href="/browse?type=author&value=Nunez, Alvaro S.">Nunez, Alvaro S.</a>;</li>
+</ul>
+</div>
+<div class="simple-item-view-description item-page-field-wrapper table">
+<div class="boldc">Abstract</div>
+<div itemprop="description">We introduce a two-dimensional dimerized lattice model that reveals a remarkable feature: the emergence of a complex, non-trivial topological multiferroic phase marked by zero Berry curvature and a significant Berry connection that influences the model's bulk topology. This model extends the one-dimensional Rice-Mele Hamiltonian model to explore polarization-dependent topological properties in a 2D Su-Schrieffer-Heeger lattice, providing a detailed framework for studying the impact of symmetry-breaking and spatially varying potentials on electronic and spin properties. The findings are particularly relevant for spintronics, offering a foundation for topologically robust and electrically controlled spin-conducting edge states, with implications for developing advanced spin-dependent transport devices.</div>
+</div>
+<div class="simple-item-view-description item-page-field-wrapper table">
+<div class="boldc">Indexation</div>
+<div>Art&iacute;culo de publicaci&oacute;n WoS</div>
+</div>
+<div class="simple-item-view-uri item-page-field-wrapper table">
+<div class="boldc">Identifier</div>
+<span>URI: <a itemprop="url" href="https://repositorio.uchile.cl/handle/2250/215317">https://repositorio.uchile.cl/handle/2250/215317</a></span>
+<br>
+<span>DOI: 10.1038/s41699-024-00478-5</span>
+<br>
+<span>ISSN: 2397-7132</span>
+</div>
+<div class="simple-item-view-uri item-page-field-wrapper table">
+<div class="boldc">Quote Item</div>
+<span><span>Npj 2D Materials and Applications, vol. 8, no. 1, art. 41, 2024</span></span>
+</div>
+<div class="simple-item-view-collections item-page-field-wrapper table">
+<div class="boldc">Collections</div>
+<ul class="ds-referenceSet-list">
+<!-- External Metadata URL: cocoon://metadata/handle/2250/117687/mets.xml-->
+<li>
+<a href="/handle/2250/117687">Art&iacute;culos de revistas</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row" about="https://repositorio.uchile.cl/handle/2250/215317">
+<div class="col-sm-3 col-xs-12">
+<a title="Attribution-NonCommercial-NoDerivatives 4.0 International" alt="Attribution-NonCommercial-NoDerivatives 4.0 International" href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="license"><img class="img-responsive" src="/themes/Mirage2//images/creativecommons/cc-by-nc-nd.png" alt="Attribution-NonCommercial-NoDerivatives 4.0 International"></a>
+</div>
+<div class="col-sm-8">
+<span>Except where otherwise noted, this item's license is described as Attribution-NonCommercial-NoDerivatives 4.0 International</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-xs hidden-sm"></div>
+</div>
+<footer>
+<div class="row colors">
+<div class="container ">
+<div class="col-xs-12 col-sm-4 col-md-4 izqN">
+<div class="redRL">xmlui.footer.title</div>
+<div class="bajaMR">31 participating institutions</div>
+<div>More than 100,000 publications</div>
+<div>More than 110,000 topics</div>
+<div>More than 75,000 authors</div>
+</div>
+<div class="col-md-8">
+<div class="col-xs-12 col-sm-4 col-md-4 hidden-print derN">
+<div class="tituloCD">Published in the repository</div>
+<div class="coldes">
+		
+<ul>
+			
+<li>
+<a href="/page/comoPublicar">How to publish</a>
+</li>
+			
+<li>
+<a href="/page/definiciones">Definitions</a>
+</li>
+			
+<li>
+<a href="/page/derechos_autor">Copyright</a>
+</li>
+			
+<li>
+<a href="/page/faq">Frequent questions</a>
+</li>
+			
+		
+</ul>
+	
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 hidden-print derN">
+<div class="tituloCD">Documents</div>
+<div class="coldes">
+		
+<ul>
+			
+<li>
+<a href="/pdf/guia.pdf">Dating Guide</a>
+</li>
+			
+<li>
+<a href="/pdf/Formulario_de_Autorizacion_de_tesis.pdf">Thesis authorization</a>
+</li>
+			
+<li>
+<a href="/pdf/Formulario_de_Autorizacion_de_documentos.pdf">Document authorization</a>
+</li>
+			
+<li>
+<a href="/pdf/Pauta_de_presentacion_de_tesis_2015.pdf">How to prepare a thesis (PDF)</a>
+</li>
+		
+</ul>
+	
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 hidden-print derN">
+<div class="tituloCD">Services</div>
+<div class="coldes">
+		
+<ul>
+			
+<li>
+<a href="https://bibliotecadigital.uchile.cl" target="_blank" rel="noopener">Digital library</a>
+</li>
+			
+<li>
+<a href="https://revistaschilenas.uchile.cl" target="_blank" rel="noopener">Chilean academic journals portal</a>
+</li>
+			
+<li>
+<a href="https://repositorioslatinoamericanos.uchile.cl/" target="_blank" rel="noopener">Latin American Repository Network</a>
+</li>
+			
+<li>
+<a href="https://repositorioslatinoamericanos.uchile.cl/discover?filtertype=type&filter_relational_operator=equals&filter=Tesis" target="_blank" rel="noopener">Latin American theses</a>
+</li>
+			
+<li>
+<a href="https://repositorioslatinoamericanos.uchile.cl/handle/2250/1/discover?filtertype=type&filter_relational_operator=equals&filter=Tesis" target="_blank" rel="noopener">Chilean theses</a>
+</li>
+		
+</ul>
+	
+</div>
+</div>
+<div class="bajaMR zizbim col-md-8">
+<span class="footer_sisib">Direcci&oacute;n de Servicios de Informaci&oacute;n y Bibliotecas (SISIB)<br>Universidad de Chile</span>
+<br>&copy; 2020 DSpace</div>
+<div class="col-md-2 ka">
+<div class="header_login login_footer">
+<ul class="nav navbar-nav">
+<li>
+<a href="/login">Access my account</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<a class="hidden" href="/htmlmap">&nbsp;</a>
+</footer>
+<script type="text/javascript">
+                         if(typeof window.publication === 'undefined'){
+                            window.publication={};
+                          };
+                        window.publication.contextPath= '';window.publication.themePath= '/themes/Mirage2/';</script><script>if(!window.DSpace){window.DSpace={};}window.DSpace.context_path='';window.DSpace.theme_path='/themes/Mirage2/';</script><script src="/themes/Mirage2/scripts/theme.js"> </script><script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-57282998-1', 'repositorio.uchile.cl');
+                ga('send', 'pageview');
+            </script><script src="https://www.googletagmanager.com/gtag/js?id=G-5VTJWRS9K3"></script><script>
+		
+			window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-5VTJWRS9K3');
+		
+		</script>
+</body></html>

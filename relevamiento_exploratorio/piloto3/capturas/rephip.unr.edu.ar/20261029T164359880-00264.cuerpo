@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:51:39Z</responseDate><request verb="GetRecord" identifier="oai:rephip.unr.edu.ar:2133/32082" metadataPrefix="xoai">https://rephip.unr.edu.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:rephip.unr.edu.ar:2133/32082</identifier><datestamp>2026-07-01T06:00:13Z</datestamp><setSpec>com_2133_9358</setSpec><setSpec>com_2133_60</setSpec><setSpec>col_2133_9361</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="advisor">
+            <element name="none">
+               <field name="value">Buzaglo, Alejandra</field>
+            </element>
+         </element>
+      </element>
+      <element name="creator">
+         <element name="none">
+            <field name="value">Cerfoglio, Juan Manuel</field>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2026-02-04T13:54:29Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2026-02-04T13:54:29Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2023-05-19</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/2133/32082</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="none">
+               <field name="value">El proyecto de Arquitectura es una opinion sobre determinado asunto. Mas entendido en su capacidad de reflexion y accion permite encontrar alternativas a las complejidades que nos atraviezan como sujetos, desde la disciplina..
+La materia con la que opera el proyecto es clave en cada lugar. Atender a la capacidad de transformacion de la materia en el tiempo es una estrategia del proyecto de paisaje. En este caso configura el espacio habitable atendiendo a las logicas del
+territorio: crecidas y sedimentacion. En otro registro atender a las logisticas que implica construir en la isla, esta propuesta asume la gestion como cuestion central. Las piezas y materiales que utiliza, o bien son propios del lugar o responden a una
+logica de traslado y una consepcion ecologica con materiales naturales.
+Con esta propuesta enfatizo la necesidad del empoderamiento local - de los gobiernos y la sociedad civil- aprovechando las oportunidades y el deseo potencial de vivir en comunión con el ambiente que habitamos, habilitando una forma de vivir la
+ciudad en profunda relación con la naturaleza. El Centro de Integración Ambiental , se presenta con una manifestacion material que escucha y reconoce la historia, oportunidades y complejidades de un territorio sumamente dinámico, fragil y particular. Intentando proponer una forma innovadora de construir en la isla, que permite entender y superar los fenómenos de un territorio sumamente complejo, utilizándolos de manera que potencie el proyecto.</field>
+            </element>
+         </element>
+         <element name="fil">
+            <element name="none">
+               <field name="value">Cerfoglio, Juan Manuel. Universidad Nacional de Rosario. Facultad de Arquitectura, Planeamiento y Diseño. Argentina.</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">es</field>
+            </element>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">openAccess</field>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://creativecommons.org/licenses/by-nc-nd/2.5/ar/</field>
+            </element>
+         </element>
+         <element name="text">
+            <element name="en">
+               <field name="value">Attribution-NonCommercial-NoDerivs 2.5 Argentina</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="none">
+            <field name="value">Isla</field>
+            <field name="value">Humedales</field>
+            <field name="value">Sedimentacion</field>
+            <field name="value">Ambiental</field>
+            <field name="value">Centro integracion ambiental</field>
+            <field name="value">Isla de los mastiles</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="none">
+            <field name="value">Configuración Territorial mediante sedimentación y crecidas - Centro de integracion ambiental &amp;quot;Isla de los Mástiles&amp;quot;</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">tesis</field>
+         </element>
+         <element name="collection">
+            <element name="none">
+               <field name="value">tesis</field>
+            </element>
+         </element>
+         <element name="other">
+            <element name="none">
+               <field name="value">tesis de grado</field>
+            </element>
+         </element>
+         <element name="version">
+            <element name="none">
+               <field name="value">publishedVersion</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">pfc.pdf</field>
+               <field name="originalName">pfc.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">37961393</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/c7c58d89-51c2-495c-964d-2bf8d8134025/download</field>
+               <field name="checksum">6d67538411e3c143473dadf3d4368134</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">Written by org.dspace.content.LicenseUtils</field>
+               <field name="format">text/plain</field>
+               <field name="size">3960</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/5a29bea0-2336-469e-b4d9-f9ff5e056d9d/download</field>
+               <field name="checksum">621fd5e7599bd73fa864a4656ff7b1eb</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">CC-LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license_rdf</field>
+               <field name="originalName">org.dspace.license.CreativeCommons</field>
+               <field name="format">application/rdf+xml; charset=utf-8</field>
+               <field name="size">811</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/03f49416-22e0-49fc-87c2-6c05d30273fa/download</field>
+               <field name="checksum">dcd65b54ea44c96ec931a7b8e0eb4099</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">pfc.pdf.jpg</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2026-02-04T14:00:15Z (GMT).</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">5741</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/cd51098a-9c89-461a-96f3-f7d2eea10860/download</field>
+               <field name="checksum">a8a7a234133b7b8b48859337e0e61df6</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">pfc.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-07-01T06:00:13Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">47171</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/a79ef414-e1af-4734-ab52-27686d215921/download</field>
+               <field name="checksum">1d1da47e364a53f5cbfca2dc55ae1dc9</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">2133/32082</field>
+      <field name="identifier">oai:rephip.unr.edu.ar:2133/32082</field>
+      <field name="lastModifyDate">2026-07-01T06:00:13.545694Z</field>
+      <element name="cc">
+         <field name="uri">http://creativecommons.org/licenses/by-nc-nd/2.5/ar/</field>
+         <field name="name">Attribution-NonCommercial-NoDerivs 2.5 Argentina</field>
+      </element>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://rephip.unr.edu.ar</field>
+      <field name="name">Repositorio Hipermedial UNR</field>
+      <field name="mail">rephip@unr.edu.ar</field>
+   </element>
+   <element name="license">
+      <field name="bin">PHA+UGFyYSBwZXJtaXRpciBhbCBSZXBIaXAgcmVwcm9kdWNpciwgdHJhZHVjaXIgeSBkaXN0cmlidWlyIHN1IGVudsOtbyBhIHRyYXbDqXMgZGVsIG11bmRvLCBuZWNlc2l0YW1vcyBzdSBjb25mb3JtaWRhZCBlbiBsb3Mgc2lndWllbnRlcyB0w6lybWlub3MuPC9wPjxwPkNvbmNlZGEgbGEgbGljZW5jaWEgZGUgZGlzdHJpYnVjacOzbiBlc3TDoW5kYXIgc2VsZWNjaW9uYW5kbyAnQ29uZmlybW8gbGEgbGljZW5jaWEnLjwvcD48aDQ+TGljZW5jaWEgUmVwSGlwVU5SIDwvaDQ+PHA+RWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIGVzIGVsIHJlcG9zaXRvcmlvIGluc3RpdHVjaW9uYWwgZGUgYWNjZXNvIGFiaWVydG8gZGUgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgUm9zYXJpbyBjcmVhZG8gcGFyYSBhcmNoaXZhciwgcHJlc2VydmFyIHkgZGlzdHJpYnVpciBkaWdpdGFsbWVudGUgbGEgY3JlYWNpw7NuIGludGVsZWN0dWFsIGRlIGVzdGEgdW5pdmVyc2lkYWQgZW4gYWNjZXNvIGxpYnJlIHkgZ3JhdHVpdG8geSByZXNndWFyZGFyIGEgc3UgdmV6IGxvcyBkZXJlY2hvcyBkZSBsb3MgYXV0b3Jlcy48L3A+PHA+UGFyYSBxdWUgZWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIChodHRwOi8vcmVwaGlwLnVuci5lZHUuYXIvKSBwdWVkYSBhbG1hY2VuYXIgeSBkaWZ1bmRpciBlbCBvYmpldG8gZGlnaXRhbCBkZXBvc2l0YWRvIChsYSBvYnJhKSwgZXMgbmVjZXNhcmlvIHF1ZSBsYSBwZXJzb25hIHF1ZSByZWFsaWNlIGVsIGRlcMOzc2l0byBsZWEgeSBhY2VwdGUgbGFzIGNvbmRpY2lvbmVzIGVzdGFibGVjaWRhcyBlbiBlc3RhIGxpY2VuY2lhOjwvcD48cD5MYS9FbCB0aXR1bGFyL2VzIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBsYSBvYnJhIGRlcG9zaXRhZGEgbyBsYSBwZXJzb25hIGRlbGVnYWRhIHBhcmEgaGFjZXJsbzo8L3A+PHA+R2FyYW50aXphIGEgbGEgVU5JVkVSU0lEQUQgZWwgZGVyZWNobyBubyBleGNsdXNpdm8gYSBhbG1hY2VuYXIgZW4gc2Vydmlkb3JlcywgcmVwcm9kdWNpciwgdHJhbnNmb3JtYXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pIHkgYSByZWFsaXphciBsYSBjb211bmljYWNpw7NuIHDDumJsaWNhIGRlIExBIE9CUkEgZGUgZm9ybWEgbGlicmUgeSBncmF0dWl0YSBhIHRvZG8gcMO6YmxpY28gZW4gZm9ybWF0byBkaWdpdGFsIGVuIGVsIHNpdGlvIHdlYiBkZWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIChodHRwOi8vcmVwaGlwLnVuci5lZHUuYXIvKS4gQWNlcHRhIHF1ZSBsYSBVTklWRVJTSURBRCBwdWVkZSwgc2luIGNhbWJpYXIgZWwgY29udGVuaWRvLCBjb252ZXJ0aXIgTEEgT0JSQSBhIGN1YWxxdWllciBvdHJvIGZvcm1hdG8gbyBtZWRpbyBjb24gZWwgcHJvcMOzc2l0byBkZSBwcmVzZXJ2YWNpw7NuIHkgcGFyYSBzdSBjb3JyZWN0YSB2aXN1YWxpemFjacOzbiBlbiBsYSB3ZWIuIEFjZXB0YSBxdWUgbGEgVU5JVkVSU0lEQUQgcHVlZGEgZ3VhcmRhciBtw6FzIGRlIHVuYSBjb3BpYSBkZSBMQSBPQlJBIGRlcG9zaXRhZGEgY29uIHByb3DDs3NpdG9zIGRlIHNlZ3VyaWRhZCwgY29waWFzIGRlIHJlZW1wbGF6byB5IHByZXNlcnZhY2nDs24uIFNpIGVsIG1hdGVyaWFsIGVudmlhZG8gY29udGllbmUgcGFydGVzIGRlIGxhcyBjdWFsZXMgRUwgQVVUT1Igbm8gZXMgZWwgdGl0dWxhciBkZSBsb3MgZGVyZWNob3MgZGUgcHJvcGllZGFkIGludGVsZWN0dWFsLCBlc3RlIG1hbmlmaWVzdGEgcXVlIGhhIG9idGVuaWRvIHBlcm1pc28gaXJyZXN0cmljdG8gZGVsIHRpdHVsYXIvZXMgZGUgZXN0b3MgZGVyZWNob3MgcGFyYSBvdG9yZ2FyIGEgbGEgVU5JVkVSU0lEQUQgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MgcG9yIGVzdGUgYWN1ZXJkbywgeSBxdWUgZXN0YSB0ZXJjZXJhIHBhcnRlIGVzIGNsYXJhbWVudGUgaWRlbnRpZmljYWJsZSBlbiBlbCB0ZXh0byBvIGNvbnRlbmlkbyBkZSBMQSBPQlJBIGRlcG9zaXRhZGEuIERlY2xhcmEgcXVlIGFsIGFjZXB0YXIgZWwgcHJlc2VudGUgYWN1ZXJkbyBubyBpbmZyaW5nZSBuaW5nw7puIGRlcmVjaG8gZGUgdGVyY2Vyb3MsIHNlYSBkZSBwcm9waWVkYWQgaW5kdXN0cmlhbCwgaW50ZWxlY3R1YWwsIHNlY3JldG8gY29tZXJjaWFsIG8gY3VhbHF1aWVyIG90cm8gZGVyZWNobyBzdXNjZXB0aWJsZSBkZSBwcm90ZWNjacOzbiBqdXLDrWRpY2EuIEFjZXB0YSBxdWUgbGFzIGdlc3Rpb25lcyBwYXJhIGxhIGV2ZW50dWFsIGluc2NyaXBjacOzbiBkZSBMQSBPQlJBIGFudGUgZWwgUmVnaXN0cm8gZGUgRGVyZWNob3MgZGUgQXV0b3Igc29uIGRlIHN1IGV4Y2x1c2l2YSByZXNwb25zYWJpbGlkYWQuIEVuIGNhc28gZGUgcXVlIExBIE9CUkEgZGVwb3NpdGFkYSBzZSBiYXNlIGVuIHVuIHRyYWJham8gcXVlIGZ1ZSBwYXRyb2NpbmFkbyBvIHBhZ2FkbyBwb3IgYWxndW5hIGFnZW5jaWEgdSBvcmdhbml6YWNpw7NuIGRpc3RpbnRhIGEgbGEgVU5JVkVSU0lEQUQsIG1hbmlmaWVzdGEgcXVlIGhhIGN1bXBsaWRvIGNvbiB0b2RhcyBsYXMgb2JsaWdhY2lvbmVzIHBvciBjb250cmF0byBvIGFjdWVyZG8gY29uIGVzdGEvcyBvcmdhbml6YWNpw7NuL2VzIG8gYWdlbmNpYS9zLiBEZWNsYXJhIHF1ZSBsYSBVTklWRVJTSURBRCBzZSBlbmN1ZW50cmEgbGlicmUgZGUgdG9kbyB0aXBvIGRlIHJlc3BvbnNhYmlsaWRhZCwgc2VhIGNpdmlsLCBhZG1pbmlzdHJhdGl2YSBvIHBlbmFsIHkgcXVlIGFzdW1lIHRvZGEgcmVzcG9uc2FiaWxpZGFkIGZyZW50ZSBhIGN1YWxxdWllciByZWNsYW1vIG8gZGVtYW5kYSBwb3IgcGFydGUgZGUgdGVyY2Vyb3MgZGUgbWFuZXJhIGV4Y2x1c2l2YS48L3A+PHA+RW4gdmlydHVkIGRlbCBjYXLDoWN0ZXIgbm8gZXhjbHVzaXZvIGRlbCBwcmVzZW50ZSBhY3VlcmRvLCBFTCBBVVRPUiBwb2Ryw6EgY29tdW5pY2FyIHkgZGFyIHB1YmxpY2lkYWQgbGlicmVtZW50ZSBhIExBIE9CUkEsIGVuIGN1YWxxdWllciB2ZXJzacOzbiB5IHBvciB0b2RvcyBsb3MgbWVkaW9zIHF1ZSBjb25zaWRlcmUgb3BvcnR1bm9zLiBBc2ltaXNtbyBlbCB0aXR1bGFyIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBwb2Ryw6Egc29saWNpdGFyIHVuIHJldHJhc28gdGVtcG9yYWwgKHBlcmlvZG8gZGUgZW1iYXJnbykgZGUgbGEgcHVlc3RhIGEgZGlzcG9zaWNpw7NuIHDDumJsaWNhIGRlIExBIE9CUkEuPC9wPjxwPkVsIEFVVE9SIHBvZHLDoSBzb2xpY2l0YXIgZWwgcmV0aXJvIGRlIExBIE9CUkEgZGVsIFJlcG9zaXRvcmlvIEhpcGVybWVkaWFsIFVOUiBzb2xhbWVudGUgcG9yIGNhdXNhcyBkZWJpZGFtZW50ZSBqdXN0aWZpY2FkYXMgeSBhY3JlZGl0YWRhcy48L3A+PHA+RW4gZnVuY2nDs24gZGUgbGFzIGNvbmRpY2lvbmVzIGVsZWdpZGFzIHBvciBFTCBBVVRPUiwgZWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIHNlbGVjY2lvbmFyw6EgdW5hIGxpY2VuY2lhIENyZWF0aXZlIENvbW1vbnMgY29tcGF0aWJsZSBxdWUgc2UgaW5jbHVpcsOhIHkgYXBsaWNhcsOhIGEgbGEgb2JyYS4gTGEgVU5JVkVSU0lEQUQgbm8gYXN1bWlyw6EgcmVzcG9uc2FiaWxpZGFkIGFsZ3VuYSBwb3Igb3Ryb3MgdXNvcyBubyBhdXRvcml6YWRvcyBkZSBMQSBPQlJBIG8gY29udHJhcmlvcyBhIGxhIGxlZ2lzbGFjacOzbiB2aWdlbnRlLjwvcD48cD5FbCBub21icmUgZGVsIEFVVE9SIHF1ZWRhcsOhIGNsYXJhbWVudGUgaWRlbnRpZmljYWRvIGVuIGVsIFJlcG9zaXRvcmlvIEhpcGVybWVkaWFsIFVOUiBjb21vIHJlc3BvbnNhYmxlIGRlbC9vcyBvYmpldG8vcyBkaWdpdGFsL2VzIGRlcG9zaXRhZG8vcywgeSBubyBzZSByZWFsaXphcsOhIG5pbmd1bmEgYWx0ZXJhY2nDs24sIHNhbHZvIGxhcyBwZXJtaXRpZGFzIHBvciBlc3RlIGFjdWVyZG8uPC9wPjxwPlNpIHRpZW5lIGFsZ3VuYSBkdWRhIHNvYnJlIGxhIGxpY2VuY2lhLCBwb3IgZmF2b3IsIGNvbnRhY3RlIGNvbiBlbCBhZG1pbmlzdHJhZG9yIGRlbCBzaXN0ZW1hLjwvcD4K</field>
+   </element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

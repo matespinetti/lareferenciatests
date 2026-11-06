@@ -1,0 +1,45 @@
+{
+ "pedido": "20261029T123837579-00117",
+ "url": "https://www.libros.unlp.edu.ar/index.php/unlp/catalog/book/2965",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:42:21 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.59 (Debian)"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "content-length",
+   "8429"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

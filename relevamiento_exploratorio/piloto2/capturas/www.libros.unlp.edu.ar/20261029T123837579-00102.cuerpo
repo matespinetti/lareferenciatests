@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://www.libros.unlp.edu.ar/lib/pkp/xml/oai2.xsl" ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+		http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+	<responseDate>2026-10-29T12:41:54Z</responseDate>
+	<request verb="Identify">https://www.libros.unlp.edu.ar/index.php/unlp/oai</request>
+	<Identify>
+		<repositoryName>Portal de Libros de la Universidad Nacional de La Plata</repositoryName>
+		<baseURL>https://www.libros.unlp.edu.ar/index.php/unlp/oai</baseURL>
+		<protocolVersion>2.0</protocolVersion>
+		<adminEmail>info@libros.unlp.edu.ar</adminEmail>
+		<earliestDatestamp>2015-03-26T11:16:59Z</earliestDatestamp>
+		<deletedRecord>persistent</deletedRecord>
+		<granularity>YYYY-MM-DDThh:mm:ssZ</granularity>
+		<compression>gzip</compression>
+		<compression>deflate</compression>
+		<description>
+			<oai-identifier
+				xmlns="http://www.openarchives.org/OAI/2.0/oai-identifier"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai-identifier
+					http://www.openarchives.org/OAI/2.0/oai-identifier.xsd">
+				<scheme>oai</scheme>
+				<repositoryIdentifier>omp.pkp.sfu.ca</repositoryIdentifier>
+				<delimiter>:</delimiter>
+				<sampleIdentifier>oai:omp.pkp.sfu.ca:publicationFormat/1</sampleIdentifier>
+			</oai-identifier>
+		</description>
+		<description>
+			<toolkit
+				xmlns="http://oai.dlib.vt.edu/OAI/metadata/toolkit"
+				xsi:schemaLocation="http://oai.dlib.vt.edu/OAI/metadata/toolkit
+					http://oai.dlib.vt.edu/OAI/metadata/toolkit.xsd">
+				<title>Open Monograph Press</title>
+				<author>
+					<name>Public Knowledge Project</name>
+					<email>pkp.contact@gmail.com</email>
+				</author>
+				<version>1.1.1.1</version>
+				<URL>http://pkp.sfu.ca/omp/</URL>
+			</toolkit>
+		</description>
+	</Identify>
+</OAI-PMH>

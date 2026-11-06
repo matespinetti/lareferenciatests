@@ -1,0 +1,73 @@
+{
+ "pedido": "20261029T164359880-00383",
+ "url": "https://repositorio.ucr.ac.cr/server/api/pid/find?id=10669/105088",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.24.0 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:54:52 GMT"
+  ],
+  [
+   "content-length",
+   "0"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "es"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "cache-control",
+   "no-cache, no-store, max-age=0, must-revalidate"
+  ],
+  [
+   "pragma",
+   "no-cache"
+  ],
+  [
+   "expires",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "location",
+   "https://repositorio.ucr.ac.cr/server/api/core/items/0003d8c6-1adc-403c-9ed5-4411cdb524e3"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

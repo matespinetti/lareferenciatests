@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T164359880-00015",
+ "url": "https://repositorio.uca.edu.ar/rest/status",
+ "codigo": 404,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.18.0"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:46:46 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "content-language",
+   "es"
+  ],
+  [
+   "x-oneagent-js-injection",
+   "true"
+  ],
+  [
+   "x-ruxit-js-agent",
+   "true"
+  ],
+  [
+   "server-timing",
+   "dtTrId;desc=\"7154169f0eb2f12ead4239911f47391c\", dtSInfo;desc=\"0\""
+  ],
+  [
+   "server-timing",
+   "dtRpid;desc=\"635368713\""
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

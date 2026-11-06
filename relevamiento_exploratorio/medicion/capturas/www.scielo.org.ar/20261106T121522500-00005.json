@@ -1,0 +1,41 @@
+{
+ "pedido": "20261106T121522500-00005",
+ "url": "https://www.scielo.org.ar/robots.txt",
+ "codigo": 404,
+ "encabezados": [
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:14:15 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.2.3 (CentOS)"
+  ],
+  [
+   "content-security-policy",
+   "upgrade-insecure-requests;"
+  ],
+  [
+   "content-length",
+   "290"
+  ],
+  [
+   "content-type",
+   "text/html; charset=iso-8859-1"
+  ],
+  [
+   "via",
+   "1.1 www.scielo.org.ar"
+  ],
+  [
+   "keep-alive",
+   "timeout=1, max=50"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

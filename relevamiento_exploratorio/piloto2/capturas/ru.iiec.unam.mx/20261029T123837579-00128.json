@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T123837579-00128",
+ "url": "https://ru.iiec.unam.mx/110/3/VI2010.pdf",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:43:10 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "etag",
+   "ceb5bfbce7ad57e12a24f32fd95852ec"
+  ],
+  [
+   "content-md5",
+   "zrW/vOetV+EqJPMv2VhS7A=="
+  ],
+  [
+   "last-modified",
+   "Wed, 20 May 2026 16:02:27 GMT"
+  ],
+  [
+   "expires",
+   "Fri, 29 Oct 2027 12:43:10 GMT"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=VI2010.pdf"
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/253779"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

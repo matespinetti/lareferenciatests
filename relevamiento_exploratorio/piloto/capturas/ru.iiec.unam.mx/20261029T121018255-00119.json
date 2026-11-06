@@ -1,0 +1,57 @@
+{
+ "pedido": "20261029T121018255-00119",
+ "url": "https://ru.iiec.unam.mx/26/1/Pobreza_concepciones,_medici%c3%b3n_y_programas.pdf",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:14:54 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "etag",
+   "623ff7ccfafb2ebe5851e5512744f2bf"
+  ],
+  [
+   "content-md5",
+   "Yj/3zPr7Lr5YUeVRJ0Tyvw=="
+  ],
+  [
+   "last-modified",
+   "Tue, 15 Nov 2011 00:31:25 GMT"
+  ],
+  [
+   "expires",
+   "Fri, 29 Oct 2027 12:14:55 GMT"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=Pobreza_concepciones%2C_medici%C3%B3n_y_programas.pdf"
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "content-length",
+   "4422738"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "pagina"
+}

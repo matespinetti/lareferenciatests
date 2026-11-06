@@ -1,0 +1,93 @@
+{
+ "pedido": "20261106T121522500-00039",
+ "url": "https://api.arca.fiocruz.br/api/core/bitstreams/e9309fb9-dc97-467f-854f-ad2e4d783285/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:16:37 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "1114832"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Thu, 30 Oct 2025 19:15:22 GMT"
+  ],
+  [
+   "etag",
+   "\"371aaee1154a6c19c4a9030e6547f7d1\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Fri, 06 Nov 2026 13:16:37 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"ve_Lia_Augusto_etal_IAM_2023.pdf\"; filename*=UTF-8''ve_Lia_Augusto_etal_IAM_2023.pdf"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubdomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

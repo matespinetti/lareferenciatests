@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T164359880-00182",
+ "url": "https://repositorio.ufmg.br//bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/download",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:49:22 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "121"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793292622"
+  ],
+  [
+   "location",
+   "https://repositorio.ufmg.br/server/api/core/bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/content"
+  ],
+  [
+   "vary",
+   "Accept"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=15724800; includeSubDomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

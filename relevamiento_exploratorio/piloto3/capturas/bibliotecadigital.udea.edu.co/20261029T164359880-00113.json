@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T164359880-00113",
+ "url": "https://bibliotecadigital.udea.edu.co",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:47:25 GMT"
+  ],
+  [
+   "content-type",
+   "text/html"
+  ],
+  [
+   "content-length",
+   "138"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "set-cookie",
+   "RFfG7CPD5NlStjOd=AQAAYENTRP3OXq1fkscSqLgFmjqpSL6e1Die9YUzJPcG5cGdeONqAAAAAACcAACciYXp90W7JNyS3wWnont7AAAALwr9UYdqWTWLSPuBxLg7AApVO-JWEFl20ayumkhnVAK7j0cOahmpsW2Dq0W4RyqXM2zvu9ZdAMjwwd-DmlWNMu7NDusONouQitYDdyf_Ad7_Cx2AO3-WJL3zgMwjv5xq6cMdVnaclJ8vMRYcf--UYpLUwa0vRA9ZazMdumXzv5K14VAggD; Path=/; SameSite=Lax; HttpOnly; Secure"
+  ],
+  [
+   "location",
+   "/challenge"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "permissions-policy",
+   "geolocation=(self \"https://bibliotecadigital.udea.edu.co\"), camera=(self) geolocation=(self) microphone=(self)"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=63072000; includeSubDomains; preload"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-forwarded-port",
+   "\"443\""
+  ],
+  [
+   "x-forwarded-proto",
+   "\"https\""
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

@@ -1,0 +1,49 @@
+{
+ "pedido": "20261029T121018255-00095",
+ "url": "https://revistas.unlp.edu.ar/ejs/article/download/17502/17061",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:13:29 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "accept-ranges",
+   "none"
+  ],
+  [
+   "content-disposition",
+   "attachment;filename=art6.pdf;filename*=UTF-8''art6.pdf"
+  ],
+  [
+   "cache-control",
+   "private"
+  ],
+  [
+   "pragma",
+   "public"
+  ],
+  [
+   "keep-alive",
+   "timeout=2, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "archivo"
+}

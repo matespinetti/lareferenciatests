@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T17:02:59Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.uniandes.edu.co:1992/20454" metadataPrefix="mets">https://repositorio.uniandes.edu.co/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.uniandes.edu.co:1992/20454</identifier><datestamp>2026-07-28T09:00:21Z</datestamp><setSpec>com_1992_52127</setSpec><setSpec>com_1992_52103</setSpec><setSpec>com_1992_51809</setSpec><setSpec>col_1992_52382</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_1992-20454" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:1992/20454">
+   <metsHdr CREATEDATE="2026-10-29T17:02:59Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositorio institucional Séneca</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_1992_20454">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Zalamea Zamora, Paul Camilo</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>De La Pava Arango, Ricardo</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2018-09-28T20:21:09Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2018-09-28T20:21:09Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2008</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">https://hdl.handle.net/1992/20454</mods:identifier>
+               <mods:identifier type="instname">instname:Universidad de los Andes</mods:identifier>
+               <mods:identifier type="reponame">reponame:Repositorio Institucional Séneca</mods:identifier>
+               <mods:identifier type="repourl">repourl:https://repositorio.uniandes.edu.co/</mods:identifier>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction"/>
+               <mods:titleInfo>
+                  <mods:title>Periodicidad y patrones de crecimiento en dos poblaciones de montaña de cecropia angustifolia trécul</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Trabajo de grado - Pregrado</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_1992_20454_1">
+      <techMD ID="TECH_O_1992_20454_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://dspace-new-uniandes.metabuscador.org/bitstreams/0f8fb6c7-848d-4e5f-a80c-a4e9f9064214/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>62aa19fcffffe0c17dfaf320ef4f5d79</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>1181966</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Periodicidad y patrones de crecimiento en dos poblaciones de montana de cecropia angustifolia trecul.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_1992_20454_4">
+      <techMD ID="TECH_T_1992_20454_4">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://dspace-new-uniandes.metabuscador.org/bitstreams/ca265113-e36c-469d-976a-34ae9573bd43/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>46a5ef6b6fd05c673a6e1d2e862f9554</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>71515</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>u336136.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_1992_20454_6">
+      <techMD ID="TECH_T_1992_20454_6">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://dspace-new-uniandes.metabuscador.org/bitstreams/c080a772-066d-4d5a-a311-79db96692af5/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>34e9c88ecc5d8290e70ef3ee21f95a5a</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>72633</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Periodicidad y patrones de crecimiento en dos poblaciones de montana de cecropia angustifolia trecul.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_1992_20454_1" MIMETYPE="application/pdf" SEQ="1" SIZE="1181966" CHECKSUM="62aa19fcffffe0c17dfaf320ef4f5d79" CHECKSUMTYPE="MD5" ADMID="FO_1992_20454_1" GROUPID="GROUP_BITSTREAM_1992_20454_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://dspace-new-uniandes.metabuscador.org/bitstreams/0f8fb6c7-848d-4e5f-a80c-a4e9f9064214/download"/>
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_1992_20454_4" MIMETYPE="text/plain" SEQ="4" SIZE="71515" CHECKSUM="46a5ef6b6fd05c673a6e1d2e862f9554" CHECKSUMTYPE="MD5" ADMID="FT_1992_20454_4" GROUPID="GROUP_BITSTREAM_1992_20454_4">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://dspace-new-uniandes.metabuscador.org/bitstreams/ca265113-e36c-469d-976a-34ae9573bd43/download"/>
+         </file>
+         <file ID="BITSTREAM_TEXT_1992_20454_6" MIMETYPE="text/plain" SEQ="6" SIZE="72633" CHECKSUM="34e9c88ecc5d8290e70ef3ee21f95a5a" CHECKSUMTYPE="MD5" ADMID="FT_1992_20454_6" GROUPID="GROUP_BITSTREAM_1992_20454_6">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://dspace-new-uniandes.metabuscador.org/bitstreams/c080a772-066d-4d5a-a311-79db96692af5/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_1992_20454">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_1992_20454_1"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record></GetRecord></OAI-PMH>

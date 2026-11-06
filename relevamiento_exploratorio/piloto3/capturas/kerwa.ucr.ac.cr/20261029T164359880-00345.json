@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T164359880-00345",
+ "url": "https://kerwa.ucr.ac.cr/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "1378"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:53:40 GMT"
+  ],
+  [
+   "access-control-allow-origin",
+   "https://kerwa.ucr.ac.cr"
+  ],
+  [
+   "access-control-allow-methods",
+   "GET, POST, OPTIONS, PUT, DELETE"
+  ],
+  [
+   "access-control-allow-headers",
+   "Content-Type, Authorization"
+  ],
+  [
+   "access-control-allow-credentials",
+   "true"
+  ],
+  [
+   "etag",
+   "W/\"d6a-NFaW/UkEuHZRYQEUtMZTTN/a9UM-gzip\""
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

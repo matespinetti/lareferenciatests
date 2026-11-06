@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T15:40:20Z</responseDate><request verb="GetRecord" identifier="oai:riudg.udg.mx:20.500.12104/112502" metadataPrefix="ore">https://riudg.udg.mx/oai/request</request><GetRecord><record><header><identifier>oai:riudg.udg.mx:20.500.12104/112502</identifier><datestamp>2026-04-13T19:45:27Z</datestamp><setSpec>com_20.500.12104_20530</setSpec><setSpec>com_20.500.12104_9</setSpec><setSpec>col_20.500.12104_34963</setSpec></header><metadata><atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:doc="http://www.lyncode.com/xoai" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+<atom:id>https://wdg.biblio.udg.mx/ore.xml</atom:id>
+<atom:link rel="alternate" href="https://wdg.biblio.udg.mx" />
+<atom:link rel="http://www.openarchives.org/ore/terms/describes" href="https://wdg.biblio.udg.mx/ore.xml" />
+<atom:link type="application/atom+xml" rel="self" href="https://wdg.biblio.udg.mx/ore.xml#atom" />
+<atom:published>2026-04-13T19:45:27Z</atom:published>
+<atom:updated>2026-04-13T19:45:27Z</atom:updated>
+<atom:source>
+<atom:generator>RIUdeG</atom:generator>
+</atom:source>
+<atom:title>Efecto sinérgico de fototermia plasmónica y antineoplásicos en células de cáncer de mama</atom:title>
+<atom:author>
+<atom:name>Flores Arévalo, Ximena Alejandra</atom:name>
+</atom:author>
+<atom:category label="Aggregation" term="http://www.openarchives.org/ore/terms/Aggregation" scheme="http://www.openarchives.org/ore/terms/" />
+<atom:category scheme="http://www.openarchives.org/ore/atom/modified" term="2026-04-13T19:45:27Z" />
+<atom:category label="DSpace Item" term="DSpaceItem" scheme="http://www.dspace.org/objectModel/" />
+<atom:link rel="http://www.openarchives.org/ore/terms/aggregates" href="https://riudg.udg.mx//bitstream/20.500.12104/112502/1/MCUCIENEGA10055.pdf" title="MCUCIENEGA10055.pdf" type="application/pdf" length="5541620" />
+<oreatom:triples>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://wdg.biblio.udg.mx/ore.xml#atom">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceItem" />
+<dcterms:modified>2026-04-13T19:45:27Z</dcterms:modified>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://riudg.udg.mx//bitstream/20.500.12104/112502/1/MCUCIENEGA10055.pdf">
+<rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream" />
+<dcterms:description>ORIGINAL</dcterms:description>
+</rdf:Description>
+</oreatom:triples>
+</atom:entry>
+</metadata></record></GetRecord></OAI-PMH>

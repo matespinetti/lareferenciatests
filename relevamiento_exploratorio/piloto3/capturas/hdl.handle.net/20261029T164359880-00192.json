@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00192",
+ "url": "https://hdl.handle.net/1843/2895",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:49:38 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "location",
+   "https://repositorio.ufmg.br//handle/1843/2895"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 16:51:18 GMT"
+  ],
+  [
+   "cf-cache-status",
+   "DYNAMIC"
+  ],
+  [
+   "nel",
+   "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+  ],
+  [
+   "report-to",
+   "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=P%2F7FBVC4R7nC7cM%2FuaN0DfoJzCJ4qou%2FeVIxHxS%2FVwNRblyLct5RUFDGJTbtNsd0NOdjrJQOWwsJBv0jymxt5hT6LoMkEL%2BA79yp6%2FyJ381px5ARGQiwzUefhdnsUJUKiA%3D%3D\"}]}"
+  ],
+  [
+   "server",
+   "cloudflare"
+  ],
+  [
+   "cf-ray",
+   "a523acb7cb6d9269-EZE"
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

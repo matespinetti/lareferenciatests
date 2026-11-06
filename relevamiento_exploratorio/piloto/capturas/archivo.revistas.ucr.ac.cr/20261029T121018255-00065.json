@@ -1,0 +1,49 @@
+{
+ "pedido": "20261029T121018255-00065",
+ "url": "https://archivo.revistas.ucr.ac.cr//index.php/rbt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:12:10 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "set-cookie",
+   "OJSSID=5pm2basb70o7445ko1ujncaihk; path=/; domain=archivo.revistas.ucr.ac.cr"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "content-length",
+   "21760"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

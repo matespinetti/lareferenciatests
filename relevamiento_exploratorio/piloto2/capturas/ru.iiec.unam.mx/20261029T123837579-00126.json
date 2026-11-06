@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T123837579-00126",
+ "url": "https://ru.iiec.unam.mx/110/1/voto_electronico.html",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:42:59 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "etag",
+   "038cc2dedbe5a16e04701acd7b2a0553"
+  ],
+  [
+   "content-md5",
+   "A4zC3tvloW4EcBrNeyoFUw=="
+  ],
+  [
+   "last-modified",
+   "Wed, 01 Feb 2012 19:40:14 GMT"
+  ],
+  [
+   "expires",
+   "Fri, 29 Oct 2027 12:42:59 GMT"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=voto_electronico.html"
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/45403"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/html"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

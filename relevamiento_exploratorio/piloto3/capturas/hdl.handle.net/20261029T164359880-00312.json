@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00312",
+ "url": "https://hdl.handle.net/2133/33995",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:52:50 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "location",
+   "https://rephip.unr.edu.ar/handle/2133/33995"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 16:54:29 GMT"
+  ],
+  [
+   "cf-cache-status",
+   "DYNAMIC"
+  ],
+  [
+   "nel",
+   "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+  ],
+  [
+   "report-to",
+   "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IMSUN0GU7OW%2FAcEvObiRK8NU8Tgp74HzvbKpBl5Hf9PwLxUzKr00N0lhwHnzVB64NM4A2%2Bo61HvMQH1kA0qdzhE1%2FDbsEV0xwckmDo5MueOmaVPuyGvIkax9xzoVa4FmRg%3D%3D\"}]}"
+  ],
+  [
+   "server",
+   "cloudflare"
+  ],
+  [
+   "cf-ray",
+   "a523b1609de407e6-EZE"
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

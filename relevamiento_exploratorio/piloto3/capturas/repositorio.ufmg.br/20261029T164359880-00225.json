@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T164359880-00225",
+ "url": "https://repositorio.ufmg.br//handle/1843/5589",
+ "codigo": 301,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:50:38 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "77"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "498"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793292682"
+  ],
+  [
+   "location",
+   "/items/000ea630-72aa-4c8e-a3ae-2dda1faff8fd"
+  ],
+  [
+   "vary",
+   "Accept"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=15724800; includeSubDomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

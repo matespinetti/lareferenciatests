@@ -1,0 +1,497 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "67d10432-a35d-4d28-9a7f-7013e7e5da2a",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/67d10432-a35d-4d28-9a7f-7013e7e5da2a/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/67d10432-a35d-4d28-9a7f-7013e7e5da2a/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/67d10432-a35d-4d28-9a7f-7013e7e5da2a/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/67d10432-a35d-4d28-9a7f-7013e7e5da2a"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "934dc24e-dac4-4db0-a9b7-267f01cc243a",
+              "uuid" : "934dc24e-dac4-4db0-a9b7-267f01cc243a",
+              "name" : "TCC Final CECi - Francisnaide Souza.pdfA.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "TCC Final CECi - Francisnaide Souza.pdfA.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "TCC Final CECi - Francisnaide Souza.pdfA.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 20156503,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "706d56e8eae697d0963b0cae9957722d"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/934dc24e-dac4-4db0-a9b7-267f01cc243a/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/934dc24e-dac4-4db0-a9b7-267f01cc243a/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/934dc24e-dac4-4db0-a9b7-267f01cc243a/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/934dc24e-dac4-4db0-a9b7-267f01cc243a/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/934dc24e-dac4-4db0-a9b7-267f01cc243a"
+                }
+              }
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ufmg.br/server/api/core/bundles/67d10432-a35d-4d28-9a7f-7013e7e5da2a/bitstreams"
+            }
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          }
+        }
+      }
+    }, {
+      "uuid" : "e4a5dac9-1b15-4527-a200-701fe29bfd98",
+      "name" : "LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/e4a5dac9-1b15-4527-a200-701fe29bfd98/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/e4a5dac9-1b15-4527-a200-701fe29bfd98/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/e4a5dac9-1b15-4527-a200-701fe29bfd98/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/e4a5dac9-1b15-4527-a200-701fe29bfd98"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "d4eb3b30-4820-4567-a5e0-17ec857cc80b",
+              "uuid" : "d4eb3b30-4820-4567-a5e0-17ec857cc80b",
+              "name" : "license.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "Written by org.dspace.content.LicenseUtils",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dcterms.accessRights" : [ {
+                  "value" : "2025-11-11T19:31:32Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "LICENSE",
+              "sizeBytes" : 2118,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "cda590c95a0b51b4d15f60c9642ca272"
+              },
+              "sequenceId" : 2,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/d4eb3b30-4820-4567-a5e0-17ec857cc80b/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/d4eb3b30-4820-4567-a5e0-17ec857cc80b/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/d4eb3b30-4820-4567-a5e0-17ec857cc80b/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/d4eb3b30-4820-4567-a5e0-17ec857cc80b/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/d4eb3b30-4820-4567-a5e0-17ec857cc80b"
+                }
+              }
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ufmg.br/server/api/core/bundles/e4a5dac9-1b15-4527-a200-701fe29bfd98/bitstreams"
+            }
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          }
+        }
+      }
+    }, {
+      "uuid" : "83912ce4-e50f-488e-b6a0-90d48ef84af1",
+      "name" : "CC-LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "CC-LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/83912ce4-e50f-488e-b6a0-90d48ef84af1/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/83912ce4-e50f-488e-b6a0-90d48ef84af1/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/83912ce4-e50f-488e-b6a0-90d48ef84af1/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/83912ce4-e50f-488e-b6a0-90d48ef84af1"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "e6916171-c1b9-41c9-84c9-ff7a9856f149",
+              "uuid" : "e6916171-c1b9-41c9-84c9-ff7a9856f149",
+              "name" : "license_rdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "org.dspace.license.CreativeCommons",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license_rdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "CC-LICENSE",
+              "sizeBytes" : 906,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "fba754f0467e45ac3862bc2533fb2736"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/e6916171-c1b9-41c9-84c9-ff7a9856f149/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/e6916171-c1b9-41c9-84c9-ff7a9856f149/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/e6916171-c1b9-41c9-84c9-ff7a9856f149/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/e6916171-c1b9-41c9-84c9-ff7a9856f149/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/e6916171-c1b9-41c9-84c9-ff7a9856f149"
+                }
+              }
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ufmg.br/server/api/core/bundles/83912ce4-e50f-488e-b6a0-90d48ef84af1/bitstreams"
+            }
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          }
+        }
+      }
+    }, {
+      "uuid" : "ec452b28-e25a-446a-83e1-caaac102d2b8",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/ec452b28-e25a-446a-83e1-caaac102d2b8/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/ec452b28-e25a-446a-83e1-caaac102d2b8/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/ec452b28-e25a-446a-83e1-caaac102d2b8/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/ec452b28-e25a-446a-83e1-caaac102d2b8"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "b9757740-e089-4c62-a0e1-4c1b286e1cec",
+              "uuid" : "b9757740-e089-4c62-a0e1-4c1b286e1cec",
+              "name" : "TCC Final CECi - Francisnaide Souza.pdfA.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-10-09T03:00:11Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "TCC Final CECi - Francisnaide Souza.pdfA.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 7661,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "984ddd843ec5bf60aaac28c5283fd8ac"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/b9757740-e089-4c62-a0e1-4c1b286e1cec/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/b9757740-e089-4c62-a0e1-4c1b286e1cec/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/b9757740-e089-4c62-a0e1-4c1b286e1cec/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/b9757740-e089-4c62-a0e1-4c1b286e1cec/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/b9757740-e089-4c62-a0e1-4c1b286e1cec"
+                }
+              }
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ufmg.br/server/api/core/bundles/ec452b28-e25a-446a-83e1-caaac102d2b8/bitstreams"
+            }
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          }
+        }
+      }
+    }, {
+      "uuid" : "7b5f41a0-20a7-4c16-b6ac-436437ad50ba",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/7b5f41a0-20a7-4c16-b6ac-436437ad50ba/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/7b5f41a0-20a7-4c16-b6ac-436437ad50ba/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/7b5f41a0-20a7-4c16-b6ac-436437ad50ba/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/7b5f41a0-20a7-4c16-b6ac-436437ad50ba"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "424026e6-ee55-4fd8-97f6-248a2326a314",
+              "uuid" : "424026e6-ee55-4fd8-97f6-248a2326a314",
+              "name" : "TCC Final CECi - Francisnaide Souza.pdfA.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Generated Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2026-10-09T03:00:12Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "TCC Final CECi - Francisnaide Souza.pdfA.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 2860,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "98a518508578a4e9f3b07c752fcf89cd"
+              },
+              "sequenceId" : 5,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/424026e6-ee55-4fd8-97f6-248a2326a314/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/424026e6-ee55-4fd8-97f6-248a2326a314/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/424026e6-ee55-4fd8-97f6-248a2326a314/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/424026e6-ee55-4fd8-97f6-248a2326a314/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/424026e6-ee55-4fd8-97f6-248a2326a314"
+                }
+              }
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ufmg.br/server/api/core/bundles/7b5f41a0-20a7-4c16-b6ac-436437ad50ba/bitstreams"
+            }
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/items/000ea630-72aa-4c8e-a3ae-2dda1faff8fd/bundles?embed=bitstreams"
+    }
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 5
+  }
+}

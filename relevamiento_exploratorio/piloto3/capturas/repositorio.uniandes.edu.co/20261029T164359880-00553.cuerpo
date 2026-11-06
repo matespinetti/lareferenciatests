@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T17:00:45Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.uniandes.edu.co:1992/77603" metadataPrefix="xoai">https://repositorio.uniandes.edu.co/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.uniandes.edu.co:1992/77603</identifier><datestamp>2026-01-15T09:00:17Z</datestamp><setSpec>com_1992_51875</setSpec><setSpec>com_1992_51815</setSpec><setSpec>com_1992_51807</setSpec><setSpec>col_1992_52264</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="advisor">
+            <element name="none">
+               <field name="value">Gallo Herrán, Luz Alba</field>
+            </element>
+         </element>
+         <element name="author">
+            <element name="none">
+               <field name="value">García Restrepo, Melissa</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2026-01-14T13:11:16Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2026-01-14T13:11:16Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2025-12-29</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/1992/77603</field>
+            </element>
+         </element>
+         <element name="instname">
+            <element name="none">
+               <field name="value">instname:Universidad de los Andes</field>
+            </element>
+         </element>
+         <element name="reponame">
+            <element name="none">
+               <field name="value">reponame:Repositorio Institucional Séneca</field>
+            </element>
+         </element>
+         <element name="repourl">
+            <element name="none">
+               <field name="value">repourl:https://repositorio.uniandes.edu.co/</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="spa">
+               <field name="value">Amadrilo es una marca de moda maternal de lujo emocional que fusiona el bienestar de la mujer gestante con la conservación de la biodiversidad colombiana. Inspirado en las raíces llaneras de su autora, el proyecto propone una colección cápsula de prendas ergonómicas y minimalistas basadas en la biomímesis de especies en peligro de extinción de la Orinoquía, como el oso palmero, el armadillo y la tortuga charapa. A través de una identidad visual orgánica y programas de apadrinamiento de fauna, la marca busca transformar el acto de vestir en un gesto de protección simbólica, posicionando a la madre gestante como una "especie protectora" que reconoce su interdependencia con el ecosistema</field>
+            </element>
+         </element>
+         <element name="degreelevel">
+            <element name="none">
+               <field name="value">Pregrado</field>
+            </element>
+         </element>
+      </element>
+      <element name="format">
+         <element name="extent">
+            <element name="none">
+               <field name="value">103 páginas</field>
+            </element>
+         </element>
+         <element name="mimetype">
+            <element name="none">
+               <field name="value">application/pdf</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">spa</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">Universidad de los Andes</field>
+         </element>
+         <element name="program">
+            <element name="none">
+               <field name="value">Diseño</field>
+            </element>
+         </element>
+         <element name="faculty">
+            <element name="none">
+               <field name="value">Facultad de Arquitectura y Diseño</field>
+            </element>
+         </element>
+         <element name="department">
+            <element name="none">
+               <field name="value">Departamento de Diseño</field>
+            </element>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="en">
+            <field name="value">Attribution-NonCommercial-NoDerivatives 4.0 International</field>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://creativecommons.org/licenses/by-nc-nd/4.0/</field>
+            </element>
+         </element>
+         <element name="accessrights">
+            <element name="none">
+               <field name="value">info:eu-repo/semantics/openAccess</field>
+            </element>
+         </element>
+         <element name="coar">
+            <element name="none">
+               <field name="value">http://purl.org/coar/access_right/c_abf2</field>
+            </element>
+         </element>
+      </element>
+      <element name="title">
+         <element name="spa">
+            <field name="value">Amadrilo: creación de marca y lookbook para moda materna inspirada en fauna en peligro de extinción de la Orinoquía Colombiana</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">Trabajo de grado - Pregrado</field>
+         </element>
+         <element name="driver">
+            <element name="none">
+               <field name="value">info:eu-repo/semantics/bachelorThesis</field>
+            </element>
+         </element>
+         <element name="version">
+            <element name="none">
+               <field name="value">info:eu-repo/semantics/acceptedVersion</field>
+            </element>
+         </element>
+         <element name="coar">
+            <element name="none">
+               <field name="value">http://purl.org/coar/resource_type/c_7a1f</field>
+            </element>
+         </element>
+         <element name="coarversion">
+            <element name="none">
+               <field name="value">http://purl.org/coar/version/c_ab4af688f83e57aa</field>
+            </element>
+         </element>
+         <element name="content">
+            <element name="none">
+               <field name="value">Text</field>
+            </element>
+         </element>
+         <element name="redcol">
+            <element name="none">
+               <field name="value">http://purl.org/redcol/resource_type/TP</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="keyword">
+            <element name="spa">
+               <field name="value">Gestación</field>
+               <field name="value">Extinción</field>
+               <field name="value">Orinoquía</field>
+               <field name="value">Moda</field>
+            </element>
+            <element name="eng">
+               <field name="value">Branding</field>
+            </element>
+         </element>
+         <element name="themes">
+            <element name="spa">
+               <field name="value">Diseño</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="authorProfile">
+      <element name="id">
+         <element name="code">
+            <element name="none">
+               <field name="value">202111524</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="dspace">
+      <element name="entity">
+         <element name="type">
+            <element name="none">
+               <field name="value">Publication</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">Amadrilo: Creación de Marca y Lookbook.pdf</field>
+               <field name="originalName">ProyectodegradoAmadriloMelissa.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">2217245</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/82ebd3f0-78ab-48e2-938a-e25c7606738d/download</field>
+               <field name="checksum">277efbbe9f220441059212f9478f8111</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+            <element name="bitstream">
+               <field name="name">Formato Autorización.pdf</field>
+               <field name="originalName">García Restrepo Melissa.pdf</field>
+               <field name="description">HIDE</field>
+               <field name="format">application/pdf</field>
+               <field name="size">215965</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/97c4312d-2888-4955-a893-b8b2cf84ab36/download</field>
+               <field name="checksum">9c7816ae25d03edac652245e77abd58d</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">Written by org.dspace.content.LicenseUtils</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">2535</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/4f74ceef-9200-4e03-b719-52eca55dc001/download</field>
+               <field name="checksum">ae9e573a68e7f92501b6913cc846c39f</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">CC-LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license_rdf</field>
+               <field name="originalName">org.dspace.license.CreativeCommons</field>
+               <field name="format">application/rdf+xml; charset=utf-8</field>
+               <field name="size">805</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/8403b28e-5e5d-41ad-b493-22fb3e06d828/download</field>
+               <field name="checksum">4460e5956bc1d1639be9ae6146a50347</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">Amadrilo: Creación de Marca y Lookbook.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-01-15T09:00:15Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">101716</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/5dbdd6c6-e57c-445f-8f0d-5690a2dac94a/download</field>
+               <field name="checksum">852672bb62cc8552ae8b5c22905ab085</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">6</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+            <element name="bitstream">
+               <field name="name">Formato Autorización.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-01-15T09:00:17Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">2</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/92e6f80f-47c7-483c-a7a0-8bfaccdd8e20/download</field>
+               <field name="checksum">e1c06d85ae7b8b032bef47e42e4c08f9</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">8</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">Amadrilo: Creación de Marca y Lookbook.pdf.jpg</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.ImageMagickPdfThumbnailFilter on 2026-01-15T09:00:17Z (GMT).</field>
+               <field name="description">IM Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">3065</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/d8773267-cc52-4c05-bd53-2f4f416a2f93/download</field>
+               <field name="checksum">1b38c05f4979baaa7043b1a1041733e5</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">7</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+            <element name="bitstream">
+               <field name="name">Formato Autorización.pdf.jpg</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.ImageMagickPdfThumbnailFilter on 2026-01-15T09:00:17Z (GMT).</field>
+               <field name="description">IM Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">15621</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/aed76abb-74dd-4d4e-b016-ff07673227eb/download</field>
+               <field name="checksum">190b96263564b170eea3e11d5973c2cc</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">9</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">1992/77603</field>
+      <field name="identifier">oai:dspace-new-uniandes.metabuscador.org:1992/77603</field>
+      <field name="lastModifyDate">2026-01-15T09:00:17.833Z</field>
+      <element name="cc">
+         <field name="uri">http://creativecommons.org/licenses/by-nc-nd/4.0/</field>
+         <field name="name">Attribution-NonCommercial-NoDerivatives 4.0 International</field>
+      </element>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://dspace-new-uniandes.metabuscador.org</field>
+      <field name="name">Repositorio institucional Séneca</field>
+      <field name="mail">adminrepositorio@uniandes.edu.co</field>
+   </element>
+   <element name="license">
+      <field name="bin">PGgzPjxzdHJvbmc+RGVzY2FyZ28gZGUgUmVzcG9uc2FiaWxpZGFkIC0gTGljZW5jaWEgZGUgQXV0b3JpemFjacOzbjwvc3Ryb25nPjwvaDM+CjxwPjxzdHJvbmc+UG9yIGZhdm9yIGxlZXIgYXRlbnRhbWVudGUgZXN0ZSBkb2N1bWVudG8gcXVlIHBlcm1pdGUgYWwgUmVwb3NpdG9yaW8gSW5zdGl0dWNpb25hbCBTw6luZWNhIHJlcHJvZHVjaXIgeSBkaXN0cmlidWlyIGxvcyByZWN1cnNvcyBkZSBpbmZvcm1hY2nDs24gZGVwb3NpdGFkb3MgbWVkaWFudGUgbGEgYXV0b3JpemFjacOzbiBkZSBsb3Mgc2lndWllbnRlcyB0w6lybWlub3M6PC9zdHJvbmc+PC9wPgo8cD5Db25jZWRhIGxhIGxpY2VuY2lhIGRlIGRlcMOzc2l0byBlc3TDoW5kYXIgc2VsZWNjaW9uYW5kbyBsYSBvcGNpw7NuIDxzdHJvbmc+J0FjZXB0YXIgbG9zIHTDqXJtaW5vcyBhbnRlcmlvcm1lbnRlIGRlc2NyaXRvcyc8L3N0cm9uZz4geSBjb250aW51YXIgZWwgcHJvY2VzbyBkZSBlbnbDrW8gbWVkaWFudGUgZWwgYm90w7NuIDxzdHJvbmc+J1NpZ3VpZW50ZScuPC9zdHJvbmc+PC9wPgo8aHI+CjxwPllvLCBlbiBtaSBjYWxpZGFkIGRlIGF1dG9yIGRlbCB0cmFiYWpvIGRlIHRlc2lzLCBtb25vZ3JhZsOtYSBvIHRyYWJham8gZGUgZ3JhZG8sIGhhZ28gZW50cmVnYSBkZWwgZWplbXBsYXIgcmVzcGVjdGl2byB5IGRlIHN1cyBhbmV4b3MgZGUgc2VyIGVsIGNhc28sIGVuIGZvcm1hdG8gZGlnaXRhbCB5L28gZWxlY3Ryw7NuaWNvIHkgYXV0b3Jpem8gYSBsYSBVbml2ZXJzaWRhZCBkZSBsb3MgQW5kZXMgcGFyYSBxdWUgcmVhbGljZSBsYSBwdWJsaWNhY2nDs24gZW4gZWwgU2lzdGVtYSBkZSBCaWJsaW90ZWNhcyBvIGVuIGN1YWxxdWllciBvdHJvIHNpc3RlbWEgbyBiYXNlIGRlIGRhdG9zIHByb3BpbyBvIGFqZW5vIGEgbGEgVW5pdmVyc2lkYWQgeSBwYXJhIHF1ZSBlbiBsb3MgdMOpcm1pbm9zIGVzdGFibGVjaWRvcyBlbiBsYSBMZXkgMjMgZGUgMTk4MiwgTGV5IDQ0IGRlIDE5OTMsIERlY2lzacOzbiBBbmRpbmEgMzUxIGRlIDE5OTMsIERlY3JldG8gNDYwIGRlIDE5OTUgeSBkZW3DoXMgbm9ybWFzIGdlbmVyYWxlcyBzb2JyZSBsYSBtYXRlcmlhLCB1dGlsaWNlIGVuIHRvZGFzIHN1cyBmb3JtYXMsIGxvcyBkZXJlY2hvcyBwYXRyaW1vbmlhbGVzIGRlIHJlcHJvZHVjY2nDs24sIGNvbXVuaWNhY2nDs24gcMO6YmxpY2EsIHRyYW5zZm9ybWFjacOzbiB5IGRpc3RyaWJ1Y2nDs24gKGFscXVpbGVyLCBwcsOpc3RhbW8gcMO6YmxpY28gZSBpbXBvcnRhY2nDs24pIHF1ZSBtZSBjb3JyZXNwb25kZW4gY29tbyBjcmVhZG9yIGRlIGxhIG9icmEgb2JqZXRvIGRlbCBwcmVzZW50ZSBkb2N1bWVudG8uPC9wPgo8cD5MYSBwcmVzZW50ZSBhdXRvcml6YWNpw7NuIHNlIGVtaXRlIGVuIGNhbGlkYWQgZGUgYXV0b3IgZGUgbGEgb2JyYSBvYmpldG8gZGVsIHByZXNlbnRlIGRvY3VtZW50byB5IG5vIGNvcnJlc3BvbmRlIGEgY2VzacOzbiBkZSBkZXJlY2hvcywgc2lubyBhIGxhIGF1dG9yaXphY2nDs24gZGUgdXNvIGFjYWTDqW1pY28gZGUgY29uZm9ybWlkYWQgY29uIGxvIGFudGVyaW9ybWVudGUgc2XDsWFsYWRvLiBMYSBwcmVzZW50ZSBhdXRvcml6YWNpw7NuIHNlIGhhY2UgZXh0ZW5zaXZhIG5vIHNvbG8gYSBsYXMgZmFjdWx0YWRlcyB5IGRlcmVjaG9zIGRlIHVzbyBzb2JyZSBsYSBvYnJhIGVuIGZvcm1hdG8gbyBzb3BvcnRlIG1hdGVyaWFsLCBzaW5vIHRhbWJpw6luIHBhcmEgZm9ybWF0byBlbGVjdHLDs25pY28sIHkgZW4gZ2VuZXJhbCBwYXJhIGN1YWxxdWllciBmb3JtYXRvIGNvbm9jaWRvIG8gcG9yIGNvbm9jZXIuPC9wPgo8cD5FbCBhdXRvciwgbWFuaWZpZXN0YSBxdWUgbGEgb2JyYSBvYmpldG8gZGUgbGEgcHJlc2VudGUgYXV0b3JpemFjacOzbiBlcyBvcmlnaW5hbCB5IGxhIHJlYWxpesOzIHNpbiB2aW9sYXIgbyB1c3VycGFyIGRlcmVjaG9zIGRlIGF1dG9yIGRlIHRlcmNlcm9zLCBwb3IgbG8gdGFudG8sIGxhIG9icmEgZXMgZGUgc3UgZXhjbHVzaXZhIGF1dG9yw61hIHkgdGllbmUgbGEgdGl0dWxhcmlkYWQgc29icmUgbGEgbWlzbWEuPC9wPgo8cD5FbiBjYXNvIGRlIHByZXNlbnRhcnNlIGN1YWxxdWllciByZWNsYW1hY2nDs24gbyBhY2Npw7NuIHBvciBwYXJ0ZSBkZSB1biB0ZXJjZXJvIGVuIGN1YW50byBhIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBzb2JyZSBsYSBvYnJhIGVuIGN1ZXN0acOzbiwgZWwgYXV0b3IgYXN1bWlyw6EgdG9kYSBsYSByZXNwb25zYWJpbGlkYWQsIHkgc2FsZHLDoSBkZSBkZWZlbnNhIGRlIGxvcyBkZXJlY2hvcyBhcXXDrSBhdXRvcml6YWRvcywgcGFyYSB0b2RvcyBsb3MgZWZlY3RvcyBsYSBVbml2ZXJzaWRhZCBhY3TDumEgY29tbyB1biB0ZXJjZXJvIGRlIGJ1ZW5hIGZlLjwvcD4KPHA+U2kgdGllbmUgYWxndW5hIGR1ZGEgc29icmUgbGEgbGljZW5jaWEsIHBvciBmYXZvciwgY29udGFjdGUgY29uIGVsIDxhIGhyZWY9Im1haWx0bzpiaWJsaW90ZWNhQHVuaWFuZGVzLmVkdS5jbyIgdGFyZ2V0PSJfYmxhbmsiPkFkbWluaXN0cmFkb3IgZGVsIFNpc3RlbWEuPC9hPjwvcD4K</field>
+   </element>
+</metadata></metadata></record></GetRecord></OAI-PMH>

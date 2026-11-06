@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00260",
+ "url": "https://rephip.unr.edu.ar/items/003f97d3-9f8c-4c3f-8745-ac9d88f28785",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.28.3 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:51:33 GMT"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793292709"
+  ],
+  [
+   "link",
+   "<https://rephip.unr.edu.ar/bitstreams/c7c58d89-51c2-495c-964d-2bf8d8134025/download> ; rel=\"item\" ; type=\"application/pdf\" , <https://rephip.unr.edu.ar/signposting/describedby/003f97d3-9f8c-4c3f-8745-ac9d88f28785> ; rel=\"describedby\" ; type=\"application/vnd.datacite.datacite+xml\" , <https://hdl.handle.net/2133/32082> ; rel=\"cite-as\" , <http://creativecommons.org/licenses/by-nc-nd/2.5/ar/> ; rel=\"license\" , <https://rephip.unr.edu.ar/signposting/linksets/003f97d3-9f8c-4c3f-8745-ac9d88f28785> ; rel=\"linkset\" ; type=\"application/linkset\" , <https://rephip.unr.edu.ar/signposting/linksets/003f97d3-9f8c-4c3f-8745-ac9d88f28785/json> ; rel=\"linkset\" ; type=\"application/linkset+json\" , <https://schema.org/AboutPage> ; rel=\"type\" , <https://schema.org/CreativeWork> ; rel=\"type\" , <https://rephip.unr.edu.ar/server/ldn/inbox> ; rel=\"http://www.w3.org/ns/ldp#inbox\""
+  ],
+  [
+   "etag",
+   "W/\"7b68e-HJdxfV68kpJSughUj7VzcsRbDgY\""
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

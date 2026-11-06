@@ -1,0 +1,384 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "62917e81-2eea-402b-97d7-53260d16f703",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/62917e81-2eea-402b-97d7-53260d16f703/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/62917e81-2eea-402b-97d7-53260d16f703/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/62917e81-2eea-402b-97d7-53260d16f703/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/62917e81-2eea-402b-97d7-53260d16f703"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "4166b297-a5e5-4334-866d-3f01b1c9c4da",
+              "uuid" : "4166b297-a5e5-4334-866d-3f01b1c9c4da",
+              "name" : "Oddone-charla.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.title" : [ {
+                  "value" : "Oddone-charla.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 279884,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "4863d09b9ef80a52cff6b47af3062b66"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/4166b297-a5e5-4334-866d-3f01b1c9c4da/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/4166b297-a5e5-4334-866d-3f01b1c9c4da/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/4166b297-a5e5-4334-866d-3f01b1c9c4da/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/4166b297-a5e5-4334-866d-3f01b1c9c4da/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/4166b297-a5e5-4334-866d-3f01b1c9c4da"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/62917e81-2eea-402b-97d7-53260d16f703/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "baeeb763-6cc6-4609-b35d-fc33842cf44e",
+      "name" : "LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/baeeb763-6cc6-4609-b35d-fc33842cf44e/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/baeeb763-6cc6-4609-b35d-fc33842cf44e/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/baeeb763-6cc6-4609-b35d-fc33842cf44e/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/baeeb763-6cc6-4609-b35d-fc33842cf44e"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "440526ff-df2f-4d92-b3e5-14a6a787bbff",
+              "uuid" : "440526ff-df2f-4d92-b3e5-14a6a787bbff",
+              "name" : "license.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.title" : [ {
+                  "value" : "license.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "LICENSE",
+              "sizeBytes" : 2067,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "eb07d85a87b80708c1cede9b4dac4ba6"
+              },
+              "sequenceId" : 2,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/440526ff-df2f-4d92-b3e5-14a6a787bbff/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/440526ff-df2f-4d92-b3e5-14a6a787bbff/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/440526ff-df2f-4d92-b3e5-14a6a787bbff/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/440526ff-df2f-4d92-b3e5-14a6a787bbff/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/440526ff-df2f-4d92-b3e5-14a6a787bbff"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/baeeb763-6cc6-4609-b35d-fc33842cf44e/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "eeddb817-fca3-43d5-a7bf-a4ba147c584f",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/eeddb817-fca3-43d5-a7bf-a4ba147c584f/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/eeddb817-fca3-43d5-a7bf-a4ba147c584f/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/eeddb817-fca3-43d5-a7bf-a4ba147c584f/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/eeddb817-fca3-43d5-a7bf-a4ba147c584f"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "ff79f775-ca94-4606-9dd9-f478d0d7ff70",
+              "uuid" : "ff79f775-ca94-4606-9dd9-f478d0d7ff70",
+              "name" : "Oddone-charla.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFFilter on 2021-07-10T05:01:41Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Oddone-charla.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 7057,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "22824af7f7375e67bb69bd7ac48be573"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/ff79f775-ca94-4606-9dd9-f478d0d7ff70/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/ff79f775-ca94-4606-9dd9-f478d0d7ff70/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/ff79f775-ca94-4606-9dd9-f478d0d7ff70/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/ff79f775-ca94-4606-9dd9-f478d0d7ff70/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/ff79f775-ca94-4606-9dd9-f478d0d7ff70"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/eeddb817-fca3-43d5-a7bf-a4ba147c584f/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "c0463704-7248-49ef-b432-7b62116220da",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/c0463704-7248-49ef-b432-7b62116220da/item"
+        },
+        "bitstreams" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/c0463704-7248-49ef-b432-7b62116220da/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/c0463704-7248-49ef-b432-7b62116220da/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/c0463704-7248-49ef-b432-7b62116220da"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "9bbb1a3f-c3c8-417f-b99c-c5397a6449fc",
+              "uuid" : "9bbb1a3f-c3c8-417f-b99c-c5397a6449fc",
+              "name" : "Oddone-charla.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "IM Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.ImageMagickPdfThumbnailFilter on 2021-07-10T05:01:42Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Oddone-charla.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 19134,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "fb6442f51225dffe083d963020aad0ae"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/9bbb1a3f-c3c8-417f-b99c-c5397a6449fc/content"
+                },
+                "bundle" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/9bbb1a3f-c3c8-417f-b99c-c5397a6449fc/bundle"
+                },
+                "format" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/9bbb1a3f-c3c8-417f-b99c-c5397a6449fc/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/9bbb1a3f-c3c8-417f-b99c-c5397a6449fc/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://rdu.unc.edu.ar/server/api/core/bitstreams/9bbb1a3f-c3c8-417f-b99c-c5397a6449fc"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://rdu.unc.edu.ar/server/api/core/bundles/c0463704-7248-49ef-b432-7b62116220da/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://rdu.unc.edu.ar/server/api/core/items/000e2679-81c1-4273-a16e-e4a9a8f49c22/bundles?embed=bitstreams"
+    }
+  }
+}

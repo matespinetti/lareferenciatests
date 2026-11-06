@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:52:58Z</responseDate><request verb="GetRecord" identifier="oai:arca.fiocruz.br:icict/6813" metadataPrefix="mets">https://api.arca.fiocruz.br/oai/request</request><GetRecord><record><header><identifier>oai:arca.fiocruz.br:icict/6813</identifier><datestamp>2026-07-24T18:50:22Z</datestamp><setSpec>com_icict_3244</setSpec><setSpec>col_icict_3245</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_icict-6813" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:icict/6813">
+   <metsHdr CREATEDATE="2026-10-29T16:52:58Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Arca - Repositório Institucional da Fiocruz</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_icict_6813">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Avelar, Danielle Marquete Vitelli</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Avelar, Renato Sathler</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Dias, João Carlos Pinto</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Pascoal, Vanessa Peruhype Magalhães</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Carvalho, Andréa Teixeira de</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Lage, Paula Souza</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Santos, Silvana Maria Elói</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Oliveira, Rodrigo Corrêa de</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Martins Filho, Olindo Assis</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2013-08-21T17:19:52Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2013-08-21T17:19:52Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2005</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="citation">AVELAR, Danielle Marquete Vitelli et al. Chagasic Patients with Indeterminate Clinical Form of the Disease have High Frequencies of Circulating CD3 Þ CD16 –CD56 þNatural Killer T Cells and CD4 þ CD25 High Regulatory T Lymphocytes. Scandinavian Journal of Immunology, n. 62, p. 297-308, 2005.</mods:identifier>
+               <mods:identifier type="uri">https://arca.fiocruz.br/handle/icict/6813</mods:identifier>
+               <mods:identifier type="doi">10.1111/j.1365-3083.2005.01668.x</mods:identifier>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">eng</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">restricted access</mods:accessCondition>
+               <mods:titleInfo>
+                  <mods:title>Chagasic Patients with Indeterminate Clinical Form of the Disease have High Frequencies of Circulating CD3 Þ CD16 –CD56 þNatural Killer T Cells and CD4 þ CD25 High Regulatory T Lymphocytes</mods:title>
+               </mods:titleInfo>
+               <mods:genre>journal article</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_icict_6813_1">
+      <techMD ID="TECH_O_icict_6813_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://arca.fiocruz.br/bitstreams/ba11d865-900d-4222-afe9-3f65731b9785/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>b56648866b9235654ec8cedca2777738</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>226974</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>90. Chagasic Patients with Indeterminate Clinical Form of.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_icict_6813_16">
+      <techMD ID="TECH_T_icict_6813_16">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://arca.fiocruz.br/bitstreams/47e28b99-31eb-4ac8-bc55-9e718bbec6cc/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>a306cc32fe76a4adada3440dd2cd7106</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>54805</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>90. Chagasic Patients with Indeterminate Clinical Form of.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_icict_6813_1" MIMETYPE="application/pdf" SEQ="1" SIZE="226974" CHECKSUM="b56648866b9235654ec8cedca2777738" CHECKSUMTYPE="MD5" ADMID="FO_icict_6813_1" GROUPID="GROUP_BITSTREAM_icict_6813_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://arca.fiocruz.br/bitstreams/ba11d865-900d-4222-afe9-3f65731b9785/download" />
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_icict_6813_16" MIMETYPE="text/plain" SEQ="16" SIZE="54805" CHECKSUM="a306cc32fe76a4adada3440dd2cd7106" CHECKSUMTYPE="MD5" ADMID="FT_icict_6813_16" GROUPID="GROUP_BITSTREAM_icict_6813_16">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://arca.fiocruz.br/bitstreams/47e28b99-31eb-4ac8-bc55-9e718bbec6cc/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_icict_6813">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_icict_6813_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

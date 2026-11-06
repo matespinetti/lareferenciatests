@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T121018255-00108",
+ "url": "https://repositorio.ufsc.br/server/api",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:13:55 GMT"
+  ],
+  [
+   "content-type",
+   "text/html; charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "616"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "keep-alive",
+   "timeout=2"
+  ],
+  [
+   "x-powered-by",
+   "PHP/8.3.25"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=0; includeSubDomains"
+  ],
+  [
+   "content-security-policy",
+   "upgrade-insecure-requests"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

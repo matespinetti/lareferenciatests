@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:47:05Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.unb.br:10482/15590" metadataPrefix="xoai">http://repositorio.unb.br/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.unb.br:10482/15590</identifier><datestamp>2025-11-13T15:39:51Z</datestamp><setSpec>com_10482_45725</setSpec><setSpec>col_10482_45731</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="advisor">
+            <element name="pt_BR">
+               <field name="value">Silva, Sérgio Leme da</field>
+            </element>
+         </element>
+         <element name="author">
+            <element name="pt_BR">
+               <field name="value">Coelho, Milena Vieira</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2014-05-12T14:34:03Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2014-05-12T14:34:03Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2014-05-12</field>
+            </element>
+         </element>
+         <element name="submitted">
+            <element name="none">
+               <field name="value">2014-03-06</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="citation">
+            <element name="pt_BR">
+               <field name="value">COELHO, Milena Vieira. “A influência da atividade física nos perfis de fragilidade, funcionalidade, cognição e qualidade de vida em populações de diferentes contextos ambientais rurais e urbanos”. x, 49 f., il. Dissertação (Mestrado em Ciências do Comportamento)—Universidade de Brasília, Brasília, 2014.</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://repositorio.unb.br/handle/10482/15590</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="pt_BR">
+            <field name="value">Dissertação (mestrado)—Universidade de Brasília, Instituto de Psicologia, Departamento de Processos Psicológicos Básicos, Pós-Graduação em Ciências do Comportamento, 2014.</field>
+         </element>
+         <element name="abstract">
+            <element name="pt_BR">
+               <field name="value">O envelhecimento populacional vem acompanhado de vários declínios, entre eles o cognitivo e o funcional. O objetivo desta pesquisa foi avaliar se a atividade física pode ser um parâmetro protetor para os perfis de fragilidade, funcionalidade, cognição e qualidade de vida. Coletou-se dados de 240 participantes, sendo eles 107 de regiões rurais e 133 de regiões urbanas. Percebeu-se que, em ambos os grupos, aqueles que praticavam exercícios físicos possuíam melhores índices nas escalas. A Escala de Atividade de Vida Diária de Barthel mostrou diferença significativa apenas no meio rural, enquanto a escala de Atividades de Vida Diária Instrumentais de Pfeffer apresentou diferença significativa em ambos os grupos, indicando melhor funcionalidade nos grupos que praticam atividade física. A Escala de Fragilidade de Edmonton e o questionário de Qualidade de vida da OMS, World Health Organization Quality of Life- Old, mostraram diferença significativa apenas no grupo urbano, apontando uma maior fragilidade e menor qualidade de vida para aqueles que não fazem atividade física, diferentemente de idosos rurais. Em relação ao Mini Exame de Estado Mental- 2, houve diferença significativa nos grupos rural e urbano, sendo os praticantes de atividade física os que obtiveram os mais altos índices. Assim, a atividade física aparece como um possível fator de proteção aos declínios decorrentes do envelhecimento.</field>
+            </element>
+         </element>
+         <element name="abstract1">
+            <element name="en">
+               <field name="value">The populational aging is followed by several declines, among them the functional and the cognitive. The objective of this work was assess if physical activity can play a role as a protective factor in the profiles of fragility, functionality, cognition and on quality of life. The data were harvest among 240 subjects, between them 107 from country regions, and 133 from urban regions. It was noticed, that, in the two groups, those who practiced any physical activity had better performance in the scales. The Barthel’s Index of Activities of Daily Living showed a significant difference, only on the country population. While, Pfeiffer scale of instrumental activities showed significant difference in both groups. The Edmonton Fragility scale and the OMS’s Quality of life questionnaire – old showed significant difference only for the urban group pointing to bigger fragility and smaller quality of live between the non-practitioners. Concerning the MEEM 2, it was found significant difference in rural and urban groups, accordingly, in both groups, the practitioners reached bigger scores. In that way, physical activity seems to be a probable protection factor for some of the ageing related declines.</field>
+            </element>
+         </element>
+         <element name="unidade">
+            <element name="pt_BR">
+               <field name="value">Instituto de Psicologia (IP)</field>
+               <field name="value">Departamento de Processos Psicológicos Básicos (IP PPB)</field>
+            </element>
+         </element>
+         <element name="ppg">
+            <element name="pt_BR">
+               <field name="value">Programa de Pós-Graduação em Ciências do Comportamento</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="pt_BR">
+               <field name="value">por</field>
+            </element>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="en">
+            <field name="value">Acesso Aberto</field>
+         </element>
+         <element name="license">
+            <element name="en">
+               <field name="value">A concessão da licença deste item refere-se ao termo de autorização impresso assinado pelo autor com as seguintes condições: Na qualidade de titular dos direitos de autor da publicação, autorizo a Universidade de Brasília e o IBICT a disponibilizar por meio dos sites www.bce.unb.br, www.ibict.br, http://hercules.vtls.com/cgi-bin/ndltd/chameleon?lng=pt&amp;skin=ndltd sem ressarcimento dos direitos autorais, de acordo com a Lei nº 9610/98, o texto integral da obra disponibilizada, conforme permissões assinaladas, para fins de leitura, impressão e/ou download, a título de divulgação da produção científica brasileira, a partir desta data.</field>
+            </element>
+         </element>
+      </element>
+      <element name="title">
+         <element name="en">
+            <field name="value">“A influência da atividade física nos perfis de fragilidade, funcionalidade, cognição e qualidade de vida em populações de diferentes contextos ambientais rurais e urbanos”</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="pt_BR">
+            <field name="value">Dissertação</field>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="keyword">
+            <element name="en">
+               <field name="value">Atividade física</field>
+               <field name="value">Envelhecimento</field>
+               <field name="value">Vida urbana</field>
+               <field name="value">Vida rural</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">2014_MilenaVieiraCoelho.pdf</field>
+               <field name="originalName">2014_MilenaVieiraCoelho.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">1241262</field>
+               <field name="url">http://repositorio.unb.br/bitstream/10482/15590/1/2014_MilenaVieiraCoelho.pdf</field>
+               <field name="checksum">3b9b43165d52661505ffa17eb8e05cfa</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="drm">open access</field>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">license.txt</field>
+               <field name="format">text/plain</field>
+               <field name="size">767</field>
+               <field name="url">http://repositorio.unb.br/bitstream/10482/15590/2/license.txt</field>
+               <field name="checksum">c38bed1d9939707546867f881c0a2cf8</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="drm">open access</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">10482/15590</field>
+      <field name="identifier">oai:repositorio.unb.br:10482/15590</field>
+      <field name="lastModifyDate">2025-11-13 12:39:51.509</field>
+      <field name="drm">open access</field>
+   </element>
+   <element name="repository">
+      <field name="name">Repositório Institucional da UnB</field>
+      <field name="mail">repositorio@unb.br</field>
+   </element>
+   <element name="license">
+      <field name="bin">TGljZW5zZSBncmFudGVkIGJ5IEFsYsOibmlhIEPDqXphciBkZSBNZWxvIChhbGJhbmlhQGJjZS51bmIuYnIpIG9uIDIwMTQtMDUtMDlUMTM6MjQ6MTlaIChHTVQpOgoKQSBjb25jZXNzw6NvIGRhIGxpY2Vuw6dhIGRlc3RlIGl0ZW0gcmVmZXJlLXNlIGFvIHRlcm1vIGRlIGF1dG9yaXphw6fDo28gaW1wcmVzc28gYXNzaW5hZG8gDQpwZWxvIGF1dG9yIGNvbSBhcyBzZWd1aW50ZXMgY29uZGnDp8O1ZXM6DQoNCk5hIHF1YWxpZGFkZSBkZSB0aXR1bGFyIGRvcyBkaXJlaXRvcyBkZSBhdXRvciBkYSBwdWJsaWNhw6fDo28sIGF1dG9yaXpvIGEgVW5pdmVyc2lkYWRlIGRlIEJyYXPDrWxpYQ0KIGUgbyBJQklDVCBhIGRpc3BvbmliaWxpemFyIHBvciBtZWlvIGRvcyBzaXRlcyB3d3cuYmNlLnVuYi5iciwgd3d3LmliaWN0LmJyLA0KIGh0dHA6Ly9oZXJjdWxlcy52dGxzLmNvbS9jZ2ktYmluL25kbHRkL2NoYW1lbGVvbj9sbmc9cHQmc2tpbj1uZGx0ZCBzZW0gcmVzc2FyY2ltZW50byBkb3MgDQpkaXJlaXRvcyBhdXRvcmFpcywgZGUgYWNvcmRvIGNvbSBhIExlaSBuwrogOTYxMC85OCwgbyB0ZXh0byBpbnRlZ3JhbCBkYSBvYnJhIGRpc3BvbmliaWxpemFkYSwNCiBjb25mb3JtZSBwZXJtaXNzw7VlcyBhc3NpbmFsYWRhcywgcGFyYSBmaW5zIGRlIGxlaXR1cmEsIGltcHJlc3PDo28gZS9vdSBkb3dubG9hZCwgYSB0w610dWxvIGRlIA0KZGl2dWxnYcOnw6NvIGRhIHByb2R1w6fDo28gY2llbnTDrWZpY2EgYnJhc2lsZWlyYSwgYSBwYXJ0aXIgZGVzdGEgZGF0YS4=</field>
+   </element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

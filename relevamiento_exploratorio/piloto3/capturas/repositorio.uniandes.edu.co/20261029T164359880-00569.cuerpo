@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T17:02:47Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.uniandes.edu.co:1992/20454" metadataPrefix="xoai">https://repositorio.uniandes.edu.co/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.uniandes.edu.co:1992/20454</identifier><datestamp>2026-07-28T09:00:21Z</datestamp><setSpec>com_1992_52127</setSpec><setSpec>com_1992_52103</setSpec><setSpec>com_1992_51809</setSpec><setSpec>col_1992_52382</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="rights">
+         <element name="license">
+            <element name="spa">
+               <field name="value">Al consultar y hacer uso de este recurso, está aceptando las condiciones de uso establecidas por los autores.</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="*">
+               <field name="value">http://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+            </element>
+         </element>
+         <element name="accessrights">
+            <element name="spa">
+               <field name="value">info:eu-repo/semantics/openAccess</field>
+            </element>
+         </element>
+         <element name="coar">
+            <element name="spa">
+               <field name="value">http://purl.org/coar/access_right/c_abf2</field>
+            </element>
+         </element>
+      </element>
+      <element name="contributor">
+         <element name="advisor">
+            <element name="none">
+               <field name="value">Zalamea Zamora, Paul Camilo</field>
+               <field name="authority">12b1c781-3693-4dc6-8c37-bf47a538ea47</field>
+               <field name="confidence">500</field>
+            </element>
+         </element>
+         <element name="author">
+            <element name="none">
+               <field name="value">De La Pava Arango, Ricardo</field>
+               <field name="authority">424ed27a-9de5-4da7-a70b-83553283f2de</field>
+               <field name="confidence">500</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2018-09-28T20:21:09Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2018-09-28T20:21:09Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2008</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/1992/20454</field>
+            </element>
+         </element>
+         <element name="instname">
+            <element name="spa">
+               <field name="value">instname:Universidad de los Andes</field>
+            </element>
+         </element>
+         <element name="reponame">
+            <element name="spa">
+               <field name="value">reponame:Repositorio Institucional Séneca</field>
+            </element>
+         </element>
+         <element name="repourl">
+            <element name="spa">
+               <field name="value">repourl:https://repositorio.uniandes.edu.co/</field>
+            </element>
+         </element>
+      </element>
+      <element name="format">
+         <element name="extent">
+            <element name="es_CO">
+               <field name="value">52 páginas</field>
+            </element>
+         </element>
+         <element name="mimetype">
+            <element name="es_CO">
+               <field name="value">application/pdf</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="es_CO">
+               <field name="value">spa</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="es_CO">
+            <field name="value">Universidad de los Andes</field>
+         </element>
+         <element name="program">
+            <element name="es_CO">
+               <field name="value">Biología</field>
+            </element>
+         </element>
+         <element name="faculty">
+            <element name="es_CO">
+               <field name="value">Facultad de Ciencias</field>
+            </element>
+         </element>
+         <element name="department">
+            <element name="spa">
+               <field name="value">Departamento de Ciencias Biológicas</field>
+            </element>
+         </element>
+      </element>
+      <element name="source">
+         <element name="es_CO">
+            <field name="value">instname:Universidad de los Andes</field>
+            <field name="value">reponame:Repositorio Institucional Séneca</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="es_CO">
+            <field name="value">Periodicidad y patrones de crecimiento en dos poblaciones de montaña de cecropia angustifolia trécul</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="spa">
+            <field name="value">Trabajo de grado - Pregrado</field>
+         </element>
+         <element name="driver">
+            <element name="spa">
+               <field name="value">info:eu-repo/semantics/bachelorThesis</field>
+            </element>
+         </element>
+         <element name="version">
+            <element name="spa">
+               <field name="value">info:eu-repo/semantics/publishedVersion</field>
+            </element>
+         </element>
+         <element name="coar">
+            <element name="spa">
+               <field name="value">http://purl.org/coar/resource_type/c_7a1f</field>
+            </element>
+         </element>
+         <element name="coarversion">
+            <element name="spa">
+               <field name="value">http://purl.org/coar/version/c_ab4af688f83e57aa</field>
+            </element>
+         </element>
+         <element name="content">
+            <element name="spa">
+               <field name="value">Text</field>
+            </element>
+         </element>
+         <element name="redcol">
+            <element name="spa">
+               <field name="value">http://purl.org/redcol/resource_type/TP</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="keyword">
+            <element name="es_CO">
+               <field name="value">Fenología</field>
+               <field name="value">Cecropia</field>
+               <field name="value">Ecología forestal</field>
+            </element>
+         </element>
+         <element name="themes">
+            <element name="none">
+               <field name="value">Biología</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="degreename">
+            <element name="es_CO">
+               <field name="value">Biólogo</field>
+            </element>
+         </element>
+         <element name="degreelevel">
+            <element name="es_CO">
+               <field name="value">Pregrado</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="dspace">
+      <element name="entity">
+         <element name="type">
+            <element name="none">
+               <field name="value">Publication</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">u336136.pdf.jpg</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.ImageMagickPdfThumbnailFilter on 2022-02-07T15:13:35Z (GMT).</field>
+               <field name="description">IM Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">6146</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/fab9729f-a7b9-4ee4-a336-a6dfd93be77f/download</field>
+               <field name="checksum">713fa130d781074d8f9f4f2a5d3429a2</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+            <element name="bitstream">
+               <field name="name">Periodicidad y patrones de crecimiento en dos poblaciones de montana de cecropia angustifolia trecul.pdf.jpg</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.ImageMagickPdfThumbnailFilter on 2026-07-28T09:00:21Z (GMT).</field>
+               <field name="description">IM Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">7902</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/fab16f27-86b5-4e83-892e-2dc575da7847/download</field>
+               <field name="checksum">385f022f26633a9a49da8c69aa7bbdec</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">7</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">u336136.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.PDFFilter on 2022-02-07T15:13:35Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">71515</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/ca265113-e36c-469d-976a-34ae9573bd43/download</field>
+               <field name="checksum">46a5ef6b6fd05c673a6e1d2e862f9554</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+            <element name="bitstream">
+               <field name="name">Periodicidad y patrones de crecimiento en dos poblaciones de montana de cecropia angustifolia trecul.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-07-28T09:00:17Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">72633</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/c080a772-066d-4d5a-a311-79db96692af5/download</field>
+               <field name="checksum">34e9c88ecc5d8290e70ef3ee21f95a5a</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">6</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">Periodicidad y patrones de crecimiento en dos poblaciones de montana de cecropia angustifolia trecul.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">1181966</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/0f8fb6c7-848d-4e5f-a80c-a4e9f9064214/download</field>
+               <field name="checksum">62aa19fcffffe0c17dfaf320ef4f5d79</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">1992/20454</field>
+      <field name="identifier">oai:dspace-new-uniandes.metabuscador.org:1992/20454</field>
+      <field name="lastModifyDate">2026-07-28T09:00:21.092Z</field>
+      <element name="cc">
+         <field name="uri">http://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+      </element>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://dspace-new-uniandes.metabuscador.org</field>
+      <field name="name">Repositorio institucional Séneca</field>
+      <field name="mail">adminrepositorio@uniandes.edu.co</field>
+   </element>
+   <element name="license"/>
+</metadata></metadata></record></GetRecord></OAI-PMH>

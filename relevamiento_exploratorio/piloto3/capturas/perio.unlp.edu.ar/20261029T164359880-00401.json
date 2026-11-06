@@ -1,0 +1,81 @@
+{
+ "pedido": "20261029T164359880-00401",
+ "url": "https://perio.unlp.edu.ar/ojs/index.php/question",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:55:35 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.63 (AlmaLinux) OpenSSL/3.5.8"
+  ],
+  [
+   "x-powered-by",
+   "PHP/8.3.36"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "set-cookie",
+   "OJSSID=anhqhudj75j88eob7ak7a9rff1; path=/ojs/; domain=perio.unlp.edu.ar; HttpOnly; SameSite=Lax"
+  ],
+  [
+   "x-frame-options",
+   "SAMEORIGIN"
+  ],
+  [
+   "referrer-policy",
+   "strict-origin-when-cross-origin"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000"
+  ],
+  [
+   "cache-control",
+   "max-age=3600"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:55:35 GMT"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "content-length",
+   "10247"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

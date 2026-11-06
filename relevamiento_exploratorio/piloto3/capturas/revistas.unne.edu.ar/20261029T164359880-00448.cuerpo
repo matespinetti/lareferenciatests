@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es-ES" xml:lang="es-ES">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Conocer para proponer: del diagnóstico a la planificación y al proyecto urbano. Ejercitación práctica de la asignatura Urbanismo en el área norte de Resistencia. 2024
+							| ADNea
+			</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.3.0.22" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Laura I. Alcalá"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2025-12-30"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2025-12-18"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2025-12-30"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2025-12-30"/>
+<meta name="DC.Description" xml:lang="en" content="The Urban Planning subject proposes the conceptual assimilation of its contents through a series of practical works on which the course is structured and covers the methodological process that goes from diagnosis to planning and the urban project, in complementary urban scales. The experience of the 2024 course allows us to reflect on the strategies developed to overcome various contextual difficulties, while showing how its creative management generated productivity that allowed us to transcend the pedagogical objectives,&amp;nbsp; contributing to the collaborative construction of non-existent knowledge about a newly growing area of the city of Resistencia."/>
+<meta name="DC.Description" xml:lang="es" content="La asignatura Urbanismo propone la asimilación conceptual de sus contenidos a partir de una serie de trabajos prácticos sobre los que se estructura el cursado y recorre el proceso metodológico que va del diagnóstico a la planificación y al proyecto urbano, en escalas urbanas complementarias. La experiencia delcurso 2024 permite reflexionar sobre las estrategias desarrolladas para superar diversas dificultades contextuales planteadas, a la vez que muestra cómo su gestión creativa generó productividades que permitieron trascender los objetivos pedagógicos, contribuyendo a la construcción colaborativa de conocimiento inexistente sobre un área de nuevo crecimiento de la ciudad de Resistencia."/>
+<meta name="DC.Description" xml:lang="pt" content=""/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="9005"/>
+<meta name="DC.Identifier.pageNumber" content="63-73"/>
+<meta name="DC.Identifier.DOI" content="10.30972/adn.139005"/>
+<meta name="DC.Identifier.URI" content="https://revistas.unne.edu.ar/index.php/adn/article/view/9005"/>
+<meta name="DC.Language" scheme="ISO639-1" content="es"/>
+<meta name="DC.Rights" content="Derechos de autor 2025 "/>
+<meta name="DC.Rights" content="https://creativecommons.org/licenses/by-nc/4.0"/>
+<meta name="DC.Source" content="ADNea"/>
+<meta name="DC.Source.ISSN" content="2347-1107"/>
+<meta name="DC.Source.Issue" content="13"/>
+<meta name="DC.Source.URI" content="https://revistas.unne.edu.ar/index.php/adn"/>
+<meta name="DC.Subject" xml:lang="es" content="Área Norte Resistencia"/>
+<meta name="DC.Subject" xml:lang="es" content="Plan General Urbano"/>
+<meta name="DC.Subject" xml:lang="es" content="Proyecto Urbano"/>
+<meta name="DC.Title" content="Conocer para proponer: del diagnóstico a la planificación y al proyecto urbano. Ejercitación práctica de la asignatura Urbanismo en el área norte de Resistencia. 2024"/>
+<meta name="DC.Title.Alternative" xml:lang="en" content="Know in order to propose: from diagnosis to planning and urban project. Practical exercise of the subject urbanism in the northern area of Resistencia. 2024"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Artículos de docencia"/>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="ADNea"/>
+<meta name="citation_journal_abbrev" content="ADNea"/>
+<meta name="citation_issn" content="2347-1107"/> 
+<meta name="citation_author" content="Laura I. Alcalá"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_title" content="Conocer para proponer: del diagnóstico a la planificación y al proyecto urbano. Ejercitación práctica de la asignatura Urbanismo en el área norte de Resistencia. 2024"/>
+<meta name="citation_language" content="es"/>
+<meta name="citation_date" content="2025/12/30"/>
+<meta name="citation_issue" content="13"/>
+<meta name="citation_firstpage" content="63"/>
+<meta name="citation_lastpage" content="73"/>
+<meta name="citation_doi" content="10.30972/adn.139005"/>
+<meta name="citation_abstract_html_url" content="https://revistas.unne.edu.ar/index.php/adn/article/view/9005"/>
+<meta name="citation_keywords" xml:lang="es" content="Área Norte Resistencia"/>
+<meta name="citation_keywords" xml:lang="es" content="Plan General Urbano"/>
+<meta name="citation_keywords" xml:lang="es" content="Proyecto Urbano"/>
+<meta name="citation_pdf_url" content="https://revistas.unne.edu.ar/index.php/adn/article/download/9005/8660"/>
+<meta name="citation_reference" content="Alcalá, L. (2018). Nuevo programa de la asignatura Desarrollo Urbano 2. Fundamentación de los cambios introducidos en los contenidos y en la propuesta pedagógica y primeras consideraciones sobre su implementación. ADNea, 7(7), 57-71."/>
+<meta name="citation_reference" content="Alcalá, L., Scheneider, V. y Borges, J. (2021). Nuevos desafíos en la práctica de enseñanza aprendizaje. Experiencia virtual de la Cátedra Desarrollo Urbano. ADNea, 9(9), 38-49."/>
+<meta name="citation_reference" content="Boelens, R., Hoogesteger, J., Swyngedouw, E., Vos, J. y Wester, P. (2016). Territorios hidrosociales: una perspectiva desde la ecología política. En: C. Salamanca Villamizar y F. Astudillo Pizarro (comps.) Recursos, vínculos y territorios. Inflexiones transversales en Torno al agua (pp 85- 104). UNR."/>
+<meta name="citation_reference" content="Municipalidad de Resistencia (2021). Ordenanza Municipal N° 13756. Nueva zonificación de distritos en Resistencia. Boletín Oficial."/>
+	<link rel="stylesheet" href="https://revistas.unne.edu.ar/index.php/adn/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://revistas.unne.edu.ar/index.php/adn/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://revistas.unne.edu.ar/lib/pkp/styles/fontawesome/fontawesome.css?v=3.3.0.22" type="text/css" /><link rel="stylesheet" href="https://revistas.unne.edu.ar/public/site/styleSheet.css?v=3.3.0.22" type="text/css" />
+</head>
+<body class="pkp_page_article pkp_op_view has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Salta a los enlaces de contenido">
+	<a href="#pkp_content_main">Ir al contenido principal</a>
+	<a href="#siteNav">Ir al menú de navegación principal</a>
+		<a href="#pkp_content_footer">Ir al pie de página del sitio</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://revistas.unne.edu.ar/index.php/adn/index
+					" class="is_img">
+							<img src="https://revistas.unne.edu.ar/public/journals/24/pageHeaderLogoImage_es_ES" width="1024" height="219"  />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Navegación del sitio">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/issue/current">
+					Actual
+				</a>
+							</li>
+								<li class="">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/issue/archive">
+					Archivos
+				</a>
+							</li>
+															<li class="">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/about">
+					Acerca de
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about">
+										Sobre la revista
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/submissions">
+										Envíos
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/editorialTeam">
+										Equipo editorial
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/privacy">
+										Declaración de privacidad
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/contact">
+										Contacto
+									</a>
+								</li>
+																		</ul>
+							</li>
+			</ul>
+
+				
+
+																						<div class="pkp_navigation_search_wrapper">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/search" class="pkp_search pkp_search_desktop">
+										<span class="fa fa-search" aria-hidden="true"></span>
+										Buscar
+									</a>
+								</div>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+															<li class="profile">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/login">
+					Entrar
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="Usted está aquí:">
+	<ol>
+		<li>
+			<a href="https://revistas.unne.edu.ar/index.php/adn/index">
+				Inicio
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://revistas.unne.edu.ar/index.php/adn/issue/archive">
+				Archivos
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://revistas.unne.edu.ar/index.php/adn/issue/view/829">
+					Núm. 13 (2025)
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									Artículos de docencia
+							</span>
+		</li>
+	</ol>
+</nav>
+	
+		  	 <article class="obj_article_details">
+
+		
+	<h1 class="page_title">
+		Conocer para proponer: del diagnóstico a la planificación y al proyecto urbano. Ejercitación práctica de la asignatura Urbanismo en el área norte de Resistencia. 2024
+	</h1>
+
+	
+	<div class="row">
+		<div class="main_entry">
+
+							<section class="item authors">
+					<h2 class="pkp_screen_reader">Autores/as</h2>
+					<ul class="authors">
+											<li>
+							<span class="name">
+								Laura I. Alcalá
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+										</ul>
+				</section>
+			
+																												<section class="item doi">
+						<h2 class="label">
+														DOI:
+						</h2>
+						<span class="value">
+							<a href="https://doi.org/10.30972/adn.139005">
+								https://doi.org/10.30972/adn.139005
+							</a>
+						</span>
+					</section>
+							
+									<section class="item keywords">
+				<h2 class="label">
+										Palabras clave:
+				</h2>
+				<span class="value">
+											Área Norte Resistencia, 											Plan General Urbano, 											Proyecto Urbano									</span>
+			</section>
+			
+										<section class="item abstract">
+					<h2 class="label">Resumen</h2>
+					<p>La asignatura Urbanismo propone la asimilación conceptual de sus contenidos a partir de una serie de trabajos prácticos sobre los que se estructura el cursado y recorre el proceso metodológico que va del diagnóstico a la planificación y al proyecto urbano, en escalas urbanas complementarias. La experiencia del<br>curso 2024 permite reflexionar sobre las estrategias desarrolladas para superar diversas dificultades contextuales planteadas, a la vez que muestra cómo su gestión creativa generó productividades que permitieron trascender los objetivos pedagógicos, contribuyendo a la construcción colaborativa de conocimiento inexistente sobre un área de nuevo crecimiento de la ciudad de Resistencia.</p>
+				</section>
+			
+			
+
+																			
+										<section class="item references">
+					<h2 class="label">
+						Citas
+					</h2>
+					<div class="value">
+																					<p>Alcalá, L. (2018). Nuevo programa de la asignatura Desarrollo Urbano 2. Fundamentación de los cambios introducidos en los contenidos y en la propuesta pedagógica y primeras consideraciones sobre su implementación. ADNea, 7(7), 57-71. </p>
+															<p>Alcalá, L., Scheneider, V. y Borges, J. (2021). Nuevos desafíos en la práctica de enseñanza aprendizaje. Experiencia virtual de la Cátedra Desarrollo Urbano. ADNea, 9(9), 38-49. </p>
+															<p>Boelens, R., Hoogesteger, J., Swyngedouw, E., Vos, J. y Wester, P. (2016). Territorios hidrosociales: una perspectiva desde la ecología política. En: C. Salamanca Villamizar y F. Astudillo Pizarro (comps.) Recursos, vínculos y territorios. Inflexiones transversales en Torno al agua (pp 85- 104). UNR. </p>
+															<p>Municipalidad de Resistencia (2021). Ordenanza Municipal N° 13756. Nueva zonificación de distritos en Resistencia. Boletín Oficial. </p>
+																		</div>
+				</section>
+			
+		</div><!-- .main_entry -->
+
+		<div class="entry_details">
+
+										<div class="item cover_image">
+					<div class="sub_item">
+													<a href="https://revistas.unne.edu.ar/index.php/adn/issue/view/829">
+								<img src="https://revistas.unne.edu.ar/public/journals/24/cover_issue_829_es_ES.jpg" alt="">
+							</a>
+											</div>
+				</div>
+			
+										<div class="item galleys">
+					<h2 class="pkp_screen_reader">
+						Descargas
+					</h2>
+					<ul class="value galleys_links">
+													<li>
+								
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9005/8660">
+
+		
+	PDF
+
+	</a>
+							</li>
+											</ul>
+				</div>
+						
+						<div class="item published">
+				<section class="sub_item">
+					<h2 class="label">
+						Publicado
+					</h2>
+					<div class="value">
+																			<span>2025-12-30</span>
+																	</div>
+				</section>
+							</div>
+			
+						
+										<div class="item issue">
+
+											<section class="sub_item">
+							<h2 class="label">
+								Número
+							</h2>
+							<div class="value">
+								<a class="title" href="https://revistas.unne.edu.ar/index.php/adn/issue/view/829">
+									Núm. 13 (2025)
+								</a>
+							</div>
+						</section>
+					
+											<section class="sub_item">
+							<h2 class="label">
+								Sección
+							</h2>
+							<div class="value">
+								Artículos de docencia
+							</div>
+						</section>
+					
+									</div>
+			
+															
+										<div class="item copyright">
+					<h2 class="label">
+						Licencia
+					</h2>
+																									<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><p>Esta obra está bajo una licencia internacional <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Atribución-NoComercial 4.0</a>.</p>
+																
+				</div>
+			
+			
+
+		</div><!-- .entry_details -->
+	</div><!-- .row -->
+
+</article>
+
+	
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary" aria-label="Barra lateral">
+				<div class="pkp_block block_custom" id="customblock-indexaciones">
+	<h2 class="title pkp_screen_reader">Indexaciones</h2>
+	<div class="content">
+		<hr>
+<h3><span style="color: grey;">Indexaciones</span></h3>
+<p>&nbsp;</p>
+<p><a href="http://arla.ubiobio.cl/index.php?r=ultimo-numero%2Fver_detalle_numero&amp;numero=341&amp;revista=186" target="_blank" rel="noopener"><strong><img src="https://revistas.unne.edu.ar/public/site/images/admin/arla_logo1.jpg" alt=""></strong></a></p>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+		
+		<div class="pkp_brand_footer" role="complementary">
+			<a href="https://revistas.unne.edu.ar/index.php/adn/about/aboutThisPublishingSystem">
+				<img alt="Más información acerca del sistema de publicación, de la plataforma y del flujo de trabajo de OJS/PKP." src="https://revistas.unne.edu.ar/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://revistas.unne.edu.ar/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/lib/popper/popper.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/lib/bootstrap/util.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/main.js?v=3.3.0.22" type="text/javascript"></script>
+
+
+</body>
+</html>

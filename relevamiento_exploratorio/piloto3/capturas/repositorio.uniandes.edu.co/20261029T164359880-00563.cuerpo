@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T17:02:19Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.uniandes.edu.co:1992/10571" metadataPrefix="xoai">https://repositorio.uniandes.edu.co/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.uniandes.edu.co:1992/10571</identifier><datestamp>2025-11-21T13:38:10Z</datestamp><setSpec>com_1992_52332</setSpec><setSpec>com_1992_52164</setSpec><setSpec>com_1992_51811</setSpec><setSpec>col_1992_52350</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="rights">
+         <element name="license">
+            <element name="spa">
+               <field name="value">Al consultar y hacer uso de este recurso, está aceptando las condiciones de uso establecidas por los autores.</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="*">
+               <field name="value">https://repositorio.uniandes.edu.co/assets/custom/files/aceptacion_uso_es.pdf</field>
+            </element>
+         </element>
+         <element name="accessrights">
+            <element name="spa">
+               <field name="value">info:eu-repo/semantics/openAccess</field>
+            </element>
+         </element>
+         <element name="coar">
+            <element name="spa">
+               <field name="value">http://purl.org/coar/access_right/c_abf2</field>
+            </element>
+         </element>
+      </element>
+      <element name="contributor">
+         <element name="advisor">
+            <element name="none">
+               <field name="value">Torres Duque, Jorge Humberto</field>
+               <field name="authority">985dbc3e-c637-4a63-a07b-a4ac3b105c9a</field>
+               <field name="confidence">500</field>
+            </element>
+         </element>
+         <element name="author">
+            <element name="none">
+               <field name="value">Urrea Uribe, David</field>
+               <field name="authority">3461c69e-06ab-4e95-8a34-b029cace63be</field>
+               <field name="confidence">500</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2018-09-27T19:43:46Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2018-09-27T19:43:46Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2005</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/1992/10571</field>
+            </element>
+         </element>
+         <element name="doi">
+            <element name="none">
+               <field name="value">10.57784/1992/10571</field>
+            </element>
+         </element>
+         <element name="pdf">
+            <element name="none">
+               <field name="value">u258586.pdf</field>
+            </element>
+         </element>
+         <element name="instname">
+            <element name="spa">
+               <field name="value">instname:Universidad de los Andes</field>
+            </element>
+         </element>
+         <element name="reponame">
+            <element name="spa">
+               <field name="value">reponame:Repositorio Institucional Séneca</field>
+            </element>
+         </element>
+         <element name="repourl">
+            <element name="spa">
+               <field name="value">repourl:https://repositorio.uniandes.edu.co/</field>
+            </element>
+         </element>
+      </element>
+      <element name="format">
+         <element name="extent">
+            <element name="es_CO">
+               <field name="value">41 hojas</field>
+            </element>
+         </element>
+         <element name="mimetype">
+            <element name="es_CO">
+               <field name="value">application/pdf</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="es_CO">
+               <field name="value">spa</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">Uniandes</field>
+         </element>
+         <element name="program">
+            <element name="es_CO">
+               <field name="value">Maestría en Ingeniería Eléctrica</field>
+            </element>
+         </element>
+         <element name="faculty">
+            <element name="es_CO">
+               <field name="value">Facultad de Ingeniería</field>
+            </element>
+         </element>
+         <element name="department">
+            <element name="es_CO">
+               <field name="value">Departamento de Ingeniería Eléctrica y Electrónica</field>
+            </element>
+         </element>
+      </element>
+      <element name="source">
+         <element name="es_CO">
+            <field name="value">instname:Universidad de los Andes</field>
+            <field name="value">reponame:Repositorio Institucional Séneca</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="es_CO">
+            <field name="value">Desarrollo de interfaz para transferir datos de señales electrocardiográficas a un PDA y software de visualización y almacenamiento de estas señales en dicho dispositivo</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="spa">
+            <field name="value">Trabajo de grado - Maestría</field>
+         </element>
+         <element name="driver">
+            <element name="spa">
+               <field name="value">info:eu-repo/semantics/masterThesis</field>
+            </element>
+         </element>
+         <element name="version">
+            <element name="spa">
+               <field name="value">info:eu-repo/semantics/publishedVersion</field>
+            </element>
+         </element>
+         <element name="coar">
+            <element name="spa">
+               <field name="value">http://purl.org/coar/resource_type/c_bdcc</field>
+            </element>
+         </element>
+         <element name="coarversion">
+            <element name="spa">
+               <field name="value">http://purl.org/coar/version/c_ab4af688f83e57aa</field>
+            </element>
+         </element>
+         <element name="content">
+            <element name="spa">
+               <field name="value">Text</field>
+            </element>
+         </element>
+         <element name="redcol">
+            <element name="spa">
+               <field name="value">http://purl.org/redcol/resource_type/TM</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="keyword">
+            <element name="es_CO">
+               <field name="value">Electrocardiografía - Procesamiento de datos</field>
+               <field name="value">Procesamiento de señales - Técnicas digitales</field>
+               <field name="value">Ingeniería biomédica - Investigaciones</field>
+            </element>
+         </element>
+         <element name="themes">
+            <element name="none">
+               <field name="value">Ingeniería</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="degreename">
+            <element name="es_CO">
+               <field name="value">Magíster en Ingeniería Eléctrica</field>
+            </element>
+         </element>
+         <element name="degreelevel">
+            <element name="es_CO">
+               <field name="value">Maestría</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="dspace">
+      <element name="entity">
+         <element name="type">
+            <element name="none">
+               <field name="value">Publication</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">u258586.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.PDFFilter on 2022-02-14T22:50:26Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">50250</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/099eea2f-a126-408e-aebe-542cce23a82c/download</field>
+               <field name="checksum">b1d491b3255e616553b1e703daa7fc5c</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">u258586.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">450916</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/21e68d38-a3a2-4afb-acdb-78de0de538fa/download</field>
+               <field name="checksum">a223e1810ef92ed61aa7e8e33eadca79</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">u258586.pdf.jpg</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.ImageMagickPdfThumbnailFilter on 2022-02-14T22:50:28Z (GMT).</field>
+               <field name="description">IM Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">7625</field>
+               <field name="url">https://dspace-new-uniandes.metabuscador.org/bitstreams/4a536fef-e4bd-4cd8-8ead-541390c4a0fd/download</field>
+               <field name="checksum">4daeeb695d8b0cb16296e0dcacd82e08</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">1992/10571</field>
+      <field name="identifier">oai:dspace-new-uniandes.metabuscador.org:1992/10571</field>
+      <field name="lastModifyDate">2025-11-21T13:38:10.097Z</field>
+      <element name="cc">
+         <field name="uri">https://repositorio.uniandes.edu.co/assets/custom/files/aceptacion_uso_es.pdf</field>
+      </element>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://dspace-new-uniandes.metabuscador.org</field>
+      <field name="name">Repositorio institucional Séneca</field>
+      <field name="mail">adminrepositorio@uniandes.edu.co</field>
+   </element>
+   <element name="license"/>
+</metadata></metadata></record></GetRecord></OAI-PMH>

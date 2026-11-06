@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T164359880-00535",
+ "url": "https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1851-23722025000300003",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:59:09 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.2.3 (CentOS)"
+  ],
+  [
+   "content-security-policy",
+   "upgrade-insecure-requests;"
+  ],
+  [
+   "x-powered-by",
+   "PHP/5.2.17"
+  ],
+  [
+   "expires",
+   "Thu, 19 Nov 1981 08:52:00 GMT"
+  ],
+  [
+   "cache-control",
+   "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+  ],
+  [
+   "pragma",
+   "no-cache"
+  ],
+  [
+   "content-type",
+   "text/html; charset=UTF-8"
+  ],
+  [
+   "via",
+   "1.1 www.scielo.org.ar"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "keep-alive",
+   "timeout=1, max=50"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00094",
+ "url": "https://hdl.handle.net/20.500.12104/111546",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:46:54 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "location",
+   "https://riudg.udg.mx//handle/20.500.12104/111546"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 16:48:34 GMT"
+  ],
+  [
+   "cf-cache-status",
+   "DYNAMIC"
+  ],
+  [
+   "nel",
+   "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+  ],
+  [
+   "report-to",
+   "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=eWjOGzF8z15Fn577oXUhaYpgJZyQgYyCp2dcwhAZ%2Ft6GbybnE7q8feyV00w8FYAkmFq8r%2BdZIhO75WtVAdCmQdkX5srKh1XYF5vPPSoIpGUoQKlD94JwHoSVBYHIiqaHfA%3D%3D\"}]}"
+  ],
+  [
+   "server",
+   "cloudflare"
+  ],
+  [
+   "cf-ray",
+   "a523a8b34afe684e-EZE"
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

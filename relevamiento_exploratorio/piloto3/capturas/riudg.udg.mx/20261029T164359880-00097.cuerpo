@@ -1,0 +1,513 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RIUdeG: Sistemas y paradigmas</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 6.3" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DCTERMS.dateAccepted" content="2026-01-28T14:42:07Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2026-01-28T14:42:07Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="https://hdl.handle.net/20.500.12104/111546" scheme="DCTERMS.URI" />
+<meta name="DC.description" content="Ninguna ciencia ha procurado tanto como la psicología el aplicar las ideas de Thomas S. Kuhn a su propio desarrollo y articulación. Desde que en 1962 se publicó el célebre The Structure of Scientific Revolutions del autor norteamericano, diversos estudiosos de la ciencia psicológica han defendido narrativas históricas y epistemológicas que pretenden dar cuenta mediante los conceptos kuhnianos del desarrollo de esta discipina sin que prevalezca hasta la fecha un consenso académico al respecto. Hay quienes hablan de ella como una preciencia, o como una ciencia normal poseedora de algún paradigma dominante, o como una ciencia anormal en estado perpetuo de crisis, o como una ciencia multiparadigmática.Este texto explora los conceptos de la filosofía kuhniana de la ciencia, así como los vericuetos de su implementación como aparato interpretativo tanto de la psicología clásica como de la psicología actual. Cualquier persona interesada en la psicología o en la filosofía de las ciencias hallará aquí un espacio rico en debates y reflexiones que iluminan la compleja e intrincada naturaleza laberíntica de los estudios sobre la mente, la conducta, el cerebro, o lo que sea que estudia la ciencia psicológica." />
+<meta name="DC.publisher" content="Editorial Universidad de Guadalajara" />
+<meta name="DC.relation" content="Editorial Universidad de Guadalajara" />
+<meta name="DC.subject" content="PSICOLOGÍA &gt; Referencia" />
+<meta name="DC.subject" content="Psicología" />
+<meta name="DC.subject" content="Obras de consulta" />
+<meta name="DC.subject" content="Filosofía y psicología &gt; Psicología &gt; Psicología &gt; Filosofía y teoría" />
+<meta name="DC.title" content="Sistemas y paradigmas" />
+<meta name="DC.type" content="Libro" />
+<meta name="DC.creator" content="Mario Alberto Lozano González" />
+<meta name="DC.language" content="spa" scheme="DCTERMS.RFC1766" />
+<meta name="DCTERMS.issued" content="2024" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.alternative" content="La psicología desde la perspectiva kuhniana" />
+
+<meta name="citation_keywords" content="PSICOLOGÍA &gt; Referencia; Psicología; Obras de consulta; Filosofía y psicología &gt; Psicología &gt; Psicología &gt; Filosofía y teoría; Libro" />
+<meta name="citation_title" content="Sistemas y paradigmas" />
+<meta name="citation_publisher" content="Editorial Universidad de Guadalajara" />
+<meta name="citation_date" content="2026-01-28T14:42:07Z" />
+<meta name="citation_abstract_html_url" content="https://riudg.udg.mx//handle/20.500.12104/111546" />
+
+
+        
+	<script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+
+	<script type="text/javascript" src="/layout/ajustesRIUdeG.js"></script>	
+	<script type="text/javascript">separaRepositoriosRedUdeG();</script>
+
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-67819553-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation">
+<a class="sr-only" href="#content">Skip navigation</a>
+<header id="cabeza" class="navbar navbar-inverse navbar-fixed-top">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul class="nav navbar-nav">
+           <li class=""><a href="/"><span class="glyphicon glyphicon-home"></span> Página de inicio</a></li>
+
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Listar <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+               <li><a href="/community-list">Comunidades en RIUdeG</a></li>
+				<li class="divider"></li>
+        <li class="dropdown-header">Browse Items by:</li>
+				
+
+				
+				      			<li><a href="/browse?type=dateissued">Fecha de titulación</a></li>
+					
+				      			<li><a href="/browse?type=author">Autor</a></li>
+					
+				      			<li><a href="/browse?type=title">Título</a></li>
+					
+				      			<li><a href="/browse?type=subject">Materia</a></li>
+					
+
+				
+
+            </ul>
+          </li>
+          <li class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/help/index.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Ayuda<\/a>');
+// -->
+</script><noscript><a href="/help/index.html" target="dspacepopup">Ayuda</a></noscript></li>
+       </ul>
+
+ 
+    <div class="nav navbar-nav navbar-right">
+	 <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Language<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='en';
+                  document.repost.submit();" href="https://riudg.udg.mx/handle/20.500.12104/111546?locale=en">
+         English
+       </a>
+      </li>
+ 
+      <li>
+        <a onclick="javascript:document.repost.locale.value='es';
+                  document.repost.submit();" href="https://riudg.udg.mx/handle/20.500.12104/111546?locale=es">
+         español
+       </a>
+      </li>
+ 
+     </ul>
+    </li>
+    </ul>
+  </div>
+ 
+
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+         
+             <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Iniciar sesión <b class="caret"></b></a>-->
+             <!--<a href="/mydspace" class="loginRIUdeG-btn" ><span class="glyphicon glyphicon-user"></span> Iniciar sesión</a>-->
+	
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">Mi perfil</a></li>
+               <li><a href="/subscribe">Alertas</a></li>
+               <li><a href="/profile">Editar perfil</a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+
+	
+	<form method="get" action="/simple-search" class="navbar-form navbar-right">
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Buscar en&nbsp;RIUdeG" name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form></div>
+    </nav>
+
+            </div>
+
+</header>
+
+<!-- Tema UdeG (Segundo navbar) -->
+<!--<div id="segundo-navbar" class="navbar navbar-default">
+	<nav class="container"> 
+	<div class="container-fluid">
+    		<!-- Brand and toggle get grouped for better mobile display -->
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="/">RIUdeG Inicio</a>
+    		</div>
+    		<!-- Collect the nav links, forms, and other content for toggling -->
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      			<ul class="nav navbar-nav">
+				<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Consultar<span class="caret"></span></a>
+         				<ul class="dropdown-menu">
+						<li><a href="http://www.riudg.udg.mx/info/consultar.jsp#colecciones">Colecciones</a></li>
+						<li><a href="http://www.riudg.udg.mx/info/consultar.jsp#autores">Autores</a></li>
+						<li><a href="http://www.riudg.udg.mx/info/consultar.jsp#temas">Temas</a></li>
+          				</ul>
+        			</li>
+				<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publicar <span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            					<li><a href="http://www.riudg.udg.mx/info/publicar.jsp#trabajos">Como agregar mis trabajos </a></li>
+						<li><a href="http://www.riudg.udg.mx/info/publicar.jsp#tesistas">Informaci&oacute;n para tesistas</a></li>
+						<li><a href="http://www.riudg.udg.mx/info/publicar.jsp#tesis">Subir tesis</a></li>
+						<li><a href="http://www.riudg.udg.mx/info/publicar.jsp#articulos">Subir art&iacute;culo</a></li>
+          				</ul>
+        			</li>
+				<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acerca de RIUdeG <span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            					<li><a href="http://www.riudg.udg.mx/info/acercaRIUdeG.jsp#contenidos">Contenidos </a></li>
+						<li><a href="http://www.riudg.udg.mx/info/acercaRIUdeG.jsp#politicas">Pol&iacute;ticas</a></li>
+						<li><a href="http://www.riudg.udg.mx/info/acercaRIUdeG.jsp#preguntas">Preguntas frecuentes</a></li>
+						<li><a href="http://www.riudg.udg.mx/info/acercaRIUdeG.jsp#contacto">Contacto</a></li>
+          				</ul>
+        			</li>
+      			</ul>
+    		</div><!-- /.navbar-collapse -->
+  	</div><!-- /.container-fluid -->
+</nav>
+<!--</div>-->
+<!-- Tema UdeG (Segundo navbar) -->
+
+<main id="content" role="main">
+<div class="container banner">
+	<!-- comienza logo de repositorio y logo de la universidad-->
+	<div id="primerbanner" class="row">
+		<!--<a href="/RIIA/"><div id="repositorio-logo" class="pull-left">
+		<img class="img-responsive" src="/image/verde.png">
+		</a></div></a>-->
+		<!--<div  id="udg-logo" class="pull-right">-->
+		<div id="logotiporiia" class="col-md-8 brand">
+			<a id="riia" href="/" target="_self">
+				<!--<img class="pull-left"  src="/image/logocaja.png">-->
+				<img id="riudeg-logo" class="pull-left"  src="/image/RIUdeG-logo.png">
+				<!--<img  class="pull-left" src="/image/riia1.png">-->
+				<!--<img id="riia-name" class="pull-left"  src="/image/nombre.png">-->
+				<img id="riia-name" class="pull-left"  style="height:40px;" src="/image/RIUdeG-logo.png">
+				<!--<h1>Repositorio Institucional de <br> Informaci&oacute;n Acad&eacute;mica</h1>-->
+			</a><br><br>
+			<a id="imgudg" href="http://udg.mx/" target="_blank">
+					<img  src="/image/red.png">
+			</a>
+		</div>
+		<div id='logotipoudgwdg' class="col-md-4">
+			<div id="derecha" class="pull-right">
+				<a id="imgudg" href="http://udg.mx/" target="_blank">
+					<!--<img  src="/image/logoUdeG.png">-->
+					<!--<img  src="/image/red.png">-->
+					<!--<img  src="/image/escudoUdeG.png">-->
+
+				</a>
+				<!--<img  src="/image/linea.png">-->
+				<a id="imgwdg" href="http://wdg.biblio.udg.mx/" target="_blank">
+					<!--<img  src="/image/wdgbiblio.png">-->
+					<!--<img  src="/image/wdg.png">-->
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- termina logo del repositorio y logo de la universidad -->
+	<!--<div id="texto-descriptivo" class="row">
+		<h4 id="texto-descriptivoh4">El Repositorio Institucional de la Universidad de Guadalajara facilita el acceso virtual, 
+		libre y abierto al conocimiento acad&eacute;mico y cient&iacute;fico producido en la Universidad de Guadalajara 
+		para incrementar las posibilidades de satisfacer las necesidades informativas de nuestra comunidad, 
+		as&iacute; como ampliar su visibilidad internacional, uso e impacto.</h4>-->
+		<!--<div class="col-md-9 brand">
+		<h1>RIUdeG <small>JSPUI</small></h1>
+        <h4>RIUdeG preserves and enables easy and open access to all types of digital content including text, images, moving images, mpegs and data sets</h4> <a href="http://www.dspace.org" class="btn btn-primary">Learn More</a> 
+        </div>
+        <div class="col-md-3"><img class="pull-right" src="/image/logo.gif">
+        </div>-->
+	</div>
+	
+	<!-- Tema UdeG -->
+	
+	<script>
+	 
+	  $(function() {
+			var value = window.location.pathname;
+			if( value !="/" ){ 
+				$("#texto-descriptivoh4").text("");
+				if($("#introComm").length !== 0) {
+					$("#introComm").appendTo("#texto-descriptivoh4");
+				}
+			}
+			
+	  });
+	 
+	</script>
+	
+</div>	
+<br/>
+                
+
+<div class="container">
+                
+
+
+
+  
+
+<ol class="breadcrumb btn-success">
+
+  <li><a href="/">RIUdeG</a></li>
+
+  <li><a href="/handle/20.500.12104/4">Libros</a></li>
+
+  <li><a href="/handle/20.500.12104/110639">Editorial Universidad de Guadalajara</a></li>
+
+</ol>
+
+</div>                
+
+
+
+        
+<div class="container">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div class="well">Por favor, use este identificador para citar o enlazar este ítem:
+                <code>https://hdl.handle.net/20.500.12104/111546</code></div>
+
+
+
+    
+    <table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel dc_title">Título:&nbsp;</td><td class="metadataFieldValue dc_title">Sistemas&#x20;y&#x20;paradigmas</td></tr>
+<tr><td class="metadataFieldLabel dc_subject">Palabras clave:&nbsp;</td><td class="metadataFieldValue dc_subject">PSICOLOGÍA&#x20;&gt;&#x20;Referencia;Psicología;Obras&#x20;de&#x20;consulta;Filosofía&#x20;y&#x20;psicología&#x20;&gt;&#x20;Psicología&#x20;&gt;&#x20;Psicología&#x20;&gt;&#x20;Filosofía&#x20;y&#x20;teoría</td></tr>
+<tr><td class="metadataFieldLabel dc_publisher">Editorial:&nbsp;</td><td class="metadataFieldValue dc_publisher">Editorial&#x20;Universidad&#x20;de&#x20;Guadalajara</td></tr>
+<tr><td class="metadataFieldLabel dc_description">Descripción:&nbsp;</td><td class="metadataFieldValue dc_description">Ninguna&#x20;ciencia&#x20;ha&#x20;procurado&#x20;tanto&#x20;como&#x20;la&#x20;psicología&#x20;el&#x20;aplicar&#x20;las&#x20;ideas&#x20;de&#x20;Thomas&#x20;S.&#x20;Kuhn&#x20;a&#x20;su&#x20;propio&#x20;desarrollo&#x20;y&#x20;articulación.&#x20;Desde&#x20;que&#x20;en&#x20;1962&#x20;se&#x20;publicó&#x20;el&#x20;célebre&#x20;The&#x20;Structure&#x20;of&#x20;Scientific&#x20;Revolutions&#x20;del&#x20;autor&#x20;norteamericano,&#x20;diversos&#x20;estudiosos&#x20;de&#x20;la&#x20;ciencia&#x20;psicológica&#x20;han&#x20;defendido&#x20;narrativas&#x20;históricas&#x20;y&#x20;epistemológicas&#x20;que&#x20;pretenden&#x20;dar&#x20;cuenta&#x20;mediante&#x20;los&#x20;conceptos&#x20;kuhnianos&#x20;del&#x20;desarrollo&#x20;de&#x20;esta&#x20;discipina&#x20;sin&#x20;que&#x20;prevalezca&#x20;hasta&#x20;la&#x20;fecha&#x20;un&#x20;consenso&#x20;académico&#x20;al&#x20;respecto.&#x20;Hay&#x20;quienes&#x20;hablan&#x20;de&#x20;ella&#x20;como&#x20;una&#x20;preciencia,&#x20;o&#x20;como&#x20;una&#x20;ciencia&#x20;normal&#x20;poseedora&#x20;de&#x20;algún&#x20;paradigma&#x20;dominante,&#x20;o&#x20;como&#x20;una&#x20;ciencia&#x20;anormal&#x20;en&#x20;estado&#x20;perpetuo&#x20;de&#x20;crisis,&#x20;o&#x20;como&#x20;una&#x20;ciencia&#x20;multiparadigmática.Este&#x20;texto&#x20;explora&#x20;los&#x20;conceptos&#x20;de&#x20;la&#x20;filosofía&#x20;kuhniana&#x20;de&#x20;la&#x20;ciencia,&#x20;así&#x20;como&#x20;los&#x20;vericuetos&#x20;de&#x20;su&#x20;implementación&#x20;como&#x20;aparato&#x20;interpretativo&#x20;tanto&#x20;de&#x20;la&#x20;psicología&#x20;clásica&#x20;como&#x20;de&#x20;la&#x20;psicología&#x20;actual.&#x20;Cualquier&#x20;persona&#x20;interesada&#x20;en&#x20;la&#x20;psicología&#x20;o&#x20;en&#x20;la&#x20;filosofía&#x20;de&#x20;las&#x20;ciencias&#x20;hallará&#x20;aquí&#x20;un&#x20;espacio&#x20;rico&#x20;en&#x20;debates&#x20;y&#x20;reflexiones&#x20;que&#x20;iluminan&#x20;la&#x20;compleja&#x20;e&#x20;intrincada&#x20;naturaleza&#x20;laberíntica&#x20;de&#x20;los&#x20;estudios&#x20;sobre&#x20;la&#x20;mente,&#x20;la&#x20;conducta,&#x20;el&#x20;cerebro,&#x20;o&#x20;lo&#x20;que&#x20;sea&#x20;que&#x20;estudia&#x20;la&#x20;ciencia&#x20;psicológica.</td></tr>
+<tr><td class="metadataFieldLabel dc_identifier_uri">URI:&nbsp;</td><td class="metadataFieldValue dc_identifier_uri"><a href="https://hdl.handle.net/20.500.12104/111546">https:&#x2F;&#x2F;hdl.handle.net&#x2F;20.500.12104&#x2F;111546</a></td></tr>
+<tr><td class="metadataFieldLabel dc_image">metadata.dc.image:&nbsp;</td><td class="metadataFieldValue dc_image"><a href="https://simehbucket.s3.amazonaws.com/images/ac01c4874a1d5c9576b4499e3bb40f2a-medium.jpg">https:&#x2F;&#x2F;simehbucket.s3.amazonaws.com&#x2F;images&#x2F;ac01c4874a1d5c9576b4499e3bb40f2a-medium.jpg</a></td></tr>
+<tr><td class="metadataFieldLabel">Aparece en las colecciones:</td><td class="metadataFieldValue"><a href="/handle/20.500.12104/110639">Editorial Universidad de Guadalajara</a><br/></td></tr>
+</table><br/>
+<div class="panel panel-info"><div class="panel-heading">Ficheros en este ítem:</div>
+<div class="panel-body">No hay ficheros asociados a este ítem.</div>
+</div>
+
+<div class="container row">
+
+
+    <a class="btn btn-default" href="/handle/20.500.12104/111546?mode=full">
+        Mostrar el registro Dublin Core completo del ítem
+    </a>
+
+    <a class="statisticsLink  btn btn-primary" href="/handle/20.500.12104/111546/statistics"><span class="glyphicon glyphicon-stats"></span></a>
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p class="submitFormHelp alert alert-info">Los ítems de RIUdeG están protegidos por copyright, con todos los derechos reservados, a menos que se indique lo contrario.</p>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+             <footer id='footer' class="navbar navbar-default navbar-bottom">
+             <div id="footer-container" class="container text-muted">
+			<ul>
+				<li>
+					<a href="https://www.riudg.udg.mx/info/consultar.jsp">Consultar</a>
+					<ul>
+						<li><a title="" href="https://www.riudg.udg.mx/info/consultar.jsp#colecciones">Colecciones</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/consultar.jsp#autores">Autores</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/consultar.jsp#temas">Temas</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="https://www.riudg.udg.mx/info/publicar.jsp">Publicar</a>
+					<ul>
+						<li><a title="" href="https://www.riudg.udg.mx/info/publicar.jsp#trabajos">Como agregar mis trabajos</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/publicar.jsp#tesistas">Informaci&oacute;n para tesistas</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/publicar.jsp#tesis">Subir tesis</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/publicar.jsp#articulos">Subir art&iacute;culo</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="https://www.riudg.udg.mx/info/acercaRIUdeG.jsp">Acerca de RIUdeG</a>
+					<ul>
+						<li><a title="" href="https://www.riudg.udg.mx/info/acercaRIUdeG.jsp#contenidos">Contenidos</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/acercaRIUdeG.jsp#politicas">Pol&iacute;ticas</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/acercaRIUdeG.jsp#preguntas">Preguntas frecuentes</a></li>
+						<li><a title="" href="https://www.riudg.udg.mx/info/acercaRIUdeG.jsp#contacto">Contacto</a></li>
+						<li><a href="/mydspace" >Administraci&oacute;n</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+             <div id="derechos" class="container text-muted">
+			&copy; Universidad de Guadalajara. Vicerrector&iacute;a Ejecutiva. Sistema Universitario de Bibliotecas. 2026.
+			<a href="mailto:bibliotecadigital@udg.mx"> bibliotecadigital@udg.mx</a> - Tel. 31 34 22 77 ext. 11959, 11924, 11914
+		</div>
+    		</footer>
+    </body>
+</html>
+

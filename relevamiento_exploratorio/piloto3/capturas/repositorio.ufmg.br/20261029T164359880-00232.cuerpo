@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:50:50Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.ufmg.br:1843/5589" metadataPrefix="xoai">https://repositorio.ufmg.br/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.ufmg.br:1843/5589</identifier><datestamp>2026-10-09T03:00:12Z</datestamp><setSpec>com_1843_5</setSpec><setSpec>com_1843_2</setSpec><setSpec>col_1843_343</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="creator">
+         <element name="none">
+            <field name="value">Francisnaide dos Santos Souza</field>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2026-10-08T15:03:18Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2025-10-27</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/1843/5589</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="none">
+               <field name="value">The teaching through inquiry aims to develop skills by providing an environment in which students work from a problem. The objective of the study was to analyze inquiry-based teaching with 6th-grade students in a public school in the interior of Bahia, focusing on the separation of homogeneous and heterogeneous mixtures. The qualitative research used questionnaires, recordings, and drawings for data collection, analyzed according to Bardin. The central activity was an investigative experimental practice. The students formulated hypotheses, observed, critically analyzed, and systematized the results. The data reveal that inquiry-based teaching favored the understanding of separation methods and promoted greater student engagement in class, contributing to the development of skills such as autonomy, critical thinking, and problem-solving ability. Thus, this approach proved effective for Science teaching, making learning more meaningful and participatory.</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="none">
+            <field name="value">por</field>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">Universidade Federal de Minas Gerais</field>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">Acesso aberto</field>
+         </element>
+         <element name="en">
+            <field name="value">Attribution-NonCommercial-NoDerivs 3.0 Brazil</field>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://creativecommons.org/licenses/by-nc-nd/3.0/br/</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="none">
+            <field name="value">Ciência - Estudo e ensino</field>
+            <field name="value">Aprendizagem experimental</field>
+            <field name="value">Mistura (Química)</field>
+         </element>
+         <element name="other">
+            <element name="none">
+               <field name="value">Ensino por investigação</field>
+               <field name="value">Experimentação</field>
+               <field name="value">Separação de mistura</field>
+            </element>
+         </element>
+      </element>
+      <element name="title">
+         <element name="none">
+            <field name="value">A atividade experimental investigativa com alunos do 6º ano do ensino fundamental II propicia a aprendizagem?</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">Monografia de especialização</field>
+         </element>
+      </element>
+   </element>
+   <element name="local">
+      <element name="creator">
+         <element name="Lattes">
+            <element name="none">
+               <field name="value">http://lattes.cnpq.br/7214323325698043</field>
+            </element>
+         </element>
+      </element>
+      <element name="contributor">
+         <element name="advisor1">
+            <element name="none">
+               <field name="value">Terezinha Iolanda Ayres-Pereira</field>
+            </element>
+         </element>
+         <element name="advisor1Lattes">
+            <element name="none">
+               <field name="value">http://lattes.cnpq.br/3343276911278255</field>
+            </element>
+         </element>
+         <element name="referee1">
+            <element name="none">
+               <field name="value">Matheus de Castro e Silva</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="resumo">
+            <element name="none">
+               <field name="value">O ensino por investigação busca desenvolver competências, ao oferecer um ambiente no qual os alunos trabalham a partir de um problema. O objetivo do estudo foi analisar o ensino por investigação com alunos do 6º ano do Ensino Fundamental em uma escola pública no interior da Bahia, focando na separação de misturas homogêneas e heterogêneas. A pesquisa, qualitativa, utilizou questionários, gravações e desenhos para coleta de dados, analisados de acordo com Bardin. A atividade central foi uma prática experimental investigativa. Os estudantes elaboraram hipóteses, observaram, analisaram criticamente e sistematizaram os resultados. Os dados revelam que o ensino por investigação favoreceu a compreensão dos métodos de separação e promoveu maior engajamento dos alunos nas aulas, contribuindo para o desenvolvimento de competências como a autonomia, o pensamento crítico e a capacidade de resolver problemas. Assim, a abordagem se mostrou eficaz para o ensino de Ciências, tornando a aprendizagem mais significativa e participativa.</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="orcid">
+            <element name="none">
+               <field name="value">https://orcid.org/0000-0003-0448-1940</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="country">
+            <element name="none">
+               <field name="value">Brasil</field>
+            </element>
+         </element>
+         <element name="department">
+            <element name="none">
+               <field name="value">FAE - FACULDADE DE EDUCAÇÃO</field>
+            </element>
+         </element>
+         <element name="program">
+            <element name="none">
+               <field name="value">Curso de Especialização em Educação em Ciências</field>
+            </element>
+         </element>
+         <element name="initials">
+            <element name="none">
+               <field name="value">UFMG</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="cnpq">
+            <element name="none">
+               <field name="value">CIENCIAS HUMANAS::EDUCACAO</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">TCC Final CECi - Francisnaide Souza.pdfA.pdf</field>
+               <field name="originalName">TCC Final CECi - Francisnaide Souza.pdfA.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">20156503</field>
+               <field name="url">https://repositorio.ufmg.br//bitstreams/934dc24e-dac4-4db0-a9b7-267f01cc243a/download</field>
+               <field name="checksum">706d56e8eae697d0963b0cae9957722d</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">license.txt</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">2118</field>
+               <field name="url">https://repositorio.ufmg.br//bitstreams/d4eb3b30-4820-4567-a5e0-17ec857cc80b/download</field>
+               <field name="checksum">cda590c95a0b51b4d15f60c9642ca272</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">CC-LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license_rdf</field>
+               <field name="originalName">license_rdf</field>
+               <field name="format">application/rdf+xml; charset=utf-8</field>
+               <field name="size">906</field>
+               <field name="url">https://repositorio.ufmg.br//bitstreams/e6916171-c1b9-41c9-84c9-ff7a9856f149/download</field>
+               <field name="checksum">fba754f0467e45ac3862bc2533fb2736</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">TCC Final CECi - Francisnaide Souza.pdfA.pdf.txt</field>
+               <field name="originalName">TCC Final CECi - Francisnaide Souza.pdfA.pdf.txt</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">7661</field>
+               <field name="url">https://repositorio.ufmg.br//bitstreams/b9757740-e089-4c62-a0e1-4c1b286e1cec/download</field>
+               <field name="checksum">984ddd843ec5bf60aaac28c5283fd8ac</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">TCC Final CECi - Francisnaide Souza.pdfA.pdf.jpg</field>
+               <field name="originalName">TCC Final CECi - Francisnaide Souza.pdfA.pdf.jpg</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">2860</field>
+               <field name="url">https://repositorio.ufmg.br//bitstreams/424026e6-ee55-4fd8-97f6-248a2326a314/download</field>
+               <field name="checksum">98a518508578a4e9f3b07c752fcf89cd</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">1843/5589</field>
+      <field name="identifier">oai:repositorio.ufmg.br:1843/5589</field>
+      <field name="lastModifyDate">2026-10-09 00:00:12.051</field>
+      <element name="cc">
+         <field name="uri">http://creativecommons.org/licenses/by-nc-nd/3.0/br/</field>
+         <field name="name">Acesso aberto</field>
+      </element>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://repositorio.ufmg.br/</field>
+      <field name="name">"Repositório Institucional da UFMG"</field>
+      <field name="mail">naoresponder@ufmg.br</field>
+   </element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

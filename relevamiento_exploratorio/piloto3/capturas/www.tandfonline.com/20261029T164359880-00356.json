@@ -1,0 +1,45 @@
+{
+ "pedido": "20261029T164359880-00356",
+ "url": "http://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941",
+ "codigo": 301,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:54:00 GMT"
+  ],
+  [
+   "content-type",
+   "text/html; charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "location",
+   "https://www.tandfonline.com/doi/full/10.3109/10837450.2014.882941"
+  ],
+  [
+   "vary",
+   "accept-encoding"
+  ],
+  [
+   "server",
+   "cloudflare"
+  ],
+  [
+   "cf-ray",
+   "a523b31cdfc99b11-EZE"
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

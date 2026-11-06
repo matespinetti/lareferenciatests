@@ -1,0 +1,37 @@
+{
+ "pedido": "20261029T164359880-00374",
+ "url": "http://ojs.unesp.br/index.php/revista_proex/article/view/364",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:54:39 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.58 (Ubuntu)"
+  ],
+  [
+   "location",
+   "https://ojs-new.unesp.brindex.php/revista_proex/article/view/364"
+  ],
+  [
+   "content-length",
+   "326"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "content-type",
+   "text/html; charset=iso-8859-1"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

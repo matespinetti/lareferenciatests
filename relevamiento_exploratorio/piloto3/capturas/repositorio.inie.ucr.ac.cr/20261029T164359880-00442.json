@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00442",
+ "url": "https://repositorio.inie.ucr.ac.cr/bitstreams/925e76de-6162-464f-9801-6966f53daddc/download",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:57:12 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.58 (Ubuntu)"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793293092"
+  ],
+  [
+   "link",
+   "<https://repositorio.inie.ucr.ac.cr/signposting/linksets/fc4fd55c-4799-42a4-8698-d70a5899edda> ; rel=\"linkset\" ; type=\"application/linkset\" , <https://repositorio.inie.ucr.ac.cr/signposting/linksets/fc4fd55c-4799-42a4-8698-d70a5899edda/json> ; rel=\"linkset\" ; type=\"application/linkset+json\" , <https://repositorio.inie.ucr.ac.cr/items/fc4fd55c-4799-42a4-8698-d70a5899edda> ; rel=\"collection\" ; type=\"text/html\""
+  ],
+  [
+   "location",
+   "https://repositorio.inie.ucr.ac.cr/server/api/core/bitstreams/925e76de-6162-464f-9801-6966f53daddc/content"
+  ],
+  [
+   "vary",
+   "Accept"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "128"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

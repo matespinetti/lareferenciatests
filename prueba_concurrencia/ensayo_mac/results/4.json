@@ -1,0 +1,65 @@
+{
+  "escenario": {
+    "id": "4",
+    "lugares": 2400,
+    "repos": 2400,
+    "items": 6000000,
+    "descripcion": "El pico real: todos los repositorios activos a la vez",
+    "modo": "corrutinas",
+    "db": false,
+    "duracion": 15.0,
+    "calentamiento": 5.0,
+    "tam_archivo": null
+  },
+  "semilla": 1,
+  "puerto": 8443,
+  "terminado_antes_de_tiempo": false,
+  "errores_por_tipo": {
+    "ClientPayloadError": 638,
+    "ServerDisconnectedError": 1
+  },
+  "servidor": {
+    "pedidos": 14474,
+    "violaciones": 0,
+    "simultaneos": 0,
+    "intervalos_cortos": 0,
+    "ejemplos": [],
+    "cpu_servidor": [
+      78.0,
+      34.7,
+      66.1,
+      92.4,
+      85.9,
+      72.5,
+      69.5,
+      78.8,
+      66.6,
+      68.1,
+      74.9,
+      71.5,
+      71.0,
+      71.8,
+      69.5,
+      75.9,
+      72.3,
+      72.0,
+      66.6,
+      73.8
+    ]
+  },
+  "versiones": {
+    "python": "3.12.11",
+    "aiohttp": "3.14.5",
+    "plataforma": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "supuestos": {
+    "ancho_por_conexion_mb_s": 2.0,
+    "intervalo_s": 1.0
+  },
+  "bucle": {
+    "p50_ms": 266.55,
+    "p99_ms": 437.8,
+    "max_ms": 437.8,
+    "muestras": 39
+  }
+}

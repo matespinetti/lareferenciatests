@@ -1,0 +1,73 @@
+{
+ "pedido": "20261029T164359880-00354",
+ "url": "https://www.tandfonline.com/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:53:55 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-xss-protection",
+   "1; mode=block"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=2592000"
+  ],
+  [
+   "x-frame-options",
+   "SAMEORIGIN"
+  ],
+  [
+   "cache-control",
+   "no-cache, no-store, must-revalidate"
+  ],
+  [
+   "x-webstats-respid",
+   "a984bc6a15a025265639da44072b5d34"
+  ],
+  [
+   "vary",
+   "accept-encoding"
+  ],
+  [
+   "server",
+   "cloudflare"
+  ],
+  [
+   "cf-cache-status",
+   "BYPASS"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "cf-ray",
+   "a523b2fbead10c2c-EZE"
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

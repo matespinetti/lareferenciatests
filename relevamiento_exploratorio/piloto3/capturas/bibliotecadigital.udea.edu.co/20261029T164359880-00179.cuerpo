@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:49:20Z</responseDate><request verb="GetRecord" identifier="oai:bibliotecadigital.udea.edu.co:10495/4345" metadataPrefix="xoai">https://bibliotecadigital.udea.edu.co/server/oai/request</request><GetRecord><record><header><identifier>oai:bibliotecadigital.udea.edu.co:10495/4345</identifier><datestamp>2026-06-25T19:23:39Z</datestamp><setSpec>com_10495_18870</setSpec><setSpec>com_10495_1670</setSpec><setSpec>col_10495_18972</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="author">
+            <element name="none">
+               <field name="value">Muñoz Echeverri, Iván Felipe</field>
+               <field name="value">Noreña Herrera, Camilo</field>
+               <field name="value">Rodríguez Garzón, Sergio Andrés</field>
+               <field name="value">Ossa Estrada, Diego Alejandro</field>
+               <field name="value">Bastidas Lopera, Diego León</field>
+            </element>
+         </element>
+         <element name="other">
+            <element name="none">
+               <field name="value">Salud Mental</field>
+               <field name="authority">virtual::1852</field>
+               <field name="confidence">-1</field>
+               <field name="value">Gestión y Políticas de Salud</field>
+               <field name="authority">virtual::14703</field>
+               <field name="confidence">-1</field>
+            </element>
+         </element>
+         <element name="researchgroup">
+            <element name="spa">
+               <field name="value">Gestión y políticas de salud</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2016-09-08T15:39:53Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2016-09-08T15:39:53Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2016</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="citation">
+            <element name="spa">
+               <field name="value">Muñoz-Echeverri IF, Noreña-Herrera C, Rodríguez-Garzón SA, Ossa-Estrada DA, Bastidas-Lopera DL. Escenarios de explotación sexual comercial de niños, niñas y adolescentes, modalidad abierta, Medellín, 2012. Rev. Fac. Nac. Salud Pública 34(1): 9-19. DOI: 10.17533/udea.rfnsp.v34n1a02.</field>
+            </element>
+         </element>
+         <element name="issn">
+            <element name="none">
+               <field name="value">0120-386X</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/10495/4345</field>
+            </element>
+         </element>
+         <element name="doi">
+            <element name="none">
+               <field name="value">10.17533/udea.rfnsp.v34n1a02</field>
+            </element>
+         </element>
+         <element name="eissn">
+            <element name="none">
+               <field name="value">2256-3334</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="spa">
+               <field name="value">ABSTRACT: Commercial sexual exploitation of children and adolescents&#xd;
+(cseca) is a severe violation of the rights of children and&#xd;
+adolescents. In Medellin, data on the quantity and locations&#xd;
+where this issue takes place is scarce, and it could be useful&#xd;
+for implementing strategies for preventing and addressing this&#xd;
+issue. Objective: To describe the magnitude of street-based&#xd;
+cseca along with the places, days, hours and characteristics of&#xd;
+the scenarios in which it takes place in Medellín. Methodology:&#xd;
+A descriptive study in which geographical information systems&#xd;
+where used to draw thematic maps. The study had three stages:&#xd;
+pre-mapping, mapping and validation. In addition, qualitative&#xd;
+techniques were used. Results: Of the 634 areas visited, 18.9%&#xd;
+had reported cases of cseca. The phenomenon was found to&#xd;
+be concentrated in 11 cluster areas exhibiting the following&#xd;
+context factors that favor cseca: problems with street lighting,&#xd;
+insufficient presence of the State and the local police, drug&#xd;
+trafficking, existence of bars, hotels and massage parlors in the&#xd;
+area, social permissiveness, easy access to drugs and lodging.&#xd;
+Conclusion: georeferencing these areas and identifying the&#xd;
+contextual factors behind this situation is very important if this&#xd;
+problem, which violates the rights of children and adolescents,&#xd;
+is to be controlled and eradicated.</field>
+               <field name="value">RESUMEN: La explotación sexual de niños, niñas y adolescentes&#xd;
+(escnna) es una grave violación los derechos de niños, niñas&#xd;
+y adolescentes. En Medellín, existe poca información sobre&#xd;
+cuantificación y sectores de ocurrencia del problema, que&#xd;
+permita la ejecución de estrategias para su prevención y&#xd;
+atención. Objetivo: describir magnitud y ubicación, días y&#xd;
+horarios de ocurrencia de la escnna, modalidad abierta, en&#xd;
+Medellín y las características de los escenarios donde ocurre.&#xd;
+Metodología: Estudio descriptivo, con uso de sistemas de&#xd;
+información geográfica y realización de mapas temáticos.&#xd;
+Se realizó en tres fases: pre-mapeo, mapeo y validación. Se&#xd;
+acudió también a técnicas cualitativas. Resultados: de los 634&#xd;
+tramos visitados, hubo reporte de escnna en 18,9%. Se observó&#xd;
+agrupación del fenómeno en 11 lugares de concentración. En&#xd;
+éstos lugares confluyen factores contextuales que favorecen la&#xd;
+escnna: fallas del alumbrado público; poca presencia estatal&#xd;
+y de la policía; microtráfico de drogas; cercanía a bares,&#xd;
+hoteles y casas de masajes; permisividad social; acceso a&#xd;
+drogas y hospedaje. Conclusión: La georreferenciación de&#xd;
+estos sectores y el reconocimiento de los factores contextuales&#xd;
+que promueven la problemática resultan de gran importancia&#xd;
+para contribuir al control y erradicación de esta situación que&#xd;
+vulnera la dignidad de niños, niñas y adolescentes de la ciudad.</field>
+            </element>
+         </element>
+         <element name="researchgroupid">
+            <element name="spa">
+               <field name="value">COL0007014</field>
+            </element>
+         </element>
+      </element>
+      <element name="format">
+         <element name="extent">
+            <element name="spa">
+               <field name="value">10</field>
+            </element>
+         </element>
+         <element name="mimetype">
+            <element name="spa">
+               <field name="value">application/pdf</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="spa">
+               <field name="value">spa</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="spa">
+            <field name="value">Universidad de Antioquia, Facultad Nacional de Salud Pública</field>
+         </element>
+         <element name="place">
+            <element name="spa">
+               <field name="value">Medellín, Colombia</field>
+            </element>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="uri">
+            <element name="spa">
+               <field name="value">https://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+            </element>
+            <element name="*">
+               <field name="value">https://creativecommons.org/licenses/by-nc-sa/2.5/co/</field>
+            </element>
+         </element>
+         <element name="accessrights">
+            <element name="*">
+               <field name="value">Atribución-NoComercial-CompartirIgual 2.5 Colombia (CC BY-NC-SA 2.5 CO)</field>
+            </element>
+            <element name="spa">
+               <field name="value">info:eu-repo/semantics/openAccess</field>
+            </element>
+         </element>
+         <element name="coar">
+            <element name="spa">
+               <field name="value">http://purl.org/coar/access_right/c_abf2</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="none">
+            <field name="value">Niño</field>
+            <field name="value">Adolescente</field>
+            <field name="value">Prostitución</field>
+            <field name="value">Explotación sexual comercial</field>
+            <field name="value">Violencia sexual</field>
+            <field name="value">Mapeo geográfico</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="spa">
+            <field name="value">Escenarios de explotación sexual comercial de niños, niñas y adolescentes, modalidad abierta, Medellín, 2012</field>
+         </element>
+         <element name="translated">
+            <element name="spa">
+               <field name="value">Scenarios of street-based commercial sexual exploitation of children and adolescents, Medellín, 2012</field>
+            </element>
+         </element>
+      </element>
+      <element name="type">
+         <element name="spa">
+            <field name="value">Artículo de investigación</field>
+         </element>
+         <element name="coar">
+            <element name="spa">
+               <field name="value">http://purl.org/coar/resource_type/c_2df8fbb1</field>
+            </element>
+         </element>
+         <element name="redcol">
+            <element name="spa">
+               <field name="value">https://purl.org/redcol/resource_type/ART</field>
+            </element>
+         </element>
+         <element name="coarversion">
+            <element name="spa">
+               <field name="value">http://purl.org/coar/version/c_970fb48d4fbd8a85</field>
+            </element>
+         </element>
+         <element name="driver">
+            <element name="spa">
+               <field name="value">info:eu-repo/semantics/article</field>
+            </element>
+         </element>
+         <element name="version">
+            <element name="spa">
+               <field name="value">info:eu-repo/semantics/publishedVersion</field>
+            </element>
+         </element>
+      </element>
+      <element name="relation">
+         <element name="ispartofjournalabbrev">
+            <element name="spa">
+               <field name="value">Rev. Fac. Nac. Salud Pública</field>
+            </element>
+         </element>
+         <element name="citationendpage">
+            <element name="spa">
+               <field name="value">382</field>
+            </element>
+         </element>
+         <element name="citationissue">
+            <element name="spa">
+               <field name="value">1</field>
+            </element>
+         </element>
+         <element name="citationstartpage">
+            <element name="spa">
+               <field name="value">373</field>
+            </element>
+         </element>
+         <element name="citationvolume">
+            <element name="spa">
+               <field name="value">34</field>
+            </element>
+         </element>
+         <element name="ispartofjournal">
+            <element name="spa">
+               <field name="value">Revista Facultad Nacional de Salud Pública</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="dspace">
+      <element name="entity">
+         <element name="type">
+            <element name="none">
+               <field name="value">Publication</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="relation">
+      <element name="isOrgUnitOfPublication">
+         <element name="none">
+            <field name="value">9c23e890-8647-4faa-8ed9-021c0a49a413</field>
+            <field name="authority">virtual::1852</field>
+            <field name="confidence">-1</field>
+            <field name="value">4cce46b2-a3c8-44bf-81de-a666e9a9a9e0</field>
+            <field name="authority">virtual::14703</field>
+            <field name="confidence">-1</field>
+         </element>
+         <element name="latestForDiscovery">
+            <element name="none">
+               <field name="value">9c23e890-8647-4faa-8ed9-021c0a49a413</field>
+               <field name="authority">virtual::1852</field>
+               <field name="confidence">-1</field>
+               <field name="value">4cce46b2-a3c8-44bf-81de-a666e9a9a9e0</field>
+               <field name="authority">virtual::14703</field>
+               <field name="confidence">-1</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">MunozIvan_2016_EscenariosExplotacionSexual.pdf</field>
+               <field name="originalName">MunozIvan_2016_EscenariosExplotacionSexual.pdf</field>
+               <field name="description">Artículo de investigación</field>
+               <field name="format">application/pdf</field>
+               <field name="size">669026</field>
+               <field name="url">https://bibliotecadigital.udea.edu.co/bitstreams/c739784e-4391-4c27-b6fa-4b9214fef39e/download</field>
+               <field name="checksum">5cdb0315d1a7bb1b4a9fe973d5d258fb</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">CC-LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license_url</field>
+               <field name="originalName">license_url</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">49</field>
+               <field name="url">https://bibliotecadigital.udea.edu.co/bitstreams/67024ddf-0a36-4913-8ef4-e03e1c64dea9/download</field>
+               <field name="checksum">4afdbb8c545fd630ea7db775da747b2f</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+            <element name="bitstream">
+               <field name="name">license_text</field>
+               <field name="originalName">license_text</field>
+               <field name="format">text/html; charset=utf-8</field>
+               <field name="size">0</field>
+               <field name="url">https://bibliotecadigital.udea.edu.co/bitstreams/6f15ef42-37ba-4010-bdf9-0aa6b76713ee/download</field>
+               <field name="checksum">d41d8cd98f00b204e9800998ecf8427e</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+            <element name="bitstream">
+               <field name="name">license_rdf</field>
+               <field name="originalName">license_rdf</field>
+               <field name="format">application/rdf+xml; charset=utf-8</field>
+               <field name="size">0</field>
+               <field name="url">https://bibliotecadigital.udea.edu.co/bitstreams/b0d73c84-98d9-4e31-a8b0-a5bfafb5a9a9/download</field>
+               <field name="checksum">d41d8cd98f00b204e9800998ecf8427e</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">license.txt</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">1748</field>
+               <field name="url">https://bibliotecadigital.udea.edu.co/bitstreams/e84bd2c0-1bd9-4ec9-96e3-7ac4bbc3029a/download</field>
+               <field name="checksum">8a4605be74aa9ea9d79846c1fba20a33</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">MunozIvan_2016_EscenariosExplotacionSexual.pdf.txt</field>
+               <field name="originalName">MunozIvan_2016_EscenariosExplotacionSexual.pdf.txt</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">48682</field>
+               <field name="url">https://bibliotecadigital.udea.edu.co/bitstreams/979860c0-ff3f-4808-b49d-d3df79b55082/download</field>
+               <field name="checksum">a914b009cae6650d6b17d359a7d10af8</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">10</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">MunozIvan_2016_EscenariosExplotacionSexual.pdf.jpg</field>
+               <field name="originalName">MunozIvan_2016_EscenariosExplotacionSexual.pdf.jpg</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">13848</field>
+               <field name="url">https://bibliotecadigital.udea.edu.co/bitstreams/0847c187-d7c7-4999-8f94-89478315f004/download</field>
+               <field name="checksum">c1840d7174f1f683031ed7a25bbeadc1</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">11</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">10495/4345</field>
+      <field name="identifier">oai:bibliotecadigital.udea.edu.co:10495/4345</field>
+      <field name="lastModifyDate">2026-06-25 14:23:39.429</field>
+      <element name="cc">
+         <field name="uri">https://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+      </element>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://bibliotecadigital.udea.edu.co</field>
+      <field name="name">Repositorio Institucional de la Universidad de Antioquia</field>
+      <field name="mail">aplicacionbibliotecadigitalbiblioteca@udea.edu.co</field>
+   </element>
+   <element name="license">
+      <field name="bin">Tk9URTogUExBQ0UgWU9VUiBPV04gTElDRU5TRSBIRVJFClRoaXMgc2FtcGxlIGxpY2Vuc2UgaXMgcHJvdmlkZWQgZm9yIGluZm9ybWF0aW9uYWwgcHVycG9zZXMgb25seS4KCk5PTi1FWENMVVNJVkUgRElTVFJJQlVUSU9OIExJQ0VOU0UKCkJ5IHNpZ25pbmcgYW5kIHN1Ym1pdHRpbmcgdGhpcyBsaWNlbnNlLCB5b3UgKHRoZSBhdXRob3Iocykgb3IgY29weXJpZ2h0Cm93bmVyKSBncmFudHMgdG8gRFNwYWNlIFVuaXZlcnNpdHkgKERTVSkgdGhlIG5vbi1leGNsdXNpdmUgcmlnaHQgdG8gcmVwcm9kdWNlLAp0cmFuc2xhdGUgKGFzIGRlZmluZWQgYmVsb3cpLCBhbmQvb3IgZGlzdHJpYnV0ZSB5b3VyIHN1Ym1pc3Npb24gKGluY2x1ZGluZwp0aGUgYWJzdHJhY3QpIHdvcmxkd2lkZSBpbiBwcmludCBhbmQgZWxlY3Ryb25pYyBmb3JtYXQgYW5kIGluIGFueSBtZWRpdW0sCmluY2x1ZGluZyBidXQgbm90IGxpbWl0ZWQgdG8gYXVkaW8gb3IgdmlkZW8uCgpZb3UgYWdyZWUgdGhhdCBEU1UgbWF5LCB3aXRob3V0IGNoYW5naW5nIHRoZSBjb250ZW50LCB0cmFuc2xhdGUgdGhlCnN1Ym1pc3Npb24gdG8gYW55IG1lZGl1bSBvciBmb3JtYXQgZm9yIHRoZSBwdXJwb3NlIG9mIHByZXNlcnZhdGlvbi4KCllvdSBhbHNvIGFncmVlIHRoYXQgRFNVIG1heSBrZWVwIG1vcmUgdGhhbiBvbmUgY29weSBvZiB0aGlzIHN1Ym1pc3Npb24gZm9yCnB1cnBvc2VzIG9mIHNlY3VyaXR5LCBiYWNrLXVwIGFuZCBwcmVzZXJ2YXRpb24uCgpZb3UgcmVwcmVzZW50IHRoYXQgdGhlIHN1Ym1pc3Npb24gaXMgeW91ciBvcmlnaW5hbCB3b3JrLCBhbmQgdGhhdCB5b3UgaGF2ZQp0aGUgcmlnaHQgdG8gZ3JhbnQgdGhlIHJpZ2h0cyBjb250YWluZWQgaW4gdGhpcyBsaWNlbnNlLiBZb3UgYWxzbyByZXByZXNlbnQKdGhhdCB5b3VyIHN1Ym1pc3Npb24gZG9lcyBub3QsIHRvIHRoZSBiZXN0IG9mIHlvdXIga25vd2xlZGdlLCBpbmZyaW5nZSB1cG9uCmFueW9uZSdzIGNvcHlyaWdodC4KCklmIHRoZSBzdWJtaXNzaW9uIGNvbnRhaW5zIG1hdGVyaWFsIGZvciB3aGljaCB5b3UgZG8gbm90IGhvbGQgY29weXJpZ2h0LAp5b3UgcmVwcmVzZW50IHRoYXQgeW91IGhhdmUgb2J0YWluZWQgdGhlIHVucmVzdHJpY3RlZCBwZXJtaXNzaW9uIG9mIHRoZQpjb3B5cmlnaHQgb3duZXIgdG8gZ3JhbnQgRFNVIHRoZSByaWdodHMgcmVxdWlyZWQgYnkgdGhpcyBsaWNlbnNlLCBhbmQgdGhhdApzdWNoIHRoaXJkLXBhcnR5IG93bmVkIG1hdGVyaWFsIGlzIGNsZWFybHkgaWRlbnRpZmllZCBhbmQgYWNrbm93bGVkZ2VkCndpdGhpbiB0aGUgdGV4dCBvciBjb250ZW50IG9mIHRoZSBzdWJtaXNzaW9uLgoKSUYgVEhFIFNVQk1JU1NJT04gSVMgQkFTRUQgVVBPTiBXT1JLIFRIQVQgSEFTIEJFRU4gU1BPTlNPUkVEIE9SIFNVUFBPUlRFRApCWSBBTiBBR0VOQ1kgT1IgT1JHQU5JWkFUSU9OIE9USEVSIFRIQU4gRFNVLCBZT1UgUkVQUkVTRU5UIFRIQVQgWU9VIEhBVkUKRlVMRklMTEVEIEFOWSBSSUdIVCBPRiBSRVZJRVcgT1IgT1RIRVIgT0JMSUdBVElPTlMgUkVRVUlSRUQgQlkgU1VDSApDT05UUkFDVCBPUiBBR1JFRU1FTlQuCgpEU1Ugd2lsbCBjbGVhcmx5IGlkZW50aWZ5IHlvdXIgbmFtZShzKSBhcyB0aGUgYXV0aG9yKHMpIG9yIG93bmVyKHMpIG9mIHRoZQpzdWJtaXNzaW9uLCBhbmQgd2lsbCBub3QgbWFrZSBhbnkgYWx0ZXJhdGlvbiwgb3RoZXIgdGhhbiBhcyBhbGxvd2VkIGJ5IHRoaXMKbGljZW5zZSwgdG8geW91ciBzdWJtaXNzaW9uLgo=</field>
+   </element>
+</metadata></metadata></record></GetRecord></OAI-PMH>

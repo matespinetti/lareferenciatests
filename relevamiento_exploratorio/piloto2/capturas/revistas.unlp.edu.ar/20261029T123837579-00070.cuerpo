@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://revistas.unlp.edu.ar/lib/pkp/xml/oai2.xsl" ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+		http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+	<responseDate>2026-10-29T12:40:41Z</responseDate>
+	<request verb="ListMetadataFormats">https://revistas.unlp.edu.ar/ejs/oai</request>
+	<ListMetadataFormats>
+		<metadataFormat>
+			<metadataPrefix>oai_marc</metadataPrefix>
+			<schema>http://www.openarchives.org/OAI/1.1/oai_marc.xsd</schema>
+			<metadataNamespace>http://www.openarchives.org/OAI/1.1/oai_marc</metadataNamespace>
+		</metadataFormat>
+		<metadataFormat>
+			<metadataPrefix>marcxml</metadataPrefix>
+			<schema>https://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd</schema>
+			<metadataNamespace>http://www.loc.gov/MARC21/slim</metadataNamespace>
+		</metadataFormat>
+		<metadataFormat>
+			<metadataPrefix>oai_dc</metadataPrefix>
+			<schema>http://www.openarchives.org/OAI/2.0/oai_dc.xsd</schema>
+			<metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace>
+		</metadataFormat>
+		<metadataFormat>
+			<metadataPrefix>rfc1807</metadataPrefix>
+			<schema>http://www.openarchives.org/OAI/1.1/rfc1807.xsd</schema>
+			<metadataNamespace>http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1807.txt</metadataNamespace>
+		</metadataFormat>
+	</ListMetadataFormats>
+</OAI-PMH>

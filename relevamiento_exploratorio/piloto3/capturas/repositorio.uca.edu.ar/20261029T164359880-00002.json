@@ -1,0 +1,57 @@
+{
+ "pedido": "20261029T164359880-00002",
+ "url": "https://repositorio.uca.edu.ar/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.18.0"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:46:21 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain"
+  ],
+  [
+   "content-length",
+   "3544"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "set-cookie",
+   "JSESSIONID=575E42E8F45F8D8ECE8808132D521F89; Path=/; HttpOnly"
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "etag",
+   "W/\"3544-1783872835077:dtagent10347260902154543CGip\""
+  ],
+  [
+   "last-modified",
+   "Sun, 12 Jul 2026 16:13:54 GMT"
+  ],
+  [
+   "server-timing",
+   "dtTrId;desc=\"095aa46bb13807f7b229d5dcafa9ea22\", dtSInfo;desc=\"0\""
+  ],
+  [
+   "server-timing",
+   "dtRpid;desc=\"183016310\""
+  ],
+  [
+   "set-cookie",
+   "dtCookie=v_4_srv_3_sn_A88DFE07D7EFC8D423E165D038BE6425_perc_100000_ol_0_mul_1_app-3A0ade970f21eb0c97_0_rcs-3Acss_0; Path=/; Domain=.uca.edu.ar"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

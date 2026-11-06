@@ -1,0 +1,308 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "b9c8e172-fe9a-4b5b-a939-055211de1ea2",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/b9c8e172-fe9a-4b5b-a939-055211de1ea2/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/b9c8e172-fe9a-4b5b-a939-055211de1ea2/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/b9c8e172-fe9a-4b5b-a939-055211de1ea2/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/b9c8e172-fe9a-4b5b-a939-055211de1ea2"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "822d1db6-cfb6-4a1f-9528-076f7ba6133c",
+              "uuid" : "822d1db6-cfb6-4a1f-9528-076f7ba6133c",
+              "name" : "uba_ffyl_t_2015_904652.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.title" : [ {
+                  "value" : "uba_ffyl_t_2015_904652.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 4415972,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "36175f43d00c44ea83d925c9a1459792"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/822d1db6-cfb6-4a1f-9528-076f7ba6133c/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/822d1db6-cfb6-4a1f-9528-076f7ba6133c/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/822d1db6-cfb6-4a1f-9528-076f7ba6133c/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/822d1db6-cfb6-4a1f-9528-076f7ba6133c/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/822d1db6-cfb6-4a1f-9528-076f7ba6133c/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/822d1db6-cfb6-4a1f-9528-076f7ba6133c"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/b9c8e172-fe9a-4b5b-a939-055211de1ea2/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "ab9ac663-b4fd-4b75-bd3d-af94557a6c93",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/ab9ac663-b4fd-4b75-bd3d-af94557a6c93/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/ab9ac663-b4fd-4b75-bd3d-af94557a6c93/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/ab9ac663-b4fd-4b75-bd3d-af94557a6c93/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/ab9ac663-b4fd-4b75-bd3d-af94557a6c93"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "a555f3ab-9da9-440d-8750-e19df81a7d39",
+              "uuid" : "a555f3ab-9da9-440d-8750-e19df81a7d39",
+              "name" : "uba_ffyl_t_2015_904652.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-03-25T16:08:22Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "uba_ffyl_t_2015_904652.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 102244,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "4f7ea95740c8513b745a068c96125036"
+              },
+              "sequenceId" : 2,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/a555f3ab-9da9-440d-8750-e19df81a7d39/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/a555f3ab-9da9-440d-8750-e19df81a7d39/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/a555f3ab-9da9-440d-8750-e19df81a7d39/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/a555f3ab-9da9-440d-8750-e19df81a7d39/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/a555f3ab-9da9-440d-8750-e19df81a7d39/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/a555f3ab-9da9-440d-8750-e19df81a7d39"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/ab9ac663-b4fd-4b75-bd3d-af94557a6c93/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "d7f5bcc7-a4d1-4a40-8b06-6ca5b4403d66",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/d7f5bcc7-a4d1-4a40-8b06-6ca5b4403d66/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/d7f5bcc7-a4d1-4a40-8b06-6ca5b4403d66/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/d7f5bcc7-a4d1-4a40-8b06-6ca5b4403d66/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/d7f5bcc7-a4d1-4a40-8b06-6ca5b4403d66"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "6dae5ddd-a61f-4e13-a0e1-fbcf375e703a",
+              "uuid" : "6dae5ddd-a61f-4e13-a0e1-fbcf375e703a",
+              "name" : "uba_ffyl_t_2015_904652.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Generated Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2026-03-25T16:08:26Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "uba_ffyl_t_2015_904652.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 9649,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "8c42090f9a2112f15c091d5902427427"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/6dae5ddd-a61f-4e13-a0e1-fbcf375e703a/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/6dae5ddd-a61f-4e13-a0e1-fbcf375e703a/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/6dae5ddd-a61f-4e13-a0e1-fbcf375e703a/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/6dae5ddd-a61f-4e13-a0e1-fbcf375e703a/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/6dae5ddd-a61f-4e13-a0e1-fbcf375e703a/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/6dae5ddd-a61f-4e13-a0e1-fbcf375e703a"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/d7f5bcc7-a4d1-4a40-8b06-6ca5b4403d66/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0013269e-7a7d-44b5-8d4c-b6e6b0fbdfa1/bundles?embed=bitstreams"
+    }
+  }
+}

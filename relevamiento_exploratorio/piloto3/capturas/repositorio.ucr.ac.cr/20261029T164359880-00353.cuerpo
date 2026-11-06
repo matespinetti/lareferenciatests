@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:53:55Z</responseDate><request verb="Identify">https://repositorio.ucr.ac.cr/server/oai/request</request><Identify><repositoryName>Kérwá - Repositorio Universidad de Costa Rica</repositoryName><baseURL>https://repositorio.ucr.ac.cr/server/oai/request</baseURL><protocolVersion>2.0</protocolVersion><adminEmail>KERWA@ucr.ac.cr</adminEmail><earliestDatestamp>2010-05-25T21:48:41Z</earliestDatestamp><deletedRecord>transient</deletedRecord><granularity>YYYY-MM-DDThh:mm:ssZ</granularity><description><oai-identifier xmlns="http://www.openarchives.org/OAI/2.0/oai-identifier" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai-identifier http://www.openarchives.org/OAI/2.0/oai-identifier.xsd">
+<scheme>oai</scheme>
+<repositoryIdentifier>kerwa.ucr.ac.cr</repositoryIdentifier>
+<delimiter>:</delimiter>
+<sampleIdentifier>oai:kerwa.ucr.ac.cr:10669/1234</sampleIdentifier>
+</oai-identifier>
+</description></Identify></OAI-PMH>

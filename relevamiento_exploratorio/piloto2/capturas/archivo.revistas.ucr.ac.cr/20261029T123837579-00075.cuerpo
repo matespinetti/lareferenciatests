@@ -1,0 +1,4722 @@
+
+
+
+	
+
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex, nofollow">
+	<title>
+		Revista de Biología Tropical
+					</title>
+
+	
+<meta name="description" content="Research articles on tropical biology and conservation in tropical environments">
+<meta name="generator" content="Open Journal Systems 3.2.1.4">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126449882-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126449882-1');
+</script>
+<link rel="alternate" type="application/atom+xml" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/gateway/plugin/WebFeedGatewayPlugin/atom">
+<link rel="alternate" type="application/rdf+xml" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/gateway/plugin/WebFeedGatewayPlugin/rss">
+<link rel="alternate" type="application/rss+xml" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/gateway/plugin/WebFeedGatewayPlugin/rss2">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:200,200i,400,400i|Fira+Sans:300,300i,400,400i,700,700i" type="text/css" /><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css?v=3.2.1.4" type="text/css" /><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css?v=3.2.1.4" type="text/css" /><link rel="stylesheet" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/$$$call$$$/page/page/css?name=stylesheet" type="text/css" />
+</head>
+<body dir="ltr">
+
+<header class="main-header">
+	<div class="container">
+
+		<h1 class="sr-only">Revista de Biología Tropical</h1>
+
+	<div class="navbar-logo">
+		<a href="	https://archivo.revistas.ucr.ac.cr/index.php/rbt/index
+"><img src="https://archivo.revistas.ucr.ac.cr/public/journals/19/pageHeaderLogoImage_en_US.png"alt="Journal Scope"class="img-fluid"></a>
+	</div>
+
+		<nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand" href="	https://archivo.revistas.ucr.ac.cr/index.php/rbt/index
+"><img src="https://archivo.revistas.ucr.ac.cr/public/journals/19/pageHeaderLogoImage_en_US.png"alt="Journal Scope"class="img-fluid"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+		        aria-controls="main-navbar" aria-expanded="false"
+		        aria-label="Toggle Navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse justify-content-md-center" id="main-navbar">
+																		<ul id="primaryNav" class="navbar-nav">
+														<li class="nav-item nmi_type_submissions">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/about/submissions"
+					class="nav-link"
+									>
+					Submissions
+				</a>
+							</li>
+														<li class="nav-item nmi_type_custom">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/editorialteamcolumn"
+					class="nav-link"
+									>
+					Editorial Team
+				</a>
+							</li>
+														<li class="nav-item nmi_type_remote_url">
+				<a href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/3420"
+					class="nav-link"
+									>
+					Current
+				</a>
+							</li>
+														<li class="nav-item nmi_type_archives">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/issue/archive"
+					class="nav-link"
+									>
+					Archives
+				</a>
+							</li>
+																					<li class="nav-item nmi_type_about dropdown">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/about"
+					class="nav-link dropdown-toggle"
+											id="navMenuDropdown4"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false"
+									>
+					About
+				</a>
+									<div class="dropdown-menu" aria-labelledby="navMenuDropdown4">
+																					<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/about">
+									About the Journal
+								</a>
+																												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/announcement">
+									Announcements
+								</a>
+																												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/about/privacy">
+									Privacy Statement
+								</a>
+																												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/girolami-adward">
+									De Girolami family Award
+								</a>
+																												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/premiobiologyadward">
+									Winners of Tropical Biology Award
+								</a>
+																												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/miembrosfundadores">
+									Founding members
+								</a>
+																		</div>
+							</li>
+																					<li class="nav-item nmi_type_custom dropdown">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/darwincolumn"
+					class="nav-link dropdown-toggle"
+											id="navMenuDropdown5"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false"
+									>
+					Editorial Column
+				</a>
+									<div class="dropdown-menu" aria-labelledby="navMenuDropdown5">
+																					<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/darwinabout">
+									About
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2830">
+									Animal Behavior
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2772">
+									Editor's Column
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2771">
+									History of Science
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2758">
+									Onychophora
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2975">
+									Darwin In Memoriam 2020
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2976">
+									Darwin In Memoriam 2021
+								</a>
+																		</div>
+							</li>
+																					<li class="nav-item nmi_type_custom dropdown">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/blog"
+					class="nav-link dropdown-toggle"
+											id="navMenuDropdown6"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false"
+									>
+					Blog Biología Tropical
+				</a>
+									<div class="dropdown-menu" aria-labelledby="navMenuDropdown6">
+																					<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/blog">
+									Our blog
+								</a>
+																												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/writeforus">
+									Write for us
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2701">
+									Series 1
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2753">
+									Series 2
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2777">
+									Series 3
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/blog_s4">
+									Series 4
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/blog_s5">
+									Series 5
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/3112">
+									Serie 6
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/3155">
+									Serie 7
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/3110">
+									Serie 8
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/3141">
+									Serie 9
+								</a>
+																		</div>
+							</li>
+														<li class="nav-item nmi_type_custom">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/contact"
+					class="nav-link"
+									>
+					Contact
+				</a>
+							</li>
+			</ul>
+
+			
+										<ul id="primaryNav-userNav" class="navbar-nav">
+														<li class="nav-item nmi_type_user_register">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/register"
+					class="nav-link"
+									>
+					Register
+				</a>
+							</li>
+														<li class="nav-item nmi_type_user_login">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/login"
+					class="nav-link"
+									>
+					Login
+				</a>
+							</li>
+										</ul>
+
+				<div id="languageSmallNav" class="dropdown language-toggle">
+		<button class="btn dropdown-toggle" type="button" id="languageToggleMenulanguageSmallNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<span class="sr-only">Change the language. The current language is:</span>
+			English
+		</button>
+		<div class="dropdown-menu" aria-labelledby="languageToggleMenulanguageSmallNav">
+												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/setLocale/es_ES?source=%2F%2Findex.php%2Frbt">
+						Español (España)
+					</a>
+																</div>
+	</div>
+		</div>
+	</nav>
+
+			<ul id="userNav" class="navbar-nav">
+														<li class="nav-item nmi_type_user_register">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/register"
+					class="nav-link"
+									>
+					Register
+				</a>
+							</li>
+														<li class="nav-item nmi_type_user_login">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/login"
+					class="nav-link"
+									>
+					Login
+				</a>
+							</li>
+										</ul>
+
+
+			<div id="languageLargeNav" class="dropdown language-toggle">
+		<button class="btn dropdown-toggle" type="button" id="languageToggleMenulanguageLargeNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<span class="sr-only">Change the language. The current language is:</span>
+			English
+		</button>
+		<div class="dropdown-menu" aria-labelledby="languageToggleMenulanguageLargeNav">
+												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/setLocale/es_ES?source=%2F%2Findex.php%2Frbt">
+						Español (España)
+					</a>
+																</div>
+	</div>
+
+	</div>
+</header>
+
+	<div class="homepage-image homepage-image-behind-issue">
+		<img src="https://archivo.revistas.ucr.ac.cr/public/journals/19/homepageImage_en_US.jpg" alt="">
+	</div>
+
+<div class="container container-homepage-issue page-content">
+			<h2 class="h5 homepage-issue-current">
+			Current Issue
+		</h2>
+		<div class="h1 homepage-issue-identifier">
+			Vol. 72 No. 1 (2024)
+		</div>
+		<div class="h6 homepage-issue-published">
+			Published January  1, 2024
+		</div>
+
+							<div class="row justify-content-center homepage-issue-header">
+									<div class="col-lg-3">
+						<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/issue/view/3420">
+							<img class="img-fluid homepage-issue-cover" src="https://archivo.revistas.ucr.ac.cr/public/journals/19/cover_issue_3420_en_US.jpg">
+						</a>
+					</div>
+													<div class="col-lg-9">
+						<div class="homepage-issue-description-wrapper">
+															<div class="homepage-issue-description">
+									<div class="h2">
+																					Revista de Biología Tropical (Rev. Biol. Trop.) RBT: Continuous publication (open issue) - 01 January - 31 December, 2024
+																			</div>
+									<p>Single issue per volume, continuous publication (open issue).</p>
+									<div class="homepage-issue-description-more">
+										<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/issue/view/3420">More</a>
+									</div>
+								</div>
+																				</div>
+					</div>
+							</div>
+		
+	
+			<section class="row homepage-announcements">
+		<h2 class="sr-only">Announcements</h2>
+					<article class="col-md-4 homepage-announcement">
+				<h3 class="homepage-announcement-title">We accept media files</h3>
+				<p><p>We accept media files in a variety of formats.<img src="/public/site/images/aprendas/archivos_audio_video_ing.jpg" alt="archivos_audio_video_ing.jpg"></p>
+					<br>
+					<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/announcement/view/436">
+												More…
+					</a>
+				</p>
+				<footer>
+					<small class="homepage-announcement-date">April  1, 2022</small>
+				</footer>
+			</article>
+					<article class="col-md-4 homepage-announcement">
+				<h3 class="homepage-announcement-title">“Advances and challenges of coral restoration in Latin America and the Caribbean”</h3>
+				<p>Editores científicos: 
+Alma Paola Rodríguez-Troncoso, Adolfo Tortolero-Langarica y Juan José Alvarado<br>1. Centro Universitario de la Costa, Universidad de Guadalajara, México.<br>2. Instituto Tecnológico de Bahía de Banderas, México.<br>3. Universidad de Costa Rica, Costa Rica.
+ 
+<img src="/public/site/images/aprendas/872d74a5-af06-4a58-bed4-5412ae309bbd.png" alt="872d74a5-af06-4a58-bed4-5412ae309bbd.png">
+					<br>
+					<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/announcement/view/421">
+												More…
+					</a>
+				</p>
+				<footer>
+					<small class="homepage-announcement-date">March  1, 2022</small>
+				</footer>
+			</article>
+			</section>
+	
+			<div class="row issue-wrapper issue-full-data">
+			<div class="col-12 col-lg-9">
+				<div class="issue-toc">
+
+			<div class="issue-toc-section">
+																
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Laura Solís</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					I-VII
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/62836">
+			FIRST PAGES
+		</a>
+	</div>
+
+	
+		
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/62836/61940">
+
+		
+	PDF (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">J. Edgardo Arévalo, Karen Masters</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					VIII-XIV
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/62834">
+			IN MEMORIAN - El legado del biólogo conservacionista Carlos Guindon Standing (1956-2023)
+		</a>
+	</div>
+
+	
+		
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/62834/61937">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/62834/61938">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/62834/61939">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									</div>
+			<div class="issue-toc-section">
+												<h3 class="issue-toc-section-title">Biomedicine</h3>
+													
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Ana Lucía Torres-Barajas, Karla Daniela Salas-Baéz, Rosa Isela Chávez-Gómez, Norma Adela Carrasco-Esparza, Martín Humberto Muñoz-Ortega, Eduardo Sánchez-García, David Alejandro Hernández-Marín</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e54026
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54026">
+			Trypanocidal activity of five Latin American plants
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.54026">https://doi.org/10.15517/rev.biol.trop..v72i1.54026</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54026/59962">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54026/59963">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54026/59964">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									</div>
+			<div class="issue-toc-section">
+												<h3 class="issue-toc-section-title">Biotechnology</h3>
+													
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Viet The Ho</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56423
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56423">
+			 Complete chloroplast genome of the Jewel Orchid, Anoectochilus formosanus (Orchidaceae) and its relatives
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56423">https://doi.org/10.15517/rev.biol.trop..v72i1.56423</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56423/59971">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56423/59972">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56423/59973">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Hazel Aragón, Paula   Calderón-Mesén, Julio F. Mata-Segreda</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e55957
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55957">
+			Elaeis guineensis (Arecaceae) residue as a fuel sorbent for passive application in fire-fighting engineering
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.55957">https://doi.org/10.15517/rev.biol.trop..v72i1.55957</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55957/59112">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55957/59113">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55957/59114">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									</div>
+			<div class="issue-toc-section">
+												<h3 class="issue-toc-section-title">Botany and Mycology</h3>
+													
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Gabriela Toro-Tobón, Fagua Alvarez-Flórez, Hernán D Mariño-Blanco, Luz M. Melgarejo</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56532
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56532">
+			Physiological and anatomical responses  of Passiflora tripartita var. mollissima (Passifloraceae) in water deficit
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56532">https://doi.org/10.15517/rev.biol.trop..v72i1.56532</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56532/60646">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56532/60647">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56532/60648">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Jose Bernal Azofeifa Bolaños, Víctor  Álvarez Valverde, Ashly Olivares Madriz, Mariana  Pineda Cascante, Daniela  Campos Salas, Ana  Hine-Gómez</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e54500
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54500">
+			The influence of age on the phenolic contents and lignins of Gmelina arborea (Lamiaceae)
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.54500">https://doi.org/10.15517/rev.biol.trop..v72i1.54500</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54500/58789">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54500/58790">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54500/58791">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Mónica Vallejo-Arróliga, Keilor Rojas-Jimenez</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e57898
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57898">
+			Yeasts of Pichia (Pichiaceae) dominate the mycobiome  of Hermetia illucens (Diptera: Stratiomyidae) larvae during urban composting
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v71i1.57898">https://doi.org/10.15517/rev.biol.trop..v71i1.57898</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57898/61307">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57898/61308">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57898/61309">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Mijail Bullaín Galardis, Ludovic Pruneau, Bettina Eichler-Löbermann, Fatoumata Fall Fall, Raúl Carlos López-Sánchez, Amadou Mustapha Bâ</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e57696
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57696">
+			Ectomycorrhizal fungi associated  with Coccoloba uvifera (Polygonaceae) in coastal ecosystems of Eastern Cuba
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.57696">https://doi.org/10.15517/rev.biol.trop..v72i1.57696</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57696/61718">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57696/61719">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57696/61720">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Edgar Javier Rincón-Barón, Gerardo Andrés  Torres-Rodríguez, Diego A. Zarate, Viviana Lucia  Cuarán, Carolina Santos-Heredia, Lilian M.  Passarelli</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e55748
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55748">
+			Microsporogenesis and ultrastructure of pollen grains of the Andean blackberry Rubus glaucus (Rosaceae)
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.55748">https://doi.org/10.15517/rev.biol.trop..v72i1.55748</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55748/59887">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55748/59888">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55748/59889">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									</div>
+			<div class="issue-toc-section">
+												<h3 class="issue-toc-section-title">Terrestrial ecology</h3>
+													
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Alejandra  Clavijo-Giraldo, Carlos F.  Álvarez-Hincapié, Gabriel Colorado</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e57968
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57968">
+			Habitat structure influences the diversity of diurnal butterflies (Lepidoptera: Papilionoidea) in high-montane ecosystems in Colombia
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.57968">https://doi.org/10.15517/rev.biol.trop..v72i1.57968</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57968/60682">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57968/60683">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57968/60684">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Julio Javier Chacón Pacheco, Car Luis Pacheco Guerra, Jesús Ballesteros Correa</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e54761
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54761">
+			 Activity of bats (Chiroptera) in extensive livestock systems in the Colombian Caribbean
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.54761">https://doi.org/10.15517/rev.biol.trop..v72i1.54761</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54761/60155">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54761/60156">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54761/60157">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Juan Manuel Obando-Tobón, Carlos A Delgado-V., Ligia Estela Urrego-Giraldo, Paula Saravia-Ruiz, Julián Tapias-M, Andrés Arias-Alzate</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56433
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56433">
+			Influence of behavior and habitat on wildlife roadkill: the case of vertebrates on peri-urban roads in the Colombian Andes
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56433">https://doi.org/10.15517/rev.biol.trop..v72i1.56433</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56433/61198">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56433/61199">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56433/61200">
+
+		
+	EPUB (Español (España))
+</a>
+																									</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Carolina Antonella Brarda, Adriana Silvina Manzano, Carlos Ignacio Piña, Antonio Esteban Frutos</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56175
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56175">
+			Avian diversity in river levee forest: the effect of microscale heterogeneity
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56175">https://doi.org/10.15517/rev.biol.trop..v72i1.56175</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56175/61261">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56175/61262">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56175/61263">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Darlison Chagas-de-Souza, Tássio Alves Coêlho, Ricardo Bassini-Silva, Francisco Lazameth Ishiguro, Hipócrates de Menezes Chalkidis, Lúcio André Viana, Lincoln Lima Corrêa</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e58870
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58870">
+			Morphological aspects of Sticholecitha serpentis (Plagiorchiida: Plagiorchiidae)  in a new Viperidae host in the Brazilian Amazon
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.58870">https://doi.org/10.15517/rev.biol.trop..v72i1.58870</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58870/61320">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58870/61321">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58870/61322">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Marco Herminio Osorto Nuñez, Luis Diego  Alfaro Alvarado, Federico Chinchilla Romero, Flavio Guimarães Rodrigues3</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e53238
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/53238">
+			Impact of Collared Peccaries Dycotiles tajacu (Artiodactyla: Tayassuidae) on understory vegetation in the tropical rainforest of the Nogal-La Selva Biological Corridor, Costa Rica
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.53238">https://doi.org/10.15517/rev.biol.trop..v72i1.53238</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/53238/59222">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/53238/59223">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/53238/59224">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Natalia Mejía-Cepeda, Óscar Murillo-García, Wilmar Bolívar-García</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e55782
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55782">
+			Acoustics of an assembly of anurans in the geographical Cauca River Valley, Colombia
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.55782">https://doi.org/10.15517/rev.biol.trop..v72i1.55782</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55782/60456">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55782/60457">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55782/60458">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Jhon Jerley Torres Torres, Harley  Quinto Mosquera , Mayira  Guerrero Machado</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e55276
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55276">
+			Aboveground biomass in a post-mining forest succession in the Colombian Pacific
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.55276">https://doi.org/10.15517/rev.biol.trop..v72i1.55276</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55276/61038">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55276/61039">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55276/61040">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Maurico Aguilar-Garavito, Edinson Sesquilé, Jordi Cortina-Segarra, Ángela Legizamo, Sebastián Ruiz-Santacruz</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e53407
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/53407">
+			Production and germination of acorns from the Andean oak Quercus humboldtii (Fagaceae) affected by recurrent fires
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.53407">https://doi.org/10.15517/rev.biol.trop..v72i1.53407</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/53407/59566">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/53407/59567">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/53407/59568">
+
+		
+	EPUB (Español (España))
+</a>
+																																													</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Nadia L. García Olivos, Rodrigo  Lasa-Covarrubias, Ricardo Serna-Lagunes, Miguel A. Garcia-Martinez</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56840
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56840">
+			Local and landscape constraints of adult population  of Anastrepha obliqua (Diptera: Tephritidae) in mango orchards
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56840">https://doi.org/10.15517/rev.biol.trop..v72i1.56840</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56840/61255">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56840/61256">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56840/61257">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Fernando Plata Pérez, Diana P. Urbina-Flores, Oscar A. Villarreal-Espino-Barros, Adrián Gloria-Trujillo, German D. Mendoza </div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e55515
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55515">
+			 Unveiling activity patterns of the deer Odocoileus virginianus (Artiodactyla: Cervidae) and its predators in Mexico&#039;s Arid Region
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.55515">https://doi.org/10.15517/rev.biol.trop..v72i1.55515</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55515/59500">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55515/59501">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55515/59502">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									</div>
+			<div class="issue-toc-section">
+												<h3 class="issue-toc-section-title">Aquatic ecology</h3>
+													
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Florencia Alvarez, Claudia Borja, Liliana Moraña, Veronica Lozano</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56487
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56487">
+			Correlation Abundance Networks for Analyzing Biological Interactions during Cyanobacterial Blooms
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56487">https://doi.org/10.15517/rev.biol.trop..v72i1.56487</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56487/59471">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56487/59472">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56487/59473">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Mayra Geraldine Rojas Céspedes, Giovany Guevara, Gladys Reinoso Flórez</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e57730
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57730">
+			Chironomidae (Insecta: Diptera) in three high Andean tropical streams in Colombia: altitudinal and temporal changes
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.57730">https://doi.org/10.15517/rev.biol.trop..v72i1.57730</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57730/61317">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57730/61318">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57730/61319">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Silvia López-Casas, Daniel Restrepo-Santamaría, Daniel Valencia-Rodríguez , Sebastián Muñoz-Duque, Alejandro Loaiza-Santana, Luz Fernanda Jiménez-Segura</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e57639
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57639">
+			Fish stocking as fishing management strategy and its role in delaying the management of aquatic ecosystems
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.57639">https://doi.org/10.15517/rev.biol.trop..v72i1.57639</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57639/62231">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57639/62232">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57639/62233">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">María del Rocío  Torres-Alvarado, Teresa Pérez Muñoz, Neivy Betsabet  Maldonado-Vela</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e57126
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57126">
+			Methanogenesis in sediments of a tropical coastal wetland: a culture-dependent method
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.57126">https://doi.org/10.15517/rev.biol.trop..v72i1.57126</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57126/59575">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57126/59576">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57126/59577">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Silvia Lucía Villabona González</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56220
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56220">
+			Plankton interactions and instability in four tropical reservoirs with different trophic status
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56220">https://doi.org/10.15517/rev.biol.trop..v72i1.56220</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56220/60009">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56220/60010">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56220/60011">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Sávia Soares Pascoalini, Dielle Meire de Santana Lopes, Antelmo Ralph Falqueto, Verônica D’Addazio, Adriano Alves Fernandes, Marcelo Barcellos da Rosa, Andreia Barcelos Passos Lima Gontijo, Mário Luiz Gomes Soares, Ivoney Gontijo, Edilson Romais Schmildt, Helia Del Carmen  Farías Espinoza, Bryan Brummelhaus de Menezes, Lucas Mironuk Frescura, Raquel Vidal dos Santos Leopoldo, Camila Patricio de Oliveira, Lucas de Almeida Leite, Neilson Victorino de Brites Júnior, Ully Depolo Barcelos, Mônica Maria Pereira Tognella</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56835
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56835">
+			Iron and Manganese concentrations in leaf tissues of Rhizophora mangle (Rhizophoraceae): implications for energetic metabolism
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56835">https://doi.org/10.15517/rev.biol.trop..v72i1.56835</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56835/61049">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56835/61050">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56835/61053">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Yareni Saharai Pablo-López, Christian Daniel Ortega-Ortiz, Salvador Hernández-Vázquez, José Alfredo Castillo-Guerrero, Aramis Olivos-Ortiz, Marco Agustín Liñán-Cabello</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e52860
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/52860">
+			Spatio-temporal composition of aquatic birds community in Juluapan Lagoon, Colima, Mexican Central Pacific
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.52860">https://doi.org/10.15517/rev.biol.trop..v72i1.52860</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/52860/58832">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/52860/58833">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/52860/58834">
+
+		
+	EPUB
+</a>
+																									</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Yogani Govender, Mark Jury</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56729
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56729">
+			Environmental controls on bioluminescent dinoflagellate density,  in Laguna Grande, Fajardo, Puerto Rico
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56729">https://doi.org/10.15517/rev.biol.trop..v72i1.56729</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56729/60979">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56729/60980">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56729/60981">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">•	José del Carmen  Gerónimo-Torres, •	Óscar Iván  Álvarez-Ramón, Liliana Ríos-Rodas, •	Baltazar Sánchez-Díaz, •	Facundo  •Sánchez-Gutiérrez, Manuel Pérez-De la Cruz</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e55604
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55604">
+			Diversity of longicorn beetles (Coleoptera: Cerambycidae) associated with a mangrove swamp in Tabasco, Mexico
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.55604">https://doi.org/10.15517/rev.biol.trop..v72i1.55604</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55604/59955">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55604/59956">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55604/59957">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Gloria Garduño Solorzano, José Manuel González Fernández, Saúl Aldair Fuentes Zuno</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e51160
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/51160">
+			Phytoplankton from a brackish lagoon in the central region of Veracruz, Mexico
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.51160">https://doi.org/10.15517/rev.biol.trop..v72i1.51160</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/51160/61035">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/51160/61036">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/51160/61037">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Estefania Isaza-Toro, John Josephraj  Selvaraj, Alan Giraldo</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e42716
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/42716">
+			Geographical distribution model of the fish Coryphaena hippurus (Perciformes: Coryphaenidae) according to climate change in the Pacific Oriental Tropical
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.42716">https://doi.org/10.15517/rev.biol.trop..v72i1.42716</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/42716/59569">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/42716/59570">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/42716/59571">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Omar Alejandro Peña-Almaraz, Hilda Elena Castillo-Jiménez, Manuel Alejandro Vargas-Ceballos, Daniel Badillo-Zapata, Olimpia Chong-Carrillo, Fernando Vega Villasante</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56514
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56514">
+			A life controlled by the current: rheotaxis behavior of the river prawn Macrobrachium tenellum (Decapoda: Palaemonidae)
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56514">https://doi.org/10.15517/rev.biol.trop..v72i1.56514</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56514/60612">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56514/60613">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56514/60614">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Luis Edson Monzón Hernández, Miguel Angel Peralta Meixueiro, José Manuel Aguilar Ballina, Gustavo Rivera Velázquez, María Eugenia Vega Cendejas</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56458
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56458">
+			Biotic integrity of the Mar Muerto lagoon, Mexico, based on fish
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56458">https://doi.org/10.15517/rev.biol.trop..v72i1.56458</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56458/60374">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56458/60375">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56458/60376">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Sara Velásquez-López, Jesús Manuel Vásquez Ramos, Clara Inés Caro-Caro, Lucimar Gomes Dias</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e52916
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/52916">
+			Diversity of Leptohyphidae (Ephemeroptera) nymphs in the Quenane-Quenanito river, Colombian plain foothills
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.52916">https://doi.org/10.15517/rev.biol.trop..v72i1.52916</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/52916/59029">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/52916/59030">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/52916/59031">
+
+		
+	EPUB (Español (España))
+</a>
+																									</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Sting Silva Duarte, Sheyla Regina Marques Couceiro, Jô de Farias-Lima, Lucio André-Viana</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e58705
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58705">
+			Infestation of ectoparasite of Probopyrus (Isopoda: Bopyridae)  in Macrobrachium amazonicum (Caridea: Palaemonidae) in the Amazon River
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.58705">https://doi.org/10.15517/rev.biol.trop..v72i1.58705</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58705/61258">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58705/61259">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58705/61260">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Pastor  Coayla-Peñaloza, André Alexander Cheneaux-Diaz, Claudia Viviana Moreno.Salazar, Cynthia Elizabeth Cruz-Remache, Cristina Damborenea</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56670
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56670">
+			Aquatic macroinvertebrate community and water quality in River Tambo, Arequipa region, Peru
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56670">https://doi.org/10.15517/rev.biol.trop..v72i1.56670</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56670/59952">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56670/59953">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56670/59954">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									</div>
+			<div class="issue-toc-section">
+												<h3 class="issue-toc-section-title">Invertebrate biology</h3>
+													
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Santiago Erazo, Francisco Leiton, Angie Díaz, Valentina Diaz, Juan Fernando Angel, Jan Carlos Achipis, Maria R. Manzano</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e58265
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58265">
+			Attraction and sexual call in Prodiplosis longifila (Diptera: Cecidomyiidae): Evidence of a sexual pheromone
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.58265">https://doi.org/10.15517/rev.biol.trop..v72i1.58265</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58265/62348">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58265/62349">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58265/62350">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Héctor Lancheros, Daniel Arias Cuellar, Ricardo Pinto da Rocha</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e61426
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/61426">
+			A new type of nest in the genus Quindina (Opiliones: Nomoclastidae)  with hypotheses about its origin and a new species for Colombia
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.61426">https://doi.org/10.15517/rev.biol.trop..v72i1.61426</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/61426/61965">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/61426/61966">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/61426/61967">
+
+		
+	EPUB
+</a>
+																																													</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Anne Karolline Costa, Lira, Simone, Silva, Lucas, Schwamborn, R</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56414
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56414">
+			Morphometric variations in the reef crab  Plagusia depressa (Decapoda: Plagusiidae) in the Western tropical Atlantic
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56414">https://doi.org/10.15517/rev.biol.trop..v72i1.56414</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56414/62024">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56414/62025">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56414/62026">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Estefanía Mejía-Jurado, Emmanuel Echeverry-Cárdenas, Oscar Alexander Aguirre-Obando</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e54166
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54166">
+			A new vector emerges? Aedes vittatus mosquito (Diptera: Culicidae): habitat and current and future potential global geographic invasion
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.54166">https://doi.org/10.15517/rev.biol.trop..v72i1.54166</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54166/59948">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54166/59949">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54166/59950">
+
+		
+	EPUB
+</a>
+																																													</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Madai Rosas-Mejía</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e58107
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58107">
+			Ant Communities (Hymenoptera: Formicidae) in a Protected Urban Park in Northeast Mexico
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.58107">https://doi.org/10.15517/rev.biol.trop..v72i1.58107</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58107/60229">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58107/60230">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58107/60231">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Oscar Alexander Aguirre-Obando, Bryan Steven Valencia-Marín, Irene Duarte-Gandica</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e54870
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54870">
+			Genotypic dynamics and dispersion in Colombian biomes of kdr mutations associated with resistance to pyrethroids in the Aedes aegypti mosquito (Diptera: Culicidae)
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.54870">https://doi.org/10.15517/rev.biol.trop..v72i1.54870</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54870/59579">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54870/59580">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54870/59581">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Isabel Vargas-Fernández, Jorge Enrique Llorente-Bousquets</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e59488
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59488">
+			Microstructure of the labial palps in the genera Aphrissa and Rhabdodryas (Lepidoptera: Pieridae, Coliadinae) from Mexico
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.59488">https://doi.org/10.15517/rev.biol.trop..v72i1.59488</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59488/62183">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59488/62184">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59488/62185">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Javier Amaru Castelo, Luis A. Echevarria-Macassi, Edgar Marquina-Montesinos, Carolina Milagros Herrera-Huayhua, Benita Bautista-Challco</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56199
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56199">
+			Invertebrates as disturbance bioindicators in the Manu Biosphere Reserve
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56199">https://doi.org/10.15517/rev.biol.trop..v72i1.56199</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56199/60380">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56199/60381">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56199/60383">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									</div>
+			<div class="issue-toc-section">
+												<h3 class="issue-toc-section-title">Vertebrate biology</h3>
+													
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Federico J. Albertazzi, Ghisselle Alvarado, F. Gary Stiles</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e49359
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/49359">
+			Phylogenetic relationships of the Mangrove Hummingbird,  “Amazilia” boucardi (Apodiformes: Trochilidae) of Costa Rica
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.49359">https://doi.org/10.15517/rev.biol.trop..v72i1.49359</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/49359/58910">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/49359/58911">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/49359/58912">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Ana Citlali Vargas-Gómez, Diego de Jesús Chaparro-Herrera</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e59832
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59832">
+			Distribution of Ambystoma altamirani (Caudata: Ambystomatidae)  in relation to biotic and abiotic factors in its habitat
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.59832">https://doi.org/10.15517/rev.biol.trop..v72i1.59832</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59832/61949">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59832/61950">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59832/61952">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Carmen Hernández, Isabel Barja</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e54616
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54616">
+			The role of neophobia  in a pioneer olfactory enrichment for amazons, macaws, and toucans
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.54616">https://doi.org/10.15517/rev.biol.trop..v72i1.54616</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54616/58829">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54616/58830">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54616/58831">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Alejandro Solórzano-Lopez, Mahmood Sasa</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e57498
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57498">
+			Notes on the natural history and identity of the pelagic sea snake  Hydrophis platurus (Serpentes: Elapidae) from Golfo Dulce, Puntarenas, Costa Rica
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.57498">https://doi.org/10.15517/rev.biol.trop..v72i1.57498</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57498/61326">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57498/61327">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57498/61328">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">María  Morales , Jacobo  Araúz , Jeancarlos  Abrego , Nelson  Guevara , Julio  Trujillo , Gaspar  Bruner-Montero , Emilio Eduardo Romero, Yostin  Añino </div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e59197
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59197">
+			Taxonomic identification using multivariate morphometric statistics in Panamanian Carollia bats (Chiroptera: Phyllostomidae)
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.59197">https://doi.org/10.15517/rev.biol.trop..v72i1.59197</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59197/61715">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59197/61716">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59197/61717">
+
+		
+	EPUB (Español (España))
+</a>
+																																													</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Manuel Alejandro Castillo-Rodríguez, Judith Andrea Rangel-Mendoza, Emyr Saúl Peña-Marín, Carlos Alfonso Álvarez-González, Marco Antonio López-Luna, Claudia Ivette Maytorena-Verdugo</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56376
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56736">
+			Digestive proteases of Morelet’s crocodile (Crocodylus moreletii) in three life stages
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56736">https://doi.org/10.15517/rev.biol.trop..v72i1.56736</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56736/59586">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56736/59587">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56736/59588">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Valentina Ramos-Mosquera, Edwin López-Delgado, Sergio Losada-Prado, Miguel Moreno-Palacios</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e58133
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58133">
+			Multi-temporal analysis of avian biodiversity at the Centro Universitario Regional del Norte (Tolima, Colombia)
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.58133">https://doi.org/10.15517/rev.biol.trop..v72i1.58133</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58133/61054">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58133/61055">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58133/61057">
+
+		
+	EPUB (Español (España))
+</a>
+																																													</div>
+	
+	
+</div>
+									</div>
+			<div class="issue-toc-section">
+												<h3 class="issue-toc-section-title">Conservation</h3>
+													
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Iván Ávila Pérez, Erik Lindquist, Cornelia Miller Granados, Matieu Henry</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e58329
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58329">
+			Spatio-temporal changes for natural resources conservation  and illegal logging monitoring using Breaks for Additive Season  and Trend (BFAST) algorithm in Costa Rica
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.58329">https://doi.org/10.15517/rev.biol.trop..v72i1.58329</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58329/62307">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58329/62308">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58329/62310">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Leandro Alcalde, Luisina Rodríguez-Allo</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e57706
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57706">
+			Abundance and physiognomic characteristics of woody natives  in a sub-urban talar forest remnant extensively invaded by exotic vegetation: Native trees and neoecosystems
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.57706">https://doi.org/10.15517/rev.biol.trop..v72i1.57706</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57706/62100">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57706/62101">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/57706/62102">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Natalie Viviana Sánchez, Katherine Bonilla Badilla, Cesar Augusto Estevo</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e55265
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55265">
+			Precipitation explains Wood Thrush (Hylocichla mustelina) occupancy patterns in Northern Costa Rica
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.55265">https://doi.org/10.15517/rev.biol.trop..v72i1.55265</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55265/59226">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55265/59227">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/55265/59228">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Rebeca Acosta, Facundo Alvarez, Betto Figueira, Sofía Castro Cavicchinni, Rolando Vera, Daryl David Cruz Flores, Alejandro Nuñez</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					53860
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/53860">
+			Environmental sympatry through time: spatio-temporal distribution and conservation status of two sympatric anuran species (Leptodactylidae) in South America
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.53860">https://doi.org/10.15517/rev.biol.trop..v72i1.53860</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/53860/58913">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/53860/58914">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/53860/58915">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Jackeline Aida Mendoza-Soto, Renato Walter  Colan-Rodriguez, Gladys Milagros Reyes-Lizarraga, Javier  Amaru-Castelo, Edgar Luis Marquina-Montesinos, Joseph  Oakley</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56851
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56851">
+			Spatial and temporal dynamics of the primate community in a regenerating forest of the Manu Biosphere Reserve, Peru
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56851">https://doi.org/10.15517/rev.biol.trop..v72i1.56851</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56851/59884">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56851/59885">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56851/59886">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Cristian Barros-Diaz, Julián Pérez-Correa</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e58788
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58788">
+			Proposal for ecological corridors for the protection of the jaguar in Western Ecuador
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.58788">https://doi.org/10.15517/rev.biol.trop..v72i1.58788</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58788/62050">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58788/62051">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58788/62052">
+
+		
+	EPUB (Español (España))
+</a>
+																																													</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Carlos Mario López-Orozco, Yesenia M. Carpio-Díaz, Ricardo Borja-Arrieta, Ivanklin Soares Campos-Filho, Carlos Taboada-Verona, Gabriel R. Navas S.</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e58577
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58577">
+			Supralittoral isopod (Oniscidea) diversity at three ecoregions  along the Colombian Caribbean: useful data for environmental management
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.58577">https://doi.org/10.15517/rev.biol.trop..v72i1.58577</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58577/61051">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58577/61052">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58577/61056">
+
+		
+	EPUB
+</a>
+																																													</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Joan Stiven Bocanegra-Mora, Rosa Elena Ajiaco-Martínez, Hernando Ramírez-Gil, Carlos Guillermo Barreto</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56582
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56582">
+			Sustainability of dual exploitation (fry and adults) of the fish Semaprochilodus laticeps (Characiformes: Prochilodontidae) in Colombia
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56582">https://doi.org/10.15517/rev.biol.trop..v72i1.56582</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56582/59572">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56582/59573">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56582/59574">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">MSc. Carlos Avila, PhD. Daniel Griffith, PhD. Carlos Iván Espinosa</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e54459
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54459">
+			Species distribution models and conservation status of threatened bats in the Tumbesian region of Ecuador and Perú
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v71i1.54459">https://doi.org/10.15517/rev.biol.trop..v71i1.54459</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54459/58921">
+
+		
+	PDF (Español (España))
+</a>
+																																																														
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54459/58922">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/54459/58923">
+
+		
+	EPUB (Español (España))
+</a>
+																									</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">José Daniel Sarmiento-Roa, Anderson Arenas-Clavijo, Neis José Martínez-Hernández</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e52855
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/52855">
+			Spatio-temporal variation in the diversity of Geadephaga beetles (Coleoptera: Carabidae, Cicindelidae), in the tropical dry forest of the Colombian Caribbean
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.52855">https://doi.org/10.15517/rev.biol.trop..v72i1.52855</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/52855/58826">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/52855/58827">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/52855/58828">
+
+		
+	EPUB (Español (España))
+</a>
+																									</div>
+	
+	
+</div>
+									</div>
+			<div class="issue-toc-section">
+												<h3 class="issue-toc-section-title">Other</h3>
+													
+	
+<div class="article-summary">
+
+			<div class="article-summary-authors">Gerardo Avalos</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59410">
+			La Planta: estructura y función, un hito en la literatura científica tropical. Flores-Vindas, E. (2024). La planta: estructura y función (5a ed.). Editorial Tecnológica de Costa Rica
+		</a>
+	</div>
+
+	
+		
+			<div class="article-summary-galleys">
+																																																																	</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Spencer Kelvin Monckton, Dirk Steinke, Kevin Charles Robert Kerr</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e59992
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59992">
+			A response to: Evaluating the reliability of DNA Barcoding for Central American Pacific shallow water echinoderms identification
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.59992">https://doi.org/10.15517/rev.biol.trop..v72i1.59992</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59992/60982">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59992/60983">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/59992/60984">
+
+		
+	EPUB
+</a>
+																																													</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Diego F. Osorio-Castiblanco</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56364
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56364">
+			Biomass and bioethanol production of the shrub Ulex europaeus (Fabaceae) estimated with remote sensor imagery in the Andean paramos
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56364">https://doi.org/10.15517/rev.biol.trop..v72i1.56364</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56364/59582">
+
+		
+	PDF
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56364/59583">
+
+		
+	HTML
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56364/59584">
+
+		
+	EPUB
+</a>
+					</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Sergio A. Cabrera-Cruz, José Luis Aguilar-López, Rafael Villegas-Patraca</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e56880
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56880">
+			Complementing biological inventories through open data in a semiautomated method
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.56880">https://doi.org/10.15517/rev.biol.trop..v72i1.56880</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56880/61520">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56880/61521">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/56880/61522">
+
+		
+	EPUB (Español (España))
+</a>
+																									</div>
+	
+	
+</div>
+									
+	
+<div class="article-summary">
+
+			<div class="row">
+			<div class="col">
+				<div class="article-summary-authors">Horacio Alejandro Chamizo, Juan José Romero-Zúñiga, Suyén Alonso Ubieta, Lilliam Quirós-Arias</div>
+			</div>
+			<div class="col-3 col-md-2 col-lg-2">
+				<div class="article-summary-pages text-right">
+					e58835
+				</div>
+			</div>
+		</div>
+	
+	<div class="article-summary-title">
+		<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58835">
+			Geospatial patterns of morbidity due to covid-19 in Costa Rica: March 2020 to May 2022
+		</a>
+	</div>
+
+	
+									<div class="article-summary-doi">
+				<a href="https://doi.org/10.15517/rev.biol.trop..v72i1.58835">https://doi.org/10.15517/rev.biol.trop..v72i1.58835</a>
+			</div>
+			
+			<div class="article-summary-galleys">
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58835/61323">
+
+		
+	PDF (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58835/61324">
+
+		
+	HTML (Español (España))
+</a>
+																																										
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/58835/61325">
+
+		
+	EPUB (Español (España))
+</a>
+					</div>
+	
+	
+</div>
+									</div>
+	</div>
+			</div>
+		</div>
+
+		<div class="text-center">
+			<a class="btn" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/issue/archive">
+				View All Issues
+			</a>
+		</div>
+	
+				<div class="row justify-content-center homepage-additional-content">
+			<div class="col-lg-9"><p><strong><em>Revista de Biología Tropical </em></strong><em>/ International Journal of Tropical Biology and Conservation</em>, is a full open access journal from the University of Costa Rica focused on tropical biology and conservation. All issues, from 1953 to the present, are available for free download <a href="https://revistas.ucr.ac.cr/index.php/rbt/issue/archive">here</a>.</p>
+<p><strong>Our scope</strong></p>
+<p>Our journal publishes scientific articles that increase our understanding of biology, conservation, and biomedical life sciences in the tropics.</p>
+<p>Selection criteria are the quantity and quality of new information and its potential interest to the general audience as well as to specialists. <strong>The studied ecosystems, or at least the organisms, must be tropical. </strong></p>
+<p><strong>Regular issues</strong></p>
+<p style="font-weight: 400;">We give preference to feature original articles that include testable study questions —for example, studies with an experimental design to evaluate factors that influence biological variables, or studies that explain the mechanisms underlying biological or biomedical phenomena such as, for example, behavior or physiology. Field studies should be extensive enough to identify temporal or spatial patterns. We also welcome systematic or phylogenetic studies above the species level, meta-analyses, and bibliometric studies that critically examine what is known and what remains to be done in any field of tropical biology.</p>
+<p style="font-weight: 400;">Review articles are mostly published by invitation of the Editorial Board to recognized authorities. Other specialists interested in submitting a review must first send a titled outline to <a href="https://revistas.ucr.ac.cr/index.php/rbt/management/settings/context/mailto:biologia.tropical@ucr.ac.cr">biologia.tropical@ucr.ac.cr</a>. Accepted proposals receive the same evaluation as regular manuscripts.</p>
+<p style="font-weight: 400;">All reviews and meta-analyses need to identify and fill gaps in knowledge, present methodological advances, and propose future research directions.</p>
+<p><strong><em>Articles must be submitted to one of the journal's sections:</em></strong></p>
+<ul>
+<li><strong>Biotechnology</strong>: Biotechnology is a multidisciplinary field that involves working with biological systems, living organisms, or parts of these for applications oriented toward humanity's welfare using various tools and technologies. The journal publishes research articles in plant biotechnology, tissue culture, animal biotechnology, microbial biotechnology, bioremediation, genetic engineering, industrial biotechnology, marine biotechnology, food biotechnology, genomics, proteomics, bioinformatics, basic and applied research.<br /><br /></li>
+<li><strong>Genetics</strong>: Genetics is a vast field, and the journal welcomes articles on phylogenetics, phylogeography, evolutionary biology/ecology, and population genetics.<br /><br /></li>
+<li><strong>Botany and Mycology</strong>: The journal is seeking articles related to plants, algae, and fungi biology. It expects to receive articles on their physiology, structure, and functions and their roles in ecosystems.<br /><br /></li>
+<li><strong>Terrestrial Ecology</strong>: Terrestrial ecology studies the interactions between plants and their environment, including pollinators and dispersers, and adaptations or dynamic fluctuations to changing climatic conditions.<br /><br /></li>
+<li><strong>Aquatic Ecology</strong>: The journal accepts marine life articles covering coastal and deep-sea habitats. The studies can examine biological communities in freshwater bodies, ecological processes within mangroves, and the spatial-temporal dynamics of biological communities. The research should concentrate on the relationship between biodiversity and the environment in coastal environments, sediment bottoms, rivers, lakes, and marine mammals.<br /><br /></li>
+<li><strong>Invertebrate Biology</strong>: The journal is seeking articles that cover both terrestrial and aquatic invertebrates, including their physiology, behavior, and ecological roles.<br /><br /></li>
+<li><strong>Vertebrate Biology</strong>: The journal is interested in articles about the physiology, behavior, and ecology of land vertebrates in various ecosystems.<br /><br /></li>
+<li><strong>Conservation</strong>: Biodiversity conservation is crucial. The journal expects research on the impact of stressors on ecosystems or biological populations and practical strategies for preservation or restoration.<br /><br /></li>
+<li style="font-weight: 400;"><strong>Biomedicine</strong>: Research on the biological basis of diseases, including studies on the molecular and cellular mechanisms underlying pathologies, as well as discoveries related to the biology of vectors and parasites.</li>
+</ul>
+<p><br /><strong>Notes about old data: </strong>We encourage authors to compare old results with more recent data or to use the data within a meta-analysis. Studies based on data collected over six years ago must include a justification of why they are still of interest, and in the case of field studies, they need to present spatial patterns or temporal trends of historical significance. The Editorial Board evaluates the validity of methods and the relevance of results before sending the manuscript to reviewers.</p>
+<p><strong>The journal now has one issue per year (continuous publication from January 1st to December 31st) and publishes articles the same week that an edited version becomes available. </strong>Until 2021, it published four regular issues per year: issue 1 (January – March), issue 2 (April – June), issue 3 (July – September), and issue 4 (October – December).</p>
+<p><strong>We do not publish</strong> notes; short communications; species lists; single new species; range extensions; new records and other preliminary or short studies; or highly specialized technical reports based on protocols (e.g. agricultural, forestry, biochemical, microbiological, aquaculture, fishery or similar studies that only apply well known techniques to particular cases of local interest).</p>
+<p><strong>Special issues</strong></p>
+<p>Special issues financed by research organizations are accepted after approval by the Editorial Board. They may contain a diversity of report types, including short papers, new records, new species descriptions, checklists, technical reports, etc. To publish a special issue, contact <a href="https://revistas.ucr.ac.cr/index.php/rbt/management/settings/context/mailto:biologia.tropical@ucr.ac.cr">biologia.tropical@ucr.ac.cr</a> for a cost estimate.</p>
+<p><strong>Target audience</strong></p>
+<p>Researchers with an interest in studying all fields of tropical biology.</p>
+<p><strong>Why publish in Revista de Biología Tropical?</strong></p>
+<ul>
+<li class="show"><strong>Fully indexed</strong>: <strong><em>Revista de Biología Tropical</em></strong> is included in Science Citation Index Expanded, REDIB Journals Ranking, Current Contents, Google Scholar, Biological Abstracts, and about 50 other international indices.</li>
+<li class="show"><strong>Rapid</strong> decision and publication (<strong>7 days</strong> for first decision, <strong>5-7 months </strong>for definitive acceptance, <strong>6-8 months</strong> from submission to publication).</li>
+<li class="show"><strong>Fair</strong>: We use a double-blind system for a fair evaluation of manuscripts.</li>
+<li class="show"><strong>High impact</strong>, not only because of its citation rate but also because it is widely read in countries with the highest tropical biodiversity, ensuring your article will have the most impact on the conservation of tropical biodiversity. Web of Science Impact Factor of 0.6. SJR Impact Factor of 0.28 (Q2).</li>
+</ul>
+<ul>
+<li class="show"><strong>A personalized treatment</strong> by our dedicated staff.</li>
+</ul>
+<ul>
+<li class="show"><strong>World Class</strong> <a href="https://revistas.ucr.ac.cr/index.php/rbt/about/editorialTeam">Editorial and Scientific Boards.</a></li>
+<li class="show"><strong>Open Access</strong>: All articles, since the first issue in 1953 to the present are freely available online (<a href="https://revistas.ucr.ac.cr/index.php/rbt/issue/archive">Archives</a>) so they are more likely to be cited than articles behind pay-walls. </li>
+<li class="show"><strong>FREE PUBLICATION: </strong>Each article receives 10 free pages of space in PDF format, which is enough for most scientific papers. Additional pages can be published in page layout format of the pdf at a cost of <strong>$50</strong> each. Supplementary material such as additional texts, figures, tables, graphics, and databases at a cost of <strong>$60</strong>. Contact <strong>biologia.tropical@ucr.ac.cr</strong> for more information.</li>
+</ul>
+<p>OAI-PMH: https://revistas.ucr.ac.cr/index.php/RBT/oai</p>
+<p> </p>
+<p><a href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/3221">Read current issue (free)</a></p>
+<p><a href="https://revistas.ucr.ac.cr/index.php/rbt/issue/archive">All issues (free) </a></p>
+<p><span style="color: #111111; font-family: Arial, Helvetica, sans-serif;">If you can not access an article please enter to "</span>Archives"</p>
+<p><strong>SUBMIT <a href="https://revistas.ucr.ac.cr/index.php/rbt/management/settings/website//index.php/rbt/user/register" target="_blank" rel="noopener">a new manuscript here</a></strong></p></div>
+		</div>
+	</div><!-- .container -->
+
+<footer class="site-footer">
+	<div class="container site-footer-sidebar" role="complementary"
+	     aria-label="Sidebar">
+		<div class="row">
+			<div class="pkp_block block_custom" id="customblock-REDIB">
+	<div class="content">
+		<p><a href="https://redib.org/Record/oai_revista1480"><img src="https://redib.org/Widget/Show?id=1480&amp;lng=es" alt="Redib Widget" border="0"></a></p>
+	</div>
+</div>
+<div class="pkp_block block_information">
+	<h2 class="title">Information</h2>
+	<div class="content">
+		<ul>
+							<li>
+					<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/information/readers">
+						For Readers
+					</a>
+				</li>
+										<li>
+					<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/information/authors">
+						For Authors
+					</a>
+				</li>
+										<li>
+					<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/information/librarians">
+						For Librarians
+					</a>
+				</li>
+					</ul>
+	</div>
+</div>
+<div class="pkp_block block_language">
+	<h2 class="title">
+		Language
+	</h2>
+
+	<div class="content">
+		<ul>
+							<li class="locale_es_ES" lang="es-ES">
+					<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/setLocale/es_ES?source=%2F%2Findex.php%2Frbt">
+						Español (España)
+					</a>
+				</li>
+							<li class="locale_en_US current" lang="en-US">
+					<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/setLocale/en_US?source=%2F%2Findex.php%2Frbt">
+						English
+					</a>
+				</li>
+					</ul>
+	</div>
+</div><!-- .block_language -->
+
+		</div>
+	</div>
+	<div class="container site-footer-content">
+		<div class="row">
+			
+			<div class="col-md col-md-2 align-self-center text-right">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/about/aboutThisPublishingSystem">
+					<img class="footer-brand-image" alt="More information about the publishing system, Platform and Workflow by OJS/PKP."
+					     src="https://archivo.revistas.ucr.ac.cr/templates/images/ojs_brand_white.png">
+				</a>
+			</div>
+		</div>
+	</div>
+</footer><!-- pkp_structure_footer_wrapper -->
+
+
+<div id="loginModal" class="modal fade" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+							<form class="form-login" method="post" action="https://archivo.revistas.ucr.ac.cr/index.php/rbt/login/signIn">
+	<input type="hidden" name="csrfToken" value="615f1745d5854a72409f8f09066d2566">
+	<input type="hidden" name="source" value=""/>
+
+	<fieldset>
+		<div class="form-group form-group-username">
+			<label for="usernameModal">
+				Username - only editors
+				<span class="required" aria-hidden="true">*</span>
+				<span class="sr-only">
+					Required
+				</span>
+			</label>
+			<input type="text" class="form-control" name="username" id="usernameModal" value=""
+			       maxlength="32" required>
+		</div>
+		<div class="form-group form-group-password">
+			<label for="passwordModal">
+				Password
+				<span class="required" aria-hidden="true">*</span>
+				<span class="sr-only">
+					Required
+				</span>
+			</label>
+			<input type="password" class="form-control" name="password" id="passwordModal" value=""
+			       maxlength="32" required>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group form-group-forgot">
+					<small class="form-text">
+						<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/login/lostPassword">
+							Forgot your password? read-only site; You cannot log in
+						</a>
+					</small>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group form-check form-group-remember">
+					<input type="checkbox" class="form-check-input" name="remember" id="rememberModal" value="1"
+					       checked="$remember">
+					<label for="rememberModal" class="form-check-label">
+						<small class="form-text">
+							Keep me logged in
+						</small>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group form-group-buttons">
+			<button class="btn btn-primary" type="submit">
+				restricted area
+			</button>
+		</div>
+					<div class="form-group form-group-register">
+				No account? visit our new website <a href="https://revistas.ucr.ac.cr">revistas.ucr.ac.cr</a>
+								<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/register?source=">
+					
+				</a>
+			</div>
+			</fieldset>
+</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js?v=3.2.1.4" type="text/javascript"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js?v=3.2.1.4" type="text/javascript"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js?v=3.2.1.4" type="text/javascript"></script><script src="https://archivo.revistas.ucr.ac.cr/plugins/themes/healthSciences/js/main.js?v=3.2.1.4" type="text/javascript"></script><script src="https://archivo.revistas.ucr.ac.cr/plugins/themes/healthSciences/libs/jquery-ui.min.js?v=3.2.1.4" type="text/javascript"></script><script src="https://archivo.revistas.ucr.ac.cr/plugins/themes/healthSciences/libs/tag-it.min.js?v=3.2.1.4" type="text/javascript"></script><script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-126449882-1', 'auto');
+ga('send', 'pageview');
+</script>
+<style>
+.ojs-readonly-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.ojs-readonly-popup {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    width: 95%;
+    margin: 20px;
+    max-height: 85vh;	
+    position: relative;
+    animation: popupSlide 0.3s ease-out;
+    overflow-y: auto;
+}
+
+@keyframes popupSlide {
+    from {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.popup-header {
+    background: linear-gradient(135deg, #d73c3c, #f39c12);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+}
+
+.popup-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.popup-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.popup-body {
+    padding: 30px;
+}
+
+.language-section {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.language-section:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.language-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.flag {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+.message-text {
+    color: #555;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.contact-highlight {
+    background: #f8f9fa;
+    padding: 15px;
+    border-left: 4px solid #007acc;
+    margin: 15px 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.contact-text {
+    font-weight: 500;
+    color: #007acc;
+    margin: 0;
+}
+
+.new-site-notice {
+    background: linear-gradient(135deg, #e8f5e8, #f0f8ff);
+    padding: 15px;
+    border-left: 4px solid #28a745;
+    margin: 15px 0;
+    border-radius: 0 6px 6px 0;
+    border: 1px solid #d4edda;
+}
+
+.new-site-text {
+    font-weight: 500;
+    color: #155724;
+    margin: 0;
+}
+
+.popup-footer {
+    padding: 20px 30px;
+    background: #f8f9fa;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.btn-understand {
+    background: #007acc;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 120px;
+}
+
+.btn-new-site {
+    background: #155724;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 120px;
+}
+
+.btn-understand:hover {
+    background: #005a99;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 122, 204, 0.3);
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn:hover {
+    opacity: 1;
+}
+
+@media (max-width: 600px) {
+    .ojs-readonly-popup {
+        width: 95%;
+        margin: 10px;
+    }
+    
+    .popup-body {
+        padding: 20px;
+    }
+    
+    .popup-footer {
+        padding: 15px 20px;
+    }
+    
+    .popup-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btn-new-site {
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    .btn-understand {
+        width: 100%;
+    }
+}
+</style>
+
+<div class="ojs-readonly-overlay" id="readonlyPopup">
+    <div class="ojs-readonly-popup">
+        <div class="popup-header">
+            <button class="close-btn" onclick="closeReadonlyPopup()" aria-label="Close">×</button>
+            <div class="popup-icon"></div>
+            <h2 class="popup-title">Important Notice</h2>
+        </div>
+        
+        <div class="popup-body">
+            <div class="language-section">
+                <h3 class="language-title">
+                </h3>
+                <p class="message-text">
+		Este sitio web es la versión histórica de nuestro portal de revistas.  <br> Todos los artículos continúan disponibles en <strong>acceso abierto</strong> para consulta y descarga. 
+                </p>
+                <div class="contact-highlight">
+                    <p class="contact-text">
+			Importante: En este sitio ya no es posible registrarse ni enviar nuevos manuscritos.<br>  
+			 Para envíos y nuevas gestiones editoriales, por favor utilice nuestro <strong>nuevo portal</strong>.  
+                    </p>
+                </div>
+            </div>
+
+            <div class="language-section">
+                <h3 class="language-title">
+                </h3>
+                <p class="message-text">
+		This is the historical version of our journals portal. <br> All articles remain available in <strong>open access</strong> for consultation and download.  
+                </p>
+                <div class="contact-highlight">
+                    <p class="contact-text">
+			Please note: Registration and new submissions are no longer possible on this site.<br>             For manuscript submissions and editorial processes, please use our <strong>new portal</strong>.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+       
+        <div class="popup-footer">
+            <div class="popup-buttons">
+                <a href="https://revistas.ucr.ac.cr" class="btn-new-site" target="_blank" rel="noopener noreferrer">
+                    🌐  New portal
+                </a> <br> <br> <br>
+                <button class="btn-understand" onclick="closeReadonlyPopup()">
+                    Entendido / Understood
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function closeReadonlyPopup() {
+    const popup = document.getElementById('readonlyPopup');
+    popup.style.animation = 'fadeOut 0.3s ease-out forwards';
+    setTimeout(() => {
+        popup.style.display = 'none';
+        sessionStorage.setItem('ojsReadonlyPopupShown', 'true');
+    }, 300);
+}
+
+function showReadonlyPopup() {
+    const popup = document.getElementById('readonlyPopup');
+    popup.style.display = 'flex';
+}
+
+// Verificar si mostrar popup
+document.addEventListener('DOMContentLoaded', function() {
+    const alreadyShown = sessionStorage.getItem('ojsReadonlyPopupShown');
+    if (!alreadyShown) {
+        setTimeout(showReadonlyPopup, 1500);
+    }
+});
+
+// Cerrar con Escape o click fuera
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeReadonlyPopup();
+    }
+});
+
+document.addEventListener('click', function(event) {
+    const popup = document.getElementById('readonlyPopup');
+    if (event.target === popup) {
+        closeReadonlyPopup();
+    }
+});
+
+// Animación fade out
+const fadeOutStyle = document.createElement('style');
+fadeOutStyle.textContent = `
+    @keyframes fadeOut {
+        from { opacity: 1; }
+        to { opacity: 0; }
+    }
+`;
+document.head.appendChild(fadeOutStyle);
+</script>
+
+</body>
+</html>

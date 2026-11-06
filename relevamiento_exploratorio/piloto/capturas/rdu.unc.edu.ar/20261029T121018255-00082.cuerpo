@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T12:13:07Z</responseDate><request verb="GetRecord" identifier="oai:rdu.unc.edu.ar:11086/18965" metadataPrefix="mets">https://rdu.unc.edu.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:rdu.unc.edu.ar:11086/18965</identifier><datestamp>2024-07-02T11:45:16Z</datestamp><setSpec>com_11086_2571</setSpec><setSpec>col_11086_551887</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11086-18965" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11086/18965">
+   <metsHdr CREATEDATE="2026-10-29T12:13:07Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace 7</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11086_18965">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2021-07-09T22:45:36Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2021-07-09T22:45:36Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2013</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/11086/18965</mods:identifier>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Attribution-NonCommercial-ShareAlike 4.0 International</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Burbujas.</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Interferometría.</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Nube mayor de Magallanes.</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Estructura de las Burbujas en la región Sureste de la Nube Mayor de Magallanes</mods:title>
+               </mods:titleInfo>
+               <mods:genre>conferenceObject</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_11086_18965">
+      <rightsMD ID="RIG_11086_18965">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TGljZW5jaWEgZGUgRGlzdHJpYnVjacOzbiBObyBFeGNsdXNpdmEKClBhcmEgcXVlIGVsIFJlcG9zaXRvcmlvIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIHB1ZWRhIHJlcHJvZHVjaXIgeQpjb211bmljYXIgcMO6YmxpY2FtZW50ZSBzdSBkb2N1bWVudG8gZXMgbmVjZXNhcmlvIGxhIGFjZXB0YWNpw7NuIGRlIGxvcyBzaWd1aWVudGVzCnTDqXJtaW5vcy4gUG9yIGZhdm9yLCBsZWEgbGFzIHNpZ3VpZW50ZXMgY29uZGljaW9uZXMgZGUgbGljZW5jaWE6CgoxLiBBY2VwdGFuZG8gZXN0YSBsaWNlbmNpYSwgdXN0ZWQgKGVsIGF1dG9yL2VzIG8gZWwgcHJvcGlldGFyaW8vcyBkZSBsb3MgZGVyZWNob3MgZGUgYXV0b3IpCmdhcmFudGl6YSBhIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIGVsIGRlcmVjaG8gbm8gZXhjbHVzaXZvIGRlCmFyY2hpdmFyLCByZXByb2R1Y2lyLCBjb252ZXJ0aXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pLCBjb211bmljYXIgeS9vIGRpc3RyaWJ1aXIgc3UKZG9jdW1lbnRvIG11bmRpYWxtZW50ZSBlbiBmb3JtYXRvIGVsZWN0csOzbmljby4KCjIuIFRhbWJpw6luIGVzdMOhIGRlIGFjdWVyZG8gY29uIHF1ZSBsYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBwdWVkYQpjb25zZXJ2YXIgbcOhcyBkZSB1bmEgY29waWEgZGUgZXN0ZSBkb2N1bWVudG8geSwgc2luIGFsdGVyYXIgc3UgY29udGVuaWRvLCBjb252ZXJ0aXJsbwphIGN1YWxxdWllciBmb3JtYXRvIGRlIGZpY2hlcm8sIG1lZGlvIG8gc29wb3J0ZSwgcGFyYSBwcm9ww7NzaXRvcyBkZSBzZWd1cmlkYWQsCnByZXNlcnZhY2nDs24geSBhY2Nlc28uCgozLiBEZWNsYXJhIHF1ZSBlbCBkb2N1bWVudG8gZXMgdW4gdHJhYmFqbyBvcmlnaW5hbCBzdXlvIHkvbyBxdWUgdGllbmUgZWwgZGVyZWNobyBwYXJhCm90b3JnYXIgbG9zIGRlcmVjaG9zIGNvbnRlbmlkb3MgZW4gZXN0YSBsaWNlbmNpYS4gVGFtYmnDqW4gZGVjbGFyYSBxdWUgc3UgZG9jdW1lbnRvCm5vIGluZnJpbmdlLCBlbiB0YW50byBlbiBjdWFudG8gbGUgc2VhIHBvc2libGUgc2FiZXIsIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBuaW5ndW5hCm90cmEgcGVyc29uYSBvIGVudGlkYWQuCgo0LiBTaSBlbCBkb2N1bWVudG8gY29udGllbmUgbWF0ZXJpYWxlcyBkZSBsb3MgY3VhbGVzIG5vIHRpZW5lIGxvcyBkZXJlY2hvcyBkZSBhdXRvciwKZGVjbGFyYSBxdWUgaGEgb2J0ZW5pZG8gZWwgcGVybWlzbyBzaW4gcmVzdHJpY2Npw7NuIGRlbCBwcm9waWV0YXJpbyBkZSBsb3MgZGVyZWNob3MgZGUKYXV0b3IgcGFyYSBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MKcG9yIGVzdGEgbGljZW5jaWEsIHkgcXVlIGVzZSBtYXRlcmlhbCBjdXlvcyBkZXJlY2hvcyBzb24gZGUgdGVyY2Vyb3MgZXN0w6EgY2xhcmFtZW50ZQppZGVudGlmaWNhZG8geSByZWNvbm9jaWRvIGVuIGVsIHRleHRvIG8gY29udGVuaWRvIGRlbCBkb2N1bWVudG8gZW50cmVnYWRvLgoKNS4gU2kgZWwgZG9jdW1lbnRvIHNlIGJhc2EgZW4gdW5hIG9icmEgcXVlIGhhIHNpZG8gcGF0cm9jaW5hZGEgbyBhcG95YWRhIHBvciB1bmEKYWdlbmNpYSB1IG9yZ2FuaXphY2nDs24gZGlmZXJlbnRlIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhLCBzZQpwcmVzdXBvbmUgcXVlIHNlIGhhIGN1bXBsaWRvIGNvbiBjdWFscXVpZXIgZGVyZWNobyBkZSByZXZpc2nDs24gdSBvdHJhcyBvYmxpZ2FjaW9uZXMKcmVxdWVyaWRhcyBwb3IgZXN0ZSBjb250cmF0byBvIGFjdWVyZG8uCgo2LiBMYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBpZGVudGlmaWNhcsOhIGNsYXJhbWVudGUgc3UvcyBub21icmUvcyBjb21vCmVsL2xvcyBhdXRvci9lcyBvIHByb3BpZXRhcmlvL3MgZGUgbG9zIGRlcmVjaG9zIGRlbCBkb2N1bWVudG8sIHkgbm8gaGFyw6EgbmluZ3VuYQphbHRlcmFjacOzbiBkZSBzdSBkb2N1bWVudG8gZGlmZXJlbnRlIGEgbGFzIHBlcm1pdGlkYXMgZW4gZXN0YSBsaWNlbmNpYS4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_11086_18965_1">
+      <techMD ID="TECH_O_11086_18965_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/4166b297-a5e5-4334-866d-3f01b1c9c4da/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>4863d09b9ef80a52cff6b47af3062b66</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>279884</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Oddone-charla.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_11086_18965_3">
+      <techMD ID="TECH_T_11086_18965_3">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/ff79f775-ca94-4606-9dd9-f478d0d7ff70/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>22824af7f7375e67bb69bd7ac48be573</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>7057</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Oddone-charla.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_11086_18965_1" MIMETYPE="application/pdf" SEQ="1" SIZE="279884" CHECKSUM="4863d09b9ef80a52cff6b47af3062b66" CHECKSUMTYPE="MD5" ADMID="FO_11086_18965_1" GROUPID="GROUP_BITSTREAM_11086_18965_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/4166b297-a5e5-4334-866d-3f01b1c9c4da/download"/>
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_11086_18965_3" MIMETYPE="text/plain" SEQ="3" SIZE="7057" CHECKSUM="22824af7f7375e67bb69bd7ac48be573" CHECKSUMTYPE="MD5" ADMID="FT_11086_18965_3" GROUPID="GROUP_BITSTREAM_11086_18965_3">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/ff79f775-ca94-4606-9dd9-f478d0d7ff70/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11086_18965">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_18965_1"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record></GetRecord></OAI-PMH>

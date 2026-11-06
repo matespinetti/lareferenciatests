@@ -1,0 +1,396 @@
+{
+  "id" : "00092240-5462-4530-b9c9-fa2b61b82e33",
+  "uuid" : "00092240-5462-4530-b9c9-fa2b61b82e33",
+  "name" : "Escenarios de explotación sexual comercial de niños, niñas y adolescentes, modalidad abierta, Medellín, 2012",
+  "handle" : "10495/4345",
+  "metadata" : {
+    "dc.contributor.author" : [ {
+      "value" : "Muñoz Echeverri, Iván Felipe",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Noreña Herrera, Camilo",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Rodríguez Garzón, Sergio Andrés",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Ossa Estrada, Diego Alejandro",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Bastidas Lopera, Diego León",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    } ],
+    "dc.contributor.researchgroup" : [ {
+      "value" : "Salud Mental",
+      "language" : null,
+      "authority" : "virtual::1852",
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Gestión y Políticas de Salud",
+      "language" : null,
+      "authority" : "virtual::14703",
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2016-09-08T15:39:53Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2016-09-08T15:39:53Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2016",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "ABSTRACT: Commercial sexual exploitation of children and adolescents\r\n(cseca) is a severe violation of the rights of children and\r\nadolescents. In Medellin, data on the quantity and locations\r\nwhere this issue takes place is scarce, and it could be useful\r\nfor implementing strategies for preventing and addressing this\r\nissue. Objective: To describe the magnitude of street-based\r\ncseca along with the places, days, hours and characteristics of\r\nthe scenarios in which it takes place in Medellín. Methodology:\r\nA descriptive study in which geographical information systems\r\nwhere used to draw thematic maps. The study had three stages:\r\npre-mapping, mapping and validation. In addition, qualitative\r\ntechniques were used. Results: Of the 634 areas visited, 18.9%\r\nhad reported cases of cseca. The phenomenon was found to\r\nbe concentrated in 11 cluster areas exhibiting the following\r\ncontext factors that favor cseca: problems with street lighting,\r\ninsufficient presence of the State and the local police, drug\r\ntrafficking, existence of bars, hotels and massage parlors in the\r\narea, social permissiveness, easy access to drugs and lodging.\r\nConclusion: georeferencing these areas and identifying the\r\ncontextual factors behind this situation is very important if this\r\nproblem, which violates the rights of children and adolescents,\r\nis to be controlled and eradicated.",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "RESUMEN: La explotación sexual de niños, niñas y adolescentes\r\n(escnna) es una grave violación los derechos de niños, niñas\r\ny adolescentes. En Medellín, existe poca información sobre\r\ncuantificación y sectores de ocurrencia del problema, que\r\npermita la ejecución de estrategias para su prevención y\r\natención. Objetivo: describir magnitud y ubicación, días y\r\nhorarios de ocurrencia de la escnna, modalidad abierta, en\r\nMedellín y las características de los escenarios donde ocurre.\r\nMetodología: Estudio descriptivo, con uso de sistemas de\r\ninformación geográfica y realización de mapas temáticos.\r\nSe realizó en tres fases: pre-mapeo, mapeo y validación. Se\r\nacudió también a técnicas cualitativas. Resultados: de los 634\r\ntramos visitados, hubo reporte de escnna en 18,9%. Se observó\r\nagrupación del fenómeno en 11 lugares de concentración. En\r\néstos lugares confluyen factores contextuales que favorecen la\r\nescnna: fallas del alumbrado público; poca presencia estatal\r\ny de la policía; microtráfico de drogas; cercanía a bares,\r\nhoteles y casas de masajes; permisividad social; acceso a\r\ndrogas y hospedaje. Conclusión: La georreferenciación de\r\nestos sectores y el reconocimiento de los factores contextuales\r\nque promueven la problemática resultan de gran importancia\r\npara contribuir al control y erradicación de esta situación que\r\nvulnera la dignidad de niños, niñas y adolescentes de la ciudad.",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.description.researchgroupid" : [ {
+      "value" : "COL0007014",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.format.extent" : [ {
+      "value" : "10",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.format.mimetype" : [ {
+      "value" : "application/pdf",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.citation" : [ {
+      "value" : "Muñoz-Echeverri IF, Noreña-Herrera C, Rodríguez-Garzón SA, Ossa-Estrada DA, Bastidas-Lopera DL. Escenarios de explotación sexual comercial de niños, niñas y adolescentes, modalidad abierta, Medellín, 2012. Rev. Fac. Nac. Salud Pública 34(1): 9-19. DOI: 10.17533/udea.rfnsp.v34n1a02.",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.doi" : [ {
+      "value" : "10.17533/udea.rfnsp.v34n1a02",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.eissn" : [ {
+      "value" : "2256-3334",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.issn" : [ {
+      "value" : "0120-386X",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "https://hdl.handle.net/10495/4345",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "spa",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.publisher" : [ {
+      "value" : "Universidad de Antioquia, Facultad Nacional de Salud Pública",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.publisher.place" : [ {
+      "value" : "Medellín, Colombia",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.citationendpage" : [ {
+      "value" : "382",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.citationissue" : [ {
+      "value" : "1",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.citationstartpage" : [ {
+      "value" : "373",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.citationvolume" : [ {
+      "value" : "34",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.ispartofjournal" : [ {
+      "value" : "Revista Facultad Nacional de Salud Pública",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.ispartofjournalabbrev" : [ {
+      "value" : "Rev. Fac. Nac. Salud Pública",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.accessrights" : [ {
+      "value" : "Atribución-NoComercial-CompartirIgual 2.5 Colombia (CC BY-NC-SA 2.5 CO)",
+      "language" : "*",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "info:eu-repo/semantics/openAccess",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.rights.coar" : [ {
+      "value" : "http://purl.org/coar/access_right/c_abf2",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.uri" : [ {
+      "value" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "https://creativecommons.org/licenses/by-nc-sa/2.5/co/",
+      "language" : "*",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.subject" : [ {
+      "value" : "Niño",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Adolescente",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Prostitución",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Explotación sexual comercial",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Violencia sexual",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "Mapeo geográfico",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 5
+    } ],
+    "dc.title" : [ {
+      "value" : "Escenarios de explotación sexual comercial de niños, niñas y adolescentes, modalidad abierta, Medellín, 2012",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title.translated" : [ {
+      "value" : "Scenarios of street-based commercial sexual exploitation of children and adolescents, Medellín, 2012",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Artículo de investigación",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.coar" : [ {
+      "value" : "http://purl.org/coar/resource_type/c_2df8fbb1",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.coarversion" : [ {
+      "value" : "http://purl.org/coar/version/c_970fb48d4fbd8a85",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.driver" : [ {
+      "value" : "info:eu-repo/semantics/article",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.redcol" : [ {
+      "value" : "https://purl.org/redcol/resource_type/ART",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.version" : [ {
+      "value" : "info:eu-repo/semantics/publishedVersion",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dspace.entity.type" : [ {
+      "value" : "Publication",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "relation.isOrgUnitOfPublication" : [ {
+      "value" : "9c23e890-8647-4faa-8ed9-021c0a49a413",
+      "language" : null,
+      "authority" : "virtual::1852",
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "4cce46b2-a3c8-44bf-81de-a666e9a9a9e0",
+      "language" : null,
+      "authority" : "virtual::14703",
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "relation.isOrgUnitOfPublication.latestForDiscovery" : [ {
+      "value" : "9c23e890-8647-4faa-8ed9-021c0a49a413",
+      "language" : null,
+      "authority" : "virtual::1852",
+      "confidence" : -1,
+      "place" : -1
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-06-25T19:23:39.429+00:00",
+  "entityType" : "Publication",
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/00092240-5462-4530-b9c9-fa2b61b82e33/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/00092240-5462-4530-b9c9-fa2b61b82e33/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/00092240-5462-4530-b9c9-fa2b61b82e33/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/00092240-5462-4530-b9c9-fa2b61b82e33/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/00092240-5462-4530-b9c9-fa2b61b82e33/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/00092240-5462-4530-b9c9-fa2b61b82e33/relationships"
+    },
+    "version" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/00092240-5462-4530-b9c9-fa2b61b82e33/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/00092240-5462-4530-b9c9-fa2b61b82e33/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/00092240-5462-4530-b9c9-fa2b61b82e33/thumbnail"
+    },
+    "self" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/00092240-5462-4530-b9c9-fa2b61b82e33"
+    }
+  }
+}

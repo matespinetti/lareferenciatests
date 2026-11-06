@@ -1,0 +1,93 @@
+{
+ "pedido": "20261029T164359880-00391",
+ "url": "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.24.0 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:55:09 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "es"
+  ],
+  [
+   "last-modified",
+   "Sat, 19 Sep 2026 13:06:36 GMT"
+  ],
+  [
+   "etag",
+   "\"d32c9b96f8dd439a06afab0a43e8bbf4\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:55:09 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"C3231-EO-MP-006. Moya, W. Solorzano, J., Viquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf\"; filename*=UTF-8''C3231-EO-MP-006.%20Moya%2C%20W.%20Sol%C3%B3rzano%2C%20J.%2C%20V%C3%ADquez%2C%20N.%2C%20Paniagua%2C%20J.%2C%20%282026%29.%20Optimizing%20raw%20material%20purchases.pdf"
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/380794"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

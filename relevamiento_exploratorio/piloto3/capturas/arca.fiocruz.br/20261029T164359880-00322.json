@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00322",
+ "url": "https://arca.fiocruz.br/bitstreams/ba11d865-900d-4222-afe9-3f65731b9785/download",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:53:05 GMT"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "374676"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793292805"
+  ],
+  [
+   "link",
+   ""
+  ],
+  [
+   "etag",
+   "W/\"5b794-K2NCKn05J8+CTpoetjqMgTdzxt4\""
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubdomains"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "archivo"
+}

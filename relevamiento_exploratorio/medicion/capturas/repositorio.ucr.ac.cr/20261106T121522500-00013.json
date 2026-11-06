@@ -1,0 +1,29 @@
+{
+ "pedido": "20261106T121522500-00013",
+ "url": "https://repositorio.ucr.ac.cr/robots.txt",
+ "codigo": 502,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.24.0 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:15:24 GMT"
+  ],
+  [
+   "content-type",
+   "text/html"
+  ],
+  [
+   "content-length",
+   "166"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

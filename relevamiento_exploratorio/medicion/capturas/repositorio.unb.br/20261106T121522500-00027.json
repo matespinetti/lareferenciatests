@@ -1,0 +1,29 @@
+{
+ "pedido": "20261106T121522500-00027",
+ "url": "https://repositorio.unb.br/bitstream/10482/43728/1/2022_J%c3%b4natasCunhaBarbosaLima.pdf",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "last-modified",
+   "Wed, 05 Nov 2025 20:29:38 GMT"
+  ],
+  [
+   "content-disposition",
+   "attachment;filename=\"2022_JônatasCunhaBarbosaLima.pdf\""
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ],
+  [
+   "content-length",
+   "10177501"
+  ],
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:16:03 GMT"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "medicion"
+}

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:52:22Z</responseDate><request verb="GetRecord" identifier="oai:rephip.unr.edu.ar:2133/31409" metadataPrefix="xoai">https://rephip.unr.edu.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:rephip.unr.edu.ar:2133/31409</identifier><datestamp>2025-11-11T18:00:16Z</datestamp><setSpec>com_2133_1215</setSpec><setSpec>com_2133_94</setSpec><setSpec>col_2133_16596</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="advisor">
+            <element name="none">
+               <field name="value">Faccendini, Jorge</field>
+            </element>
+         </element>
+      </element>
+      <element name="creator">
+         <element name="none">
+            <field name="value">Capano, Sebastián</field>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2025-11-11T17:32:07Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2025-11-11T17:32:07Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2018</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/2133/31409</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="none">
+               <field name="value">El presente ensayo tiene por fin establecer ciertas dimensiones para pensar el lugar y
+trabajo del psicólogo en un Hospital de Emergencias desde las coordenadas de la clínica 
+psicoanalítica. Para esto, se problematizará una serie de fundamentos nodales para pensar 
+la práctica, con el fin de articularlos en el quehacer del profesional en dicho ámbito. 
+Considero que es imposible separar el trabajo clínico del marco institucional en el que se 
+lleva a cabo, razón por la cual se mencionarán las limitaciones y posibilidades particulares 
+del encuadre de trabajo en una institución de este tipo.
+Finalmente, se presentará una viñeta clínica en un intento de articulación teórico práctica, entendiendo a la lectura clínica como un retrabajo y una teorización sobre la 
+práctica y sus efectos.</field>
+            </element>
+         </element>
+         <element name="fil">
+            <element name="none">
+               <field name="value">Facultad de Psicología</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">es</field>
+            </element>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">openAccess</field>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="none">
+            <field name="value">Psicoanálisis – Hospital - Síntoma – Transferencia – Demanda</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="none">
+            <field name="value">ABORDAJE PSICOANALÍTICO EN EL SERVICIO DE SALUD MENTAL DEL HOPITAL DE EMERGENCIAS CLEMENTE ÁLVAREZ</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">tesis</field>
+         </element>
+         <element name="collection">
+            <element name="none">
+               <field name="value">tesis</field>
+            </element>
+         </element>
+         <element name="other">
+            <element name="none">
+               <field name="value">tesis de grado</field>
+            </element>
+         </element>
+         <element name="version">
+            <element name="none">
+               <field name="value">publishedVersion</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">tiffffff.pdf</field>
+               <field name="originalName">tiffffff.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">407926</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/5a187c24-1f08-4a08-a8dc-1a2636d9274b/download</field>
+               <field name="checksum">2b2469a6afa8f0ef0c8ab24c804bcab9</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">Written by org.dspace.content.LicenseUtils</field>
+               <field name="format">text/plain</field>
+               <field name="size">3960</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/5fdca178-d31b-430f-acba-2ee39953dd62/download</field>
+               <field name="checksum">621fd5e7599bd73fa864a4656ff7b1eb</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">tiffffff.pdf.txt</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2025-11-11T18:00:15Z (GMT).</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">58093</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/a37237ec-58c5-43de-977d-73d8f37fa76c/download</field>
+               <field name="checksum">c48d72bceb827c2f7d2afee07f7eb8d6</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">tiffffff.pdf.jpg</field>
+               <field name="originalName">Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2025-11-11T18:00:16Z (GMT).</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">3675</field>
+               <field name="url">https://rephip.unr.edu.ar/bitstreams/69091f8f-78a6-4d47-819b-bf0899d276e1/download</field>
+               <field name="checksum">14518d54760b079de92bef82c10b2f0e</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">2133/31409</field>
+      <field name="identifier">oai:rephip.unr.edu.ar:2133/31409</field>
+      <field name="lastModifyDate">2025-11-11T18:00:16.148Z</field>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://rephip.unr.edu.ar</field>
+      <field name="name">Repositorio Hipermedial UNR</field>
+      <field name="mail">rephip@unr.edu.ar</field>
+   </element>
+   <element name="license">
+      <field name="bin">PHA+UGFyYSBwZXJtaXRpciBhbCBSZXBIaXAgcmVwcm9kdWNpciwgdHJhZHVjaXIgeSBkaXN0cmlidWlyIHN1IGVudsOtbyBhIHRyYXbDqXMgZGVsIG11bmRvLCBuZWNlc2l0YW1vcyBzdSBjb25mb3JtaWRhZCBlbiBsb3Mgc2lndWllbnRlcyB0w6lybWlub3MuPC9wPjxwPkNvbmNlZGEgbGEgbGljZW5jaWEgZGUgZGlzdHJpYnVjacOzbiBlc3TDoW5kYXIgc2VsZWNjaW9uYW5kbyAnQ29uZmlybW8gbGEgbGljZW5jaWEnLjwvcD48aDQ+TGljZW5jaWEgUmVwSGlwVU5SIDwvaDQ+PHA+RWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIGVzIGVsIHJlcG9zaXRvcmlvIGluc3RpdHVjaW9uYWwgZGUgYWNjZXNvIGFiaWVydG8gZGUgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgUm9zYXJpbyBjcmVhZG8gcGFyYSBhcmNoaXZhciwgcHJlc2VydmFyIHkgZGlzdHJpYnVpciBkaWdpdGFsbWVudGUgbGEgY3JlYWNpw7NuIGludGVsZWN0dWFsIGRlIGVzdGEgdW5pdmVyc2lkYWQgZW4gYWNjZXNvIGxpYnJlIHkgZ3JhdHVpdG8geSByZXNndWFyZGFyIGEgc3UgdmV6IGxvcyBkZXJlY2hvcyBkZSBsb3MgYXV0b3Jlcy48L3A+PHA+UGFyYSBxdWUgZWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIChodHRwOi8vcmVwaGlwLnVuci5lZHUuYXIvKSBwdWVkYSBhbG1hY2VuYXIgeSBkaWZ1bmRpciBlbCBvYmpldG8gZGlnaXRhbCBkZXBvc2l0YWRvIChsYSBvYnJhKSwgZXMgbmVjZXNhcmlvIHF1ZSBsYSBwZXJzb25hIHF1ZSByZWFsaWNlIGVsIGRlcMOzc2l0byBsZWEgeSBhY2VwdGUgbGFzIGNvbmRpY2lvbmVzIGVzdGFibGVjaWRhcyBlbiBlc3RhIGxpY2VuY2lhOjwvcD48cD5MYS9FbCB0aXR1bGFyL2VzIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBsYSBvYnJhIGRlcG9zaXRhZGEgbyBsYSBwZXJzb25hIGRlbGVnYWRhIHBhcmEgaGFjZXJsbzo8L3A+PHA+R2FyYW50aXphIGEgbGEgVU5JVkVSU0lEQUQgZWwgZGVyZWNobyBubyBleGNsdXNpdm8gYSBhbG1hY2VuYXIgZW4gc2Vydmlkb3JlcywgcmVwcm9kdWNpciwgdHJhbnNmb3JtYXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pIHkgYSByZWFsaXphciBsYSBjb211bmljYWNpw7NuIHDDumJsaWNhIGRlIExBIE9CUkEgZGUgZm9ybWEgbGlicmUgeSBncmF0dWl0YSBhIHRvZG8gcMO6YmxpY28gZW4gZm9ybWF0byBkaWdpdGFsIGVuIGVsIHNpdGlvIHdlYiBkZWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIChodHRwOi8vcmVwaGlwLnVuci5lZHUuYXIvKS4gQWNlcHRhIHF1ZSBsYSBVTklWRVJTSURBRCBwdWVkZSwgc2luIGNhbWJpYXIgZWwgY29udGVuaWRvLCBjb252ZXJ0aXIgTEEgT0JSQSBhIGN1YWxxdWllciBvdHJvIGZvcm1hdG8gbyBtZWRpbyBjb24gZWwgcHJvcMOzc2l0byBkZSBwcmVzZXJ2YWNpw7NuIHkgcGFyYSBzdSBjb3JyZWN0YSB2aXN1YWxpemFjacOzbiBlbiBsYSB3ZWIuIEFjZXB0YSBxdWUgbGEgVU5JVkVSU0lEQUQgcHVlZGEgZ3VhcmRhciBtw6FzIGRlIHVuYSBjb3BpYSBkZSBMQSBPQlJBIGRlcG9zaXRhZGEgY29uIHByb3DDs3NpdG9zIGRlIHNlZ3VyaWRhZCwgY29waWFzIGRlIHJlZW1wbGF6byB5IHByZXNlcnZhY2nDs24uIFNpIGVsIG1hdGVyaWFsIGVudmlhZG8gY29udGllbmUgcGFydGVzIGRlIGxhcyBjdWFsZXMgRUwgQVVUT1Igbm8gZXMgZWwgdGl0dWxhciBkZSBsb3MgZGVyZWNob3MgZGUgcHJvcGllZGFkIGludGVsZWN0dWFsLCBlc3RlIG1hbmlmaWVzdGEgcXVlIGhhIG9idGVuaWRvIHBlcm1pc28gaXJyZXN0cmljdG8gZGVsIHRpdHVsYXIvZXMgZGUgZXN0b3MgZGVyZWNob3MgcGFyYSBvdG9yZ2FyIGEgbGEgVU5JVkVSU0lEQUQgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MgcG9yIGVzdGUgYWN1ZXJkbywgeSBxdWUgZXN0YSB0ZXJjZXJhIHBhcnRlIGVzIGNsYXJhbWVudGUgaWRlbnRpZmljYWJsZSBlbiBlbCB0ZXh0byBvIGNvbnRlbmlkbyBkZSBMQSBPQlJBIGRlcG9zaXRhZGEuIERlY2xhcmEgcXVlIGFsIGFjZXB0YXIgZWwgcHJlc2VudGUgYWN1ZXJkbyBubyBpbmZyaW5nZSBuaW5nw7puIGRlcmVjaG8gZGUgdGVyY2Vyb3MsIHNlYSBkZSBwcm9waWVkYWQgaW5kdXN0cmlhbCwgaW50ZWxlY3R1YWwsIHNlY3JldG8gY29tZXJjaWFsIG8gY3VhbHF1aWVyIG90cm8gZGVyZWNobyBzdXNjZXB0aWJsZSBkZSBwcm90ZWNjacOzbiBqdXLDrWRpY2EuIEFjZXB0YSBxdWUgbGFzIGdlc3Rpb25lcyBwYXJhIGxhIGV2ZW50dWFsIGluc2NyaXBjacOzbiBkZSBMQSBPQlJBIGFudGUgZWwgUmVnaXN0cm8gZGUgRGVyZWNob3MgZGUgQXV0b3Igc29uIGRlIHN1IGV4Y2x1c2l2YSByZXNwb25zYWJpbGlkYWQuIEVuIGNhc28gZGUgcXVlIExBIE9CUkEgZGVwb3NpdGFkYSBzZSBiYXNlIGVuIHVuIHRyYWJham8gcXVlIGZ1ZSBwYXRyb2NpbmFkbyBvIHBhZ2FkbyBwb3IgYWxndW5hIGFnZW5jaWEgdSBvcmdhbml6YWNpw7NuIGRpc3RpbnRhIGEgbGEgVU5JVkVSU0lEQUQsIG1hbmlmaWVzdGEgcXVlIGhhIGN1bXBsaWRvIGNvbiB0b2RhcyBsYXMgb2JsaWdhY2lvbmVzIHBvciBjb250cmF0byBvIGFjdWVyZG8gY29uIGVzdGEvcyBvcmdhbml6YWNpw7NuL2VzIG8gYWdlbmNpYS9zLiBEZWNsYXJhIHF1ZSBsYSBVTklWRVJTSURBRCBzZSBlbmN1ZW50cmEgbGlicmUgZGUgdG9kbyB0aXBvIGRlIHJlc3BvbnNhYmlsaWRhZCwgc2VhIGNpdmlsLCBhZG1pbmlzdHJhdGl2YSBvIHBlbmFsIHkgcXVlIGFzdW1lIHRvZGEgcmVzcG9uc2FiaWxpZGFkIGZyZW50ZSBhIGN1YWxxdWllciByZWNsYW1vIG8gZGVtYW5kYSBwb3IgcGFydGUgZGUgdGVyY2Vyb3MgZGUgbWFuZXJhIGV4Y2x1c2l2YS48L3A+PHA+RW4gdmlydHVkIGRlbCBjYXLDoWN0ZXIgbm8gZXhjbHVzaXZvIGRlbCBwcmVzZW50ZSBhY3VlcmRvLCBFTCBBVVRPUiBwb2Ryw6EgY29tdW5pY2FyIHkgZGFyIHB1YmxpY2lkYWQgbGlicmVtZW50ZSBhIExBIE9CUkEsIGVuIGN1YWxxdWllciB2ZXJzacOzbiB5IHBvciB0b2RvcyBsb3MgbWVkaW9zIHF1ZSBjb25zaWRlcmUgb3BvcnR1bm9zLiBBc2ltaXNtbyBlbCB0aXR1bGFyIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBwb2Ryw6Egc29saWNpdGFyIHVuIHJldHJhc28gdGVtcG9yYWwgKHBlcmlvZG8gZGUgZW1iYXJnbykgZGUgbGEgcHVlc3RhIGEgZGlzcG9zaWNpw7NuIHDDumJsaWNhIGRlIExBIE9CUkEuPC9wPjxwPkVsIEFVVE9SIHBvZHLDoSBzb2xpY2l0YXIgZWwgcmV0aXJvIGRlIExBIE9CUkEgZGVsIFJlcG9zaXRvcmlvIEhpcGVybWVkaWFsIFVOUiBzb2xhbWVudGUgcG9yIGNhdXNhcyBkZWJpZGFtZW50ZSBqdXN0aWZpY2FkYXMgeSBhY3JlZGl0YWRhcy48L3A+PHA+RW4gZnVuY2nDs24gZGUgbGFzIGNvbmRpY2lvbmVzIGVsZWdpZGFzIHBvciBFTCBBVVRPUiwgZWwgUmVwb3NpdG9yaW8gSGlwZXJtZWRpYWwgVU5SIHNlbGVjY2lvbmFyw6EgdW5hIGxpY2VuY2lhIENyZWF0aXZlIENvbW1vbnMgY29tcGF0aWJsZSBxdWUgc2UgaW5jbHVpcsOhIHkgYXBsaWNhcsOhIGEgbGEgb2JyYS4gTGEgVU5JVkVSU0lEQUQgbm8gYXN1bWlyw6EgcmVzcG9uc2FiaWxpZGFkIGFsZ3VuYSBwb3Igb3Ryb3MgdXNvcyBubyBhdXRvcml6YWRvcyBkZSBMQSBPQlJBIG8gY29udHJhcmlvcyBhIGxhIGxlZ2lzbGFjacOzbiB2aWdlbnRlLjwvcD48cD5FbCBub21icmUgZGVsIEFVVE9SIHF1ZWRhcsOhIGNsYXJhbWVudGUgaWRlbnRpZmljYWRvIGVuIGVsIFJlcG9zaXRvcmlvIEhpcGVybWVkaWFsIFVOUiBjb21vIHJlc3BvbnNhYmxlIGRlbC9vcyBvYmpldG8vcyBkaWdpdGFsL2VzIGRlcG9zaXRhZG8vcywgeSBubyBzZSByZWFsaXphcsOhIG5pbmd1bmEgYWx0ZXJhY2nDs24sIHNhbHZvIGxhcyBwZXJtaXRpZGFzIHBvciBlc3RlIGFjdWVyZG8uPC9wPjxwPlNpIHRpZW5lIGFsZ3VuYSBkdWRhIHNvYnJlIGxhIGxpY2VuY2lhLCBwb3IgZmF2b3IsIGNvbnRhY3RlIGNvbiBlbCBhZG1pbmlzdHJhZG9yIGRlbCBzaXN0ZW1hLjwvcD4K</field>
+   </element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

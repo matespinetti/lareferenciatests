@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:54:17Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.unesp.br:11449/129387" metadataPrefix="mets">https://repositorio.unesp.br/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.unesp.br:11449/129387</identifier><datestamp>2026-07-20T14:22:11Z</datestamp><setSpec>com_11449_253719</setSpec><setSpec>com_11449_1</setSpec><setSpec>col_11449_253730</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11449-129387" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11449/129387">
+   <metsHdr CREATEDATE="2026-10-29T16:54:17Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositório Institucional Unesp</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11449_129387">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Calixto, Giovana [UNESP]</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Yoshii, Ana Carolina [UNESP]</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Rocha e Silva, Hilris [UNESP]</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Ferreira Cury, Beatriz Stringhetti [UNESP]</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Chorilli, Marlus [UNESP]</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">institution</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Universidade Estadual Paulista (Unesp)</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2015-10-21T20:59:12Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2015-10-21T20:59:12Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2015-06-01</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="none"/>
+               <mods:identifier type="citation">Pharmaceutical Development And Technology, v. 20, n. 4, p. 490-496, 2015.</mods:identifier>
+               <mods:identifier type="issn">1083-74501097-9867</mods:identifier>
+               <mods:identifier type="uri">http://hdl.handle.net/11449/129387</mods:identifier>
+               <mods:identifier type="doi">10.3109/10837450.2014.882941</mods:identifier>
+               <mods:identifier type="wos">WOS:000354609900012</mods:identifier>
+               <mods:identifier type="lattes">14271259967162821427125996716282</mods:identifier>
+               <mods:identifier type="orcid">0000-0002-5167-28220000-0002-6698-05450000-0003-3020-92380000-0003-1041-5835</mods:identifier>
+               <mods:identifier type="dimensions">pub.1045534850</mods:identifier>
+               <mods:identifier type="pmid">25975700</mods:identifier>
+               <mods:abstract>Context: Bioadhesiviness of polyacrylic acid polymers make them promising hydrogels to design topical drug delivery systems, allowing a close contact with biological substrate as well as an enhanced local concentration gradient, both factors that may improve the biological performance of the drugs.Aim: Texture and bioadhesive properties of hydrogels were assessed by using texture analyzer and they were correlated with their rheological behavior and performance as drug delivery systems.Methods: Aqueous dispersions of both polymers were prepared at 0.5%, 1.0% and 1.5% w/v. Hardness, compressibility, adhesiveness, cohesiveness, bioadhesion, continuous flow, oscillatory dynamic test and in vitro drug release were evaluated.Results: Rheological and texture parameters were dependent on polymer concentration and C974P polymer built the strongest structures. Both 1.5% hydrogels presented high bioadhesion values. About 50% of the metronidazole (MTZ) was sustained released from hydrogels within 2 h with an initial burst release at early stage. After, the release rates were decreased and 10% of the MTZ was released in the next 10 h. The drug release process was driven by Fickian diffusion and complex mechanism for PP and C974P hydrogels, respectively.Conclusion: The set of results demonstrated that these hydrogels are promising to be used as topical controlled drug delivery system.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">eng</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction"/>
+               <mods:subject>
+                  <mods:topic>Bioadhesion</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Hydrogel</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Metronidazole</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Polyacrylic acid polymers</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Topical drug delivery system</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Polyacrylic acid polymers hydrogels intended to topical drug delivery: preparation and characterization</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Artigo</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11449_129387"/>
+   </structMap>
+</mets></metadata></record></GetRecord></OAI-PMH>

@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00163",
+ "url": "https://repositorio.ufmg.br/items/0006c63e-8920-4019-be88-9526ed0d9ba9",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:48:55 GMT"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "498"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793292562"
+  ],
+  [
+   "link",
+   "<https://repositorio.ufmg.br//bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/download> ; rel=\"item\" ; type=\"application/pdf\" , <https://repositorio.ufmg.br//signposting/describedby/0006c63e-8920-4019-be88-9526ed0d9ba9> ; rel=\"describedby\" ; type=\"application/vnd.datacite.datacite+xml\" , <https://hdl.handle.net/1843/1964> ; rel=\"cite-as\" , <http://creativecommons.org/licenses/by-nd/4.0/> ; rel=\"license\" , <https://repositorio.ufmg.br//signposting/linksets/0006c63e-8920-4019-be88-9526ed0d9ba9> ; rel=\"linkset\" ; type=\"application/linkset\" , <https://repositorio.ufmg.br//signposting/linksets/0006c63e-8920-4019-be88-9526ed0d9ba9/json> ; rel=\"linkset\" ; type=\"application/linkset+json\" , <https://schema.org/AboutPage> ; rel=\"type\" , <https://schema.org/CreativeWork> ; rel=\"type\""
+  ],
+  [
+   "etag",
+   "W/\"77f93-lyr+OWA7ytJgfP/Bv79ON2G3aB8\""
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=15724800; includeSubDomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es-ES" xml:lang="es-ES">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Experiencia de aprendizaje en vinculación con el medio. Diseño gráfico y proyecto de extensión Orillarte
+							| ADNea
+			</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.3.0.22" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="María B. Pelli"/>
+<meta name="DC.Creator.PersonalName" content="Ana Costilla"/>
+<meta name="DC.Creator.PersonalName" content="Nilda Fleitas"/>
+<meta name="DC.Creator.PersonalName" content="Alberto Alegre"/>
+<meta name="DC.Creator.PersonalName" content="Damián Aquino"/>
+<meta name="DC.Creator.PersonalName" content="Fernando Estévez"/>
+<meta name="DC.Creator.PersonalName" content="María S. González"/>
+<meta name="DC.Creator.PersonalName" content="Jorge Machuca"/>
+<meta name="DC.Creator.PersonalName" content="Mercedes Pallares"/>
+<meta name="DC.Creator.PersonalName" content="Luján Signoris"/>
+<meta name="DC.Creator.PersonalName" content="Cristian Toullieux"/>
+<meta name="DC.Creator.PersonalName" content="Lara Meyer"/>
+<meta name="DC.Creator.PersonalName" content="Luciana Passicot"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2025-12-30"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2025-12-18"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2025-12-30"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2025-12-30"/>
+<meta name="DC.Description" xml:lang="en" content="The Graphic Design Workshop 1, a first-year subject of the Graphic Design degree at UNNE, during the 2023 academic year carried out a knowledge exchange work with the population of the Tres Bocas area of the town of Puerto Vilelas, Chaco province, members of the Orillarte extension project of the Faculty of Economic Sciences of UNNE. The work had the pedagogical objective of introducing students to the concept and construction of graphic systems and notions of graphic identity, from the perspective of situated learning, in connection with real entities in the environment."/>
+<meta name="DC.Description" xml:lang="es" content="El Taller de Diseño Gráfico 1, asignatura del primer año de la carrera de Diseño Gráfico de la UNNE, durante el ciclo lectivo 2023 realizó un trabajo de intercambio de saberes con la población del paraje Tres Bocas de la localidad de Puerto Vilelas, provincia del Chaco, integrantes del proyecto de extensión Orillarte de la Facultad de Ciencias Económicas de la UNNE. El trabajo tuvo como objetivo pedagógico introducir a los estudiantes enel concepto y construcción de sistemas gráficos y nociones de identidad gráfica, desde la perspectiva del&amp;nbsp; aprendizaje situado, en vinculación con entidades reales del medio."/>
+<meta name="DC.Description" xml:lang="pt" content=""/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="9002"/>
+<meta name="DC.Identifier.pageNumber" content="43-51"/>
+<meta name="DC.Identifier.DOI" content="10.30972/adn.139002"/>
+<meta name="DC.Identifier.URI" content="https://revistas.unne.edu.ar/index.php/adn/article/view/9002"/>
+<meta name="DC.Language" scheme="ISO639-1" content="es"/>
+<meta name="DC.Rights" content="Derechos de autor 2025 "/>
+<meta name="DC.Rights" content="https://creativecommons.org/licenses/by-nc/4.0"/>
+<meta name="DC.Source" content="ADNea"/>
+<meta name="DC.Source.ISSN" content="2347-1107"/>
+<meta name="DC.Source.Issue" content="13"/>
+<meta name="DC.Source.URI" content="https://revistas.unne.edu.ar/index.php/adn"/>
+<meta name="DC.Subject" xml:lang="es" content="Aprendizaje situado"/>
+<meta name="DC.Subject" xml:lang="es" content="sistemas gráficos"/>
+<meta name="DC.Subject" xml:lang="es" content="cultura ribereña"/>
+<meta name="DC.Title" content="Experiencia de aprendizaje en vinculación con el medio. Diseño gráfico y proyecto de extensión Orillarte"/>
+<meta name="DC.Title.Alternative" xml:lang="en" content="Experiencia de aprendizaje en vinculación con el medio. Graphic desing and extension project Orillarte"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Artículos de docencia"/>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="ADNea"/>
+<meta name="citation_journal_abbrev" content="ADNea"/>
+<meta name="citation_issn" content="2347-1107"/> 
+<meta name="citation_author" content="María B. Pelli"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_author" content="Ana Costilla"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_author" content="Nilda Fleitas"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_author" content="Alberto Alegre"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_author" content="Damián Aquino"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_author" content="Fernando Estévez"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_author" content="María S. González"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_author" content="Jorge Machuca"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_author" content="Mercedes Pallares"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_author" content="Luján Signoris"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_author" content="Cristian Toullieux"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_author" content="Lara Meyer"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_author" content="Luciana Passicot"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo"/>
+<meta name="citation_title" content="Experiencia de aprendizaje en vinculación con el medio. Diseño gráfico y proyecto de extensión Orillarte"/>
+<meta name="citation_language" content="es"/>
+<meta name="citation_date" content="2025/12/30"/>
+<meta name="citation_issue" content="13"/>
+<meta name="citation_firstpage" content="43"/>
+<meta name="citation_lastpage" content="51"/>
+<meta name="citation_doi" content="10.30972/adn.139002"/>
+<meta name="citation_abstract_html_url" content="https://revistas.unne.edu.ar/index.php/adn/article/view/9002"/>
+<meta name="citation_keywords" xml:lang="es" content="Aprendizaje situado"/>
+<meta name="citation_keywords" xml:lang="es" content="sistemas gráficos"/>
+<meta name="citation_keywords" xml:lang="es" content="cultura ribereña"/>
+<meta name="citation_pdf_url" content="https://revistas.unne.edu.ar/index.php/adn/article/download/9002/8655"/>
+<meta name="citation_reference" content="Costa, J. (2012). Diseñar para los ojos. Grupo Editorial Design."/>
+<meta name="citation_reference" content="Freire, P. (1973). ¿Extensión o comunicación? La concientización en el medio rural (1ª ed. esp.) Siglo XXI y Tierra Nueva."/>
+<meta name="citation_reference" content="Gestner, K. (1979). Diseñar programas. Gustavo Gili."/>
+<meta name="citation_reference" content="Hidalgo, A. L. (2023). Apuntes para la construcción de un “nosotros” en la integralidad de las funciones sustantivas universitarias. +E: Revista de Extensión Universitaria, 13(18), e0003."/>
+<meta name="citation_reference" content="Hidalgo, A. L. y Galende, B. del C. (2022). Perspectivas, concepciones y preguntas para un abordaje situado de los procesos socioterritoriales. +E: Revista de Extensión Universitaria, 12(17), e0016."/>
+<meta name="citation_reference" content="Lave, J. y Wenge, E. (1991). Situated Learning. Legitimate peripheral participation (16th ed.). Cambridge University Press."/>
+<meta name="citation_reference" content="Pelli, M. B., Alegre Giménez, A., Aquino, D., Costilla, A., Estévez, F., Fleitas, N., González, M. S., Leguizamón, M., Machuca, J. y Toullieux, C. (2019). Hacia un perfil de formación del diseñador gráfico atento a los desafíos de la región del nordeste argentino. Taller de Diseño Gráfico 1. ADNea, 7(7), 73-84."/>
+<meta name="citation_reference" content="Pelli, M. B., Alegre, A. y Machuca, J. (2016). Las prácticas profesionalizantes en el proceso de enseñanza-aprendizaje del Taller de Diseño Gráfico 1 de la FAU/ UNNE. 3° Congreso Latinoamericano de Diseño. Rosario, Argentina. DISUR."/>
+<meta name="citation_reference" content="Steiman, J. (2018). Las prácticas de la enseñanza en análisis desde una didáctica reflexiva (Vol. 42. Educación, Crítica y Debate). Miño y Dávila."/>
+<meta name="citation_reference" content="Vaccarezza, L. S. (2022). Extensión universitaria, intercambio de saberes y relaciones de la universidad con el entorno (T. 3; pp. 127-136). En: 100 años de Reforma universitaria. Principales apelaciones a la Universidad Argentina. Colección CONEAU."/>
+	<link rel="stylesheet" href="https://revistas.unne.edu.ar/index.php/adn/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://revistas.unne.edu.ar/index.php/adn/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://revistas.unne.edu.ar/lib/pkp/styles/fontawesome/fontawesome.css?v=3.3.0.22" type="text/css" /><link rel="stylesheet" href="https://revistas.unne.edu.ar/public/site/styleSheet.css?v=3.3.0.22" type="text/css" />
+</head>
+<body class="pkp_page_article pkp_op_view has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Salta a los enlaces de contenido">
+	<a href="#pkp_content_main">Ir al contenido principal</a>
+	<a href="#siteNav">Ir al menú de navegación principal</a>
+		<a href="#pkp_content_footer">Ir al pie de página del sitio</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://revistas.unne.edu.ar/index.php/adn/index
+					" class="is_img">
+							<img src="https://revistas.unne.edu.ar/public/journals/24/pageHeaderLogoImage_es_ES" width="1024" height="219"  />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Navegación del sitio">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/issue/current">
+					Actual
+				</a>
+							</li>
+								<li class="">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/issue/archive">
+					Archivos
+				</a>
+							</li>
+															<li class="">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/about">
+					Acerca de
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about">
+										Sobre la revista
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/submissions">
+										Envíos
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/editorialTeam">
+										Equipo editorial
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/privacy">
+										Declaración de privacidad
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/contact">
+										Contacto
+									</a>
+								</li>
+																		</ul>
+							</li>
+			</ul>
+
+				
+
+																						<div class="pkp_navigation_search_wrapper">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/search" class="pkp_search pkp_search_desktop">
+										<span class="fa fa-search" aria-hidden="true"></span>
+										Buscar
+									</a>
+								</div>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+															<li class="profile">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/login">
+					Entrar
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="Usted está aquí:">
+	<ol>
+		<li>
+			<a href="https://revistas.unne.edu.ar/index.php/adn/index">
+				Inicio
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://revistas.unne.edu.ar/index.php/adn/issue/archive">
+				Archivos
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://revistas.unne.edu.ar/index.php/adn/issue/view/829">
+					Núm. 13 (2025)
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									Artículos de docencia
+							</span>
+		</li>
+	</ol>
+</nav>
+	
+		  	 <article class="obj_article_details">
+
+		
+	<h1 class="page_title">
+		Experiencia de aprendizaje en vinculación con el medio. Diseño gráfico y proyecto de extensión Orillarte
+	</h1>
+
+	
+	<div class="row">
+		<div class="main_entry">
+
+							<section class="item authors">
+					<h2 class="pkp_screen_reader">Autores/as</h2>
+					<ul class="authors">
+											<li>
+							<span class="name">
+								María B. Pelli
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Ana Costilla
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Nilda Fleitas
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Alberto Alegre
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Damián Aquino
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Fernando Estévez
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								María S. González
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Jorge Machuca
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Mercedes Pallares
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Luján Signoris
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Cristian Toullieux
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Lara Meyer
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Luciana Passicot
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Nordeste. Facultad de Arquitectura y Urbanismo
+																	</span>
+																				</li>
+										</ul>
+				</section>
+			
+																												<section class="item doi">
+						<h2 class="label">
+														DOI:
+						</h2>
+						<span class="value">
+							<a href="https://doi.org/10.30972/adn.139002">
+								https://doi.org/10.30972/adn.139002
+							</a>
+						</span>
+					</section>
+							
+									<section class="item keywords">
+				<h2 class="label">
+										Palabras clave:
+				</h2>
+				<span class="value">
+											Aprendizaje situado, 											sistemas gráficos, 											cultura ribereña									</span>
+			</section>
+			
+										<section class="item abstract">
+					<h2 class="label">Resumen</h2>
+					<p>El Taller de Diseño Gráfico 1, asignatura del primer año de la carrera de Diseño Gráfico de la UNNE, durante el ciclo lectivo 2023 realizó un trabajo de intercambio de saberes con la población del paraje Tres Bocas de la localidad de Puerto Vilelas, provincia del Chaco, integrantes del proyecto de extensión Orillarte de la Facultad de Ciencias Económicas de la UNNE. El trabajo tuvo como objetivo pedagógico introducir a los estudiantes en<br>el concepto y construcción de sistemas gráficos y nociones de identidad gráfica, desde la perspectiva del  aprendizaje situado, en vinculación con entidades reales del medio.</p>
+				</section>
+			
+			
+
+																																																																																																							
+										<section class="item references">
+					<h2 class="label">
+						Citas
+					</h2>
+					<div class="value">
+																					<p>Costa, J. (2012). Diseñar para los ojos. Grupo Editorial Design. </p>
+															<p>Freire, P. (1973). ¿Extensión o comunicación? La concientización en el medio rural (1ª ed. esp.) Siglo XXI y Tierra Nueva. </p>
+															<p>Gestner, K. (1979). Diseñar programas. Gustavo Gili. </p>
+															<p>Hidalgo, A. L. (2023). Apuntes para la construcción de un “nosotros” en la integralidad de las funciones sustantivas universitarias. +E: Revista de Extensión Universitaria, 13(18), e0003. </p>
+															<p>Hidalgo, A. L. y Galende, B. del C. (2022). Perspectivas, concepciones y preguntas para un abordaje situado de los procesos socioterritoriales. +E: Revista de Extensión Universitaria, 12(17), e0016. </p>
+															<p>Lave, J. y Wenge, E. (1991). Situated Learning. Legitimate peripheral participation (16th ed.). Cambridge University Press. </p>
+															<p>Pelli, M. B., Alegre Giménez, A., Aquino, D., Costilla, A., Estévez, F., Fleitas, N., González, M. S., Leguizamón, M., Machuca, J. y Toullieux, C. (2019). Hacia un perfil de formación del diseñador gráfico atento a los desafíos de la región del nordeste argentino. Taller de Diseño Gráfico 1. ADNea, 7(7), 73-84. </p>
+															<p>Pelli, M. B., Alegre, A. y Machuca, J. (2016). Las prácticas profesionalizantes en el proceso de enseñanza-aprendizaje del Taller de Diseño Gráfico 1 de la FAU/ UNNE. 3° Congreso Latinoamericano de Diseño. Rosario, Argentina. DISUR. </p>
+															<p>Steiman, J. (2018). Las prácticas de la enseñanza en análisis desde una didáctica reflexiva (Vol. 42. Educación, Crítica y Debate). Miño y Dávila. </p>
+															<p>Vaccarezza, L. S. (2022). Extensión universitaria, intercambio de saberes y relaciones de la universidad con el entorno (T. 3; pp. 127-136). En: 100 años de Reforma universitaria. Principales apelaciones a la Universidad Argentina. Colección CONEAU. </p>
+																		</div>
+				</section>
+			
+		</div><!-- .main_entry -->
+
+		<div class="entry_details">
+
+										<div class="item cover_image">
+					<div class="sub_item">
+													<a href="https://revistas.unne.edu.ar/index.php/adn/issue/view/829">
+								<img src="https://revistas.unne.edu.ar/public/journals/24/cover_issue_829_es_ES.jpg" alt="">
+							</a>
+											</div>
+				</div>
+			
+										<div class="item galleys">
+					<h2 class="pkp_screen_reader">
+						Descargas
+					</h2>
+					<ul class="value galleys_links">
+													<li>
+								
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9002/8655">
+
+		
+	PDF
+
+	</a>
+							</li>
+											</ul>
+				</div>
+						
+						<div class="item published">
+				<section class="sub_item">
+					<h2 class="label">
+						Publicado
+					</h2>
+					<div class="value">
+																			<span>2025-12-30</span>
+																	</div>
+				</section>
+							</div>
+			
+						
+										<div class="item issue">
+
+											<section class="sub_item">
+							<h2 class="label">
+								Número
+							</h2>
+							<div class="value">
+								<a class="title" href="https://revistas.unne.edu.ar/index.php/adn/issue/view/829">
+									Núm. 13 (2025)
+								</a>
+							</div>
+						</section>
+					
+											<section class="sub_item">
+							<h2 class="label">
+								Sección
+							</h2>
+							<div class="value">
+								Artículos de docencia
+							</div>
+						</section>
+					
+									</div>
+			
+															
+										<div class="item copyright">
+					<h2 class="label">
+						Licencia
+					</h2>
+																									<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><p>Esta obra está bajo una licencia internacional <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Atribución-NoComercial 4.0</a>.</p>
+																
+				</div>
+			
+			
+
+		</div><!-- .entry_details -->
+	</div><!-- .row -->
+
+</article>
+
+	
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary" aria-label="Barra lateral">
+				<div class="pkp_block block_custom" id="customblock-indexaciones">
+	<h2 class="title pkp_screen_reader">Indexaciones</h2>
+	<div class="content">
+		<hr>
+<h3><span style="color: grey;">Indexaciones</span></h3>
+<p>&nbsp;</p>
+<p><a href="http://arla.ubiobio.cl/index.php?r=ultimo-numero%2Fver_detalle_numero&amp;numero=341&amp;revista=186" target="_blank" rel="noopener"><strong><img src="https://revistas.unne.edu.ar/public/site/images/admin/arla_logo1.jpg" alt=""></strong></a></p>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+		
+		<div class="pkp_brand_footer" role="complementary">
+			<a href="https://revistas.unne.edu.ar/index.php/adn/about/aboutThisPublishingSystem">
+				<img alt="Más información acerca del sistema de publicación, de la plataforma y del flujo de trabajo de OJS/PKP." src="https://revistas.unne.edu.ar/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://revistas.unne.edu.ar/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/lib/popper/popper.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/lib/bootstrap/util.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/main.js?v=3.3.0.22" type="text/javascript"></script>
+
+
+</body>
+</html>

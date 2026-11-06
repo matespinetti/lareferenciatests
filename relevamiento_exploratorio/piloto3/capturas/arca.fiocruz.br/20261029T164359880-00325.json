@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T164359880-00325",
+ "url": "https://arca.fiocruz.br/handle/icict/73215",
+ "codigo": 301,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:53:11 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "77"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793292835"
+  ],
+  [
+   "location",
+   "/items/0003c49b-a8f4-4a2d-8eb6-cbcbbe4650bb"
+  ],
+  [
+   "vary",
+   "Accept"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubdomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

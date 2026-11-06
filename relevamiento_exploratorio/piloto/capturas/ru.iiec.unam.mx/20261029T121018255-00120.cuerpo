@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/oai2.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2026-10-29T12:15:01Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mets" identifier="oai:ru.iiec.unam.mx:26">http://ru.iiec.unam.mx/cgi/oai2</request>
+  <GetRecord>
+    <record>
+    <header>
+      <identifier>oai:ru.iiec.unam.mx:26</identifier>
+      <datestamp>2012-08-30T16:15:17Z</datestamp>
+      <setSpec>7374617475733D707562</setSpec>
+      <setSpec>7375626A656374733D49:4930</setSpec>
+      <setSpec>7375626A656374733D49:4933:493332</setSpec>
+      <setSpec>7375626A656374733D49:4933:493338</setSpec>
+      <setSpec>74797065733D626F6F6B</setSpec>
+      <setSpec>63726561746F72733D56696C6C6172657370652052657965733A566572C3B36E6963613A3A</setSpec></header>
+    <metadata>
+      <mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" OBJID="eprint_26" LABEL="Eprints Item" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><mets:metsHdr CREATEDATE="2026-10-29T12:15:00Z"><mets:agent ROLE="CUSTODIAN" TYPE="ORGANIZATION"><mets:name>RU-Económicas</mets:name></mets:agent></mets:metsHdr><mets:dmdSec ID="DMD_eprint_26_mods"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:titleInfo><mods:title>Pobreza: concepciones, medición y programas</mods:title></mods:titleInfo><mods:name type="personal"><mods:namePart type="given">Verónica</mods:namePart><mods:namePart type="family">Villarespe Reyes</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name><mods:abstract>En 2008 el IIEc organizó el Seminario "Las concepciones contemporáneas de la pobreza", para debatir tres aspectos centrales del asunto: las concepciones, los métodos de medición y los programas para su combate. &#13;
+Se reunieron especialistas con diversos criterios, a veces contrapuestos, que aportaron propuestas teóricas y prácticas, que enriquecieron la discusión y contribuyeron a esclarecer la problemática de ese viejo enemigo que no ha podido ser derrotado: la pobreza.&#13;
+</mods:abstract><mods:classification authority="lcc">I0 - Generalidades</mods:classification><mods:classification authority="lcc">I32 - Medición y análisis de la pobreza</mods:classification><mods:classification authority="lcc">I38 - Política pública ; Provisión y efectos de los programas de bienestar</mods:classification><mods:originInfo><mods:dateIssued encoding="iso8061">2010-02</mods:dateIssued></mods:originInfo><mods:originInfo><mods:publisher>Universidad Nacional Autónoma de México, Instituto de Investigaciones Económicas</mods:publisher></mods:originInfo><mods:genre>Libro</mods:genre></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:amdSec ID="TMD_eprint_26"><mets:rightsMD ID="rights_eprint_26_mods"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:useAndReproduction>
+<p xmlns="http://www.w3.org/1999/xhtml"><strong>Para trabajos depositados por el propio autor:</strong> 
+Al auto archivar esta colección de ficheros y metadatos bibliográficos asociados, otorgo a RU-Económicas el derecho para almacenarlos y ponerlos a disposición pública permanentemente de un modo gratuito y en línea. 
+Declaro que este material es de mi propiedad intelectual y entiendo que RU-Económicas no asume ninguna responsabilidad en caso de que se produzca una violación de derechos de propiedad al distribuir estos ficheros o metadatos. (Se insta encarecidamente a todos los autores a destacar sus derechos de autor en la página de título de su trabajo.)</p>
+
+<p xmlns="http://www.w3.org/1999/xhtml"><strong>Para trabajos depositados por otras personas distintas a su autor:</strong> Por la presente, declaro que la colección de ficheros y metadatos bibliográficos asociados que estoy archivando en RU-Económicas) es de dominio público. Si este no fuese el caso, acepto totalmente la responsabilidad por cualquier infracción de derechos de autor que conlleve la distribución de estos ficheros o metadatos.</p>
+
+<p xmlns="http://www.w3.org/1999/xhtml">Pulsar sobre el botón de depósito indica que está de acuerdo con estos términos.</p>
+    </mods:useAndReproduction></mets:xmlData></mets:mdWrap></mets:rightsMD></mets:amdSec><mets:fileSec><mets:fileGrp USE="reference"><mets:file ID="eprint_26_20_1" SIZE="4422738" OWNERID="http://ru.iiec.unam.mx/26/1/Pobreza_concepciones%2C_medici%C3%B3n_y_programas.pdf" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://ru.iiec.unam.mx/26/1/Pobreza_concepciones%2C_medici%C3%B3n_y_programas.pdf"/></mets:file></mets:fileGrp><mets:fileGrp USE="reference"><mets:file ID="eprint_26_3268_1" SIZE="32753" OWNERID="http://ru.iiec.unam.mx/26/8/pobreza%20concepciones%20mediciones.jpg" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://ru.iiec.unam.mx/26/8/pobreza%20concepciones%20mediciones.jpg"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_eprint_26_mods" ADMID="TMD_eprint_26"><mets:fptr FILEID="eprint_26_document_20_1"/><mets:fptr FILEID="eprint_26_document_3268_1"/></mets:div></mets:structMap></mets:mets></metadata></record>
+  </GetRecord>
+</OAI-PMH>

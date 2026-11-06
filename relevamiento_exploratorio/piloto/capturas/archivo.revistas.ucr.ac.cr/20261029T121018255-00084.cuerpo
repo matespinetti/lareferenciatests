@@ -1,0 +1,1101 @@
+
+
+
+	
+
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex, nofollow">
+	<title>
+		Limnology in El Dorado: some surprising aspects of the regulation of phytoplankton productive capacity in a high-altitude Andean lake (Laguna de Guatavita, Colombia)
+							| Revista de Biología Tropical
+			</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.2.1.4">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126449882-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126449882-1');
+</script>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Jhon Donato"/>
+<meta name="DC.Creator.PersonalName" content="Paola Jimenez"/>
+<meta name="DC.Creator.PersonalName" content="Colin Reynolds"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2012-09-01"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2012-09-04"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2012-09-01"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2022-11-01"/>
+<meta name="DC.Description" xml:lang="en" content="High-altitude mountain lakes remain understudied, mostly because of their relative inaccessibility. Laguna de Guatavita, a small, equatorial, high-altitude crater lake in the Eastern Range of the Colombian Andes, was once of high cultural importance to pre-Columban inhabitants, the original location of the legendary El Dorado. We investigated the factors regulating the primary production in Laguna de Guatavita (4°58’50” N - 73°46’43” W, alt. 2 935m.a.s.l., area: 0.11km2, maximum depth: 30m), during a series of three intensive field campaigns, which were conducted over a year-long period in 2003-2004. In each, standard profiles of temperature, oxygen concentration and light intensity were determined on each of 16-18 consecutive days. Samples were collected and analysed for chlorophyll and for biologically-significant solutes in GF/F-filtered water (NH4 +, NO3 - , NO2 -; soluble reactive phosphorus). Primary production was also determined, by oxygen generation, on each day of the campaign. Our results showed that the productive potential of the lake was typically modest (campaign averages of 45-90mg C/m2.h) but that many of the regulating factors were not those anticipated intuitively. The lake is demonstrably meromictic, reminiscent of karstic dolines in higher latitudes, its stratification being maintained by solute- concentration gradients. Light penetration is poor, attributable to the turbidity owing to fine calcite and other particulates in suspension. Net primary production in the mixolimnion of Laguna de Guavita is sensitive to day-to-day variations in solar irradiance at the surface. However, deficiencies in nutrient availability, especially nitrogen, also constrain the capacity of the lake to support a phytoplankton. We deduced that Laguna de Guatavita is something of a limnological enigma, atypical of the common anticipation of a “mountain lake”. While doubtlessly not unique, comparable descriptions of similar sites elsewhere are sufficiently rare to justify the presentation of the data from Laguna de Guatavita that our studies have revealed so far."/>
+<meta name="DC.Description" xml:lang="es" content="Los factores que regulan la producción primaria en un lago remoto, pequeño, ecuatorial y de elevada altitud en la región Oriental de los Andes Colombianos (4°58’50” N - 73°46’43” W, altura 2 935m.s.n.m., área 0.11km2 y profundidad máxima 30m), que también tuvo importancia cultural para los indígenas precolombinos y los orígenes de la leyenda de El Dorado, fueron investigados. La relativa lejanía del lugar requirió una serie de tres campañas intensivas de estudio, en un periodo de un año (2003-2004). Durante cada campaña se realizaron perfiles temperatura, concentración de oxígeno e intensidad de luz. Se recolectaron muestras para medir la concentración de clorofila y de solutos de significado biológico en agua filtrada GF/F. Cada día de la campaña se llevaron a cabo mediciones de la producción primaria, como se indica por la producción de oxígeno. Estas demostraron que el potencial productivo es particularmente modesto (promedio de campañas de 45-90mgC/m2.h, pero casi todos los aspectos de su regulación fueron sorprendentes y contrarios al sentido común. El lago es meromíctico, reminiscencia de dolinas kársticas de latitudes más altas y la estratificación se mantiene por los solutos. La penetración de luz es pobre, atribuible a la alta turbidez debida a la calcita fina y a otras partículas en suspensión. La producción primaria neta del mixolimnion de la Laguna de Guatavita es sensible a las variaciones del día a día de la radiación superficial. Deficiencias en la disponibilidad de nutrientes, sobre todo, del nitrógeno, también limitaron la capacidad productiva del fitoplancton. La laguna de Guatavita es una especie de enigma limnológico: aunque sin duda, no es el único, las descripciones de sitios similares en otras partes son lo suficientemente raras para justificar la presentación de los datos revelados hasta hoy en nuestro estudio."/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="1751"/>
+<meta name="DC.Identifier.pageNumber" content="967–980"/>
+<meta name="DC.Identifier.DOI" content="10.15517/rbt.v60i3.1751"/>
+<meta name="DC.Identifier.URI" content="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751"/>
+<meta name="DC.Language" scheme="ISO639-1" content="es"/>
+<meta name="DC.Rights" content="Copyright (c) 2012 Revista de Biología Tropical"/>
+<meta name="DC.Rights" content="http://creativecommons.org/licenses/by/4.0"/>
+<meta name="DC.Source" content="Revista de Biología Tropical"/>
+<meta name="DC.Source.ISSN" content="2215-2075"/>
+<meta name="DC.Source.Issue" content="3"/>
+<meta name="DC.Source.Volume" content="60"/>
+<meta name="DC.Source.URI" content="https://archivo.revistas.ucr.ac.cr/index.php/rbt"/>
+<meta name="DC.Subject" xml:lang="en" content="sacred lakes."/>
+<meta name="DC.Title" content="Limnology in El Dorado: some surprising aspects of the regulation of phytoplankton productive capacity in a high-altitude Andean lake (Laguna de Guatavita, Colombia)"/>
+<meta name="DC.Title.Alternative" xml:lang="en" content="Limnology in El Dorado: some surprising aspects of the regulation of phytoplankton productive capacity in a high-altitude Andean lake (Laguna de Guatavita, Colombia)"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Articles"/>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="Revista de Biología Tropical"/>
+<meta name="citation_journal_abbrev" content="Rev. Biol. Trop."/>
+<meta name="citation_issn" content="2215-2075"/> 
+<meta name="citation_author" content="Jhon Donato"/>
+<meta name="citation_author_institution" content="Universidad Nacional de Colombia. Departamento de Biología."/>
+<meta name="citation_author" content="Paola Jimenez"/>
+<meta name="citation_author_institution" content="Universidad Nacional de Colombia. Departamento de Biología."/>
+<meta name="citation_author" content="Colin Reynolds"/>
+<meta name="citation_author_institution" content="CEH Lancaster, Library Avenue, Bailrigg."/>
+<meta name="citation_title" content="Limnology in El Dorado: some surprising aspects of the regulation of phytoplankton productive capacity in a high-altitude Andean lake (Laguna de Guatavita, Colombia)"/>
+<meta name="citation_language" content="es"/>
+<meta name="citation_date" content="2012/09/01"/>
+<meta name="citation_volume" content="60"/>
+<meta name="citation_issue" content="3"/>
+<meta name="citation_firstpage" content="967–980"/>
+<meta name="citation_lastpage" content="967–980"/>
+<meta name="citation_doi" content="10.15517/rbt.v60i3.1751"/>
+<meta name="citation_abstract_html_url" content="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751"/>
+<meta name="citation_keywords" xml:lang="en" content="chlorophyll a"/>
+<meta name="citation_keywords" xml:lang="en" content="photosynthetic rate"/>
+<meta name="citation_keywords" xml:lang="en" content="stratification"/>
+<meta name="citation_keywords" xml:lang="en" content="meromictic structure"/>
+<meta name="citation_keywords" xml:lang="en" content="sacred lakes."/>
+<meta name="citation_pdf_url" content="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/download/1751/53204"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:200,200i,400,400i|Fira+Sans:300,300i,400,400i,700,700i" type="text/css" /><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css?v=3.2.1.4" type="text/css" /><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css?v=3.2.1.4" type="text/css" /><link rel="stylesheet" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/$$$call$$$/page/page/css?name=stylesheet" type="text/css" />
+</head>
+<body dir="ltr">
+
+<header class="main-header">
+	<div class="container">
+
+		<div class="sr-only">Limnology in El Dorado: some surprising aspects of the regulation of phytoplankton productive capacity in a high-altitude Andean lake (Laguna de Guatavita, Colombia)</div>
+
+	<div class="navbar-logo">
+		<a href="	https://archivo.revistas.ucr.ac.cr/index.php/rbt/index
+"><img src="https://archivo.revistas.ucr.ac.cr/public/journals/19/pageHeaderLogoImage_en_US.png"alt="Journal Scope"class="img-fluid"></a>
+	</div>
+
+		<nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand" href="	https://archivo.revistas.ucr.ac.cr/index.php/rbt/index
+"><img src="https://archivo.revistas.ucr.ac.cr/public/journals/19/pageHeaderLogoImage_en_US.png"alt="Journal Scope"class="img-fluid"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+		        aria-controls="main-navbar" aria-expanded="false"
+		        aria-label="Toggle Navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse justify-content-md-center" id="main-navbar">
+																		<ul id="primaryNav" class="navbar-nav">
+														<li class="nav-item nmi_type_submissions">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/about/submissions"
+					class="nav-link"
+									>
+					Submissions
+				</a>
+							</li>
+														<li class="nav-item nmi_type_custom">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/editorialteamcolumn"
+					class="nav-link"
+									>
+					Editorial Team
+				</a>
+							</li>
+														<li class="nav-item nmi_type_remote_url">
+				<a href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/3420"
+					class="nav-link"
+									>
+					Current
+				</a>
+							</li>
+														<li class="nav-item nmi_type_archives">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/issue/archive"
+					class="nav-link"
+									>
+					Archives
+				</a>
+							</li>
+																					<li class="nav-item nmi_type_about dropdown">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/about"
+					class="nav-link dropdown-toggle"
+											id="navMenuDropdown4"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false"
+									>
+					About
+				</a>
+									<div class="dropdown-menu" aria-labelledby="navMenuDropdown4">
+																					<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/about">
+									About the Journal
+								</a>
+																												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/announcement">
+									Announcements
+								</a>
+																												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/about/privacy">
+									Privacy Statement
+								</a>
+																												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/girolami-adward">
+									De Girolami family Award
+								</a>
+																												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/premiobiologyadward">
+									Winners of Tropical Biology Award
+								</a>
+																												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/miembrosfundadores">
+									Founding members
+								</a>
+																		</div>
+							</li>
+																					<li class="nav-item nmi_type_custom dropdown">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/darwincolumn"
+					class="nav-link dropdown-toggle"
+											id="navMenuDropdown5"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false"
+									>
+					Editorial Column
+				</a>
+									<div class="dropdown-menu" aria-labelledby="navMenuDropdown5">
+																					<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/darwinabout">
+									About
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2830">
+									Animal Behavior
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2772">
+									Editor's Column
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2771">
+									History of Science
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2758">
+									Onychophora
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2975">
+									Darwin In Memoriam 2020
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2976">
+									Darwin In Memoriam 2021
+								</a>
+																		</div>
+							</li>
+																					<li class="nav-item nmi_type_custom dropdown">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/blog"
+					class="nav-link dropdown-toggle"
+											id="navMenuDropdown6"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded="false"
+									>
+					Blog Biología Tropical
+				</a>
+									<div class="dropdown-menu" aria-labelledby="navMenuDropdown6">
+																					<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/blog">
+									Our blog
+								</a>
+																												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/writeforus">
+									Write for us
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2701">
+									Series 1
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2753">
+									Series 2
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/2777">
+									Series 3
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/blog_s4">
+									Series 4
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/blog_s5">
+									Series 5
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/3112">
+									Serie 6
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/3155">
+									Serie 7
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/3110">
+									Serie 8
+								</a>
+																												<a class="dropdown-item" href="https://revistas.ucr.ac.cr/index.php/rbt/issue/view/3141">
+									Serie 9
+								</a>
+																		</div>
+							</li>
+														<li class="nav-item nmi_type_custom">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/contact"
+					class="nav-link"
+									>
+					Contact
+				</a>
+							</li>
+			</ul>
+
+			
+										<ul id="primaryNav-userNav" class="navbar-nav">
+														<li class="nav-item nmi_type_user_register">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/register"
+					class="nav-link"
+									>
+					Register
+				</a>
+							</li>
+														<li class="nav-item nmi_type_user_login">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/login"
+					class="nav-link"
+									>
+					Login
+				</a>
+							</li>
+										</ul>
+
+				<div id="languageSmallNav" class="dropdown language-toggle">
+		<button class="btn dropdown-toggle" type="button" id="languageToggleMenulanguageSmallNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<span class="sr-only">Change the language. The current language is:</span>
+			English
+		</button>
+		<div class="dropdown-menu" aria-labelledby="languageToggleMenulanguageSmallNav">
+												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/setLocale/es_ES?source=%2Findex.php%2Frbt%2Farticle%2Fview%2F1751">
+						Español (España)
+					</a>
+																</div>
+	</div>
+		</div>
+	</nav>
+
+			<ul id="userNav" class="navbar-nav">
+														<li class="nav-item nmi_type_user_register">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/register"
+					class="nav-link"
+									>
+					Register
+				</a>
+							</li>
+														<li class="nav-item nmi_type_user_login">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/login"
+					class="nav-link"
+									>
+					Login
+				</a>
+							</li>
+										</ul>
+
+
+			<div id="languageLargeNav" class="dropdown language-toggle">
+		<button class="btn dropdown-toggle" type="button" id="languageToggleMenulanguageLargeNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<span class="sr-only">Change the language. The current language is:</span>
+			English
+		</button>
+		<div class="dropdown-menu" aria-labelledby="languageToggleMenulanguageLargeNav">
+												<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/setLocale/es_ES?source=%2Findex.php%2Frbt%2Farticle%2Fview%2F1751">
+						Español (España)
+					</a>
+																</div>
+	</div>
+
+	</div>
+</header>
+
+<div class="container page-article">
+	<div class="article-details">
+	<div class="page-header row">
+		<div class="col-lg article-meta-mobile">
+						
+						<div class="article-details-issue-section small-screen">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/issue/view/291">Vol. 60 No. 3 (2012)</a>, <span>Articles</span>			</div>
+
+			<div class="article-details-issue-identifier large-screen">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/issue/view/291">Vol. 60 No. 3 (2012)</a>
+			</div>
+
+			<h1 class="article-details-fulltitle">
+				Limnology in El Dorado: some surprising aspects of the regulation of phytoplankton productive capacity in a high-altitude Andean lake (Laguna de Guatavita, Colombia)
+			</h1>
+
+							<div class="article-details-issue-section large-screen">Articles</div>
+			
+																												<div class="article-details-doi large-screen">
+						<a href="https://doi.org/10.15517/rbt.v60i3.1751">https://doi.org/10.15517/rbt.v60i3.1751</a>
+					</div>
+							
+										<div class="article-details-published">
+					Published
+																2012-09-04 — Updated on 2012-09-01
+									</div>
+			
+							<ul class="authors-string">
+											<li><a class="author-string-href" href="#author-1"><span>Jhon Donato</span><sup class="author-symbol author-plus">&plus;</sup><sup class="author-symbol author-minus hide">&minus;</sup></a></li>
+											<li><a class="author-string-href" href="#author-2"><span>Paola Jimenez</span><sup class="author-symbol author-plus">&plus;</sup><sup class="author-symbol author-minus hide">&minus;</sup></a></li>
+											<li><a class="author-string-href" href="#author-3"><span>Colin Reynolds</span><sup class="author-symbol author-plus">&plus;</sup><sup class="author-symbol author-minus hide">&minus;</sup></a></li>
+									</ul>
+
+																<div class="article-details-authors">
+											<div class="article-details-author hideAuthor" id="author-1">
+							<div class="article-details-author-name small-screen">
+								Jhon Donato
+							</div>
+															<div class="article-details-author-affiliation">Universidad Nacional de Colombia. Departamento de Biología.</div>
+																													<button type="button" class="article-details-bio-toggle" data-toggle="modal" data-target="#authorBiographyModal1">
+									Bio
+								</button>
+																													</div>
+											<div class="article-details-author hideAuthor" id="author-2">
+							<div class="article-details-author-name small-screen">
+								Paola Jimenez
+							</div>
+															<div class="article-details-author-affiliation">Universidad Nacional de Colombia. Departamento de Biología.</div>
+																											</div>
+											<div class="article-details-author hideAuthor" id="author-3">
+							<div class="article-details-author-name small-screen">
+								Colin Reynolds
+							</div>
+															<div class="article-details-author-affiliation">CEH Lancaster, Library Avenue, Bailrigg.</div>
+																											</div>
+									</div>
+
+					</div>
+	</div><!-- .page-header -->
+
+	<div class="row justify-content-md-center" id="mainArticleContent">
+		<div class="col-lg-3 order-lg-2" id="articleDetailsWrapper">
+			<div class="article-details-sidebar" id="articleDetails">
+
+													<div class="article-details-block article-details-cover">
+													<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/issue/view/291">
+								<img
+									class="img-fluid"
+									src="https://archivo.revistas.ucr.ac.cr/public/journals/19/cover_issue_291_en_US.jpg"
+									alt=""
+								>
+							</a>
+											</div>
+				
+								
+                              				<div class="article-details-block">
+    					<h2 class="article-details-heading">
+    						Versions
+    					</h2>
+    					<ul>
+    					    						    						<li>
+    							    								2012-09-01 (2)
+    							    						</li>
+    					    						    						<li>
+    							    								<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751/version/1688">2012-09-04 (1)</a>
+    							    						</li>
+    					    					</ul>
+    				</div>
+                  
+													<div class="article-details-block article-details-galleys article-details-galleys-sidebar">
+													<div class="article-details-galley">
+								
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751/53204">
+
+		
+	PDF
+</a>
+							</div>
+											</div>
+				
+								
+													<div class="article-details-block article-details-keywords">
+						<h2 class="article-details-heading">
+							Keywords
+						</h2>
+						<div class="article-details-keywords-value">
+																								<span>clorofila a</span><br>																	<span>tasa fotosintética</span><br>																	<span>estratificación</span><br>																	<span>estructura meromíctica</span><br>																	<span>lagos sagrados</span>																																<span>chlorophyll a</span><br>																	<span>photosynthetic rate</span><br>																	<span>stratification</span><br>																	<span>meromictic structure</span><br>																	<span>sacred lakes.</span>																					</div>
+					</div>
+				
+													<div class="article-details-block article-details-how-to-cite">
+						<h2 class="article-details-heading">
+							How to Cite
+						</h2>
+						<div id="citationOutput" class="article-details-how-to-cite-citation" role="region" aria-live="polite">
+							<div class="csl-bib-body">
+  <div class="csl-entry">Donato, J., Jimenez, P., &#38; Reynolds, C. (2012). Limnology in El Dorado: some surprising aspects of the regulation of phytoplankton productive capacity in a high-altitude Andean lake (Laguna de Guatavita, Colombia). <i>Revista De Biología Tropical</i>, <i>60</i>(3), 967–980. https://doi.org/10.15517/rbt.v60i3.1751 (Original work published September 4, 2012)</div>
+</div>
+						</div>
+						<div class="dropdown">
+							<button class="btn dropdown-toggle" type="button" id="cslCitationFormatsButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-csl-dropdown="true">
+								More Citation Formats
+							</button>
+							<div class="dropdown-menu" aria-labelledby="cslCitationFormatsButton">
+																	<a
+										class="dropdown-item"
+										aria-controls="citationOutput"
+										href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/acm-sig-proceedings?submissionId=1751&amp;publicationId=65632"
+										data-load-citation
+										data-json-href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/acm-sig-proceedings?submissionId=1751&amp;publicationId=65632&amp;return=json"
+									>
+										ACM
+									</a>
+																	<a
+										class="dropdown-item"
+										aria-controls="citationOutput"
+										href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/acs-nano?submissionId=1751&amp;publicationId=65632"
+										data-load-citation
+										data-json-href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/acs-nano?submissionId=1751&amp;publicationId=65632&amp;return=json"
+									>
+										ACS
+									</a>
+																	<a
+										class="dropdown-item"
+										aria-controls="citationOutput"
+										href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/apa?submissionId=1751&amp;publicationId=65632"
+										data-load-citation
+										data-json-href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/apa?submissionId=1751&amp;publicationId=65632&amp;return=json"
+									>
+										APA
+									</a>
+																	<a
+										class="dropdown-item"
+										aria-controls="citationOutput"
+										href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=1751&amp;publicationId=65632"
+										data-load-citation
+										data-json-href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=1751&amp;publicationId=65632&amp;return=json"
+									>
+										ABNT
+									</a>
+																	<a
+										class="dropdown-item"
+										aria-controls="citationOutput"
+										href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/chicago-author-date?submissionId=1751&amp;publicationId=65632"
+										data-load-citation
+										data-json-href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/chicago-author-date?submissionId=1751&amp;publicationId=65632&amp;return=json"
+									>
+										Chicago
+									</a>
+																	<a
+										class="dropdown-item"
+										aria-controls="citationOutput"
+										href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/harvard-cite-them-right?submissionId=1751&amp;publicationId=65632"
+										data-load-citation
+										data-json-href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/harvard-cite-them-right?submissionId=1751&amp;publicationId=65632&amp;return=json"
+									>
+										Harvard
+									</a>
+																	<a
+										class="dropdown-item"
+										aria-controls="citationOutput"
+										href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/ieee?submissionId=1751&amp;publicationId=65632"
+										data-load-citation
+										data-json-href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/ieee?submissionId=1751&amp;publicationId=65632&amp;return=json"
+									>
+										IEEE
+									</a>
+																	<a
+										class="dropdown-item"
+										aria-controls="citationOutput"
+										href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/modern-language-association?submissionId=1751&amp;publicationId=65632"
+										data-load-citation
+										data-json-href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/modern-language-association?submissionId=1751&amp;publicationId=65632&amp;return=json"
+									>
+										MLA
+									</a>
+																	<a
+										class="dropdown-item"
+										aria-controls="citationOutput"
+										href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=1751&amp;publicationId=65632"
+										data-load-citation
+										data-json-href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=1751&amp;publicationId=65632&amp;return=json"
+									>
+										Turabian
+									</a>
+																	<a
+										class="dropdown-item"
+										aria-controls="citationOutput"
+										href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/vancouver?submissionId=1751&amp;publicationId=65632"
+										data-load-citation
+										data-json-href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/get/vancouver?submissionId=1751&amp;publicationId=65632&amp;return=json"
+									>
+										Vancouver
+									</a>
+																									<h3 class="dropdown-header">
+										Download Citation
+									</h3>
+																			<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/download/ris?submissionId=1751&amp;publicationId=65632">
+											Endnote/Zotero/Mendeley (RIS)
+										</a>
+																			<a class="dropdown-item" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/citationstylelanguage/download/bibtex?submissionId=1751&amp;publicationId=65632">
+											BibTeX
+										</a>
+																								</div>
+						</div>
+					</div>
+				
+																			
+				
+			</div>
+		</div>
+		<div class="col-lg-9 order-lg-1" id="articleMainWrapper">
+			<div class="article-details-main" id="articleMain">
+
+													<div class="article-details-block article-details-abstract">
+						<h2 class="article-details-heading">Abstract</h2>
+						High-altitude mountain lakes remain understudied, mostly because of their relative inaccessibility. Laguna de Guatavita, a small, equatorial, high-altitude crater lake in the Eastern Range of the Colombian Andes, was once of high cultural importance to pre-Columban inhabitants, the original location of the legendary El Dorado. We investigated the factors regulating the primary production in Laguna de Guatavita (4°58’50” N - 73°46’43” W, alt. 2 935m.a.s.l., area: 0.11km2, maximum depth: 30m), during a series of three intensive field campaigns, which were conducted over a year-long period in 2003-2004. In each, standard profiles of temperature, oxygen concentration and light intensity were determined on each of 16-18 consecutive days. Samples were collected and analysed for chlorophyll and for biologically-significant solutes in GF/F-filtered water (NH4 +, NO3 - , NO2 -; soluble reactive phosphorus). Primary production was also determined, by oxygen generation, on each day of the campaign. Our results showed that the productive potential of the lake was typically modest (campaign averages of 45-90mg C/m2.h) but that many of the regulating factors were not those anticipated intuitively. The lake is demonstrably meromictic, reminiscent of karstic dolines in higher latitudes, its stratification being maintained by solute- concentration gradients. Light penetration is poor, attributable to the turbidity owing to fine calcite and other particulates in suspension. Net primary production in the mixolimnion of Laguna de Guavita is sensitive to day-to-day variations in solar irradiance at the surface. However, deficiencies in nutrient availability, especially nitrogen, also constrain the capacity of the lake to support a phytoplankton. We deduced that Laguna de Guatavita is something of a limnological enigma, atypical of the common anticipation of a “mountain lake”. While doubtlessly not unique, comparable descriptions of similar sites elsewhere are sufficiently rare to justify the presentation of the data from Laguna de Guatavita that our studies have revealed so far.
+					</div>
+				
+																																			<div class="article-details-block article-details-doi small-screen">
+							<a href="https://doi.org/10.15517/rbt.v60i3.1751">https://doi.org/10.15517/rbt.v60i3.1751</a>
+						</div>
+									
+													<div class="article-details-block article-details-galleys article-details-galleys-btm">
+													<div class="article-details-galley">
+								
+	
+							
+
+<a class="btn btn-primary" href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/article/view/1751/53204">
+
+		
+	PDF
+</a>
+							</div>
+											</div>
+				
+								
+													<div class="article-details-block article-details-license">
+																					<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+																			<p>Copyright (c) 2012 Revista de Biología Tropical</p>
+																											</div>
+				
+				<div class="item downloads_chart">
+	<h3 class="label">
+		Downloads
+	</h3>
+	<div class="value">
+		<canvas class="usageStatsGraph" data-object-type="Submission" data-object-id="1751"></canvas>
+		<div class="usageStatsUnavailable" data-object-type="Submission" data-object-id="1751">
+			Download data is not yet available.
+		</div>
+	</div>
+</div>
+
+
+			</div>
+		</div>
+
+		<div class="col-lg-12 order-lg-3 article-footer-hook">
+			
+		</div>
+
+	</div>
+</div>
+</div><!-- .page -->
+
+<footer class="site-footer">
+	<div class="container site-footer-sidebar" role="complementary"
+	     aria-label="Sidebar">
+		<div class="row">
+			<div class="pkp_block block_custom" id="customblock-REDIB">
+	<div class="content">
+		<p><a href="https://redib.org/Record/oai_revista1480"><img src="https://redib.org/Widget/Show?id=1480&amp;lng=es" alt="Redib Widget" border="0"></a></p>
+	</div>
+</div>
+<div class="pkp_block block_information">
+	<h2 class="title">Information</h2>
+	<div class="content">
+		<ul>
+							<li>
+					<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/information/readers">
+						For Readers
+					</a>
+				</li>
+										<li>
+					<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/information/authors">
+						For Authors
+					</a>
+				</li>
+										<li>
+					<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/information/librarians">
+						For Librarians
+					</a>
+				</li>
+					</ul>
+	</div>
+</div>
+<div class="pkp_block block_language">
+	<h2 class="title">
+		Language
+	</h2>
+
+	<div class="content">
+		<ul>
+							<li class="locale_es_ES" lang="es-ES">
+					<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/setLocale/es_ES?source=%2Findex.php%2Frbt%2Farticle%2Fview%2F1751">
+						Español (España)
+					</a>
+				</li>
+							<li class="locale_en_US current" lang="en-US">
+					<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/setLocale/en_US?source=%2Findex.php%2Frbt%2Farticle%2Fview%2F1751">
+						English
+					</a>
+				</li>
+					</ul>
+	</div>
+</div><!-- .block_language -->
+
+		</div>
+	</div>
+	<div class="container site-footer-content">
+		<div class="row">
+			
+			<div class="col-md col-md-2 align-self-center text-right">
+				<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/about/aboutThisPublishingSystem">
+					<img class="footer-brand-image" alt="More information about the publishing system, Platform and Workflow by OJS/PKP."
+					     src="https://archivo.revistas.ucr.ac.cr/templates/images/ojs_brand_white.png">
+				</a>
+			</div>
+		</div>
+	</div>
+</footer><!-- pkp_structure_footer_wrapper -->
+
+																					<div
+											class="modal fade"
+											id="authorBiographyModal1"
+											tabindex="-1"
+											role="dialog"
+											aria-labelledby="authorBiographyModalTitle1"
+											aria-hidden="true"
+									>
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<div class="modal-title" id="authorBiographyModalTitle1">
+														Jhon Donato
+													</div>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<p> </p><p> </p><p> </p>
+												</div>
+											</div>
+										</div>
+									</div>
+								
+									
+
+<div id="loginModal" class="modal fade" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+							<form class="form-login" method="post" action="https://archivo.revistas.ucr.ac.cr/index.php/rbt/login/signIn">
+	<input type="hidden" name="csrfToken" value="5a7c418bb94c444af73fe040cb9c9d1c">
+	<input type="hidden" name="source" value=""/>
+
+	<fieldset>
+		<div class="form-group form-group-username">
+			<label for="usernameModal">
+				Username - only editors
+				<span class="required" aria-hidden="true">*</span>
+				<span class="sr-only">
+					Required
+				</span>
+			</label>
+			<input type="text" class="form-control" name="username" id="usernameModal" value=""
+			       maxlength="32" required>
+		</div>
+		<div class="form-group form-group-password">
+			<label for="passwordModal">
+				Password
+				<span class="required" aria-hidden="true">*</span>
+				<span class="sr-only">
+					Required
+				</span>
+			</label>
+			<input type="password" class="form-control" name="password" id="passwordModal" value=""
+			       maxlength="32" required>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group form-group-forgot">
+					<small class="form-text">
+						<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/login/lostPassword">
+							Forgot your password? read-only site; You cannot log in
+						</a>
+					</small>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group form-check form-group-remember">
+					<input type="checkbox" class="form-check-input" name="remember" id="rememberModal" value="1"
+					       checked="$remember">
+					<label for="rememberModal" class="form-check-label">
+						<small class="form-text">
+							Keep me logged in
+						</small>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group form-group-buttons">
+			<button class="btn btn-primary" type="submit">
+				restricted area
+			</button>
+		</div>
+					<div class="form-group form-group-register">
+				No account? visit our new website <a href="https://revistas.ucr.ac.cr">revistas.ucr.ac.cr</a>
+								<a href="https://archivo.revistas.ucr.ac.cr/index.php/rbt/user/register?source=">
+					
+				</a>
+			</div>
+			</fieldset>
+</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js?v=3.2.1.4" type="text/javascript"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js?v=3.2.1.4" type="text/javascript"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js?v=3.2.1.4" type="text/javascript"></script><script src="https://archivo.revistas.ucr.ac.cr/plugins/themes/healthSciences/js/main.js?v=3.2.1.4" type="text/javascript"></script><script src="https://archivo.revistas.ucr.ac.cr/plugins/themes/healthSciences/libs/jquery-ui.min.js?v=3.2.1.4" type="text/javascript"></script><script src="https://archivo.revistas.ucr.ac.cr/plugins/themes/healthSciences/libs/tag-it.min.js?v=3.2.1.4" type="text/javascript"></script><script src="https://archivo.revistas.ucr.ac.cr/plugins/generic/citationStyleLanguage/js/articleCitation.js?v=3.2.1.4" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.data = pkpUsageStats.data || {};pkpUsageStats.data.Submission = pkpUsageStats.data.Submission || {};pkpUsageStats.data.Submission[1751] = {"data":{"2019":{"1":8,"2":4,"3":6,"4":12,"5":9,"6":13,"7":7,"8":14,"9":9,"10":24,"11":7,"12":10},"2020":{"1":8,"2":6,"3":9,"4":6,"5":1,"6":2,"7":4,"8":16,"9":8,"10":6,"11":11,"12":8},"2021":{"1":8,"2":8,"3":5,"4":6,"5":10,"6":6,"7":32,"8":24,"9":9,"10":22,"11":18,"12":8},"2022":{"1":15,"2":2,"3":11,"4":15,"5":18,"6":6,"7":4,"8":12,"9":5,"10":3,"11":0,"12":0},"2023":{"1":1,"2":2,"3":0,"4":0,"5":2,"6":1,"7":1,"8":1,"9":0,"10":0,"11":0,"12":0},"2024":{"1":0,"2":0,"3":0,"4":2,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2025":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":2,"11":0,"12":0},"2026":{"1":2,"2":1,"3":0,"4":0,"5":0,"6":0,"7":0,"8":1,"9":0,"10":1,"11":0,"12":0}},"label":"All Downloads","color":"79,181,217","total":472};</script><script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.0.1/Chart.js?v=3.2.1.4" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.locale = pkpUsageStats.locale || {};pkpUsageStats.locale.months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];pkpUsageStats.config = pkpUsageStats.config || {};pkpUsageStats.config.chartType = "bar";</script><script src="https://archivo.revistas.ucr.ac.cr/plugins/generic/usageStats/js/UsageStatsFrontendHandler.js?v=3.2.1.4" type="text/javascript"></script><script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-126449882-1', 'auto');
+ga('send', 'pageview');
+</script>
+<style>
+.ojs-readonly-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.ojs-readonly-popup {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    width: 95%;
+    margin: 20px;
+    max-height: 85vh;	
+    position: relative;
+    animation: popupSlide 0.3s ease-out;
+    overflow-y: auto;
+}
+
+@keyframes popupSlide {
+    from {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.popup-header {
+    background: linear-gradient(135deg, #d73c3c, #f39c12);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+}
+
+.popup-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.popup-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.popup-body {
+    padding: 30px;
+}
+
+.language-section {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.language-section:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.language-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.flag {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+.message-text {
+    color: #555;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.contact-highlight {
+    background: #f8f9fa;
+    padding: 15px;
+    border-left: 4px solid #007acc;
+    margin: 15px 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.contact-text {
+    font-weight: 500;
+    color: #007acc;
+    margin: 0;
+}
+
+.new-site-notice {
+    background: linear-gradient(135deg, #e8f5e8, #f0f8ff);
+    padding: 15px;
+    border-left: 4px solid #28a745;
+    margin: 15px 0;
+    border-radius: 0 6px 6px 0;
+    border: 1px solid #d4edda;
+}
+
+.new-site-text {
+    font-weight: 500;
+    color: #155724;
+    margin: 0;
+}
+
+.popup-footer {
+    padding: 20px 30px;
+    background: #f8f9fa;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.btn-understand {
+    background: #007acc;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 120px;
+}
+
+.btn-new-site {
+    background: #155724;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 120px;
+}
+
+.btn-understand:hover {
+    background: #005a99;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 122, 204, 0.3);
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn:hover {
+    opacity: 1;
+}
+
+@media (max-width: 600px) {
+    .ojs-readonly-popup {
+        width: 95%;
+        margin: 10px;
+    }
+    
+    .popup-body {
+        padding: 20px;
+    }
+    
+    .popup-footer {
+        padding: 15px 20px;
+    }
+    
+    .popup-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btn-new-site {
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    .btn-understand {
+        width: 100%;
+    }
+}
+</style>
+
+<div class="ojs-readonly-overlay" id="readonlyPopup">
+    <div class="ojs-readonly-popup">
+        <div class="popup-header">
+            <button class="close-btn" onclick="closeReadonlyPopup()" aria-label="Close">×</button>
+            <div class="popup-icon"></div>
+            <h2 class="popup-title">Important Notice</h2>
+        </div>
+        
+        <div class="popup-body">
+            <div class="language-section">
+                <h3 class="language-title">
+                </h3>
+                <p class="message-text">
+		Este sitio web es la versión histórica de nuestro portal de revistas.  <br> Todos los artículos continúan disponibles en <strong>acceso abierto</strong> para consulta y descarga. 
+                </p>
+                <div class="contact-highlight">
+                    <p class="contact-text">
+			Importante: En este sitio ya no es posible registrarse ni enviar nuevos manuscritos.<br>  
+			 Para envíos y nuevas gestiones editoriales, por favor utilice nuestro <strong>nuevo portal</strong>.  
+                    </p>
+                </div>
+            </div>
+
+            <div class="language-section">
+                <h3 class="language-title">
+                </h3>
+                <p class="message-text">
+		This is the historical version of our journals portal. <br> All articles remain available in <strong>open access</strong> for consultation and download.  
+                </p>
+                <div class="contact-highlight">
+                    <p class="contact-text">
+			Please note: Registration and new submissions are no longer possible on this site.<br>             For manuscript submissions and editorial processes, please use our <strong>new portal</strong>.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+       
+        <div class="popup-footer">
+            <div class="popup-buttons">
+                <a href="https://revistas.ucr.ac.cr" class="btn-new-site" target="_blank" rel="noopener noreferrer">
+                    🌐  New portal
+                </a> <br> <br> <br>
+                <button class="btn-understand" onclick="closeReadonlyPopup()">
+                    Entendido / Understood
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function closeReadonlyPopup() {
+    const popup = document.getElementById('readonlyPopup');
+    popup.style.animation = 'fadeOut 0.3s ease-out forwards';
+    setTimeout(() => {
+        popup.style.display = 'none';
+        sessionStorage.setItem('ojsReadonlyPopupShown', 'true');
+    }, 300);
+}
+
+function showReadonlyPopup() {
+    const popup = document.getElementById('readonlyPopup');
+    popup.style.display = 'flex';
+}
+
+// Verificar si mostrar popup
+document.addEventListener('DOMContentLoaded', function() {
+    const alreadyShown = sessionStorage.getItem('ojsReadonlyPopupShown');
+    if (!alreadyShown) {
+        setTimeout(showReadonlyPopup, 1500);
+    }
+});
+
+// Cerrar con Escape o click fuera
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeReadonlyPopup();
+    }
+});
+
+document.addEventListener('click', function(event) {
+    const popup = document.getElementById('readonlyPopup');
+    if (event.target === popup) {
+        closeReadonlyPopup();
+    }
+});
+
+// Animación fade out
+const fadeOutStyle = document.createElement('style');
+fadeOutStyle.textContent = `
+    @keyframes fadeOut {
+        from { opacity: 1; }
+        to { opacity: 0; }
+    }
+`;
+document.head.appendChild(fadeOutStyle);
+</script>
+
+</body>
+</html>

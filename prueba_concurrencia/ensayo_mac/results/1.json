@@ -1,0 +1,62 @@
+{
+  "escenario": {
+    "id": "1",
+    "lugares": 50,
+    "repos": 500,
+    "items": 1250000,
+    "descripcion": "Línea base",
+    "modo": "corrutinas",
+    "db": false,
+    "duracion": 15.0,
+    "calentamiento": 5.0,
+    "tam_archivo": null
+  },
+  "semilla": 1,
+  "puerto": 8443,
+  "terminado_antes_de_tiempo": false,
+  "errores_por_tipo": {},
+  "servidor": {
+    "pedidos": 784,
+    "violaciones": 0,
+    "simultaneos": 0,
+    "intervalos_cortos": 0,
+    "ejemplos": [],
+    "cpu_servidor": [
+      5.7,
+      16.0,
+      14.3,
+      12.8,
+      13.9,
+      14.1,
+      13.8,
+      8.6,
+      13.1,
+      13.9,
+      15.2,
+      13.9,
+      13.9,
+      14.2,
+      15.9,
+      12.5,
+      14.8,
+      14.8,
+      16.3,
+      18.5
+    ]
+  },
+  "versiones": {
+    "python": "3.12.11",
+    "aiohttp": "3.14.5",
+    "plataforma": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "supuestos": {
+    "ancho_por_conexion_mb_s": 2.0,
+    "intervalo_s": 1.0
+  },
+  "bucle": {
+    "p50_ms": 0.18,
+    "p99_ms": 1.17,
+    "max_ms": 2.16,
+    "muestras": 150
+  }
+}

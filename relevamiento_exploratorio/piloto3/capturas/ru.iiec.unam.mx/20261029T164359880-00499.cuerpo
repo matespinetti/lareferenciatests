@@ -1,0 +1,853 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Voto electrónico: Un peligro para la democracia</title>
+    <style type="text/css">
+      body {font-family: sans-serif;}
+      blockquote {font-style: italic;}
+      dt {font-weight: bold;}
+      .ref {
+          background-color: #ddd; 
+          font-size: 80%;
+          vertical-align: super;
+      }
+      .title {
+          text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+  <h1 class="title">Voto electrónico: Un peligro para la democracia</h1>
+  <h1 class="title">Electronic voting: A danger for democracy</h1>
+
+
+<h2>RESUMEN</h2>
+
+<p>
+    En varios países de Latinoamérica, las autoridades electorales
+    están comenzando a voltear hacia las urnas de votación
+    electrónicas. Los argumentos con los cuales presentan estas urnas
+    a la población se centran particularmente en la disminución de
+    costos del proceso electoral, una mayor agilidad en la obtención
+    de resultados, y en poder tener más confianza en que las personas
+    involucradas no engañen a la población con resultados ilegítimos,
+    enfermedad de la cual Latinoamérica ha sufrido largamente. 
+</p>
+<p>
+    Las urnas electrónicas no son ya una novedad — Han sido utilizadas
+    por varios países, desde las primeras pruebas en la India en 1982
+    hasta una amplia base en la última década. Sin embargo, un
+    análisis sobre las experiencias vividas en ellos dista de ser
+    positiva — y dista de ser homogénea.
+</p>
+<p>
+    En el presente artículo serán analizados los desarrollos de estas
+    tres líneas argumentativas resultan huecos, en el mejor de los
+    casos, o directamente falaces. Se hace además una revisión de
+    algunos casos emblemáticos de fallas que han llevado al
+    replanteamiento –llegando incluso a la prohibición legal en
+    algunos casos– del voto electrónico alrededor del mundo.
+</p>
+
+<h2>PALABRAS CLAVE</h2>
+
+<p>
+    E-voto, voto electrónico, sociedad, democracia, experiencias
+    internacionales 
+</p>
+
+<h2>ABSTRACT</h2>
+
+<p>
+    Electoral authorities in several Latin American countries are
+    turning their heads towaards electronic voting booths. The
+    arguments through which electronic voting is being presented to
+    the population are mainle centered around reducing the costs of
+    the electoral process, achieving better turnaround times for
+    publishing electoral results, and being able to better trust that
+    the involved actors do not cheat the population with illegitimate
+    results, a disease Latin America has long suffered.
+</p>
+<p>
+    Electronic voting booths are not new. They have been used in
+    several different countries, since the early implementations in
+    India in 1982, and its usage has widely spread during the past
+    decade. However, an analysis on the international experiences
+    yields results far from optimistic — and far from homogeneous.
+</p>
+<p>
+    In this article, the outcome from the three above mentioned
+    argumentative lines is analized, showing they are not sound, in
+    the best case, or directly misleading. Some emblematic cases of
+    failures around the world that have led to a serious reevaluation
+    –and up to legal rulings banning its use– around the world are
+    reviewed as well.
+</p>
+
+<h2>KEY WORDS</h2>
+
+<p>
+    E-voting, electronic voting, society, democracy, international
+    experiences 
+</p>
+
+<h2>Introducción</h2>
+
+<p>
+Los promotores de las diferentes vertientes del Conocimiento Libre son
+los primeros en recalcar los tremendos fallos –de concepción y de
+implementación– que hacen que las estaciones computarizadas de emisión
+y contabilización de votos sean, desde su planteamiento, una causa
+perdida (Heinz, 2006) — Ninguna de las numerosas implementaciones a la
+fecha han salido airosas ante el escrutinio (incluso casual) de
+expertos en seguridad (Felten, 2008a), a veces con resultados
+verdaderamente nefastos (Balzarotti et. al., 2008a y 2008b). Los
+escrutinios generalmente han sido dirigidos por grupos de activistas
+independientes buscando señalar las deficiencias del proceso, con la
+muy notable excepción del ejemplo puesto por el Tribunal Superior
+Electoral de Brasil, el cual será abordado más adelante.
+</p>
+<p>
+Obviamente, estos resultados no son del agrado de las compañías que
+buscan vender máquinas supuestamente seguras, diseñadas ex-profeso
+para el conteo de votos. Se han dado a conocer incluso amenazas hechas
+contra dichos equipos de investigadores (Felten, 2008b) por llevar a
+cabo estos análisis. En este caso, la demanda es que, en asuntos tan
+sensibles, relevantes y tan frágiles ante la intervención como la vida
+de una sociedad democrática, es sencillamente imposible asegurar los
+elementos básicos de confiabilidad y auditabilidad.
+</p>
+<p>
+Cabe aclarar que la argumentación hecha en este capítulo no pone en
+duda los <em>fundamentos matemáticos</em>de diversos sistemas que serían
+aplicables a una votación electrónica, como las garantías descritas
+por (Ruiz, 2010), sino su <em>implementación</em>— Duda que se mantiene,
+como se ve más adelante, aún partiendo del supuesto de que el código
+está 100% disponible para su escrutinio. Lo que es más, algunos de los
+mecanismos descritos por Ruiz pueden ser empleados en contra del
+sistema democrático<a class="ref" href="#fn1">1</a>.
+</p>
+<p>
+Diversos argumentos han sido esgrimidos a favor del voto electrónico,
+pero pueden ser resumidos en tres:
+</p>
+<dl>
+<dt>Disminución de costos:</dt>
+<dd>
+      Un adecuado proceso democrático es caro. La papelería electoral
+      debe ser impresa con mecanismos suficientes para asegurar su
+      unicidad, deben proveerse mecanismos para garantizar que sólo
+      los electores autorizados emitan su voto, y debe haber garantías
+      de no manipulación para todos los componentes involucrados en el
+      proceso. La automatización del proceso ayudaría a implementar
+      estos candados a un menor costo.
+</dd>
+<dt>Agilidad en la obtención de resultados:</dt>
+<dd>
+      No hay nada que genere mayor falta de confianza y suspicacia en
+      los procesos que una demora en la publicación de los
+      resultados. Se ha argumentado que a través del voto electrónico,
+      los resultados pueden ser anunciados prácticamente de inmediato
+      tras haberse cerrado la casilla.
+</dd>
+<dt>Confiabilidad de los actores:</dt>
+<dd>
+      La experiencia de muchos países en torno a los fraudes
+      electorales apunta dolorosamente a la falta de integridad de los
+      actores involucrados en el proceso — Personas susceptibles ya
+      sea a la compra de concienicas, a la extorsión, o directamente a
+      la violencia física; si todo el proceso es controlado por
+      computadoras, éstos factores deberían perder peso.
+</dd>
+</dl>
+
+<p>
+En las siguientes secciones se analiza por qué los tres argumentos
+caen ante un sencillo análisis.
+</p>
+
+<h2>1. Disminución de costos</h2>
+
+<p>
+La sociedad está acostumbrada a lidiar con los bemoles del voto
+<em>tradicional</em>, utilizando al papel como su medio primario. Una
+crítica muy común a éstos procesos, especialmente en los países cuyas
+democracias no están bien consolidadas (y que por tanto, requieren de
+mucho mayor inversión tanto en la vigilancia como en la promoción de
+la participación de las elecciones) es el costo — En México, citando a
+un caso extremo (el sistema electoral más caro de América Latina
+(Urrutia y Martínez, 2009; Ojeda, Rueda y Chávez, 2010) ), cada
+sufragio emitido tanto en las elecciones federales intermedias del
+2009 como en las estatales del 2010 tuvo un costo superior a los 17
+dólares, aunque hay estimaciones que lo llegan a ubicar en hasta 50
+dólares, tomando en cuenta <em>gastos ocultos</em>.  Como fue
+mencionado anteriormente, un rubro que en el sin duda podrían
+presentarse importantes ahorros es en la generación, el manejo y la
+custodia del material electoral. Sin embargo, como queda demostrado
+tras el estudio realizado por Feldman, Halderman y Felten a las
+estaciones de votación Diebold AccuVote-TS (Feldman, Halderman, Felten
+2007), las más difundidas en los Estados Unidos y que han sido
+responsables de la recopilación de votos de hasta uno de cada diez
+electores de dicho país, enfrentadas a un atacante con conocimiento
+técnico especializado, éstas máquinas presentan un nivel de
+confiabilidad ante ataques verdaderamente bajo, y permiten
+—requiriendo de un tiempo mínimo de acceso— la reprogramación
+resultando en resultados fraudulentos que serían prácticamente
+imposibles de lograr en una elección tradicional sin recurrir a
+métodos violentos.
+</p>
+<p>
+Las vulnerabilidades descritas por Feldman, Halderman y Felten no son
+privativas a los equipos Diebold — En el sitio Web en el cual está
+publicado su artículo junto con un video de diez minutos demostrando
+su ataque y una lista de preguntas frecuentes mencionan: (traducido)
+</p>
+<blockquote>
+  — ¿Por qué estudiaron éstas máquinas Diebold? ¿Por qué no otras
+     tecnologías para votos?<br/>
+  — Estudiamos estas máquinas porque son las que conseguimos. Si
+     hubiésemos tenido acceso a otro tipo de máquinas, probablemente las
+     hubiéramos estudiado.<br/>
+  — ¿Son otras máquinas más seguras que las que estudiaron?<br/>
+  — No lo sabemos. Esperamos que así lo sean —las elecciones
+     dependen ya de ellas— pero no hay suficiente evidencia para
+     responder a esta pregunta<br/>
+  — Un rastro impreso verificado por cada votante es la protección
+     más importante que puede hacer más seguras a las máquinas de voto
+     electrónico.<br/>
+</blockquote>
+<p>
+El último punto mencionado es de especial relevancia: <em>Un rastro
+impreso verificado por cada votante</em>. La única garantía que un votante
+puede tener de que su voto fue registrado correctamente es que el
+sistema genere una boleta <em>impresa y de caracter irrevocable</em>, misma
+que sea verificada por el votante al instante, la cual se convertirá
+en el documento probatorio de la elección<a class="ref"
+href="#fn2">2</a>. No hay manera —ver la cita de (Thompson 1984) en la
+sección <em>Confiabilidad de los actores</em>— de que el estado interno de
+una computadora sea confiable, y muchísimo menos al tratarse del
+proceso más importante y más sensible de la vida política de un país.
+</p>
+<p>
+Incluso obviando esto, incluso si el único argumento fuera el
+económico, la adopción de un sistema electrónico de votación sigue
+resultando más caro que llevar a cabo una votación tradicional: El
+Tribunal Supremo de Elecciones de Costa Rica anunció que no
+implementará urnas electrónicas por su elevado costo (Villalobos
+2009). Al hacer este anuncio (y reforzando lo que se revisará en la
+sección <em>Agilidad en la obtención de resultados</em>), el
+presidente del TSE, Luis Antonio Sobrado, reconoció que
+hay <em>algunos riesgos que conlleva la puesta en marcha del voto
+electrónico como es el tener las urnas en línea, medida que a la fecha
+ningún país en el mundo ha querido asumir en este tipo de
+iniciativas</em>.
+</p>
+<p>
+Esto lleva entonces a una contradicción: El equipo de votación no es
+barato, en términos absolutos. Su adquisición por parte de un gobierno
+o ente de autoridad podría justificarse si se plantea prorratear a lo
+largo de varias elecciones — pero si éste tiene que estar sujeto a una
+estricta vigilancia contínua, incluso en los años en que no será
+utilizado. Debe recibir mantenimiento, y debe abastecerse con una
+cantidad no despreciable de insumos, para asegurar un rastro impreso
+verificado. Además, en caso de sufrir un desperfecto, todas las
+casillas deben tener un plan de respaldo: Casi indefectiblemente, esto
+significaría tener papelería tradicional para enfrentar desde un
+desperfecto del equipo hasta un sabotaje, por ejemplo, en el suminstro
+eléctrico. Por tanto, el supuesto ahorro puede volverse
+contraproducente, convirtiéndose en un gasto mucho mayor al que
+implican las votaciones tradicionales.
+</p>
+
+<h2>2. Agilidad en la obtención de resultados</h2>
+
+<p>
+Una de las principales obsesiones de la sociedad actual es la
+velocidad del acceso a la información. Los medios electrónicos de
+comunicación y el uso de Internet han acostumbrado a los ciudadanos a
+que la información debe estar disponible tan pronto ocurren los
+hechos, y debe llegar a toda la sociedad tan pronto está disponible.
+</p>
+<p>
+Los sistemas electorales en general estipulan que, para no manipular
+los resultados de una elección en proceso, no deben darse a conocer
+sus resultados parciales hasta que haya cerrado la última de las urnas
+– No hacerlo de esta manera significaría que el conocimiento público
+de la tendencia influiría en los resultados de muchas maneras
+indeseables. Sin embargo, una vez que cierra ésta última urna, en la
+mayor parte de las democracias modernas hay un periodo típicamente de
+un par de horas en que es necesario esperar a que las autoridades
+electorales recopilen la información generada por típicamente decenas
+de miles de casillas y den a conocer el resultado. Hay una gran
+presión por parte de los ciudadanos, y muy especialmente de los
+medios, para que las autoridades electorales publiquen los resultados
+<em>de inmediato</em>. Además del apetito por la información expedita, ésto
+viene fundamentado en ejemplos de ocultamientos de información que
+eran realizados conforme los números comenzaban a fluir — Ejemplo de
+esto son las declaraciones que hizo veinte años más tarde Manuel
+Bartlett Díaz, quien fuera en 1988 Secretario de Gobernación y
+presidente de la Comisión Federal Electoral durante las muy
+cuestionadas elecciones presidenciales de ese año (Becerril 2008): La
+decisión de no dar a conocer datos preliminares fue tomada por el
+presidente Miguel de la Madrid, dado que, cito: <em>si se oficializaba en
+ese momento –con datos parciales– que Cárdenas Solórzano iba ganando,
+al final nadie aceptaría un resultado distinto</em>.
+</p>
+<p>
+En la experiencia mexicana, la situación ha cambiado radicalmente de
+la imperante hace tan sólo dos décadas, como claro resulado de las
+frecuentes acusaciones de fraude electoral que dicho sistema electoral
+ha sufrido — En vez de una demora cercana a una semana, el Instituto
+Federal Electoral y las autoridades correspondientes de cada uno de
+las entidades federativas publican los resultados de las <em>encuestas de
+salida</em>y los <em>conteos rápidos</em>típicamente dentro de las dos primeras
+horas tras haber concluído la votación, siempre que haya suficiente
+márgen estadístico para no causar confusión en la población.
+</p>
+<p>
+Impulsar una solución con tantos riesgos como una urna electrónica
+para ganar como tope estas dos horas sencillamente no tiene
+sentido. Además, el tiempo invertido por los funcionarios electorales
+en cada casilla en el conteo de votos emitidos es sólo una fracción
+del dedicado a las tareas de verificación y protocolización que deben
+llevarse a cabo antes de declarar concluída una elección. Sumando ésto
+a que –por consideraciones de seguridad<a class="ref"
+href="fn3">3</a>– las estaciones de voto no están pensadas para contar
+con conectividad a red (y que ni los países más industrializados
+cuentan con una cobertura de Internet del 100% de su territorio), por
+lo cual debe haber forzosamente un paso manual de comunicación de
+resultados al centro de control de la autoridad electoral, el
+argumento de reducción de tiempos queda descartado.
+</p>
+<p>
+Federico Heinz cierra su texto «¿El voto electrónico mejora la
+democracia?» (Heinz 2006) con la siguiente idea:
+</p>
+<blockquote>
+     Una alternativa factible es realizar la votación mediante
+     formularios que contengan a todos los partidos, dejar que los
+     votantes marquen su elección con tinta, y usar un scanner óptico
+     para hacer un escrutinio automático, verificable mediante un
+     simple recuento manual. No hay nada en contra de un escrutinio
+     electrónico, pero digitalizar el acto mismo de la emisión del
+     voto es extremadamente peligroso para la democracia.
+</blockquote>
+<p>
+El uso de boletas de papel y tinta aptas para ser scanneadas por
+equipo de reconocimiento óptico puede ser la opción más adecuada en
+este sentido. Permite la verificación de cientos de boletas en apenas
+un par de minutos, y permite conservar todos los atributos positivos
+del sistema tradicional.
+</p>
+
+<h2>3- Confiabilidad de los actores</h2>
+
+<p>
+Algunos proponentes del voto electrónico mencionan que con el voto
+tradicional en papel todos estos fraudes siempre han
+existido<a class="ref" href="fn4">4</a>, y que éste no agrava los
+riesgos — Sin embargo, más que reducir las posibilidades de los
+agentes fraudulentos, al implementar el voto electrónico, se estaría
+aumentando la profundidad a la que podrían llegar, y lo que es más
+importante aún, imposibilitando cualquier acción de auditoría o
+rendición de cuentas.
+</p>
+<p>
+La votación electrónica tiene muchas modalidades y muchas aristas. En
+líneas generales, y contrario a lo que muchos esperarían, los expertos
+en seguridad informática y los activistas sociales involucrados en
+esta lucha no recomiendan exigir que las urnas electrónicas estén
+basadas en Software Libre para su funcionamiento, sino que
+sencillamente recomiendan en contra de su utilización.  Citando a
+(Heinz 2006):
+</p>
+<blockquote>
+     El mecanismo de auditar completamente el funcionamiento de las
+     urnas es impracticable. Esta es una tarea que sólo podría ser
+     ejecutada por una elite de especialistas, de los que hay muy
+     pocos en el mundo, y requiere la cooperación de las empresas que
+     proveen las urnas así como de todos sus proveedores. Y aún si
+     consiguiéramos todo eso, la eficacia de una auditoría sería más
+     que dudosa: no sólo debemos garantizar que todo el software es
+     correcto (lo que es imposible), sino que además debemos verificar
+     que el software presente en las urnas el día de la elección es
+     idéntico al auditado, tarea que nuevamente requiere de
+     especialistas. ¿Y por qué hemos de confiar en los especialistas,
+     si no queremos confiar en sacerdotes ni en empresas? Una de las
+     muchas virtudes del "anticuado" sistema de escrutino tradicional
+     es que cualquier persona que sepa leer, escribir y hacer
+     operaciones de aritmética elemental está en condiciones de
+     controlarlo. Esta es una característica esencial y no debemos
+     renunciar a ella.
+</blockquote>
+<p>
+Uno de los más interesantes argumentos que ilustran por qué las urnas
+electrónicas carecen inherentemente de confiabilidad es el presentado
+—sin aplicarlo en éste ramo específico— por Ken Thompson en 1983
+(Thompson 1984), en su discurso al recibir el Premio Turing de la
+ACM<a class="ref" href="fn5">5</a>. Thompson hace una sencilla demostración de por qué un sistema
+que llega al <em>usuario final</em>(y esto es mucho más cierto hoy en día
+que en 1983, en que los lenguajes y marcos de desarrollo utilizados
+suben increíblemente en la escala de la abstracción comparado con lo
+existente entonces) es prácticamente imposible de auditar por completo
+un programa, ni siquiera teniendo su código fuente, <em>ni siquiera
+teniendo el código fuente del compilador</em>. Traduciendo de las
+conclusiones de Thompson:
+</p>
+<blockquote>
+     La moraleja es obvia. No puedes confiar en el código que no
+     creaste tú mismo. (Especialmente código proveniente de compañías
+     que emplean a gente como yo). No hay un nivel suficiente de
+     verificación o escrutinio de código fuente que te proteja de
+     utilizar código no confiable. En el proceso de demostrar la
+     posibilidad de este tipo de ataque, elegí al compilador de
+     C. Podría haber elegido a cualquier programa que manipule a otros
+     programas, como al ensamblador, cargador, o incluso microcódigo
+     embebido en el hardware. Conforme el nivel de programación se
+     vuelve más bajo, éstos fallos se volverán más y más difíciles de
+     detectar. Esta vulnerabilidad bien instalada en microcódigo será
+     prácticamente imposible de detectar.
+</blockquote>
+<p>
+Éste argumento ha sido clave para llegar a conclusiones como la
+adoptada en marzo del 2009 por la Corte Suprema de Alemania: (BVerfG
+2009, Heinz, 1009)
+<p>
+<blockquote>
+     Un procedimiento electoral en el que el elector no puede
+     verificar de manera confiable si su voto fue registrado sin
+     falsificación e incluido en el cálculo del resultado de la
+     elección, así como comprender cabalmente de qué manera los votos
+     totales emitidos son asignados y contados, excluye del control
+     público a componentes centrales de la elección, y por lo tanto no
+     alcanza a satisfacer las exigencias constitucionales.
+</blockquote>
+</p>
+El punto de la confiabilidad es el que más fervientemente se sigue
+debatiendo.  El caso brasileño resulta muy esperanzador: A diferencia
+de la mayor parte de los gobiernos de países supuestamente
+desarrollados, en Brasil la tecnología utilizada para el voto
+electrónico está completamente basada en tecnología desarrollada
+localmente, empleando software libre. En noviembre del 2009, el
+Tribunal Superior Electoral brasileño convocó a la comunidad de
+seguridad a encontrar vulnerabilidades sobre las estaciones receptoras
+de votos, a cambio de una recompensa económica para los mejores
+análisis (TSEB 2009). Dentro de los términos estipulados, sólo uno de
+los participantes (Sergio Freitas da Silva) logró su propósito
+(Busaniche 2009). Y si bien no logró vulnerar los resultados de éste
+sistema, sí logró –mediante un monitoreo de las radiaciones
+electromagnéticas– averiguar por quién emitía su voto cada uno de los
+electores, rompiendo el principio de secrecía electoral, empleando
+únicamente equipo casero de bajo costo al buscar que esto fuera
+meramente una prueba de concepto; un atacante determinado podría
+utilizar equipo mucho más sofisticado para intervenir las votaciones a
+mucha mayor distancia.
+</p>
+<p>
+Y si bien el sistema empleado por Brasil sale mucho mejor parado que
+los empleados en Europa y Estados Unidos, no debemos tomar la ausencia
+de evidencia por evidencia de ausencia: Lo único que demostraron es
+que ninguno de los atacantes pudo demostrar una vulnerabilidad en el
+periodo estipulado, o no quiso hacerlo por el precio ofrecido, pero
+nada indica que no haya fallas no encontradas — O peor aún, <em>puertas
+traseras</em>intencionales.
+</p>
+
+<h2>4- Experiencias internacionales</h2>
+
+<p>
+Por último, se presenta un listado de experiencias en diversos países,
+ilustrando muy brevemente el tipo de problemas a que puede conducir la
+adopción del voto electrónico. Queda claro que esta no es una lista
+comprehensiva, sólo indicativa. Para una descripción mucho más
+exhaustiva, sugiero consultar (UMIC-ASC 2009).
+</p>
+<ul>
+  <li>En 2004, el Secretario de Estado de California, Kevin Shelley,
+      des-certificó y prohibió el uso de ciertos modelos de urnas
+      electrónicas Diebold en cuatro condados, y ordenó a 10 condados
+      adicionales dar pasos para mejorar la seguridad y confiabilidad
+      de dichos equipos (Lucas 2004), al descubrirse que el software
+      con que habían sido enviadas dichas urnas no era el mismo que el
+      que se había sometido para certificación.
+  </li>
+  <li>La elección municipal de 2005 en Montreal, Canadá, se realizó
+      utilizando urnas electrónicas, con resultados desastrozos — Del
+      órden de 45,000 votos fueron contabilizados doblemente (Geist
+      2006). La autoridad electoral realizó un análisis de las
+      elecciones, y publicó un amplio reporte (DGEQ 2006) analizando
+      las causas y cursos de acción a seguir, entre los cuales se
+      menciona la necesidad de tener acceso completo al código fuente,
+      el empleo de pruebas de funcionalidad, establecimiento de un
+      plan de respaldo en caso de problemas, la implementación de
+      medidas estrictas para almacenamiento y resguardo de los
+      equipos. Marcel Blanchet, funcionario electoral en jefe,
+      (traducido) (…) opina que las urnas y terminales de votación
+      electrónicas son tecnologías vulnerables.  Más allá, la manera
+      en que fueron manejadas no ofrece suficiente garantía de
+      transparencia y seguridad para asegurar la integridad del voto.
+  </li>
+  <li>Ed Felten ha escrito en repetidas ocasiones respecto a lo
+      inadecuadas que son diversas urnas electrónicas. Uno de los
+      primeros ejemplos que publicitó, en 2006, es la pobre seguridad
+      física en dichos equipos — Las urnas pueden ser abiertas por una
+      llave genérica de cajones de oficina y minibares de hotel
+      (Felten 2006).
+  </li>
+  <li>En Argentina, en 2007, se ensayó el voto electrónico en la
+      localidad de Las Grutas, provincia de Río Negro. Hubo una muy
+      gran cantidad de discrepancias entre el padrón electoral y el
+      padrón registrado digitalmente, con lo que muchos votantes no
+      pudieron expresar su voluntad. Mientras en las mesas
+      tradicionales se registró del órden del 70% de votación, en las
+      mesas con urna electrónica sólo se llegó al 40%.  Además de
+      esto, por errores en el manejo de la urna por parte de las
+      autoridades de una de las casillas, ésta eliminó los registros
+      en vez de guardarlos en la memoria externa. (Salinas 2008). El
+      ciudadano Sergio Daniel Plos presentó un amparo para que su
+      localidad no volviera a participar en elecciones electrónicas,
+      escrito al cual se adhirieron aproximadamente el 10% de los
+      votantes de la localidad (Busaniche 2007). En 2010, ante pasos
+      que llevarían a la implantación de voto electrónico en la
+      provincia de Salta, políticos de diversos partidos interpusieron
+      un recurso refiriéndose al caso de Las Grutas (Busaniche 2010).
+  </li>
+  <li>Felten exhibe también el ejemplo de una estación de votación
+      para las elecciones primarias en Nueva Jersey, 2008 (Felten
+      2008a), en que se puede ver un error aritmético al calcular la
+      suma de votos.
+  </li>
+  <li>Las elecciones presidenciales de los Estados Unidos de América
+      de noviembre de 2008, si bien no presentaron los graves
+      problemas de legitimidad que sufrieron en 2000 y 2004,
+      presentaron irregularidades en varios Estados. El periódico
+      Anchorage Daily News (Alaska) reseña (Gordon 2008) Los
+      siguientes casos: En Virginia y Pensilvania hubo varias
+      descomposturas en las urnas electrónicas, lo que evitó que
+      muchas personas no pudieran ejercer su derecho a voto. En
+      algunos casos, les fueron presentadas boletas de tipo
+      erróneo. Por otro lado, en Michigan, el día anterior a la
+      elección se descubrió que varias de las urnas electrónicas
+      presentaban desperfectos, por lo cual se instrumentó una
+      votación tradicional — pero sin papelería electoral específica
+      que presentara las garantías adecuadas de unicidad.
+  </li>
+  <li>Las elecciones primarias del Partido Laborista en Israel, 2008,
+      tuvieron que ser pospuestas una vez que habían iniciado, dado
+      que las urnas presentaban problemas de usabilidad — Algunas
+      pantallas no registraban las respuestas de los votantes, otras
+      registraban votos cuando no habían sido aún tocadas, o marcaban
+      opciones equivocadas (Khoury, Singer-Heruti, Ilani 2008). Las
+      fallas fueron generalizadas, tanto que el partido tuvo que
+      cancelar la operación y repetirla al día siguiente al estilo
+      <em>tradicional</em>, con sobres, papeletas y una urna de cartón.
+  </li>
+  <li>Después de que Holanda fuera uno de los países pioneros en
+      implementación de urnas electrónicas, el grupo <em>Wij
+      vertrouwen stemcomputers niet</em> (<em>No confiamos en las
+      computadoras votantes</em>) presentó en vivo, en el programa de
+      televisión EénVandaag, cómo modificar la programación de las
+      urnas electrónicas <em>Nedap</em>. Este hecho llevó a un amplio
+      debate, que culminó con un reporte de la Comisión Asesora en
+      Procesos Electorales, recomendando en 2008 revertir la
+      recomendación que llevó a la implementación del voto
+      electrónico, y rechazando la propuesta de reimplementar una
+      nueva generación de urnas electrónicas paliando este problema
+      (WVSC 2009), (EPAC 2007). Hoy en día, los procesos electorales
+      honadeses son nuevamente en papel, con conteo manual.
+  </li>
+  <li>Todo aparato electrónico emite radiación electromagnética
+      dependiendo de sus procesos internos, mismos que pueden ser
+      <em>olfateados</em>por equipos ubicados hasta a decenas de
+      metros. Un ejemplo de esto, hecho completamente con equipo
+      casero, es el ataque resultante de la convocatoria del Tribunal
+      Superior Electoral de Brasil (TSEB 2009) en 2009, por medio del
+      cual, con equipo completamente casero, el atacante logró
+      averiguar el sentido de cada uno de los votos sin acceso al
+      equipo (Busaniche 2009, Felitti 2009).
+  </li>
+  <li>En La India, prácticamente la totalidad de la población vota en
+      urnas exclusivamente electrónicas, desarrolladas por el gobierno
+      nacional en las últimas dos décadas, la EVM. El funcionamiento
+      interno de estos equipos se había mantenido en secreto para
+      evitar que la comunidad dedicada a la seguridad en cómputo
+      encontrara vulnerabilidades; en abril del 2010, un grupo
+      lidereado por Alex Halderman, Hari Prasad y Rop Gonggrijp
+      consiguió una EVM y publicó dos ataques que pueden ser llevados
+      a cabo en unos cuantos minutos, y permiten alterar los
+      resultados. Dado que la EVM no produce rastro en papel y la
+      única evidencia es su estado interno, esta modificación es
+      indetectable, y resulta simple "obligar" a estas máquinas a
+      entregar resultados fraudulentos.
+  </li>
+</ul>
+
+<h2>5- Conclusiones</h2>
+
+<p>
+Casos ilustrativos de fracasos con urnas electrónicas hay de sobra -
+Los aquí presentados y muchos más. Claro está, hay también importantes
+casos de éxito. Si la discusión respecto a la conveniencia del voto
+electrónico sigue sobre la mesa, a casi 30 años de sus primeras
+aplicaciones internacionales, es reflejo de que en la amplia mayoría
+de los casos las urnas electrónicas sí han dado resultados aceptables
+a la sociedad.
+</p>
+<p>
+Sin embargo, presentar un listado de países o regiones que han
+implementado esquemas de voto electrónico sin registrar incidentes
+está más allá del propósito del presente trabajo — No motivados por un
+ánimo de demeritar a dicha tecnología, sino por lo expuesto hacia el
+final de la sección 3: <em>No debemos tomar la ausencia de evidencia
+por evidencia de ausencia</em>. El que dichas votaciones hayan sido
+exitosas no significa necesariamente que no haya podido haber fraude
+de tipo alguno, sino que en caso de presentarse, éste podría no haber
+ser detectado.
+</p>
+</p>
+Lo fundamental de los argumentos y casos aquí presentados no es el
+impacto que hayan tenido o que se hayan detectado a tiempo — Lo
+principal es que hacen patentes, en diversas dimensiones, los
+problemas de confiabilidad no sólo en los supuestos fundamentos de
+funcionamiento sino que en la misma naturaleza humana.
+</p>
+<p>
+Incluso para tareas aparentemente tan simples como la de sumar votos,
+nadie ha sido capaz de producir un sólo proceso tan confiable y
+auditable como la revisión humana de papeletas físicas.
+</p>
+Los diversos trabajos que se han realizado buscando dar mayor fuerza a
+alguno de los atributos de la democracia basados en voto electrónico
+invariablemente hacen que los demás atributos pierdan. Dar
+verificabilidad a los votos emitidos a través del empleo de algoritmos
+criptográficos va en demérito del voto secreto; habilitar el acceso a
+las estaciones de votación desde computadoras conectadas a red se
+contrapone a un adecuado nivel de verificación de la identidad de cada
+votante; el confiar en la programación de una máquina para realizar el
+conteo va en contra de la auditabilidad del proceso por cualquier
+ciudadano. El voto electrónico no se volverá confiable al
+desarrollarse algoritmos adecuados, sino que –sea como sea que esté
+planteado– siempre representará una regresión en la confiabilidad del
+proceso más importante en la vida de una sociedad democrática.
+</p>
+<p>
+Es por esto que la conclusión principal a la que el presente trabajo
+arriba es que el voto a través de urnas electrónicas no sólo es
+inadecuado el día de hoy para las necesidades de las sociedades
+latinoamericanas (y de otras latitudes), sino que es un tema con
+fallos insalvables desde su mismo planteamiento. 
+</p>
+<p>
+Un sistema democrático requiere, en primer y muy destacado lugar, de
+confiabilidad. Los argumentos por medio de los cuales se invita al
+voto electrónico son falaces, y más que resolver una problemática, la
+exacerban.
+</p>
+
+<hr>
+<h2>NOTAS AL PIE</h2>
+
+<p><a class="ref" name="fn1">1</a>
+  Véase como ejemplo la prueba de la emisión de un voto basada en
+  <em>cero conocimiento</em>: Si bien el esquema sugerido permitiría
+  que cada votante individual verifique que su voto haya sido tomado
+  en cuenta, sin divulgar el sentido de los votos de los demás, esta
+  propiedad sería ideal para la <em>compra de votos</em>, tan
+  tristemente común en nuestra América Latina. Si en una votación
+  pudiera demostrarse el sentido del voto de determinado individuo,
+  indudablemente habrá quien sepa exigirle a dicho individuo le
+  demuestre que su voto fue realizado en el sentido "correcto".
+</p>
+<p><a class="ref" name="fn2">2</a>
+  Y claro está, es fundamental que cada una de estas boletas sea
+  generada por separado, recortada de la inmediata anterior y
+  posterior, con garantía de que no haya un patrón seguible en el
+  corte, para garantizar el anonimato del elector
+</p>
+<p><a class="ref" name="fn3">3</a>
+  Si es de preocupar la falta de seguridad en una computadora que
+  corre aislada de atacantes externos, no tiene sentido siquiera
+  entrar en detalles respecto a la cantidad de riesgos que supondría
+  tenerla conectada a Internet.
+</p>
+<p><a class="ref" name="fn4">4</a>
+  P.ej. reseñando a la videoconferencia en que este tema fue
+  presentado en el marco del Seminario en que se desarrolló el
+  proyecto, Beatriz Ramírez refiere
+  (http://seminario.edusol.info/resena/beatriz-ramirez/2009/03-1): <em>De
+  acuerdo a mi experiencia, como ciudadana argentina, no he estado
+  libre del robo –perdón quise decir "extravío"– de encomiendas
+  postales, ni es secreto que en Argentina votan en elecciones
+  presidenciales, cantidad de muertos</em>.
+</p>
+<p><a class="ref" name="fn5">5</a>
+  Premio al que comunmente se hace referencia como el <em>nóbel del
+  cómputo</em>
+</p>
+
+<hr>
+<h2>BIBLIOGRAFÍA</h2>
+
+<ul>
+  <li>Balzarotti, D. et. al. (2008a)
+    <em>Are Your Votes Really Counted? Testing the Security of
+    Real-world Electronic Voting Systems</em>
+    International Symposium on Software Testing and Analysis; Seattle, WA.
+    ISBN: 978-1-59593-904.
+    <a href="http://www.cs.ucsb.edu/~seclab/projects/voting/issta08_voting.pdf">http://www.cs.ucsb.edu/~seclab/projects/voting/issta08_voting.pdf</a>
+  </li>
+  <li>Balzarotti, D. et. al. (2008b)
+    <em>Evaluating the Security of Electronic Voting Systems</em>
+    <a href="http://www.cs.ucsb.edu/~seclab/projects/voting/index.html">http://www.cs.ucsb.edu/~seclab/projects/voting/index.html</a>
+  </li>
+  <li>Becerril, Andrea (2008)
+    <em>De la Madrid me ordenó no informar que Cárdenas iba ganando,
+    asegura Bartlett</em>
+    En: Periódico "La Jornada" (México D.F., México)
+    Consultado en: Julio 2008
+    <a href="http://www.jornada.unam.mx/2008/07/03/index.php?section=politica\&article=013n1pol">http://www.jornada.unam.mx/2008/07/03/index.php?section=politica\&article=013n1pol</a>
+  </li>
+  <li>Busaniche, Beatriz (2007)
+    <em>Recurso de amparo contra el voto electrónico en Río Negro</em>
+    Consultado en: 2010-05-28.
+    <a href="http://www.vialibre.org.ar/2007/12/07/recurdo-de-amparo-contra-el-voto-electronico-en-rio-negro/">http://www.vialibre.org.ar/2007/12/07/recurdo-de-amparo-contra-el-voto-electronico-en-rio-negro/</a>
+  </li>
+  <li>Busaniche, Beatriz (2009)
+    <em>Un investigador logra violar el secreto del voto en las urnas
+    brasileñas</em>
+    Consultado en: 2009/12/29
+    <a href="http://www.vialibre.org.ar/2009/12/02/un-investigador-logra-violar-el-secreto-del-voto-en-las-urnas-brasilenas/">http://www.vialibre.org.ar/2009/12/02/un-investigador-logra-violar-el-secreto-del-voto-en-las-urnas-brasilenas/</a>
+  </li>
+  <li>Busaniche, Beatriz (2010)
+    <em>Partidos políticos impugnan el uso de voto electrónico en Salta.</em>
+    Consultado en: 2010-05-28
+    <a href="http://www.vialibre.org.ar/2010/05/28/partidos-politicos-impugnan-el-uso-de-voto-electronico-en-salta/">http://www.vialibre.org.ar/2010/05/28/partidos-politicos-impugnan-el-uso-de-voto-electronico-en-salta/</a>
+  </li>
+  <li>BVerfG (2009)
+    <em>Beim Einsatz elektronischer Wahlgeräte müssen die wesentlichen Schritte
+    der Wahlhandlung und der Ergebnisermittlung vom Bürger zuverlässig und
+    ohne besondere Sachkenntnis überprüft werden können.</em>
+    paragraph 1-163.
+    <a href="http://www.bverfg.de/entscheidungen/cs20090303_2bvc000307.html">http://www.bverfg.de/entscheidungen/cs20090303_2bvc000307.html</a>
+  </li>
+  <li>DGEQ (2006) (Directeur général des élections du Québec)
+    <em>Rapport d'évaluation des nouveaux mécanismes de votation.</em>
+    Directeur général des élections du Québec.
+    <a href="http://defids.qc.ca/english/news-detail.php?id=2624">http://defids.qc.ca/english/news-detail.php?id=2624</a>.
+  </li>
+  <li>EPAC (2007) (Election Process Advisory Commission)
+    <em>Voting with confidence.</em>
+    The Hague: Ministry of the Interior and Kingdom Relations,
+    Pág. 74.
+    <a href="http://wijvertrouwenstemcomputersniet.nl/images/0/0c/Votingwithconfidence.pdf">http://wijvertrouwenstemcomputersniet.nl/images/0/0c/Votingwithconfidence.pdf</a>
+  </li>
+  <li>Feldman, Ariel J., Halderman, J. Alex y Felten, Ed (2007)
+    <em>Security Analysis of the Diebold AccuVote-TS Voting
+    Machine.</em> 
+    2007 USENIX/ACCURATE Electronic Voting Technology Workshop (EVT'07)
+    <a href="http://itpolicy.princeton.edu/voting/">http://itpolicy.princeton.edu/voting/</a>.
+  </li>
+  <li>Felitti, Guilherme (2009)
+    <em>Perito quebra sigilo e descobre voto de eleitores em urna
+    eletrônica do Brasil.</em>
+    En: Revista "IDG Now!"
+    Consultado en: 2010-05-28
+    <a href="http://idgnow.uol.com.br/seguranca/2009/11/20/perito-quebra-sigilo-eleitoral-e-descobre-voto-de-eleitores-na-urna-eletronica/">http://idgnow.uol.com.br/seguranca/2009/11/20/perito-quebra-sigilo-eleitoral-e-descobre-voto-de-eleitores-na-urna-eletronica/</a>
+  </li>
+  <li>Felten, Ed (2006)
+    <em>"Hotel Minibar" Keys Open Diebold Voting Machines</em>
+    <a href="http://freedom-to-tinker.com/blog/felten/hotel-minibar-keys-open-diebold-voting-machines">http://freedom-to-tinker.com/blog/felten/hotel-minibar-keys-open-diebold-voting-machines</a>
+  </li>
+  <li>Felten, Ed (2008a)
+    <em>Evidence of New Jersey Election Discrepancies.</em>
+    <a href="http://freedom-to-tinker.com/blog/felten/evidence-new-jersey-election-discrepancies">http://freedom-to-tinker.com/blog/felten/evidence-new-jersey-election-discrepancies</a>.
+  </li>
+  <li>Felten, Ed (2008b)
+    <em>Interesting Email from Sequoia.</em>
+    <a href="http://freedom-to-tinker.com/blog/felten/interesting-email-sequoia">http://freedom-to-tinker.com/blog/felten/interesting-email-sequoia</a>.
+  </li>
+  <li>Geist, Michael (2006)
+    <em>Time To Cast A Vote Against E-Voting</em>
+    En: Periódico "Toronto Star" (Toronto, Ontario, Canadá)
+    <a href="http://www.michaelgeist.ca/content/view/1491/159/">http://www.michaelgeist.ca/content/view/1491/159/</a>.
+  </li>
+  <li>Gordon, Greg (2008)
+    <em>Glitches hamper voting in five states</em>
+    En: Periódico "Anchorage Daily News" (Anchorage, Alaska, EUA)
+    <a href="http://www.adn.com/2008/11/04/578431/glitches-hamper-voting-in-five.html">http://www.adn.com/2008/11/04/578431/glitches-hamper-voting-in-five.html</a>
+  </li>
+  <li>Heinz, Federico (2006)
+    <em>¿El voto electrónico mejora la democracia?</em>
+    Voto electrónico: Los riesgos de una ilusión
+    ISBN: 978-987-22486-5-9
+    <a href="http://www.vialibre.org.ar/2006/10/07/el-voto-electrnico-mejora-la-democracia/">http://www.vialibre.org.ar/2006/10/07/el-voto-electrnico-mejora-la-democracia/</a>
+  </li>
+  <li>Heinz, Federico (2009)
+    <em>Alemania: urnas electrónicas anticonstitucionales.</em>
+    Consultado en: 2009/03/06.
+    <a href="http://www.vialibre.org.ar/2009/03/06/alemania-urnas-electronicas-anticonstitucionales/">http://www.vialibre.org.ar/2009/03/06/alemania-urnas-electronicas-anticonstitucionales/</a>
+  </li>
+  <li>Khoury, Jack, Roni Singer-Heruti y Ofri Ilani (2008)
+    <em>Labor sets primary for tomorrow after computer failure.</em>
+    En: Periódico "Haaretz" (Israel)
+    <a href="http://www.haaretz.com/print-edition/news/labor-sets-primary-for-tomorrow-after-computer-failure-1.258707">http://www.haaretz.com/print-edition/news/labor-sets-primary-for-tomorrow-after-computer-failure-1.258707</a>
+  </li>
+  <li>Lucas, Greg (2004)
+    <em>State bans electronic balloting in 4 counties.</em>
+    En: Periódico "San Francisco Chronicle" (San Francisco California, EUA)
+    <a href="http://www.sfgate.com/cgi-bin/article.cgi?file=/c/a/2004/05/01/MNG036EAF91.DTL">http://www.sfgate.com/cgi-bin/article.cgi?file=/c/a/2004/05/01/MNG036EAF91.DTL</a>
+  </li>
+  <li>Ojeda Lajud, Olga, Rueda, Rivelino y Chávez, Víctor (2010)
+    <em>El voto mexicano cuesta 18 dólares; es el más caro de América Latina.</em>
+    En: Periódico "El Financiero" (México D.F., México)
+    Consultado en: 20/05/2010
+    <a href="http://impreso.elfinanciero.com.mx/pages/NotaPrint.aspx?IdNota=320373">http://impreso.elfinanciero.com.mx/pages/NotaPrint.aspx?IdNota=320373</a>
+  </li>
+  <li>Villalobos Ramírez, Marcela (2009)
+    <em>Desechan voto electrónico.</em>
+    En: Periódico "Diario Extra" (San José, Costa Rica)
+    Consultado en:
+    <a href="http://www.diarioextra.com/2009/diciembre/10/nacionales14.php">http://www.diarioextra.com/2009/diciembre/10/nacionales14.php</a>
+  </li>
+  <li>Ruiz Duarte, Eduardo (2010)
+    <em>Álgebra de votaciones para procesos electorales</em>
+    Consultado en: 2010-05-28.
+    <a href="http://b3ck.blogspot.com/2010/02/algebra-de-votaciones-para-procesos.html">http://b3ck.blogspot.com/2010/02/algebra-de-votaciones-para-procesos.html</a>
+  </li>
+  <li>Salinas, Yamil (2008)
+    <em>Experiencia fallida de voto electrónico en Argentina.</em>
+    Consultado en: 2010-05-28.
+    <a href="http://www.yamilsalinas.net/2008/07/22/experiencia-fallida-de-voto-electronico-en-argentina/">http://www.yamilsalinas.net/2008/07/22/experiencia-fallida-de-voto-electronico-en-argentina/</a>
+  </li>
+  <li>Thompson, Ken (1984)
+    <em>Reflections on trusting trust.</em>
+    En: Communications of the ACM
+    Agosto, 1984
+    Págs. 761-763.
+    ISSN: 0001-0782.
+    <a href="http://portal.acm.org/citation.cfm?id=358210&jmp=cit&coll=portal&dl=ACM&CFID=://cacm.acm.org/magazines/1984/8&CFTOKEN=cacm.acm.org/magazines/1984/8$#$CIT">http://portal.acm.org/citation.cfm?id=358210&jmp=cit&coll=portal&dl=ACM&CFID=://cacm.acm.org/magazines/1984/8&CFTOKEN=cacm.acm.org/magazines/1984/8$#$CIT</a>
+  </li>
+  <li>TSEB (2009) (Tribunal Superior Eleitoral do Brasil)
+    <em>Teste de segurança do sistema eletrônico de votação.</em>
+    Consultado en: 2009/12/29
+    <a href="http://www.tse.gov.br/internet/eleicoes/teste_seguranca.htm">http://www.tse.gov.br/internet/eleicoes/teste_seguranca.htm</a>
+  </li>
+  <li>UMIC-ASC (2009) (UMIC Agência para a Sociedade do Conhecimento)
+    <em>Electronic Voting Experiments in Political Elections around
+    the World.</em> 
+    UMIC - Agência para a Sociedade do Conhecimento; Ministério da ciéncia,
+    tecnologia e ensino superior.
+    <a href="http://www.english.umic.pt/index.php?option=com_content&task=view\&id=3113\&Itemid=448">http://www.english.umic.pt/index.php?option=com_content&task=view\&id=3113\&Itemid=448</a>.
+  </li>
+  <li>Urrutia, Alonso y Martínez, Fabiola (2009)
+    <em>Cuesta el voto en México 18 veces más que el promedio en AL,
+    dicen expertos.</em>
+    En: Periódico "La Jornada" (México D.F., México)
+    Consultado en: 2009/06/19
+    <a href="http://www.jornada.unam.mx/2009/06/19/index.php?section=politica\&article=014n1pol">http://www.jornada.unam.mx/2009/06/19/index.php?section=politica\&article=014n1pol</a>.
+  </li>
+  <li>WVSC (2009) (Wij Vertrouwen Stem Computersniet)
+    <em>The Netherlands return to paper ballots and red pencils.</em>
+    <a href="http://wijvertrouwenstemcomputersniet.nl/English">http://wijvertrouwenstemcomputersniet.nl/English</a>.
+  </li>
+</ul>

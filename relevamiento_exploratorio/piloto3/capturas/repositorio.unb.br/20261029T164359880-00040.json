@@ -1,0 +1,21 @@
+{
+ "pedido": "20261029T164359880-00040",
+ "url": "https://repositorio.unb.br/oai/request?verb=ListMetadataFormats",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "content-type",
+   "text/xml;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:45:14 GMT"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

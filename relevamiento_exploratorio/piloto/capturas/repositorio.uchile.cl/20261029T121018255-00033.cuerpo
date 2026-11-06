@@ -1,0 +1,42 @@
+<!doctype html><html lang="es"><head><title>Repositorio Académico - Universidad de Chile</title><link rel="stylesheet" href="/.within.website/x/xess/xess.min.css?cachebuster=v1.26.2+dirty"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="noindex,nofollow"><style>
+        body,
+        html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .centered-div {
+            text-align: center;
+        }
+
+        #status {
+            font-variant-numeric: tabular-nums;
+        }
+
+        #progress {
+            display: none;
+            width: 90%;
+            width: min(20rem, 90%);
+            height: 2rem;
+            border-radius: 1rem;
+            overflow: hidden;
+            margin: 1rem 0 2rem;
+            outline-offset: 2px;
+            outline: #b16286 solid 4px;
+        }
+
+        .bar-inner {
+            background-color: #b16286;
+            height: 100%;
+            width: 0;
+            transition: width 0.25s ease-in;
+        }
+    	</style><script id="anubis_version" type="application/json">"v1.26.2+dirty"
+</script><script id="anubis_challenge" type="application/json">{"rules":{"algorithm":"fast","difficulty":3},"challenge":{"issuedAt":"2026-10-29T09:11:17.772614789-03:00","metadata":{"User-Agent":"pruebamateo/0.1 (contacto: pepesand@gmail.com)","X-Real-Ip":"190.189.53.180"},"id":"01a18792-598c-794e-bfa1-9bf10cefa42d","method":"fast","randomData":"f12ef5c6f32d0f93cbfd8c46cd73cc167b6e0affd19d2b4609a0dd3832d29f9088ddf9d777fa705830311eb74affe962b32d51ce48e258521f2b34591d3caed6","policyRuleHash":"535c6ccf5299a7c4","difficulty":3,"spent":false}}
+</script><script id="anubis_base_prefix" type="application/json">""
+</script><script id="anubis_public_url" type="application/json">""
+</script></head><body id="top"><script type="ignore"><a href="/.within.website/x/cmd/anubis/api/honeypot/475e3887-fb61-4498-83

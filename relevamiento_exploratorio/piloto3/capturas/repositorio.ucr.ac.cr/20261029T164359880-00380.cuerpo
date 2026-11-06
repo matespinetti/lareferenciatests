@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:54:46Z</responseDate><request verb="GetRecord" identifier="oai:kerwa.ucr.ac.cr:10669/105088" metadataPrefix="mets">https://repositorio.ucr.ac.cr/server/oai/request</request><GetRecord><record><header><identifier>oai:kerwa.ucr.ac.cr:10669/105088</identifier><datestamp>2026-09-08T09:00:14Z</datestamp><setSpec>com_10669_1420</setSpec><setSpec>com_10669_1419</setSpec><setSpec>col_10669_15782</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_10669-105088" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:10669/105088">
+   <metsHdr CREATEDATE="2026-10-29T16:54:46Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Kérwá - Repositorio Universidad de Costa Rica</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_10669_105088">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2026-09-07T16:58:51Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2026-01-05</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="issn">0425-368X2525-1295</mods:identifier>
+               <mods:identifier type="uri">https://hdl.handle.net/10669/105088</mods:identifier>
+               <mods:identifier type="doi">https://doi.org/10.52292/j.estudecon.2026.5028</mods:identifier>
+               <mods:identifier type="codproyecto">822-C3231</mods:identifier>
+               <mods:abstract>This article presents an optimization model for raw material purchase and sales allocation, developed using linear programming techniques to enhance the performance of a company in the agro-industrial sector. The study focuses on the production of concentrated fruit juices, which is carried out using two daily-operated production and packaging lines with different capacities. By analysing monthly machinery capacity and efficiency requirements, fruit supply availability, and customer demand, the proposed model significantly improved operational efficiency and positively impacted the company’s profitability.Este artigo tem como objetivo desenvolver um modelo de otimização de compra de matéria-prima e alocação de vendas desenvolvido a partir de modelos de programação linear para o fortalecimento de uma empresa do setor agroindustrial. A área fabril, na qual este estudo foi desenvolvido, é a produção de sucos de frutas concentrados, utilizando duas linhas de produção e envase para uso diário, mas com capacidades diferentes. O modelo proposto aumentou significativamente a eficiência da operação atual e impactou positivamente a lucratividade da empresa com a análise dos requisitos mensais de capacidade e eficiência do maquinário, fornecimento de fornecedores de frutas e demandas de clientes atuais.Este artículo tiene como objetivo desarrollar un modelo para optimizar la compra de materias primas y la asignación de ventas, basado en modelos de programación lineal, para fortalecer una empresa del sector agroindustrial. El área de producción donde se desarrolló este estudio es la elaboración de jugos de frutas concentrados, utilizando dos líneas de producción y embotellado para uso diario, pero con capacidades diferentes. El modelo propuesto incrementó significativamente la eficiencia de la operación actual e impactó positivamente la rentabilidad de la empresa mediante el análisis de los requisitos mensuales de capacidad y eficiencia de la maquinaria, el suministro de los proveedores de fruta y la demanda de los clientes actuales.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">eng</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">acceso abierto</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Linear programming</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Fruit juice production</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Sales allocation</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Raw material purchase</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Cost optimization</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Programação linear</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Sucos de frutas</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Distribuição</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Compra de materiais</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Custos</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Programación lineal</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Jugo de frutas</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Optimización económica</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Investigación de operaciones</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Optimizing raw material purchases and allocating sales in the juice and concentrate extraction agribusiness: The case of a small size company in Costa Rica</mods:title>
+               </mods:titleInfo>
+               <mods:genre>artículo original</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_10669_105088">
+      <rightsMD ID="RIG_10669_105088">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TGljZW5jaWEgZGUgRGVww7NzaXRvIFJlcG9zaXRvcmlvIEvDqXJ3w6EgKFZlcnNpw7NuIDcsIDIwLzA3LzIwMjEpIAoKRGVjbGFybyBjb21vIGF1dG9yKGEpIGRlIGVzdGUgdHJhYmFqbyBhY2Fkw6ltaWNvIG8gdGl0dWxhciBkZSBzdXMgZGVyZWNob3MgZGUgYXV0b3IsIHF1ZSBlc3RveSBkZSBhY3VlcmRvIGNvbiBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgZGUgQ29zdGEgUmljYSwgZWwgZGVyZWNobyBubyBleGNsdXNpdm8gZGUgcmVwcm9kdWNpciwgdHJhZHVjaXIgbyBkaXN0cmlidWlyIGVuIGZvcm1hdG8gZWxlY3Ryw7NuaWNvIGVsIGRvY3VtZW50byBkZXBvc2l0YWRvIHBvciB1biBwZXLDrW9kbyBpbmRlZmluaWRvIGRlIHRpZW1wby4gCgpBY2VwdG8gcXVlIHNlIHJlYWxpY2UgbcOhcyBkZSB1bmEgY29waWEgZGlnaXRhbCBkZWwgdHJhYmFqbyBwYXJhIGdhcmFudGl6YXIgbGEgc2VndXJpZGFkIHkgbGEgcHJlc2VydmFjacOzbiBkZWwgbWlzbW8uIAoKQXV0b3Jpem8gcXVlIGN1YW5kbyBsYSBVbml2ZXJzaWRhZCBkZSBDb3N0YSBSaWNhIGxvIGVzdGltZSBuZWNlc2FyaW8gcG9kcsOhIG1vZGlmaWNhciBlbCBmb3JtYXRvIGRlbCBkb2N1bWVudG8gcGFyYSByZXByb2R1Y2lybG8gZW4gc2lzdGVtYXMgZGUgaW5mb3JtYWNpw7NuLCBzaW4gYWx0ZXJhciBvIG1vZGlmaWNhciBlbCBjb250ZW5pZG8gZGVsIG1pc21vLiAKCkVzdG95IGRlIGFjdWVyZG8gY29uIHF1ZSBsYXMgeSBsb3MgdXN1YXJpb3MgZGVzY2FyZ3VlbiBsaWJyZW1lbnRlIGVsIHRyYWJham8geSBsbyB1dGlsaWNlbiBjb24gZmluZXMgbm8gY29tZXJjaWFsZXMsIHJlc3BldGFuZG8gbGEgaW50ZWdyaWRhZCBkZSBzdSBjb250ZW5pZG8gYXPDrSBjb21vIGxhIG1lbmNpw7NuIGRlbCBhdXRvciBvIHBvc2VlZG9yIGRlIHN1cyBkZXJlY2hvcy4gCgpHYXJhbnRpem8gcXVlIGVsIGRvY3VtZW50byBkZXBvc2l0YWRvIGVzIHVuIHRyYWJham8gb3JpZ2luYWwgeSBubyBpbmZyaW5nZSBkZXJlY2hvcyBkZSBhdXRvciB1IG90cm9zIGRlcmVjaG9zIGRlIHRlcmNlcm9zIChjby1hdXRvcmVzLCBvcmdhbml6YWNpb25lcyBkZSBmaW5hbmNpYW1pZW50bywgc3VqZXRvcyBkZSBpbnZlc3RpZ2FjacOzbiwgbWF0ZXJpYWwgZGUgdGVyY2Vyb3Mgc3VqZXRvIGEgcHJvdGVjY2nDs24gZGUgZGVyZWNob3MgZGUgYXV0b3IsIGVudHJlIG90cm9zKSwgc2UgcHJlc3Vwb25lIHF1ZSBoYSBjdW1wbGlkbyBjb24gZGVyZWNob3MgZGUgcmV2aXNpw7NuIHUgb3RyYXMgb2JsaWdhY2lvbmVzIHBhcmEgY29uIGxhcyBwYXJ0ZXMgaW52b2x1Y3JhZGFzLCBwb3IgZWplbXBsbzogb2JzZXJ2YW5jaWEgZGUgY2zDoXVzdWxhcyBkZSBjb25maWRlbmNpYWxpZGFkIC1zaSBhcGxpY2FuLS4gCgpFbiBjYXNvIGRlIG5vIHNlciBlbCBhdXRvciBkZWNsYXJvIHF1ZSBwb3NlbyBvIGhlIG9idGVuaWRvIGVsIHBlcm1pc28gc2luIHJlc3RyaWNjaW9uZXMgZGVsIHByb3BpZXRhcmlvIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBwYXJhIG90b3JnYXIgYSBsYSBVbml2ZXJzaWRhZCBkZSBDb3N0YSBSaWNhIGxvcyBwZXJtaXNvcyByZXF1ZXJpZG9zIHBhcmEgZXN0YSBsaWNlbmNpYSwgcXVlIGRpY2hvIHByb3BpZXRhcmlvIGNvbm9jZSBlbCB0ZXh0byB5IGVsIGNvbnRlbmlkbyBkZSBlc3RhIGxpY2VuY2lhLgoKQWwgb2J0ZW5lciBlbCBjb25zZW50aW1pZW50byBoZSByZXNwZXRhZG8gbGEgdm9sdW50YWQgZGVsIGF1dG9yIGFsIGRlc2NhcnRhciBxdWUgc2UgdHJhdGEgZGUgb2JyYXMgY2FwYWNlcyBkZSBnZW5lcmFyIGNvbm9jaW1pZW50byBhcHJvcGlhYmxlIG8gc3VzY2VwdGlibGUgZGUgcHJvdGVjY2nDs24gcG9yIGxvcyBtZWNhbmlzbW9zIGRlIGxhIHByb3BpZWRhZCBpbmR1c3RyaWFsLCBkZXNhcnJvbGxhZGFzIGVuIGVsIG1hcmNvIGRlIGludmVzdGlnYWNpb25lcyBlbiBjdXJzbywgcG9yIGVzdGFyIHN1amV0YXMgYSBwZXLDrW9kb3MgZGUgZW1iYXJnbywgcG9yIGVsIHRpcG8gZGUgaW52ZXN0aWdhY2lvbmVzIHkgbGEgbmF0dXJhbGV6YSBkZSBsYSBpbmZvcm1hY2nDs24gKGVzdG9zIGluY2x1eWVuIGluZm9ybWFjacOzbiBzZW5zaWJsZSAocGVyc29uYXMpIG8gcHJpdmlsZWdpYWRhIChvcmdhbml6YWNpb25lcyksIGV4aXN0ZW5jaWEgZGUgY29udmVuaW9zIG8gY29udHJhdG9zIHF1ZSBkYW4gb3JpZ2VuIGEgbGEgcmVsYWNpw7NuIGNvbiBsYSBVbml2ZXJzaWRhZCBwYXJhIGRlY2lkaXIgc3UgbWFuZWpvIG8gcG9ycXVlIHNlIGhhIG9idGVuaWRvIGxhIGF1dG9yaXphY2nDs24gZGUgbG9zIGVzdHVkaWFudGVzIGN1YW5kbyBlc3RvcyBzb24gbG9zIGF1dG9yZXMuIAoKRGVjbGFybyBiYWpvIGZlIGRlIGp1cmFtZW50byBxdWUgbGFzIHB1YmxpY2FjaW9uZXMgZGVwb3NpdGFkYXMgZGVyaXZhZGFzIGRlIGludmVzdGlnYWNpw7NuIGNvbiBzZXJlcyBodW1hbm9zOyBpbnZlc3RpZ2FjacOzbiB5IHVzbyBkZSBsb3MgcmVjdXJzb3MgZGUgbGEgYmlvZGl2ZXJzaWRhZCwgYWNjZXNvIGEgcmVjdXJzb3MgZ2Vuw6l0aWNvcyBvIGN1YW5kbyBlc3RhcyBvcGVyYWNpb25lcyBzZSByZWFsaWNlbiBlbiB0ZXJyaXRvcmlvcyBpbmTDrWdlbmFzIHkgc2UgZW5jdWVudHJlbiByZWxhY2lvbmFkYXMgY29uIGVsIGNvbm9jaW1pZW50byB0cmFkaWNpb25hbCBhc29jaWFkbzsgIGFzw60gY29tbyBlbCB1c28sIGN1aWRvLCB0ZW5lbmNpYSwgcHJvZHVjY2nDs24geSBleHBlcmltZW50YWNpw7NuIGNvbiBhbmltYWxlcywgIHJlcXVlcmlyw6FuIGRlIGxhIHJldmlzacOzbiwgYXV0b3JpemFjacOzbiB5IGFwcm9iYWNpw7NuLCBzZWfDum4gY29ycmVzcG9uZGUgZGUgdW4gQ29taXTDqSDDiXRpY28gQ2llbnTDrWZpY28sIGRlIGxhIENvbWlzacOzbiBkZSBCaW9kaXZlcnNpZGFkIGRlIGxhIFVDUiAoQ0lCKSBvIGVsIENPTkFHRUJJTyBvIGVsIENvbWl0w6kgSW5zdGl0dWNpb25hbCBwYXJhIGVsIEN1aWRhZG8geSBVc28gZGUgbG9zIEFuaW1hbGVzIChDSUNVQSksIHJlc3BlY3RpdmFtZW50ZS4KCkNvbm96Y28geSBhcHJ1ZWJvIHF1ZTogCgpFbCBSZXBvc2l0b3JpbyBLw6lyd8OhIGRlIGxhIFVuaXZlcnNpZGFkIGRlIENvc3RhIFJpY2Egc2UgcmVzZXJ2YSBlbCBkZXJlY2hvIGRlIHJldGlyYXIgZWwgYWNjZXNvIGFsIHRyYWJham8gZGVwb3NpdGFkbyBjdWFuZG8gc2UgZGV0ZWN0ZSBxdWUgbG9zIGRlcmVjaG9zIGRlIHByb3BpZWRhZCBpbnRlbGVjdHVhbCBoYW4gc2lkbyBpbmZyaW5naWRvcyBvIGFwZWxhbmRvIGEgb3Ryb3MgY29tcHJvbWlzb3MgbGVnYWxlcywgcHJvZmVzaW9uYWxlcyB5L28gYWRtaW5pc3RyYXRpdm9zLgoKTGEgVW5pdmVyc2lkYWQgZGUgQ29zdGEgUmljYSBubyBoYXLDoSBuaW5ndW5hIGFsdGVyYWNpw7NuIGRpZmVyZW50ZSBhIGxhcyBwZXJtaXRpZGFzIGVuIGVzdGEgbGljZW5jaWEgYSBsYSBvYnJhIGRlcG9zaXRhZGEuCgpMYSBVbml2ZXJzaWRhZCBkZSBDb3N0YSBSaWNhIG5vIHNlIGhhY2UgcmVzcG9uc2FibGUgcG9yIGxhIHDDqXJkaWRhIG8gZGHDsW9zIHN1ZnJpZG9zIGVuIHJlbGFjacOzbiBjb24gZWwgdHJhYmFqbyBkZXBvc2l0YWRvIG8gZGF0b3MgcmVsYWNpb25hZG9zLgo=</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_10669_105088_1">
+      <techMD ID="TECH_O_10669_105088_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://kerwa.ucr.ac.cr/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>d32c9b96f8dd439a06afab0a43e8bbf4</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>380794</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_10669_105088_3">
+      <techMD ID="TECH_T_10669_105088_3">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://kerwa.ucr.ac.cr/bitstreams/64c37bf7-526b-42c8-8197-3ddc23a3bd73/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>ebe7b2654f4b3d9867c341e3e10366d2</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>37514</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>C3231-EO-MP-006. Moya, W. Solórzano, J., Víquez, N., Paniagua, J., (2026). Optimizing raw material purchases.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_10669_105088_1" MIMETYPE="application/pdf" SEQ="1" SIZE="380794" CHECKSUM="d32c9b96f8dd439a06afab0a43e8bbf4" CHECKSUMTYPE="MD5" ADMID="FO_10669_105088_1" GROUPID="GROUP_BITSTREAM_10669_105088_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://kerwa.ucr.ac.cr/bitstreams/02a0e590-75bf-4b69-967a-02387ea2ac6e/download" />
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_10669_105088_3" MIMETYPE="text/plain" SEQ="3" SIZE="37514" CHECKSUM="ebe7b2654f4b3d9867c341e3e10366d2" CHECKSUMTYPE="MD5" ADMID="FT_10669_105088_3" GROUPID="GROUP_BITSTREAM_10669_105088_3">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://kerwa.ucr.ac.cr/bitstreams/64c37bf7-526b-42c8-8197-3ddc23a3bd73/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_10669_105088">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_10669_105088_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

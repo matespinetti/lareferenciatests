@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:49:55Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.ufmg.br:1843/2895" metadataPrefix="xoai">https://repositorio.ufmg.br/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.ufmg.br:1843/2895</identifier><datestamp>2026-05-26T19:02:46Z</datestamp><setSpec>com_1843_5</setSpec><setSpec>com_1843_2</setSpec><setSpec>col_1843_276</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="creator">
+         <element name="none">
+            <field name="value">Joany Marcelle da Silva Luis</field>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2026-05-26T19:02:46Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2024-11-11</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/1843/2895</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="none">
+               <field name="value">Diabetes Mellitus is a comorbidity characterized by multiple signs and symptoms resulting from
+alterations in the metabolism of fats, carbohydrates, and proteins, leading to elevated blood
+glucose levels and reduced cellular ability to utilize glucose effectively. This Intervention
+Project (IP) was developed with the purpose of providing a prompt assessment of the local
+problem, based on data obtained from electronic medical records, which revealed a high number
+of decompensated diabetic patients. In view of this scenario, the need for a nonpharmacological approach was identified, focusing on the analysis of dietary habits among
+individuals diagnosed with Diabetes Mellitus within the population assigned to the Family
+Health Unit (USF). The objective of this project is to develop and implement a nutritional menu
+using foods readily available in the region, aimed at diabetic patients registered at the Dr. João
+Costa Family Health Unit, located in Barreiros, Pernambuco, Brazil. The intervention seeks to
+promote Diabetes Mellitus control through adequate, accessible, and sustainable dietary
+strategies, emphasizing non-drug treatment and improvement in patients’ quality of life. The
+implementation steps include: meetings with the health team; active search for patients
+diagnosed with Diabetes Mellitus; educational activities held every 15 days; weight
+measurement and body mass index (BMI) calculation after each session; and periodic
+reassessments to reinforce guidance provided during educational interventions. The
+presentation and execution of the nutritional menu will involve the participation of the
+multidisciplinary team — including a physician, nurse, nursing technician, community health
+agents, and a nutritionist from the e-MULTI program. After project implementation, it is
+expected that participants will experience reduced blood glucose levels, improved glycated
+hemoglobin rates, and weight loss in follow-up evaluations conducted at three and six months.
+Throughout the 12-month execution period, approximately 60% to 65% of the patients are
+expected to maintain continuous follow-up and demonstrate measurable progress, benefiting
+from dietary and lifestyle changes that contribute not only to diabetes control but also to an
+overall improvement in quality of life.</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="none">
+            <field name="value">por</field>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">Universidade Federal de Minas Gerais</field>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">Acesso aberto</field>
+         </element>
+         <element name="en">
+            <field name="value">Attribution-NonCommercial-NoDerivs 3.0 Brazil</field>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://creativecommons.org/licenses/by-nc-nd/3.0/br/</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="none">
+            <field name="value">Nutrição dos Grupos Vulneráveis</field>
+            <field name="value">Diabetes Mellitus Tipo 2</field>
+            <field name="value">Atenção Primária à Saúde</field>
+            <field name="value">Dissertação Acadêmica</field>
+         </element>
+         <element name="other">
+            <element name="none">
+               <field name="value">Diabetes Mellitus Tipo 2</field>
+               <field name="value">Atenção Primária à Saúde</field>
+               <field name="value">Nutrição de Grupos de Risco</field>
+            </element>
+         </element>
+      </element>
+      <element name="title">
+         <element name="none">
+            <field name="value">Projeto de intervenção: criação de cardápio nutricional através de alimentos disponíveis na região para controle do Diabetes Mellitus dos pacientes diabéticos cadastrados na Unidade de Saúde da Família Dr João Costa em Barreiros PE</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">Trabalho de conclusão de curso</field>
+         </element>
+      </element>
+   </element>
+   <element name="local">
+      <element name="contributor">
+         <element name="advisor1">
+            <element name="none">
+               <field name="value">Celsilvana Texeira Gomes</field>
+            </element>
+         </element>
+         <element name="advisor1Lattes">
+            <element name="none">
+               <field name="value">https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4449698Y6&amp;tokenCaptchar=0cAFcWeA6ysza_lR1ZKqgayy6DbQttTv2CCpDTnHWDBXSes9gwvYkYfcHgWMH1of038dT6gtUKfNhWJEwUV6bsuN2debgMouMvo8S5uXvRB42KCj5m_0yEJrRfs2sy7JnRv96Heb0oUSXPRJSJG0WQID0SM5D0RyVJ2uaZB27kOt5FBavA52rZBYGPwSLpJ0S4CNtPKCnokTdnLuesO627JmgE0fdU0RVN_sflWiHNmPHNr6dLbJlqqMTvSF066JiDRbamPcpWyuarp7YtSKSkqLsYIBiKPD0LFWaa-deNy0kXy4DTFwM3BZnbbzgp3dU2AcGCI_3nBydwu3xLSG_iwPV-rsnggp1kFeE1N4e9UoG7puheFQ8BaGg8v29GSfAte5YNothI-kTHRDpu9q3SJonFhPsfqFmhhXWB1AZIh28ynNw5SOVRAAcZL9IvBGkjuYYLAdeTbL3rouWJH4SdpFZ2xJ3qgIfW2eCT1LU5kctQwCiYu9aM_o3gHMX7oaTP19q_sWDx2--6GPLA-whfS0qwwUOxHcBKZ3-mw5-i593bjNTcH4EEVpA9w7_RngwN_eDNrqBaqbA7dJZ0PmkPrBzGMxAfmeJfVyH4x1BhA1Gd-qzPHWBSW2XoZlxpzjxzF7pY2hmzyaXOh_7F-DyO71rqKKcUNSmF9V48QpXJHXSFl521qFAVi6idFDLS6nTCp0F4EP6OG15VNZjfH6wjwo9HO3HGb7Bs080NLJ8YyOb2Xdrt0cF0USFiRDlxTmyn9bX_fQBoEwkMCaBai-Tp4VfcZaxpmMrARqnlbY7a26k-6oGbc7NwcL83NBdbdFrPNOcNAgP91d3LDgKfxDD8PolFO1GJpmHnluoraErdScb-DV3dcejZpAc7c8q2_CSKZqbvCWy5mheK9sGeyJkKph0ip_JyB-G2LB2ouEXwEBYGWFzgCEMFRwX5rGzXdgEmOhHoFcxMet4MDsfw6BwFR-1ob9wsa5O_m0pUqBNeB95rESP5sR9gnM401ZZqdCPnIpeEgMIY-eYTp1D7mqSMoXb4dfpoNhDWgHn31wMW1jd7j89_LEeqS4vT7PlaRt_6UVOi09dIAJ5idqD9YohTyIB10u8O0HAtwR9HJQfE4qv6dW1UTywlvLp9a5TavL1_mhtXPBxOzwGysdCIiC9twF0fJuH9LCrkMBv4Jf2dJIA9fNz4ib2RAKZn4LZq8OupTCmM2eQHBR9sDDdFtbnNslQ0sX_e0ykfDy5c_7VQswQpkGyCVTKDrrT17WaPHx_hrdymJ8kzU2pBGn451b33pEv5egTon3lNtP1bF1aABPTV5YWPboNDHfTlcDcUWU3FKH75z7GngkSzYICmfZWaYNeTBnTDWD0dRLT0W0IC2gNapJ12B5jrO3be4eGndQcoTM0of-zZDObOyffOC5nGDvMACJuHgRVTRTAFOkkN7w-io32fRWtF04HaLwyg9MHh_1xtf0u9XWFFXfkWYgyyGGHLZUhhULw4qfhQMqn9BVUzKu3dixfTbyy9MsTx6UPvX0BeFO5sMlg1rnakNZciDsoGwQ410erRoYj6P7BEUqhYmqb0f2aAAdjM4anQ5fEzWQGWJSgKoMGAWFk0IOBmXVvGSxCSXPv4vZtrF3MGxNU-sa8sjEVy3jupz6Nw9tDUa9u2J1qce-RZN1Cvu3jIjHTPlu5rsGxUDjdlAxZU_pzI3-kVDqCeMgdq-z9SdE_uJWmlzyrahQ9E7iHwB1GsUpB_1uyGTLuh6GDiFEEuf1_uR4WfflD8pq7YWDxGdvan1swPCHuQQ8IVGsT5MtYZiVQnr7bFRIchm0eNyS7arZYL2EqeGNRo5tpW4J7qCcDP_Ga47yEVOCOC1DOTP82Iy-wI8Cm5yXEw0t4Dbli3Q8WkcyX05bJZyjO1UNsfUgMKSHNKiPESQizMcbx0AUrHNxhFw4U-biPnuRW5YQ6D-iwE8Ty_hlZjLDgrA5TTVXdwJCjZEICuK9sjfkwpX2ODg6oE6E_orGshxxLJjOaInYV0VLfp6M5IBDx2GVQDmsFt6Jb3LEfQuJ3bO_YdEV7vxxcjvC4ifSAna2NcCmQr0eCl52xVa4EPjAlTDb1SovZan8JlYYzZpObW-Ypf2MSRjGixNU7xqgAUNkdPk7tb7NNJk7HraYkoX0fcwEe1IUsB8_wMbwnhZYJn</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="resumo">
+            <element name="none">
+               <field name="value">O Diabetes Mellitus é uma comorbidade que se caracteriza por inúmeros sinais e sintomas que envolvem alterações no metabolismo das gorduras, carboidratos e proteínas, ocasionando o aumento nos níveis de glicose do sangue e na redução da capacidade das células na sua utilização. Trata-se de um Projeto de Intervenção (PI) que foi elaborado objetivando realização de um parecer ágil da problemática local, feito a partir da análise de dados, obtidas através do prontuário eletrônico, demonstrou como resultado, um grande número de diabéticos descompensados. A partir disto, houve a necessidade de abordagem não medicamentosa da comorbidade, tendo como ponto de partida a análise da situação alimentar dos portadores de Diabetes Mellitus da população adscrita à USF. Objetivo: Elaborar um projeto de intervenção para implementação de um cardápio nutricional através de alimentos disponíveis na região para os pacientes diabéticos cadastrados na Unidade de Saúde da Família Dr João Costa em Barreiros – PE. A proposta de intervenção foi pensada para controle do Diabetes Mellitus, voltado para o tratamento não medicamentoso, com alimentação adequada e acessível à população da cidade de Barreiros. Dado o impacto dessa comorbidade no dia a dia da população e as possíveis consequências que tal doença pode causar, foi desenvolvido um cardápio com o objetivo de auxiliar no tratamento do diabetes, focando nos alimentos que os pacientes teriam acesso facilitado, aspirando adesão do usuário. Etapas do processo de implementação: Reunião com a equipe de saúde; busca ativa de pacientes com diagnóstico de Diabetes Mellitus para realização de ações educativas a cada 15 dias; após cada palestra, cada paciente será pesado, realizado o cálculo do IMC; nas reavaliações serão reforçadas as orientações feitas durante as ações educativas. A apresentação do cardápio contará com a equipe de saúde (médico, enfermeira, técnica de enfermagem, ACS’s) em conjunto com a nutricionista da equipe e-MULTI. Após a implementação do projeto, espera-se que haja redução dos níveis glicêmicos, melhora da taxa de hemoglobina glicada e redução de peso a cada nova consulta realizada com intervalo inicial de 3 meses e a segunda reavaliação após 6 meses. Espera-se que durante o período de execução do projeto (12 meses), em torno de 60-65% dos pacientes realizem acompanhamento contínuo e avaliação do seu progresso no decorrer do programa e se beneficiem da mudança no estilo de vida alimentar não somente no controle do diabetes, mas na qualidade de vida de maneira geral.</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="country">
+            <element name="none">
+               <field name="value">Brasil</field>
+            </element>
+         </element>
+         <element name="program">
+            <element name="none">
+               <field name="value">Curso de Especialização em Medicina de Família e Comunidade</field>
+            </element>
+         </element>
+         <element name="initials">
+            <element name="none">
+               <field name="value">UFMG</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="cnpq">
+            <element name="none">
+               <field name="value">CIENCIAS DA SAUDE</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">CC-LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license_rdf</field>
+               <field name="originalName">license_rdf</field>
+               <field name="format">application/rdf+xml; charset=utf-8</field>
+               <field name="size">906</field>
+               <field name="url">https://repositorio.ufmg.br//bitstreams/c4577c98-3da2-4886-bc92-368ccb4ba566/download</field>
+               <field name="checksum">fba754f0467e45ac3862bc2533fb2736</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">license.txt</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">2118</field>
+               <field name="url">https://repositorio.ufmg.br//bitstreams/d4a2c4f7-4157-4381-bf3f-c610d2bf2a90/download</field>
+               <field name="checksum">cda590c95a0b51b4d15f60c9642ca272</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">TCC_Joany_Marcelle_da_Silva_Luis_corrigido (1).pdf</field>
+               <field name="originalName">TCC_Joany_Marcelle_da_Silva_Luis_corrigido (1).pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">1896352</field>
+               <field name="url">https://repositorio.ufmg.br//bitstreams/acb1c00c-edd3-41bf-8b65-14c24f705cf6/download</field>
+               <field name="checksum">906a740f6a0d8c0c15e4e730e6884e5a</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">1843/2895</field>
+      <field name="identifier">oai:repositorio.ufmg.br:1843/2895</field>
+      <field name="lastModifyDate">2026-05-26 16:02:46.47</field>
+      <element name="cc">
+         <field name="uri">http://creativecommons.org/licenses/by-nc-nd/3.0/br/</field>
+         <field name="name">Acesso aberto</field>
+      </element>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://repositorio.ufmg.br/</field>
+      <field name="name">"Repositório Institucional da UFMG"</field>
+      <field name="mail">naoresponder@ufmg.br</field>
+   </element>
+   <element name="license">
+      <field name="bin">TElDRU7Dh0EgREUgRElTVFJJQlVJw4fDg08gTsODTy1FWENMVVNJVkEgRE8gUkVQT1NJVMOTUklPIElOU1RJVFVDSU9OQUwgREEgVUZNRwoKQ29tIGEgYXByZXNlbnRhw6fDo28gZGVzdGEgbGljZW7Dp2EsIHZvY8OqIChvIGF1dG9yIChlcykgb3UgbyB0aXR1bGFyIGRvcyBkaXJlaXRvcyBkZSBhdXRvcikgY29uY2VkZSBhbyBSZXBvc2l0w7NyaW8gSW5zdGl0dWNpb25hbCBkYSBVRk1HIChSSS1VRk1HKSBvIGRpcmVpdG8gbsOjbyBleGNsdXNpdm8gZSBpcnJldm9nw6F2ZWwgZGUgcmVwcm9kdXppciBlL291IGRpc3RyaWJ1aXIgYSBzdWEgcHVibGljYcOnw6NvIChpbmNsdWluZG8gbyByZXN1bW8pIHBvciB0b2RvIG8gbXVuZG8gbm8gZm9ybWF0byBpbXByZXNzbyBlIGVsZXRyw7RuaWNvIGUgZW0gcXVhbHF1ZXIgbWVpbywgaW5jbHVpbmRvIG9zIGZvcm1hdG9zIMOhdWRpbyBvdSB2w61kZW8uCgpWb2PDqiBkZWNsYXJhIHF1ZSBjb25oZWNlIGEgcG9sw610aWNhIGRlIGNvcHlyaWdodCBkYSBlZGl0b3JhIGRvIHNldSBkb2N1bWVudG8gZSBxdWUgY29uaGVjZSBlIGFjZWl0YSBhcyBEaXJldHJpemVzIGRvIFJJLVVGTUcuCgpWb2PDqiBjb25jb3JkYSBxdWUgbyBSZXBvc2l0w7NyaW8gSW5zdGl0dWNpb25hbCBkYSBVRk1HIHBvZGUsIHNlbSBhbHRlcmFyIG8gY29udGXDumRvLCB0cmFuc3BvciBhIHN1YSBwdWJsaWNhw6fDo28gcGFyYSBxdWFscXVlciBtZWlvIG91IGZvcm1hdG8gcGFyYSBmaW5zIGRlIHByZXNlcnZhw6fDo28uCgpWb2PDqiB0YW1iw6ltIGNvbmNvcmRhIHF1ZSBvIFJlcG9zaXTDs3JpbyBJbnN0aXR1Y2lvbmFsIGRhIFVGTUcgcG9kZSBtYW50ZXIgbWFpcyBkZSB1bWEgY8OzcGlhIGRlIHN1YSBwdWJsaWNhw6fDo28gcGFyYSBmaW5zIGRlIHNlZ3VyYW7Dp2EsIGJhY2stdXAgZSBwcmVzZXJ2YcOnw6NvLgoKVm9jw6ogZGVjbGFyYSBxdWUgYSBzdWEgcHVibGljYcOnw6NvIMOpIG9yaWdpbmFsIGUgcXVlIHZvY8OqIHRlbSBvIHBvZGVyIGRlIGNvbmNlZGVyIG9zIGRpcmVpdG9zIGNvbnRpZG9zIG5lc3RhIGxpY2Vuw6dhLiBWb2PDqiB0YW1iw6ltIGRlY2xhcmEgcXVlIG8gZGVww7NzaXRvIGRlIHN1YSBwdWJsaWNhw6fDo28gbsOjbywgcXVlIHNlamEgZGUgc2V1IGNvbmhlY2ltZW50bywgaW5mcmluZ2UgZGlyZWl0b3MgYXV0b3JhaXMgZGUgbmluZ3XDqW0uCgpDYXNvIGEgc3VhIHB1YmxpY2HDp8OjbyBjb250ZW5oYSBtYXRlcmlhbCBxdWUgdm9jw6ogbsOjbyBwb3NzdWkgYSB0aXR1bGFyaWRhZGUgZG9zIGRpcmVpdG9zIGF1dG9yYWlzLCB2b2PDqiBkZWNsYXJhIHF1ZSBvYnRldmUgYSBwZXJtaXNzw6NvIGlycmVzdHJpdGEgZG8gZGV0ZW50b3IgZG9zIGRpcmVpdG9zIGF1dG9yYWlzIHBhcmEgY29uY2VkZXIgYW8gUmVwb3NpdMOzcmlvIEluc3RpdHVjaW9uYWwgZGEgVUZNRyBvcyBkaXJlaXRvcyBhcHJlc2VudGFkb3MgbmVzdGEgbGljZW7Dp2EsIGUgcXVlIGVzc2UgbWF0ZXJpYWwgZGUgcHJvcHJpZWRhZGUgZGUgdGVyY2Vpcm9zIGVzdMOhIGNsYXJhbWVudGUgaWRlbnRpZmljYWRvIGUgcmVjb25oZWNpZG8gbm8gdGV4dG8gb3Ugbm8gY29udGXDumRvIGRhIHB1YmxpY2HDp8OjbyBvcmEgZGVwb3NpdGFkYS4KCkNBU08gQSBQVUJMSUNBw4fDg08gT1JBIERFUE9TSVRBREEgVEVOSEEgU0lETyBSRVNVTFRBRE8gREUgVU0gUEFUUk9Dw41OSU8gT1UgQVBPSU8gREUgVU1BIEFHw4pOQ0lBIERFIEZPTUVOVE8gT1UgT1VUUk8gT1JHQU5JU01PLCBWT0PDiiBERUNMQVJBIFFVRSBSRVNQRUlUT1UgVE9ET1MgRSBRVUFJU1FVRVIgRElSRUlUT1MgREUgUkVWSVPDg08gQ09NTyBUQU1Cw4lNIEFTIERFTUFJUyBPQlJJR0HDh8OVRVMgRVhJR0lEQVMgUE9SIENPTlRSQVRPIE9VIEFDT1JETy4KCk8gUmVwb3NpdMOzcmlvIEluc3RpdHVjaW9uYWwgZGEgVUZNRyBzZSBjb21wcm9tZXRlIGEgaWRlbnRpZmljYXIgY2xhcmFtZW50ZSBvIHNldSBub21lKHMpIG91IG8ocykgbm9tZXMocykgZG8ocykgZGV0ZW50b3IoZXMpIGRvcyBkaXJlaXRvcyBhdXRvcmFpcyBkYSBwdWJsaWNhw6fDo28sIGUgbsOjbyBmYXLDoSBxdWFscXVlciBhbHRlcmHDp8OjbywgYWzDqW0gZGFxdWVsYXMgY29uY2VkaWRhcyBwb3IgZXN0YSBsaWNlbsOnYS4K</field>
+   </element>
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

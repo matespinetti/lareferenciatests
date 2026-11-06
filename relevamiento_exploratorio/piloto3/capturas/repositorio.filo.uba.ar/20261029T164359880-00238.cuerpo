@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:50:26.411898155Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.filo.uba.ar:filodigital/2977" metadataPrefix="xoai">https://repositorio.filo.uba.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.filo.uba.ar:filodigital/2977</identifier><datestamp>2026-03-25T16:08:25Z</datestamp><setSpec>com_filodigital_37</setSpec><setSpec>com_filodigital_13</setSpec><setSpec>com_filodigital_7</setSpec><setSpec>com_filodigital_5</setSpec><setSpec>com_filodigital_46</setSpec><setSpec>com_filodigital_39</setSpec><setSpec>com_filodigital_10</setSpec><setSpec>com_filodigital_151</setSpec><setSpec>col_filodigital_1829</setSpec><setSpec>col_filodigital_852</setSpec><setSpec>col_filodigital_1823</setSpec><setSpec>snrd</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="none">
+            <field name="value">Kaplan, Carina</field>
+         </element>
+      </element>
+      <element name="creator">
+         <element name="none">
+            <field name="value">Bravin, Clara</field>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2017-03-29T23:26:26Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2017-03-29T23:26:26Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2015</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="other">
+            <element name="none">
+               <field name="value">3430</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://repositorio.filo.uba.ar/handle/filodigital/2977</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="es_AR">
+               <field name="value">Resumen temporalmente no disponible. La presente obra no cuenta con resumen provisto por el autor.</field>
+               <field name="value">Fil: Bravin, Clara. Universidad de Buenos Aires. Facultad de Filosofía y Letras.</field>
+            </element>
+         </element>
+      </element>
+      <element name="format">
+         <element name="none">
+            <field name="value">application/pdf</field>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">es</field>
+               <field name="value">spa</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="es_AR">
+            <field name="value">Universidad de Buenos Aires. Facultad de Filosofía y Letras.</field>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">info:eu-repo/semantics/openAccess</field>
+            <field name="value">https://creativecommons.org/licenses/by-nc-nd/4.0/</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="es_AR">
+            <field name="value">Desarrollos para una teoría de la construcción social del cuerpo y la subjetividad en el campo educativo. Estudio de caso sobre la Institución y el sujeto en acto, en el campo de la Formación Docente.</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">info:eu-repo/semantics/doctoralThesis</field>
+            <field name="value">info:ar-repo/semantics/tesis doctoral</field>
+            <field name="value">info:eu-repo/semantics/acceptedVersion</field>
+         </element>
+      </element>
+   </element>
+   <element name="dspace">
+      <element name="entity">
+         <element name="type">
+            <element name="none">
+               <field name="value">Publication</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="ubaffyl">
+      <element name="tipodocumento">
+         <element name="none">
+            <field name="value">Tesis doctoral</field>
+            <field name="value">Tesis doctoral</field>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">uba_ffyl_t_2015_904652.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">4415972</field>
+               <field name="url">https://repositorio.filo.uba.ar/bitstreams/822d1db6-cfb6-4a1f-9528-076f7ba6133c/download</field>
+               <field name="checksum">36175f43d00c44ea83d925c9a1459792</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">uba_ffyl_t_2015_904652.pdf.txt</field>
+               <field name="originalName">uba_ffyl_t_2015_904652.pdf.txt</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">102244</field>
+               <field name="url">https://repositorio.filo.uba.ar/bitstreams/a555f3ab-9da9-440d-8750-e19df81a7d39/download</field>
+               <field name="checksum">4f7ea95740c8513b745a068c96125036</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">uba_ffyl_t_2015_904652.pdf.jpg</field>
+               <field name="originalName">uba_ffyl_t_2015_904652.pdf.jpg</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">9649</field>
+               <field name="url">https://repositorio.filo.uba.ar/bitstreams/6dae5ddd-a61f-4e13-a0e1-fbcf375e703a/download</field>
+               <field name="checksum">8c42090f9a2112f15c091d5902427427</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">filodigital/2977</field>
+      <field name="identifier">oai:repositorio.filo.uba.ar:filodigital/2977</field>
+      <field name="lastModifyDate">2026-03-25T16:08:25.855386Z</field>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://repositorio.filo.uba.ar</field>
+      <field name="name">DSpace de la Facultad de Filosofia y Letras</field>
+      <field name="mail">sysadmin@filo.uba.ar</field>
+   </element>
+   <element name="license" />
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

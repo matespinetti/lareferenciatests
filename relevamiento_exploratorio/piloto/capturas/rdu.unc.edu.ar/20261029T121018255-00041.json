@@ -1,0 +1,109 @@
+{
+ "pedido": "20261029T121018255-00041",
+ "url": "https://rdu.unc.edu.ar/server/api/core/bitstreams/7f7528f9-4043-4ded-90e6-d27100157eef/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:11:27 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Wed, 11 Mar 2026 16:46:41 GMT"
+  ],
+  [
+   "etag",
+   "\"c8e9b2d8ac07eb05bc714e8d43343153\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 13:11:27 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"EJE 3-1.pdf\"; filename*=UTF-8''EJE%203-1.pdf"
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/529207"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "1; mode=block"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ],
+  [
+   "access-control-allow-methods",
+   "GET, POST, OPTIONS"
+  ],
+  [
+   "access-control-allow-headers",
+   "Origin, X-Requested-With, Content-Type, Accept, X-Correlation-ID, X-Referrer"
+  ],
+  [
+   "content-security-policy",
+   "frame-ancestors 'self' https://dspace-rdu-1.psi.unc.edu.ar"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

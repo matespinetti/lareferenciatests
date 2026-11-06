@@ -1,0 +1,252 @@
+{
+  "dspaceUI" : "https://rephip.unr.edu.ar",
+  "dspaceName" : "Repositorio Hipermedial UNR",
+  "dspaceServer" : "https://rephip.unr.edu.ar/server",
+  "dspaceVersion" : "DSpace 9.3",
+  "type" : "root",
+  "_links" : {
+    "actuator" : {
+      "href" : "https://rephip.unr.edu.ar/server/actuator"
+    },
+    "authn" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/authn"
+    },
+    "authorizations" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/authz/authorizations"
+    },
+    "bitstreamformats" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreamformats"
+    },
+    "bitstreams" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/bitstreams"
+    },
+    "browses" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/discover/browses"
+    },
+    "bulkaccessconditionoptions" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/bulkaccessconditionoptions"
+    },
+    "bundles" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/bundles"
+    },
+    "captcha" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/captcha"
+    },
+    "claimedtasks" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/workflow/claimedtasks"
+    },
+    "claimedtasks-search" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/workflow/claimedtasks/search"
+    },
+    "collections" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/collections"
+    },
+    "communities" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/communities"
+    },
+    "contentreport" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/contentreport"
+    },
+    "correctiontypes" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/correctiontypes"
+    },
+    "discover" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/discover"
+    },
+    "dso" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/dso/find{?uuid}",
+      "templated" : true
+    },
+    "enqueueretry" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/ldn/messages/{id}/enqueueretry",
+      "templated" : true
+    },
+    "entitytypes" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/entitytypes"
+    },
+    "eperson-registration" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/eperson/registrations"
+    },
+    "epersons" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/eperson/epersons"
+    },
+    "externalsources" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/integration/externalsources"
+    },
+    "features" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/authz/features"
+    },
+    "feedbacks" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/tools/feedbacks"
+    },
+    "groups" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/eperson/groups"
+    },
+    "identifiers" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/pid/identifiers"
+    },
+    "itemfilters" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/itemfilters"
+    },
+    "itemrequests" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/tools/itemrequests"
+    },
+    "items" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/items"
+    },
+    "itemtemplates" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/itemtemplates"
+    },
+    "ldnservices" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/ldn/ldnservices"
+    },
+    "messages" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/ldn/messages"
+    },
+    "metadatafields" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/metadatafields"
+    },
+    "metadataschemas" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/metadataschemas"
+    },
+    "notifyrequests" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/ldn/notifyrequests"
+    },
+    "oidc" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/authn"
+    },
+    "pid" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/pid/find{?id}",
+      "templated" : true
+    },
+    "pooltasks" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/workflow/pooltasks"
+    },
+    "pooltasks-search" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/workflow/pooltasks/search"
+    },
+    "processes" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/system/processes"
+    },
+    "properties" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/properties"
+    },
+    "qualityassuranceevents" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/integration/qualityassuranceevents"
+    },
+    "qualityassurancesources" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/integration/qualityassurancesources"
+    },
+    "qualityassurancetopics" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/integration/qualityassurancetopics"
+    },
+    "registrations" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/eperson/registrations"
+    },
+    "relationships" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/relationships"
+    },
+    "relationshiptypes" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/relationshiptypes"
+    },
+    "resourcepolicies" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/authz/resourcepolicies"
+    },
+    "resourcepolicies-search" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/authz/resourcepolicies/search"
+    },
+    "scripts" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/system/scripts"
+    },
+    "self" : {
+      "href" : "https://rephip.unr.edu.ar/server/api"
+    },
+    "sites" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/sites"
+    },
+    "statistics" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/statistics"
+    },
+    "submissionaccessoptions" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/submissionaccessoptions"
+    },
+    "submissioncclicenseUrls" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/submissioncclicenseUrls"
+    },
+    "submissioncclicenseUrls-search" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/submissioncclicenseUrls/search"
+    },
+    "submissioncclicenses" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/submissioncclicenses"
+    },
+    "submissioncoarnotifyconfigs" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/submissioncoarnotifyconfigs"
+    },
+    "submissiondefinitions" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/submissiondefinitions"
+    },
+    "submissionforms" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/submissionforms"
+    },
+    "submissionsections" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/submissionsections"
+    },
+    "submissionuploads" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/submissionuploads"
+    },
+    "subscriptions" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/subscriptions"
+    },
+    "subscriptions-search" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/subscriptions/search"
+    },
+    "suggestions" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/integration/suggestions"
+    },
+    "suggestionsources" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/integration/suggestionsources"
+    },
+    "suggestiontargets" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/integration/suggestiontargets"
+    },
+    "supervisionorders" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/core/supervisionorders"
+    },
+    "systemwidealerts" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/system/systemwidealerts"
+    },
+    "usagereports" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/statistics/usagereports"
+    },
+    "versionhistories" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/versioning/versionhistories"
+    },
+    "versions" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/versioning/versions"
+    },
+    "vocabularies" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/submission/vocabularies"
+    },
+    "vocabularyEntryDetails" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/submission/vocabularyEntryDetails"
+    },
+    "vocabularyEntryDetails-search" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/submission/vocabularyEntryDetails/search"
+    },
+    "workflowactions" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/workflowactions"
+    },
+    "workflowdefinitions" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/workflowdefinitions"
+    },
+    "workflowitems" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/workflow/workflowitems"
+    },
+    "workflowsteps" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/config/workflowsteps"
+    },
+    "workspaceitems" : {
+      "href" : "https://rephip.unr.edu.ar/server/api/submission/workspaceitems"
+    }
+  }
+}

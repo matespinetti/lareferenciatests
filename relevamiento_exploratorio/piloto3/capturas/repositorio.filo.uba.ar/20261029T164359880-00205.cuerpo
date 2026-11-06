@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:49:33.891014393Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.filo.uba.ar:filodigital/17251" metadataPrefix="xoai">https://repositorio.filo.uba.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.filo.uba.ar:filodigital/17251</identifier><datestamp>2026-06-25T21:48:17Z</datestamp><setSpec>com_filodigital_15388</setSpec><setSpec>com_filodigital_3535</setSpec><setSpec>com_filodigital_13</setSpec><setSpec>com_filodigital_7</setSpec><setSpec>com_filodigital_5</setSpec><setSpec>com_filodigital_151</setSpec><setSpec>col_filodigital_16981</setSpec><setSpec>col_filodigital_3533</setSpec><setSpec>snrd</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="creator">
+         <element name="none">
+            <field name="value">Kantarovich, Gabriela</field>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2023-12-15T22:41:24Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2023-12-15T22:41:24Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2023</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="other">
+            <element name="none">
+               <field name="value">2603</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://repositorio.filo.uba.ar/handle/filodigital/17251</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="es_AR">
+               <field name="value">1° Cuatrimestre</field>
+               <field name="value">Materia</field>
+               <field name="value">Programa N° 10020</field>
+               <field name="value">Aprobado Resolución N° 2847/2022</field>
+            </element>
+         </element>
+      </element>
+      <element name="format">
+         <element name="none">
+            <field name="value">application/pdf</field>
+         </element>
+      </element>
+      <element name="language">
+         <element name="none">
+            <field name="value">spa</field>
+         </element>
+         <element name="iso">
+            <element name="none">
+               <field name="value">spa</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="es_AR">
+            <field name="value">Universidad de Buenos Aires. Facultad de Filosofía y Letras. Departamento de Ciencias de la Educación</field>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="none">
+            <field name="value">info:eu-repo/semantics/openAccess</field>
+            <field name="value">https://creativecommons.org/licenses/by-nc-nd/4.0/</field>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="es_AR">
+            <field name="value">PROGRAMAS</field>
+            <field name="value">MATERIA</field>
+            <field name="value">PRIMER CUATRIMESTRE</field>
+            <field name="value">CIENCIAS DE LA EDUCACIÓN</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="es_AR">
+            <field name="value">Problemas sociales y culturales de la educación en América Latina</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">info:eu-repo/semantics/other</field>
+            <field name="value">info:eu-repo/semantics/acceptedVersion</field>
+         </element>
+      </element>
+   </element>
+   <element name="dspace">
+      <element name="entity">
+         <element name="type">
+            <element name="none">
+               <field name="value">Publication</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="ubaffyl">
+      <element name="tipodocumento">
+         <element name="none">
+            <field name="value">Programa</field>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf</field>
+               <field name="originalName">uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf</field>
+               <field name="description" />
+               <field name="format">application/pdf</field>
+               <field name="size">3247464</field>
+               <field name="url">https://repositorio.filo.uba.ar/bitstreams/e0692763-dac6-4de6-94dd-22fd00c8a063/download</field>
+               <field name="checksum">581ad32e75b0c27ab795bdcb941fad6e</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf.txt</field>
+               <field name="originalName">uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf.txt</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">32735</field>
+               <field name="url">https://repositorio.filo.uba.ar/bitstreams/8fb893ad-b663-4a20-8db3-3215c034ec90/download</field>
+               <field name="checksum">457490654d2d83cd0efefff34093c02b</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf.jpg</field>
+               <field name="originalName">uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf.jpg</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">8817</field>
+               <field name="url">https://repositorio.filo.uba.ar/bitstreams/2d939079-9111-4dd2-b0be-a479690d3c24/download</field>
+               <field name="checksum">47e9ad6202077ff88f89f572bc5c0902</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user" />
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">filodigital/17251</field>
+      <field name="identifier">oai:repositorio.filo.uba.ar:filodigital/17251</field>
+      <field name="lastModifyDate">2026-06-25T21:48:17.524648Z</field>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://repositorio.filo.uba.ar</field>
+      <field name="name">DSpace de la Facultad de Filosofia y Letras</field>
+      <field name="mail">sysadmin@filo.uba.ar</field>
+   </element>
+   <element name="license" />
+</metadata>
+</metadata></record></GetRecord></OAI-PMH>

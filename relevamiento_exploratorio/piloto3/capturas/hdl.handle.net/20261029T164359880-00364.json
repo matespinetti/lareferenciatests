@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T164359880-00364",
+ "url": "https://hdl.handle.net/10669/105088",
+ "codigo": 500,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:54:34 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "cf-cache-status",
+   "DYNAMIC"
+  ],
+  [
+   "nel",
+   "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+  ],
+  [
+   "report-to",
+   "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3kjK1%2BLJX86ig1rmU8S%2ByEIm34Vu3kaAq56tX0jWi5IW5%2B6C8hufwxdpzTxVKXirIIi%2FYYO20MpsQ7ZblrSVBb8hkBqlBxSDxZ2MczuH2IJFK0NjGI0tSRBcwUgkhvwlLA%3D%3D\"}]}"
+  ],
+  [
+   "server",
+   "cloudflare"
+  ],
+  [
+   "cf-ray",
+   "a523b3715a5b271c-EZE"
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

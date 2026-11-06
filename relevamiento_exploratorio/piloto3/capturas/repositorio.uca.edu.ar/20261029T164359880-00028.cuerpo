@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:44:50Z</responseDate><request verb="GetRecord" identifier="oai:ucacris:123456789/202" metadataPrefix="mets">https://repositorio.uca.edu.ar/oai/request</request><GetRecord><record><header><identifier>oai:ucacris:123456789/202</identifier><datestamp>2026-10-14T13:15:08Z</datestamp><setSpec>com_123456789_636</setSpec><setSpec>com_123456789_88</setSpec><setSpec>col_123456789_89</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" PROFILE="DSpace METS SIP Profile 1.0" TYPE="DSpace ITEM" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_123456789-202" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:123456789/202">
+<metsHdr CREATEDATE="2026-10-29T13:44:50Z">
+<agent TYPE="ORGANIZATION" ROLE="CUSTODIAN">
+<name>Repositorio Institucional UCA</name>
+</agent>
+</metsHdr>
+<dmdSec ID="DMD_123456789_202">
+<mdWrap MDTYPE="MODS">
+<xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+<mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+<mods:name>
+<mods:role>
+<mods:roleTerm type="text">author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Schiavo, Carlos Alberto</mods:namePart>
+</mods:name>
+<mods:extension>
+<mods:dateAccessioned encoding="iso8601">2019-04-02T21:45:55Z</mods:dateAccessioned>
+</mods:extension>
+<mods:extension>
+<mods:dateAvailable encoding="iso8601">2019-04-02T21:45:55Z</mods:dateAvailable>
+</mods:extension>
+<mods:originInfo>
+<mods:dateIssued encoding="iso8601">2003</mods:dateIssued>
+</mods:originInfo>
+<mods:identifier type="citation">Schiavo, C. A. (2003). Principios generales de los contratos comerciales aleatorios el contrato de seguro y el instituto de la reticencia [en línea]. Tesis doctoral, Universidad Católica Argentina, Facultad de Derecho, Argentina. Disponible en: https://repositorio.uca.edu.ar/handle/123456789/202</mods:identifier>
+<mods:identifier type="uri">https://repositorio.uca.edu.ar/handle/123456789/202</mods:identifier>
+<mods:language>
+<mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+</mods:language>
+<mods:accessCondition type="useAndReproduction">Acceso Abierto</mods:accessCondition>
+<mods:subject>
+<mods:topic>CONTRATOS COMERCIALES</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>SEGUROS</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>CONTRATOS ALEATORIOS</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>TESIS DOCTORAL</mods:topic>
+</mods:subject>
+<mods:subject>
+<mods:topic>DERECHO COMERCIAL</mods:topic>
+</mods:subject>
+<mods:titleInfo>
+<mods:title>Principios generales de los contratos comerciales aleatorios el contrato de seguro y el instituto de la reticencia</mods:title>
+</mods:titleInfo>
+<mods:genre>Tesis doctoral</mods:genre>
+</mods:mods>
+</xmlData>
+</mdWrap>
+</dmdSec>
+<amdSec ID="FO_123456789_202_1">
+<techMD ID="TECH_O_123456789_202_1">
+<mdWrap MDTYPE="PREMIS">
+<xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+<premis:premis>
+<premis:object>
+<premis:objectIdentifier>
+<premis:objectIdentifierType>URL</premis:objectIdentifierType>
+<premis:objectIdentifierValue>https://repositorio.uca.edu.ar/bitstream/123456789/202/1/doc.pdf</premis:objectIdentifierValue>
+</premis:objectIdentifier>
+<premis:objectCategory>File</premis:objectCategory>
+<premis:objectCharacteristics>
+<premis:fixity>
+<premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+<premis:messageDigest>49fb2d77d0cfe3d6d27ba3d6cfbe09ab</premis:messageDigest>
+</premis:fixity>
+<premis:size>1997400</premis:size>
+<premis:format>
+<premis:formatDesignation>
+<premis:formatName>application/pdf</premis:formatName>
+</premis:formatDesignation>
+</premis:format>
+</premis:objectCharacteristics>
+<premis:originalName>doc.pdf</premis:originalName>
+</premis:object>
+</premis:premis>
+</xmlData>
+</mdWrap>
+</techMD>
+</amdSec>
+<amdSec ID="FT_123456789_202_9">
+<techMD ID="TECH_T_123456789_202_9">
+<mdWrap MDTYPE="PREMIS">
+<xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+<premis:premis>
+<premis:object>
+<premis:objectIdentifier>
+<premis:objectIdentifierType>URL</premis:objectIdentifierType>
+<premis:objectIdentifierValue>https://repositorio.uca.edu.ar/bitstream/123456789/202/9/doc.pdf.txt</premis:objectIdentifierValue>
+</premis:objectIdentifier>
+<premis:objectCategory>File</premis:objectCategory>
+<premis:objectCharacteristics>
+<premis:fixity>
+<premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+<premis:messageDigest>356e6a19c564d1fa8cc88e7275c6c7d4</premis:messageDigest>
+</premis:fixity>
+<premis:size>1060574</premis:size>
+<premis:format>
+<premis:formatDesignation>
+<premis:formatName>text/plain</premis:formatName>
+</premis:formatDesignation>
+</premis:format>
+</premis:objectCharacteristics>
+<premis:originalName>doc.pdf.txt</premis:originalName>
+</premis:object>
+</premis:premis>
+</xmlData>
+</mdWrap>
+</techMD>
+</amdSec>
+<fileSec>
+<fileGrp USE="ORIGINAL">
+<file ID="BITSTREAM_ORIGINAL_123456789_202_1" MIMETYPE="application/pdf" SEQ="1" SIZE="1997400" CHECKSUM="49fb2d77d0cfe3d6d27ba3d6cfbe09ab" CHECKSUMTYPE="MD5" ADMID="FO_123456789_202_1" GROUPID="GROUP_BITSTREAM_123456789_202_1">
+<FLocat xlink:type="simple" LOCTYPE="URL" xlink:href="https://repositorio.uca.edu.ar/bitstream/123456789/202/1/doc.pdf"/>
+</file>
+</fileGrp>
+<fileGrp USE="TEXT">
+<file ID="BITSTREAM_TEXT_123456789_202_9" MIMETYPE="text/plain" SEQ="9" SIZE="1060574" CHECKSUM="356e6a19c564d1fa8cc88e7275c6c7d4" CHECKSUMTYPE="MD5" ADMID="FT_123456789_202_9" GROUPID="GROUP_BITSTREAM_123456789_202_9">
+<FLocat xlink:type="simple" LOCTYPE="URL" xlink:href="https://repositorio.uca.edu.ar/bitstream/123456789/202/9/doc.pdf.txt"/>
+</file>
+</fileGrp>
+</fileSec>
+<structMap TYPE="LOGICAL" LABEL="DSpace Object">
+<div TYPE="DSpace Object Contents" ADMID="DMD_123456789_202">
+<div TYPE="DSpace BITSTREAM">
+<fptr FILEID="BITSTREAM_ORIGINAL_123456789_202_1"/>
+</div>
+</div>
+</structMap>
+</mets></metadata></record></GetRecord></OAI-PMH>

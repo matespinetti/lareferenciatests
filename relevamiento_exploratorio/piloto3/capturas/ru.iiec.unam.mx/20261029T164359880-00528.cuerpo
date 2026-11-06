@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/oai2.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2026-10-29T16:59:55Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mets" identifier="oai:ru.iiec.unam.mx:2119">http://ru.iiec.unam.mx/cgi/oai2</request>
+  <GetRecord>
+    <record>
+    <header>
+      <identifier>oai:ru.iiec.unam.mx:2119</identifier>
+      <datestamp>2026-06-22T17:23:02Z</datestamp>
+      <setSpec>7374617475733D707562</setSpec>
+      <setSpec>7375626A656374733D45:4532:453232</setSpec>
+      <setSpec>7375626A656374733D46:4631:463133</setSpec>
+      <setSpec>7375626A656374733D46:4631:463135</setSpec>
+      <setSpec>7375626A656374733D4F:4F35:4F3531</setSpec>
+      <setSpec>7375626A656374733D4F:4F35:4F3534</setSpec>
+      <setSpec>7375626A656374733D52:5231:523133</setSpec>
+      <setSpec>636F6C6C656374696F6E733D72657669737461735F69696563:7265765F6D6F6D656E746F5F65636F6E6F6D69636F</setSpec>
+      <setSpec>74797065733D61727469636C65</setSpec>
+      <setSpec>63726561746F72733D4F6C6176652043617374696C6C6F3A50617472696369613A3A</setSpec></header>
+    <metadata>
+      <mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" OBJID="eprint_2119" LABEL="Eprints Item" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><mets:metsHdr CREATEDATE="2026-10-29T16:59:55Z"><mets:agent ROLE="CUSTODIAN" TYPE="ORGANIZATION"><mets:name>RU-Económicas</mets:name></mets:agent></mets:metsHdr><mets:dmdSec ID="DMD_eprint_2119_mods"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:titleInfo><mods:title>Iniciativa para las Américas: ¿Una alternativa para la crisis latinoamericana?</mods:title></mods:titleInfo><mods:name type="personal"><mods:namePart type="given">Patricia</mods:namePart><mods:namePart type="family">Olave Castillo</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name><mods:abstract>La Iniciativa para las Américas representa un proyecto político económico de Estados Unidos estructurado en tres pilares básicos: estimular el flujo comercial, incrementar la inversión extranjera y reducir el endeudamiento externo , en el marco de la liberación total de las economías latinoamericanas. Cabría preguntarse, sin embargo, qué tan factible y favorable sería para América Latina un acuerdo de este tipo. Qué condiciones reales existen para integrarse en un plano de igualdad, dadas las en enormes diferencias productivas y tecnológicas y, por último, qué apoyo real representa la Iniciativa en relación a las inversiones y modernización que implicaría un proyecto de esta naturaleza.</mods:abstract><mods:classification authority="lcc">E22 - Capital ; Inversión (incluidas existencias) ; Capacidad</mods:classification><mods:classification authority="lcc">F13 - Política comercial ; Protección ; Promoción ; Negociaciones comerciales ; Organizaciones internacionales</mods:classification><mods:classification authority="lcc">F15 - Integración económica</mods:classification><mods:classification authority="lcc">O51 - Estados Unidos ; Canadá</mods:classification><mods:classification authority="lcc">O54 - América Latina ; Caribe</mods:classification><mods:classification authority="lcc">R13 - Análisis de equilibrio general y bienestar económico de las economías regionales</mods:classification><mods:originInfo><mods:dateIssued encoding="iso8061">1991-01</mods:dateIssued></mods:originInfo><mods:originInfo><mods:publisher>Instituto de Investigaciones Económicas, UNAM</mods:publisher></mods:originInfo><mods:genre>Artículo</mods:genre></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:amdSec ID="TMD_eprint_2119"><mets:rightsMD ID="rights_eprint_2119_mods"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:useAndReproduction>
+<p xmlns="http://www.w3.org/1999/xhtml"><strong>Para trabajos depositados por el propio autor:</strong> 
+Al auto archivar esta colección de ficheros y metadatos bibliográficos asociados, otorgo a RU-Económicas el derecho para almacenarlos y ponerlos a disposición pública permanentemente de un modo gratuito y en línea. 
+Declaro que este material es de mi propiedad intelectual y entiendo que RU-Económicas no asume ninguna responsabilidad en caso de que se produzca una violación de derechos de propiedad al distribuir estos ficheros o metadatos. (Se insta encarecidamente a todos los autores a destacar sus derechos de autor en la página de título de su trabajo.)</p>
+
+<p xmlns="http://www.w3.org/1999/xhtml"><strong>Para trabajos depositados por otras personas distintas a su autor:</strong> Por la presente, declaro que la colección de ficheros y metadatos bibliográficos asociados que estoy archivando en RU-Económicas) es de dominio público. Si este no fuese el caso, acepto totalmente la responsabilidad por cualquier infracción de derechos de autor que conlleve la distribución de estos ficheros o metadatos.</p>
+
+<p xmlns="http://www.w3.org/1999/xhtml">Pulsar sobre el botón de depósito indica que está de acuerdo con estos términos.</p>
+    </mods:useAndReproduction></mets:xmlData></mets:mdWrap></mets:rightsMD></mets:amdSec><mets:fileSec><mets:fileGrp USE="reference"><mets:file ID="eprint_2119_58482_1" SIZE="486111" OWNERID="http://ru.iiec.unam.mx/2119/1/Olave%20Castillo%2C%20Patricia.pdf" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://ru.iiec.unam.mx/2119/1/Olave%20Castillo%2C%20Patricia.pdf"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_eprint_2119_mods" ADMID="TMD_eprint_2119"><mets:fptr FILEID="eprint_2119_document_58482_1"/></mets:div></mets:structMap></mets:mets></metadata></record>
+  </GetRecord>
+</OAI-PMH>

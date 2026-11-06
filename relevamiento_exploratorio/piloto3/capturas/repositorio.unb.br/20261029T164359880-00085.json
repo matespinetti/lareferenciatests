@@ -1,0 +1,21 @@
+{
+ "pedido": "20261029T164359880-00085",
+ "url": "http://repositorio.unb.br/bitstream/10482/31534/1/EVENTO_AcomunidadedeMuseologianoBrasil.pdf",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "cache-control",
+   "no-cache"
+  ],
+  [
+   "content-length",
+   "0"
+  ],
+  [
+   "location",
+   "https://repositorio.unb.br/bitstream/10482/31534/1/EVENTO_AcomunidadedeMuseologianoBrasil.pdf"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

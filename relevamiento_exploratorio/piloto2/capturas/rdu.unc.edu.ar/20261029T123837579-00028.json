@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T123837579-00028",
+ "url": "https://rdu.unc.edu.ar/server/oai/request?verb=GetRecord&metadataPrefix=ore&identifier=oai:rdu.unc.edu.ar:11086/560501",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:39:26 GMT"
+  ],
+  [
+   "content-type",
+   "text/xml;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "vary",
+   "origin,access-control-request-method,access-control-request-headers,accept-encoding"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ],
+  [
+   "access-control-allow-methods",
+   "GET, POST, OPTIONS"
+  ],
+  [
+   "access-control-allow-headers",
+   "Origin, X-Requested-With, Content-Type, Accept, X-Correlation-ID, X-Referrer"
+  ],
+  [
+   "content-security-policy",
+   "frame-ancestors 'self' https://dspace-rdu-1.psi.unc.edu.ar"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

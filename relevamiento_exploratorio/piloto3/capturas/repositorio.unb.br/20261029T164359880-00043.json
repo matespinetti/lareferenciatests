@@ -1,0 +1,25 @@
+{
+ "pedido": "20261029T164359880-00043",
+ "url": "https://repositorio.unb.br/rest/status",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "cache-control",
+   "private"
+  ],
+  [
+   "location",
+   "https://repositorio.unb.br:8443/rest/status"
+  ],
+  [
+   "content-length",
+   "0"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:45:19 GMT"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

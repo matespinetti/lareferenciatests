@@ -1,0 +1,93 @@
+{
+ "pedido": "20261029T164359880-00414",
+ "url": "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/0e1133ec-ba0c-4ee9-8ec4-11e822c9c309/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.24.0 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:56:11 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "2048"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "es"
+  ],
+  [
+   "last-modified",
+   "Sat, 19 Sep 2026 13:51:05 GMT"
+  ],
+  [
+   "etag",
+   "\"67f1b7c4610651a1ef05f6d200bf44f0\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:56:11 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"PROCESO DE ENFERMERIA A UN USUARIO INTERVENIDO POR RESECCION DE COLON, EN EL POSOPERATORIO TARDIO REPORTE DE CASO.pdf\"; filename*=UTF-8''PROCESO%20DE%20ENFERMERIA%20A%20UN%20USUARIO%20INTERVENIDO%20POR%20RESECCI%C3%93N%20DE%20COLON%2C%20EN%20EL%20POSOPERATORIO%20TARDIO%20REPORTE%20DE%20CASO.pdf"
+  ],
+  [
+   "content-range",
+   "bytes 0-2047/1204370"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

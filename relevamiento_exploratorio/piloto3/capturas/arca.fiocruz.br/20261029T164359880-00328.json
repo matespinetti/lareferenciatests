@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00328",
+ "url": "https://arca.fiocruz.br/items/0003c49b-a8f4-4a2d-8eb6-cbcbbe4650bb",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:53:17 GMT"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793292835"
+  ],
+  [
+   "link",
+   ""
+  ],
+  [
+   "etag",
+   "W/\"7dba2-aCnwaP+Eh1X+UBC8iJoiK4N/WDU\""
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubdomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

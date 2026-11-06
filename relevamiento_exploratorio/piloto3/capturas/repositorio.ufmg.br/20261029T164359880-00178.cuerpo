@@ -1,0 +1,299 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "d18331ff-d6ee-4ff0-a2b6-c1d52c941857",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/d18331ff-d6ee-4ff0-a2b6-c1d52c941857/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/d18331ff-d6ee-4ff0-a2b6-c1d52c941857/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/d18331ff-d6ee-4ff0-a2b6-c1d52c941857/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/d18331ff-d6ee-4ff0-a2b6-c1d52c941857"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "daa2955b-3ff2-4cd4-83da-627e18431568",
+              "uuid" : "daa2955b-3ff2-4cd4-83da-627e18431568",
+              "name" : "Dissertação_Utilização do isótopo 7Be como método de investigação da erosão em escala de vertente.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "Dissertação_Utilização do isótopo 7Be como método de investigação da erosão em escala de vertente.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Dissertação_Utilização do isótopo 7Be como método de investigação da erosão em escala de vertente.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 5120523,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "3c2513c144aa3398f76b43594f068b59"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/daa2955b-3ff2-4cd4-83da-627e18431568"
+                }
+              }
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ufmg.br/server/api/core/bundles/d18331ff-d6ee-4ff0-a2b6-c1d52c941857/bitstreams"
+            }
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          }
+        }
+      }
+    }, {
+      "uuid" : "a5fdfa71-6f5a-4838-81e9-8b25571d96da",
+      "name" : "CC-LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "CC-LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/a5fdfa71-6f5a-4838-81e9-8b25571d96da/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/a5fdfa71-6f5a-4838-81e9-8b25571d96da/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/a5fdfa71-6f5a-4838-81e9-8b25571d96da/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/a5fdfa71-6f5a-4838-81e9-8b25571d96da"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "2916d2ac-e874-433a-8521-3413cf835a43",
+              "uuid" : "2916d2ac-e874-433a-8521-3413cf835a43",
+              "name" : "license_rdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "org.dspace.license.CreativeCommons",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license_rdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "CC-LICENSE",
+              "sizeBytes" : 894,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "5f8273278d594193e01088c4cda9a964"
+              },
+              "sequenceId" : 2,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/2916d2ac-e874-433a-8521-3413cf835a43/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/2916d2ac-e874-433a-8521-3413cf835a43/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/2916d2ac-e874-433a-8521-3413cf835a43/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/2916d2ac-e874-433a-8521-3413cf835a43/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/2916d2ac-e874-433a-8521-3413cf835a43"
+                }
+              }
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ufmg.br/server/api/core/bundles/a5fdfa71-6f5a-4838-81e9-8b25571d96da/bitstreams"
+            }
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          }
+        }
+      }
+    }, {
+      "uuid" : "30163822-a3d0-414a-b86a-3e132394c929",
+      "name" : "LICENSE",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "LICENSE",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/30163822-a3d0-414a-b86a-3e132394c929/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/30163822-a3d0-414a-b86a-3e132394c929/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/30163822-a3d0-414a-b86a-3e132394c929/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.ufmg.br/server/api/core/bundles/30163822-a3d0-414a-b86a-3e132394c929"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "31c5472d-75dd-487e-85d9-07e11e00de9d",
+              "uuid" : "31c5472d-75dd-487e-85d9-07e11e00de9d",
+              "name" : "license.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.source" : [ {
+                  "value" : "Written by org.dspace.content.LicenseUtils",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "license.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dcterms.accessRights" : [ {
+                  "value" : "2025-11-13T18:21:14Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "LICENSE",
+              "sizeBytes" : 2118,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "cda590c95a0b51b4d15f60c9642ca272"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/31c5472d-75dd-487e-85d9-07e11e00de9d/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/31c5472d-75dd-487e-85d9-07e11e00de9d/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/31c5472d-75dd-487e-85d9-07e11e00de9d/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/31c5472d-75dd-487e-85d9-07e11e00de9d/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams/31c5472d-75dd-487e-85d9-07e11e00de9d"
+                }
+              }
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.ufmg.br/server/api/core/bundles/30163822-a3d0-414a-b86a-3e132394c929/bitstreams"
+            }
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/items/0006c63e-8920-4019-be88-9526ed0d9ba9/bundles?embed=bitstreams"
+    }
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 3
+  }
+}

@@ -1,0 +1,170 @@
+"""Planificador en memoria: un turno por repositorio.
+
+Cada repositorio recibe un pedido a la vez y, entre el fin de uno y el inicio del siguiente,
+pasa al menos `intervalo` segundos. La clave de cortesía es el id del repositorio: todos los
+hosts resuelven a 127.0.0.1, así que la IP no distingue nada.
+
+Sin I/O, sin async y sin reloj propio: quien lo usa pasa `ahora`. Tampoco es thread-safe; el modo
+hilos lo protege con un lock. Las resoluciones de cada repositorio se generan a medida que hacen
+falta desde un contador, así la memoria medida es la del motor y no la de un listado de millones
+de ítems.
+
+Entre los repositorios habilitados, primero los que tienen descargas pendientes: terminar lo
+empezado antes de empezar otro ítem. Sin esto, con pocos lugares el motor pasaría el arranque
+haciendo la primera resolución de los 2.400 repositorios sin descargar casi nada.
+"""
+
+import heapq
+from collections import deque
+from dataclasses import dataclass, field
+from enum import StrEnum
+
+
+class Tipo(StrEnum):
+    RESOLUCION = "resolucion"
+    DESCARGA = "descarga"
+
+
+@dataclass(slots=True)
+class Tarea:
+    tipo: Tipo
+    repo: int
+    item: int
+    archivo: int = 0
+    """Índice del archivo dentro del ítem; solo para descargas."""
+
+
+@dataclass(slots=True)
+class _Repo:
+    id: int
+    items: int
+    siguiente_item: int = 0
+    descargas: deque[Tarea] = field(default_factory=deque)
+    reencoladas: deque[Tarea] = field(default_factory=deque)
+    ocupado: bool = False
+    listo_en: float = 0.0
+    pausa_hasta: float = 0.0
+    en_heap: bool = False
+
+    def empezado(self) -> bool:
+        return bool(self.descargas or self.reencoladas)
+
+    def tiene_trabajo(self) -> bool:
+        return bool(self.descargas or self.reencoladas or self.siguiente_item < self.items)
+
+    def tomar(self) -> Tarea:
+        # Primero las descargas de lo ya resuelto, como el motor real; después lo pendiente.
+        if self.descargas:
+            return self.descargas.popleft()
+        if self.reencoladas:
+            return self.reencoladas.popleft()
+        tarea = Tarea(Tipo.RESOLUCION, self.id, self.siguiente_item)
+        self.siguiente_item += 1
+        return tarea
+
+
+class Planificador:
+    def __init__(self, items_por_repo: list[int], intervalo: float, inicio: float) -> None:
+        self._intervalo = intervalo
+        self._repos = [_Repo(id, items) for id, items in enumerate(items_por_repo)]
+        # Repositorios esperando su turno: con trabajo empezado y con solo ítems nuevos.
+        self._empezados: list[tuple[float, int, int]] = []
+        self._nuevos: list[tuple[float, int, int]] = []
+        self._secuencia = 0
+        self._en_curso = 0
+        for repo in self._repos:
+            if repo.tiene_trabajo():
+                repo.listo_en = inicio
+                self._encolar(repo)
+
+    @property
+    def en_curso(self) -> int:
+        return self._en_curso
+
+    def siguiente(self, ahora: float) -> tuple[Tarea, float] | None:
+        """La próxima tarea que puede salir ya y el instante en que quedó habilitada, o None.
+
+        El repositorio de la tarea queda ocupado hasta `terminada`.
+        """
+        for heap in (self._empezados, self._nuevos):
+            while heap and heap[0][0] <= ahora:
+                listo_en, _, id = heapq.heappop(heap)
+                repo = self._repos[id]
+                repo.en_heap = False
+                if repo.ocupado or not repo.tiene_trabajo():
+                    continue
+                repo.ocupado = True
+                self._en_curso += 1
+                return repo.tomar(), listo_en
+        return None
+
+    def proximo_listo(self) -> float | None:
+        """Cuándo puede quedar habilitada la próxima tarea, o None si no hay nada esperando."""
+        topes = [heap[0][0] for heap in (self._empezados, self._nuevos) if heap]
+        return min(topes) if topes else None
+
+    def agregar(self, tarea: Tarea) -> None:
+        """Agrega una descarga, o vuelve a encolar una tarea que no se pudo hacer."""
+        repo = self._repos[tarea.repo]
+        if tarea.tipo is Tipo.DESCARGA:
+            repo.descargas.append(tarea)
+        else:
+            repo.reencoladas.append(tarea)
+        if not repo.ocupado and not repo.en_heap:
+            self._encolar(repo)
+
+    def pausar(self, repo: int, hasta: float) -> None:
+        """Ningún pedido a `repo` antes de `hasta`, como pide un `Retry-After`."""
+        estado = self._repos[repo]
+        estado.pausa_hasta = max(estado.pausa_hasta, hasta)
+
+    def terminada(self, tarea: Tarea, fin: float) -> None:
+        """Libera el repositorio de `tarea`; `fin` es cuando terminó de leerse la respuesta."""
+        repo = self._repos[tarea.repo]
+        repo.ocupado = False
+        self._en_curso -= 1
+        repo.listo_en = max(fin + self._intervalo, repo.pausa_hasta)
+        if repo.tiene_trabajo():
+            self._encolar(repo)
+
+    def listos_sin_atender(self, ahora: float) -> int:
+        """Repositorios que podrían recibir un pedido ya y esperan un lugar libre."""
+        return sum(1 for heap in (self._empezados, self._nuevos) for listo_en, _, _ in heap if listo_en <= ahora)
+
+    def terminado(self) -> bool:
+        return not self._empezados and not self._nuevos and self._en_curso == 0
+
+    def _encolar(self, repo: _Repo) -> None:
+        self._secuencia += 1
+        repo.en_heap = True
+        heap = self._empezados if repo.empezado() else self._nuevos
+        heapq.heappush(heap, (repo.listo_en, self._secuencia, repo.id))
+
+
+class SeguimientoItems:
+    """Cuenta los ítems completos: resueltos y con todos sus archivos descargados bien.
+
+    Una descarga cortada o con error no completa el ítem: es trabajo que no sirvió.
+    """
+
+    def __init__(self) -> None:
+        self._faltan: dict[tuple[int, int], int] = {}
+
+    def resuelto(self, repo: int, item: int, descargas: int) -> bool:
+        """Registra cuántas descargas tiene el ítem. Devuelve True si ya está completo."""
+        if descargas == 0:
+            return True
+        self._faltan[(repo, item)] = descargas
+        return False
+
+    def descargado(self, repo: int, item: int) -> bool:
+        """Descuenta una descarga correcta. Devuelve True cuando el ítem queda completo."""
+        clave = (repo, item)
+        faltan = self._faltan.get(clave)
+        if faltan is None:
+            return False
+        if faltan == 1:
+            del self._faltan[clave]
+            return True
+        self._faltan[clave] = faltan - 1
+        return False

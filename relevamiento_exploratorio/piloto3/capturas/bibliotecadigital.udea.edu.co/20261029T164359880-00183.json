@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T164359880-00183",
+ "url": "https://bibliotecadigital.udea.edu.co/server/oai/request?verb=GetRecord&metadataPrefix=ore&identifier=oai:bibliotecadigital.udea.edu.co:10495/4345",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:49:26 GMT"
+  ],
+  [
+   "content-type",
+   "text/xml;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "1483"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "content-language",
+   "es,en"
+  ],
+  [
+   "vary",
+   "Origin,Accept-Encoding,Access-Control-Request-Method,Access-Control-Request-Headers"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "permissions-policy",
+   "geolocation=(self \"https://bibliotecadigital.udea.edu.co\"), camera=(self) geolocation=(self) microphone=(self)"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=63072000; includeSubDomains; preload"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-forwarded-port",
+   "\"443\""
+  ],
+  [
+   "x-forwarded-proto",
+   "\"https\""
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

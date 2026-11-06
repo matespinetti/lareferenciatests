@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T164359880-00315",
+ "url": "https://rephip.unr.edu.ar/handle/2133/33995",
+ "codigo": 301,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.28.3 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:52:54 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "77"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793292829"
+  ],
+  [
+   "location",
+   "/items/00550948-3883-477c-890b-d7a935c13693"
+  ],
+  [
+   "vary",
+   "Accept"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

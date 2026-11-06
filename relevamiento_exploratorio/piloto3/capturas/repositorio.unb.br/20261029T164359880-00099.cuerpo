@@ -1,0 +1,682 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Repositório Institucional da UnB: “A influência da atividade física nos perfis de fragilidade, funcionalidade, cognição e qualidade de vida em populações de diferentes contextos ambientais rurais e urbanos”</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 6.4" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+ 
+		<link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+		<link rel="stylesheet" href="/static/css/bootstrap/font-awesome.min.css" type="text/css" /> 
+	
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Silva, Sérgio Leme da" xml:lang="pt_BR" />
+<meta name="DC.creator" content="Coelho, Milena Vieira" xml:lang="pt_BR" />
+<meta name="DCTERMS.dateAccepted" content="2014-05-12T14:34:03Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2014-05-12T14:34:03Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2014-05-12" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.date" content="2014-03-06" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.bibliographicCitation" content="COELHO, Milena Vieira. “A influência da atividade física nos perfis de fragilidade, funcionalidade, cognição e qualidade de vida em populações de diferentes contextos ambientais rurais e urbanos”. x, 49 f., il. Dissertação (Mestrado em Ciências do Comportamento)—Universidade de Brasília, Brasília, 2014." xml:lang="pt_BR" />
+<meta name="DC.identifier" content="http://repositorio.unb.br/handle/10482/15590" scheme="DCTERMS.URI" />
+<meta name="DC.description" content="Dissertação (mestrado)—Universidade de Brasília, Instituto de Psicologia, Departamento de Processos Psicológicos Básicos, Pós-Graduação em Ciências do Comportamento, 2014." xml:lang="pt_BR" />
+<meta name="DCTERMS.abstract" content="O envelhecimento populacional vem acompanhado de vários declínios, entre eles o cognitivo e o funcional. O objetivo desta pesquisa foi avaliar se a atividade física pode ser um parâmetro protetor para os perfis de fragilidade, funcionalidade, cognição e qualidade de vida. Coletou-se dados de 240 participantes, sendo eles 107 de regiões rurais e 133 de regiões urbanas. Percebeu-se que, em ambos os grupos, aqueles que praticavam exercícios físicos possuíam melhores índices nas escalas. A Escala de Atividade de Vida Diária de Barthel mostrou diferença significativa apenas no meio rural, enquanto a escala de Atividades de Vida Diária Instrumentais de Pfeffer apresentou diferença significativa em ambos os grupos, indicando melhor funcionalidade nos grupos que praticam atividade física. A Escala de Fragilidade de Edmonton e o questionário de Qualidade de vida da OMS, World Health Organization Quality of Life- Old, mostraram diferença significativa apenas no grupo urbano, apontando uma maior fragilidade e menor qualidade de vida para aqueles que não fazem atividade física, diferentemente de idosos rurais. Em relação ao Mini Exame de Estado Mental- 2, houve diferença significativa nos grupos rural e urbano, sendo os praticantes de atividade física os que obtiveram os mais altos índices. Assim, a atividade física aparece como um possível fator de proteção aos declínios decorrentes do envelhecimento." xml:lang="pt_BR" />
+<meta name="DC.language" content="por" xml:lang="pt_BR" scheme="DCTERMS.RFC1766" />
+<meta name="DC.rights" content="Acesso Aberto" xml:lang="en" />
+<meta name="DC.title" content="“A influência da atividade física nos perfis de fragilidade, funcionalidade, cognição e qualidade de vida em populações de diferentes contextos ambientais rurais e urbanos”" xml:lang="en" />
+<meta name="DC.type" content="Dissertação" xml:lang="pt_BR" />
+<meta name="DC.subject" content="Atividade física" xml:lang="en" />
+<meta name="DC.subject" content="Envelhecimento" xml:lang="en" />
+<meta name="DC.subject" content="Vida urbana" xml:lang="en" />
+<meta name="DC.subject" content="Vida rural" xml:lang="en" />
+<meta name="DC.rights" content="A concessão da licença deste item refere-se ao termo de autorização impresso assinado pelo autor com as seguintes condições: Na qualidade de titular dos direitos de autor da publicação, autorizo a Universidade de Brasília e o IBICT a disponibilizar por meio dos sites www.bce.unb.br, www.ibict.br, http://hercules.vtls.com/cgi-bin/ndltd/chameleon?lng=pt&amp;skin=ndltd sem ressarcimento dos direitos autorais, de acordo com a Lei nº 9610/98, o texto integral da obra disponibilizada, conforme permissões assinaladas, para fins de leitura, impressão e/ou download, a título de divulgação da produção científica brasileira, a partir desta data." xml:lang="en" />
+<meta name="DC.description" content="The populational aging is followed by several declines, among them the functional and the cognitive. The objective of this work was assess if physical activity can play a role as a protective factor in the profiles of fragility, functionality, cognition and on quality of life. The data were harvest among 240 subjects, between them 107 from country regions, and 133 from urban regions. It was noticed, that, in the two groups, those who practiced any physical activity had better performance in the scales. The Barthel’s Index of Activities of Daily Living showed a significant difference, only on the country population. While, Pfeiffer scale of instrumental activities showed significant difference in both groups. The Edmonton Fragility scale and the OMS’s Quality of life questionnaire – old showed significant difference only for the urban group pointing to bigger fragility and smaller quality of live between the non-practitioners. Concerning the MEEM 2, it was found significant difference in rural and urban groups, accordingly, in both groups, the practitioners reached bigger scores. In that way, physical activity seems to be a probable protection factor for some of the ageing related declines." xml:lang="en" />
+<meta name="DC.description" content="Instituto de Psicologia (IP)" xml:lang="pt_BR" />
+<meta name="DC.description" content="Departamento de Processos Psicológicos Básicos (IP PPB)" xml:lang="pt_BR" />
+<meta name="DC.description" content="Programa de Pós-Graduação em Ciências do Comportamento" xml:lang="pt_BR" />
+
+<meta name="citation_keywords" content="Dissertação" />
+<meta name="citation_title" content="“A influência da atividade física nos perfis de fragilidade, funcionalidade, cognição e qualidade de vida em populações de diferentes contextos ambientais rurais e urbanos”" />
+<meta name="citation_language" content="por" />
+<meta name="citation_author" content="Coelho, Milena Vieira" />
+<meta name="citation_pdf_url" content="http://repositorio.unb.br/bitstream/10482/15590/1/2014_MilenaVieiraCoelho.pdf" />
+<meta name="citation_date" content="2014-05-12" />
+<meta name="citation_abstract_html_url" content="http://repositorio.unb.br/handle/10482/15590" />
+
+
+        
+        <script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="/static/js/acessibilidade.js"> </script>
+		<script type="text/javascript" src="/static/js/jquery.jfontsize-1.0.min.js"> </script>
+		<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+        <script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+        <script type='text/javascript' src='/static/js/holder.js'></script>
+        <script type="text/javascript" src="/utils.js"></script>
+        <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+		<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+		<script type="text/javascript" src="/static/js/chartjs-1-0-1-beta2/Chart.js"></script>
+		
+
+
+    
+    
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-105302658-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    
+
+
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+
+	
+	
+
+
+<!-- Matomo -->
+	<script type="text/javascript">
+	   var _paq = window._paq || [];
+	   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	   _paq.push(['trackPageView']);
+	   _paq.push(['enableLinkTracking']);
+	   (function() {
+	     var u="https://estatisticas.bce.unb.br/";
+	      _paq.push(['setTrackerUrl', u+'matomo.php']);
+	      _paq.push(['setSiteId', '2']);
+	      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	    })();
+	</script>
+	<!-- End Matomo Code -->
+
+
+
+
+
+
+    </head>
+
+    
+    
+    <body class="undernavigation">
+
+
+
+<a class="sr-only" href="#content">Skip navigation</a>
+
+
+
+<header class="navbar navbar-inverse navbar-fixed-top">    
+
+
+
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+	</button> 
+	<a class="navbar-brand" href="http://unb.br/" target="_blank"><img height="25" src="/image/logo_unb1.png" aria="Universidade de Brasília" title="Universidade de Brasília" alt="Universidade de Brasília"/></a> 
+</div>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('body').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.list-group-item-heading').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.table').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.list-group-item').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.btn-default').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.btn-success').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.btn-primary').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+    
+<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+    <div id="barra-acessibilidade">
+		<ul class="nav navbar-nav">
+		    <li><a href="/" aria='Página inicial' title='Página inicial'> <span class="glyphicon glyphicon-home"></span>   </a></li>
+        	<li><a href="/community-list" title='Comunidades e Coleções' aria='Comunidades e Coleções'>Comunidades e Coleções</a></li>
+			
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" title='Navegar'>Navegar <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+               					
+					
+				
+					
+				      	<li><a href="/browse?type=author" title='Autor'>Autor</a></li>
+					
+				      	<li><a href="/browse?type=advisor" title='Orientador'>Orientador</a></li>
+					
+				      	<li><a href="/browse?type=advisorco" title='Coorientador'>Coorientador</a></li>
+					
+				      	<li><a href="/browse?type=title" title='Título'>Título</a></li>
+					
+				      	<li><a href="/browse?type=subject" title='Assunto'>Assunto</a></li>
+					
+				      	<li><a href="/browse?type=type" title='Tipo'>Tipo</a></li>
+					
+				      	<li><a href="/browse?type=dateissued" title='Data de publicação'>Data de publicação</a></li>
+					
+				      	<li><a href="/browse?type=unidade" title='Unidade Acadêmica'>Unidade Acadêmica</a></li>
+					
+				      	<li><a href="/browse?type=ppg" title='Programa de pós-graduação'>Programa de pós-graduação</a></li>
+					
+				    
+					
+
+				</ul>
+            </li>
+		  
+			<li class="dropdown" title="Documentos" aria="Documentos"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentos<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+				<li title="Portaria n.13 CAPES" alt="Portaria n.13 CAPES"><a href="#" onclick="window.open('/documentos/Portaria_N13_CAPES.pdf');">Portaria n.13 CAPES</a></li>
+                <li title="Resolução - Política de Informação do RIUnB" alt="Resolução - Política de Informação do RIUnB"><a href="#" onclick="window.open('/documentos/Resolucao_da_Politica_de_Informacao_do_RIUnB.pdf');">Resolução - Política de Informação do RIUnB</a></li>
+                <li title="Resolução VRT n.27-2014 - Alteração de Teses e Dissertações" alt="Resolução VRT n.27-2014 - Alteração de Teses e Dissertações"><a href="#" onclick="window.open('/documentos/Resolucao_VRT_N27-2014_-_Alteracao_de_Teses_e_Dissertacoes.pdf');">Resolução VRT n.27-2014 - Alteração de Teses e Dissertações</a></li>
+                <li title="Creative Commons" alt="Creative Commons"><a href="#" onclick="window.open('/documentos/Creative_Commons.pdf');">Creative Commons</a></li>
+                <li title="Termo de Autorização - Teses e Dissertações" alt="Termo de Autorização - Teses e Dissertações"><a href="#" onclick="window.open('/documentos/Termo_de_Autorizacao_-_Teses_e_Dissertacoes.pdf');">Termo de Autorização - Teses e Dissertações</a></li>
+                <li title="Termo de Autorização - Artigos e Outros" alt="Termo de Autorização - Artigos e Outros"><a href="#" onclick="window.open('/documentos/Termo_de_Autorizacao_-_Artigos_e_Outros.pdf');">Termo de Autorização - Artigos e Outros</a></li>
+                <li title="Modelo de Justificativa - Publicação Parcial" alt="Modelo de Justificativa - Publicação Parcial"><a href="#" onclick="window.open('/documentos/Modelo_de_Justificativa_-_Pedido_de_Parcial.pdf');">Modelo de Justificativa - Publicação Parcial</a></li>
+                <li title="Modelo de Justificativa - Extensão de Prazo" alt="Modelo de Justificativa - Extensão de Prazo"><a href="#" onclick="window.open('/documentos/Modelo_de_Justificativa_-_Extensao_de_Prazo.pdf');">Modelo de Justificativa - Extensão de Prazo</a></li>
+				
+				</ul>
+			</li>
+
+			<li class="nav navbar-nav navbar"></li>
+			<li title="Atalhos" aria="Atalhos" aria="Atalhos"><a href="/jspui/documentos/atalhos.jsp"><span class="glyphicon glyphicon-random"></span></a></li>
+			<li><a href="#" class="font" id="jfontsize-minus" title="Diminuir tamanho da fonte">A-</a></li>
+			<li><a href="#" class="font" id="jfontsize-default" title="Retornar para a fonte padrão">A</a></li>
+			<li><a href="#" class="font" id="jfontsize-plus" title="Aumentar tamanho da fonte" >A+</a></li>
+		</ul>
+	</div>
+	
+			<!--
+
+				
+					<div class="nav navbar-nav navbar-right">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+							<a title="Idiomas" href="#" class="dropdown-toggle" data-toggle="dropdown">Idiomas:<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+					
+						<li>
+						<a title='français' onclick="javascript:document.repost.locale.value='fr';
+						document.repost.submit();" href="http://repositorio.unb.br/handle/10482/15590?locale=fr">
+						français
+						</a>
+						</li>
+					
+						<li>
+						<a title='español' onclick="javascript:document.repost.locale.value='es';
+						document.repost.submit();" href="http://repositorio.unb.br/handle/10482/15590?locale=es">
+						español
+						</a>
+						</li>
+					
+						<li>
+						<a title='English' onclick="javascript:document.repost.locale.value='en';
+						document.repost.submit();" href="http://repositorio.unb.br/handle/10482/15590?locale=en">
+						English
+						</a>
+						</li>
+					
+						<li>
+						<a title='português' onclick="javascript:document.repost.locale.value='pt_BR';
+						document.repost.submit();" href="http://repositorio.unb.br/handle/10482/15590?locale=pt_BR">
+						português
+						</a>
+						</li>
+					
+							</ul>
+							</li>
+						</ul>
+					</div>
+				
+ 
+			-->
+			
+		<ul class="nav navbar-nav navbar-right">
+			<li>
+				<div style="padding-top:12px;padding-left:30px;">
+					<a onclick="javascript:document.repost.locale.value='pt_BR'; document.repost.submit();" href="?locale=pt_BR"><img height="25" src="/image/br.png" class="flag" alt="Português" title="Português"></a>
+					<a onclick="javascript:document.repost.locale.value='en'; document.repost.submit();" href="?locale=en"><img height="25" src="/image/us.png" class="flag" alt="English" title="English"></a>
+					<a onclick="javascript:document.repost.locale.value='es'; document.repost.submit();" href="?locale=es"><img height="25" src="/image/es.png" class="flag" alt="Español" title="Español"></a>
+					<a onclick="javascript:document.repost.locale.value='fr'; document.repost.submit();" href="?locale=fr"><img height="25" src="/image/fr.png" class="flag" alt="Français" title="Français"></a>
+				</div>
+			</li>
+		</ul>
+ 
+    <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+        <li class="dropdown" aria="Entrar" title="Entrar">
+        
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Entrar em: <b class="caret"></b></a>
+		             
+            <ul class="dropdown-menu">
+				<li title='Meu espaço'><a href="/mydspace">Meu espaço</a></li>
+				<li title='Receber atualizações por e-mail'><a href="/subscribe">Receber atualizações por e-mail</a></li>
+				<li title='Editar perfil'><a href="/profile">Editar perfil</a></li>
+		
+            </ul>
+					</li>
+        </ul>
+    </div>
+</nav>
+
+            </div>
+
+
+</header>
+
+
+
+<!--
+
+<main id="content" role="main">
+<div class="container banner">
+    <div class="row">
+        <div class="col-md-9 brand">
+            <h1>DSpace <small>JSPUI</small></h1>
+            <h4>O DSpace preserva e provê acesso fácil e aberto a todos os tipos de objetos digitais, incluindo: textos, imagens, vídeos e conjuntos de dados</h4> <a href="http://www.dspace.org"><button class="btn btn-primary">Saiba mais</button></a> 
+        </div>
+        <div class="col-md-3"><img class="pull-right" src="/image/logo.gif" alt="DSpace logo" />
+        </div>
+    </div>
+</div>
+<br/>
+
+-->
+                
+
+<div class="container">
+    
+
+
+
+  
+
+
+<div class="row">
+
+  <div title="Voltar" class="col-md-2">
+    <button class="btn btn-primary btn-block" id="btn-voltar" onclick="window.history.back();">
+       Voltar
+    </button>
+  </div>
+
+
+  <div class="col-md-10">
+    <ol class="breadcrumb btn-success" id="btn-navigation">
+    
+      <li title="Repositório Institucional da UnB"><a href="/">Repositório Institucional da UnB</a></li>
+    
+      <li title="Produção Acadêmica e Científica"><a href="/handle/10482/45725">Produção Acadêmica e Científica</a></li>
+    
+      <li title="Teses, dissertações e produtos pós-doutorado"><a href="/handle/10482/45731">Teses, dissertações e produtos pós-doutorado</a></li>
+    
+    </ol>
+  </div>
+
+</div>
+
+
+
+
+</div>                
+
+
+
+        
+<div class="container">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div title="Use este identificador para citar ou linkar para este item:" class="well">Use este identificador para citar ou linkar para este item:
+                <code title='http://repositorio.unb.br/handle/10482/15590'>http://repositorio.unb.br/handle/10482/15590</code></div>
+
+
+
+
+
+    
+ 
+    
+    <div class="panel panel-info"><div class="panel-heading">Arquivos associados a este item:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Arquivo</th>
+<th id="t2" class="standard">Descrição</th>
+<th id="t3" class="standard">Tamanho</th><th id="t4" class="standard">Formato</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard break-all"><a target="_blank" href="/bitstream/10482/15590/1/2014_MilenaVieiraCoelho.pdf">2014_MilenaVieiraCoelho.pdf</a></td><td headers="t2" class="standard break-all"></td><td headers="t3" class="standard">1,21 MB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/10482/15590/1/2014_MilenaVieiraCoelho.pdf">Visualizar/Abrir</a></td></tr></table>
+</div>
+<table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel dc_title">Título:&nbsp;</td><td class="metadataFieldValue dc_title">“A&#x20;influência&#x20;da&#x20;atividade&#x20;física&#x20;nos&#x20;perfis&#x20;de&#x20;fragilidade,&#x20;funcionalidade,&#x20;cognição&#x20;e&#x20;qualidade&#x20;de&#x20;vida&#x20;em&#x20;populações&#x20;de&#x20;diferentes&#x20;contextos&#x20;ambientais&#x20;rurais&#x20;e&#x20;urbanos”</td></tr>
+<tr><td class="metadataFieldLabel dc_contributor_author">Autor(es):&nbsp;</td><td class="metadataFieldValue dc_contributor_author"><a class="author"href="/browse?type=author&amp;value=Coelho%2C+Milena+Vieira">Coelho,&#x20;Milena&#x20;Vieira</a></td></tr>
+<tr><td class="metadataFieldLabel dc_contributor_advisor">Orientador(es):&nbsp;</td><td class="metadataFieldValue dc_contributor_advisor"><a class="advisor"href="/browse?type=advisor&amp;value=Silva%2C+S%C3%A9rgio+Leme+da">Silva,&#x20;Sérgio&#x20;Leme&#x20;da</a></td></tr>
+<tr><td class="metadataFieldLabel dc_subject_keyword">Assunto:&nbsp;</td><td class="metadataFieldValue dc_subject_keyword"><a class="subject"href="/browse?type=subject&amp;value=Atividade+f%C3%ADsica">Atividade&#x20;física</a><br /><a class="subject"href="/browse?type=subject&amp;value=Envelhecimento">Envelhecimento</a><br /><a class="subject"href="/browse?type=subject&amp;value=Vida+urbana">Vida&#x20;urbana</a><br /><a class="subject"href="/browse?type=subject&amp;value=Vida+rural">Vida&#x20;rural</a></td></tr>
+<tr><td class="metadataFieldLabel dc_date_issued">Data de publicação:&nbsp;</td><td class="metadataFieldValue dc_date_issued">12-Mai-2014</td></tr>
+<tr><td class="metadataFieldLabel dc_date_submitted">Data de defesa:&nbsp;</td><td class="metadataFieldValue dc_date_submitted">6-Mar-2014</td></tr>
+<tr><td class="metadataFieldLabel dc_identifier_citation">Referência:&nbsp;</td><td class="metadataFieldValue dc_identifier_citation">COELHO,&#x20;Milena&#x20;Vieira.&#x20;“A&#x20;influência&#x20;da&#x20;atividade&#x20;física&#x20;nos&#x20;perfis&#x20;de&#x20;fragilidade,&#x20;funcionalidade,&#x20;cognição&#x20;e&#x20;qualidade&#x20;de&#x20;vida&#x20;em&#x20;populações&#x20;de&#x20;diferentes&#x20;contextos&#x20;ambientais&#x20;rurais&#x20;e&#x20;urbanos”.&#x20;x,&#x20;49&#x20;f.,&#x20;il.&#x20;Dissertação&#x20;(Mestrado&#x20;em&#x20;Ciências&#x20;do&#x20;Comportamento)—Universidade&#x20;de&#x20;Brasília,&#x20;Brasília,&#x20;2014.</td></tr>
+<tr><td class="metadataFieldLabel dc_description_abstract">Resumo:&nbsp;</td><td class="metadataFieldValue dc_description_abstract">O&#x20;envelhecimento&#x20;populacional&#x20;vem&#x20;acompanhado&#x20;de&#x20;vários&#x20;declínios,&#x20;entre&#x20;eles&#x20;o&#x20;cognitivo&#x20;e&#x20;o&#x20;funcional.&#x20;O&#x20;objetivo&#x20;desta&#x20;pesquisa&#x20;foi&#x20;avaliar&#x20;se&#x20;a&#x20;atividade&#x20;física&#x20;pode&#x20;ser&#x20;um&#x20;parâmetro&#x20;protetor&#x20;para&#x20;os&#x20;perfis&#x20;de&#x20;fragilidade,&#x20;funcionalidade,&#x20;cognição&#x20;e&#x20;qualidade&#x20;de&#x20;vida.&#x20;Coletou-se&#x20;dados&#x20;de&#x20;240&#x20;participantes,&#x20;sendo&#x20;eles&#x20;107&#x20;de&#x20;regiões&#x20;rurais&#x20;e&#x20;133&#x20;de&#x20;regiões&#x20;urbanas.&#x20;Percebeu-se&#x20;que,&#x20;em&#x20;ambos&#x20;os&#x20;grupos,&#x20;aqueles&#x20;que&#x20;praticavam&#x20;exercícios&#x20;físicos&#x20;possuíam&#x20;melhores&#x20;índices&#x20;nas&#x20;escalas.&#x20;A&#x20;Escala&#x20;de&#x20;Atividade&#x20;de&#x20;Vida&#x20;Diária&#x20;de&#x20;Barthel&#x20;mostrou&#x20;diferença&#x20;significativa&#x20;apenas&#x20;no&#x20;meio&#x20;rural,&#x20;enquanto&#x20;a&#x20;escala&#x20;de&#x20;Atividades&#x20;de&#x20;Vida&#x20;Diária&#x20;Instrumentais&#x20;de&#x20;Pfeffer&#x20;apresentou&#x20;diferença&#x20;significativa&#x20;em&#x20;ambos&#x20;os&#x20;grupos,&#x20;indicando&#x20;melhor&#x20;funcionalidade&#x20;nos&#x20;grupos&#x20;que&#x20;praticam&#x20;atividade&#x20;física.&#x20;A&#x20;Escala&#x20;de&#x20;Fragilidade&#x20;de&#x20;Edmonton&#x20;e&#x20;o&#x20;questionário&#x20;de&#x20;Qualidade&#x20;de&#x20;vida&#x20;da&#x20;OMS,&#x20;World&#x20;Health&#x20;Organization&#x20;Quality&#x20;of&#x20;Life-&#x20;Old,&#x20;mostraram&#x20;diferença&#x20;significativa&#x20;apenas&#x20;no&#x20;grupo&#x20;urbano,&#x20;apontando&#x20;uma&#x20;maior&#x20;fragilidade&#x20;e&#x20;menor&#x20;qualidade&#x20;de&#x20;vida&#x20;para&#x20;aqueles&#x20;que&#x20;não&#x20;fazem&#x20;atividade&#x20;física,&#x20;diferentemente&#x20;de&#x20;idosos&#x20;rurais.&#x20;Em&#x20;relação&#x20;ao&#x20;Mini&#x20;Exame&#x20;de&#x20;Estado&#x20;Mental-&#x20;2,&#x20;houve&#x20;diferença&#x20;significativa&#x20;nos&#x20;grupos&#x20;rural&#x20;e&#x20;urbano,&#x20;sendo&#x20;os&#x20;praticantes&#x20;de&#x20;atividade&#x20;física&#x20;os&#x20;que&#x20;obtiveram&#x20;os&#x20;mais&#x20;altos&#x20;índices.&#x20;Assim,&#x20;a&#x20;atividade&#x20;física&#x20;aparece&#x20;como&#x20;um&#x20;possível&#x20;fator&#x20;de&#x20;proteção&#x20;aos&#x20;declínios&#x20;decorrentes&#x20;do&#x20;envelhecimento.</td></tr>
+<tr><td class="metadataFieldLabel dc_description_abstract1">Abstract:&nbsp;</td><td class="metadataFieldValue dc_description_abstract1">The&#x20;populational&#x20;aging&#x20;is&#x20;followed&#x20;by&#x20;several&#x20;declines,&#x20;among&#x20;them&#x20;the&#x20;functional&#x20;and&#x20;the&#x20;cognitive.&#x20;The&#x20;objective&#x20;of&#x20;this&#x20;work&#x20;was&#x20;assess&#x20;if&#x20;physical&#x20;activity&#x20;can&#x20;play&#x20;a&#x20;role&#x20;as&#x20;a&#x20;protective&#x20;factor&#x20;in&#x20;the&#x20;profiles&#x20;of&#x20;fragility,&#x20;functionality,&#x20;cognition&#x20;and&#x20;on&#x20;quality&#x20;of&#x20;life.&#x20;The&#x20;data&#x20;were&#x20;harvest&#x20;among&#x20;240&#x20;subjects,&#x20;between&#x20;them&#x20;107&#x20;from&#x20;country&#x20;regions,&#x20;and&#x20;133&#x20;from&#x20;urban&#x20;regions.&#x20;It&#x20;was&#x20;noticed,&#x20;that,&#x20;in&#x20;the&#x20;two&#x20;groups,&#x20;those&#x20;who&#x20;practiced&#x20;any&#x20;physical&#x20;activity&#x20;had&#x20;better&#x20;performance&#x20;in&#x20;the&#x20;scales.&#x20;The&#x20;Barthel’s&#x20;Index&#x20;of&#x20;Activities&#x20;of&#x20;Daily&#x20;Living&#x20;showed&#x20;a&#x20;significant&#x20;difference,&#x20;only&#x20;on&#x20;the&#x20;country&#x20;population.&#x20;While,&#x20;Pfeiffer&#x20;scale&#x20;of&#x20;instrumental&#x20;activities&#x20;showed&#x20;significant&#x20;difference&#x20;in&#x20;both&#x20;groups.&#x20;The&#x20;Edmonton&#x20;Fragility&#x20;scale&#x20;and&#x20;the&#x20;OMS’s&#x20;Quality&#x20;of&#x20;life&#x20;questionnaire&#x20;–&#x20;old&#x20;showed&#x20;significant&#x20;difference&#x20;only&#x20;for&#x20;the&#x20;urban&#x20;group&#x20;pointing&#x20;to&#x20;bigger&#x20;fragility&#x20;and&#x20;smaller&#x20;quality&#x20;of&#x20;live&#x20;between&#x20;the&#x20;non-practitioners.&#x20;Concerning&#x20;the&#x20;MEEM&#x20;2,&#x20;it&#x20;was&#x20;found&#x20;significant&#x20;difference&#x20;in&#x20;rural&#x20;and&#x20;urban&#x20;groups,&#x20;accordingly,&#x20;in&#x20;both&#x20;groups,&#x20;the&#x20;practitioners&#x20;reached&#x20;bigger&#x20;scores.&#x20;In&#x20;that&#x20;way,&#x20;physical&#x20;activity&#x20;seems&#x20;to&#x20;be&#x20;a&#x20;probable&#x20;protection&#x20;factor&#x20;for&#x20;some&#x20;of&#x20;the&#x20;ageing&#x20;related&#x20;declines.</td></tr>
+<tr><td class="metadataFieldLabel dc_description_unidade">Unidade Acadêmica:&nbsp;</td><td class="metadataFieldValue dc_description_unidade"><a class="unidade"href="/browse?type=unidade&amp;value=Instituto+de+Psicologia+%28IP%29">Instituto&#x20;de&#x20;Psicologia&#x20;(IP)</a><br /><a class="unidade"href="/browse?type=unidade&amp;value=Departamento+de+Processos+Psicol%C3%B3gicos+B%C3%A1sicos+%28IP+PPB%29">Departamento&#x20;de&#x20;Processos&#x20;Psicológicos&#x20;Básicos&#x20;(IP&#x20;PPB)</a></td></tr>
+<tr><td class="metadataFieldLabel dc_description">Informações adicionais:&nbsp;</td><td class="metadataFieldValue dc_description">Dissertação&#x20;(mestrado)—Universidade&#x20;de&#x20;Brasília,&#x20;Instituto&#x20;de&#x20;Psicologia,&#x20;Departamento&#x20;de&#x20;Processos&#x20;Psicológicos&#x20;Básicos,&#x20;Pós-Graduação&#x20;em&#x20;Ciências&#x20;do&#x20;Comportamento,&#x20;2014.</td></tr>
+<tr><td class="metadataFieldLabel dc_description_ppg">Programa de pós-graduação:&nbsp;</td><td class="metadataFieldValue dc_description_ppg"><a class="ppg"href="/browse?type=ppg&amp;value=Programa+de+P%C3%B3s-Gradua%C3%A7%C3%A3o+em+Ci%C3%AAncias+do+Comportamento">Programa&#x20;de&#x20;Pós-Graduação&#x20;em&#x20;Ciências&#x20;do&#x20;Comportamento</a></td></tr>
+<tr><td class="metadataFieldLabel dc_rights_license">Licença:&nbsp;</td><td class="metadataFieldValue dc_rights_license">A&#x20;concessão&#x20;da&#x20;licença&#x20;deste&#x20;item&#x20;refere-se&#x20;ao&#x20;termo&#x20;de&#x20;autorização&#x20;impresso&#x20;assinado&#x20;pelo&#x20;autor&#x20;com&#x20;as&#x20;seguintes&#x20;condições:&#x20;Na&#x20;qualidade&#x20;de&#x20;titular&#x20;dos&#x20;direitos&#x20;de&#x20;autor&#x20;da&#x20;publicação,&#x20;autorizo&#x20;a&#x20;Universidade&#x20;de&#x20;Brasília&#x20;e&#x20;o&#x20;IBICT&#x20;a&#x20;disponibilizar&#x20;por&#x20;meio&#x20;dos&#x20;sites&#x20;www.bce.unb.br,&#x20;www.ibict.br,&#x20;http:&#x2F;&#x2F;hercules.vtls.com&#x2F;cgi-bin&#x2F;ndltd&#x2F;chameleon?lng=pt&amp;skin=ndltd&#x20;sem&#x20;ressarcimento&#x20;dos&#x20;direitos&#x20;autorais,&#x20;de&#x20;acordo&#x20;com&#x20;a&#x20;Lei&#x20;nº&#x20;9610&#x2F;98,&#x20;o&#x20;texto&#x20;integral&#x20;da&#x20;obra&#x20;disponibilizada,&#x20;conforme&#x20;permissões&#x20;assinaladas,&#x20;para&#x20;fins&#x20;de&#x20;leitura,&#x20;impressão&#x20;e&#x2F;ou&#x20;download,&#x20;a&#x20;título&#x20;de&#x20;divulgação&#x20;da&#x20;produção&#x20;científica&#x20;brasileira,&#x20;a&#x20;partir&#x20;desta&#x20;data.</td></tr>
+<tr><td class="metadataFieldLabel">Aparece nas coleções:</td><td class="metadataFieldValue"><a href="/handle/10482/45731">Teses, dissertações e produtos pós-doutorado</a><br/></td></tr>
+</table><br/>
+<center><object data="http://repositorio.unb.br/bitstream/10482/15590/1/2014_MilenaVieiraCoelho.pdf" type="application/pdf" width="100%" height="400px"></object></center>
+
+
+    
+    <div class="container row">
+
+
+    <a title="Mostrar registro completo do item" class="btn btn-default" href="/handle/10482/15590?mode=full">
+        Mostrar registro completo do item
+    </a>
+
+    <a title="Visualizar estatísticas" class="statisticsLink  btn btn-primary" href="/handle/10482/15590/statistics">Visualizar estatísticas</a>
+
+
+    <h1> </h1> 
+	
+	
+
+ 
+
+
+
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p title="Os itens no repositório estão protegidos por copyright, com todos os direitos reservados, salvo quando é indicado o contrário." class="submitFormHelp alert alert-info">Os itens no repositório estão protegidos por copyright, com todos os direitos reservados, salvo quando é indicado o contrário.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+
+				<footer class="navbar navbar-inverse navbar-bottom">
+					
+					<div id="rodapefull">
+						<div id="rodapeleft" class="pull-left"> 
+						
+							<p title="Universidade de Brasília - Biblioteca Central - Coordenadoria de Gestão da Informação Digital - GID - (61) 3107-2683 - repositorio@unb.br" class="text-muted">
+								Universidade de Brasília - Biblioteca Central
+								<br/>Coordenadoria de Gestão da Informação Digital - GID 
+								<br/>(61) 3107-2683 
+								<br/>repositorio@unb.br
+							</p>
+						
+						
+						
+						</div>
+						
+						<div id="rodapecenter"> 
+						
+							<div style="float:left; margin-right:10px; margin-top:10px;">
+								<a href="http://unb.br/" target="_blank"><img height="50" alt="Universidade de Brasília" title="Universidade de Brasília" src="/image/logo_unb_vertical.png" /></a>
+							</div>
+							<div style="float:left; margin-right:10px; margin-top:10px;">
+								<a href="http://ibict.br/" target="_blank"><img height="40" src="/image/logo_ibict.png" alt="Instituto Brasileiro de Informação em Ciência e Tecnologia" title="Instituto Brasileiro de Informação em Ciência e Tecnologia"/></a>
+                            </div>
+							<div style="float:left; margin-right:10px; margin-top:10px;">
+                                <a href="http://www.dspace.org/" target="_blank"><img height="50" src="/image/logo_dspace1.png" alt="DSpace" title="DSpace"/></a>
+                            </div>
+							<div style="float:left; margin-top:15px;">
+                               <a href="https://creativecommons.org/" target="_blank"><img height="30" src="/image/logo_cc.png" alt="Creative Commons" title="Creative Commons"/></a>
+                            </div>
+						
+						</div>
+						
+						<div id="rodaperight" > 
+						
+							<div id="footer_feedback" class="pull-right" style="margin-top:16px">
+                                <p class="text-muted">
+								
+									<ul class="nav navbar-nav">
+										<li title="Fale conosco"><a href="/feedback">Fale conosco</a></li>
+									</ul>	
+									<ul class="nav navbar-nav">
+										<li title="Sobre">
+                                                                           <a href="https://www.bce.unb.br/bibliotecas-digitais/repositorio/" target="_blank">Sobre</a></li>
+									</ul>
+
+								</p>
+                            </div>
+	
+						</div>
+					
+					</div>
+					
+				</footer>
+
+    </body>
+</html>
+

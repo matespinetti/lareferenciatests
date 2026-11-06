@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="Top" href="http://ru.iiec.unam.mx/" />
+<link rel="Search" href="/cgi/search" />
+<link rel="Top" href="http://ru.iiec.unam.mx/" />
+    <link rel="Sword" href="http://ru.iiec.unam.mx/sword-app/servicedocument" />
+    <link rel="SwordDeposit" href="http://ru.iiec.unam.mx/id/contents" />
+    <link rel="Search" type="text/html" href="http://ru.iiec.unam.mx/cgi/search" />
+    <link rel="Search" type="application/opensearchdescription+xml" href="http://ru.iiec.unam.mx/cgi/opensearchdescription" title="RU-Económicas" />
+    <script type="text/javascript">
+// <![CDATA[
+var eprints_http_root = "http:\/\/ru.iiec.unam.mx";
+var eprints_http_cgiroot = "http:\/\/ru.iiec.unam.mx\/cgi";
+var eprints_oai_archive_id = "ru.iiec.unam.mx";
+var eprints_logged_in = false;
+// ]]></script>
+    <style type="text/css">.ep_logged_in { display: none }</style>
+    <link rel="stylesheet" type="text/css" href="/style/auto-3.3.16.css" />
+    <script type="text/javascript" src="/javascript/auto-3.3.16.js"><!--padder--></script>
+    <!--[if lte IE 6]>
+        <link rel="stylesheet" type="text/css" href="/style/ie6.css" />
+   <![endif]-->
+    <meta name="Generator" content="EPrints 3.3.16" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="es" />
+    
+<style type="text/css" media="screen">@import url(/style/auto.css);
+</style>
+<style type="text/css" media="print">@import url(/style/print.css);
+</style>
+<style type="text/css" media="screen">@import url(/style/ru_iiec.css);
+</style>
+<style type="text/css" media="screen">@import url(/style/ru_iiec_media_qry.css);
+</style>
+<title>Bienvenido a RU-Económicas - RU-Económicas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <noscript>
+    <style type="text/css">@import url(/style/nojs.css);
+    </style>
+  </noscript>
+  <div class="doscol">
+    <div id="encabezado">
+      <a href="https://www.unam.mx" title="Universidad Nacional Autónoma de México">
+	<span id="logo-unam"></span>
+      </a>
+      <a href="http://ru.iiec.unam.mx/" title="Repositorio Universitario RU-Económicas">
+	<span id="logo-ru"></span>
+      </a>
+      <a href="https://economicas.unam.mx" title="Instituto de Investigaciones Económicas">
+	<span id="logo-iiec"></span>
+      </a>
+      <div id="busqueda">
+  <form method="get" accept-charset="utf-8" action="/cgi/search" style="display:inline">
+    <input class="ep_tm_searchbarbox" accept-charset="utf-8" size="20" type="text" name="q" />
+    <input class="ep_tm_searchbarbutton" value="Buscar" type="submit" name="_action_search" />
+    <input type="hidden" name="_order" value="bytitle" />
+    <input type="hidden" name="basic_srchtype" value="ALL" />
+    <input type="hidden" name="_satisfyall" value="ALL" />
+  </form>
+      </div>
+    </div>
+    <!-- Fin encabezado -->
+    <div class="ep_noprint">
+    </div>
+    
+    <div id="principal">
+      <div id="contenido">
+	
+	<table width="720" class="ep_tm_main">
+	  <tr>
+	    <td align="left">
+	      <h1 class="ep_tm_pagetitle">
+		Bienvenido a RU-Económicas
+	      </h1>
+	      
+
+<!--
+<div class="ep_msg_warning"><div class="ep_msg_warning_content"><table><tbody><tr><td>
+<img alt="Aviso" src="/style/images/warning.png" /></td><td>
+Este dep&oacute;sito no ha sido completamente configurado. Este p&aacute;rrafo describe al dep&oacute;sito, c&oacute;mo este es ejecutado y qu&eacute; contiene. Para modificar este texto edite 
+<tt><epc:print expr="$config{config_path}" />/lang/es/static/index.xpage</tt> y luego ejecute <tt>generate_static</tt>.
+</td></tr></tbody></table></div></div>
+
+<p>Si necesita un poco m&aacute;s de ayuda para comenzar, el equipo EPrints tiene un <a href="http://eprints.org/services/">brazo comercial de servico</a> que proporciona servicios de entrenamiento, ayuda, hosting y de consula.</p>
+-->
+<div style="text-align: right">
+<span class="ep_search_feed"><a href="/cgi/latest_tool?output=Atom"><img alt="[feed]" src="/style/images/feed-icon-14x14.png" border="0" /></a> <a href="/cgi/latest_tool?output=Atom">Átomo</a></span>
+<span class="ep_search_feed"><a href="/cgi/latest_tool?output=RSS"><img alt="[feed]" src="/style/images/feed-icon-14x14.png" border="0" /></a> <a href="/cgi/latest_tool?output=RSS">RSS 1.0</a></span>
+<span class="ep_search_feed"><a href="/cgi/latest_tool?output=RSS2"><img alt="[feed]" src="/style/images/feed-icon-14x14.png" border="0" /></a> <a href="/cgi/latest_tool?output=RSS2">RSS 2.0</a></span>
+</div>
+
+
+<div class="ep_toolbox"><div class="ep_toolbox_content">
+  <a href="http://ru.iiec.unam.mx/cgi/latest">Últimas Adiciones</a><br /><br />
+  Ver documentos añadidos al repositorio.  
+</div></div>
+
+<div class="ep_toolbox"><div class="ep_toolbox_content">
+ <a href="http://ru.iiec.unam.mx/cgi/search/advanced">Búsqueda Avanzada</a><br /><br />
+ Buscar en el depósito con multiples campos. Utilizar el campo de la búsqueda en el tope de la página para una búsqueda más rápida.
+</div></div>
+
+<div class="ep_toolbox"><div class="ep_toolbox_content">
+ <a href="http://ru.iiec.unam.mx/view/subjects">Consultar el Repositorio</a><br /><br />
+ Consultar los documentos del repositorio por clasificación JEL.
+</div></div>
+
+<div class="ep_toolbox"><div class="ep_toolbox_content">
+ <a href="http://ru.iiec.unam.mx/information.html">Sobre este Repositorio</a><br /><br />
+ Más información sobre este sitio.
+</div></div>
+
+<p style="margin-top: 2em; font-size: 90%">
+RU-Económicas soporta <a href="http://www.openarchives.org"><abbr title="Open Archives Protocol for Metadata Harvesting v2.0">OAI 2.0</abbr></a> con una URL base de <tt>http://ru.iiec.unam.mx/cgi/oai2</tt>
+</p>
+
+
+
+	    </td>
+	  </tr>
+	</table>
+      </div>
+      <div id="menu">
+	<ul class="main">
+	  <li><a href="http://ru.iiec.unam.mx/">Página Inicial</a>
+	  <!--
+	      <li>
+	      <a href="{$config{perl_url}}/set_lang?lang_id=en">English
+	      </a>
+	      </li> -->
+	  <ul>
+	    <li><a href="/information.html">Acerca de</a></li>
+	    <li><a href="/policies.html">Políticas de uso</a></li>
+	    <li><a href="/91/4/manual_deposito_documentos_ru.pdf">Manual de depósito</a></li>
+	  </ul>
+	  </li>
+	  <li>Consultas
+	  <ul>
+	    <li><a href="/view/creators">Por Autor</a></li>
+	    <li><a href="/view/year">Por Año</a></li>
+	    <li><a href="/view/subjects">Por Clasificación JEL</a></li>
+	    <li><a href="/view/collections">Por Colección</a></li>
+	    <li><a href="/view/divisions">Por División</a></li>
+	    <li><a href="https://ru.iiec.unam.mx:80/cgi/search/advanced">Búsqueda Avanzada</a></li>
+	  </ul>
+	  </li>
+	</ul>
+	<ul class="ep_tm_key_tools" id="ep_tm_menu_tools"><li><a href="http://ru.iiec.unam.mx/cgi/users/home">Iniciar sesión</a></li><li><a href="/cgi/register">Registrarse</a></li></ul>
+      </div>
+    </div>
+    <!-- Fin cuerpo -->
+    <div id="pie">
+      <div id="logos">
+	<a href="http://www.rad.unam.mx" title="Red de Acervos Digitales UNAM">
+	  <img src="/images/logo_radunam_113.png" alt="RAD UNAM" width="113" height="45" /></a>
+	<!-- <a href="https://assessment.datasealofapproval.org/assessment_173/seal/html/"> -->
+	<!--   <img src="https://assessment.datasealofapproval.org/media/images/DSA-Logos/DSA_2014_2015.gif" -->
+	<!--        alt="dsa_logo" height="45" width="45"/></a> -->
+      </div>
+      <div>RU-Económicas está basado en
+  <em><a href="http://eprints.org/software/">EPrints 3</a>
+  </em> el cual es desarrollado por la
+  <a href="http://www.ecs.soton.ac.uk/">Escuela de Electrónica y Ciencia de la Computación
+  </a> en la Universidad de Southampton.
+  <a href="/eprints/">Más información y créditos del software</a>.<br />
+  Hecho en México, 2011-2013 © D.R. Universidad Nacional Autónoma de México (UNAM).<br />
+        Instituto de Investigaciones Económicas (IIEc). Circuito Maestro Mario de la Cueva s/n,
+  Ciudad de la Investigación en Humanidades, Ciudad Universitaria, C.P. 04510,
+  México, D.F. <br />
+  Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no
+  se mutile, se cite la fuente completa y su dirección electrónica. De otra forma
+        requiere permiso previo por escrito de la institución. <br />Las condiciones legales
+  para reproducción de los objetos aquí depositados están disponibles en la
+  <a href="/policies.html#legal">la página de políticas de uso</a>.<br />
+  <a href="/credit.html">Créditos</a> |
+  <a href="https://economicas.unam.mx/contenido/aviso-privacidad">Página de privacidad</a> |
+  <a href="mailto:comision-ru@iiec.unam.mx">Contacto</a><br /><br />
+      </div>
+    </div>
+  </div>
+</body>
+</html>

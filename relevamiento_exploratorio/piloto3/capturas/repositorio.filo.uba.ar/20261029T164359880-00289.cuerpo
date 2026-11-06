@@ -1,0 +1,322 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "40e34141-331f-422a-9fef-7d0af80616c6",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/40e34141-331f-422a-9fef-7d0af80616c6/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/40e34141-331f-422a-9fef-7d0af80616c6/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/40e34141-331f-422a-9fef-7d0af80616c6/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/40e34141-331f-422a-9fef-7d0af80616c6"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "8ad16c60-e4d1-4c4c-81cb-a475e5ff710e",
+              "uuid" : "8ad16c60-e4d1-4c4c-81cb-a475e5ff710e",
+              "name" : "uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 381098,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "37870d06b342960951d52e277f3f70bd"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8ad16c60-e4d1-4c4c-81cb-a475e5ff710e/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8ad16c60-e4d1-4c4c-81cb-a475e5ff710e/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8ad16c60-e4d1-4c4c-81cb-a475e5ff710e/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8ad16c60-e4d1-4c4c-81cb-a475e5ff710e/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8ad16c60-e4d1-4c4c-81cb-a475e5ff710e/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8ad16c60-e4d1-4c4c-81cb-a475e5ff710e"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/40e34141-331f-422a-9fef-7d0af80616c6/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "200691bc-b5b1-4806-86d0-84202f7e78c4",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/200691bc-b5b1-4806-86d0-84202f7e78c4/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/200691bc-b5b1-4806-86d0-84202f7e78c4/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/200691bc-b5b1-4806-86d0-84202f7e78c4/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/200691bc-b5b1-4806-86d0-84202f7e78c4"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "c6266828-a3ab-46cd-84ca-2c463fef071c",
+              "uuid" : "c6266828-a3ab-46cd-84ca-2c463fef071c",
+              "name" : "uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-03-25T18:25:38Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 16694,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "97958680784e7579b5431d9a2b5881c1"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/c6266828-a3ab-46cd-84ca-2c463fef071c/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/c6266828-a3ab-46cd-84ca-2c463fef071c/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/c6266828-a3ab-46cd-84ca-2c463fef071c/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/c6266828-a3ab-46cd-84ca-2c463fef071c/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/c6266828-a3ab-46cd-84ca-2c463fef071c/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/c6266828-a3ab-46cd-84ca-2c463fef071c"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/200691bc-b5b1-4806-86d0-84202f7e78c4/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "6d588bd1-1b9b-4c6e-950d-22d992175404",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/6d588bd1-1b9b-4c6e-950d-22d992175404/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/6d588bd1-1b9b-4c6e-950d-22d992175404/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/6d588bd1-1b9b-4c6e-950d-22d992175404/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/6d588bd1-1b9b-4c6e-950d-22d992175404"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "e87de007-96c6-41fc-a3c5-9adfe2eb79ca",
+              "uuid" : "e87de007-96c6-41fc-a3c5-9adfe2eb79ca",
+              "name" : "uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Generated Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2026-03-25T18:25:40Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 9548,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "5fc7e1a9c4feb824dad224e74cd57440"
+              },
+              "sequenceId" : 5,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e87de007-96c6-41fc-a3c5-9adfe2eb79ca/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e87de007-96c6-41fc-a3c5-9adfe2eb79ca/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e87de007-96c6-41fc-a3c5-9adfe2eb79ca/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e87de007-96c6-41fc-a3c5-9adfe2eb79ca/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e87de007-96c6-41fc-a3c5-9adfe2eb79ca/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e87de007-96c6-41fc-a3c5-9adfe2eb79ca"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/6d588bd1-1b9b-4c6e-950d-22d992175404/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/0015acee-fb79-438a-9b80-f82b0c521327/bundles?embed=bitstreams"
+    }
+  }
+}

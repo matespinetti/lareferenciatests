@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://revistas.unne.edu.ar/lib/pkp/xml/oai2.xsl" ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+		http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+	<responseDate>2026-10-29T16:56:51Z</responseDate>
+	<request verb="ListRecords" metadataPrefix="oai_dc" from="2025-10-29">https://revistas.unne.edu.ar/index.php/adn/oai</request>
+	<ListRecords>
+		<record>
+			<header>
+				<identifier>oai:ojs.revistas.unne.edu.ar:article/9002</identifier>
+				<datestamp>2025-12-30T14:21:22Z</datestamp>
+				<setSpec>adn:ARD</setSpec>
+			</header>
+			<metadata>
+<oai_dc:dc
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+	http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+	<dc:title xml:lang="en-US">Experiencia de aprendizaje en vinculación con el medio. Graphic desing and extension project Orillarte</dc:title>
+	<dc:title xml:lang="es-ES">Experiencia de aprendizaje en vinculación con el medio. Diseño gráfico y proyecto de extensión Orillarte</dc:title>
+	<dc:creator>Pelli, María B.</dc:creator>
+	<dc:creator>Costilla, Ana</dc:creator>
+	<dc:creator>Fleitas, Nilda</dc:creator>
+	<dc:creator>Alegre, Alberto</dc:creator>
+	<dc:creator>Aquino, Damián</dc:creator>
+	<dc:creator>Estévez, Fernando</dc:creator>
+	<dc:creator>González, María S.</dc:creator>
+	<dc:creator>Machuca, Jorge</dc:creator>
+	<dc:creator>Pallares, Mercedes</dc:creator>
+	<dc:creator>Signoris, Luján</dc:creator>
+	<dc:creator>Toullieux, Cristian</dc:creator>
+	<dc:creator>Meyer, Lara</dc:creator>
+	<dc:creator>Passicot, Luciana</dc:creator>
+	<dc:subject xml:lang="es-ES">Aprendizaje situado</dc:subject>
+	<dc:subject xml:lang="es-ES">sistemas gráficos</dc:subject>
+	<dc:subject xml:lang="es-ES">cultura ribereña</dc:subject>
+	<dc:subject xml:lang="en-US">Situated learning</dc:subject>
+	<dc:subject xml:lang="en-US">graphic systems</dc:subject>
+	<dc:subject xml:lang="en-US">river culture</dc:subject>
+	<dc:description xml:lang="en-US">The Graphic Design Workshop 1, a first-year subject of the Graphic Design degree at UNNE, during the 2023 academic year carried out a knowledge exchange work with the population of the Tres Bocas area of the town of Puerto Vilelas, Chaco province, members of the Orillarte extension project of the Faculty of Economic Sciences of UNNE. The work had the pedagogical objective of introducing students to the concept and construction of graphic systems and notions of graphic identity, from the perspective of situated learning, in connection with real entities in the environment.</dc:description>
+	<dc:description xml:lang="es-ES">El Taller de Diseño Gráfico 1, asignatura del primer año de la carrera de Diseño Gráfico de la UNNE, durante el ciclo lectivo 2023 realizó un trabajo de intercambio de saberes con la población del paraje Tres Bocas de la localidad de Puerto Vilelas, provincia del Chaco, integrantes del proyecto de extensión Orillarte de la Facultad de Ciencias Económicas de la UNNE. El trabajo tuvo como objetivo pedagógico introducir a los estudiantes enel concepto y construcción de sistemas gráficos y nociones de identidad gráfica, desde la perspectiva del&amp;nbsp; aprendizaje situado, en vinculación con entidades reales del medio.</dc:description>
+	<dc:publisher xml:lang="es-ES">Facultad de Arquitectura y Urbanismo. Universidad Nacional del Nordeste</dc:publisher>
+	<dc:date>2025-12-30</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://revistas.unne.edu.ar/index.php/adn/article/view/9002</dc:identifier>
+	<dc:identifier>10.30972/adn.139002</dc:identifier>
+	<dc:source xml:lang="es-ES">ADNea; Núm. 13 (2025); 43-51</dc:source>
+	<dc:source>2347-1107</dc:source>
+	<dc:source>2347-064X</dc:source>
+	<dc:language>spa</dc:language>
+	<dc:relation>https://revistas.unne.edu.ar/index.php/adn/article/view/9002/8655</dc:relation>
+	<dc:rights xml:lang="es-ES">https://creativecommons.org/licenses/by-nc/4.0</dc:rights>
+</oai_dc:dc>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:ojs.revistas.unne.edu.ar:article/9004</identifier>
+				<datestamp>2025-12-30T14:21:21Z</datestamp>
+				<setSpec>adn:ARD</setSpec>
+			</header>
+			<metadata>
+<oai_dc:dc
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+	http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+	<dc:title xml:lang="en-US">Innovations in the subject Planning of the Civil Engineering career of the Faculty of Engineering of the UNNE. Proposal, implementation and initial reflections</dc:title>
+	<dc:title xml:lang="es-ES">Innovaciones de la asignatura Planeamiento de la carrera de Ingeniería Civil de la Facultad de Ingeniería de la UNNE. Propuesta, implementación y primeras reflexiones</dc:title>
+	<dc:creator>Romagnoli, Venettia</dc:creator>
+	<dc:creator>Cerno, Leandro</dc:creator>
+	<dc:creator>Rodríguez, Matías</dc:creator>
+	<dc:creator>Ebel, Gabriela</dc:creator>
+	<dc:creator>Ferreyra, Florencia</dc:creator>
+	<dc:subject xml:lang="es-ES">Ordenamiento ambiental del territorio</dc:subject>
+	<dc:subject xml:lang="es-ES">enfoque problematizador</dc:subject>
+	<dc:subject xml:lang="es-ES">perspectiva del desarrollo sostenible</dc:subject>
+	<dc:subject xml:lang="es-ES">enseñanza/ aprendizaje</dc:subject>
+	<dc:subject xml:lang="en-US">Environmental land-use planning</dc:subject>
+	<dc:subject xml:lang="en-US">problem-solving approach</dc:subject>
+	<dc:subject xml:lang="en-US">sustainable development perspective</dc:subject>
+	<dc:subject xml:lang="en-US">teaching/learning</dc:subject>
+	<dc:description xml:lang="en-US">This communication presents the pedagogical and content innovations introduced in the 2023 academic year in the second-year Planning subject of the Civil Engineering degree at the Faculty of Engineering of the National University of the Northeast, based on the restructuring of the teaching team in charge of the subject, with the aim of presenting from a critical perspective the main components of the program as a proposal and the experience of its implementation during 2023.</dc:description>
+	<dc:description xml:lang="es-ES">La comunicación presenta las innovaciones pedagógicas y de contenidos introducidas en el ciclo lectivo 2023 en la asignatura Planeamiento de segundo año de la carrera de Ingeniería Civil de la Facultad de Ingeniería de la Universidad Nacional del Nordeste, a partir de la restructuración del equipo docente a cargo de la materia, con la finalidad de exponer desde una perspectiva crítica las principales componentes del programa como propuesta y la experiencia de su implementación durante 2023.</dc:description>
+	<dc:publisher xml:lang="es-ES">Facultad de Arquitectura y Urbanismo. Universidad Nacional del Nordeste</dc:publisher>
+	<dc:date>2025-12-30</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://revistas.unne.edu.ar/index.php/adn/article/view/9004</dc:identifier>
+	<dc:identifier>10.30972/adn.139004</dc:identifier>
+	<dc:source xml:lang="es-ES">ADNea; Núm. 13 (2025); 53-61</dc:source>
+	<dc:source>2347-1107</dc:source>
+	<dc:source>2347-064X</dc:source>
+	<dc:language>spa</dc:language>
+	<dc:relation>https://revistas.unne.edu.ar/index.php/adn/article/view/9004/8659</dc:relation>
+	<dc:rights xml:lang="es-ES">https://creativecommons.org/licenses/by-nc/4.0</dc:rights>
+</oai_dc:dc>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:ojs.revistas.unne.edu.ar:article/9005</identifier>
+				<datestamp>2025-12-30T14:21:21Z</datestamp>
+				<setSpec>adn:ARD</setSpec>
+			</header>
+			<metadata>
+<oai_dc:dc
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+	http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+	<dc:title xml:lang="en-US">Know in order to propose: from diagnosis to planning and urban project. Practical exercise of the subject urbanism in the northern area of Resistencia. 2024</dc:title>
+	<dc:title xml:lang="es-ES">Conocer para proponer: del diagnóstico a la planificación y al proyecto urbano. Ejercitación práctica de la asignatura Urbanismo en el área norte de Resistencia. 2024</dc:title>
+	<dc:creator>Alcalá, Laura I.</dc:creator>
+	<dc:subject xml:lang="es-ES">Área Norte Resistencia</dc:subject>
+	<dc:subject xml:lang="es-ES">Plan General Urbano</dc:subject>
+	<dc:subject xml:lang="es-ES">Proyecto Urbano</dc:subject>
+	<dc:subject xml:lang="en-US">Northern Area of Resistencia</dc:subject>
+	<dc:subject xml:lang="en-US">General Urban Plan</dc:subject>
+	<dc:subject xml:lang="en-US">Urban Project</dc:subject>
+	<dc:description xml:lang="en-US">The Urban Planning subject proposes the conceptual assimilation of its contents through a series of practical works on which the course is structured and covers the methodological process that goes from diagnosis to planning and the urban project, in complementary urban scales. The experience of the 2024 course allows us to reflect on the strategies developed to overcome various contextual difficulties, while showing how its creative management generated productivity that allowed us to transcend the pedagogical objectives,&amp;nbsp; contributing to the collaborative construction of non-existent knowledge about a newly growing area of the city of Resistencia.</dc:description>
+	<dc:description xml:lang="es-ES">La asignatura Urbanismo propone la asimilación conceptual de sus contenidos a partir de una serie de trabajos prácticos sobre los que se estructura el cursado y recorre el proceso metodológico que va del diagnóstico a la planificación y al proyecto urbano, en escalas urbanas complementarias. La experiencia delcurso 2024 permite reflexionar sobre las estrategias desarrolladas para superar diversas dificultades contextuales planteadas, a la vez que muestra cómo su gestión creativa generó productividades que permitieron trascender los objetivos pedagógicos, contribuyendo a la construcción colaborativa de conocimiento inexistente sobre un área de nuevo crecimiento de la ciudad de Resistencia.</dc:description>
+	<dc:publisher xml:lang="es-ES">Facultad de Arquitectura y Urbanismo. Universidad Nacional del Nordeste</dc:publisher>
+	<dc:date>2025-12-30</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://revistas.unne.edu.ar/index.php/adn/article/view/9005</dc:identifier>
+	<dc:identifier>10.30972/adn.139005</dc:identifier>
+	<dc:source xml:lang="es-ES">ADNea; Núm. 13 (2025); 63-73</dc:source>
+	<dc:source>2347-1107</dc:source>
+	<dc:source>2347-064X</dc:source>
+	<dc:language>spa</dc:language>
+	<dc:relation>https://revistas.unne.edu.ar/index.php/adn/article/view/9005/8660</dc:relation>
+	<dc:rights xml:lang="es-ES">https://creativecommons.org/licenses/by-nc/4.0</dc:rights>
+</oai_dc:dc>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:ojs.revistas.unne.edu.ar:article/9006</identifier>
+				<datestamp>2025-12-30T14:21:19Z</datestamp>
+				<setSpec>adn:ARI</setSpec>
+			</header>
+			<metadata>
+<oai_dc:dc
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+	http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+	<dc:title xml:lang="en-US">Educational facilities as a factor in the socio-enviromental integration of their residential surroundings. Analysis of Latin American cases</dc:title>
+	<dc:title xml:lang="es-ES">Los equipamientos educativos como factor de integración socioambiental de su entorno residencial. Análisis de casos latinoamericanos</dc:title>
+	<dc:creator>González, Amanda M.</dc:creator>
+	<dc:creator>López, Leonardo G.</dc:creator>
+	<dc:creator>Boutet, María L.</dc:creator>
+	<dc:subject xml:lang="es-ES">Rehabilitación urbana</dc:subject>
+	<dc:subject xml:lang="es-ES">desarrollo sostenible</dc:subject>
+	<dc:subject xml:lang="es-ES">diseño bioclimático</dc:subject>
+	<dc:subject xml:lang="en-US">Urban rehabilitation</dc:subject>
+	<dc:subject xml:lang="en-US">sustainable development</dc:subject>
+	<dc:subject xml:lang="en-US">bioclimatic design</dc:subject>
+	<dc:description xml:lang="en-US">The results of the case analysis of the introductory phase are presented, which is part of the research project “Model of evaluation and micro-climatic rehabilitation of educational buildings and their residential environment, for the sustainable development of the city of Resistencia”. Taken together, these cases show how a comprehensive approach that combines passive architectural design, adaptation to the socio-cultural-economic context, sustainability and appropriate institutional framework can transform educational infrastructure into a fundamental pillar for community development and resilience in the face of current challenges.</dc:description>
+	<dc:description xml:lang="es-ES">Se presentan los resultados del análisis de casos de la fase introductoria que forma parte del proyecto de investigación“Modelo de evaluación y rehabilitación micro-climática de edificios educativos y su entorno residencial, para el desarrollo sustentable de la ciudad de Resistencia”. En conjunto, dichos casos muestran cómo un enfoque integral que combine diseño arquitectónico pasivo, adaptación al contexto socio-cultural-económico, sostenibilidad e institucionalidad adecuada puede transformar la infraestructura educativa en un pilar fundamental para el desarrollo comunitario y la resiliencia frente a los desafíos actuales.</dc:description>
+	<dc:publisher xml:lang="es-ES">Facultad de Arquitectura y Urbanismo. Universidad Nacional del Nordeste</dc:publisher>
+	<dc:date>2025-12-30</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://revistas.unne.edu.ar/index.php/adn/article/view/9006</dc:identifier>
+	<dc:identifier>10.30972/adn.139006</dc:identifier>
+	<dc:source xml:lang="es-ES">ADNea; Núm. 13 (2025); 77-88</dc:source>
+	<dc:source>2347-1107</dc:source>
+	<dc:source>2347-064X</dc:source>
+	<dc:language>spa</dc:language>
+	<dc:relation>https://revistas.unne.edu.ar/index.php/adn/article/view/9006/8661</dc:relation>
+	<dc:rights xml:lang="es-ES">https://creativecommons.org/licenses/by-nc/4.0</dc:rights>
+</oai_dc:dc>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:ojs.revistas.unne.edu.ar:article/9008</identifier>
+				<datestamp>2025-12-30T14:21:18Z</datestamp>
+				<setSpec>adn:ARI</setSpec>
+			</header>
+			<metadata>
+<oai_dc:dc
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+	http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+	<dc:title xml:lang="en-US">Museums and narratives in the AMGR (Chaco)</dc:title>
+	<dc:title xml:lang="es-ES">Museos y narrativas en el AMGR (Chaco)</dc:title>
+	<dc:creator>Mariño, María P.</dc:creator>
+	<dc:subject xml:lang="es-ES">Narrativa</dc:subject>
+	<dc:subject xml:lang="es-ES">italianos</dc:subject>
+	<dc:subject xml:lang="es-ES">museos</dc:subject>
+	<dc:subject xml:lang="es-ES">articulaciones sociales</dc:subject>
+	<dc:subject xml:lang="en-US">Narrative</dc:subject>
+	<dc:subject xml:lang="en-US">Italians</dc:subject>
+	<dc:subject xml:lang="en-US">museums</dc:subject>
+	<dc:subject xml:lang="en-US">social articulations</dc:subject>
+	<dc:description xml:lang="en-US">Narratives of Italian immigrants, as protagonists of the colonization of the National Territory of Chaco, are disseminated in museums of Resistencia and its AMGR (Chaco), and describe their leading role in the transformation of the Chaco territory. Witnesses to the social fabric since Italian colonization, they selected and excluded cultural artifacts in the memory of a recent territory, associating it with certain actors. The objective of the work is to make visible the social articulations revealed in the memory that emerged from the narrative constructed through the heritage and communication strategies that redefine the social value of Italian immigration in museums in Fontana and Resistencia,&amp;nbsp; guided by the texts of Bourdieu and Bartolomé.</dc:description>
+	<dc:description xml:lang="es-ES">Narrativas de los inmigrantes italianos, como protagonistas de la colonización del Territorio Nacional del Chaco, se difunden en museos de Resistencia y su AMGR (Chaco), y describen su participación protagónica en la transformación del territorio chaqueño. Testigos del entramado social desde la colonización italiana, seleccionaron y excluyeron artefactos culturales, en la memoria de un territorio reciente, asociándola a ciertos actores. El objetivo del trabajo es visibilizar las articulaciones sociales reveladas en la memoria surgida de la narrativa construida a través del acervo y de estrategias de comunicación que resignifican el valor social de la inmigración italiana en museos de Fontana y Resistencia, guiadas por los textos de Bourdieu y Bartolomé.&amp;nbsp;</dc:description>
+	<dc:publisher xml:lang="es-ES">Facultad de Arquitectura y Urbanismo. Universidad Nacional del Nordeste</dc:publisher>
+	<dc:date>2025-12-30</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://revistas.unne.edu.ar/index.php/adn/article/view/9008</dc:identifier>
+	<dc:identifier>10.30972/adn.139008</dc:identifier>
+	<dc:source xml:lang="es-ES">ADNea; Núm. 13 (2025); 89-96</dc:source>
+	<dc:source>2347-1107</dc:source>
+	<dc:source>2347-064X</dc:source>
+	<dc:language>spa</dc:language>
+	<dc:relation>https://revistas.unne.edu.ar/index.php/adn/article/view/9008/8665</dc:relation>
+	<dc:rights xml:lang="es-ES">https://creativecommons.org/licenses/by-nc/4.0</dc:rights>
+</oai_dc:dc>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:ojs.revistas.unne.edu.ar:article/9016</identifier>
+				<datestamp>2025-12-30T14:21:18Z</datestamp>
+				<setSpec>adn:ARI</setSpec>
+			</header>
+			<metadata>
+<oai_dc:dc
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+	http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+	<dc:title xml:lang="en-US">Environmental assessment of microclimatic rehabilitation strategies for the immediate surroundings of an educational building in the city of Resistencia, Chaco</dc:title>
+	<dc:title xml:lang="es-ES">Valoración ambiental de estrategias de rehabilitación microclimática del entorno inmediato a un edificio educativo en la ciudad de Resistencia, Chaco</dc:title>
+	<dc:creator>Boutet, María L.</dc:creator>
+	<dc:subject xml:lang="es-ES">Confort térmico</dc:subject>
+	<dc:subject xml:lang="es-ES">simulación dinámica</dc:subject>
+	<dc:subject xml:lang="es-ES">urbanismo bioclimático</dc:subject>
+	<dc:subject xml:lang="en-US">Thermal comfort</dc:subject>
+	<dc:subject xml:lang="en-US">dynamic simulation</dc:subject>
+	<dc:subject xml:lang="en-US">bioclimatic urban planning</dc:subject>
+	<dc:description xml:lang="en-US">Two extreme scenarios in an urban area of Resistencia are evaluated using the Envi-met microclimatic analysis software, in order to assess their potential. The epicenter is an early childhood education building and its immediate surroundings, where thermal discomfort problems were detected, and a rehabilitation proposal is put forward using bioclimatic strategies. The evaluation of the results compared with the baseline scenario showed a reduction in air temperature between 0.5 and 0.9 °C and in mean radiant temperature between 13.9 and 19.5 °C, thus verifying the positive impact of the implemented strategies.</dc:description>
+	<dc:description xml:lang="es-ES">Se evalúan dos escenarios extremos en un área urbana de Resistencia, utilizando el software de análisis microclimático Envi-met, a fin de valorar sus potencialidades. Se toma como epicentro un edificio educativo de nivel inicial y su entorno inmediato, donde se detectaron problemas de disconfort térmico ante lo cual se plantea una propuesta de rehabilitación mediante estrategias bioclimáticas. La valoración de los resultados contrastados con el escenario de base evidenció la reducción de la temperatura del aire entre 0.5 y 0.9 °C y la temperatura media radiante entre 13.9 y 19.5 °C, verificándose así la incidencia positiva de las estrategias implementadas.</dc:description>
+	<dc:publisher xml:lang="es-ES">Facultad de Arquitectura y Urbanismo. Universidad Nacional del Nordeste</dc:publisher>
+	<dc:date>2025-12-30</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://revistas.unne.edu.ar/index.php/adn/article/view/9016</dc:identifier>
+	<dc:identifier>10.30972/adn.139016</dc:identifier>
+	<dc:source xml:lang="es-ES">ADNea; Núm. 13 (2025); 97-107</dc:source>
+	<dc:source>2347-1107</dc:source>
+	<dc:source>2347-064X</dc:source>
+	<dc:language>spa</dc:language>
+	<dc:relation>https://revistas.unne.edu.ar/index.php/adn/article/view/9016/8667</dc:relation>
+	<dc:rights xml:lang="es-ES">https://creativecommons.org/licenses/by-nc/4.0</dc:rights>
+</oai_dc:dc>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:ojs.revistas.unne.edu.ar:article/9017</identifier>
+				<datestamp>2025-12-30T14:21:18Z</datestamp>
+				<setSpec>adn:ARI</setSpec>
+			</header>
+			<metadata>
+<oai_dc:dc
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+	http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+	<dc:title xml:lang="en-US">Reuse of plastic waste for the formation of sustainable building panels</dc:title>
+	<dc:title xml:lang="es-ES">Reutilización de residuo plástico para la conformación de paneles edilicios sustentables</dc:title>
+	<dc:creator>Villalba, Lucía A.</dc:creator>
+	<dc:creator>Alías, Herminia M.</dc:creator>
+	<dc:creator>Martina, Pablo</dc:creator>
+	<dc:subject xml:lang="es-ES">Plásticos</dc:subject>
+	<dc:subject xml:lang="es-ES">análisis</dc:subject>
+	<dc:subject xml:lang="es-ES">construcción</dc:subject>
+	<dc:subject xml:lang="en-US">Plastics</dc:subject>
+	<dc:subject xml:lang="en-US">analysis</dc:subject>
+	<dc:subject xml:lang="en-US">construction</dc:subject>
+	<dc:description xml:lang="en-US">The objective of this research was to develop prototype panels by reusing post-consumer plastic waste in the Gran Resistencia. Following a systematization of the properties and benefits associated with the use of plastic waste in construction, case studies in architecture and visits to plastic collection and reuse points in the city were carried out. Low-density polyethylene (LDPE) was found to be the least used plastic waste in construction, so a method for reusing it was analyzed and developed within the framework of the circular economy. The first prototypes and tests were generated.</dc:description>
+	<dc:description xml:lang="es-ES">El objetivo de esta investigación fue desarrollar prototipos de paneles reutilizando el residuo de plásticos posconsumo en el Gran Resistencia. Tras una sistematización de propiedades y beneficios asociados al uso del residuo plástico en la construcción, se realizaron: análisis de casos en la arquitectura, visitas a puntos de recolección y reutilización de plásticos en la ciudad, donde el residuo plástico que menor salida en la construcción tiene es el Polietileno de Baja Densidad (LDPE), por lo que se analizó y desarrolló una manera de reutilizarlo, en el marco de la economía circular. Se generaron los primeros prototipos y ensayos.</dc:description>
+	<dc:publisher xml:lang="es-ES">Facultad de Arquitectura y Urbanismo. Universidad Nacional del Nordeste</dc:publisher>
+	<dc:date>2025-12-30</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://revistas.unne.edu.ar/index.php/adn/article/view/9017</dc:identifier>
+	<dc:identifier>10.30972/adn.139017</dc:identifier>
+	<dc:source xml:lang="es-ES">ADNea; Núm. 13 (2025); 109-116</dc:source>
+	<dc:source>2347-1107</dc:source>
+	<dc:source>2347-064X</dc:source>
+	<dc:language>spa</dc:language>
+	<dc:relation>https://revistas.unne.edu.ar/index.php/adn/article/view/9017/8669</dc:relation>
+	<dc:rights xml:lang="es-ES">https://creativecommons.org/licenses/by-nc/4.0</dc:rights>
+</oai_dc:dc>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:ojs.revistas.unne.edu.ar:article/9018</identifier>
+				<datestamp>2025-12-30T14:21:17Z</datestamp>
+				<setSpec>adn:ARI</setSpec>
+			</header>
+			<metadata>
+<oai_dc:dc
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+	http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+	<dc:title xml:lang="en-US">Modernity is to blame. Study of the causes of water vulnerability in the city of Resistencia, Chaco Province</dc:title>
+	<dc:title xml:lang="es-ES">La culpa la tiene la modernidad. Estudio de las causas de la vulnerabilidad hídrica de la ciudad de Resistencia, provincia del Chaco</dc:title>
+	<dc:creator>Fogar, Sandra R.</dc:creator>
+	<dc:subject xml:lang="es-ES">Modernidad/colonialidad</dc:subject>
+	<dc:subject xml:lang="es-ES">territorialidad decolonial</dc:subject>
+	<dc:subject xml:lang="es-ES">Resistencia</dc:subject>
+	<dc:subject xml:lang="en-US">Modernity/coloniality</dc:subject>
+	<dc:subject xml:lang="en-US">decolonial territoriality</dc:subject>
+	<dc:subject xml:lang="en-US">Resistencia</dc:subject>
+	<dc:description xml:lang="en-US">The global socio-environmental crisis questions modes of urban intervention that, from a critical perspective, strain the market logic and help explain phenomena that impact territories. Modernity/coloniality, analyzed from a historical perspective, reveals the dominant epistemology that, under the banner of “development,” operated in the management of cities in our region without regard for local characteristics and which, in the case of Resistencia, resulted in conditions of water vulnerability. The notion of decolonial territoriality proposes thinking about other forms of territoriality, which serve to achieve more environmentally balanced and socially just modes of occupation.</dc:description>
+	<dc:description xml:lang="es-ES">La crisis socioambiental global interpela modos de intervención urbana que, a la luz de la perspectiva crítica, tensionan la lógica mercantilista y contribuyen a explicar fenómenos que impactan en los territorios. La modernidad/colonialidad, analizada en clave histórica, devela la epistemología dominante que bajo el lema de “desarrollo” operó en la gestión de ciudades en nuestra región sin consideración de los rasgos locales y que, en el caso de Resistencia, resultaron en condiciones de vulnerabilidad hídrica. La noción de territorialidad decolonial propone pensar otras formas de territorialidad, que sirvan para alcanzar modos de ocupación ambientalmente más equilibrados y socialmente más justos.</dc:description>
+	<dc:publisher xml:lang="es-ES">Facultad de Arquitectura y Urbanismo. Universidad Nacional del Nordeste</dc:publisher>
+	<dc:date>2025-12-30</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://revistas.unne.edu.ar/index.php/adn/article/view/9018</dc:identifier>
+	<dc:identifier>10.30972/adn.139018</dc:identifier>
+	<dc:source xml:lang="es-ES">ADNea; Núm. 13 (2025); 117-127</dc:source>
+	<dc:source>2347-1107</dc:source>
+	<dc:source>2347-064X</dc:source>
+	<dc:language>spa</dc:language>
+	<dc:relation>https://revistas.unne.edu.ar/index.php/adn/article/view/9018/8670</dc:relation>
+	<dc:rights xml:lang="es-ES">https://creativecommons.org/licenses/by-nc/4.0</dc:rights>
+</oai_dc:dc>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:ojs.revistas.unne.edu.ar:article/9019</identifier>
+				<datestamp>2025-12-30T14:21:17Z</datestamp>
+				<setSpec>adn:ARI</setSpec>
+			</header>
+			<metadata>
+<oai_dc:dc
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+	http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+	<dc:title xml:lang="en-US">Collective equipment and new centralities in the capital cities of the Argentinian Northeast</dc:title>
+	<dc:title xml:lang="es-ES">Equipamientos colectivos y nuevas centralidades en las ciudades capitales del Nordeste Argentino</dc:title>
+	<dc:creator>Abildgaard, Evelyn</dc:creator>
+	<dc:creator>Careaga, M. Luján</dc:creator>
+	<dc:creator>Coronel, Juan J.</dc:creator>
+	<dc:creator>Domínguez, Bruno N.</dc:creator>
+	<dc:creator>Espínola, Enzo M.</dc:creator>
+	<dc:subject xml:lang="es-ES">Planificación territorial</dc:subject>
+	<dc:subject xml:lang="es-ES">políticas habitacionales</dc:subject>
+	<dc:subject xml:lang="es-ES">barrios estatales</dc:subject>
+	<dc:subject xml:lang="en-US">Territorial planning</dc:subject>
+	<dc:subject xml:lang="en-US">housing policies</dc:subject>
+	<dc:subject xml:lang="en-US">state-owned neighborhoods</dc:subject>
+	<dc:description xml:lang="en-US">Urbanization processes towards peripheral areas raise questions about the effects of policies implemented by provincial housing institutes, following the neoliberal reforms of the 1990s. The overall objective is to understand the role of collective equipment in the process of forming new centralities, taking as case study four state neighborhoods: La Nueva Formosa (Formosa), Itaembé Guazú (Misiones), Santa Catalina (Corrientes) and Mujeres Argentinas (Chaco). Results are presented from an ongoing investigation, carried out within the framework of a research project that investigates metropolization processes in capital cities of the Argentinian northeast.</dc:description>
+	<dc:description xml:lang="es-ES">Los procesos de urbanización hacia áreas periféricas plantean interrogantes sobre los efectos de las políticas implementadas por los institutos de vivienda provinciales, luego de las reformas neoliberales de los 90. El objetivo general es conocer el rol de los equipamientos colectivos en el proceso de conformación de nuevas centralidades, tomando como caso de estudio a cuatro barrios estatales: La Nueva Formosa (Formosa), Itaembé Guazú (Misiones), Santa Catalina (Corrientes) y Mujeres Argentinas (Chaco). Se presentan resultados de una investigación en curso, realizada en el marco de un proyecto de investigación que indaga sobre procesos de metropolización en ciudades capitales del Nordeste Argentino.</dc:description>
+	<dc:publisher xml:lang="es-ES">Facultad de Arquitectura y Urbanismo. Universidad Nacional del Nordeste</dc:publisher>
+	<dc:date>2025-12-30</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://revistas.unne.edu.ar/index.php/adn/article/view/9019</dc:identifier>
+	<dc:identifier>10.30972/adn.139019</dc:identifier>
+	<dc:source xml:lang="es-ES">ADNea; Núm. 13 (2025); 129-138</dc:source>
+	<dc:source>2347-1107</dc:source>
+	<dc:source>2347-064X</dc:source>
+	<dc:language>spa</dc:language>
+	<dc:relation>https://revistas.unne.edu.ar/index.php/adn/article/view/9019/8671</dc:relation>
+	<dc:rights xml:lang="es-ES">https://creativecommons.org/licenses/by-nc/4.0</dc:rights>
+</oai_dc:dc>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:ojs.revistas.unne.edu.ar:article/9020</identifier>
+				<datestamp>2025-12-30T14:21:15Z</datestamp>
+				<setSpec>adn:ARI</setSpec>
+			</header>
+			<metadata>
+<oai_dc:dc
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+	http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+	<dc:title xml:lang="en-US">Mixture and integration of project logics in the architecture workshop: exploring networked learning territories with local commitment and global vision</dc:title>
+	<dc:title xml:lang="es-ES">Mixtura e integración de lógicas proyectuales en el taller de arquitectura: exploración de territorios de aprendizaje en red con compromiso local y visión global</dc:title>
+	<dc:creator>Tripaldi, Gustavo A.</dc:creator>
+	<dc:creator>Iturriaga, José</dc:creator>
+	<dc:creator>Pintos, Gladis E.</dc:creator>
+	<dc:creator>Vargas, Sergio D.</dc:creator>
+	<dc:creator>Balangero, Carolina N.</dc:creator>
+	<dc:creator>Iturriaga, Victoria</dc:creator>
+	<dc:creator>Calvo, Martín</dc:creator>
+	<dc:subject xml:lang="es-ES">Proyecto</dc:subject>
+	<dc:subject xml:lang="es-ES">red</dc:subject>
+	<dc:subject xml:lang="es-ES">aprendizaje</dc:subject>
+	<dc:subject xml:lang="en-US">Project</dc:subject>
+	<dc:subject xml:lang="en-US">network</dc:subject>
+	<dc:subject xml:lang="en-US">learning</dc:subject>
+	<dc:description xml:lang="en-US">The boundaries of architecture are expanding more and more into new fields of knowledge. What to teach and how to teach architectural design are increasingly necessary and relevant questions as a topic of research and academic reflection. This article aims to describe aspects of a research-teaching-learning process that has been carried out since 2008 by teams of teachers-researchers and students from Faculties of Architecture and Urbanism in Argentina and sister countries of Latin America. It draws on the experiences of our A4 chair in the Virtual Workshop in the Northern Network, Housing in Network (4th Year design chairs of the Faculties of Architecture and Urbanism of UNNE, UNT, UNLP, UNMdP, UBA, UNL and UDELAR-Uruguay) and ARQUISUR, showing the evolution of collaborative learning processes developed in a network, with a mixture of face-to-face and virtuality.</dc:description>
+	<dc:description xml:lang="es-ES">Los límites de la arquitectura se expanden cada vez más hacia nuevos campos del conocimiento. Qué enseñar y cómo enseñar diseño arquitectónico son preguntas cada vez más necesarias y vigentes como tema de investigación y reflexión académica. El presente artículo apunta a describir aristas de un proceso de investigación-enseñanza-aprendizaje que desde 2008 se lleva adelante por equipos de docentes-investigadores y estudiantes de Facultades de Arquitectura y Urbanismo de Argentina y países hermanos de América Latina. Se nutre de las experiencias de nuestra cátedra A4 en el Taller Virtual en Red Norte Grande, Vivienda en Red (cátedras proyectuales de 4° Año de las Facultades de Arquitectura y Urbanismo de la UNNE, UNT, UNLP, UNMdP, UBA, UNL y UDELAR-Uruguay) y ARQUISUR, exponiendo la evolución de procesos colaborativos de aprendizaje desarrollados en red, con mixtura de presencialidad y virtualidad.</dc:description>
+	<dc:publisher xml:lang="es-ES">Facultad de Arquitectura y Urbanismo. Universidad Nacional del Nordeste</dc:publisher>
+	<dc:date>2025-12-30</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://revistas.unne.edu.ar/index.php/adn/article/view/9020</dc:identifier>
+	<dc:identifier>10.30972/adn.139020</dc:identifier>
+	<dc:source xml:lang="es-ES">ADNea; Núm. 13 (2025); 139-148</dc:source>
+	<dc:source>2347-1107</dc:source>
+	<dc:source>2347-064X</dc:source>
+	<dc:language>spa</dc:language>
+	<dc:relation>https://revistas.unne.edu.ar/index.php/adn/article/view/9020/8675</dc:relation>
+	<dc:rights xml:lang="es-ES">https://creativecommons.org/licenses/by-nc/4.0</dc:rights>
+</oai_dc:dc>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:ojs.revistas.unne.edu.ar:article/9021</identifier>
+				<datestamp>2026-02-04T18:43:26Z</datestamp>
+				<setSpec>adn:PRO</setSpec>
+			</header>
+			<metadata>
+<oai_dc:dc
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+	http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+	<dc:title xml:lang="en-US">Strategic planning as a tool for university transformation, management, and development: master plan for the Resistencia and de la Reforma Campus</dc:title>
+	<dc:title xml:lang="es-ES">La planificación estratégica como herramienta de transformación, gestión y desarrollo universitario. Plan Maestro del Campus Resistencia y de La Reforma</dc:title>
+	<dc:creator>Mahave, Alberto</dc:creator>
+	<dc:creator>Roibón, María José</dc:creator>
+	<dc:subject xml:lang="es-ES">Universidad</dc:subject>
+	<dc:subject xml:lang="es-ES">Arquitectura</dc:subject>
+	<dc:subject xml:lang="es-ES">Ciudad</dc:subject>
+	<dc:subject xml:lang="en-US">University</dc:subject>
+	<dc:subject xml:lang="en-US">Architecture</dc:subject>
+	<dc:subject xml:lang="en-US">City</dc:subject>
+	<dc:description xml:lang="en-US">The Master Plan for the Resistencia and De la Reforma Campus of the National University of the Northeast is presented as a strategic tool for transformation, management and institutional development. It arises from the need to reverse and mitigate fragmented growth processes and scarce articulation between infrastructure, equipment, public spaces and the urban dynamics of the city in which they are located. Thus, the plan proposes a comprehensive framework for physical, environmental and functional organization, guided by the Sustainable Development Goals (SDG) and the 2030 Agenda, as a global action plan adopted in 2015 by the UN member countries to achieve sustainable development. The possibility of considering university campuses as cells of the city is highlighted, where strategies related to inclusivity, safety, resilience and sustainability can be applied, and be spilled over into their surroundings and other urban areas then. The work is based on participatory planning methodologies, multi-scale and multi-dimensional territorial analysis, for the construction of problems, the development of diagnoses and the formulation of project hypotheses aimed at the sanitation, mitigation and correction of problematic situations. At each stage, we worked collaboratively with different actors in the university community, defining guidelines for action that prioritize compactness, energy efficiency, connectivity, and the consolidation of public space as a support for university life. The Master Plan thus becomes a technical-political instrument that guides decision-making, articulates the actions of institutional actors, and projects a sustainable, inclusive, and resilient campus management model capable of actively integrating into the metropolitan territory and strengthening university identity. Here we show the architectural-urban dimension (infrastructure and equipment), at three scales of approach (macro, mezzo and micro) and its application in the short and medium term for the correction and redirection of the character and uses of the proposal.</dc:description>
+	<dc:description xml:lang="es-ES">El Plan Maestro de los Campus Resistencia y de la Reforma de la Universidad Nacional del Nordeste se manifiesta como una herramienta estratégica de transformación, gestión y desarrollo institucional. Surge ante la necesidad de revertir y mitigar procesos de crecimiento fragmentados y de escasa articulación entre las infraestructuras, equipamientos, espacios públicos y las dinámicas urbanas propias de la ciudad en la que se sitúan. Así, el plan propone un marco integral de ordenamiento físico, ambiental y funcional, orientado por los Objetivos de Desarrollo Sostenible (ODS) y la Agenda 2030, como plan de acción global adoptado en 2015 por los países miembros de la ONU para lograr el desarrollo sostenible. Se destaca la posibilidad de considerar los campus universitarios como células de la ciudad, donde pueden aplicarse estrategias relacionadas con la inclusividad, la seguridad, la resiliencia y la sostenibilidad, que puedan luego ser derramadas en su entorno y en otras áreas urbanas. El trabajo se apoya en metodologías de planificación participativa, análisis territorial multiescalar y multidimensional, para la construcción de problemas, la elaboración de diagnósticos y la formulación de hipótesis proyectuales tendientes al saneamiento, mitigación y corrección de las situaciones problemáticas. En cada etapa se trabajó de manera colaborativa con distintos actores de la comunidad universitaria, definiendo lineamientos de actuación que priorizan la compacidad, la eficiencia energética, la conectividad y la consolidación del espacio público como soporte de la vida universitaria. El Plan Maestro se constituye así en un instrumento técnico-político que orienta la toma de decisiones, articula la acción de diversos actores institucionales y proyecta un modelo de gestión del campus sostenible, inclusivo y resiliente, capaz de integrarse activamente al territorio metropolitano y fortalecer la identidad universitaria. Se muestra aquí un recorte, la dimensión arquitectónica-urbana (infraestructura y equipamientos), en tres escalas de abordaje (macro, mezzo y micro) y su aplicación a corto y mediano plazo para la corrección y el re direccionamiento del carácter y usos de la propuesta.</dc:description>
+	<dc:publisher xml:lang="es-ES">Facultad de Arquitectura y Urbanismo. Universidad Nacional del Nordeste</dc:publisher>
+	<dc:date>2025-12-30</dc:date>
+	<dc:type>info:eu-repo/semantics/article</dc:type>
+	<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+	<dc:format>application/pdf</dc:format>
+	<dc:identifier>https://revistas.unne.edu.ar/index.php/adn/article/view/9021</dc:identifier>
+	<dc:identifier>10.30972/adn.139021</dc:identifier>
+	<dc:source xml:lang="es-ES">ADNea; Núm. 13 (2025); 13-39</dc:source>
+	<dc:source>2347-1107</dc:source>
+	<dc:source>2347-064X</dc:source>
+	<dc:language>spa</dc:language>
+	<dc:relation>https://revistas.unne.edu.ar/index.php/adn/article/view/9021/8654</dc:relation>
+	<dc:rights xml:lang="es-ES">https://creativecommons.org/licenses/by-nc/4.0</dc:rights>
+</oai_dc:dc>
+			</metadata>
+		</record>
+	</ListRecords>
+</OAI-PMH>

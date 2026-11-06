@@ -1,0 +1,89 @@
+{
+ "pedido": "20261106T121522500-00024",
+ "url": "https://repositorio.ufmg.br/server/api/core/bitstreams/934dc24e-dac4-4db0-a9b7-267f01cc243a/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:16:01 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "20156503"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "set-cookie",
+   "ribnd-cookie=1793967361.822.26743.671222|d064366ccaf712c77b982ecfe7a79d85; Max-Age=3600; Path=/server; Secure; HttpOnly; SameSite=Lax"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Tue, 11 Nov 2025 18:55:16 GMT"
+  ],
+  [
+   "etag",
+   "\"706d56e8eae697d0963b0cae9957722d\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Fri, 06 Nov 2026 13:16:01 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "attachment;filename=\"TCC Final CECi - Francisnaide Souza.pdfA.pdf\""
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=15724800; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "medicion"
+}

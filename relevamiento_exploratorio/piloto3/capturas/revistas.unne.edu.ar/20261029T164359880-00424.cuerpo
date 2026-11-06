@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="es-ES" xml:lang="es-ES">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		ADNea
+					</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.3.0.22" />
+<link rel="alternate" type="application/atom+xml" href="https://revistas.unne.edu.ar/index.php/adn/gateway/plugin/WebFeedGatewayPlugin/atom">
+<link rel="alternate" type="application/rdf+xml" href="https://revistas.unne.edu.ar/index.php/adn/gateway/plugin/WebFeedGatewayPlugin/rss">
+<link rel="alternate" type="application/rss+xml" href="https://revistas.unne.edu.ar/index.php/adn/gateway/plugin/WebFeedGatewayPlugin/rss2">
+	<link rel="stylesheet" href="https://revistas.unne.edu.ar/index.php/adn/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://revistas.unne.edu.ar/index.php/adn/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://revistas.unne.edu.ar/lib/pkp/styles/fontawesome/fontawesome.css?v=3.3.0.22" type="text/css" /><link rel="stylesheet" href="https://revistas.unne.edu.ar/public/site/styleSheet.css?v=3.3.0.22" type="text/css" />
+</head>
+<body class="pkp_page_index pkp_op_index has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Salta a los enlaces de contenido">
+	<a href="#pkp_content_main">Ir al contenido principal</a>
+	<a href="#siteNav">Ir al menú de navegación principal</a>
+						<a href="#homepageAbout">Ir al apartado "Acerca de la revista"</a>
+									<a href="#homepageIssue">Ir al número actual</a>
+				<a href="#pkp_content_footer">Ir al pie de página del sitio</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+											<h1 class="pkp_screen_reader">
+															ADNea
+													</h1>
+										<div class="pkp_site_name">
+																<a href="						https://revistas.unne.edu.ar/index.php/adn/index
+					" class="is_img">
+							<img src="https://revistas.unne.edu.ar/public/journals/24/pageHeaderLogoImage_es_ES" width="1024" height="219"  />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Navegación del sitio">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/issue/current">
+					Actual
+				</a>
+							</li>
+								<li class="">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/issue/archive">
+					Archivos
+				</a>
+							</li>
+															<li class="">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/about">
+					Acerca de
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about">
+										Sobre la revista
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/submissions">
+										Envíos
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/editorialTeam">
+										Equipo editorial
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/privacy">
+										Declaración de privacidad
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/about/contact">
+										Contacto
+									</a>
+								</li>
+																		</ul>
+							</li>
+			</ul>
+
+				
+
+																						<div class="pkp_navigation_search_wrapper">
+									<a href="https://revistas.unne.edu.ar/index.php/adn/search" class="pkp_search pkp_search_desktop">
+										<span class="fa fa-search" aria-hidden="true"></span>
+										Buscar
+									</a>
+								</div>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+															<li class="profile">
+				<a href="https://revistas.unne.edu.ar/index.php/adn/login">
+					Entrar
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page_index_journal">
+
+	
+
+	
+				<section class="homepage_about">
+			<a id="homepageAbout"></a>
+			<h2>Sobre la revista</h2>
+			<p>Revista de La Facultad de Arquitectura y Urbanismo de la UNNE</p>
+<p><strong>ISSN</strong> 2347-064X; <strong>E-ISSN</strong> 2347-1107</p>
+<hr />
+		</section>
+	
+		
+				<section class="current_issue">
+			<a id="homepageIssue"></a>
+			<h2>
+				Número actual
+			</h2>
+			<div class="current_issue_title">
+				Núm. 13 (2025)
+			</div>
+				<div class="obj_issue_toc">
+
+		
+		<div class="heading">
+
+									<a class="cover" href="https://revistas.unne.edu.ar/index.php/adn/issue/view/829">
+								<img src="https://revistas.unne.edu.ar/public/journals/24/cover_issue_829_es_ES.jpg" alt="					Ver Núm. 13 (2025)
+				">
+			</a>
+		
+				
+				
+							<div class="published">
+				<span class="label">
+					Publicado:
+				</span>
+				<span class="value">
+					2025-12-30
+				</span>
+			</div>
+			</div>
+
+		
+		<div class="sections">
+			<div class="section">
+									<h3>
+					Proyectos
+				</h3>
+						<ul class="cmp_article_list articles">
+									<li>
+						
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-9021" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9021">
+			La planificación estratégica como herramienta de transformación, gestión y desarrollo universitario. Plan Maestro del Campus Resistencia y de La Reforma
+					</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Alberto Mahave, María José Roibón
+		</div>
+		
+							<div class="pages">
+				13-39
+			</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																										
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9021/8654" aria-labelledby=article-9021>
+
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+							</ul>
+				</div>
+			<div class="section">
+									<h3>
+					Artículos de docencia
+				</h3>
+						<ul class="cmp_article_list articles">
+									<li>
+						
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-9002" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9002">
+			Experiencia de aprendizaje en vinculación con el medio. Diseño gráfico y proyecto de extensión Orillarte
+					</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			María B. Pelli, Ana Costilla, Nilda Fleitas, Alberto Alegre, Damián Aquino, Fernando Estévez, María S. González, Jorge Machuca, Mercedes Pallares, Luján Signoris, Cristian Toullieux, Lara Meyer, Luciana Passicot
+		</div>
+		
+							<div class="pages">
+				43-51
+			</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																										
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9002/8655" aria-labelledby=article-9002>
+
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-9004" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9004">
+			Innovaciones de la asignatura Planeamiento de la carrera de Ingeniería Civil de la Facultad de Ingeniería de la UNNE. Propuesta, implementación y primeras reflexiones
+					</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Venettia Romagnoli, Leandro Cerno, Matías Rodríguez, Gabriela Ebel, Florencia Ferreyra
+		</div>
+		
+							<div class="pages">
+				53-61
+			</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																										
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9004/8659" aria-labelledby=article-9004>
+
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-9005" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9005">
+			Conocer para proponer: del diagnóstico a la planificación y al proyecto urbano. Ejercitación práctica de la asignatura Urbanismo en el área norte de Resistencia. 2024
+					</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Laura I. Alcalá
+		</div>
+		
+							<div class="pages">
+				63-73
+			</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																										
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9005/8660" aria-labelledby=article-9005>
+
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+							</ul>
+				</div>
+			<div class="section">
+									<h3>
+					Artículos de investigación
+				</h3>
+						<ul class="cmp_article_list articles">
+									<li>
+						
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-9006" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9006">
+			Los equipamientos educativos como factor de integración socioambiental de su entorno residencial. Análisis de casos latinoamericanos
+					</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Amanda M. González, Leonardo G. López, María L. Boutet
+		</div>
+		
+							<div class="pages">
+				77-88
+			</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																										
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9006/8661" aria-labelledby=article-9006>
+
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-9008" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9008">
+			Museos y narrativas en el AMGR (Chaco)
+					</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			María P. Mariño
+		</div>
+		
+							<div class="pages">
+				89-96
+			</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																										
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9008/8665" aria-labelledby=article-9008>
+
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-9016" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9016">
+			Valoración ambiental de estrategias de rehabilitación microclimática del entorno inmediato a un edificio educativo en la ciudad de Resistencia, Chaco
+					</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			María L. Boutet
+		</div>
+		
+							<div class="pages">
+				97-107
+			</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																										
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9016/8667" aria-labelledby=article-9016>
+
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-9017" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9017">
+			Reutilización de residuo plástico para la conformación de paneles edilicios sustentables
+					</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Lucía A. Villalba, Herminia M. Alías, Pablo Martina
+		</div>
+		
+							<div class="pages">
+				109-116
+			</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																										
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9017/8669" aria-labelledby=article-9017>
+
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-9018" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9018">
+			La culpa la tiene la modernidad. Estudio de las causas de la vulnerabilidad hídrica de la ciudad de Resistencia, provincia del Chaco
+					</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Sandra R. Fogar
+		</div>
+		
+							<div class="pages">
+				117-127
+			</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																										
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9018/8670" aria-labelledby=article-9018>
+
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-9019" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9019">
+			Equipamientos colectivos y nuevas centralidades en las ciudades capitales del Nordeste Argentino
+					</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Evelyn Abildgaard, M. Luján Careaga, Juan J. Coronel, Bruno N. Domínguez, Enzo M. Espínola
+		</div>
+		
+							<div class="pages">
+				129-138
+			</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																										
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9019/8671" aria-labelledby=article-9019>
+
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-9020" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9020">
+			Mixtura e integración de lógicas proyectuales en el taller de arquitectura: exploración de territorios de aprendizaje en red con compromiso local y visión global
+					</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Gustavo A. Tripaldi, José Iturriaga, Gladis E. Pintos, Sergio D. Vargas, Carolina N. Balangero, Victoria Iturriaga, Martín Calvo
+		</div>
+		
+							<div class="pages">
+				139-148
+			</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																										
+	
+							
+
+<a class="obj_galley_link pdf" href="https://revistas.unne.edu.ar/index.php/adn/article/view/9020/8675" aria-labelledby=article-9020>
+
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+							</ul>
+				</div>
+		</div><!-- .sections -->
+</div>
+			<a href="https://revistas.unne.edu.ar/index.php/adn/issue/archive" class="read_more">
+				Ver todos los números
+			</a>
+		</section>
+	
+				<div class="additional_content">
+			<p align="center"><a href="http://arla.ubiobio.cl/index.php?r=ultimo-numero%2Fver_detalle_numero&amp;numero=341&amp;revista=186" target="_blank" rel="noopener"><strong><img src="https://revistas.unne.edu.ar/public/site/images/admin/arla_logo1.jpg" alt="" /></strong></a></p>
+<p align="justify"><strong> </strong></p>
+<p align="justify"><strong>ADNea</strong> es una revista que abarca las distintas áreas académicas y campos temáticos de actuación de las carreras de la facultad de Arquitectura y Urbanismo de la Universidad Nacional del Nordeste: Arquitectura, Urbanismo, Planeamiento y Diseño Gráfico. Incluye tanto actividades académicas, como profesionales. Está dirigida a publicar la producción de los docentes e investigadores de la Facultad y de los profesionales egresados que se desempeñan en ámbitos privados y públicos. Tiene por objetivo general contribuir a la representación institucional e inserción de la Facultad de Arquitectura y Urbanismo en los campos de actuación profesional del nordeste argentino.</p>
+<hr />
+		</div>
+	</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary" aria-label="Barra lateral">
+				<div class="pkp_block block_custom" id="customblock-indexaciones">
+	<h2 class="title pkp_screen_reader">Indexaciones</h2>
+	<div class="content">
+		<hr>
+<h3><span style="color: grey;">Indexaciones</span></h3>
+<p>&nbsp;</p>
+<p><a href="http://arla.ubiobio.cl/index.php?r=ultimo-numero%2Fver_detalle_numero&amp;numero=341&amp;revista=186" target="_blank" rel="noopener"><strong><img src="https://revistas.unne.edu.ar/public/site/images/admin/arla_logo1.jpg" alt=""></strong></a></p>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+		
+		<div class="pkp_brand_footer" role="complementary">
+			<a href="https://revistas.unne.edu.ar/index.php/adn/about/aboutThisPublishingSystem">
+				<img alt="Más información acerca del sistema de publicación, de la plataforma y del flujo de trabajo de OJS/PKP." src="https://revistas.unne.edu.ar/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://revistas.unne.edu.ar/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/lib/popper/popper.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/lib/bootstrap/util.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.3.0.22" type="text/javascript"></script><script src="https://revistas.unne.edu.ar/plugins/themes/default/js/main.js?v=3.3.0.22" type="text/javascript"></script>
+
+
+</body>
+</html>

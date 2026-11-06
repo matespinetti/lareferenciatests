@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:47:14Z</responseDate><request verb="GetRecord" identifier="oai:rdu.unc.edu.ar:11086/27024" metadataPrefix="xoai">https://rdu.unc.edu.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:rdu.unc.edu.ar:11086/27024</identifier><datestamp>2026-05-06T12:45:43Z</datestamp><setSpec>com_11086_13237</setSpec><setSpec>com_11086_301</setSpec><setSpec>com_11086_166</setSpec><setSpec>col_11086_15046</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="author">
+            <element name="none">
+               <field name="value">Ariza Espinar, L.</field>
+               <field name="authority">ca28ba05-2990-402a-8863-a1b27da832ce</field>
+               <field name="confidence">-1</field>
+               <field name="value">Hieronymus, G. H. E. W.</field>
+               <field name="authority">f2448673-ea54-4eb0-8f30-65ffb5c303c1</field>
+               <field name="confidence">-1</field>
+            </element>
+         </element>
+      </element>
+      <element name="coverage">
+         <element name="spatial">
+            <element name="none">
+               <field name="value">Sudamérica | Argentina | Córdoba</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2022-07-08T14:47:51Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2022-07-08T14:47:51Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">1876</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://hdl.handle.net/11086/27024</field>
+               <field name="value">https://www.gbif.org/occurrence/2252106439</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="es">
+               <field name="value">Entre Mina Argentina y Yerba Buena, en las cercanías del Cerro de Oriusu</field>
+            </element>
+         </element>
+         <element name="version">
+            <element name="none">
+               <field name="value">publishedVersion</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="es">
+               <field name="value">spa</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">Universidad Nacional de Cordoba. Facultad de Ciencias Exactas, Fisicas y Naturales; Consejo Nacional de Investigaciones Cientificas y Tecnicas. Instituto Multidisciplinario de Biologia Vegetal</field>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="*">
+            <field name="value">Attribution-NonCommercial-ShareAlike 4.0 International</field>
+         </element>
+         <element name="none">
+            <field name="value">Attribution-NonCommercial-ShareAlike 4.0 International</field>
+         </element>
+         <element name="uri">
+            <element name="*">
+               <field name="value">https://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+            </element>
+            <element name="none">
+               <field name="value">https://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="es">
+            <field name="value">Magnoliopsida</field>
+            <field name="value">Myrtales</field>
+            <field name="value">Onagraceae</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="es">
+            <field name="value">Oenothera curtiflora W.L. Wagner &amp; Hoch</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="es">
+            <field name="value">dataSet</field>
+         </element>
+      </element>
+   </element>
+   <element name="dwc">
+      <element name="family">
+         <element name="es">
+            <field name="value">Onagraceae</field>
+         </element>
+      </element>
+      <element name="catalogNumber">
+         <element name="es">
+            <field name="value">CORD 00005698</field>
+         </element>
+      </element>
+      <element name="identifiedBy">
+         <element name="es">
+            <field name="value">Ariza Espinar, L. [Determiner]</field>
+         </element>
+      </element>
+      <element name="recordedBy">
+         <element name="es">
+            <field name="value">Hieronymus, G. H. E. W. [Collector]</field>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">CORD00005698.tif</field>
+               <field name="format">image/tiff</field>
+               <field name="size">200605784</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/78dd2bd4-91f3-4fa8-bc3a-b87fca1ce90c/download</field>
+               <field name="checksum">5cc7fd1c672a08e75000c9c26b28001e</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+            </element>
+            <element name="bitstream">
+               <field name="name">darwin_core.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">11594</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/835a4ce4-6719-4b2a-bda0-37d4b9fccb4e/download</field>
+               <field name="checksum">1c75f07950931381b48e826529858ee7</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+            </element>
+            <element name="bitstream">
+               <field name="name">CORD00005698.jpg</field>
+               <field name="originalName">CORD00005698.jpg</field>
+               <field name="description"/>
+               <field name="format">image/jpeg</field>
+               <field name="size">5402387</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/ccd15c6b-c76b-4376-abc7-51e646c09db7/download</field>
+               <field name="checksum">52c7f5960c065dff372bc6abf3e2650b</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+            </element>
+            <element name="bitstream">
+               <field name="name">darwin_core.csv</field>
+               <field name="format">text/csv</field>
+               <field name="size">1033</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/bb59a600-c479-46f8-b3d2-a34ef9ce654b/download</field>
+               <field name="checksum">d64aa39c3bce64e3e6ac1740fa82c55e</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">8</field>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">CORD00005698.tif.jpg</field>
+               <field name="originalName">CORD00005698.tif.jpg</field>
+               <field name="description">IM Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">36140</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/03720d12-ddc5-4a22-ac36-ba5a9fc6cc0d/download</field>
+               <field name="checksum">670b9bf20d007996de8ec4dc34859424</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+            </element>
+            <element name="bitstream">
+               <field name="name">darwin_core.pdf.jpg</field>
+               <field name="originalName">darwin_core.pdf.jpg</field>
+               <field name="description">IM Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">8689</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/f984dfea-bc41-4828-8b58-d9bd5f82e58e/download</field>
+               <field name="checksum">6cb48a6337924202f68247c53a21c8bf</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">6</field>
+            </element>
+            <element name="bitstream">
+               <field name="name">CORD00005698.jpg.jpg</field>
+               <field name="originalName">CORD00005698.jpg.jpg</field>
+               <field name="description">IM Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">19791</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/bd0aca14-c65a-48d8-b24d-0cc77a3f85a4/download</field>
+               <field name="checksum">a06f827183a2f6c9dc4272e21bba1d63</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">7</field>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">darwin_core.pdf.txt</field>
+               <field name="originalName">darwin_core.pdf.txt</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">1074</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/e66e5b88-c65f-4d0f-ba41-5e1f0355ec96/download</field>
+               <field name="checksum">35a57ee9b2df562fe42bb1fa6220e656</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">11086/27024</field>
+      <field name="identifier">oai:rdu.unc.edu.ar:11086/27024</field>
+      <field name="lastModifyDate">2026-05-06 12:45:43.495</field>
+      <element name="cc">
+         <field name="uri">https://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+         <field name="name">Attribution-NonCommercial-ShareAlike 4.0 International</field>
+      </element>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://rdu.unc.edu.ar</field>
+      <field name="name">RDU</field>
+      <field name="mail">afebre@unc.edu.ar</field>
+   </element>
+   <element name="license"/>
+</metadata></metadata></record></GetRecord></OAI-PMH>

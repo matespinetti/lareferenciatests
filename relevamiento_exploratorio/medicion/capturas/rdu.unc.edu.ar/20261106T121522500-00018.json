@@ -1,0 +1,113 @@
+{
+ "pedido": "20261106T121522500-00018",
+ "url": "https://rdu.unc.edu.ar/server/api/core/bitstreams/78dd2bd4-91f3-4fa8-bc3a-b87fca1ce90c/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:15:53 GMT"
+  ],
+  [
+   "content-type",
+   "image/tiff;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "200605784"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "set-cookie",
+   "DSPACE-XSRF-COOKIE=92f24b02-e28e-458d-a16f-d425312bca66; Path=/server; Secure; HttpOnly; SameSite=None"
+  ],
+  [
+   "dspace-xsrf-token",
+   "92f24b02-e28e-458d-a16f-d425312bca66"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Thu, 07 Apr 2022 22:09:42 GMT"
+  ],
+  [
+   "etag",
+   "\"5cc7fd1c672a08e75000c9c26b28001e\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Fri, 06 Nov 2026 13:15:53 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "attachment; filename=\"CORD00005698.tif\"; filename*=UTF-8''CORD00005698.tif"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "1; mode=block"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ],
+  [
+   "access-control-allow-methods",
+   "GET, POST, OPTIONS"
+  ],
+  [
+   "access-control-allow-headers",
+   "Origin, X-Requested-With, Content-Type, Accept, X-Correlation-ID, X-Referrer"
+  ],
+  [
+   "content-security-policy",
+   "frame-ancestors 'self' https://dspace-rdu-1.psi.unc.edu.ar"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "medicion"
+}

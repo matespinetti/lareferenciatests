@@ -1,0 +1,41 @@
+{
+ "pedido": "20261029T164359880-00507",
+ "url": "https://www.scielo.org.ar/rest/status",
+ "codigo": 404,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:58:21 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.2.3 (CentOS)"
+  ],
+  [
+   "content-security-policy",
+   "upgrade-insecure-requests;"
+  ],
+  [
+   "content-length",
+   "291"
+  ],
+  [
+   "content-type",
+   "text/html; charset=iso-8859-1"
+  ],
+  [
+   "via",
+   "1.1 www.scielo.org.ar"
+  ],
+  [
+   "keep-alive",
+   "timeout=1, max=50"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

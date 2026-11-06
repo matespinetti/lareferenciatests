@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Avoiding WSDL Bad Practices in Code-First Web Services
+							| SADIO Electronic Journal of Informatics and Operations Research
+			</title>
+
+	
+<link rel="icon" href="https://revistas.unlp.edu.ar/public/journals/67/favicon_es_ES.png">
+<meta name="generator" content="Open Journal Systems 3.4.0.8">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Cristian Mateos"/>
+<meta name="DC.Creator.PersonalName" content="Marco Crasso"/>
+<meta name="DC.Creator.PersonalName" content="Alejandro Zunino"/>
+<meta name="DC.Creator.PersonalName" content="José Luis Ordiales Coscia"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2012-09-28"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2019-03-28"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2012-09-28"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2024-11-13"/>
+<meta name="DC.Description" xml:lang="en" content="Service-Oriented Computing allows software developers to structure applications as a set of standalone and reusable components called services. The common technological choice for materializing these services is Web Services, whose exposed functionality is described by using the Web Services Description Language (WSDL). Methodologically, Web Services are often built by first implementing their behavior and then generating the corresponding WSDL document via automatic tools. Good WSDL designs are crucial to derive reusable Web Services. We found that there is a high correlation between well-known Object-Oriented metrics taken in the code implementing services and the occurrences of bad design practices in their WSDL documents. This paper shows that some refactorings performed early when developing Web Services can greatly improve the quality of generated WSDL documents."/>
+<meta name="DC.Description" xml:lang="es" content="Service-Oriented Computing allows software developers to structure applications as a set of standalone and reusable components called services. The common technological choice for materializing these services is Web Services, whose exposed functionality is described by using the Web Services Description Language (WSDL). Methodologically, Web Services are often built by first implementing their behavior and then generating the corresponding WSDL document via automatic tools. Good WSDL designs are crucial to derive reusable Web Services. We found that there is a high correlation between well-known Object-Oriented metrics taken in the code implementing services and the occurrences of bad design practices in their WSDL documents. This paper shows that some refactorings performed early when developing Web Services can greatly improve the quality of generated WSDL documents."/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="17559"/>
+<meta name="DC.Identifier.pageNumber" content="31-48"/>
+<meta name="DC.Identifier.URI" content="https://revistas.unlp.edu.ar/ejs/article/view/17559"/>
+<meta name="DC.Language" scheme="ISO639-1" content="es"/>
+<meta name="DC.Rights" content="Derechos de autor 2012 Cristian Mateos, Marco Crasso, Alejandro Zunino, José Luis Ordiales Coscia"/>
+<meta name="DC.Rights" content="https://creativecommons.org/licenses/by-nc-sa/4.0"/>
+<meta name="DC.Source" content="SADIO Electronic Journal of Informatics and Operations Research"/>
+<meta name="DC.Source.ISSN" content="1514-6774"/>
+<meta name="DC.Source.Volume" content="11"/>
+<meta name="DC.Source.URI" content="https://revistas.unlp.edu.ar/ejs"/>
+<meta name="DC.Subject" xml:lang="en" content="Service-Oriented Computing"/>
+<meta name="DC.Subject" xml:lang="en" content="Web Services"/>
+<meta name="DC.Subject" xml:lang="en" content="Code-First"/>
+<meta name="DC.Subject" xml:lang="en" content="Object-Oriented Metrics"/>
+<meta name="DC.Subject" xml:lang="en" content="Wsdl Anti-Patterns"/>
+<meta name="DC.Subject" xml:lang="en" content="Early Detection"/>
+<meta name="DC.Title" content="Avoiding WSDL Bad Practices in Code-First Web Services"/>
+<meta name="DC.Title.Alternative" xml:lang="en" content="Avoiding WSDL Bad Practices in Code-First Web Services"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Papers"/>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="SADIO Electronic Journal of Informatics and Operations Research"/>
+<meta name="citation_journal_abbrev" content="EJS"/>
+<meta name="citation_issn" content="1514-6774"/> 
+<meta name="citation_author" content="Cristian Mateos"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Centro de la provincia de Buenos Aires, Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Argentina"/>
+<meta name="citation_author" content="Marco Crasso"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Centro de la provincia de Buenos Aires, Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Argentina"/>
+<meta name="citation_author" content="Alejandro Zunino"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Centro de la provincia de Buenos Aires, Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Argentina"/>
+<meta name="citation_author" content="José Luis Ordiales Coscia"/>
+<meta name="citation_author_institution" content="Universidad Nacional del Centro de la provincia de Buenos Aires, Argentina"/>
+<meta name="citation_title" content="Avoiding WSDL Bad Practices in Code-First Web Services"/>
+<meta name="citation_language" content="es"/>
+<meta name="citation_date" content="2012/09/28"/>
+<meta name="citation_volume" content="11"/>
+<meta name="citation_firstpage" content="31"/>
+<meta name="citation_lastpage" content="48"/>
+<meta name="citation_abstract_html_url" content="https://revistas.unlp.edu.ar/ejs/article/view/17559"/>
+<meta name="citation_abstract" xml:lang="es" content="Service-Oriented Computing allows software developers to structure applications as a set of standalone and reusable components called services. The common technological choice for materializing these services is Web Services, whose exposed functionality is described by using the Web Services Description Language (WSDL). Methodologically, Web Services are often built by first implementing their behavior and then generating the corresponding WSDL document via automatic tools. Good WSDL designs are crucial to derive reusable Web Services. We found that there is a high correlation between well-known Object-Oriented metrics taken in the code implementing services and the occurrences of bad design practices in their WSDL documents. This paper shows that some refactorings performed early when developing Web Services can greatly improve the quality of generated WSDL documents."/>
+<meta name="citation_keywords" xml:lang="en" content="Service-Oriented Computing"/>
+<meta name="citation_keywords" xml:lang="en" content="Web Services"/>
+<meta name="citation_keywords" xml:lang="en" content="Code-First"/>
+<meta name="citation_keywords" xml:lang="en" content="Object-Oriented Metrics"/>
+<meta name="citation_keywords" xml:lang="en" content="Wsdl Anti-Patterns"/>
+<meta name="citation_keywords" xml:lang="en" content="Early Detection"/>
+<meta name="citation_pdf_url" content="https://revistas.unlp.edu.ar/ejs/article/download/17559/17121"/>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9ZXB2CF1SP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9ZXB2CF1SP');
+</script>
+	<link rel="stylesheet" href="https://revistas.unlp.edu.ar/ejs/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/ejs/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/lib/pkp/styles/fontawesome/fontawesome.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/public/journals/67/styleSheet.css?d=2024-11-06+15%3A23%3A23" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/public/site/styleSheet.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/plugins/generic/citationStyleLanguage/css/citationStyleLanguagePlugin.css?v=3.4.0.8" type="text/css" />
+</head>
+<body class="pkp_page_article pkp_op_view has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Salta a los enlaces de contenido">
+	<a href="#pkp_content_main">Ir al contenido principal</a>
+	<a href="#siteNav">Ir al menú de navegación principal</a>
+		<a href="#pkp_content_footer">Ir al pie de página del sitio</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://revistas.unlp.edu.ar/ejs/index
+					" class="is_img">
+							<img src="https://revistas.unlp.edu.ar/public/journals/67/pageHeaderLogoImage_es_ES.png" width="800" height="240" alt="encabezado del sitio" />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Navegación del sitio">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://revistas.unlp.edu.ar/ejs/issue/current">
+					Actual
+				</a>
+							</li>
+								<li class="">
+				<a href="https://revistas.unlp.edu.ar/ejs/issue/archive">
+					Archivos
+				</a>
+							</li>
+															<li class="">
+				<a href="https://revistas.unlp.edu.ar/ejs/about/editorialTeam">
+					Equipo editorial
+				</a>
+							</li>
+								<li class="">
+				<a href="https://revistas.unlp.edu.ar/ejs/about">
+					ACERCA DE
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/about">
+										Sobre la revista
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/about/submissions">
+										Envíos
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/editorial_policies">
+										Políticas editoriales
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/stats">
+										Estadísticas
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/about/contact">
+										Contacto
+									</a>
+								</li>
+																		</ul>
+							</li>
+			</ul>
+
+				
+
+																						<div class="pkp_navigation_search_wrapper">
+									<a href="https://revistas.unlp.edu.ar/ejs/search" class="pkp_search pkp_search_desktop">
+										<span class="fa fa-search" aria-hidden="true"></span>
+										Buscar
+									</a>
+								</div>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+								<li class="profile">
+				<a href="https://revistas.unlp.edu.ar/ejs/user/register">
+					Registrarse
+				</a>
+							</li>
+								<li class="profile">
+				<a href="https://revistas.unlp.edu.ar/ejs/login">
+					Entrar
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="Usted está aquí:">
+	<ol>
+		<li>
+			<a href="https://revistas.unlp.edu.ar/ejs/index">
+				Inicio
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://revistas.unlp.edu.ar/ejs/issue/archive">
+				Archivos
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://revistas.unlp.edu.ar/ejs/issue/view/1077">
+					Vol. 11 (2012): Special Issue dedicated to ASSE 2011 (Argentine Symposium on Software Engineering)
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									Papers
+							</span>
+		</li>
+	</ol>
+</nav>
+	
+		  	 <article class="obj_article_details">
+
+		
+	<h1 class="page_title">
+		Avoiding WSDL Bad Practices in Code-First Web Services
+	</h1>
+
+	
+	<div class="row">
+		<div class="main_entry">
+
+							<section class="item authors">
+					<h2 class="pkp_screen_reader">Autores/as</h2>
+					<ul class="authors">
+											<li>
+							<span class="name">
+								Cristian Mateos
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Centro de la provincia de Buenos Aires, Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Argentina
+																	</span>
+																																		</li>
+											<li>
+							<span class="name">
+								Marco Crasso
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Centro de la provincia de Buenos Aires, Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Argentina
+																	</span>
+																																		</li>
+											<li>
+							<span class="name">
+								Alejandro Zunino
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Centro de la provincia de Buenos Aires, Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Argentina
+																	</span>
+																																		</li>
+											<li>
+							<span class="name">
+								José Luis Ordiales Coscia
+							</span>
+															<span class="affiliation">
+									Universidad Nacional del Centro de la provincia de Buenos Aires, Argentina
+																	</span>
+																																		</li>
+										</ul>
+				</section>
+			
+									
+
+									<section class="item keywords">
+				<h2 class="label">
+										Palabras clave:
+				</h2>
+				<span class="value">
+											Service-Oriented Computing, 											Web Services, 											Code-First, 											Object-Oriented Metrics, 											Wsdl Anti-Patterns, 											Early Detection									</span>
+			</section>
+			
+										<section class="item abstract">
+					<h2 class="label">Resumen</h2>
+					<p>Service-Oriented Computing allows software developers to structure applications as a set of standalone and reusable components called services. The common technological choice for materializing these services is Web Services, whose exposed functionality is described by using the Web Services Description Language (WSDL). Methodologically, Web Services are often built by first implementing their behavior and then generating the corresponding WSDL document via automatic tools. Good WSDL designs are crucial to derive reusable Web Services. We found that there is a high correlation between well-known Object-Oriented metrics taken in the code implementing services and the occurrences of bad design practices in their WSDL documents. This paper shows that some refactorings performed early when developing Web Services can greatly improve the quality of generated WSDL documents.</p>
+				</section>
+			
+			
+
+										
+				<section class="item downloads_chart">
+					<h2 class="label">
+						Descargas
+					</h2>
+					<div class="value">
+						<canvas class="usageStatsGraph" data-object-type="Submission" data-object-id="17559"></canvas>
+						<div class="usageStatsUnavailable" data-object-type="Submission" data-object-id="17559">
+							Los datos de descarga aún no están disponibles.
+						</div>
+					</div>
+				</section>
+			
+																																								
+						
+		</div><!-- .main_entry -->
+
+		<div class="entry_details">
+
+										<div class="item cover_image">
+					<div class="sub_item">
+													<a href="https://revistas.unlp.edu.ar/ejs/issue/view/1077">
+								<img src="https://revistas.unlp.edu.ar/public/journals/67/cover_issue_8_es_ES.jpg" alt="">
+							</a>
+											</div>
+				</div>
+			
+										<div class="item galleys">
+					<h2 class="pkp_screen_reader">
+						Descargas
+					</h2>
+					<ul class="value galleys_links">
+													<li>
+								
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/17559/17121">
+		
+	PDF (Inglés)
+
+	</a>
+							</li>
+											</ul>
+				</div>
+						
+						<div class="item published">
+				<section class="sub_item">
+					<h2 class="label">
+						Publicado
+					</h2>
+					<div class="value">
+																			<span>2012-09-28</span>
+																	</div>
+				</section>
+							</div>
+			
+						
+										<div class="item issue">
+
+											<section class="sub_item">
+							<h2 class="label">
+								Número
+							</h2>
+							<div class="value">
+								<a class="title" href="https://revistas.unlp.edu.ar/ejs/issue/view/1077">
+									Vol. 11 (2012): Special Issue dedicated to ASSE 2011 (Argentine Symposium on Software Engineering)
+								</a>
+							</div>
+						</section>
+					
+											<section class="sub_item">
+							<h2 class="label">
+								Sección
+							</h2>
+							<div class="value">
+								Papers
+							</div>
+						</section>
+					
+									</div>
+			
+						
+										<div class="item copyright">
+					<h2 class="label">
+						Licencia
+					</h2>
+																										<p>Derechos de autor 2012 Cristian Mateos, Marco Crasso, Alejandro Zunino, José Luis Ordiales Coscia</p>
+														<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><p>Esta obra está bajo una licencia internacional <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Atribución-NoComercial-CompartirIgual 4.0</a>.</p>
+																<h4>Aquellos autores/as que tengan publicaciones con esta revista, aceptan los términos siguientes:</h4>
+<ol type="a">
+<li class="show">Los autores/as conservarán sus derechos de autor y garantizarán a la revista el derecho de primera publicación de su obra, el cuál estará simultáneamente sujeto a la <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a> (CC BY-NC-SA 4.0) que permite a terceros compartir la obra siempre que se indique su autor y su primera publicación esta revista, no hagan uso comercial de ella y las obras derivadas de hagan bajo la misma licencia.</li>
+<li class="show">Los autores/as podrán adoptar otros acuerdos de licencia no exclusiva de distribución de la versión de la obra publicada (p. ej.: depositarla en un archivo telemático institucional o publicarla en un volumen monográfico) siempre que se indique la publicación inicial en esta revista.</li>
+<li class="show">Se permite y recomienda a los autores/as difundir su obra a través de Internet (p. ej.: en archivos telemáticos institucionales o en su página web) antes y durante el proceso de envío, lo cual puede producir intercambios interesantes y aumentar las citas de la obra publicada. (Véase <a href="http://opcit.eprints.org/oacitation-biblio.html" target="_new">El efecto del acceso abierto</a>).</li>
+</ol>
+				</div>
+			
+				<div class="item citation">
+		<section class="sub_item citation_display">
+			<h2 class="label">
+				Cómo citar
+			</h2>
+			<div class="value">
+				<div id="citationOutput" role="region" aria-live="polite">
+					<div class="csl-bib-body">
+  <div class="csl-entry">Mateos, C., Crasso, M., Zunino, A., &#38; Ordiales Coscia, J. L. (2012). Avoiding WSDL Bad Practices in Code-First Web Services. <i>SADIO Electronic Journal of Informatics and Operations Research</i>, <i>11</i>, 31-48. <a href="https://revistas.unlp.edu.ar/ejs/article/view/17559">https://revistas.unlp.edu.ar/ejs/article/view/17559</a></div>
+</div>
+				</div>
+				<div class="citation_formats">
+					<button class="citation_formats_button label" aria-controls="cslCitationFormats" aria-expanded="false" data-csl-dropdown="true">
+						Más formatos de cita
+					</button>
+					<div id="cslCitationFormats" class="citation_formats_list" aria-hidden="true">
+						<ul class="citation_formats_styles">
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/acm-sig-proceedings?submissionId=17559&amp;publicationId=20303&amp;issueId=1077"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/acm-sig-proceedings?submissionId=17559&amp;publicationId=20303&amp;issueId=1077&amp;return=json"
+									>
+										ACM
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/acs-nano?submissionId=17559&amp;publicationId=20303&amp;issueId=1077"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/acs-nano?submissionId=17559&amp;publicationId=20303&amp;issueId=1077&amp;return=json"
+									>
+										ACS
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/apa?submissionId=17559&amp;publicationId=20303&amp;issueId=1077"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/apa?submissionId=17559&amp;publicationId=20303&amp;issueId=1077&amp;return=json"
+									>
+										APA
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=17559&amp;publicationId=20303&amp;issueId=1077"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=17559&amp;publicationId=20303&amp;issueId=1077&amp;return=json"
+									>
+										ABNT
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/chicago-author-date?submissionId=17559&amp;publicationId=20303&amp;issueId=1077"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/chicago-author-date?submissionId=17559&amp;publicationId=20303&amp;issueId=1077&amp;return=json"
+									>
+										Chicago
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/harvard-cite-them-right?submissionId=17559&amp;publicationId=20303&amp;issueId=1077"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/harvard-cite-them-right?submissionId=17559&amp;publicationId=20303&amp;issueId=1077&amp;return=json"
+									>
+										Harvard
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/ieee?submissionId=17559&amp;publicationId=20303&amp;issueId=1077"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/ieee?submissionId=17559&amp;publicationId=20303&amp;issueId=1077&amp;return=json"
+									>
+										IEEE
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/modern-language-association?submissionId=17559&amp;publicationId=20303&amp;issueId=1077"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/modern-language-association?submissionId=17559&amp;publicationId=20303&amp;issueId=1077&amp;return=json"
+									>
+										MLA
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=17559&amp;publicationId=20303&amp;issueId=1077"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=17559&amp;publicationId=20303&amp;issueId=1077&amp;return=json"
+									>
+										Turabian
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/vancouver?submissionId=17559&amp;publicationId=20303&amp;issueId=1077"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/vancouver?submissionId=17559&amp;publicationId=20303&amp;issueId=1077&amp;return=json"
+									>
+										Vancouver
+									</a>
+								</li>
+															<li>
+									<a
+											rel="nofollow"
+											aria-controls="citationOutput"
+											href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/ama?submissionId=17559&amp;publicationId=20303&amp;issueId=1077"
+											data-load-citation
+											data-json-href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/get/ama?submissionId=17559&amp;publicationId=20303&amp;issueId=1077&amp;return=json"
+									>
+										AMA
+									</a>
+								</li>
+													</ul>
+													<div class="label">
+								Descargar cita
+							</div>
+							<ul class="citation_formats_styles">
+																	<li>
+										<a href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/download/ris?submissionId=17559&amp;publicationId=20303&amp;issueId=1077">
+											<span class="fa fa-download"></span>
+											Endnote/Zotero/Mendeley (RIS)
+										</a>
+									</li>
+																	<li>
+										<a href="https://revistas.unlp.edu.ar/ejs/citationstylelanguage/download/bibtex?submissionId=17559&amp;publicationId=20303&amp;issueId=1077">
+											<span class="fa fa-download"></span>
+											BibTeX
+										</a>
+									</li>
+															</ul>
+											</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+		</div><!-- .entry_details -->
+	</div><!-- .row -->
+
+</article>
+
+	
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary">
+				<div class="pkp_block block_language">
+	<h2 class="title">
+		Idioma
+	</h2>
+
+	<div class="content">
+		<ul>
+							<li class="locale_en" lang="en">
+					<a href="https://revistas.unlp.edu.ar/ejs/user/setLocale/en?source=%2Fejs%2Farticle%2Fview%2F17559">
+						English
+					</a>
+				</li>
+							<li class="locale_es current" lang="es">
+					<a href="https://revistas.unlp.edu.ar/ejs/user/setLocale/es?source=%2Fejs%2Farticle%2Fview%2F17559">
+						Español
+					</a>
+				</li>
+					</ul>
+	</div>
+</div><!-- .block_language -->
+<div class="pkp_block block_custom" id="customblock-indizaciones">
+	<h2 class="title pkp_screen_reader">indizaciones</h2>
+	<div class="content">
+		<p><strong><a href="https://sedici.unlp.edu.ar/handle/10915/134623" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/sedici.jpg"></a></strong></p>
+<p><a href="https://www.caicyt-conicet.gov.ar/sitio/sadio-electronic-journal-of-informatics-and-operations-research/" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/LogoNucleoBasico.png"></a></p>
+<p><a href="https://www.latindex.org/latindex/ficha/26348" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/Logo-LATINDEX-2.png"></a></p>
+<p><a href="https://miar.ub.edu/issn/1514-6774" target="_blank" rel="noopener"><img style="width: 120px;" src="https://revistas.unlp.edu.ar/public/images/logos/Miar.png" alt="miar"></a></p>
+<p><a href="https://latinrev.flacso.org.ar/revistas/sadio-electronic-journal-of-informatics-and-operations-research" target="_blank" rel="noopener"><img style="width: 120px;" src="https://latinrev.flacso.org.ar/themes/latinrev/imgs/latinrev_logo.svg"></a></p>
+<p><a href="https://www.caicyt-conicet.gov.ar/malena/items/show/2050" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/Malena.jpg"></a></p>
+<p><a href="https://portal.issn.org/resource/ISSN/1514-6774" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/logo-road.png"></a></p>
+<p><a href="https://sfdora.org/" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/DORA.png"></a></p>
+	</div>
+</div>
+<div class="pkp_block block_web_feed">
+	<h2 class="title">Últimas publicaciones</h2>
+	<div class="content">
+		<ul>
+			<li>
+				<a href="https://revistas.unlp.edu.ar/ejs/gateway/plugin/WebFeedGatewayPlugin/atom">
+					<img src="https://revistas.unlp.edu.ar/lib/pkp/templates/images/atom.svg" alt="Logo Atom">
+				</a>
+			</li>
+			<li>
+				<a href="https://revistas.unlp.edu.ar/ejs/gateway/plugin/WebFeedGatewayPlugin/rss2">
+					<img src="https://revistas.unlp.edu.ar/lib/pkp/templates/images/rss20_logo.svg" alt="Logo RSS2">
+				</a>
+			</li>
+			<li>
+				<a href="https://revistas.unlp.edu.ar/ejs/gateway/plugin/WebFeedGatewayPlugin/rss">
+					<img src="https://revistas.unlp.edu.ar/lib/pkp/templates/images/rss10_logo.svg" alt="Logo RSS1">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+					<div class="pkp_footer_content">
+				<div style="width: 100%; display: flex; justify-content: center; padding: 5px;">
+<div style="text-align: center; color: #5f5f5f;">
+<p><strong>SADIO. Electronic Journal of Informatics and Operations Research</strong><br />Revista científica de la Sociedad Argentina de Informática e Investigación Operativa (SADIO)<br /><a href="https://revistas.unlp.edu.ar/ejs/index" target="_blank" rel="noopener">https://revistas.unlp.edu.ar/ejs/index</a></p>
+<p>e-ISSN 1514-6774 | Revista con periodicidad semestral</p>
+<p><a href="https://www.sadio.org.ar/">Sociedad Argentina de Informática e Investigación Operativa</a> | <a href="https://unlp.edu.ar/">Universidad Nacional de La Plata</a><a href="http://www.jursoc.unlp.edu.ar/index.php/institutos/informacion/item/158-instituto-de-relaciones-internacionales.html" target="_blank" rel="noopener"><br /></a>Uruguay N.° 252, piso 2 D | Ciudad Autónoma de Buenos Aires (1015) | Argentina | <a href="mailto:ejs-editorial@sadio.org.ar">ejs-editorial@sadio.org.ar</a></p>
+<p>El sitio y todos sus contenidos se encuentran bajo una licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">Creative Commons BY-NC-SA 4.0</a>  </p>
+</div>
+</div>
+<div id="contenedor-de-logos-al-pie1" style="border-bottom: 0px solid #A879B5; width: 100%; padding: 10px 0px 0px; margin: 0 0 0 0px;" align="center"><a href="https://binpar.caicyt.gov.ar/cgi-bin/koha/opac-detail.pl?biblionumber=108056&amp;query_desc=kw%2Cwrdl%3A%20SADIO" target="_blank" rel="noopener"><img style="height: 80px; margin: 0 0 0px 0;" src="https://revistas.unlp.edu.ar/public/images/logos/binpar.png" /></a><a href="https://www.sadio.org.ar/" target="_blank" rel="noopener"><img class="logos-al-pie1" style="height: 65px; margin: 0 5px 3px 15px;" src="https://revistas.unlp.edu.ar/public/site/images/pmarco/logo-sadio.jpg" /></a> <a href="http://sedici.unlp.edu.ar/" target="_blank" rel="noopener"> <img class="logos-al-pie1" style="height: 35px; margin-bottom: 20px;" src="https://revistas.unlp.edu.ar/public/images/logos/sedici_logo.png" alt="SEDICI" /></a> <a href="https://portalderevistas.unlp.edu.ar/" target="_blank" rel="noopener"> <img class="logos-al-pie1" style="height: 55px; margin-bottom: 18px;" src="https://revistas.unlp.edu.ar/public/images/logos/marca-portal-de-revistas-unlp-ok.png" alt="PORTAL" /></a> <a href="http://unlp.edu.ar/" target="_blank" rel="noopener"><img class="logos-al-pie1" style="height: 60px; margin: 0 0px 10px 0;" src="https://revistas.unlp.edu.ar/public/images/logos/marca-UNLP-ok.png" alt="UNLP" /></a></div>
+<div id="contenedor-de-logos-al-pie2" style="border-bottom: 0px solid #A879B5; width: 100%; padding: 10px 0px 0px; margin: 0 0 0 0px;" align="center"><a href="https://pkp.sfu.ca/" target="_blank" rel="noopener"><img class="logos-al-pie" src="https://revistas.unlp.edu.ar/public/images/logos/logo-pkp-1.png" /></a> <a href="https://www.budapestopenaccessinitiative.org/" target="_blank" rel="noopener"><img class="logos-al-pie" src="https://revistas.unlp.edu.ar/public/images/logos/open-access.png" /></a> <a href="https://creativecommons.org/" target="_blank" rel="noopener"><img class="logos-al-pie" style="height: 25px; margin: 10px 25px 20px 25px;" src="https://revistas.unlp.edu.ar/public/images/logos/Creative_Commons_logo_ok.png" alt="Licencia Creative Commons" /></a><a href="https://www.doi.org/" target="_blank" rel="noopener"> <img class="logos-al-pie" src="https://revistas.unlp.edu.ar/public/images/logos/doi.png" alt="DOI" /></a> <a href="https://orcid.org/" target="_blank" rel="noopener"> <img class="logos-al-pie" src="https://revistas.unlp.edu.ar/public/images/logos/ORCID_logo_ok.png" alt="ORCID" /></a></div>
+			</div>
+		
+		<div class="pkp_brand_footer">
+			<a href="https://revistas.unlp.edu.ar/ejs/about/aboutThisPublishingSystem">
+				<img alt="Más información acerca del sistema de publicación, de la plataforma y del flujo de trabajo de OJS/PKP." src="https://revistas.unlp.edu.ar/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://revistas.unlp.edu.ar/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/themes/default/js/lib/popper/popper.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/themes/default/js/lib/bootstrap/util.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/themes/default/js/main.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/generic/citationStyleLanguage/js/articleCitation.js?v=3.4.0.8" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.data = pkpUsageStats.data || {};pkpUsageStats.data.Submission = pkpUsageStats.data.Submission || {};pkpUsageStats.data.Submission[17559] = {"data":{"2012":{"9":0,"10":0,"11":0,"12":0},"2013":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2014":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2015":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2016":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2017":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2018":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2019":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2020":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2021":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2022":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2023":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":0,"12":0},"2024":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0,"7":0,"8":0,"9":0,"10":0,"11":"1","12":0},"2025":{"1":"2","2":0,"3":0,"4":"2","5":0,"6":"2","7":"4","8":0,"9":"1","10":"1","11":"4","12":"2"},"2026":{"1":"1","2":0,"3":"1","4":"3","5":"3","6":0,"7":"1","8":"4","9":0,"10":"3"}},"label":"Todas las descargas","color":"79,181,217","total":35};</script><script src="https://revistas.unlp.edu.ar/lib/pkp/js/lib/Chart.min.js?v=3.4.0.8" type="text/javascript"></script><script type="text/javascript">var pkpUsageStats = pkpUsageStats || {};pkpUsageStats.locale = pkpUsageStats.locale || {};pkpUsageStats.locale.months = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];pkpUsageStats.config = pkpUsageStats.config || {};pkpUsageStats.config.chartType = "line";</script><script src="https://revistas.unlp.edu.ar/lib/pkp/js/usage-stats-chart.js?v=3.4.0.8" type="text/javascript"></script><script type="text/javascript">
+(function (w, d, s, l, i) { w[l] = w[l] || []; var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+j.src = 'https://www.googletagmanager.com/gtag/js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+function gtag(){dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config', i); })
+(window, document, 'script', 'dataLayer', 'G-X2LC461149');
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:48:15Z</responseDate><request verb="GetRecord" identifier="oai:bibliotecadigital.udea.edu.co:10495/46151" metadataPrefix="xoai">https://bibliotecadigital.udea.edu.co/server/oai/request</request><GetRecord><record><header><identifier>oai:bibliotecadigital.udea.edu.co:10495/46151</identifier><datestamp>2026-07-23T20:03:26Z</datestamp><setSpec>com_10495_18864</setSpec><setSpec>com_10495_1670</setSpec><setSpec>col_10495_19015</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="author">
+            <element name="none">
+               <field name="value">Sabogal Palma, Angie Carolina</field>
+               <field name="value">Zapata Ocampo, Paola Andrea</field>
+               <field name="value">Rodríguez Cabal, Héctor Alejandro</field>
+               <field name="value">Monsalve Fonnegra, Zulma Isabel</field>
+               <field name="value">Ocampo Jiménez, Omar</field>
+               <field name="value">Mendez Arteaga, John Jairo</field>
+            </element>
+         </element>
+         <element name="other">
+            <element name="none">
+               <field name="value">AgroBiotecnología</field>
+               <field name="authority">virtual::16798</field>
+               <field name="confidence">-1</field>
+            </element>
+         </element>
+         <element name="researchgroup">
+            <element name="none">
+               <field name="value">Agrobiotecnología</field>
+            </element>
+         </element>
+      </element>
+      <element name="coverage">
+         <element name="spatial">
+            <element name="none">
+               <field name="value">El macizo colombiano</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2025-05-28T23:40:28Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2024</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="citation">
+            <element name="none">
+               <field name="value">Sabogal-Palma, A. C., Zapata-Ocampo, P. A., Rodríguez-Cabal, H. A., Ocampo-Jiménez, O., Méndez-Arteaga, J. J., &amp; Monsalve, Z. I. (2024). Evaluation of the potential use of the by-products of Passiflora maliformis L. and Passiflora edulis Sims from the Southern Colombian Massif as dietary fibre and prebiotic activity. International Journal of Food Science &amp; Technology, 59(6), 3744-3754. https://doi.org/10.1111/ijfs.17116</field>
+            </element>
+         </element>
+         <element name="issn">
+            <element name="none">
+               <field name="value">0950-5423</field>
+            </element>
+         </element>
+         <element name="uri">
+            <element name="none">
+               <field name="value">https://hdl.handle.net/10495/46151</field>
+            </element>
+         </element>
+         <element name="doi">
+            <element name="none">
+               <field name="value">10.1111/ijfs.17116</field>
+            </element>
+         </element>
+         <element name="eissn">
+            <element name="none">
+               <field name="value">1365-2621</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="eng">
+               <field name="value">Within tropical fruits, the Passifloraceae family is distinguished; Colombia is recognised as the most diverse country in this family. In this study, we aimed to evaluate the potential use of by-products
+(shell-seeds + pulp) of Passiflora maliformis L. and Passiflora edulis Sims as dietary fibre and prebiotic activity, through tests of water, oil and swelling retention capacity and dietary fibre, its potential application was evident in products that require hydration, viscosity development and freshness conservation. Toxicity test, extracts can be classified as ‘safe’ when ingested, as cell viability is equal to or greater than
+90%. Probiotic potential is evident for a growth of Latilactobacillus sakei BAP110-FSC111 ranging from 15% to 100%, Lactiplantibacillus plantarum CECT220 ranging from 10% to 75%, acid digestibility test,
+hydrolysis percentage varied from 20% to 100%, values according to the by-product, extract and study species. Highlighting its use as a source of prebiotics, because it increases the proliferation of probiotics from the Lactobacillus family.</field>
+            </element>
+         </element>
+         <element name="researchgroupid">
+            <element name="none">
+               <field name="value">COL0122947</field>
+            </element>
+         </element>
+      </element>
+      <element name="format">
+         <element name="extent">
+            <element name="none">
+               <field name="value">16 paginas</field>
+            </element>
+         </element>
+         <element name="mimetype">
+            <element name="none">
+               <field name="value">application/pdf</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">eng</field>
+            </element>
+         </element>
+      </element>
+      <element name="publisher">
+         <element name="none">
+            <field name="value">Oxford University Press </field>
+            <field name="value">Wiley</field>
+         </element>
+         <element name="place">
+            <element name="none">
+               <field name="value">Oxford, Inglaterra</field>
+            </element>
+         </element>
+      </element>
+      <element name="rights">
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://creativecommons.org/licenses/by/4.0/</field>
+            </element>
+         </element>
+         <element name="accessrights">
+            <element name="none">
+               <field name="value">info:eu-repo/semantics/openAccess</field>
+            </element>
+         </element>
+         <element name="license">
+            <element name="en">
+               <field name="value">Attribution 4.0 International</field>
+            </element>
+         </element>
+         <element name="coar">
+            <element name="none">
+               <field name="value">http://purl.org/coar/access_right/c_abf2</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="lcsh">
+            <element name="none">
+               <field name="value">Passiflora</field>
+            </element>
+         </element>
+         <element name="decs">
+            <element name="none">
+               <field name="value">Alimentos Funcionales</field>
+               <field name="value">Functional Food</field>
+               <field name="value">Prebióticos</field>
+               <field name="value">Prebiotics</field>
+            </element>
+         </element>
+         <element name="lemb">
+            <element name="none">
+               <field name="value">Alimentos dietéticos</field>
+               <field name="value">Dietetic foods</field>
+               <field name="value">Fibra en la nutrición humana</field>
+               <field name="value">Fiber in human nutrition</field>
+               <field name="value">Absorción (fisiología)</field>
+               <field name="value">Absorption (physiology)</field>
+            </element>
+         </element>
+         <element name="lcshuri">
+            <element name="none">
+               <field name="value">http://id.loc.gov/authorities/subjects/sh85098513</field>
+            </element>
+         </element>
+         <element name="meshuri">
+            <element name="none">
+               <field name="value">https://id.nlm.nih.gov/mesh/D055951</field>
+               <field name="value">https://id.nlm.nih.gov/mesh/D056692</field>
+            </element>
+         </element>
+      </element>
+      <element name="title">
+         <element name="none">
+            <field name="value">Evaluation of the potential use of the by-products of Passiflora maliformis L. and Passiflora edulis Sims from the Southern Colombian Massif as dietary fibre and prebiotic activity</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">Artículo de investigación</field>
+         </element>
+         <element name="coar">
+            <element name="none">
+               <field name="value">http://purl.org/coar/resource_type/c_2df8fbb1</field>
+            </element>
+         </element>
+         <element name="redcol">
+            <element name="none">
+               <field name="value">http://purl.org/redcol/resource_type/ART</field>
+            </element>
+         </element>
+         <element name="content">
+            <element name="none">
+               <field name="value">Text</field>
+            </element>
+         </element>
+         <element name="coarversion">
+            <element name="none">
+               <field name="value">http://purl.org/coar/version/c_970fb48d4fbd8a85</field>
+            </element>
+         </element>
+         <element name="driver">
+            <element name="none">
+               <field name="value">info:eu-repo/semantics/article</field>
+            </element>
+         </element>
+         <element name="version">
+            <element name="none">
+               <field name="value">info:eu-repo/semantics/publishedVersion</field>
+            </element>
+         </element>
+      </element>
+      <element name="relation">
+         <element name="ispartofjournalabbrev">
+            <element name="none">
+               <field name="value">Int. J. Food Sci. Technol.</field>
+            </element>
+         </element>
+         <element name="citationendpage">
+            <element name="none">
+               <field name="value">3759</field>
+            </element>
+         </element>
+         <element name="citationissue">
+            <element name="none">
+               <field name="value">6</field>
+            </element>
+         </element>
+         <element name="citationstartpage">
+            <element name="none">
+               <field name="value">3744</field>
+            </element>
+         </element>
+         <element name="citationvolume">
+            <element name="none">
+               <field name="value">59</field>
+            </element>
+         </element>
+         <element name="ispartofjournal">
+            <element name="none">
+               <field name="value">International Journal of Food Science + Technology</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="dspace">
+      <element name="entity">
+         <element name="type">
+            <element name="none">
+               <field name="value">Publication</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="relation">
+      <element name="isOrgUnitOfPublication">
+         <element name="none">
+            <field name="value">309f7783-c61c-4db4-a7f5-74ba4bd99fa4</field>
+            <field name="authority">virtual::16798</field>
+            <field name="confidence">-1</field>
+         </element>
+         <element name="latestForDiscovery">
+            <element name="none">
+               <field name="value">309f7783-c61c-4db4-a7f5-74ba4bd99fa4</field>
+               <field name="authority">virtual::16798</field>
+               <field name="confidence">-1</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">Sabogal_Angie_2024_Evaluation_Potential_Use.pdf</field>
+               <field name="originalName">Sabogal_Angie_2024_Evaluation_Potential_Use.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">1555960</field>
+               <field name="url">https://bibliotecadigital.udea.edu.co/bitstreams/4b979de4-4040-4796-b96a-9124d90dbeb8/download</field>
+               <field name="checksum">fef0312f983c2df1ad7dc62503f9d70d</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+               <field name="primary">true</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">license.txt</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">14837</field>
+               <field name="url">https://bibliotecadigital.udea.edu.co/bitstreams/02e7b683-2e57-452f-ab16-55b14f084220/download</field>
+               <field name="checksum">b76e7a76e24cf2f94b3ce0ae5ed275d0</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">CC-LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license_rdf</field>
+               <field name="originalName">license_rdf</field>
+               <field name="format">application/rdf+xml; charset=utf-8</field>
+               <field name="size">1019</field>
+               <field name="url">https://bibliotecadigital.udea.edu.co/bitstreams/68e34644-d1c4-488a-9ec4-1aa85520246f/download</field>
+               <field name="checksum">313ea3fe4cd627df823c57a0f12776e5</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">TEXT</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">Sabogal_Angie_2024_Evaluation_Potential_Use.pdf.txt</field>
+               <field name="originalName">Sabogal_Angie_2024_Evaluation_Potential_Use.pdf.txt</field>
+               <field name="description">Extracted text</field>
+               <field name="format">text/plain</field>
+               <field name="size">91121</field>
+               <field name="url">https://bibliotecadigital.udea.edu.co/bitstreams/662de40b-1908-431d-afbf-401180e1544e/download</field>
+               <field name="checksum">0d7b4606a7a32e4c54f4398f28165087</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">4</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">Sabogal_Angie_2024_Evaluation_Potential_Use.pdf.jpg</field>
+               <field name="originalName">Sabogal_Angie_2024_Evaluation_Potential_Use.pdf.jpg</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">16618</field>
+               <field name="url">https://bibliotecadigital.udea.edu.co/bitstreams/cf37aa06-4d9e-4c12-8d04-6b635d623cab/download</field>
+               <field name="checksum">bf76df36250fb5fa52ee63ba9d77838a</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">5</field>
+               <field name="primary">false</field>
+               <element name="resourcePolicies">
+                  <element name="resourcePolicy">
+                     <field name="group">Anonymous</field>
+                     <field name="user"/>
+                     <field name="action">READ</field>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">10495/46151</field>
+      <field name="identifier">oai:bibliotecadigital.udea.edu.co:10495/46151</field>
+      <field name="lastModifyDate">2026-07-23 15:03:26.622</field>
+      <element name="cc">
+         <field name="uri">http://creativecommons.org/licenses/by/4.0/</field>
+         <field name="name">Attribution 4.0 International</field>
+      </element>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://bibliotecadigital.udea.edu.co</field>
+      <field name="name">Repositorio Institucional de la Universidad de Antioquia</field>
+      <field name="mail">aplicacionbibliotecadigitalbiblioteca@udea.edu.co</field>
+   </element>
+   <element name="license">
+      <field name="bin">TEEgT0JSQSAoVEFMIFkgQ09NTyBTRSBERUZJTkUgTcOBUyBBREVMQU5URSkgU0UgT1RPUkdBIEJBSk8gTE9TIFRFUk1JTk9TIERFIEVTVEEgTElDRU5DSUEgUMOaQkxJQ0EgREUgQ1JFQVRJVkUgQ09NTU9OUyAo4oCcTFBDQ+KAnSBPIOKAnExJQ0VOQ0lB4oCdKS4gTEEgT0JSQSBFU1TDgSBQUk9URUdJREEgUE9SIERFUkVDSE9TIERFIEFVVE9SIFkvVSBPVFJBUyBMRVlFUyBBUExJQ0FCTEVTLiBRVUVEQSBQUk9ISUJJRE8gQ1VBTFFVSUVSIFVTTyBRVUUgU0UgSEFHQSBERSBMQSBPQlJBIFFVRSBOTyBDVUVOVEUgQ09OIExBIEFVVE9SSVpBQ0nDk04gUEVSVElORU5URSBERSBDT05GT1JNSURBRCBDT04gTE9TIFTDiVJNSU5PUyBERSBFU1RBIExJQ0VOQ0lBIFkgREUgTEEgTEVZIERFIERFUkVDSE8gREUgQVVUT1IuCgpNRURJQU5URSBFTCBFSkVSQ0lDSU8gREUgQ1VBTFFVSUVSQSBERSBMT1MgREVSRUNIT1MgUVVFIFNFIE9UT1JHQU4gRU4gRVNUQSBMSUNFTkNJQSwgVVNURUQgQUNFUFRBIFkgQUNVRVJEQSBRVUVEQVIgT0JMSUdBRE8gRU4gTE9TIFRFUk1JTk9TIFFVRSBTRSBTRcORQUxBTiBFTiBFTExBLiBFTCBMSUNFTkNJQU5URSBDT05DRURFIEEgVVNURUQgTE9TIERFUkVDSE9TIENPTlRFTklET1MgRU4gRVNUQSBMSUNFTkNJQSBDT05ESUNJT05BRE9TIEEgTEEgQUNFUFRBQ0nDk04gREUgU1VTIFRFUk1JTk9TIFkgQ09ORElDSU9ORVMuIAoKMS4gRGVmaW5pY2lvbmVzCmEuIE9icmEgQ29sZWN0aXZhIGVzIHVuYSBvYnJhLCB0YWwgY29tbyB1bmEgcHVibGljYWNpw7NuIHBlcmnDs2RpY2EsIHVuYSBhbnRvbG9nw61hLCBvIHVuYSBlbmNpY2xvcGVkaWEsIGVuIGxhIHF1ZSBsYSBvYnJhIGVuIHN1IHRvdGFsaWRhZCwgc2luIG1vZGlmaWNhY2nDs24gYWxndW5hLCBqdW50byBjb24gdW4gZ3J1cG8gZGUgb3RyYXMgY29udHJpYnVjaW9uZXMgcXVlIGNvbnN0aXR1eWVuIG9icmFzIHNlcGFyYWRhcyBlIGluZGVwZW5kaWVudGVzIGVuIHPDrSBtaXNtYXMsIHNlIGludGVncmFuIGVuIHVuIHRvZG8gY29sZWN0aXZvLiBVbmEgT2JyYSBxdWUgY29uc3RpdHV5ZSB1bmEgb2JyYSBjb2xlY3RpdmEgbm8gc2UgY29uc2lkZXJhcsOhIHVuYSBPYnJhIERlcml2YWRhIChjb21vIHNlIGRlZmluZSBhYmFqbykgcGFyYSBsb3MgcHJvcMOzc2l0b3MgZGUgZXN0YSBsaWNlbmNpYS4gYXF1ZWxsYSBwcm9kdWNpZGEgcG9yIHVuIGdydXBvIGRlIGF1dG9yZXMsIGVuIHF1ZSBsYSBPYnJhIHNlIGVuY3VlbnRyYSBzaW4gbW9kaWZpY2FjaW9uZXMsIGp1bnRvIGNvbiB1bmEgY2llcnRhIGNhbnRpZGFkIGRlIG90cmFzIGNvbnRyaWJ1Y2lvbmVzLCBxdWUgY29uc3RpdHV5ZW4gZW4gc8OtIG1pc21vcyB0cmFiYWpvcyBzZXBhcmFkb3MgZSBpbmRlcGVuZGllbnRlcywgcXVlIHNvbiBpbnRlZ3JhZG9zIGFsIHRvZG8gY29sZWN0aXZvLCB0YWxlcyBjb21vIHB1YmxpY2FjaW9uZXMgcGVyacOzZGljYXMsIGFudG9sb2fDrWFzIG8gZW5jaWNsb3BlZGlhcy4KYi4gT2JyYSBEZXJpdmFkYSBzaWduaWZpY2EgdW5hIG9icmEgYmFzYWRhIGVuIGxhIG9icmEgb2JqZXRvIGRlIGVzdGEgbGljZW5jaWEgbyBlbiDDqXN0YSB5IG90cmFzIG9icmFzIHByZWV4aXN0ZW50ZXMsIHRhbGVzIGNvbW8gdHJhZHVjY2lvbmVzLCBhcnJlZ2xvcyBtdXNpY2FsZXMsIGRyYW1hdGl6YWNpb25lcywg4oCcZmljY2lvbmFsaXphY2lvbmVz4oCdLCB2ZXJzaW9uZXMgcGFyYSBjaW5lLCDigJxncmFiYWNpb25lcyBkZSBzb25pZG/igJ0sIHJlcHJvZHVjY2lvbmVzIGRlIGFydGUsIHJlc8O6bWVuZXMsIGNvbmRlbnNhY2lvbmVzLCBvIGN1YWxxdWllciBvdHJhIGVuIGxhIHF1ZSBsYSBvYnJhIHB1ZWRhIHNlciB0cmFuc2Zvcm1hZGEsIGNhbWJpYWRhIG8gYWRhcHRhZGEsIGV4Y2VwdG8gYXF1ZWxsYXMgcXVlIGNvbnN0aXR1eWFuIHVuYSBvYnJhIGNvbGVjdGl2YSwgbGFzIHF1ZSBubyBzZXLDoW4gY29uc2lkZXJhZGFzIHVuYSBvYnJhIGRlcml2YWRhIHBhcmEgZWZlY3RvcyBkZSBlc3RhIGxpY2VuY2lhLiAoUGFyYSBldml0YXIgZHVkYXMsIGVuIGVsIGNhc28gZGUgcXVlIGxhIE9icmEgc2VhIHVuYSBjb21wb3NpY2nDs24gbXVzaWNhbCBvIHVuYSBncmFiYWNpw7NuIHNvbm9yYSwgcGFyYSBsb3MgZWZlY3RvcyBkZSBlc3RhIExpY2VuY2lhIGxhIHNpbmNyb25pemFjacOzbiB0ZW1wb3JhbCBkZSBsYSBPYnJhIGNvbiB1bmEgaW1hZ2VuIGVuIG1vdmltaWVudG8gc2UgY29uc2lkZXJhcsOhIHVuYSBPYnJhIERlcml2YWRhIHBhcmEgbG9zIGZpbmVzIGRlIGVzdGEgbGljZW5jaWEpLgpjLiBMaWNlbmNpYW50ZSwgZXMgZWwgaW5kaXZpZHVvIG8gbGEgZW50aWRhZCB0aXR1bGFyIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBxdWUgb2ZyZWNlIGxhIE9icmEgZW4gY29uZm9ybWlkYWQgY29uIGxhcyBjb25kaWNpb25lcyBkZSBlc3RhIExpY2VuY2lhLgpkLiBBdXRvciBvcmlnaW5hbCwgZXMgZWwgaW5kaXZpZHVvIHF1ZSBjcmXDsyBsYSBPYnJhLgplLiBPYnJhLCBlcyBhcXVlbGxhIG9icmEgc3VzY2VwdGlibGUgZGUgcHJvdGVjY2nDs24gcG9yIGVsIHLDqWdpbWVuIGRlIERlcmVjaG8gZGUgQXV0b3IgeSBxdWUgZXMgb2ZyZWNpZGEgZW4gbG9zIHTDqXJtaW5vcyBkZSBlc3RhIGxpY2VuY2lhCmYuIFVzdGVkLCBlcyBlbCBpbmRpdmlkdW8gbyBsYSBlbnRpZGFkIHF1ZSBlamVyY2l0YSBsb3MgZGVyZWNob3Mgb3RvcmdhZG9zIGFsIGFtcGFybyBkZSBlc3RhIExpY2VuY2lhIHkgcXVlIGNvbiBhbnRlcmlvcmlkYWQgbm8gaGEgdmlvbGFkbyBsYXMgY29uZGljaW9uZXMgZGUgbGEgbWlzbWEgcmVzcGVjdG8gYSBsYSBPYnJhLCBvIHF1ZSBoYXlhIG9idGVuaWRvIGF1dG9yaXphY2nDs24gZXhwcmVzYSBwb3IgcGFydGUgZGVsIExpY2VuY2lhbnRlIHBhcmEgZWplcmNlciBsb3MgZGVyZWNob3MgYWwgYW1wYXJvIGRlIGVzdGEgTGljZW5jaWEgcGVzZSBhIHVuYSB2aW9sYWNpw7NuIGFudGVyaW9yLgoJICAKMi4gRGVyZWNob3MgZGUgVXNvcyBIb25yYWRvcyB5IGV4Y2VwY2lvbmVzIExlZ2FsZXMuCk5hZGEgZW4gZXN0YSBMaWNlbmNpYSBwb2Ryw6Egc2VyIGludGVycHJldGFkbyBjb21vIHVuYSBkaXNtaW51Y2nDs24sIGxpbWl0YWNpw7NuIG8gcmVzdHJpY2Npw7NuIGRlIGxvcyBkZXJlY2hvcyBkZXJpdmFkb3MgZGVsIHVzbyBob25yYWRvIHkgb3RyYXMgbGltaXRhY2lvbmVzIG8gZXhjZXBjaW9uZXMgYSBsb3MgZGVyZWNob3MgZGVsIGF1dG9yIGJham8gZWwgcsOpZ2ltZW4gbGVnYWwgdmlnZW50ZSBvIGRlcml2YWRvIGRlIGN1YWxxdWllciBvdHJhIG5vcm1hIHF1ZSBzZSBsZSBhcGxpcXVlLgogIAozLiBDb25jZXNpw7NuIGRlIGxhIExpY2VuY2lhLgpCYWpvIGxvcyB0w6lybWlub3MgeSBjb25kaWNpb25lcyBkZSBlc3RhIExpY2VuY2lhLCBlbCBMaWNlbmNpYW50ZSBvdG9yZ2EgYSBVc3RlZCB1bmEgbGljZW5jaWEgbXVuZGlhbCwgbGlicmUgZGUgcmVnYWzDrWFzLCBubyBleGNsdXNpdmEgeSBwZXJwZXR1YSAoZHVyYW50ZSB0b2RvIGVsIHBlcsOtb2RvIGRlIHZpZ2VuY2lhIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvcikgcGFyYSBlamVyY2VyIGVzdG9zIGRlcmVjaG9zIHNvYnJlIGxhIE9icmEgdGFsIHkgY29tbyBzZSBpbmRpY2EgYSBjb250aW51YWNpw7NuOgphLiBSZXByb2R1Y2lyIGxhIE9icmEsIGluY29ycG9yYXIgbGEgT2JyYSBlbiB1bmEgbyBtw6FzIE9icmFzIENvbGVjdGl2YXMsIHkgcmVwcm9kdWNpciBsYSBPYnJhIGluY29ycG9yYWRhIGVuIGxhcyBPYnJhcyBDb2xlY3RpdmFzLgpiLiBEaXN0cmlidWlyIGNvcGlhcyBvIGZvbm9ncmFtYXMgZGUgbGFzIE9icmFzLCBleGhpYmlybGFzIHDDumJsaWNhbWVudGUsIGVqZWN1dGFybGFzIHDDumJsaWNhbWVudGUgeS9vIHBvbmVybGFzIGEgZGlzcG9zaWNpw7NuIHDDumJsaWNhLCBpbmNsdXnDqW5kb2xhcyBjb21vIGluY29ycG9yYWRhcyBlbiBPYnJhcyBDb2xlY3RpdmFzLCBzZWfDum4gY29ycmVzcG9uZGEuCmMuIERpc3RyaWJ1aXIgY29waWFzIGRlIGxhcyBPYnJhcyBEZXJpdmFkYXMgcXVlIHNlIGdlbmVyZW4sIGV4aGliaXJsYXMgcMO6YmxpY2FtZW50ZSwgZWplY3V0YXJsYXMgcMO6YmxpY2FtZW50ZSB5L28gcG9uZXJsYXMgYSBkaXNwb3NpY2nDs24gcMO6YmxpY2EuCgpMb3MgZGVyZWNob3MgbWVuY2lvbmFkb3MgYW50ZXJpb3JtZW50ZSBwdWVkZW4gc2VyIGVqZXJjaWRvcyBlbiB0b2RvcyBsb3MgbWVkaW9zIHkgZm9ybWF0b3MsIGFjdHVhbG1lbnRlIGNvbm9jaWRvcyBvIHF1ZSBzZSBpbnZlbnRlbiBlbiBlbCBmdXR1cm8uIExvcyBkZXJlY2hvcyBhbnRlcyBtZW5jaW9uYWRvcyBpbmNsdXllbiBlbCBkZXJlY2hvIGEgcmVhbGl6YXIgZGljaGFzIG1vZGlmaWNhY2lvbmVzIGVuIGxhIG1lZGlkYSBxdWUgc2VhbiB0w6ljbmljYW1lbnRlIG5lY2VzYXJpYXMgcGFyYSBlamVyY2VyIGxvcyBkZXJlY2hvcyBlbiBvdHJvIG1lZGlvIG8gZm9ybWF0b3MsIHBlcm8gZGUgb3RyYSBtYW5lcmEgdXN0ZWQgbm8gZXN0w6EgYXV0b3JpemFkbyBwYXJhIHJlYWxpemFyIG9icmFzIGRlcml2YWRhcy4gVG9kb3MgbG9zIGRlcmVjaG9zIG5vIG90b3JnYWRvcyBleHByZXNhbWVudGUgcG9yIGVsIExpY2VuY2lhbnRlIHF1ZWRhbiBwb3IgZXN0ZSBtZWRpbyByZXNlcnZhZG9zLCBpbmNsdXllbmRvIHBlcm8gc2luIGxpbWl0YXJzZSBhIGFxdWVsbG9zIHF1ZSBzZSBtZW5jaW9uYW4gZW4gbGFzIHNlY2Npb25lcyA0KGQpIHkgNChlKS4KICAgIAo0LiBSZXN0cmljY2lvbmVzLgpMYSBsaWNlbmNpYSBvdG9yZ2FkYSBlbiBsYSBhbnRlcmlvciBTZWNjacOzbiAzIGVzdMOhIGV4cHJlc2FtZW50ZSBzdWpldGEgeSBsaW1pdGFkYSBwb3IgbGFzIHNpZ3VpZW50ZXMgcmVzdHJpY2Npb25lczoKYS4gVXN0ZWQgcHVlZGUgZGlzdHJpYnVpciwgZXhoaWJpciBww7pibGljYW1lbnRlLCBlamVjdXRhciBww7pibGljYW1lbnRlLCBvIHBvbmVyIGEgZGlzcG9zaWNpw7NuIHDDumJsaWNhIGxhIE9icmEgc8OzbG8gYmFqbyBsYXMgY29uZGljaW9uZXMgZGUgZXN0YSBMaWNlbmNpYSwgeSBVc3RlZCBkZWJlIGluY2x1aXIgdW5hIGNvcGlhIGRlIGVzdGEgbGljZW5jaWEgbyBkZWwgSWRlbnRpZmljYWRvciBVbml2ZXJzYWwgZGUgUmVjdXJzb3MgZGUgbGEgbWlzbWEgY29uIGNhZGEgY29waWEgZGUgbGEgT2JyYSBxdWUgZGlzdHJpYnV5YSwgZXhoaWJhIHDDumJsaWNhbWVudGUsIGVqZWN1dGUgcMO6YmxpY2FtZW50ZSBvIHBvbmdhIGEgZGlzcG9zaWNpw7NuIHDDumJsaWNhLiBObyBlcyBwb3NpYmxlIG9mcmVjZXIgbyBpbXBvbmVyIG5pbmd1bmEgY29uZGljacOzbiBzb2JyZSBsYSBPYnJhIHF1ZSBhbHRlcmUgbyBsaW1pdGUgbGFzIGNvbmRpY2lvbmVzIGRlIGVzdGEgTGljZW5jaWEgbyBlbCBlamVyY2ljaW8gZGUgbG9zIGRlcmVjaG9zIGRlIGxvcyBkZXN0aW5hdGFyaW9zIG90b3JnYWRvcyBlbiBlc3RlIGRvY3VtZW50by4gTm8gZXMgcG9zaWJsZSBzdWJsaWNlbmNpYXIgbGEgT2JyYS4gVXN0ZWQgZGViZSBtYW50ZW5lciBpbnRhY3RvcyB0b2RvcyBsb3MgYXZpc29zIHF1ZSBoYWdhbiByZWZlcmVuY2lhIGEgZXN0YSBMaWNlbmNpYSB5IGEgbGEgY2zDoXVzdWxhIGRlIGxpbWl0YWNpw7NuIGRlIGdhcmFudMOtYXMuIFVzdGVkIG5vIHB1ZWRlIGRpc3RyaWJ1aXIsIGV4aGliaXIgcMO6YmxpY2FtZW50ZSwgZWplY3V0YXIgcMO6YmxpY2FtZW50ZSwgbyBwb25lciBhIGRpc3Bvc2ljacOzbiBww7pibGljYSBsYSBPYnJhIGNvbiBhbGd1bmEgbWVkaWRhIHRlY25vbMOzZ2ljYSBxdWUgY29udHJvbGUgZWwgYWNjZXNvIG8gbGEgdXRpbGl6YWNpw7NuIGRlIGVsbGEgZGUgdW5hIGZvcm1hIHF1ZSBzZWEgaW5jb25zaXN0ZW50ZSBjb24gbGFzIGNvbmRpY2lvbmVzIGRlIGVzdGEgTGljZW5jaWEuIExvIGFudGVyaW9yIHNlIGFwbGljYSBhIGxhIE9icmEgaW5jb3Jwb3JhZGEgYSB1bmEgT2JyYSBDb2xlY3RpdmEsIHBlcm8gZXN0byBubyBleGlnZSBxdWUgbGEgT2JyYSBDb2xlY3RpdmEgYXBhcnRlIGRlIGxhIG9icmEgbWlzbWEgcXVlZGUgc3VqZXRhIGEgbGFzIGNvbmRpY2lvbmVzIGRlIGVzdGEgTGljZW5jaWEuIFNpIFVzdGVkIGNyZWEgdW5hIE9icmEgQ29sZWN0aXZhLCBwcmV2aW8gYXZpc28gZGUgY3VhbHF1aWVyIExpY2VuY2lhbnRlIGRlYmUsIGVuIGxhIG1lZGlkYSBkZSBsbyBwb3NpYmxlLCBlbGltaW5hciBkZSBsYSBPYnJhIENvbGVjdGl2YSBjdWFscXVpZXIgcmVmZXJlbmNpYSBhIGRpY2hvIExpY2VuY2lhbnRlIG8gYWwgQXV0b3IgT3JpZ2luYWwsIHNlZ8O6biBsbyBzb2xpY2l0YWRvIHBvciBlbCBMaWNlbmNpYW50ZSB5IGNvbmZvcm1lIGxvIGV4aWdlIGxhIGNsw6F1c3VsYSA0KGMpLgpiLiBVc3RlZCBubyBwdWVkZSBlamVyY2VyIG5pbmd1bm8gZGUgbG9zIGRlcmVjaG9zIHF1ZSBsZSBoYW4gc2lkbyBvdG9yZ2Fkb3MgZW4gbGEgU2VjY2nDs24gMyBwcmVjZWRlbnRlIGRlIG1vZG8gcXVlIGVzdMOpbiBwcmluY2lwYWxtZW50ZSBkZXN0aW5hZG9zIG8gZGlyZWN0YW1lbnRlIGRpcmlnaWRvcyBhIGNvbnNlZ3VpciB1biBwcm92ZWNobyBjb21lcmNpYWwgbyB1bmEgY29tcGVuc2FjacOzbiBtb25ldGFyaWEgcHJpdmFkYS4gRWwgaW50ZXJjYW1iaW8gZGUgbGEgT2JyYSBwb3Igb3RyYXMgb2JyYXMgcHJvdGVnaWRhcyBwb3IgZGVyZWNob3MgZGUgYXV0b3IsIHlhIHNlYSBhIHRyYXbDqXMgZGUgdW4gc2lzdGVtYSBwYXJhIGNvbXBhcnRpciBhcmNoaXZvcyBkaWdpdGFsZXMgKGRpZ2l0YWwgZmlsZS1zaGFyaW5nKSBvIGRlIGN1YWxxdWllciBvdHJhIG1hbmVyYSBubyBzZXLDoSBjb25zaWRlcmFkbyBjb21vIGVzdGFyIGRlc3RpbmFkbyBwcmluY2lwYWxtZW50ZSBvIGRpcmlnaWRvIGRpcmVjdGFtZW50ZSBhIGNvbnNlZ3VpciB1biBwcm92ZWNobyBjb21lcmNpYWwgbyB1bmEgY29tcGVuc2FjacOzbiBtb25ldGFyaWEgcHJpdmFkYSwgc2llbXByZSBxdWUgbm8gc2UgcmVhbGljZSB1biBwYWdvIG1lZGlhbnRlIHVuYSBjb21wZW5zYWNpw7NuIG1vbmV0YXJpYSBlbiByZWxhY2nDs24gY29uIGVsIGludGVyY2FtYmlvIGRlIG9icmFzIHByb3RlZ2lkYXMgcG9yIGVsIGRlcmVjaG8gZGUgYXV0b3IuCmMuIFNpIHVzdGVkIGRpc3RyaWJ1eWUsIGV4aGliZSBww7pibGljYW1lbnRlLCBlamVjdXRhIHDDumJsaWNhbWVudGUgbyBlamVjdXRhIHDDumJsaWNhbWVudGUgZW4gZm9ybWEgZGlnaXRhbCBsYSBPYnJhIG8gY3VhbHF1aWVyIE9icmEgRGVyaXZhZGEgdSBPYnJhIENvbGVjdGl2YSwgVXN0ZWQgZGViZSBtYW50ZW5lciBpbnRhY3RhIHRvZGEgbGEgaW5mb3JtYWNpw7NuIGRlIGRlcmVjaG8gZGUgYXV0b3IgZGUgbGEgT2JyYSB5IHByb3BvcmNpb25hciwgZGUgZm9ybWEgcmF6b25hYmxlIHNlZ8O6biBlbCBtZWRpbyBvIG1hbmVyYSBxdWUgVXN0ZWQgZXN0w6kgdXRpbGl6YW5kbzogKGkpIGVsIG5vbWJyZSBkZWwgQXV0b3IgT3JpZ2luYWwgc2kgZXN0w6EgcHJvdmlzdG8gKG8gc2V1ZMOzbmltbywgc2kgZnVlcmUgYXBsaWNhYmxlKSwgeS9vIChpaSkgZWwgbm9tYnJlIGRlIGxhIHBhcnRlIG8gbGFzIHBhcnRlcyBxdWUgZWwgQXV0b3IgT3JpZ2luYWwgeS9vIGVsIExpY2VuY2lhbnRlIGh1YmllcmVuIGRlc2lnbmFkbyBwYXJhIGxhIGF0cmlidWNpw7NuICh2LmcuLCB1biBpbnN0aXR1dG8gcGF0cm9jaW5hZG9yLCBlZGl0b3JpYWwsIHB1YmxpY2FjacOzbikgZW4gbGEgaW5mb3JtYWNpw7NuIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZWwgTGljZW5jaWFudGUsIHTDqXJtaW5vcyBkZSBzZXJ2aWNpb3MgbyBkZSBvdHJhcyBmb3JtYXMgcmF6b25hYmxlczsgZWwgdMOtdHVsbyBkZSBsYSBPYnJhIHNpIGVzdMOhIHByb3Zpc3RvOyBlbiBsYSBtZWRpZGEgZGUgbG8gcmF6b25hYmxlbWVudGUgZmFjdGlibGUgeSwgc2kgZXN0w6EgcHJvdmlzdG8sIGVsIElkZW50aWZpY2Fkb3IgVW5pZm9ybWUgZGUgUmVjdXJzb3MgKFVuaWZvcm0gUmVzb3VyY2UgSWRlbnRpZmllcikgcXVlIGVsIExpY2VuY2lhbnRlIGVzcGVjaWZpY2EgcGFyYSBzZXIgYXNvY2lhZG8gY29uIGxhIE9icmEsIHNhbHZvIHF1ZSB0YWwgVVJJIG5vIHNlIHJlZmllcmEgYSBsYSBub3RhIHNvYnJlIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBvIGEgbGEgaW5mb3JtYWNpw7NuIHNvYnJlIGVsIGxpY2VuY2lhbWllbnRvIGRlIGxhIE9icmE7IHkgZW4gZWwgY2FzbyBkZSB1bmEgT2JyYSBEZXJpdmFkYSwgYXRyaWJ1aXIgZWwgY3LDqWRpdG8gaWRlbnRpZmljYW5kbyBlbCB1c28gZGUgbGEgT2JyYSBlbiBsYSBPYnJhIERlcml2YWRhICh2LmcuLCAiVHJhZHVjY2nDs24gRnJhbmNlc2EgZGUgbGEgT2JyYSBkZWwgQXV0b3IgT3JpZ2luYWwsIiBvICJHdWnDs24gQ2luZW1hdG9ncsOhZmljbyBiYXNhZG8gZW4gbGEgT2JyYSBvcmlnaW5hbCBkZWwgQXV0b3IgT3JpZ2luYWwiKS4gVGFsIGNyw6lkaXRvIHB1ZWRlIHNlciBpbXBsZW1lbnRhZG8gZGUgY3VhbHF1aWVyIGZvcm1hIHJhem9uYWJsZTsgZW4gZWwgY2Fzbywgc2luIGVtYmFyZ28sIGRlIE9icmFzIERlcml2YWRhcyB1IE9icmFzIENvbGVjdGl2YXMsIHRhbCBjcsOpZGl0byBhcGFyZWNlcsOhLCBjb21vIG3DrW5pbW8sIGRvbmRlIGFwYXJlY2UgZWwgY3LDqWRpdG8gZGUgY3VhbHF1aWVyIG90cm8gYXV0b3IgY29tcGFyYWJsZSB5IGRlIHVuYSBtYW5lcmEsIGFsIG1lbm9zLCB0YW4gZGVzdGFjYWRhIGNvbW8gZWwgY3LDqWRpdG8gZGUgb3RybyBhdXRvciBjb21wYXJhYmxlLiAgCmQuIFBhcmEgZXZpdGFyIHRvZGEgY29uZnVzacOzbiwgZWwgTGljZW5jaWFudGUgYWNsYXJhIHF1ZSwgY3VhbmRvIGxhIG9icmEgZXMgdW5hIGNvbXBvc2ljacOzbiBtdXNpY2FsOgoKaS4gUmVnYWzDrWFzIHBvciBpbnRlcnByZXRhY2nDs24geSBlamVjdWNpw7NuIGJham8gbGljZW5jaWFzIGdlbmVyYWxlcy4gRWwgTGljZW5jaWFudGUgc2UgcmVzZXJ2YSBlbCBkZXJlY2hvIGV4Y2x1c2l2byBkZSBhdXRvcml6YXIgbGEgZWplY3VjacOzbiBww7pibGljYSBvIGxhIGVqZWN1Y2nDs24gcMO6YmxpY2EgZGlnaXRhbCBkZSBsYSBvYnJhIHkgZGUgcmVjb2xlY3Rhciwgc2VhIGluZGl2aWR1YWxtZW50ZSBvIGEgdHJhdsOpcyBkZSB1bmEgc29jaWVkYWQgZGUgZ2VzdGnDs24gY29sZWN0aXZhIGRlIGRlcmVjaG9zIGRlIGF1dG9yIHkgZGVyZWNob3MgY29uZXhvcyAocG9yIGVqZW1wbG8sIFNBWUNPKSwgbGFzIHJlZ2Fsw61hcyBwb3IgbGEgZWplY3VjacOzbiBww7pibGljYSBvIHBvciBsYSBlamVjdWNpw7NuIHDDumJsaWNhIGRpZ2l0YWwgZGUgbGEgb2JyYSAocG9yIGVqZW1wbG8gV2ViY2FzdCkgbGljZW5jaWFkYSBiYWpvIGxpY2VuY2lhcyBnZW5lcmFsZXMsIHNpIGxhIGludGVycHJldGFjacOzbiBvIGVqZWN1Y2nDs24gZGUgbGEgb2JyYSBlc3TDoSBwcmltb3JkaWFsbWVudGUgb3JpZW50YWRhIHBvciBvIGRpcmlnaWRhIGEgbGEgb2J0ZW5jacOzbiBkZSB1bmEgdmVudGFqYSBjb21lcmNpYWwgbyB1bmEgY29tcGVuc2FjacOzbiBtb25ldGFyaWEgcHJpdmFkYS4KaWkuIFJlZ2Fsw61hcyBwb3IgRm9ub2dyYW1hcy4gRWwgTGljZW5jaWFudGUgc2UgcmVzZXJ2YSBlbCBkZXJlY2hvIGV4Y2x1c2l2byBkZSByZWNvbGVjdGFyLCBpbmRpdmlkdWFsbWVudGUgbyBhIHRyYXbDqXMgZGUgdW5hIHNvY2llZGFkIGRlIGdlc3Rpw7NuIGNvbGVjdGl2YSBkZSBkZXJlY2hvcyBkZSBhdXRvciB5IGRlcmVjaG9zIGNvbmV4b3MgKHBvciBlamVtcGxvLCBsb3MgY29uc2FncmFkb3MgcG9yIGxhIFNBWUNPKSwgdW5hIGFnZW5jaWEgZGUgZGVyZWNob3MgbXVzaWNhbGVzIG8gYWxnw7puIGFnZW50ZSBkZXNpZ25hZG8sIGxhcyByZWdhbMOtYXMgcG9yIGN1YWxxdWllciBmb25vZ3JhbWEgcXVlIFVzdGVkIGNyZWUgYSBwYXJ0aXIgZGUgbGEgb2JyYSAo4oCcdmVyc2nDs24gY292ZXLigJ0pIHkgZGlzdHJpYnV5YSwgZW4gbG9zIHTDqXJtaW5vcyBkZWwgcsOpZ2ltZW4gZGUgZGVyZWNob3MgZGUgYXV0b3IsIHNpIGxhIGNyZWFjacOzbiBvIGRpc3RyaWJ1Y2nDs24gZGUgZXNhIHZlcnNpw7NuIGNvdmVyIGVzdMOhIHByaW1vcmRpYWxtZW50ZSBkZXN0aW5hZGEgbyBkaXJpZ2lkYSBhIG9idGVuZXIgdW5hIHZlbnRhamEgY29tZXJjaWFsIG8gdW5hIGNvbXBlbnNhY2nDs24gbW9uZXRhcmlhIHByaXZhZGEuCiAgICAgIAplLiBHZXN0acOzbiBkZSBEZXJlY2hvcyBkZSBBdXRvciBzb2JyZSBJbnRlcnByZXRhY2lvbmVzIHkgRWplY3VjaW9uZXMgRGlnaXRhbGVzIChXZWJDYXN0aW5nKS4gUGFyYSBldml0YXIgdG9kYSBjb25mdXNpw7NuLCBlbCBMaWNlbmNpYW50ZSBhY2xhcmEgcXVlLCBjdWFuZG8gbGEgb2JyYSBzZWEgdW4gZm9ub2dyYW1hLCBlbCBMaWNlbmNpYW50ZSBzZSByZXNlcnZhIGVsIGRlcmVjaG8gZXhjbHVzaXZvIGRlIGF1dG9yaXphciBsYSBlamVjdWNpw7NuIHDDumJsaWNhIGRpZ2l0YWwgZGUgbGEgb2JyYSAocG9yIGVqZW1wbG8sIHdlYmNhc3QpIHkgZGUgcmVjb2xlY3RhciwgaW5kaXZpZHVhbG1lbnRlIG8gYSB0cmF2w6lzIGRlIHVuYSBzb2NpZWRhZCBkZSBnZXN0acOzbiBjb2xlY3RpdmEgZGUgZGVyZWNob3MgZGUgYXV0b3IgeSBkZXJlY2hvcyBjb25leG9zIChwb3IgZWplbXBsbywgQUNJTlBSTyksIGxhcyByZWdhbMOtYXMgcG9yIGxhIGVqZWN1Y2nDs24gcMO6YmxpY2EgZGlnaXRhbCBkZSBsYSBvYnJhIChwb3IgZWplbXBsbywgd2ViY2FzdCksIHN1amV0YSBhIGxhcyBkaXNwb3NpY2lvbmVzIGFwbGljYWJsZXMgZGVsIHLDqWdpbWVuIGRlIERlcmVjaG8gZGUgQXV0b3IsIHNpIGVzdGEgZWplY3VjacOzbiBww7pibGljYSBkaWdpdGFsIGVzdMOhIHByaW1vcmRpYWxtZW50ZSBkaXJpZ2lkYSBhIG9idGVuZXIgdW5hIHZlbnRhamEgY29tZXJjaWFsIG8gdW5hIGNvbXBlbnNhY2nDs24gbW9uZXRhcmlhIHByaXZhZGEuCiAgCjUuIFJlcHJlc2VudGFjaW9uZXMsIEdhcmFudMOtYXMgeSBMaW1pdGFjaW9uZXMgZGUgUmVzcG9uc2FiaWxpZGFkLgpBIE1FTk9TIFFVRSBMQVMgUEFSVEVTIExPIEFDT1JEQVJBTiBERSBPVFJBIEZPUk1BIFBPUiBFU0NSSVRPLCBFTCBMSUNFTkNJQU5URSBPRlJFQ0UgTEEgT0JSQSAoRU4gRUwgRVNUQURPIEVOIEVMIFFVRSBTRSBFTkNVRU5UUkEpIOKAnFRBTCBDVUFM4oCdLCBTSU4gQlJJTkRBUiBHQVJBTlTDjUFTIERFIENMQVNFIEFMR1VOQSBSRVNQRUNUTyBERSBMQSBPQlJBLCBZQSBTRUEgRVhQUkVTQSwgSU1QTMONQ0lUQSwgTEVHQUwgTyBDVUFMUVVJRVJBIE9UUkEsIElOQ0xVWUVORE8sIFNJTiBMSU1JVEFSU0UgQSBFTExBUywgR0FSQU5Uw41BUyBERSBUSVRVTEFSSURBRCwgQ09NRVJDSUFCSUxJREFELCBBREFQVEFCSUxJREFEIE8gQURFQ1VBQ0nDk04gQSBQUk9Qw5NTSVRPIERFVEVSTUlOQURPLCBBVVNFTkNJQSBERSBJTkZSQUNDScOTTiwgREUgQVVTRU5DSUEgREUgREVGRUNUT1MgTEFURU5URVMgTyBERSBPVFJPIFRJUE8sIE8gTEEgUFJFU0VOQ0lBIE8gQVVTRU5DSUEgREUgRVJST1JFUywgU0VBTiBPIE5PIERFU0NVQlJJQkxFUyAoUFVFREFOIE8gTk8gU0VSIEVTVE9TIERFU0NVQklFUlRPUykuIEFMR1VOQVMgSlVSSVNESUNDSU9ORVMgTk8gUEVSTUlURU4gTEEgRVhDTFVTScOTTiBERSBHQVJBTlTDjUFTIElNUEzDjUNJVEFTLCBFTiBDVVlPIENBU08gRVNUQSBFWENMVVNJw5NOIFBVRURFIE5PIEFQTElDQVJTRSBBIFVTVEVELgogIAo2LiBMaW1pdGFjacOzbiBkZSByZXNwb25zYWJpbGlkYWQuCkEgTUVOT1MgUVVFIExPIEVYSUpBIEVYUFJFU0FNRU5URSBMQSBMRVkgQVBMSUNBQkxFLCBFTCBMSUNFTkNJQU5URSBOTyBTRVLDgSBSRVNQT05TQUJMRSBBTlRFIFVTVEVEIFBPUiBEQcORTyBBTEdVTk8sIFNFQSBQT1IgUkVTUE9OU0FCSUxJREFEIEVYVFJBQ09OVFJBQ1RVQUwsIFBSRUNPTlRSQUNUVUFMIE8gQ09OVFJBQ1RVQUwsIE9CSkVUSVZBIE8gU1VCSkVUSVZBLCBTRSBUUkFURSBERSBEQcORT1MgTU9SQUxFUyBPIFBBVFJJTU9OSUFMRVMsIERJUkVDVE9TIE8gSU5ESVJFQ1RPUywgUFJFVklTVE9TIE8gSU1QUkVWSVNUT1MgUFJPRFVDSURPUyBQT1IgRUwgVVNPIERFIEVTVEEgTElDRU5DSUEgTyBERSBMQSBPQlJBLCBBVU4gQ1VBTkRPIEVMIExJQ0VOQ0lBTlRFIEhBWUEgU0lETyBBRFZFUlRJRE8gREUgTEEgUE9TSUJJTElEQUQgREUgRElDSE9TIERBw5FPUy4gQUxHVU5BUyBMRVlFUyBOTyBQRVJNSVRFTiBMQSBFWENMVVNJw5NOIERFIENJRVJUQSBSRVNQT05TQUJJTElEQUQsIEVOIENVWU8gQ0FTTyBFU1RBIEVYQ0xVU0nDk04gUFVFREUgTk8gQVBMSUNBUlNFIEEgVVNURUQuCiAgCjcuIFTDqXJtaW5vLgkKYS4gRXN0YSBMaWNlbmNpYSB5IGxvcyBkZXJlY2hvcyBvdG9yZ2Fkb3MgZW4gdmlydHVkIGRlIGVsbGEgdGVybWluYXLDoW4gYXV0b23DoXRpY2FtZW50ZSBzaSBVc3RlZCBpbmZyaW5nZSBhbGd1bmEgY29uZGljacOzbiBlc3RhYmxlY2lkYSBlbiBlbGxhLiBTaW4gZW1iYXJnbywgbG9zIGluZGl2aWR1b3MgbyBlbnRpZGFkZXMgcXVlIGhhbiByZWNpYmlkbyBPYnJhcyBEZXJpdmFkYXMgbyBDb2xlY3RpdmFzIGRlIFVzdGVkIGRlIGNvbmZvcm1pZGFkIGNvbiBlc3RhIExpY2VuY2lhLCBubyB2ZXLDoW4gdGVybWluYWRhcyBzdXMgbGljZW5jaWFzLCBzaWVtcHJlIHF1ZSBlc3RvcyBpbmRpdmlkdW9zIG8gZW50aWRhZGVzIHNpZ2FuIGN1bXBsaWVuZG8gw61udGVncmFtZW50ZSBsYXMgY29uZGljaW9uZXMgZGUgZXN0YXMgbGljZW5jaWFzLiBMYXMgU2VjY2lvbmVzIDEsIDIsIDUsIDYsIDcsIHkgOCBzdWJzaXN0aXLDoW4gYSBjdWFscXVpZXIgdGVybWluYWNpw7NuIGRlIGVzdGEgTGljZW5jaWEuCmIuIFN1amV0YSBhIGxhcyBjb25kaWNpb25lcyB5IHTDqXJtaW5vcyBhbnRlcmlvcmVzLCBsYSBsaWNlbmNpYSBvdG9yZ2FkYSBhcXXDrSBlcyBwZXJwZXR1YSAoZHVyYW50ZSBlbCBwZXLDrW9kbyBkZSB2aWdlbmNpYSBkZSBsb3MgZGVyZWNob3MgZGUgYXV0b3IgZGUgbGEgb2JyYSkuIE5vIG9ic3RhbnRlIGxvIGFudGVyaW9yLCBlbCBMaWNlbmNpYW50ZSBzZSByZXNlcnZhIGVsIGRlcmVjaG8gYSBwdWJsaWNhciB5L28gZXN0cmVuYXIgbGEgT2JyYSBiYWpvIGNvbmRpY2lvbmVzIGRlIGxpY2VuY2lhIGRpZmVyZW50ZXMgbyBhIGRlamFyIGRlIGRpc3RyaWJ1aXJsYSBlbiBsb3MgdMOpcm1pbm9zIGRlIGVzdGEgTGljZW5jaWEgZW4gY3VhbHF1aWVyIG1vbWVudG87IGVuIGVsIGVudGVuZGlkbywgc2luIGVtYmFyZ28sIHF1ZSBlc2EgZWxlY2Npw7NuIG5vIHNlcnZpcsOhIHBhcmEgcmV2b2NhciBlc3RhIGxpY2VuY2lhIG8gcXVlIGRlYmEgc2VyIG90b3JnYWRhICwgYmFqbyBsb3MgdMOpcm1pbm9zIGRlIGVzdGEgbGljZW5jaWEpLCB5IGVzdGEgbGljZW5jaWEgY29udGludWFyw6EgZW4gcGxlbm8gdmlnb3IgeSBlZmVjdG8gYSBtZW5vcyBxdWUgc2VhIHRlcm1pbmFkYSBjb21vIHNlIGV4cHJlc2EgYXRyw6FzLiBMYSBMaWNlbmNpYSByZXZvY2FkYSBjb250aW51YXLDoSBzaWVuZG8gcGxlbmFtZW50ZSB2aWdlbnRlIHkgZWZlY3RpdmEgc2kgbm8gc2UgbGUgZGEgdMOpcm1pbm8gZW4gbGFzIGNvbmRpY2lvbmVzIGluZGljYWRhcyBhbnRlcmlvcm1lbnRlLgogIAo4LiBWYXJpb3MuCmEuIENhZGEgdmV6IHF1ZSBVc3RlZCBkaXN0cmlidXlhIG8gcG9uZ2EgYSBkaXNwb3NpY2nDs24gcMO6YmxpY2EgbGEgT2JyYSBvIHVuYSBPYnJhIENvbGVjdGl2YSwgZWwgTGljZW5jaWFudGUgb2ZyZWNlcsOhIGFsIGRlc3RpbmF0YXJpbyB1bmEgbGljZW5jaWEgZW4gbG9zIG1pc21vcyB0w6lybWlub3MgeSBjb25kaWNpb25lcyBxdWUgbGEgbGljZW5jaWEgb3RvcmdhZGEgYSBVc3RlZCBiYWpvIGVzdGEgTGljZW5jaWEuCmIuIFNpIGFsZ3VuYSBkaXNwb3NpY2nDs24gZGUgZXN0YSBMaWNlbmNpYSByZXN1bHRhIGludmFsaWRhZGEgbyBubyBleGlnaWJsZSwgc2Vnw7puIGxhIGxlZ2lzbGFjacOzbiB2aWdlbnRlLCBlc3RvIG5vIGFmZWN0YXLDoSBuaSBsYSB2YWxpZGV6IG5pIGxhIGFwbGljYWJpbGlkYWQgZGVsIHJlc3RvIGRlIGNvbmRpY2lvbmVzIGRlIGVzdGEgTGljZW5jaWEgeSwgc2luIGFjY2nDs24gYWRpY2lvbmFsIHBvciBwYXJ0ZSBkZSBsb3Mgc3VqZXRvcyBkZSBlc3RlIGFjdWVyZG8sIGFxdcOpbGxhIHNlIGVudGVuZGVyw6EgcmVmb3JtYWRhIGxvIG3DrW5pbW8gbmVjZXNhcmlvIHBhcmEgaGFjZXIgcXVlIGRpY2hhIGRpc3Bvc2ljacOzbiBzZWEgdsOhbGlkYSB5IGV4aWdpYmxlLgpjLiBOaW5nw7puIHTDqXJtaW5vIG8gZGlzcG9zaWNpw7NuIGRlIGVzdGEgTGljZW5jaWEgc2UgZXN0aW1hcsOhIHJlbnVuY2lhZGEgeSBuaW5ndW5hIHZpb2xhY2nDs24gZGUgZWxsYSBzZXLDoSBjb25zZW50aWRhIGEgbWVub3MgcXVlIGVzYSByZW51bmNpYSBvIGNvbnNlbnRpbWllbnRvIHNlYSBvdG9yZ2FkbyBwb3IgZXNjcml0byB5IGZpcm1hZG8gcG9yIGxhIHBhcnRlIHF1ZSByZW51bmNpZSBvIGNvbnNpZW50YS4KZC4gRXN0YSBMaWNlbmNpYSByZWZsZWphIGVsIGFjdWVyZG8gcGxlbm8gZW50cmUgbGFzIHBhcnRlcyByZXNwZWN0byBhIGxhIE9icmEgYXF1w60gbGljZW5jaWFkYS4gTm8gaGF5IGFycmVnbG9zLCBhY3VlcmRvcyBvIGRlY2xhcmFjaW9uZXMgcmVzcGVjdG8gYSBsYSBPYnJhIHF1ZSBubyBlc3TDqW4gZXNwZWNpZmljYWRvcyBlbiBlc3RlIGRvY3VtZW50by4gRWwgTGljZW5jaWFudGUgbm8gc2UgdmVyw6EgbGltaXRhZG8gcG9yIG5pbmd1bmEgZGlzcG9zaWNpw7NuIGFkaWNpb25hbCBxdWUgcHVlZGEgc3VyZ2lyIGVuIGFsZ3VuYSBjb211bmljYWNpw7NuIGVtYW5hZGEgZGUgVXN0ZWQuIEVzdGEgTGljZW5jaWEgbm8gcHVlZGUgc2VyIG1vZGlmaWNhZGEgc2luIGVsIGNvbnNlbnRpbWllbnRvIG11dHVvIHBvciBlc2NyaXRvIGRlbCBMaWNlbmNpYW50ZSB5IFVzdGVkLgo=</field>
+   </element>
+</metadata></metadata></record></GetRecord></OAI-PMH>

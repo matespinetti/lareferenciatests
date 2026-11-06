@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:53:21Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.unesp.br:11449/118219" metadataPrefix="mets">https://repositorio.unesp.br/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.unesp.br:11449/118219</identifier><datestamp>2026-09-18T05:00:42Z</datestamp><setSpec>com_11449_254580</setSpec><setSpec>com_11449_1</setSpec><setSpec>col_11449_254613</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11449-118219" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11449/118219">
+   <metsHdr CREATEDATE="2026-10-29T16:53:21Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositório Institucional Unesp</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11449_118219">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Carvalho, Roberto José [UNESP]</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Barros, Alexandre Okubo [UNESP]</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">institution</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Universidade Estadual Paulista (Unesp)</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2015-03-23T15:06:57Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2015-03-23T15:06:57Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2011</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="citation">BARROS, Alexandre Okubo. Transição para um novo centro de distribuição logístico em uma indústria de confecção. 2011. 1 CD-ROM. Trabalho de conclusão de curso - (bacharelado - Engenharia de Produção Mecânica) – Universidade Estadual Paulista, Faculdade de Engenharia de Guaratinguetá, 2011.</mods:identifier>
+               <mods:identifier type="uri">http://hdl.handle.net/11449/118219</mods:identifier>
+               <mods:identifier type="aleph">000689225</mods:identifier>
+               <mods:identifier type="file">barros_ao_tcc_guara.pdf</mods:identifier>
+               <mods:abstract>In a highly competitive environment for manufacturers and retailers in the garment sector, flexible solutions for warehousing, distribution and exhibition of products directly influence the cost and responsiveness to market demands. This work refers to a Textile/Clothing, which undergoes a process of restructuring and growth, where we evaluated the need for professionalism in all its processes, so that the high demands were met in a sales perennial. Thus, this study aims to identify and analyze possible improvements in the process of transition from a logistics/manufacturing force in a Textile/Clothing in existence since 1998, located in São Paulo, a framework for a new logistics Center Distribution Logistics. The theoretical basis of the research literature addresses as Distribution Center and its basic functions, layout and performance indicators. As result it was mapped the current logistics processes, contributing directly to the development of the layout of the new Distribution Center. Have also been established KPI,s ( Key Performance Indicator) and Logistics Performance Indicators showing the actual process performance, helping professionals in make decisions</mods:abstract>
+               <mods:abstract>Em um ambiente altamente competitivo para fabricantes e varejistas do setor de confecções, soluções para uma ágil armazenagem, distribuição e exposição de produtos influenciam diretamente nos custos e na capacidade de reação às demandas de mercado. O presente trabalho refere-se a uma Indústria Têxtil/Confecção, na qual passa por um processo de reestruturação e crescimento, onde foi avaliada a necessidade de profissionalização em todos os seus processos, para que as altas demandas de vendas fossem atendidas de forma perene. Desta forma, este trabalho tem como objetivo identificar e analisar possíveis melhorias no processo de transição de uma estrutura logística/fabril vigente em uma Indústria Têxtil/Confecção existente desde 1998, localizada na cidade de São Paulo, para uma estrutura logística em um novo Centro de Distribuição Logístico. O embasamento teórico da pesquisa aborda literaturas como Centro de Distribuição e suas funções básicas, layouts e indicadores de desempenho.Como resultados foram mapeados os processos logísticos atuais, contribuindo diretamente para o desenvolvimento do layout do novo Centro de Distribuição. Também foram criados KPI’s (Indicadores Chave de Desempenho) e Indicadores de Desempenho Logísticos mostrando o verdadeiro desempenho dos processos, auxiliando os profissionais da área na tomada de decisão</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">por</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction"/>
+               <mods:subject>
+                  <mods:topic>Logística</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Layout</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Desempenho</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Layout</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Logistics</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Transição para um novo centro de distribuição logístico em uma indústria de confecção</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Trabalho de conclusão de curso</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_11449_118219_1">
+      <techMD ID="TECH_O_11449_118219_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://repositorio.unesp.br/bitstreams/a252a932-c43a-4ec7-b53c-d5a9bd614cdc/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>dbd771a9824d11432b4604c6496532ab</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>1296497</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>barros_ao_tcc_guara.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_11449_118219_4">
+      <techMD ID="TECH_T_11449_118219_4">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://repositorio.unesp.br/bitstreams/836f3185-1920-4028-909a-0504bee4ca49/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>de90e3025158653cc5eaf11bac0e683c</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>96354</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>barros_ao_tcc_guara.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_11449_118219_1" MIMETYPE="application/pdf" SEQ="1" SIZE="1296497" CHECKSUM="dbd771a9824d11432b4604c6496532ab" CHECKSUMTYPE="MD5" ADMID="FO_11449_118219_1" GROUPID="GROUP_BITSTREAM_11449_118219_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://repositorio.unesp.br/bitstreams/a252a932-c43a-4ec7-b53c-d5a9bd614cdc/download"/>
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_11449_118219_4" MIMETYPE="text/plain" SEQ="4" SIZE="96354" CHECKSUM="de90e3025158653cc5eaf11bac0e683c" CHECKSUMTYPE="MD5" ADMID="FT_11449_118219_4" GROUPID="GROUP_BITSTREAM_11449_118219_4">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://repositorio.unesp.br/bitstreams/836f3185-1920-4028-909a-0504bee4ca49/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11449_118219">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11449_118219_1"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record></GetRecord></OAI-PMH>

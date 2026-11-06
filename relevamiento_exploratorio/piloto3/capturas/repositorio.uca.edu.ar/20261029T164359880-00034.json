@@ -1,0 +1,65 @@
+{
+ "pedido": "20261029T164359880-00034",
+ "url": "https://repositorio.uca.edu.ar/handle/123456789/204",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.18.0"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:47:23 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "last-modified",
+   "Wed, 14 Oct 2026 13:15:56 GMT"
+  ],
+  [
+   "link",
+   "https://repositorio.uca.edu.ar/bitstream/123456789/204/11/retencion-indebida-delito-omision.pdf; rel=\"item\"; type=\"application/pdf\""
+  ],
+  [
+   "content-language",
+   "es"
+  ],
+  [
+   "x-oneagent-js-injection",
+   "true"
+  ],
+  [
+   "x-ruxit-js-agent",
+   "true"
+  ],
+  [
+   "etag",
+   "W/\"1791983757:dtagent10347260902154543CGip\""
+  ],
+  [
+   "server-timing",
+   "dtTrId;desc=\"11b79140feb39864235478ccc6798bae\", dtSInfo;desc=\"0\""
+  ],
+  [
+   "server-timing",
+   "dtRpid;desc=\"676940504\""
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

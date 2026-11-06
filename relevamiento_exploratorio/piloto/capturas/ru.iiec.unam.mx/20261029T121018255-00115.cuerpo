@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/oai2.xsl' ?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2026-10-29T12:14:32Z</responseDate>
+  <request verb="GetRecord" metadataPrefix="mets" identifier="oai:ru.iiec.unam.mx:22">http://ru.iiec.unam.mx/cgi/oai2</request>
+  <GetRecord>
+    <record>
+    <header>
+      <identifier>oai:ru.iiec.unam.mx:22</identifier>
+      <datestamp>2012-05-01T00:46:42Z</datestamp>
+      <setSpec>7374617475733D707562</setSpec>
+      <setSpec>7375626A656374733D46:4631</setSpec>
+      <setSpec>7375626A656374733D46:4635</setSpec>
+      <setSpec>7375626A656374733D46:4635:463533</setSpec>
+      <setSpec>74797065733D626F6F6B</setSpec>
+      <setSpec>63726561746F72733D526F73617320476F6E7AC3A16C657A3A4D6172C3AD61204372697374696E613A3A</setSpec></header>
+    <metadata>
+      <mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" OBJID="eprint_22" LABEL="Eprints Item" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><mets:metsHdr CREATEDATE="2026-10-29T12:14:32Z"><mets:agent ROLE="CUSTODIAN" TYPE="ORGANIZATION"><mets:name>RU-Económicas</mets:name></mets:agent></mets:metsHdr><mets:dmdSec ID="DMD_eprint_22_mods"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:titleInfo><mods:title>México ante los procesos de regionalización económica en el mundo</mods:title></mods:titleInfo><mods:name type="personal"><mods:namePart type="given">María Cristina</mods:namePart><mods:namePart type="family">Rosas González</mods:namePart><mods:role><mods:roleTerm type="text">author</mods:roleTerm></mods:role></mods:name><mods:abstract>Presenta las formas de la regionalización económica en Europa Occidental y sus expresiones en el continente americano y en Asia, y evalúa la posición de México ante estos procesos.</mods:abstract><mods:classification authority="lcc">F1 - Comercio</mods:classification><mods:classification authority="lcc">F5 - Relaciones internacionales y economía política internacional</mods:classification><mods:classification authority="lcc">F53 - Acuerdos internacionales y su cumplimiento ; Organizaciones internacionales</mods:classification><mods:originInfo><mods:dateIssued encoding="iso8061">1996-12</mods:dateIssued></mods:originInfo><mods:originInfo><mods:publisher>UNAM - Instituto de Investigaciones Económicas</mods:publisher></mods:originInfo><mods:genre>Libro</mods:genre></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:amdSec ID="TMD_eprint_22"><mets:rightsMD ID="rights_eprint_22_mods"><mets:mdWrap MDTYPE="MODS"><mets:xmlData><mods:useAndReproduction>
+<p xmlns="http://www.w3.org/1999/xhtml"><strong>Para trabajos depositados por el propio autor:</strong> 
+Al auto archivar esta colección de ficheros y metadatos bibliográficos asociados, otorgo a RU-Económicas el derecho para almacenarlos y ponerlos a disposición pública permanentemente de un modo gratuito y en línea. 
+Declaro que este material es de mi propiedad intelectual y entiendo que RU-Económicas no asume ninguna responsabilidad en caso de que se produzca una violación de derechos de propiedad al distribuir estos ficheros o metadatos. (Se insta encarecidamente a todos los autores a destacar sus derechos de autor en la página de título de su trabajo.)</p>
+
+<p xmlns="http://www.w3.org/1999/xhtml"><strong>Para trabajos depositados por otras personas distintas a su autor:</strong> Por la presente, declaro que la colección de ficheros y metadatos bibliográficos asociados que estoy archivando en RU-Económicas) es de dominio público. Si este no fuese el caso, acepto totalmente la responsabilidad por cualquier infracción de derechos de autor que conlleve la distribución de estos ficheros o metadatos.</p>
+
+<p xmlns="http://www.w3.org/1999/xhtml">Pulsar sobre el botón de depósito indica que está de acuerdo con estos términos.</p>
+    </mods:useAndReproduction></mets:xmlData></mets:mdWrap></mets:rightsMD></mets:amdSec><mets:fileSec><mets:fileGrp USE="reference"><mets:file ID="eprint_22_12_1" SIZE="14435191" OWNERID="http://ru.iiec.unam.mx/22/1/MexicoAnteLosProRegionalizacionLimpioOCRLimpio.pdf" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://ru.iiec.unam.mx/22/1/MexicoAnteLosProRegionalizacionLimpioOCRLimpio.pdf"/></mets:file></mets:fileGrp><mets:fileGrp USE="reference"><mets:file ID="eprint_22_13_1" SIZE="18813966" OWNERID="http://ru.iiec.unam.mx/22/2/Pasta300Y400Dpis.pdf" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://ru.iiec.unam.mx/22/2/Pasta300Y400Dpis.pdf"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_eprint_22_mods" ADMID="TMD_eprint_22"><mets:fptr FILEID="eprint_22_document_12_1"/><mets:fptr FILEID="eprint_22_document_13_1"/></mets:div></mets:structMap></mets:mets></metadata></record>
+  </GetRecord>
+</OAI-PMH>

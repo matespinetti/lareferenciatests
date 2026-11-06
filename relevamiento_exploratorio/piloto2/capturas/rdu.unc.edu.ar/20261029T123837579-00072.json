@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T123837579-00072",
+ "url": "https://rdu.unc.edu.ar/bitstreams/ccd15c6b-c76b-4376-abc7-51e646c09db7/download",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:40:45 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "116"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1793277666"
+  ],
+  [
+   "location",
+   "https://rdu.unc.edu.ar/server/api/core/bitstreams/ccd15c6b-c76b-4376-abc7-51e646c09db7/content"
+  ],
+  [
+   "vary",
+   "Accept"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

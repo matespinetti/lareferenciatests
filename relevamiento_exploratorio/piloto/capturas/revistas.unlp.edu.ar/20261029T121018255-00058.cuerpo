@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		SADIO Electronic Journal of Informatics and Operations Research
+					</title>
+
+	
+<link rel="icon" href="https://revistas.unlp.edu.ar/public/journals/67/favicon_es_ES.png">
+<meta name="generator" content="Open Journal Systems 3.4.0.8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9ZXB2CF1SP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9ZXB2CF1SP');
+</script>
+<link rel="alternate" type="application/atom+xml" href="https://revistas.unlp.edu.ar/ejs/gateway/plugin/WebFeedGatewayPlugin/atom">
+<link rel="alternate" type="application/rdf+xml" href="https://revistas.unlp.edu.ar/ejs/gateway/plugin/WebFeedGatewayPlugin/rss">
+<link rel="alternate" type="application/rss+xml" href="https://revistas.unlp.edu.ar/ejs/gateway/plugin/WebFeedGatewayPlugin/rss2">
+	<link rel="stylesheet" href="https://revistas.unlp.edu.ar/ejs/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/ejs/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/lib/pkp/styles/fontawesome/fontawesome.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/public/journals/67/styleSheet.css?d=2024-11-06+15%3A23%3A23" type="text/css" /><link rel="stylesheet" href="https://revistas.unlp.edu.ar/public/site/styleSheet.css?v=3.4.0.8" type="text/css" />
+</head>
+<body class="pkp_page_index pkp_op_index has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Salta a los enlaces de contenido">
+	<a href="#pkp_content_main">Ir al contenido principal</a>
+	<a href="#siteNav">Ir al menú de navegación principal</a>
+										<a href="#homepageIssue">Ir al número actual</a>
+				<a href="#pkp_content_footer">Ir al pie de página del sitio</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+											<h1 class="pkp_screen_reader">
+															SADIO Electronic Journal of Informatics and Operations Research
+													</h1>
+										<div class="pkp_site_name">
+																<a href="						https://revistas.unlp.edu.ar/ejs/index
+					" class="is_img">
+							<img src="https://revistas.unlp.edu.ar/public/journals/67/pageHeaderLogoImage_es_ES.png" width="800" height="240" alt="encabezado del sitio" />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Navegación del sitio">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://revistas.unlp.edu.ar/ejs/issue/current">
+					Actual
+				</a>
+							</li>
+								<li class="">
+				<a href="https://revistas.unlp.edu.ar/ejs/issue/archive">
+					Archivos
+				</a>
+							</li>
+															<li class="">
+				<a href="https://revistas.unlp.edu.ar/ejs/about/editorialTeam">
+					Equipo editorial
+				</a>
+							</li>
+								<li class="">
+				<a href="https://revistas.unlp.edu.ar/ejs/about">
+					ACERCA DE
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/about">
+										Sobre la revista
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/about/submissions">
+										Envíos
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/editorial_policies">
+										Políticas editoriales
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/stats">
+										Estadísticas
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://revistas.unlp.edu.ar/ejs/about/contact">
+										Contacto
+									</a>
+								</li>
+																		</ul>
+							</li>
+			</ul>
+
+				
+
+																						<div class="pkp_navigation_search_wrapper">
+									<a href="https://revistas.unlp.edu.ar/ejs/search" class="pkp_search pkp_search_desktop">
+										<span class="fa fa-search" aria-hidden="true"></span>
+										Buscar
+									</a>
+								</div>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+								<li class="profile">
+				<a href="https://revistas.unlp.edu.ar/ejs/user/register">
+					Registrarse
+				</a>
+							</li>
+								<li class="profile">
+				<a href="https://revistas.unlp.edu.ar/ejs/login">
+					Entrar
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page_index_journal">
+
+	
+
+			<div class="homepage_image">
+			<img src="https://revistas.unlp.edu.ar/public/journals/67/homepageImage_es_ES.png" alt="logo de la revista">
+		</div>
+	
+		
+	
+
+				<section class="current_issue">
+			<a id="homepageIssue"></a>
+			<h2>
+				Número actual
+			</h2>
+			<div class="current_issue_title">
+				Vol. 25 Núm. 2 (2026): EJS – Edición especial dedicada a las 54 JAIIO: CAI-SAEI-SAHTI-SAIC-SID-SIE
+			</div>
+				<div class="obj_issue_toc">
+
+		
+		<div class="heading">
+
+									<div class="cover">
+								<img src="https://revistas.unlp.edu.ar/public/journals/67/cover_issue_1283_es.png" alt="					Ver Vol. 25 Núm. 2 (2026): EJS – Edición especial dedicada a las 54 JAIIO: CAI-SAEI-SAHTI-SAIC-SID-SIE
+				">
+			</div>
+		
+							<div class="description">
+				<p><strong>CAI</strong> - Congreso Argentino de AgroInformática<br><strong>SAEI</strong> - Simposio Argentino de Educación en Informática<br><strong>SAHTI</strong> - Simposio Argentino de Historia, Tecnologías e Informática<br><strong>SAIC</strong> - Simposio Argentino en Ingeniería en Computación<br><strong>SID</strong> - Simposio de Informática y Derecho<br><strong>SIE</strong> - Simposio de Informática en el Estado</p>
+<p><strong>Editores</strong><br>Claudia Pons (LIFIA, Universidad Nacional de La Plata | CIC-PBA | Universidad Abierta Interamericana, Argentina)<br>Alejandra Garrido (LIFIA, Universidad Nacional de La Plata | CONICET, Argentina)<br>Rodrigo Santos (Universidad Nacional del Sur | CONICET, Argentina)<br>Ricardo Pluss (SADIO, AAHD, Argentina)</p>
+<p><strong>Editores invitados</strong><br>María Elena Buemi (DC-FCEN-UBA; ICC-UBA/CONICET)<br>Pablo Turjanski (DC-FCEN-UBA; ICC-UBA/CONICET)</p>
+<p><strong>Diseño:</strong> Constanza Ruiz (SADIO)</p>
+			</div>
+		
+				
+						
+							<div class="published">
+				<span class="label">
+					Publicado:
+				</span>
+				<span class="value">
+					2026-05-27
+				</span>
+			</div>
+			</div>
+
+		
+		<div class="sections">
+			<div class="section">
+									<h3>
+					Editorial
+				</h3>
+						<ul class="cmp_article_list articles">
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20901" href="https://revistas.unlp.edu.ar/ejs/article/view/20901">
+							Nota editorial del volumen 26 número 2 del año 2026
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Claudia Pons, Alejandra Garrido, Rodrigo Santos
+		</div>
+		
+				
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20901/21965" id="article-20901-galley-21965" aria-labelledby="article-20901-galley-21965 article-20901">
+		
+	PDF
+
+	</a>
+				</li>
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20901/21980" id="article-20901-galley-21980" aria-labelledby="article-20901-galley-21980 article-20901">
+		
+	PDF (Inglés)
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+							</ul>
+				</div>
+			<div class="section">
+									<h3>
+					Papers
+				</h3>
+						<ul class="cmp_article_list articles">
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20903" href="https://revistas.unlp.edu.ar/ejs/article/view/20903">
+							Mitigación de sesgos en embeddings basada en nombres: análisis de su impacto en sesgos de género, religiosos y étnicos
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Gianmarco Cafferata, Mariano G. Beiró
+		</div>
+		
+							<div class="pages">e102</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20903/21964" id="article-20903-galley-21964" aria-labelledby="article-20903-galley-21964 article-20903">
+		
+	PDF (Inglés)
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20958" href="https://revistas.unlp.edu.ar/ejs/article/view/20958">
+							Herramienta de inteligencia artificial para la detección automática del riego por pivote central
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Néstor Barrionuevo, Sofía Havrylenko, Gabriela Sepulcri, Alejandra Casella, Aimé Espíndola
+		</div>
+		
+							<div class="pages">e103</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20958/21966" id="article-20958-galley-21966" aria-labelledby="article-20958-galley-21966 article-20958">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20959" href="https://revistas.unlp.edu.ar/ejs/article/view/20959">
+							Metodología para el seguimiento del estado hídrico de un olivar superintensivo basada en imágenes termográficas y multiespectrales de alta resolución
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Flavio Capraro, Santiago Tosetti, Pedro Campillo, Vicente Mut, Pierluigi Pierantozzi 
+		</div>
+		
+							<div class="pages">e104</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20959/21967" id="article-20959-galley-21967" aria-labelledby="article-20959-galley-21967 article-20959">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20960" href="https://revistas.unlp.edu.ar/ejs/article/view/20960">
+							Desempeño de algoritmos de aprendizaje automático para mapear variabilidad de materia orgánica de suelo a escala de lote
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Fabrizio A. García Seleme, Pablo Paccioretti, Mónica Balzarini, Mariano Córdoba
+		</div>
+		
+							<div class="pages">e105</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20960/21968" id="article-20960-galley-21968" aria-labelledby="article-20960-galley-21968 article-20960">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20961" href="https://revistas.unlp.edu.ar/ejs/article/view/20961">
+							Aplicación del NDVI al seguimiento fenológico de vid (<i>Vitis vinifera</i> var. Torrontés Riojano) en tres fincas del Valle Antinaco–Los Colorados (La Rioja, Argentina)
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Darío Jesús Recalde, Gustavo Carlos Dávila Cruz, Joaquín Víctor González Ribot
+		</div>
+		
+							<div class="pages">e106</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20961/21969" id="article-20961-galley-21969" aria-labelledby="article-20961-galley-21969 article-20961">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20969" href="https://revistas.unlp.edu.ar/ejs/article/view/20969">
+							DALALearn: una plataforma para la enseñanza y la investigación en programación
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Federico Alliani, Lucas Raposeiras, Gonzalo Pablo Fernández, Christian Cossio-Mercado
+		</div>
+		
+							<div class="pages">e107</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20969/21970" id="article-20969-galley-21970" aria-labelledby="article-20969-galley-21970 article-20969">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20971" href="https://revistas.unlp.edu.ar/ejs/article/view/20971">
+							Pilas Bloques Desenchufado en la práctica: aprendizajes de dos escuelas sobre la enseñanza de la programación en la educación inicial
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Marcos J. Gómez, Rocío Gonzalez, Diana López Alvas, Inés Roggi, Cecilia Martínez
+		</div>
+		
+							<div class="pages">e108</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20971/21971" id="article-20971-galley-21971" aria-labelledby="article-20971-galley-21971 article-20971">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20972" href="https://revistas.unlp.edu.ar/ejs/article/view/20972">
+							Las corporaciones tecnológicas extranjeras y la informática nacional: Olivetti Argentina S.A.
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Karina Bianculli
+		</div>
+		
+							<div class="pages">e109</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20972/21972" id="article-20972-galley-21972" aria-labelledby="article-20972-galley-21972 article-20972">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20973" href="https://revistas.unlp.edu.ar/ejs/article/view/20973">
+							Recepción de la cibernética en Argentina: debates, institucionalización y ocaso (1950-1985)
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Lucía Bracamonte, Raúl Carnota, Rodrigo Santos
+		</div>
+		
+							<div class="pages">e110</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20973/21973" id="article-20973-galley-21973" aria-labelledby="article-20973-galley-21973 article-20973">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20974" href="https://revistas.unlp.edu.ar/ejs/article/view/20974">
+							La computación personal llega a la Argentina: la fabricación de computadoras en la empresa Czerweny (1982-1988)
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Bruno Massare
+		</div>
+		
+							<div class="pages">e111</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20974/21974" id="article-20974-galley-21974" aria-labelledby="article-20974-galley-21974 article-20974">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20975" href="https://revistas.unlp.edu.ar/ejs/article/view/20975">
+							Modelado Mejorado de Sistemas Reactivos mediante Redes de Petri No Autónomas y Microservicios
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Mauricio Ludemann, Luis Ventre, Gabriel Valenzuela, Orlando Micolini
+		</div>
+		
+							<div class="pages">e112</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20975/21975" id="article-20975-galley-21975" aria-labelledby="article-20975-galley-21975 article-20975">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20976" href="https://revistas.unlp.edu.ar/ejs/article/view/20976">
+							AvPI: análisis extendido del paralelismo promedio en sistemas modelados con redes de Petri S3PR bajo políticas de prevención de interbloqueos
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Luis O. Ventre, Orlando Micolini, Mauricio Ludemann, Gabriel Valenzuela
+		</div>
+		
+							<div class="pages">e113</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20976/21976" id="article-20976-galley-21976" aria-labelledby="article-20976-galley-21976 article-20976">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20977" href="https://revistas.unlp.edu.ar/ejs/article/view/20977">
+							Transformación pedagógica, plataformas educativas e Inteligencia Artificial Generativa (IAG)
+													<span class="subtitle">Una aproximación a las investigaciones previas</span>
+									</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Soledad Ayala, Alejandro Sartorio, Alejandro Hernández, Juan Gaseli, Mateo Dip
+		</div>
+		
+							<div class="pages">e114</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20977/21977" id="article-20977-galley-21977" aria-labelledby="article-20977-galley-21977 article-20977">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20983" href="https://revistas.unlp.edu.ar/ejs/article/view/20983">
+							Inteligencias artificiales y gestión de contenidos (inputs /outputs)
+													<span class="subtitle">Análisis de los términos legales de uso de seis casos internacionales</span>
+									</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Ariel Vercelli
+		</div>
+		
+							<div class="pages">e115</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20983/21978" id="article-20983-galley-21978" aria-labelledby="article-20983-galley-21978 article-20983">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20985" href="https://revistas.unlp.edu.ar/ejs/article/view/20985">
+							Estrategia de Inteligencia Artificial en el Gobierno de la Provincia de Buenos Aires  
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Sandra D&#039;Agostino
+		</div>
+		
+							<div class="pages">e116</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20985/21979" id="article-20985-galley-21979" aria-labelledby="article-20985-galley-21979 article-20985">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+									<li>
+						
+
+	
+<div class="obj_article_summary">
+	
+	<h4 class="title">
+		<a id="article-20984" href="https://revistas.unlp.edu.ar/ejs/article/view/20984">
+							Identificación terminológica de autolesiones e intentos de suicidio en la historia clínica electrónica de los efectores públicos de salud de la CABA y evaluación de atención oportuna de pacientes del área del Hospital Argerich
+													</a>
+	</h4>
+
+				<div class="meta">
+				<div class="authors">
+			Ariana Bardauil, Alejandro Blumenfeld, Florencia Faretta, Carolina Mengoni Goñalons, Rocío Porro, Franca Salerno, Carmín Zangari
+		</div>
+		
+							<div class="pages">e117</div>
+		
+		
+	</div>
+	
+			<ul class="galleys_links">
+																									<li>
+																															
+	
+													
+
+<a class="obj_galley_link pdf" href="https://revistas.unlp.edu.ar/ejs/article/view/20984/21981" id="article-20984-galley-21981" aria-labelledby="article-20984-galley-21981 article-20984">
+		
+	PDF
+
+	</a>
+				</li>
+					</ul>
+	
+	
+</div>
+					</li>
+							</ul>
+				</div>
+		</div><!-- .sections -->
+</div>
+			<a href="https://revistas.unlp.edu.ar/ejs/issue/archive" class="read_more">
+				Ver todos los números
+			</a>
+		</section>
+	
+		</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary">
+				<div class="pkp_block block_language">
+	<h2 class="title">
+		Idioma
+	</h2>
+
+	<div class="content">
+		<ul>
+							<li class="locale_en" lang="en">
+					<a href="https://revistas.unlp.edu.ar/ejs/user/setLocale/en?source=%2Fejs">
+						English
+					</a>
+				</li>
+							<li class="locale_es current" lang="es">
+					<a href="https://revistas.unlp.edu.ar/ejs/user/setLocale/es?source=%2Fejs">
+						Español
+					</a>
+				</li>
+					</ul>
+	</div>
+</div><!-- .block_language -->
+<div class="pkp_block block_custom" id="customblock-indizaciones">
+	<h2 class="title pkp_screen_reader">indizaciones</h2>
+	<div class="content">
+		<p><strong><a href="https://sedici.unlp.edu.ar/handle/10915/134623" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/sedici.jpg"></a></strong></p>
+<p><a href="https://www.caicyt-conicet.gov.ar/sitio/sadio-electronic-journal-of-informatics-and-operations-research/" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/LogoNucleoBasico.png"></a></p>
+<p><a href="https://www.latindex.org/latindex/ficha/26348" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/Logo-LATINDEX-2.png"></a></p>
+<p><a href="https://miar.ub.edu/issn/1514-6774" target="_blank" rel="noopener"><img style="width: 120px;" src="https://revistas.unlp.edu.ar/public/images/logos/Miar.png" alt="miar"></a></p>
+<p><a href="https://latinrev.flacso.org.ar/revistas/sadio-electronic-journal-of-informatics-and-operations-research" target="_blank" rel="noopener"><img style="width: 120px;" src="https://latinrev.flacso.org.ar/themes/latinrev/imgs/latinrev_logo.svg"></a></p>
+<p><a href="https://www.caicyt-conicet.gov.ar/malena/items/show/2050" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/Malena.jpg"></a></p>
+<p><a href="https://portal.issn.org/resource/ISSN/1514-6774" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/logo-road.png"></a></p>
+<p><a href="https://sfdora.org/" target="_blank" rel="noopener"><img style="width: 120px;" src="/public/images/logos/DORA.png"></a></p>
+	</div>
+</div>
+<div class="pkp_block block_web_feed">
+	<h2 class="title">Últimas publicaciones</h2>
+	<div class="content">
+		<ul>
+			<li>
+				<a href="https://revistas.unlp.edu.ar/ejs/gateway/plugin/WebFeedGatewayPlugin/atom">
+					<img src="https://revistas.unlp.edu.ar/lib/pkp/templates/images/atom.svg" alt="Logo Atom">
+				</a>
+			</li>
+			<li>
+				<a href="https://revistas.unlp.edu.ar/ejs/gateway/plugin/WebFeedGatewayPlugin/rss2">
+					<img src="https://revistas.unlp.edu.ar/lib/pkp/templates/images/rss20_logo.svg" alt="Logo RSS2">
+				</a>
+			</li>
+			<li>
+				<a href="https://revistas.unlp.edu.ar/ejs/gateway/plugin/WebFeedGatewayPlugin/rss">
+					<img src="https://revistas.unlp.edu.ar/lib/pkp/templates/images/rss10_logo.svg" alt="Logo RSS1">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+					<div class="pkp_footer_content">
+				<div style="width: 100%; display: flex; justify-content: center; padding: 5px;">
+<div style="text-align: center; color: #5f5f5f;">
+<p><strong>SADIO. Electronic Journal of Informatics and Operations Research</strong><br />Revista científica de la Sociedad Argentina de Informática e Investigación Operativa (SADIO)<br /><a href="https://revistas.unlp.edu.ar/ejs/index" target="_blank" rel="noopener">https://revistas.unlp.edu.ar/ejs/index</a></p>
+<p>e-ISSN 1514-6774 | Revista con periodicidad semestral</p>
+<p><a href="https://www.sadio.org.ar/">Sociedad Argentina de Informática e Investigación Operativa</a> | <a href="https://unlp.edu.ar/">Universidad Nacional de La Plata</a><a href="http://www.jursoc.unlp.edu.ar/index.php/institutos/informacion/item/158-instituto-de-relaciones-internacionales.html" target="_blank" rel="noopener"><br /></a>Uruguay N.° 252, piso 2 D | Ciudad Autónoma de Buenos Aires (1015) | Argentina | <a href="mailto:ejs-editorial@sadio.org.ar">ejs-editorial@sadio.org.ar</a></p>
+<p>El sitio y todos sus contenidos se encuentran bajo una licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">Creative Commons BY-NC-SA 4.0</a>  </p>
+</div>
+</div>
+<div id="contenedor-de-logos-al-pie1" style="border-bottom: 0px solid #A879B5; width: 100%; padding: 10px 0px 0px; margin: 0 0 0 0px;" align="center"><a href="https://binpar.caicyt.gov.ar/cgi-bin/koha/opac-detail.pl?biblionumber=108056&amp;query_desc=kw%2Cwrdl%3A%20SADIO" target="_blank" rel="noopener"><img style="height: 80px; margin: 0 0 0px 0;" src="https://revistas.unlp.edu.ar/public/images/logos/binpar.png" /></a><a href="https://www.sadio.org.ar/" target="_blank" rel="noopener"><img class="logos-al-pie1" style="height: 65px; margin: 0 5px 3px 15px;" src="https://revistas.unlp.edu.ar/public/site/images/pmarco/logo-sadio.jpg" /></a> <a href="http://sedici.unlp.edu.ar/" target="_blank" rel="noopener"> <img class="logos-al-pie1" style="height: 35px; margin-bottom: 20px;" src="https://revistas.unlp.edu.ar/public/images/logos/sedici_logo.png" alt="SEDICI" /></a> <a href="https://portalderevistas.unlp.edu.ar/" target="_blank" rel="noopener"> <img class="logos-al-pie1" style="height: 55px; margin-bottom: 18px;" src="https://revistas.unlp.edu.ar/public/images/logos/marca-portal-de-revistas-unlp-ok.png" alt="PORTAL" /></a> <a href="http://unlp.edu.ar/" target="_blank" rel="noopener"><img class="logos-al-pie1" style="height: 60px; margin: 0 0px 10px 0;" src="https://revistas.unlp.edu.ar/public/images/logos/marca-UNLP-ok.png" alt="UNLP" /></a></div>
+<div id="contenedor-de-logos-al-pie2" style="border-bottom: 0px solid #A879B5; width: 100%; padding: 10px 0px 0px; margin: 0 0 0 0px;" align="center"><a href="https://pkp.sfu.ca/" target="_blank" rel="noopener"><img class="logos-al-pie" src="https://revistas.unlp.edu.ar/public/images/logos/logo-pkp-1.png" /></a> <a href="https://www.budapestopenaccessinitiative.org/" target="_blank" rel="noopener"><img class="logos-al-pie" src="https://revistas.unlp.edu.ar/public/images/logos/open-access.png" /></a> <a href="https://creativecommons.org/" target="_blank" rel="noopener"><img class="logos-al-pie" style="height: 25px; margin: 10px 25px 20px 25px;" src="https://revistas.unlp.edu.ar/public/images/logos/Creative_Commons_logo_ok.png" alt="Licencia Creative Commons" /></a><a href="https://www.doi.org/" target="_blank" rel="noopener"> <img class="logos-al-pie" src="https://revistas.unlp.edu.ar/public/images/logos/doi.png" alt="DOI" /></a> <a href="https://orcid.org/" target="_blank" rel="noopener"> <img class="logos-al-pie" src="https://revistas.unlp.edu.ar/public/images/logos/ORCID_logo_ok.png" alt="ORCID" /></a></div>
+			</div>
+		
+		<div class="pkp_brand_footer">
+			<a href="https://revistas.unlp.edu.ar/ejs/about/aboutThisPublishingSystem">
+				<img alt="Más información acerca del sistema de publicación, de la plataforma y del flujo de trabajo de OJS/PKP." src="https://revistas.unlp.edu.ar/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://revistas.unlp.edu.ar/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/themes/default/js/lib/popper/popper.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/themes/default/js/lib/bootstrap/util.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.4.0.8" type="text/javascript"></script><script src="https://revistas.unlp.edu.ar/plugins/themes/default/js/main.js?v=3.4.0.8" type="text/javascript"></script><script type="text/javascript">
+(function (w, d, s, l, i) { w[l] = w[l] || []; var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+j.src = 'https://www.googletagmanager.com/gtag/js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+function gtag(){dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config', i); })
+(window, document, 'script', 'dataLayer', 'G-X2LC461149');
+</script>
+
+
+</body>
+</html>

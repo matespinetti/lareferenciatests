@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:45:31Z</responseDate><request verb="GetRecord" identifier="oai:ucacris:123456789/515" metadataPrefix="xoai">https://repositorio.uca.edu.ar/oai/request</request><GetRecord><record><header><identifier>oai:ucacris:123456789/515</identifier><datestamp>2026-10-14T13:23:17Z</datestamp><setSpec>com_123456789_640</setSpec><setSpec>com_123456789_72</setSpec><setSpec>col_123456789_75</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+<element name="dc">
+<element name="contributor">
+<element name="author">
+<element name="es">
+<field name="value">Rodríguez Espínola, Solange Sylvia</field>
+<field name="authority">rp00396</field>
+<field name="confidence">600</field>
+</element>
+</element>
+</element>
+<element name="date">
+<element name="accessioned">
+<element name="none">
+<field name="value">2019-04-02T22:34:04Z</field>
+</element>
+</element>
+<element name="available">
+<element name="none">
+<field name="value">2019-04-02T22:34:04Z</field>
+</element>
+</element>
+<element name="issued">
+<element name="none">
+<field name="value">2009</field>
+</element>
+</element>
+</element>
+<element name="identifier">
+<element name="citation">
+<element name="es">
+<field name="value">Rodriguez Espínola, S. S. (2009). Variables moderadoras de estrés postraumático en niños [en línea]. Tesis de Doctorado en Psicología, Universidad Católica Argentina, Facultad de Psicología y Educación. Disponible en: https://repositorio.uca.edu.ar/handle/123456789/515</field>
+</element>
+</element>
+<element name="uri">
+<element name="none">
+<field name="value">https://repositorio.uca.edu.ar/handle/123456789/515</field>
+</element>
+</element>
+</element>
+<element name="description">
+<element name="abstract">
+<element name="es">
+<field name="value">Resumen: ¿Influye el nivel socio-económico, a través del apoyo social percibido, el género, el metaconocimiento de los estados emocionales, el estado de ánimo deprimido y el tipo de evento traumático, en el desarrollo del Trastorno de Estrés Postraumático en niños de 9 a 13 años?</field>
+</element>
+</element>
+</element>
+<element name="format">
+<element name="es">
+<field name="value">application/pdf</field>
+</element>
+</element>
+<element name="language">
+<element name="es">
+<field name="value">spa</field>
+</element>
+<element name="iso">
+<element name="es">
+<field name="value">spa</field>
+</element>
+</element>
+</element>
+<element name="rights">
+<element name="es">
+<field name="value">Acceso al texto completo de este documento desde un puesto fijo de la Biblioteca Central</field>
+</element>
+<element name="uri">
+<element name="es">
+<field name="value">https://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+</element>
+</element>
+</element>
+<element name="subject">
+<element name="es">
+<field name="value">ESTRES</field>
+<field name="value">TRAUMA</field>
+<field name="value">NIÑOS</field>
+<field name="value">PSICOLOGIA DEL NIÑO</field>
+</element>
+</element>
+<element name="title">
+<element name="es">
+<field name="value">Variables moderadoras de estrés postraumático en niños</field>
+</element>
+</element>
+<element name="type">
+<element name="es">
+<field name="value">Tesis doctoral</field>
+</element>
+</element>
+</element>
+<element name="es">
+<field name="value">Rodríguez Espínola, Solange Sylvia</field>
+<field name="authority">rp00396</field>
+<field name="confidence">600</field>
+</element>
+<element name="none">
+<field name="value">2019-04-02T22:34:04Z</field>
+</element>
+<element name="none">
+<field name="value">2019-04-02T22:34:04Z</field>
+</element>
+<element name="none">
+<field name="value">2009</field>
+</element>
+<element name="es">
+<field name="value">Rodriguez Espínola, S. S. (2009). Variables moderadoras de estrés postraumático en niños [en línea]. Tesis de Doctorado en Psicología, Universidad Católica Argentina, Facultad de Psicología y Educación. Disponible en: https://repositorio.uca.edu.ar/handle/123456789/515</field>
+</element>
+<element name="none">
+<field name="value">https://repositorio.uca.edu.ar/handle/123456789/515</field>
+</element>
+<element name="es">
+<field name="value">Resumen: ¿Influye el nivel socio-económico, a través del apoyo social percibido, el género, el metaconocimiento de los estados emocionales, el estado de ánimo deprimido y el tipo de evento traumático, en el desarrollo del Trastorno de Estrés Postraumático en niños de 9 a 13 años?</field>
+</element>
+<element name="es">
+<field name="value">application/pdf</field>
+</element>
+<element name="es">
+<field name="value">spa</field>
+</element>
+<element name="es">
+<field name="value">spa</field>
+</element>
+<element name="es">
+<field name="value">Acceso al texto completo de este documento desde un puesto fijo de la Biblioteca Central</field>
+</element>
+<element name="es">
+<field name="value">https://creativecommons.org/licenses/by-nc-sa/4.0/</field>
+</element>
+<element name="es">
+<field name="value">ESTRES</field>
+<field name="value">TRAUMA</field>
+<field name="value">NIÑOS</field>
+<field name="value">PSICOLOGIA DEL NIÑO</field>
+</element>
+<element name="es">
+<field name="value">ESTRES</field>
+<field name="value">TRAUMA</field>
+<field name="value">NIÑOS</field>
+<field name="value">PSICOLOGIA DEL NIÑO</field>
+</element>
+<element name="es">
+<field name="value">ESTRES</field>
+<field name="value">TRAUMA</field>
+<field name="value">NIÑOS</field>
+<field name="value">PSICOLOGIA DEL NIÑO</field>
+</element>
+<element name="es">
+<field name="value">ESTRES</field>
+<field name="value">TRAUMA</field>
+<field name="value">NIÑOS</field>
+<field name="value">PSICOLOGIA DEL NIÑO</field>
+</element>
+<element name="es">
+<field name="value">Variables moderadoras de estrés postraumático en niños</field>
+</element>
+<element name="es">
+<field name="value">Tesis doctoral</field>
+</element>
+<element name="uca">
+<element name="path">
+<element name="es">
+<field name="value">Facultad de Psicología y Psicopedagogía|Psicología|Doctorado</field>
+</element>
+</element>
+<element name="disciplina">
+<element name="es">
+<field name="value">PSICOLOGIA</field>
+</element>
+</element>
+<element name="tesis">
+<element name="gradoAlcanzado">
+<element name="es">
+<field name="value">TESIS DOCTORAL</field>
+</element>
+</element>
+</element>
+<element name="numpages">
+<element name="es">
+<field name="value">1</field>
+</element>
+</element>
+<element name="filename">
+<element name="es">
+<field name="value">/home/data-uca/data_old/Tesis/variable/s-modera.dir/doc.xml</field>
+</element>
+</element>
+<element name="issnrd">
+<element name="es">
+<field name="value">0</field>
+</element>
+</element>
+<element name="affiliation">
+<element name="es">
+<field name="value">Fil: Rodríguez Espínola, Solange Sylvia. Universidad Católica Argentina. Facultad de Psicología y Psicopedagogía; Argentina</field>
+</element>
+</element>
+<element name="version">
+<element name="es">
+<field name="value">publishedVersion</field>
+</element>
+</element>
+</element>
+<element name="es">
+<field name="value">Facultad de Psicología y Psicopedagogía|Psicología|Doctorado</field>
+</element>
+<element name="es">
+<field name="value">PSICOLOGIA</field>
+</element>
+<element name="es">
+<field name="value">TESIS DOCTORAL</field>
+</element>
+<element name="es">
+<field name="value">1</field>
+</element>
+<element name="es">
+<field name="value">/home/data-uca/data_old/Tesis/variable/s-modera.dir/doc.xml</field>
+</element>
+<element name="es">
+<field name="value">0</field>
+</element>
+<element name="es">
+<field name="value">Fil: Rodríguez Espínola, Solange Sylvia. Universidad Católica Argentina. Facultad de Psicología y Psicopedagogía; Argentina</field>
+</element>
+<element name="es">
+<field name="value">publishedVersion</field>
+</element>
+<element name="item">
+<element name="languageiso639-1">
+<element name="none">
+<field name="value">es</field>
+</element>
+</element>
+<element name="fulltext">
+<element name="none">
+<field name="value">With Fulltext</field>
+</element>
+</element>
+<element name="grantfulltext">
+<element name="none">
+<field name="value">open</field>
+</element>
+</element>
+</element>
+<element name="none">
+<field name="value">es</field>
+</element>
+<element name="none">
+<field name="value">With Fulltext</field>
+</element>
+<element name="none">
+<field name="value">open</field>
+</element>
+<element name="crisitem">
+<element name="author">
+<element name="dept">
+<element name="none">
+<field name="value">Observatorio de la Deuda Social Argentina</field>
+<field name="authority">ou00028</field>
+<field name="confidence">600</field>
+</element>
+</element>
+<element name="orcid">
+<element name="none">
+<field name="value">0000-0003-2545-8483</field>
+</element>
+</element>
+<element name="parentorg">
+<element name="none">
+<field name="value">Pontificia Universidad Católica Argentina</field>
+<field name="authority">ou00001</field>
+<field name="confidence">600</field>
+</element>
+</element>
+</element>
+</element>
+<element name="none">
+<field name="value">Observatorio de la Deuda Social Argentina</field>
+<field name="authority">ou00028</field>
+<field name="confidence">600</field>
+</element>
+<element name="none">
+<field name="value">0000-0003-2545-8483</field>
+</element>
+<element name="none">
+<field name="value">Pontificia Universidad Católica Argentina</field>
+<field name="authority">ou00001</field>
+<field name="confidence">600</field>
+</element>
+<element name="bundles">
+<element name="bundle">
+<field name="name">ORIGINAL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="id">377</field>
+<field name="name">doc.pdf</field>
+<field name="format">application/pdf</field>
+<field name="size">102764</field>
+<field name="url">https://repositorio.uca.edu.ar/bitstream/123456789/515/1/doc.pdf</field>
+<field name="checksum">adc6903708fa23fe5bb609d104fa39a8</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">1</field>
+<element name="dc">
+<element name="title">
+<element name="none">
+<field name="value">doc.pdf</field>
+</element>
+</element>
+</element>
+<element name="none">
+<field name="value">doc.pdf</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundle">
+<field name="name">THUMBNAIL</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="id">6428</field>
+<field name="name">doc.pdf.jpg</field>
+<field name="originalName">doc.pdf.jpg</field>
+<field name="description">IM Thumbnail</field>
+<field name="format">image/jpeg</field>
+<field name="size">13661</field>
+<field name="url">https://repositorio.uca.edu.ar/bitstream/123456789/515/10/doc.pdf.jpg</field>
+<field name="checksum">c69c65f459e4f9bb7a413d2e5eb83277</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">10</field>
+<element name="dc">
+<element name="description">
+<element name="none">
+<field name="value">IM Thumbnail</field>
+</element>
+</element>
+<element name="source">
+<element name="none">
+<field name="value">Written by FormatFilter org.dspace.app.mediafilter.ImageMagickPdfThumbnailFilter on 2019-04-26T01:01:21Z (GMT).</field>
+</element>
+</element>
+<element name="title">
+<element name="none">
+<field name="value">doc.pdf.jpg</field>
+</element>
+</element>
+</element>
+<element name="none">
+<field name="value">IM Thumbnail</field>
+</element>
+<element name="none">
+<field name="value">Written by FormatFilter org.dspace.app.mediafilter.ImageMagickPdfThumbnailFilter on 2019-04-26T01:01:21Z (GMT).</field>
+</element>
+<element name="none">
+<field name="value">doc.pdf.jpg</field>
+</element>
+</element>
+</element>
+</element>
+<element name="bundle">
+<field name="name">TEXT</field>
+<element name="bitstreams">
+<element name="bitstream">
+<field name="id">6427</field>
+<field name="name">doc.pdf.txt</field>
+<field name="originalName">doc.pdf.txt</field>
+<field name="description">Extracted text</field>
+<field name="format">text/plain</field>
+<field name="size">1022</field>
+<field name="url">https://repositorio.uca.edu.ar/bitstream/123456789/515/9/doc.pdf.txt</field>
+<field name="checksum">969d2fda333ad43ab33c09b23b8241fe</field>
+<field name="checksumAlgorithm">MD5</field>
+<field name="sid">9</field>
+<element name="dc">
+<element name="description">
+<element name="none">
+<field name="value">Extracted text</field>
+</element>
+</element>
+<element name="source">
+<element name="none">
+<field name="value">Written by FormatFilter org.dspace.app.mediafilter.PDFFilter on 2019-04-26T01:01:20Z (GMT).</field>
+</element>
+</element>
+<element name="title">
+<element name="none">
+<field name="value">doc.pdf.txt</field>
+</element>
+</element>
+</element>
+<element name="none">
+<field name="value">Extracted text</field>
+</element>
+<element name="none">
+<field name="value">Written by FormatFilter org.dspace.app.mediafilter.PDFFilter on 2019-04-26T01:01:20Z (GMT).</field>
+</element>
+<element name="none">
+<field name="value">doc.pdf.txt</field>
+</element>
+</element>
+</element>
+</element>
+</element>
+<element name="others">
+<field name="handle">123456789/515</field>
+<field name="identifier">oai:ucacris:123456789/515</field>
+<field name="lastModifyDate">2026-10-14 10:23:17.377</field>
+</element>
+<element name="repository">
+<field name="name">Repositorio Institucional UCA</field>
+<field name="mail">apoyo_investigacion@uca.edu.ar</field>
+</element>
+</metadata></metadata></record></GetRecord></OAI-PMH>

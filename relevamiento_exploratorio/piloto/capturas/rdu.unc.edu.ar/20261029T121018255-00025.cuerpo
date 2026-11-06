@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T12:11:01Z</responseDate><request verb="GetRecord" identifier="oai:rdu.unc.edu.ar:11086/560501" metadataPrefix="xoai">https://rdu.unc.edu.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:rdu.unc.edu.ar:11086/560501</identifier><datestamp>2026-03-17T12:37:28Z</datestamp><setSpec>com_11086_558301</setSpec><setSpec>com_11086_369</setSpec><setSpec>col_11086_560319</setSpec></header><metadata><metadata xmlns="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lyncode.com/xoai http://www.lyncode.com/xsd/xoai.xsd">
+   <element name="dc">
+      <element name="contributor">
+         <element name="author">
+            <element name="none">
+               <field name="value">Cuesta, Leonardo Luis</field>
+               <field name="authority">86bba246-1cb4-49ca-99d9-1302df5205f7</field>
+               <field name="confidence">-1</field>
+            </element>
+         </element>
+      </element>
+      <element name="date">
+         <element name="accessioned">
+            <element name="none">
+               <field name="value">2026-03-11T16:49:44Z</field>
+            </element>
+         </element>
+         <element name="available">
+            <element name="none">
+               <field name="value">2026-03-11T16:49:44Z</field>
+            </element>
+         </element>
+         <element name="issued">
+            <element name="none">
+               <field name="value">2024-10-08</field>
+            </element>
+         </element>
+      </element>
+      <element name="identifier">
+         <element name="uri">
+            <element name="none">
+               <field name="value">http://hdl.handle.net/11086/560501</field>
+            </element>
+         </element>
+      </element>
+      <element name="description">
+         <element name="abstract">
+            <element name="none">
+               <field name="value">El trabajo de tesis de la maestría internacional Eula-Getec UNLU, tiene por objetivo desarrollar un modelo de gestión para la vinculación tecnológica y transferencia de tecnología de los laboratorios e institutos de la Facultad de Ingeniería de la Universidad Nacional de Lomas de Zamora, aplicado al entramado socio productivo de la región conurbano sudoeste de la provincia de Buenos Aires. Por ello, a fin de identificar aquellas investigaciones, desarrollos e innovaciones que tengan potencial para realizar transferencia de tecnología, tanto sea de capacidades, como de resultados transferibles y a la vez permitan poner en valor a la organización académica, se está realizando una investigación de
+naturaleza predominantemente empírica, en el período estipulado para la realización del trabajo de tesis.
+El acceso a las fuentes primarias de datos, a través de entrevistas dialógicas a responsables de la institución posibilita no sólo, el relevamiento de los recursos y capacidades de los laboratorios e institutos de la FI de la UNLZ, sino también, conocer la estrategia integral de la organización en materia de investigación y desarrollo, vinculación tecnológica y transferencia de tecnología. Asimismo, a través de las fuentes secundarias de datos, que incluya un estudio de vigilancia tecnológica e inteligencia competitiva sobre los principales parques industriales de la zona, permite poder observar el entorno de empresas cercanas al predio de la UNLZ.
+Al mismo tiempo se realizará un relevamiento de datos e información actualizada de los contextos tecnológicos, políticos, económicos, financieros y socioculturales, que contribuyen también a analizar el marco general y generar un análisis prospectivo para luego conectarlos a los tres ejes principales del triángulo de Sábato y Botana: Universidad (su organización y la estrategia de la misma), el estado (gobierno en sus tres niveles) y la empresa (la estructura productiva de su entorno). Finalmente, ofrecer las conclusiones con una serie de propuestas, recomendaciones y líneas de futuro.</field>
+            </element>
+         </element>
+         <element name="fil">
+            <element name="none">
+               <field name="value">Fil: Cuesta, Leonardo Luis. Universidad Nacional de Luján. Maestría EULA-GTEC; Argentina.</field>
+            </element>
+         </element>
+      </element>
+      <element name="language">
+         <element name="iso">
+            <element name="none">
+               <field name="value">spa</field>
+            </element>
+         </element>
+      </element>
+      <element name="relation">
+         <element name="ispartof">
+            <element name="none">
+               <field name="value">11086/560157</field>
+            </element>
+         </element>
+      </element>
+      <element name="subject">
+         <element name="none">
+            <field name="value">Capacidades y resultados transferibles</field>
+            <field name="value">Vinculación tecnológica</field>
+            <field name="value">Transferencia de tecnología</field>
+         </element>
+      </element>
+      <element name="title">
+         <element name="none">
+            <field name="value">La vinculación y transferencia de tecnología de los laboratorios e institutos de investigación universitarios: el caso de la Facultad de Ingeniería de la Universidad Nacional de Lomas de Zamora</field>
+         </element>
+      </element>
+      <element name="type">
+         <element name="none">
+            <field name="value">conferenceObject</field>
+         </element>
+      </element>
+   </element>
+   <element name="bundles">
+      <element name="bundle">
+         <field name="name">ORIGINAL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">EJE 3-1.pdf</field>
+               <field name="originalName">EJE 3-1.pdf</field>
+               <field name="format">application/pdf</field>
+               <field name="size">529207</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/7f7528f9-4043-4ded-90e6-d27100157eef/download</field>
+               <field name="checksum">c8e9b2d8ac07eb05bc714e8d43343153</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">1</field>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">LICENSE</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">license.txt</field>
+               <field name="originalName">license.txt</field>
+               <field name="format">text/plain; charset=utf-8</field>
+               <field name="size">2067</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/69f8fb0e-56a6-46f7-ad23-209467776b5b/download</field>
+               <field name="checksum">eb07d85a87b80708c1cede9b4dac4ba6</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">2</field>
+            </element>
+         </element>
+      </element>
+      <element name="bundle">
+         <field name="name">THUMBNAIL</field>
+         <element name="bitstreams">
+            <element name="bitstream">
+               <field name="name">EJE 3-1.pdf.jpg</field>
+               <field name="originalName">EJE 3-1.pdf.jpg</field>
+               <field name="description">Generated Thumbnail</field>
+               <field name="format">image/jpeg</field>
+               <field name="size">5607</field>
+               <field name="url">https://rdu.unc.edu.ar/bitstreams/8d65a745-3f8b-41e2-adc0-9264845d42b7/download</field>
+               <field name="checksum">399d11d8ba92cf6f8800f903f6d5a4e7</field>
+               <field name="checksumAlgorithm">MD5</field>
+               <field name="sid">3</field>
+            </element>
+         </element>
+      </element>
+   </element>
+   <element name="others">
+      <field name="handle">11086/560501</field>
+      <field name="identifier">oai:rdu.unc.edu.ar:11086/560501</field>
+      <field name="lastModifyDate">2026-03-17 12:37:28.707</field>
+      <element name="access-status">
+         <field name="value">open.access</field>
+      </element>
+   </element>
+   <element name="repository">
+      <field name="url">https://rdu.unc.edu.ar</field>
+      <field name="name">RDU</field>
+      <field name="mail">afebre@unc.edu.ar</field>
+   </element>
+   <element name="license">
+      <field name="bin">TGljZW5jaWEgZGUgRGlzdHJpYnVjacOzbiBObyBFeGNsdXNpdmEKClBhcmEgcXVlIGVsIFJlcG9zaXRvcmlvIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIHB1ZWRhIHJlcHJvZHVjaXIgeQpjb211bmljYXIgcMO6YmxpY2FtZW50ZSBzdSBkb2N1bWVudG8gZXMgbmVjZXNhcmlvIGxhIGFjZXB0YWNpw7NuIGRlIGxvcyBzaWd1aWVudGVzCnTDqXJtaW5vcy4gUG9yIGZhdm9yLCBsZWEgbGFzIHNpZ3VpZW50ZXMgY29uZGljaW9uZXMgZGUgbGljZW5jaWE6CgoxLiBBY2VwdGFuZG8gZXN0YSBsaWNlbmNpYSwgdXN0ZWQgKGVsIGF1dG9yL2VzIG8gZWwgcHJvcGlldGFyaW8vcyBkZSBsb3MgZGVyZWNob3MgZGUgYXV0b3IpCmdhcmFudGl6YSBhIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIGVsIGRlcmVjaG8gbm8gZXhjbHVzaXZvIGRlCmFyY2hpdmFyLCByZXByb2R1Y2lyLCBjb252ZXJ0aXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pLCBjb211bmljYXIgeS9vIGRpc3RyaWJ1aXIgc3UKZG9jdW1lbnRvIG11bmRpYWxtZW50ZSBlbiBmb3JtYXRvIGVsZWN0csOzbmljby4KCjIuIFRhbWJpw6luIGVzdMOhIGRlIGFjdWVyZG8gY29uIHF1ZSBsYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBwdWVkYQpjb25zZXJ2YXIgbcOhcyBkZSB1bmEgY29waWEgZGUgZXN0ZSBkb2N1bWVudG8geSwgc2luIGFsdGVyYXIgc3UgY29udGVuaWRvLCBjb252ZXJ0aXJsbwphIGN1YWxxdWllciBmb3JtYXRvIGRlIGZpY2hlcm8sIG1lZGlvIG8gc29wb3J0ZSwgcGFyYSBwcm9ww7NzaXRvcyBkZSBzZWd1cmlkYWQsCnByZXNlcnZhY2nDs24geSBhY2Nlc28uCgozLiBEZWNsYXJhIHF1ZSBlbCBkb2N1bWVudG8gZXMgdW4gdHJhYmFqbyBvcmlnaW5hbCBzdXlvIHkvbyBxdWUgdGllbmUgZWwgZGVyZWNobyBwYXJhCm90b3JnYXIgbG9zIGRlcmVjaG9zIGNvbnRlbmlkb3MgZW4gZXN0YSBsaWNlbmNpYS4gVGFtYmnDqW4gZGVjbGFyYSBxdWUgc3UgZG9jdW1lbnRvCm5vIGluZnJpbmdlLCBlbiB0YW50byBlbiBjdWFudG8gbGUgc2VhIHBvc2libGUgc2FiZXIsIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBuaW5ndW5hCm90cmEgcGVyc29uYSBvIGVudGlkYWQuCgo0LiBTaSBlbCBkb2N1bWVudG8gY29udGllbmUgbWF0ZXJpYWxlcyBkZSBsb3MgY3VhbGVzIG5vIHRpZW5lIGxvcyBkZXJlY2hvcyBkZSBhdXRvciwKZGVjbGFyYSBxdWUgaGEgb2J0ZW5pZG8gZWwgcGVybWlzbyBzaW4gcmVzdHJpY2Npw7NuIGRlbCBwcm9waWV0YXJpbyBkZSBsb3MgZGVyZWNob3MgZGUKYXV0b3IgcGFyYSBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MKcG9yIGVzdGEgbGljZW5jaWEsIHkgcXVlIGVzZSBtYXRlcmlhbCBjdXlvcyBkZXJlY2hvcyBzb24gZGUgdGVyY2Vyb3MgZXN0w6EgY2xhcmFtZW50ZQppZGVudGlmaWNhZG8geSByZWNvbm9jaWRvIGVuIGVsIHRleHRvIG8gY29udGVuaWRvIGRlbCBkb2N1bWVudG8gZW50cmVnYWRvLgoKNS4gU2kgZWwgZG9jdW1lbnRvIHNlIGJhc2EgZW4gdW5hIG9icmEgcXVlIGhhIHNpZG8gcGF0cm9jaW5hZGEgbyBhcG95YWRhIHBvciB1bmEKYWdlbmNpYSB1IG9yZ2FuaXphY2nDs24gZGlmZXJlbnRlIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhLCBzZQpwcmVzdXBvbmUgcXVlIHNlIGhhIGN1bXBsaWRvIGNvbiBjdWFscXVpZXIgZGVyZWNobyBkZSByZXZpc2nDs24gdSBvdHJhcyBvYmxpZ2FjaW9uZXMKcmVxdWVyaWRhcyBwb3IgZXN0ZSBjb250cmF0byBvIGFjdWVyZG8uCgo2LiBMYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBpZGVudGlmaWNhcsOhIGNsYXJhbWVudGUgc3UvcyBub21icmUvcyBjb21vCmVsL2xvcyBhdXRvci9lcyBvIHByb3BpZXRhcmlvL3MgZGUgbG9zIGRlcmVjaG9zIGRlbCBkb2N1bWVudG8sIHkgbm8gaGFyw6EgbmluZ3VuYQphbHRlcmFjacOzbiBkZSBzdSBkb2N1bWVudG8gZGlmZXJlbnRlIGEgbGFzIHBlcm1pdGlkYXMgZW4gZXN0YSBsaWNlbmNpYS4K</field>
+   </element>
+</metadata></metadata></record></GetRecord></OAI-PMH>

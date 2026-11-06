@@ -1,0 +1,63 @@
+{
+  "escenario": {
+    "id": "1h",
+    "lugares": 50,
+    "repos": 500,
+    "items": 1250000,
+    "descripcion": "Línea base con hilos",
+    "modo": "hilos",
+    "db": false,
+    "duracion": 15.0,
+    "calentamiento": 5.0,
+    "tam_archivo": null
+  },
+  "semilla": 1,
+  "puerto": 8443,
+  "terminado_antes_de_tiempo": false,
+  "errores_por_tipo": {},
+  "servidor": {
+    "pedidos": 800,
+    "violaciones": 0,
+    "simultaneos": 0,
+    "intervalos_cortos": 0,
+    "ejemplos": [],
+    "cpu_servidor": [
+      12.7,
+      14.0,
+      13.3,
+      15.1,
+      14.3,
+      15.4,
+      9.1,
+      11.1,
+      13.2,
+      14.1,
+      15.4,
+      15.7,
+      16.0,
+      15.1,
+      15.1,
+      16.1,
+      14.1,
+      15.2,
+      15.8,
+      16.8,
+      4.6
+    ]
+  },
+  "versiones": {
+    "python": "3.12.11",
+    "requests": "2.34.2",
+    "plataforma": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "supuestos": {
+    "ancho_por_conexion_mb_s": 2.0,
+    "intervalo_s": 1.0
+  },
+  "bucle": {
+    "p50_ms": 3.76,
+    "p99_ms": 5.1,
+    "max_ms": 5.21,
+    "muestras": 135
+  }
+}

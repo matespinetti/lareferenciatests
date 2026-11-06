@@ -1,0 +1,85 @@
+{
+ "pedido": "20261106T121522500-00033",
+ "url": "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e0692763-dac6-4de6-94dd-22fd00c8a063/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:15:35 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "vary",
+   "Origin,Access-Control-Request-Method,Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Mon, 23 Feb 2026 23:02:06 GMT"
+  ],
+  [
+   "etag",
+   "\"581ad32e75b0c27ab795bdcb941fad6e\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Fri, 06 Nov 2026 13:15:35 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline;filename=\"=?UTF-8?Q?uba=5Fffyl=5Fp=5F2023=5F1=5Fedu=5Fproblemas_sociales_y_cu?= =?UTF-8?Q?lturales_de_la_educaci=C3=B3n_en_Am=C3=A9rica_Latina.pdf?=\""
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "3247464"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

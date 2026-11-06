@@ -1,0 +1,255 @@
+{
+  "dspaceUI" : "https://www.colibri.udelar.edu.uy",
+  "dspaceName" : "COLIBRI | Servicio Central de Informática - Universidad de la República",
+  "dspaceServer" : "https://www.colibri.udelar.edu.uy/server",
+  "dspaceVersion" : "DSpace 9.1",
+  "type" : "root",
+  "_links" : {
+    "actuator" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/actuator"
+    },
+    "authn" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/authn"
+    },
+    "authorizations" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/authz/authorizations"
+    },
+    "bitstreamformats" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/bitstreamformats"
+    },
+    "bitstreams" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/bitstreams"
+    },
+    "browses" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/discover/browses"
+    },
+    "bulkaccessconditionoptions" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/bulkaccessconditionoptions"
+    },
+    "bundles" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/bundles"
+    },
+    "captcha" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/captcha"
+    },
+    "claimedtasks" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/workflow/claimedtasks"
+    },
+    "claimedtasks-search" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/workflow/claimedtasks/search"
+    },
+    "colibri" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/colibri"
+    },
+    "collections" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/collections"
+    },
+    "communities" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/communities"
+    },
+    "contentreport" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/contentreport"
+    },
+    "correctiontypes" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/correctiontypes"
+    },
+    "discover" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/discover"
+    },
+    "dso" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/dso/find{?uuid}",
+      "templated" : true
+    },
+    "enqueueretry" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/ldn/messages/{id}/enqueueretry",
+      "templated" : true
+    },
+    "entitytypes" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/entitytypes"
+    },
+    "eperson-registration" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/eperson/registrations"
+    },
+    "epersons" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/eperson/epersons"
+    },
+    "externalsources" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/integration/externalsources"
+    },
+    "features" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/authz/features"
+    },
+    "feedbacks" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/tools/feedbacks"
+    },
+    "groups" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/eperson/groups"
+    },
+    "identifiers" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/pid/identifiers"
+    },
+    "itemfilters" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/itemfilters"
+    },
+    "itemrequests" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/tools/itemrequests"
+    },
+    "items" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/items"
+    },
+    "itemtemplates" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/itemtemplates"
+    },
+    "ldnservices" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/ldn/ldnservices"
+    },
+    "messages" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/ldn/messages"
+    },
+    "metadatafields" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/metadatafields"
+    },
+    "metadataschemas" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/metadataschemas"
+    },
+    "notifyrequests" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/ldn/notifyrequests"
+    },
+    "oidc" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/authn"
+    },
+    "pid" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/pid/find{?id}",
+      "templated" : true
+    },
+    "pooltasks" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/workflow/pooltasks"
+    },
+    "pooltasks-search" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/workflow/pooltasks/search"
+    },
+    "processes" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/system/processes"
+    },
+    "properties" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/properties"
+    },
+    "qualityassuranceevents" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/integration/qualityassuranceevents"
+    },
+    "qualityassurancesources" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/integration/qualityassurancesources"
+    },
+    "qualityassurancetopics" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/integration/qualityassurancetopics"
+    },
+    "registrations" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/eperson/registrations"
+    },
+    "relationships" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/relationships"
+    },
+    "relationshiptypes" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/relationshiptypes"
+    },
+    "resourcepolicies" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/authz/resourcepolicies"
+    },
+    "resourcepolicies-search" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/authz/resourcepolicies/search"
+    },
+    "scripts" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/system/scripts"
+    },
+    "self" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api"
+    },
+    "sites" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/sites"
+    },
+    "statistics" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/statistics"
+    },
+    "submissionaccessoptions" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/submissionaccessoptions"
+    },
+    "submissioncclicenseUrls" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/submissioncclicenseUrls"
+    },
+    "submissioncclicenseUrls-search" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/submissioncclicenseUrls/search"
+    },
+    "submissioncclicenses" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/submissioncclicenses"
+    },
+    "submissioncoarnotifyconfigs" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/submissioncoarnotifyconfigs"
+    },
+    "submissiondefinitions" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/submissiondefinitions"
+    },
+    "submissionforms" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/submissionforms"
+    },
+    "submissionsections" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/submissionsections"
+    },
+    "submissionuploads" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/submissionuploads"
+    },
+    "subscriptions" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/subscriptions"
+    },
+    "subscriptions-search" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/subscriptions/search"
+    },
+    "suggestions" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/integration/suggestions"
+    },
+    "suggestionsources" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/integration/suggestionsources"
+    },
+    "suggestiontargets" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/integration/suggestiontargets"
+    },
+    "supervisionorders" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/core/supervisionorders"
+    },
+    "systemwidealerts" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/system/systemwidealerts"
+    },
+    "usagereports" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/statistics/usagereports"
+    },
+    "versionhistories" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/versioning/versionhistories"
+    },
+    "versions" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/versioning/versions"
+    },
+    "vocabularies" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/submission/vocabularies"
+    },
+    "vocabularyEntryDetails" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/submission/vocabularyEntryDetails"
+    },
+    "vocabularyEntryDetails-search" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/submission/vocabularyEntryDetails/search"
+    },
+    "workflowactions" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/workflowactions"
+    },
+    "workflowdefinitions" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/workflowdefinitions"
+    },
+    "workflowitems" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/workflow/workflowitems"
+    },
+    "workflowsteps" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/config/workflowsteps"
+    },
+    "workspaceitems" : {
+      "href" : "https://www.colibri.udelar.edu.uy/server/api/submission/workspaceitems"
+    }
+  }
+}

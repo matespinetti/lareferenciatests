@@ -1,0 +1,301 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "6756796e-01fa-46ca-8d1d-33ec5c2e49d9",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/6756796e-01fa-46ca-8d1d-33ec5c2e49d9/item"
+        },
+        "bitstreams" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/6756796e-01fa-46ca-8d1d-33ec5c2e49d9/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/6756796e-01fa-46ca-8d1d-33ec5c2e49d9/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/6756796e-01fa-46ca-8d1d-33ec5c2e49d9"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "c2f8fa55-0b7a-4768-bb3c-8a24cea89507",
+              "uuid" : "c2f8fa55-0b7a-4768-bb3c-8a24cea89507",
+              "name" : "gabriel_farias_araujo_ensp_dout_2023.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.title" : [ {
+                  "value" : "gabriel_farias_araujo_ensp_dout_2023.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 8556059,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "e3376924827c42ca5ebb76dc219cf544"
+              },
+              "sequenceId" : 2,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/c2f8fa55-0b7a-4768-bb3c-8a24cea89507/content"
+                },
+                "bundle" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/c2f8fa55-0b7a-4768-bb3c-8a24cea89507/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/c2f8fa55-0b7a-4768-bb3c-8a24cea89507/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/c2f8fa55-0b7a-4768-bb3c-8a24cea89507/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/c2f8fa55-0b7a-4768-bb3c-8a24cea89507/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/c2f8fa55-0b7a-4768-bb3c-8a24cea89507"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://api.arca.fiocruz.br/api/core/bundles/6756796e-01fa-46ca-8d1d-33ec5c2e49d9/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "e3e55e56-e23c-464e-a1ec-db0ebdc14a18",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/e3e55e56-e23c-464e-a1ec-db0ebdc14a18/item"
+        },
+        "bitstreams" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/e3e55e56-e23c-464e-a1ec-db0ebdc14a18/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/e3e55e56-e23c-464e-a1ec-db0ebdc14a18/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/e3e55e56-e23c-464e-a1ec-db0ebdc14a18"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "2b37473a-d1f9-418a-8c31-aa62f1d1094a",
+              "uuid" : "2b37473a-d1f9-418a-8c31-aa62f1d1094a",
+              "name" : "gabriel_farias_araujo_ensp_dout_2023.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2025-12-03T01:25:00Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "gabriel_farias_araujo_ensp_dout_2023.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 102851,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "eff50053a5ff3a0bd8538eca962bc1ef"
+              },
+              "sequenceId" : 13,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/2b37473a-d1f9-418a-8c31-aa62f1d1094a/content"
+                },
+                "bundle" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/2b37473a-d1f9-418a-8c31-aa62f1d1094a/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/2b37473a-d1f9-418a-8c31-aa62f1d1094a/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/2b37473a-d1f9-418a-8c31-aa62f1d1094a/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/2b37473a-d1f9-418a-8c31-aa62f1d1094a/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/2b37473a-d1f9-418a-8c31-aa62f1d1094a"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://api.arca.fiocruz.br/api/core/bundles/e3e55e56-e23c-464e-a1ec-db0ebdc14a18/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "b3eb9480-2fd0-47a6-ad16-0aee1c33ff1d",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/b3eb9480-2fd0-47a6-ad16-0aee1c33ff1d/item"
+        },
+        "bitstreams" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/b3eb9480-2fd0-47a6-ad16-0aee1c33ff1d/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/b3eb9480-2fd0-47a6-ad16-0aee1c33ff1d/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://api.arca.fiocruz.br/api/core/bundles/b3eb9480-2fd0-47a6-ad16-0aee1c33ff1d"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "10c32f9b-c5cd-4346-90c1-0272399597fe",
+              "uuid" : "10c32f9b-c5cd-4346-90c1-0272399597fe",
+              "name" : "gabriel_farias_araujo_ensp_dout_2023.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Generated Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "gabriel_farias_araujo_ensp_dout_2023.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 22086,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "713d8c1bcdb918499fac7013fd7d73d3"
+              },
+              "sequenceId" : 14,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/10c32f9b-c5cd-4346-90c1-0272399597fe/content"
+                },
+                "bundle" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/10c32f9b-c5cd-4346-90c1-0272399597fe/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/10c32f9b-c5cd-4346-90c1-0272399597fe/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/10c32f9b-c5cd-4346-90c1-0272399597fe/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/10c32f9b-c5cd-4346-90c1-0272399597fe/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://api.arca.fiocruz.br/api/core/bitstreams/10c32f9b-c5cd-4346-90c1-0272399597fe"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://api.arca.fiocruz.br/api/core/bundles/b3eb9480-2fd0-47a6-ad16-0aee1c33ff1d/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/items/0000a35d-3526-462a-81e0-7214427c3bbf/bundles?embed=bitstreams"
+    }
+  }
+}

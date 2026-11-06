@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T164359880-00012",
+ "url": "https://repositorio.uca.edu.ar/server/api",
+ "codigo": 404,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.18.0"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:46:41 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "content-language",
+   "es"
+  ],
+  [
+   "x-oneagent-js-injection",
+   "true"
+  ],
+  [
+   "x-ruxit-js-agent",
+   "true"
+  ],
+  [
+   "server-timing",
+   "dtTrId;desc=\"521ba12dc3ba92a4cb0c06fedb4be1c3\", dtSInfo;desc=\"0\""
+  ],
+  [
+   "server-timing",
+   "dtRpid;desc=\"-481928305\""
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

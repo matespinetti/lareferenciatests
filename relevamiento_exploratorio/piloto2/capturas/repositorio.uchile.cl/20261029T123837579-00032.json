@@ -1,0 +1,53 @@
+{
+ "pedido": "20261029T123837579-00032",
+ "url": "https://repositorio.uchile.cl/bitstream/2250/215317/-1/s41699-024-00478-5.pdf",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:39:35 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ],
+  [
+   "set-cookie",
+   "techaro.lol-anubis-auth=; Path=/; Expires=Thu, 29 Oct 2026 12:38:35 GMT; Max-Age=0; Secure; SameSite=None"
+  ],
+  [
+   "set-cookie",
+   "techaro.lol-anubis-cookie-verification=01a187ac-4282-7dba-ad9e-9da94eab0df2; Path=/; Expires=Thu, 29 Oct 2026 13:09:35 GMT; Secure; SameSite=None"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "x-frame-options",
+   "sameorigin"
+  ],
+  [
+   "keep-alive",
+   "timeout=1, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "archivo"
+}

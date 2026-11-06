@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T17:00:50Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.uniandes.edu.co:1992/77603" metadataPrefix="ore">https://repositorio.uniandes.edu.co/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.uniandes.edu.co:1992/77603</identifier><datestamp>2026-01-15T09:00:17Z</datestamp><setSpec>com_1992_51875</setSpec><setSpec>com_1992_51815</setSpec><setSpec>com_1992_51807</setSpec><setSpec>col_1992_52264</setSpec></header><metadata><atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+   <atom:id>https://hdl.handle.net/1992/77603/ore.xml</atom:id>
+   <atom:link rel="alternate" href="https://hdl.handle.net/1992/77603"/>
+   <atom:link rel="http://www.openarchives.org/ore/terms/describes" href="https://hdl.handle.net/1992/77603/ore.xml"/>
+   <atom:link rel="self" type="application/atom+xml" href="https://hdl.handle.net/1992/77603/ore.xml#atom"/>
+   <atom:published>2026-01-14T13:11:16Z</atom:published>
+   <atom:updated>2026-01-14T13:11:16Z</atom:updated>
+   <atom:source>
+      <atom:generator>Repositorio institucional Séneca</atom:generator>
+   </atom:source>
+   <atom:title>Amadrilo: creación de marca y lookbook para moda materna inspirada en fauna en peligro de extinción de la Orinoquía Colombiana</atom:title>
+   <atom:author>
+      <atom:name>García Restrepo, Melissa</atom:name>
+   </atom:author>
+   <atom:category scheme="http://www.openarchives.org/ore/terms/" term="http://www.openarchives.org/ore/terms/Aggregation" label="Aggregation"/>
+   <atom:category scheme="http://www.openarchives.org/ore/atom/modified" term="2026-01-14T13:11:16Z"/>
+   <atom:category scheme="http://www.dspace.org/objectModel/" term="DSpaceItem" label="DSpace Item"/>
+   <atom:link rel="http://www.openarchives.org/ore/terms/aggregates" href="https://dspace-new-uniandes.metabuscador.org/bitstreams/82ebd3f0-78ab-48e2-938a-e25c7606738d/download" title="Amadrilo: Creación de Marca y Lookbook.pdf" type="application/pdf" length="2217245"/>
+   <atom:link rel="http://www.openarchives.org/ore/terms/aggregates" href="https://dspace-new-uniandes.metabuscador.org/bitstreams/97c4312d-2888-4955-a893-b8b2cf84ab36/download" title="Formato Autorización.pdf" type="application/pdf" length="215965"/>
+   <oreatom:triples>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://hdl.handle.net/1992/77603/ore.xml#atom">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceItem"/>
+         <dcterms:modified>2026-01-14T13:11:16Z</dcterms:modified>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://dspace-new-uniandes.metabuscador.org/bitstreams/82ebd3f0-78ab-48e2-938a-e25c7606738d/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>ORIGINAL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://dspace-new-uniandes.metabuscador.org/bitstreams/97c4312d-2888-4955-a893-b8b2cf84ab36/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>ORIGINAL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://dspace-new-uniandes.metabuscador.org/bitstreams/4f74ceef-9200-4e03-b719-52eca55dc001/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>LICENSE</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://dspace-new-uniandes.metabuscador.org/bitstreams/8403b28e-5e5d-41ad-b493-22fb3e06d828/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>CC-LICENSE</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://dspace-new-uniandes.metabuscador.org/bitstreams/5dbdd6c6-e57c-445f-8f0d-5690a2dac94a/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>TEXT</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://dspace-new-uniandes.metabuscador.org/bitstreams/92e6f80f-47c7-483c-a7a0-8bfaccdd8e20/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>TEXT</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://dspace-new-uniandes.metabuscador.org/bitstreams/d8773267-cc52-4c05-bd53-2f4f416a2f93/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>THUMBNAIL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://dspace-new-uniandes.metabuscador.org/bitstreams/aed76abb-74dd-4d4e-b016-ff07673227eb/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>THUMBNAIL</dcterms:description>
+      </rdf:Description>
+   </oreatom:triples>
+</atom:entry></metadata></record></GetRecord></OAI-PMH>

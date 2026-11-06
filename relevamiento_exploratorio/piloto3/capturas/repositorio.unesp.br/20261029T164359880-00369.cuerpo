@@ -1,0 +1,16 @@
+{
+  "_embedded" : {
+    "bundles" : [ ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 0,
+    "totalElements" : 0
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://repositorio.unesp.br/server/api/core/items/0000d9a4-98d1-4b4e-83df-5b8e5a466d25/bundles?embed=bitstreams"
+    }
+  }
+}

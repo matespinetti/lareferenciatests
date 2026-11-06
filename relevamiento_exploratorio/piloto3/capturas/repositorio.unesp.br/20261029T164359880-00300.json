@@ -1,0 +1,57 @@
+{
+ "pedido": "20261029T164359880-00300",
+ "url": "https://repositorio.unesp.br",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:52:33 GMT"
+  ],
+  [
+   "content-type",
+   "text/html; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "1381"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "ratelimit-policy",
+   "160;w=60"
+  ],
+  [
+   "ratelimit-limit",
+   "160"
+  ],
+  [
+   "ratelimit-remaining",
+   "159"
+  ],
+  [
+   "ratelimit-reset",
+   "60"
+  ],
+  [
+   "cache-control",
+   "no-cache, no-store"
+  ],
+  [
+   "etag",
+   "W/\"565-WtPnfIhYjLRLoadoEHshRmP4cKs\""
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

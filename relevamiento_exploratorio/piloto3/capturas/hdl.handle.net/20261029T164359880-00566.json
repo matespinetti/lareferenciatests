@@ -1,0 +1,61 @@
+{
+ "pedido": "20261029T164359880-00566",
+ "url": "https://hdl.handle.net/1992/20454",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 17:02:30 GMT"
+  ],
+  [
+   "content-type",
+   "text/html;charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "location",
+   "https://repositorio.uniandes.edu.co/handle/1992/20454"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:04:10 GMT"
+  ],
+  [
+   "cf-cache-status",
+   "DYNAMIC"
+  ],
+  [
+   "nel",
+   "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+  ],
+  [
+   "report-to",
+   "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yTKfZkn%2Fw7tSpnK7J%2Bw%2BSmezcomfcXyXN3YTWBnu5IUkF75i1MRrC3DM5wQruzlSPLvkQn%2BH5hR3SfgiNlhVf40M2fckabHncvioq3NeMauYNrZ58EIMKKRsBhbfOH2JYw%3D%3D\"}]}"
+  ],
+  [
+   "server",
+   "cloudflare"
+  ],
+  [
+   "cf-ray",
+   "a523bf901d2907e6-EZE"
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

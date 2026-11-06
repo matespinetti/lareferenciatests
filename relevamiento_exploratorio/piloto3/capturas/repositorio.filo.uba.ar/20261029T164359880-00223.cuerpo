@@ -1,0 +1,322 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "47373bbc-38b5-44db-809d-91cd2b747ebd",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/47373bbc-38b5-44db-809d-91cd2b747ebd/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/47373bbc-38b5-44db-809d-91cd2b747ebd/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/47373bbc-38b5-44db-809d-91cd2b747ebd/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/47373bbc-38b5-44db-809d-91cd2b747ebd"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "e0692763-dac6-4de6-94dd-22fd00c8a063",
+              "uuid" : "e0692763-dac6-4de6-94dd-22fd00c8a063",
+              "name" : "uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 3247464,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "581ad32e75b0c27ab795bdcb941fad6e"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e0692763-dac6-4de6-94dd-22fd00c8a063/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e0692763-dac6-4de6-94dd-22fd00c8a063/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e0692763-dac6-4de6-94dd-22fd00c8a063/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e0692763-dac6-4de6-94dd-22fd00c8a063/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e0692763-dac6-4de6-94dd-22fd00c8a063/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/e0692763-dac6-4de6-94dd-22fd00c8a063"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/47373bbc-38b5-44db-809d-91cd2b747ebd/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "62275a72-0417-4f70-8bba-11014cee52a3",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/62275a72-0417-4f70-8bba-11014cee52a3/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/62275a72-0417-4f70-8bba-11014cee52a3/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/62275a72-0417-4f70-8bba-11014cee52a3/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/62275a72-0417-4f70-8bba-11014cee52a3"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "8fb893ad-b663-4a20-8db3-3215c034ec90",
+              "uuid" : "8fb893ad-b663-4a20-8db3-3215c034ec90",
+              "name" : "uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2026-03-25T18:29:51Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 32735,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "457490654d2d83cd0efefff34093c02b"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8fb893ad-b663-4a20-8db3-3215c034ec90/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8fb893ad-b663-4a20-8db3-3215c034ec90/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8fb893ad-b663-4a20-8db3-3215c034ec90/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8fb893ad-b663-4a20-8db3-3215c034ec90/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8fb893ad-b663-4a20-8db3-3215c034ec90/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/8fb893ad-b663-4a20-8db3-3215c034ec90"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/62275a72-0417-4f70-8bba-11014cee52a3/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "64411701-93ab-4f25-908c-ddc7e4e15d5b",
+      "name" : "THUMBNAIL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "THUMBNAIL",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/64411701-93ab-4f25-908c-ddc7e4e15d5b/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/64411701-93ab-4f25-908c-ddc7e4e15d5b/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/64411701-93ab-4f25-908c-ddc7e4e15d5b/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/64411701-93ab-4f25-908c-ddc7e4e15d5b"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "2d939079-9111-4dd2-b0be-a479690d3c24",
+              "uuid" : "2d939079-9111-4dd2-b0be-a479690d3c24",
+              "name" : "uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf.jpg",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Generated Thumbnail",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.PDFBoxThumbnail on 2026-03-25T18:29:52Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "uba_ffyl_p_2023_1_edu_problemas sociales y culturales de la educación en América Latina.pdf.jpg",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "THUMBNAIL",
+              "sizeBytes" : 8817,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "47e9ad6202077ff88f89f572bc5c0902"
+              },
+              "sequenceId" : 5,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/2d939079-9111-4dd2-b0be-a479690d3c24/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/2d939079-9111-4dd2-b0be-a479690d3c24/bundle"
+                },
+                "accessStatus" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/2d939079-9111-4dd2-b0be-a479690d3c24/accessStatus"
+                },
+                "format" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/2d939079-9111-4dd2-b0be-a479690d3c24/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/2d939079-9111-4dd2-b0be-a479690d3c24/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositorio.filo.uba.ar/server/api/core/bitstreams/2d939079-9111-4dd2-b0be-a479690d3c24"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 1
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositorio.filo.uba.ar/server/api/core/bundles/64411701-93ab-4f25-908c-ddc7e4e15d5b/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/000157ca-5c68-4c50-95fa-ce5de5d4d473/bundles?embed=bitstreams"
+    }
+  }
+}

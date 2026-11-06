@@ -1,0 +1,677 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Repositório Institucional da UnB: A comunidade de Museologia no Brasil : aspectos da produção e dos canais de comunicação</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 6.4" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+ 
+		<link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+		<link rel="stylesheet" href="/static/css/bootstrap/font-awesome.min.css" type="text/css" /> 
+	
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.creator" content="Vilan Filho, Jayme Leiro" />
+<meta name="DC.creator" content="Café, Luísa Chaves" />
+<meta name="DCTERMS.dateAccepted" content="2018-04-01T18:58:36Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2018-04-01T18:58:36Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2013" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.bibliographicCitation" content="VILAN FILHO, Jayme Leiro; CAFÉ, Luísa Chaves. A comunidade de Museologia no Brasil: aspectos da produção e dos canais de comunicação. In: ENCONTRO NACIONAL DE PESQUISA EM CIÊNCIA DA INFORMAÇÃO, 14., 2013, Florianópolis. Anais... Florianópolis: ANCIB, 2013. Disponível em:&lt;http://enancib.sites.ufsc.br/index.php/enancib2013/XIVenancib/paper/viewFile/185/286&gt;. Acesso em: 22 nov. 2013." xml:lang="pt_BR" />
+<meta name="DC.identifier" content="http://repositorio.unb.br/handle/10482/31534" scheme="DCTERMS.URI" />
+<meta name="DC.description" content="Evento realizado pela Associação Nacional de Pesquisa em Ciência da Informação (ANCIB) e organizado pelo Programa de Pós-Graduação em Ciência da Informação da Universidade Federal de Santa Catarina  (PGCIN-/UFSC)." xml:lang="pt_BR" />
+<meta name="DCTERMS.abstract" content="Apresenta estudo da área de Comunicação Científica referente a alguns aspectos da produção de artigos científicos e dos canais de comunicação mais utilizados pela comunidade científica de Museologia no Brasil entre 2000 e 2011. O objetivo do trabalho é identificar características da produção e dos canais formais de comunicação da área de Museologia em relação a: níveis de produção e colaboração, gênero dos autores, tipo de documento, idioma e nacionalidade. Apresenta um estudo descritivo que utiliza como metodologia a bibliometria, incluindo a análise de produção e de citação. Conclui que no período estudado a produção de artigos apresentou crescimento irregular, aumentaram os índices de colaboração, houve prevalência de autorias femininas, os documentos mais citados foram os livros seguidos pelos artigos de periódicos e a maioria dos documentos citados foi publicada no Brasil em língua portuguesa." xml:lang="pt_BR" />
+<meta name="DC.language" content="Português" xml:lang="pt_BR" scheme="DCTERMS.RFC1766" />
+<meta name="DC.rights" content="Acesso Aberto" xml:lang="pt_BR" />
+<meta name="DC.title" content="A comunidade de Museologia no Brasil : aspectos da produção e dos canais de comunicação" xml:lang="pt_BR" />
+<meta name="DC.type" content="Trabalho apresentado em evento" xml:lang="pt_BR" />
+<meta name="DC.subject" content="Bibliometria" xml:lang="pt_BR" />
+<meta name="DC.subject" content="Produção científica" xml:lang="pt_BR" />
+<meta name="DC.subject" content="Canais de comunicação" xml:lang="pt_BR" />
+<meta name="DC.subject" content="Museologia" xml:lang="pt_BR" />
+<meta name="DC.rights" content="XIV ENCONTRO NACIONAL DE PESQUISA EM CIÊNCIA DA INFORMAÇÃO Declaração de Direito Autoral Autores que submetem a esta conferência concordam com os seguintes termos: a) Autores mantém os direitos autorais sobre o trabalho, permitindo à conferência colocá-lo sob uma licença Licença Creative Commons Attribution, que permite livremente a outros acessar, usar e compartilhar o trabalho com o crédito de autoria e apresentação inicial nesta conferência. b) Autores podem abrir mão dos termos da licença CC e definir contratos adicionais para a distribuição não-exclusiva e subseqüente publicação deste trabalho (ex.: publicar uma versão atualizada em um periódico, disponibilizar em repositório institucional, ou publicá-lo em livro), com o crédito de autoria e apresentação inicial nesta conferência. c) Além disso, autores são incentivados a publicar e compartilhar seus trabalhos online (ex.: em repositório institucional ou em sua página pessoal) a qualquer momento antes e depois da conferência. FONTE: http://enancib.sites.ufsc.br/index.php/enancib2013/XIVenancib/paper/viewFile/185/286. Acesso em: 22 nov. 2013." xml:lang="pt_BR" />
+<meta name="DC.description" content="Presents study of scientific communication area for some aspects of the production of scientific papers and the communication channels used by the scientific community of Museology in Brazil between 2000 and 2011. The objective of this work is to identify characteristics of the production and formal channels of communication in the area of Museology in relation to: levels of production and collaboration, gender of authors, document type, language and nationality. Use bibliometrics including analysis of production and citation. Concludes that in the period studied the production of articles presented irregular growth, increased levels of collaboration, there was prevalence of female authorship, most cited papers were the books followed by journal articles and most of the citations were published in Brazil in Portuguese." xml:lang="pt_BR" />
+<meta name="DC.description" content="Faculdade de Ciência da Informação (FCI)" />
+
+<meta name="citation_keywords" content="Trabalho apresentado em evento" />
+<meta name="citation_title" content="A comunidade de Museologia no Brasil : aspectos da produção e dos canais de comunicação" />
+<meta name="citation_language" content="Português" />
+<meta name="citation_author" content="Vilan Filho, Jayme Leiro" />
+<meta name="citation_author" content="Café, Luísa Chaves" />
+<meta name="citation_pdf_url" content="http://repositorio.unb.br/bitstream/10482/31534/1/EVENTO_AcomunidadedeMuseologianoBrasil.pdf" />
+<meta name="citation_date" content="2013" />
+<meta name="citation_abstract_html_url" content="http://repositorio.unb.br/handle/10482/31534" />
+
+
+        
+        <script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="/static/js/acessibilidade.js"> </script>
+		<script type="text/javascript" src="/static/js/jquery.jfontsize-1.0.min.js"> </script>
+		<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+        <script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+        <script type='text/javascript' src='/static/js/holder.js'></script>
+        <script type="text/javascript" src="/utils.js"></script>
+        <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+		<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+		<script type="text/javascript" src="/static/js/chartjs-1-0-1-beta2/Chart.js"></script>
+		
+
+
+    
+    
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-105302658-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    
+
+
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+
+	
+	
+
+
+<!-- Matomo -->
+	<script type="text/javascript">
+	   var _paq = window._paq || [];
+	   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	   _paq.push(['trackPageView']);
+	   _paq.push(['enableLinkTracking']);
+	   (function() {
+	     var u="https://estatisticas.bce.unb.br/";
+	      _paq.push(['setTrackerUrl', u+'matomo.php']);
+	      _paq.push(['setSiteId', '2']);
+	      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	    })();
+	</script>
+	<!-- End Matomo Code -->
+
+
+
+
+
+
+    </head>
+
+    
+    
+    <body class="undernavigation">
+
+
+
+<a class="sr-only" href="#content">Skip navigation</a>
+
+
+
+<header class="navbar navbar-inverse navbar-fixed-top">    
+
+
+
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+	</button> 
+	<a class="navbar-brand" href="http://unb.br/" target="_blank"><img height="25" src="/image/logo_unb1.png" aria="Universidade de Brasília" title="Universidade de Brasília" alt="Universidade de Brasília"/></a> 
+</div>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('body').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.list-group-item-heading').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.table').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.list-group-item').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.btn-default').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.btn-success').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+
+
+<script type="text/javascript">
+	(function ($) {
+		$().ready(function () {
+			 $('.btn-primary').jfontsize({
+			     btnMinusClasseId: '#jfontsize-minus',
+			     btnDefaultClasseId: '#jfontsize-default',
+			     btnPlusClasseId: '#jfontsize-plus',
+			     btnMinusMaxHits: 10,
+			     btnPlusMaxHits: 10,
+			     sizeChange: 1
+			 });
+		});
+	})(jQuery)
+</script>
+    
+<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+    <div id="barra-acessibilidade">
+		<ul class="nav navbar-nav">
+		    <li><a href="/" aria='Página inicial' title='Página inicial'> <span class="glyphicon glyphicon-home"></span>   </a></li>
+        	<li><a href="/community-list" title='Comunidades e Coleções' aria='Comunidades e Coleções'>Comunidades e Coleções</a></li>
+			
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" title='Navegar'>Navegar <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+               					
+					
+				
+					
+				      	<li><a href="/browse?type=author" title='Autor'>Autor</a></li>
+					
+				      	<li><a href="/browse?type=advisor" title='Orientador'>Orientador</a></li>
+					
+				      	<li><a href="/browse?type=advisorco" title='Coorientador'>Coorientador</a></li>
+					
+				      	<li><a href="/browse?type=title" title='Título'>Título</a></li>
+					
+				      	<li><a href="/browse?type=subject" title='Assunto'>Assunto</a></li>
+					
+				      	<li><a href="/browse?type=type" title='Tipo'>Tipo</a></li>
+					
+				      	<li><a href="/browse?type=dateissued" title='Data de publicação'>Data de publicação</a></li>
+					
+				      	<li><a href="/browse?type=unidade" title='Unidade Acadêmica'>Unidade Acadêmica</a></li>
+					
+				      	<li><a href="/browse?type=ppg" title='Programa de pós-graduação'>Programa de pós-graduação</a></li>
+					
+				    
+					
+
+				</ul>
+            </li>
+		  
+			<li class="dropdown" title="Documentos" aria="Documentos"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentos<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+				<li title="Portaria n.13 CAPES" alt="Portaria n.13 CAPES"><a href="#" onclick="window.open('/documentos/Portaria_N13_CAPES.pdf');">Portaria n.13 CAPES</a></li>
+                <li title="Resolução - Política de Informação do RIUnB" alt="Resolução - Política de Informação do RIUnB"><a href="#" onclick="window.open('/documentos/Resolucao_da_Politica_de_Informacao_do_RIUnB.pdf');">Resolução - Política de Informação do RIUnB</a></li>
+                <li title="Resolução VRT n.27-2014 - Alteração de Teses e Dissertações" alt="Resolução VRT n.27-2014 - Alteração de Teses e Dissertações"><a href="#" onclick="window.open('/documentos/Resolucao_VRT_N27-2014_-_Alteracao_de_Teses_e_Dissertacoes.pdf');">Resolução VRT n.27-2014 - Alteração de Teses e Dissertações</a></li>
+                <li title="Creative Commons" alt="Creative Commons"><a href="#" onclick="window.open('/documentos/Creative_Commons.pdf');">Creative Commons</a></li>
+                <li title="Termo de Autorização - Teses e Dissertações" alt="Termo de Autorização - Teses e Dissertações"><a href="#" onclick="window.open('/documentos/Termo_de_Autorizacao_-_Teses_e_Dissertacoes.pdf');">Termo de Autorização - Teses e Dissertações</a></li>
+                <li title="Termo de Autorização - Artigos e Outros" alt="Termo de Autorização - Artigos e Outros"><a href="#" onclick="window.open('/documentos/Termo_de_Autorizacao_-_Artigos_e_Outros.pdf');">Termo de Autorização - Artigos e Outros</a></li>
+                <li title="Modelo de Justificativa - Publicação Parcial" alt="Modelo de Justificativa - Publicação Parcial"><a href="#" onclick="window.open('/documentos/Modelo_de_Justificativa_-_Pedido_de_Parcial.pdf');">Modelo de Justificativa - Publicação Parcial</a></li>
+                <li title="Modelo de Justificativa - Extensão de Prazo" alt="Modelo de Justificativa - Extensão de Prazo"><a href="#" onclick="window.open('/documentos/Modelo_de_Justificativa_-_Extensao_de_Prazo.pdf');">Modelo de Justificativa - Extensão de Prazo</a></li>
+				
+				</ul>
+			</li>
+
+			<li class="nav navbar-nav navbar"></li>
+			<li title="Atalhos" aria="Atalhos" aria="Atalhos"><a href="/jspui/documentos/atalhos.jsp"><span class="glyphicon glyphicon-random"></span></a></li>
+			<li><a href="#" class="font" id="jfontsize-minus" title="Diminuir tamanho da fonte">A-</a></li>
+			<li><a href="#" class="font" id="jfontsize-default" title="Retornar para a fonte padrão">A</a></li>
+			<li><a href="#" class="font" id="jfontsize-plus" title="Aumentar tamanho da fonte" >A+</a></li>
+		</ul>
+	</div>
+	
+			<!--
+
+				
+					<div class="nav navbar-nav navbar-right">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+							<a title="Idiomas" href="#" class="dropdown-toggle" data-toggle="dropdown">Idiomas:<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+					
+						<li>
+						<a title='français' onclick="javascript:document.repost.locale.value='fr';
+						document.repost.submit();" href="http://repositorio.unb.br/handle/10482/31534?locale=fr">
+						français
+						</a>
+						</li>
+					
+						<li>
+						<a title='español' onclick="javascript:document.repost.locale.value='es';
+						document.repost.submit();" href="http://repositorio.unb.br/handle/10482/31534?locale=es">
+						español
+						</a>
+						</li>
+					
+						<li>
+						<a title='English' onclick="javascript:document.repost.locale.value='en';
+						document.repost.submit();" href="http://repositorio.unb.br/handle/10482/31534?locale=en">
+						English
+						</a>
+						</li>
+					
+						<li>
+						<a title='português' onclick="javascript:document.repost.locale.value='pt_BR';
+						document.repost.submit();" href="http://repositorio.unb.br/handle/10482/31534?locale=pt_BR">
+						português
+						</a>
+						</li>
+					
+							</ul>
+							</li>
+						</ul>
+					</div>
+				
+ 
+			-->
+			
+		<ul class="nav navbar-nav navbar-right">
+			<li>
+				<div style="padding-top:12px;padding-left:30px;">
+					<a onclick="javascript:document.repost.locale.value='pt_BR'; document.repost.submit();" href="?locale=pt_BR"><img height="25" src="/image/br.png" class="flag" alt="Português" title="Português"></a>
+					<a onclick="javascript:document.repost.locale.value='en'; document.repost.submit();" href="?locale=en"><img height="25" src="/image/us.png" class="flag" alt="English" title="English"></a>
+					<a onclick="javascript:document.repost.locale.value='es'; document.repost.submit();" href="?locale=es"><img height="25" src="/image/es.png" class="flag" alt="Español" title="Español"></a>
+					<a onclick="javascript:document.repost.locale.value='fr'; document.repost.submit();" href="?locale=fr"><img height="25" src="/image/fr.png" class="flag" alt="Français" title="Français"></a>
+				</div>
+			</li>
+		</ul>
+ 
+    <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+        <li class="dropdown" aria="Entrar" title="Entrar">
+        
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Entrar em: <b class="caret"></b></a>
+		             
+            <ul class="dropdown-menu">
+				<li title='Meu espaço'><a href="/mydspace">Meu espaço</a></li>
+				<li title='Receber atualizações por e-mail'><a href="/subscribe">Receber atualizações por e-mail</a></li>
+				<li title='Editar perfil'><a href="/profile">Editar perfil</a></li>
+		
+            </ul>
+					</li>
+        </ul>
+    </div>
+</nav>
+
+            </div>
+
+
+</header>
+
+
+
+<!--
+
+<main id="content" role="main">
+<div class="container banner">
+    <div class="row">
+        <div class="col-md-9 brand">
+            <h1>DSpace <small>JSPUI</small></h1>
+            <h4>O DSpace preserva e provê acesso fácil e aberto a todos os tipos de objetos digitais, incluindo: textos, imagens, vídeos e conjuntos de dados</h4> <a href="http://www.dspace.org"><button class="btn btn-primary">Saiba mais</button></a> 
+        </div>
+        <div class="col-md-3"><img class="pull-right" src="/image/logo.gif" alt="DSpace logo" />
+        </div>
+    </div>
+</div>
+<br/>
+
+-->
+                
+
+<div class="container">
+    
+
+
+
+  
+
+
+<div class="row">
+
+  <div title="Voltar" class="col-md-2">
+    <button class="btn btn-primary btn-block" id="btn-voltar" onclick="window.history.back();">
+       Voltar
+    </button>
+  </div>
+
+
+  <div class="col-md-10">
+    <ol class="breadcrumb btn-success" id="btn-navigation">
+    
+      <li title="Repositório Institucional da UnB"><a href="/">Repositório Institucional da UnB</a></li>
+    
+      <li title="Produção Acadêmica e Científica"><a href="/handle/10482/45725">Produção Acadêmica e Científica</a></li>
+    
+      <li title="Trabalhos apresentados em evento"><a href="/handle/10482/45732">Trabalhos apresentados em evento</a></li>
+    
+    </ol>
+  </div>
+
+</div>
+
+
+
+
+</div>                
+
+
+
+        
+<div class="container">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+
+                
+                <div title="Use este identificador para citar ou linkar para este item:" class="well">Use este identificador para citar ou linkar para este item:
+                <code title='http://repositorio.unb.br/handle/10482/31534'>http://repositorio.unb.br/handle/10482/31534</code></div>
+
+
+
+
+
+    
+ 
+    
+    <div class="panel panel-info"><div class="panel-heading">Arquivos associados a este item:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">Arquivo</th>
+<th id="t2" class="standard">Descrição</th>
+<th id="t3" class="standard">Tamanho</th><th id="t4" class="standard">Formato</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard break-all"><a target="_blank" href="/bitstream/10482/31534/1/EVENTO_AcomunidadedeMuseologianoBrasil.pdf">EVENTO_AcomunidadedeMuseologianoBrasil.pdf</a></td><td headers="t2" class="standard break-all"></td><td headers="t3" class="standard">758,37 kB</td><td headers="t4" class="standard">Adobe PDF</td><td class="standard" align="center"><a class="btn btn-primary" target="_blank" href="/bitstream/10482/31534/1/EVENTO_AcomunidadedeMuseologianoBrasil.pdf">Visualizar/Abrir</a></td></tr></table>
+</div>
+<table class="table itemDisplayTable">
+<tr><td class="metadataFieldLabel dc_title">Título:&nbsp;</td><td class="metadataFieldValue dc_title">A&#x20;comunidade&#x20;de&#x20;Museologia&#x20;no&#x20;Brasil&#x20;:&#x20;aspectos&#x20;da&#x20;produção&#x20;e&#x20;dos&#x20;canais&#x20;de&#x20;comunicação</td></tr>
+<tr><td class="metadataFieldLabel dc_contributor_author">Autor(es):&nbsp;</td><td class="metadataFieldValue dc_contributor_author"><a class="author"href="/browse?type=author&amp;value=Vilan+Filho%2C+Jayme+Leiro">Vilan&#x20;Filho,&#x20;Jayme&#x20;Leiro</a><br /><a class="author"href="/browse?type=author&amp;value=Caf%C3%A9%2C+Lu%C3%ADsa+Chaves">Café,&#x20;Luísa&#x20;Chaves</a></td></tr>
+<tr><td class="metadataFieldLabel dc_subject_keyword">Assunto:&nbsp;</td><td class="metadataFieldValue dc_subject_keyword"><a class="subject"href="/browse?type=subject&amp;value=Bibliometria">Bibliometria</a><br /><a class="subject"href="/browse?type=subject&amp;value=Produ%C3%A7%C3%A3o+cient%C3%ADfica">Produção&#x20;científica</a><br /><a class="subject"href="/browse?type=subject&amp;value=Canais+de+comunica%C3%A7%C3%A3o">Canais&#x20;de&#x20;comunicação</a><br /><a class="subject"href="/browse?type=subject&amp;value=Museologia">Museologia</a></td></tr>
+<tr><td class="metadataFieldLabel dc_date_issued">Data de publicação:&nbsp;</td><td class="metadataFieldValue dc_date_issued">2013</td></tr>
+<tr><td class="metadataFieldLabel dc_identifier_citation">Referência:&nbsp;</td><td class="metadataFieldValue dc_identifier_citation">VILAN&#x20;FILHO,&#x20;Jayme&#x20;Leiro;&#x20;CAFÉ,&#x20;Luísa&#x20;Chaves.&#x20;A&#x20;comunidade&#x20;de&#x20;Museologia&#x20;no&#x20;Brasil:&#x20;aspectos&#x20;da&#x20;produção&#x20;e&#x20;dos&#x20;canais&#x20;de&#x20;comunicação.&#x20;In:&#x20;ENCONTRO&#x20;NACIONAL&#x20;DE&#x20;PESQUISA&#x20;EM&#x20;CIÊNCIA&#x20;DA&#x20;INFORMAÇÃO,&#x20;14.,&#x20;2013,&#x20;Florianópolis.&#x20;Anais...&#x20;Florianópolis:&#x20;ANCIB,&#x20;2013.&#x20;Disponível&#x20;em:&lt;http:&#x2F;&#x2F;enancib.sites.ufsc.br&#x2F;index.php&#x2F;enancib2013&#x2F;XIVenancib&#x2F;paper&#x2F;viewFile&#x2F;185&#x2F;286&gt;.&#x20;Acesso&#x20;em:&#x20;22&#x20;nov.&#x20;2013.</td></tr>
+<tr><td class="metadataFieldLabel dc_description_abstract">Resumo:&nbsp;</td><td class="metadataFieldValue dc_description_abstract">Apresenta&#x20;estudo&#x20;da&#x20;área&#x20;de&#x20;Comunicação&#x20;Científica&#x20;referente&#x20;a&#x20;alguns&#x20;aspectos&#x20;da&#x20;produção&#x20;de&#x20;artigos&#x20;científicos&#x20;e&#x20;dos&#x20;canais&#x20;de&#x20;comunicação&#x20;mais&#x20;utilizados&#x20;pela&#x20;comunidade&#x20;científica&#x20;de&#x20;Museologia&#x20;no&#x20;Brasil&#x20;entre&#x20;2000&#x20;e&#x20;2011.&#x20;O&#x20;objetivo&#x20;do&#x20;trabalho&#x20;é&#x20;identificar&#x20;características&#x20;da&#x20;produção&#x20;e&#x20;dos&#x20;canais&#x20;formais&#x20;de&#x20;comunicação&#x20;da&#x20;área&#x20;de&#x20;Museologia&#x20;em&#x20;relação&#x20;a:&#x20;níveis&#x20;de&#x20;produção&#x20;e&#x20;colaboração,&#x20;gênero&#x20;dos&#x20;autores,&#x20;tipo&#x20;de&#x20;documento,&#x20;idioma&#x20;e&#x20;nacionalidade.&#x20;Apresenta&#x20;um&#x20;estudo&#x20;descritivo&#x20;que&#x20;utiliza&#x20;como&#x20;metodologia&#x20;a&#x20;bibliometria,&#x20;incluindo&#x20;a&#x20;análise&#x20;de&#x20;produção&#x20;e&#x20;de&#x20;citação.&#x20;Conclui&#x20;que&#x20;no&#x20;período&#x20;estudado&#x20;a&#x20;produção&#x20;de&#x20;artigos&#x20;apresentou&#x20;crescimento&#x20;irregular,&#x20;aumentaram&#x20;os&#x20;índices&#x20;de&#x20;colaboração,&#x20;houve&#x20;prevalência&#x20;de&#x20;autorias&#x20;femininas,&#x20;os&#x20;documentos&#x20;mais&#x20;citados&#x20;foram&#x20;os&#x20;livros&#x20;seguidos&#x20;pelos&#x20;artigos&#x20;de&#x20;periódicos&#x20;e&#x20;a&#x20;maioria&#x20;dos&#x20;documentos&#x20;citados&#x20;foi&#x20;publicada&#x20;no&#x20;Brasil&#x20;em&#x20;língua&#x20;portuguesa.</td></tr>
+<tr><td class="metadataFieldLabel dc_description_abstract1">Abstract:&nbsp;</td><td class="metadataFieldValue dc_description_abstract1">Presents&#x20;study&#x20;of&#x20;scientific&#x20;communication&#x20;area&#x20;for&#x20;some&#x20;aspects&#x20;of&#x20;the&#x20;production&#x20;of&#x20;scientific&#x20;papers&#x20;and&#x20;the&#x20;communication&#x20;channels&#x20;used&#x20;by&#x20;the&#x20;scientific&#x20;community&#x20;of&#x20;Museology&#x20;in&#x20;Brazil&#x20;between&#x20;2000&#x20;and&#x20;2011.&#x20;The&#x20;objective&#x20;of&#x20;this&#x20;work&#x20;is&#x20;to&#x20;identify&#x20;characteristics&#x20;of&#x20;the&#x20;production&#x20;and&#x20;formal&#x20;channels&#x20;of&#x20;communication&#x20;in&#x20;the&#x20;area&#x20;of&#x20;Museology&#x20;in&#x20;relation&#x20;to:&#x20;levels&#x20;of&#x20;production&#x20;and&#x20;collaboration,&#x20;gender&#x20;of&#x20;authors,&#x20;document&#x20;type,&#x20;language&#x20;and&#x20;nationality.&#x20;Use&#x20;bibliometrics&#x20;including&#x20;analysis&#x20;of&#x20;production&#x20;and&#x20;citation.&#x20;Concludes&#x20;that&#x20;in&#x20;the&#x20;period&#x20;studied&#x20;the&#x20;production&#x20;of&#x20;articles&#x20;presented&#x20;irregular&#x20;growth,&#x20;increased&#x20;levels&#x20;of&#x20;collaboration,&#x20;there&#x20;was&#x20;prevalence&#x20;of&#x20;female&#x20;authorship,&#x20;most&#x20;cited&#x20;papers&#x20;were&#x20;the&#x20;books&#x20;followed&#x20;by&#x20;journal&#x20;articles&#x20;and&#x20;most&#x20;of&#x20;the&#x20;citations&#x20;were&#x20;published&#x20;in&#x20;Brazil&#x20;in&#x20;Portuguese.</td></tr>
+<tr><td class="metadataFieldLabel dc_description_unidade">Unidade Acadêmica:&nbsp;</td><td class="metadataFieldValue dc_description_unidade"><a class="unidade"href="/browse?type=unidade&amp;value=Faculdade+de+Ci%C3%AAncia+da+Informa%C3%A7%C3%A3o+%28FCI%29">Faculdade&#x20;de&#x20;Ciência&#x20;da&#x20;Informação&#x20;(FCI)</a></td></tr>
+<tr><td class="metadataFieldLabel dc_description">Informações adicionais:&nbsp;</td><td class="metadataFieldValue dc_description">Evento&#x20;realizado&#x20;pela&#x20;Associação&#x20;Nacional&#x20;de&#x20;Pesquisa&#x20;em&#x20;Ciência&#x20;da&#x20;Informação&#x20;(ANCIB)&#x20;e&#x20;organizado&#x20;pelo&#x20;Programa&#x20;de&#x20;Pós-Graduação&#x20;em&#x20;Ciência&#x20;da&#x20;Informação&#x20;da&#x20;Universidade&#x20;Federal&#x20;de&#x20;Santa&#x20;Catarina&#x20;&#x20;(PGCIN-&#x2F;UFSC).</td></tr>
+<tr><td class="metadataFieldLabel dc_rights_license">Licença:&nbsp;</td><td class="metadataFieldValue dc_rights_license">XIV&#x20;ENCONTRO&#x20;NACIONAL&#x20;DE&#x20;PESQUISA&#x20;EM&#x20;CIÊNCIA&#x20;DA&#x20;INFORMAÇÃO&#x20;Declaração&#x20;de&#x20;Direito&#x20;Autoral&#x20;Autores&#x20;que&#x20;submetem&#x20;a&#x20;esta&#x20;conferência&#x20;concordam&#x20;com&#x20;os&#x20;seguintes&#x20;termos:&#x20;a)&#x20;Autores&#x20;mantém&#x20;os&#x20;direitos&#x20;autorais&#x20;sobre&#x20;o&#x20;trabalho,&#x20;permitindo&#x20;à&#x20;conferência&#x20;colocá-lo&#x20;sob&#x20;uma&#x20;licença&#x20;Licença&#x20;Creative&#x20;Commons&#x20;Attribution,&#x20;que&#x20;permite&#x20;livremente&#x20;a&#x20;outros&#x20;acessar,&#x20;usar&#x20;e&#x20;compartilhar&#x20;o&#x20;trabalho&#x20;com&#x20;o&#x20;crédito&#x20;de&#x20;autoria&#x20;e&#x20;apresentação&#x20;inicial&#x20;nesta&#x20;conferência.&#x20;b)&#x20;Autores&#x20;podem&#x20;abrir&#x20;mão&#x20;dos&#x20;termos&#x20;da&#x20;licença&#x20;CC&#x20;e&#x20;definir&#x20;contratos&#x20;adicionais&#x20;para&#x20;a&#x20;distribuição&#x20;não-exclusiva&#x20;e&#x20;subseqüente&#x20;publicação&#x20;deste&#x20;trabalho&#x20;(ex.:&#x20;publicar&#x20;uma&#x20;versão&#x20;atualizada&#x20;em&#x20;um&#x20;periódico,&#x20;disponibilizar&#x20;em&#x20;repositório&#x20;institucional,&#x20;ou&#x20;publicá-lo&#x20;em&#x20;livro),&#x20;com&#x20;o&#x20;crédito&#x20;de&#x20;autoria&#x20;e&#x20;apresentação&#x20;inicial&#x20;nesta&#x20;conferência.&#x20;c)&#x20;Além&#x20;disso,&#x20;autores&#x20;são&#x20;incentivados&#x20;a&#x20;publicar&#x20;e&#x20;compartilhar&#x20;seus&#x20;trabalhos&#x20;online&#x20;(ex.:&#x20;em&#x20;repositório&#x20;institucional&#x20;ou&#x20;em&#x20;sua&#x20;página&#x20;pessoal)&#x20;a&#x20;qualquer&#x20;momento&#x20;antes&#x20;e&#x20;depois&#x20;da&#x20;conferência.&#x20;FONTE:&#x20;http:&#x2F;&#x2F;enancib.sites.ufsc.br&#x2F;index.php&#x2F;enancib2013&#x2F;XIVenancib&#x2F;paper&#x2F;viewFile&#x2F;185&#x2F;286.&#x20;Acesso&#x20;em:&#x20;22&#x20;nov.&#x20;2013.</td></tr>
+<tr><td class="metadataFieldLabel">Aparece nas coleções:</td><td class="metadataFieldValue"><a href="/handle/10482/45732">Trabalhos apresentados em evento</a><br/></td></tr>
+</table><br/>
+<center><object data="http://repositorio.unb.br/bitstream/10482/31534/1/EVENTO_AcomunidadedeMuseologianoBrasil.pdf" type="application/pdf" width="100%" height="400px"></object></center>
+
+
+    
+    <div class="container row">
+
+
+    <a title="Mostrar registro completo do item" class="btn btn-default" href="/handle/10482/31534?mode=full">
+        Mostrar registro completo do item
+    </a>
+
+    <a title="Visualizar estatísticas" class="statisticsLink  btn btn-primary" href="/handle/10482/31534/statistics">Visualizar estatísticas</a>
+
+
+    <h1> </h1> 
+	
+	
+
+ 
+
+
+
+
+    
+
+</div>
+<br/>
+    
+
+<br/>
+    
+
+    <p title="Os itens no repositório estão protegidos por copyright, com todos os direitos reservados, salvo quando é indicado o contrário." class="submitFormHelp alert alert-info">Os itens no repositório estão protegidos por copyright, com todos os direitos reservados, salvo quando é indicado o contrário.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+
+				<footer class="navbar navbar-inverse navbar-bottom">
+					
+					<div id="rodapefull">
+						<div id="rodapeleft" class="pull-left"> 
+						
+							<p title="Universidade de Brasília - Biblioteca Central - Coordenadoria de Gestão da Informação Digital - GID - (61) 3107-2683 - repositorio@unb.br" class="text-muted">
+								Universidade de Brasília - Biblioteca Central
+								<br/>Coordenadoria de Gestão da Informação Digital - GID 
+								<br/>(61) 3107-2683 
+								<br/>repositorio@unb.br
+							</p>
+						
+						
+						
+						</div>
+						
+						<div id="rodapecenter"> 
+						
+							<div style="float:left; margin-right:10px; margin-top:10px;">
+								<a href="http://unb.br/" target="_blank"><img height="50" alt="Universidade de Brasília" title="Universidade de Brasília" src="/image/logo_unb_vertical.png" /></a>
+							</div>
+							<div style="float:left; margin-right:10px; margin-top:10px;">
+								<a href="http://ibict.br/" target="_blank"><img height="40" src="/image/logo_ibict.png" alt="Instituto Brasileiro de Informação em Ciência e Tecnologia" title="Instituto Brasileiro de Informação em Ciência e Tecnologia"/></a>
+                            </div>
+							<div style="float:left; margin-right:10px; margin-top:10px;">
+                                <a href="http://www.dspace.org/" target="_blank"><img height="50" src="/image/logo_dspace1.png" alt="DSpace" title="DSpace"/></a>
+                            </div>
+							<div style="float:left; margin-top:15px;">
+                               <a href="https://creativecommons.org/" target="_blank"><img height="30" src="/image/logo_cc.png" alt="Creative Commons" title="Creative Commons"/></a>
+                            </div>
+						
+						</div>
+						
+						<div id="rodaperight" > 
+						
+							<div id="footer_feedback" class="pull-right" style="margin-top:16px">
+                                <p class="text-muted">
+								
+									<ul class="nav navbar-nav">
+										<li title="Fale conosco"><a href="/feedback">Fale conosco</a></li>
+									</ul>	
+									<ul class="nav navbar-nav">
+										<li title="Sobre">
+                                                                           <a href="https://www.bce.unb.br/bibliotecas-digitais/repositorio/" target="_blank">Sobre</a></li>
+									</ul>
+
+								</p>
+                            </div>
+	
+						</div>
+					
+					</div>
+					
+				</footer>
+
+    </body>
+</html>
+

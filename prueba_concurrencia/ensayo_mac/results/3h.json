@@ -1,0 +1,69 @@
+{
+  "escenario": {
+    "id": "3h",
+    "lugares": 1000,
+    "repos": 10000,
+    "items": 25000000,
+    "descripcion": "Margen con hilos",
+    "modo": "hilos",
+    "db": false,
+    "duracion": 15.0,
+    "calentamiento": 5.0,
+    "tam_archivo": null
+  },
+  "semilla": 1,
+  "puerto": 8443,
+  "terminado_antes_de_tiempo": false,
+  "errores_por_tipo": {
+    "ConnectionError": 1237
+  },
+  "servidor": {
+    "pedidos": 11474,
+    "violaciones": 0,
+    "simultaneos": 0,
+    "intervalos_cortos": 0,
+    "ejemplos": [],
+    "cpu_servidor": [
+      61.2,
+      76.6,
+      79.0,
+      75.3,
+      71.4,
+      75.8,
+      67.6,
+      72.1,
+      66.9,
+      21.2,
+      15.3,
+      42.5,
+      56.0,
+      28.2,
+      7.4,
+      7.1,
+      22.8,
+      55.4,
+      54.7,
+      51.7,
+      6.7,
+      2.2,
+      0.7,
+      0.3,
+      0.5
+    ]
+  },
+  "versiones": {
+    "python": "3.12.11",
+    "requests": "2.34.2",
+    "plataforma": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "supuestos": {
+    "ancho_por_conexion_mb_s": 2.0,
+    "intervalo_s": 1.0
+  },
+  "bucle": {
+    "p50_ms": 8.42,
+    "p99_ms": 287.8,
+    "max_ms": 518.03,
+    "muestras": 113
+  }
+}

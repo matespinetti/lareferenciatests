@@ -1,0 +1,300 @@
+{
+  "id" : "000d88f5-8cd2-4dba-82ff-9328b26769c9",
+  "uuid" : "000d88f5-8cd2-4dba-82ff-9328b26769c9",
+  "name" : "Enseñanza de las ciencias sociales a partir de la música, a la luz de la pedagogía planetaria",
+  "handle" : "10495/13726",
+  "metadata" : {
+    "dc.contributor.advisor" : [ {
+      "value" : "Soares Sito, Luanda Rejane",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Soares Sito, Luanda Rejane",
+      "language" : null,
+      "authority" : "virtual::26419",
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.contributor.author" : [ {
+      "value" : "Rodríguez Santamaría, Yirlean Carlos",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2020-03-31T20:49:47Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2020-03-31T20:49:47Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2018",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "RESUMEN: El presente trabajo de grado tuvo como finalidad abordar contenidos del área de Ciencias Sociales utilizando la música, a la luz de algunas de las competencias interculturales estructuradas en el seno\r\nde la Pedagogía Planetaria. Para ello, y partiendo de las experiencias personales de quien escribe, frente a la relación Educación-Música, se demostraron las potencialidades que esta última ofrece a la hora de emprender procesos de Enseñanza, a la vez que los aportes de la Pedagogía Planetaria dotan de sentido y coherencia intentos como el presente de abandonar el Grafocentrismo, y, aprovechar formas, maneras y lenguajes alternativos que dinamizan y motivan dicha Enseñanza de las Ciencias Sociales a partir de una investigación que se desarrolló por medio del método etnográfico. Por tanto, en el marco de la presente propuesta, la materialización de las ideas anteriormente citadas se dio en el diseño y la ejecución de un Ciclo Didáctico que abordó contenidos de la Geografía económica de Colombia, en compañía de los estudiantes del grupo\r\nNoveno 23, de la Institución Educativa INEM José Félix de Restrepo, de la ciudad de Medellín. En esta institución, la Música, enlazada a varias de las competencias interculturales, hizo parte importante del proceso de enseñanza y aprendizaje. Entre las recomendaciones, destacamos la importancia de seguir transitando por los caminos de la enseñanza, buscando maneras de despertar en los estudiantes interés, pasión, alegría, amor frente al conocimiento y a la interculturalidad, frente a la diversidad por medio de otros lenguajes como la música, la pintura, el cine, la literatura.",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.degreelevel" : [ {
+      "value" : "Pregrado",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.degreename" : [ {
+      "value" : "Licenciado en Educación Básica  con Énfasis en Ciencias Sociales",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.format.extent" : [ {
+      "value" : "150",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.format.mimetype" : [ {
+      "value" : "application/pdf",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "https://hdl.handle.net/10495/13726",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "spa",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.publisher" : [ {
+      "value" : "Universidad de Antioquia",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.publisher.faculty" : [ {
+      "value" : "Facultad de Educación. Carrera de Licenciatura en Educación Básica con Énfasis en Ciencias Sociales",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.publisher.place" : [ {
+      "value" : "Medellín, Colombia",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.accessrights" : [ {
+      "value" : "Atribución-NoComercial-SinDerivadas 2.5 Colombia",
+      "language" : "*",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "info:eu-repo/semantics/openAccess",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.rights.coar" : [ {
+      "value" : "http://purl.org/coar/access_right/c_abf2",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.uri" : [ {
+      "value" : "http://creativecommons.org/licenses/by-nc-nd/2.5/co/",
+      "language" : "*",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.subject.lemb" : [ {
+      "value" : "Competencia en Educación",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Competency based education",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.subject.proposal" : [ {
+      "value" : "Interculturalidad",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.unesco" : [ {
+      "value" : "Enseñanza de las ciencias sociales",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Social science education",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.subject.unescouri" : [ {
+      "value" : "http://vocabularies.unesco.org/thesaurus/concept64",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "Enseñanza de las ciencias sociales a partir de la música, a la luz de la pedagogía planetaria",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Trabajo de grado - Pregrado",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.coar" : [ {
+      "value" : "http://purl.org/coar/resource_type/c_7a1f",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.coarversion" : [ {
+      "value" : "http://purl.org/coar/version/c_b1a7d7d4d402bcce",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.driver" : [ {
+      "value" : "info:eu-repo/semantics/bachelorThesis",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.redcol" : [ {
+      "value" : "https://purl.org/redcol/resource_type/TP",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.version" : [ {
+      "value" : "info:eu-repo/semantics/draft",
+      "language" : "spa",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dspace.entity.type" : [ {
+      "value" : "Publication",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "relation.isDirectorOfPublication" : [ {
+      "value" : "28b2739e-ecf2-43a1-8e0e-94fc7a307428",
+      "language" : null,
+      "authority" : "virtual::26419",
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "relation.isDirectorOfPublication.latestForDiscovery" : [ {
+      "value" : "28b2739e-ecf2-43a1-8e0e-94fc7a307428",
+      "language" : null,
+      "authority" : "virtual::26419",
+      "confidence" : -1,
+      "place" : -1
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-10-06T15:22:56.346+00:00",
+  "entityType" : "Publication",
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000d88f5-8cd2-4dba-82ff-9328b26769c9/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000d88f5-8cd2-4dba-82ff-9328b26769c9/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000d88f5-8cd2-4dba-82ff-9328b26769c9/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000d88f5-8cd2-4dba-82ff-9328b26769c9/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000d88f5-8cd2-4dba-82ff-9328b26769c9/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000d88f5-8cd2-4dba-82ff-9328b26769c9/relationships"
+    },
+    "version" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000d88f5-8cd2-4dba-82ff-9328b26769c9/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000d88f5-8cd2-4dba-82ff-9328b26769c9/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000d88f5-8cd2-4dba-82ff-9328b26769c9/thumbnail"
+    },
+    "self" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items/000d88f5-8cd2-4dba-82ff-9328b26769c9"
+    }
+  }
+}

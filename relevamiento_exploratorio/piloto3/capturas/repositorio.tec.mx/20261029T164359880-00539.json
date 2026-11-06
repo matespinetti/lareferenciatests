@@ -1,0 +1,29 @@
+{
+ "pedido": "20261029T164359880-00539",
+ "url": "https://repositorio.tec.mx/robots.txt",
+ "codigo": 403,
+ "encabezados": [
+  [
+   "server",
+   "awselb/2.0"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 17:00:14 GMT"
+  ],
+  [
+   "content-type",
+   "text/html"
+  ],
+  [
+   "content-length",
+   "118"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

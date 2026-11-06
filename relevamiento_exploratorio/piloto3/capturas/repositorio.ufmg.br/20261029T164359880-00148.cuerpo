@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:48:27Z</responseDate><request verb="Identify">https://repositorio.ufmg.br/server/oai/request</request><Identify><repositoryName>"Repositório Institucional da UFMG"</repositoryName><baseURL>https://repositorio.ufmg.br/server/oai/request</baseURL><protocolVersion>2.0</protocolVersion><adminEmail>naoresponder@ufmg.br</adminEmail><earliestDatestamp>2019-08-09T11:54:54Z</earliestDatestamp><deletedRecord>transient</deletedRecord><granularity>YYYY-MM-DDThh:mm:ssZ</granularity><description><oai-identifier xmlns="http://www.openarchives.org/OAI/2.0/oai-identifier" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai-identifier http://www.openarchives.org/OAI/2.0/oai-identifier.xsd">
+<scheme>oai</scheme>
+<repositoryIdentifier>repositorio.ufmg.br</repositoryIdentifier>
+<delimiter>:</delimiter>
+<sampleIdentifier>oai:repositorio.ufmg.br:1843/1234</sampleIdentifier>
+</oai-identifier>
+</description></Identify></OAI-PMH>

@@ -1,0 +1,258 @@
+{
+  "dspaceUI" : "https://bibliotecadigital.udea.edu.co",
+  "dspaceName" : "Repositorio Institucional de la Universidad de Antioquia",
+  "dspaceServer" : "https://bibliotecadigital.udea.edu.co/server",
+  "dspaceVersion" : "DSpace 8.1",
+  "type" : "root",
+  "_links" : {
+    "actuator" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/actuator"
+    },
+    "authn" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/authn"
+    },
+    "authorizations" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/authz/authorizations"
+    },
+    "bitstreamformats" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreamformats"
+    },
+    "bitstreams" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams"
+    },
+    "browses" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/discover/browses"
+    },
+    "bulkaccessconditionoptions" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/bulkaccessconditionoptions"
+    },
+    "bundles" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/bundles"
+    },
+    "claimedtasks" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/workflow/claimedtasks"
+    },
+    "claimedtasks-search" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/workflow/claimedtasks/search"
+    },
+    "collections" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/collections"
+    },
+    "communities" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/communities"
+    },
+    "contentreport" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/contentreport"
+    },
+    "correctiontypes" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/correctiontypes"
+    },
+    "discover" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/discover"
+    },
+    "dso" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/dso/find{?uuid}",
+      "templated" : true
+    },
+    "enqueueretry" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/ldn/messages/{id}/enqueueretry",
+      "templated" : true
+    },
+    "entitytypes" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/entitytypes"
+    },
+    "eperson-registration" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/eperson/registrations"
+    },
+    "epersons" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/eperson/epersons"
+    },
+    "externalsources" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/integration/externalsources"
+    },
+    "features" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/authz/features"
+    },
+    "feedbacks" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/tools/feedbacks"
+    },
+    "groups" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/eperson/groups"
+    },
+    "identifiers" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/pid/identifiers"
+    },
+    "itemfilters" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/itemfilters"
+    },
+    "itemrequests" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/tools/itemrequests"
+    },
+    "items" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/items"
+    },
+    "itemtemplates" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/itemtemplates"
+    },
+    "ldnservices" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/ldn/ldnservices"
+    },
+    "messages" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/ldn/messages"
+    },
+    "metadatafields" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/metadatafields"
+    },
+    "metadataschemas" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/metadataschemas"
+    },
+    "notifyrequests" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/ldn/notifyrequests"
+    },
+    "oidc" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/authn"
+    },
+    "orcidhistories" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/eperson/orcidhistories"
+    },
+    "orcidqueues" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/eperson/orcidqueues"
+    },
+    "pid" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/pid/find{?id}",
+      "templated" : true
+    },
+    "pooltasks" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/workflow/pooltasks"
+    },
+    "pooltasks-search" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/workflow/pooltasks/search"
+    },
+    "processes" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/system/processes"
+    },
+    "profiles" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/eperson/profiles"
+    },
+    "properties" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/properties"
+    },
+    "qualityassuranceevents" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/integration/qualityassuranceevents"
+    },
+    "qualityassurancesources" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/integration/qualityassurancesources"
+    },
+    "qualityassurancetopics" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/integration/qualityassurancetopics"
+    },
+    "registrations" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/eperson/registrations"
+    },
+    "relationships" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/relationships"
+    },
+    "relationshiptypes" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/relationshiptypes"
+    },
+    "resourcepolicies" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/authz/resourcepolicies"
+    },
+    "resourcepolicies-search" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/authz/resourcepolicies/search"
+    },
+    "scripts" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/system/scripts"
+    },
+    "self" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api"
+    },
+    "sites" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/sites"
+    },
+    "statistics" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/statistics"
+    },
+    "submissionaccessoptions" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/submissionaccessoptions"
+    },
+    "submissioncclicenseUrls" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/submissioncclicenseUrls"
+    },
+    "submissioncclicenseUrls-search" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/submissioncclicenseUrls/search"
+    },
+    "submissioncclicenses" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/submissioncclicenses"
+    },
+    "submissioncoarnotifyconfigs" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/submissioncoarnotifyconfigs"
+    },
+    "submissiondefinitions" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/submissiondefinitions"
+    },
+    "submissionforms" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/submissionforms"
+    },
+    "submissionsections" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/submissionsections"
+    },
+    "submissionuploads" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/submissionuploads"
+    },
+    "subscriptions" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/subscriptions"
+    },
+    "subscriptions-search" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/subscriptions/search"
+    },
+    "suggestions" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/integration/suggestions"
+    },
+    "suggestionsources" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/integration/suggestionsources"
+    },
+    "suggestiontargets" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/integration/suggestiontargets"
+    },
+    "supervisionorders" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/core/supervisionorders"
+    },
+    "systemwidealerts" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/system/systemwidealerts"
+    },
+    "usagereports" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/statistics/usagereports"
+    },
+    "versionhistories" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/versioning/versionhistories"
+    },
+    "versions" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/versioning/versions"
+    },
+    "vocabularies" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/submission/vocabularies"
+    },
+    "vocabularyEntryDetails" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/submission/vocabularyEntryDetails"
+    },
+    "vocabularyEntryDetails-search" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/submission/vocabularyEntryDetails/search"
+    },
+    "workflowactions" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/workflowactions"
+    },
+    "workflowdefinitions" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/workflowdefinitions"
+    },
+    "workflowitems" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/workflow/workflowitems"
+    },
+    "workflowsteps" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/config/workflowsteps"
+    },
+    "workspaceitems" : {
+      "href" : "https://bibliotecadigital.udea.edu.co/server/api/submission/workspaceitems"
+    }
+  }
+}

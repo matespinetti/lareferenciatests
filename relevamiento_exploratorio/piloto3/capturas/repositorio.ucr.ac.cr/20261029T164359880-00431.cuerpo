@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:56:48Z</responseDate><request verb="GetRecord" identifier="oai:kerwa.ucr.ac.cr:10669/89077" metadataPrefix="mets">https://repositorio.ucr.ac.cr/server/oai/request</request><GetRecord><record><header><identifier>oai:kerwa.ucr.ac.cr:10669/89077</identifier><datestamp>2026-10-23T19:37:39Z</datestamp><setSpec>com_10669_77938</setSpec><setSpec>col_10669_77470</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_10669-89077" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:10669/89077">
+   <metsHdr CREATEDATE="2026-10-29T16:56:48Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Kérwá - Repositorio Universidad de Costa Rica</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_10669_89077">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2017-02-16T17:31:29Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2017-02-16T17:31:29Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2016</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="none" />
+               <mods:abstract>El objetivo de este estudio fue analizar a partir del instrumento CLASS (Classroom Assessment Scoring System) la calidad de las interacciones pedag?gicas que promueven docentes de educaci?n preescolar en el ciclo de transici?n.  Es un estudio exploratorio-descriptivo de la calidad de las interacciones pedag?gicas que favorecen docentes de educaci?n preescolar en grupos de ni?os y ni?as con edades entre 5 y 7 a?os, fue realizado por investigadoras que imparten esta carrera en las tres universidades p?blicas: Universidad de Costa Rica (UCR), Universidad Nacional (UNA) y Universidad Estatal a Distancia (UNED).&#xd;
+La muestra estuvo compuesta por 45 docentes graduadas de dichas universidades, quienes laboraban como titulares en los grupos denominados transici?n o preparatoria del nivel preescolar, en centros educativos p?blicos o privados, ubicados en la Gran ?rea Metropolitana.&#xd;
+El proceso investigativo se realiz? a partir del sistema de observaci?n Classroom Assesment Scoring System (CLASS) desarrollado por el Centro Nacional de Desarrollo Temprano y Aprendizaje de la Universidad de Virginia.  Adicionalmente, se utiliz? una escala adaptada a partir del instrumento integrado en el ?Manual de autoevaluaci?n docente y estrategias de apoyo para su labor en el aula? (INEINA_CECC, 2010). Algunas de las conclusiones de la investigaci?n fueron las  siguientes:&#xd;
+En el dominio apoyo emocional, en la mayor?a de los casos, se observaron relaciones c?lidas y de apoyo, con diferentes manifestaciones de afecto positivo.  Tambi?n a nivel gerencial la comunicaci?n fue positiva, prevaleciendo el respeto entre docentes y estudiantes y entre ellos. Solo en uno de los casos se observ?  constantemente irritabilidad y enojo, as? como amenazas por parte de la docente con tono sarc?stico. En cuanto a la sensibilidad de las docentes, la mayor?a de quienes fueron observadas estaban atentas a brindar ayuda al estudiantado que lo requer?a, demostrando capacidad para dar respuesta y abordar los problemas, de tal manera que este se mostraba c?modo de buscar apoyo.  Solo la docente que ten?a estilo de control punitivo generaba cierto temor en el estudiantado.  En relaci?n con la atenci?n de las perspectivas del estudiante, la mayor?a de docentes propiciaron la expresi?n y sobre todo en las instituciones p?blicas les permitieron moverse y ubicarse durante las actividades con libertad.  No obstante, a nivel general tuvieron ciertas restricciones en lo que respecta a la flexibilidad para incorporar las ideas e intereses del estudiantado y apoyar la autonom?a y el liderazgo.&#xd;
+De acuerdo con los dominios establecidos por CLASS, en el grupo de docentes observadas las interacciones pedag?gicas que mejor se establecen son las de soporte emocional, en segundo lugar se ubican las de organizaci?n de la clase,&#xd;
+Las interacciones relacionadas con el soporte instruccional son las que resultan m?s limitadas, lo cual viene a reafirmar las observaciones se?aladas en los informes del Estado de la Educaci?n en cuanto a la necesidad de fortalecer la mediaci?n pedag?gica para favorecer el desarrollo del pensamiento de los ni?os y ni?as preescolares.ABSTRACT:The objective of this study was to analyze based on the CLASS instrument (Classroom Assessment Scoring System) the quality of the pedagogical interactions promoted by preschool teachers in the transition cycle. It is an exploratory-descriptive study similar to the quality of the pedagogical interactions that preschool teachers favor in groups of boys and girls between the ages of 5 and 7 years; the study was carried out by investigators who teach Preschool education in the three public universities: University of Costa Rica (UCR), National University (UNA) and State University at a Distance (UNED).&#xd;
+The sample was composed of 45 graduate teachers from said universities who work as head teachers in the groups called transition or preparatory level for preschool in public and private schools located in the Great Metropolitan Area.&#xd;
+The research process was conducted from the observing system called Classroom Assessment Scoring System (CLASS) which was developed by the National Center for Early Development and Learning of the University of Virginia.  In addition, a scale adapted from the instrument included in the "Manual for Teacher Self-Assessment and In-class Support Strategies" (INEINA_CECC, 2010). Some of the conclusions of the research were the following:&#xd;
+In the emotional support domain, in most cases, warm supportive relationships were observed with different positive manifestations of affection. Also, at a management level, communication was positive, while prevailing respect between teachers and students and among them. In only one of the cases, there was constant irritability and anger, as well as threats by the teacher in a sarcastic tone. As for teacher sensitivity, most of those who were observed were attentive to provide assistance to students who required it, demonstrating the capacity to respond and address problems, so that students were comfortable to seek support. Only the teacher who had punitive control style generated some fear in the students. In relation to attention to student's perspectives, the majority of teachers encouraged expression and especially in public institutions where they were allowed to move place themselves during activities freely. However, overall they had certain restrictions with regards to flexibility to incorporate student's ideas and interests, and to support autonomy and leadership.&#xd;
+According to the domains established by CLASS, as observed in the group of teachers, the pedagogical interactions that are best used are those of emotional support and in second place class organization,&#xd;
+The interactions related to instructional support are those that are the most limited, which confirms the indicated observations in the State of Education reports regarding the need to strengthen pedagogical mediation in order to promote the development preschoolers thinking skills.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066" />
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">acceso abierto</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>EDUCACI?N PREESCOLAR</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>CALIDAD DE LA EDUCACI?N</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>APRENDIZAJE</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>AMBIENTE DE LA CLASE</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>FORMACI?N DE DOCENTES</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>PRESCHOOL EDUCATION</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>QUALITY OF EDUCATION</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>LEARNING</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>CLASSROOM ENVIRONMENT</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>TEACHER TRAINING</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Calidad de las interacciones pedag?gicas que promueven docentes de educaci?n preescolar en grupos de ni?os y ni?as de edades entre 5 y 7 a?os en centros p?blicos y privados del Gran ?rea Metropolitana: estudio interuniversitario a partir del instrumento CLASS (Classroom Assesment Scoring System). Quality of the Pedagogical Interactions Promoted by Pre-school Teachers of Groups of Children between 5 and 7 years old in Public and Private Centers from the Great Metropolitan Area: Inter-University Study based on CLASS Instrument (Classroom Assessment Scoring System).</mods:title>
+               </mods:titleInfo>
+               <mods:genre>informe</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_10669_89077" />
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

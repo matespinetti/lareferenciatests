@@ -1,0 +1,49 @@
+{
+ "pedido": "20261029T121018255-00013",
+ "url": "https://repositorio.uchile.cl/rest/status",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Thu, 29 Oct 2026 12:10:40 GMT"
+  ],
+  [
+   "server",
+   "Apache"
+  ],
+  [
+   "cache-control",
+   "private"
+  ],
+  [
+   "expires",
+   "Thu, 01 Jan 1970 00:00:00 GMT"
+  ],
+  [
+   "set-cookie",
+   "JSESSIONID=FDFD3694BF663925A76E6B8CC34963E9; Path=/rest; Secure; HttpOnly"
+  ],
+  [
+   "content-type",
+   "application/json"
+  ],
+  [
+   "x-frame-options",
+   "sameorigin"
+  ],
+  [
+   "keep-alive",
+   "timeout=1, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

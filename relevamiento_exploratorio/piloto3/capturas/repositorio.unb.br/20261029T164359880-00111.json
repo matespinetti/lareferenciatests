@@ -1,0 +1,21 @@
+{
+ "pedido": "20261029T164359880-00111",
+ "url": "http://repositorio.unb.br/bitstream/10482/15590/1/2014_MilenaVieiraCoelho.pdf",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "cache-control",
+   "no-cache"
+  ],
+  [
+   "content-length",
+   "0"
+  ],
+  [
+   "location",
+   "https://repositorio.unb.br/bitstream/10482/15590/1/2014_MilenaVieiraCoelho.pdf"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}

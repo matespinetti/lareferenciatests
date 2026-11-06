@@ -1,0 +1,212 @@
+{
+  "id" : "000157ca-5c68-4c50-95fa-ce5de5d4d473",
+  "uuid" : "000157ca-5c68-4c50-95fa-ce5de5d4d473",
+  "name" : "Problemas sociales y culturales de la educación en América Latina",
+  "handle" : "filodigital/17251",
+  "metadata" : {
+    "dc.creator" : [ {
+      "value" : "Kantarovich, Gabriela",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2023-12-15T22:41:24Z",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2023-12-15T22:41:24Z",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2023",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Primer Cuatrimestre 2023",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Programa N° 10020",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Aprobado Resolución N° 2847/2022",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dc.format" : [ {
+      "value" : "application/pdf",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.other" : [ {
+      "value" : "2603",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://repositorio.filo.uba.ar/handle/filodigital/17251",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "spa",
+      "language" : "",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.publisher" : [ {
+      "value" : "Universidad de Buenos Aires. Facultad de Filosofía y Letras. Departamento de Ciencias de la Educación",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.accessRights" : [ {
+      "value" : "info:eu-repo/semantics/openAccess",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.uri" : [ {
+      "value" : "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject" : [ {
+      "value" : "PROGRAMAS",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "MATERIA",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "PRIMER CUATRIMESTRE",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "CIENCIAS DE LA EDUCACIÓN",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    } ],
+    "dc.title" : [ {
+      "value" : "Problemas sociales y culturales de la educación en América Latina",
+      "language" : "es_AR",
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.openaire" : [ {
+      "value" : "info:eu-repo/semantics/other",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.snrd" : [ {
+      "value" : "info:ar-repo/semantics/otro",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.version" : [ {
+      "value" : "info:eu-repo/semantics/acceptedVersion",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dspace.entity.type" : [ {
+      "value" : "Publication",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "ubaffyl.tipodocumento" : [ {
+      "value" : "Programa",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-10-27T17:36:36.169715Z",
+  "entityType" : "Publication",
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/000157ca-5c68-4c50-95fa-ce5de5d4d473/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/000157ca-5c68-4c50-95fa-ce5de5d4d473/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/000157ca-5c68-4c50-95fa-ce5de5d4d473/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/000157ca-5c68-4c50-95fa-ce5de5d4d473/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/000157ca-5c68-4c50-95fa-ce5de5d4d473/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/000157ca-5c68-4c50-95fa-ce5de5d4d473/relationships"
+    },
+    "version" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/000157ca-5c68-4c50-95fa-ce5de5d4d473/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/000157ca-5c68-4c50-95fa-ce5de5d4d473/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/000157ca-5c68-4c50-95fa-ce5de5d4d473/thumbnail"
+    },
+    "submitter" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/000157ca-5c68-4c50-95fa-ce5de5d4d473/submitter"
+    },
+    "self" : {
+      "href" : "https://repositorio.filo.uba.ar/server/api/core/items/000157ca-5c68-4c50-95fa-ce5de5d4d473"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:56:43Z</responseDate><request verb="GetRecord" identifier="oai:kerwa.ucr.ac.cr:10669/89077" metadataPrefix="ore">https://repositorio.ucr.ac.cr/server/oai/request</request><GetRecord><record><header><identifier>oai:kerwa.ucr.ac.cr:10669/89077</identifier><datestamp>2026-10-23T19:37:39Z</datestamp><setSpec>com_10669_77938</setSpec><setSpec>col_10669_77470</setSpec></header><metadata><atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+   <atom:id>/ore.xml</atom:id>
+   <atom:link rel="alternate" href="" />
+   <atom:link rel="http://www.openarchives.org/ore/terms/describes" href="/ore.xml" />
+   <atom:link rel="self" type="application/atom+xml" href="/ore.xml#atom" />
+   <atom:published>2017-02-16T17:31:29Z</atom:published>
+   <atom:updated>2017-02-16T17:31:29Z</atom:updated>
+   <atom:source>
+      <atom:generator>Kérwá - Repositorio Universidad de Costa Rica</atom:generator>
+   </atom:source>
+   <atom:title>Calidad de las interacciones pedag?gicas que promueven docentes de educaci?n preescolar en grupos de ni?os y ni?as de edades entre 5 y 7 a?os en centros p?blicos y privados del Gran ?rea Metropolitana: estudio interuniversitario a partir del instrumento CLASS (Classroom Assesment Scoring System).</atom:title>
+   <atom:title>Quality of the Pedagogical Interactions Promoted by Pre-school Teachers of Groups of Children between 5 and 7 years old in Public and Private Centers from the Great Metropolitan Area: Inter-University Study based on CLASS Instrument (Classroom Assessment Scoring System).</atom:title>
+   <atom:category scheme="http://www.openarchives.org/ore/terms/" term="http://www.openarchives.org/ore/terms/Aggregation" label="Aggregation" />
+   <atom:category scheme="http://www.openarchives.org/ore/atom/modified" term="2017-02-16T17:31:29Z" />
+   <atom:category scheme="http://www.dspace.org/objectModel/" term="DSpaceItem" label="DSpace Item" />
+   <oreatom:triples>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="/ore.xml#atom">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceItem" />
+         <dcterms:modified>2017-02-16T17:31:29Z</dcterms:modified>
+      </rdf:Description>
+   </oreatom:triples>
+</atom:entry>
+</metadata></record></GetRecord></OAI-PMH>

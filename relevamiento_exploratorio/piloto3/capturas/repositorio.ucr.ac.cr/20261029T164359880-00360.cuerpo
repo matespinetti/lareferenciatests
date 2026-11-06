@@ -1,0 +1,271 @@
+{
+  "dspaceUI" : "https://kerwa.ucr.ac.cr",
+  "dspaceName" : "Kérwá - Repositorio Universidad de Costa Rica",
+  "dspaceServer" : "https://repositorio.ucr.ac.cr/server",
+  "dspaceVersion" : "DSpace 10.1",
+  "type" : "root",
+  "uniqueType" : "root.root",
+  "_links" : {
+    "actuator" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/actuator"
+    },
+    "auditevents" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/system/auditevents"
+    },
+    "authn" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/authn"
+    },
+    "authorizations" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/authz/authorizations"
+    },
+    "bitstreamformats" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreamformats"
+    },
+    "bitstreams" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/bitstreams"
+    },
+    "browses" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/discover/browses"
+    },
+    "bulkaccessconditionoptions" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/bulkaccessconditionoptions"
+    },
+    "bundles" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/bundles"
+    },
+    "captcha" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/captcha"
+    },
+    "claimedtasks" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/workflow/claimedtasks"
+    },
+    "claimedtasks-search" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/workflow/claimedtasks/search"
+    },
+    "collections" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/collections"
+    },
+    "communities" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/communities"
+    },
+    "contentreport" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/contentreport"
+    },
+    "correctiontypes" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/correctiontypes"
+    },
+    "discover" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/discover"
+    },
+    "dso" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/dso/find{?uuid}",
+      "templated" : true
+    },
+    "duplicates" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/submission/duplicates"
+    },
+    "duplicates-search" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/submission/duplicates/search"
+    },
+    "edititemmodes" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/edititemmodes"
+    },
+    "edititems" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/edititems"
+    },
+    "enqueueretry" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/ldn/messages/{id}/enqueueretry",
+      "templated" : true
+    },
+    "entitytypes" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/entitytypes"
+    },
+    "eperson-registration" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/eperson/registrations"
+    },
+    "epersons" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/eperson/epersons"
+    },
+    "externalsources" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/integration/externalsources"
+    },
+    "features" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/authz/features"
+    },
+    "feedbacks" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/tools/feedbacks"
+    },
+    "groups" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/eperson/groups"
+    },
+    "identifiers" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/pid/identifiers"
+    },
+    "itemfilters" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/itemfilters"
+    },
+    "itemrequests" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/tools/itemrequests"
+    },
+    "items" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/items"
+    },
+    "itemtemplates" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/itemtemplates"
+    },
+    "ldnservices" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/ldn/ldnservices"
+    },
+    "messages" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/ldn/messages"
+    },
+    "metadatafields" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/metadatafields"
+    },
+    "metadataschemas" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/metadataschemas"
+    },
+    "notifyrequests" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/ldn/notifyrequests"
+    },
+    "oidc" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/authn"
+    },
+    "pid" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/pid/find{?id}",
+      "templated" : true
+    },
+    "pooltasks" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/workflow/pooltasks"
+    },
+    "pooltasks-search" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/workflow/pooltasks/search"
+    },
+    "processes" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/system/processes"
+    },
+    "properties" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/properties"
+    },
+    "qualityassuranceevents" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/integration/qualityassuranceevents"
+    },
+    "qualityassurancesources" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/integration/qualityassurancesources"
+    },
+    "qualityassurancetopics" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/integration/qualityassurancetopics"
+    },
+    "registrations" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/eperson/registrations"
+    },
+    "relationships" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/relationships"
+    },
+    "relationshiptypes" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/relationshiptypes"
+    },
+    "resourcepolicies" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/authz/resourcepolicies"
+    },
+    "resourcepolicies-search" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/authz/resourcepolicies/search"
+    },
+    "scripts" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/system/scripts"
+    },
+    "securitysettings" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/securitysettings"
+    },
+    "self" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api"
+    },
+    "sites" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/sites"
+    },
+    "statistics" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/statistics"
+    },
+    "submissionaccessoptions" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/submissionaccessoptions"
+    },
+    "submissioncclicenseUrls" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/submissioncclicenseUrls"
+    },
+    "submissioncclicenseUrls-search" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/submissioncclicenseUrls/search"
+    },
+    "submissioncclicenses" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/submissioncclicenses"
+    },
+    "submissioncoarnotifyconfigs" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/submissioncoarnotifyconfigs"
+    },
+    "submissiondefinitions" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/submissiondefinitions"
+    },
+    "submissionforms" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/submissionforms"
+    },
+    "submissionsections" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/submissionsections"
+    },
+    "submissionuploads" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/submissionuploads"
+    },
+    "subscriptions" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/subscriptions"
+    },
+    "subscriptions-search" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/subscriptions/search"
+    },
+    "suggestions" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/integration/suggestions"
+    },
+    "suggestionsources" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/integration/suggestionsources"
+    },
+    "suggestiontargets" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/integration/suggestiontargets"
+    },
+    "supervisionorders" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/core/supervisionorders"
+    },
+    "systemwidealerts" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/system/systemwidealerts"
+    },
+    "usagereports" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/statistics/usagereports"
+    },
+    "versionhistories" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/versioning/versionhistories"
+    },
+    "versions" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/versioning/versions"
+    },
+    "vocabularies" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/submission/vocabularies"
+    },
+    "vocabularyEntryDetails" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/submission/vocabularyEntryDetails"
+    },
+    "vocabularyEntryDetails-search" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/submission/vocabularyEntryDetails/search"
+    },
+    "workflowactions" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/workflowactions"
+    },
+    "workflowdefinitions" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/workflowdefinitions"
+    },
+    "workflowitems" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/workflow/workflowitems"
+    },
+    "workflowsteps" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/config/workflowsteps"
+    },
+    "workspaceitems" : {
+      "href" : "https://repositorio.ucr.ac.cr/server/api/submission/workspaceitems"
+    }
+  }
+}

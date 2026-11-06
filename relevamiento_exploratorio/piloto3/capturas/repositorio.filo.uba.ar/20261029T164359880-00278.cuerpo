@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:51:29.076148310Z</responseDate><request verb="GetRecord" identifier="oai:repositorio.filo.uba.ar:filodigital/12756" metadataPrefix="mets">https://repositorio.filo.uba.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:repositorio.filo.uba.ar:filodigital/12756</identifier><datestamp>2026-06-25T21:48:21Z</datestamp><setSpec>com_filodigital_11912</setSpec><setSpec>com_filodigital_3535</setSpec><setSpec>com_filodigital_13</setSpec><setSpec>com_filodigital_7</setSpec><setSpec>com_filodigital_5</setSpec><setSpec>com_filodigital_151</setSpec><setSpec>col_filodigital_11913</setSpec><setSpec>col_filodigital_3533</setSpec><setSpec>snrd</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_filodigital-12756" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:filodigital/12756">
+   <metsHdr CREATEDATE="2026-10-29T16:51:29Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace de la Facultad de Filosofia y Letras</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_filodigital_12756">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2021-10-14T19:44:02Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2021-10-14T19:44:02Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2020</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="other">1431</mods:identifier>
+               <mods:identifier type="uri">http://repositorio.filo.uba.ar/handle/filodigital/12756</mods:identifier>
+               <mods:abstract>2ºCuatrimestreMateriaPrograma N°0179 (año 1985); 11030 (año 2016)Aprobado Resolución Nº D 732/20</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">info:eu-repo/semantics/openAccess https://creativecommons.org/licenses/by-nc-nd/4.0/</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>PROGRAMAS</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>MATERIA</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>SEGUNDO CUATRIMESTRE</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>CIENCIAS DE LA EDUCACIÓN</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Educación a distancia (plan año 1985) / Educación a distancia y virtual (plan año 2016)</mods:title>
+               </mods:titleInfo>
+               <mods:genre>info:eu-repo/semantics/other info:eu-repo/semantics/acceptedVersion</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_filodigital_12756_1">
+      <techMD ID="TECH_O_filodigital_12756_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://repositorio.filo.uba.ar/bitstreams/8ad16c60-e4d1-4c4c-81cb-a475e5ff710e/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>37870d06b342960951d52e277f3f70bd</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>381098</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_filodigital_12756_4">
+      <techMD ID="TECH_T_filodigital_12756_4">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://repositorio.filo.uba.ar/bitstreams/c6266828-a3ab-46cd-84ca-2c463fef071c/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>97958680784e7579b5431d9a2b5881c1</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>16694</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>uba_ffyl_p_2020_edu_educación a distancia y Virtual.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_filodigital_12756_1" MIMETYPE="application/pdf" SEQ="1" SIZE="381098" CHECKSUM="37870d06b342960951d52e277f3f70bd" CHECKSUMTYPE="MD5" ADMID="FO_filodigital_12756_1" GROUPID="GROUP_BITSTREAM_filodigital_12756_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://repositorio.filo.uba.ar/bitstreams/8ad16c60-e4d1-4c4c-81cb-a475e5ff710e/download" />
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_filodigital_12756_4" MIMETYPE="text/plain" SEQ="4" SIZE="16694" CHECKSUM="97958680784e7579b5431d9a2b5881c1" CHECKSUMTYPE="MD5" ADMID="FT_filodigital_12756_4" GROUPID="GROUP_BITSTREAM_filodigital_12756_4">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://repositorio.filo.uba.ar/bitstreams/c6266828-a3ab-46cd-84ca-2c463fef071c/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_filodigital_12756">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_filodigital_12756_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record></GetRecord></OAI-PMH>

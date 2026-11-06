@@ -1,0 +1,16 @@
+{
+  "_embedded" : {
+    "bundles" : [ ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://api.arca.fiocruz.br/api/core/items/000342b6-6462-4f22-b9e0-2274c2089ba6/bundles?embed=bitstreams"
+    }
+  }
+}

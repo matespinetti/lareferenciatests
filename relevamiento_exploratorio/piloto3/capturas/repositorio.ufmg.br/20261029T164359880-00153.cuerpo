@@ -1,0 +1,249 @@
+{
+  "dspaceUI" : "https://repositorio.ufmg.br/",
+  "dspaceName" : "\"Repositório Institucional da UFMG\"",
+  "dspaceServer" : "https://repositorio.ufmg.br/server",
+  "dspaceVersion" : "DSpace 8.2",
+  "type" : "root",
+  "_links" : {
+    "actuator" : {
+      "href" : "https://repositorio.ufmg.br/server/actuator"
+    },
+    "authn" : {
+      "href" : "https://repositorio.ufmg.br/server/api/authn"
+    },
+    "authorizations" : {
+      "href" : "https://repositorio.ufmg.br/server/api/authz/authorizations"
+    },
+    "bitstreamformats" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/bitstreamformats"
+    },
+    "bitstreams" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/bitstreams"
+    },
+    "browses" : {
+      "href" : "https://repositorio.ufmg.br/server/api/discover/browses"
+    },
+    "bulkaccessconditionoptions" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/bulkaccessconditionoptions"
+    },
+    "bundles" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/bundles"
+    },
+    "claimedtasks" : {
+      "href" : "https://repositorio.ufmg.br/server/api/workflow/claimedtasks"
+    },
+    "claimedtasks-search" : {
+      "href" : "https://repositorio.ufmg.br/server/api/workflow/claimedtasks/search"
+    },
+    "collections" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/collections"
+    },
+    "communities" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/communities"
+    },
+    "contentreport" : {
+      "href" : "https://repositorio.ufmg.br/server/api/contentreport"
+    },
+    "correctiontypes" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/correctiontypes"
+    },
+    "discover" : {
+      "href" : "https://repositorio.ufmg.br/server/api/discover"
+    },
+    "dso" : {
+      "href" : "https://repositorio.ufmg.br/server/api/dso/find{?uuid}",
+      "templated" : true
+    },
+    "enqueueretry" : {
+      "href" : "https://repositorio.ufmg.br/server/api/ldn/messages/{id}/enqueueretry",
+      "templated" : true
+    },
+    "entitytypes" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/entitytypes"
+    },
+    "eperson-registration" : {
+      "href" : "https://repositorio.ufmg.br/server/api/eperson/registrations"
+    },
+    "epersons" : {
+      "href" : "https://repositorio.ufmg.br/server/api/eperson/epersons"
+    },
+    "externalsources" : {
+      "href" : "https://repositorio.ufmg.br/server/api/integration/externalsources"
+    },
+    "features" : {
+      "href" : "https://repositorio.ufmg.br/server/api/authz/features"
+    },
+    "feedbacks" : {
+      "href" : "https://repositorio.ufmg.br/server/api/tools/feedbacks"
+    },
+    "groups" : {
+      "href" : "https://repositorio.ufmg.br/server/api/eperson/groups"
+    },
+    "identifiers" : {
+      "href" : "https://repositorio.ufmg.br/server/api/pid/identifiers"
+    },
+    "itemfilters" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/itemfilters"
+    },
+    "itemrequests" : {
+      "href" : "https://repositorio.ufmg.br/server/api/tools/itemrequests"
+    },
+    "items" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/items"
+    },
+    "itemtemplates" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/itemtemplates"
+    },
+    "ldnservices" : {
+      "href" : "https://repositorio.ufmg.br/server/api/ldn/ldnservices"
+    },
+    "messages" : {
+      "href" : "https://repositorio.ufmg.br/server/api/ldn/messages"
+    },
+    "metadatafields" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/metadatafields"
+    },
+    "metadataschemas" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/metadataschemas"
+    },
+    "notifyrequests" : {
+      "href" : "https://repositorio.ufmg.br/server/api/ldn/notifyrequests"
+    },
+    "oidc" : {
+      "href" : "https://repositorio.ufmg.br/server/api/authn"
+    },
+    "pid" : {
+      "href" : "https://repositorio.ufmg.br/server/api/pid/find{?id}",
+      "templated" : true
+    },
+    "pooltasks" : {
+      "href" : "https://repositorio.ufmg.br/server/api/workflow/pooltasks"
+    },
+    "pooltasks-search" : {
+      "href" : "https://repositorio.ufmg.br/server/api/workflow/pooltasks/search"
+    },
+    "processes" : {
+      "href" : "https://repositorio.ufmg.br/server/api/system/processes"
+    },
+    "properties" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/properties"
+    },
+    "qualityassuranceevents" : {
+      "href" : "https://repositorio.ufmg.br/server/api/integration/qualityassuranceevents"
+    },
+    "qualityassurancesources" : {
+      "href" : "https://repositorio.ufmg.br/server/api/integration/qualityassurancesources"
+    },
+    "qualityassurancetopics" : {
+      "href" : "https://repositorio.ufmg.br/server/api/integration/qualityassurancetopics"
+    },
+    "registrations" : {
+      "href" : "https://repositorio.ufmg.br/server/api/eperson/registrations"
+    },
+    "relationships" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/relationships"
+    },
+    "relationshiptypes" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/relationshiptypes"
+    },
+    "resourcepolicies" : {
+      "href" : "https://repositorio.ufmg.br/server/api/authz/resourcepolicies"
+    },
+    "resourcepolicies-search" : {
+      "href" : "https://repositorio.ufmg.br/server/api/authz/resourcepolicies/search"
+    },
+    "scripts" : {
+      "href" : "https://repositorio.ufmg.br/server/api/system/scripts"
+    },
+    "self" : {
+      "href" : "https://repositorio.ufmg.br/server/api"
+    },
+    "sites" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/sites"
+    },
+    "statistics" : {
+      "href" : "https://repositorio.ufmg.br/server/api/statistics"
+    },
+    "submissionaccessoptions" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/submissionaccessoptions"
+    },
+    "submissioncclicenseUrls" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/submissioncclicenseUrls"
+    },
+    "submissioncclicenseUrls-search" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/submissioncclicenseUrls/search"
+    },
+    "submissioncclicenses" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/submissioncclicenses"
+    },
+    "submissioncoarnotifyconfigs" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/submissioncoarnotifyconfigs"
+    },
+    "submissiondefinitions" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/submissiondefinitions"
+    },
+    "submissionforms" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/submissionforms"
+    },
+    "submissionsections" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/submissionsections"
+    },
+    "submissionuploads" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/submissionuploads"
+    },
+    "subscriptions" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/subscriptions"
+    },
+    "subscriptions-search" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/subscriptions/search"
+    },
+    "suggestions" : {
+      "href" : "https://repositorio.ufmg.br/server/api/integration/suggestions"
+    },
+    "suggestionsources" : {
+      "href" : "https://repositorio.ufmg.br/server/api/integration/suggestionsources"
+    },
+    "suggestiontargets" : {
+      "href" : "https://repositorio.ufmg.br/server/api/integration/suggestiontargets"
+    },
+    "supervisionorders" : {
+      "href" : "https://repositorio.ufmg.br/server/api/core/supervisionorders"
+    },
+    "systemwidealerts" : {
+      "href" : "https://repositorio.ufmg.br/server/api/system/systemwidealerts"
+    },
+    "usagereports" : {
+      "href" : "https://repositorio.ufmg.br/server/api/statistics/usagereports"
+    },
+    "versionhistories" : {
+      "href" : "https://repositorio.ufmg.br/server/api/versioning/versionhistories"
+    },
+    "versions" : {
+      "href" : "https://repositorio.ufmg.br/server/api/versioning/versions"
+    },
+    "vocabularies" : {
+      "href" : "https://repositorio.ufmg.br/server/api/submission/vocabularies"
+    },
+    "vocabularyEntryDetails" : {
+      "href" : "https://repositorio.ufmg.br/server/api/submission/vocabularyEntryDetails"
+    },
+    "vocabularyEntryDetails-search" : {
+      "href" : "https://repositorio.ufmg.br/server/api/submission/vocabularyEntryDetails/search"
+    },
+    "workflowactions" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/workflowactions"
+    },
+    "workflowdefinitions" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/workflowdefinitions"
+    },
+    "workflowitems" : {
+      "href" : "https://repositorio.ufmg.br/server/api/workflow/workflowitems"
+    },
+    "workflowsteps" : {
+      "href" : "https://repositorio.ufmg.br/server/api/config/workflowsteps"
+    },
+    "workspaceitems" : {
+      "href" : "https://repositorio.ufmg.br/server/api/submission/workspaceitems"
+    }
+  }
+}

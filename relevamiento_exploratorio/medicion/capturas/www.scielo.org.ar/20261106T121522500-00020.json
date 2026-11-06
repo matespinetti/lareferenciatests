@@ -1,0 +1,53 @@
+{
+ "pedido": "20261106T121522500-00020",
+ "url": "https://www.scielo.org.ar/pdf/bsab/v60n3/1851-2372-bsab-60-03-3.pdf",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Fri, 06 Nov 2026 12:14:46 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.2.3 (CentOS)"
+  ],
+  [
+   "content-security-policy",
+   "upgrade-insecure-requests;"
+  ],
+  [
+   "last-modified",
+   "Thu, 30 Oct 2025 09:58:10 GMT"
+  ],
+  [
+   "etag",
+   "\"18700d2-14dbef4-6425d49559080\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "content-length",
+   "21872372"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ],
+  [
+   "via",
+   "1.1 www.scielo.org.ar"
+  ],
+  [
+   "keep-alive",
+   "timeout=1, max=50"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "medicion"
+}

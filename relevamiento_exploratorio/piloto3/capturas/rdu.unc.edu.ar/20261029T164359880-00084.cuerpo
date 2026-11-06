@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-10-29T16:46:37Z</responseDate><request verb="GetRecord" identifier="oai:rdu.unc.edu.ar:11086/560501" metadataPrefix="ore">https://rdu.unc.edu.ar/server/oai/request</request><GetRecord><record><header><identifier>oai:rdu.unc.edu.ar:11086/560501</identifier><datestamp>2026-03-17T12:37:28Z</datestamp><setSpec>com_11086_558301</setSpec><setSpec>com_11086_369</setSpec><setSpec>col_11086_560319</setSpec></header><metadata><atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+   <atom:id>http://hdl.handle.net/11086/560501/ore.xml</atom:id>
+   <atom:link rel="alternate" href="http://hdl.handle.net/11086/560501"/>
+   <atom:link rel="http://www.openarchives.org/ore/terms/describes" href="http://hdl.handle.net/11086/560501/ore.xml"/>
+   <atom:link rel="self" type="application/atom+xml" href="http://hdl.handle.net/11086/560501/ore.xml#atom"/>
+   <atom:published>2026-03-11T16:49:44Z</atom:published>
+   <atom:updated>2026-03-11T16:49:44Z</atom:updated>
+   <atom:source>
+      <atom:generator>RDU</atom:generator>
+   </atom:source>
+   <atom:title>La vinculación y transferencia de tecnología de los laboratorios e institutos de investigación universitarios: el caso de la Facultad de Ingeniería de la Universidad Nacional de Lomas de Zamora</atom:title>
+   <atom:author>
+      <atom:name>Cuesta, Leonardo Luis</atom:name>
+   </atom:author>
+   <atom:category scheme="http://www.openarchives.org/ore/terms/" term="http://www.openarchives.org/ore/terms/Aggregation" label="Aggregation"/>
+   <atom:category scheme="http://www.openarchives.org/ore/atom/modified" term="2026-03-11T16:49:44Z"/>
+   <atom:category scheme="http://www.dspace.org/objectModel/" term="DSpaceItem" label="DSpace Item"/>
+   <atom:link rel="http://www.openarchives.org/ore/terms/aggregates" href="https://rdu.unc.edu.ar/bitstreams/7f7528f9-4043-4ded-90e6-d27100157eef/download" title="EJE 3-1.pdf" type="application/pdf" length="529207"/>
+   <oreatom:triples>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://hdl.handle.net/11086/560501/ore.xml#atom">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceItem"/>
+         <dcterms:modified>2026-03-11T16:49:44Z</dcterms:modified>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://rdu.unc.edu.ar/bitstreams/7f7528f9-4043-4ded-90e6-d27100157eef/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>ORIGINAL</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://rdu.unc.edu.ar/bitstreams/69f8fb0e-56a6-46f7-ad23-209467776b5b/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>LICENSE</dcterms:description>
+      </rdf:Description>
+      <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="https://rdu.unc.edu.ar/bitstreams/8d65a745-3f8b-41e2-adc0-9264845d42b7/download">
+         <rdf:type rdf:resource="http://www.dspace.org/objectModel/DSpaceBitstream"/>
+         <dcterms:description>THUMBNAIL</dcterms:description>
+      </rdf:Description>
+   </oreatom:triples>
+</atom:entry></metadata></record></GetRecord></OAI-PMH>

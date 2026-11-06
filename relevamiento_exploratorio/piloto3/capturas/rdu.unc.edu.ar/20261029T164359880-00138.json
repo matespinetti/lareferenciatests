@@ -1,0 +1,109 @@
+{
+ "pedido": "20261029T164359880-00138",
+ "url": "https://rdu.unc.edu.ar/server/api/core/bitstreams/bb59a600-c479-46f8-b3d2-a34ef9ce654b/content",
+ "codigo": 206,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Thu, 29 Oct 2026 16:48:12 GMT"
+  ],
+  [
+   "content-type",
+   "text/csv;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "1033"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Wed, 06 May 2026 12:45:43 GMT"
+  ],
+  [
+   "etag",
+   "\"d64aa39c3bce64e3e6ac1740fa82c55e\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Thu, 29 Oct 2026 17:48:12 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "attachment; filename=\"darwin_core.csv\"; filename*=UTF-8''darwin_core.csv"
+  ],
+  [
+   "content-range",
+   "bytes 0-1032/1033"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "1; mode=block"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ],
+  [
+   "access-control-allow-methods",
+   "GET, POST, OPTIONS"
+  ],
+  [
+   "access-control-allow-headers",
+   "Origin, X-Requested-With, Content-Type, Accept, X-Correlation-ID, X-Referrer"
+  ],
+  [
+   "content-security-policy",
+   "frame-ancestors 'self' https://dspace-rdu-1.psi.unc.edu.ar"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "archivo"
+}
