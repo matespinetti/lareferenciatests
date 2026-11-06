@@ -159,7 +159,8 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "s3_real": r.datos.get("despliegue", {}).get("s3") == "real",
         "red_docker": r.datos.get("despliegue", {}).get("red_docker"),
         "db_lotes": e.get("db_lotes", False),
-        "db_filas": r.media("db_filas"),
+        # Los resultados de antes de los lotes no tienen la columna: ahí cada transacción era una fila.
+        "db_filas": r.media("db_filas") if r.filas and "db_filas" in r.filas[0] else r.media("db_tx"),
         "cliente_subida": subida.get("cliente", "boto3"),
         "destino_subida": subida.get("destino", "s3falso"),
         "maquina_cpu": r.media("maquina_cpu"),
