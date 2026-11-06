@@ -12,6 +12,7 @@
 #   DURACION, CALENTAMIENTO   acortan cada escenario (ensayos)
 #   RED_HOST=1                el motor usa la red del host en vez del puente de Docker
 #                             (docker/compose.red-host.yaml); los resultados quedan como <escenario>-host
+#   SUBIDOR_CLIENTE=crt       el subidor usa el cliente CRT de AWS (en C); solo con S3_BUCKET; resultados <escenario>-crt
 # Deja los resultados en results/ (con docker_stats.csv e instancia.json) y el informe en report.md.
 set -euo pipefail
 cd "$(dirname "$0")/.."
@@ -28,6 +29,14 @@ if [ "${RED_HOST:-0}" = 1 ]; then
     COMPOSE+=(-f docker/compose.red-host.yaml)
     SUFIJO="-host"
     echo "Red del host para el motor (sin el puente de Docker): resultados como <escenario>$SUFIJO."
+fi
+if [ "${SUBIDOR_CLIENTE:-boto3}" = crt ]; then
+    if [ -z "${S3_BUCKET:-}" ]; then
+        echo "!! SUBIDOR_CLIENTE=crt es solo contra S3 real: falta S3_BUCKET."
+        exit 1
+    fi
+    SUFIJO="$SUFIJO-crt"
+    echo "Subidor con el cliente CRT: resultados como <escenario>$SUFIJO."
 fi
 PUERTO=8443
 

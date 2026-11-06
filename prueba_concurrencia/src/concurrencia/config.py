@@ -66,6 +66,12 @@ PARTE_S3 = 8 * MB
 SUBIDAS_EN_PARALELO = int(os.environ.get("SUBIDA_PARALELO", "16"))
 """Subidas a la vez del subidor, en cualquiera de los modos. Se cambia con SUBIDA_PARALELO."""
 MODOS_SUBIDA = ("proceso", "hilos", "corrutinas")
+SUBIDOR_CLIENTE = os.environ.get("SUBIDOR_CLIENTE", "boto3")
+"""Cliente de S3 del subidor: `boto3` (s3transfer en Python) o `crt` (el cliente de AWS en C).
+CRT solo contra S3 real: resuelve los nombres por su cuenta y no pasa por el resolver de la prueba."""
+CLIENTES_SUBIDA = ("boto3", "crt")
+LOTE_DB_SEGUNDOS = 1.0
+"""Con `db_lotes`: cada cuánto se escribe el lote pendiente."""
 """Dónde corre la subida: proceso aparte, pool de hilos en el motor o pool de corrutinas en el bucle."""
 LIMITE_PENDIENTE_RAM = 256 * MB
 LIMITE_PENDIENTE_DISCO = 4 * 1024 * MB
@@ -159,6 +165,9 @@ class Escenario:
     descripcion: str
     modo: Modo = Modo.CORRUTINAS
     db: bool = False
+    db_lotes: bool = False
+    """Con `db`: el resultado se encola y una tarea aparte lo escribe en lotes (como el descargador),
+    en vez de una transacción por resultado que el lugar espera."""
     duracion: float = 180.0
     calentamiento: float = 30.0
     tam_archivo: int | None = None
@@ -235,10 +244,10 @@ ESCENARIOS: dict[str, Escenario] = {
               subida=True, subidor_mismo_nucleo=True),
         # Validación en una c6gn.medium real (GUIA_DOS_MAQUINAS.md): lo mismo que s120, registrando cada
         # resultado en PostgreSQL y subiendo a S3 real.
-        _real("v120", "Validación en una c6gn.medium: subida y base, 120 lugares", lugares=120,
-              subida=True, subidor_mismo_nucleo=True, db=True),
+        _real("v120", "Validación en una c6gn.medium: subida y base (en lotes), 120 lugares", lugares=120,
+              subida=True, subidor_mismo_nucleo=True, db=True, db_lotes=True),
         _real("v120h", "Validación en una c6gn.medium durante 1 hora: memoria, disco y base estables", lugares=120,
-              subida=True, subidor_mismo_nucleo=True, db=True, duracion=3600.0),
+              subida=True, subidor_mismo_nucleo=True, db=True, db_lotes=True, duracion=3600.0),
         _real("sh250", "Subida a S3 con un pool de hilos en el motor, 250 lugares, red de la instancia", lugares=250,
               subida=True, modo_subida="hilos"),
         _real("sc250", "Subida a S3 con un pool de corrutinas en el motor, 250 lugares, red de la instancia",

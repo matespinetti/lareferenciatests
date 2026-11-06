@@ -34,7 +34,7 @@ COLUMNAS = [
     "bucle_p50_ms", "bucle_p99_ms", "bucle_max_ms",
     "gc_pausas", "gc_ms",
     "errores", "r429", "r503",
-    "db_tx", "db_commit_p95_ms", "db_espera_p95_ms",
+    "db_tx", "db_filas", "db_commit_p95_ms", "db_espera_p95_ms",
     "disco_escritura_mb_s", "pendiente_ram_mb", "pendiente_disco_mb", "subida_mb_s", "subidor_cpu", "frenado_s",
     "cpu_workers", "rss_workers_mb", "bucle_workers_max_ms", "subidor_rss_mb",
 ]  # fmt: skip
@@ -71,6 +71,7 @@ class _Segundo:
     db_commits: list[float] = field(default_factory=list)
     frenado: float = 0.0
     db_esperas: list[float] = field(default_factory=list)
+    db_filas: int = 0
 
 
 class Contadores:
@@ -136,10 +137,11 @@ class Contadores:
         with self._lock:
             self._actual.bucle.append(retraso)
 
-    def db(self, espera: float, commit: float) -> None:
+    def db(self, espera: float, commit: float, filas: int = 1) -> None:
         with self._lock:
             self._actual.db_esperas.append(espera)
             self._actual.db_commits.append(commit)
+            self._actual.db_filas += filas
 
     def cortar(self) -> _Segundo:
         with self._lock:
@@ -250,6 +252,7 @@ class Muestreador:
             "r429": s.r429,
             "r503": s.r503,
             "db_tx": round(len(s.db_commits) / dt, 2),
+            "db_filas": round(s.db_filas / dt, 2),
             "db_commit_p95_ms": round(ms * percentil(s.db_commits, 0.95), 2),
             "db_espera_p95_ms": round(ms * percentil(s.db_esperas, 0.95), 2),
             "frenado_s": round(s.frenado, 2),

@@ -236,14 +236,22 @@ escenario v120 (corrutinas, red de c6gn.medium): 25000 pedidos, 0 violaciones, e
 
 `s120` y `v120` suben a S3 real; `b120` no sube.
 
-**Variante con la red del host** (unos 8 minutos). En la primera corrida, casi la mitad de la CPU del motor fue del kernel. Esta variante muestra cuánto de eso es el puente de red de Docker. Se corre en B, después de `git pull`, con el mismo `S3_BUCKET` exportado:
+**Variantes** (unos 15 minutos en total). Se corren en B, después de `git pull`, con el mismo `S3_BUCKET` exportado. El script reconstruye la imagen solo.
 
 ```bash
 git pull
 RED_HOST=1 bash scripts/candidata.sh "$IP_PRIVADA_A" b120 s120 2>&1 | tee -a run.log
+SUBIDOR_CLIENTE=crt bash scripts/candidata.sh "$IP_PRIVADA_A" s120 2>&1 | tee -a run.log
+bash scripts/candidata.sh "$IP_PRIVADA_A" v120 2>&1 | tee -a run.log
 ```
 
-Los resultados quedan como `b120-host` y `s120-host`, al lado de los de antes, y el informe los compara en la columna "Red de Docker".
+| Corrida | Resultado | Qué responde |
+|---|---|---|
+| `RED_HOST=1` … `b120 s120` | `b120-host`, `s120-host` | En la primera corrida, casi la mitad de la CPU del motor fue del kernel. Muestra cuánto de eso es el puente de red de Docker: el motor usa la red de la máquina directamente. |
+| `SUBIDOR_CLIENTE=crt` … `s120` | `s120-crt` | El subidor usa el cliente de S3 de AWS escrito en C (CRT) en vez de s3transfer en Python. Muestra cuánta CPU se ahorra en la subida. Solo con S3 real. |
+| `v120` | `v120` (reemplaza al anterior) | Ahora escribe en la base **en lotes**, como el descargador: el lugar encola el resultado y sigue, y una tarea aparte escribe lo encolado cada 1 s. Antes era una transacción por resultado que el lugar esperaba. |
+
+El informe compara todo en la sección de validación: las columnas "Red de Docker", "Base" y "Subida" dicen qué variante es cada fila.
 
 **Antes de cada tanda, reiniciá el servidor en A** (`Ctrl+C` y la misma línea del paso 4) y mirá en `htop` que quede tranquilo. En la primera corrida, un proceso del servidor quedó al 100 % desde el final de `s120` y durante todo `v120`, sin carga que lo explique. Eso probablemente causó los 22 errores de conexión de `v120`. El informe lo marca con ⚠ en "CPU servidor máx".
 

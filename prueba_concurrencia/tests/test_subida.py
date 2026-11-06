@@ -133,3 +133,27 @@ def test_con_s3_real_la_subida_usa_bucket_y_prefijo(monkeypatch, tmp_path):
     assert subida.prefijo.startswith(f"{config.S3_PREFIJO}/v120-") and subida.prefijo.endswith("/")
     with pytest.raises(ValueError, match="corrutinas"):
         _Subida(tmp_path / "spool", tmp_path, 9443, "corrutinas")
+
+
+def test_crt_solo_con_s3_real(monkeypatch, tmp_path):
+    import pytest
+
+    from concurrencia.motor import _Subida
+
+    monkeypatch.setattr(config, "SUBIDOR_CLIENTE", "crt")
+    with pytest.raises(ValueError, match="CRT"):
+        _Subida(tmp_path / "spool", tmp_path, 9443, "proceso")
+    monkeypatch.setattr(config, "S3_BUCKET", "bucket-de-prueba")
+    assert _Subida(tmp_path / "spool", tmp_path, 9443, "proceso").real
+
+
+def test_el_gestor_crt_se_arma_sin_red(monkeypatch):
+    # Solo la configuración con esta versión de awscrt: crear el cliente no hace pedidos.
+    from s3transfer.crt import CRTTransferManager
+
+    from concurrencia.subidor import _cerrar, _gestor_crt
+
+    monkeypatch.setattr(config, "S3_REGION", "us-east-1")
+    gestor = _gestor_crt()
+    assert isinstance(gestor, CRTTransferManager)
+    _cerrar(gestor)

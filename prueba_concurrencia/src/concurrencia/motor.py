@@ -213,7 +213,9 @@ async def correr(
         await control(cliente, puerto, "reiniciar", "POST", procesos)
         if subida is not None:
             await subida.arrancar(cliente)
-        registro = await Registro.abrir(dsn, tamano_pool, contadores) if escenario.db and dsn else None
+        registro = (
+            await Registro.abrir(dsn, tamano_pool, contadores, escenario.db_lotes) if escenario.db and dsn else None
+        )
         if escenario.db and registro is None:
             raise ValueError("el escenario usa --db y falta el DSN de PostgreSQL")
         motor = Motor(escenario, cliente, puerto, semilla, registro, contadores, procesos, subida.spool if subida else None)
@@ -258,6 +260,10 @@ class _Subida:
         self.real = config.S3_BUCKET is not None
         if self.real and modo == "corrutinas":
             raise ValueError("con S3 real la subida corre en proceso aparte o en hilos, no en corrutinas")
+        if config.SUBIDOR_CLIENTE not in config.CLIENTES_SUBIDA:
+            raise ValueError(f"cliente de subida desconocido: {config.SUBIDOR_CLIENTE} ({', '.join(config.CLIENTES_SUBIDA)})")
+        if config.SUBIDOR_CLIENTE == "crt" and not (self.real and modo != "corrutinas"):
+            raise ValueError("el cliente CRT es solo contra S3 real (S3_BUCKET), con el subidor en proceso o hilos")
         self.bucket = config.S3_BUCKET or config.BUCKET
         self.prefijo = f"{config.S3_PREFIJO}/{corrida}-{time.strftime('%Y%m%dT%H%M%SZ', time.gmtime())}/" if self.real else ""
         self.modo = modo
@@ -334,6 +340,7 @@ class _Subida:
                 s3 = await respuesta.json()
         resumen = {
             "destino": f"s3://{self.bucket}/{self.prefijo}" if self.real else "s3falso",
+            "cliente": config.SUBIDOR_CLIENTE if self.modo != "corrutinas" else "aiobotocore",
             "modo": self.modo,
             "mismo_nucleo": self.mismo_nucleo,
             "paralelo": config.SUBIDAS_EN_PARALELO,

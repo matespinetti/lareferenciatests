@@ -11,6 +11,7 @@ dependencies = [
     "aiohttp>=3.11",
     "asyncpg>=0.30",
     "boto3>=1.43.117",
+    "botocore[crt]>=1.43.117",
     "matplotlib>=3.9",
     "psutil>=6.1",
     "requests>=2.32",

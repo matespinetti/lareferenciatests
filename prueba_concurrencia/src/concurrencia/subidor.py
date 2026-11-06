@@ -12,7 +12,8 @@ Cada segundo reescribe `subidor.json` con lo que lleva subido; el motor lo lee p
 quedó pendiente y para frenar si se atrasa.
 
 Sin `endpoint` sube a S3 real (`S3_BUCKET`, con las credenciales del rol de la instancia): es la
-validación en una instancia real (GUIA_DOS_MAQUINAS.md).
+validación en una instancia real (GUIA_DOS_MAQUINAS.md). Ahí, con `SUBIDOR_CLIENTE=crt`, usa el
+cliente de S3 de AWS escrito en C (awscrt) en vez de s3transfer en Python, para comparar su CPU.
 """
 
 import contextlib
@@ -59,6 +60,34 @@ def _cliente(endpoint: str | None, ca: Path, concurrencia: int) -> Any:
     )
 
 
+def _gestor_crt() -> Any:
+    """El gestor de transferencias de CRT: un PUT o multipart en partes de `PARTE_S3`, con sus
+    propios hilos en C (decide solo cuántas conexiones abrir)."""
+    import botocore.session
+    from s3transfer.crt import (
+        BotocoreCRTCredentialsWrapper,
+        BotocoreCRTRequestSerializer,
+        CRTTransferManager,
+        create_s3_crt_client,
+    )
+
+    sesion = botocore.session.Session()
+    credenciales = BotocoreCRTCredentialsWrapper(sesion.get_credentials()).to_crt_credentials_provider()
+    cliente = create_s3_crt_client(config.S3_REGION, crt_credentials_provider=credenciales, part_size=config.PARTE_S3)
+    return CRTTransferManager(cliente, BotocoreCRTRequestSerializer(sesion, {"region_name": config.S3_REGION}))
+
+
+def _cerrar(gestor: Any) -> None:
+    from s3transfer.manager import TransferManager
+
+    if not isinstance(gestor, TransferManager):
+        gestor.shutdown(cancel=True)
+    else:
+        # `shutdown(cancel=True)` de s3transfer 0.19 le pasa los argumentos corridos a `_shutdown`
+        # y falla con lo que esté en curso: se llama directo, con el orden correcto.
+        gestor._shutdown(True, "fin de la corrida")
+
+
 def correr(
     dirs: Directorios,
     endpoint: str | None,
@@ -82,15 +111,17 @@ def correr(
     proceso = psutil.Process()
     # Con el S3 falso, `*.sim.localhost` va a la máquina de la prueba; con S3 real hay que resolver AWS.
     with resolver_local() if endpoint else contextlib.nullcontext():
-        cliente = _cliente(endpoint, ca, concurrencia)
-        gestor = TransferManager(
-            cliente,
-            TransferConfig(
-                multipart_threshold=config.PARTE_S3,
-                multipart_chunksize=config.PARTE_S3,
-                max_request_concurrency=concurrencia,
-            ),
-        )
+        if config.SUBIDOR_CLIENTE == "crt" and endpoint is None:
+            gestor = _gestor_crt()
+        else:
+            gestor = TransferManager(
+                _cliente(endpoint, ca, concurrencia),
+                TransferConfig(
+                    multipart_threshold=config.PARTE_S3,
+                    multipart_chunksize=config.PARTE_S3,
+                    max_request_concurrency=concurrencia,
+                ),
+            )
         estado: dict[str, Any] = {
             "bytes_ram": 0, "bytes_disco": 0, "archivos": 0, "errores": 0,
             "cpu": [], "rss_mb": [],
@@ -118,9 +149,7 @@ def correr(
             estado["en_curso"] = len(en_curso)
             estado["final"] = True
             _escribir_estado(dirs.estado, estado)
-            # `shutdown(cancel=True)` de s3transfer 0.19 le pasa los argumentos corridos a `_shutdown`
-            # y falla con lo que esté en curso: se llama directo, con el orden correcto.
-            gestor._shutdown(True, "fin de la corrida")
+            _cerrar(gestor)
 
 
 def clave(nombre: str) -> str:

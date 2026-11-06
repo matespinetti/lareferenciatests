@@ -62,7 +62,7 @@ def test_escenarios_de_la_spec():
     assert config.ESCENARIOS["s120"].subidor_mismo_nucleo and config.ESCENARIOS["s120"].lugares == 120
     for id in ("v120", "v120h"):
         v = config.ESCENARIOS[id]
-        assert v.real and v.lugares == 120 and v.subida and v.db and v.subidor_mismo_nucleo and v.modo_subida == "proceso"
+        assert v.real and v.lugares == 120 and v.subida and v.db and v.db_lotes and v.subidor_mismo_nucleo and v.modo_subida == "proceso"
     assert config.ESCENARIOS["v120h"].duracion == 3600
     for prefijo, grupo in (("b", config.BARRIDO_RED), ("bs", config.BARRIDO_SIN_TOPE)):
         barrido = [config.ESCENARIOS[f"{prefijo}{n}"] for n in config.BARRIDO_LUGARES]

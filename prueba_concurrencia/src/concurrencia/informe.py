@@ -158,6 +158,9 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "dos_maquinas": r.datos.get("despliegue", {}).get("dos_maquinas", False),
         "s3_real": r.datos.get("despliegue", {}).get("s3") == "real",
         "red_docker": r.datos.get("despliegue", {}).get("red_docker"),
+        "db_lotes": e.get("db_lotes", False),
+        "db_filas": r.media("db_filas"),
+        "cliente_subida": subida.get("cliente", "boto3"),
         "destino_subida": subida.get("destino", "s3falso"),
         "maquina_cpu": r.media("maquina_cpu"),
         "maquina_cpu_max": max(r.col("maquina_cpu"), default=0.0),
@@ -577,7 +580,7 @@ def _seccion_subida(todos: list[dict[str, Any]]) -> list[str]:
             f"{_f(r['subidor_cpu'])} / {_f(r['subidor_cpu_max'])}" if r["modo_subida"] == "proceso" else "en la del motor"
         )
         lineas.append(
-            f"| {r['id']} | {donde.get(r['modo_subida'], r['modo_subida'])}"
+            f"| {r['id']} | {donde.get(r['modo_subida'], r['modo_subida'])}{', CRT' if r['cliente_subida'] == 'crt' else ''}"
             f"{', mismo núcleo que el motor' if r['subidor_mismo_nucleo'] else ''} ({r['subida_paralelo']}) | {r['lugares']} "
             f"| {_f(r['red'] / config.MB) if r['red'] else 'sin tope'} | {_f(r['mb_s'])} "
             f"| {_f(r['subida_mb_s'])} | {_f(r['cpu_media'])} | {_f(ref['cpu_media']) + ' (' + ref['id'] + ')' if ref else '—'} "
@@ -667,8 +670,11 @@ def _seccion_validacion(todos: list[dict[str, Any]], resultados: Path) -> list[s
     ]
     for r in validos:
         subida = ("S3 real" if r["s3_real"] else "S3 falso") if r["subida"] else "no"
+        if r["subida"] and r["cliente_subida"] == "crt":
+            subida += " (CRT)"
+        base = ("en lotes" if r["db_lotes"] else "por resultado") if r["db"] else "no"
         lineas.append(
-            f"| {r['id']} | {r['red_docker'] or '—'} | {'sí' if r['db'] else 'no'} | {subida} | {_f(r['mb_s'])} "
+            f"| {r['id']} | {r['red_docker'] or '—'} | {base} | {subida} | {_f(r['mb_s'])} "
             f"| {_f(r['subida_mb_s']) if r['subida'] else '—'} | {_f(r['maquina_cpu'])} / {_f(r['maquina_cpu_max'])} "
             f"| {_f(r['cpu_media'])} ({_f(r['cpu_sistema'])}) | {_f(r['bucle_p99'], 2)} | {_f(r['despacho_p99'], 1)} | {_f(r['frenado_s'], 1)} "
             f"| {_f(r['pendiente_final_mb'], 0) if r['subida'] else '—'} | {r['errores']} / {r['subida_errores']} "
@@ -677,7 +683,7 @@ def _seccion_validacion(todos: list[dict[str, Any]], resultados: Path) -> list[s
     lineas += [
         "",
         "| Esc. | Memoria disponible mín (MB) | Pico contenedor motor (MB) | Pico PostgreSQL (MB) | RSS motor máx (MB) "
-        "| RSS subidor máx (MB) | Escritura a disco (media / máx, MB/s) | DB tx/s | Commit p95 (ms) | Deriva memoria disponible (MB/h) |",
+        "| RSS subidor máx (MB) | Escritura a disco (media / máx, MB/s) | DB tx/s (filas/s) | Commit p95 (ms) | Deriva memoria disponible (MB/h) |",
         "|---|---|---|---|---|---|---|---|---|---|",
     ]
     for r in validos:
@@ -687,13 +693,16 @@ def _seccion_validacion(todos: list[dict[str, Any]], resultados: Path) -> list[s
             f"{f' de {_f(memoria_total, 0)}' if memoria_total else ''} "
             f"| {_f(p['motor'], 0) if 'motor' in p else '—'} | {_f(p['postgres'], 0) if 'postgres' in p else '—'} "
             f"| {_f(r['rss_max'], 0)} | {_f(r['subidor_rss_max'], 0) if r['subida'] else '—'} "
-            f"| {_f(r['disco_escritura_mb_s'])} / {_f(r['disco_escritura_max'])} | {_f(r['db_tx'])} "
+            f"| {_f(r['disco_escritura_mb_s'])} / {_f(r['disco_escritura_max'])} | {_f(r['db_tx'])} ({_f(r['db_filas'])}) "
             f"| {_f(r['db_commit_p95'], 2)} | {_f(r['deriva_memoria_mb_h']) if r['segundos'] >= 600 else '—'} |"
         )
     lineas += [
         "",
         "- **Red de Docker:** `puente` es la red por defecto de Docker (cada paquete pasa por una interfaz virtual y NAT); "
         "`host`, el motor usa la red de la máquina directamente. La diferencia de CPU es lo que cuesta el puente.",
+        "- **Base:** `por resultado`, una transacción por resultado que el lugar espera antes de tomar otra tarea; "
+        "`en lotes`, como el descargador, el lugar encola y sigue, y una tarea aparte escribe lo encolado cada "
+        f"{_f(config.LOTE_DB_SEGUNDOS, 0)} s. **Subida (CRT):** el cliente de S3 de AWS escrito en C en vez de s3transfer.",
         "- **CPU máquina:** % de toda la instancia (en una de 1 vCPU, 100 % es el núcleo entero). Es lo que importa "
         "para saber si entra todo: motor, subidor, PostgreSQL y Docker.",
         "- **Memoria disponible mínima:** la que le quedó libre a la máquina en el peor segundo. El pico del "
