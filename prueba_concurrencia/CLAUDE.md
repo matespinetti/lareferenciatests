@@ -78,7 +78,7 @@ DURACION=15 CALENTAMIENTO=5 ./run_all.sh 4 7     # algunos escenarios, acortados
 bash scripts/setup_ec2.sh                       # una vez, en la instancia Ubuntu 24.04 (c6gn.xlarge)
 INSTANCIA=c7g.large ./run_all.sh                # la misma prueba con la red de otra candidata
 ANCHO_MB_S=0.8 ./run_all.sh                     # con la velocidad por conexión medida (relevamiento medir-velocidad)
-HOST=0.0.0.0 SERVIDOR_PROCESOS=3 .venv/bin/servidor --escenario v120   # en la instancia A de la validación (más el S3 falso)
+HOST=0.0.0.0 SERVIDOR_PROCESOS=2 .venv/bin/servidor --escenario v120   # en la instancia A de la validación, una c6gn.large (más el S3 falso)
 S3_BUCKET=… bash scripts/candidata.sh <IP privada de A>                 # en la c6gn.medium (B): b120 s120 v120 con S3 real
 bash scripts/candidata.sh <IP privada de A> v120h                       # la de 1 hora, contra el S3 falso de A (S3 real costaría ~USD 2)
 ```

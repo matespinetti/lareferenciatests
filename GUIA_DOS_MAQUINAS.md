@@ -3,11 +3,11 @@
 Hasta ahora la c6gn.medium se **simuló**: el motor atado a un núcleo de una c6gn.xlarge, con la red limitada por el servidor simulado. Esta corrida la reemplaza por la máquina de verdad:
 
 ```
-A: c6gn.xlarge  ("los repositorios")              B: c6gn.medium  (la candidata)
-   servidor simulado en 0.0.0.0:8443-8445   ◄────    Docker Compose:
-   (3 procesos, tope de red = red base               postgres:16
+A: c6gn.large  ("los repositorios")               B: c6gn.medium  (la candidata)
+   servidor simulado en 0.0.0.0:8443-8444   ◄────    Docker Compose:
+   (2 procesos, tope de red = red base               postgres:16
     de la c6gn.medium)                               motor (+ subidor como proceso hijo)
-   S3 falso en 0.0.0.0:9443 (1 núcleo)       ◄────     └──► S3 real en las corridas cortas,
+   S3 falso en 0.0.0.0:9443                 ◄────     └──► S3 real en las corridas cortas,
                                                             S3 falso de A en la de 1 hora
 ```
 
@@ -20,8 +20,8 @@ Qué se mide que antes era estimado:
 
 La API y el frontend todavía no existen, así que siguen estimados.
 
-Tiempo: alrededor de 2 horas, de las que 1 es la corrida larga. Costo: **unos USD 0,60**.
-- Las dos instancias, unas 2 horas: unos USD 0,45, más USD 0,02 de las IP públicas.
+Tiempo: alrededor de 2 horas, de las que 1 es la corrida larga. Costo: **unos USD 0,45**.
+- Las dos instancias, unas 2 horas: unos USD 0,26 (c6gn.large USD 0,086/h y c6gn.medium USD 0,043/h), más USD 0,02 de las IP públicas.
 - S3 real, solo en `s120` y `v120`: unos 40 GB y 20.000 pedidos, alrededor de USD 0,10. Se borra el mismo día, así que el almacenamiento queda en centavos. La transferencia de EC2 a S3 dentro de la misma región es gratis.
 - **La corrida de 1 hora sube al S3 falso de A.** Con S3 real serían unos 600 GB y 240.000 PUT, más de USD 2. Lo que se mide en esa hora está en B: memoria estable, el EBS después de la ráfaga y la CPU de subir. B hace exactamente lo mismo con uno u otro S3: el mismo boto3 y los mismos bytes saliendo por su placa de red. Que S3 real responde bien ya lo muestran las corridas cortas.
 
@@ -79,10 +79,24 @@ Solo puede escribir bajo `prueba-concurrencia/` en ese bucket: ni leer, ni borra
 
 ## 3. Las dos instancias
 
-**A: el servidor simulado.** Es la instancia que ya tenés.
-- Si quedó como c6gn.medium, pasala a **c6gn.xlarge**: *Instance state → Stop*, *Actions → Instance settings → Change instance type*, y *Start*.
-- La IP pública cambia: anotá la nueva.
-- Necesita 4 núcleos: 3 para servir los ~190 MB/s con TLS sin ser ella el límite y 1 para el S3 falso.
+Primero A y después B, porque B va en la misma subred y el mismo security group que A.
+
+**A: el servidor simulado.** Una **c6gn.large** (2 vCPU, 4 GB) alcanza.
+- En la corrida de la medium simulada, el servidor sirviendo los 190 MB/s usó en total 56 % de un núcleo de media (72 % de pico), y el S3 falso 21 % (48 % de pico). En 2 núcleos queda cada uno en ~40 %.
+- Su red base (~390 MB/s) cubre lo que manda (190) y lo que recibe del S3 falso (~170).
+- Una c6gn.medium no alcanza: los picos pasan un núcleo, y su red base es justo los 190 MB/s que tiene que servir.
+- Si igual llegara a ser el límite, el informe lo marca con ⚠ en "CPU servidor máx".
+
+EC2 → **Launch instance**, como en `GUIA_EC2.md`:
+
+| Campo | Valor |
+|---|---|
+| Name | `simulador` |
+| AMI | **Ubuntu Server 24.04 LTS, 64-bit (Arm)** |
+| Instance type | **c6gn.large** |
+| Key pair | `pruebareferencia`: el par sigue existiendo aunque hayas terminado la instancia anterior |
+| Network settings | VPC por defecto, *Auto-assign public IP*: **Enable**. Security group nuevo, `prueba-concurrencia`, con **SSH (22)** desde **My IP**. |
+| Storage | 20 GiB gp3 |
 
 **B: la candidata.** EC2 → **Launch instance**:
 
@@ -98,7 +112,7 @@ Solo puede escribir bajo `prueba-concurrencia/` en ese bucket: ni leer, ni borra
 | Advanced details → Metadata response hop limit | **2**. Sin esto, el contenedor no llega a las credenciales del rol: Docker suma un salto. |
 
 **Security group** (el que comparten las dos). Agregá una regla de entrada en *Edit inbound rules*:
-- Custom TCP, puertos **8443-8445**, y otra igual con el puerto **9443** (el S3 falso).
+- Custom TCP, puertos **8443-8444**, y otra igual con el puerto **9443** (el S3 falso).
 - Source, en las dos: **el mismo security group**: escribí `sg-` y elegilo.
 
 Así solo B (y A) llegan al servidor simulado; desde internet sigue cerrado.
@@ -114,23 +128,30 @@ CLAVE=~/dev/lareferenciatests/prueba_concurrencia/claves/pruebareferencia.pem
 ssh -i "$CLAVE" ubuntu@IP_A
 ```
 
-Adentro:
+Adentro, la primera vez (el script instala `uv`, sube los límites de conexiones, arma los certificados y corre los tests):
+
+```bash
+sudo apt-get update && sudo apt-get install -y git tmux htop
+git clone -b subida-s3 https://github.com/matespinetti/lareferenciatests.git
+cd lareferenciatests/prueba_concurrencia && bash scripts/setup_ec2.sh
+exit
+```
+
+Salir y volver a entrar hace falta para que tome el límite de archivos abiertos. Después:
 
 ```bash
 tmux new -s servidor            # o: tmux attach -t servidor
-cd ~/lareferenciatests && git pull
-cd prueba_concurrencia && uv sync
-sh scripts/certificado.sh certs
+cd ~/lareferenciatests/prueba_concurrencia
 ulimit -n 65535
-HOST=0.0.0.0 taskset -c 3 .venv/bin/s3falso --certs certs &
-HOST=0.0.0.0 SERVIDOR_PROCESOS=3 ANCHO_MB_S=2.15 taskset -c 0-2 .venv/bin/servidor --escenario v120 --certs certs
+HOST=0.0.0.0 .venv/bin/s3falso --certs certs &
+HOST=0.0.0.0 SERVIDOR_PROCESOS=2 ANCHO_MB_S=2.15 .venv/bin/servidor --escenario v120 --certs certs
 ```
 
-Tiene que decir:
+El servidor y el S3 falso comparten los 2 núcleos: no se atan a ninguno. Tiene que decir:
 
 ```
 S3 falso en https://s3.sim.localhost:9443 (0.0.0.0)
-servidor simulado en https://*.sim.localhost:8443-8445 (0.0.0.0) (escenario v120, red de c6gn.medium: 190.7 MB/s, 3 proceso(s))
+servidor simulado en https://*.sim.localhost:8443-8444 (0.0.0.0) (escenario v120, red de c6gn.medium: 190.7 MB/s, 2 proceso(s))
 ```
 
 Dejalos corriendo toda la prueba: cada escenario de B reinicia sus contadores. Al terminar: `Ctrl+C` para el servidor y `pkill -f bin/s3falso` para el S3 falso.
@@ -159,7 +180,7 @@ exit
 Salir y volver a entrar hace falta para que `ubuntu` quede en el grupo `docker`. Desde la Mac:
 
 ```bash
-ssh -i "$CLAVE" ubuntu@IP_B "git clone https://github.com/matespinetti/lareferenciatests.git && mkdir -p lareferenciatests/prueba_concurrencia/certs"
+ssh -i "$CLAVE" ubuntu@IP_B "git clone -b subida-s3 https://github.com/matespinetti/lareferenciatests.git && mkdir -p lareferenciatests/prueba_concurrencia/certs"
 scp -i "$CLAVE" /tmp/ca-prueba.pem ubuntu@IP_B:~/lareferenciatests/prueba_concurrencia/certs/ca.pem
 ssh -i "$CLAVE" ubuntu@IP_B
 ```
@@ -253,10 +274,10 @@ scp -i "$CLAVE" ubuntu@IP_B:~/lareferenciatests/prueba_concurrencia/run.log .
 ## 9. Limpiar (no te olvides)
 
 1. **B:** EC2 → Instances → `candidata` → **Terminate instance**.
-2. **A:** *Stop* si la vas a volver a usar (se paga solo el disco, unos centavos por día) o *Terminate*.
+2. **A:** EC2 → Instances → `simulador` → **Terminate instance**.
 3. **S3:** en el bucket, **Empty** (escribí `permanently delete`) y después **Delete**. Así no esperás un día a la regla de ciclo de vida, y el almacenamiento queda en centavos.
 4. **IAM:** el rol `prueba-concurrencia-s3` se puede borrar; no cuesta nada si queda.
-5. **Security group:** las reglas 8443-8445 y 9443 se pueden borrar.
+5. **Security group:** `prueba-concurrencia` se puede borrar cuando ya no quede ninguna instancia que lo use.
 
 ---
 

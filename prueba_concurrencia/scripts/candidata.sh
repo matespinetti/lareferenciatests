@@ -8,7 +8,7 @@
 # Variables:
 #   S3_BUCKET                 bucket de S3 real (con el rol de la instancia); sin él, la subida va al S3 falso
 #                             del servidor (PUERTO_S3)
-#   SERVIDOR_PROCESOS         procesos del servidor simulado (3, puertos 8443-8445)
+#   SERVIDOR_PROCESOS         procesos del servidor simulado (2, puertos 8443-8444)
 #   DURACION, CALENTAMIENTO   acortan cada escenario (ensayos)
 # Deja los resultados en results/ (con docker_stats.csv e instancia.json) y el informe en report.md.
 set -euo pipefail
@@ -18,7 +18,7 @@ IP=${1:?uso: scripts/candidata.sh <IP privada del servidor> [escenarios...]}
 shift
 IDS=${*:-b120 s120 v120}
 export IP_SERVIDOR=$IP
-export SERVIDOR_PROCESOS=${SERVIDOR_PROCESOS:-3}
+export SERVIDOR_PROCESOS=${SERVIDOR_PROCESOS:-2}
 export USUARIO="$(id -u):$(id -g)"
 COMPOSE=(docker compose -f docker/compose.candidata.yaml)
 PUERTO=8443

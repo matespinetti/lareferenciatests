@@ -41,7 +41,7 @@ services:
         hard: 65535
     environment:
       IP_SERVIDOR: ${IP_SERVIDOR:?falta IP_SERVIDOR, la IP privada del servidor simulado}
-      SERVIDOR_PROCESOS: ${SERVIDOR_PROCESOS:-3}
+      SERVIDOR_PROCESOS: ${SERVIDOR_PROCESOS:-2}
       INSTANCIA: ${INSTANCIA:-c6gn.medium}
       ANCHO_MB_S: ${ANCHO_MB_S:-2}
       # Con S3_BUCKET sube a S3 real con el rol de la instancia; sin él, al S3 falso en IP_SERVIDOR:PUERTO_S3.
