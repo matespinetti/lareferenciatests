@@ -6,6 +6,7 @@ asíncrona: aiohttp para HTTP y asyncpg para la base (`--db`).
 """
 
 import asyncio
+import os
 import platform
 import socket
 import ssl
@@ -388,6 +389,8 @@ def _resumen(
             "ip_servidor": config.IP_SERVIDOR,
             "dos_maquinas": config.IP_SERVIDOR != "127.0.0.1",
             "s3": "real" if config.S3_BUCKET else "falso",
+            # Con Docker: `puente` (la red por defecto) o `host` (docker/compose.red-host.yaml).
+            "red_docker": os.environ.get("RED_DOCKER"),
         },
         "versiones": {
             "python": sys.version.split()[0],

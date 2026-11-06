@@ -1,0 +1,17 @@
+# Variante de la validación: el motor usa la red del host en vez del puente de Docker (sin veth ni
+# NAT). Mide cuánto del tiempo de kernel es Docker. Se suma al compose base:
+#
+#   RED_HOST=1 scripts/candidata.sh <IP privada del servidor> b120 s120
+#
+# PostgreSQL sigue en su red y publica el puerto solo en 127.0.0.1 (PUERTO_PG, 5432 si no se cambia).
+
+services:
+  postgres:
+    ports:
+      - 127.0.0.1:${PUERTO_PG:-5432}:5432
+
+  motor:
+    network_mode: host
+    environment:
+      RED_DOCKER: host
+      CONCURRENCIA_DSN: postgresql://prueba:prueba@127.0.0.1:${PUERTO_PG:-5432}/prueba

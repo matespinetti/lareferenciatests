@@ -60,7 +60,8 @@ def cargar(resultados: Path) -> list[Resultado]:
         for fila in filas:
             fila["dt"], anterior = fila["t"] - anterior, fila["t"]
         medicion = [f for f in filas if not f["calentamiento"]]
-        salida.append(Resultado(datos["escenario"]["id"], datos["escenario"], medicion, datos))
+        # El nombre del archivo: el id del escenario, o con un sufijo si se repitió con otra variante (`b120-host`).
+        salida.append(Resultado(ruta.stem, datos["escenario"], medicion, datos))
     return sorted(salida, key=lambda r: (len(r.id), r.id))
 
 
@@ -156,6 +157,7 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "terminado_antes": r.datos.get("terminado_antes_de_tiempo", False),
         "dos_maquinas": r.datos.get("despliegue", {}).get("dos_maquinas", False),
         "s3_real": r.datos.get("despliegue", {}).get("s3") == "real",
+        "red_docker": r.datos.get("despliegue", {}).get("red_docker"),
         "destino_subida": subida.get("destino", "s3falso"),
         "maquina_cpu": r.media("maquina_cpu"),
         "maquina_cpu_max": max(r.col("maquina_cpu"), default=0.0),
@@ -658,16 +660,17 @@ def _seccion_validacion(todos: list[dict[str, Any]], resultados: Path) -> list[s
         + (" La subida va a **S3 real**." if any(r["s3_real"] for r in validos) else " La subida va al S3 falso.")
         + " La CPU y la memoria de la máquina incluyen todo lo que corre en ella (motor, subidor, PostgreSQL y Docker).",
         "",
-        "| Esc. | Base | Subida | MB/s bajados | MB/s subidos | CPU máquina (media / máx) | CPU motor | Bucle p99 (ms) "
-        "| Despacho p99 (ms) | Frenado (s) | Pendiente al final (MB) | Errores (descarga / subida) | Violaciones |",
-        "|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+        "| Esc. | Red de Docker | Base | Subida | MB/s bajados | MB/s subidos | CPU máquina (media / máx) | CPU motor "
+        "(sistema) | Bucle p99 (ms) | Despacho p99 (ms) | Frenado (s) | Pendiente al final (MB) | Errores (descarga / subida) "
+        "| Violaciones |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for r in validos:
         subida = ("S3 real" if r["s3_real"] else "S3 falso") if r["subida"] else "no"
         lineas.append(
-            f"| {r['id']} | {'sí' if r['db'] else 'no'} | {subida} | {_f(r['mb_s'])} "
+            f"| {r['id']} | {r['red_docker'] or '—'} | {'sí' if r['db'] else 'no'} | {subida} | {_f(r['mb_s'])} "
             f"| {_f(r['subida_mb_s']) if r['subida'] else '—'} | {_f(r['maquina_cpu'])} / {_f(r['maquina_cpu_max'])} "
-            f"| {_f(r['cpu_media'])} | {_f(r['bucle_p99'], 2)} | {_f(r['despacho_p99'], 1)} | {_f(r['frenado_s'], 1)} "
+            f"| {_f(r['cpu_media'])} ({_f(r['cpu_sistema'])}) | {_f(r['bucle_p99'], 2)} | {_f(r['despacho_p99'], 1)} | {_f(r['frenado_s'], 1)} "
             f"| {_f(r['pendiente_final_mb'], 0) if r['subida'] else '—'} | {r['errores']} / {r['subida_errores']} "
             f"| {r['violaciones']} |"
         )
@@ -689,6 +692,8 @@ def _seccion_validacion(todos: list[dict[str, Any]], resultados: Path) -> list[s
         )
     lineas += [
         "",
+        "- **Red de Docker:** `puente` es la red por defecto de Docker (cada paquete pasa por una interfaz virtual y NAT); "
+        "`host`, el motor usa la red de la máquina directamente. La diferencia de CPU es lo que cuesta el puente.",
         "- **CPU máquina:** % de toda la instancia (en una de 1 vCPU, 100 % es el núcleo entero). Es lo que importa "
         "para saber si entra todo: motor, subidor, PostgreSQL y Docker.",
         "- **Memoria disponible mínima:** la que le quedó libre a la máquina en el peor segundo. El pico del "

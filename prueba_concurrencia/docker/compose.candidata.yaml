@@ -50,6 +50,7 @@ services:
       AWS_REGION: ${AWS_REGION:-us-east-1}
       PUERTO_S3: ${PUERTO_S3:-9443}
       SUBIDA_PARALELO: ${SUBIDA_PARALELO:-16}
+      RED_DOCKER: puente
       CONCURRENCIA_DSN: postgresql://prueba:prueba@postgres:5432/prueba
     extra_hosts:
       # Ensayo local: el servidor simulado en la misma máquina, fuera de Docker.

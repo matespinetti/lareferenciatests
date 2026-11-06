@@ -236,6 +236,15 @@ escenario v120 (corrutinas, red de c6gn.medium): 25000 pedidos, 0 violaciones, e
 
 `s120` y `v120` suben a S3 real; `b120` no sube.
 
+**Variante con la red del host** (unos 8 minutos). En la primera corrida, casi la mitad de la CPU del motor fue del kernel. Esta variante muestra cuánto de eso es el puente de red de Docker. Se corre en B, después de `git pull`, con el mismo `S3_BUCKET` exportado:
+
+```bash
+git pull
+RED_HOST=1 bash scripts/candidata.sh "$IP_PRIVADA_A" b120 s120 2>&1 | tee -a run.log
+```
+
+Los resultados quedan como `b120-host` y `s120-host`, al lado de los de antes, y el informe los compara en la columna "Red de Docker".
+
 **Antes de cada tanda, reiniciá el servidor en A** (`Ctrl+C` y la misma línea del paso 4) y mirá en `htop` que quede tranquilo. En la primera corrida, un proceso del servidor quedó al 100 % desde el final de `s120` y durante todo `v120`, sin carga que lo explique. Eso probablemente causó los 22 errores de conexión de `v120`. El informe lo marca con ⚠ en "CPU servidor máx".
 
 Si todo da bien, la corrida larga. Dura una hora, sube al S3 falso de A (sin `S3_BUCKET`), agrega al mismo `results/` y rearma el informe con todo:

@@ -10,6 +10,8 @@
 #                             del servidor (PUERTO_S3)
 #   SERVIDOR_PROCESOS         procesos del servidor simulado (2, puertos 8443-8444)
 #   DURACION, CALENTAMIENTO   acortan cada escenario (ensayos)
+#   RED_HOST=1                el motor usa la red del host en vez del puente de Docker
+#                             (docker/compose.red-host.yaml); los resultados quedan como <escenario>-host
 # Deja los resultados en results/ (con docker_stats.csv e instancia.json) y el informe en report.md.
 set -euo pipefail
 cd "$(dirname "$0")/.."
@@ -21,6 +23,12 @@ export IP_SERVIDOR=$IP
 export SERVIDOR_PROCESOS=${SERVIDOR_PROCESOS:-2}
 export USUARIO="$(id -u):$(id -g)"
 COMPOSE=(docker compose -f docker/compose.candidata.yaml)
+SUFIJO=""
+if [ "${RED_HOST:-0}" = 1 ]; then
+    COMPOSE+=(-f docker/compose.red-host.yaml)
+    SUFIJO="-host"
+    echo "Red del host para el motor (sin el puente de Docker): resultados como <escenario>$SUFIJO."
+fi
 PUERTO=8443
 
 if [ ! -f certs/ca.pem ]; then
@@ -103,11 +111,11 @@ extra=()
 if [ -n "${DURACION:-}" ]; then extra+=(--duracion "$DURACION"); fi
 if [ -n "${CALENTAMIENTO:-}" ]; then extra+=(--calentamiento "$CALENTAMIENTO"); fi
 for id in $IDS; do
-    echo "== escenario $id"
+    echo "== escenario $id$SUFIJO"
     inicio=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-    "${COMPOSE[@]}" run --rm motor motor --escenario "$id" --salida "results/$id" ${extra[@]+"${extra[@]}"} \
+    "${COMPOSE[@]}" run --rm motor motor --escenario "$id" --salida "results/$id$SUFIJO" ${extra[@]+"${extra[@]}"} \
         || echo "!! el escenario $id falló"
-    echo "$id,$inicio,$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> results/tiempos.csv
+    echo "$id$SUFIJO,$inicio,$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> results/tiempos.csv
     sleep 3
 done
 
