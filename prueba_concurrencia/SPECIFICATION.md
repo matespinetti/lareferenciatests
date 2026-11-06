@@ -129,6 +129,15 @@ Cada escenario dura 3 minutos después de 30 segundos de calentamiento, salvo el
 
 Los escenarios 1 a 3 también se corren con `--modo hilos`, para comparar las dos alternativas según la cantidad de lugares.
 
+**Subida a S3 (`s250` y `ss250`).** El descargador va a subir los archivos a S3 con un proceso aparte. Estos dos escenarios repiten el problema real con 250 lugares (la rodilla medida), con y sin tope de red, agregando el esquema elegido:
+
+- el motor guarda cada archivo mientras lo baja: los de menos de 8 MB en un spool en RAM (`/dev/shm`), los demás en un spool en disco;
+- al terminar el archivo, lo pasa a `listos/` con un rename atómico, nombrado por su SHA-256;
+- un proceso subidor aparte (boto3 con su gestor de transferencias, en su propio núcleo) lo sube a un S3 falso local, con un PUT o multipart en partes de 8 MB, y lo borra del spool; con claves por hash, un archivo repetido se sube una sola vez;
+- si lo pendiente pasa 256 MB en RAM o 4 GB en disco, el motor deja de repartir tareas nuevas, pero lo que está en curso termina: la descarga nunca espera a la subida, porque eso dejaría abierta la conexión con el repositorio.
+
+Se mide si el motor llegó a frenar, cuánto quedó pendiente, la CPU que le agrega al motor escribir el spool, la CPU del subidor y lo que se escribe a disco.
+
 **Barrido de lugares.** El problema real (2.400 repositorios) con 2, 5, 10, 25, 50, 100, 250, 500, 1.000 y 2.400 lugares, 30 s cada uno después de 10 s de calentamiento. Responde cuánto mejora el rendimiento al sumar tareas concurrentes y desde dónde deja de mejorar:
 
 - `b<N>`: con la red de la instancia simulada. Con 2 MB/s por conexión, la red de una t3.small se llena con unos 10 lugares y la de una c6gn.medium con unos 120.
@@ -147,7 +156,7 @@ Para 1.000 lugares o más hay que subir el límite de archivos abiertos (`ulimit
 - **Créditos de CPU:** solo si se corre en una t3. En una corrida de semanas cuenta la línea base, no el pico; anotar el `CPUCreditBalance` de CloudWatch al principio y al final.
 - No hace falta abrir puertos: todo va por localhost.
 - Un script `run_all.sh` corre los escenarios y deja los resultados en `results/` y el informe en `report.md`. Tiene dos versiones:
-  - **chica** (por defecto, la recomendada): escenarios 1, 2, 4, 6, 2h y 7, de 1 minuto cada uno más 10 s de calentamiento, y el barrido con la red de la instancia simulada; unos 16 minutos en total;
+  - **chica** (por defecto, la recomendada): escenarios 1, 2, 4, 6, 2h, 7, s250 y ss250, de 1 minuto cada uno más 10 s de calentamiento, y el barrido con la red de la instancia simulada; unos 19 minutos en total;
   - **completa** (`./run_all.sh completa`): todos los escenarios con la duración de esta spec y los dos barridos, alrededor de 2 horas.
 - Terminar la instancia al finalizar.
 

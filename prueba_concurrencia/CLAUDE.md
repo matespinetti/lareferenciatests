@@ -20,6 +20,7 @@ Un número equivocado lleva a una decisión de arquitectura equivocada. Ante la 
 - **Una Mac no sirve para los números finales.** Con miles de conexiones TLS por loopback, macOS se queda sin memoria para sockets (error 55, `ENOBUFS`) y corta descargas. Los ensayos locales sirven para ver que todo anda; los números salen de EC2.
 - **Los bytes se cuentan a medida que llegan**, no al terminar cada descarga. Un archivo grande a 2 MB/s tarda decenas de segundos: contarlo al final subestima los MB/s de las corridas cortas y corre la CPU por MB.
 - **En el barrido, la ocupación al 100 % y el despacho de segundos con pocos lugares son lo esperado**, no un error: hay más trabajo que lugares. La rodilla se busca con MB/s, no con ítems/s.
+- **Subida (s250, ss250): la descarga nunca espera a la subida.** El motor escribe el spool fuera del bucle (`asyncio.to_thread`) y entrega con un rename atómico; el subidor es otro proceso (no hilos del motor: competirían por el GIL). El único freno es dejar de repartir tareas nuevas, nunca dejar de leer una descarga en curso. En Linux, el subidor va atado al núcleo 1 y el servidor y el S3 falso a los demás.
 - **El servidor simulado no puede ser el cuello de botella.** Las métricas del informe son solo del motor, pero registrá la CPU del servidor como control. Si satura un núcleo, el escenario no vale: hay que moverlo a otra instancia, como dice la spec.
 - **Las métricas son del proceso del motor**, tomadas con psutil y contadores propios una vez por segundo. `cpu_percent` de un proceso puede pasar el 100 % con 2 vCPU: reportalo como porcentaje de un núcleo y aclaralo. El ancho de banda se cuenta en el motor: los contadores de la interfaz de loopback mezclan el tráfico del servidor.
 - **Se corre en una sola máquina con los núcleos repartidos.** En Linux, el motor va atado al núcleo 0 y el servidor (varios procesos) a los demás; con menos de 3 núcleos compiten por la CPU y la medición no vale. Se corre en una c6gn.xlarge para simular una c6gn.medium: mismo procesador.
@@ -67,7 +68,7 @@ sh scripts/certificado.sh certs                 # CA y certificado *.sim.localho
 uv run servidor --escenario 4                   # servidor simulado en https://*.sim.localhost:8443
 uv run motor --escenario 4 --salida results/4 [--duracion 15 --calentamiento 5] [--modo hilos]
 uv run informe --resultados results --salida report.md
-./run_all.sh                                    # versión chica (recomendada): 6 escenarios + barrido, ~16 min
+./run_all.sh                                    # versión chica (recomendada): 8 escenarios + barrido, ~19 min
 ./run_all.sh completa                           # todo con la duración de la spec y los dos barridos, ~2 h
 DURACION=15 CALENTAMIENTO=5 ./run_all.sh 4 7     # algunos escenarios, acortados (ensayos)
 bash scripts/setup_ec2.sh                       # una vez, en la instancia Ubuntu 24.04 (c6gn.xlarge)

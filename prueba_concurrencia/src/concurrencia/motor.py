@@ -25,6 +25,7 @@ from concurrencia.config import Escenario
 from concurrencia.db import Registro
 from concurrencia.distribucion import items_por_repo
 from concurrencia.planificador import Planificador, SeguimientoItems, Tarea, Tipo
+from concurrencia.spool import Directorios, Spool
 
 _TIMEOUT = aiohttp.ClientTimeout(total=None, sock_connect=30, sock_read=60)
 
@@ -73,11 +74,13 @@ class Motor:
         registro: Registro | None,
         contadores: metricas.Contadores,
         procesos: int = 1,
+        spool: Spool | None = None,
     ) -> None:
         self.e = escenario
         self._sesion = sesion
         self._puerto = puerto
         self._procesos = procesos
+        self._spool = spool
         self._registro = registro
         self.contadores = contadores
         self._loop = asyncio.get_running_loop()
@@ -88,6 +91,10 @@ class Motor:
         self._libres: deque[asyncio.Future[tuple[Tarea, float]]] = deque()
         self._hay_libre = asyncio.Event()
         self._cambio = asyncio.Event()
+
+    @property
+    def spool(self) -> Spool | None:
+        return self._spool
 
     async def correr(self) -> None:
         lugares = [asyncio.create_task(self._lugar()) for _ in range(self.e.lugares)]
@@ -103,6 +110,11 @@ class Motor:
             while not self._libres:
                 self._hay_libre.clear()
                 await self._hay_libre.wait()
+            # Freno de la subida: si lo pendiente pasa el límite, no se empieza nada nuevo; lo que
+            # está en curso termina normalmente (la descarga nunca espera a la subida).
+            while self._spool is not None and self._spool.frenar():
+                self.contadores.frenado(0.1)
+                await asyncio.sleep(0.1)
             while (tomada := self.plan.siguiente(self._loop.time())) is None:
                 if self.plan.terminado():
                     return
@@ -161,16 +173,25 @@ class Motor:
                         self.contadores.item_completo()
                 else:
                     h = hashlib.sha256()
-                    async for chunk in respuesta.content.iter_chunked(config.CHUNK):
-                        h.update(chunk)
-                        recibidos += len(chunk)
-                        self.contadores.recibidos(len(chunk), hasheados=True)
-                    if respuesta.content_length is not None and recibidos != respuesta.content_length:
-                        self.contadores.error("archivo_incompleto")
-                    else:
-                        sha = h.hexdigest()
-                        if self.items.descargado(tarea.repo, tarea.item):
-                            self.contadores.item_completo()
+                    destino = self._spool.nuevo(respuesta.content_length) if self._spool else None
+                    try:
+                        async for chunk in respuesta.content.iter_chunked(config.CHUNK):
+                            h.update(chunk)
+                            recibidos += len(chunk)
+                            self.contadores.recibidos(len(chunk), hasheados=True)
+                            if destino is not None:
+                                await destino.escribir(chunk)
+                        if respuesta.content_length is not None and recibidos != respuesta.content_length:
+                            self.contadores.error("archivo_incompleto")
+                        else:
+                            sha = h.hexdigest()
+                            if destino is not None:
+                                await destino.cerrar(sha, recibidos)
+                            if self.items.descargado(tarea.repo, tarea.item):
+                                self.contadores.item_completo()
+                    finally:
+                        if destino is not None:
+                            await destino.descartar()
         except (aiohttp.ClientError, TimeoutError, OSError) as error:
             self.contadores.error(type(error).__name__)
         except Exception as error:
@@ -199,7 +220,11 @@ async def _muestrear(muestreador: metricas.Muestreador, motor: Motor) -> None:
     while True:
         # Si el bucle se atrasa, la fila cubre más de un segundo; no se recuperan filas perdidas.
         await asyncio.sleep(1.0)
-        muestreador.muestra(motor.plan.en_curso, motor.plan.listos_sin_atender(loop.time()))
+        extras = None
+        if motor.spool is not None:
+            await motor.spool.actualizar()
+            extras = motor.spool.metricas()
+        muestreador.muestra(motor.plan.en_curso, motor.plan.listos_sin_atender(loop.time()), extras)
 
 
 async def control(
@@ -223,15 +248,24 @@ async def correr(
     dsn: str | None = None,
     tamano_pool: int = 10,
     procesos: int = 1,
+    puerto_s3: int = config.PUERTO_S3,
+    dir_spool: Path = Path("spool"),
 ) -> dict[str, Any]:
-    """Corre el escenario contra un servidor ya levantado y escribe CSV y JSON en `salida`."""
+    """Corre el escenario contra un servidor ya levantado y escribe CSV y JSON en `salida`.
+
+    Con `subida`, además: el spool en `dir_spool` (y en /dev/shm), el subidor en otro proceso y el
+    S3 falso ya levantado en `puerto_s3`.
+    """
     contadores = metricas.Contadores(con_lock=False)
+    subida = _Subida(dir_spool, certs, puerto_s3) if escenario.subida else None
     async with sesion(certs) as cliente:
         await control(cliente, puerto, "reiniciar", "POST", procesos)
+        if subida is not None:
+            await subida.arrancar(cliente)
         registro = await Registro.abrir(dsn, tamano_pool, contadores) if escenario.db and dsn else None
         if escenario.db and registro is None:
             raise ValueError("el escenario usa --db y falta el DSN de PostgreSQL")
-        motor = Motor(escenario, cliente, puerto, semilla, registro, contadores, procesos)
+        motor = Motor(escenario, cliente, puerto, semilla, registro, contadores, procesos, subida.spool if subida else None)
         muestreador = metricas.Muestreador(contadores, escenario.calentamiento, escenario.lugares)
         terminado_solo = await _durante(
             escenario.calentamiento + escenario.duracion,
@@ -244,10 +278,63 @@ async def correr(
     # El estado del servidor se pide con otra sesión: la del motor puede tener conexiones cortadas.
     async with sesion(certs) as cliente:
         servidor = await control(cliente, puerto, "estado", procesos=procesos)
+        resumen_subida = await subida.terminar(cliente) if subida is not None else None
     resumen = _resumen(escenario, semilla, puerto, contadores, servidor, terminado_solo)
+    if resumen_subida is not None:
+        resumen["subida"] = resumen_subida
     resumen["bucle"] = muestreador.resumen_bucle()
     metricas.escribir(salida, muestreador.filas, resumen)
     return resumen
+
+
+class _Subida:
+    """El spool, el proceso subidor y el estado del S3 falso de un escenario con subida."""
+
+    def __init__(self, dir_spool: Path, certs: Path, puerto_s3: int) -> None:
+        self.dirs = Directorios.en(dir_spool.resolve())
+        self.spool = Spool(self.dirs)
+        self._certs = certs
+        self._puerto_s3 = puerto_s3
+        self._proceso: Any = None
+
+    def _url(self, ruta: str) -> str:
+        return f"https://s3.{config.DOMINIO}:{self._puerto_s3}/__s3/{ruta}"
+
+    async def arrancar(self, cliente: aiohttp.ClientSession) -> None:
+        import multiprocessing
+        import os
+
+        from concurrencia import subidor
+
+        await asyncio.to_thread(self.dirs.preparar)
+        async with cliente.post(self._url("reiniciar")) as respuesta:
+            respuesta.raise_for_status()
+        cpu = os.environ.get("SUBIDOR_CPU")
+        self._proceso = multiprocessing.get_context("spawn").Process(
+            target=subidor.correr,
+            args=(self.dirs, f"https://s3.{config.DOMINIO}:{self._puerto_s3}", self._certs / "ca.pem",
+                  config.SUBIDAS_EN_PARALELO, int(cpu) if cpu else None),  # fmt: skip
+            daemon=True,
+        )
+        self._proceso.start()
+
+    async def terminar(self, cliente: aiohttp.ClientSession) -> dict[str, Any]:
+        """Para el subidor y junta lo que quedó: subido, pendiente y lo que recibió el S3 falso."""
+        await asyncio.to_thread(self.dirs.parar.touch)
+        await asyncio.to_thread(self._proceso.join, 30)
+        await self.spool.actualizar()
+        async with cliente.get(self._url("estado")) as respuesta:
+            s3 = await respuesta.json()
+        estado = self.spool.subidor
+        resumen = {
+            "entregado_bytes": dict(self.spool.entregado),
+            "pendiente_final_bytes": {s: self.spool.pendiente(s) for s in ("ram", "disco")},
+            "subidor": {k: v for k, v in estado.items() if k != "cpu"},
+            "subidor_cpu": estado.get("cpu", []),
+            "s3": s3,
+        }
+        await asyncio.to_thread(self.dirs.limpiar)
+        return resumen
 
 
 async def _durante(

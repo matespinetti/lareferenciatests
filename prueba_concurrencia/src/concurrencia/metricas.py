@@ -35,6 +35,7 @@ COLUMNAS = [
     "gc_pausas", "gc_ms",
     "errores", "r429", "r503",
     "db_tx", "db_commit_p95_ms", "db_espera_p95_ms",
+    "disco_escritura_mb_s", "pendiente_ram_mb", "pendiente_disco_mb", "subida_mb_s", "subidor_cpu", "frenado_s",
 ]  # fmt: skip
 
 
@@ -67,6 +68,7 @@ class _Segundo:
     r429: int = 0
     r503: int = 0
     db_commits: list[float] = field(default_factory=list)
+    frenado: float = 0.0
     db_esperas: list[float] = field(default_factory=list)
 
 
@@ -107,6 +109,11 @@ class Contadores:
             self._actual.bytes += n
             if hasheados:
                 self._actual.bytes_hash += n
+
+    def frenado(self, segundos: float) -> None:
+        """Tiempo que el despachador no repartió tareas porque la subida estaba atrasada."""
+        with self._lock:
+            self._actual.frenado += segundos
 
     def item_completo(self) -> None:
         with self._lock:
@@ -169,11 +176,20 @@ class Muestreador:
         self._origen = self._t
         self._conexiones = 0
         self._bucle = array("d")
+        self._disco = self._escrito_en_disco()
+        self._subido = 0
         """Todas las muestras del retraso del bucle fuera del calentamiento, para sus percentiles."""
         psutil.cpu_times_percent(interval=None)
         psutil.cpu_percent(interval=None)
 
-    def muestra(self, en_curso: int, listos_sin_atender: int) -> dict[str, Any]:
+    @staticmethod
+    def _escrito_en_disco() -> int:
+        contadores = psutil.disk_io_counters()
+        return contadores.write_bytes if contadores else 0
+
+    def muestra(
+        self, en_curso: int, listos_sin_atender: int, extras: dict[str, float] | None = None
+    ) -> dict[str, Any]:
         ahora = time.monotonic()
         dt = ahora - self._t
         cpu, ctx = self._proceso.cpu_times(), self._proceso.num_ctx_switches()
@@ -235,7 +251,17 @@ class Muestreador:
             "db_tx": round(len(s.db_commits) / dt, 2),
             "db_commit_p95_ms": round(ms * percentil(s.db_commits, 0.95), 2),
             "db_espera_p95_ms": round(ms * percentil(s.db_esperas, 0.95), 2),
+            "frenado_s": round(s.frenado, 2),
         }
+        disco = self._escrito_en_disco()
+        fila["disco_escritura_mb_s"] = round((disco - self._disco) / 2**20 / dt, 2)
+        self._disco = disco
+        extras = extras or {}
+        subido = int(extras.get("subido_bytes", self._subido))
+        fila["subida_mb_s"] = round((subido - self._subido) / 2**20 / dt, 2)
+        self._subido = subido
+        for clave in ("pendiente_ram_mb", "pendiente_disco_mb", "subidor_cpu"):
+            fila[clave] = round(extras.get(clave, 0.0), 1)
         self._cpu, self._ctx, self._t = cpu, ctx, ahora
         if not fila["calentamiento"]:
             self._bucle.extend(s.bucle)

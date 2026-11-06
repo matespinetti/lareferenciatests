@@ -6,10 +6,18 @@ from pathlib import Path
 import pytest
 
 SRC = Path(__file__).parent.parent / "src" / "concurrencia"
-CORRUTINAS = ["motor.py", "servidor.py", "db.py", "resolucion.py", "planificador.py", "distribucion.py", "metricas.py"]
+CORRUTINAS = [
+    "motor.py", "servidor.py", "db.py", "resolucion.py", "planificador.py", "distribucion.py", "metricas.py",
+    "spool.py", "s3falso.py",
+]  # fmt: skip
 PUROS = ["planificador.py", "distribucion.py", "resolucion.py"]
 # Escribe el CSV y el JSON al terminar la corrida, no mientras se mide.
-_PERMITIDO_OPEN = {("metricas.py", "escribir")}
+_PERMITIDO_OPEN = {
+    ("metricas.py", "escribir"),
+    # Corren con asyncio.to_thread, fuera del bucle de eventos.
+    ("spool.py", "_volcar"),
+    ("spool.py", "_terminar"),
+}
 
 
 def _arbol(nombre: str) -> ast.Module:

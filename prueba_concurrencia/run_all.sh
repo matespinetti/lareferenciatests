@@ -2,8 +2,9 @@
 # Corre los escenarios y deja los resultados en results/ y el informe en report.md.
 #
 # Uso:
-#   ./run_all.sh              versión chica (recomendada), ~16 min:
-#                             escenarios 1 2 4 6 2h 7 a 1 min cada uno, y el barrido de lugares con la red de la instancia simulada
+#   ./run_all.sh              versión chica (recomendada), ~19 min:
+#                             escenarios 1 2 4 6 2h 7 s250 ss250 a 1 min cada uno, y el barrido de lugares con la red
+#                             de la instancia simulada
 #   ./run_all.sh completa     todos los escenarios con la duración de la spec y los dos barridos, ~2 h
 #   ./run_all.sh 1 4 b10      solo esos escenarios, con la duración de la spec
 # Variables:
@@ -16,12 +17,14 @@
 #   ANCHO_MB_S                MB/s que el servidor entrega por conexión (2: supuesto; medirlo con
 #                             `relevamiento medir-velocidad`)
 #   PUERTO                    puerto del servidor simulado (8443)
+#   PUERTO_S3, SPOOL          S3 falso (9443) y spool en disco (spool/) de los escenarios con subida (s250, ss250)
 set -euo pipefail
 cd "$(dirname "$0")"
 
 BARRIDO="b2 b5 b10 b25 b50 b100 b250 b500 b1000 b2400"
 BARRIDO_SIN_TOPE="bs2 bs5 bs10 bs25 bs50 bs100 bs250 bs500 bs1000 bs2400"
 PUERTO=${PUERTO:-8443}
+export PUERTO_S3=${PUERTO_S3:-9443}
 export INSTANCIA=${INSTANCIA:-c6gn.medium}
 
 # En Linux, el motor va solo en el núcleo 0 (emula una instancia de 1 vCPU y su CPU no se mezcla
@@ -62,7 +65,17 @@ correr_ids() {
             continue
         fi
         echo "== escenario $id"
-        ${SERVIDOR_CPU[@]+"${SERVIDOR_CPU[@]}"} .venv/bin/servidor --escenario "$id" --puerto "$PUERTO" --certs certs &
+        # Con subida (s250, ss250): el subidor va solo en el núcleo 1, y el servidor y el S3 falso en los demás.
+        local servidor_cpu=(${SERVIDOR_CPU[@]+"${SERVIDOR_CPU[@]}"}) s3=""
+        if [[ "$id" =~ ^s+[0-9]+$ ]]; then
+            if [ ${#MOTOR_CPU[@]} -gt 0 ] && [ "$nucleos" -ge 4 ]; then
+                servidor_cpu=(taskset -c "2-$((nucleos - 1))")
+                export SUBIDOR_CPU=1
+            fi
+            ${servidor_cpu[@]+"${servidor_cpu[@]}"} .venv/bin/s3falso --puerto "$PUERTO_S3" --certs certs &
+            s3=$!
+        fi
+        ${servidor_cpu[@]+"${servidor_cpu[@]}"} .venv/bin/servidor --escenario "$id" --puerto "$PUERTO" --certs certs &
         local servidor=$!
         local ultimo=$((PUERTO + SERVIDOR_PROCESOS - 1))
         for _ in $(seq 100); do
@@ -72,24 +85,34 @@ correr_ids() {
             fi
             sleep 0.2
         done
+        if [ -n "$s3" ]; then
+            for _ in $(seq 100); do
+                if curl -s --cacert certs/ca.pem --resolve "s3.sim.localhost:$PUERTO_S3:127.0.0.1" \
+                    "https://s3.sim.localhost:$PUERTO_S3/__s3/estado" > /dev/null; then
+                    break
+                fi
+                sleep 0.2
+            done
+        fi
         local inicio
         inicio=$(date -u +%Y-%m-%dT%H:%M:%SZ)
         ${MOTOR_CPU[@]+"${MOTOR_CPU[@]}"} .venv/bin/motor --escenario "$id" --salida "results/$id" --puerto "$PUERTO" --certs certs \
             ${extra[@]+"${extra[@]}"} || echo "!! el escenario $id falló"
         echo "$id,$inicio,$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> results/tiempos.csv
-        kill "$servidor" 2>/dev/null || true
-        wait "$servidor" 2>/dev/null || true
+        kill "$servidor" ${s3:+"$s3"} 2>/dev/null || true
+        wait "$servidor" ${s3:+"$s3"} 2>/dev/null || true
+        unset SUBIDOR_CPU
         sleep 3
     done
 }
 
 case "${1:-chica}" in
     chica)
-        correr_ids "1 2 4 6 2h 7" "${DURACION:-60}" "${CALENTAMIENTO:-10}"
+        correr_ids "1 2 4 6 2h 7 s250 ss250" "${DURACION:-60}" "${CALENTAMIENTO:-10}"
         correr_ids "$BARRIDO" "${DURACION:-}" "${CALENTAMIENTO:-}"
         ;;
     completa)
-        correr_ids "1 2 3 4 5 6 7 8 9 1h 2h 3h $BARRIDO $BARRIDO_SIN_TOPE" "${DURACION:-}" "${CALENTAMIENTO:-}"
+        correr_ids "1 2 3 4 5 6 7 8 9 1h 2h 3h s250 ss250 $BARRIDO $BARRIDO_SIN_TOPE" "${DURACION:-}" "${CALENTAMIENTO:-}"
         ;;
     *)
         correr_ids "$*" "${DURACION:-}" "${CALENTAMIENTO:-}"

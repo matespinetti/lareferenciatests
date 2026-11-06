@@ -148,6 +148,8 @@ class Servidor:
             loop = asyncio.get_running_loop()
             inicio = loop.time()
             enviados = 0
+            # Cada archivo es único (si no, todos darían el mismo hash y el subidor no subiría casi nada).
+            marca = b"%d:%d:%d:%d\n" % (self.p.semilla, repo, item, archivo)
             while enviados < tamano:
                 n = min(config.CHUNK, tamano - enviados)
                 # Ancho de banda fijo por conexión: no adelantarse al ritmo previsto.
@@ -155,7 +157,7 @@ class Servidor:
                 if espera > 0:
                     await asyncio.sleep(espera)
                 await self._esperar_red(n)
-                await respuesta.write(_BLOQUE[:n])
+                await respuesta.write((marca + _BLOQUE)[:n] if enviados == 0 else _BLOQUE[:n])
                 enviados += n
             await respuesta.write_eof()
             return respuesta

@@ -14,6 +14,7 @@ from concurrencia.config import Modo
 servidor_app = typer.Typer(add_completion=False)
 motor_app = typer.Typer(add_completion=False)
 informe_app = typer.Typer(add_completion=False)
+s3falso_app = typer.Typer(add_completion=False)
 
 _CERTS = Path("certs")
 _INSTANCIA = typer.Option(
@@ -89,6 +90,8 @@ def motor(
     procesos: Annotated[int, _PROCESOS] = 1,
     dsn: Annotated[str | None, typer.Option(envvar="CONCURRENCIA_DSN", help="PostgreSQL para --db")] = None,
     puerto: int = config.PUERTO,
+    puerto_s3: Annotated[int, typer.Option(envvar="PUERTO_S3", help="S3 falso (escenarios con subida)")] = config.PUERTO_S3,
+    spool: Annotated[Path, typer.Option(envvar="SPOOL", help="Spool en disco (escenarios con subida)")] = Path("spool"),
     certs: Path = _CERTS,
     semilla: int = config.SEMILLA,
 ) -> None:
@@ -96,6 +99,8 @@ def motor(
     e = config.escenario(escenario, duracion, calentamiento, instancia)
     if modo is not None:
         e = replace(e, modo=modo)
+    if e.subida and e.modo is Modo.HILOS:
+        raise typer.BadParameter("la subida solo está en el modo corrutinas", param_hint="--modo")
     if e.modo is Modo.HILOS:
         from concurrencia import hilos
 
@@ -103,12 +108,26 @@ def motor(
     else:
         from concurrencia import motor as motor_corrutinas
 
-        resumen = asyncio.run(motor_corrutinas.correr(e, puerto, certs, salida, semilla, dsn, procesos=procesos))
+        resumen = asyncio.run(
+            motor_corrutinas.correr(e, puerto, certs, salida, semilla, dsn, procesos=procesos, puerto_s3=puerto_s3, dir_spool=spool)
+        )
     servidor = resumen["servidor"]
     typer.echo(
         f"escenario {e.id} ({e.modo}, red de {e.instancia}): {servidor['pedidos']} pedidos, "
         f"{servidor['violaciones']} violaciones, errores {json.dumps(resumen['errores_por_tipo'])}"
     )
+
+
+@s3falso_app.command()
+def s3falso(puerto: int = config.PUERTO_S3, certs: Path = _CERTS) -> None:
+    """Levanta el S3 falso en 127.0.0.1 hasta que se lo detenga (escenarios con subida)."""
+    from concurrencia.s3falso import servir
+
+    typer.echo(f"S3 falso en https://s3.{config.DOMINIO}:{puerto}")
+    try:
+        asyncio.run(servir(certs, puerto))
+    except KeyboardInterrupt:
+        pass
 
 
 @informe_app.command()

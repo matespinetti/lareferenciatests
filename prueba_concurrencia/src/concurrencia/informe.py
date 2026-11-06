@@ -65,6 +65,8 @@ def resumir(r: Resultado) -> dict[str, Any]:
     cpu_seg = sum(c / 100 for c in cpu)
     calentamiento = int(e["calentamiento"])
     cpu_srv = servidor.get("cpu_servidor", [])[calentamiento:] or [0.0]
+    subida = r.datos.get("subida", {})
+    cpu_s3 = subida.get("s3", {}).get("cpu", [])[calentamiento:] or [0.0]
     descargas = r.col("duracion_descarga_s")
     resoluciones = r.col("duracion_resolucion_s")
     rss = r.col("rss_mb")
@@ -114,7 +116,20 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "violaciones": servidor["violaciones"],
         "cpu_servidor_media": statistics.fmean(cpu_srv),
         "cpu_servidor_max": max(cpu_srv),
-        "valido": max(cpu_srv) < CPU_SERVIDOR_MAX,
+        "valido": max(cpu_srv) < CPU_SERVIDOR_MAX and max(cpu_s3) < CPU_SERVIDOR_MAX,
+        "subida": e.get("subida", False),
+        "subida_mb_s": statistics.fmean(r.col("subida_mb_s")) if r.filas else 0.0,
+        "pendiente_ram_max": max(r.col("pendiente_ram_mb"), default=0.0),
+        "pendiente_disco_max": max(r.col("pendiente_disco_mb"), default=0.0),
+        "frenado_s": sum(r.col("frenado_s")),
+        "disco_escritura_mb_s": statistics.fmean(r.col("disco_escritura_mb_s")) if r.filas else 0.0,
+        "subidor_cpu": statistics.fmean(r.col("subidor_cpu")) if r.filas else 0.0,
+        "subidor_cpu_max": max(r.col("subidor_cpu"), default=0.0),
+        "s3_cpu_max": max(cpu_s3),
+        "subida_errores": subida.get("subidor", {}).get("errores", 0),
+        "pendiente_final_mb": sum(subida.get("pendiente_final_bytes", {}).values()) / config.MB,
+        "subida_multipart": subida.get("s3", {}).get("multipart", 0),
+        "subida_objetos": subida.get("s3", {}).get("objetos", 0),
         "terminado_antes": r.datos.get("terminado_antes_de_tiempo", False),
     }
 
@@ -437,6 +452,59 @@ _NOMBRE_GRUPO = {config.BARRIDO_RED: "con la red de la instancia simulada", conf
 _DIAS = (0, 1, 7, 14, 30, 60)
 
 
+def _seccion_subida(todos: list[dict[str, Any]]) -> list[str]:
+    """Spool y subida a S3: si la descarga llegó a esperar a la subida y cuánto cuesta subir."""
+    con_subida = [r for r in todos if r["subida"]]
+    if not con_subida:
+        return []
+    # Referencia sin subida: el mismo problema, los mismos lugares y la misma red.
+    def referencia(r: dict[str, Any]) -> dict[str, Any] | None:
+        return next(
+            (o for o in todos if not o["subida"] and o["lugares"] == r["lugares"] and o["repos"] == r["repos"]
+             and bool(o["red"]) == bool(r["red"]) and o["modo"] == r["modo"]),
+            None,
+        )  # fmt: skip
+
+    lineas = [
+        "",
+        "## Subida a S3",
+        "",
+        "El motor guarda cada archivo mientras lo baja (los de menos de "
+        f"{_f(config.UMBRAL_DISCO / config.MB, 0)} MB en el spool en RAM, los demás en disco) y, al terminar, lo deja "
+        "para un proceso subidor aparte (boto3, en su propio núcleo) que lo sube a un S3 falso local. Si lo pendiente "
+        f"pasa {_f(config.LIMITE_PENDIENTE_RAM / config.MB, 0)} MB en RAM o "
+        f"{_f(config.LIMITE_PENDIENTE_DISCO / config.MB, 0)} MB en disco, el motor deja de repartir tareas nuevas "
+        "(\"frenado\"). **Lo que importa: frenado en 0 y lo pendiente estable** quieren decir que la descarga nunca "
+        "esperó a la subida.",
+        "",
+        "| Esc. | Lugares | Tope de red | MB/s bajados | MB/s subidos | CPU motor | CPU motor sin subida | RSS motor (MB) "
+        "| CPU subidor (media / máx) | Pendiente máx RAM / disco (MB) | Frenado (s) | Escritura a disco (MB/s) "
+        "| Objetos (multipart) | Errores de subida | Pendiente al final (MB) |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+    ]
+    for r in con_subida:
+        ref = referencia(r)
+        lineas.append(
+            f"| {r['id']} | {r['lugares']} | {_f(r['red'] / config.MB) if r['red'] else 'sin tope'} | {_f(r['mb_s'])} "
+            f"| {_f(r['subida_mb_s'])} | {_f(r['cpu_media'])} | {_f(ref['cpu_media']) + ' (' + ref['id'] + ')' if ref else '—'} "
+            f"| {_f(r['rss_max'], 0)} | {_f(r['subidor_cpu'])} / {_f(r['subidor_cpu_max'])} "
+            f"| {_f(r['pendiente_ram_max'], 0)} / {_f(r['pendiente_disco_max'], 0)} | {_f(r['frenado_s'], 1)} "
+            f"| {_f(r['disco_escritura_mb_s'])} | {r['subida_objetos']} ({r['subida_multipart']}) | {r['subida_errores']} "
+            f"| {_f(r['pendiente_final_mb'], 0)} |"
+        )
+    lineas += [
+        "",
+        "- **CPU motor contra la referencia sin subida:** lo que le agrega al motor escribir el spool (la escritura va "
+        "en hilos aparte, pero dentro del mismo proceso).",
+        "- **CPU del subidor:** lo que cuesta subir, en un proceso aparte. Con el SDK CRT de AWS sería menos.",
+        "- **Escritura a disco:** de toda la máquina; es lo que tiene que sostener el volumen EBS del spool (gp3 da "
+        "125 MB/s de base) y el tope de EBS de la instancia.",
+        "- En corridas cortas pasan sobre todo los archivos chicos: los grandes no llegan a terminar de bajar, así que "
+        "el spool en disco aparece menos de lo que se usaría en la descarga real.",
+    ]
+    return lineas
+
+
 def _f(valor: float, decimales: int = 1) -> str:
     return f"{valor:,.{decimales}f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
@@ -564,6 +632,7 @@ def armar(resultados: Path, salida: Path) -> None:
         _grafico_barrido(grupos, resultados / "barrido.png")
         lineas += ["", f"![Rendimiento y CPU según los lugares]({resultados.name}/barrido.png)"]
 
+    lineas += _seccion_subida(todos)
     lineas += [
         "",
         "## Proyección al problema real",

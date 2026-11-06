@@ -1,0 +1,137 @@
+"""Subidor: un proceso aparte que sube a S3 lo que el motor deja en `listos/`.
+
+Va en su propio proceso para no competir por el GIL con el bucle de eventos del motor. Usa boto3
+con su gestor de transferencias (`s3transfer`): un solo PUT para los archivos chicos y multipart
+para los de `PARTE_S3` o más. La clave es el SHA-256 del archivo, así que un archivo repetido se
+sube una sola vez. Al terminar cada subida borra el archivo del spool.
+
+Cada segundo reescribe `subidor.json` con lo que lleva subido; el motor lo lee para saber cuánto
+quedó pendiente y para frenar si se atrasa.
+"""
+
+import json
+import os
+import time
+from pathlib import Path
+from typing import Any
+
+import psutil
+
+from concurrencia import config
+from concurrencia.spool import Directorios
+
+_PAUSA = 0.05
+
+
+def _cliente(endpoint: str, ca: Path, concurrencia: int) -> Any:
+    import boto3
+    from botocore.config import Config
+
+    return boto3.client(
+        "s3",
+        endpoint_url=endpoint,
+        region_name="us-east-1",
+        aws_access_key_id="prueba",
+        aws_secret_access_key="prueba",
+        verify=str(ca),
+        config=Config(
+            s3={"addressing_style": "path"},
+            # Sin checksums en trailer (aws-chunked): el S3 falso recibe el cuerpo tal cual.
+            request_checksum_calculation="when_required",
+            response_checksum_validation="when_required",
+            max_pool_connections=concurrencia * 2,
+            retries={"max_attempts": 3, "mode": "standard"},
+        ),
+    )
+
+
+def correr(dirs: Directorios, endpoint: str, ca: Path, concurrencia: int, cpu: int | None) -> None:
+    """Sube hasta que aparezca `dirs.parar`; entonces escribe su estado final y termina."""
+    from s3transfer.manager import TransferConfig, TransferManager
+
+    from concurrencia.hilos import resolver_local
+
+    if cpu is not None and hasattr(os, "sched_setaffinity"):
+        os.sched_setaffinity(0, {cpu})
+    proceso = psutil.Process()
+    with resolver_local():
+        cliente = _cliente(endpoint, ca, concurrencia)
+        gestor = TransferManager(
+            cliente,
+            TransferConfig(
+                multipart_threshold=config.PARTE_S3,
+                multipart_chunksize=config.PARTE_S3,
+                max_request_concurrency=concurrencia,
+            ),
+        )
+        estado: dict[str, Any] = {
+            "bytes_ram": 0, "bytes_disco": 0, "archivos": 0, "errores": 0,
+            "duplicados": 0, "duplicados_bytes_ram": 0, "duplicados_bytes_disco": 0, "cpu": [],
+        }  # fmt: skip
+        en_curso: dict[Path, tuple[Any, str, int]] = {}
+        subidos: set[str] = set()
+        cpu_antes, t_antes = proceso.cpu_times(), time.monotonic()
+        proximo_estado = t_antes + 1.0
+        try:
+            while not dirs.parar.exists():
+                _tomar(dirs, gestor, en_curso, subidos, estado)
+                _terminados(en_curso, subidos, estado)
+                if time.monotonic() >= proximo_estado:
+                    ahora, cpu_ahora = time.monotonic(), proceso.cpu_times()
+                    usado = (cpu_ahora.user + cpu_ahora.system) - (cpu_antes.user + cpu_antes.system)
+                    estado["cpu"].append(round(100 * usado / (ahora - t_antes), 1))
+                    cpu_antes, t_antes = cpu_ahora, ahora
+                    proximo_estado = ahora + 1.0
+                    estado["en_curso"] = len(en_curso)
+                    _escribir_estado(dirs.estado, estado)
+                time.sleep(_PAUSA)
+        finally:
+            _terminados(en_curso, subidos, estado)
+            estado["en_curso"] = len(en_curso)
+            estado["final"] = True
+            _escribir_estado(dirs.estado, estado)
+            gestor.shutdown(cancel=True)
+
+
+def _tomar(dirs: Directorios, gestor: Any, en_curso: dict, subidos: set[str], estado: dict[str, Any]) -> None:
+    for listos, spool in zip(dirs.listos(), ("ram", "disco"), strict=True):
+        try:
+            entradas = list(os.scandir(listos))
+        except FileNotFoundError:
+            continue
+        for entrada in entradas:
+            ruta = Path(entrada.path)
+            if ruta in en_curso:
+                continue
+            tamano = entrada.stat().st_size
+            if entrada.name in subidos:
+                # Mismo contenido que uno ya subido: con claves por hash, no hace falta subirlo.
+                ruta.unlink(missing_ok=True)
+                estado["duplicados"] += 1
+                estado[f"duplicados_bytes_{spool}"] += tamano
+                continue
+            futuro = gestor.upload(str(ruta), config.BUCKET, f"sha256/{entrada.name}")
+            en_curso[ruta] = (futuro, spool, tamano)
+
+
+def _terminados(en_curso: dict, subidos: set[str], estado: dict[str, Any]) -> None:
+    for ruta, (futuro, spool, tamano) in list(en_curso.items()):
+        if not futuro.done():
+            continue
+        del en_curso[ruta]
+        try:
+            futuro.result()
+        except Exception:
+            # Se reintenta desde el spool: el archivo sigue ahí y el próximo barrido lo vuelve a tomar.
+            estado["errores"] += 1
+            continue
+        subidos.add(ruta.name)
+        ruta.unlink(missing_ok=True)
+        estado[f"bytes_{spool}"] += tamano
+        estado["archivos"] += 1
+
+
+def _escribir_estado(ruta: Path, estado: dict[str, Any]) -> None:
+    tmp = ruta.with_suffix(".tmp")
+    tmp.write_text(json.dumps(estado))
+    os.replace(tmp, ruta)

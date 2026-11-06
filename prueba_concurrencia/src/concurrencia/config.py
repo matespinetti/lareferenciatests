@@ -45,6 +45,21 @@ PROB_CIERRE = 0.2
 
 DOMINIO = "sim.localhost"
 PUERTO = 8443
+
+# Subida a S3 (escenarios con `subida`): el motor guarda cada archivo mientras lo baja y, al
+# terminar, lo deja listo para un proceso subidor aparte que lo sube a un S3 falso local.
+PUERTO_S3 = 9443
+BUCKET = "descargas"
+UMBRAL_DISCO = 8 * MB
+"""Los archivos de este tamaño o más van al spool en disco; los más chicos, al spool en RAM."""
+PARTE_S3 = 8 * MB
+"""Tamaño de parte del multipart; los archivos más chicos van en un solo PUT."""
+SUBIDAS_EN_PARALELO = 16
+LIMITE_PENDIENTE_RAM = 256 * MB
+LIMITE_PENDIENTE_DISCO = 4 * 1024 * MB
+"""Si lo pendiente de subir pasa estos límites, el motor deja de repartir tareas nuevas."""
+BLOQUE_DISCO = 1 * MB
+"""El spool en disco se escribe de a bloques de este tamaño, fuera del bucle de eventos."""
 SEMILLA = 1
 
 # Problema real.
@@ -143,6 +158,8 @@ class Escenario:
     """Instancia de EC2 que se simula; la fija `escenario()`."""
     grupo: str | None = None
     """Barrido al que pertenece el escenario, para agruparlo en el informe."""
+    subida: bool = False
+    """Si el motor guarda los archivos en el spool y un proceso aparte los sube a un S3 falso."""
 
     @property
     def real(self) -> bool:
@@ -191,6 +208,9 @@ ESCENARIOS: dict[str, Escenario] = {
         _sintetico("1h", 50, "Línea base con hilos", modo=Modo.HILOS),
         _sintetico("2h", 200, "Configuración prevista con hilos", modo=Modo.HILOS),
         _sintetico("3h", 1000, "Margen con hilos", modo=Modo.HILOS),
+        _real("s250", "Subida a S3: spool y subidor aparte, 250 lugares, red de la instancia", lugares=250, subida=True),
+        _real("ss250", "Subida a S3 sin tope de red: capacidad con spool y subida, 250 lugares", lugares=250,
+              subida=True, con_red=False),
         *_barrido("b", BARRIDO_RED, True, "Barrido con la red de la instancia"),
         *_barrido("bs", BARRIDO_SIN_TOPE, False, "Barrido sin tope de red"),
     ]

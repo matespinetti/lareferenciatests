@@ -4,7 +4,7 @@ Qué se hace, en orden:
 
 1. Lanzar una **c6gn.xlarge** (4 vCPU ARM, 8 GB).
 2. Medir desde ahí la velocidad real de los repositorios (`medir-velocidad`, unos 2 minutos).
-3. Correr la prueba de concurrencia con esa velocidad (`run_all.sh`, unos 16 minutos).
+3. Correr la prueba de concurrencia con esa velocidad (`run_all.sh`, unos 19 minutos), incluida la subida a S3.
 4. Traer los resultados a tu máquina.
 5. **Terminar la instancia.**
 
@@ -38,9 +38,12 @@ El `.gitignore` deja afuera los entornos virtuales, `__pycache__` y los resultad
 Se hace después del paso 2, cuando la instancia ya existe:
 
 ```bash
-rsync -av --exclude .venv --exclude __pycache__ --exclude .pytest_cache \
-  -e "ssh -i ~/Downloads/prueba.pem" ~/dev/lareferenciatests ubuntu@IP_PUBLICA:~/
+CLAVE=~/dev/lareferenciatests/prueba_concurrencia/claves/prueba.pem
+rsync -av --exclude .venv --exclude __pycache__ --exclude .pytest_cache --exclude claves \
+  -e "ssh -i $CLAVE" ~/dev/lareferenciatests ubuntu@IP_PUBLICA:~/
 ```
+
+El `--exclude claves` es para que la clave privada no viaje a la instancia.
 
 ---
 
@@ -54,7 +57,7 @@ EC2 → **Launch instance**:
 | Name | `prueba-concurrencia` |
 | AMI | **Ubuntu Server 24.04 LTS**, arquitectura **64-bit (Arm)**. Ojo: no la x86. |
 | Instance type | **c6gn.xlarge** |
-| Key pair | Creá uno nuevo (RSA, `.pem`) y bajalo, por ejemplo `prueba.pem`. |
+| Key pair | Creá uno nuevo (RSA, `.pem`) llamado `prueba` y guardá el `prueba.pem` en **`prueba_concurrencia/claves/`**. Esa carpeta está excluida de git, igual que cualquier `.pem`. |
 | Network settings | VPC por defecto, *Auto-assign public IP*: **Enable**. Security group nuevo con **SSH (22)** desde **My IP**, nada más. |
 | Storage | **20 GiB gp3** |
 | Purchasing option | On-demand, que es lo que viene por defecto. No uses spot: si AWS la corta, se pierde la corrida. |
@@ -64,9 +67,13 @@ EC2 → **Launch instance**:
 ## 2. Entrar a la máquina
 
 ```bash
-chmod 400 ~/Downloads/prueba.pem
-ssh -i ~/Downloads/prueba.pem ubuntu@IP_PUBLICA
+mv ~/Downloads/prueba.pem ~/dev/lareferenciatests/prueba_concurrencia/claves/   # si el navegador la bajó a Descargas
+CLAVE=~/dev/lareferenciatests/prueba_concurrencia/claves/prueba.pem
+chmod 400 "$CLAVE"
+ssh -i "$CLAVE" ubuntu@IP_PUBLICA
 ```
+
+`CLAVE` vale solo en esa terminal. Si abrís otra (por ejemplo, para el paso 8), definila de nuevo con la misma línea.
 
 Ya adentro:
 
@@ -138,7 +145,7 @@ cd ~/lareferenciatests/prueba_concurrencia
 ANCHO_MB_S=3.3 ./run_all.sh 2>&1 | tee run.log
 ```
 
-Tarda **unos 16 minutos**. Al arrancar tiene que decir:
+Tarda **unos 19 minutos**. Al arrancar tiene que decir:
 
 ```
 Instancia simulada: c6gn.medium · servidor en 3 proceso(s) · núcleos: 4
@@ -153,6 +160,8 @@ escenario 4 (corrutinas, red de c6gn.medium): 12345 pedidos, 0 violaciones, erro
 ```
 
 Lo importante es que diga **0 violaciones** y que `errores {}` esté vacío.
+
+En los escenarios `s250` y `ss250` (subida a S3) se levanta además un S3 falso, y el reparto de núcleos cambia: el motor en la CPU 0, el subidor en la CPU 1, y el servidor y el S3 falso en la 2 y la 3.
 
 **Para mirar mientras corre:** dividí tmux con `Ctrl+b` y después `"`, y corré `htop`. Tenés que ver la CPU 0 ocupada por el motor y las CPU 1 a 3 por el servidor.
 
@@ -179,18 +188,20 @@ less report.md
 Fijate en esto:
 - **Escenarios:** violaciones en 0, errores en 0, y que ninguna fila tenga ⚠ en "CPU servidor máx".
 - **Barrido:** dónde está la rodilla.
+- **Subida a S3:** "Frenado (s)" en 0 (la descarga nunca esperó a la subida), lo pendiente chico, cuánto CPU le agrega al motor y cuánto usa el subidor, y la escritura a disco (el volumen gp3 da 125 MB/s de base).
 - **Instancias candidatas:** la fila marcada con ←, la CPU (si tiene ⚠, 1 vCPU no alcanza) y el costo.
 - **Criterio de decisión:** qué cumple y qué no.
 
 ## 8. Traer los resultados (en tu Mac, en otra terminal)
 
 ```bash
+CLAVE=~/dev/lareferenciatests/prueba_concurrencia/claves/prueba.pem
 mkdir -p ~/dev/lareferenciatests/resultados-ec2
 cd ~/dev/lareferenciatests/resultados-ec2
-scp -i ~/Downloads/prueba.pem -r ubuntu@IP_PUBLICA:~/lareferenciatests/prueba_concurrencia/results .
-scp -i ~/Downloads/prueba.pem ubuntu@IP_PUBLICA:~/lareferenciatests/prueba_concurrencia/report.md .
-scp -i ~/Downloads/prueba.pem ubuntu@IP_PUBLICA:~/lareferenciatests/prueba_concurrencia/run.log .
-scp -i ~/Downloads/prueba.pem -r ubuntu@IP_PUBLICA:~/lareferenciatests/relevamiento_exploratorio/medicion-ec2 .
+scp -i "$CLAVE" -r ubuntu@IP_PUBLICA:~/lareferenciatests/prueba_concurrencia/results .
+scp -i "$CLAVE" ubuntu@IP_PUBLICA:~/lareferenciatests/prueba_concurrencia/report.md .
+scp -i "$CLAVE" ubuntu@IP_PUBLICA:~/lareferenciatests/prueba_concurrencia/run.log .
+scp -i "$CLAVE" -r ubuntu@IP_PUBLICA:~/lareferenciatests/relevamiento_exploratorio/medicion-ec2 .
 ```
 
 Si hiciste corridas opcionales, bajá también las carpetas `results-*` y los `report-*.md`.
@@ -215,7 +226,7 @@ Una instancia olvidada prendida cuesta unos USD 125 por mes.
 | `!! Con menos de 3 núcleos…` | Elegiste otra instancia. Tiene que ser c6gn.xlarge, con 4 vCPU. |
 | `Address already in use` | Quedó un servidor de una corrida cortada: `pkill -f bin/servidor` y volvé a correr. |
 | Se cortó el SSH | `ssh …` y después `tmux attach -t prueba`. La corrida siguió. |
-| En el informe aparece ⚠ en "CPU servidor máx" | El servidor simulado fue el límite en ese escenario. Avisame: se puede repetir en una c6gn.2xlarge (8 vCPU), que tiene más núcleos para el servidor. |
+| En el informe aparece ⚠ en "CPU servidor máx" | El servidor simulado (o el S3 falso, en `s250` y `ss250`) fue el límite en ese escenario. Avisame: se puede repetir en una c6gn.2xlarge (8 vCPU), que tiene más núcleos para el servidor. |
 | `medir-velocidad`: "Es horario laboral" | Agregá `--en-horario-ok`. |
 | `verificar-cortesia` no da OK | No sigas pidiendo a los repositorios. Pasame la salida. |
 | `git clone` pide contraseña y falla | Usá un token de GitHub en vez de la contraseña, o la opción B (rsync). |

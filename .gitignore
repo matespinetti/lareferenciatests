@@ -4,8 +4,14 @@ __pycache__/
 *.pyc
 .DS_Store
 
+# Claves SSH de la instancia de EC2: nunca al repositorio.
+prueba_concurrencia/claves/
+*.pem
+
 # Prueba de concurrencia: se generan en cada corrida.
 prueba_concurrencia/certs/
 prueba_concurrencia/results/
 prueba_concurrencia/report.md
 prueba_concurrencia/run.log
+prueba_concurrencia/spool/
+prueba_concurrencia/spool-ram/

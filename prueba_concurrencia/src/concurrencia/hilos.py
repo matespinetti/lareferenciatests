@@ -32,7 +32,7 @@ _LOCALES = {"127.0.0.1", "::1", "localhost", None}
 
 
 @contextlib.contextmanager
-def _resolver_local() -> Iterator[None]:
+def resolver_local() -> Iterator[None]:
     """`*.sim.localhost` a 127.0.0.1 sin DNS, como el resolver del motor; requests no acepta uno.
 
     Rechaza cualquier host de afuera, así ningún pedido sale de la máquina.
@@ -217,7 +217,7 @@ def correr(
     """Corre el escenario en modo hilos y escribe CSV y JSON en `salida`."""
     from concurrent.futures import ThreadPoolExecutor
 
-    with _resolver_local(), _sesion(escenario, certs) as sesion:
+    with resolver_local(), _sesion(escenario, certs) as sesion:
         _control(sesion, puerto, "reiniciar", "POST", procesos)
         motor = MotorHilos(escenario, sesion, puerto, semilla, procesos)
         muestreador = metricas.Muestreador(motor.contadores, escenario.calentamiento, escenario.lugares)

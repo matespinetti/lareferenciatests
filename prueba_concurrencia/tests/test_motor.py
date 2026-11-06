@@ -85,3 +85,31 @@ def test_red_de_la_instancia_simulada():
     assert config.escenario("6", instancia_="c6gn.medium").red is None
     assert config.INSTANCIAS["t3.small"].cpu_disponible == 40.0
     assert config.INSTANCIAS["c6gn.medium"].cpu_disponible == 80.0
+
+
+async def test_humo_con_subida(levantar, certs, tmp_path):
+    from aiohttp import web
+
+    from concurrencia.s3falso import S3Falso
+    from concurrencia.servidor import contexto_ssl
+
+    _, puerto = await levantar(Parametros(tam_archivo=200_000, latencia=latencia_fija(0.1)))
+    s3 = S3Falso()
+    runner = web.AppRunner(s3.app(), access_log=None)
+    await runner.setup()
+    puerto_s3 = puertos_libres(1)
+    await web.TCPSite(runner, "127.0.0.1", puerto_s3, ssl_context=contexto_ssl(certs)).start()
+    escenario = replace(_escenario(Modo.CORRUTINAS), subida=True, duracion=5.0)
+    try:
+        resumen = await motor.correr(escenario, puerto, certs, tmp_path / "sub", puerto_s3=puerto_s3,
+                                     dir_spool=tmp_path / "spool")  # fmt: skip
+    finally:
+        await runner.cleanup()
+    assert resumen["servidor"]["violaciones"] == 0 and resumen["errores_por_tipo"] == {}
+    subida = resumen["subida"]
+    assert subida["subidor"]["errores"] == 0
+    assert subida["subidor"]["bytes_ram"] > 0 and s3.bytes == subida["subidor"]["bytes_ram"]
+    with (tmp_path / "sub.csv").open() as f:
+        filas = list(csv.DictReader(f))
+    assert sum(float(f["subida_mb_s"]) for f in filas) > 0
+    assert not (tmp_path / "spool").exists()
