@@ -26,8 +26,15 @@ Tiempo: alrededor de 2 horas, de las que 1 es la corrida larga. Costo: **unos US
 - **La corrida de 1 hora sube al S3 falso de A.** Con S3 real serían unos 600 GB y 240.000 PUT, más de USD 2. Lo que se mide en esa hora está en B: memoria estable, el EBS después de la ráfaga y la CPU de subir. B hace exactamente lo mismo con uno u otro S3: el mismo boto3 y los mismos bytes saliendo por su placa de red. Que S3 real responde bien ya lo muestran las corridas cortas.
 
 Abreviaturas de la guía:
-- **IP_A** e **IP_B**: las IP **públicas** de cada instancia, para entrar por SSH.
-- **IP_PRIVADA_A**: la IP privada de A, la que usa B para pedirle.
+- **`$IP_A`** e **`$IP_B`**: las IP **públicas** de cada instancia, para entrar por SSH. Se definen en la Mac, en cada terminal nueva, junto con la clave:
+
+  ```bash
+  CLAVE=~/dev/lareferenciatests/prueba_concurrencia/claves/pruebareferencia.pem
+  IP_A=…        # pública del simulador
+  IP_B=…        # pública de la candidata
+  ```
+
+- **`$IP_PRIVADA_A`**: la IP privada de A, la que usa B para pedirle. Se define **dentro de B** (paso 5), porque los comandos que la usan corren ahí.
 
 ---
 
@@ -118,14 +125,14 @@ EC2 → **Launch instance**, como en `GUIA_EC2.md`:
 Así solo B (y A) llegan al servidor simulado; desde internet sigue cerrado.
 
 Anotá:
-- de A, la **Private IPv4** (IP_PRIVADA_A) y la pública (IP_A);
-- de B, la pública (IP_B).
+- de A, la **Private IPv4** (`$IP_PRIVADA_A`) y la pública (`$IP_A`);
+- de B, la pública (`$IP_B`).
 
 ## 4. A: levantar el servidor simulado
 
 ```bash
 CLAVE=~/dev/lareferenciatests/prueba_concurrencia/claves/pruebareferencia.pem
-ssh -i "$CLAVE" ubuntu@IP_A
+ssh -i "$CLAVE" ubuntu@"$IP_A"
 ```
 
 Adentro, la primera vez (el script instala `uv`, sube los límites de conexiones, arma los certificados y corre los tests):
@@ -165,8 +172,8 @@ En otra terminal de tu Mac, primero copiá la CA de A a B (B la necesita para ve
 
 ```bash
 CLAVE=~/dev/lareferenciatests/prueba_concurrencia/claves/pruebareferencia.pem
-scp -i "$CLAVE" ubuntu@IP_A:~/lareferenciatests/prueba_concurrencia/certs/ca.pem /tmp/ca-prueba.pem
-ssh -i "$CLAVE" ubuntu@IP_B
+scp -i "$CLAVE" ubuntu@"$IP_A":~/lareferenciatests/prueba_concurrencia/certs/ca.pem /tmp/ca-prueba.pem
+ssh -i "$CLAVE" ubuntu@"$IP_B"
 ```
 
 En B:
@@ -180,9 +187,9 @@ exit
 Salir y volver a entrar hace falta para que `ubuntu` quede en el grupo `docker`. Desde la Mac:
 
 ```bash
-ssh -i "$CLAVE" ubuntu@IP_B "git clone -b subida-s3 https://github.com/matespinetti/lareferenciatests.git && mkdir -p lareferenciatests/prueba_concurrencia/certs"
-scp -i "$CLAVE" /tmp/ca-prueba.pem ubuntu@IP_B:~/lareferenciatests/prueba_concurrencia/certs/ca.pem
-ssh -i "$CLAVE" ubuntu@IP_B
+ssh -i "$CLAVE" ubuntu@"$IP_B" "git clone -b subida-s3 https://github.com/matespinetti/lareferenciatests.git && mkdir -p lareferenciatests/prueba_concurrencia/certs"
+scp -i "$CLAVE" /tmp/ca-prueba.pem ubuntu@"$IP_B":~/lareferenciatests/prueba_concurrencia/certs/ca.pem
+ssh -i "$CLAVE" ubuntu@"$IP_B"
 ```
 
 Como el repositorio es privado, `git clone` pide usuario y un token de GitHub, igual que en `GUIA_EC2.md`.
@@ -190,9 +197,10 @@ Como el repositorio es privado, `git clone` pide usuario y un token de GitHub, i
 En B, revisá tres cosas antes de correr:
 
 ```bash
+echo "export IP_PRIVADA_A=…" >> ~/.bashrc && source ~/.bashrc   # la IP privada de A; queda para tmux y las sesiones nuevas
 cd ~/lareferenciatests/prueba_concurrencia
 nproc; free -m                    # 1 y unos 1.900 MB
-curl -s --cacert certs/ca.pem --resolve control.sim.localhost:8443:IP_PRIVADA_A \
+curl -s --cacert certs/ca.pem --resolve control.sim.localhost:8443:"$IP_PRIVADA_A" \
   https://control.sim.localhost:8443/__control/estado | head -c 80; echo
 IP_SERVIDOR=x docker compose -f docker/compose.candidata.yaml build motor
 IP_SERVIDOR=x docker compose -f docker/compose.candidata.yaml run --rm --no-deps motor \
@@ -208,7 +216,7 @@ IP_SERVIDOR=x docker compose -f docker/compose.candidata.yaml run --rm --no-deps
 tmux new -s candidata
 cd ~/lareferenciatests/prueba_concurrencia
 export S3_BUCKET=NOMBRE_DEL_BUCKET ANCHO_MB_S=2.15
-bash scripts/candidata.sh IP_PRIVADA_A 2>&1 | tee run.log
+bash scripts/candidata.sh "$IP_PRIVADA_A" 2>&1 | tee run.log
 ```
 
 Corre **b120, s120 y v120**, de 3,5 minutos cada uno: unos 12 minutos más el build.
@@ -231,10 +239,10 @@ Si todo da bien, la corrida larga. Dura una hora, sube al S3 falso de A (sin `S3
 
 ```bash
 unset S3_BUCKET
-bash scripts/candidata.sh IP_PRIVADA_A v120h 2>&1 | tee -a run.log
+bash scripts/candidata.sh "$IP_PRIVADA_A" v120h 2>&1 | tee -a run.log
 ```
 
-Tiene que decir `S3_BUCKET vacío: la subida va al S3 falso en IP_PRIVADA_A:9443.` En el informe, la columna "Subida" muestra cuál usó cada escenario.
+Tiene que decir `S3_BUCKET vacío: la subida va al S3 falso en <IP privada de A>:9443.` En el informe, la columna "Subida" muestra cuál usó cada escenario.
 
 **Para mirar mientras corre:** `Ctrl+b "` y `htop` en B; tiene un solo núcleo.
 - En A, en otra ventana de tmux, `htop`: el servidor no tendría que llegar al 100 % en ningún núcleo.
@@ -266,9 +274,9 @@ La sección que importa es **"Validación en una c6gn.medium real"**:
 ```bash
 CLAVE=~/dev/lareferenciatests/prueba_concurrencia/claves/pruebareferencia.pem
 mkdir -p ~/dev/lareferenciatests/resultados-ec2-candidata && cd ~/dev/lareferenciatests/resultados-ec2-candidata
-scp -i "$CLAVE" -r ubuntu@IP_B:~/lareferenciatests/prueba_concurrencia/results .
-scp -i "$CLAVE" ubuntu@IP_B:~/lareferenciatests/prueba_concurrencia/report.md .
-scp -i "$CLAVE" ubuntu@IP_B:~/lareferenciatests/prueba_concurrencia/run.log .
+scp -i "$CLAVE" -r ubuntu@"$IP_B":~/lareferenciatests/prueba_concurrencia/results .
+scp -i "$CLAVE" ubuntu@"$IP_B":~/lareferenciatests/prueba_concurrencia/report.md .
+scp -i "$CLAVE" ubuntu@"$IP_B":~/lareferenciatests/prueba_concurrencia/run.log .
 ```
 
 ## 9. Limpiar (no te olvides)
@@ -285,7 +293,7 @@ scp -i "$CLAVE" ubuntu@IP_B:~/lareferenciatests/prueba_concurrencia/run.log .
 
 | Síntoma | Qué hacer |
 |---|---|
-| `!! El servidor simulado no responde en IP_PRIVADA_A:8443` | ¿Está corriendo en A con `HOST=0.0.0.0`? ¿La regla del security group tiene como origen el mismo grupo? ¿Usaste la IP **privada**? |
+| `!! El servidor simulado no responde en <IP privada de A>:8443` | ¿Está corriendo en A con `HOST=0.0.0.0`? ¿La regla del security group tiene como origen el mismo grupo? ¿Usaste la IP **privada**? |
 | `!! Sin S3_BUCKET la subida va al S3 falso, y no responde` | En A, ¿está corriendo el `s3falso` con `HOST=0.0.0.0`? ¿La regla del puerto 9443? |
 | `Unable to locate credentials` o `AccessDenied` en la subida (errores de subida > 0) | Hop limit en 2 (paso 5), el rol asignado a B y el nombre del bucket en la política y en `S3_BUCKET`. |
 | `permission denied while trying to connect to the Docker daemon` | Faltó salir y volver a entrar después del `usermod` (paso 5). |
