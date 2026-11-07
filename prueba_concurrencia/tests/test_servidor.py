@@ -11,6 +11,8 @@ from tests.conftest import latencia_fija
 
 
 def _sin_errores(**extra: object) -> Parametros:
+    # Velocidad pareja de 2 MB/s en todos los repositorios, para poder medir tiempos exactos.
+    extra = {"ancho": 2 * config.MB, "ancho_sigma": 0.0} | extra
     return Parametros(prob_429=0.0, prob_503=0.0, latencia=latencia_fija(0.05), **extra)  # type: ignore[arg-type]
 
 
@@ -74,16 +76,20 @@ async def test_429_con_retry_after(levantar, certs):
 
 
 async def test_pagina_con_enlaces_y_tiempo_de_servicio(levantar, certs):
+    from concurrencia.distribucion import descargas_del_item
+
     _, puerto = await levantar(_sin_errores())
+    # Un ítem con archivos: uno de cada cinco no tiene ninguno, como en los pilotos.
+    item = next(i for i in range(100) if descargas_del_item(config.SEMILLA, 5, i) > 0)
     async with motor.sesion(certs) as cliente:
-        async with cliente.get(resolucion.url(Tarea(Tipo.RESOLUCION, 5, 9), puerto)) as r:
+        async with cliente.get(resolucion.url(Tarea(Tipo.RESOLUCION, 5, item), puerto)) as r:
             cuerpo = await r.read()
             servicio = float(r.headers["X-Tiempo-Servicio"])
     from concurrencia.resolucion import descargas
 
     tareas = descargas(cuerpo)
-    assert config.DESCARGAS_MIN <= len(tareas) <= config.DESCARGAS_MAX
-    assert {(t.repo, t.item) for t in tareas} == {(5, 9)}
+    assert len(tareas) == descargas_del_item(config.SEMILLA, 5, item) and len(tareas) in config.ARCHIVOS_POR_ITEM
+    assert {(t.repo, t.item) for t in tareas} == {(5, item)}
     assert servicio >= 0.05
 
 
@@ -124,3 +130,21 @@ async def test_servir_en_el_host_indicado(certs):
     finally:
         tarea.cancel()
         await asyncio.gather(tarea, return_exceptions=True)
+
+
+async def test_cada_repositorio_entrega_a_su_velocidad(levantar, certs):
+    from concurrencia.distribucion import ancho_repo
+
+    _, puerto = await levantar(Parametros(prob_429=0.0, prob_503=0.0, latencia=latencia_fija(0.01), tam_archivo=config.MB // 2))
+    # El repositorio más lento y el más rápido de los primeros 40.
+    anchos = {r: ancho_repo(config.SEMILLA, r) for r in range(40)}
+    lento, rapido = min(anchos, key=anchos.get), max(anchos, key=anchos.get)
+    tiempos = {}
+    async with motor.sesion(certs) as cliente:
+        for repo in (lento, rapido):
+            t0 = time.monotonic()
+            async with cliente.get(resolucion.url(Tarea(Tipo.DESCARGA, repo, 0, 0), puerto)) as r:
+                await r.read()
+            tiempos[repo] = time.monotonic() - t0
+    for repo in (lento, rapido):
+        assert tiempos[repo] == pytest.approx(0.01 + config.MB / 2 / anchos[repo], rel=0.25, abs=0.05)

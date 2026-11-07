@@ -406,6 +406,8 @@ def _resumen(
         },
         "supuestos": {
             "ancho_por_conexion_mb_s": config.ANCHO_POR_CONEXION / config.MB,
+            "ancho_sigma": config.ANCHO_SIGMA,
+            "descargas_por_item": config.DESCARGAS_POR_ITEM,
             "intervalo_s": config.INTERVALO,
         },
     }

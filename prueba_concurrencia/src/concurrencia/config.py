@@ -4,6 +4,7 @@ Los percentiles salen de `relevamiento_exploratorio/piloto*/pedidos.jsonl` (596 
 latencia, 537 páginas y 51 archivos con tamaño conocido por `Content-Range`).
 """
 
+import math
 import os
 from dataclasses import dataclass, replace
 from enum import StrEnum
@@ -22,11 +23,22 @@ ARCHIVO_P50 = 529_207
 ARCHIVO_P95 = 37_961_393
 ARCHIVO_MAXIMO = 200_605_784
 
-ANCHO_POR_CONEXION = float(os.environ.get("ANCHO_MB_S", "2")) * MB
-"""Bytes por segundo que el servidor entrega por conexión. Supuesto: los pilotos no lo midieron
-(`relevamiento medir-velocidad` lo mide). Se cambia con la variable ANCHO_MB_S."""
-ANCHOS_SENSIBILIDAD = (0.5, 1.0, 2.0, 5.0)
-"""MB/s por conexión con los que el informe recalcula la duración."""
+ANCHO_POR_CONEXION = float(os.environ.get("ANCHO_MB_S", "2.15")) * MB
+"""Mediana entre repositorios de los bytes por segundo que entrega una conexión. Medida desde EC2
+us-east-1 con `relevamiento medir-velocidad` (15 repositorios de los pilotos): 2,15 MB/s. Cada
+repositorio tiene su propia velocidad alrededor de esta mediana (`ANCHO_SIGMA`). Se cambia con ANCHO_MB_S."""
+ANCHO_CUARTILES_MEDIDOS = (0.97, 3.81)
+"""Cuartiles inferior y superior medidos de la velocidad por repositorio (MB/s), los que fijan la dispersión."""
+ANCHO_SIGMA = float(
+    os.environ.get("ANCHO_SIGMA", round(math.log(ANCHO_CUARTILES_MEDIDOS[1] / ANCHO_CUARTILES_MEDIDOS[0]) / (2 * 0.6745), 3))
+)
+"""Dispersión de la velocidad entre repositorios: desvío del logaritmo de una log-normal cuyos cuartiles
+son los medidos (~1,0). 0: todos los repositorios a la mediana. Se cambia con ANCHO_SIGMA."""
+ANCHO_RANGO = (0.3, 6.0)
+"""La velocidad de un repositorio se corta entre estos múltiplos de la mediana: lo observado (0,68 a
+12,7 MB/s con mediana 2,15). Más lento no se midió, pero puede haber: la duración es muy sensible a esto."""
+ANCHOS_SENSIBILIDAD = (0.5, 1.0, 2.15, 5.0)
+"""Medianas de MB/s por conexión con las que el informe recalcula la duración."""
 
 INTERVALO = 1.0
 """Segundos entre el fin de un pedido y el inicio del siguiente al mismo repositorio."""
@@ -35,8 +47,10 @@ TOLERANCIA = 0.001
 """Margen del servidor al comparar intervalos, para no contar como violación un redondeo."""
 
 CHUNK = 64 * 1024
-DESCARGAS_MIN = 1
-DESCARGAS_MAX = 3
+ARCHIVOS_POR_ITEM = {0: 13, 1: 43, 2: 9, 4: 1}
+"""Archivos descargables por ítem en los pilotos (piloto3: 66 ítems de 22 repositorios): uno en la mayoría,
+ninguno en uno de cada cinco (embargados, restringidos o sin archivo). Cuántos ítems tuvieron cada cantidad."""
+DESCARGAS_POR_ITEM = sum(k * n for k, n in ARCHIVOS_POR_ITEM.items()) / sum(ARCHIVOS_POR_ITEM.values())
 PROB_429 = 0.005
 PROB_503 = 0.005
 RETRY_AFTER = 10
@@ -84,7 +98,7 @@ SEMILLA = 1
 REPOS_REALES = 2400
 ITEMS_REALES = 6_000_000
 ITEMS_POR_REPO_SINTETICO = ITEMS_REALES // REPOS_REALES
-PEDIDOS_POR_ITEM = 1 + (DESCARGAS_MIN + DESCARGAS_MAX) / 2
+PEDIDOS_POR_ITEM = 1 + DESCARGAS_POR_ITEM
 
 
 

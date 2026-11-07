@@ -1,7 +1,7 @@
 """Servidor simulado: muchos repositorios detrás de `/repo/<id>/...`, servidos por HTTPS.
 
-Latencias y tamaños calibrados con los pilotos, archivos en streaming a un ancho de banda fijo
-por conexión, 429/503 configurables y control de cortesía desde afuera: para cada repositorio
+Latencias y tamaños calibrados con los pilotos, archivos en streaming a la velocidad por conexión
+de cada repositorio (distinta para cada uno, alrededor de la mediana medida), 429/503 configurables y control de cortesía desde afuera: para cada repositorio
 cuenta los pedidos simultáneos y los intervalos menores al configurado.
 
 Las rutas `/__control/...` no son de ningún repositorio y no cuentan para la cortesía.
@@ -85,6 +85,9 @@ class Parametros:
     """Número de proceso cuando el servidor corre en varios."""
     intervalo: float = config.INTERVALO
     ancho: float = config.ANCHO_POR_CONEXION
+    """Mediana entre repositorios de la velocidad por conexión."""
+    ancho_sigma: float = config.ANCHO_SIGMA
+    """Dispersión de la velocidad entre repositorios; 0, todos a `ancho`."""
     tam_archivo: int | None = None
     red: float | None = None
     """Tope de bytes por segundo de todo el servidor; None, sin tope."""
@@ -148,12 +151,14 @@ class Servidor:
             loop = asyncio.get_running_loop()
             inicio = loop.time()
             enviados = 0
+            # Cada repositorio entrega a su propia velocidad, siempre la misma.
+            ancho = distribucion.ancho_repo(self.p.semilla, repo, self.p.ancho, self.p.ancho_sigma)
             # Cada archivo es único (si no, todos darían el mismo hash y el subidor no subiría casi nada).
             marca = b"%d:%d:%d:%d\n" % (self.p.semilla, repo, item, archivo)
             while enviados < tamano:
                 n = min(config.CHUNK, tamano - enviados)
                 # Ancho de banda fijo por conexión: no adelantarse al ritmo previsto.
-                espera = inicio + enviados / self.p.ancho - loop.time()
+                espera = inicio + enviados / ancho - loop.time()
                 if espera > 0:
                     await asyncio.sleep(espera)
                 await self._esperar_red(n)

@@ -40,7 +40,11 @@ Simula muchos repositorios, cada uno identificado por un prefijo de ruta (`/repo
 Comportamiento:
 
 - **Latencia:** distribución log-normal configurable, resuelta con `asyncio.sleep`.
-- **Respuestas:** página de ítem y archivo. El archivo se envía en streaming con un ancho de banda por conexión de 2 MB/s (`ANCHO_MB_S`). Es un supuesto que todavía no se midió y es el que más mueve la duración: si los repositorios entregan 0,5 MB/s, el repositorio más grande tarda unos 90 días en vez de unos 32, porque cada repositorio recibe un pedido a la vez. El informe trae una tabla de sensibilidad (0,5, 1, 2 y 5 MB/s), y `relevamiento medir-velocidad` lo mide sobre archivos de los pilotos. Así, un archivo grande tarda segundos, como en la realidad.
+- **Respuestas:** página de ítem y archivo. El archivo se envía en streaming a la **velocidad por conexión de su repositorio**, distinta para cada uno y fija durante la corrida:
+  - una log-normal con mediana de 2,15 MB/s (`ANCHO_MB_S`) y la dispersión de los cuartiles medidos (0,97 y 3,81 MB/s; `ANCHO_SIGMA`, ~1,0), cortada entre 0,3 y 6 veces la mediana, que es lo observado;
+  - calibrada con `relevamiento medir-velocidad` desde EC2 us-east-1 (25 archivos de 15 repositorios de los pilotos).
+
+  Es el supuesto que más mueve la duración: como cada repositorio recibe un pedido a la vez, la descarga la termina el repositorio grande y lento. Por eso el informe da la duración como un rango (varios sorteos de qué repositorio es lento) y una tabla de sensibilidad a la mediana (0,5, 1, 2,15 y 5 MB/s). Así, un archivo grande tarda segundos, como en la realidad.
 - **Tamaños:** por defecto siguen la distribución de los pilotos. También se puede fijar un tamaño.
 - **Tope de red total:** en los escenarios del problema real, todo el servidor entrega como mucho lo que da la red base de la **instancia simulada** (unos 190 MB/s en una c6gn.medium, 15 MB/s en una t3.small). La instancia se elige con `INSTANCIA` entre los perfiles de `config.INSTANCIAS` (vCPU, memoria, red base y ráfaga, créditos de CPU y precio). Por loopback no hay placa de red: sin ese tope, 2.400 repositorios a 2 MB/s piden unos 3 GB/s, algo que la instancia real nunca recibiría, y el escenario mediría un proceso desbordado. El escenario 6 va sin tope, para medir cuánto aguanta un proceso.
 - **Errores:** un porcentaje configurable de 429 con `Retry-After` y de 503.
@@ -59,7 +63,7 @@ Reproduce el núcleo del motor real.
 - **Dos tipos de tarea:**
   - resolución: pide la página;
   - descarga: lee el archivo en streaming y calcula su SHA-256 como el fetcher real, descartando los bytes.
-- **Cola inicial:** ítems repartidos entre los repositorios con la misma regla que usa el simulador del descargador (`LAR_descargador/simulator/src/lar_simulator/generate.py:_sizes`). El 4 % de los repositorios tiene un peso 48 veces mayor y concentra unos dos tercios de los ítems, como en la red. Con 2.545 repositorios y 6,1 M de ítems, eso da un máximo de unos 385.000 ítems y una mediana de unos 500. Las tareas se generan a medida que hacen falta, no como una cola de millones de objetos en memoria. Cada resolución genera entre 1 y 3 descargas.
+- **Cola inicial:** ítems repartidos entre los repositorios con la misma regla que usa el simulador del descargador (`LAR_descargador/simulator/src/lar_simulator/generate.py:_sizes`). El 4 % de los repositorios tiene un peso 48 veces mayor y concentra unos dos tercios de los ítems, como en la red. Con 2.545 repositorios y 6,1 M de ítems, eso da un máximo de unos 385.000 ítems y una mediana de unos 500. Las tareas se generan a medida que hacen falta, no como una cola de millones de objetos en memoria. Cada resolución genera las descargas de los archivos del ítem, con la frecuencia de los pilotos (piloto3, 66 ítems): ninguna en uno de cada cinco (embargados o sin archivo), una en la mayoría, y a veces dos o cuatro; 0,98 en promedio.
 - **`--modo hilos`:** la misma prueba con `ThreadPoolExecutor` y requests, para comparar memoria y CPU con las corrutinas. Es la referencia que muestra por qué se eligen corrutinas, o cuánto cuesta no hacerlo.
 - **`--db`:** registrar cada resultado en un PostgreSQL local con una transacción, usando asyncpg y un pool de conexiones, para mostrar que la base tampoco es el cuello de botella.
 ## Qué medir
@@ -154,7 +158,7 @@ Dos variantes buscan de dónde sale la CPU, porque en la primera corrida la medi
 
 **Barrido de lugares.** El problema real (2.400 repositorios) con 2, 5, 10, 25, 50, 100, 250, 500, 1.000 y 2.400 lugares, 30 s cada uno después de 10 s de calentamiento. Responde cuánto mejora el rendimiento al sumar tareas concurrentes y desde dónde deja de mejorar:
 
-- `b<N>`: con la red de la instancia simulada. Con 2 MB/s por conexión, la red de una t3.small se llena con unos 10 lugares y la de una c6gn.medium con unos 120.
+- `b<N>`: con la red de la instancia simulada. Con las velocidades por repositorio, la red de una t3.small se llena con unos 10–15 lugares y la de una c6gn.medium con unos 150, según el modelo (con 2 MB/s parejos y 2 archivos por ítem eran unos 120).
 - `bs<N>`: sin tope de red. El límite pasa a ser la CPU o la cortesía.
 
 La **rodilla** es la menor cantidad de lugares que llega al 95 % de los MB/s máximos del barrido. Se usan MB/s y no ítems/s: en una corrida corta, con más lugares se terminan primero los ítems chicos. Con pocos lugares, la ocupación al 100 % y el despacho largo son lo esperado: hay más trabajo que lugares.

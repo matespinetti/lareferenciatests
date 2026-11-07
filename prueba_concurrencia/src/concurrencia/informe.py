@@ -14,7 +14,7 @@ from typing import Any
 
 from concurrencia import config
 from concurrencia.config import Modo
-from concurrencia.distribucion import ARCHIVO, LATENCIA, PAGINA, items_por_repo
+from concurrencia.distribucion import ARCHIVO, LATENCIA, PAGINA, ancho_repo, items_por_repo
 from concurrencia.metricas import percentil
 
 # Criterio de decisión de la spec (propuesto, a acordar).
@@ -185,8 +185,9 @@ def _interpolar(puntos: list[tuple[float, float]], x: float) -> float | None:
 
 def modelo_item(ancho: float) -> dict[str, float]:
     """Cuánto ocupa un ítem a su repositorio con `ancho` bytes/s por conexión (modelo calibrado:
-    latencia de los pilotos; la página llega de una vez; cada archivo, a `ancho`)."""
-    descargas = (config.DESCARGAS_MIN + config.DESCARGAS_MAX) / 2
+    latencia de los pilotos; la página llega de una vez; cada archivo, a `ancho`; los archivos por
+    ítem, con la frecuencia de los pilotos)."""
+    descargas = config.DESCARGAS_POR_ITEM
     t_res = LATENCIA.media()
     t_desc = LATENCIA.media() + ARCHIVO.media() / ancho
     return {
@@ -199,18 +200,30 @@ def modelo_item(ancho: float) -> dict[str, float]:
     }
 
 
+def modelo_repos(mediana: float, semilla: int = config.SEMILLA, sigma: float = config.ANCHO_SIGMA) -> dict[str, Any]:
+    """El modelo del ítem para cada repositorio, con su propia velocidad por conexión."""
+    anchos = [ancho_repo(semilla, repo, mediana, sigma) for repo in range(config.REPOS_REALES)]
+    modelos = [modelo_item(a) for a in anchos]
+    return {
+        "anchos": anchos,
+        "ciclos": [m["ciclo"] for m in modelos],
+        "ocupados": [m["ocupado"] for m in modelos],
+        "bytes_item": modelos[0]["bytes_item"],
+    }
+
+
 def sensibilidad(simulada: config.Instancia, anchos: tuple[float, ...] = config.ANCHOS_SENSIBILIDAD) -> list[dict[str, Any]]:
-    """La duración y las corrutinas según la velocidad por conexión, con la red de `simulada`."""
+    """La duración y las corrutinas según la mediana de la velocidad por conexión, con la red de `simulada`."""
     items = items_por_repo(config.REPOS_REALES, config.ITEMS_REALES, config.SEMILLA)
     filas = []
     for mb_s in anchos:
-        m = modelo_item(mb_s * config.MB)
-        c = curva(items, m["ciclo"], m["ocupado"], m["bytes_item"], simulada.red_base, m["descargas"])
+        m = modelo_repos(mb_s * config.MB)
+        c = curva(items, m["ciclos"], m["ocupados"], m["bytes_item"], simulada.red_base)
         filas.append(
             {
                 "mb_s": mb_s,
-                "ciclo": m["ciclo"],
-                "duracion_cortesia_dias": max(items) * m["ciclo"] / 86400,
+                "ciclo": modelo_item(mb_s * config.MB)["ciclo"],
+                "duracion_cortesia_dias": _mas_lento(items, m)["dias"],
                 "duracion_dias": c["duracion_dias"],
                 "lugares": c["lugares_red"],
             }
@@ -218,21 +231,41 @@ def sensibilidad(simulada: config.Instancia, anchos: tuple[float, ...] = config.
     return filas
 
 
+def _mas_lento(items: list[int], m: dict[str, Any]) -> dict[str, float]:
+    """El repositorio que más tarda solo, por la cortesía: sus ítems por su ciclo."""
+    repo = max(range(len(items)), key=lambda r: items[r] * m["ciclos"][r])
+    return {"items": items[repo], "mb_s": m["anchos"][repo] / config.MB, "dias": items[repo] * m["ciclos"][repo] / 86400}
+
+
+DURACION_MUESTRAS = 30
+"""Sorteos de velocidades con los que el informe da el rango de duración."""
+
+
+def rango_duracion(
+    items: list[int], mediana: float, red: float | None, muestras: int = DURACION_MUESTRAS
+) -> dict[str, float]:
+    """La duración con distintos sorteos de qué repositorio es rápido o lento: percentiles 10, 50 y 90."""
+    duraciones = []
+    for semilla in range(1, muestras + 1):
+        m = modelo_repos(mediana, semilla)
+        duraciones.append(curva(items, m["ciclos"], m["ocupados"], m["bytes_item"], red)["duracion_dias"])
+    q = statistics.quantiles(duraciones, n=10)
+    return {"p10": q[0], "p50": statistics.median(duraciones), "p90": q[-1], "muestras": muestras}
+
+
 def proyeccion(
     resumenes: list[dict[str, Any]], simulada: config.Instancia | None = None, ancho: float | None = None
 ) -> dict[str, Any]:
     """El problema real (2.400 repositorios, 6 M de ítems) con lo calibrado y lo medido."""
     items = items_por_repo(config.REPOS_REALES, config.ITEMS_REALES, config.SEMILLA)
-    descargas = (config.DESCARGAS_MIN + config.DESCARGAS_MAX) / 2
-    i = config.INTERVALO
-    # Modelo calibrado: latencia de los pilotos; la página llega de una vez; el archivo, a 2 MB/s.
-    t_res = LATENCIA.media()
-    t_desc = LATENCIA.media() + ARCHIVO.media() / (ancho or config.ANCHO_POR_CONEXION)
-    ciclo = (t_res + i) + descargas * (t_desc + i)
-    ocupado = t_res + descargas * t_desc
-    bytes_item = PAGINA.media() + descargas * ARCHIVO.media()
+    mediana = ancho or config.ANCHO_POR_CONEXION
+    # Un ítem típico, con la velocidad mediana; cada repositorio, con la suya.
+    tipico = modelo_item(mediana)
+    m = modelo_repos(mediana)
+    descargas, bytes_item = tipico["descargas"], m["bytes_item"]
     total_bytes = config.ITEMS_REALES * bytes_item
-    pico_mb_s = config.REPOS_REALES * bytes_item / ciclo / config.MB
+    pico_items_s = sum(1 / c for c in m["ciclos"])
+    pico_mb_s = pico_items_s * bytes_item / config.MB
     # La capacidad de un proceso sale de los escenarios sin tope de red.
     corrutinas = [r for r in resumenes if r["modo"] == Modo.CORRUTINAS and r["mb_s"] > 0 and not r["red"]]
     validos = [r for r in corrutinas if r["valido"] and r["violaciones"] == 0 and r["errores"] == 0]
@@ -254,8 +287,8 @@ def proyeccion(
     rss_por_lugares = [(float(r["lugares"]), r["rss_max"]) for r in barrido]
     candidatas = []
     for inst in config.INSTANCIAS.values():
-        c = curva(items, ciclo, ocupado, bytes_item, inst.red_base, descargas)
-        lugares = min(c["lugares_red"], config.REPOS_REALES * ocupado / ciclo)
+        c = curva(items, m["ciclos"], m["ocupados"], bytes_item, inst.red_base)
+        lugares = c["lugares_pico"]
         mb_s = min(inst.red_base, pico_mb_s * config.MB) / config.MB
         cpu = 100 * cpu_ms_por_mb / 1000 * mb_s if cpu_ms_por_mb else None
         candidatas.append(
@@ -270,6 +303,7 @@ def proyeccion(
                 "costo": inst.precio_hora * c["duracion_dias"] * 24,
             }
         )
+    mas_lento = _mas_lento(items, m)
     return {
         "simulada": simulada,
         "candidatas": candidatas,
@@ -277,22 +311,29 @@ def proyeccion(
         "items_mediana": statistics.median(items),
         "items_top4": sum(sorted(items, reverse=True)[: config.REPOS_REALES // 25]) / config.ITEMS_REALES,
         "descargas_por_item": descargas,
-        "t_res": t_res,
-        "t_desc": t_desc,
+        "ancho_mediana_mb_s": mediana / config.MB,
+        "ancho_cuartiles_mb_s": [round(x / config.MB, 2) for x in statistics.quantiles(m["anchos"], n=4)[::2]],
+        "t_res": tipico["t_res"],
+        "t_desc": tipico["t_desc"],
         "t_res_medido": referencia["t_resolucion"] if referencia else None,
         "t_desc_medido": referencia["t_descarga"] if referencia else None,
-        "ciclo_item": ciclo,
-        "ocupado_item": ocupado,
+        "ciclo_item": tipico["ciclo"],
+        "ocupado_item": tipico["ocupado"],
         "curvas": {
-            nombre: curva(items, ciclo, ocupado, bytes_item, red, descargas)
+            nombre: curva(items, m["ciclos"], m["ocupados"], bytes_item, red)
             for nombre, red in {**redes, "sin tope de red": None}.items()
+        },
+        "rango": {
+            nombre: rango_duracion(items, mediana, red)
+            for nombre, red in {f"{simulada.nombre}, línea base": simulada.red_base, "sin tope de red": None}.items()
         },
         "bytes_item": bytes_item,
         "total_tb": total_bytes / 1e12,
-        "pico_pedidos_s": config.REPOS_REALES * (1 + descargas) / ciclo,
+        "pico_pedidos_s": pico_items_s * (1 + descargas),
         "pico_mb_s": pico_mb_s,
-        "pico_lugares": config.REPOS_REALES * ((t_res + descargas * t_desc) / ciclo),
-        "duracion_cortesia_dias": max(items) * ciclo / 86400,
+        "pico_lugares": sum(o / c for o, c in zip(m["ocupados"], m["ciclos"], strict=True)),
+        "mas_lento": mas_lento,
+        "duracion_cortesia_dias": mas_lento["dias"],
         "duracion_red_dias": {nombre: total_bytes / red / 86400 for nombre, red in redes.items()},
         "red_mb_s": {nombre: red / config.MB for nombre, red in redes.items()},
         "cpu_nucleos_para_red": {nombre: cpu_ms_por_mb / 1000 * red / config.MB for nombre, red in redes.items()},
@@ -337,37 +378,83 @@ def barridos(resumenes: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
 
 
 def curva(
-    items: list[int], ciclo: float, ocupado: float, bytes_item: float, red: float | None, descargas: float
+    items: list[int], ciclos: float | list[float], ocupados: float | list[float], bytes_item: float, red: float | None
 ) -> dict[str, Any]:
     """Modelo de fluido de toda la descarga: repositorios activos y lugares necesarios en el tiempo.
 
-    Mientras hay repositorios activos, todos avanzan al mismo ritmo: el de la cortesía
-    (un ítem cada `ciclo` segundos) o, si la red no alcanza para todos, la parte que les toca.
-    Terminan en orden de tamaño. Lugares necesarios: los que pide la cortesía
-    (cada repositorio ocupado `ocupado / ciclo` del tiempo) o los que llenan la red, lo que sea menor.
+    Cada repositorio avanza a su ritmo: el de la cortesía (un ítem cada `ciclos[r]` segundos, que
+    depende de su velocidad) o, si la red no alcanza para todos, la parte que le toca. La red se
+    reparte en partes iguales y el que pide menos que su parte se lleva lo que pide (max-min).
+    Lugares necesarios: cada repositorio ocupa `ocupados[r]` segundos de cada ítem.
+    `ciclos` y `ocupados` pueden ser un número, igual para todos.
     """
-    restantes = sorted(n for n in items if n > 0)
-    total, t, hechos, i = len(restantes), 0.0, 0.0, 0
-    lugares_red = math.inf if red is None else red * ocupado / bytes_item
-    puntos = []
-    while i < total:
-        activos = total - i
-        ritmo = 1 / ciclo if red is None else min(1 / ciclo, red / (activos * bytes_item))
-        puntos.append(
-            {
-                "t": t,
-                "activos": activos,
-                "lugares": min(activos * ocupado / ciclo, lugares_red),
-                "items_s": activos * ritmo,
-                "mb_s": activos * ritmo * bytes_item / config.MB,
-            }
-        )
-        t += (restantes[i] - hechos) / ritmo
-        hechos = restantes[i]
-        while i < total and restantes[i] <= hechos:
-            i += 1
+    import numpy as np
+
+    n = np.asarray(items, dtype=float)
+    activos = n > 0
+    restantes = n[activos]
+    ciclo = np.broadcast_to(np.asarray(ciclos, dtype=float), n.shape)[activos]
+    ocupado = np.broadcast_to(np.asarray(ocupados, dtype=float), n.shape)[activos]
+    maximo = 1 / ciclo
+    t, puntos = 0.0, []
+
+    def punto(t: float, ritmo: Any, ocupado: Any) -> dict[str, Any]:
+        return {
+            "t": t,
+            "activos": int(ritmo.size),
+            "lugares": float((ritmo * ocupado).sum()),
+            "items_s": float(ritmo.sum()),
+            "mb_s": float(ritmo.sum() * bytes_item / config.MB),
+        }
+
+    while restantes.size and red is not None and (maximo.sum() * bytes_item) > red:
+        # La red no alcanza: cada repositorio recibe lo que pide o el nivel común, lo que sea menor.
+        ritmo = np.minimum(maximo * bytes_item, _nivel(maximo * bytes_item, red)) / bytes_item
+        puntos.append(punto(t, ritmo, ocupado))
+        dt = float((restantes / ritmo).min())
+        t += dt
+        restantes = restantes - ritmo * dt
+        quedan = restantes > 1e-6
+        restantes, maximo, ocupado = restantes[quedan], maximo[quedan], ocupado[quedan]
+    # Desde acá la red alcanza (y seguirá alcanzando: terminar repositorios solo baja la demanda):
+    # cada repositorio termina a su ritmo de cortesía.
+    if restantes.size:
+        orden = np.argsort(t + restantes / maximo)
+        fin = (t + restantes / maximo)[orden]
+        maximo, ocupado = maximo[orden], ocupado[orden]
+        items_s = np.cumsum(maximo[::-1])[::-1]
+        lugares = np.cumsum((maximo * ocupado)[::-1])[::-1]
+        inicios = np.concatenate([[t], fin[:-1]])
+        for k in range(fin.size):
+            puntos.append(
+                {
+                    "t": float(inicios[k]),
+                    "activos": int(fin.size - k),
+                    "lugares": float(lugares[k]),
+                    "items_s": float(items_s[k]),
+                    "mb_s": float(items_s[k] * bytes_item / config.MB),
+                }
+            )
+        t = float(fin[-1])
     puntos.append({"t": t, "activos": 0, "lugares": 0.0, "items_s": 0.0, "mb_s": 0.0})
-    return {"red": red, "duracion_dias": t / 86400, "lugares_red": lugares_red, "puntos": puntos}
+    pico = max(p["lugares"] for p in puntos)
+    return {
+        "red": red,
+        "duracion_dias": t / 86400,
+        "lugares_pico": pico,
+        "lugares_red": math.inf if red is None else pico,
+        "puntos": puntos,
+    }
+
+
+def _nivel(demanda: Any, red: float) -> float:
+    """El nivel λ con Σ min(demanda, λ) = red (reparto max-min de la red). Requiere Σ demanda > red."""
+    import numpy as np
+
+    d = np.sort(demanda)
+    previos = np.concatenate([[0.0], np.cumsum(d)[:-1]])
+    niveles = (red - previos) / (d.size - np.arange(d.size))
+    return float(niveles[np.argmax(niveles <= d)])
 
 
 def en_el_dia(curva_: dict[str, Any], dia: float) -> dict[str, Any]:
@@ -750,8 +837,14 @@ def armar(resultados: Path, salida: Path) -> None:
     lineas += [
         "## Supuestos",
         "",
-        f"- Velocidad por conexión: {_f(ancho / config.MB)} MB/s. Es el supuesto que más mueve la duración: "
-        "ver la tabla de sensibilidad en la proyección (y `relevamiento medir-velocidad` para medirla).",
+        f"- Velocidad por conexión: distinta para cada repositorio, log-normal con mediana {_f(ancho / config.MB, 2)} MB/s "
+        f"(desvío del logaritmo {_f(config.ANCHO_SIGMA, 2)}, cortada entre {_f(config.ANCHO_RANGO[0])} y "
+        f"{_f(config.ANCHO_RANGO[1])} veces la mediana), calibrada con la medición desde EC2 (15 repositorios: "
+        f"cuartiles {_f(config.ANCHO_CUARTILES_MEDIDOS[0], 2)} y {_f(config.ANCHO_CUARTILES_MEDIDOS[1], 2)} MB/s). "
+        "Es el supuesto que más mueve la duración: ver el rango y la sensibilidad en la proyección.",
+        f"- Archivos por ítem: {_f(config.DESCARGAS_POR_ITEM, 2)} en promedio, con la frecuencia de los pilotos "
+        f"({', '.join(f'{k}: {n}' for k, n in config.ARCHIVOS_POR_ITEM.items())} ítems de "
+        f"{sum(config.ARCHIVOS_POR_ITEM.values())}); uno de cada cinco no tiene ninguno descargable.",
         f"- Latencia hasta los encabezados: log-normal con p50 {config.LATENCIA_P50} s y p95 {config.LATENCIA_P95} s (pilotos).",
         f"- Archivos: log-normal con p50 {_f(config.ARCHIVO_P50 / 1e6, 2)} MB y p95 {_f(config.ARCHIVO_P95 / 1e6)} MB, "
         f"cortada en {_f(config.ARCHIVO_MAXIMO / 1e6)} MB: media {_f(ARCHIVO.media() / 1e6)} MB (pilotos, 51 archivos).",
@@ -861,13 +954,15 @@ def armar(resultados: Path, salida: Path) -> None:
         f"- Resolución: latencia media {_f(p['t_res'], 2)} s. Descarga: latencia + archivo medio / ancho = "
         f"{_f(p['t_desc'], 2)} s. Medido en el escenario de referencia: resolución "
         f"{_f(p['t_res_medido'] or 0, 2)} s y descarga {_f(p['t_desc_medido'] or 0, 2)} s.",
-        f"- Un ítem son 1 resolución y {_f(p['descargas_por_item'])} descargas: con {config.INTERVALO} s de cortesía después de "
-        f"cada pedido, ocupa al repositorio {_f(p['ciclo_item'])} s y baja {_f(p['bytes_item'] / 1e6)} MB.",
+        f"- Un ítem son 1 resolución y {_f(p['descargas_por_item'], 2)} descargas: con {config.INTERVALO} s de cortesía después de "
+        f"cada pedido, a la velocidad mediana ocupa al repositorio {_f(p['ciclo_item'])} s y baja {_f(p['bytes_item'] / 1e6)} MB.",
         f"- Total a bajar: {_f(p['total_tb'])} TB.",
         f"- **Pico** (todos los repositorios activos): {_f(p['pico_pedidos_s'], 0)} pedidos/s, "
         f"{_f(p['pico_mb_s'], 0)} MB/s de demanda y unos {_f(p['pico_lugares'], 0)} pedidos en curso.",
-        f"- **Cota por cortesía:** el repositorio más grande tarda {p['items_max']:,} × {_f(p['ciclo_item'])} s = "
-        f"**{_f(p['duracion_cortesia_dias'])} días**, haya una máquina o cien.",
+        f"- **Cota por cortesía:** el repositorio que más tarda solo (grande y lento: {p['mas_lento']['items']:,} ítems a "
+        f"{_f(p['mas_lento']['mb_s'], 2)} MB/s) tarda **{_f(p['duracion_cortesia_dias'])} días**, haya una máquina o cien. "
+        f"El más grande ({p['items_max']:,} ítems) a la velocidad mediana tardaría "
+        f"{_f(p['items_max'] * p['ciclo_item'] / 86400)}.",
     ]
     for nombre, dias in p["duracion_red_dias"].items():
         lineas.append(
@@ -888,10 +983,20 @@ def armar(resultados: Path, salida: Path) -> None:
         "",
         "### A lo largo de toda la descarga",
         "",
-        "Modelo de fluido con la distribución de ítems: mientras hay repositorios activos, todos avanzan al ritmo "
-        "de la cortesía o, si la red no alcanza, a la parte de la red que les toca; los chicos terminan primero. "
-        f"Lugares necesarios: los que pide la cortesía (cada repositorio está ocupado {_f(p['ocupado_item'], 2)} s de "
-        f"cada {_f(p['ciclo_item'], 2)} s) o los que llenan la red, lo que sea menor.",
+        "Modelo de fluido con la distribución de ítems y una velocidad para cada repositorio: cada uno avanza al ritmo "
+        "de su cortesía o, si la red no alcanza, a la parte de la red que le toca (los que piden menos que su parte se "
+        "llevan lo que piden); los chicos y rápidos terminan primero. "
+        f"Lugares necesarios: los que pide la cortesía (a la velocidad mediana, cada repositorio está ocupado "
+        f"{_f(p['ocupado_item'], 2)} s de cada {_f(p['ciclo_item'], 2)} s) o los que llenan la red, lo que sea menor.",
+        "",
+        "**La duración es un rango:** depende de qué repositorios grandes salen lentos. Con "
+        f"{next(iter(p['rango'].values()))['muestras']} sorteos distintos de velocidades:",
+        "",
+        "| Red | Percentil 10 (días) | Mediana (días) | Percentil 90 (días) |",
+        "|---|---|---|---|",
+        *[f"| {nombre} | {_f(r['p10'])} | {_f(r['p50'])} | {_f(r['p90'])} |" for nombre, r in p["rango"].items()],
+        "",
+        "La tabla de abajo es un solo sorteo (el de la semilla de la prueba).",
         "",
         "| Red | Duración (días) | Lugares que llenan la red | "
         + " | ".join(f"Día {d}: activos / lugares / MB/s" for d in _DIAS)
@@ -915,11 +1020,11 @@ def armar(resultados: Path, salida: Path) -> None:
         "",
         "### Sensibilidad a la velocidad por conexión",
         "",
-        "Como cada repositorio recibe un pedido a la vez, si sus archivos llegan más lento avanza más lento, y el "
-        "repositorio más grande tarda más: ninguna máquina ni más red compensa eso. Con la red de la "
-        f"{simulada.nombre}:",
+        "Como cada repositorio recibe un pedido a la vez, si sus archivos llegan más lento avanza más lento: "
+        "ninguna máquina ni más red compensa eso. Con la red de la "
+        f"{simulada.nombre}, moviendo la mediana (cada repositorio sigue con su velocidad relativa):",
         "",
-        "| MB/s por conexión | Tiempo por ítem (s) | Repositorio más grande (días) | Duración total (días) | Corrutinas que llenan la red |",
+        "| Mediana MB/s por conexión | Tiempo por ítem a la mediana (s) | Repositorio que más tarda (días) | Duración total (días) | Corrutinas que llenan la red |",
         "|---|---|---|---|---|",
         *[
             f"| {_f(s['mb_s'])}{' ← esta corrida' if abs(s['mb_s'] * config.MB - ancho) < 1 else ''} | {_f(s['ciclo'])} "

@@ -70,7 +70,20 @@ def rng_de(semilla: int, *partes: object) -> random.Random:
 
 
 def descargas_del_item(semilla: int, repo: int, item: int) -> int:
-    return rng_de(semilla, "descargas", repo, item).randint(config.DESCARGAS_MIN, config.DESCARGAS_MAX)
+    """Archivos del ítem, con la frecuencia de los pilotos (0 a 4; casi siempre 1)."""
+    cantidades = list(config.ARCHIVOS_POR_ITEM)
+    return rng_de(semilla, "descargas", repo, item).choices(cantidades, list(config.ARCHIVOS_POR_ITEM.values()))[0]
+
+
+def ancho_repo(
+    semilla: int, repo: int, mediana: float = config.ANCHO_POR_CONEXION, sigma: float = config.ANCHO_SIGMA
+) -> float:
+    """Bytes por segundo que entrega una conexión con el repositorio: log-normal alrededor de
+    `mediana`, fija para cada repositorio (unos son lentos y otros rápidos, como en la medición)."""
+    if sigma <= 0:
+        return mediana
+    factor = math.exp(sigma * rng_de(semilla, "ancho", repo).gauss(0.0, 1.0))
+    return mediana * min(max(factor, config.ANCHO_RANGO[0]), config.ANCHO_RANGO[1])
 
 
 def tam_pagina(semilla: int, repo: int, item: int) -> int:
