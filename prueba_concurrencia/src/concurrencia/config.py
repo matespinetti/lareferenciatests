@@ -41,9 +41,10 @@ ANCHO_SIGMA = float(
 )
 """Dispersión de la velocidad entre repositorios: desvío del logaritmo de una log-normal cuyos cuartiles
 son los medidos (~1,0). 0: todos los repositorios a la mediana. Se cambia con ANCHO_SIGMA."""
-ANCHO_RANGO = (0.3, 6.0)
-"""La velocidad de un repositorio se corta entre estos múltiplos de la mediana: lo observado (0,68 a
-12,7 MB/s con mediana 2,15). Más lento no se midió, pero puede haber: la duración es muy sensible a esto."""
+ANCHO_RANGO = (float(os.environ.get("ANCHO_REL_MIN", "0.3")), float(os.environ.get("ANCHO_REL_MAX", "6.0")))
+"""La velocidad de un repositorio se corta entre estos múltiplos de la mediana: lo observado. Desde
+Virginia, 0,3 y 6 (0,68 a 12,7 MB/s con mediana 2,15); para otra región, ANCHO_REL_MIN y ANCHO_REL_MAX
+(los imprime scripts/combinar_velocidades.py). La duración es muy sensible al mínimo."""
 ANCHOS_SENSIBILIDAD = (0.5, 1.0, 2.15, 5.0)
 """Medianas de MB/s por conexión con las que el informe recalcula la duración."""
 

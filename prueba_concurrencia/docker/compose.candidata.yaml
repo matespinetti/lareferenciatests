@@ -46,6 +46,8 @@ services:
       ANCHO_MB_S: ${ANCHO_MB_S:-2.15}
       ANCHO_P25: ${ANCHO_P25:-0.97}
       ANCHO_P75: ${ANCHO_P75:-3.81}
+      ANCHO_REL_MIN: ${ANCHO_REL_MIN:-0.3}
+      ANCHO_REL_MAX: ${ANCHO_REL_MAX:-6.0}
       # Con S3_BUCKET sube a S3 real con el rol de la instancia; sin él, al S3 falso en IP_SERVIDOR:PUERTO_S3.
       S3_BUCKET: ${S3_BUCKET:-}
       S3_PREFIJO: ${S3_PREFIJO:-prueba-concurrencia}
