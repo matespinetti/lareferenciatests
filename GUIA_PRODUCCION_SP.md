@@ -102,10 +102,22 @@ cd ~/lareferenciatests/relevamiento_exploratorio && uv sync
 uv run relevamiento medir-velocidad --desde-tamanos tamanos --plan         # los 55 archivos, sin pedidos
 uv run relevamiento medir-velocidad --desde-tamanos tamanos --contacto TU_CORREO --en-horario-ok --salida medicion-sp
 uv run relevamiento verificar-cortesia --salida medicion-sp --medicion        # tiene que decir OK
-python3 -c "import json; d=json.load(open('medicion-sp/velocidad.json'))['mb_s_por_repositorio']; print(f'export ANCHO_MB_S={d[\"p50\"]} ANCHO_P25={d[\"p25\"]} ANCHO_P75={d[\"p75\"]}')"
 ```
 
-La última línea imprime algo como `export ANCHO_MB_S=3.1 ANCHO_P25=1.2 ANCHO_P75=6.4`. **Copiala:** va igual en A y en B, para que el simulador y el informe usen la misma velocidad. Con lo medido, cada repositorio simulado responde a una velocidad distinta, repartida alrededor de esa mediana. Además, el modelo de duración usa la velocidad real de cada uno de esos 11 repositorios (paso 6).
+Después, la medición de los pilotos (~2 minutos). Suma SEDICI, las revistas OJS y SciELO, para que la dispersión de velocidades no salga solo de repositorios DSpace grandes:
+
+```bash
+uv run relevamiento medir-velocidad --contacto TU_CORREO --en-horario-ok --salida medicion-sp-pilotos
+uv run relevamiento verificar-cortesia --salida medicion-sp-pilotos --medicion   # tiene que decir OK
+git pull
+python3 ../prueba_concurrencia/scripts/combinar_velocidades.py medicion-sp/velocidad.json medicion-sp-pilotos/velocidad.json
+```
+
+El último comando junta las medianas por repositorio de las dos mediciones. Si un repositorio está en las dos, vale la de los grandes, que tiene 5 archivos. Muestra la velocidad de cada repositorio y termina con una línea como `export ANCHO_MB_S=2.4 ANCHO_P25=1.1 ANCHO_P75=4.6`. **Copiala:** va igual en A y en B.
+
+Cada medición sirve para algo distinto:
+- **La de los repositorios grandes** (`medicion-sp`): el modelo de duración usa la velocidad real de cada uno de esos 11 repositorios (paso 6).
+- **Las dos juntas:** la mediana y la dispersión con las que el simulador y el modelo sortean la velocidad del resto de los repositorios.
 
 ## 3. A: levantar el simulador con esa velocidad
 
@@ -172,7 +184,7 @@ mkdir -p ~/dev/lareferenciatests/resultados-sp && cd ~/dev/lareferenciatests/res
 R=lareferenciatests/prueba_concurrencia
 scp -i "$CLAVE" -r ubuntu@"$IP_B":"$R/results" .
 scp -i "$CLAVE" ubuntu@"$IP_B":"$R/report.md" ubuntu@"$IP_B":"$R/run.log" .
-scp -i "$CLAVE" -r ubuntu@"$IP_A":lareferenciatests/relevamiento_exploratorio/medicion-sp .
+scp -i "$CLAVE" -r ubuntu@"$IP_A":lareferenciatests/relevamiento_exploratorio/medicion-sp ubuntu@"$IP_A":lareferenciatests/relevamiento_exploratorio/medicion-sp-pilotos .
 ls results/t50.* medicion-sp/velocidad.json
 ```
 
