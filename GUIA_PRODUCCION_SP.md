@@ -177,6 +177,14 @@ En `report.md`, la sección **"Validación en una t4g.large real"** muestra:
 - la CPU de la máquina **contra su línea base (30 %)**, con el cargo extra estimado si se pasa;
 - la memoria por contenedor: motor, PostgreSQL y API/frontend.
 
+**Opcional: el subidor con CRT** (~4 minutos más). CRT es el cliente de S3 de AWS escrito en C. En la t4g.large el límite es la red, y bajar y subir 61 MB/s pide ~0,6 núcleos, justo su línea base de CPU sin cargo extra. Si CRT gasta menos CPU en la subida (en la c6gn.medium fue ~24 % menos), la máquina queda debajo de la línea base, con margen para la API y la base. No se esperan más MB/s, porque el tope es la red.
+
+```bash
+SUBIDOR_CLIENTE=crt RED_HOST=1 CARGA_WEB=1 bash scripts/candidata.sh "$IP_PRIVADA_A" t50 2>&1 | tee -a run.log
+```
+
+Al arrancar tiene que decir `Subidor con el cliente CRT…`. El resultado queda como `t50-host-crt`, al lado de `t50-host`. En el informe, compará en las dos filas la CPU de la máquina contra la línea base, la CPU y la memoria del subidor, y el retraso del bucle.
+
 ## 6. Traer los resultados (en tu Mac)
 
 ```bash
