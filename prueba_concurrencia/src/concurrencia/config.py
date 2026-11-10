@@ -32,8 +32,10 @@ ANCHO_POR_CONEXION = float(os.environ.get("ANCHO_MB_S", "2.15")) * MB
 """Mediana entre repositorios de los bytes por segundo que entrega una conexión. Medida desde EC2
 us-east-1 con `relevamiento medir-velocidad` (15 repositorios de los pilotos): 2,15 MB/s. Cada
 repositorio tiene su propia velocidad alrededor de esta mediana (`ANCHO_SIGMA`). Se cambia con ANCHO_MB_S."""
-ANCHO_CUARTILES_MEDIDOS = (0.97, 3.81)
-"""Cuartiles inferior y superior medidos de la velocidad por repositorio (MB/s), los que fijan la dispersión."""
+ANCHO_CUARTILES_MEDIDOS = (float(os.environ.get("ANCHO_P25", "0.97")), float(os.environ.get("ANCHO_P75", "3.81")))
+"""Cuartiles inferior y superior medidos de la velocidad por repositorio (MB/s), los que fijan la dispersión.
+Desde EC2 us-east-1: 0,97 y 3,81. Para otra región, ANCHO_MB_S, ANCHO_P25 y ANCHO_P75 salen de la
+medición desde ahí (`mb_s_por_repositorio` de velocidad.json)."""
 ANCHO_SIGMA = float(
     os.environ.get("ANCHO_SIGMA", round(math.log(ANCHO_CUARTILES_MEDIDOS[1] / ANCHO_CUARTILES_MEDIDOS[0]) / (2 * 0.6745), 3))
 )
@@ -123,7 +125,7 @@ class Instancia:
     red_rafaga_gbps: float
     precio_hora: float
     linea_base_cpu: float | None = None
-    """Fracción de cada vCPU que se usa sin gastar créditos (familia t3); None, sin créditos."""
+    """Fracción de cada vCPU que se usa sin gastar créditos (familias t3 y t4g); None, sin créditos."""
 
     @property
     def memoria(self) -> float:
@@ -154,6 +156,8 @@ INSTANCIAS: dict[str, Instancia] = {
         Instancia("t3.medium", 2, 4, 0.256, 5.0, 0.0416, linea_base_cpu=0.20),
         Instancia("t3.large", 2, 8, 0.512, 5.0, 0.0832, linea_base_cpu=0.30),
         Instancia("t3.xlarge", 4, 16, 1.024, 5.0, 0.1664, linea_base_cpu=0.40),
+        Instancia("t4g.medium", 2, 4, 0.256, 5.0, 0.0336, linea_base_cpu=0.20),
+        Instancia("t4g.large", 2, 8, 0.512, 5.0, 0.0672, linea_base_cpu=0.30),
         Instancia("c7g.medium", 1, 2, 0.52, 12.5, 0.0363),
         Instancia("c7g.large", 2, 4, 0.937, 12.5, 0.0725),
         Instancia("c6i.large", 2, 4, 0.781, 12.5, 0.085),
@@ -268,6 +272,13 @@ ESCENARIOS: dict[str, Escenario] = {
               subida=True, subidor_mismo_nucleo=True, db=True, db_lotes=True),
         _real("v120h", "Validación en una c6gn.medium durante 1 hora: memoria, disco y base estables", lugares=120,
               subida=True, subidor_mismo_nucleo=True, db=True, db_lotes=True, duracion=3600.0),
+        # Producción en una t4g (con ráfagas): todo en la máquina (motor, subidor, PostgreSQL en lotes y la
+        # carga de la API y el frontend) y un barrido de corrutinas, con la red de INSTANCIA (t4g.large).
+        *[
+            _real(f"t{n}", f"Producción en una t4g: {n} corrutinas, subida y base en lotes", lugares=n,
+                  subida=True, db=True, db_lotes=True)
+            for n in (25, 50, 75, 120)
+        ],
         _real("sh250", "Subida a S3 con un pool de hilos en el motor, 250 lugares, red de la instancia", lugares=250,
               subida=True, modo_subida="hilos"),
         _real("sc250", "Subida a S3 con un pool de corrutinas en el motor, 250 lugares, red de la instancia",

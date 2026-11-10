@@ -156,6 +156,8 @@ Para comparar dónde conviene que corra la subida, con el mismo spool: `s250` la
 
 Dos variantes buscan de dónde sale la CPU, porque en la primera corrida la medium quedó al 100 %. `RED_HOST=1` corre el motor con la red del host en vez del puente de Docker (`<escenario>-host`). `SUBIDOR_CLIENTE=crt` sube con el cliente de S3 de AWS escrito en C en vez de s3transfer (`<escenario>-crt`, solo contra S3 real).
 
+**Producción en una t4g (`t25`, `t50`, `t75`, `t120`; `GUIA_PRODUCCION_SP.md`).** La misma validación en dos máquinas, en São Paulo, con la candidata de producción (una t4g.large: 2 vCPU con ráfagas, 8 GB) y todo lo que llevaría: motor con la red del host, subidor, PostgreSQL en lotes y un contenedor que ocupa el lugar de la API y el frontend (`CARGA_WEB=1`: ~450 MB y ~10 % de un núcleo). El simulador usa la velocidad medida desde São Paulo (`ANCHO_MB_S`, `ANCHO_P25`, `ANCHO_P75`) y la red base de la t4g.large. El barrido de corrutinas (25 a 120) da los MB/s por corrutina en la máquina real, y el informe compara la CPU de la máquina con su línea base (créditos de CPU).
+
 **Barrido de lugares.** El problema real (2.400 repositorios) con 2, 5, 10, 25, 50, 100, 250, 500, 1.000 y 2.400 lugares, 30 s cada uno después de 10 s de calentamiento. Responde cuánto mejora el rendimiento al sumar tareas concurrentes y desde dónde deja de mejorar:
 
 - `b<N>`: con la red de la instancia simulada. Con las velocidades por repositorio, la red de una t3.small se llena con unos 10–15 lugares y la de una c6gn.medium con unos 150, según el modelo (con 2 MB/s parejos y 2 archivos por ítem eran unos 120).

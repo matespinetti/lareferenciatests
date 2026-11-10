@@ -13,6 +13,8 @@
 #   RED_HOST=1                el motor usa la red del host en vez del puente de Docker
 #                             (docker/compose.red-host.yaml); los resultados quedan como <escenario>-host
 #   SUBIDOR_CLIENTE=crt       el subidor usa el cliente CRT de AWS (en C); solo con S3_BUCKET; resultados <escenario>-crt
+#   CARGA_WEB=1               levanta un contenedor que ocupa el lugar de la API y el frontend (~450 MB, ~10 % de CPU)
+#   ANCHO_MB_S, ANCHO_P25, ANCHO_P75   velocidad por conexión medida (mediana y cuartiles); los mismos que en el servidor
 # Deja los resultados en results/ (con docker_stats.csv e instancia.json) y el informe en report.md.
 set -euo pipefail
 cd "$(dirname "$0")/.."
@@ -74,6 +76,10 @@ fi
 
 "${COMPOSE[@]}" build -q motor
 "${COMPOSE[@]}" up -d --wait postgres
+if [ "${CARGA_WEB:-0}" = 1 ]; then
+    "${COMPOSE[@]}" --profile web up -d web-simulada
+    echo "Carga de la API y el frontend: ${MEMORIA_WEB_MB:-450} MB y ${CPU_WEB:-0.1} de un núcleo."
+fi
 
 # Datos de la máquina (IMDSv2; fuera de EC2 quedan vacíos).
 token=$(curl -s --max-time 2 -X PUT http://169.254.169.254/latest/api/token \
@@ -91,7 +97,8 @@ cat > results/instancia.json <<EOF
   "kernel": "$(uname -r)",
   "docker": "$(docker version --format '{{.Server.Version}}' 2>/dev/null)",
   "servidor_simulado": "$IP, $SERVIDOR_PROCESOS procesos",
-  "s3": "$([ -n "${S3_BUCKET:-}" ] && echo "s3://$S3_BUCKET" || echo "S3 falso")"
+  "s3": "$([ -n "${S3_BUCKET:-}" ] && echo "s3://$S3_BUCKET" || echo "S3 falso")",
+  "carga_web": "$([ "${CARGA_WEB:-0}" = 1 ] && echo "${MEMORIA_WEB_MB:-450} MB, ${CPU_WEB:-0.1} núcleo" || echo "no")"
 }
 EOF
 
@@ -129,6 +136,9 @@ for id in $IDS; do
 done
 
 kill "$stats" 2>/dev/null || true
+if [ "${CARGA_WEB:-0}" = 1 ]; then
+    "${COMPOSE[@]}" --profile web stop web-simulada > /dev/null
+fi
 "${COMPOSE[@]}" run --rm --no-deps motor informe --resultados results --salida results/report.md
 mv results/report.md report.md
 echo

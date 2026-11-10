@@ -23,6 +23,8 @@ BUCLE_P99_MAX_MS = 50.0
 RSS_MAX_FRACCION = 0.5
 DERIVA_RSS_MAX = 0.10
 """Crecimiento de la RSS en la hora del escenario 9, como fracción de la media."""
+CREDITO_CPU_USD = 0.04
+"""Lo que cobra una t4g en modo Unlimited por hora de vCPU usada por encima de su línea base."""
 CPU_SERVIDOR_MAX = 90.0
 """Si el servidor pasa este % de un núcleo, el escenario no es válido: el límite fue él."""
 
@@ -715,7 +717,7 @@ def _picos_contenedores(resultados: Path) -> dict[str, dict[str, float]]:
         for fila in csv.DictReader(f):
             t, mb = float(fila["t"]), _a_mb(fila["memoria"])
             # `docker compose run` nombra el contenedor `<proyecto>-motor-run-<id>`.
-            nombre = next((n for n in ("postgres", "motor") if n in fila["contenedor"]), fila["contenedor"])
+            nombre = next((n for n in ("postgres", "motor", "web") if n in fila["contenedor"]), fila["contenedor"])
             for id, inicio, fin in ventanas:
                 if inicio <= t <= fin:
                     picos.setdefault(id, {})[nombre] = max(picos.get(id, {}).get(nombre, 0.0), mb)
@@ -751,10 +753,10 @@ def _seccion_validacion(todos: list[dict[str, Any]], resultados: Path) -> list[s
         + (" La subida va a **S3 real**." if any(r["s3_real"] for r in validos) else " La subida va al S3 falso.")
         + " La CPU y la memoria de la máquina incluyen todo lo que corre en ella (motor, subidor, PostgreSQL y Docker).",
         "",
-        "| Esc. | Red de Docker | Base | Subida | MB/s bajados | MB/s subidos | CPU máquina (media / máx) | CPU motor "
+        "| Esc. | Corrutinas | Red de Docker | Base | Subida | MB/s bajados | MB/s subidos | CPU máquina (media / máx) | CPU motor "
         "(sistema) | Bucle p99 (ms) | Despacho p99 (ms) | Frenado (s) | Pendiente al final (MB) | Errores (descarga / subida) "
         "| Violaciones |",
-        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for r in validos:
         subida = ("S3 real" if r["s3_real"] else "S3 falso") if r["subida"] else "no"
@@ -762,7 +764,7 @@ def _seccion_validacion(todos: list[dict[str, Any]], resultados: Path) -> list[s
             subida += " (CRT)"
         base = ("en lotes" if r["db_lotes"] else "por resultado") if r["db"] else "no"
         lineas.append(
-            f"| {r['id']} | {r['red_docker'] or '—'} | {base} | {subida} | {_f(r['mb_s'])} "
+            f"| {r['id']} | {r['lugares']} | {r['red_docker'] or '—'} | {base} | {subida} | {_f(r['mb_s'])} "
             f"| {_f(r['subida_mb_s']) if r['subida'] else '—'} | {_f(r['maquina_cpu'])} / {_f(r['maquina_cpu_max'])} "
             f"| {_f(r['cpu_media'])} ({_f(r['cpu_sistema'])}) | {_f(r['bucle_p99'], 2)} | {_f(r['despacho_p99'], 1)} | {_f(r['frenado_s'], 1)} "
             f"| {_f(r['pendiente_final_mb'], 0) if r['subida'] else '—'} | {r['errores']} / {r['subida_errores']} "
@@ -770,9 +772,10 @@ def _seccion_validacion(todos: list[dict[str, Any]], resultados: Path) -> list[s
         )
     lineas += [
         "",
-        "| Esc. | Memoria disponible mín (MB) | Pico contenedor motor (MB) | Pico PostgreSQL (MB) | RSS motor máx (MB) "
-        "| RSS subidor máx (MB) | Escritura a disco (media / máx, MB/s) | DB tx/s (filas/s) | Commit p95 (ms) | Deriva memoria disponible (MB/h) |",
-        "|---|---|---|---|---|---|---|---|---|---|",
+        "| Esc. | Memoria disponible mín (MB) | Pico contenedor motor (MB) | Pico PostgreSQL (MB) | Pico API y frontend (MB) "
+        "| RSS motor máx (MB) | RSS subidor máx (MB) | Escritura a disco (media / máx, MB/s) | DB tx/s (filas/s) | Commit p95 (ms) "
+        "| Deriva memoria disponible (MB/h) |",
+        "|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for r in validos:
         p = picos.get(r["id"], {})
@@ -780,10 +783,28 @@ def _seccion_validacion(todos: list[dict[str, Any]], resultados: Path) -> list[s
             f"| {r['id']} | {_f(r['memoria_disponible_min'], 0)}"
             f"{f' de {_f(memoria_total, 0)}' if memoria_total else ''} "
             f"| {_f(p['motor'], 0) if 'motor' in p else '—'} | {_f(p['postgres'], 0) if 'postgres' in p else '—'} "
-            f"| {_f(r['rss_max'], 0)} | {_f(r['subidor_rss_max'], 0) if r['subida'] else '—'} "
+            f"| {_f(p['web'], 0) if 'web' in p else '—'} | {_f(r['rss_max'], 0)} | {_f(r['subidor_rss_max'], 0) if r['subida'] else '—'} "
             f"| {_f(r['disco_escritura_mb_s'])} / {_f(r['disco_escritura_max'])} | {_f(r['db_tx'])} ({_f(r['db_filas'])}) "
             f"| {_f(r['db_commit_p95'], 2)} | {_f(r['deriva_memoria_mb_h']) if r['segundos'] >= 600 else '—'} |"
         )
+    perfil = config.INSTANCIAS.get(tipo)
+    if perfil is not None and perfil.linea_base_cpu is not None:
+        base = 100 * perfil.linea_base_cpu
+        lineas += [
+            "",
+            f"**Créditos de CPU de la {tipo}.** Sin cargo extra, sostiene en promedio el {_f(base, 0)} % de la máquina "
+            f"({_f(perfil.vcpu * perfil.linea_base_cpu, 1)} núcleos). Por encima, en modo Unlimited, cobra "
+            f"USD {_f(CREDITO_CPU_USD, 2)} por hora de vCPU. Lo de abajo es durante el pico; pasado el pico la CPU baja con los MB/s.",
+            "",
+            "| Esc. | Corrutinas | MB/s bajados | MB/s por corrutina | CPU máquina media | Línea base | Exceso (núcleos) | Cargo extra (USD por día de pico) |",
+            "|---|---|---|---|---|---|---|---|",
+        ]
+        for r in validos:
+            exceso = max(0.0, (r["maquina_cpu"] - base) / 100) * perfil.vcpu
+            lineas.append(
+                f"| {r['id']} | {r['lugares']} | {_f(r['mb_s'])} | {_f(r['mb_s'] / r['lugares'], 2)} | {_f(r['maquina_cpu'])} % "
+                f"| {_f(base, 0)} % | {_f(exceso, 2)} | {_f(exceso * CREDITO_CPU_USD * 24, 2)} |"
+            )
     lineas += [
         "",
         "- **Red de Docker:** `puente` es la red por defecto de Docker (cada paquete pasa por una interfaz virtual y NAT); "

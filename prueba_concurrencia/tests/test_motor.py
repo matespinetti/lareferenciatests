@@ -64,6 +64,10 @@ def test_escenarios_de_la_spec():
         v = config.ESCENARIOS[id]
         assert v.real and v.lugares == 120 and v.subida and v.db and v.db_lotes and v.subidor_mismo_nucleo and v.modo_subida == "proceso"
     assert config.ESCENARIOS["v120h"].duracion == 3600
+    for n in (25, 50, 75, 120):
+        t = config.ESCENARIOS[f"t{n}"]
+        assert t.real and t.lugares == n and t.subida and t.db_lotes and not t.subidor_mismo_nucleo
+    assert config.INSTANCIAS["t4g.large"].red_base == 64e6 and config.INSTANCIAS["t4g.large"].linea_base_cpu == 0.30
     for prefijo, grupo in (("b", config.BARRIDO_RED), ("bs", config.BARRIDO_SIN_TOPE)):
         barrido = [config.ESCENARIOS[f"{prefijo}{n}"] for n in config.BARRIDO_LUGARES]
         assert all(e.real and e.grupo == grupo for e in barrido)

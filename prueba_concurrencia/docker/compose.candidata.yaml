@@ -44,6 +44,8 @@ services:
       SERVIDOR_PROCESOS: ${SERVIDOR_PROCESOS:-2}
       INSTANCIA: ${INSTANCIA:-c6gn.medium}
       ANCHO_MB_S: ${ANCHO_MB_S:-2.15}
+      ANCHO_P25: ${ANCHO_P25:-0.97}
+      ANCHO_P75: ${ANCHO_P75:-3.81}
       # Con S3_BUCKET sube a S3 real con el rol de la instancia; sin él, al S3 falso en IP_SERVIDOR:PUERTO_S3.
       S3_BUCKET: ${S3_BUCKET:-}
       S3_PREFIJO: ${S3_PREFIJO:-prueba-concurrencia}
@@ -60,6 +62,15 @@ services:
       - ../results:/app/results
       - ../spool:/app/spool
       - ../certs:/app/certs:ro
+
+  # Ocupa el lugar de la API y el frontend, que todavía no existen: ~450 MB y ~10 % de un núcleo.
+  web-simulada:
+    image: prueba-concurrencia
+    profiles: ["web"]
+    command: ["python", "-m", "concurrencia.carga_web"]
+    environment:
+      MEMORIA_WEB_MB: ${MEMORIA_WEB_MB:-450}
+      CPU_WEB: ${CPU_WEB:-0.1}
 
 volumes:
   postgres:

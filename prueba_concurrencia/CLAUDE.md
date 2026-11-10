@@ -82,6 +82,7 @@ ANCHO_MB_S=0.8 ./run_all.sh                     # otra mediana de velocidad por 
 HOST=0.0.0.0 SERVIDOR_PROCESOS=2 .venv/bin/servidor --escenario v120   # en la instancia A de la validación, una c6gn.large (más el S3 falso)
 S3_BUCKET=… bash scripts/candidata.sh <IP privada de A>                 # en la c6gn.medium (B): b120 s120 v120 con S3 real
 bash scripts/candidata.sh <IP privada de A> v120h                       # la de 1 hora, contra el S3 falso de A (S3 real costaría ~USD 2)
+RED_HOST=1 CARGA_WEB=1 INSTANCIA=t4g.large bash scripts/candidata.sh <IP> t25 t50 t75 t120   # producción en una t4g (GUIA_PRODUCCION_SP.md)
 ```
 
 Los escenarios (lugares, repositorios, modo, `--db`, duración) están en `config.ESCENARIOS`. El motor no recibe esos parámetros sueltos: así cada corrida es reproducible por su id.

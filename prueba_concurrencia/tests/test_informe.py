@@ -159,3 +159,18 @@ def test_velocidad_por_repositorio_calibrada():
     assert min(anchos) >= 0.3 * 2.15 - 1e-9 and max(anchos) <= 6 * 2.15 + 1e-9
     assert ancho_repo(1, 7) == ancho_repo(1, 7)
     assert ancho_repo(1, 7, sigma=0) == config.ANCHO_POR_CONEXION
+
+
+def test_creditos_de_cpu_en_una_t4g(tmp_path):
+    resultados = tmp_path / "results"
+    resultados.mkdir()
+    _resultado(resultados, "t50", 40, 300, mb_s=60)
+    ruta = resultados / "t50.json"
+    datos = json.loads(ruta.read_text())
+    datos["despliegue"] = {"ip_servidor": "10.0.1.23", "dos_maquinas": True, "s3": "real"}
+    ruta.write_text(json.dumps(datos))
+    (resultados / "instancia.json").write_text(json.dumps({"tipo": "t4g.large", "memoria_mb": 7800}))
+    armar(resultados, tmp_path / "report.md")
+    texto = (tmp_path / "report.md").read_text()
+    assert "Créditos de CPU de la t4g.large" in texto
+    assert next(linea for linea in texto.splitlines() if linea.startswith("| t50 | 50 | 60,0 | 1,20 |"))
