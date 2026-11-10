@@ -63,7 +63,7 @@ Arriba a la derecha de la consola, elegí São Paulo. Los recursos de Virginia n
 | Instance type | **t4g.large** |
 | Key pair | `pruebareferencia-sp` |
 | Network | **La misma subred que A** y el security group `prueba-concurrencia` |
-| Storage | **50 GiB gp3**, como en producción |
+| Storage | **20 GiB gp3** (alcanza para el sistema, Docker y el spool de la prueba; en gp3 el rendimiento no depende del tamaño) |
 | Advanced details → IAM instance profile | `prueba-concurrencia-s3` |
 | Advanced details → Metadata response hop limit | **2** |
 | Advanced details → Credit specification | **Unlimited**, el que viene por defecto: dejalo así |
