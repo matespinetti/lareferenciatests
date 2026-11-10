@@ -43,7 +43,7 @@ services:
       IP_SERVIDOR: ${IP_SERVIDOR:?falta IP_SERVIDOR, la IP privada del servidor simulado}
       SERVIDOR_PROCESOS: ${SERVIDOR_PROCESOS:-2}
       INSTANCIA: ${INSTANCIA:-c6gn.medium}
-      ANCHO_MB_S: ${ANCHO_MB_S:-2}
+      ANCHO_MB_S: ${ANCHO_MB_S:-2.15}
       # Con S3_BUCKET sube a S3 real con el rol de la instancia; sin él, al S3 falso en IP_SERVIDOR:PUERTO_S3.
       S3_BUCKET: ${S3_BUCKET:-}
       S3_PREFIJO: ${S3_PREFIJO:-prueba-concurrencia}
