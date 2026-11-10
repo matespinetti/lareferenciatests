@@ -28,24 +28,25 @@ ARCHIVO_MAXIMO = 1_876_593_140
 ARCHIVO_GRANDE = 37_961_393
 """Tamaño fijo del escenario 6 (el p95 de los pilotos), para medir la capacidad de un proceso con archivos grandes."""
 
-ANCHO_POR_CONEXION = float(os.environ.get("ANCHO_MB_S", "2.15")) * MB
-"""Mediana entre repositorios de los bytes por segundo que entrega una conexión. Medida desde EC2
-us-east-1 con `relevamiento medir-velocidad` (15 repositorios de los pilotos): 2,15 MB/s. Cada
-repositorio tiene su propia velocidad alrededor de esta mediana (`ANCHO_SIGMA`). Se cambia con ANCHO_MB_S."""
-ANCHO_CUARTILES_MEDIDOS = (float(os.environ.get("ANCHO_P25", "0.97")), float(os.environ.get("ANCHO_P75", "3.81")))
+ANCHO_POR_CONEXION = float(os.environ.get("ANCHO_MB_S", "3.30")) * MB
+"""Mediana entre repositorios de los bytes por segundo que entrega una conexión, medida desde São Paulo
+(sa-east-1, la región elegida) con `relevamiento medir-velocidad` sobre 15 repositorios: los 11 grandes de
+`medir-tamanos` y los de los pilotos (scripts/combinar_velocidades.py): 3,30 MB/s. Desde Virginia era 2,15.
+Cada repositorio tiene su propia velocidad alrededor de esta mediana (`ANCHO_SIGMA`). Se cambia con ANCHO_MB_S."""
+ANCHO_CUARTILES_MEDIDOS = (float(os.environ.get("ANCHO_P25", "1.43")), float(os.environ.get("ANCHO_P75", "14.76")))
 """Cuartiles inferior y superior medidos de la velocidad por repositorio (MB/s), los que fijan la dispersión.
-Desde EC2 us-east-1: 0,97 y 3,81. Para otra región, ANCHO_MB_S, ANCHO_P25 y ANCHO_P75 salen de la
-medición desde ahí (`mb_s_por_repositorio` de velocidad.json)."""
+Desde São Paulo: 1,43 y 14,76 (desde Virginia, 0,97 y 3,81). Para otra región, ANCHO_MB_S, ANCHO_P25 y
+ANCHO_P75 salen de la medición desde ahí (scripts/combinar_velocidades.py)."""
 ANCHO_SIGMA = float(
     os.environ.get("ANCHO_SIGMA", round(math.log(ANCHO_CUARTILES_MEDIDOS[1] / ANCHO_CUARTILES_MEDIDOS[0]) / (2 * 0.6745), 3))
 )
 """Dispersión de la velocidad entre repositorios: desvío del logaritmo de una log-normal cuyos cuartiles
 son los medidos (~1,0). 0: todos los repositorios a la mediana. Se cambia con ANCHO_SIGMA."""
-ANCHO_RANGO = (float(os.environ.get("ANCHO_REL_MIN", "0.3")), float(os.environ.get("ANCHO_REL_MAX", "6.0")))
-"""La velocidad de un repositorio se corta entre estos múltiplos de la mediana: lo observado. Desde
-Virginia, 0,3 y 6 (0,68 a 12,7 MB/s con mediana 2,15); para otra región, ANCHO_REL_MIN y ANCHO_REL_MAX
-(los imprime scripts/combinar_velocidades.py). La duración es muy sensible al mínimo."""
-ANCHOS_SENSIBILIDAD = (0.5, 1.0, 2.15, 5.0)
+ANCHO_RANGO = (float(os.environ.get("ANCHO_REL_MIN", "0.18")), float(os.environ.get("ANCHO_REL_MAX", "14.6")))
+"""La velocidad de un repositorio se corta entre estos múltiplos de la mediana: lo observado. Desde São
+Paulo, 0,18 y 14,6 (0,59 a 48 MB/s con mediana 3,30); desde Virginia eran 0,3 y 6. Para otra región,
+ANCHO_REL_MIN y ANCHO_REL_MAX (los imprime scripts/combinar_velocidades.py). La duración es muy sensible al mínimo."""
+ANCHOS_SENSIBILIDAD = (1.0, 2.15, 3.30, 6.0)
 """Medianas de MB/s por conexión con las que el informe recalcula la duración."""
 
 INTERVALO = 1.0

@@ -154,9 +154,13 @@ def test_velocidad_por_repositorio_calibrada():
 
     anchos = [ancho_repo(1, r) / config.MB for r in range(2400)]
     q = statistics.quantiles(anchos, n=4)
-    assert q[1] == pytest.approx(2.15, rel=0.05)
-    assert 0.8 < q[0] < 1.3 and 3.2 < q[2] < 5.0
-    assert min(anchos) >= 0.3 * 2.15 - 1e-9 and max(anchos) <= 6 * 2.15 + 1e-9
+    mediana = config.ANCHO_POR_CONEXION / config.MB
+    assert q[1] == pytest.approx(mediana, rel=0.06)
+    # Los cuartiles medidos, con lo que recorta el rango observado.
+    assert q[0] == pytest.approx(config.ANCHO_CUARTILES_MEDIDOS[0], rel=0.35)
+    assert q[2] == pytest.approx(config.ANCHO_CUARTILES_MEDIDOS[1], rel=0.35)
+    rango = config.ANCHO_RANGO
+    assert min(anchos) >= rango[0] * mediana - 1e-9 and max(anchos) <= rango[1] * mediana + 1e-9
     assert ancho_repo(1, 7) == ancho_repo(1, 7)
     assert ancho_repo(1, 7, sigma=0) == config.ANCHO_POR_CONEXION
 

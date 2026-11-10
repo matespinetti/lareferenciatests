@@ -1,0 +1,66 @@
+{
+  "region": "sa-east-1",
+  "fuente": "relevamiento medir-tamanos (ítems) y medir-velocidad --desde-tamanos (MB/s, mediana por repositorio)",
+  "mb_s_por_repositorio": {
+    "p25": 1.43,
+    "p50": 3.3,
+    "p75": 14.76
+  },
+  "repos": {
+    "ar-filo-uba": {
+      "items": 14903,
+      "mb_s": 11.97,
+      "archivos_por_item": 0.328
+    },
+    "ar-rdu-unc": {
+      "items": 37491,
+      "mb_s": 13.11,
+      "archivos_por_item": 1.308
+    },
+    "ar-rephip-unr": {
+      "items": 22960,
+      "mb_s": 2.82,
+      "archivos_por_item": 0.717
+    },
+    "ar-uca": {
+      "items": 19884,
+      "mb_s": 9.6,
+      "archivos_por_item": 1.017
+    },
+    "br-fiocruz": {
+      "items": 69700,
+      "mb_s": 48.29,
+      "archivos_por_item": 1.09
+    },
+    "br-ufmg": {
+      "items": 80687,
+      "mb_s": 30.43,
+      "archivos_por_item": 0.97
+    },
+    "br-unb": {
+      "items": 53416,
+      "mb_s": 0.59,
+      "archivos_por_item": 1.01
+    },
+    "br-unesp": {
+      "items": 245884,
+      "mb_s": 16.56,
+      "archivos_por_item": 0.279
+    },
+    "co-udea": {
+      "items": 49809,
+      "mb_s": 1.06,
+      "archivos_por_item": 1.163
+    },
+    "cr-kerwa": {
+      "items": 48548,
+      "mb_s": 2.21,
+      "archivos_por_item": 0.502
+    },
+    "mx-udg": {
+      "items": 57696,
+      "mb_s": 1.43,
+      "archivos_por_item": 0.466
+    }
+  }
+}
