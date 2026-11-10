@@ -219,6 +219,41 @@ def extraer_pagina_tamanos(r: Respuesta, formato: str) -> PaginaOai:
     return PaginaOai(registros=tuple(salida), total=total)
 
 
+def archivos_de_pagina(r: Respuesta, formato: str) -> list[tuple[str, int | None]]:
+    """(URL, tamaño) de los archivos de contenido de una página de ListRecords en METS o xoai, para
+    elegir qué archivos medir. Sin los registros borrados ni el último si la página quedó cortada."""
+    if error_oai(r):
+        return []
+    doc = parsear_xml(r.cuerpo)
+    if doc is None or not isinstance(doc.tag, str):
+        return []
+    registros = descendientes(doc, "record")
+    if r.truncado and registros:
+        registros = registros[:-1]
+    salida = []
+    for registro in registros:
+        encabezado = hijos(registro, "header")
+        if encabezado and encabezado[0].get("status") == "deleted":
+            continue
+        if formato == "mets":
+            for grupo in descendientes(registro, "fileGrp"):
+                if es_derivado(grupo.get("USE")):
+                    continue
+                for archivo in hijos(grupo, "file"):
+                    for flocat in hijos(archivo, "FLocat"):
+                        url = next((v for k, v in flocat.attrib.items() if k.endswith("href")), None)
+                        if url:
+                            salida.append((url, _entero(archivo.get("SIZE"))))
+        else:
+            for bundle in (e for e in descendientes(registro, "element") if e.get("name") == "bundle"):
+                if es_derivado(_campo(bundle, "name")):
+                    continue
+                for bs in (e for e in descendientes(bundle, "element") if e.get("name") == "bitstream"):
+                    if url := _campo(bs, "url"):
+                        salida.append((url, _entero(_campo(bs, "size"))))
+    return salida
+
+
 def _archivos_mets(registro) -> list[tuple[int | None, str | None]]:
     return [
         (_entero(archivo.get("SIZE")), archivo.get("MIMETYPE"))

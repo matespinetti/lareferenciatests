@@ -3,9 +3,12 @@
 Funciones puras: sin I/O y sin async. Todo el azar sale de un `random.Random` con semilla.
 """
 
+import json
 import math
+import os
 import random
 from dataclasses import dataclass
+from pathlib import Path
 from statistics import NormalDist
 
 from concurrencia import config
@@ -62,6 +65,35 @@ def items_por_repo(repos: int, total: int, semilla: int) -> list[int]:
     tamanos[0] += total - sum(tamanos)
     rng.shuffle(tamanos)
     return tamanos
+
+
+REPOS_MEDIDOS_RUTA = Path(os.environ.get("REPOS_MEDIDOS", Path(__file__).resolve().parents[2] / "datos" / "repos_medidos.json"))
+"""Repositorios reales con su cantidad de ítems y su velocidad medida (scripts/repos_medidos.py)."""
+
+
+Medido = tuple[int, float, float | None]
+"""(ítems, bytes/s por conexión, archivos por ítem) de un repositorio medido."""
+
+
+def repos_medidos(ruta: Path = REPOS_MEDIDOS_RUTA) -> dict[str, Medido]:
+    """{repo: (ítems, bytes/s, archivos por ítem)} de los repositorios medidos; vacío si no hay archivo."""
+    if not ruta.exists():
+        return {}
+    datos = json.loads(ruta.read_text(encoding="utf-8"))
+    return {
+        repo: (int(r["items"]), float(r["mb_s"]) * config.MB, r.get("archivos_por_item"))
+        for repo, r in datos["repos"].items()
+    }
+
+
+def items_del_modelo(semilla: int = config.SEMILLA, medidos: dict[str, Medido] | None = None) -> list[int]:
+    """Ítems por repositorio del problema real para el modelo de duración: primero los repositorios
+    medidos, con su cantidad real; después el resto, con la regla de `items_por_repo`, hasta
+    completar los repositorios y los ítems del problema."""
+    medidos = repos_medidos() if medidos is None else medidos
+    conocidos = [n for n, _, _ in medidos.values()]
+    resto = items_por_repo(config.REPOS_REALES - len(conocidos), config.ITEMS_REALES - sum(conocidos), semilla)
+    return conocidos + resto
 
 
 def rng_de(semilla: int, *partes: object) -> random.Random:

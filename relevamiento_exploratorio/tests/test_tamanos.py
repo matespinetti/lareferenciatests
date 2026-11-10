@@ -152,3 +152,34 @@ def test_un_repositorio_cuyo_robots_no_permite_queda_afuera(tmp_path):
     registro.cerrar()
     resumen = resumir_tamanos(tmp_path)
     assert list(resumen["por_repositorio"]) == ["ra"] and resumen["excluidos_por_robots"] == ["rb"]
+
+
+def test_archivos_de_pagina_con_url_y_sin_derivados():
+    from relevamiento.extractores import archivos_de_pagina
+
+    cuerpo = _pagina([_registro_mets("i1", [("ORIGINAL", 2_000_000), ("THUMBNAIL", 50)]), _registro_mets("i2", [], borrado=True)])
+    assert archivos_de_pagina(_respuesta(cuerpo), "mets") == [("https://x/0", 2_000_000)]
+
+
+def test_candidatos_de_tamanos_reparte_tamanos_y_respeta_robots(tmp_path):
+    from relevamiento.medir import candidatos_de_tamanos
+    from relevamiento.registro import Registro
+
+    registro = Registro(tmp_path, "c1")
+    for repo, host in (("ra", "a.org"), ("rb", "b.org")):
+        archivos = "".join(
+            f'<record><header><identifier>{repo}{i}</identifier></header><metadata><mets xmlns="http://www.loc.gov/METS/" '
+            f'xmlns:xlink="http://www.w3.org/1999/xlink"><fileSec><fileGrp USE="ORIGINAL"><file SIZE="{(i + 1) * 1_000_000}">'
+            f'<FLocat xlink:href="https://{host}/f{i}.pdf"/></file></fileGrp></fileSec></mets></metadata></record>'
+            for i in range(10)
+        )
+        cuerpo = f'<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"><ListRecords>{archivos}</ListRecords></OAI-PMH>'.encode()
+        captura = registro.captura(f"{repo}-1", host, url=f"https://{host}/oai", codigo=200, encabezados=(), cuerpo=cuerpo,
+                                   truncado=False, tipo="pagina")  # fmt: skip
+        registro.pedido({"id": f"{repo}-1", "repo": repo, "host": host, "metodo": "oai_mets", "codigo": 200,
+                         "url": f"https://{host}/oai", "captura": captura})  # fmt: skip
+    registro.evento("no_medido", repo="rb", url="https://b.org/oai", motivo="robots")
+    registro.cerrar()
+    elegidos = candidatos_de_tamanos(tmp_path, por_repo=5)
+    assert {c.repo for c in elegidos} == {"ra"}
+    assert [c.tamano for c in elegidos] == [1_000_000, 3_000_000, 5_000_000, 8_000_000, 10_000_000]

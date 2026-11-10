@@ -94,17 +94,18 @@ cd lareferenciatests/prueba_concurrencia && bash scripts/setup_ec2.sh
 exit
 ```
 
-Volvé a entrar, para que tome el límite de archivos abiertos. Después medí la velocidad. Hace pedidos a repositorios reales con la cortesía estricta de siempre (30 s entre pedidos a un host, 2 a la vez) y tarda unos 2 minutos:
+Volvé a entrar, para que tome el límite de archivos abiertos. Después medí la velocidad **de los repositorios grandes**: los 11 que midió `medir-tamanos`, con su cantidad real de ítems (Unesp, UFMG, Fiocruz, Guadalajara, UnB, Antioquia, Costa Rica, Córdoba, …). Pide 5 archivos de distintos tamaños de cada uno, que salen de las páginas que ya guardó `medir-tamanos` (en el repositorio, `relevamiento_exploratorio/tamanos/`). Hace pedidos a repositorios reales con la cortesía estricta de siempre (30 s entre pedidos a un host, 2 hosts a la vez) y tarda unos **20 minutos**:
 
 ```bash
 tmux new -s sp
 cd ~/lareferenciatests/relevamiento_exploratorio && uv sync
-uv run relevamiento medir-velocidad --contacto TU_CORREO --en-horario-ok --salida medicion-sp
+uv run relevamiento medir-velocidad --desde-tamanos tamanos --plan         # los 55 archivos, sin pedidos
+uv run relevamiento medir-velocidad --desde-tamanos tamanos --contacto TU_CORREO --en-horario-ok --salida medicion-sp
 uv run relevamiento verificar-cortesia --salida medicion-sp --medicion        # tiene que decir OK
 python3 -c "import json; d=json.load(open('medicion-sp/velocidad.json'))['mb_s_por_repositorio']; print(f'export ANCHO_MB_S={d[\"p50\"]} ANCHO_P25={d[\"p25\"]} ANCHO_P75={d[\"p75\"]}')"
 ```
 
-La última línea imprime algo como `export ANCHO_MB_S=3.1 ANCHO_P25=1.2 ANCHO_P75=6.4`. **Copiala:** va igual en A y en B, para que el simulador y el informe usen la misma velocidad.
+La última línea imprime algo como `export ANCHO_MB_S=3.1 ANCHO_P25=1.2 ANCHO_P75=6.4`. **Copiala:** va igual en A y en B, para que el simulador y el informe usen la misma velocidad. Con lo medido, cada repositorio simulado responde a una velocidad distinta, repartida alrededor de esa mediana. Además, el modelo de duración usa la velocidad real de cada uno de esos 11 repositorios (paso 6).
 
 ## 3. A: levantar el simulador con esa velocidad
 
@@ -173,6 +174,13 @@ scp -i "$CLAVE" -r ubuntu@"$IP_B":"$R/results" .
 scp -i "$CLAVE" ubuntu@"$IP_B":"$R/report.md" ubuntu@"$IP_B":"$R/run.log" .
 scp -i "$CLAVE" -r ubuntu@"$IP_A":lareferenciatests/relevamiento_exploratorio/medicion-sp .
 ls results/t50.* medicion-sp/velocidad.json
+```
+
+Con `medicion-sp/velocidad.json`, el modelo de duración pasa a usar la velocidad real de cada repositorio grande, con su cantidad real de ítems y sus archivos por ítem (esto lo hace Claude):
+
+```bash
+cd ~/dev/lareferenciatests/prueba_concurrencia
+python3 scripts/repos_medidos.py ../resultados-sp/medicion-sp/velocidad.json ../relevamiento_exploratorio/tamanos/tamanos.json sa-east-1 > datos/repos_medidos.json
 ```
 
 ## 7. Limpiar (en São Paulo)

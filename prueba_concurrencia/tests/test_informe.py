@@ -174,3 +174,18 @@ def test_creditos_de_cpu_en_una_t4g(tmp_path):
     texto = (tmp_path / "report.md").read_text()
     assert "Créditos de CPU de la t4g.large" in texto
     assert next(linea for linea in texto.splitlines() if linea.startswith("| t50 | 50 | 60,0 | 1,20 |"))
+
+
+def test_el_modelo_usa_los_repositorios_medidos(tmp_path, monkeypatch):
+    import concurrencia.distribucion as dist
+    from concurrencia import informe
+
+    ruta = tmp_path / "repos_medidos.json"
+    ruta.write_text(json.dumps({"region": "sa-east-1", "repos": {"br-unesp": {"items": 245884, "mb_s": 0.5}}}))
+    medidos = dist.repos_medidos(ruta)
+    items = dist.items_del_modelo(medidos=medidos)
+    assert items[0] == 245884 and len(items) == config.REPOS_REALES and sum(items) == config.ITEMS_REALES
+    m = informe.modelo_repos(config.ANCHO_POR_CONEXION, medidos=medidos)
+    assert m["anchos"][0] == pytest.approx(0.5 * config.MB)
+    # El sorteo cambia el resto, nunca el medido.
+    assert informe.modelo_repos(config.ANCHO_POR_CONEXION, semilla=7, medidos=medidos)["anchos"][0] == m["anchos"][0]

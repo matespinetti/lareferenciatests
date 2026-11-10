@@ -38,6 +38,9 @@ CORTESIA_MEDICION = ConfigCortesia(
 )
 ARCHIVOS_POR_REPO_MEDICION = 3
 TAMANO_MINIMO_MEDICION = 1_000_000
+ARCHIVOS_POR_REPO_TAMANOS = 5
+"""Con `medir-velocidad --desde-tamanos`: archivos por repositorio, de distintos tamaños (entra en los
+10 pedidos por repositorio de CORTESIA_MEDICION, con robots.txt)."""
 
 # Pedido por el usuario (nov 2026): medir el tamaño de los archivos desde los metadatos OAI (METS o
 # xoai), para calibrar el volumen de la prueba de concurrencia. Son páginas de ListRecords, no

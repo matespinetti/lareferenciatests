@@ -108,15 +108,23 @@ def cmd_medir(
     contacto: Annotated[Optional[str], typer.Option(envvar="RELEVAMIENTO_CONTACTO", help="Correo para el User-Agent.")] = None,
     simulacro: Annotated[bool, typer.Option("--plan", help="Muestra qué archivos se pedirían, sin hacer pedidos.")] = False,
     en_horario_ok: Annotated[bool, typer.Option("--en-horario-ok", help="Permite correr en horario laboral.")] = False,
+    desde_tamanos: Annotated[
+        Optional[Path],
+        typer.Option("--desde-tamanos", help="Toma los archivos de las páginas que guardó medir-tamanos (repositorios grandes)."),
+    ] = None,
 ) -> None:
-    """Mide a qué velocidad entregan un archivo los repositorios: vuelve a pedir archivos ya verificados
-    en los pilotos, leyendo hasta 8 MB o 30 s de cada uno, con una cortesía más estricta (30 s entre
-    pedidos a un host, 2 hosts a la vez, 3 archivos por repositorio)."""
-    from relevamiento.medir import candidatos, medir, resumir_medicion
+    """Mide a qué velocidad entregan un archivo los repositorios, leyendo hasta 8 MB o 30 s de cada uno,
+    con una cortesía más estricta (30 s entre pedidos a un host, 2 hosts a la vez, 10 pedidos por
+    repositorio). Por defecto vuelve a pedir archivos verificados en los pilotos (3 por repositorio);
+    con --desde-tamanos, 5 archivos de distintos tamaños de cada repositorio medido con medir-tamanos."""
+    from relevamiento.medir import candidatos, candidatos_de_tamanos, medir, resumir_medicion
 
-    elegidos = candidatos(pilotos or [Path("piloto"), Path("piloto2"), Path("piloto3")])
+    if desde_tamanos is not None:
+        elegidos = candidatos_de_tamanos(desde_tamanos)
+    else:
+        elegidos = candidatos(pilotos or [Path("piloto"), Path("piloto2"), Path("piloto3")])
     if not elegidos:
-        raise typer.BadParameter("No hay archivos de 1 MB o más en los pilotos.", param_hint="--piloto")
+        raise typer.BadParameter("No hay archivos de 1 MB o más para medir.", param_hint="--piloto / --desde-tamanos")
     repos = sorted({c.repo for c in elegidos})
     typer.echo(f"{len(elegidos)} archivos de {len(repos)} repositorios (hasta {CORTESIA_MEDICION.bytes_medicion // 2**20} MB "
                f"o {CORTESIA_MEDICION.segundos_medicion:.0f} s de cada uno).")

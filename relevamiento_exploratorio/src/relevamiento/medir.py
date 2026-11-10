@@ -20,10 +20,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from relevamiento.config import ARCHIVOS_POR_REPO_MEDICION, TAMANO_MINIMO_MEDICION, ConfigCortesia
+from relevamiento.config import ARCHIVOS_POR_REPO_MEDICION, ARCHIVOS_POR_REPO_TAMANOS, TAMANO_MINIMO_MEDICION, ConfigCortesia
 from relevamiento.cortesia import Cortesia, SinPedido
-from relevamiento.modelos import Contexto
-from relevamiento.registro import PEDIDOS, Registro, leer_jsonl
+from relevamiento.extractores import archivos_de_pagina
+from relevamiento.modelos import Contexto, Respuesta
+from relevamiento.parseo import host_de
+from relevamiento.registro import EVENTOS, PEDIDOS, Registro, leer_jsonl
 
 VELOCIDAD = "velocidad.csv"
 MB = 1024 * 1024
@@ -76,6 +78,42 @@ def candidatos(
     return elegidos
 
 
+def candidatos_de_tamanos(
+    dir_tamanos: Path, por_repo: int = ARCHIVOS_POR_REPO_TAMANOS, minimo: int = TAMANO_MINIMO_MEDICION
+) -> list[Candidato]:
+    """Archivos de las páginas METS o xoai que guardó `medir-tamanos`: los repositorios grandes con
+    la cantidad real de ítems. De cada uno, hasta `por_repo` archivos de `minimo` bytes o más,
+    repartidos entre chicos y grandes. Sin los repositorios que `robots.txt` excluyó ni los hosts
+    abandonados."""
+    eventos = list(leer_jsonl(dir_tamanos / EVENTOS))
+    sin_permiso = {e["repo"] for e in eventos if e.get("tipo") == "no_medido" and e.get("motivo") == "robots"}
+    pedidos = list(leer_jsonl(dir_tamanos / PEDIDOS))
+    abandonados = {p["host"] for p in pedidos if p.get("abandono")}
+    por_repo_: dict[str, dict[str, int]] = defaultdict(dict)
+    for p in pedidos:
+        if not str(p.get("metodo", "")).startswith("oai_") or p.get("codigo") != 200 or not p.get("captura"):
+            continue
+        if p["repo"] in sin_permiso:
+            continue
+        meta_ruta = dir_tamanos / p["captura"]
+        meta = json.loads(meta_ruta.read_text(encoding="utf-8"))
+        r = Respuesta(
+            url_inicial=p["url"], url=p["url"], codigo=200,
+            cuerpo=meta_ruta.with_suffix(".cuerpo").read_bytes(), truncado=bool(meta.get("truncado")),
+        )  # fmt: skip
+        for url, tamano in archivos_de_pagina(r, p["metodo"].removeprefix("oai_")):
+            if tamano and tamano >= minimo and host_de(url) not in abandonados:
+                por_repo_[p["repo"]][url] = tamano
+    elegidos = []
+    for repo in sorted(por_repo_):
+        archivos = sorted(por_repo_[repo].items(), key=lambda a: a[1])
+        n = min(por_repo, len(archivos))
+        # Repartidos entre el más chico y el más grande, para no medir solo un tamaño.
+        indices = sorted({round(i * (len(archivos) - 1) / max(1, n - 1)) for i in range(n)})
+        elegidos += [Candidato(repo, host_de(archivos[i][0]), archivos[i][0], archivos[i][1]) for i in indices]
+    return elegidos
+
+
 async def medir(elegidos: list[Candidato], dir_salida: Path, contacto: str, cfg: ConfigCortesia) -> str:
     """Pide cada candidato con la cortesía de medición. Devuelve el id de la corrida."""
     corrida = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%f")[:-3]
@@ -89,6 +127,9 @@ async def medir(elegidos: list[Candidato], dir_salida: Path, contacto: str, cfg:
 
             async def un_repo(repo: str, archivos: list[Candidato]) -> None:
                 for i, c in enumerate(archivos):
+                    if cortesia.robots_permitido(c.url) is False:
+                        registro.evento("no_medido", repo=repo, url=c.url, motivo="robots")
+                        continue
                     ctx = Contexto(repo=repo, paso="medicion", metodo="medicion", item=c.url, item_idx=i)
                     try:
                         await cortesia.pedir(c.url, ctx, tipo="medicion")
