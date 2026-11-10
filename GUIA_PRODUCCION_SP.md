@@ -9,7 +9,7 @@ La última prueba antes de decidir. La máquina candidata es una **t4g.large** (
 Todo en **São Paulo (sa-east-1)**. Primero se mide la velocidad de los repositorios desde ahí, y el simulador la usa.
 
 ```
-A: c6gn.large (simulador)                         B: t4g.large (la candidata)
+A: c6gn.medium (simulador)                        B: t4g.large (la candidata)
    1. medir-velocidad desde São Paulo                Docker Compose:
    2. servidor simulado con esa velocidad  ◄────       motor (red del host) + subidor
       y la red base de la t4g.large (~61 MB/s)         PostgreSQL (lotes) + API/frontend simulados
@@ -18,7 +18,7 @@ A: c6gn.large (simulador)                         B: t4g.large (la candidata)
 
 Corre un barrido de corrutinas: **25, 50, 75 y 120**, de 3,5 minutos cada uno. Mide lo mismo que antes (MB/s, CPU de la máquina y de cada proceso, memoria por contenedor, disco, retraso del bucle, errores y cortesía), y además **los créditos de CPU** de la t4g contra su línea base.
 
-**Duración:** ~1 hora en total. **Costo:** menos de USD 1 (c6gn.large USD 0,14/h y t4g.large USD 0,11/h en São Paulo; S3, centavos).
+**Duración:** ~1 hora en total. **Costo:** menos de USD 1 (c6gn.medium ~USD 0,07/h y t4g.large USD 0,11/h en São Paulo; S3, centavos).
 
 Abreviaturas: **`$IP_A`** y **`$IP_B`** son las IP públicas, y **`$IP_PRIVADA_A`** es la privada de A. Los pasos que se repiten con `GUIA_DOS_MAQUINAS.md` están explicados ahí en más detalle.
 
@@ -49,7 +49,7 @@ Arriba a la derecha de la consola, elegí São Paulo. Los recursos de Virginia n
 |---|---|
 | Name | `simulador-sp` |
 | AMI | Ubuntu Server 24.04 LTS, **64-bit (Arm)** |
-| Instance type | **c6gn.large** |
+| Instance type | **c6gn.medium**: con 1 núcleo alcanza para servir 61 MB/s, y tiene 200 MB/s de red garantizada. No uses una de red base cercana a 61 MB/s (t4g.large, c7g.medium): el límite pasaría a ser el simulador |
 | Key pair | `pruebareferencia-sp` |
 | Network | VPC por defecto, IP pública. Security group nuevo `prueba-concurrencia`, con SSH (22) desde My IP |
 | Storage | 20 GiB gp3 |
