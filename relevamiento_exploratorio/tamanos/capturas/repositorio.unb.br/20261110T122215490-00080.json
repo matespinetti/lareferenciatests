@@ -1,0 +1,21 @@
+{
+ "pedido": "20261110T122215490-00080",
+ "url": "https://repositorio.unb.br/oai/request?verb=ListRecords&metadataPrefix=mets&from=2020-01-01&until=2022-12-31",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "content-type",
+   "text/xml;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 12:23:24 GMT"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

@@ -18,10 +18,15 @@ LATENCIA_P95 = 1.9
 PAGINA_P50 = 10_000
 PAGINA_P95 = 450_000
 PAGINA_MAXIMO = 2 * MB
-# Archivo (pilotos: p50 0,53 MB, p95 38 MB, máximo 200 MB, media 11,5 MB).
-ARCHIVO_P50 = 529_207
-ARCHIVO_P95 = 37_961_393
-ARCHIVO_MAXIMO = 200_605_784
+# Archivo: medido con `relevamiento medir-tamanos` (nov 2026) en los metadatos OAI de 11 repositorios
+# reales (2.306 ítems, 1.676 archivos), ponderado por la cantidad de ítems de cada repositorio:
+# mediana 1,20 MB, p95 16,3 MB, p99 135 MB, máximo 1,88 GB y media 6,80 MB. La log-normal conserva
+# la mediana y la media (las que fijan el tiempo y el volumen), así que su p95 queda en ~26 MB.
+ARCHIVO_P50 = 1_204_370
+ARCHIVO_P95 = 25_860_645
+ARCHIVO_MAXIMO = 1_876_593_140
+ARCHIVO_GRANDE = 37_961_393
+"""Tamaño fijo del escenario 6 (el p95 de los pilotos), para medir la capacidad de un proceso con archivos grandes."""
 
 ANCHO_POR_CONEXION = float(os.environ.get("ANCHO_MB_S", "2.15")) * MB
 """Mediana entre repositorios de los bytes por segundo que entrega una conexión. Medida desde EC2
@@ -47,9 +52,10 @@ TOLERANCIA = 0.001
 """Margen del servidor al comparar intervalos, para no contar como violación un redondeo."""
 
 CHUNK = 64 * 1024
-ARCHIVOS_POR_ITEM = {0: 13, 1: 43, 2: 9, 4: 1}
-"""Archivos descargables por ítem en los pilotos (piloto3: 66 ítems de 22 repositorios): uno en la mayoría,
-ninguno en uno de cada cinco (embargados, restringidos o sin archivo). Cuántos ítems tuvieron cada cantidad."""
+ARCHIVOS_POR_ITEM = {0: 3767, 1: 5899, 2: 241, 3: 26, 4: 37, 5: 30}
+"""Archivos de contenido por ítem, medidos con `relevamiento medir-tamanos` (11 repositorios, ponderado por
+sus ítems), por cada 10.000 ítems: uno en la mayoría y ninguno en ~38 % (embargados, restringidos, solo
+metadatos o con el archivo afuera del repositorio). 5 son 5 o más. Media: 0,68."""
 DESCARGAS_POR_ITEM = sum(k * n for k, n in ARCHIVOS_POR_ITEM.items()) / sum(ARCHIVOS_POR_ITEM.values())
 PROB_429 = 0.005
 PROB_503 = 0.005
@@ -244,7 +250,7 @@ ESCENARIOS: dict[str, Escenario] = {
         _sintetico("3", 1000, "Margen"),
         _real("4", "El pico real: todos los repositorios activos, con la red de la instancia"),
         _sintetico("5", 5000, "Buscar el límite"),
-        _real("6", "Capacidad de un proceso: sin tope de red, archivos de 38 MB", tam_archivo=ARCHIVO_P95, con_red=False),
+        _real("6", "Capacidad de un proceso: sin tope de red, archivos de 38 MB", tam_archivo=ARCHIVO_GRANDE, con_red=False),
         _real("7", "Comparación con hilos en el pico real", modo=Modo.HILOS),
         _real("8", "Costo de registrar en la base", db=True),
         _real("9", "Resistencia: memoria estable y créditos de CPU", duracion=3600.0),

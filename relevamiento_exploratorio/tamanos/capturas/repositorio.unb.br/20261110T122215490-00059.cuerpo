@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-11-10T12:23:10Z</responseDate><request verb="ListRecords" metadataPrefix="mets" from="2017-01-01T00:00:00Z" until="2019-12-31T00:00:00Z">http://repositorio.unb.br/oai/request</request><ListRecords><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29485</identifier><datestamp>2019-07-31T11:20:38Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29626</identifier><datestamp>2019-07-31T11:21:13Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29526</identifier><datestamp>2019-07-31T11:20:51Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30296</identifier><datestamp>2019-07-31T11:23:01Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29820</identifier><datestamp>2019-07-31T11:21:51Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30206</identifier><datestamp>2019-07-31T11:22:54Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29932</identifier><datestamp>2019-07-31T11:22:23Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29607</identifier><datestamp>2019-07-31T11:20:59Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29571</identifier><datestamp>2019-07-31T11:20:48Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29591</identifier><datestamp>2019-07-31T11:20:58Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29969</identifier><datestamp>2019-07-31T11:23:13Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30827</identifier><datestamp>2019-07-31T11:22:04Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/25069</identifier><datestamp>2019-07-31T11:18:18Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29665</identifier><datestamp>2019-07-31T11:21:13Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29771</identifier><datestamp>2019-07-31T11:23:11Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29742</identifier><datestamp>2019-07-31T11:21:44Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29821</identifier><datestamp>2019-07-31T11:21:49Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29823</identifier><datestamp>2019-07-31T11:23:11Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29455</identifier><datestamp>2019-07-31T11:20:38Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30947</identifier><datestamp>2019-07-31T11:22:42Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30648</identifier><datestamp>2019-07-31T11:20:02Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30964</identifier><datestamp>2019-07-31T11:22:42Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29529</identifier><datestamp>2019-07-31T11:20:49Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30552</identifier><datestamp>2019-07-31T11:19:23Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29968</identifier><datestamp>2019-07-31T11:22:26Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29650</identifier><datestamp>2019-07-31T11:21:17Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30740</identifier><datestamp>2019-07-31T11:21:24Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30176</identifier><datestamp>2019-07-31T11:22:54Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30678</identifier><datestamp>2019-07-31T11:23:09Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30956</identifier><datestamp>2019-07-31T11:22:42Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30806</identifier><datestamp>2019-07-31T11:22:05Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30285</identifier><datestamp>2019-07-31T11:23:15Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30260</identifier><datestamp>2019-07-31T11:23:00Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29525</identifier><datestamp>2019-07-31T11:20:48Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30959</identifier><datestamp>2019-07-31T11:22:41Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29638</identifier><datestamp>2019-07-31T11:21:18Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29599</identifier><datestamp>2019-07-31T11:21:00Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30111</identifier><datestamp>2019-07-31T11:23:14Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30642</identifier><datestamp>2019-07-31T11:19:42Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30188</identifier><datestamp>2019-07-31T11:22:56Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29685</identifier><datestamp>2019-07-31T11:21:26Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29661</identifier><datestamp>2019-07-31T11:21:15Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29578</identifier><datestamp>2019-07-31T11:20:48Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30219</identifier><datestamp>2019-07-31T11:23:00Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29643</identifier><datestamp>2019-07-31T11:21:18Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29773</identifier><datestamp>2019-07-31T11:21:47Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/24979</identifier><datestamp>2019-07-31T11:18:16Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29660</identifier><datestamp>2019-07-31T11:21:14Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29640</identifier><datestamp>2019-07-31T11:21:19Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header><identifier>oai:repositorio.unb.br:10482/26435</identifier><datestamp>2019-07-31T11:20:27Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_10482-26435" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:10482/26435">
+   <metsHdr CREATEDATE="2026-11-10T09:23:08Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositório Institucional da UnB</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_10482_26435">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Alves, Elder Patrick Maia</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2017-12-07T04:42:28Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2017-12-07T04:42:28Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2005</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="citation">Soc. estado.,v.20,n.1,p.247-253,2005</mods:identifier>
+               <mods:identifier type="uri">http://repositorio.unb.br/handle/10482/26435</mods:identifier>
+               <mods:identifier type="doi">https://dx.doi.org/10.1590/S0102-69922005000100011</mods:identifier>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">pt</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Acesso Aberto</mods:accessCondition>
+               <mods:titleInfo>
+                  <mods:title>Norbert Elias: o esboço de uma sociologia das emoções</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Artigo</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_10482_26435_1">
+      <techMD ID="TECH_O_10482_26435_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>http://repositorio2.unb.br/jspui/bitstream/10482/26435/1/v20n1a11.pdf</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>4c3ae570b179cdbdeed788f2b5d65a8a</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>25593</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>v20n1a11.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_10482_26435_1" MIMETYPE="application/pdf" SEQ="1" SIZE="25593" CHECKSUM="4c3ae570b179cdbdeed788f2b5d65a8a" CHECKSUMTYPE="MD5" ADMID="FO_10482_26435_1" GROUPID="GROUP_BITSTREAM_10482_26435_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://repositorio2.unb.br/jspui/bitstream/10482/26435/1/v20n1a11.pdf" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_10482_26435">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_10482_26435_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record><record><header><identifier>oai:repositorio.unb.br:10482/25762</identifier><datestamp>2019-07-31T11:19:12Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_10482-25762" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:10482/25762">
+   <metsHdr CREATEDATE="2026-11-10T09:23:10Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositório Institucional da UnB</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_10482_25762">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Araujo, Tereza Cristina Cavalcanti Ferreira de</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2017-12-07T04:34:00Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2017-12-07T04:34:00Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2001</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="citation">Psic.: Teor. e Pesq.,v.17,n.2,p.199-200,2001</mods:identifier>
+               <mods:identifier type="uri">http://repositorio.unb.br/handle/10482/25762</mods:identifier>
+               <mods:identifier type="doi">https://dx.doi.org/10.1590/S0102-37722001000200013</mods:identifier>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">pt</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Acesso Aberto</mods:accessCondition>
+               <mods:titleInfo>
+                  <mods:title>Notícia: Segunda Conferência Internacional Reconstruindo a Psicologia da Saúde News: Second International Conference on Reconstructing Health Psychology</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Artigo</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_10482_25762_1">
+      <techMD ID="TECH_O_10482_25762_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>http://repositorio2.unb.br/jspui/bitstream/10482/25762/1/7881.pdf</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>610aa92a8ab90b7bb0a88c18d6db0997</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>17429</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>7881.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_10482_25762_1" MIMETYPE="application/pdf" SEQ="1" SIZE="17429" CHECKSUM="610aa92a8ab90b7bb0a88c18d6db0997" CHECKSUMTYPE="MD5" ADMID="FO_10482_25762_1" GROUPID="GROUP_BITSTREAM_10482_25762_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://repositorio2.unb.br/jspui/bitstream/10482/25762/1/7881.pdf" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_10482_25762">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_10482_25762_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29774</identifier><datestamp>2019-07-31T11:21:52Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30268</identifier><datestamp>2019-07-31T11:23:01Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30288</identifier><datestamp>2019-07-31T11:23:01Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30951</identifier><datestamp>2019-07-31T11:22:41Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29515</identifier><datestamp>2019-07-31T11:20:51Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29468</identifier><datestamp>2019-07-31T11:20:37Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30636</identifier><datestamp>2019-07-31T11:19:38Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30333</identifier><datestamp>2019-07-31T11:23:02Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header><identifier>oai:repositorio.unb.br:10482/32841</identifier><datestamp>2018-10-18T22:21:23Z</datestamp><setSpec>com_10482_564</setSpec><setSpec>com_10482_129</setSpec><setSpec>com_10482_34</setSpec><setSpec>col_10482_15832</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_10482-32841" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:10482/32841">
+   <metsHdr CREATEDATE="2026-11-10T09:23:10Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositório Institucional da UnB</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_10482_32841">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Carvalho Júnior, Osmar Abílio de</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Silva, Miriam Rodrigues da</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2018-10-18T22:21:23Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2018-10-18T22:21:23Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2018-10-04</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="citation">SILVA, Miriam Rodrigues da. Uso de séries temporais do sensor MODIS para identificar diferentes culturas agrícolas. 2018. xix, 89 f., il. Tese (Doutorado em Geografia)—Universidade de Brasília, Brasília, 2018.</mods:identifier>
+               <mods:identifier type="uri">http://repositorio.unb.br/handle/10482/32841</mods:identifier>
+               <mods:abstract>A presente pesquisa objetiva identificar culturas de grãos a partir de séries temporais NDVI&#xd;
+MODIS. As culturas agrícolas e regiões analisadas foram: (a) soja, milho e algodão no Estado&#xd;
+do Mato Grosso na safra de 2013/2014; (b) trigo no Estado do Rio Grande do Sul; (c) e&#xd;
+cultura do arroz no Estado de Santa Catarina. A tese está estruturada em 5 (cinco) capítulos,&#xd;
+onde os capítulos de desenvolvimento (2, 3 e 4) foram escritos no formato de artigos&#xd;
+científicos. No processamento digital de imagem todas as análises consideraram as seguintes&#xd;
+etapas: (a) aquisição das imagens MODIS; (b) tratamento dos ruídos usando o filtro Savitzky-&#xd;
+Golay; (c) classificação; e (d) análise de acurácia. A principal diferença metodológica foi a&#xd;
+etapa de classificação que utilizou duas abordagens: (a) classificação contínua do terreno&#xd;
+considerando as diferentes produções agrícolas (soja, milho e algodão) e os tipos de vegetação&#xd;
+a partir de dois métodos de aprendizagem de máquina (Support Vector Machines e Redes&#xd;
+Neurais de retro-propagação); e (b) detecção de uma única cultura de pequenos agricultores&#xd;
+(arroz em Santa Catarina e trigo no Rio Grande do Sul) usando o método do vizinho mais&#xd;
+próximo (caso específico do método K-NN). A primeira abordagem usando classificação&#xd;
+contínua do terreno considerou as seguintes assinaturas temporais NDVI: formação florestal,&#xd;
+cerrado, pastagem, sistema único de cultivo anual (soja, milho e algodão), sistema duplo de&#xd;
+cultivo (soja/milho e soja/algodão) e pivô central (sistema triplo de cultivo). Na classificação&#xd;
+foram testados 378 modelos de redes neurais com variações dos parâmetros de entrada e 8&#xd;
+modelos SVM usando diferentes funções Kernel. O índice Kappa mostrou que os melhores&#xd;
+modelos da Rede Neural (0,77) e SVM (0,75) foram estatisticamente equivalentes pelo teste&#xd;
+McNemar. A classificação baseada no vizinho mais próximo foi constituida de duas fases: (a)&#xd;
+geração de imagens métricas (distância Euclidiana e similaridade do cosseno); e (b) definição&#xd;
+do melhor valor de corte para caracterizar a máscara da cultura agrícola. Os resultados&#xd;
+mostraram diferentes perfis temporais tanto no trigo como no arroz devido às variações do&#xd;
+calendário agrícola da região. Nas duas classificações (trigo e arroz), os resultados usando as&#xd;
+duas métricas foram estatisticamente equivalentes pelo teste McNemar. Na análise do trigo, a&#xd;
+distância Euclidiana obteve um índice Kappa de 0,75 e a semelhança do cosseno um índice&#xd;
+Kappa de 0,74. Na análise do arroz a distância Euclidiana obteve um índice Kappa de 0,73 e a&#xd;
+semelhança do cosseno um índice Kappa de 0,72. As metodologias descritas demonstram uma&#xd;
+grande potencial para o cálculo das áreas de produção agrícola, podendo auxiliar os órgãos&#xd;
+federais para o planejamento regional e segurança alimentar.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">Português</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Acesso Aberto</mods:accessCondition>
+               <mods:titleInfo>
+                  <mods:title>Uso de séries temporais do sensor MODIS para identificar diferentes culturas agrícolas</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Tese</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_10482_32841">
+      <rightsMD ID="RIG_10482_32841">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>QSBjb25jZXNzw6NvIGRhIGxpY2Vuw6dhIGRlc3RlIGl0ZW0gcmVmZXJlLXNlIGFvIHRlcm1vIGRlIGF1dG9yaXphw6fDo28gaW1wcmVzc28gYXNzaW5hZG8gDQpwZWxvIGF1dG9yIGNvbSBhcyBzZWd1aW50ZXMgY29uZGnDp8O1ZXM6DQoNCk5hIHF1YWxpZGFkZSBkZSB0aXR1bGFyIGRvcyBkaXJlaXRvcyBkZSBhdXRvciBkYSBwdWJsaWNhw6fDo28sIGF1dG9yaXpvIGEgVW5pdmVyc2lkYWRlIGRlIEJyYXPDrWxpYQ0KIGUgbyBJQklDVCBhIGRpc3BvbmliaWxpemFyIHBvciBtZWlvIGRvcyBzaXRlcyB3d3cuYmNlLnVuYi5iciwgd3d3LmliaWN0LmJyLA0KIGh0dHA6Ly9oZXJjdWxlcy52dGxzLmNvbS9jZ2ktYmluL25kbHRkL2NoYW1lbGVvbj9sbmc9cHQmc2tpbj1uZGx0ZCBzZW0gcmVzc2FyY2ltZW50byBkb3MgDQpkaXJlaXRvcyBhdXRvcmFpcywgZGUgYWNvcmRvIGNvbSBhIExlaSBuwrogOTYxMC85OCwgbyB0ZXh0byBpbnRlZ3JhbCBkYSBvYnJhIGRpc3BvbmliaWxpemFkYSwNCiBjb25mb3JtZSBwZXJtaXNzw7VlcyBhc3NpbmFsYWRhcywgcGFyYSBmaW5zIGRlIGxlaXR1cmEsIGltcHJlc3PDo28gZS9vdSBkb3dubG9hZCwgYSB0w610dWxvIGRlIA0KZGl2dWxnYcOnw6NvIGRhIHByb2R1w6fDo28gY2llbnTDrWZpY2EgYnJhc2lsZWlyYSwgYSBwYXJ0aXIgZGVzdGEgZGF0YS4=</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_10482_32841_1">
+      <techMD ID="TECH_O_10482_32841_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>http://repositorio2.unb.br/jspui/bitstream/10482/32841/1/2018_MiriamRodriguesdaSilva.pdf</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>be3ef8bc4a01aad93ab8f954ad6dfd46</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>2922256</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>2018_MiriamRodriguesdaSilva.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_10482_32841_1" MIMETYPE="application/pdf" SEQ="1" SIZE="2922256" CHECKSUM="be3ef8bc4a01aad93ab8f954ad6dfd46" CHECKSUMTYPE="MD5" ADMID="FO_10482_32841_1" GROUPID="GROUP_BITSTREAM_10482_32841_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://repositorio2.unb.br/jspui/bitstream/10482/32841/1/2018_MiriamRodriguesdaSilva.pdf" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_10482_32841">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_10482_32841_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30952</identifier><datestamp>2019-07-31T11:22:41Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29530</identifier><datestamp>2019-07-31T11:20:50Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30360</identifier><datestamp>2019-07-31T11:23:03Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29490</identifier><datestamp>2019-07-31T11:20:39Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29727</identifier><datestamp>2019-07-31T11:21:46Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29622</identifier><datestamp>2019-07-31T11:21:14Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29974</identifier><datestamp>2019-07-31T11:22:28Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29761</identifier><datestamp>2019-07-31T11:21:49Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29655</identifier><datestamp>2019-07-31T11:21:16Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29835</identifier><datestamp>2019-07-31T11:21:56Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29869</identifier><datestamp>2019-07-31T11:22:05Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30006</identifier><datestamp>2019-07-31T11:22:32Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30782</identifier><datestamp>2019-07-31T11:22:06Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29639</identifier><datestamp>2019-07-31T11:21:16Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29937</identifier><datestamp>2019-07-31T11:22:22Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30346</identifier><datestamp>2019-07-31T11:23:03Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29647</identifier><datestamp>2019-07-31T11:21:18Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29601</identifier><datestamp>2019-07-31T11:21:01Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30348</identifier><datestamp>2019-07-31T11:23:16Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30148</identifier><datestamp>2019-07-31T11:22:57Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/27046</identifier><datestamp>2019-07-31T11:21:33Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/25132</identifier><datestamp>2019-07-31T11:18:18Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30152</identifier><datestamp>2019-07-31T11:22:56Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30679</identifier><datestamp>2019-07-31T11:20:49Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30124</identifier><datestamp>2019-07-31T11:22:52Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header><identifier>oai:repositorio.unb.br:10482/27099</identifier><datestamp>2019-07-31T11:21:41Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_10482-27099" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:10482/27099">
+   <metsHdr CREATEDATE="2026-11-10T09:23:10Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositório Institucional da UnB</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_10482_27099">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Dambros, Régia Maria Feltrin</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Ribeiro, Bergman Moraes</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Aguiar, Raimundo Wagner de Souza</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Schaefer, Rejane</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Esteves, Paulo Augusto</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Perecmanis, Simone</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Simon, Neide Lisiane</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Silva, Nayara Cavalcante</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Coldebella, Michele</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Ciacci-Zanella, Janice Reis</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2017-12-07T04:48:34Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2017-12-07T04:48:34Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2007</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="citation">Braz. J. Microbiol.,v.38,n.3,p.494-499,2007</mods:identifier>
+               <mods:identifier type="uri">http://repositorio.unb.br/handle/10482/27099</mods:identifier>
+               <mods:identifier type="doi">https://dx.doi.org/10.1590/S1517-83822007000300021</mods:identifier>
+               <mods:abstract>Aujeszky' s disease (AD) is an infectious disease causing important economic losses to the swine industry worldwide. The disease is caused by an alpha-herpesvirus, Aujeszky' s disease virus (ADV), an enveloped virus with a double stranded linear DNA genome. The ADV genome encodes 11 glycoproteins, which are major targets for the immune system of the host in response to the infection. The glycoprotein E (gE) is a non-essential protein and deletion of the gE gene has been used for the production of marker vaccines. Aiming to develop molecular reagents for the production of a gE specific ELISA test, the gE gene was amplified by PCR, cloned and expressed into a baculovirus expression system. The recombinant DNA vector pFastBac-gE-ADV was used for site-specific transposition into the recombinant baculovirus (bacmid). Colonies with recombinant bacmid-pFastBac-gE-ADV were selected by antibiotic and color selection and the presence of the gE gene was confirmed by PCR. The recombinant bacmid-pFastBac-gE-ADV was cotransfected in insect Trichoplusia ni and the presence of the recombinant DNA and gE protein were detected by PCR, SDS-PAGE and Western blotting, respectively.A doença de Aujeszky (DA) é uma enfermidade infecto-contagiosa que causa grandes perdas econômicas ao produtor e à agroindústria suinícola em todo o mundo. É causada pelo vírus da doença de Aujeszky (VDA), um alfaherpesvírus envelopado com genoma DNA de fita dupla e linear. O genoma do VDA codifica 11 glicoproteínas, as quais são os maiores alvos do sistema imune do hospedeiro em resposta a infecção. A glicoproteína E (gE) é uma proteína não essencial e a deleção do gene da gE é muito utilizada para a produção de vacinas com marcadores. Com o objetivo de desenvolver insumos moleculares para a produção de um teste de ELISA específico para gE do VDA, a seqüência do gene da gE foi amplificada, clonada e expressa no sistema de expressão em baculovírus. O produto da amplificação foi clonado no vetor pGem®-T Easy e subclonado no plasmídeo de expressão pFastBac™1. O DNA recombinante pFastBac-gE-VDA foi usado para a transposição sítio-específica no baculovírus recombinante (bacmid). Após seleção por antibióticos e cor, as colônias com o recombinante bacmid-pFastBac-gE-VDA foram selecionadas e a presença do gene da gE foi confirmada por PCR. O DNA recombinante viral, bacmid-pFastBac-gE-VDA, foi usado para cotransfecção de células de inseto Trichoplusia ni e a presença do recombinante e a proteína gE foi determinada por PCR, por SDS-PAGE e Western blotting, respectivamente.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">en</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Acesso Aberto</mods:accessCondition>
+               <mods:titleInfo>
+                  <mods:title>Cloning and expression of Aujeszky's disease virus glycoprotein E (gE) in a baculovirus system Clonagem e expressão da glicoproteina E (gE) do vírus da doença de Aujeszky em sistema de baculovirus</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Artigo</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_10482_27099_1">
+      <techMD ID="TECH_O_10482_27099_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>http://repositorio2.unb.br/jspui/bitstream/10482/27099/1/v38n3a21.pdf</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>aa5a55957c1909c06b7f3d2753ef41ad</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>1079962</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>v38n3a21.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_10482_27099_1" MIMETYPE="application/pdf" SEQ="1" SIZE="1079962" CHECKSUM="aa5a55957c1909c06b7f3d2753ef41ad" CHECKSUMTYPE="MD5" ADMID="FO_10482_27099_1" GROUPID="GROUP_BITSTREAM_10482_27099_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://repositorio2.unb.br/jspui/bitstream/10482/27099/1/v38n3a21.pdf" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_10482_27099">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_10482_27099_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30323</identifier><datestamp>2019-07-31T11:23:02Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30308</identifier><datestamp>2019-07-31T11:23:16Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29834</identifier><datestamp>2019-07-31T11:21:53Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30326</identifier><datestamp>2019-07-31T11:23:02Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29495</identifier><datestamp>2019-07-31T11:20:40Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30345</identifier><datestamp>2019-07-31T11:23:03Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30626</identifier><datestamp>2019-07-31T11:19:31Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header><identifier>oai:repositorio.unb.br:10482/26215</identifier><datestamp>2019-07-31T11:19:54Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_10482-26215" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:10482/26215">
+   <metsHdr CREATEDATE="2026-11-10T09:23:10Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositório Institucional da UnB</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_10482_26215">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Cunha, Rachel Nunes da</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Verneque, Luciana Patrícia Silva</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2017-12-07T04:39:24Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2017-12-07T04:39:24Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2004</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="citation">Psic.: Teor. e Pesq.,v.20,n.1,p.93-94,2004</mods:identifier>
+               <mods:identifier type="uri">http://repositorio.unb.br/handle/10482/26215</mods:identifier>
+               <mods:identifier type="doi">https://dx.doi.org/10.1590/S0102-37722004000100014</mods:identifier>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">pt</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Acesso Aberto</mods:accessCondition>
+               <mods:titleInfo>
+                  <mods:title>Notícia: Centenário de B. F. Skinner (1904-1990): uma ciência do comportamento humano para o futuro do mundo e da humanidade News: Centennial for B. F. Skinner (1904-1990): a science of human behavior toward a world and humanity's future</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Artigo</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_10482_26215_1">
+      <techMD ID="TECH_O_10482_26215_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>http://repositorio2.unb.br/jspui/bitstream/10482/26215/1/a14v20n1.pdf</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>b2b14ea9766fab71823a1f0f8df1bb09</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>64634</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>a14v20n1.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_10482_26215_1" MIMETYPE="application/pdf" SEQ="1" SIZE="64634" CHECKSUM="b2b14ea9766fab71823a1f0f8df1bb09" CHECKSUMTYPE="MD5" ADMID="FO_10482_26215_1" GROUPID="GROUP_BITSTREAM_10482_26215_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://repositorio2.unb.br/jspui/bitstream/10482/26215/1/a14v20n1.pdf" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_10482_26215">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_10482_26215_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30808</identifier><datestamp>2019-07-31T11:22:06Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/29763</identifier><datestamp>2019-07-31T11:21:52Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/25055</identifier><datestamp>2019-07-31T11:18:18Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/25070</identifier><datestamp>2019-07-31T11:18:17Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/30294</identifier><datestamp>2019-07-31T11:23:01Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><record><header status="deleted"><identifier>oai:repositorio.unb.br:10482/25107</identifier><datestamp>2019-07-31T11:18:17Z</datestamp><setSpec>com_10482_24941</setSpec><setSpec>col_10482_24942</setSpec></header></record><resumptionToken completeListSize="279" cursor="0">mets/2017-01-01T00:00:00Z/2019-12-31T00:00:00Z//100</resumptionToken></ListRecords></OAI-PMH>

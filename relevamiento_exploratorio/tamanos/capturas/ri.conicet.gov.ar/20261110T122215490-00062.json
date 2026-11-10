@@ -1,0 +1,49 @@
+{
+ "pedido": "20261110T122215490-00062",
+ "url": "https://ri.conicet.gov.ar/server/oai/request?verb=ListRecords&metadataPrefix=mets&from=2020-01-01&until=2022-12-31",
+ "codigo": 500,
+ "encabezados": [
+  [
+   "content-language",
+   "es"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "vary",
+   "Accept"
+  ],
+  [
+   "content-type",
+   "text/html;charset=utf-8"
+  ],
+  [
+   "content-length",
+   "6746"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 12:23:11 GMT"
+  ],
+  [
+   "server",
+   "DSpace"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=16000000"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

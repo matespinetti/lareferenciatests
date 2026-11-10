@@ -1,0 +1,181 @@
+{
+  "excluidos_por_robots": [
+    "mx-ru-economicas"
+  ],
+  "ponderado_por_items": {
+    "repositorios": 11,
+    "items": 2306,
+    "archivos": 1676,
+    "archivos_por_item": 0.68,
+    "distribucion_archivos_por_item": {
+      "0": 0.3767,
+      "1": 0.5899,
+      "2": 0.0241,
+      "3": 0.0026,
+      "4": 0.0037,
+      "5": 0.003
+    },
+    "tamano_p50": 1204370,
+    "tamano_p90": 8634276,
+    "tamano_p95": 16300557,
+    "tamano_p99": 134866678,
+    "tamano_max": 1876593140,
+    "tamano_media": 6795280,
+    "bytes_por_item": 4619312
+  },
+  "sin_ponderar": {
+    "repositorios": 11,
+    "items": 2306,
+    "archivos": 1676,
+    "archivos_por_item": 0.727,
+    "distribucion_archivos_por_item": {
+      "0": 0.3439,
+      "1": 0.6219,
+      "2": 0.0204,
+      "3": 0.003,
+      "4": 0.0074,
+      "5": 0.0035
+    },
+    "tamano_p50": 916440,
+    "tamano_p90": 8867480,
+    "tamano_p95": 21603738,
+    "tamano_p99": 202156912,
+    "tamano_max": 1876593140,
+    "tamano_media": 8652883,
+    "bytes_por_item": 6288913
+  },
+  "por_repositorio": {
+    "ar-filo-uba": {
+      "plataforma": "dspace",
+      "items_repositorio": 14903,
+      "items_muestra": 290,
+      "sin_archivos": 0.693,
+      "archivos_por_item": 0.328,
+      "archivos": 95,
+      "tamano_p50": 1784115,
+      "tamano_p95": 75901531,
+      "tamano_max": 102059956,
+      "tamano_media": 8858658
+    },
+    "ar-rdu-unc": {
+      "plataforma": "dspace",
+      "items_repositorio": 37491,
+      "items_muestra": 237,
+      "sin_archivos": 0.013,
+      "archivos_por_item": 1.308,
+      "archivos": 310,
+      "tamano_p50": 1136098.0,
+      "tamano_p95": 200477816,
+      "tamano_max": 404465272,
+      "tamano_media": 16655515
+    },
+    "ar-rephip-unr": {
+      "plataforma": "dspace",
+      "items_repositorio": 22960,
+      "items_muestra": 279,
+      "sin_archivos": 0.412,
+      "archivos_por_item": 0.717,
+      "archivos": 200,
+      "tamano_p50": 633067.5,
+      "tamano_p95": 73160773,
+      "tamano_max": 266849705,
+      "tamano_media": 11602341
+    },
+    "ar-uca": {
+      "plataforma": "dspace",
+      "items_repositorio": 19884,
+      "items_muestra": 297,
+      "sin_archivos": 0.0,
+      "archivos_por_item": 1.017,
+      "archivos": 302,
+      "tamano_p50": 661577.0,
+      "tamano_p95": 4732434,
+      "tamano_max": 1876593140,
+      "tamano_media": 7894704
+    },
+    "br-fiocruz": {
+      "plataforma": "dspace",
+      "items_repositorio": 69700,
+      "items_muestra": 100,
+      "sin_archivos": 0.0,
+      "archivos_por_item": 1.09,
+      "archivos": 109,
+      "tamano_p50": 665279,
+      "tamano_p95": 11368386,
+      "tamano_max": 650215489,
+      "tamano_media": 11912481
+    },
+    "br-ufmg": {
+      "plataforma": "dspace",
+      "items_repositorio": 80687,
+      "items_muestra": 100,
+      "sin_archivos": 0.05,
+      "archivos_por_item": 0.97,
+      "archivos": 97,
+      "tamano_p50": 1840503,
+      "tamano_p95": 16021221,
+      "tamano_max": 35272228,
+      "tamano_media": 3370371
+    },
+    "br-unb": {
+      "plataforma": "dspace",
+      "items_repositorio": 53416,
+      "items_muestra": 105,
+      "sin_archivos": 0.038,
+      "archivos_por_item": 1.01,
+      "archivos": 106,
+      "tamano_p50": 1932937.5,
+      "tamano_p95": 16223743,
+      "tamano_max": 66348864,
+      "tamano_media": 4267933
+    },
+    "br-unesp": {
+      "plataforma": "dspace",
+      "items_repositorio": 245884,
+      "items_muestra": 201,
+      "sin_archivos": 0.736,
+      "archivos_por_item": 0.279,
+      "archivos": 56,
+      "tamano_p50": 1219259.5,
+      "tamano_p95": 23262498,
+      "tamano_max": 38479378,
+      "tamano_media": 3701101
+    },
+    "co-udea": {
+      "plataforma": "dspace",
+      "items_repositorio": 49809,
+      "items_muestra": 98,
+      "sin_archivos": 0.02,
+      "archivos_por_item": 1.163,
+      "archivos": 114,
+      "tamano_p50": 1194946.0,
+      "tamano_p95": 9259403,
+      "tamano_max": 74479268,
+      "tamano_media": 2874033
+    },
+    "cr-kerwa": {
+      "plataforma": "dspace",
+      "items_repositorio": 48548,
+      "items_muestra": 211,
+      "sin_archivos": 0.512,
+      "archivos_por_item": 0.502,
+      "archivos": 106,
+      "tamano_p50": 1157073.0,
+      "tamano_p95": 13103394,
+      "tamano_max": 78905514,
+      "tamano_media": 3850012
+    },
+    "mx-udg": {
+      "plataforma": "dspace",
+      "items_repositorio": 57696,
+      "items_muestra": 388,
+      "sin_archivos": 0.534,
+      "archivos_por_item": 0.466,
+      "archivos": 181,
+      "tamano_p50": 473728,
+      "tamano_p95": 10725751,
+      "tamano_max": 392295664,
+      "tamano_media": 4260503
+    }
+  }
+}

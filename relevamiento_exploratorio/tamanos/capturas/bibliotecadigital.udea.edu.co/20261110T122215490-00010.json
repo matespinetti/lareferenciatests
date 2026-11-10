@@ -1,0 +1,65 @@
+{
+ "pedido": "20261110T122215490-00010",
+ "url": "https://bibliotecadigital.udea.edu.co/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Tue, 10 Nov 2026 12:22:17 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "1439"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "etag",
+   "W/\"de8-ir0zGnMR3JP4uzzjbI1fHyrT6zk-gzip\""
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "permissions-policy",
+   "geolocation=(self \"https://bibliotecadigital.udea.edu.co\"), camera=(self) geolocation=(self) microphone=(self)"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=63072000; includeSubDomains; preload"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "x-forwarded-proto",
+   "\"https\""
+  ],
+  [
+   "x-forwarded-port",
+   "\"443\""
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

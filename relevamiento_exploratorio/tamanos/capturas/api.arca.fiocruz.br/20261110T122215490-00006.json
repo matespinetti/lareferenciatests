@@ -1,0 +1,45 @@
+{
+ "pedido": "20261110T122215490-00006",
+ "url": "https://api.arca.fiocruz.br/robots.txt",
+ "codigo": 404,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 12:22:16 GMT"
+  ],
+  [
+   "content-type",
+   "application/problem+json;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

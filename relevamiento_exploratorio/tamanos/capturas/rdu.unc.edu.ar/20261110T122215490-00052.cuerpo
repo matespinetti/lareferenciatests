@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-11-10T12:22:59Z</responseDate><request verb="ListRecords" metadataPrefix="mets" from="2017-01-01T00:00:00Z" until="2019-12-31T00:00:00Z">https://rdu.unc.edu.ar/server/oai/request</request><ListRecords><record><header><identifier>oai:rdu.unc.edu.ar:11086/6529</identifier><datestamp>2018-08-27T19:07:12Z</datestamp><setSpec>com_11086_546</setSpec><setSpec>com_11086_166</setSpec><setSpec>col_11086_551</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11086-6529" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11086/6529">
+   <metsHdr CREATEDATE="2026-11-10T12:22:59Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace 7</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11086_6529">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Comín, Romina</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Cid, Mariana Paula</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Carretero, Rocio del Valle</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2018-08-27T19:07:12Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2018-08-27T19:07:12Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2018</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/11086/6529</mods:identifier>
+               <mods:abstract>Ofrece la obtención y caracterización de hidroxiapatita y nanohidroxiapatita a partir de huesos bovinos y porcinos, a diferentes temperaturas de calcinación. Los distintos tratamientos del hueso mostraron ser procedimientos efectivos para la obtención de nanohidroxiapatita natural con propiedades requeridas por los injertos óseos. Aunque existen diferencias en cristalinidad, relación molar y tamaño entre las diferentes muestras, ninguna de ellas mostró efectos tóxicos sobre la línea celular ensayada</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Atribución-NoComercial-CompartirIgual 4.0 Internacional</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Proyecto Integrador I. Biom</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Ingeniería biomédica</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Investigacíon científica</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Biomateriales compuestos</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Trasplante Óseo</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Obtención y caracterización de nanohidroxiapatita a partir de hueso bovino y porcino</mods:title>
+               </mods:titleInfo>
+               <mods:genre>bachelorThesis</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_11086_6529">
+      <rightsMD ID="RIG_11086_6529">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TGljZW5jaWEgZGUgRGlzdHJpYnVjacOzbiBObyBFeGNsdXNpdmEKClBhcmEgcXVlIGVsIFJlcG9zaXRvcmlvIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIHB1ZWRhIHJlcHJvZHVjaXIgeQpjb211bmljYXIgcMO6YmxpY2FtZW50ZSBzdSBkb2N1bWVudG8gZXMgbmVjZXNhcmlvIGxhIGFjZXB0YWNpw7NuIGRlIGxvcyBzaWd1aWVudGVzCnTDqXJtaW5vcy4gUG9yIGZhdm9yLCBsZWEgbGFzIHNpZ3VpZW50ZXMgY29uZGljaW9uZXMgZGUgbGljZW5jaWE6CgoxLiBBY2VwdGFuZG8gZXN0YSBsaWNlbmNpYSwgdXN0ZWQgKGVsIGF1dG9yL2VzIG8gZWwgcHJvcGlldGFyaW8vcyBkZSBsb3MgZGVyZWNob3MgZGUgYXV0b3IpCmdhcmFudGl6YSBhIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIGVsIGRlcmVjaG8gbm8gZXhjbHVzaXZvIGRlCmFyY2hpdmFyLCByZXByb2R1Y2lyLCBjb252ZXJ0aXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pLCBjb211bmljYXIgeS9vIGRpc3RyaWJ1aXIgc3UKZG9jdW1lbnRvIG11bmRpYWxtZW50ZSBlbiBmb3JtYXRvIGVsZWN0csOzbmljby4KCjIuIFRhbWJpw6luIGVzdMOhIGRlIGFjdWVyZG8gY29uIHF1ZSBsYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBwdWVkYQpjb25zZXJ2YXIgbcOhcyBkZSB1bmEgY29waWEgZGUgZXN0ZSBkb2N1bWVudG8geSwgc2luIGFsdGVyYXIgc3UgY29udGVuaWRvLCBjb252ZXJ0aXJsbwphIGN1YWxxdWllciBmb3JtYXRvIGRlIGZpY2hlcm8sIG1lZGlvIG8gc29wb3J0ZSwgcGFyYSBwcm9ww7NzaXRvcyBkZSBzZWd1cmlkYWQsCnByZXNlcnZhY2nDs24geSBhY2Nlc28uCgozLiBEZWNsYXJhIHF1ZSBlbCBkb2N1bWVudG8gZXMgdW4gdHJhYmFqbyBvcmlnaW5hbCBzdXlvIHkvbyBxdWUgdGllbmUgZWwgZGVyZWNobyBwYXJhCm90b3JnYXIgbG9zIGRlcmVjaG9zIGNvbnRlbmlkb3MgZW4gZXN0YSBsaWNlbmNpYS4gVGFtYmnDqW4gZGVjbGFyYSBxdWUgc3UgZG9jdW1lbnRvCm5vIGluZnJpbmdlLCBlbiB0YW50byBlbiBjdWFudG8gbGUgc2VhIHBvc2libGUgc2FiZXIsIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBuaW5ndW5hCm90cmEgcGVyc29uYSBvIGVudGlkYWQuCgo0LiBTaSBlbCBkb2N1bWVudG8gY29udGllbmUgbWF0ZXJpYWxlcyBkZSBsb3MgY3VhbGVzIG5vIHRpZW5lIGxvcyBkZXJlY2hvcyBkZSBhdXRvciwKZGVjbGFyYSBxdWUgaGEgb2J0ZW5pZG8gZWwgcGVybWlzbyBzaW4gcmVzdHJpY2Npw7NuIGRlbCBwcm9waWV0YXJpbyBkZSBsb3MgZGVyZWNob3MgZGUKYXV0b3IgcGFyYSBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MKcG9yIGVzdGEgbGljZW5jaWEsIHkgcXVlIGVzZSBtYXRlcmlhbCBjdXlvcyBkZXJlY2hvcyBzb24gZGUgdGVyY2Vyb3MgZXN0w6EgY2xhcmFtZW50ZQppZGVudGlmaWNhZG8geSByZWNvbm9jaWRvIGVuIGVsIHRleHRvIG8gY29udGVuaWRvIGRlbCBkb2N1bWVudG8gZW50cmVnYWRvLgoKNS4gU2kgZWwgZG9jdW1lbnRvIHNlIGJhc2EgZW4gdW5hIG9icmEgcXVlIGhhIHNpZG8gcGF0cm9jaW5hZGEgbyBhcG95YWRhIHBvciB1bmEKYWdlbmNpYSB1IG9yZ2FuaXphY2nDs24gZGlmZXJlbnRlIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhLCBzZQpwcmVzdXBvbmUgcXVlIHNlIGhhIGN1bXBsaWRvIGNvbiBjdWFscXVpZXIgZGVyZWNobyBkZSByZXZpc2nDs24gdSBvdHJhcyBvYmxpZ2FjaW9uZXMKcmVxdWVyaWRhcyBwb3IgZXN0ZSBjb250cmF0byBvIGFjdWVyZG8uCgo2LiBMYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBpZGVudGlmaWNhcsOhIGNsYXJhbWVudGUgc3UvcyBub21icmUvcyBjb21vCmVsL2xvcyBhdXRvci9lcyBvIHByb3BpZXRhcmlvL3MgZGUgbG9zIGRlcmVjaG9zIGRlbCBkb2N1bWVudG8sIHkgbm8gaGFyw6EgbmluZ3VuYQphbHRlcmFjacOzbiBkZSBzdSBkb2N1bWVudG8gZGlmZXJlbnRlIGEgbGFzIHBlcm1pdGlkYXMgZW4gZXN0YSBsaWNlbmNpYS4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11086_6529"/>
+   </structMap>
+</mets></metadata></record><record><header><identifier>oai:rdu.unc.edu.ar:11086/6749</identifier><datestamp>2018-12-14T05:08:37Z</datestamp><setSpec>com_11086_168</setSpec><setSpec>col_11086_913</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11086-6749" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11086/6749">
+   <metsHdr CREATEDATE="2026-11-10T12:22:59Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace 7</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11086_6749">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Koleff, Miguel</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Ruarte Bravo, Claudia Nélida</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2018-10-30T13:51:08Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2018-10-30T13:51:08Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2018</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/11086/6749</mods:identifier>
+               <mods:abstract>En el corpus seleccionado, una particularidad de los relatos consiste en la narración de las propias vivencias periféricas de los autores, donde utilizan  un vocabulario que los identifica y los legitima. A su vez, las narraciones abordan problemáticas comunes observadas entre culturas que conviven en tensión. Asimismo, en esa avenencia se manifiesta el diálogo asimétrico4 entre clases sociales favorecidas y marginalizadas. Esta tensión entre las clases sociales resulta en que los primeros sean caracterizados como “opresores” y los segundos sean “excluidos”. Los opresores son aquellos que ostentan el punto más alto de la pirámide del poder y tienen el dominio sobre  las instituciones sociales, económicas, culturales, políticas, entre otras; lo que le permite apartar a los grupos que los cuestionan y los desestabilizan. Por lo tanto los excluidos resemantizan esta marginalización y la vuelven un arma de lucha e identidad. &#xd;
+[...] la literatura marginal brasileña, se torna un objeto de estudio interesante para nuestra investigación, ya que es un movimiento que surge en el siglo XXI con el objetivo de responder creativamente a problemáticas culturales, sociales y políticas. Desde este enfoque, nuestro estudio busca insertarse en el marco de la perspectiva intercultural la cual permite el diálogo entre los diferentes posicionamientos culturales. Este diálogo no está exento de tensiones, la perspectiva intercultural no favorece una cultura en detrimento de otra, sino que ambas culturas conviven en un universo cultural común.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Attribution-NonCommercial-NoDerivatives 4.0 Internacional</mods:accessCondition>
+               <mods:titleInfo>
+                  <mods:title>Culturas en contacto : tensión y disidencias</mods:title>
+               </mods:titleInfo>
+               <mods:genre>masterThesis</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_11086_6749">
+      <rightsMD ID="RIG_11086_6749">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TGljZW5jaWEgZGUgRGlzdHJpYnVjacOzbiBObyBFeGNsdXNpdmEKClBhcmEgcXVlIGVsIFJlcG9zaXRvcmlvIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIHB1ZWRhIHJlcHJvZHVjaXIgeQpjb211bmljYXIgcMO6YmxpY2FtZW50ZSBzdSBkb2N1bWVudG8gZXMgbmVjZXNhcmlvIGxhIGFjZXB0YWNpw7NuIGRlIGxvcyBzaWd1aWVudGVzCnTDqXJtaW5vcy4gUG9yIGZhdm9yLCBsZWEgbGFzIHNpZ3VpZW50ZXMgY29uZGljaW9uZXMgZGUgbGljZW5jaWE6CgoxLiBBY2VwdGFuZG8gZXN0YSBsaWNlbmNpYSwgdXN0ZWQgKGVsIGF1dG9yL2VzIG8gZWwgcHJvcGlldGFyaW8vcyBkZSBsb3MgZGVyZWNob3MgZGUgYXV0b3IpCmdhcmFudGl6YSBhIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIGVsIGRlcmVjaG8gbm8gZXhjbHVzaXZvIGRlCmFyY2hpdmFyLCByZXByb2R1Y2lyLCBjb252ZXJ0aXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pLCBjb211bmljYXIgeS9vIGRpc3RyaWJ1aXIgc3UKZG9jdW1lbnRvIG11bmRpYWxtZW50ZSBlbiBmb3JtYXRvIGVsZWN0csOzbmljby4KCjIuIFRhbWJpw6luIGVzdMOhIGRlIGFjdWVyZG8gY29uIHF1ZSBsYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBwdWVkYQpjb25zZXJ2YXIgbcOhcyBkZSB1bmEgY29waWEgZGUgZXN0ZSBkb2N1bWVudG8geSwgc2luIGFsdGVyYXIgc3UgY29udGVuaWRvLCBjb252ZXJ0aXJsbwphIGN1YWxxdWllciBmb3JtYXRvIGRlIGZpY2hlcm8sIG1lZGlvIG8gc29wb3J0ZSwgcGFyYSBwcm9ww7NzaXRvcyBkZSBzZWd1cmlkYWQsCnByZXNlcnZhY2nDs24geSBhY2Nlc28uCgozLiBEZWNsYXJhIHF1ZSBlbCBkb2N1bWVudG8gZXMgdW4gdHJhYmFqbyBvcmlnaW5hbCBzdXlvIHkvbyBxdWUgdGllbmUgZWwgZGVyZWNobyBwYXJhCm90b3JnYXIgbG9zIGRlcmVjaG9zIGNvbnRlbmlkb3MgZW4gZXN0YSBsaWNlbmNpYS4gVGFtYmnDqW4gZGVjbGFyYSBxdWUgc3UgZG9jdW1lbnRvCm5vIGluZnJpbmdlLCBlbiB0YW50byBlbiBjdWFudG8gbGUgc2VhIHBvc2libGUgc2FiZXIsIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBuaW5ndW5hCm90cmEgcGVyc29uYSBvIGVudGlkYWQuCgo0LiBTaSBlbCBkb2N1bWVudG8gY29udGllbmUgbWF0ZXJpYWxlcyBkZSBsb3MgY3VhbGVzIG5vIHRpZW5lIGxvcyBkZXJlY2hvcyBkZSBhdXRvciwKZGVjbGFyYSBxdWUgaGEgb2J0ZW5pZG8gZWwgcGVybWlzbyBzaW4gcmVzdHJpY2Npw7NuIGRlbCBwcm9waWV0YXJpbyBkZSBsb3MgZGVyZWNob3MgZGUKYXV0b3IgcGFyYSBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MKcG9yIGVzdGEgbGljZW5jaWEsIHkgcXVlIGVzZSBtYXRlcmlhbCBjdXlvcyBkZXJlY2hvcyBzb24gZGUgdGVyY2Vyb3MgZXN0w6EgY2xhcmFtZW50ZQppZGVudGlmaWNhZG8geSByZWNvbm9jaWRvIGVuIGVsIHRleHRvIG8gY29udGVuaWRvIGRlbCBkb2N1bWVudG8gZW50cmVnYWRvLgoKNS4gU2kgZWwgZG9jdW1lbnRvIHNlIGJhc2EgZW4gdW5hIG9icmEgcXVlIGhhIHNpZG8gcGF0cm9jaW5hZGEgbyBhcG95YWRhIHBvciB1bmEKYWdlbmNpYSB1IG9yZ2FuaXphY2nDs24gZGlmZXJlbnRlIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhLCBzZQpwcmVzdXBvbmUgcXVlIHNlIGhhIGN1bXBsaWRvIGNvbiBjdWFscXVpZXIgZGVyZWNobyBkZSByZXZpc2nDs24gdSBvdHJhcyBvYmxpZ2FjaW9uZXMKcmVxdWVyaWRhcyBwb3IgZXN0ZSBjb250cmF0byBvIGFjdWVyZG8uCgo2LiBMYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBpZGVudGlmaWNhcsOhIGNsYXJhbWVudGUgc3UvcyBub21icmUvcyBjb21vCmVsL2xvcyBhdXRvci9lcyBvIHByb3BpZXRhcmlvL3MgZGUgbG9zIGRlcmVjaG9zIGRlbCBkb2N1bWVudG8sIHkgbm8gaGFyw6EgbmluZ3VuYQphbHRlcmFjacOzbiBkZSBzdSBkb2N1bWVudG8gZGlmZXJlbnRlIGEgbGFzIHBlcm1pdGlkYXMgZW4gZXN0YSBsaWNlbmNpYS4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_11086_6749_1">
+      <techMD ID="TECH_O_11086_6749_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/31167499-c101-4e4c-aca6-14f0c8584434/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>ab150492a04d1f72d227aaee5912ada3</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>80807260</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Claudia N. Ruarte Bravo.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_11086_6749_4">
+      <techMD ID="TECH_T_11086_6749_4">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/89817879-ffb4-4a66-8fa0-a4137a0c8a45/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>233a44bf2584c73d5d00428d5ef6cd07</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>188154</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Claudia N. Ruarte Bravo.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_11086_6749_1" MIMETYPE="application/pdf" SEQ="1" SIZE="80807260" CHECKSUM="ab150492a04d1f72d227aaee5912ada3" CHECKSUMTYPE="MD5" ADMID="FO_11086_6749_1" GROUPID="GROUP_BITSTREAM_11086_6749_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/31167499-c101-4e4c-aca6-14f0c8584434/download"/>
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_11086_6749_4" MIMETYPE="text/plain" SEQ="4" SIZE="188154" CHECKSUM="233a44bf2584c73d5d00428d5ef6cd07" CHECKSUMTYPE="MD5" ADMID="FT_11086_6749_4" GROUPID="GROUP_BITSTREAM_11086_6749_4">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/89817879-ffb4-4a66-8fa0-a4137a0c8a45/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11086_6749">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_6749_1"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record><record><header><identifier>oai:rdu.unc.edu.ar:11086/585</identifier><datestamp>2018-12-13T14:37:22Z</datestamp><setSpec>com_11086_555</setSpec><setSpec>com_11086_369</setSpec><setSpec>col_11086_556</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11086-585" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11086/585">
+   <metsHdr CREATEDATE="2026-11-10T12:22:59Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace 7</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11086_585">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Departamento de Estadística</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2013-06-13T14:32:43Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2013-06-13T14:32:43Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2013-06-13</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/11086/585</mods:identifier>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Atribución-NoComercial-SinDerivadas 2.5 Argentina</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>estadísticas</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>universidad nacional de córdoba</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Anuario Estadístico 2008</mods:title>
+               </mods:titleInfo>
+               <mods:genre>book</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_11086_585">
+      <rightsMD ID="RIG_11086_585">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>CgpMaWNlbmNpYSBkZSBEaXN0cmlidWNpw7NuIE5vIEV4Y2x1c2l2YQoKUGFyYSBxdWUgZWwgUmVwb3NpdG9yaW8gZGUgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgcHVlZGEgcmVwcm9kdWNpciB5CmNvbXVuaWNhciBww7pibGljYW1lbnRlIHN1IGRvY3VtZW50byBlcyBuZWNlc2FyaW8gbGEgYWNlcHRhY2nDs24gZGUgbG9zIHNpZ3VpZW50ZXMKdMOpcm1pbm9zLiBQb3IgZmF2b3IsIGxlYSBsYXMgc2lndWllbnRlcyBjb25kaWNpb25lcyBkZSBsaWNlbmNpYToKCjEuIEFjZXB0YW5kbyBlc3RhIGxpY2VuY2lhLCB1c3RlZCAoZWwgYXV0b3IvZXMgbyBlbCBwcm9waWV0YXJpby9zIGRlIGxvcyBkZXJlY2hvcyBkZSBhdXRvcikKZ2FyYW50aXphIGEgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgZWwgZGVyZWNobyBubyBleGNsdXNpdm8gZGUKYXJjaGl2YXIsIHJlcHJvZHVjaXIsIGNvbnZlcnRpciAoY29tbyBzZSBkZWZpbmUgbcOhcyBhYmFqbyksIGNvbXVuaWNhciB5L28gZGlzdHJpYnVpciBzdQpkb2N1bWVudG8gbXVuZGlhbG1lbnRlIGVuIGZvcm1hdG8gZWxlY3Ryw7NuaWNvLgoKMi4gVGFtYmnDqW4gZXN0w6EgZGUgYWN1ZXJkbyBjb24gcXVlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIHB1ZWRhCmNvbnNlcnZhciBtw6FzIGRlIHVuYSBjb3BpYSBkZSBlc3RlIGRvY3VtZW50byB5LCBzaW4gYWx0ZXJhciBzdSBjb250ZW5pZG8sIGNvbnZlcnRpcmxvCmEgY3VhbHF1aWVyIGZvcm1hdG8gZGUgZmljaGVybywgbWVkaW8gbyBzb3BvcnRlLCBwYXJhIHByb3DDs3NpdG9zIGRlIHNlZ3VyaWRhZCwKcHJlc2VydmFjacOzbiB5IGFjY2Vzby4KCjMuIERlY2xhcmEgcXVlIGVsIGRvY3VtZW50byBlcyB1biB0cmFiYWpvIG9yaWdpbmFsIHN1eW8geS9vIHF1ZSB0aWVuZSBlbCBkZXJlY2hvIHBhcmEKb3RvcmdhciBsb3MgZGVyZWNob3MgY29udGVuaWRvcyBlbiBlc3RhIGxpY2VuY2lhLiBUYW1iacOpbiBkZWNsYXJhIHF1ZSBzdSBkb2N1bWVudG8Kbm8gaW5mcmluZ2UsIGVuIHRhbnRvIGVuIGN1YW50byBsZSBzZWEgcG9zaWJsZSBzYWJlciwgbG9zIGRlcmVjaG9zIGRlIGF1dG9yIGRlIG5pbmd1bmEKb3RyYSBwZXJzb25hIG8gZW50aWRhZC4KCjQuIFNpIGVsIGRvY3VtZW50byBjb250aWVuZSBtYXRlcmlhbGVzIGRlIGxvcyBjdWFsZXMgbm8gdGllbmUgbG9zIGRlcmVjaG9zIGRlIGF1dG9yLApkZWNsYXJhIHF1ZSBoYSBvYnRlbmlkbyBlbCBwZXJtaXNvIHNpbiByZXN0cmljY2nDs24gZGVsIHByb3BpZXRhcmlvIGRlIGxvcyBkZXJlY2hvcyBkZQphdXRvciBwYXJhIG90b3JnYXIgYSBsYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBsb3MgZGVyZWNob3MgcmVxdWVyaWRvcwpwb3IgZXN0YSBsaWNlbmNpYSwgeSBxdWUgZXNlIG1hdGVyaWFsIGN1eW9zIGRlcmVjaG9zIHNvbiBkZSB0ZXJjZXJvcyBlc3TDoSBjbGFyYW1lbnRlCmlkZW50aWZpY2FkbyB5IHJlY29ub2NpZG8gZW4gZWwgdGV4dG8gbyBjb250ZW5pZG8gZGVsIGRvY3VtZW50byBlbnRyZWdhZG8uCgo1LiBTaSBlbCBkb2N1bWVudG8gc2UgYmFzYSBlbiB1bmEgb2JyYSBxdWUgaGEgc2lkbyBwYXRyb2NpbmFkYSBvIGFwb3lhZGEgcG9yIHVuYQphZ2VuY2lhIHUgb3JnYW5pemFjacOzbiBkaWZlcmVudGUgZGUgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEsIHNlCnByZXN1cG9uZSBxdWUgc2UgaGEgY3VtcGxpZG8gY29uIGN1YWxxdWllciBkZXJlY2hvIGRlIHJldmlzacOzbiB1IG90cmFzIG9ibGlnYWNpb25lcwpyZXF1ZXJpZGFzIHBvciBlc3RlIGNvbnRyYXRvIG8gYWN1ZXJkby4KCjYuIExhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhICBpZGVudGlmaWNhcsOhIGNsYXJhbWVudGUgc3UvcyBub21icmUvcyBjb21vCmVsL2xvcyBhdXRvci9lcyBvIHByb3BpZXRhcmlvL3MgZGUgbG9zIGRlcmVjaG9zIGRlbCBkb2N1bWVudG8sIHkgbm8gaGFyw6EgbmluZ3VuYQphbHRlcmFjacOzbiBkZSBzdSBkb2N1bWVudG8gZGlmZXJlbnRlIGEgbGFzIHBlcm1pdGlkYXMgZW4gZXN0YSBsaWNlbmNpYS4KCgo=</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_11086_585_1">
+      <techMD ID="TECH_O_11086_585_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/ce0c85fe-76b7-478b-85da-3b2e2f02126f/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>3f0b4412e99db009a2cfb90a201bd494</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>101680932</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>anuario estadistico 2008.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FT_11086_585_5">
+      <techMD ID="TECH_T_11086_585_5">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/0b0ef0e6-ae8f-4a12-abcc-eda8646ae90d/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>3180e842c5ac75984f7bc7c09303f8f4</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>5218</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>text/plain</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>anuario estadistico 2008.pdf.txt</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_11086_585_1" MIMETYPE="application/pdf" SEQ="1" SIZE="101680932" CHECKSUM="3f0b4412e99db009a2cfb90a201bd494" CHECKSUMTYPE="MD5" ADMID="FO_11086_585_1" GROUPID="GROUP_BITSTREAM_11086_585_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/ce0c85fe-76b7-478b-85da-3b2e2f02126f/download"/>
+         </file>
+      </fileGrp>
+      <fileGrp USE="TEXT">
+         <file ID="BITSTREAM_TEXT_11086_585_5" MIMETYPE="text/plain" SEQ="5" SIZE="5218" CHECKSUM="3180e842c5ac75984f7bc7c09303f8f4" CHECKSUMTYPE="MD5" ADMID="FT_11086_585_5" GROUPID="GROUP_BITSTREAM_11086_585_5">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/0b0ef0e6-ae8f-4a12-abcc-eda8646ae90d/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11086_585">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_585_1"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record><record><header><identifier>oai:rdu.unc.edu.ar:11086/4694</identifier><datestamp>2017-05-15T18:55:59Z</datestamp><setSpec>com_11086_76</setSpec><setSpec>col_11086_1342</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11086-4694" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11086/4694">
+   <metsHdr CREATEDATE="2026-11-10T12:22:59Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace 7</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11086_4694">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Nazar, María Cristina</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Rodríguez, María Nuxsia</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2017-05-05T22:26:31Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2017-05-05T22:26:31Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2016</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/11086/4694</mods:identifier>
+               <mods:abstract>El desconocimiento de las propiedades del maíz como alimento, la pérdida de agrodiversidad y de&#xd;
+la cultura para la autoproducción de alimentos en la zona de estudio, impulsó la necesidad de&#xd;
+revalorizar el maíz pisingallo altamente consumido en el mundo y poco difundido por la&#xd;
+comunidad de Las Junturas. El objetivo de este informe fue analizar la producción y consumo de&#xd;
+maíz pisingallo en una pequeña comunidad rural de esta localidad de la zona centro-este de la&#xd;
+provincia de Córdoba. Este trabajo académico integrador fue desarrollado en el marco del Área&#xd;
+Gestión de la Producción de Agroalimentos, perteneciente al ciclo de Consolidación de la carrera&#xd;
+de Ingeniería Agronómica de la Universidad Nacional de Córdoba. Se realizó un diagnóstico de la&#xd;
+realidad en la que se encontraba la comunidad en cuanto al consumo de maíz en la dieta mediante&#xd;
+encuestas a los alumnos y directivos. Un 30 % de los encuestados sembraban maíz en sus huertas&#xd;
+familiares, y solo el 8% consumía pochoclo. Por ello, se planteó la necesidad de elevar su consumo&#xd;
+mediante la capacitación con charlas-taller y trabajos comunitarios en la escuela con el cultivo en&#xd;
+pie. Con el material cosechado, se realizó una propuesta de agregado de valor al grano para&#xd;
+obtener ingresos para la Cooperadora de la escuela. La comunidad pudo consolidar aspectos sobre&#xd;
+la calidad y trazabilidad del grano de maíz pisingallo. Además se involucraron en lo referido a su&#xd;
+autoproducción, mostrando predisposición para dar continuidad a la propuesta realizada en este&#xd;
+trabajo. De esta manera, queda reflejada una forma de contribuir a la sustentabilidad de la&#xd;
+comunidad educativa ya que los jóvenes son activos multiplicadores del conocimiento que&#xd;
+reciben.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Atribución-NoComercial-SinDerivadas 2.5 Argentina</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Producción</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Consumo</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Valor nutritivo</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Valor agregado</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Explotación en pequeña escala</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Maíz pisingallo</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Producción y consumo de maíz pisingallo en una pequeña comunidad rural</mods:title>
+               </mods:titleInfo>
+               <mods:genre>bachelorThesis</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_11086_4694">
+      <rightsMD ID="RIG_11086_4694">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TGljZW5jaWEgZGUgRGlzdHJpYnVjacOzbiBObyBFeGNsdXNpdmEKClBhcmEgcXVlIGVsIFJlcG9zaXRvcmlvIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIHB1ZWRhIHJlcHJvZHVjaXIgeQpjb211bmljYXIgcMO6YmxpY2FtZW50ZSBzdSBkb2N1bWVudG8gZXMgbmVjZXNhcmlvIGxhIGFjZXB0YWNpw7NuIGRlIGxvcyBzaWd1aWVudGVzCnTDqXJtaW5vcy4gUG9yIGZhdm9yLCBsZWEgbGFzIHNpZ3VpZW50ZXMgY29uZGljaW9uZXMgZGUgbGljZW5jaWE6CgoxLiBBY2VwdGFuZG8gZXN0YSBsaWNlbmNpYSwgdXN0ZWQgKGVsIGF1dG9yL2VzIG8gZWwgcHJvcGlldGFyaW8vcyBkZSBsb3MgZGVyZWNob3MgZGUgYXV0b3IpCmdhcmFudGl6YSBhIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIGVsIGRlcmVjaG8gbm8gZXhjbHVzaXZvIGRlCmFyY2hpdmFyLCByZXByb2R1Y2lyLCBjb252ZXJ0aXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pLCBjb211bmljYXIgeS9vIGRpc3RyaWJ1aXIgc3UKZG9jdW1lbnRvIG11bmRpYWxtZW50ZSBlbiBmb3JtYXRvIGVsZWN0csOzbmljby4KCjIuIFRhbWJpw6luIGVzdMOhIGRlIGFjdWVyZG8gY29uIHF1ZSBsYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBwdWVkYQpjb25zZXJ2YXIgbcOhcyBkZSB1bmEgY29waWEgZGUgZXN0ZSBkb2N1bWVudG8geSwgc2luIGFsdGVyYXIgc3UgY29udGVuaWRvLCBjb252ZXJ0aXJsbwphIGN1YWxxdWllciBmb3JtYXRvIGRlIGZpY2hlcm8sIG1lZGlvIG8gc29wb3J0ZSwgcGFyYSBwcm9ww7NzaXRvcyBkZSBzZWd1cmlkYWQsCnByZXNlcnZhY2nDs24geSBhY2Nlc28uCgozLiBEZWNsYXJhIHF1ZSBlbCBkb2N1bWVudG8gZXMgdW4gdHJhYmFqbyBvcmlnaW5hbCBzdXlvIHkvbyBxdWUgdGllbmUgZWwgZGVyZWNobyBwYXJhCm90b3JnYXIgbG9zIGRlcmVjaG9zIGNvbnRlbmlkb3MgZW4gZXN0YSBsaWNlbmNpYS4gVGFtYmnDqW4gZGVjbGFyYSBxdWUgc3UgZG9jdW1lbnRvCm5vIGluZnJpbmdlLCBlbiB0YW50byBlbiBjdWFudG8gbGUgc2VhIHBvc2libGUgc2FiZXIsIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBuaW5ndW5hCm90cmEgcGVyc29uYSBvIGVudGlkYWQuCgo0LiBTaSBlbCBkb2N1bWVudG8gY29udGllbmUgbWF0ZXJpYWxlcyBkZSBsb3MgY3VhbGVzIG5vIHRpZW5lIGxvcyBkZXJlY2hvcyBkZSBhdXRvciwKZGVjbGFyYSBxdWUgaGEgb2J0ZW5pZG8gZWwgcGVybWlzbyBzaW4gcmVzdHJpY2Npw7NuIGRlbCBwcm9waWV0YXJpbyBkZSBsb3MgZGVyZWNob3MgZGUKYXV0b3IgcGFyYSBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MKcG9yIGVzdGEgbGljZW5jaWEsIHkgcXVlIGVzZSBtYXRlcmlhbCBjdXlvcyBkZXJlY2hvcyBzb24gZGUgdGVyY2Vyb3MgZXN0w6EgY2xhcmFtZW50ZQppZGVudGlmaWNhZG8geSByZWNvbm9jaWRvIGVuIGVsIHRleHRvIG8gY29udGVuaWRvIGRlbCBkb2N1bWVudG8gZW50cmVnYWRvLgoKNS4gU2kgZWwgZG9jdW1lbnRvIHNlIGJhc2EgZW4gdW5hIG9icmEgcXVlIGhhIHNpZG8gcGF0cm9jaW5hZGEgbyBhcG95YWRhIHBvciB1bmEKYWdlbmNpYSB1IG9yZ2FuaXphY2nDs24gZGlmZXJlbnRlIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhLCBzZQpwcmVzdXBvbmUgcXVlIHNlIGhhIGN1bXBsaWRvIGNvbiBjdWFscXVpZXIgZGVyZWNobyBkZSByZXZpc2nDs24gdSBvdHJhcyBvYmxpZ2FjaW9uZXMKcmVxdWVyaWRhcyBwb3IgZXN0ZSBjb250cmF0byBvIGFjdWVyZG8uCgo2LiBMYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBpZGVudGlmaWNhcsOhIGNsYXJhbWVudGUgc3UvcyBub21icmUvcyBjb21vCmVsL2xvcyBhdXRvci9lcyBvIHByb3BpZXRhcmlvL3MgZGUgbG9zIGRlcmVjaG9zIGRlbCBkb2N1bWVudG8sIHkgbm8gaGFyw6EgbmluZ3VuYQphbHRlcmFjacOzbiBkZSBzdSBkb2N1bWVudG8gZGlmZXJlbnRlIGEgbGFzIHBlcm1pdGlkYXMgZW4gZXN0YSBsaWNlbmNpYS4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_11086_4694_1">
+      <techMD ID="TECH_O_11086_4694_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/c634d3e5-2e4d-4a05-b441-70279505a23a/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>13b06fdb6df778d69b9002c18dc41bcd</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>1409999</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/octet-stream</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Rodríguez, María N. Producción y consumo de maíz pisingallo... pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_11086_4694_1" MIMETYPE="application/octet-stream" SEQ="1" SIZE="1409999" CHECKSUM="13b06fdb6df778d69b9002c18dc41bcd" CHECKSUMTYPE="MD5" ADMID="FO_11086_4694_1" GROUPID="GROUP_BITSTREAM_11086_4694_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/c634d3e5-2e4d-4a05-b441-70279505a23a/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11086_4694">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_4694_1"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record><record><header status="deleted"><identifier>oai:rdu.unc.edu.ar:11086/1937</identifier><datestamp>2017-08-23T19:22:34Z</datestamp><setSpec>com_11086_2060</setSpec><setSpec>com_11086_2058</setSpec><setSpec>com_11086_165</setSpec><setSpec>col_11086_2070</setSpec></header></record><record><header status="deleted"><identifier>oai:rdu.unc.edu.ar:11086/1276</identifier><datestamp>2018-04-26T14:57:35Z</datestamp><setSpec>com_11086_546</setSpec><setSpec>com_11086_166</setSpec><setSpec>col_11086_550</setSpec></header></record><record><header status="deleted"><identifier>oai:rdu.unc.edu.ar:11086/4565</identifier><datestamp>2017-11-23T17:12:25Z</datestamp><setSpec>com_11086_168</setSpec><setSpec>col_11086_914</setSpec></header></record><record><header status="deleted"><identifier>oai:rdu.unc.edu.ar:11086/2257</identifier><datestamp>2018-08-13T14:13:15Z</datestamp><setSpec>com_11086_6397</setSpec><setSpec>com_11086_6395</setSpec><setSpec>com_11086_368</setSpec><setSpec>col_11086_1719</setSpec></header></record><record><header><identifier>oai:rdu.unc.edu.ar:11086/2171</identifier><datestamp>2018-07-12T17:46:32Z</datestamp><setSpec>com_11086_301</setSpec><setSpec>com_11086_166</setSpec><setSpec>col_11086_1500</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11086-2171" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11086/2171">
+   <metsHdr CREATEDATE="2026-11-10T12:22:59Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace 7</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11086_2171">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Luti, Ricardo</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2015-10-28T15:25:11Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2015-10-28T15:25:11Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:identifier type="uri">http://hdl.handle.net/11086/2171</mods:identifier>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Atribución-NoComercial-CompartirIgual 2.5 Argentina</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Research Subject Categories::NATURAL SCIENCES</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Parque Nacional Laguna Banca</mods:title>
+               </mods:titleInfo>
+               <mods:genre>stillImage</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_11086_2171">
+      <rightsMD ID="RIG_11086_2171">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TGljZW5jaWEgZGUgRGlzdHJpYnVjacOzbiBObyBFeGNsdXNpdmEKClBhcmEgcXVlIGVsIFJlcG9zaXRvcmlvIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIHB1ZWRhIHJlcHJvZHVjaXIgeQpjb211bmljYXIgcMO6YmxpY2FtZW50ZSBzdSBkb2N1bWVudG8gZXMgbmVjZXNhcmlvIGxhIGFjZXB0YWNpw7NuIGRlIGxvcyBzaWd1aWVudGVzCnTDqXJtaW5vcy4gUG9yIGZhdm9yLCBsZWEgbGFzIHNpZ3VpZW50ZXMgY29uZGljaW9uZXMgZGUgbGljZW5jaWE6CgoxLiBBY2VwdGFuZG8gZXN0YSBsaWNlbmNpYSwgdXN0ZWQgKGVsIGF1dG9yL2VzIG8gZWwgcHJvcGlldGFyaW8vcyBkZSBsb3MgZGVyZWNob3MgZGUgYXV0b3IpCmdhcmFudGl6YSBhIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIGVsIGRlcmVjaG8gbm8gZXhjbHVzaXZvIGRlCmFyY2hpdmFyLCByZXByb2R1Y2lyLCBjb252ZXJ0aXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pLCBjb211bmljYXIgeS9vIGRpc3RyaWJ1aXIgc3UKZG9jdW1lbnRvIG11bmRpYWxtZW50ZSBlbiBmb3JtYXRvIGVsZWN0csOzbmljby4KCjIuIFRhbWJpw6luIGVzdMOhIGRlIGFjdWVyZG8gY29uIHF1ZSBsYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBwdWVkYQpjb25zZXJ2YXIgbcOhcyBkZSB1bmEgY29waWEgZGUgZXN0ZSBkb2N1bWVudG8geSwgc2luIGFsdGVyYXIgc3UgY29udGVuaWRvLCBjb252ZXJ0aXJsbwphIGN1YWxxdWllciBmb3JtYXRvIGRlIGZpY2hlcm8sIG1lZGlvIG8gc29wb3J0ZSwgcGFyYSBwcm9ww7NzaXRvcyBkZSBzZWd1cmlkYWQsCnByZXNlcnZhY2nDs24geSBhY2Nlc28uCgozLiBEZWNsYXJhIHF1ZSBlbCBkb2N1bWVudG8gZXMgdW4gdHJhYmFqbyBvcmlnaW5hbCBzdXlvIHkvbyBxdWUgdGllbmUgZWwgZGVyZWNobyBwYXJhCm90b3JnYXIgbG9zIGRlcmVjaG9zIGNvbnRlbmlkb3MgZW4gZXN0YSBsaWNlbmNpYS4gVGFtYmnDqW4gZGVjbGFyYSBxdWUgc3UgZG9jdW1lbnRvCm5vIGluZnJpbmdlLCBlbiB0YW50byBlbiBjdWFudG8gbGUgc2VhIHBvc2libGUgc2FiZXIsIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBuaW5ndW5hCm90cmEgcGVyc29uYSBvIGVudGlkYWQuCgo0LiBTaSBlbCBkb2N1bWVudG8gY29udGllbmUgbWF0ZXJpYWxlcyBkZSBsb3MgY3VhbGVzIG5vIHRpZW5lIGxvcyBkZXJlY2hvcyBkZSBhdXRvciwKZGVjbGFyYSBxdWUgaGEgb2J0ZW5pZG8gZWwgcGVybWlzbyBzaW4gcmVzdHJpY2Npw7NuIGRlbCBwcm9waWV0YXJpbyBkZSBsb3MgZGVyZWNob3MgZGUKYXV0b3IgcGFyYSBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MKcG9yIGVzdGEgbGljZW5jaWEsIHkgcXVlIGVzZSBtYXRlcmlhbCBjdXlvcyBkZXJlY2hvcyBzb24gZGUgdGVyY2Vyb3MgZXN0w6EgY2xhcmFtZW50ZQppZGVudGlmaWNhZG8geSByZWNvbm9jaWRvIGVuIGVsIHRleHRvIG8gY29udGVuaWRvIGRlbCBkb2N1bWVudG8gZW50cmVnYWRvLgoKNS4gU2kgZWwgZG9jdW1lbnRvIHNlIGJhc2EgZW4gdW5hIG9icmEgcXVlIGhhIHNpZG8gcGF0cm9jaW5hZGEgbyBhcG95YWRhIHBvciB1bmEKYWdlbmNpYSB1IG9yZ2FuaXphY2nDs24gZGlmZXJlbnRlIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhLCBzZQpwcmVzdXBvbmUgcXVlIHNlIGhhIGN1bXBsaWRvIGNvbiBjdWFscXVpZXIgZGVyZWNobyBkZSByZXZpc2nDs24gdSBvdHJhcyBvYmxpZ2FjaW9uZXMKcmVxdWVyaWRhcyBwb3IgZXN0ZSBjb250cmF0byBvIGFjdWVyZG8uCgo2LiBMYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBpZGVudGlmaWNhcsOhIGNsYXJhbWVudGUgc3UvcyBub21icmUvcyBjb21vCmVsL2xvcyBhdXRvci9lcyBvIHByb3BpZXRhcmlvL3MgZGUgbG9zIGRlcmVjaG9zIGRlbCBkb2N1bWVudG8sIHkgbm8gaGFyw6EgbmluZ3VuYQphbHRlcmFjacOzbiBkZSBzdSBkb2N1bWVudG8gZGlmZXJlbnRlIGEgbGFzIHBlcm1pdGlkYXMgZW4gZXN0YSBsaWNlbmNpYS4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_11086_2171_1">
+      <techMD ID="TECH_O_11086_2171_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/c874a85f-4fdc-4095-8495-0d0d06d13021/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>9e59288e780ac247cfb5728871c96c54</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>15645281</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/octet-stream</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Parque Nacional Laguna Blanca.rar</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_11086_2171_1" MIMETYPE="application/octet-stream" SEQ="1" SIZE="15645281" CHECKSUM="9e59288e780ac247cfb5728871c96c54" CHECKSUMTYPE="MD5" ADMID="FO_11086_2171_1" GROUPID="GROUP_BITSTREAM_11086_2171_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/c874a85f-4fdc-4095-8495-0d0d06d13021/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11086_2171">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_2171_1"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record><record><header status="deleted"><identifier>oai:rdu.unc.edu.ar:11086/4925</identifier><datestamp>2017-09-01T14:00:39Z</datestamp><setSpec>com_11086_348</setSpec><setSpec>com_11086_167</setSpec><setSpec>col_11086_394</setSpec></header></record><record><header status="deleted"><identifier>oai:rdu.unc.edu.ar:11086/6321</identifier><datestamp>2018-07-01T21:55:33Z</datestamp><setSpec>com_11086_6376</setSpec><setSpec>com_11086_6375</setSpec><setSpec>com_11086_368</setSpec><setSpec>col_11086_6304</setSpec></header></record><record><header><identifier>oai:rdu.unc.edu.ar:11086/12892</identifier><datestamp>2019-10-10T13:46:10Z</datestamp><setSpec>com_11086_168</setSpec><setSpec>col_11086_912</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11086-12892" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11086/12892">
+   <metsHdr CREATEDATE="2026-11-10T12:22:59Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace 7</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11086_12892">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Martínez Ramacciotti, Javier</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Piñero, Rocío Belén</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2019-10-10T13:46:10Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2019-10-10T13:46:10Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2017</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/11086/12892</mods:identifier>
+               <mods:abstract>The present study analyzes the conceptual frames of the phenomenon “femicide” underlying&#xd;
+Facebook interactions. This study brings together Critical Discourse Studies (2008), Cognitive&#xd;
+Semantics (Cienki, 2007; Dancygier &amp; Sweetser, 2014; Fillmore, 2006; Minsky, 1975; Ziem,&#xd;
+2014) and Gender Studies (Bourdieu, 2001; Cabrera Ullivarri, 2011; Segato, 2010; Warner,&#xd;
+1994). The corpus consists of a “polylogue” (Bou-Franch, 2013) made up of forty nine&#xd;
+responses that appeared in the public Facebook event “Ni Una Menos Córdoba”, which invited&#xd;
+to massive demonstrations on June 3rd, 2015 in Argentina.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">eng</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Attribution-NonCommercial-NoDerivatives 4.0 Internacional</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Femicidio</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Discurso</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Conceptualización</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Facebook</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Ni una menos : the conceptualization of femicides on facebook</mods:title>
+               </mods:titleInfo>
+               <mods:genre>bachelorThesis</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_11086_12892">
+      <rightsMD ID="RIG_11086_12892">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TGljZW5jaWEgZGUgRGlzdHJpYnVjacOzbiBObyBFeGNsdXNpdmEKClBhcmEgcXVlIGVsIFJlcG9zaXRvcmlvIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIHB1ZWRhIHJlcHJvZHVjaXIgeQpjb211bmljYXIgcMO6YmxpY2FtZW50ZSBzdSBkb2N1bWVudG8gZXMgbmVjZXNhcmlvIGxhIGFjZXB0YWNpw7NuIGRlIGxvcyBzaWd1aWVudGVzCnTDqXJtaW5vcy4gUG9yIGZhdm9yLCBsZWEgbGFzIHNpZ3VpZW50ZXMgY29uZGljaW9uZXMgZGUgbGljZW5jaWE6CgoxLiBBY2VwdGFuZG8gZXN0YSBsaWNlbmNpYSwgdXN0ZWQgKGVsIGF1dG9yL2VzIG8gZWwgcHJvcGlldGFyaW8vcyBkZSBsb3MgZGVyZWNob3MgZGUgYXV0b3IpCmdhcmFudGl6YSBhIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIGVsIGRlcmVjaG8gbm8gZXhjbHVzaXZvIGRlCmFyY2hpdmFyLCByZXByb2R1Y2lyLCBjb252ZXJ0aXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pLCBjb211bmljYXIgeS9vIGRpc3RyaWJ1aXIgc3UKZG9jdW1lbnRvIG11bmRpYWxtZW50ZSBlbiBmb3JtYXRvIGVsZWN0csOzbmljby4KCjIuIFRhbWJpw6luIGVzdMOhIGRlIGFjdWVyZG8gY29uIHF1ZSBsYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBwdWVkYQpjb25zZXJ2YXIgbcOhcyBkZSB1bmEgY29waWEgZGUgZXN0ZSBkb2N1bWVudG8geSwgc2luIGFsdGVyYXIgc3UgY29udGVuaWRvLCBjb252ZXJ0aXJsbwphIGN1YWxxdWllciBmb3JtYXRvIGRlIGZpY2hlcm8sIG1lZGlvIG8gc29wb3J0ZSwgcGFyYSBwcm9ww7NzaXRvcyBkZSBzZWd1cmlkYWQsCnByZXNlcnZhY2nDs24geSBhY2Nlc28uCgozLiBEZWNsYXJhIHF1ZSBlbCBkb2N1bWVudG8gZXMgdW4gdHJhYmFqbyBvcmlnaW5hbCBzdXlvIHkvbyBxdWUgdGllbmUgZWwgZGVyZWNobyBwYXJhCm90b3JnYXIgbG9zIGRlcmVjaG9zIGNvbnRlbmlkb3MgZW4gZXN0YSBsaWNlbmNpYS4gVGFtYmnDqW4gZGVjbGFyYSBxdWUgc3UgZG9jdW1lbnRvCm5vIGluZnJpbmdlLCBlbiB0YW50byBlbiBjdWFudG8gbGUgc2VhIHBvc2libGUgc2FiZXIsIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBuaW5ndW5hCm90cmEgcGVyc29uYSBvIGVudGlkYWQuCgo0LiBTaSBlbCBkb2N1bWVudG8gY29udGllbmUgbWF0ZXJpYWxlcyBkZSBsb3MgY3VhbGVzIG5vIHRpZW5lIGxvcyBkZXJlY2hvcyBkZSBhdXRvciwKZGVjbGFyYSBxdWUgaGEgb2J0ZW5pZG8gZWwgcGVybWlzbyBzaW4gcmVzdHJpY2Npw7NuIGRlbCBwcm9waWV0YXJpbyBkZSBsb3MgZGVyZWNob3MgZGUKYXV0b3IgcGFyYSBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MKcG9yIGVzdGEgbGljZW5jaWEsIHkgcXVlIGVzZSBtYXRlcmlhbCBjdXlvcyBkZXJlY2hvcyBzb24gZGUgdGVyY2Vyb3MgZXN0w6EgY2xhcmFtZW50ZQppZGVudGlmaWNhZG8geSByZWNvbm9jaWRvIGVuIGVsIHRleHRvIG8gY29udGVuaWRvIGRlbCBkb2N1bWVudG8gZW50cmVnYWRvLgoKNS4gU2kgZWwgZG9jdW1lbnRvIHNlIGJhc2EgZW4gdW5hIG9icmEgcXVlIGhhIHNpZG8gcGF0cm9jaW5hZGEgbyBhcG95YWRhIHBvciB1bmEKYWdlbmNpYSB1IG9yZ2FuaXphY2nDs24gZGlmZXJlbnRlIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhLCBzZQpwcmVzdXBvbmUgcXVlIHNlIGhhIGN1bXBsaWRvIGNvbiBjdWFscXVpZXIgZGVyZWNobyBkZSByZXZpc2nDs24gdSBvdHJhcyBvYmxpZ2FjaW9uZXMKcmVxdWVyaWRhcyBwb3IgZXN0ZSBjb250cmF0byBvIGFjdWVyZG8uCgo2LiBMYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBpZGVudGlmaWNhcsOhIGNsYXJhbWVudGUgc3UvcyBub21icmUvcyBjb21vCmVsL2xvcyBhdXRvci9lcyBvIHByb3BpZXRhcmlvL3MgZGUgbG9zIGRlcmVjaG9zIGRlbCBkb2N1bWVudG8sIHkgbm8gaGFyw6EgbmluZ3VuYQphbHRlcmFjacOzbiBkZSBzdSBkb2N1bWVudG8gZGlmZXJlbnRlIGEgbGFzIHBlcm1pdGlkYXMgZW4gZXN0YSBsaWNlbmNpYS4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_11086_12892_1">
+      <techMD ID="TECH_O_11086_12892_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/df6ba0f5-9b84-4957-849e-3bda1a072007/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>f2d971949b9b756e6a2b034ffb197c01</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>618729</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/octet-stream</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Piñero, Rocío Belén</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_11086_12892_1" MIMETYPE="application/octet-stream" SEQ="1" SIZE="618729" CHECKSUM="f2d971949b9b756e6a2b034ffb197c01" CHECKSUMTYPE="MD5" ADMID="FO_11086_12892_1" GROUPID="GROUP_BITSTREAM_11086_12892_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/df6ba0f5-9b84-4957-849e-3bda1a072007/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11086_12892">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_12892_1"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record><record><header status="deleted"><identifier>oai:rdu.unc.edu.ar:11086/11242</identifier><datestamp>2019-10-10T21:13:50Z</datestamp><setSpec>com_11086_2060</setSpec><setSpec>com_11086_2058</setSpec><setSpec>com_11086_165</setSpec><setSpec>col_11086_2069</setSpec></header></record><record><header status="deleted"><identifier>oai:rdu.unc.edu.ar:11086/11515</identifier><datestamp>2019-06-18T16:43:04Z</datestamp><setSpec>com_11086_546</setSpec><setSpec>com_11086_166</setSpec><setSpec>col_11086_810</setSpec></header></record><record><header status="deleted"><identifier>oai:rdu.unc.edu.ar:11086/2162</identifier><datestamp>2017-09-09T01:23:45Z</datestamp><setSpec>com_11086_6397</setSpec><setSpec>com_11086_6395</setSpec><setSpec>com_11086_368</setSpec><setSpec>col_11086_1719</setSpec></header></record><record><header><identifier>oai:rdu.unc.edu.ar:11086/2172</identifier><datestamp>2018-07-12T17:46:58Z</datestamp><setSpec>com_11086_301</setSpec><setSpec>com_11086_166</setSpec><setSpec>col_11086_1500</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11086-2172" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11086/2172">
+   <metsHdr CREATEDATE="2026-11-10T12:22:59Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace 7</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11086_2172">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Luti, Ricardo</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2015-10-28T15:32:29Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2015-10-28T15:32:29Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:identifier type="uri">http://hdl.handle.net/11086/2172</mods:identifier>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Atribución-NoComercial-CompartirIgual 2.5 Argentina</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Research Subject Categories::NATURAL SCIENCES</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Patagonia Árida Arbustiva</mods:title>
+               </mods:titleInfo>
+               <mods:genre>stillImage</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_11086_2172">
+      <rightsMD ID="RIG_11086_2172">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TGljZW5jaWEgZGUgRGlzdHJpYnVjacOzbiBObyBFeGNsdXNpdmEKClBhcmEgcXVlIGVsIFJlcG9zaXRvcmlvIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIHB1ZWRhIHJlcHJvZHVjaXIgeQpjb211bmljYXIgcMO6YmxpY2FtZW50ZSBzdSBkb2N1bWVudG8gZXMgbmVjZXNhcmlvIGxhIGFjZXB0YWNpw7NuIGRlIGxvcyBzaWd1aWVudGVzCnTDqXJtaW5vcy4gUG9yIGZhdm9yLCBsZWEgbGFzIHNpZ3VpZW50ZXMgY29uZGljaW9uZXMgZGUgbGljZW5jaWE6CgoxLiBBY2VwdGFuZG8gZXN0YSBsaWNlbmNpYSwgdXN0ZWQgKGVsIGF1dG9yL2VzIG8gZWwgcHJvcGlldGFyaW8vcyBkZSBsb3MgZGVyZWNob3MgZGUgYXV0b3IpCmdhcmFudGl6YSBhIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIGVsIGRlcmVjaG8gbm8gZXhjbHVzaXZvIGRlCmFyY2hpdmFyLCByZXByb2R1Y2lyLCBjb252ZXJ0aXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pLCBjb211bmljYXIgeS9vIGRpc3RyaWJ1aXIgc3UKZG9jdW1lbnRvIG11bmRpYWxtZW50ZSBlbiBmb3JtYXRvIGVsZWN0csOzbmljby4KCjIuIFRhbWJpw6luIGVzdMOhIGRlIGFjdWVyZG8gY29uIHF1ZSBsYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBwdWVkYQpjb25zZXJ2YXIgbcOhcyBkZSB1bmEgY29waWEgZGUgZXN0ZSBkb2N1bWVudG8geSwgc2luIGFsdGVyYXIgc3UgY29udGVuaWRvLCBjb252ZXJ0aXJsbwphIGN1YWxxdWllciBmb3JtYXRvIGRlIGZpY2hlcm8sIG1lZGlvIG8gc29wb3J0ZSwgcGFyYSBwcm9ww7NzaXRvcyBkZSBzZWd1cmlkYWQsCnByZXNlcnZhY2nDs24geSBhY2Nlc28uCgozLiBEZWNsYXJhIHF1ZSBlbCBkb2N1bWVudG8gZXMgdW4gdHJhYmFqbyBvcmlnaW5hbCBzdXlvIHkvbyBxdWUgdGllbmUgZWwgZGVyZWNobyBwYXJhCm90b3JnYXIgbG9zIGRlcmVjaG9zIGNvbnRlbmlkb3MgZW4gZXN0YSBsaWNlbmNpYS4gVGFtYmnDqW4gZGVjbGFyYSBxdWUgc3UgZG9jdW1lbnRvCm5vIGluZnJpbmdlLCBlbiB0YW50byBlbiBjdWFudG8gbGUgc2VhIHBvc2libGUgc2FiZXIsIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBuaW5ndW5hCm90cmEgcGVyc29uYSBvIGVudGlkYWQuCgo0LiBTaSBlbCBkb2N1bWVudG8gY29udGllbmUgbWF0ZXJpYWxlcyBkZSBsb3MgY3VhbGVzIG5vIHRpZW5lIGxvcyBkZXJlY2hvcyBkZSBhdXRvciwKZGVjbGFyYSBxdWUgaGEgb2J0ZW5pZG8gZWwgcGVybWlzbyBzaW4gcmVzdHJpY2Npw7NuIGRlbCBwcm9waWV0YXJpbyBkZSBsb3MgZGVyZWNob3MgZGUKYXV0b3IgcGFyYSBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MKcG9yIGVzdGEgbGljZW5jaWEsIHkgcXVlIGVzZSBtYXRlcmlhbCBjdXlvcyBkZXJlY2hvcyBzb24gZGUgdGVyY2Vyb3MgZXN0w6EgY2xhcmFtZW50ZQppZGVudGlmaWNhZG8geSByZWNvbm9jaWRvIGVuIGVsIHRleHRvIG8gY29udGVuaWRvIGRlbCBkb2N1bWVudG8gZW50cmVnYWRvLgoKNS4gU2kgZWwgZG9jdW1lbnRvIHNlIGJhc2EgZW4gdW5hIG9icmEgcXVlIGhhIHNpZG8gcGF0cm9jaW5hZGEgbyBhcG95YWRhIHBvciB1bmEKYWdlbmNpYSB1IG9yZ2FuaXphY2nDs24gZGlmZXJlbnRlIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhLCBzZQpwcmVzdXBvbmUgcXVlIHNlIGhhIGN1bXBsaWRvIGNvbiBjdWFscXVpZXIgZGVyZWNobyBkZSByZXZpc2nDs24gdSBvdHJhcyBvYmxpZ2FjaW9uZXMKcmVxdWVyaWRhcyBwb3IgZXN0ZSBjb250cmF0byBvIGFjdWVyZG8uCgo2LiBMYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBpZGVudGlmaWNhcsOhIGNsYXJhbWVudGUgc3UvcyBub21icmUvcyBjb21vCmVsL2xvcyBhdXRvci9lcyBvIHByb3BpZXRhcmlvL3MgZGUgbG9zIGRlcmVjaG9zIGRlbCBkb2N1bWVudG8sIHkgbm8gaGFyw6EgbmluZ3VuYQphbHRlcmFjacOzbiBkZSBzdSBkb2N1bWVudG8gZGlmZXJlbnRlIGEgbGFzIHBlcm1pdGlkYXMgZW4gZXN0YSBsaWNlbmNpYS4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_11086_2172_1">
+      <techMD ID="TECH_O_11086_2172_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/65c6ee9d-e2cf-48e2-9853-4051b6f53577/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>a394482dc2fed3c073af0884b4501dac</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>33498606</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/octet-stream</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Patagonia Árida Arbustiva.rar</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_11086_2172_1" MIMETYPE="application/octet-stream" SEQ="1" SIZE="33498606" CHECKSUM="a394482dc2fed3c073af0884b4501dac" CHECKSUMTYPE="MD5" ADMID="FO_11086_2172_1" GROUPID="GROUP_BITSTREAM_11086_2172_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/65c6ee9d-e2cf-48e2-9853-4051b6f53577/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11086_2172">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_2172_1"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record><record><header><identifier>oai:rdu.unc.edu.ar:11086/11288</identifier><datestamp>2019-10-22T19:24:02Z</datestamp><setSpec>com_11086_4389</setSpec><setSpec>com_11086_79</setSpec><setSpec>col_11086_4396</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11086-11288" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11086/11288">
+   <metsHdr CREATEDATE="2026-11-10T12:22:59Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace 7</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11086_11288">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Galfione, Verónica</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Juarez, Esteban</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Albín, Juan</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Reduello, María Eugenia</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Bernini, Emilio</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Betlinsky, Carlos</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Souza Lobo de, Dalva</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Bicaudo da Silva, Mariza</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Billi, Noelia</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Braga, Ive</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Coschica, Fernando José</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Ángelis de, Javier</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Elizondo, Eduardo</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Fleisner, Paula</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Garbino, Emilio</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Gonnet, Maximiliano</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Mancinelli, Elena</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Perearnau, Marcos</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Petroni, Ilze</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Rodriguez, Gonzalo Santiago</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Azevedo Rodrigues, Luciana</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Whitney, Erika</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2019-03-19T15:32:15Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2019-03-19T15:32:15Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2018</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="citation">Brendel, Karen; Gonnet Maximiliano Editores (2018). “Lecturas sobre la modernidad estética: Apariencia estética y desdiferenciación artística”. Actas del 1° Simposio Internacional 5° Encuentro de Investigadores. Facultad de Ciencias de la Comunicación, Universidad Nacional de Córdoba.</mods:identifier>
+               <mods:identifier type="isbn">9789876613033</mods:identifier>
+               <mods:identifier type="uri">http://hdl.handle.net/11086/11288</mods:identifier>
+               <mods:abstract>Los trabajos reunidos en el presente volumen son el resultado de una selección de las ponencias presentadas en el simposio "Lecturas sobre la modernidad estética: apariencia estética y desdiferenciación artística", que tuvo lugar en la Facultad de Ciencias de la Comunicación de la Universidad Nacional de Córdoba los días 3, 4, 5 y 6 de agosto de 2016. Los textos han sido sometidos a referato y revisados a fin de adaptarlos al formato de libro y a los criterios de edición que el comité editorial ha juzgado pertinente.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Attribution-NonCommercial-NoDerivatives 4.0 Internacional</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>ESTÉTICA</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>ARTE</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>FILOSOFÍA</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>MODERNIDAD</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Lecturas sobre la modernidad estética: Apariencia estética y desdiferenciación artística</mods:title>
+               </mods:titleInfo>
+               <mods:genre>book</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11086_11288"/>
+   </structMap>
+</mets></metadata></record><record><header status="deleted"><identifier>oai:rdu.unc.edu.ar:11086/6312</identifier><datestamp>2018-07-04T18:54:01Z</datestamp><setSpec>com_11086_4384</setSpec><setSpec>com_11086_79</setSpec><setSpec>col_11086_4390</setSpec></header></record><record><header><identifier>oai:rdu.unc.edu.ar:11086/4767</identifier><datestamp>2018-08-24T18:36:44Z</datestamp><setSpec>com_11086_546</setSpec><setSpec>com_11086_166</setSpec><setSpec>col_11086_2596</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_11086-4767" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:11086/4767">
+   <metsHdr CREATEDATE="2026-11-10T12:22:59Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>DSpace 7</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_11086_4767">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Oldani, Carlos Rodolfo</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>La Sala, Carlos Alberto.</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Solis, Maximiliano Omar</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2017-05-16T18:42:11Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2017-05-16T18:42:11Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2016</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/11086/4767</mods:identifier>
+               <mods:abstract>Desarrolla un método pulvimetalúrgico que permita la obtención de una espuma metálica en base magnesio que sirva para aplicaciones de absorción de energía, más específicamente de relleno de paneles sándwich, utilizando como material de partida viruta de aleación de magnesio AZ91D</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction">Atribución-NoComercial-SinDerivadas 2.5 Argentina</mods:accessCondition>
+               <mods:subject>
+                  <mods:topic>Ingeniería mecánica</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Metales</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Metales no ferrosos</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Magnesio</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Aleaciones</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Industria de metales no ferroso</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Industria aeroespacia</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Industria automotriz</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Obtención y caracterización de espuma metálica a partir de viruta de aleación de Magnesio AZ91D</mods:title>
+               </mods:titleInfo>
+               <mods:genre>bachelorThesis</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="TMD_11086_4767">
+      <rightsMD ID="RIG_11086_4767">
+         <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+            <binData>TGljZW5jaWEgZGUgRGlzdHJpYnVjacOzbiBObyBFeGNsdXNpdmEKClBhcmEgcXVlIGVsIFJlcG9zaXRvcmlvIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIHB1ZWRhIHJlcHJvZHVjaXIgeQpjb211bmljYXIgcMO6YmxpY2FtZW50ZSBzdSBkb2N1bWVudG8gZXMgbmVjZXNhcmlvIGxhIGFjZXB0YWNpw7NuIGRlIGxvcyBzaWd1aWVudGVzCnTDqXJtaW5vcy4gUG9yIGZhdm9yLCBsZWEgbGFzIHNpZ3VpZW50ZXMgY29uZGljaW9uZXMgZGUgbGljZW5jaWE6CgoxLiBBY2VwdGFuZG8gZXN0YSBsaWNlbmNpYSwgdXN0ZWQgKGVsIGF1dG9yL2VzIG8gZWwgcHJvcGlldGFyaW8vcyBkZSBsb3MgZGVyZWNob3MgZGUgYXV0b3IpCmdhcmFudGl6YSBhIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhIGVsIGRlcmVjaG8gbm8gZXhjbHVzaXZvIGRlCmFyY2hpdmFyLCByZXByb2R1Y2lyLCBjb252ZXJ0aXIgKGNvbW8gc2UgZGVmaW5lIG3DoXMgYWJham8pLCBjb211bmljYXIgeS9vIGRpc3RyaWJ1aXIgc3UKZG9jdW1lbnRvIG11bmRpYWxtZW50ZSBlbiBmb3JtYXRvIGVsZWN0csOzbmljby4KCjIuIFRhbWJpw6luIGVzdMOhIGRlIGFjdWVyZG8gY29uIHF1ZSBsYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBwdWVkYQpjb25zZXJ2YXIgbcOhcyBkZSB1bmEgY29waWEgZGUgZXN0ZSBkb2N1bWVudG8geSwgc2luIGFsdGVyYXIgc3UgY29udGVuaWRvLCBjb252ZXJ0aXJsbwphIGN1YWxxdWllciBmb3JtYXRvIGRlIGZpY2hlcm8sIG1lZGlvIG8gc29wb3J0ZSwgcGFyYSBwcm9ww7NzaXRvcyBkZSBzZWd1cmlkYWQsCnByZXNlcnZhY2nDs24geSBhY2Nlc28uCgozLiBEZWNsYXJhIHF1ZSBlbCBkb2N1bWVudG8gZXMgdW4gdHJhYmFqbyBvcmlnaW5hbCBzdXlvIHkvbyBxdWUgdGllbmUgZWwgZGVyZWNobyBwYXJhCm90b3JnYXIgbG9zIGRlcmVjaG9zIGNvbnRlbmlkb3MgZW4gZXN0YSBsaWNlbmNpYS4gVGFtYmnDqW4gZGVjbGFyYSBxdWUgc3UgZG9jdW1lbnRvCm5vIGluZnJpbmdlLCBlbiB0YW50byBlbiBjdWFudG8gbGUgc2VhIHBvc2libGUgc2FiZXIsIGxvcyBkZXJlY2hvcyBkZSBhdXRvciBkZSBuaW5ndW5hCm90cmEgcGVyc29uYSBvIGVudGlkYWQuCgo0LiBTaSBlbCBkb2N1bWVudG8gY29udGllbmUgbWF0ZXJpYWxlcyBkZSBsb3MgY3VhbGVzIG5vIHRpZW5lIGxvcyBkZXJlY2hvcyBkZSBhdXRvciwKZGVjbGFyYSBxdWUgaGEgb2J0ZW5pZG8gZWwgcGVybWlzbyBzaW4gcmVzdHJpY2Npw7NuIGRlbCBwcm9waWV0YXJpbyBkZSBsb3MgZGVyZWNob3MgZGUKYXV0b3IgcGFyYSBvdG9yZ2FyIGEgbGEgVW5pdmVyc2lkYWQgTmFjaW9uYWwgZGUgQ8OzcmRvYmEgbG9zIGRlcmVjaG9zIHJlcXVlcmlkb3MKcG9yIGVzdGEgbGljZW5jaWEsIHkgcXVlIGVzZSBtYXRlcmlhbCBjdXlvcyBkZXJlY2hvcyBzb24gZGUgdGVyY2Vyb3MgZXN0w6EgY2xhcmFtZW50ZQppZGVudGlmaWNhZG8geSByZWNvbm9jaWRvIGVuIGVsIHRleHRvIG8gY29udGVuaWRvIGRlbCBkb2N1bWVudG8gZW50cmVnYWRvLgoKNS4gU2kgZWwgZG9jdW1lbnRvIHNlIGJhc2EgZW4gdW5hIG9icmEgcXVlIGhhIHNpZG8gcGF0cm9jaW5hZGEgbyBhcG95YWRhIHBvciB1bmEKYWdlbmNpYSB1IG9yZ2FuaXphY2nDs24gZGlmZXJlbnRlIGRlIGxhIFVuaXZlcnNpZGFkIE5hY2lvbmFsIGRlIEPDs3Jkb2JhLCBzZQpwcmVzdXBvbmUgcXVlIHNlIGhhIGN1bXBsaWRvIGNvbiBjdWFscXVpZXIgZGVyZWNobyBkZSByZXZpc2nDs24gdSBvdHJhcyBvYmxpZ2FjaW9uZXMKcmVxdWVyaWRhcyBwb3IgZXN0ZSBjb250cmF0byBvIGFjdWVyZG8uCgo2LiBMYSBVbml2ZXJzaWRhZCBOYWNpb25hbCBkZSBDw7NyZG9iYSBpZGVudGlmaWNhcsOhIGNsYXJhbWVudGUgc3UvcyBub21icmUvcyBjb21vCmVsL2xvcyBhdXRvci9lcyBvIHByb3BpZXRhcmlvL3MgZGUgbG9zIGRlcmVjaG9zIGRlbCBkb2N1bWVudG8sIHkgbm8gaGFyw6EgbmluZ3VuYQphbHRlcmFjacOzbiBkZSBzdSBkb2N1bWVudG8gZGlmZXJlbnRlIGEgbGFzIHBlcm1pdGlkYXMgZW4gZXN0YSBsaWNlbmNpYS4K</binData>
+         </mdWrap>
+      </rightsMD>
+   </amdSec>
+   <amdSec ID="FO_11086_4767_1">
+      <techMD ID="TECH_O_11086_4767_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rdu.unc.edu.ar/bitstreams/5cb17d7d-b400-4691-963a-82d2add33691/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>29f70224098e83ec330b454e0b5326fb</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>12971615</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/pdf</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>Proyecto Integrador- La Sala-Solís.pdf</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_11086_4767_1" MIMETYPE="application/pdf" SEQ="1" SIZE="12971615" CHECKSUM="29f70224098e83ec330b454e0b5326fb" CHECKSUMTYPE="MD5" ADMID="FO_11086_4767_1" GROUPID="GROUP_BITSTREAM_11086_4767_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rdu.unc.edu.ar/bitstreams/5cb17d7d-b400-4691-963a-82d2add33691/download"/>
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_11086_4767">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_11086_4767_1"/>
+         </div>
+      </div>
+   </structMap>
+</mets></metadata></record></ListRecords></OAI-PMH>

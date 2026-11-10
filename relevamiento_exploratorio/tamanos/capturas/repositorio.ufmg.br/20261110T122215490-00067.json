@@ -1,0 +1,45 @@
+{
+ "pedido": "20261110T122215490-00067",
+ "url": "https://repositorio.ufmg.br/server/oai/request?verb=ListRecords&metadataPrefix=mets&from=2020-01-01&until=2022-12-31",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Tue, 10 Nov 2026 12:23:11 GMT"
+  ],
+  [
+   "content-type",
+   "text/xml;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=15724800; includeSubDomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

@@ -1,0 +1,45 @@
+{
+ "pedido": "20261110T122215490-00008",
+ "url": "https://repositorio.unb.br/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "set-cookie",
+   "JSESSIONID=F763D0EA9790238FE1F394CE749FFE43; Path=/; HttpOnly"
+  ],
+  [
+   "set-cookie",
+   "repositoriocookie=repositorio1; path=/"
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "etag",
+   "W/\"3159-1671299218783\""
+  ],
+  [
+   "last-modified",
+   "Sat, 17 Dec 2022 17:46:58 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain"
+  ],
+  [
+   "content-length",
+   "3159"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 12:22:16 GMT"
+  ],
+  [
+   "cache-control",
+   "private"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

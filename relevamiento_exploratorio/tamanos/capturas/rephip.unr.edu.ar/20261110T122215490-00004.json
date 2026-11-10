@@ -1,0 +1,37 @@
+{
+ "pedido": "20261110T122215490-00004",
+ "url": "https://rephip.unr.edu.ar/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.28.3 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 12:22:15 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "3498"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "etag",
+   "W/\"daa-l3ZpPtnHaK12d7Z5AZifXIxWKi0\""
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

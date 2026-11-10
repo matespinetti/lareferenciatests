@@ -72,3 +72,12 @@ Un comando aparte verifica sobre `pedidos.jsonl` que nunca hubo dos pedidos simu
 - Ctrl+C corta enseguida sin dejar pedidos colgados y, al relanzar, se saltean los repositorios ya terminados.
 - Tres comandos: `relevar`, `resumir` y `verificar-cortesia`.
 - Antes de la corrida completa, probar con dos o tres repositorios y revisar `pedidos.jsonl` a mano.
+
+## Anexo: tamaño de los archivos (`medir-tamanos`, nov 2026)
+
+Pedido por el usuario para calibrar el volumen de la prueba de concurrencia: los pilotos vieron 3 ítems por repositorio, y el tamaño medio de archivo salía de 51 archivos. Este comando pide páginas enteras de `ListRecords` en METS (o xoai) de los repositorios de los pilotos que publican el tamaño de cada archivo, sin descargar ningún archivo.
+
+- Por repositorio: `robots.txt`, una página sin fechas (que trae `completeListSize`, la cantidad de ítems del repositorio) y una por ventana de fechas (hasta 2012, 2013–2016, 2017–2019, 2020–2022, desde 2023), para repartir la muestra en el tiempo.
+- Cortesía: 10 s entre pedidos a un host (o el doble de la última respuesta), 2 hosts a la vez y 8 pedidos por repositorio. Las páginas siguen cortadas en 2 MB.
+- Solo cuentan los archivos de contenido (sin los bundles THUMBNAIL, TEXT, LICENSE ni CC-LICENSE).
+- Deja `tamanos.csv` (un archivo por fila) y `tamanos.json`: por repositorio y en total, ponderado por la cantidad de ítems de cada repositorio (y sin ponderar, como control).

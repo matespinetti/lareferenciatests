@@ -842,12 +842,13 @@ def armar(resultados: Path, salida: Path) -> None:
         f"{_f(config.ANCHO_RANGO[1])} veces la mediana), calibrada con la medición desde EC2 (15 repositorios: "
         f"cuartiles {_f(config.ANCHO_CUARTILES_MEDIDOS[0], 2)} y {_f(config.ANCHO_CUARTILES_MEDIDOS[1], 2)} MB/s). "
         "Es el supuesto que más mueve la duración: ver el rango y la sensibilidad en la proyección.",
-        f"- Archivos por ítem: {_f(config.DESCARGAS_POR_ITEM, 2)} en promedio, con la frecuencia de los pilotos "
-        f"({', '.join(f'{k}: {n}' for k, n in config.ARCHIVOS_POR_ITEM.items())} ítems de "
-        f"{sum(config.ARCHIVOS_POR_ITEM.values())}); uno de cada cinco no tiene ninguno descargable.",
+        f"- Archivos por ítem: {_f(config.DESCARGAS_POR_ITEM, 2)} en promedio, medidos con `relevamiento medir-tamanos` "
+        f"en 11 repositorios ({', '.join(f'{k}: {n}' for k, n in config.ARCHIVOS_POR_ITEM.items())} de cada "
+        f"{sum(config.ARCHIVOS_POR_ITEM.values())} ítems); {_f(100 * config.ARCHIVOS_POR_ITEM.get(0, 0) / sum(config.ARCHIVOS_POR_ITEM.values()), 0)} % no tiene ninguno.",
         f"- Latencia hasta los encabezados: log-normal con p50 {config.LATENCIA_P50} s y p95 {config.LATENCIA_P95} s (pilotos).",
         f"- Archivos: log-normal con p50 {_f(config.ARCHIVO_P50 / 1e6, 2)} MB y p95 {_f(config.ARCHIVO_P95 / 1e6)} MB, "
-        f"cortada en {_f(config.ARCHIVO_MAXIMO / 1e6)} MB: media {_f(ARCHIVO.media() / 1e6)} MB (pilotos, 51 archivos).",
+        f"cortada en {_f(config.ARCHIVO_MAXIMO / 1e6)} MB: media {_f(ARCHIVO.media() / 1e6)} MB (medir-tamanos: 1.676 archivos de "
+        "11 repositorios, ponderado por sus ítems).",
         f"- Intervalo de cortesía: {config.INTERVALO} s desde el fin de cada pedido.",
         f"- Versiones: {', '.join(f'{k} {v}' for k, v in versiones.items())}.",
         "",

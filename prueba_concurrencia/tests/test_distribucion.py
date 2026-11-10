@@ -38,5 +38,5 @@ def test_media_truncada_coincide_con_las_muestras():
     n = 200_000
     media = sum(ARCHIVO.muestra(rng) for _ in range(n)) / n
     assert media == pytest.approx(ARCHIVO.media(), rel=0.1)
-    # Del mismo orden que la media de los pilotos (11,5 MB con solo 51 archivos).
-    assert 5 * config.MB < ARCHIVO.media() < 20 * config.MB
+    # La media medida con medir-tamanos (6,80 MB, ponderada por los ítems de cada repositorio).
+    assert ARCHIVO.media() == pytest.approx(6_795_280, rel=0.01)

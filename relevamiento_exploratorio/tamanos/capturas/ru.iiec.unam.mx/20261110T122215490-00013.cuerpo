@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: http://ru.iiec.unam.mx/sitemap.xml
+Disallow: /cgi/
+

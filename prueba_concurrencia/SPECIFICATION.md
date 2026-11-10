@@ -35,7 +35,7 @@ Simula muchos repositorios, cada uno identificado por un prefijo de ruta (`/repo
 | --- | --- | --- | --- |
 | Latencia hasta los encabezados | 470 ms | 1,9 s | p99 de 4,2 s |
 | Página de ítem | 10 KB | 450 KB | |
-| Archivo | 0,5 MB | 38 MB | media de 11,5 MB, máximo de 200 MB, solo 51 archivos |
+| Archivo | 1,2 MB | 16 MB | media de 6,8 MB, máximo de 1,9 GB; medido con `relevamiento medir-tamanos` en los metadatos OAI de 11 repositorios (1.676 archivos), ponderado por sus ítems |
 
 Comportamiento:
 
@@ -63,7 +63,7 @@ Reproduce el núcleo del motor real.
 - **Dos tipos de tarea:**
   - resolución: pide la página;
   - descarga: lee el archivo en streaming y calcula su SHA-256 como el fetcher real, descartando los bytes.
-- **Cola inicial:** ítems repartidos entre los repositorios con la misma regla que usa el simulador del descargador (`LAR_descargador/simulator/src/lar_simulator/generate.py:_sizes`). El 4 % de los repositorios tiene un peso 48 veces mayor y concentra unos dos tercios de los ítems, como en la red. Con 2.545 repositorios y 6,1 M de ítems, eso da un máximo de unos 385.000 ítems y una mediana de unos 500. Las tareas se generan a medida que hacen falta, no como una cola de millones de objetos en memoria. Cada resolución genera las descargas de los archivos del ítem, con la frecuencia de los pilotos (piloto3, 66 ítems): ninguna en uno de cada cinco (embargados o sin archivo), una en la mayoría, y a veces dos o cuatro; 0,98 en promedio.
+- **Cola inicial:** ítems repartidos entre los repositorios con la misma regla que usa el simulador del descargador (`LAR_descargador/simulator/src/lar_simulator/generate.py:_sizes`). El 4 % de los repositorios tiene un peso 48 veces mayor y concentra unos dos tercios de los ítems, como en la red. Con 2.545 repositorios y 6,1 M de ítems, eso da un máximo de unos 385.000 ítems y una mediana de unos 500. Las tareas se generan a medida que hacen falta, no como una cola de millones de objetos en memoria. Cada resolución genera las descargas de los archivos del ítem, con la frecuencia medida con `relevamiento medir-tamanos` (11 repositorios, ponderada por sus ítems): ninguna en ~38 % (embargados, restringidos o solo metadatos), una en la mayoría, y a veces más; 0,68 en promedio.
 - **`--modo hilos`:** la misma prueba con `ThreadPoolExecutor` y requests, para comparar memoria y CPU con las corrutinas. Es la referencia que muestra por qué se eligen corrutinas, o cuánto cuesta no hacerlo.
 - **`--db`:** registrar cada resultado en un PostgreSQL local con una transacción, usando asyncpg y un pool de conexiones, para mostrar que la base tampoco es el cuello de botella.
 ## Qué medir
@@ -126,7 +126,7 @@ Cada escenario dura 3 minutos después de 30 segundos de calentamiento, salvo el
 | 3 | 1.000 | Margen |
 | 4 | 2.400, problema real, con la red de la instancia simulada | El pico real: todos los repositorios activos a la vez |
 | 5 | 5.000 | Buscar el límite |
-| 6 | 2.400, problema real sin tope de red y con archivos de 38 MB (p95 de los pilotos) | Capacidad de un proceso: cuántos MB/s procesa antes de saturar un núcleo |
+| 6 | 2.400, problema real sin tope de red y con archivos de 38 MB (el p95 de los pilotos) | Capacidad de un proceso: cuántos MB/s procesa antes de saturar un núcleo |
 | 7 | 2.400, problema real con `--modo hilos` | Comparación con hilos en el pico real |
 | 8 | 2.400, problema real con `--db` | Costo de registrar en la base |
 | 9 | 2.400, problema real durante 1 hora | Resistencia: que la memoria se mantenga estable |

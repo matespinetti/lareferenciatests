@@ -1,0 +1,65 @@
+{
+ "pedido": "20261110T122215490-00011",
+ "url": "https://repositorio.uniandes.edu.co/robots.txt",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Tue, 10 Nov 2026 12:22:18 GMT"
+  ],
+  [
+   "content-type",
+   "text/html"
+  ],
+  [
+   "content-length",
+   "138"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "set-cookie",
+   "7wS1OQyz6wPCy3i1=AQAAtLtcuSskLJLnvJAImg9j2xz2YKvZsB2FZxwGe3Yofc96DPNqAAAAAACnAADwLJdYqqV9MWF3WDn59I6SAAAAPiWbV_IopMzvMsRG6yg-sQytr1EJZ2z4db7cGKX35iE_pdwua-o73uTN3Thgm99rZLZIgBtl6INQhciuqxi3JL29FJ3Yme26NotnO-w3JtukTLuzgNOC24NlV1ZAYCriA-X56smbd0gmbZfgJ_8n_217JLs2FHeax-neLtRslGVtzeM-k_1J3tvkWy2O4; Path=/; SameSite=Lax; HttpOnly; Secure"
+  ],
+  [
+   "location",
+   "/challenge?next=%2Frobots.txt"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=63072000; includeSubDomains; preload"
+  ],
+  [
+   "x-forwarded-port",
+   "\"443\""
+  ],
+  [
+   "content-security-policy",
+   "frame-ancestors 'self' https://biblioteca.uniandes.edu.co;"
+  ],
+  [
+   "x-forwarded-proto",
+   "\"https\""
+  ],
+  [
+   "alt-svc",
+   "h3=\":443\"; ma=86400"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

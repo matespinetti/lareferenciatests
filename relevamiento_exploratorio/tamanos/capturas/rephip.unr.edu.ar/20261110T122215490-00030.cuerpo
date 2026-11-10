@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-11-10T12:22:38Z</responseDate><request verb="ListRecords" metadataPrefix="mets" until="2012-12-31T00:00:00Z">https://rephip.unr.edu.ar/server/oai/request</request><ListRecords><record><header><identifier>oai:rephip.unr.edu.ar:2133/1308</identifier><datestamp>2010-03-25T14:15:06Z</datestamp><setSpec>com_2133_1268</setSpec><setSpec>com_2133_106</setSpec><setSpec>col_2133_154</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_2133-1308" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:2133/1308">
+   <metsHdr CREATEDATE="2026-11-10T12:22:38Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositorio Hipermedial UNR</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_2133_1308">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Campus Virtual, UNR</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2009-10-28T12:05:29Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2009-10-28T12:05:29Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">10/22/09</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/2133/1308</mods:identifier>
+               <mods:abstract>Presentación sobre las revistas de acceso abierto de la UNR que estuvieron en la Jornada &amp;quot;Acceso Abierto a las TIC de la UNR para educar, investigar&amp;quot;</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">es spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction" />
+               <mods:subject>
+                  <mods:topic>revistas de acceso abierto</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Universidad Nacional de Rosario</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Presentación</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Animación en flash sobre las revistas de acceso abierto de la UNR durante la Jornada &amp;quot;Acceso Abierto a las TIC de la UNR para educar, investigar&amp;quot;</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Animation</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_2133_1308_1">
+      <techMD ID="TECH_O_2133_1308_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rephip.unr.edu.ar/bitstreams/97172b0f-f898-469d-a665-38b944f1df76/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>eaeb2291a5b14629b6e1c7b2f8831888</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>2746621</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/octet-stream</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>revistas_AA.exe</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_2133_1308_1" MIMETYPE="application/octet-stream" SEQ="1" SIZE="2746621" CHECKSUM="eaeb2291a5b14629b6e1c7b2f8831888" CHECKSUMTYPE="MD5" ADMID="FO_2133_1308_1" GROUPID="GROUP_BITSTREAM_2133_1308_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rephip.unr.edu.ar/bitstreams/97172b0f-f898-469d-a665-38b944f1df76/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_2133_1308">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_2133_1308_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record><record><header><identifier>oai:rephip.unr.edu.ar:2133/1236</identifier><datestamp>2009-10-23T18:51:49Z</datestamp><setSpec>com_2133_102</setSpec><setSpec>com_2133_7</setSpec><setSpec>col_2133_126</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_2133-1236" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:2133/1236">
+   <metsHdr CREATEDATE="2026-11-10T12:22:38Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositorio Hipermedial UNR</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_2133_1236">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">advisor</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>San Martín, Patricia Silvana</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Airaldi, Jaime</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2009-09-04T04:22:19Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2009-09-04T04:22:19Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">2009-09-04T04:22:19Z</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/2133/1236</mods:identifier>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066" />
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction" />
+               <mods:subject>
+                  <mods:topic>Jaime Airaldi Patrimonio Uruguay</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Grabaciones</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Recording, musical</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_2133_1236_1">
+      <techMD ID="TECH_O_2133_1236_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rephip.unr.edu.ar/bitstreams/93356361-903d-4753-a6fc-9c2799e391e1/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>1c8e514f6ab8d95ecac2343e62bbace4</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>29145</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/octet-stream</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>midi_poema.mid</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FO_2133_1236_2">
+      <techMD ID="TECH_O_2133_1236_2">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rephip.unr.edu.ar/bitstreams/09f4a033-fd5b-4de0-a51a-966160523f03/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>8532ca5be31e014052dfd12f2d4d862a</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>51383</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/octet-stream</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>midi_homenaje-1.mid</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <amdSec ID="FO_2133_1236_3">
+      <techMD ID="TECH_O_2133_1236_3">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rephip.unr.edu.ar/bitstreams/409b0dfa-8b96-414a-8640-418c8c66dd6c/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>df0d23233d6c506580cd47620a827d9d</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>12040192</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/octet-stream</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>homenaje_grabacion.MP3</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_2133_1236_1" MIMETYPE="application/octet-stream" SEQ="1" SIZE="29145" CHECKSUM="1c8e514f6ab8d95ecac2343e62bbace4" CHECKSUMTYPE="MD5" ADMID="FO_2133_1236_1" GROUPID="GROUP_BITSTREAM_2133_1236_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rephip.unr.edu.ar/bitstreams/93356361-903d-4753-a6fc-9c2799e391e1/download" />
+         </file>
+         <file ID="BITSTREAM_ORIGINAL_2133_1236_2" MIMETYPE="application/octet-stream" SEQ="2" SIZE="51383" CHECKSUM="8532ca5be31e014052dfd12f2d4d862a" CHECKSUMTYPE="MD5" ADMID="FO_2133_1236_2" GROUPID="GROUP_BITSTREAM_2133_1236_2">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rephip.unr.edu.ar/bitstreams/09f4a033-fd5b-4de0-a51a-966160523f03/download" />
+         </file>
+         <file ID="BITSTREAM_ORIGINAL_2133_1236_3" MIMETYPE="application/octet-stream" SEQ="3" SIZE="12040192" CHECKSUM="df0d23233d6c506580cd47620a827d9d" CHECKSUMTYPE="MD5" ADMID="FO_2133_1236_3" GROUPID="GROUP_BITSTREAM_2133_1236_3">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rephip.unr.edu.ar/bitstreams/409b0dfa-8b96-414a-8640-418c8c66dd6c/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_2133_1236">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_2133_1236_1" />
+         </div>
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_2133_1236_2" />
+         </div>
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_2133_1236_3" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record><record><header><identifier>oai:rephip.unr.edu.ar:2133/1307</identifier><datestamp>2010-03-25T14:15:06Z</datestamp><setSpec>com_2133_1268</setSpec><setSpec>com_2133_106</setSpec><setSpec>col_2133_154</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_2133-1307" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:2133/1307">
+   <metsHdr CREATEDATE="2026-11-10T12:22:38Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositorio Hipermedial UNR</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_2133_1307">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Campus Virtual, UNR</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2009-10-28T11:48:59Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2009-10-28T11:48:59Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">10/22/09</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/2133/1307</mods:identifier>
+               <mods:abstract>Presentación sobre los servicios del Campus Virtual UNR en la Jornada &amp;quot;Acceso Abierto a las TIC de la UNR para educar, investigar&amp;quot;</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">es spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction" />
+               <mods:subject>
+                  <mods:topic>Campus Virtual de la UNR</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Repositorios Hipermedial UNR</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Comunidades</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Carreras y cursos</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>I+D+T</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>Presentación del Campus Virtual UNR durante la Jornada &amp;quot;Acceso Abierto a las TIC de la UNR para educar, investigar&amp;quot;</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Animation</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_2133_1307_1">
+      <techMD ID="TECH_O_2133_1307_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rephip.unr.edu.ar/bitstreams/161bf52e-ac5c-4847-9523-6c7ca0f82194/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>95b0c922b1ef66d154fb8415a3f56afd</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>3432522</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/octet-stream</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>campus_AA.exe</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_2133_1307_1" MIMETYPE="application/octet-stream" SEQ="1" SIZE="3432522" CHECKSUM="95b0c922b1ef66d154fb8415a3f56afd" CHECKSUMTYPE="MD5" ADMID="FO_2133_1307_1" GROUPID="GROUP_BITSTREAM_2133_1307_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rephip.unr.edu.ar/bitstreams/161bf52e-ac5c-4847-9523-6c7ca0f82194/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_2133_1307">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_2133_1307_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record><record><header><identifier>oai:rephip.unr.edu.ar:2133/1334</identifier><datestamp>2010-03-25T14:15:32Z</datestamp><setSpec>com_2133_1268</setSpec><setSpec>com_2133_106</setSpec><setSpec>com_2133_6372</setSpec><setSpec>com_2133_2988</setSpec><setSpec>com_2133_7</setSpec><setSpec>col_2133_137</setSpec><setSpec>col_2133_6378</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" ID="&#xa;&#x9;&#x9;&#x9;&#x9;DSpace_ITEM_2133-1334" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" OBJID="&#xa;&#x9;&#x9;&#x9;&#x9;hdl:2133/1334">
+   <metsHdr CREATEDATE="2026-11-10T12:22:38Z">
+      <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+         <name>Repositorio Hipermedial UNR</name>
+      </agent>
+   </metsHdr>
+   <dmdSec ID="DMD_2133_1334">
+      <mdWrap MDTYPE="MODS">
+         <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+            <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>San Martín, Patricia Silvana</mods:namePart>
+               </mods:name>
+               <mods:name>
+                  <mods:role>
+                     <mods:roleTerm type="text">author</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart>Guarnieri, Griselda</mods:namePart>
+               </mods:name>
+               <mods:extension>
+                  <mods:dateAccessioned encoding="iso8601">2010-03-02T17:45:29Z</mods:dateAccessioned>
+               </mods:extension>
+               <mods:extension>
+                  <mods:dateAvailable encoding="iso8601">2010-03-02T17:45:29Z</mods:dateAvailable>
+               </mods:extension>
+               <mods:originInfo>
+                  <mods:dateIssued encoding="iso8601">12/10/09</mods:dateIssued>
+               </mods:originInfo>
+               <mods:identifier type="uri">http://hdl.handle.net/2133/1334</mods:identifier>
+               <mods:abstract>La comunicación refiere acciones de Investigación, Desarrollo y Transferencia desarrolladas en el Campus Virtual de la UNR (www.puntoedu.edu.ar), durante el período 2008-2009, en el marco del Programa I+D+T “Dispositivos Hipermediales Dinámicos” (www.mesadearena.edu.ar), radicado en el CIFASIS (CONICET-UNR-UPCAM). El objetivo general de lo realizado por solicitud de la Secretaría de Tecnologías Educativas y de Gestión de la UNR, se centró en diseñar e implementar la construcción de un Dispositivo Hipermedial Dinámico, reconceptualizando al Campus Virtual de la UNR. Esto implicó la puesta en obra de una política de gestión y participación responsable sustentada en la comunicación y el diálogo interdisciplinario entre todos los actores involucrados para el desarrollo sustentable de Programas y Proyectos de educación, investigación y vinculación tecnológica mediatizados en el actual contexto físico-virtual. La finalidad última de lo planteado se inscribe en la construcción de una red social responsable y calificada en el uso de las Tecnologías de la Información y Comunicación (TIC) para la producción y diseminación abierta de los bienes creativos intelectuales de la UNR y otras organizaciones bajo convenio. El caso presentado, atiende a específicos requerimientos en referencia a: 1) lograr un crecimiento significativo del espacio de “Comunidades” del Campus Virtual UNR, correspondiente a las actividades académicas presenciales de las distintas Facultades y Unidades Académicas; 2) potenciar y consolidar el incremento de carreras y cursos institucionales e interinstitucionales en todos los niveles de formación que ofrece la UNR, acreditadas oficialmente en la modalidad de “Educación a Distancia”; 3) configurar la ciberinfraestructura necesaria para el fortalecimiento de las redes académicas de CyT, considerando el acceso abierto al conocimiento generado y los lineamientos institucionales para la vinculación tecnológica con diversas organizaciones a nivel nacional. La metodología aplicada respondió tanto a lineamientos de la perspectiva cualitativa, utilizándose instrumentos y técnicas de la Investigación-Acción como a la metodología experimental espiralada de la Ingeniería del Software. En el trayecto recorrido, se generó un paulatino cambio organizacional, académico y tecnológico informático en función de los requerimientos expuestos, construyendo el Campus Virtual UNR, como una red sociotécnica que en un contexto físico-virtual presencial posibilita a los sujetos  investigar, enseñar, aprender, gestionar, dialogar, confrontar, evaluar, producir y realizar responsablemente procesos de transformación sobre objetos, integrados a la modalidad participativa del Taller utilizando la potencialidad interactiva y dinámica de las TIC. Los avances muestran la expansión de los servicios hacia la comunidad educativa: el crecimiento sostenido de comunidades, que ha escalado a más de 7000 usuarios desde el 2008 y la puesta en línea del Repositorio Hipermedial de Acceso Abierto (www.rephip.unr.edu.ar). Las evaluaciones realizadas tanto en  “Comunidades” como en “Carreras y Cursos” en la modalidad mediatizada,  dan cuenta que los docentes y alumnos se están apropiando con mayor profundidad del  modelo propuesto, evidenciándose un alto nivel de interacción responsable en espacios dinámicos de edición colaborativa y de comunicación sincrónica y asincrónica entre todos los participantes, utilizando variadas herramientas de la plataforma informática instalada en el 2008 (www.moodle.org). En lo organizacional, se han formalizado institucionalmente nuevas documentaciones desarrolladas colaborativamente que dan cuenta de la nueva conceptualización del Campus como Dispositivo Hipermedial Dinámico adhiriendo a los desarrollos de código abierto, a las iniciativas mundiales de acceso abierto al conocimiento contemplando además los requisitos de acreditación a nivel nacional en la modalidad a distancia. En lo pedagógico específico, se realizaron permanentes acciones de capacitación abiertas a toda la comunidad académica UNR en la modalidad física-virtual con el propósito de posicionar al Campus Virtual UNR como un andamiaje institucional transversal para la integración y apropiación genuina de la ciberinfraestructura de la información y el conocimiento a su diaria labor.</mods:abstract>
+               <mods:language>
+                  <mods:languageTerm authority="rfc3066">es spa</mods:languageTerm>
+               </mods:language>
+               <mods:accessCondition type="useAndReproduction" />
+               <mods:subject>
+                  <mods:topic>Campus Virtual UNR</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>CIFASIS CONICET</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Educación</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>TIC´s</mods:topic>
+               </mods:subject>
+               <mods:subject>
+                  <mods:topic>Dispositivos Hipermediales Dinámicos</mods:topic>
+               </mods:subject>
+               <mods:titleInfo>
+                  <mods:title>EL CAMPUS VIRTUAL UNR COMO UN DISPOSITIVO HIPERMEDIAL DINÁMICO PARA EDUCAR E INVESTIGAR.</mods:title>
+               </mods:titleInfo>
+               <mods:genre>Presentation</mods:genre>
+            </mods:mods>
+         </xmlData>
+      </mdWrap>
+   </dmdSec>
+   <amdSec ID="FO_2133_1334_1">
+      <techMD ID="TECH_O_2133_1334_1">
+         <mdWrap MDTYPE="PREMIS">
+            <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+               <premis:premis>
+                  <premis:object>
+                     <premis:objectIdentifier>
+                        <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                        <premis:objectIdentifierValue>https://rephip.unr.edu.ar/bitstreams/b0693738-5f55-4833-b890-372199621a46/download</premis:objectIdentifierValue>
+                     </premis:objectIdentifier>
+                     <premis:objectCategory>File</premis:objectCategory>
+                     <premis:objectCharacteristics>
+                        <premis:fixity>
+                           <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                           <premis:messageDigest>2cf0ecde949edb84c0297a1eb1544012</premis:messageDigest>
+                        </premis:fixity>
+                        <premis:size>2341077</premis:size>
+                        <premis:format>
+                           <premis:formatDesignation>
+                              <premis:formatName>application/octet-stream</premis:formatName>
+                           </premis:formatDesignation>
+                        </premis:format>
+                     </premis:objectCharacteristics>
+                     <premis:originalName>poster.exe</premis:originalName>
+                  </premis:object>
+               </premis:premis>
+            </xmlData>
+         </mdWrap>
+      </techMD>
+   </amdSec>
+   <fileSec>
+      <fileGrp USE="ORIGINAL">
+         <file ID="BITSTREAM_ORIGINAL_2133_1334_1" MIMETYPE="application/octet-stream" SEQ="1" SIZE="2341077" CHECKSUM="2cf0ecde949edb84c0297a1eb1544012" CHECKSUMTYPE="MD5" ADMID="FO_2133_1334_1" GROUPID="GROUP_BITSTREAM_2133_1334_1">
+            <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://rephip.unr.edu.ar/bitstreams/b0693738-5f55-4833-b890-372199621a46/download" />
+         </file>
+      </fileGrp>
+   </fileSec>
+   <structMap LABEL="DSpace Object" TYPE="LOGICAL">
+      <div TYPE="DSpace Object Contents" ADMID="DMD_2133_1334">
+         <div TYPE="DSpace BITSTREAM">
+            <fptr FILEID="BITSTREAM_ORIGINAL_2133_1334_1" />
+         </div>
+      </div>
+   </structMap>
+</mets>
+</metadata></record><record><header status="deleted"><identifier>oai:rephip.unr.edu.ar:2133/1161</identifier><datestamp>2009-07-01T18:52:45Z</datestamp><setSpec>com_2133_829</setSpec><setSpec>com_2133_828</setSpec><setSpec>col_2133_845</setSpec></header></record></ListRecords></OAI-PMH>

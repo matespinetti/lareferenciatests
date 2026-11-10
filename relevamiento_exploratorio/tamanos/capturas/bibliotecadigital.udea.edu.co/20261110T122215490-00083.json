@@ -1,0 +1,65 @@
+{
+ "pedido": "20261110T122215490-00083",
+ "url": "https://bibliotecadigital.udea.edu.co/server/oai/request?verb=ListRecords&metadataPrefix=mets&from=2023-01-01",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Tue, 10 Nov 2026 12:23:30 GMT"
+  ],
+  [
+   "content-type",
+   "text/xml;charset=UTF-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "content-language",
+   "es,en"
+  ],
+  [
+   "vary",
+   "Origin,Accept-Encoding,Access-Control-Request-Method,Access-Control-Request-Headers"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "permissions-policy",
+   "geolocation=(self \"https://bibliotecadigital.udea.edu.co\"), camera=(self) geolocation=(self) microphone=(self)"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=63072000; includeSubDomains; preload"
+  ],
+  [
+   "referrer-policy",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-dns-prefetch-control",
+   "off"
+  ],
+  [
+   "x-forwarded-proto",
+   "\"https\""
+  ],
+  [
+   "x-forwarded-port",
+   "\"443\""
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

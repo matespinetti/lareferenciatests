@@ -39,6 +39,23 @@ CORTESIA_MEDICION = ConfigCortesia(
 ARCHIVOS_POR_REPO_MEDICION = 3
 TAMANO_MINIMO_MEDICION = 1_000_000
 
+# Pedido por el usuario (nov 2026): medir el tamaño de los archivos desde los metadatos OAI (METS o
+# xoai), para calibrar el volumen de la prueba de concurrencia. Son páginas de ListRecords, no
+# archivos: valen las reglas de páginas (tope de 2 MB). Cortesía más lenta que la del relevamiento.
+CORTESIA_TAMANOS = ConfigCortesia(
+    intervalo_minimo=10.0,
+    hosts_en_paralelo=2,
+    pedidos_por_repo=8,
+)
+# Ventanas de fechas (from, until) para repartir la muestra en el tiempo, además de la primera página.
+VENTANAS_TAMANOS = (
+    (None, "2012-12-31"),
+    ("2013-01-01", "2016-12-31"),
+    ("2017-01-01", "2019-12-31"),
+    ("2020-01-01", "2022-12-31"),
+    ("2023-01-01", None),
+)
+
 
 ITEMS_POR_REPO = 3
 # Los ítems se muestrean entre los registros modificados en este período, para no quedarse con los más viejos.

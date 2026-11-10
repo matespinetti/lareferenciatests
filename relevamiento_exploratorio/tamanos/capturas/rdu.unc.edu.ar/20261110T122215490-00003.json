@@ -1,0 +1,53 @@
+{
+ "pedido": "20261110T122215490-00003",
+ "url": "https://rdu.unc.edu.ar/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 12:22:15 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "etag",
+   "W/\"d36-MBrVz8ynsHUt8rJqaKzT8GizdlY\""
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ],
+  [
+   "set-cookie",
+   "idunc=yBAd1mrzDHc4200iDY9cAg==; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=.unc.edu.ar; path=/"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

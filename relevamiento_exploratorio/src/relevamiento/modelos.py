@@ -17,6 +17,23 @@ class Contexto:
 
 
 @dataclass(frozen=True, slots=True)
+class RegistroOai:
+    """Un ítem de una página de ListRecords con sus archivos de contenido: (tamaño, tipo MIME)."""
+
+    identificador: str | None
+    borrado: bool = False
+    archivos: tuple[tuple[int | None, str | None], ...] = ()
+
+
+@dataclass(frozen=True, slots=True)
+class PaginaOai:
+    registros: tuple[RegistroOai, ...] = ()
+    total: int | None = None
+    """`completeListSize` del resumptionToken: cuántos ítems tiene el repositorio (o la ventana)."""
+    problema: str | None = None
+
+
+@dataclass(frozen=True, slots=True)
 class Salto:
     url: str
     codigo: int | None

@@ -1,0 +1,45 @@
+{
+ "pedido": "20261110T122215490-00057",
+ "url": "https://repositorio.filo.uba.ar/server/oai/request?verb=ListRecords&metadataPrefix=mets&from=2013-01-01&until=2016-12-31",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Tue, 10 Nov 2026 12:22:04 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "vary",
+   "Origin,Accept-Encoding,Access-Control-Request-Method,Access-Control-Request-Headers"
+  ],
+  [
+   "content-type",
+   "text/xml;charset=UTF-8"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "content-length",
+   "382"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

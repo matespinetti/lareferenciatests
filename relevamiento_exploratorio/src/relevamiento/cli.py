@@ -1,4 +1,4 @@
-"""Línea de comandos: relevar, resumir, verificar-cortesia y medir-velocidad."""
+"""Línea de comandos: relevar, resumir, verificar-cortesia, medir-velocidad y medir-tamanos."""
 
 import asyncio
 from datetime import datetime
@@ -7,7 +7,7 @@ from typing import Annotated, Optional
 
 import typer
 
-from relevamiento.config import CORTESIA_MEDICION, ConfigCortesia
+from relevamiento.config import CORTESIA_MEDICION, CORTESIA_TAMANOS, ConfigCortesia
 from relevamiento.entradas import EntradaInvalida, leer_items, leer_repositorios
 from relevamiento.registro import EVENTOS, leer_jsonl
 from relevamiento.relevar import plan, relevar
@@ -82,9 +82,12 @@ def cmd_resumir(
 def cmd_verificar(
     salida: Salida = Path("salida"),
     medicion: Annotated[bool, typer.Option("--medicion", help="Verifica con la cortesía de medir-velocidad.")] = False,
+    tamanos: Annotated[bool, typer.Option("--tamanos", help="Verifica con la cortesía de medir-tamanos.")] = False,
 ) -> None:
     """Comprueba sobre pedidos.jsonl que nunca hubo pedidos simultáneos a un host y que se respetó el intervalo."""
-    res = verificar(salida, CORTESIA_MEDICION) if medicion else verificar(salida)
+    if medicion and tamanos:
+        raise typer.BadParameter("Elegí --medicion o --tamanos, no los dos.")
+    res = verificar(salida, CORTESIA_MEDICION if medicion else CORTESIA_TAMANOS if tamanos else ConfigCortesia())
     for aviso in res.avisos:
         typer.echo(f"aviso: {aviso}")
     for violacion in res.violaciones:
@@ -136,3 +139,47 @@ def cmd_medir(
     typer.echo(f"Corrida {corrida}: {resumen['archivos_medidos']} archivos medidos en {resumen['repositorios']} repositorios.")
     typer.echo(f"MB/s por archivo: {resumen['mb_s_por_archivo']}  ·  por repositorio: {resumen['mb_s_por_repositorio']}")
     typer.echo(f"Detalle en {salida}/velocidad.csv. Siguiente paso: relevamiento verificar-cortesia --salida {salida} --medicion")
+
+
+@app.command("medir-tamanos")
+def cmd_tamanos(
+    pilotos: Annotated[
+        Optional[list[Path]], typer.Option("--piloto", help="Directorio de un piloto ya corrido (se puede repetir).")
+    ] = None,
+    salida: Salida = Path("tamanos"),
+    contacto: Annotated[Optional[str], typer.Option(envvar="RELEVAMIENTO_CONTACTO", help="Correo para el User-Agent.")] = None,
+    simulacro: Annotated[bool, typer.Option("--plan", help="Muestra qué páginas se pedirían, sin hacer pedidos.")] = False,
+    en_horario_ok: Annotated[bool, typer.Option("--en-horario-ok", help="Permite correr en horario laboral.")] = False,
+) -> None:
+    """Mide el tamaño de los archivos desde los metadatos OAI (METS o xoai), sin descargar archivos:
+    páginas enteras de ListRecords de los repositorios de los pilotos, con una cortesía más lenta que
+    la del relevamiento (10 s entre pedidos a un host, 2 hosts a la vez, 8 pedidos por repositorio)."""
+    from relevamiento.tamanos import candidatos, medir_tamanos, resumir_tamanos, urls
+
+    repos = candidatos(pilotos or [Path("piloto"), Path("piloto2"), Path("piloto3")])
+    if not repos:
+        raise typer.BadParameter("Ningún repositorio de los pilotos ofrece METS o xoai.", param_hint="--piloto")
+    paginas = sum(len(urls(r)) for r in repos)
+    typer.echo(f"{len(repos)} repositorios, {paginas} páginas de ListRecords (más robots.txt de cada host).")
+    if simulacro:
+        for r in repos:
+            typer.echo(f"  {r.repo:20} {r.plataforma:8} {r.formato:5} {r.endpoint}")
+        return
+    if not contacto or not contacto.strip():
+        raise typer.BadParameter("Hace falta un contacto para el User-Agent (o RELEVAMIENTO_CONTACTO).", param_hint="--contacto")
+    if en_horario_laboral(datetime.now()) and not en_horario_ok:
+        typer.echo("Es horario laboral: la spec pide correr fuera de horario. Usá --en-horario-ok para continuar igual.", err=True)
+        raise typer.Exit(2)
+    typer.echo(f"User-Agent: {CORTESIA_TAMANOS.user_agent(contacto)}")
+    try:
+        corrida = asyncio.run(medir_tamanos(repos, salida, contacto.strip(), CORTESIA_TAMANOS))
+    except KeyboardInterrupt:
+        typer.echo("\nInterrumpido.", err=True)
+        raise typer.Exit(130)
+    resumen = resumir_tamanos(salida)
+    total = resumen["ponderado_por_items"]
+    typer.echo(f"Corrida {corrida}: {total.get('items', 0)} ítems y {total.get('archivos', 0)} archivos de "
+               f"{total.get('repositorios', 0)} repositorios.")
+    typer.echo(f"Ponderado por ítems: {total.get('archivos_por_item')} archivos por ítem, mediana "
+               f"{(total.get('tamano_p50') or 0) / 1e6:.2f} MB, media {(total.get('tamano_media') or 0) / 1e6:.2f} MB.")
+    typer.echo(f"Detalle en {salida}/tamanos.json. Siguiente paso: relevamiento verificar-cortesia --salida {salida} --tamanos")

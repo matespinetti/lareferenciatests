@@ -6,7 +6,7 @@ from urllib.parse import unquote, urljoin, urlsplit
 
 from relevamiento.config import BUNDLES_DERIVADOS, FORMATOS_OAI_METODO, METODOS
 from relevamiento.detectores import clasificar_url, error_oai, es_angular_sin_ssr, es_archivo, magic, nombre_archivo
-from relevamiento.modelos import Candidato, Extraccion, Item, Reconocimiento, Respuesta
+from relevamiento.modelos import Candidato, Extraccion, Item, PaginaOai, Reconocimiento, RegistroOai, Respuesta
 from relevamiento.parseo import (
     descendientes,
     hijos,
@@ -186,6 +186,58 @@ def extraer_oai_mets(r: Respuesta) -> Extraccion:
                         mime=archivo.get("MIMETYPE"), tamano=_entero(archivo.get("SIZE")),
                     ))
     return Extraccion(candidatos=tuple(candidatos))
+
+
+def extraer_pagina_tamanos(r: Respuesta, formato: str) -> PaginaOai:
+    """Todos los registros de una página de ListRecords en METS (`mets`) o xoai (`xoai`), con el
+    tamaño de sus archivos de contenido (sin los bundles derivados: miniaturas, texto, licencias).
+
+    Si la página quedó cortada por el tope de bytes, el último registro puede estar incompleto y se
+    descarta."""
+    if codigo := error_oai(r):
+        return PaginaOai(problema=codigo)
+    doc = parsear_xml(r.cuerpo)
+    if doc is None or not isinstance(doc.tag, str):
+        return PaginaOai(problema="xml_invalido")
+    registros = descendientes(doc, "record")
+    if r.truncado and registros:
+        registros = registros[:-1]
+    salida = []
+    for registro in registros:
+        encabezado = hijos(registro, "header")
+        identificador = texto_hijo(encabezado[0], "identifier") if encabezado else None
+        if encabezado and encabezado[0].get("status") == "deleted":
+            salida.append(RegistroOai(identificador, borrado=True))
+            continue
+        archivos = _archivos_mets(registro) if formato == "mets" else _archivos_xoai(registro)
+        salida.append(RegistroOai(identificador, archivos=tuple(archivos)))
+    token = descendientes(doc, "resumptionToken")
+    total = _entero(token[0].get("completeListSize")) if token else None
+    if total is None and not token and not r.truncado:
+        # Sin resumptionToken, la lista entra entera en esta página.
+        total = len(salida)
+    return PaginaOai(registros=tuple(salida), total=total)
+
+
+def _archivos_mets(registro) -> list[tuple[int | None, str | None]]:
+    return [
+        (_entero(archivo.get("SIZE")), archivo.get("MIMETYPE"))
+        for grupo in descendientes(registro, "fileGrp")
+        if not es_derivado(grupo.get("USE"))
+        for archivo in hijos(grupo, "file")
+    ]
+
+
+def _archivos_xoai(registro) -> list[tuple[int | None, str | None]]:
+    archivos = []
+    for bundles in (e for e in descendientes(registro, "element") if e.get("name") == "bundles"):
+        for bundle in (e for e in hijos(bundles, "element") if e.get("name") == "bundle"):
+            if es_derivado(_campo(bundle, "name")):
+                continue
+            for bitstreams in (e for e in hijos(bundle, "element") if e.get("name") == "bitstreams"):
+                for bs in (e for e in hijos(bitstreams, "element") if e.get("name") == "bitstream"):
+                    archivos.append((_entero(_campo(bs, "size")), _campo(bs, "format")))
+    return archivos
 
 
 def muestrear_listrecords(r: Respuesta, repo: str, url_base: str, n: int) -> list[Item]:
