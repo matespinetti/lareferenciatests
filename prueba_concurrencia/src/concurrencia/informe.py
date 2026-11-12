@@ -178,8 +178,8 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "repos_con_trabajo": r.media("repos_con_trabajo") if r.filas and "repos_con_trabajo" in r.filas[0] else 0.0,
         "pedidos_resolucion_s": r.media("pedidos_resolucion"),
         "pedidos_descarga_s": r.media("pedidos_descarga"),
-        "r429": sum(r.col("r429")),
-        "r503": sum(r.col("r503")),
+        "r429": int(sum(r.col("r429"))),
+        "r503": int(sum(r.col("r503"))),
     }
 
 
@@ -689,7 +689,8 @@ def _seccion_subida(todos: list[dict[str, Any]]) -> list[str]:
         "",
         "El motor guarda cada archivo mientras lo baja (los de menos de "
         f"{_f(config.UMBRAL_DISCO / config.MB, 0)} MB en el spool en RAM, los demás en disco) y, al terminar, lo deja "
-        "para un proceso subidor aparte (boto3, en su propio núcleo) que lo sube a un S3 falso local. Si lo pendiente "
+        "para un proceso subidor aparte (boto3, en su propio núcleo) que lo sube a S3 (real o, en los ensayos, un S3 "
+        "falso local: la columna \"Dónde sube\"). Si lo pendiente "
         f"pasa {_f(config.LIMITE_PENDIENTE_RAM / config.MB, 0)} MB en RAM o "
         f"{_f(config.LIMITE_PENDIENTE_DISCO / config.MB, 0)} MB en disco, el motor deja de repartir tareas nuevas "
         "(\"frenado\"). **Lo que importa: frenado en 0 y lo pendiente estable** quieren decir que la descarga nunca "
@@ -708,7 +709,8 @@ def _seccion_subida(todos: list[dict[str, Any]]) -> list[str]:
         )
         lineas.append(
             f"| {r['id']} | {donde.get(r['modo_subida'], r['modo_subida'])}{', CRT' if r['cliente_subida'] == 'crt' else ''}"
-            f"{', mismo núcleo que el motor' if r['subidor_mismo_nucleo'] else ''} ({r['subida_paralelo']}) | {r['lugares']} "
+            f"{', mismo núcleo que el motor' if r['subidor_mismo_nucleo'] else ''} ({r['subida_paralelo']})"
+            f"{', S3 real' if r['s3_real'] else ', S3 falso'} | {r['lugares']} "
             f"| {_f(r['red'] / config.MB) if r['red'] else 'sin tope'} | {_f(r['mb_s'])} "
             f"| {_f(r['subida_mb_s'])} | {_f(r['cpu_media'])} | {_f(ref['cpu_media']) + ' (' + ref['id'] + ')' if ref else '—'} "
             f"| {_f(r['rss_max'], 0)} | {cpu_subidor} | {_f(r['subidor_rss_max'], 0) if r['modo_subida'] == 'proceso' else '—'} "
