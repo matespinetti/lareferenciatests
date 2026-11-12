@@ -61,7 +61,17 @@ La cortesía no es lo que se mide, pero tiene que estar activa: el motor real la
 
 ## Qué no hacer sin pedir permiso
 
-- **Nunca hagas pedidos a repositorios reales.** El servidor escucha solo en `127.0.0.1` y el motor solo le pide a él (el resolver rechaza cualquier host que no sea `*.sim.localhost`). La única excepción es la validación en dos máquinas: `HOST=0.0.0.0` en una instancia cuyo security group solo deja entrar a la otra.
+- **Nunca hagas pedidos a repositorios reales**, salvo en el modo muestra. El servidor escucha solo en `127.0.0.1` y el motor solo le pide a él (el resolver rechaza cualquier host que no sea `*.sim.localhost`). La validación en dos máquinas abre `HOST=0.0.0.0` en una instancia cuyo security group solo deja entrar a la otra.
+- **Modo muestra (escenarios `r25`–`r120`, `scripts/reales.sh`, `GUIA_REALES_SP.md`), pedido por el usuario (nov 2026):** el único caso con pedidos a repositorios reales. Reglas:
+  - **Qué se pide:** solo los repositorios útiles de `relevamiento_exploratorio/muestra/` (`MUESTRA`), sus archivos ya resueltos y las páginas de artículos OJS.
+  - **Cortesía:** un pedido a la vez por repositorio, con 2 s desde el fin de uno (`intervalo` del escenario). Se respeta `Retry-After`.
+  - **Abandono:** el repositorio no recibe más pedidos ante un 403, un `Retry-After` de más de 300 s o tres errores de red seguidos.
+  - **Tope:** 1 GB conocido por repositorio y paso, y cada paso con ítems distintos (`parte`).
+  - **User-Agent con contacto:** `CONTACTO` es obligatorio.
+  - **robots.txt** no se consulta, por decisión del usuario.
+  - **Subida:** al bucket de prueba con borrado al día.
+  - **La cortesía la verifica el motor** sobre su registro de pedidos (`<paso>-pedidos.csv`), porque no hay servidor que la cuente.
+  - **Se corre solo en EC2 y lo lanza el usuario.** En local, solo los tests contra repositorios de `127.0.0.1`.
 - **S3 real solo con `S3_BUCKET` y en la validación**, bajo el prefijo `prueba-concurrencia/`, en un bucket de prueba con borrado al día. Nunca en un bucket de producción.
 - **No crees, modifiques ni termines instancias de EC2** ni otros recursos de AWS sin que el usuario lo pida: cuestan plata. Al terminar una corrida en EC2, recordá terminar la instancia.
 - No cambies los parámetros de los escenarios (lugares, duraciones, tamaños, latencias, intervalo de 1 s) salvo que te lo pidan.
@@ -84,6 +94,7 @@ HOST=0.0.0.0 SERVIDOR_PROCESOS=2 .venv/bin/servidor --escenario v120   # en la i
 S3_BUCKET=… bash scripts/candidata.sh <IP privada de A>                 # en la c6gn.medium (B): b120 s120 v120 con S3 real
 bash scripts/candidata.sh <IP privada de A> v120h                       # la de 1 hora, contra el S3 falso de A (S3 real costaría ~USD 2)
 RED_HOST=1 CARGA_WEB=1 INSTANCIA=t4g.large bash scripts/candidata.sh <IP> t25 t50 t75 t120   # producción en una t4g (GUIA_PRODUCCION_SP.md)
+S3_BUCKET=… CONTACTO=… RED_HOST=1 CARGA_WEB=1 bash scripts/reales.sh          # repositorios reales: r25 r50 r75 r120 (GUIA_REALES_SP.md)
 ```
 
 Los escenarios (lugares, repositorios, modo, `--db`, duración) están en `config.ESCENARIOS`. El motor no recibe esos parámetros sueltos: así cada corrida es reproducible por su id.

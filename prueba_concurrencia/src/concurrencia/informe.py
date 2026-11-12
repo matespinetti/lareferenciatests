@@ -5,6 +5,7 @@ cuentas de la proyección quedan escritas en el informe para que se puedan revis
 """
 
 import csv
+from collections import Counter
 import json
 import math
 import statistics
@@ -170,6 +171,15 @@ def resumir(r: Resultado) -> dict[str, Any]:
         "memoria_disponible_min": min(r.col("memoria_disponible_mb"), default=0.0),
         "deriva_memoria_mb_h": _pendiente(t, r.col("memoria_disponible_mb")) * 3600,
         "disco_escritura_max": max(r.col("disco_escritura_mb_s"), default=0.0),
+        # Modo muestra (r*): repositorios reales.
+        "muestra": bool(e.get("muestra")),
+        "intervalo": e.get("intervalo", config.INTERVALO),
+        "muestra_datos": r.datos.get("muestra", {}),
+        "repos_con_trabajo": r.media("repos_con_trabajo") if r.filas and "repos_con_trabajo" in r.filas[0] else 0.0,
+        "pedidos_resolucion_s": r.media("pedidos_resolucion"),
+        "pedidos_descarga_s": r.media("pedidos_descarga"),
+        "r429": sum(r.col("r429")),
+        "r503": sum(r.col("r503")),
     }
 
 
@@ -851,6 +861,72 @@ def _seccion_validacion(todos: list[dict[str, Any]], resultados: Path) -> list[s
     return lineas
 
 
+def velocidades_por_conexion(pedidos: Path, minimo: int = config.MB) -> list[float]:
+    """MB/s de cada descarga correcta de al menos `minimo` bytes, del registro de pedidos del modo muestra
+    (incluye la latencia hasta los encabezados: es la velocidad que ve una corrutina)."""
+    if not pedidos.exists():
+        return []
+    with pedidos.open(encoding="utf-8") as f:
+        return [
+            int(p["bytes"]) / config.MB / (float(p["fin"]) - float(p["inicio"]))
+            for p in csv.DictReader(f)
+            if p["tipo"] == "descarga" and p["codigo"] == "200" and not p["error"] and int(p["bytes"]) >= minimo
+            and float(p["fin"]) > float(p["inicio"])
+        ]
+
+
+def _seccion_muestra(todos: list[dict[str, Any]], resultados: Path) -> list[str]:
+    """Repositorios reales (escenarios r*): el barrido de corrutinas contra la muestra de LA Referencia."""
+    filas = sorted((r for r in todos if r["muestra"]), key=lambda r: r["lugares"])
+    if not filas:
+        return []
+    instancia = resultados / "instancia.json"
+    tipo = json.loads(instancia.read_text()).get("tipo") if instancia.exists() else None
+    perfil = config.INSTANCIAS.get(tipo or "")
+    base = perfil.linea_base_cpu if perfil and perfil.linea_base_cpu else None
+    m0 = filas[0]["muestra_datos"]
+    lineas = [
+        "",
+        "## Repositorios reales",
+        "",
+        f"El motor contra la muestra de LA Referencia ({m0.get('directorio', 'muestra')}): cada paso baja una parte "
+        f"distinta de los ítems de cada repositorio, con {filas[0].get('intervalo', 2):g} s de cortesía por repositorio "
+        "(un pedido a la vez), `Retry-After` respetado y abandono ante un 403, un `Retry-After` de más de 5 minutos o "
+        f"tres errores de red seguidos. Tope de {m0.get('tope_bytes_por_repo', 0) / config.MB / 1024:g} GB conocidos por "
+        "repositorio y paso. La cortesía la verifica el motor sobre su propio registro de pedidos: no hay un servidor que la cuente.",
+        "",
+        "| Corrutinas | Repos en el paso | Con trabajo (media) | MB/s bajados | MB/s subidos | MB/s por corrutina | Ítems/s | "
+        "Resoluciones/s | Descargas/s | Errores | 429/503 | Abandonados | CPU máquina | Memoria libre mín. | Bucle p99 | Cortesía |",
+        "|" + "---|" * 16,
+    ]
+    for r in filas:
+        m = r["muestra_datos"]
+        cpu = f"{_f(r['maquina_cpu'])} %" + (f" (base {base:.0%})" if base else "")
+        lineas.append(
+            f"| {r['lugares']} | {m.get('repositorios', 0)} | {_f(r['repos_con_trabajo'])} | {_f(r['mb_s'])} | "
+            f"{_f(r['subida_mb_s'])} | {_f(r['mb_s'] / r['lugares'], 2)} | {_f(r['items_s'])} | {_f(r['pedidos_resolucion_s'])} | "
+            f"{_f(r['pedidos_descarga_s'])} | {r['errores']} | {r['r429']}/{r['r503']} | {len(m.get('abandonados', {}))} | {cpu} | "
+            f"{_f(r['memoria_disponible_min'], 0)} MB | {_f(r['bucle_p99'])} ms | {_marca(r['violaciones'] == 0)} |"
+        )
+    lineas += ["", "### Velocidad real por conexión", "",
+               "Descargas correctas de 1 MB o más, desde la primera respuesta hasta el último byte. El simulador "
+               f"suponía una mediana de {config.ANCHO_POR_CONEXION / config.MB:.2f} MB/s.", "",
+               "| Corrutinas | Descargas | p25 | Mediana | p75 | Latencia p50 | Latencia p95 |", "|---|---|---|---|---|---|---|"]
+    for r in filas:
+        v = sorted(velocidades_por_conexion(resultados / f"{r['id']}-pedidos.csv"))
+        if v:
+            cuartiles = statistics.quantiles(v, n=4) if len(v) > 1 else [v[0]] * 3
+            lineas.append(f"| {r['lugares']} | {len(v)} | {_f(cuartiles[0], 2)} | {_f(cuartiles[1], 2)} | {_f(cuartiles[2], 2)} | "
+                          f"{_f(r['lat_p50'], 0)} ms | {_f(r['lat_p95'], 0)} ms |")
+    lineas += ["", "### Errores y abandonos", ""]
+    for r in filas:
+        abandonos = Counter(r["muestra_datos"].get("abandonados", {}).values())
+        errores = ", ".join(f"{k} {v}" for k, v in sorted(r["errores_por_tipo"].items(), key=lambda x: -x[1])) or "ninguno"
+        motivos = ", ".join(f"{k} {v}" for k, v in abandonos.most_common()) or "ninguno"
+        lineas.append(f"- **{r['lugares']} corrutinas:** errores: {errores}. Abandonados: {motivos}.")
+    return lineas
+
+
 def _f(valor: float, decimales: int = 1) -> str:
     return f"{valor:,.{decimales}f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
@@ -863,6 +939,16 @@ def armar(resultados: Path, salida: Path) -> None:
     todos = [resumir(r) for r in cargar(resultados)]
     if not todos:
         raise SystemExit(f"no hay resultados en {resultados}")
+    if all(r["muestra"] for r in todos):
+        # Solo repositorios reales: no hay simulador, ni supuestos, ni proyección que mostrar.
+        lineas = ["# Prueba de concurrencia contra repositorios reales", ""]
+        instancia = resultados / "instancia.json"
+        if instancia.exists():
+            lineas += ["## Instancia", "", *[f"- **{k}:** {v}" for k, v in json.loads(instancia.read_text()).items()], ""]
+        lineas += _seccion_muestra(todos, resultados)
+        lineas += _seccion_subida([r for r in todos if r["subida"]])
+        salida.write_text("\n".join(lineas) + "\n")
+        return
     # La instancia simulada es la de los resultados (los viejos, sin ese dato, eran de la t3.small).
     simuladas = {r["instancia"] or "t3.small" for r in todos}
     simulada = config.instancia(sorted(simuladas)[0])
@@ -990,6 +1076,7 @@ def armar(resultados: Path, salida: Path) -> None:
     lineas += _seccion_multiproceso(todos)
     lineas += _seccion_subida(todos)
     lineas += _seccion_validacion(todos, resultados)
+    lineas += _seccion_muestra(todos, resultados)
     lineas += [
         "",
         "## Proyección al problema real",
@@ -1103,7 +1190,7 @@ def armar(resultados: Path, salida: Path) -> None:
             for c in p["candidatas"]
         ],
         "",
-        f"⚠: la CPU que pide pasa lo que la instancia sostiene (línea base de créditos en las t3; 80 % de un núcleo en "
+        "⚠: la CPU que pide pasa lo que la instancia sostiene (línea base de créditos en las t3; 80 % de un núcleo en "
         "las demás, porque un proceso de Python usa uno solo).",
         "",
         "",

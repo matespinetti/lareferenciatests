@@ -102,9 +102,18 @@ def motor(
     certs: Path = _CERTS,
     semilla: int = config.SEMILLA,
 ) -> None:
-    """Corre un escenario contra el servidor simulado ya levantado."""
-    _resolver_ip_servidor()
+    """Corre un escenario contra el servidor simulado ya levantado o, en los r* (modo muestra), contra
+    los repositorios reales de la muestra de LA Referencia (MUESTRA, con CONTACTO para el User-Agent)."""
     e = config.escenario(escenario, duracion, calentamiento, instancia)
+    if e.muestra:
+        if not config.CONTACTO.strip():
+            raise typer.BadParameter("el modo muestra pide a repositorios reales: definí CONTACTO (correo del User-Agent)")
+        if not (Path(config.MUESTRA) / "items.csv").exists():
+            raise typer.BadParameter(f"no está la muestra en {config.MUESTRA} (MUESTRA)")
+        if modo not in (None, Modo.CORRUTINAS):
+            raise typer.BadParameter("el modo muestra corre solo con corrutinas", param_hint="--modo")
+    else:
+        _resolver_ip_servidor()
     if modo is not None:
         e = replace(e, modo=modo)
     if modo_subida is not None and e.subida:
@@ -126,6 +135,14 @@ def motor(
             motor_corrutinas.correr(e, puerto, certs, salida, semilla, dsn, procesos=procesos, puerto_s3=puerto_s3, dir_spool=spool)
         )
     servidor = resumen["servidor"]
+    if e.muestra:
+        m = resumen["muestra"]
+        typer.echo(
+            f"escenario {e.id} (repositorios reales, parte {e.parte + 1}/{e.partes}): {servidor['pedidos']} pedidos a "
+            f"{m['repositorios']} repositorios, {servidor['violaciones']} violaciones de cortesía, "
+            f"{len(m['abandonados'])} abandonados, errores {json.dumps(resumen['errores_por_tipo'])}"
+        )
+        return
     typer.echo(
         f"escenario {e.id} ({e.modo}, red de {e.instancia}): {servidor['pedidos']} pedidos, "
         f"{servidor['violaciones']} violaciones, errores {json.dumps(resumen['errores_por_tipo'])}"

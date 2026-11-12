@@ -175,6 +175,20 @@ def instancia(nombre: str | None = None) -> Instancia:
     return INSTANCIAS[nombre or INSTANCIA_POR_DEFECTO]
 
 
+# Modo muestra: repositorios reales (pedido por el usuario, nov 2026).
+MUESTRA = os.environ.get("MUESTRA", "../relevamiento_exploratorio/muestra")
+"""Directorio con repositorios.csv, items.csv y archivos.csv de `relevamiento muestra-resumir`."""
+CONTACTO = os.environ.get("CONTACTO", "")
+"""Correo del User-Agent contra los repositorios reales; obligatorio en el modo muestra."""
+INTERVALO_MUESTRA = 2.0
+TOPE_REPO_PASO = 1024 * MB
+"""Con `muestra`: bytes conocidos que baja como mucho cada repositorio en un paso del barrido."""
+RETRY_AFTER_MAXIMO = 300.0
+"""Con `muestra`: un Retry-After más largo abandona el repositorio por el resto de la corrida."""
+ARCHIVOS_POR_PAGINA = 3
+"""Con `muestra`: archivos que se toman como mucho de la página de un artículo OJS."""
+
+
 class Modo(StrEnum):
     CORRUTINAS = "corrutinas"
     HILOS = "hilos"
@@ -215,6 +229,13 @@ class Escenario:
     """Dónde corre el subidor (`MODOS_SUBIDA`); se cambia con MODO_SUBIDA."""
     subidor_mismo_nucleo: bool = False
     """El subidor en proceso aparte comparte el núcleo del motor, como en una instancia de 1 vCPU."""
+    muestra: bool = False
+    """Contra repositorios reales de la muestra de LA Referencia (`MUESTRA`), no contra el simulador."""
+    intervalo: float = INTERVALO
+    """Segundos de cortesía por repositorio, desde el fin de un pedido hasta el inicio del siguiente."""
+    parte: int = 0
+    partes: int = 1
+    """Con `muestra`: qué parte de los ítems de cada repositorio baja este paso (el ítem k va a k % partes)."""
 
     @property
     def real(self) -> bool:
@@ -280,6 +301,15 @@ ESCENARIOS: dict[str, Escenario] = {
             _real(f"t{n}", f"Producción en una t4g: {n} corrutinas, subida y base en lotes", lugares=n,
                   subida=True, db=True, db_lotes=True)
             for n in (25, 50, 75, 120)
+        ],
+        # Repositorios reales (pedido por el usuario, nov 2026): la muestra de LA Referencia
+        # (relevamiento muestra-*), 2 s de cortesía por repositorio y una parte distinta de los ítems
+        # en cada paso del barrido, con subida y base en lotes como los t*.
+        *[
+            Escenario(f"r{n}", n, 0, 0, f"Repositorios reales: {n} corrutinas, subida y base en lotes", muestra=True,
+                      intervalo=INTERVALO_MUESTRA, parte=i, partes=4, subida=True, db=True, db_lotes=True,
+                      duracion=600.0, calentamiento=60.0)
+            for i, n in enumerate((25, 50, 75, 120))
         ],
         _real("sh250", "Subida a S3 con un pool de hilos en el motor, 250 lugares, red de la instancia", lugares=250,
               subida=True, modo_subida="hilos"),

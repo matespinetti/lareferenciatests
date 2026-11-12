@@ -57,7 +57,7 @@ async def test_humo(levantar, certs, tmp_path, modo):
 def test_escenarios_de_la_spec():
     assert {e.id for e in config.ESCENARIOS.values()} >= {str(n) for n in range(1, 10)}
     for e in config.ESCENARIOS.values():
-        if not e.real:
+        if not e.real and not e.muestra:
             assert e.repos >= 10 * e.lugares
     assert config.ESCENARIOS["s120"].subidor_mismo_nucleo and config.ESCENARIOS["s120"].lugares == 120
     for id in ("v120", "v120h"):
@@ -67,6 +67,11 @@ def test_escenarios_de_la_spec():
     for n in (25, 50, 75, 120):
         t = config.ESCENARIOS[f"t{n}"]
         assert t.real and t.lugares == n and t.subida and t.db_lotes and not t.subidor_mismo_nucleo
+    # Repositorios reales: cada paso del barrido con su parte de la muestra, 2 s de cortesía.
+    pasos = [config.ESCENARIOS[f"r{n}"] for n in (25, 50, 75, 120)]
+    assert [(r.lugares, r.parte, r.partes) for r in pasos] == [(25, 0, 4), (50, 1, 4), (75, 2, 4), (120, 3, 4)]
+    assert all(r.muestra and r.intervalo == 2.0 and r.subida and r.db_lotes and r.duracion == 600 for r in pasos)
+    assert all(e.intervalo == config.INTERVALO for e in config.ESCENARIOS.values() if not e.muestra)
     assert config.INSTANCIAS["t4g.large"].red_base == 64e6 and config.INSTANCIAS["t4g.large"].linea_base_cpu == 0.30
     for prefijo, grupo in (("b", config.BARRIDO_RED), ("bs", config.BARRIDO_SIN_TOPE)):
         barrido = [config.ESCENARIOS[f"{prefijo}{n}"] for n in config.BARRIDO_LUGARES]

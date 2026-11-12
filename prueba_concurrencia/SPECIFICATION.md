@@ -221,3 +221,24 @@ Son hipótesis a confirmar, no resultados:
 - **Cortesía:** cero violaciones en todos los escenarios.
 - **Límite real:** lo que limita es la cortesía, que fija la duración, y el ancho de banda, que fija la instancia. No la CPU.
 - **Rodilla:** con la red base de la t3.small, unas 10 corrutinas ya llenan la red; con la de una c6gn.medium, unas 120; sin tope, hacen falta cientos al principio, pero después del primer día quedan unos 100 repositorios activos y alcanzan menos de 100 lugares. Una corrutina de más cuesta memoria (su conexión TLS abierta) y casi nada de CPU.
+
+
+## Anexo: modo muestra, contra repositorios reales (nov 2026)
+
+Pedido por el usuario, después de que el profesor objetara que el simulador es falso. Es la única excepción a "la prueba no toca repositorios reales". El mismo motor (planificador, pedido, spool, subidor y base en lotes) corre contra la muestra de LA Referencia que arma `relevamiento muestra-*`: 270 repositorios útiles en 200 hosts, con 72.000 ítems.
+
+- **Qué se baja.** De cada ítem, lo que la muestra ya resolvió por OAI (METS, xoai, ORE, MARCXML): las URLs de sus archivos, sin pedido de resolución. Si es un artículo OJS (`/article/view/N`), primero la página del artículo y después el PDF: `citation_pdf_url` y los enlaces a galeradas, de `/view/` a `/download/`. Los demás ítems sin archivos se descartan.
+- **Barrido.** `r25`, `r50`, `r75` y `r120`: 25, 50, 75 y 120 corrutinas, 10 minutos más 1 de calentamiento. Cada paso baja la parte `k % 4` de los ítems de cada repositorio, con hasta 1 GB conocido por repositorio. Subida a S3 real y base en lotes, como los `t*`.
+- **Cortesía.**
+  - Un pedido a la vez por repositorio y 2 s desde el fin de un pedido hasta el siguiente.
+  - `Retry-After` en segundos o como fecha.
+  - Abandono del repositorio ante un 403, un `Retry-After` de más de 5 minutos o tres errores de red seguidos.
+  - Un certificado inválido se reintenta una vez sin verificar, en el mismo turno.
+  - User-Agent `pruebamateo-descarga/0.1 (contacto: …)`.
+  - robots.txt no se consulta, por decisión del usuario.
+- **Qué se mide.** Lo mismo que en los `t*` más:
+  - los repositorios con trabajo por segundo, porque con pocos la cortesía limita el paralelismo;
+  - un registro por pedido (`<paso>-pedidos.csv`), del que salen la verificación de la cortesía del lado del cliente y la velocidad real por conexión;
+  - los repositorios abandonados con su motivo;
+  - un índice de ids (`<paso>-indice.json`).
+- **Informe.** La sección "Repositorios reales". Si todos los resultados son de este modo, el informe no muestra los supuestos, la proyección ni el criterio del simulador.

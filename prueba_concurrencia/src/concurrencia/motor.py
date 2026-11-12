@@ -20,11 +20,12 @@ from typing import Any
 import aiohttp
 from aiohttp.abc import AbstractResolver, ResolveResult
 
-from concurrencia import config, metricas, pedido, resolucion
+from concurrencia import config, metricas, muestra_real, pedido, resolucion, resolucion_real
 from concurrencia.config import Escenario
 from concurrencia.db import Registro
 from concurrencia.distribucion import items_por_repo
-from concurrencia.planificador import Planificador, SeguimientoItems, Tarea, Tipo
+from concurrencia.muestra_real import Catalogo
+from concurrencia.planificador import Planificador, SeguimientoItems, Tarea
 from concurrencia.spool import Directorios, Spool
 
 _TIMEOUT = aiohttp.ClientTimeout(total=None, sock_connect=30, sock_read=60)
@@ -64,6 +65,29 @@ def sesion(certs: Path) -> aiohttp.ClientSession:
     return aiohttp.ClientSession(connector=conector, timeout=_TIMEOUT, auto_decompress=False)
 
 
+def sesion_real(
+    contacto: str, resolver: AbstractResolver | None = None, contexto: ssl.SSLContext | None = None
+) -> aiohttp.ClientSession:
+    """Contra repositorios reales (modo muestra): el DNS del sistema, TLS verificado y un User-Agent
+    con contacto. `resolver` y `contexto` son solo para los tests, que levantan repositorios locales."""
+    if not contacto.strip():
+        raise ValueError("el modo muestra necesita CONTACTO: el correo para el User-Agent")
+    conector = aiohttp.TCPConnector(limit=0, limit_per_host=0, resolver=resolver, ssl=contexto or True)
+    return aiohttp.ClientSession(
+        connector=conector,
+        timeout=_TIMEOUT,
+        headers={"User-Agent": f"pruebamateo-descarga/0.1 (contacto: {contacto.strip()})"},
+    )
+
+
+_ERRORES_RED = frozenset({
+    "ClientConnectorError", "ClientConnectorDNSError", "ClientOSError", "ServerDisconnectedError", "TimeoutError",
+    "ServerTimeoutError", "ConnectionTimeoutError", "SocketTimeoutError", "ClientPayloadError", "OSError",
+})  # fmt: skip
+_ERRORES_TLS = frozenset({"ClientConnectorCertificateError", "ClientConnectorSSLError", "ClientSSLError"})
+ABANDONO_RED_SEGUIDOS = 3
+
+
 class Motor:
     def __init__(
         self,
@@ -75,6 +99,7 @@ class Motor:
         contadores: metricas.Contadores,
         procesos: int = 1,
         spool: Spool | None = None,
+        catalogo: Catalogo | None = None,
     ) -> None:
         self.e = escenario
         self._sesion = sesion
@@ -84,9 +109,20 @@ class Motor:
         self._registro = registro
         self.contadores = contadores
         self._loop = asyncio.get_running_loop()
-        items = items_por_repo(escenario.repos, escenario.items, semilla)
-        self.plan = Planificador(items, config.INTERVALO, self._loop.time())
         self.items = SeguimientoItems()
+        self.catalogo = catalogo
+        if catalogo is None:
+            items = items_por_repo(escenario.repos, escenario.items, semilla)
+            self.plan = Planificador(items, escenario.intervalo, self._loop.time())
+        else:
+            self.plan = Planificador(catalogo.items_por_repo(), escenario.intervalo, self._loop.time(), catalogo.precargadas)
+            for (repo, item), archivos in catalogo.archivos_por_item.items():
+                self.items.resuelto(repo, item, archivos)
+        # Modo muestra: un pedido por fila, los repositorios abandonados y los hosts con TLS inválido.
+        self.pedidos: list[tuple[Any, ...]] = []
+        self.abandonados: dict[int, str] = {}
+        self.tls_invalido: set[str] = set()
+        self._red_seguidos: dict[int, int] = {}
         # Lugares libres esperando tarea: el despachador le entrega cada tarea directamente a uno.
         self._libres: deque[asyncio.Future[tuple[Tarea, float]]] = deque()
         self._hay_libre = asyncio.Event()
@@ -141,6 +177,9 @@ class Motor:
                 self._cambio.set()
 
     async def _ejecutar(self, tarea: Tarea, despacho: float) -> None:
+        if self.catalogo is not None:
+            await self._ejecutar_real(tarea, despacho)
+            return
         r = await pedido.hacer(
             self._sesion,
             tarea,
@@ -151,6 +190,57 @@ class Motor:
         pedido.aplicar(self.plan, self.items, self.contadores, tarea, r, despacho)
         if self._registro is not None:
             await self._registro.registrar(tarea, r.codigo, r.recibidos, r.sha)
+
+
+    async def _ejecutar_real(self, tarea: Tarea, despacho: float) -> None:
+        """Un pedido a un repositorio real. Un certificado inválido se reintenta una vez sin verificar,
+        en el mismo turno (y ese host ya va sin verificar), como en el relevamiento."""
+        assert self.catalogo is not None
+        url = self.catalogo.url(tarea)
+        host = muestra_real.host_de(url)
+        destino = self._spool.nuevo if self._spool else None
+        opciones: dict[str, Any] = {"max_redirects": 5}
+        if host in self.tls_invalido:
+            opciones["ssl"] = False
+        r = await pedido.hacer(self._sesion, tarea, url, self.contadores.recibidos, destino, self._descargas_de, opciones)
+        if r.error in _ERRORES_TLS and host not in self.tls_invalido:
+            self._anotar(tarea, host, r, reintento_tls=False)
+            self.tls_invalido.add(host)
+            r = await pedido.hacer(self._sesion, tarea, url, self.contadores.recibidos, destino, self._descargas_de,
+                                   {**opciones, "ssl": False})  # fmt: skip
+            self._anotar(tarea, host, r, reintento_tls=True)
+        else:
+            self._anotar(tarea, host, r, reintento_tls=False)
+        pedido.aplicar(self.plan, self.items, self.contadores, tarea, r, despacho)
+        if (motivo := self._motivo_abandono(tarea.repo, r)) and tarea.repo not in self.abandonados:
+            self.abandonados[tarea.repo] = motivo
+            self.plan.abandonar(tarea.repo)
+        if self._registro is not None:
+            await self._registro.registrar(tarea, r.codigo, r.recibidos, r.sha)
+
+    def _descargas_de(self, tarea: Tarea, cuerpo: bytes, url: str) -> list[Tarea]:
+        assert self.catalogo is not None
+        urls = resolucion_real.descargas_de_pagina(cuerpo, url, config.ARCHIVOS_POR_PAGINA)
+        return self.catalogo.registrar(tarea.repo, tarea.item, urls)
+
+    def _anotar(self, tarea: Tarea, host: str, r: pedido.Resultado, reintento_tls: bool) -> None:
+        self.pedidos.append((tarea.repo, host, tarea.tipo.value, round(r.inicio, 4), round(r.fin, 4), r.codigo,
+                             r.recibidos, r.error or "", int(reintento_tls)))  # fmt: skip
+
+    def _motivo_abandono(self, repo: int, r: pedido.Resultado) -> str | None:
+        """Como en el relevamiento y en producción: ante un 403 (anti-bot), un Retry-After eterno o
+        tres errores de red seguidos, el repositorio no recibe más pedidos en esta corrida."""
+        if r.codigo == 403:
+            return "http_403"
+        if r.codigo in (429, 503) and r.retry_after > config.RETRY_AFTER_MAXIMO:
+            return f"retry_after_{int(r.retry_after)}"
+        if r.error in _ERRORES_RED or r.error in _ERRORES_TLS:
+            self._red_seguidos[repo] = self._red_seguidos.get(repo, 0) + 1
+            if self._red_seguidos[repo] >= ABANDONO_RED_SEGUIDOS:
+                return f"red_{r.error}"
+        else:
+            self._red_seguidos[repo] = 0
+        return None
 
 
 async def _medir_bucle(contadores: metricas.Contadores) -> None:
@@ -167,10 +257,10 @@ async def _muestrear(muestreador: metricas.Muestreador, motor: Motor) -> None:
     while True:
         # Si el bucle se atrasa, la fila cubre más de un segundo; no se recuperan filas perdidas.
         await asyncio.sleep(1.0)
-        extras = None
+        extras: dict[str, float] = {"repos_con_trabajo": motor.plan.con_trabajo()}
         if motor.spool is not None:
             await motor.spool.actualizar()
-            extras = motor.spool.metricas()
+            extras |= motor.spool.metricas()
         muestreador.muestra(motor.plan.en_curso, motor.plan.listos_sin_atender(loop.time()), extras)
 
 
@@ -203,6 +293,8 @@ async def correr(
     Con `subida`, además: el spool en `dir_spool` (y en /dev/shm), el subidor en otro proceso y el
     S3 falso ya levantado en `puerto_s3`.
     """
+    if escenario.muestra:
+        return await _correr_muestra(escenario, certs, salida, semilla, dsn, tamano_pool, puerto_s3, dir_spool)
     contadores = metricas.Contadores(con_lock=False)
     subida = (
         _Subida(dir_spool, certs, puerto_s3, escenario.modo_subida, escenario.subidor_mismo_nucleo, escenario.id)
@@ -237,6 +329,80 @@ async def correr(
         resumen["subida"] = resumen_subida
     resumen["bucle"] = muestreador.resumen_bucle()
     metricas.escribir(salida, muestreador.filas, resumen)
+    return resumen
+
+
+async def _correr_muestra(
+    escenario: Escenario,
+    certs: Path,
+    salida: Path,
+    semilla: int,
+    dsn: str | None,
+    tamano_pool: int,
+    puerto_s3: int,
+    dir_spool: Path,
+    *,
+    resolver: AbstractResolver | None = None,
+    contexto: ssl.SSLContext | None = None,
+) -> dict[str, Any]:
+    """Modo muestra: el mismo motor contra repositorios reales (pedido por el usuario, nov 2026).
+
+    No hay servidor simulado que cuente la cortesía: la verifica el motor sobre su propio registro de
+    pedidos (`<salida>-pedidos.csv`). La subida va igual que en los t*: S3 real con S3_BUCKET o el S3
+    falso (los tests), con su propia sesión. `resolver` y `contexto` son solo para los tests."""
+    catalogo = await asyncio.to_thread(
+        muestra_real.cargar, Path(config.MUESTRA), escenario.parte, escenario.partes, config.TOPE_REPO_PASO
+    )
+    contadores = metricas.Contadores(con_lock=False)
+    subida = (
+        _Subida(dir_spool, certs, puerto_s3, escenario.modo_subida, escenario.subidor_mismo_nucleo, escenario.id)
+        if escenario.subida
+        else None
+    )
+    async with sesion_real(config.CONTACTO, resolver, contexto) as cliente:
+        if subida is not None:
+            # La sesión con la CA de prueba solo hace falta para el S3 falso; con S3 real no se usa.
+            if subida.real:
+                await subida.arrancar(cliente)
+            else:
+                async with sesion(certs) as control_s3:
+                    await subida.arrancar(control_s3)
+        registro = (
+            await Registro.abrir(dsn, tamano_pool, contadores, escenario.db_lotes) if escenario.db and dsn else None
+        )
+        if escenario.db and registro is None:
+            raise ValueError("el escenario usa --db y falta el DSN de PostgreSQL")
+        motor = Motor(escenario, cliente, 0, semilla, registro, contadores, 1, subida.spool if subida else None, catalogo)
+        muestreador = metricas.Muestreador(contadores, escenario.calentamiento, escenario.lugares)
+        terminado_solo = await _durante(
+            escenario.calentamiento + escenario.duracion,
+            motor.correr,
+            [lambda: _medir_bucle(contadores), lambda: _muestrear(muestreador, motor)],
+            contadores,
+        )
+        if registro is not None:
+            await registro.cerrar()
+    resumen_subida = None
+    if subida is not None:
+        async with sesion_real(config.CONTACTO) if subida.real else sesion(certs) as control_s3:
+            resumen_subida = await subida.terminar(control_s3)
+    servidor = {**muestra_real.verificar_cortesia(motor.pedidos, escenario.intervalo), "cpu_servidor": [], "real": True}
+    resumen = _resumen(escenario, semilla, 0, contadores, servidor, terminado_solo)
+    resumen["despliegue"]["ip_servidor"] = None
+    resumen["despliegue"]["dos_maquinas"] = False
+    resumen["muestra"] = {
+        **catalogo.resumen(),
+        "directorio": config.MUESTRA,
+        "abandonados": {catalogo.repos[r]: motivo for r, motivo in sorted(motor.abandonados.items())},
+        "hosts_tls_invalido": len(motor.tls_invalido),
+        "tope_bytes_por_repo": config.TOPE_REPO_PASO,
+    }
+    if resumen_subida is not None:
+        resumen["subida"] = resumen_subida
+    resumen["bucle"] = muestreador.resumen_bucle()
+    metricas.escribir(salida, muestreador.filas, resumen)
+    metricas.escribir_pedidos(salida.with_name(salida.name + "-pedidos.csv"), motor.pedidos)
+    muestra_real.escribir_indice(salida.with_name(salida.name + "-indice.json"), catalogo)
     return resumen
 
 
@@ -408,6 +574,6 @@ def _resumen(
             "ancho_por_conexion_mb_s": config.ANCHO_POR_CONEXION / config.MB,
             "ancho_sigma": config.ANCHO_SIGMA,
             "descargas_por_item": config.DESCARGAS_POR_ITEM,
-            "intervalo_s": config.INTERVALO,
+            "intervalo_s": escenario.intervalo,
         },
     }

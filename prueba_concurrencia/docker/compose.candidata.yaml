@@ -57,6 +57,9 @@ services:
       RED_DOCKER: puente
       SUBIDOR_CLIENTE: ${SUBIDOR_CLIENTE:-boto3}
       CONCURRENCIA_DSN: postgresql://prueba:prueba@postgres:5432/prueba
+      # Modo muestra (r*, scripts/reales.sh): repositorios reales de la muestra de LA Referencia.
+      MUESTRA: /app/muestra
+      CONTACTO: ${CONTACTO:-}
     extra_hosts:
       # Ensayo local: el servidor simulado en la misma máquina, fuera de Docker.
       - host.docker.internal:host-gateway
@@ -64,6 +67,7 @@ services:
       - ../results:/app/results
       - ../spool:/app/spool
       - ../certs:/app/certs:ro
+      - ../../relevamiento_exploratorio/muestra:/app/muestra:ro
 
   # Ocupa el lugar de la API y el frontend, que todavía no existen: ~450 MB y ~10 % de un núcleo.
   web-simulada:

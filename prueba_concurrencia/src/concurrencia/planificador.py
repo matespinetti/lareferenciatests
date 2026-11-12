@@ -1,8 +1,9 @@
 """Planificador en memoria: un turno por repositorio.
 
 Cada repositorio recibe un pedido a la vez y, entre el fin de uno y el inicio del siguiente,
-pasa al menos `intervalo` segundos. La clave de cortesía es el id del repositorio: todos los
-hosts resuelven a 127.0.0.1, así que la IP no distingue nada.
+pasa al menos `intervalo` segundos. La clave de cortesía es el id del repositorio: con el
+simulador todos los hosts resuelven a 127.0.0.1, así que la IP no distingue nada; con la muestra
+real es el repositorio de LA Referencia (varias revistas pueden compartir un servidor).
 
 Sin I/O, sin async y sin reloj propio: quien lo usa pasa `ahora`. Tampoco es thread-safe; el modo
 hilos lo protege con un lock. Las resoluciones de cada repositorio se generan a medida que hacen
@@ -45,11 +46,14 @@ class _Repo:
     listo_en: float = 0.0
     pausa_hasta: float = 0.0
     en_heap: bool = False
+    abandonado: bool = False
 
     def empezado(self) -> bool:
         return bool(self.descargas or self.reencoladas)
 
     def tiene_trabajo(self) -> bool:
+        if self.abandonado:
+            return False
         return bool(self.descargas or self.reencoladas or self.siguiente_item < self.items)
 
     def tomar(self) -> Tarea:
@@ -64,9 +68,20 @@ class _Repo:
 
 
 class Planificador:
-    def __init__(self, items_por_repo: list[int], intervalo: float, inicio: float) -> None:
+    def __init__(
+        self,
+        items_por_repo: list[int],
+        intervalo: float,
+        inicio: float,
+        precargadas: list[list[Tarea]] | None = None,
+    ) -> None:
+        """`precargadas` (modo muestra): por repositorio, las descargas de los ítems que ya vienen
+        resueltos (los primeros); sus resoluciones no se piden y el contador de ítems arranca después."""
         self._intervalo = intervalo
         self._repos = [_Repo(id, items) for id, items in enumerate(items_por_repo)]
+        for repo, tareas in zip(self._repos, precargadas or [], strict=False):
+            repo.descargas.extend(tareas)
+            repo.siguiente_item = len({t.item for t in tareas})
         # Repositorios esperando su turno: con trabajo empezado y con solo ítems nuevos.
         self._empezados: list[tuple[float, int, int]] = []
         self._nuevos: list[tuple[float, int, int]] = []
@@ -126,6 +141,17 @@ class Planificador:
         repo.listo_en = max(fin + self._intervalo, repo.pausa_hasta)
         if repo.tiene_trabajo():
             self._encolar(repo)
+
+    def abandonar(self, repo: int) -> None:
+        """No le da más tareas a `repo` en esta corrida (anti-bot, 403, red caída, Retry-After eterno)."""
+        estado = self._repos[repo]
+        estado.abandonado = True
+        estado.descargas.clear()
+        estado.reencoladas.clear()
+
+    def con_trabajo(self) -> int:
+        """Repositorios a los que todavía les queda algo: con pocos, la cortesía limita el paralelismo."""
+        return sum(1 for repo in self._repos if repo.tiene_trabajo() or repo.ocupado)
 
     def listos_sin_atender(self, ahora: float) -> int:
         """Repositorios que podrían recibir un pedido ya y esperan un lugar libre."""

@@ -1,4 +1,5 @@
-"""Un pedido al servidor simulado y lo que su resultado le cambia al plan.
+"""Un pedido (al servidor simulado o, en el modo muestra, a un repositorio real) y lo que su
+resultado le cambia al plan.
 
 Lo comparten el motor de un proceso y los workers del modo multiproceso: `hacer` ejecuta el
 pedido (resolución o descarga con SHA-256 y, si hay, escritura al spool) y devuelve un
@@ -10,6 +11,8 @@ import asyncio
 import hashlib
 from collections.abc import Callable
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from typing import Any
 
 import aiohttp
@@ -32,26 +35,48 @@ class Resultado:
     error: str | None = None
 
 
+def retry_after(valor: str | None) -> float:
+    """Segundos de un `Retry-After`: un número o una fecha HTTP. Si no viene o no se entiende, el de
+    `config.RETRY_AFTER`."""
+    if not valor:
+        return float(config.RETRY_AFTER)
+    try:
+        return max(0.0, float(valor))
+    except ValueError:
+        pass
+    try:
+        fecha = parsedate_to_datetime(valor)
+    except (TypeError, ValueError):
+        return float(config.RETRY_AFTER)
+    if fecha.tzinfo is None:
+        fecha = fecha.replace(tzinfo=timezone.utc)
+    return max(0.0, (fecha - datetime.now(timezone.utc)).total_seconds())
+
+
 async def hacer(
     sesion: aiohttp.ClientSession,
     tarea: Tarea,
     url: str,
     al_recibir: Callable[[int, bool], None],
     destino_para: Callable[[int | None], Any] | None = None,
+    descargas_de: Callable[[Tarea, bytes, str], list[Tarea]] | None = None,
+    opciones: dict[str, Any] | None = None,
 ) -> Resultado:
     """Hace el pedido de `tarea`. `al_recibir(bytes, hasheados)` se llama a medida que llegan bytes;
-    `destino_para(largo)` da dónde guardar un archivo (el spool) o no se guarda."""
+    `destino_para(largo)` da dónde guardar un archivo (el spool) o no se guarda. `descargas_de(tarea,
+    cuerpo, url_final)` saca las descargas de la página de un ítem (por defecto, las del simulador);
+    `opciones` va tal cual a `sesion.get` (en el modo muestra, `ssl=False` para un certificado inválido)."""
     loop = asyncio.get_running_loop()
     r = Resultado(inicio=loop.time())
     try:
-        async with sesion.get(url) as respuesta:
+        async with sesion.get(url, **(opciones or {})) as respuesta:
             r.latencia = loop.time() - r.inicio
             r.codigo = respuesta.status
             r.servicio = float(respuesta.headers.get("X-Tiempo-Servicio", "nan"))
             if r.codigo in (429, 503):
                 r.recibidos = len(await respuesta.read())
                 al_recibir(r.recibidos, False)
-                r.retry_after = float(respuesta.headers.get("Retry-After", config.RETRY_AFTER))
+                r.retry_after = retry_after(respuesta.headers.get("Retry-After"))
             elif r.codigo != 200:
                 r.recibidos = len(await respuesta.read())
                 al_recibir(r.recibidos, False)
@@ -60,7 +85,10 @@ async def hacer(
                 cuerpo = await respuesta.read()
                 r.recibidos = len(cuerpo)
                 al_recibir(r.recibidos, False)
-                r.descargas = resolucion.descargas(cuerpo)
+                if descargas_de is None:
+                    r.descargas = resolucion.descargas(cuerpo)
+                else:
+                    r.descargas = descargas_de(tarea, cuerpo, str(respuesta.url))
             else:
                 await _descargar(respuesta, tarea, r, al_recibir, destino_para)
     except (aiohttp.ClientError, TimeoutError, OSError) as error:

@@ -8,9 +8,10 @@ import pytest
 SRC = Path(__file__).parent.parent / "src" / "concurrencia"
 CORRUTINAS = [
     "motor.py", "servidor.py", "db.py", "resolucion.py", "planificador.py", "distribucion.py", "metricas.py",
-    "spool.py", "s3falso.py", "pedido.py", "multiproceso.py", "subida_async.py",
+    "spool.py", "s3falso.py", "pedido.py", "multiproceso.py", "subida_async.py", "muestra_real.py",
+    "resolucion_real.py",
 ]  # fmt: skip
-PUROS = ["planificador.py", "distribucion.py", "resolucion.py"]
+PUROS = ["planificador.py", "distribucion.py", "resolucion.py", "muestra_real.py", "resolucion_real.py"]
 # Escribe el CSV y el JSON al terminar la corrida, no mientras se mide.
 _PERMITIDO_OPEN = {
     ("metricas.py", "escribir"),
@@ -18,6 +19,11 @@ _PERMITIDO_OPEN = {
     ("spool.py", "_volcar"),
     ("spool.py", "_terminar"),
     ("subida_async.py", "_leer"),
+    # Modo muestra: la muestra se lee antes de arrancar (asyncio.to_thread) y el índice y el registro
+    # de pedidos se escriben al terminar, como el CSV de métricas.
+    ("muestra_real.py", "_leer"),
+    ("muestra_real.py", "escribir_indice"),
+    ("metricas.py", "escribir_pedidos"),
 }
 
 
