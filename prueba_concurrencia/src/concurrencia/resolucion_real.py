@@ -30,16 +30,24 @@ def a_descarga(url: str) -> str:
     return url
 
 
+def _host(url: str) -> str:
+    return (urlsplit(url).hostname or "").lower().removeprefix("www.")
+
+
 def descargas_de_pagina(cuerpo: bytes, url: str, maximo: int = 3) -> list[str]:
-    """Las URLs de archivo de la página de un artículo, sin repetidos y como mucho `maximo`."""
+    """Las URLs de archivo de la página de un artículo, sin repetidos y como mucho `maximo`.
+
+    Solo del mismo host que la página: las referencias bibliográficas de un artículo enlazan PDFs de
+    otros repositorios (CEPAL, RACO, …), que no son archivos del ítem y además tienen su propia cortesía."""
     arbol = LexborHTMLParser(cuerpo)
     encontrados: list[str] = []
+    propio = _host(url)
 
     def agregar(href: str | None) -> None:
         if not href:
             return
         absoluta = a_descarga(urljoin(url, href.strip()))
-        if absoluta.startswith(("http://", "https://")) and absoluta not in encontrados:
+        if absoluta.startswith(("http://", "https://")) and _host(absoluta) == propio and absoluta not in encontrados:
             encontrados.append(absoluta)
 
     for meta in arbol.css("meta"):

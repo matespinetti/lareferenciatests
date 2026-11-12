@@ -123,6 +123,7 @@ class Motor:
         self.abandonados: dict[int, str] = {}
         self.tls_invalido: set[str] = set()
         self._red_seguidos: dict[int, int] = {}
+        self._403_seguidos: dict[int, int] = {}
         # Lugares libres esperando tarea: el despachador le entrega cada tarea directamente a uno.
         self._libres: deque[asyncio.Future[tuple[Tarea, float]]] = deque()
         self._hay_libre = asyncio.Event()
@@ -230,10 +231,15 @@ class Motor:
                              r.recibidos, r.error or "", int(reintento_tls), url, r.detalle or ""))  # fmt: skip
 
     def _motivo_abandono(self, repo: int, r: pedido.Resultado) -> str | None:
-        """Como en el relevamiento y en producción: ante un 403 (anti-bot), un Retry-After eterno o
-        tres errores de red seguidos, el repositorio no recibe más pedidos en esta corrida."""
+        """Como en el relevamiento y en producción: ante dos 403 seguidos (anti-bot), un Retry-After
+        eterno o tres errores de red seguidos, el repositorio no recibe más pedidos en esta corrida."""
+        # Dos 403 seguidos, como el relevamiento: un archivo restringido suelto también da 403.
         if r.codigo == 403:
-            return "http_403"
+            self._403_seguidos[repo] = self._403_seguidos.get(repo, 0) + 1
+            if self._403_seguidos[repo] >= 2:
+                return "http_403"
+            return None
+        self._403_seguidos[repo] = 0
         if r.codigo in (429, 503) and r.retry_after > config.RETRY_AFTER_MAXIMO:
             return f"retry_after_{int(r.retry_after)}"
         if r.error in _ERRORES_RED or r.error in _ERRORES_TLS:

@@ -80,6 +80,15 @@ def test_descargas_de_una_pagina_ojs_3():
     assert a_descarga("https://r.org/rev/article/view/1/2?x=1") == "https://r.org/rev/article/download/1/2?x=1"
 
 
+def test_solo_archivos_del_mismo_host_que_la_pagina():
+    # Las referencias de un artículo enlazan PDFs de otros repositorios: no son del ítem.
+    html = b"""<meta name="citation_pdf_url" content="https://www.r.org/index.php/rev/article/view/45/30">
+    <a href="https://repositorio.cepal.org/bitstream/handle/11362/5943/S055322_pt.pdf">ref</a>
+    <a href="https://otra.org/index.php/x/article/download/1/2">ref</a>"""
+    assert descargas_de_pagina(html, "https://r.org/index.php/rev/article/view/45") == [
+        "https://www.r.org/index.php/rev/article/download/45/30"]
+
+
 def test_descargas_de_dspace_y_tope():
     html = b"".join(b'<a href="/bitstream/123/%d/f.pdf">f</a>' % i for i in range(5))
     assert len(descargas_de_pagina(html, "https://d.org/handle/123", maximo=3)) == 3
@@ -199,9 +208,9 @@ async def test_humo_contra_repositorios_locales(repositorios, certs, tmp_path, m
     assert resumen["terminado_antes_de_tiempo"]  # bajó todo antes de los 9 s
     assert resumen["servidor"]["violaciones"] == 0 and resumen["servidor"]["real"]
     assert resumen["muestra"]["abandonados"] == {"m0003": "http_403"}
-    assert resumen["errores_por_tipo"] == {"http_403": 1}
-    # 6 archivos de a, 3 páginas y 3 PDF de b, y el único pedido a c (abandonado).
-    assert {h: len(v) for h, v in en_el_servidor.items()} == {"a.sim.localhost": 6, "b.sim.localhost": 6, "c.sim.localhost": 1}
+    assert resumen["errores_por_tipo"] == {"http_403": 2}  # dos 403 seguidos para abandonar
+    # 6 archivos de a, 3 páginas y 3 PDF de b, y los dos pedidos a c (abandonado).
+    assert {h: len(v) for h, v in en_el_servidor.items()} == {"a.sim.localhost": 6, "b.sim.localhost": 6, "c.sim.localhost": 2}
     # La cortesía también vista desde el servidor: nunca a la vez y 0,3 s entre pedidos.
     for lista in en_el_servidor.values():
         lista.sort()
@@ -213,7 +222,7 @@ async def test_humo_contra_repositorios_locales(repositorios, certs, tmp_path, m
     assert subido + sum(subida["pendiente_final_bytes"].values()) == 9 * 50_000 and s3.bytes == subido
     with open(salida.with_name("rprueba-pedidos.csv"), encoding="utf-8") as f:
         filas = list(csv.DictReader(f))
-    assert len(filas) == 13 and {f["tipo"] for f in filas} == {"descarga", "resolucion"}
+    assert len(filas) == 14 and {f["tipo"] for f in filas} == {"descarga", "resolucion"}
     indice = json.loads(salida.with_name("rprueba-indice.json").read_text())
     assert indice["1"]["id"] == "m0002" and len(indice["0"]["items"]) == 6
     with open(salida.with_suffix(".csv"), encoding="utf-8") as f:
