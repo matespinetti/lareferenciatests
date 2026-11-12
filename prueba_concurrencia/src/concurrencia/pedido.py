@@ -33,6 +33,8 @@ class Resultado:
     descargas: list[Tarea] = field(default_factory=list)
     retry_after: float = float(config.RETRY_AFTER)
     error: str | None = None
+    detalle: str | None = None
+    """Para diagnosticar un error contra un repositorio real: `Location`, tamaño anunciado y codificación."""
 
 
 def retry_after(valor: str | None) -> float:
@@ -81,6 +83,10 @@ async def hacer(
                 r.recibidos = len(await respuesta.read())
                 al_recibir(r.recibidos, False)
                 r.error = f"http_{r.codigo}"
+                if 300 <= r.codigo < 400:
+                    r.detalle = f"location={respuesta.headers.get('Location', '(sin Location)')}"
+                else:
+                    r.detalle = f"tipo={respuesta.headers.get('Content-Type', '')}"
             elif tarea.tipo is Tipo.RESOLUCION:
                 cuerpo = await respuesta.read()
                 r.recibidos = len(cuerpo)
@@ -116,8 +122,12 @@ async def _descargar(
             al_recibir(len(chunk), True)
             if destino is not None:
                 await destino.escribir(chunk)
-        if respuesta.content_length is not None and r.recibidos != respuesta.content_length:
+        # Con Content-Encoding (gzip, deflate, br), Content-Length es el tamaño comprimido y aiohttp
+        # entrega los bytes descomprimidos: no se pueden comparar.
+        codificacion = respuesta.headers.get("Content-Encoding", "identity").lower()
+        if respuesta.content_length is not None and codificacion == "identity" and r.recibidos != respuesta.content_length:
             r.error = "archivo_incompleto"
+            r.detalle = f"anunciado={respuesta.content_length} recibido={r.recibidos}"
         else:
             r.sha = h.hexdigest()
             if destino is not None:

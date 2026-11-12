@@ -224,3 +224,30 @@ async def test_humo_contra_repositorios_locales(repositorios, certs, tmp_path, m
     informe.armar(tmp_path, tmp_path / "report.md")
     texto = (tmp_path / "report.md").read_text()
     assert "## Repositorios reales" in texto and "Proyección" not in texto and "| 4 | 3 |" in texto
+
+
+async def test_un_archivo_comprimido_no_es_incompleto(certs, tmp_path, monkeypatch):
+    # Un servidor que manda el PDF con gzip: Content-Length es el comprimido y aiohttp entrega el original.
+    import gzip
+
+    from concurrencia.servidor import contexto_ssl
+
+    original = b"%PDF-1.4 " + b"y" * 20_000
+    comprimido = gzip.compress(original)
+
+    async def manejar(request: web.Request) -> web.Response:
+        return web.Response(body=comprimido, headers={"Content-Encoding": "gzip", "Content-Type": "application/pdf"})
+
+    app = web.Application()
+    app.router.add_get("/{tail:.*}", manejar)
+    runner = web.AppRunner(app, access_log=None)
+    await runner.setup()
+    puerto = puertos_libres(1)
+    await web.TCPSite(runner, "127.0.0.1", puerto, ssl_context=contexto_ssl(certs)).start()
+    try:
+        async with motor.sesion_real("prueba@example.org", motor.ResolverLocal(), motor.contexto_ssl(certs)) as sesion:
+            r = await pedido.hacer(sesion, Tarea(Tipo.DESCARGA, 0, 0, 0), f"https://a.sim.localhost:{puerto}/x.pdf",
+                                   lambda n, h: None)  # fmt: skip
+    finally:
+        await runner.cleanup()
+    assert r.error is None and r.recibidos == len(original) and r.sha

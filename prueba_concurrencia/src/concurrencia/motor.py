@@ -224,8 +224,10 @@ class Motor:
         return self.catalogo.registrar(tarea.repo, tarea.item, urls)
 
     def _anotar(self, tarea: Tarea, host: str, r: pedido.Resultado, reintento_tls: bool) -> None:
+        assert self.catalogo is not None
+        url = self.catalogo.url(tarea)
         self.pedidos.append((tarea.repo, host, tarea.tipo.value, round(r.inicio, 4), round(r.fin, 4), r.codigo,
-                             r.recibidos, r.error or "", int(reintento_tls)))  # fmt: skip
+                             r.recibidos, r.error or "", int(reintento_tls), url, r.detalle or ""))  # fmt: skip
 
     def _motivo_abandono(self, repo: int, r: pedido.Resultado) -> str | None:
         """Como en el relevamiento y en producción: ante un 403 (anti-bot), un Retry-After eterno o

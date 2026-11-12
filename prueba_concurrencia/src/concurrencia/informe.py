@@ -924,7 +924,31 @@ def _seccion_muestra(todos: list[dict[str, Any]], resultados: Path) -> list[str]
         errores = ", ".join(f"{k} {v}" for k, v in sorted(r["errores_por_tipo"].items(), key=lambda x: -x[1])) or "ninguno"
         motivos = ", ".join(f"{k} {v}" for k, v in abandonos.most_common()) or "ninguno"
         lineas.append(f"- **{r['lugares']} corrutinas:** errores: {errores}. Abandonados: {motivos}.")
+    ejemplos = _ejemplos_de_errores([resultados / f"{r['id']}-pedidos.csv" for r in filas])
+    if ejemplos:
+        lineas += ["", "Ejemplos por tipo de error (hosts distintos):", "", "| Error | Tipo | Hosts | URL | Detalle |",
+                   "|---|---|---|---|---|"]
+        for error, (hosts, casos) in sorted(ejemplos.items(), key=lambda x: -len(x[1][0])):
+            for tipo, url, detalle in casos:
+                lineas.append(f"| {error} | {tipo} | {len(hosts)} | `{url[:100]}` | {detalle[:80]} |")
     return lineas
+
+
+def _ejemplos_de_errores(rutas: list[Path], por_error: int = 3) -> dict[str, tuple[set[str], list[tuple[str, str, str]]]]:
+    """Por tipo de error: los hosts donde pasó y hasta `por_error` ejemplos de hosts distintos."""
+    ejemplos: dict[str, tuple[set[str], list[tuple[str, str, str]]]] = {}
+    for ruta in rutas:
+        if not ruta.exists():
+            continue
+        with ruta.open(encoding="utf-8") as f:
+            for p in csv.DictReader(f):
+                if not p.get("error") or "url" not in p:
+                    continue
+                hosts, casos = ejemplos.setdefault(p["error"], (set(), []))
+                if p["host"] not in hosts and len(casos) < por_error:
+                    casos.append((p["tipo"], p["url"], p.get("detalle", "")))
+                hosts.add(p["host"])
+    return ejemplos
 
 
 def _f(valor: float, decimales: int = 1) -> str:
