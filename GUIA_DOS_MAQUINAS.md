@@ -293,7 +293,7 @@ La sección que importa es **"Validación en una c6gn.medium real"**:
 
 ```bash
 CLAVE=~/dev/lareferenciatests/prueba_concurrencia/claves/pruebareferencia.pem
-mkdir -p ~/dev/lareferenciatests/resultados-ec2-candidata && cd ~/dev/lareferenciatests/resultados-ec2-candidata
+mkdir -p ~/dev/lareferenciatests/prueba_concurrencia/resultados/ec2-candidata && cd ~/dev/lareferenciatests/prueba_concurrencia/resultados/ec2-candidata
 scp -i "$CLAVE" -r ubuntu@"$IP_B":~/lareferenciatests/prueba_concurrencia/results .
 scp -i "$CLAVE" ubuntu@"$IP_B":~/lareferenciatests/prueba_concurrencia/report.md .
 scp -i "$CLAVE" ubuntu@"$IP_B":~/lareferenciatests/prueba_concurrencia/run.log .

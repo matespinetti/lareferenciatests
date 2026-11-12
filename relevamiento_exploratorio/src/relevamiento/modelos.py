@@ -34,6 +34,59 @@ class PaginaOai:
 
 
 @dataclass(frozen=True, slots=True)
+class ArchivoOai:
+    """Un archivo de contenido de un ítem, tal como lo publica el registro OAI."""
+
+    url: str
+    tamano: int | None = None
+    mime: str | None = None
+    bundle: str | None = None
+    nombre: str | None = None
+
+
+@dataclass(frozen=True, slots=True)
+class ItemOai:
+    """Un ítem de una página de ListRecords con su página y sus archivos de contenido (`muestra-cosechar`)."""
+
+    identificador: str | None
+    datestamp: str | None = None
+    borrado: bool = False
+    pagina: str | None = None
+    """URL de la página del ítem (handle o página de la revista), si el registro la trae."""
+    archivos: tuple[ArchivoOai, ...] = ()
+
+
+@dataclass(frozen=True, slots=True)
+class PaginaItems:
+    items: tuple[ItemOai, ...] = ()
+    total: int | None = None
+    token: str | None = None
+    """resumptionToken para pedir la página siguiente; None si es la última."""
+    problema: str | None = None
+
+
+@dataclass(frozen=True, slots=True)
+class Ubicacion:
+    """Dónde está un repositorio del listado de LA Referencia, según un registro de su buscador."""
+
+    pais: str | None = None
+    namespace: str | None = None
+    """Namespace del identificador OAI (`oai:<namespace>:...`): en DSpace, el host del endpoint."""
+    url_ejemplo: str | None = None
+    host: str | None = None
+    url_base: str | None = None
+    plataforma: str | None = None
+    """Pista sacada de la URL del ítem: `ojs` si tiene la forma de una revista OJS."""
+    problema: str | None = None
+    alternativa: str | None = None
+    """Otra URL base posible (namespace y páginas de ítem en hosts distintos): se prueba si la primera no tiene OAI."""
+    handle: str | None = None
+    """Handle de un registro, para resolverlo cuando no hay otro host (`problema="solo_handle"`)."""
+    registros: int = 0
+    """Cuántos registros del buscador se usaron."""
+
+
+@dataclass(frozen=True, slots=True)
 class Salto:
     url: str
     codigo: int | None

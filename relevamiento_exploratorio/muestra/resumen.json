@@ -1,0 +1,184 @@
+{
+  "estratos": {
+    "A": {
+      "poblacion_repositorios": 23,
+      "poblacion_documentos": 2247584,
+      "cupo": null,
+      "candidatos": 23,
+      "sin_ubicacion": 1,
+      "cosechados": 22,
+      "utiles": 10,
+      "utiles_con_tamanos": 8,
+      "estados": {
+        "ok": 10,
+        "sin_items": 1,
+        "abandono": 4,
+        "antibot": 4,
+        "sin_oai": 2,
+        "sin_formato": 1
+      }
+    },
+    "B": {
+      "poblacion_repositorios": 81,
+      "poblacion_documentos": 1740444,
+      "cupo": null,
+      "candidatos": 81,
+      "sin_ubicacion": 5,
+      "cosechados": 76,
+      "utiles": 42,
+      "utiles_con_tamanos": 37,
+      "estados": {
+        "abandono": 10,
+        "antibot": 11,
+        "ok": 42,
+        "sin_oai": 11,
+        "sin_items": 2
+      }
+    },
+    "C": {
+      "poblacion_repositorios": 550,
+      "poblacion_documentos": 1472537,
+      "cupo": 200,
+      "candidatos": 250,
+      "sin_ubicacion": 13,
+      "cosechados": 237,
+      "utiles": 134,
+      "utiles_con_tamanos": 50,
+      "estados": {
+        "abandono": 49,
+        "ok": 134,
+        "sin_oai": 28,
+        "antibot": 21,
+        "sin_items": 5
+      }
+    },
+    "D": {
+      "poblacion_repositorios": 1513,
+      "poblacion_documentos": 656525,
+      "cupo": 125,
+      "candidatos": 150,
+      "sin_ubicacion": 0,
+      "cosechados": 150,
+      "utiles": 84,
+      "utiles_con_tamanos": 7,
+      "estados": {
+        "ok": 84,
+        "antibot": 13,
+        "abandono": 38,
+        "sin_oai": 11,
+        "sin_formato": 2,
+        "sin_items": 2
+      }
+    },
+    "E": {
+      "poblacion_repositorios": 378,
+      "poblacion_documentos": 15903,
+      "cupo": 0,
+      "candidatos": 0,
+      "sin_ubicacion": 0,
+      "cosechados": 0,
+      "utiles": 0,
+      "utiles_con_tamanos": 0,
+      "estados": {}
+    }
+  },
+  "ponderado_por_documentos": {
+    "repositorios": 102,
+    "items": 22836,
+    "archivos": 26063,
+    "archivos_por_item": 1.021,
+    "sin_archivos": 0.133,
+    "distribucion_archivos_por_item": {
+      "0": 0.1328,
+      "1": 0.7798,
+      "2": 0.0619,
+      "3": 0.0166,
+      "4": 0.0029,
+      "5": 0.006
+    },
+    "tamano_p50": 1378242,
+    "tamano_p90": 9888900,
+    "tamano_p95": 22372706,
+    "tamano_p99": 113975759,
+    "tamano_max": 2215156558,
+    "tamano_media": 7596274,
+    "bytes_por_item": 7757031
+  },
+  "ponderado_por_repositorio": {
+    "repositorios": 102,
+    "items": 22836,
+    "archivos": 26063,
+    "archivos_por_item": 1.104,
+    "sin_archivos": 0.049,
+    "distribucion_archivos_por_item": {
+      "0": 0.0495,
+      "1": 0.872,
+      "2": 0.0601,
+      "3": 0.0105,
+      "4": 0.0008,
+      "5": 0.0071
+    },
+    "tamano_p50": 1650044,
+    "tamano_p90": 10804124,
+    "tamano_p95": 27861446,
+    "tamano_p99": 162833073,
+    "tamano_max": 2215156558,
+    "tamano_media": 9357539,
+    "bytes_por_item": 10329859
+  },
+  "sin_ponderar": {
+    "repositorios": 102,
+    "items": 22836,
+    "archivos": 26063,
+    "archivos_por_item": 1.077,
+    "sin_archivos": 0.092,
+    "distribucion_archivos_por_item": {
+      "0": 0.0917,
+      "1": 0.8049,
+      "2": 0.0708,
+      "3": 0.0247,
+      "4": 0.0023,
+      "5": 0.0056
+    },
+    "tamano_p50": 1493534,
+    "tamano_p90": 10464369,
+    "tamano_p95": 23954675,
+    "tamano_p99": 121554645,
+    "tamano_max": 2215156558,
+    "tamano_media": 7735412,
+    "bytes_por_item": 8331188
+  },
+  "paises": {
+    "BR": 168,
+    "ES": 34,
+    "MX": 24,
+    "PE": 14,
+    "EC": 12,
+    "AR": 11,
+    "CO": 3,
+    "CR": 3,
+    "UY": 1
+  },
+  "plataformas": {
+    "ojs": 160,
+    "dspace": 98,
+    "?": 10,
+    "eprints": 2
+  },
+  "formatos": {
+    "oai_dc": 166,
+    "mets": 95,
+    "xoai": 6,
+    "marcxml": 2,
+    "ore": 1
+  },
+  "para_la_prueba": {
+    "repositorios_utiles": 270,
+    "hosts_distintos": 200,
+    "items": 71848,
+    "items_con_archivos": 22984,
+    "archivos": 30790,
+    "archivos_con_tamano": 29555,
+    "bytes_conocidos": 241999515542
+  }
+}

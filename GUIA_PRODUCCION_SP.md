@@ -188,7 +188,7 @@ Al arrancar tiene que decir `Subidor con el cliente CRT…`. El resultado queda 
 ## 6. Traer los resultados (en tu Mac)
 
 ```bash
-mkdir -p ~/dev/lareferenciatests/resultados-sp && cd ~/dev/lareferenciatests/resultados-sp
+mkdir -p ~/dev/lareferenciatests/prueba_concurrencia/resultados/sp && cd ~/dev/lareferenciatests/prueba_concurrencia/resultados/sp
 R=lareferenciatests/prueba_concurrencia
 scp -i "$CLAVE" -r ubuntu@"$IP_B":"$R/results" .
 scp -i "$CLAVE" ubuntu@"$IP_B":"$R/report.md" ubuntu@"$IP_B":"$R/run.log" .
@@ -200,7 +200,7 @@ Con `medicion-sp/velocidad.json`, el modelo de duración pasa a usar la velocida
 
 ```bash
 cd ~/dev/lareferenciatests/prueba_concurrencia
-python3 scripts/repos_medidos.py ../resultados-sp/medicion-sp/velocidad.json ../relevamiento_exploratorio/tamanos/tamanos.json sa-east-1 > datos/repos_medidos.json
+python3 scripts/repos_medidos.py resultados/sp/medicion-sp/velocidad.json ../relevamiento_exploratorio/tamanos/tamanos.json sa-east-1 > datos/repos_medidos.json
 ```
 
 ## 7. Limpiar (en São Paulo)

@@ -227,8 +227,16 @@ class Cortesia:
 
     # --- Reanudación -------------------------------------------------------------------
 
-    def sembrar(self, pedidos_previos: Iterable[dict[str, Any]], robots_previos: dict[str, tuple[int, bytes]]) -> None:
-        """Restaura presupuesto, intervalos, abandonos y robots de corridas anteriores."""
+    def sembrar(
+        self,
+        pedidos_previos: Iterable[dict[str, Any]],
+        robots_previos: dict[str, tuple[int, bytes]],
+        olvidar_abandonos: Iterable[str] = (),
+    ) -> None:
+        """Restaura presupuesto, intervalos, abandonos y robots de corridas anteriores. Los hosts de
+        `olvidar_abandonos` no quedan abandonados por lo de antes (un nuevo intento pedido por el usuario,
+        `muestra-cosechar --rehacer`); en esta corrida se pueden volver a abandonar."""
+        olvidar = {h.lower() for h in olvidar_abandonos}
         ahora, ahora_utc = self.reloj.ahora(), self.reloj.ahora_utc()
         for p in pedidos_previos:
             self._usados[p["repo"]] += 1
@@ -240,7 +248,7 @@ class Cortesia:
                 turno.ultimo_fin, turno.ultima_duracion = fin_mono, duracion
             if p.get("tls_verificado") is False:
                 turno.tls_invalido = True
-            if p.get("abandono"):
+            if p.get("abandono") and p["host"].lower() not in olvidar:
                 turno.estado.abandonado = p["abandono"]
         for host, (codigo, cuerpo) in robots_previos.items():
             self._aplicar_robots(self._turnos[host], codigo, cuerpo)

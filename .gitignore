@@ -15,3 +15,7 @@ prueba_concurrencia/report.md
 prueba_concurrencia/run.log
 prueba_concurrencia/spool/
 prueba_concurrencia/spool-ram/
+
+# Muestra de LA Referencia: las capturas pesan ~1 GB; se versionan los eventos y los CSV.
+relevamiento_exploratorio/muestra/*/capturas/
+relevamiento_exploratorio/entradas/roar_rawlist.xml

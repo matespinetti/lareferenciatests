@@ -1,0 +1,263 @@
+{
+ "m0002": [
+  "http://digital.csic.es/dspace-oai/request"
+ ],
+ "m0003": [
+  "http://ri.conicet.gov.ar/oai/request"
+ ],
+ "m0005": [
+  "http://www.teses.usp.br/cgi-bin/oai.pl",
+  "http://www.teses.usp.br/cgi-bin/oai2.pl"
+ ],
+ "m0009": [
+  "http://www.scielo.cl/oai/scielo-oai.php"
+ ],
+ "m0010": [
+  "https://idus.us.es/oai/request"
+ ],
+ "m0011": [
+  "http://diposit.ub.edu/dspace-oai/request"
+ ],
+ "m0013": [
+  "http://eprints.upc.es:8080/dspace-oai/request",
+  "http://eprints.upc.es:8080/revistes-oai/request",
+  "http://eprints.upc.es:8080/pfc-oai/request",
+  "http://upcommons.upc.edu/oai/request"
+ ],
+ "m0014": [
+  "http://repositorio.ucv.edu.pe/oai/request"
+ ],
+ "m0016": [
+  "http://sedici.unlp.edu.ar/oai/request"
+ ],
+ "m0017": [
+  "http://repositorio.ufsc.br/",
+  "http://repositorio.ufsc.br/oai/request"
+ ],
+ "m0021": [
+  "http://www.lume.ufrgs.br/oai"
+ ],
+ "m0022": [
+  "http://riunet.upv.es/oai/request"
+ ],
+ "m0023": [
+  "https://www.researchgate.net/profile/Oleksandr_Kadubovskyi/contributions",
+  "http://orcid.org/0000-0003-2045-810X"
+ ],
+ "m0025": [
+  "http://tdx.cat/oai/request"
+ ],
+ "m0026": [
+  "https://repositorio.uam.es/oai/request"
+ ],
+ "m0027": [
+  "http://repositorio.unb.br/oai/request",
+  "http://repositorio.unb.br/oai"
+ ],
+ "m0028": [
+  "http://www.lume.ufrgs.br/oai"
+ ],
+ "m0029": [
+  "http://www.alice.cnptia.embrapa.br/oai/request"
+ ],
+ "m0030": [
+  "http://www.arca.fiocruz.br/dspace-oai/request",
+  "http://arca.icict.fiocruz.br/oai/request",
+  "http://www.arca.fiocruz.br/oai"
+ ],
+ "m0031": [
+  "http://oa.upm.es/perl/oai2/",
+  "http://oa.upm.es/perl/oai2"
+ ],
+ "m0032": [
+  "http://zaguan.unizar.es(oai2d"
+ ],
+ "m0037": [
+  "http://www.repositorio.ufpe.br/oai/request"
+ ],
+ "m0038": [
+  "http://uvadoc.uva.es/oai/request"
+ ],
+ "m0039": [
+  "http://acervodigital.ufpr.br/oai/request"
+ ],
+ "m0041": [
+  "http://digitum.um.es/dspace-oai/request"
+ ],
+ "m0043": [
+  "http://192.188.11.11:8080/oai/request"
+ ],
+ "m0044": [
+  "http://repositorio.ufrn.br:8080/oai/request"
+ ],
+ "m0045": [
+  "http://repositorio.unifesp.br/oai"
+ ],
+ "m0047": [
+  "http://gredos.usal.es/oai/request"
+ ],
+ "m0048": [
+  "http://digibuo.uniovi.es/dspace-oai/request"
+ ],
+ "m0056": [
+  "http://ibdigital.uib.es/greenstone/cgi-bin/oaiserver.cgi"
+ ],
+ "m0057": [
+  "http://oai-repositori.upf.edu/request"
+ ],
+ "m0058": [
+  "http://repositorio.ufsm.br/oai"
+ ],
+ "m0059": [
+  "http://repositorio.ufla.br/"
+ ],
+ "m0063": [
+  "http://www.bdtd.uerj.br/tde_oai/oai3.php"
+ ],
+ "m0065": [
+  "http://repositorio.unican.es/oai/request",
+  "http://repositorio.unican.es/oai"
+ ],
+ "m0067": [
+  "http://repositori.udl.cat/oaiextended/request",
+  "http://repositori.udl.cat/oai/request"
+ ],
+ "m0068": [
+  "http://repository.urosario.edu.co/oai/request"
+ ],
+ "m0075": [
+  "http://repositorio.flacsoandes.edu.ec/oai"
+ ],
+ "m0077": [
+  "http://www.kerwa.ucr.ac.cr/oai/request"
+ ],
+ "m0080": [
+  "http://www.repositorio.ufpa.br:8080/oai/request"
+ ],
+ "m0081": [
+  "http://www.memoria.fahce.unlp.edu.ar/oaiserver.cgi"
+ ],
+ "m0085": [
+  "http://repositorioacademico.upc.edu.pe/upc/oai/request"
+ ],
+ "m0086": [
+  "https://repositorio.ufjf.br/cgi/oai",
+  "https://repositorio.ufjf.br/oai"
+ ],
+ "m0087": [
+  "http://repositorio.uniandes.edu.co/oai"
+ ],
+ "m0089": [
+  "http://repositorio.bc.ufg.br"
+ ],
+ "m0092": [
+  "https://ri.ufs.br/oai/"
+ ],
+ "m0095": [
+  "https://buleria.unileon.es/oai/"
+ ],
+ "m0102": [
+  "http://bdigital.uexternado.edu.co/oai/request"
+ ],
+ "m0111": [
+  "http://cybertesis.uni.edu.pe/sdx/sdx/oai/uni/documents"
+ ],
+ "m0117": [
+  "http://tesis.pucp.edu.pe/oai/request"
+ ],
+ "m0121": [
+  "http://repositorio.upn.edu.pe/oai/request"
+ ],
+ "m0122": [
+  "http://repositorio.ucsg.edu.ec/oai/",
+  "http://repositorio.ucsg.edu.ec/dspace-oai/request"
+ ],
+ "m0130": [
+  "http://nulan.mdp.edu.ar/cgi/oai2"
+ ],
+ "m0142": [
+  "http://repositorio.udesa.edu.ar/oai/request"
+ ],
+ "m0144": [
+  "http://repositorio.utfpr.edu.br/jspui/",
+  "http://repositorio.utfpr.edu.br:8080/oai/request"
+ ],
+ "m0150": [
+  "http://repositorio.ucjc.edu/oai/request"
+ ],
+ "m0161": [
+  "http://repositorio.ana.gob.pe/oai",
+  "http://repositorio.ana.gob.pe/oai/request"
+ ],
+ "m0178": [
+  "http://ri.agro.uba.ar/greenstone/cgi-bin/oaiserver.cgi",
+  "http://ri.agro.uba.ar/cgi-bin/oaiserver.cgi"
+ ],
+ "m0190": [
+  "http://digital.cic.gba.gob.ar/oai/request"
+ ],
+ "m0193": [
+  "http://riubu.ubu.es/oai/request"
+ ],
+ "m0209": [
+  "http://repository.cesa.edu.co/oai/request"
+ ],
+ "m0214": [
+  "http://revistas.pucsp.br/index.php/galaxia"
+ ],
+ "m0248": [
+  "http://tesis.usat.edu.pe/oai/request"
+ ],
+ "m0264": [
+  "http://naturalis.fcnym.unlp.edu.ar/repositorio/oai/oai2.php"
+ ],
+ "m0296": [
+  "http://www.ru.tic.unam.mx:8080/oai/request"
+ ],
+ "m0342": [
+  "http://ridaa.unq.edu.ar/oai/"
+ ],
+ "m0351": [
+  "http://repositorio.ulima.edu.pe/oai/request"
+ ],
+ "m0361": [
+  "https://udimundus.udima.es/oai/request"
+ ],
+ "m0362": [
+  "http://repositorio.utp.edu.co/oai/"
+ ],
+ "m0368": [
+  "http://bird.bcamath.org"
+ ],
+ "m0383": [
+  "http://repository.ucatolica.edu.co/oai/request",
+  "http://repository.ucatolica.edu.co/oai"
+ ],
+ "m0389": [
+  "http://rid.unrn.edu.ar/oai"
+ ],
+ "m0398": [
+  "http://repositorio.espe.edu.ec/oai/request"
+ ],
+ "m0401": [
+  "http://repositorio.segemar.gov.ar/oai"
+ ],
+ "m0402": [
+  "http://repositorio.uasb.edu.ec/oai/request"
+ ],
+ "m0403": [
+  "http://www.dspace.espol.edu.ec/oai/request"
+ ],
+ "m0420": [
+  "http://revistas.pucsp.br/index.php/galaxia"
+ ],
+ "m0435": [
+  "http://www.repositorio.bahiana.edu.br/jspui/"
+ ],
+ "m0438": [
+  "http://bibliotecas.ucasal.edu.ar/ws/oai2_7"
+ ],
+ "m0440": [
+  "http://opendoar.org/id/3492/"
+ ]
+}

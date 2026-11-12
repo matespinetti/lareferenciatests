@@ -59,6 +59,45 @@ VENTANAS_TAMANOS = (
     ("2023-01-01", None),
 )
 
+# Pedido por el usuario (nov 2026): una muestra de ~180 repositorios reales del listado de LA
+# Referencia, con su endpoint OAI, su país y ítems candidatos a descargar, para repetir la prueba de
+# concurrencia contra repositorios reales en vez del simulador. Solo metadatos: el buscador de LA
+# Referencia y páginas de ListRecords (tope de 2 MB); ningún archivo. Cortesía por host, como el
+# resto del relevamiento: 5 s entre pedidos (la de la spec), 8 hosts a la vez y 20 pedidos por
+# repositorio (reconocimiento, robots y hasta ~11 páginas).
+CORTESIA_MUESTRA = ConfigCortesia(
+    hosts_en_paralelo=8,
+    pedidos_por_repo=20,
+)
+BUSCADOR_LA_REFERENCIA = "https://buscador.lareferencia.info/api/v1/search"
+REGISTROS_BUSCADOR = 10
+"""Registros por consulta al buscador: se vota el host entre ellos, porque uno solo puede apuntar afuera."""
+API_HANDLE = "https://hdl.handle.net/api/handles/"
+# Rutas OAI que no prueba el reconocimiento de `relevar`: Invenio (/oai2d), SciELO y la genérica /oai.
+RUTAS_OAI_EXTRA = ("/oai2d", "/oai/scielo-oai.php", "/oai")
+CONTEXTOS_OAI = ("snrd", "openaire", "driver")
+"""Otros contextos OAI de DSpace en la misma base (`…/oai/<contexto>`): si `request` viene vacío o roto, se
+prueban estos. `snrd` es el que cosecha el Sistema Nacional de Repositorios Digitales de Argentina."""
+# Estratos por cantidad de documentos: (nombre, desde, hasta, cupo de repositorios útiles).
+# Cupo None: todos (censo). Pedido por el usuario: priorizar los grandes, que suelen andar; los de
+# menos de 100 documentos suelen estar caídos y pesan el 0,3 % del total.
+ESTRATOS_MUESTRA = (
+    ("A", 50_000, None, None),
+    ("B", 10_000, 50_000, None),
+    ("C", 1_000, 10_000, 50),
+    ("D", 100, 1_000, 25),
+    ("E", 0, 100, 0),
+)
+RESERVAS_MUESTRA = 1.0
+"""En los estratos con cupo se ubican además `cupo × RESERVAS_MUESTRA` repositorios de reserva."""
+SEMILLA_MUESTRA = 1
+ITEMS_POR_REPO_MUESTRA = 600
+"""Si un repositorio tiene hasta esta cantidad de ítems se cosecha entero siguiendo el resumptionToken;
+si tiene más, la primera página y una por ventana de fechas (`VENTANAS_TAMANOS`)."""
+FORMATOS_MUESTRA = ("mets", "xoai", "ore", "marcxml", "oai_dc")
+"""Formato OAI de la cosecha, del más rico (tamaño y URL de cada archivo) al más pobre. `marcxml`: Invenio
+publica los archivos en el campo 856. Si la primera página de un formato viene rota, se prueba el siguiente."""
+
 
 ITEMS_POR_REPO = 3
 # Los ítems se muestrean entre los registros modificados en este período, para no quedarse con los más viejos.

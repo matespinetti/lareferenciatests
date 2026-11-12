@@ -199,8 +199,8 @@ Fijate en esto:
 
 ```bash
 CLAVE=~/dev/lareferenciatests/prueba_concurrencia/claves/prueba.pem
-mkdir -p ~/dev/lareferenciatests/resultados-ec2
-cd ~/dev/lareferenciatests/resultados-ec2
+mkdir -p ~/dev/lareferenciatests/prueba_concurrencia/resultados/ec2
+cd ~/dev/lareferenciatests/prueba_concurrencia/resultados/ec2
 scp -i "$CLAVE" -r ubuntu@IP_PUBLICA:~/lareferenciatests/prueba_concurrencia/results .
 scp -i "$CLAVE" ubuntu@IP_PUBLICA:~/lareferenciatests/prueba_concurrencia/report.md .
 scp -i "$CLAVE" ubuntu@IP_PUBLICA:~/lareferenciatests/prueba_concurrencia/run.log .

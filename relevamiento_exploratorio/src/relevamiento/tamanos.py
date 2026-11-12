@@ -68,15 +68,20 @@ def candidatos(pilotos: list[Path]) -> list[Repositorio]:
 
 def urls(repo: Repositorio) -> list[tuple[str, str]]:
     """(etiqueta, URL) de cada página a pedir: la primera sin fechas y una por ventana."""
+    return urls_listrecords(repo.endpoint, _PREFIJOS[repo.formato])
+
+
+def urls_listrecords(endpoint: str, prefijo: str) -> list[tuple[str, str]]:
+    """(etiqueta, URL) de la primera página de ListRecords sin fechas (`completa`) y de una por ventana."""
     salida = []
     for desde, hasta in [(None, None), *VENTANAS_TAMANOS]:
-        params = {"verb": "ListRecords", "metadataPrefix": _PREFIJOS[repo.formato]}
+        params = {"verb": "ListRecords", "metadataPrefix": prefijo}
         if desde:
             params["from"] = desde
         if hasta:
             params["until"] = hasta
         etiqueta = "completa" if desde is None and hasta is None else f"{desde or '…'}/{hasta or '…'}"
-        salida.append((etiqueta, f"{repo.endpoint}?{urlencode(params)}"))
+        salida.append((etiqueta, f"{endpoint}?{urlencode(params)}"))
     return salida
 
 

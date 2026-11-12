@@ -1,5 +1,6 @@
 """verificar-cortesia: comprueba sobre pedidos.jsonl que se respetaron las reglas, sin confiar en la cortesía."""
 
+import re
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from datetime import datetime
@@ -8,9 +9,10 @@ from typing import Any
 
 from relevamiento.config import ConfigCortesia
 from relevamiento.detectores import parsear_robots
-from relevamiento.registro import PEDIDOS, leer_jsonl
+from relevamiento.registro import EVENTOS, PEDIDOS, leer_jsonl
 
 MAX_MENSAJES = 50
+_REINTENTO = re.compile(r"\.r\d+$")
 
 
 @dataclass
@@ -29,7 +31,21 @@ _TROZO_MAXIMO = 256 * 1024
 
 def verificar(dir_salida: Path, cfg: ConfigCortesia = ConfigCortesia(), tolerancia: float = 0.002) -> ResultadoVerificacion:
     pedidos = list(leer_jsonl(dir_salida / PEDIDOS))
-    return verificar_pedidos(pedidos, crawl_delays(dir_salida, pedidos, cfg), cfg, tolerancia)
+    return verificar_pedidos(pedidos, crawl_delays(dir_salida, pedidos, cfg), cfg, tolerancia, reintentos(dir_salida, pedidos))
+
+
+def reintentos(dir_salida: Path, pedidos: list[dict]) -> dict[str, set[str]]:
+    """Corrida → hosts que esa corrida reintentó a pedido del usuario (`muestra-cosechar --rehacer`, que
+    queda en el evento `corrida`): los hosts de los repositorios reintentados en corridas anteriores."""
+    salida: dict[str, set[str]] = {}
+    for e in leer_jsonl(dir_salida / EVENTOS):
+        if e.get("tipo") == "corrida" and e.get("rehacer"):
+            rehacer = set(e["rehacer"])
+            salida[e["corrida"]] = {
+                p["host"] for p in pedidos
+                if p.get("corrida") != e["corrida"] and _REINTENTO.sub("", p.get("repo") or "") in rehacer
+            }
+    return salida
 
 
 def crawl_delays(dir_salida: Path, pedidos: list[dict], cfg: ConfigCortesia) -> dict[str, list[tuple[float, float]]]:
@@ -54,8 +70,10 @@ def verificar_pedidos(
     delays: dict[str, list[tuple[float, float]]] | None = None,
     cfg: ConfigCortesia = ConfigCortesia(),
     tolerancia: float = 0.002,
+    reintentados: dict[str, set[str]] | None = None,
 ) -> ResultadoVerificacion:
     res = ResultadoVerificacion()
+    reintentados = reintentados or {}
     delays = delays or {}
     violar = _limitado(res.violaciones)
     avisar = _limitado(res.avisos)
@@ -79,11 +97,20 @@ def verificar_pedidos(
                 violar(f"{host}: {b['id']} empezó {hueco:.3f} s después de {a['id']}; se requerían {requerido:.3f} s")
             hueco_minimo = hueco if hueco_minimo is None else min(hueco_minimo, hueco)
 
-        abandono = next((p for p in lista if p.get("abandono")), None)
-        if abandono:
-            despues = [p["id"] for p in lista if _t(p["inicio"]) >= _t(abandono["fin"]) and p is not abandono]
+        # Después de un abandono no sale ningún pedido más a ese host. Única excepción: una corrida
+        # posterior que reintentó ese host a pedido del usuario (`muestra-cosechar --rehacer`, con ids de
+        # presupuesto `m0001.r1`): en esa corrida el host vuelve a estar disponible.
+        reintentado_en = {p.get("corrida") for p in lista if _REINTENTO.search(p.get("repo") or "")}
+        reintentado_en |= {corrida for corrida, hosts in reintentados.items() if host in hosts}
+        for abandono in (p for p in lista if p.get("abandono")):
+            despues = [
+                p["id"] for p in lista
+                if _t(p["inicio"]) >= _t(abandono["fin"]) and p is not abandono
+                and not (p.get("corrida") != abandono.get("corrida") and p.get("corrida") in reintentado_en)
+            ]
             if despues:
                 violar(f"{host}: {len(despues)} pedidos después del abandono en {abandono['id']} ({despues[0]}…)")
+                break
 
     max_en_vuelo, max_hosts = _barrido(pedidos, cfg, tolerancia, violar)
 
