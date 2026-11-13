@@ -7,11 +7,14 @@ import httpx
 import pytest
 
 import repos_falsos
-from relevamiento.config import CORTESIA_MUESTRA, ESTRATOS_MUESTRA
+from relevamiento.config import CORTESIA_AMPLIACION, CORTESIA_MUESTRA, ESTRATOS_MUESTRA
 from relevamiento.extractores import items_de_pagina, ubicar
 from relevamiento.modelos import Respuesta
 from relevamiento.muestra import (
+    AMPLIACION,
     COSECHA,
+    a_ampliar,
+    ampliar_items,
     UBICACION,
     Candidata,
     coincide,
@@ -591,3 +594,62 @@ async def test_rehacer_fallidos_olvida_el_abandono_e_ignora_robots(internet, mue
     (fila,) = csv.DictReader(open(muestra / "repositorios.csv", encoding="utf-8"))
     assert (fila["estado"], fila["items"]) == ("ok", "1") and fallidos(muestra) == set()
     assert verificar(muestra / COSECHA, CORTESIA_MUESTRA).ok
+
+
+async def test_ampliar_sigue_el_token_en_cada_ventana(internet, muestra, monkeypatch):
+    """Un repositorio grande cosechado por ventanas: `muestra-ampliar` sigue el resumptionToken de cada
+    ventana, de a una página por ventana, hasta el tope; un repositorio chico (entero) no se amplía."""
+    monkeypatch.setattr("relevamiento.muestra.ESTRATOS_MUESTRA", (("A", 0, None, None),))
+    monkeypatch.setattr("relevamiento.muestra.ITEMS_POR_REPO_MUESTRA", 4)
+
+    def items(clave: str, desde: int) -> list[str]:
+        return [_mets(f"oai:grande.org:{clave}-{i}", [("ORIGINAL", 100)]) for i in range(desde, desde + 2)]
+
+    def grande(request: httpx.Request) -> httpx.Response | None:
+        if request.url.path == "/":
+            return httpx.Response(200, text="<html></html>")
+        if request.url.path != "/oai/request":
+            return None
+        verbo, params = request.url.params.get("verb"), request.url.params
+        if verbo == "Identify":
+            cuerpo = repos_falsos.m.IDENTIFY_DSPACE.replace("repo6.org", "grande.org")
+        elif verbo == "ListMetadataFormats":
+            cuerpo = repos_falsos.m.FORMATOS_DSPACE
+        elif token := params.get("resumptionToken"):
+            # Cada ventana tiene 3 páginas de 2 ítems: el token es `<ventana>|<página>`.
+            clave, n = token.rsplit("|", 1)
+            siguiente = f"{clave}|{int(n) + 1}" if int(n) < 2 else None
+            cuerpo = _pagina(items(clave, 2 * int(n)), token=siguiente, total=50)
+        else:
+            clave = f"{params.get('from', '')}_{params.get('until', '')}"
+            cuerpo = _pagina(items(clave, 0), token=f"{clave}|1", total=50)
+        return httpx.Response(200, headers={"content-type": "text/xml"}, text=cuerpo)
+
+    internet.agregar_host("grande.org", grande)
+    candidatas = [Candidata("m0001", 1, "A", "Grande", 50)]
+    escribir_candidatos(muestra, candidatas, [("Grande", 50)])
+    ubicaciones = {"m0001": {"url_base": "https://grande.org", "host": "grande.org", "namespace": "grande.org"}}
+    await cosechar(candidatas, ubicaciones, {}, muestra, "prueba@example.org", CORTESIA_MUESTRA,
+                   transporte=internet.transporte, transporte_sin_verificar=internet.transporte_sin_verificar)
+    (muestra / UBICACION).mkdir(exist_ok=True)
+    assert resumir_muestra(muestra)["para_la_prueba"]["items"] == 4  # la cosecha corta en 4
+    assert [r["repo"] for r in a_ampliar(muestra, tope=20)] == ["m0001"]
+
+    resultado = await ampliar_items(muestra, "prueba@example.org", CORTESIA_AMPLIACION, tope=20,
+                                    transporte=internet.transporte, transporte_sin_verificar=internet.transporte_sin_verificar)
+    assert resultado["repositorios"] == 1 and resultado["items_nuevos"] >= 16
+    assert verificar(muestra / AMPLIACION, CORTESIA_AMPLIACION).ok
+    resumen = resumir_muestra(muestra)
+    assert 20 <= resumen["para_la_prueba"]["items"] <= 22
+    import csv
+
+    ids = [i["item"] for i in csv.DictReader(open(muestra / "items.csv", encoding="utf-8"))]
+    assert len(set(ids)) == len(ids)
+    # Repartido entre las ventanas, con páginas de token (no solo las primeras de cada ventana).
+    assert len({i.rsplit("-", 1)[0] for i in ids}) >= 5 and any(i.endswith(("-2", "-3")) for i in ids)
+    # Al relanzar no se vuelve a pedir nada: ya está ampliado.
+    assert a_ampliar(muestra, tope=20) == []
+    antes = len(internet.llamadas)
+    await ampliar_items(muestra, "prueba@example.org", CORTESIA_AMPLIACION, tope=20,
+                        transporte=internet.transporte, transporte_sin_verificar=internet.transporte_sin_verificar)
+    assert len(internet.llamadas) == antes

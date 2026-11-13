@@ -8,7 +8,14 @@ from typing import Annotated, Optional
 
 import typer
 
-from relevamiento.config import CORTESIA_MEDICION, CORTESIA_MUESTRA, CORTESIA_TAMANOS, ConfigCortesia
+from relevamiento.config import (
+    CORTESIA_AMPLIACION,
+    CORTESIA_MEDICION,
+    CORTESIA_MUESTRA,
+    CORTESIA_TAMANOS,
+    ITEMS_POR_REPO_AMPLIADA,
+    ConfigCortesia,
+)
 from relevamiento.entradas import EntradaInvalida, leer_items, leer_repositorios
 from relevamiento.registro import EVENTOS, leer_jsonl
 from relevamiento.relevar import plan, relevar
@@ -87,11 +94,13 @@ def cmd_verificar(
     muestra: Annotated[
         bool, typer.Option("--muestra", help="Verifica con la cortesía de muestra-ubicar y muestra-cosechar.")
     ] = False,
+    ampliacion: Annotated[bool, typer.Option("--ampliacion", help="Verifica con la cortesía de muestra-ampliar.")] = False,
 ) -> None:
     """Comprueba sobre pedidos.jsonl que nunca hubo pedidos simultáneos a un host y que se respetó el intervalo."""
-    if medicion + tamanos + muestra > 1:
-        raise typer.BadParameter("Elegí una sola de --medicion, --tamanos y --muestra.")
-    cfg = CORTESIA_MEDICION if medicion else CORTESIA_TAMANOS if tamanos else CORTESIA_MUESTRA if muestra else ConfigCortesia()
+    if medicion + tamanos + muestra + ampliacion > 1:
+        raise typer.BadParameter("Elegí una sola de --medicion, --tamanos, --muestra y --ampliacion.")
+    cfg = (CORTESIA_MEDICION if medicion else CORTESIA_TAMANOS if tamanos else CORTESIA_MUESTRA if muestra
+           else CORTESIA_AMPLIACION if ampliacion else ConfigCortesia())
     res = verificar(salida, cfg)
     for aviso in res.avisos:
         typer.echo(f"aviso: {aviso}")
@@ -349,6 +358,48 @@ def cmd_muestra_cosechar(
         raise typer.Exit(130)
     typer.echo(f"{resultado['cosechados']} repositorios cosechados en esta corrida; útiles por estrato: {resultado['utiles']}")
     typer.echo(f"Siguiente paso: relevamiento verificar-cortesia --salida {salida}/cosecha --muestra, "
+               "y después relevamiento muestra-resumir")
+
+
+@app.command("muestra-ampliar")
+def cmd_muestra_ampliar(
+    salida: Muestra = Path("muestra"),
+    contacto: Contacto = None,
+    tope: Annotated[int, typer.Option(help="Ítems por repositorio a los que se llega.")] = ITEMS_POR_REPO_AMPLIADA,
+    solo: Annotated[Optional[str], typer.Option(help="Ids de repositorio separados por comas (para una prueba).")] = None,
+    ignorar_robots: Annotated[
+        bool, typer.Option("--ignorar-robots", help="Registra lo que robots.txt prohíbe pero no corta (se sigue respetando su Crawl-delay).")
+    ] = False,
+    simulacro: Simulacro = False,
+    en_horario_ok: EnHorario = False,
+) -> None:
+    """Más ítems para los repositorios útiles que se cosecharon por ventanas: sigue el resumptionToken de cada
+    ventana de fechas hasta `--tope` ítems, sin descargar archivos. Queda en <salida>/ampliacion/ y
+    muestra-resumir lo suma. Se puede cortar con Ctrl+C y relanzar."""
+    from relevamiento.muestra import a_ampliar, ampliar_items
+
+    pendientes = [r for r in a_ampliar(salida, tope) if solo is None or r["repo"] in {s.strip() for s in solo.split(",")}]
+    hosts = {r["endpoint"].split("/")[2] for r in pendientes}
+    faltan = sum(max(0, min(tope, r["total"] or tope) - len(r["vistos"])) for r in pendientes)
+    paginas = faltan / 100 + 6 * len(pendientes)
+    cfg = CORTESIA_AMPLIACION
+    horas = paginas * (cfg.intervalo_minimo + 2) / cfg.hosts_en_paralelo / 3600
+    typer.echo(f"{len(pendientes)} repositorios en {len(hosts)} hosts para llegar a {tope} ítems: faltan ~{faltan:,} "
+               f"ítems, ~{paginas:,.0f} páginas, unas {horas:.1f} h ({cfg.intervalo_minimo:.0f} s por host, "
+               f"{cfg.hosts_en_paralelo} hosts a la vez, hasta {cfg.pedidos_por_repo} pedidos por repositorio).")
+    if simulacro:
+        for r in pendientes[:15]:
+            typer.echo(f"  {r['repo']} {r['formato']:8} {len(r['vistos']):5} de {r['total'] or '?'}  {r['endpoint']}")
+        return
+    contacto = _antes_de_pedir(contacto, en_horario_ok)
+    try:
+        resultado = asyncio.run(ampliar_items(salida, contacto, cfg, tope=tope, solo={r["repo"] for r in pendientes},
+                                              ignorar_robots=ignorar_robots))
+    except KeyboardInterrupt:
+        typer.echo("\nInterrumpido. Relanzá para seguir.", err=True)
+        raise typer.Exit(130)
+    typer.echo(f"{resultado['repositorios']} repositorios, {resultado['items_nuevos']:,} ítems nuevos.")
+    typer.echo(f"Siguiente paso: relevamiento verificar-cortesia --salida {salida}/ampliacion --ampliacion, "
                "y después relevamiento muestra-resumir")
 
 

@@ -22,7 +22,7 @@ import random
 import re
 import statistics
 import traceback
-from collections import Counter, defaultdict
+from collections import Counter, defaultdict, deque
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -41,7 +41,9 @@ from relevamiento.config import (
     RUTAS_OAI_EXTRA,
     ESTRATOS_MUESTRA,
     FORMATOS_MUESTRA,
+    ITEMS_POR_REPO_AMPLIADA,
     ITEMS_POR_REPO_MUESTRA,
+    PAGINAS_SIN_NUEVOS,
     RESERVAS_MUESTRA,
     SEMILLA_MUESTRA,
     ConfigCortesia,
@@ -60,6 +62,7 @@ _PAGINA_ROTA = frozenset({"sin_listrecords", "xml_invalido", "cannotDisseminateF
 POBLACION = "poblacion.json"
 UBICACION = "ubicacion"
 COSECHA = "cosecha"
+AMPLIACION = "ampliacion"
 
 
 # --- 1. Elegir ---------------------------------------------------------------------------
@@ -624,6 +627,134 @@ _COLUMNAS_REPOS = [
 ]  # fmt: skip
 
 
+# --- 3b. Ampliar ---------------------------------------------------------------------------
+
+
+def _cosechados(dir_base: Path) -> tuple[dict[str, dict[str, Any]], dict[str, set[str]]]:
+    """De la cosecha: el `repo_terminado` vigente de cada repositorio y los ítems de esa corrida."""
+    eventos = list(leer_jsonl(dir_base / COSECHA / EVENTOS))
+    fin = {e["repo"]: e for e in eventos if e.get("tipo") == "repo_terminado"}
+    items: dict[str, set[str]] = defaultdict(set)
+    for e in eventos:
+        if e.get("tipo") == "pagina_muestra" and e.get("corrida") == fin.get(e["repo"], {}).get("corrida"):
+            items[e["repo"]].update(i[0] for i in e.get("items", []) if i[0] and not i[2])
+    return fin, items
+
+
+def a_ampliar(dir_base: Path, tope: int = ITEMS_POR_REPO_AMPLIADA) -> list[dict[str, Any]]:
+    """Los repositorios útiles que se cosecharon por ventanas (más de `ITEMS_POR_REPO_MUESTRA` ítems o
+    sin total) y tienen menos de `tope` ítems: endpoint, formato e ítems ya vistos. Los chicos ya se
+    cosecharon enteros siguiendo el token."""
+    fin, items = _cosechados(dir_base)
+    hechos = {e["repo"] for e in leer_jsonl(dir_base / AMPLIACION / EVENTOS) if e.get("tipo") == "repo_ampliado"}
+    salida = []
+    for repo, f in sorted(fin.items()):
+        total = f.get("items_repositorio")
+        if f.get("estado") != "ok" or repo in hechos or not f.get("endpoint") or not f.get("formato"):
+            continue
+        if total is not None and total <= ITEMS_POR_REPO_MUESTRA:
+            continue
+        if len(items[repo]) >= min(tope, total or tope):
+            continue
+        salida.append({"repo": repo, "endpoint": f["endpoint"], "formato": f["formato"], "total": total,
+                       "vistos": items[repo]})
+    return salida
+
+
+async def ampliar_items(
+    dir_base: Path,
+    contacto: str,
+    cfg: ConfigCortesia,
+    *,
+    tope: int = ITEMS_POR_REPO_AMPLIADA,
+    solo: set[str] | None = None,
+    ignorar_robots: bool = False,
+    transporte: httpx.AsyncBaseTransport | None = None,
+    transporte_sin_verificar: httpx.AsyncBaseTransport | None = None,
+) -> dict[str, Any]:
+    """Más ítems para los repositorios de `a_ampliar`: por cada ventana de fechas (y la página sin fechas),
+    la primera página y después el resumptionToken, de a una página por ventana por turno, así la muestra
+    sigue repartida en el tiempo. Para en `tope` ítems, sin presupuesto o cuando el host se abandona.
+    Queda en `ampliacion/` (sus propios pedidos y eventos); `muestra-resumir` suma esos ítems. Se puede
+    cortar y relanzar: los repositorios terminados no se repiten y los otros empiezan de nuevo, con otro
+    presupuesto (`m0003.a1`)."""
+    dir_salida = dir_base / AMPLIACION
+    pendientes = [r for r in a_ampliar(dir_base, tope) if solo is None or r["repo"] in solo]
+    previos = list(leer_jsonl(dir_salida / PEDIDOS))
+    intentos = Counter(e["repo"] for e in leer_jsonl(dir_salida / EVENTOS) if e.get("tipo") == "ampliacion_inicio")
+    cola: asyncio.Queue[dict[str, Any]] = asyncio.Queue()
+    for r in pendientes:
+        cola.put_nowait(r)
+    registro = Registro(dir_salida, _corrida())
+    nuevos_total = 0
+    try:
+        async with Cortesia(cfg, registro, contacto, transporte=transporte,
+                            transporte_sin_verificar=transporte_sin_verificar) as cortesia:
+            cortesia.sembrar(previos, robots_previos(dir_salida, previos))
+            registro.evento("corrida", user_agent=cfg.user_agent(contacto), config=asdict(cfg), tope=tope,
+                            repositorios=len(pendientes), ignorar_robots=ignorar_robots)
+
+            async def trabajador() -> None:
+                nonlocal nuevos_total
+                while not cola.empty():
+                    r = cola.get_nowait()
+                    try:
+                        nuevos_total += await _ampliar_repo(r, cortesia, registro, f"{r['repo']}.a{intentos[r['repo']]}",
+                                                            tope, ignorar_robots)
+                    except Exception:  # un error de programación no debe frenar al resto, pero queda registrado
+                        registro.evento("error_interno", repo=r["repo"], detalle=traceback.format_exc())
+
+            async with asyncio.TaskGroup() as grupo:
+                for _ in range(cfg.hosts_en_paralelo):
+                    grupo.create_task(trabajador())
+    finally:
+        registro.cerrar()
+    return {"repositorios": len(pendientes), "items_nuevos": nuevos_total}
+
+
+async def _ampliar_repo(r: dict[str, Any], cortesia: Cortesia, registro: Registro, cuenta: str, tope: int,
+                        ignorar_robots: bool) -> int:
+    """Amplía un repositorio. Devuelve cuántos ítems nuevos encontró."""
+    repo, formato, endpoint = r["repo"], r["formato"], r["endpoint"]
+    vistos: set[str] = set(r["vistos"])
+    antes = len(vistos)
+    objetivo = min(tope, r["total"] or tope)
+    registro.evento("ampliacion_inicio", repo=repo, cuenta=cuenta, endpoint=endpoint, formato=formato, ya=antes)
+    # Una "ventana" por rango de fechas: [etiqueta, url de la próxima página, páginas seguidas sin nuevos].
+    ventanas = deque([list(v) + [0] for v in urls_listrecords(endpoint, formato)])
+    corte: str | None = None
+    paginas = 0
+    while ventanas and len(vistos) < objetivo:
+        ventana = ventanas.popleft()
+        etiqueta, url, sin_nuevos = ventana
+        if cortesia.robots_permitido(url) is False and not ignorar_robots:
+            corte = "robots"
+            break
+        ctx = Contexto(repo=cuenta, paso="ampliacion", metodo=f"oai_{formato}", item=etiqueta)
+        try:
+            resp = await cortesia.pedir(url, ctx, tipo="pagina", aceptar=ACEPTAR_XML)
+        except SinPedido as exc:
+            corte = exc.motivo
+            break
+        paginas += 1
+        p = items_de_pagina(resp, formato) if resp.exitosa else PaginaItems(problema=resp.error or f"http_{resp.codigo}")
+        registro.evento(
+            "pagina_muestra", repo=repo, formato=formato, etiqueta=etiqueta, url=url, codigo=resp.codigo,
+            truncado=resp.truncado, problema=p.problema, total=p.total, hay_token=bool(p.token),
+            items=[[i.identificador, i.datestamp, i.borrado, i.pagina, [list(asdict(a).values()) for a in i.archivos]]
+                   for i in p.items],
+        )  # fmt: skip
+        nuevos = {i.identificador for i in p.items if i.identificador and not i.borrado} - vistos
+        vistos |= nuevos
+        sin_nuevos = 0 if nuevos else sin_nuevos + 1
+        if p.token and sin_nuevos < PAGINAS_SIN_NUEVOS:
+            ventanas.append([etiqueta, f"{endpoint}?verb=ListRecords&resumptionToken={quote(p.token, safe='')}", sin_nuevos])
+    encontrados = len(vistos) - antes
+    registro.evento("repo_ampliado", repo=repo, paginas=paginas, ya=antes, nuevos=encontrados, items=len(vistos),
+                    corte=corte, pedidos=cortesia.cfg.pedidos_por_repo - cortesia.restantes(cuenta))
+    return encontrados
+
+
 def resumir_muestra(dir_base: Path) -> dict[str, Any]:
     """Escribe repositorios.csv, items.csv, archivos.csv, resumen.json y resumen.md sin hacer pedidos.
 
@@ -639,10 +770,20 @@ def resumir_muestra(dir_base: Path) -> dict[str, Any]:
     fin = {e["repo"]: e for e in eventos if e.get("tipo") == "repo_terminado"}
     items: dict[str, dict[str, tuple]] = defaultdict(dict)
     ultima = {e["repo"]: e["corrida"] for e in eventos if e.get("tipo") == "repo_terminado"}
+
+    def fin_ok(repo: str) -> bool:
+        return fin.get(repo, {}).get("estado") == "ok"
+
     for e in eventos:
         if e.get("tipo") == "pagina_muestra" and e.get("corrida") == ultima.get(e["repo"], e.get("corrida")):
             for ident, datestamp, borrado, pagina, archivos in e.get("items", []):
                 if ident and not borrado:
+                    items[e["repo"]][ident] = (datestamp, pagina, archivos)
+    # Los ítems de `muestra-ampliar`, de los repositorios útiles, después de los de la cosecha.
+    for e in leer_jsonl(dir_base / AMPLIACION / EVENTOS):
+        if e.get("tipo") == "pagina_muestra" and fin_ok(e["repo"]):
+            for ident, datestamp, borrado, pagina, archivos in e.get("items", []):
+                if ident and not borrado and ident not in items[e["repo"]]:
                     items[e["repo"]][ident] = (datestamp, pagina, archivos)
 
     filas_repos, filas_items, filas_archivos = [], [], []

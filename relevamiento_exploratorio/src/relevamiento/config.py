@@ -69,6 +69,20 @@ CORTESIA_MUESTRA = ConfigCortesia(
     hosts_en_paralelo=8,
     pedidos_por_repo=20,
 )
+# Pedido por el usuario (nov 2026): más ítems por repositorio para la prueba de concurrencia (la muestra
+# alcanzaba para ~15 minutos a carga plena). `muestra-ampliar` sigue el resumptionToken en cada ventana
+# de fechas de los repositorios grandes. Se corre desde la red de la facultad: cortesía más lenta que la
+# de la cosecha (10 s entre pedidos a un host y 6 hosts a la vez).
+CORTESIA_AMPLIACION = ConfigCortesia(
+    intervalo_minimo=10.0,
+    hosts_en_paralelo=6,
+    pedidos_por_repo=40,
+)
+ITEMS_POR_REPO_AMPLIADA = 2000
+"""Con `muestra-ampliar`: ítems por repositorio a los que se llega (contando los ya cosechados)."""
+PAGINAS_SIN_NUEVOS = 2
+"""Con `muestra-ampliar`: una ventana se deja cuando da esta cantidad de páginas seguidas sin ítems nuevos
+(servidores que ignoran from/until y devuelven siempre lo mismo)."""
 BUSCADOR_LA_REFERENCIA = "https://buscador.lareferencia.info/api/v1/search"
 REGISTROS_BUSCADOR = 10
 """Registros por consulta al buscador: se vota el host entre ellos, porque uno solo puede apuntar afuera."""
