@@ -972,13 +972,10 @@ def _seccion_larga(todos: list[dict[str, Any]], resultados: Path) -> list[str]:
         ventanas: dict[int, list[dict[str, float]]] = {}
         for f in filas:
             ventanas.setdefault(int((f["t"] - inicio - 1e-9) // VENTANA_LARGA), []).append(f)
-        subido_antes = None
         for v, grupo in sorted(ventanas.items()):
             dt = sum(f["dt"] for f in grupo) or 1.0
             media = lambda col: sum(f.get(col, 0.0) * f["dt"] for f in grupo) / dt  # noqa: E731
-            subido = grupo[-1].get("subido_bytes", 0.0)
-            sube = (subido - subido_antes) / config.MB / dt if subido_antes is not None else subido / config.MB / dt
-            subido_antes = subido
+            sube = media("subida_mb_s")
             e = errores.get(v, Counter())
             lineas.append(
                 f"| {_f(v * VENTANA_LARGA / 60, 0)}–{_f((v + 1) * VENTANA_LARGA / 60, 0)} | {_f(media('mb_recibidos'))} | "
