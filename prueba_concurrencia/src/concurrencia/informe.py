@@ -891,8 +891,8 @@ def _seccion_muestra(todos: list[dict[str, Any]], resultados: Path) -> list[str]
         "",
         "## Repositorios reales",
         "",
-        f"El motor contra la muestra de LA Referencia ({m0.get('directorio', 'muestra')}): cada paso baja una parte "
-        f"distinta de los ítems de cada repositorio, con {filas[0].get('intervalo', 2):g} s de cortesía por repositorio "
+        f"El motor contra la muestra de LA Referencia ({m0.get('directorio', 'muestra')}): "
+        f"{'cada paso baja una parte distinta de los ítems de cada repositorio' if len(filas) > 1 else 'los ítems de cada repositorio'}, con {filas[0].get('intervalo', 2):g} s de cortesía por repositorio "
         "(un pedido a la vez), `Retry-After` respetado y abandono ante un 403, un `Retry-After` de más de 5 minutos o "
         f"tres errores de red seguidos. Tope de {m0.get('tope_bytes_por_repo', 0) / config.MB / 1024:g} GB conocidos por "
         "repositorio y paso. La cortesía la verifica el motor sobre su propio registro de pedidos: no hay un servidor que la cuente.",
@@ -936,6 +936,114 @@ def _seccion_muestra(todos: list[dict[str, Any]], resultados: Path) -> list[str]
     return lineas
 
 
+VENTANA_LARGA = 300.0
+"""Segundos de cada fila de la tabla de la corrida larga (r75h)."""
+
+
+def _seccion_larga(todos: list[dict[str, Any]], resultados: Path) -> list[str]:
+    """La corrida larga con vueltas (r75h): si el ritmo se sostiene durante la hora (fin de la ráfaga
+    de red de la t4g, bloqueos que aparecen con el tiempo) y si las vueltas salen más rápido (caché)."""
+    largas = [r for r in todos if r["muestra"] and r["muestra_datos"].get("vuelta_minima")]
+    if not largas:
+        return []
+    series = {r.id: r for r in cargar(resultados)}
+    lineas = []
+    for r in largas:
+        m = r["muestra_datos"]
+        filas = series[r["id"]].filas
+        lineas += [
+            "",
+            f"## Corrida larga: {r['lugares']} corrutinas, {_f(sum(f['dt'] for f in filas) / 60, 0)} minutos ({r['id']})",
+            "",
+            "Todos los ítems de la muestra en una sola corrida. Un repositorio que termina sus ítems vuelve a empezar "
+            f"(vueltas de al menos {_f(m['vuelta_minima'] / 60, 0)} minutos), así hay trabajo toda la hora. Vueltas "
+            "terminadas: " + ", ".join(f"{v} repositorios con {k}" for k, v in m.get("vueltas", {}).items()) + ".",
+            "",
+            "### Cada 5 minutos",
+            "",
+            "Los errores salen del registro de pedidos: si suben con el tiempo, los repositorios empiezan a bloquear.",
+            "",
+            "| Minutos | MB/s bajados | MB/s subidos | Repos con trabajo | Ocupación | CPU máquina | Memoria libre mín. | "
+            "RSS motor | Pedidos | 403 | 429/503 | Errores de red |",
+            "|" + "---|" * 12,
+        ]
+        errores = _errores_por_ventana(resultados / f"{r['id']}-pedidos.csv", filas)
+        inicio = filas[0]["t"] - filas[0]["dt"] if filas else 0.0
+        ventanas: dict[int, list[dict[str, float]]] = {}
+        for f in filas:
+            ventanas.setdefault(int((f["t"] - inicio - 1e-9) // VENTANA_LARGA), []).append(f)
+        subido_antes = None
+        for v, grupo in sorted(ventanas.items()):
+            dt = sum(f["dt"] for f in grupo) or 1.0
+            media = lambda col: sum(f.get(col, 0.0) * f["dt"] for f in grupo) / dt  # noqa: E731
+            subido = grupo[-1].get("subido_bytes", 0.0)
+            sube = (subido - subido_antes) / config.MB / dt if subido_antes is not None else subido / config.MB / dt
+            subido_antes = subido
+            e = errores.get(v, Counter())
+            lineas.append(
+                f"| {_f(v * VENTANA_LARGA / 60, 0)}–{_f((v + 1) * VENTANA_LARGA / 60, 0)} | {_f(media('mb_recibidos'))} | "
+                f"{_f(sube)} | {_f(media('repos_con_trabajo'), 0)} | {_f(media('ocupacion'), 0)} % | {_f(media('maquina_cpu'))} % | "
+                f"{_f(min(f['memoria_disponible_mb'] for f in grupo), 0)} MB | {_f(max(f['rss_mb'] for f in grupo), 0)} MB | "
+                f"{e['pedidos']} | {e['403']} | {e['429/503']} | {e['red']} |"
+            )
+        lineas += ["", "### Primera vuelta contra las siguientes", "",
+                   "Si las vueltas siguientes bajan más rápido, parte de la velocidad es caché del repositorio "
+                   "(o de su CDN) y no vale para la descarga real, que pide cada archivo una sola vez.", "",
+                   "| Vuelta | Pedidos | Correctos | Descargas de 1 MB o más | MB/s por conexión (mediana) | p25 | p75 |",
+                   "|---|---|---|---|---|---|---|"]
+        for nombre, vel, pedidos, correctos in _por_vuelta(resultados / f"{r['id']}-pedidos.csv"):
+            cuartiles = statistics.quantiles(vel, n=4) if len(vel) > 1 else [vel[0]] * 3 if vel else [0.0] * 3
+            lineas.append(f"| {nombre} | {pedidos} | {_f(100 * correctos / pedidos if pedidos else 0)} % | {len(vel)} | "
+                          f"{_f(cuartiles[1], 2)} | {_f(cuartiles[0], 2)} | {_f(cuartiles[2], 2)} |")
+    return lineas
+
+
+def _errores_por_ventana(ruta: Path, filas: list[dict[str, float]]) -> dict[int, Counter[str]]:
+    """Pedidos, 403, 429/503 y errores de red por ventana de `VENTANA_LARGA` desde el fin del calentamiento."""
+    if not ruta.exists() or not filas:
+        return {}
+    with ruta.open(encoding="utf-8") as f:
+        pedidos = list(csv.DictReader(f))
+    if not pedidos:
+        return {}
+    # Los tiempos del registro son del reloj del bucle; el fin del registro coincide con el de la serie.
+    fin = max(float(p["fin"]) for p in pedidos)
+    inicio = fin - (filas[-1]["t"] - (filas[0]["t"] - filas[0]["dt"]))
+    salida: dict[int, Counter[str]] = {}
+    for p in pedidos:
+        t = float(p["inicio"]) - inicio
+        if t < 0:
+            continue  # calentamiento
+        c = salida.setdefault(int(t // VENTANA_LARGA), Counter())
+        c["pedidos"] += 1
+        if p["codigo"] == "403":
+            c["403"] += 1
+        elif p["codigo"] in ("429", "503"):
+            c["429/503"] += 1
+        elif p["error"] and not p["codigo"].isdigit():
+            c["red"] += 1
+    return salida
+
+
+def _por_vuelta(ruta: Path) -> list[tuple[str, list[float], int, int]]:
+    """Por vuelta (primera, segunda, tercera o más): velocidades por conexión, pedidos y correctos."""
+    if not ruta.exists():
+        return []
+    grupos: dict[str, tuple[list[float], list[int]]] = {}
+    with ruta.open(encoding="utf-8") as f:
+        for p in csv.DictReader(f):
+            v = int(p.get("vuelta") or 0)
+            nombre = ("1ª", "2ª")[v] if v < 2 else "3ª o más"
+            vel, cuenta = grupos.setdefault(nombre, ([], [0, 0]))
+            cuenta[0] += 1
+            ok = p["codigo"] == "200" and not p["error"]
+            cuenta[1] += ok
+            duracion = float(p["fin"]) - float(p["inicio"])
+            if ok and p["tipo"] == "descarga" and int(p["bytes"]) >= config.MB and duracion > 0:
+                vel.append(int(p["bytes"]) / config.MB / duracion)
+    return [(n, sorted(v), c[0], c[1]) for n, (v, c) in sorted(grupos.items())]
+
+
 def _ejemplos_de_errores(rutas: list[Path], por_error: int = 3) -> dict[str, tuple[set[str], list[tuple[str, str, str]]]]:
     """Por tipo de error: los hosts donde pasó y hasta `por_error` ejemplos de hosts distintos."""
     ejemplos: dict[str, tuple[set[str], list[tuple[str, str, str]]]] = {}
@@ -972,6 +1080,7 @@ def armar(resultados: Path, salida: Path) -> None:
         if instancia.exists():
             lineas += ["## Instancia", "", *[f"- **{k}:** {v}" for k, v in json.loads(instancia.read_text()).items()], ""]
         lineas += _seccion_muestra(todos, resultados)
+        lineas += _seccion_larga(todos, resultados)
         lineas += _seccion_subida([r for r in todos if r["subida"]])
         salida.write_text("\n".join(lineas) + "\n")
         return

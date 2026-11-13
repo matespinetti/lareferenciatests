@@ -7,6 +7,7 @@
 # Uso:
 #   S3_BUCKET=… CONTACTO=… scripts/reales.sh              r25 r50 r75 r120 (~11 min cada uno)
 #   S3_BUCKET=… CONTACTO=… scripts/reales.sh r75          solo un paso
+#   S3_BUCKET=… CONTACTO=… scripts/reales.sh r75h         la corrida larga: 75 corrutinas, 1 hora, con vueltas (GUIA_REALES_LARGA_SP.md)
 # Variables:
 #   CONTACTO                  correo para el User-Agent (obligatorio: los repositorios tienen que poder avisar)
 #   S3_BUCKET                 bucket de prueba con borrado al día (obligatorio: no hay S3 falso)

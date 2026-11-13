@@ -62,11 +62,12 @@ La cortesía no es lo que se mide, pero tiene que estar activa: el motor real la
 ## Qué no hacer sin pedir permiso
 
 - **Nunca hagas pedidos a repositorios reales**, salvo en el modo muestra. El servidor escucha solo en `127.0.0.1` y el motor solo le pide a él (el resolver rechaza cualquier host que no sea `*.sim.localhost`). La validación en dos máquinas abre `HOST=0.0.0.0` en una instancia cuyo security group solo deja entrar a la otra.
-- **Modo muestra (escenarios `r25`–`r120`, `scripts/reales.sh`, `GUIA_REALES_SP.md`), pedido por el usuario (nov 2026):** el único caso con pedidos a repositorios reales. Reglas:
+- **Modo muestra (escenarios `r25`–`r120` y `r75h`, `scripts/reales.sh`, `GUIA_REALES_SP.md`), pedido por el usuario (nov 2026):** el único caso con pedidos a repositorios reales. Reglas:
   - **Qué se pide:** solo los repositorios útiles de `relevamiento_exploratorio/muestra/` (`MUESTRA`), sus archivos ya resueltos y las páginas de artículos OJS.
   - **Cortesía:** un pedido a la vez por repositorio, con 2 s desde el fin de uno (`intervalo` del escenario). Se respeta `Retry-After`.
   - **Abandono:** el repositorio no recibe más pedidos ante un 403, un `Retry-After` de más de 300 s o tres errores de red seguidos.
   - **Tope:** 1 GB conocido por repositorio y paso, y cada paso con ítems distintos (`parte`).
+  - **Corrida larga (`r75h`, `GUIA_REALES_LARGA_SP.md`):** 75 corrutinas durante 1 hora con todos los ítems. La muestra alcanza para ~15 minutos a carga plena, así que un repositorio que termina vuelve a empezar (`vuelta_minima`: cada vuelta dura al menos 10 minutos). El informe compara la primera vuelta con las siguientes, por si la caché del repositorio infla la velocidad.
   - **User-Agent con contacto:** `CONTACTO` es obligatorio.
   - **robots.txt** no se consulta, por decisión del usuario.
   - **Subida:** al bucket de prueba con borrado al día.
@@ -95,6 +96,7 @@ S3_BUCKET=… bash scripts/candidata.sh <IP privada de A>                 # en l
 bash scripts/candidata.sh <IP privada de A> v120h                       # la de 1 hora, contra el S3 falso de A (S3 real costaría ~USD 2)
 RED_HOST=1 CARGA_WEB=1 INSTANCIA=t4g.large bash scripts/candidata.sh <IP> t25 t50 t75 t120   # producción en una t4g (GUIA_PRODUCCION_SP.md)
 S3_BUCKET=… CONTACTO=… RED_HOST=1 CARGA_WEB=1 bash scripts/reales.sh          # repositorios reales: r25 r50 r75 r120 (GUIA_REALES_SP.md)
+S3_BUCKET=… CONTACTO=… RED_HOST=1 CARGA_WEB=1 bash scripts/reales.sh r75h     # la corrida larga de 1 hora (GUIA_REALES_LARGA_SP.md)
 ```
 
 Los escenarios (lugares, repositorios, modo, `--db`, duración) están en `config.ESCENARIOS`. El motor no recibe esos parámetros sueltos: así cada corrida es reproducible por su id.

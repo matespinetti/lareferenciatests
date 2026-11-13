@@ -119,6 +119,38 @@ def test_planificador_con_precargadas_y_abandono():
     assert plan.siguiente(10.0) is None and plan.terminado() and plan.con_trabajo() == 0
 
 
+def test_planificador_con_vueltas():
+    """Con `vuelta_minima`, un repositorio que termina vuelve a empezar: las mismas descargas
+    precargadas y las mismas resoluciones, no antes de `vuelta_minima` desde la vuelta anterior."""
+    reiniciados = []
+    precargadas = [[Tarea(Tipo.DESCARGA, 0, 0, 0)], [Tarea(Tipo.DESCARGA, 1, 0, 0)]]
+    plan = Planificador([2, 1], intervalo=1.0, inicio=0.0, precargadas=precargadas, vuelta_minima=10.0,
+                        al_reiniciar=reiniciados.append)  # fmt: skip
+    tomadas = []
+    ahora = 0.0
+    while ahora < 25.0:
+        if (t := plan.siguiente(ahora)) is None:
+            ahora += 0.5
+            continue
+        tarea, _ = t
+        tomadas.append((ahora, tarea.tipo.value, tarea.repo, tarea.item, plan.vuelta(tarea.repo)))
+        plan.terminada(tarea, ahora + 0.1)
+    del_0 = [(t, tipo, item, v) for t, tipo, repo, item, v in tomadas if repo == 0]
+    # Vuelta 0: la descarga precargada y la resolución del ítem 1; a los 10 s, lo mismo otra vez.
+    assert [(tipo, item, v) for _, tipo, item, v in del_0[:4]] == [
+        ("descarga", 0, 0), ("resolucion", 1, 0), ("descarga", 0, 1), ("resolucion", 1, 1)]
+    assert del_0[2][0] >= 10.0 and del_0[4][0] >= 20.0
+    assert reiniciados.count(0) >= 2 and plan.vueltas()[0] >= 2
+    # Un repositorio abandonado no vuelve a empezar.
+    plan.abandonar(1)
+    assert all(repo != 1 for _, _, repo, _, _ in [x for x in tomadas if x[0] > ahora])
+    plan = Planificador([1], intervalo=1.0, inicio=0.0, vuelta_minima=5.0)
+    tarea, _ = plan.siguiente(0.0)
+    plan.abandonar(0)
+    plan.terminada(tarea, 0.1)
+    assert plan.siguiente(100.0) is None and plan.terminado() and plan.vueltas() == [0]
+
+
 def test_retry_after_en_segundos_o_fecha():
     from email.utils import format_datetime
     from datetime import datetime, timedelta, timezone
@@ -233,6 +265,42 @@ async def test_humo_contra_repositorios_locales(repositorios, certs, tmp_path, m
     informe.armar(tmp_path, tmp_path / "report.md")
     texto = (tmp_path / "report.md").read_text()
     assert "## Repositorios reales" in texto and "Proyección" not in texto and "| 4 | 3 |" in texto
+
+
+async def test_humo_con_vueltas(repositorios, certs, tmp_path, monkeypatch):
+    """La corrida larga (r75h): los repositorios vuelven a empezar y la cortesía se sigue cumpliendo."""
+    puerto, en_el_servidor = repositorios
+    monkeypatch.setattr(config, "MUESTRA", str(_muestra(tmp_path / "muestra", puerto)))
+    monkeypatch.setattr(config, "CONTACTO", "prueba@example.org")
+    escenario = Escenario("rvueltas", 4, 0, 0, "humo con vueltas", muestra=True, intervalo=0.2,
+                          duracion=6.0, calentamiento=0.5, vuelta_minima=2.0)  # fmt: skip
+    salida = tmp_path / "rvueltas"
+    resumen = await motor._correr_muestra(
+        escenario, certs, salida, 1, None, 1, config.PUERTO_S3, tmp_path / "spool",
+        resolver=motor.ResolverLocal(), contexto=motor.contexto_ssl(certs),
+    )  # fmt: skip
+    assert not resumen["terminado_antes_de_tiempo"]  # con vueltas no se queda sin trabajo
+    assert resumen["servidor"]["violaciones"] == 0
+    assert sum(resumen["muestra"]["vueltas"].values()) == 3 and max(int(k) for k in resumen["muestra"]["vueltas"]) >= 2
+    with open(salida.with_name("rvueltas-pedidos.csv"), encoding="utf-8") as f:
+        filas = list(csv.DictReader(f))
+    de_a = [f for f in filas if f["host"] == "a.sim.localhost"]
+    assert {f["vuelta"] for f in de_a} >= {"0", "1", "2"}
+    # Cada vuelta de a pide sus 6 archivos, y la siguiente arranca 2 s o más después que la anterior.
+    inicios = {v: min(float(f["inicio"]) for f in de_a if f["vuelta"] == v) for v in ("0", "1", "2")}
+    assert inicios["1"] - inicios["0"] >= 2.0 - 0.05 and inicios["2"] - inicios["1"] >= 2.0 - 0.05
+    assert sum(1 for f in de_a if f["vuelta"] == "0") == 6
+    # Los ítems de las vueltas siguientes también cuentan como completos.
+    with open(salida.with_suffix(".csv"), encoding="utf-8") as f:
+        assert sum(float(f["items_ok"]) for f in csv.DictReader(f)) > 2 * (6 + 3)
+    from concurrencia import informe
+
+    informe.armar(tmp_path, tmp_path / "report.md")
+    texto = (tmp_path / "report.md").read_text()
+    assert "## Corrida larga" in texto and "| 1ª |" in texto and "| 2ª |" in texto and "| 0–5 |" in texto
+    for lista in en_el_servidor.values():
+        lista.sort()
+        assert all(i1 - f0 >= 0.2 - 0.05 for (_i0, f0), (i1, _f1) in zip(lista, lista[1:], strict=False))
 
 
 async def test_un_archivo_comprimido_no_es_incompleto(certs, tmp_path, monkeypatch):

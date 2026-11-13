@@ -72,6 +72,11 @@ def test_escenarios_de_la_spec():
     assert [(r.lugares, r.parte, r.partes) for r in pasos] == [(25, 0, 4), (50, 1, 4), (75, 2, 4), (120, 3, 4)]
     assert all(r.muestra and r.intervalo == 2.0 and r.subida and r.db_lotes and r.duracion == 600 for r in pasos)
     assert all(e.intervalo == config.INTERVALO for e in config.ESCENARIOS.values() if not e.muestra)
+    # La corrida larga: 75 corrutinas, 1 hora, todos los ítems y vueltas de al menos 10 minutos.
+    r75h = config.ESCENARIOS["r75h"]
+    assert (r75h.lugares, r75h.parte, r75h.partes, r75h.duracion, r75h.vuelta_minima) == (75, 0, 1, 3600, 600)
+    assert r75h.muestra and r75h.intervalo == 2.0 and r75h.subida and r75h.db_lotes
+    assert all(e.vuelta_minima is None for e in config.ESCENARIOS.values() if e.id != "r75h")
     assert config.INSTANCIAS["t4g.large"].red_base == 64e6 and config.INSTANCIAS["t4g.large"].linea_base_cpu == 0.30
     for prefijo, grupo in (("b", config.BARRIDO_RED), ("bs", config.BARRIDO_SIN_TOPE)):
         barrido = [config.ESCENARIOS[f"{prefijo}{n}"] for n in config.BARRIDO_LUGARES]

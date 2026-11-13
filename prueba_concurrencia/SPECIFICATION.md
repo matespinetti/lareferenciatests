@@ -229,6 +229,7 @@ Pedido por el usuario, después de que el profesor objetara que el simulador es 
 
 - **Qué se baja.** De cada ítem, lo que la muestra ya resolvió por OAI (METS, xoai, ORE, MARCXML): las URLs de sus archivos, sin pedido de resolución. Si es un artículo OJS (`/article/view/N`), primero la página del artículo y después el PDF: `citation_pdf_url` y los enlaces a galeradas, de `/view/` a `/download/`. Los demás ítems sin archivos se descartan.
 - **Barrido.** `r25`, `r50`, `r75` y `r120`: 25, 50, 75 y 120 corrutinas, 10 minutos más 1 de calentamiento. Cada paso baja la parte `k % 4` de los ítems de cada repositorio, con hasta 1 GB conocido por repositorio. Subida a S3 real y base en lotes, como los `t*`.
+- **Corrida larga (`r75h`).** 75 corrutinas durante 1 hora (más 1 de calentamiento) con todos los ítems, para ver el ritmo sostenido: el fin de la ráfaga de red de la t4g y si los repositorios bloquean con el tiempo. Como la muestra alcanza para unos 15 minutos a carga plena, un repositorio que termina sus ítems vuelve a empezar, con vueltas de al menos 10 minutos (ningún archivo se pide más seguido). El informe agrega la sección "Corrida larga": MB/s, repositorios con trabajo, CPU, memoria y errores cada 5 minutos, y la velocidad por conexión de la primera vuelta contra las siguientes (si las siguientes son más rápidas, es caché).
 - **Cortesía.**
   - Un pedido a la vez por repositorio y 2 s desde el fin de un pedido hasta el siguiente.
   - `Retry-After` en segundos o como fecha.

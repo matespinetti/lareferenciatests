@@ -300,7 +300,7 @@ def combinar_estados(estados: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
-COLUMNAS_PEDIDOS = ["repo", "host", "tipo", "inicio", "fin", "codigo", "bytes", "error", "reintento_tls", "url", "detalle"]
+COLUMNAS_PEDIDOS = ["repo", "host", "tipo", "inicio", "fin", "codigo", "bytes", "error", "reintento_tls", "url", "detalle", "vuelta"]
 
 
 def escribir_pedidos(ruta: Path, pedidos: list[tuple[Any, ...]]) -> None:

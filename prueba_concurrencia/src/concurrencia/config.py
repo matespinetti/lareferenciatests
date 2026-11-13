@@ -183,6 +183,8 @@ CONTACTO = os.environ.get("CONTACTO", "")
 INTERVALO_MUESTRA = 2.0
 TOPE_REPO_PASO = 1024 * MB
 """Con `muestra`: bytes conocidos que baja como mucho cada repositorio en un paso del barrido."""
+VUELTA_MINIMA_MUESTRA = 600.0
+"""Con vueltas (r75h): segundos mínimos entre el inicio de una vuelta de un repositorio y la siguiente."""
 RETRY_AFTER_MAXIMO = 300.0
 """Con `muestra`: un Retry-After más largo abandona el repositorio por el resto de la corrida."""
 ARCHIVOS_POR_PAGINA = 3
@@ -236,6 +238,9 @@ class Escenario:
     parte: int = 0
     partes: int = 1
     """Con `muestra`: qué parte de los ítems de cada repositorio baja este paso (el ítem k va a k % partes)."""
+    vuelta_minima: float | None = None
+    """Con `muestra`: si tiene valor, un repositorio que termina sus ítems vuelve a empezar, con cada
+    vuelta de al menos estos segundos. Para la corrida larga, que si no se queda sin trabajo."""
 
     @property
     def real(self) -> bool:
@@ -311,6 +316,12 @@ ESCENARIOS: dict[str, Escenario] = {
                       duracion=600.0, calentamiento=60.0)
             for i, n in enumerate((25, 50, 75, 120))
         ],
+        # La corrida larga (pedida por el usuario, nov 2026): 75 corrutinas durante 1 hora con todos los
+        # ítems. La muestra alcanza para ~15 min a carga plena, así que los repositorios dan vueltas
+        # sobre sus ítems, cada una de al menos 10 minutos (ningún archivo se pide más seguido).
+        Escenario("r75h", 75, 0, 0, "Repositorios reales durante 1 hora: 75 corrutinas, todos los ítems, con vueltas",
+                  muestra=True, intervalo=INTERVALO_MUESTRA, subida=True, db=True, db_lotes=True,
+                  duracion=3600.0, calentamiento=60.0, vuelta_minima=VUELTA_MINIMA_MUESTRA),
         _real("sh250", "Subida a S3 con un pool de hilos en el motor, 250 lugares, red de la instancia", lugares=250,
               subida=True, modo_subida="hilos"),
         _real("sc250", "Subida a S3 con un pool de corrutinas en el motor, 250 lugares, red de la instancia",

@@ -13,9 +13,15 @@ de ítems.
 Entre los repositorios habilitados, primero los que tienen descargas pendientes: terminar lo
 empezado antes de empezar otro ítem. Sin esto, con pocos lugares el motor pasaría el arranque
 haciendo la primera resolución de los 2.400 repositorios sin descargar casi nada.
+
+Con `vuelta_minima` (modo muestra, corrida larga): un repositorio que termina sus ítems vuelve a
+empezar, para que la muestra alcance para una hora a carga plena. Cada vuelta dura al menos
+`vuelta_minima` segundos desde que empezó la anterior: un repositorio con pocos ítems espera en vez
+de pedir el mismo archivo una y otra vez.
 """
 
 import heapq
+from collections.abc import Callable
 from collections import deque
 from dataclasses import dataclass, field
 from enum import StrEnum
@@ -47,6 +53,12 @@ class _Repo:
     pausa_hasta: float = 0.0
     en_heap: bool = False
     abandonado: bool = False
+    primer_item: int = 0
+    """Con vueltas: dónde arranca el contador de ítems (después de los ya resueltos)."""
+    originales: tuple[Tarea, ...] = ()
+    """Con vueltas: las descargas precargadas, para volver a encolarlas en cada vuelta."""
+    vuelta: int = 0
+    inicio_vuelta: float = 0.0
 
     def empezado(self) -> bool:
         return bool(self.descargas or self.reencoladas)
@@ -74,14 +86,22 @@ class Planificador:
         intervalo: float,
         inicio: float,
         precargadas: list[list[Tarea]] | None = None,
+        vuelta_minima: float | None = None,
+        al_reiniciar: Callable[[int], None] | None = None,
     ) -> None:
         """`precargadas` (modo muestra): por repositorio, las descargas de los ítems que ya vienen
-        resueltos (los primeros); sus resoluciones no se piden y el contador de ítems arranca después."""
+        resueltos (los primeros); sus resoluciones no se piden y el contador de ítems arranca después.
+
+        `vuelta_minima`: con un valor, los repositorios que terminan vuelven a empezar (ver arriba) y
+        `al_reiniciar(repo)` avisa de cada vuelta nueva."""
         self._intervalo = intervalo
-        self._repos = [_Repo(id, items) for id, items in enumerate(items_por_repo)]
+        self._vuelta_minima = vuelta_minima
+        self._al_reiniciar = al_reiniciar
+        self._repos = [_Repo(id, items, inicio_vuelta=inicio) for id, items in enumerate(items_por_repo)]
         for repo, tareas in zip(self._repos, precargadas or [], strict=False):
             repo.descargas.extend(tareas)
-            repo.siguiente_item = len({t.item for t in tareas})
+            repo.siguiente_item = repo.primer_item = len({t.item for t in tareas})
+            repo.originales = tuple(tareas)
         # Repositorios esperando su turno: con trabajo empezado y con solo ítems nuevos.
         self._empezados: list[tuple[float, int, int]] = []
         self._nuevos: list[tuple[float, int, int]] = []
@@ -139,8 +159,30 @@ class Planificador:
         repo.ocupado = False
         self._en_curso -= 1
         repo.listo_en = max(fin + self._intervalo, repo.pausa_hasta)
+        if not repo.tiene_trabajo() and not repo.abandonado and self._vuelta_minima is not None:
+            self._reiniciar(repo)
         if repo.tiene_trabajo():
             self._encolar(repo)
+
+    def _reiniciar(self, repo: _Repo) -> None:
+        """Una vuelta nueva: las mismas descargas precargadas y las mismas resoluciones, no antes de
+        `vuelta_minima` desde el inicio de la vuelta anterior."""
+        assert self._vuelta_minima is not None
+        repo.descargas.extend(repo.originales)
+        repo.siguiente_item = repo.primer_item
+        repo.vuelta += 1
+        repo.listo_en = max(repo.listo_en, repo.inicio_vuelta + self._vuelta_minima)
+        repo.inicio_vuelta = repo.listo_en
+        if self._al_reiniciar is not None:
+            self._al_reiniciar(repo.id)
+
+    def vuelta(self, repo: int) -> int:
+        """La vuelta en curso de `repo` (0: la primera)."""
+        return self._repos[repo].vuelta
+
+    def vueltas(self) -> list[int]:
+        """Por repositorio, cuántas vueltas completas terminó."""
+        return [repo.vuelta for repo in self._repos]
 
     def abandonar(self, repo: int) -> None:
         """No le da más tareas a `repo` en esta corrida (anti-bot, 403, red caída, Retry-After eterno)."""

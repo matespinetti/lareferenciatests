@@ -11,7 +11,7 @@ import platform
 import socket
 import ssl
 import sys
-from collections import deque
+from collections import Counter, deque
 from collections.abc import Awaitable, Callable
 from dataclasses import asdict
 from pathlib import Path
@@ -115,9 +115,10 @@ class Motor:
             items = items_por_repo(escenario.repos, escenario.items, semilla)
             self.plan = Planificador(items, escenario.intervalo, self._loop.time())
         else:
-            self.plan = Planificador(catalogo.items_por_repo(), escenario.intervalo, self._loop.time(), catalogo.precargadas)
-            for (repo, item), archivos in catalogo.archivos_por_item.items():
-                self.items.resuelto(repo, item, archivos)
+            self.plan = Planificador(catalogo.items_por_repo(), escenario.intervalo, self._loop.time(),
+                                     catalogo.precargadas, escenario.vuelta_minima, self._registrar_precargados)  # fmt: skip
+            for repo in range(len(catalogo.repos)):
+                self._registrar_precargados(repo)
         # Modo muestra: un pedido por fila, los repositorios abandonados y los hosts con TLS inválido.
         self.pedidos: list[tuple[Any, ...]] = []
         self.abandonados: dict[int, str] = {}
@@ -128,6 +129,12 @@ class Motor:
         self._libres: deque[asyncio.Future[tuple[Tarea, float]]] = deque()
         self._hay_libre = asyncio.Event()
         self._cambio = asyncio.Event()
+
+    def _registrar_precargados(self, repo: int) -> None:
+        """Los ítems ya resueltos de `repo` esperan sus archivos (al arrancar y en cada vuelta)."""
+        assert self.catalogo is not None
+        for item in range(self.catalogo.resueltos[repo]):
+            self.items.resuelto(repo, item, self.catalogo.archivos_por_item[(repo, item)])
 
     @property
     def spool(self) -> Spool | None:
@@ -228,7 +235,7 @@ class Motor:
         assert self.catalogo is not None
         url = self.catalogo.url(tarea)
         self.pedidos.append((tarea.repo, host, tarea.tipo.value, round(r.inicio, 4), round(r.fin, 4), r.codigo,
-                             r.recibidos, r.error or "", int(reintento_tls), url, r.detalle or ""))  # fmt: skip
+                             r.recibidos, r.error or "", int(reintento_tls), url, r.detalle or "", self.plan.vuelta(tarea.repo)))  # fmt: skip
 
     def _motivo_abandono(self, repo: int, r: pedido.Resultado) -> str | None:
         """Como en el relevamiento y en producción: ante dos 403 seguidos (anti-bot), un Retry-After
@@ -404,6 +411,8 @@ async def _correr_muestra(
         "abandonados": {catalogo.repos[r]: motivo for r, motivo in sorted(motor.abandonados.items())},
         "hosts_tls_invalido": len(motor.tls_invalido),
         "tope_bytes_por_repo": config.TOPE_REPO_PASO,
+        "vuelta_minima": escenario.vuelta_minima,
+        "vueltas": dict(sorted(Counter(motor.plan.vueltas()).items())) if escenario.vuelta_minima else {},
     }
     if resumen_subida is not None:
         resumen["subida"] = resumen_subida
