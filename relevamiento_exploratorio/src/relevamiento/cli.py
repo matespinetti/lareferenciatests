@@ -1,6 +1,7 @@
 """Línea de comandos: relevar, resumir, verificar-cortesia, medir-velocidad, medir-tamanos y los muestra-*."""
 
 import asyncio
+from collections import Counter
 import json
 from datetime import datetime
 from pathlib import Path
@@ -10,6 +11,7 @@ import typer
 
 from relevamiento.config import (
     CORTESIA_AMPLIACION,
+    CORTESIA_BUSCADOR,
     CORTESIA_MEDICION,
     CORTESIA_MUESTRA,
     CORTESIA_TAMANOS,
@@ -95,12 +97,13 @@ def cmd_verificar(
         bool, typer.Option("--muestra", help="Verifica con la cortesía de muestra-ubicar y muestra-cosechar.")
     ] = False,
     ampliacion: Annotated[bool, typer.Option("--ampliacion", help="Verifica con la cortesía de muestra-ampliar.")] = False,
+    buscador: Annotated[bool, typer.Option("--buscador", help="Verifica con la cortesía de muestra-app (buscador).")] = False,
 ) -> None:
     """Comprueba sobre pedidos.jsonl que nunca hubo pedidos simultáneos a un host y que se respetó el intervalo."""
-    if medicion + tamanos + muestra + ampliacion > 1:
-        raise typer.BadParameter("Elegí una sola de --medicion, --tamanos, --muestra y --ampliacion.")
+    if medicion + tamanos + muestra + ampliacion + buscador > 1:
+        raise typer.BadParameter("Elegí una sola de --medicion, --tamanos, --muestra, --ampliacion y --buscador.")
     cfg = (CORTESIA_MEDICION if medicion else CORTESIA_TAMANOS if tamanos else CORTESIA_MUESTRA if muestra
-           else CORTESIA_AMPLIACION if ampliacion else ConfigCortesia())
+           else CORTESIA_AMPLIACION if ampliacion else CORTESIA_BUSCADOR if buscador else ConfigCortesia())
     res = verificar(salida, cfg)
     for aviso in res.avisos:
         typer.echo(f"aviso: {aviso}")
@@ -411,6 +414,58 @@ def cmd_muestra_ampliar(
     typer.echo(f"{resultado['repositorios']} repositorios, {resultado['items_nuevos']:,} ítems nuevos.")
     typer.echo(f"Siguiente paso: relevamiento verificar-cortesia --salida {salida}/ampliacion --ampliacion, "
                "y después relevamiento muestra-resumir")
+
+
+@app.command("muestra-app")
+def cmd_muestra_app(
+    salida: Muestra = Path("muestra"),
+    contacto: Contacto = None,
+    simulacro: Simulacro = False,
+    en_horario_ok: EnHorario = False,
+) -> None:
+    """La muestra para la app: clasifica cada candidato (fallas reales sí, nuestras no) y pide al buscador de
+    LA Referencia los ítems que no salen de lo ya cosechado por OAI. Con --plan, solo cuenta. Se puede cortar
+    y relanzar. Después: muestra-app-resumir."""
+    from relevamiento.config import REGISTROS_PAGINA_BUSCADOR
+    from relevamiento.muestra_app import pedir_al_buscador, plan
+
+    filas = plan(salida)
+    nuestras = [f for f in filas if f["nuestra"]]
+    incluidos = [f for f in filas if not f["nuestra"]]
+    objetivo = sum(f["objetivo"] for f in incluidos)
+    de_oai = sum(f["de_oai"] for f in incluidos)
+    faltan = sum(f["faltan"] for f in incluidos)
+    paginas = sum(-(-f["faltan"] // REGISTROS_PAGINA_BUSCADOR) + 1 for f in incluidos if f["faltan"])
+    typer.echo(f"{len(incluidos)} repositorios en la muestra, {objetivo:,} ítems: {de_oai:,} de OAI y faltan {faltan:,} "
+               f"del buscador (~{paginas:,} páginas, unas {paginas * (CORTESIA_BUSCADOR.intervalo_minimo + 1) / 3600:.1f} h).")
+    typer.echo("Estados: " + ", ".join(f"{k} {v}" for k, v in Counter(f["estado"] for f in incluidos).most_common()))
+    por_estrato = Counter(f["candidata"].estrato for f in nuestras)
+    typer.echo(f"{len(nuestras)} excluidos por fallas nuestras (por estrato: {dict(sorted(por_estrato.items()))}): "
+               + ",".join(f["candidata"].id for f in nuestras))
+    if simulacro:
+        return
+    contacto = _antes_de_pedir(contacto, en_horario_ok)
+    try:
+        resultado = asyncio.run(pedir_al_buscador(salida, contacto, CORTESIA_BUSCADOR))
+    except KeyboardInterrupt:
+        typer.echo("\nInterrumpido. Relanzá para seguir.", err=True)
+        raise typer.Exit(130)
+    typer.echo(f"{resultado['repositorios']} repositorios, {resultado['items_nuevos']:,} ítems del buscador.")
+    typer.echo(f"Siguiente paso: relevamiento verificar-cortesia --salida {salida}/buscador --buscador, "
+               "y después relevamiento muestra-app-resumir")
+
+
+@app.command("muestra-app-resumir")
+def cmd_muestra_app_resumir(
+    salida: Muestra = Path("muestra"),
+    destino: Annotated[Path, typer.Option("--destino", help="Directorio de la muestra para la app.")] = Path("muestra_app"),
+) -> None:
+    """Escribe la muestra para la app (repositorios.csv, items.csv, archivos.csv, excluidos.csv, resumen), sin pedidos."""
+    from relevamiento.muestra_app import resumir_muestra_app
+
+    r = resumir_muestra_app(salida, destino)
+    typer.echo(f"{r['repositorios']} repositorios y {r['items']:,} ítems en {destino}/ ({r['excluidos']} excluidos).")
+    typer.echo(f"Detalle en {destino}/resumen.md")
 
 
 @app.command("muestra-ibict")

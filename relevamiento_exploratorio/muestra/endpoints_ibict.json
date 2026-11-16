@@ -2107,5 +2107,1261 @@
   "software": "SEER/OJS",
   "publicada": false,
   "fuente": "2469"
+ },
+ "m0505": {
+  "endpoint": "https://repositorio-api.insper.edu.br/server/oai/request",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "646"
+ },
+ "m0506": {
+  "endpoint": "https://dspace.unila.edu.br/server/oai/request",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "120"
+ },
+ "m0507": {
+  "endpoint": "https://aguassubterraneas.abas.org/asubterraneas/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2209"
+ },
+ "m0510": {
+  "endpoint": "https://repositorio.ufgd.edu.br/oai/request",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "386"
+ },
+ "m0515": {
+  "endpoint": "https://repositorio.ufpb.br/oai/request",
+  "formato": "xoai",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "343"
+ },
+ "m0517": {
+  "endpoint": "https://periodicos.uninove.br/saude/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2259"
+ },
+ "m0519": {
+  "endpoint": "http://bdtd.unoeste.br:8080/oai/request",
+  "formato": "xoai",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "66"
+ },
+ "m0523": {
+  "endpoint": "https://revistas.marilia.unesp.br/index.php/transformacao/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SciELO",
+  "publicada": true,
+  "fuente": "178"
+ },
+ "m0526": {
+  "endpoint": "https://dspace.unisa.br/server/oai/request",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "2010"
+ },
+ "m0527": {
+  "endpoint": "https://www.seer.ufal.br/index.php/revistaleitura/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2679"
+ },
+ "m0529": {
+  "endpoint": "https://seer.ufrgs.br/iluminuras/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2407"
+ },
+ "m0532": {
+  "endpoint": "https://ojs.brazilianjournals.com.br/ojs/index.php/BASR/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1504"
+ },
+ "m0533": {
+  "endpoint": "https://periodicos.ufsc.br/index.php/geosul/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2589"
+ },
+ "m0534": {
+  "endpoint": "https://malque.pub/ojs/index.php/jabb/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "414"
+ },
+ "m0535": {
+  "endpoint": "https://periodicos.fclar.unesp.br/entrelinguas/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2708"
+ },
+ "m0536": {
+  "endpoint": "https://periodicos.ufpa.br/index.php/agroecossistemas/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2459"
+ },
+ "m0537": {
+  "endpoint": "https://periodicos.ufjf.br/index.php/lumina/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "1012"
+ },
+ "m0538": {
+  "endpoint": "http://revista.geem.mat.br/index.php/CPP/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2724"
+ },
+ "m0539": {
+  "endpoint": "https://www.e-publicacoes.uerj.br/index.php/abusoes/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1073"
+ },
+ "m0541": {
+  "endpoint": "https://revistas.marilia.unesp.br/index.php/kinesis/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2714"
+ },
+ "m0543": {
+  "endpoint": "https://fatecpg.edu.br/revista/index.php/ps/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "OJS",
+  "publicada": true,
+  "fuente": "1663"
+ },
+ "m0544": {
+  "endpoint": "https://www.revistas.usp.br/jistem/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "47"
+ },
+ "m0545": {
+  "endpoint": "https://periodicos.uff.br/poiesis/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1561"
+ },
+ "m0547": {
+  "endpoint": "https://ojs.ifch.unicamp.br//index.php/modernoscontemporaneos/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2770"
+ },
+ "m0548": {
+  "endpoint": "https://tede.unifacs.br/oai/request",
+  "formato": "xoai",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "135"
+ },
+ "m0549": {
+  "endpoint": "https://seer.ufu.br/index.php/ouvirouver/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2510"
+ },
+ "m0553": {
+  "endpoint": "https://www.indexlaw.org/index.php/revistacpc/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2293"
+ },
+ "m0555": {
+  "endpoint": "https://www.uel.br/revistas/uel/index.php/mediacoes/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1847"
+ },
+ "m0556": {
+  "endpoint": "https://revistas.uece.br/index.php/revpemo/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2047"
+ },
+ "m0557": {
+  "endpoint": "http://repositorio.gasparvianna.pa.gov.br:8080/server/oai/request",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "2018"
+ },
+ "m0558": {
+  "endpoint": "https://www.revistas.usp.br/biocean/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1780"
+ },
+ "m0559": {
+  "endpoint": "https://revistas.ufpi.br/index.php/gecont/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "336"
+ },
+ "m0560": {
+  "endpoint": "https://seer.ufrgs.br/index.php/dar/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2415"
+ },
+ "m0561": {
+  "endpoint": "https://sistemas.uft.edu.br/periodicos/index.php/atura/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2337"
+ },
+ "m0564": {
+  "endpoint": "https://www.periodicos.udesc.br/index.php/percursos/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2763"
+ },
+ "m0565": {
+  "endpoint": "https://revistas.unilasalle.edu.br/index.php/Mouseion/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": false,
+  "fuente": "2158"
+ },
+ "m0567": {
+  "endpoint": "http://revistarebram.com/index.php/revistauniara/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1611"
+ },
+ "m0568": {
+  "endpoint": "https://revista.feb.unesp.br/gepros/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "170"
+ },
+ "m0573": {
+  "endpoint": "https://periodicos.ufv.br/elo/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2051"
+ },
+ "m0574": {
+  "endpoint": "https://e-revista.unioeste.br/index.php/ambientes/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1873"
+ },
+ "m0575": {
+  "endpoint": "https://www.bdtd.ueg.br/oai/request",
+  "formato": "xoai",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "1538"
+ },
+ "m0576": {
+  "endpoint": "https://www.fmc.br/ojs/index.php/RCFMC/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1338"
+ },
+ "m0578": {
+  "endpoint": "https://periodicos.furg.br/vetor/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1955"
+ },
+ "m0579": {
+  "endpoint": "https://revistas.uneb.br/index.php/rdd/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2753"
+ },
+ "m0580": {
+  "endpoint": "https://revista.iesb.br/revista/index.php/ojsiesb/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1988"
+ },
+ "m0581": {
+  "endpoint": "https://revistas.ufpr.br/geografar/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "328"
+ },
+ "m0583": {
+  "endpoint": "https://repositorio.ifpa.edu.br/oai/request",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "2022"
+ },
+ "m0584": {
+  "endpoint": "https://periodicos.sbu.unicamp.br/ojs/index.php/liames/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2780"
+ },
+ "m0585": {
+  "endpoint": "https://owl.tupa.unesp.br/recodaf/index.php/recodaf/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "OJS",
+  "publicada": true,
+  "fuente": "1515"
+ },
+ "m0586": {
+  "endpoint": "https://rbeo.emnuvens.com.br/rbeo/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "557"
+ },
+ "m0587": {
+  "endpoint": "https://periodicos.ufmg.br/index.php/revistapos/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1892"
+ },
+ "m0589": {
+  "endpoint": "https://revistamuseologiaepatrimonio.mast.br/index.php/ppgpmus/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "100"
+ },
+ "m0590": {
+  "endpoint": "https://pfb.sede.embrapa.br/pfb/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1541"
+ },
+ "m0591": {
+  "endpoint": "https://econtents.bc.unicamp.br/inpec/index.php/rbest/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1888"
+ },
+ "m0592": {
+  "endpoint": "https://periodicos.unb.br/index.php/erbel/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1192"
+ },
+ "m0593": {
+  "endpoint": "https://www.e-publicacoes.uerj.br/rbgg/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SciELO",
+  "publicada": true,
+  "fuente": "295"
+ },
+ "m0595": {
+  "endpoint": "https://revista.abralin.org/index.php/abralin/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "1047"
+ },
+ "m0596": {
+  "endpoint": "https://revistas.pucsp.br//index.php/ReCaPe/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1013"
+ },
+ "m0597": {
+  "endpoint": "https://periodicos.ufpb.br/index.php/prolingua/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2684"
+ },
+ "m0599": {
+  "endpoint": "https://periodicos.ufes.br/agora/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1764"
+ },
+ "m0600": {
+  "endpoint": "https://portaldeperiodicos.animaeducacao.com.br/index.php/EeN/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "83"
+ },
+ "m0603": {
+  "endpoint": "https://periodicos.utfpr.edu.br/rbect/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "10"
+ },
+ "m0605": {
+  "endpoint": "https://www.revistas.usp.br/significacao/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "26"
+ },
+ "m0606": {
+  "endpoint": "https://seer.ufrgs.br/RevistadaFaculdadeOdontologia/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2406"
+ },
+ "m0609": {
+  "endpoint": "https://ojs.uel.br/revistas/uel/index.php/semexatas/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2746"
+ },
+ "m0612": {
+  "endpoint": "https://periodicos.fgv.br/revdireitogv/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "727"
+ },
+ "m0614": {
+  "endpoint": "https://revistas.pucsp.br/psicorevista/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2002"
+ },
+ "m0618": {
+  "endpoint": "https://www.halacsolcha.org/index.php/halac/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2266"
+ },
+ "m0620": {
+  "endpoint": "https://revistaaec.com/index.php/revistaaec/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1206"
+ },
+ "m0622": {
+  "endpoint": "https://san.uri.br/revistas/index.php/direitosculturais/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1225"
+ },
+ "m0623": {
+  "endpoint": "https://periodicos.set.edu.br/educacao/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "80"
+ },
+ "m0624": {
+  "endpoint": "https://periodicos.ufba.br/index.php/rcontabilidade/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2702"
+ },
+ "m0627": {
+  "endpoint": "https://bar.anpad.org.br/index.php/bar/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "827"
+ },
+ "m0629": {
+  "endpoint": "https://revistas.iel.unicamp.br/index.php/phaos/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "149"
+ },
+ "m0630": {
+  "endpoint": "https://www.repec.org.br/repec/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2200"
+ },
+ "m0631": {
+  "endpoint": "https://periodicos.pucminas.br/economiaegestao/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "612"
+ },
+ "m0632": {
+  "endpoint": "https://revistas.pucsp.br/metropole/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "589"
+ },
+ "m0633": {
+  "endpoint": "https://www.revistas.usp.br/prolam/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2641"
+ },
+ "m0634": {
+  "endpoint": "https://editorarevistas.mackenzie.br/index.php/rmd/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2231"
+ },
+ "m0636": {
+  "endpoint": "https://periodicos.ufs.br/Travessias/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1084"
+ },
+ "m0637": {
+  "endpoint": "https://www.revistas.usp.br/rausp/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "41"
+ },
+ "m0638": {
+  "endpoint": "http://tede2.unifenas.br:8080/oai/request",
+  "formato": "xoai",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "129"
+ },
+ "m0639": {
+  "endpoint": "https://ojs.unimar.br/index.php/revistaargumentum/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "113"
+ },
+ "m0640": {
+  "endpoint": "https://revistas.unisinos.br/index.php/ciencias_sociais/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2791"
+ },
+ "m0642": {
+  "endpoint": "https://repositoriohomolog.ifmg.edu.br/server81/oai/request",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "2236"
+ },
+ "m0643": {
+  "endpoint": "https://journal.olimpianos.com.br/journal/index.php/Olimpianos/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2591"
+ },
+ "m0644": {
+  "endpoint": "https://www.revistas.usp.br/azmz/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1774"
+ },
+ "m0645": {
+  "endpoint": "https://www.recien.com.br/index.php/Recien/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2095"
+ },
+ "m0646": {
+  "endpoint": "https://www.e-publicacoes.uerj.br/index.php/neiba/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "1740"
+ },
+ "m0648": {
+  "endpoint": "https://revistas.ufpr.br/direito/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "324"
+ },
+ "m0649": {
+  "endpoint": "https://periodicos.pucpr.br/Urbe/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "611"
+ },
+ "m0650": {
+  "endpoint": "http://www.indexlaw.org/index.php/revistadgnt/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "1153"
+ },
+ "m0653": {
+  "endpoint": "https://periodicos.ufjf.br/index.php/enfermagem/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2672"
+ },
+ "m0655": {
+  "endpoint": "https://periodicos.ufmg.br/index.php/maaravi/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1098"
+ },
+ "m0656": {
+  "endpoint": "https://periodicos.ufpe.br/revistas/index.php/realis/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2636"
+ },
+ "m0657": {
+  "endpoint": "https://periodicos.pucpr.br/aurora/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2439"
+ },
+ "m0659": {
+  "endpoint": "http://cascavel.ufsm.br/revistas/ojs-2.2.2/index.php/reufsm/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "240"
+ },
+ "m0662": {
+  "endpoint": "https://periodicos.sbu.unicamp.br/ojs/index.php/riesup/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2775"
+ },
+ "m0664": {
+  "endpoint": "https://periodicos.ufjf.br/index.php/libertas/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1008"
+ },
+ "m0665": {
+  "endpoint": "https://revistas.unisinos.br/index.php/entrelinhas/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2794"
+ },
+ "m0667": {
+  "endpoint": "https://periodicoseletronicos.ufma.br/index.php/ens-multidisciplinaridade/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2477"
+ },
+ "m0668": {
+  "endpoint": "https://seer.uscs.edu.br/index.php/revista_gestao/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2278"
+ },
+ "m0669": {
+  "endpoint": "http://www.indexlaw.org/index.php/historiadireito/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1181"
+ },
+ "m0670": {
+  "endpoint": "http://www.indexlaw.org/index.php/revistadtmat/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2290"
+ },
+ "m0671": {
+  "endpoint": "https://revistas.uneb.br/index.php/tabuleirodeletras/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "199"
+ },
+ "m0675": {
+  "endpoint": "https://periodicos.ufsc.br/index.php/emtese/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1514"
+ },
+ "m0676": {
+  "endpoint": "https://visaemdebate.incqs.fiocruz.br/index.php/visaemdebate/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1939"
+ },
+ "m0677": {
+  "endpoint": "https://ojs.uespi.br/index.php/ler/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "437"
+ },
+ "m0678": {
+  "endpoint": "https://itegam-jetia.org/journal/index.php/jetia/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2363"
+ },
+ "m0679": {
+  "endpoint": "https://revista.ufrr.br/repi/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2603"
+ },
+ "m0680": {
+  "endpoint": "https://revistas.unilasalle.edu.br/index.php/saude_desenvolvimento/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "119"
+ },
+ "m0681": {
+  "endpoint": "https://tede.unigranrio.edu.br/oai/request",
+  "formato": "xoai",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "122"
+ },
+ "m0683": {
+  "endpoint": "https://seer.unisc.br/index.php/cinergis/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "91"
+ },
+ "m0685": {
+  "endpoint": "http://www.periodicos.ufc.br/informacaoempauta/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1543"
+ },
+ "m0686": {
+  "endpoint": "https://periodicos.sbu.unicamp.br/ojs/index.php/zetetike/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1038"
+ },
+ "m0687": {
+  "endpoint": "https://revistas.pucsp.br//index.php/esp/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2431"
+ },
+ "m0689": {
+  "endpoint": "https://www.revistas.usp.br/rcf/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "21"
+ },
+ "m0693": {
+  "endpoint": "https://www.periodicos.unc.br/index.php/drd/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1524"
+ },
+ "m0694": {
+  "endpoint": "https://periodicos.ifsul.edu.br/index.php/thema/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2391"
+ },
+ "m0695": {
+  "endpoint": "http://www.periodicos.ulbra.br/index.php/txra/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "210"
+ },
+ "m0699": {
+  "endpoint": "https://periodicos.ufpe.br/revistas/jpm/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1962"
+ },
+ "m0701": {
+  "endpoint": "https://periodicos.ufsm.br/enflo/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2551"
+ },
+ "m0702": {
+  "endpoint": "https://seer.uftm.edu.br/revistaeletronica/index.php/revistatriangulo/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2325"
+ },
+ "m0704": {
+  "endpoint": "https://revcsaudeceuma.emnuvens.com.br/revista/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2014"
+ },
+ "m0705": {
+  "endpoint": "http://periodicos.pucminas.br/index.php/scripta/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "1037"
+ },
+ "m0706": {
+  "endpoint": "https://revista.classica.org.br/classica/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1485"
+ },
+ "m0708": {
+  "endpoint": "https://rbtur.org.br/rbtur/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1413"
+ },
+ "m0709": {
+  "endpoint": "https://periodicos.ufs.br/dike/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1355"
+ },
+ "m0711": {
+  "endpoint": "https://seer.uftm.edu.br/revistaeletronica/index.php/aces/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2323"
+ },
+ "m0713": {
+  "endpoint": "https://revistas.ufpr.br/abequa/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2215"
+ },
+ "m0714": {
+  "endpoint": "https://revistas.ufg.br/lahrs/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2178"
+ },
+ "m0722": {
+  "endpoint": "https://periodicos.uff.br/midiaecotidiano/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "OJS",
+  "publicada": true,
+  "fuente": "1714"
+ },
+ "m0724": {
+  "endpoint": "https://voxscripturae.com.br/index.php/revista/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "713"
+ },
+ "m0725": {
+  "endpoint": "https://periodicos.unifesp.br/index.php/exilium/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2542"
+ },
+ "m0727": {
+  "endpoint": "https://www.revistaabragesp.org.br/index.php/home/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2321"
+ },
+ "m0728": {
+  "endpoint": "https://periodicos.unespar.edu.br/nupem/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1623"
+ },
+ "m0731": {
+  "endpoint": "https://ojs.ufgd.edu.br/index.php/entre-lugar/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1545"
+ },
+ "m0733": {
+  "endpoint": "https://revistas.pucsp.br/index.php/CAFI/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "OJS",
+  "publicada": true,
+  "fuente": "1710"
+ },
+ "m0734": {
+  "endpoint": "https://revistaaber.org.br/rberu/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2237"
+ },
+ "m0735": {
+  "endpoint": "https://periodicos.unifap.br/estacaocientifica/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "133"
+ },
+ "m0736": {
+  "endpoint": "http://www.cienciaemaconaria.com.br/index.php/cem/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "207"
+ },
+ "m0737": {
+  "endpoint": "https://publicacoes.agb.org.br/boletim-paulista/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1228"
+ },
+ "m0738": {
+  "endpoint": "https://periodicoseletronicos.ufma.br/index.php/terradepretos/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2460"
+ },
+ "m0739": {
+  "endpoint": "https://revistajuridica.tjdft.jus.br/index.php/rdj/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2508"
+ },
+ "m0740": {
+  "endpoint": "https://revistamises.org.br/misesjournal/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1219"
+ },
+ "m0741": {
+  "endpoint": "https://sustenere.inf.br/index.php/sciresalutis/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "753"
+ },
+ "m0742": {
+  "endpoint": "https://rasbran.com.br/rasbran/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1889"
+ },
+ "m0743": {
+  "endpoint": "https://periodicos.ufac.br/index.php/COMMUNITAS/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1218"
+ },
+ "m0744": {
+  "endpoint": "https://periodicos.ifgoiano.edu.br/multiscience/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1061"
+ },
+ "m0748": {
+  "endpoint": "https://revistas.unasp.edu.br/LifestyleJournal/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2255"
+ },
+ "m0751": {
+  "endpoint": "https://ojs.ufgd.edu.br/index.php/Raido/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1150"
+ },
+ "m0754": {
+  "endpoint": "https://periodicos.unemat.br/index.php/jhnpeps/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1776"
+ },
+ "m0757": {
+  "endpoint": "https://periodicosonline.uems.br/index.php/REV/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1589"
+ },
+ "m0762": {
+  "endpoint": "https://revistaseduc.educacao.go.gov.br/index.php/rec/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2013"
+ },
+ "m0764": {
+  "endpoint": "https://bdc.c3sl.ufpr.br/oai/request",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "DSpace",
+  "publicada": true,
+  "fuente": "1533"
+ },
+ "m0765": {
+  "endpoint": "https://ojs.uel.br/revistas/uel/index.php/discursosfotograficos/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "488"
+ },
+ "m0766": {
+  "endpoint": "https://epistemologia.com.br/academico/index.php/epistemologia/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1919"
  }
 }

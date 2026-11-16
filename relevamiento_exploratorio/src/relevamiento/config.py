@@ -83,6 +83,18 @@ ITEMS_POR_REPO_AMPLIADA = 2000
 PAGINAS_SIN_NUEVOS = 2
 """Con `muestra-ampliar`: una ventana se deja cuando da esta cantidad de páginas seguidas sin ítems nuevos
 (servidores que ignoran from/until y devuelven siempre lo mismo)."""
+# Pedido por el usuario (nov 2026): la muestra para probar la app del descargador (`muestra-app`). Los
+# ítems que faltan salen del buscador de LA Referencia: un solo host, de a un pedido, 5 s entre pedidos,
+# y hasta 80 páginas por repositorio (el más grande necesita ~47).
+CORTESIA_BUSCADOR = ConfigCortesia(
+    hosts_en_paralelo=1,
+    pedidos_por_repo=80,
+)
+PISO_ITEMS_APP = 200
+FRACCION_ITEMS_APP = 0.02
+"""Con `muestra-app`: ítems por repositorio = mín(documentos, máx(PISO, FRACCION × documentos))."""
+REGISTROS_PAGINA_BUSCADOR = 100
+"""Registros por página al pedir ítems al buscador (~3,5 KB cada uno: ~350 KB por página)."""
 BUSCADOR_LA_REFERENCIA = "https://buscador.lareferencia.info/api/v1/search"
 REGISTROS_BUSCADOR = 10
 """Registros por consulta al buscador: se vota el host entre ellos, porque uno solo puede apuntar afuera."""

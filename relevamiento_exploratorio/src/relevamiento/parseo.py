@@ -26,7 +26,18 @@ def parsear_xml(cuerpo: bytes) -> etree._Element | None:
     if not cuerpo.strip():
         return None
     try:
-        return etree.fromstring(cuerpo, _PARSER_XML)
+        raiz = etree.fromstring(cuerpo, _PARSER_XML)
+        if raiz is not None:
+            return raiz
+    except etree.XMLSyntaxError:
+        pass
+    # Hay servidores que escriben basura antes del XML (el OAI de la USP antepone `else`, un error de
+    # PHP): se reintenta desde la declaración XML, si está más adelante.
+    inicio = cuerpo.find(b"<?xml")
+    if inicio <= 0:
+        return None
+    try:
+        return etree.fromstring(cuerpo[inicio:], _PARSER_XML)
     except etree.XMLSyntaxError:
         return None
 
