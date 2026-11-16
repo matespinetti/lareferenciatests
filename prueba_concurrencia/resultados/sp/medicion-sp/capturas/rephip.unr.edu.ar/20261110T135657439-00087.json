@@ -1,0 +1,89 @@
+{
+ "pedido": "20261110T135657439-00087",
+ "url": "https://rephip.unr.edu.ar/server/api/core/bitstreams/ebcb89b8-50c6-4421-b801-516a873466c5/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.28.3 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 14:01:06 GMT"
+  ],
+  [
+   "content-type",
+   "application/octet-stream;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "19809512"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Mon, 06 Nov 2023 13:40:57 GMT"
+  ],
+  [
+   "etag",
+   "\"ef9139f5ad6585b92e6188d20630b87d\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Tue, 10 Nov 2026 15:01:06 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "attachment; filename=\"LIBRO COMPLETO CIENCIA Y TECNICA 2015.rar\"; filename*=UTF-8''LIBRO%20COMPLETO%20CIENCIA%20Y%20TECNICA%202015.rar"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "medicion"
+}

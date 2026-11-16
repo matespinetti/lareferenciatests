@@ -1,0 +1,45 @@
+{
+ "pedido": "20261110T135657439-00038",
+ "url": "https://repositorio.uca.edu.ar/bitstream/123456789/158/1/doc.pdf",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.18.0"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:58:32 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ],
+  [
+   "content-length",
+   "1947770"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "last-modified",
+   "Thu, 18 Feb 2021 18:24:59 GMT"
+  ],
+  [
+   "link",
+   "https://repositorio.uca.edu.ar/handle/123456789/158; rel=\"collection\""
+  ],
+  [
+   "server-timing",
+   "dtTrId;desc=\"477faeae0fd581e842fb991ae9062130\", dtSInfo;desc=\"0\""
+  ],
+  [
+   "server-timing",
+   "dtRpid;desc=\"1975680287\""
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

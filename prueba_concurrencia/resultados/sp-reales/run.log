@@ -1,0 +1,30 @@
+Red del host para el motor (sin el puente de Docker): resultados como <paso>-host.
+Muestra: 71848 ítems de 270 repositorios útiles.
+Subida a S3 real: s3://prueba-concurrencia-mateo-sp/prueba-concurrencia/   User-Agent con contacto mateospinetti1@gmail.com
+time="2026-11-12T16:47:10Z" level=warning msg="Docker Compose is configured to build using Bake, but buildx isn't installed"
+ Container candidata-postgres-1  Running
+ Container candidata-postgres-1  Waiting
+ Container candidata-postgres-1  Healthy
+ Container candidata-web-simulada-1  Recreate
+ Container candidata-web-simulada-1  Recreated
+ Container candidata-web-simulada-1  Starting
+ Container candidata-web-simulada-1  Started
+Carga de la API y el frontend: 450 MB y 0.1 de un núcleo.
+== paso r25-host
+ Container candidata-postgres-1  Running
+escenario r25 (repositorios reales, parte 1/4): 6156 pedidos a 267 repositorios, 0 violaciones de cortesía, 23 abandonados, errores {"http_404": 168, "http_403": 3, "ClientConnectorError": 33, "http_500": 6, "http_301": 84, "ClientConnectorDNSError": 5, "ConnectionTimeoutError": 28, "SocketTimeoutError": 13, "ServerDisconnectedError": 7, "TooManyRedirects": 1}
+== paso r50-host
+ Container candidata-postgres-1  Running
+escenario r50 (repositorios reales, parte 2/4): 18370 pedidos a 267 repositorios, 0 violaciones de cortesía, 35 abandonados, errores {"http_404": 229, "http_403": 12, "ClientConnectorError": 42, "http_301": 92, "http_500": 14, "ClientConnectorDNSError": 21, "ServerDisconnectedError": 2, "ConnectionTimeoutError": 42, "SocketTimeoutError": 14, "TooManyRedirects": 19, "ClientConnectorSSLError": 2, "http_468": 4, "http_504": 1, "http_410": 1, "ClientOSError": 1, "http_522": 1}
+== paso r75-host
+ Container candidata-postgres-1  Running
+escenario r75 (repositorios reales, parte 3/4): 23347 pedidos a 266 repositorios, 0 violaciones de cortesía, 44 abandonados, errores {"http_404": 247, "http_403": 23, "ClientConnectorError": 50, "http_301": 100, "ClientConnectorDNSError": 21, "http_500": 19, "ServerDisconnectedError": 5, "ConnectionTimeoutError": 55, "SocketTimeoutError": 13, "TooManyRedirects": 17, "http_468": 4, "http_502": 4, "ClientPayloadError": 1, "http_401": 1, "http_410": 1}
+EOF
+== paso r120-host
+ Container candidata-postgres-1  Running
+escenario r120 (repositorios reales, parte 4/4): 25006 pedidos a 266 repositorios, 0 violaciones de cortesía, 48 abandonados, errores {"http_404": 250, "http_403": 27, "ClientConnectorError": 53, "http_301": 87, "ClientConnectorDNSError": 19, "http_500": 27, "http_202": 1, "ConnectionTimeoutError": 58, "http_468": 7, "SocketTimeoutError": 10, "ServerDisconnectedError": 6, "http_502": 4, "TooManyRedirects": 3, "ClientOSError": 2, "http_400": 1, "http_522": 1, "ClientPayloadError": 1, "ClientConnectorSSLError": 1}
+ Container candidata-web-simulada-1  Stopping
+ Container candidata-web-simulada-1  Stopped
+informe en results/report.md
+
+Listo: report.md y results/. PostgreSQL sigue corriendo; para bajarlo: docker compose -f docker/compose.candidata.yaml down -v

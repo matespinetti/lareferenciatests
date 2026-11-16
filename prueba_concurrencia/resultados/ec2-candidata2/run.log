@@ -1,0 +1,68 @@
+Subida a S3 real: s3://prueba-concurrencia-mateo-2026/prueba-concurrencia/
+Servidor simulado en 172.31.11.186:8443-8444: responde.
+time="2026-11-06T23:03:11Z" level=warning msg="Docker Compose is configured to build using Bake, but buildx isn't installed"
+ Container candidata-postgres-1  Running
+ Container candidata-postgres-1  Waiting
+ Container candidata-postgres-1  Healthy
+== escenario b120
+ Container candidata-postgres-1  Running
+escenario b120 (corrutinas, red de c6gn.medium): 8360 pedidos, 0 violaciones, errores {}
+== escenario s120
+ Container candidata-postgres-1  Running
+escenario s120 (corrutinas, red de c6gn.medium): 4260 pedidos, 0 violaciones, errores {}
+EOF
+== escenario v120
+ Container candidata-postgres-1  Running
+escenario v120 (corrutinas, red de c6gn.medium): 3928 pedidos, 0 violaciones, errores {"ConnectionTimeoutError": 22}
+informe en results/report.md
+
+Listo: report.md y results/. PostgreSQL sigue corriendo; para bajarlo: docker compose -f docker/compose.candidata.yaml down -v
+Red del host para el motor (sin el puente de Docker): resultados como <escenario>-host.
+Subida a S3 real: s3://prueba-concurrencia-mateo-2026/prueba-concurrencia/
+Servidor simulado en 172.31.11.186:8443-8444: responde.
+time="2026-11-06T23:27:31Z" level=warning msg="Docker Compose is configured to build using Bake, but buildx isn't installed"
+ Container candidata-postgres-1  Recreate
+ Container candidata-postgres-1  Recreated
+ Container candidata-postgres-1  Starting
+ Container candidata-postgres-1  Started
+ Container candidata-postgres-1  Waiting
+ Container candidata-postgres-1  Healthy
+== escenario b120-host
+ Container candidata-postgres-1  Running
+escenario b120 (corrutinas, red de c6gn.medium): 8475 pedidos, 0 violaciones, errores {}
+== escenario s120-host
+ Container candidata-postgres-1  Running
+escenario s120 (corrutinas, red de c6gn.medium): 4759 pedidos, 0 violaciones, errores {}
+EOF
+informe en results/report.md
+
+Listo: report.md y results/. PostgreSQL sigue corriendo; para bajarlo: docker compose -f docker/compose.candidata.yaml down -v
+Red del host para el motor (sin el puente de Docker): resultados como <escenario>-host.
+Subidor con el cliente CRT: resultados como <escenario>-host-crt.
+Subida a S3 real: s3://prueba-concurrencia-mateo-2026/prueba-concurrencia/
+Servidor simulado en 172.31.11.186:8443-8444: responde.
+time="2026-11-06T23:48:07Z" level=warning msg="Docker Compose is configured to build using Bake, but buildx isn't installed"
+ Container candidata-postgres-1  Running
+ Container candidata-postgres-1  Waiting
+ Container candidata-postgres-1  Healthy
+== escenario s120-host-crt
+ Container candidata-postgres-1  Running
+escenario s120 (corrutinas, red de c6gn.medium): 4769 pedidos, 0 violaciones, errores {}
+EOF
+informe en results/report.md
+
+Listo: report.md y results/. PostgreSQL sigue corriendo; para bajarlo: docker compose -f docker/compose.candidata.yaml down -v
+Red del host para el motor (sin el puente de Docker): resultados como <escenario>-host.
+Subida a S3 real: s3://prueba-concurrencia-mateo-2026/prueba-concurrencia/
+Servidor simulado en 172.31.11.186:8443-8444: responde.
+time="2026-11-06T23:55:12Z" level=warning msg="Docker Compose is configured to build using Bake, but buildx isn't installed"
+ Container candidata-postgres-1  Running
+ Container candidata-postgres-1  Waiting
+ Container candidata-postgres-1  Healthy
+== escenario v120-host
+ Container candidata-postgres-1  Running
+escenario v120 (corrutinas, red de c6gn.medium): 4819 pedidos, 0 violaciones, errores {}
+EOF
+informe en results/report.md
+
+Listo: report.md y results/. PostgreSQL sigue corriendo; para bajarlo: docker compose -f docker/compose.candidata.yaml down -v

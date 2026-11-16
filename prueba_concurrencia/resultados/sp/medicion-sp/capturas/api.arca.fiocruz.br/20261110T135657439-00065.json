@@ -1,0 +1,93 @@
+{
+ "pedido": "20261110T135657439-00065",
+ "url": "https://api.arca.fiocruz.br/api/core/bitstreams/4406f20f-1cc6-45c9-bc58-1aa982436084/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:59:33 GMT"
+  ],
+  [
+   "content-type",
+   "video/mp4;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "650215489"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Mon, 30 Sep 2019 19:07:00 GMT"
+  ],
+  [
+   "etag",
+   "\"2006b2d40fb5fe996b8551bcb41bcbdd\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Tue, 10 Nov 2026 14:59:33 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "attachment; filename=\"Proqualis_Video13.mp4\"; filename*=UTF-8''Proqualis_Video13.mp4"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubdomains"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "medicion"
+}

@@ -1,0 +1,97 @@
+{
+ "pedido": "20261110T135657439-00034",
+ "url": "https://repositorio.ucr.ac.cr/server/api/core/bitstreams/c3baa719-5271-42a8-8c21-24e995fec64c/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.24.0 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:58:03 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "1000364"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "dspace-xsrf-token",
+   "4b25ea88-0683-475d-babf-50914f68c81e"
+  ],
+  [
+   "set-cookie",
+   "DSPACE-XSRF-COOKIE=4b25ea88-0683-475d-babf-50914f68c81e; Path=/server; Secure; HttpOnly; SameSite=None"
+  ],
+  [
+   "content-language",
+   "es"
+  ],
+  [
+   "last-modified",
+   "Sat, 19 Sep 2026 13:17:52 GMT"
+  ],
+  [
+   "etag",
+   "\"76d454a93a74059537a652f99b4b25a4\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Tue, 10 Nov 2026 14:58:03 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"TFIA Roberto Gomez Astorga.pdf\"; filename*=UTF-8''TFIA%20Roberto%20G%C3%B3mez%20Astorga.pdf"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

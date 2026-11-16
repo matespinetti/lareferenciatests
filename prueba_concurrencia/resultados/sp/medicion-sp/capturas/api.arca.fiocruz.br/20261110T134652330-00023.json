@@ -1,0 +1,101 @@
+{
+ "pedido": "20261110T134652330-00023",
+ "url": "https://api.arca.fiocruz.br/api/core/bitstreams/c2f8fa55-0b7a-4768-bb3c-8a24cea89507/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:47:26 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "8556059"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "dspace-xsrf-token",
+   "83bad62d-da18-47c3-a040-2f6f6118729c"
+  ],
+  [
+   "set-cookie",
+   "DSPACE-XSRF-COOKIE=83bad62d-da18-47c3-a040-2f6f6118729c; Path=/; Secure; HttpOnly; SameSite=None"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Wed, 08 Nov 2023 16:14:12 GMT"
+  ],
+  [
+   "etag",
+   "\"e3376924827c42ca5ebb76dc219cf544\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Tue, 10 Nov 2026 14:47:26 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "attachment; filename=\"gabriel_farias_araujo_ensp_dout_2023.pdf\"; filename*=UTF-8''gabriel_farias_araujo_ensp_dout_2023.pdf"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubdomains"
+  ]
+ ],
+ "truncado": true,
+ "tipo": "medicion"
+}

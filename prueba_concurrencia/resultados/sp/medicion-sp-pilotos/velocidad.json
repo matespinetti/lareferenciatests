@@ -1,0 +1,31 @@
+{
+  "archivos_medidos": 27,
+  "archivos_de_1mb_o_mas": 26,
+  "repositorios": 14,
+  "mb_s_por_archivo": {
+    "p25": 1.09,
+    "p50": 11.92,
+    "p75": 18.73
+  },
+  "mb_s_por_repositorio": {
+    "p25": 1.06,
+    "p50": 6.64,
+    "p75": 16.31
+  },
+  "mediana_por_repositorio": {
+    "ar-adnea": 4.65,
+    "ar-filo-uba": 13.59,
+    "ar-rdu-unc": 15.48,
+    "ar-rephip-unr": 1.55,
+    "ar-scielo": 0.54,
+    "ar-sedici": 18.82,
+    "ar-uca": 8.64,
+    "br-fiocruz": 48.33,
+    "br-ufmg": 40.23,
+    "br-unb": 0.62,
+    "br-unesp": 11.96,
+    "co-udea": 0.93,
+    "cr-kerwa": 1.11,
+    "cr-rbt": 2.03
+  }
+}

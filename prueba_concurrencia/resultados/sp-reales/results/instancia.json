@@ -1,0 +1,11 @@
+{
+  "tipo": "t4g.large",
+  "zona": "sa-east-1a",
+  "vcpu": 2,
+  "memoria_mb": 7802,
+  "kernel": "7.0.0-1014-aws",
+  "docker": "29.1.3",
+  "repositorios": "reales: muestra de LA Referencia",
+  "s3": "s3://prueba-concurrencia-mateo-sp",
+  "carga_web": "450 MB, 0.1 núcleo"
+}

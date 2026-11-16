@@ -1,0 +1,41 @@
+{
+ "pedido": "20261110T140343258-00001",
+ "url": "https://revistas.unne.edu.ar/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "content-length",
+   "32"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 14:03:42 GMT"
+  ],
+  [
+   "etag",
+   "\"20-643fc61545400\""
+  ],
+  [
+   "last-modified",
+   "Thu, 20 Nov 2025 01:11:44 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.41 (Ubuntu)"
+  ],
+  [
+   "set-cookie",
+   "cookiesession1=678A3E3D7ACD70FF1CD155E9E329E8A6;Expires=Wed, 10 Nov 2027 14:03:43 GMT;Path=/;HttpOnly"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

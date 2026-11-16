@@ -1,0 +1,77 @@
+{
+ "pedido": "20261110T140343258-00006",
+ "url": "https://sedici.unlp.edu.ar/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 14:03:43 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "set-cookie",
+   "JSESSIONID=B2784F99F16076FED9D65AD29D5D5026; Path=/; HttpOnly"
+  ],
+  [
+   "x-cocoon-version",
+   "2.2.0"
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Tue, 10 Nov 2026 15:03:43 GMT"
+  ],
+  [
+   "last-modified",
+   "Fri, 16 Oct 2026 11:17:19 GMT"
+  ],
+  [
+   "content-language",
+   "es-AR"
+  ],
+  [
+   "vary",
+   "Accept-Encoding"
+  ],
+  [
+   "content-encoding",
+   "gzip"
+  ],
+  [
+   "x-frame-options",
+   "SAMEORIGIN"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "1; mode=block"
+  ],
+  [
+   "x-cache",
+   "MISS"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

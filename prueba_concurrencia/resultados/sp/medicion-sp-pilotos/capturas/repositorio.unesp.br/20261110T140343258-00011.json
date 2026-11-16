@@ -1,0 +1,41 @@
+{
+ "pedido": "20261110T140343258-00011",
+ "url": "https://repositorio.unesp.br/robots.txt",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Tue, 10 Nov 2026 14:03:44 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "3607"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "set-cookie",
+   "INGRESSCOOKIE=1794319425.301.1576.256721|f827bb03a94e5340f49fa2a9a771b1e9; Path=/; Secure; HttpOnly"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "etag",
+   "W/\"e17-UR7auEkKMxPeEvOE8qaCOpp/SLY\""
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

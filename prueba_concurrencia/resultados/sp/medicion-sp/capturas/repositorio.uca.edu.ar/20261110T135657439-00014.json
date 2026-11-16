@@ -1,0 +1,45 @@
+{
+ "pedido": "20261110T135657439-00014",
+ "url": "https://repositorio.uca.edu.ar/bitstream/123456789/5547/1/inspiraciones-constitucionales-factor-religioso.pdf",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.18.0"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:57:32 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf"
+  ],
+  [
+   "content-length",
+   "1013796"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "last-modified",
+   "Thu, 06 Jun 2019 04:12:10 GMT"
+  ],
+  [
+   "link",
+   "https://repositorio.uca.edu.ar/handle/123456789/5547; rel=\"collection\""
+  ],
+  [
+   "server-timing",
+   "dtTrId;desc=\"89a93f329dca988927cc3e2c03ca7e51\", dtSInfo;desc=\"0\""
+  ],
+  [
+   "server-timing",
+   "dtRpid;desc=\"-359746493\""
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

@@ -1,0 +1,57 @@
+{
+ "pedido": "20261110T135657439-00081",
+ "url": "https://rephip.unr.edu.ar/bitstreams/ebcb89b8-50c6-4421-b801-516a873466c5/download",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.28.3 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 14:00:36 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "119"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1794319282"
+  ],
+  [
+   "link",
+   "<https://rephip.unr.edu.ar/signposting/linksets/3193dab5-506d-4070-9ecc-913ceb825810> ; rel=\"linkset\" ; type=\"application/linkset\" , <https://rephip.unr.edu.ar/signposting/linksets/3193dab5-506d-4070-9ecc-913ceb825810/json> ; rel=\"linkset\" ; type=\"application/linkset+json\" , <https://rephip.unr.edu.ar/items/3193dab5-506d-4070-9ecc-913ceb825810> ; rel=\"collection\" ; type=\"text/html\""
+  ],
+  [
+   "location",
+   "https://rephip.unr.edu.ar/server/api/core/bitstreams/ebcb89b8-50c6-4421-b801-516a873466c5/content"
+  ],
+  [
+   "vary",
+   "Accept"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

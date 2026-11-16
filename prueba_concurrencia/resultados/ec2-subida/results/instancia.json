@@ -1,0 +1,8 @@
+{
+  "tipo": "c6gn.xlarge",
+  "vcpu": 4,
+  "memoria_mb": 7756,
+  "sistema": "Linux-7.0.0-1014-aws-aarch64-with-glibc2.39",
+  "python": "3.12.3",
+  "aiohttp": "3.14.5"
+}

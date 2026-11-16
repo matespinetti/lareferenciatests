@@ -1,0 +1,101 @@
+{
+ "pedido": "20261110T135657439-00031",
+ "url": "https://api.arca.fiocruz.br/api/core/bitstreams/6215b892-c758-45b0-bd52-17c256f7087c/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:58:00 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "1025380"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "dspace-xsrf-token",
+   "57acbe47-933b-40ea-a5c4-9abcdefcf9f3"
+  ],
+  [
+   "set-cookie",
+   "DSPACE-XSRF-COOKIE=57acbe47-933b-40ea-a5c4-9abcdefcf9f3; Path=/; Secure; HttpOnly; SameSite=None"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Tue, 20 Oct 2026 02:59:48 GMT"
+  ],
+  [
+   "etag",
+   "\"b29d1e8223033ed8b66ec110d1bb48b9\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Tue, 10 Nov 2026 14:58:00 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"AArandas_Rego_IOC_1989.pdf\"; filename*=UTF-8''AArandas_Rego_IOC_1989.pdf"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubdomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

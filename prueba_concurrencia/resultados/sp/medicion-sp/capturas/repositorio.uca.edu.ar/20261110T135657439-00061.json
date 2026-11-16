@@ -1,0 +1,53 @@
+{
+ "pedido": "20261110T135657439-00061",
+ "url": "https://repositorio.uca.edu.ar/bitstream/123456789/508/11/Documental%20Proyecto%20NOUS.mp4",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.18.0"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:59:34 GMT"
+  ],
+  [
+   "content-type",
+   "video/mp4"
+  ],
+  [
+   "content-length",
+   "1876593140"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "last-modified",
+   "Wed, 30 Aug 2023 11:51:05 GMT"
+  ],
+  [
+   "link",
+   "https://repositorio.uca.edu.ar/handle/123456789/508; rel=\"collection\""
+  ],
+  [
+   "content-disposition",
+   "attachment;filename=Documental Proyecto NOUS.mp4"
+  ],
+  [
+   "etag",
+   "\"1693396266:dtagent103492610201219388VL/\""
+  ],
+  [
+   "server-timing",
+   "dtTrId;desc=\"070c0f75475b0a39630522f9549460e9\", dtSInfo;desc=\"0\""
+  ],
+  [
+   "server-timing",
+   "dtRpid;desc=\"-795347925\""
+  ]
+ ],
+ "truncado": true,
+ "tipo": "medicion"
+}

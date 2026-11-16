@@ -1,0 +1,21 @@
+{
+ "pedido": "20261110T135657439-00096",
+ "url": "http://repositorio.unb.br/bitstream/10482/47971/1/2021_DanielleGaldinoSolouki.pdf",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "cache-control",
+   "no-cache"
+  ],
+  [
+   "content-length",
+   "0"
+  ],
+  [
+   "location",
+   "https://repositorio.unb.br/bitstream/10482/47971/1/2021_DanielleGaldinoSolouki.pdf"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

@@ -1,0 +1,57 @@
+{
+ "pedido": "20261110T135657439-00063",
+ "url": "https://repositorio.unesp.br/bitstreams/9dcb3c3e-5eea-41a2-a81b-5936b86e3248/download",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:59:32 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "122"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "ratelimit-policy",
+   "160;w=60"
+  ],
+  [
+   "ratelimit-limit",
+   "160"
+  ],
+  [
+   "ratelimit-remaining",
+   "159"
+  ],
+  [
+   "ratelimit-reset",
+   "60"
+  ],
+  [
+   "location",
+   "https://repositorio.unesp.br/server/api/core/bitstreams/9dcb3c3e-5eea-41a2-a81b-5936b86e3248/content"
+  ],
+  [
+   "vary",
+   "Accept"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

@@ -1,0 +1,57 @@
+{
+ "pedido": "20261110T135657439-00090",
+ "url": "https://repositorio.ufmg.br//bitstreams/02d8ead3-244e-40ec-a1a2-0a164d18cb80/download",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Tue, 10 Nov 2026 14:01:30 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "121"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1794319333"
+  ],
+  [
+   "link",
+   "<https://repositorio.ufmg.br//signposting/linksets/0011c69d-f396-4ef2-b5d9-d3ca29e65fc7> ; rel=\"linkset\" ; type=\"application/linkset\" , <https://repositorio.ufmg.br//signposting/linksets/0011c69d-f396-4ef2-b5d9-d3ca29e65fc7/json> ; rel=\"linkset\" ; type=\"application/linkset+json\" , <https://repositorio.ufmg.br//items/0011c69d-f396-4ef2-b5d9-d3ca29e65fc7> ; rel=\"collection\" ; type=\"text/html\""
+  ],
+  [
+   "location",
+   "https://repositorio.ufmg.br/server/api/core/bitstreams/02d8ead3-244e-40ec-a1a2-0a164d18cb80/content"
+  ],
+  [
+   "vary",
+   "Accept"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=15724800; includeSubDomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

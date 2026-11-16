@@ -1,0 +1,57 @@
+{
+ "pedido": "20261110T135657439-00017",
+ "url": "https://arca.fiocruz.br/bitstreams/6215b892-c758-45b0-bd52-17c256f7087c/download",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "server",
+   "nginx"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:57:28 GMT"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "114"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1794319055"
+  ],
+  [
+   "link",
+   ""
+  ],
+  [
+   "location",
+   "https://api.arca.fiocruz.br/api/core/bitstreams/6215b892-c758-45b0-bd52-17c256f7087c/content"
+  ],
+  [
+   "vary",
+   "Accept"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubdomains"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

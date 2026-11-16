@@ -1,0 +1,97 @@
+{
+ "pedido": "20261110T135657439-00029",
+ "url": "https://rephip.unr.edu.ar/server/api/core/bitstreams/3723b615-fe62-4094-ab00-c5ee76955eae/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.28.3 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:57:59 GMT"
+  ],
+  [
+   "content-type",
+   "application/octet-stream;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "1116558"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "dspace-xsrf-token",
+   "0d839d82-724c-4045-8160-e2f10ac7528b"
+  ],
+  [
+   "set-cookie",
+   "DSPACE-XSRF-COOKIE=0d839d82-724c-4045-8160-e2f10ac7528b; Path=/server; Secure; HttpOnly; SameSite=None"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Mon, 06 Nov 2023 14:15:06 GMT"
+  ],
+  [
+   "etag",
+   "\"e127f648cb20046a9dce3ff2a943e05e\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Tue, 10 Nov 2026 14:57:59 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "attachment; filename=\"33 34 Peruzzo Riccardi Basile Garcia.xps\"; filename*=UTF-8''33%2034%20Peruzzo%20Riccardi%20Basile%20Garcia.xps"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

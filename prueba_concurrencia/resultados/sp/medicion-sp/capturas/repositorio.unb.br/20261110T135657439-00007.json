@@ -1,0 +1,21 @@
+{
+ "pedido": "20261110T135657439-00007",
+ "url": "http://repositorio.unb.br/robots.txt",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "cache-control",
+   "no-cache"
+  ],
+  [
+   "content-length",
+   "0"
+  ],
+  [
+   "location",
+   "https://repositorio.unb.br/robots.txt"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "pagina"
+}

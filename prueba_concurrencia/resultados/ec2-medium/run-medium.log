@@ -1,0 +1,12 @@
+Instancia simulada: c6gn.medium · servidor en 3 proceso(s) · núcleos: 4
+Límite de archivos abiertos: 65535
+== escenario b120
+servidor simulado en https://*.sim.localhost:8443-8445 (escenario b120, red de c6gn.medium: 190.7 MB/s, 3 proceso(s))
+escenario b120 (corrutinas, red de c6gn.medium): 3336 pedidos, 0 violaciones, errores {}
+== escenario s120
+S3 falso en https://s3.sim.localhost:9443
+servidor simulado en https://*.sim.localhost:8443-8445 (escenario s120, red de c6gn.medium: 190.7 MB/s, 3 proceso(s))
+escenario s120 (corrutinas, red de c6gn.medium): 2854 pedidos, 0 violaciones, errores {}
+informe en report.md
+
+Listo: report.md. Con results/tiempos.csv buscá en CloudWatch el CPUCreditBalance de cada escenario.

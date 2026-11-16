@@ -1,0 +1,21 @@
+Red del host para el motor (sin el puente de Docker): resultados como <paso>-host.
+Muestra: 71848 ítems de 270 repositorios útiles.
+Subida a S3 real: s3://prueba-concurrencia-mateo-sp/prueba-concurrencia/   User-Agent con contacto mateospinetti1@gmail.com
+time="2026-11-13T12:23:10Z" level=warning msg="Docker Compose is configured to build using Bake, but buildx isn't installed"
+ Container candidata-postgres-1  Running
+ Container candidata-postgres-1  Waiting
+ Container candidata-postgres-1  Healthy
+ Container candidata-web-simulada-1  Creating
+ Container candidata-web-simulada-1  Created
+ Container candidata-web-simulada-1  Starting
+ Container candidata-web-simulada-1  Started
+Carga de la API y el frontend: 450 MB y 0.1 de un núcleo.
+== paso r75h-host
+ Container candidata-postgres-1  Running
+escenario r75h (repositorios reales, parte 1/1): 247095 pedidos a 267 repositorios, 0 violaciones de cortesía, 31 abandonados, errores {"http_404": 4679, "http_403": 332, "ClientConnectorError": 108, "http_301": 1476, "http_500": 188, "ClientConnectorDNSError": 3, "http_502": 70, "ConnectionTimeoutError": 46, "ServerDisconnectedError": 7, "TooManyRedirects": 18, "SocketTimeoutError": 66, "ClientPayloadError": 5}
+EOF
+ Container candidata-web-simulada-1  Stopping
+ Container candidata-web-simulada-1  Stopped
+informe en results/report.md
+
+Listo: report.md y results/. PostgreSQL sigue corriendo; para bajarlo: docker compose -f docker/compose.candidata.yaml down -v

@@ -1,0 +1,89 @@
+{
+ "pedido": "20261110T135657439-00053",
+ "url": "https://rephip.unr.edu.ar/server/api/core/bitstreams/14e0b160-6596-4896-be72-91820dfa9092/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "nginx/1.28.3 (Ubuntu)"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:59:00 GMT"
+  ],
+  [
+   "content-type",
+   "application/octet-stream;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "3152111"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Mon, 06 Nov 2023 14:05:59 GMT"
+  ],
+  [
+   "etag",
+   "\"9debcd0cf7be05eecd4ae135502ff645\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Tue, 10 Nov 2026 14:59:01 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "attachment; filename=\"9-Donde estara el bien que adoro.mp3\"; filename*=UTF-8''9-D%C3%B3nde%20estara%20el%20bien%20que%20adoro.mp3"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

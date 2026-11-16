@@ -1,0 +1,21 @@
+{
+ "pedido": "20261110T135657439-00072",
+ "url": "http://repositorio.unb.br/bitstream/10482/53237/1/LucasDemetriusLimaDeFreitas_DISSERT.pdf",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "cache-control",
+   "no-cache"
+  ],
+  [
+   "content-length",
+   "0"
+  ],
+  [
+   "location",
+   "https://repositorio.unb.br/bitstream/10482/53237/1/LucasDemetriusLimaDeFreitas_DISSERT.pdf"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

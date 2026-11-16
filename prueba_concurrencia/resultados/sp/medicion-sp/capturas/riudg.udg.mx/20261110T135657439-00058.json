@@ -1,0 +1,49 @@
+{
+ "pedido": "20261110T135657439-00058",
+ "url": "https://riudg.udg.mx/password-login",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Tue, 10 Nov 2026 12:53:09 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.6.40"
+  ],
+  [
+   "expires",
+   "Thu, 01 Jan 1970 00:00:00 GMT"
+  ],
+  [
+   "pragma",
+   "no-cache"
+  ],
+  [
+   "cache-control",
+   "no-store"
+  ],
+  [
+   "content-type",
+   "text/html;charset=UTF-8"
+  ],
+  [
+   "content-language",
+   "es"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ],
+  [
+   "transfer-encoding",
+   "chunked"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

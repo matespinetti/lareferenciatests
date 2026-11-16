@@ -1,0 +1,93 @@
+{
+ "pedido": "20261110T135657439-00030",
+ "url": "https://repositorio.unesp.br/server/api/core/bitstreams/99c05735-e9e7-420b-a53e-4c00f56464f1/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:58:00 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "1187038"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "dspace-xsrf-token",
+   "b8f46000-4287-49f7-8e4e-d59f4a485437"
+  ],
+  [
+   "set-cookie",
+   "DSPACE-XSRF-COOKIE=b8f46000-4287-49f7-8e4e-d59f4a485437; Path=/server; Secure; HttpOnly; SameSite=None"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Tue, 03 May 2016 16:43:00 GMT"
+  ],
+  [
+   "etag",
+   "\"6137096b78839a581be399221676513a\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Tue, 10 Nov 2026 14:58:00 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"loureiro_ba_dr_jabo_int.pdf\"; filename*=UTF-8''loureiro_ba_dr_jabo_int.pdf"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "0"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "x-frame-options",
+   "DENY"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

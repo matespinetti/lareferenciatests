@@ -1,0 +1,113 @@
+{
+ "pedido": "20261110T135657439-00025",
+ "url": "https://rdu.unc.edu.ar/server/api/core/bitstreams/b0a5a395-90ee-4dff-8a3f-85e785829731/content",
+ "codigo": 200,
+ "encabezados": [
+  [
+   "server",
+   "Tengine"
+  ],
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:57:58 GMT"
+  ],
+  [
+   "content-type",
+   "application/pdf;charset=UTF-8"
+  ],
+  [
+   "content-length",
+   "1005034"
+  ],
+  [
+   "connection",
+   "keep-alive"
+  ],
+  [
+   "vary",
+   "Origin"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Method"
+  ],
+  [
+   "vary",
+   "Access-Control-Request-Headers"
+  ],
+  [
+   "set-cookie",
+   "DSPACE-XSRF-COOKIE=1836ae90-5368-4a7c-9643-e84d0a85ddc1; Path=/server; Secure; HttpOnly; SameSite=None"
+  ],
+  [
+   "dspace-xsrf-token",
+   "1836ae90-5368-4a7c-9643-e84d0a85ddc1"
+  ],
+  [
+   "content-language",
+   "en"
+  ],
+  [
+   "last-modified",
+   "Wed, 31 Aug 2016 14:13:40 GMT"
+  ],
+  [
+   "etag",
+   "\"f74c9ee6e3a11e6cb0bf3f87aa61af4a\""
+  ],
+  [
+   "accept-ranges",
+   "bytes"
+  ],
+  [
+   "expires",
+   "Tue, 10 Nov 2026 14:57:58 GMT"
+  ],
+  [
+   "cache-control",
+   "private,no-cache"
+  ],
+  [
+   "access-control-expose-headers",
+   "Accept-Ranges"
+  ],
+  [
+   "content-disposition",
+   "inline; filename=\"Paralaje, nova y evidencia: es posible defender la historia interna frente a la historia social de la ciencia?.pdf\"; filename*=UTF-8''Paralaje%2C%20nova%20y%20evidencia%3A%20%C2%BFes%20posible%20defender%20la%20historia%20interna%20frente%20a%20la%20historia%20social%20de%20la%20ciencia%3F.pdf"
+  ],
+  [
+   "x-content-type-options",
+   "nosniff"
+  ],
+  [
+   "x-xss-protection",
+   "1; mode=block"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000 ; includeSubDomains"
+  ],
+  [
+   "strict-transport-security",
+   "max-age=31536000; includeSubDomains"
+  ],
+  [
+   "front-end-https",
+   "on"
+  ],
+  [
+   "access-control-allow-methods",
+   "GET, POST, OPTIONS"
+  ],
+  [
+   "access-control-allow-headers",
+   "Origin, X-Requested-With, Content-Type, Accept, X-Correlation-ID, X-Referrer"
+  ],
+  [
+   "content-security-policy",
+   "frame-ancestors 'self' https://dspace-rdu-1.psi.unc.edu.ar"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

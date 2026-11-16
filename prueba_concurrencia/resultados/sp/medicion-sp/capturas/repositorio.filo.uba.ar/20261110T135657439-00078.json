@@ -1,0 +1,61 @@
+{
+ "pedido": "20261110T135657439-00078",
+ "url": "https://repositorio.filo.uba.ar/bitstreams/7fd4f425-4ab8-4c52-8da8-c4b18c81c933/download",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "date",
+   "Tue, 10 Nov 2026 13:59:35 GMT"
+  ],
+  [
+   "server",
+   "Apache/2.4.62 (Debian)"
+  ],
+  [
+   "x-powered-by",
+   "Express"
+  ],
+  [
+   "x-ratelimit-limit",
+   "500"
+  ],
+  [
+   "x-ratelimit-remaining",
+   "499"
+  ],
+  [
+   "x-ratelimit-reset",
+   "1794319234"
+  ],
+  [
+   "link",
+   "<https://repositorio.filo.uba.ar/signposting/linksets/01b7d659-7e03-4f06-b6ce-8721b15b9fc9> ; rel=\"linkset\" ; type=\"application/linkset\" , <https://repositorio.filo.uba.ar/signposting/linksets/01b7d659-7e03-4f06-b6ce-8721b15b9fc9/json> ; rel=\"linkset\" ; type=\"application/linkset+json\" , <https://repositorio.filo.uba.ar/entities/publication/01b7d659-7e03-4f06-b6ce-8721b15b9fc9> ; rel=\"collection\" ; type=\"text/html\""
+  ],
+  [
+   "location",
+   "https://repositorio.filo.uba.ar/server/api/core/bitstreams/7fd4f425-4ab8-4c52-8da8-c4b18c81c933/content"
+  ],
+  [
+   "vary",
+   "Accept"
+  ],
+  [
+   "content-type",
+   "text/plain; charset=utf-8"
+  ],
+  [
+   "content-length",
+   "125"
+  ],
+  [
+   "keep-alive",
+   "timeout=5, max=100"
+  ],
+  [
+   "connection",
+   "Keep-Alive"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}

@@ -1,0 +1,146 @@
+Red del host para el motor (sin el puente de Docker): resultados como <escenario>-host.
+Subida a S3 real: s3://prueba-concurrencia-mateo-sp/prueba-concurrencia/
+Servidor simulado en 172.31.15.96:8443-8444: responde.
+time="2026-11-10T14:16:10Z" level=warning msg="Docker Compose is configured to build using Bake, but buildx isn't installed"
+ postgres Pulling 
+ 09af4c0dc8e4 Pulling fs layer 
+ b62cfd694ac5 Pulling fs layer 
+ 528f62cbb047 Pulling fs layer 
+ 5f673eeeca6c Pulling fs layer 
+ d3ab6d1d4686 Pulling fs layer 
+ c8892fb6605d Pulling fs layer 
+ d57034821ea1 Pulling fs layer 
+ 2e7d750def32 Pulling fs layer 
+ 986e0bde1dbd Pulling fs layer 
+ 48f6184c4e06 Pulling fs layer 
+ 2a88807286ca Pulling fs layer 
+ 15da4f5f383a Pulling fs layer 
+ b4bcceb1eca6 Pulling fs layer 
+ 09af4c0dc8e4 Download complete 
+ b62cfd694ac5 Download complete 
+ b62cfd694ac5 Extracting 1 s
+ 528f62cbb047 Download complete 
+ 5f673eeeca6c Downloading [=========================>                         ]  3.146MB/6.235MB
+ d3ab6d1d4686 Downloading [==================================================>]   1.21MB/1.21MB
+ 986e0bde1dbd Downloading [==================================================>]     127B/127B
+ 2e7d750def32 Download complete 
+ b4bcceb1eca6 Download complete 
+ b62cfd694ac5 Extracting 1 s
+ 5f673eeeca6c Download complete 
+ d3ab6d1d4686 Download complete 
+ c8892fb6605d Downloading [===============================>                   ]  5.243MB/8.204MB
+ 986e0bde1dbd Download complete 
+ 48f6184c4e06 Downloading [==>                                                ]  5.243MB/111.8MB
+ 2a88807286ca Download complete 
+ d57034821ea1 Download complete 
+ 15da4f5f383a Download complete 
+ b62cfd694ac5 Extracting 1 s
+ 48f6184c4e06 Downloading [=======>                                           ]  17.83MB/111.8MB
+ c8892fb6605d Download complete 
+ b62cfd694ac5 Pull complete 
+ 5f673eeeca6c Extracting 1 s
+ 48f6184c4e06 Downloading [==============>                                    ]  32.51MB/111.8MB
+ 8ac47f7d8044 Download complete 
+ ea0b9cb4b005 Downloading [==================>                                ]  2.097MB/5.721MB
+ 5f673eeeca6c Extracting 1 s
+ ea0b9cb4b005 Download complete 
+ 48f6184c4e06 Downloading [===================>                               ]  44.04MB/111.8MB
+ 5f673eeeca6c Extracting 1 s
+ 48f6184c4e06 Downloading [=========================>                         ]  56.62MB/111.8MB
+ 5f673eeeca6c Pull complete 
+ 48f6184c4e06 Downloading [===============================>                   ]   71.3MB/111.8MB
+ d3ab6d1d4686 Pull complete 
+ c8892fb6605d Extracting 1 s
+ 48f6184c4e06 Downloading [=====================================>             ]  84.93MB/111.8MB
+ c8892fb6605d Extracting 1 s
+ 48f6184c4e06 Downloading [============================================>      ]  98.57MB/111.8MB
+ c8892fb6605d Extracting 1 s
+ 48f6184c4e06 Downloading [=================================================> ]  110.1MB/111.8MB
+ c8892fb6605d Extracting 1 s
+ 48f6184c4e06 Downloading [==================================================>]  111.8MB/111.8MB
+ 48f6184c4e06 Download complete 
+ d57034821ea1 Extracting 1 s
+ c8892fb6605d Pull complete 
+ 528f62cbb047 Pull complete 
+ 2e7d750def32 Pull complete 
+ d57034821ea1 Pull complete 
+ 48f6184c4e06 Extracting 1 s
+ 48f6184c4e06 Extracting 1 s
+ 48f6184c4e06 Extracting 1 s
+ 48f6184c4e06 Extracting 1 s
+ 48f6184c4e06 Extracting 1 s
+ 48f6184c4e06 Extracting 1 s
+ 48f6184c4e06 Extracting 1 s
+ 48f6184c4e06 Extracting 1 s
+ 48f6184c4e06 Extracting 1 s
+ 48f6184c4e06 Extracting 1 s
+ 48f6184c4e06 Extracting 1 s
+ 48f6184c4e06 Extracting 2 s
+ 48f6184c4e06 Extracting 2 s
+ 48f6184c4e06 Extracting 2 s
+ 48f6184c4e06 Extracting 2 s
+ 48f6184c4e06 Extracting 2 s
+ 48f6184c4e06 Extracting 2 s
+ 48f6184c4e06 Extracting 2 s
+ 48f6184c4e06 Extracting 2 s
+ 48f6184c4e06 Extracting 2 s
+ 48f6184c4e06 Extracting 3 s
+ 48f6184c4e06 Extracting 3 s
+ 48f6184c4e06 Extracting 3 s
+ 48f6184c4e06 Extracting 3 s
+ b4bcceb1eca6 Pull complete 
+ 986e0bde1dbd Pull complete 
+ 2a88807286ca Pull complete 
+ 48f6184c4e06 Pull complete 
+ 09af4c0dc8e4 Pull complete 
+ 15da4f5f383a Pull complete 
+ postgres Pulled 
+ Container candidata-postgres-1  Creating
+ Container candidata-postgres-1  Created
+ Container candidata-postgres-1  Starting
+ Container candidata-postgres-1  Started
+ Container candidata-postgres-1  Waiting
+ Container candidata-postgres-1  Healthy
+ Container candidata-web-simulada-1  Creating
+ Container candidata-web-simulada-1  Created
+ Container candidata-web-simulada-1  Starting
+ Container candidata-web-simulada-1  Started
+Carga de la API y el frontend: 450 MB y 0.1 de un núcleo.
+== escenario t25-host
+ Container candidata-postgres-1  Running
+escenario t25 (corrutinas, red de t4g.large): 2721 pedidos, 0 violaciones, errores {}
+== escenario t50-host
+ Container candidata-postgres-1  Running
+escenario t50 (corrutinas, red de t4g.large): 5049 pedidos, 0 violaciones, errores {}
+== escenario t75-host
+ Container candidata-postgres-1  Running
+escenario t75 (corrutinas, red de t4g.large): 6007 pedidos, 0 violaciones, errores {}
+== escenario t120-host
+ Container candidata-postgres-1  Running
+escenario t120 (corrutinas, red de t4g.large): 6588 pedidos, 0 violaciones, errores {}
+ Container candidata-web-simulada-1  Stopping
+ Container candidata-web-simulada-1  Stopped
+informe en results/report.md
+
+Listo: report.md y results/. PostgreSQL sigue corriendo; para bajarlo: docker compose -f docker/compose.candidata.yaml down -v
+Red del host para el motor (sin el puente de Docker): resultados como <escenario>-host.
+Subidor con el cliente CRT: resultados como <escenario>-host-crt.
+Subida a S3 real: s3://prueba-concurrencia-mateo-sp/prueba-concurrencia/
+Servidor simulado en 172.31.15.96:8443-8444: responde.
+time="2026-11-10T14:32:18Z" level=warning msg="Docker Compose is configured to build using Bake, but buildx isn't installed"
+ Container candidata-postgres-1  Running
+ Container candidata-postgres-1  Waiting
+ Container candidata-postgres-1  Healthy
+ Container candidata-web-simulada-1  Recreate
+ Container candidata-web-simulada-1  Recreated
+ Container candidata-web-simulada-1  Starting
+ Container candidata-web-simulada-1  Started
+Carga de la API y el frontend: 450 MB y 0.1 de un núcleo.
+== escenario t50-host-crt
+ Container candidata-postgres-1  Running
+escenario t50 (corrutinas, red de t4g.large): 5049 pedidos, 0 violaciones, errores {}
+ Container candidata-web-simulada-1  Stopping
+ Container candidata-web-simulada-1  Stopped
+informe en results/report.md
+
+Listo: report.md y results/. PostgreSQL sigue corriendo; para bajarlo: docker compose -f docker/compose.candidata.yaml down -v

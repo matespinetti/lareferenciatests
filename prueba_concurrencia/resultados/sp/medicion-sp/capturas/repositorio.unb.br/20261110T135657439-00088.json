@@ -1,0 +1,21 @@
+{
+ "pedido": "20261110T135657439-00088",
+ "url": "http://repositorio.unb.br/bitstream/10482/44588/1/2019_S%c3%a9rgiodaSilvaSantos.pdf",
+ "codigo": 302,
+ "encabezados": [
+  [
+   "cache-control",
+   "no-cache"
+  ],
+  [
+   "content-length",
+   "0"
+  ],
+  [
+   "location",
+   "https://repositorio.unb.br/bitstream/10482/44588/1/2019_S%c3%a9rgiodaSilvaSantos.pdf"
+  ]
+ ],
+ "truncado": false,
+ "tipo": "medicion"
+}
