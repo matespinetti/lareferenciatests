@@ -14,14 +14,14 @@
 
 | | Archivos por ítem | Sin archivos | Mediana | p95 | Media | Bytes por ítem |
 |---|---|---|---|---|---|---|
-| Por documento | 1.021 | 13% | 1.38 MB | 22.37 MB | 7.60 MB | 7.76 MB |
-| Por repositorio | 1.104 | 5% | 1.65 MB | 27.86 MB | 9.36 MB | 10.33 MB |
-| Sin ponderar | 1.077 | 9% | 1.49 MB | 23.95 MB | 7.74 MB | 8.33 MB |
+| Por documento | 1.079 | 12% | 1.35 MB | 20.63 MB | 7.62 MB | 8.23 MB |
+| Por repositorio | 1.107 | 4% | 1.37 MB | 15.92 MB | 7.07 MB | 7.82 MB |
+| Sin ponderar | 1.114 | 8% | 1.42 MB | 20.85 MB | 6.99 MB | 7.79 MB |
 
 ## Para la prueba de descarga
 
 - 270 repositorios útiles en 200 hosts distintos.
-- 71,848 ítems (22,984 con archivos), 30,790 archivos (29,555 con tamaño, 242.0 GB conocidos).
+- 330,238 ítems (162,425 con archivos), 196,930 archivos (193,868 con tamaño, 1568.1 GB conocidos).
 
 ## Países, plataformas y formatos (útiles)
 

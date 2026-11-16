@@ -19,3 +19,8 @@ prueba_concurrencia/spool-ram/
 # Muestra de LA Referencia: las capturas pesan ~1 GB; se versionan los eventos y los CSV.
 relevamiento_exploratorio/muestra/*/capturas/
 relevamiento_exploratorio/entradas/roar_rawlist.xml
+# Ampliación de la muestra: los eventos pesan ~100 MB (sus ítems quedan en items.csv y archivos.csv).
+relevamiento_exploratorio/muestra/ampliacion/eventos.jsonl
+relevamiento_exploratorio/ampliar.log
+# Configuración de cosecha del IBICT: trae correos de contacto de las revistas.
+relevamiento_exploratorio/entradas/fuentes_ibict.xlsx
