@@ -84,9 +84,10 @@ PAGINAS_SIN_NUEVOS = 2
 """Con `muestra-ampliar`: una ventana se deja cuando da esta cantidad de páginas seguidas sin ítems nuevos
 (servidores que ignoran from/until y devuelven siempre lo mismo)."""
 # Pedido por el usuario (nov 2026): la muestra para probar la app del descargador (`muestra-app`). Los
-# ítems que faltan salen del buscador de LA Referencia: un solo host, de a un pedido, 5 s entre pedidos,
-# y hasta 80 páginas por repositorio (el más grande necesita ~47).
+# ítems que faltan salen del buscador de LA Referencia: un solo host, de a un pedido, 2 s entre pedidos
+# (pedido por el usuario) y hasta 80 páginas por repositorio (el más grande necesita ~47).
 CORTESIA_BUSCADOR = ConfigCortesia(
+    intervalo_minimo=2.0,
     hosts_en_paralelo=1,
     pedidos_por_repo=80,
 )
