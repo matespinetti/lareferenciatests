@@ -1,0 +1,67 @@
+id,repositorio,estrato,documentos,estado,motivo
+m0008,Redined. Red de Información Educativa,A,97471,url_mal_deducida,3 errores de red seguidos
+m0010,idUS. Depósito de Investigación de la Universidad de Sevilla,A,93746,oai_no_encontrado,
+m0047,GREDOS. Repositorio Institucional de la Universidad de Salamanca,B,27599,oai_no_encontrado,
+m0051,Repositorio ICESI,B,23399,no_ubicado,sin_registros
+m0056,Biblioteca Digital de les Illes Balears,B,19896,oai_no_encontrado,
+m0060,Redalyc-UNAM,B,19394,oai_no_encontrado,
+m0062,Repositorio Universidad Javeriana,B,18771,no_ubicado,sin_registros
+m0065,UCrea Repositorio Abierto de la Universidad de Cantabria,B,17612,oai_no_encontrado,
+m0088,Repositorio Universidad de la Sabana,B,12197,no_ubicado,sin_registros
+m0091,Biblioteca Digital (UBA-FCEN),B,11865,no_ubicado,solo_handle
+m0093,Repositorio Institucional USTA,B,11470,no_ubicado,sin_registros
+m0100,RIUR. Repositorio Institucional de la Universidad de La Rioja,B,10558,url_mal_deducida,3 errores de red seguidos
+m0111,UNI-Tesis,C,1246,oai_no_encontrado,
+m0112,RIDAA (UNICEN),C,1496,oai_no_encontrado,
+m0121,UPN-Institucional,C,1329,oai_no_encontrado,
+m0134,USS-Institucional,C,1004,oai_no_encontrado,
+m0136,Repositori Institucional de la Universitat Rovira i Virgili,C,4383,oai_no_encontrado,
+m0140,Repositorio UAM,C,1266,no_ubicado,sin_registros
+m0151,Repositorio UDEM,C,1353,no_ubicado,sin_registros
+m0152,Registro Nacional de Trabajos conducentes a Grados y Títulos - RENATI,C,2305,oai_no_encontrado,
+m0162,Repositorio Uninorte,C,6164,no_ubicado,sin_registros
+m0165,Revistas - Universidad de San Martín de Porres,C,1187,url_mal_deducida,3 errores de red seguidos
+m0169,"e-cienciaDatos, Repositorio de Datos del Consorcio Madroño",C,1426,no_ubicado,sin_host
+m0178,FAUBA Digital (UBA-FAUBA),C,1001,oai_no_encontrado,
+m0184,Estudios Sociológicos,C,1704,url_mal_deducida,3 errores de red seguidos
+m0196,CORA.Repositori de Dades de Recerca,C,2149,no_ubicado,sin_host
+m0202,Repositorio Colegio Mayor de Cundinamarca,C,1505,no_ubicado,sin_registros
+m0255,Repositorio UIS,C,4099,no_ubicado,sin_registros
+m0257,RUNA. Repositorio da Consellería de Sanidade e Sergas,C,7793,url_mal_deducida,3 errores de red seguidos
+m0264,Naturalis (UNLP-FCNyM),C,1846,oai_no_encontrado,
+m0275,Repositorio U. El Bosque,C,3214,no_ubicado,sin_registros
+m0278,Nueva revista de Filología Hispánica,C,3483,url_mal_deducida,3 errores de red seguidos
+m0303,Repositorio EAFIT,C,4282,no_ubicado,sin_registros
+m0313,Repositorio Digital (UNVM),C,1028,oai_no_encontrado,
+m0325,RIDUM - Repositorio Institucional Universidad de Manizales,C,2897,no_ubicado,sin_registros
+m0333,RIUD: repositorio U. Distrital,C,2793,no_ubicado,sin_registros
+m0346,Repositorio Institucional UES,C,1291,no_ubicado,sin_registros
+m0351,ULIMA-Institucional,C,4719,oai_no_encontrado,
+m0360,Historia Mexicana,C,3971,url_mal_deducida,3 errores de red seguidos
+m0381,Repositorio USB,C,2222,no_ubicado,sin_registros
+m0394,UPAO-Tesis,C,1161,oai_no_encontrado,
+m0407,Cannotas. Revista de crítica y teoría literarias.,D,272,url_mal_deducida,3 errores de red seguidos
+m0417,Colecciones Digitales COLMEX,D,261,oai_no_encontrado,
+m0446,"Investigación Bibliotecológica: Archivonomía, Bibliotecología e Información",D,466,oai_no_encontrado,
+m0462,Revista de investigación académica sin frontera,D,538,url_mal_deducida,3 errores de red seguidos
+m0514,UP-Institucional,C,2248,oai_no_encontrado,
+m0520,Repositorio Digital UFPS,C,1237,no_ubicado,sin_registros
+m0522,Repositorio UNA,C,1355,no_ubicado,sin_registros
+m0542,UNHEVAL-Institucional,D,545,oai_no_encontrado,
+m0572,Revista Innova Educación,D,286,oai_no_encontrado,
+m0601,Repositorio Unisucre,D,713,no_ubicado,sin_registros
+m0611,Economía UNAM,D,666,oai_no_encontrado,
+m0617,Revista del Posgrado en Derecho de la UNAM,D,245,url_mal_deducida,3 errores de red seguidos
+m0661,Revista Interdisciplinaria de estudios de género de El Colegio de México,D,212,url_mal_deducida,3 errores de red seguidos
+m0674,Revistas - Universidad César Vallejo,D,498,url_mal_deducida,3 errores de red seguidos
+m0688,Repositorio Institucional UFG,D,331,no_ubicado,sin_registros
+m0690,Psicumex,D,205,url_mal_deducida,3 errores de red seguidos
+m0697,Frontera Norte,E,80,url_mal_deducida,3 errores de red seguidos
+m0698,Biblioteca Digital Agropecuaria de Colombia - Agrosavia,E,16,no_ubicado,sin_registros
+m0717,Repositorio Institucional RIUnADM,E,5,oai_no_encontrado,
+m0719,Repositorio Institucional UAN,E,1,no_ubicado,sin_registros
+m0747,Abanico Veterinario,E,2,oai_no_encontrado,
+m0749,REDICUC - Repositorio CUC,E,14,no_ubicado,sin_registros
+m0758,Abanico Agroforestal,E,32,oai_no_encontrado,
+m0761,Repositorio UniAri,E,73,no_ubicado,sin_registros
+m0784,Repositorio Digital de la Academia Nacional de Medicina,E,66,oai_no_encontrado,

@@ -1,0 +1,726 @@
+id,repositorio,estrato,peso,documentos,pais,estado,motivo,plataforma,version,oai_endpoint,oai_fuente,formato,host,endpoint_ibict,software_ibict,items_objetivo,items_oai,items_buscador,resultados_buscador
+m0001,Repositório Institucional da USP (Biblioteca Digital da Produção Intelectual),A,1.095,231604,BR,ok,sin_host,,,https://repositorio.usp.br/oai/request/oai2.php,ibict,oai_dc,repositorio.usp.br,https://repositorio.usp.br/oai/request/oai2.php,DSpace,4633,50,4500,231604
+m0002,DIGITAL.CSIC. Repositorio Institucional del CSIC,A,1.095,204213,ES,ok,,dspace,,http://digital.csic.es/dspace-oai/request,roar,mets,digital.csic.es,,,4085,1700,2385,189977
+m0003,CONICET Digital (CONICET),A,1.095,157227,AR,oai_vacio,noRecordsMatch,dspace,10.1,https://ri.conicet.gov.ar/server/oai/request,csv,mets,ri.conicet.gov.ar,,,3145,0,3145,157227
+m0004,Repositório Institucional da UNESP,A,1.095,149245,BR,ok,,dspace,10.0,https://repositorio.unesp.br/server/oai/request,csv,mets,repositorio.unesp.br,https://repositorio.unesp.br/server/oai/request,DSpace,2985,2001,984,149245
+m0005,Biblioteca Digital de Teses e Dissertações da USP,A,1.095,137459,BR,caido,3 errores de red seguidos,,,,,,teses.usp.br,https://teses.usp.br/cgi-bin/oai2.pl,Outros,2750,0,2750,137459
+m0006,Recercat. Dipósit de la Recerca de Catalunya,A,1.095,132848,ES,antibot,cloudflare,,,,,,recercat.cat,,,2657,0,2657,138410
+m0007,Dipòsit Digital de Documents de la UAB,A,1.095,117858,ES,ok,,,,https://ddd.uab.cat/oai2d,sondeo_extra,marcxml,ddd.uab.cat,,,2358,360,1998,119188
+m0009,SciELO Chile,A,1.095,96846,CL,antibot,cloudflare,,,,,,www.scielo.cl,,,1937,0,1937,99434
+m0011,Dipòsit Digital de la UB,A,1.095,77488,ES,ok,,dspace,7.6.6,https://diposit.ub.edu/server/oai/request,sondeo,ore,diposit.ub.edu,,,1550,1550,0,
+m0012,Repositorio de Tesis de la UNAM,A,1.095,77322,MX,rechazo_403,2 respuestas 403 seguidas,dspace,8.2-SNAPSHOT,,,,ru.dgb.unam.mx,,,1547,0,1547,77322
+m0013,UPCommons. Portal del coneixement obert de la UPC,A,1.095,76675,ES,ok,,dspace,8.2,https://upcommons.upc.edu/server/oai/request,sondeo,mets,upcommons.upc.edu,,,1534,1534,0,
+m0014,UCV-Institucional,A,1.095,74169,PE,ok,,dspace,6.3,https://repositorio.ucv.edu.pe/oai/request,sondeo,mets,repositorio.ucv.edu.pe,,,1484,512,972,74169
+m0015,Docta Complutense,A,1.095,73257,ES,sin_formato,,dspace,7.6.5,https://docta.ucm.es/rest/oai/request,sondeo,,docta.ucm.es,,,1466,0,1466,75817
+m0016,SEDICI (UNLP),A,1.095,62508,AR,ok,,dspace,5.10-SNAPSHOT,https://sedici.unlp.edu.ar/oai/request,csv,oai_dc,sedici.unlp.edu.ar,,,1251,1251,0,
+m0017,Repositório Institucional da UFSC,A,1.095,61938,BR,antibot,anti-bot: turnstile,,,,,,repositorio.ufsc.br,https://repositorio.ufsc.br/oai/request,DSpace,1239,0,1239,61938
+m0018,Repositorio UN,A,1.095,60707,CO,ok,,dspace,7.6.5,https://bffrepositorio.unal.edu.co/server/oai/request,sondeo,mets,repositorio.unal.edu.co,,,1215,1215,0,
+m0019,Repositório Institucional do STJ,A,1.095,59732,BR,antibot,cloudflare,,,,,,bdjur.stj.jus.br,https://bdjur.stj.jus.br/server/oai/request,DSpace,1195,0,1195,59706
+m0020,Biblioteca Digital de Teses e Dissertações da Universidade Estadual de Campinas (UNICAMP),A,1.095,53917,BR,oai_vacio,timeout_lectura,,,https://repositorio.unicamp.br/oai/tese/oai.asp,ibict,oai_dc,repositorio.unicamp.br,https://repositorio.unicamp.br/oai/tese/oai.asp,Sophia,1079,0,1079,53917
+m0021,Biblioteca Digital de Teses e Dissertações da UFRGS,A,1.095,50617,BR,caido,3 errores de red seguidos,,,,,,www.lume.ufrgs.br,,,1013,0,1013,50617
+m0022,RiuNet. Repositorio Institucional de la Universitat Politécnica de Valéncia,A,1.095,50458,ES,ok,,dspace,7.6.6,https://riunet.upv.es/server/oai/request,sondeo,mets,riunet.upv.es,,,1010,1010,0,
+m0023,Repositório Institucional da UFMG,A,1.095,50279,BR,ok,,dspace,8.2,https://repositorio.ufmg.br/server/oai/request,csv,mets,repositorio.ufmg.br,https://repositorio.ufmg.br/server/oai/request,DSpace,1006,1006,0,
+m0024,Repositório Institucional da Universidade Federal do Ceará (UFC),B,1.141,48818,BR,caido,3 errores de red seguidos,,,,,,repositorio.ufc.br,https://repositorio.ufc.br/ri-oai/request,DSpace,977,0,977,48818
+m0025,TDR. Tesis Doctorales en Red,B,1.141,46800,ES,antibot,cloudflare,,,,,,www.tdx.cat,,,936,0,936,46800
+m0026,Biblos-e Archivo. Repositorio Institucional de la UAM,B,1.141,45862,ES,ok,,dspace,7.6.5,https://repositorio.uam.es/server/oai/request,sondeo,xoai,repositorio.uam.es,,,918,918,0,
+m0027,Repositório Institucional da UnB,B,1.141,43492,BR,ok,,dspace,6.4,https://repositorio.unb.br/oai/request,csv,mets,repositorio.unb.br,https://repositorio.unb.br/oai/request,DSpace,870,870,0,
+m0028,Repositório Institucional da UFRGS,B,1.141,43447,BR,caido,3 errores de red seguidos,,,,,,www.lume.ufrgs.br,,,869,0,869,13777
+m0029,Repositório Institucional da EMBRAPA (Repository Open Access to Scientific Information from EMBRAPA - Alice),B,1.141,43176,BR,ok,,dspace,5,https://www.alice.cnptia.embrapa.br/oai/request,sondeo,mets,www.alice.cnptia.embrapa.br,https://www.alice.cnptia.embrapa.br/oai/request,DSpace,864,864,0,
+m0030,Repositório Institucional da FIOCRUZ (ARCA),B,1.141,40146,BR,ok,,dspace,9.3,https://api.arca.fiocruz.br/oai/request,sondeo,mets,arca.fiocruz.br,https://api.arca.fiocruz.br/oai/request,DSpace,803,803,0,
+m0031,Archivo Digital UPM,B,1.141,36913,ES,ok,,eprints,3.4.4,https://oa.upm.es/cgi/oai2,sondeo,mets,oa.upm.es,,,739,739,0,
+m0032,Zaguán. Repositorio Digital de la Universidad de Zaragoza,B,1.141,36094,ES,ok,,,,https://zaguan.unizar.es/oai2d,sondeo_extra,marcxml,zaguan.unizar.es,,,722,722,0,
+m0033,Articulos_ANID,B,1.141,35882,CL,sitio_con_error,,dspace,,,,,repositorio.anid.cl,,,718,0,718,38837
+m0034,Dadun. Depósito Académico Digital de la Universidad de Navarra,B,1.141,35846,ES,rechazo_403,2 respuestas 403 seguidas,,,,,,dadun.unav.edu,,,717,0,717,35903
+m0035,Addi. Archivo Digital para la Docencia y la Investigación,B,1.141,34960,ES,antibot,anti-bot: captcha,,,,,,addi.ehu.eus,,,700,0,700,35277
+m0036,Portal de Revistas UCR,B,1.141,33357,CR,oai_vacio,,ojs,3.4.0.9,https://revistas.ucr.ac.cr/index.php/index/oai,sondeo,oai_dc,portal.ucr.ac.cr,,,668,0,668,33357
+m0037,Repositório Institucional da UFPE,B,1.141,32750,BR,ok,,dspace,6.3,https://repositorio.ufpe.br/oai/request,sondeo,mets,repositorio.ufpe.br,https://repositorio.ufpe.br/oai/request,DSpace,655,270,385,32750
+m0038,UVaDOC. Repositorio Documental de la Universidad de Valladolid,B,1.141,32562,ES,ok,,dspace,9.3,https://uvadoc.uva.es/server/oai/request,sondeo,mets,uvadoc.uva.es,,,652,652,0,
+m0039,Repositório Institucional da UFPR,B,1.141,32168,BR,ok,,dspace,6.5-SNAPSHOT,https://acervodigital.ufpr.br/oai/request,sondeo,mets,acervodigital.ufpr.br,https://acervodigital.ufpr.br/oai/request,DSpace,644,644,0,
+m0040,LOCUS Repositório Institucional da UFV,B,1.141,32027,BR,ok,,dspace,9.2,https://locus.ufv.br/server/oai/request,sondeo,mets,locus.ufv.br,https://locus.ufv.br/server/oai/request,DSpace,641,641,0,
+m0041,DIGITUM. Depósito Digital Institucional de la Universidad de Murcia,B,1.141,30472,ES,rechazo_403,2 respuestas 403 seguidas,,,,,,digitum.um.es,,,610,0,610,51772
+m0042,PUCP-Institucional,B,1.141,29615,PE,antibot,anti-bot: anubis,,,,,,repositorio.pucp.edu.pe,,,593,0,593,29615
+m0043,Repositório Institucional da UFBA,B,1.141,29146,BR,oai_roto,,,,,,,repositorio.ufba.br,https://repositorio.ufba.br/oai/request,DSpace,583,0,583,29138
+m0044,Repositório Institucional da UFRN,B,1.141,28963,BR,ok,,dspace,9.3,https://repositorio.ufrn.br/server/oai/request,sondeo,mets,repositorio.ufrn.br,https://repositorio.ufrn.br/server/oai/request,DSpace,580,580,0,
+m0045,Repositório Institucional da UNIFESP,B,1.141,28950,BR,ok,,dspace,8.1,https://repositorio.unifesp.br/server/oai/request,sondeo,mets,repositorio.unifesp.br,https://repositorio.unifesp.br/server/oai/request,DSpace,579,579,0,
+m0046,Minerva. Repositorio Institucional de la Universidad de Santiago de Compostela,B,1.141,27718,ES,ok,,dspace,7.6.7,https://minerva.usc.gal/rest/oai/request,sondeo,mets,minerva.usc.gal,,,555,555,0,
+m0048,RUO. Repositorio Institucional de la Universidad de Oviedo,B,1.141,27488,ES,ok,,dspace,6.4_1.3.4,https://digibuo.uniovi.es/oai/request,sondeo,mets,digibuo.uniovi.es,,,550,550,0,
+m0049,Portal de Revistas UNA,B,1.141,26623,CR,ok,,ojs,,https://www.revistas.una.ac.cr/index.php/index/oai,ojs,oai_dc,www.revistas.una.ac.cr,,,533,533,0,
+m0050,Revista Veras,B,1.141,26091,BR,antibot,cloudflare,ojs,3.3.0.14,,,,ojs.brazilianjournals.com.br,http://site.veracruz.edu.br:8087/instituto/revistaveras/index.php/revistaveras/oai,SEER/OJS,522,0,522,26091
+m0052,e_Buah Biblioteca Digital Universidad de Alcalá,B,1.141,22953,ES,ok,,dspace,6_3_1.2.5,https://ebuah.uah.es/oai/request,sondeo,mets,ebuah.uah.es,,,460,460,0,
+m0053,Repositório Institucional do FGV (FGV Repositório Digital),B,1.141,21779,BR,antibot,anubis,,,,,,repositorio.fgv.br,https://repositorio.fgv.br/server/oai/request,DSpace,436,0,436,21779
+m0054,Repositório Institucional da PUC_SP,B,1.141,21215,BR,oai_roto,,,,,,,tede2.pucsp.br,https://repositorio.pucsp.br/oai/request,DSpace,425,0,425,21215
+m0055,Arias Montano. Repositorio Institucional de la Universidad de Huelva,B,1.141,20380,ES,ok,,dspace,7.6.7,https://ariasmontano.uhu.es/rest/oai/request,sondeo,mets,ariasmontano.uhu.es,,,408,408,0,
+m0057,Repositorio Digital de la UPF,B,1.141,19710,ES,ok,,dspace,7.6.8-SNAPSHOT,https://repositori.upf.edu/server/oai/request,sondeo,mets,repositori.upf.edu,,,395,395,0,
+m0058,Manancial - Repositório Digital da UFSM,B,1.141,19499,BR,ok,,dspace,6.3,https://repositorio.ufsm.br/oai/request,sondeo,mets,repositorio.ufsm.br,https://repositorio.ufsm.br/oai/request,DSpace,390,390,0,
+m0059,Repositório Institucional da UFLA,B,1.141,19439,BR,ok,,dspace,8.1,https://repositorio.ufla.br/server/oai/request,sondeo,mets,repositorio.ufla.br,https://repositorio.ufla.br/server/oai/request,DSpace,389,100,289,19201
+m0061,Repositório Institucional da UECE,B,1.141,19022,BR,ok,,,,https://siduece.uece.br/siduece/api/oai/,ibict,oai_dc,siduece.uece.br,https://siduece.uece.br/siduece/api/oai/,Outros,381,381,0,
+m0063,Biblioteca Digital de Teses e Dissertações da UERJ,B,1.141,18109,BR,ok,,,,https://www.bdtd.uerj.br/oai/request,sondeo,mets,www.bdtd.uerj.br,http://www.bdtd.uerj.br:8080/oai/request,DSpace,363,363,0,
+m0064,Repositório Institucional da UFSCAR,B,1.141,17762,BR,ok,,dspace,10.0,https://repositorio.ufscar.br/server/oai/request,sondeo,mets,repositorio.ufscar.br,https://repositorio.ufscar.br/server/oai/request,DSpace,356,356,0,
+m0066,Revistas - Universidad Nacional Mayor de San Marcos,B,1.141,16868,PE,rechazo_403,,,,,,,revistasinvestigacion.unmsm.edu.pe,,,338,0,338,16868
+m0067,Repositori Obert UdL,B,1.141,16775,ES,ok,,dspace,7.4,https://repositori.udl.cat/server/oai/request,sondeo,mets,repositori.udl.cat,,,336,336,0,
+m0068,Repositorio EdocUR - U. Rosario,B,1.141,16243,CO,caido,3 errores de red seguidos,,,,,,repository.urosario.edu.co,,,325,0,325,17313
+m0069,Repositório Institucional da PUC-RIO (Projeto Maxwell),B,1.141,16204,BR,ok,,,,https://www.maxwell.vrac.puc-rio.br/ibict.php,ibict,oai_dc,www.maxwell.vrac.puc-rio.br,https://www.maxwell.vrac.puc-rio.br/ibict.php,Outros,325,325,0,
+m0070,COLIBRI,B,1.141,15780,UY,caido,3 errores de red seguidos,,,,,,colibri.udelar.edu.uy,,,316,0,316,15780
+m0071,Repositorio UdeA,B,1.141,15016,CO,antibot,anti-bot: bunkerweb,,,,,,bibliotecadigital.udea.edu.co,,,301,0,301,22912
+m0072,Repositório Institucional da UFU,B,1.141,14732,BR,ok,,dspace,8.5,https://repositorio.ufu.br/server/oai/request,sondeo,mets,repositorio.ufu.br,https://repositorio.ufu.br/oai/request,DSpace,295,295,0,
+m0073,Biblioteca Digital de Teses e Dissertações da UFPB,B,1.141,14656,BR,ok,,dspace,5.7-SNAPSHOT,https://repositorio.ufpb.br/oai/request,sondeo,mets,repositorio.ufpb.br,,,294,294,0,
+m0074,Repositório Institucional da UFOP,B,1.141,14577,BR,ok,,dspace,8.1,https://www.repositorio.ufop.br/server/oai/request,sondeo,mets,repositorio.ufop.br,https://repositorio.ufop.br/server/oai/request,DSpace,292,292,0,
+m0075,Repositorio Facultad Latinoamericana de Ciencias Sociales,B,1.141,14171,EC,antibot,cloudflare,,,,,,repositorio.flacsoandes.edu.ec,,,284,0,284,14171
+m0076,Revistas - Pontificia Universidad Católica del Perú,B,1.141,14156,PE,ok,,ojs,,http://revistas.pucp.edu.pe/index.php/index/oai,ojs,oai_dc,revistas.pucp.edu.pe,,,284,210,74,14156
+m0077,Kérwá,B,1.141,13821,CR,ok,,dspace,8.1,https://repositorio.sibdi.ucr.ac.cr/server/oai/request,sondeo,mets,repositorio.sibdi.ucr.ac.cr,,,277,277,0,
+m0078,e-spacio. Repositorio Institucional de la UNED,B,1.141,13588,ES,ok,,dspace,7.6,https://oai.e-spacio.uned.es/server/oai/request,sondeo,mets,e-spacio.uned.es,,,272,272,0,
+m0079,RUIdeRA. Repositorio Institucional de la UCLM,B,1.141,13572,ES,rechazo_403,2 respuestas 403 seguidas,,,,,,ruidera.uclm.es,,,272,0,272,14390
+m0080,Repositório Institucional da UFPA,B,1.141,13546,BR,ok,,dspace,7.6.2,https://repositorio.ufpa.br/server/oai/request,sondeo,mets,repositorio.ufpa.br,https://repositorio.ufpa.br/server/oai/request,DSpace,271,271,0,
+m0081,Memoria Académica (UNLP-FAHCE),B,1.141,13480,AR,ok,,,,http://www.memoria.fahce.unlp.edu.ar/oaiserver.cgi,roar,oai_dc,memoria.fahce.unlp.edu.ar,,,270,270,0,
+m0082,Biblioteca Digital de Teses e Dissertações da UFCG,B,1.141,13286,BR,ok,,dspace,4.2,https://dspace.sti.ufcg.edu.br/oai/request,sondeo,mets,dspace.sti.ufcg.edu.br,https://dspace.sti.ufcg.edu.br/oai/request,DSpace,266,266,0,
+m0083,Repositório Institucional da Universidade Federal do Espírito Santo (riUfes),B,1.141,13214,BR,ok,,dspace,9.3,https://repositorio.ufes.br/server/oai/request,sondeo,mets,repositorio.ufes.br,https://repositorio.ufes.br/server/oai/request,DSpace,265,265,0,
+m0084,Repisalud,B,1.141,13135,ES,ok,,dspace,7.6.7,https://repisalud.isciii.es/rest/oai/request,sondeo,mets,repisalud.isciii.es,,,263,263,0,
+m0085,UPC-Institucional,B,1.141,12937,PE,ok,,dspace,7.6,https://repositorioacademico.upc.edu.pe/server/oai/request,sondeo,mets,repositorioacademico.upc.edu.pe,,,259,259,0,
+m0086,Repositório Institucional da UFJF,B,1.141,12538,BR,ok,,dspace,6.3,https://repositorio.ufjf.br/oai/request,sondeo,mets,repositorio.ufjf.br,https://repositorio.ufjf.br/oai/request,DSpace,251,251,0,
+m0087,Séneca: repositorio Uniandes,B,1.141,12462,CO,antibot,anti-bot: bunkerweb,,,,,,repositorio.uniandes.edu.co,,,250,0,250,12281
+m0089,Repositório Institucional da UFG,B,1.141,12019,BR,ok,,dspace,7.6.5,https://repositorio.bc.ufg.br/riserver/oai/request,sondeo,mets,repositorio.bc.ufg.br,https://repositorio.bc.ufg.br/tedeserver/oai/request,DSpace,241,241,0,
+m0090,"Research, Society and Development",B,1.141,12001,BR,ok,,ojs,3.4.0.9,https://rsdjournal.org/index.php/rsd/oai,ojs,oai_dc,rsdjournal.org,https://rsdjournal.org/index.php/rsd/oai,SEER/OJS,241,241,0,
+m0092,Repositório Institucional da UFS,B,1.141,11593,BR,oai_vacio,http_500,dspace,6.4-SNAPSHOT,https://ri.ufs.br/oai/request,sondeo,mets,ri.ufs.br,https://ri.ufs.br/oai/request,DSpace,232,0,232,11593
+m0094,Biblioteca Digital de Teses e Dissertações da PUC_RS,B,1.141,11438,BR,antibot,cloudflare,,,,,,tede2.pucrs.br,https://tede2.pucrs.br/oai/request,TEDE,229,0,229,11438
+m0095,BULERIA. Repositorio Institucional de la Universidad de León,B,1.141,11436,ES,ok,,dspace,9.3,https://buleria.unileon.es/server/oai/request,sondeo,mets,buleria.unileon.es,,,229,229,0,
+m0096,Repositório Institucional da Udesc,B,1.141,11367,BR,ok,,dspace,9.2,https://repositorio-api.udesc.br/server/oai/request,ibict,mets,repositorio-api.udesc.br,https://repositorio-api.udesc.br/server/oai/request,DSpace,228,99,129,11367
+m0097,Repositorio UCC,B,1.141,10961,CO,antibot,anti-bot: bunkerweb,,,,,,repository.ucc.edu.co,,,220,0,220,7447
+m0098,Repositório Institucional da UCB,B,1.141,10816,BR,ok,,dspace,4.2,https://dspace.sti.ufcg.edu.br/oai/request,sondeo,mets,dspace.sti.ufcg.edu.br,https://repositorio.ucb.br:9443/oai/request,DSpace,217,217,0,
+m0099,Repositório Institucional da UEL,B,1.141,10748,BR,ok,,dspace,7.6.1,https://repositorio.uel.br/srv-c0003-s01/oai/request,sondeo,mets,repositorio.uel.br,https://repositorio.uel.br/srv-c0003-s01/oai/request,DSpace,215,215,0,
+m0101,Repositório Institucional da IPEA (RCIpea),B,1.141,10404,BR,ok,,dspace,9.2,https://repositorio.ipea.gov.br/server/oai/request,sondeo,mets,repositorio.ipea.gov.br,https://repositorio.ipea.gov.br/server/oai/request,DSpace,209,209,0,
+m0102,Biblioteca Digital Universidad Externado de Colombia,B,1.141,10392,CO,antibot,anti-bot: bunkerweb,,,,,,bdigital.uexternado.edu.co,,,208,0,208,11789
+m0103,Repositório Institucional PUCRS,B,1.141,10349,BR,caido,3 errores de red seguidos,,,,,,meriva.pucrs.br,https://repositorio.pucrs.br/oai/request,DSpace,207,0,207,10349
+m0104,Repositório Institucional da UFPel - Guaiaca,B,1.141,10168,BR,oai_roto,,,,,,,guaiaca.ufpel.edu.br,https://guaiaca.ufpel.edu.br/oai/request,DSpace,204,0,204,10168
+m0105,NEWMAN-Institucional,C,2.191,1387,PE,rechazo_403,2 respuestas 403 seguidas,,,,,,repositorio.epnewman.edu.pe,,,200,0,200,1387
+m0106,RIARTE,C,2.191,2360,ES,ok,,dspace,6.4_1.0.0,https://www.riarte.es/oai/request,sondeo,mets,www.riarte.es,,,200,200,0,
+m0107,Sistema de Gestión del Conocimiento ANLIS MALBRÁN,C,2.191,2664,AR,ok,,dspace,,https://sgc.anlis.gob.ar/oai/request,sondeo,mets,sgc.anlis.gob.ar,,,200,200,0,
+m0108,Biblioteca Digital de Teses e Dissertações da UEFS,C,2.191,1965,BR,caido,3 errores de red seguidos,,,,,,tede2.uefs.br,http://tede2.uefs.br:8080/oai/request,DSpace,200,0,200,1965
+m0109,Repositório Institucional da UFMT,C,2.191,1274,BR,caido,3 errores de red seguidos,,,,,,ri.ufmt.br,https://ri.ufmt.br/oai/request,DSpace,200,0,200,1274
+m0110,Revista Peruana de Ginecología y Obstetricia,C,2.191,2706,PE,ok,,ojs,3.4.0.10,https://ginecologiayobstetricia.pe/index.php/RPGO/oai,ojs,oai_dc,ginecologiayobstetricia.pe,,,200,200,0,
+m0113,"Repositorio Institucional del Instituto de Investigaciones Históricas, UNAM",C,2.191,1552,MX,ok,,dspace,6.4,https://ru.historicas.unam.mx/oai/request,sondeo,mets,ru.historicas.unam.mx,,,200,200,0,
+m0114,Revista de Saúde Pública,C,2.191,4890,BR,ok,,ojs,3.5.0.3,https://www.revistas.usp.br/rsp/oai,ojs,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/rsp/oai,SEER/OJS,200,200,0,
+m0115,Informes_ANID,C,2.191,8551,CL,sitio_con_error,,dspace,,,,,repositorio.anid.cl,,,200,0,200,13149
+m0116,Revista de Direito da Cidade,C,2.191,1120,BR,caido,3 errores de red seguidos,,,,,,www.e-publicacoes.uerj.br,https://www.e-publicacoes.uerj.br/index.php/rdc/oai,SEER/OJS,200,0,200,1106
+m0117,PUCP-Tesis,C,2.191,9765,PE,antibot,anubis,,,,,,tesis.pucp.edu.pe,,,200,0,200,9765
+m0118,Revista UFG (Online),C,2.191,1002,BR,ok,,ojs,3.3.0.21,https://revistas.ufg.br/revistaufg/oai,ojs,oai_dc,revistas.ufg.br,https://revistas.ufg.br/revistaufg/oai,SEER/OJS,200,200,0,
+m0119,Iztapalapa. Revista de Ciencias Sociales y Humanidades,C,2.191,1534,MX,ok,,ojs,3.3.0.16,https://revistaiztapalapa.izt.uam.mx/index.php/izt/oai,ojs,oai_dc,revistaiztapalapa.izt.uam.mx,,,200,200,0,
+m0120,SCIELO Livros,C,2.191,1683,BR,ok,,,,https://oai.books.scielo.org/oai-pmh,ibict,oai_dc,oai.books.scielo.org,https://oai.books.scielo.org/oai-pmh,Outros,200,200,0,
+m0122,Repositorio Universidad Católica de Santiago de Guayaquil,C,2.191,2962,EC,caido,3 errores de red seguidos,,,,,,repositorio.ucsg.edu.ec,,,200,0,200,2962
+m0123,Educação e Pesquisa,C,2.191,1763,BR,ok,,ojs,3.5.0.3,https://www.revistas.usp.br/ep/oai,ojs,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/ep/oai,SEER/OJS,200,200,0,
+m0124,Matéria (Rio de Janeiro. Online),C,2.191,2002,BR,rechazo_403,2 respuestas 403 seguidas,,,,,,old.scielo.br,https://revistas.ufrj.br/index.php/rm/oai,SEER/OJS,200,0,200,2002
+m0125,Redalyc-UABC,C,2.191,1575,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,1575
+m0126,Revista CHASQUI,C,2.191,3109,EC,ok,,ojs,,https://revistachasqui.org/index.php/chasqui/oai,ojs,oai_dc,revistachasqui.org,,,200,200,0,
+m0127,Organon (Porto Alegre. Online),C,2.191,1195,BR,ok,,ojs,3.3.0.21,https://seer.ufrgs.br/index.php/organon/oai,ojs,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/organon/oai,Outros,200,200,0,
+m0128,Cadernos Pagu (Online),C,2.191,1140,BR,ok,,ojs,3.4.0.9,https://periodicos.sbu.unicamp.br/ojs/index.php/cadpagu/oai,ojs,oai_dc,periodicos.sbu.unicamp.br,https://periodicos.sbu.unicamp.br/ojs/index.php/cadpagu/oai,Outros,200,200,0,
+m0129,Revista Verde de Agroecologia e Desenvolvimento Sustentavel,C,2.191,2249,BR,antibot,cloudflare,ojs,3.4.0.10,,,,www.gvaa.com.br,https://www.gvaa.com.br/revista/index.php/RVADS/oai,SEER/OJS,200,0,200,2249
+m0130,Nülan (UNMDP-FCEyS),C,2.191,1490,AR,ok,,eprints,3.4.4,https://nulan.mdp.edu.ar/cgi/oai2,sondeo,mets,nulan.mdp.edu.ar,,,200,200,0,
+m0131,Repositorio Institucional de Acceso Abierto de la Universidad Autónoma del Estado de Morelos,C,2.191,3215,MX,ok,,dspace,6.1,https://riaa.uaem.mx/oai/request,sondeo,mets,riaa.uaem.mx,,,200,200,0,
+m0132,Revista Brasileira de Economia (Online),C,2.191,1829,BR,ok,,ojs,3.3.0.24,https://periodicos.fgv.br/rbe/oai,ojs,oai_dc,periodicos.fgv.br,https://periodicos.fgv.br/rbe/oai,SEER/OJS,200,200,0,
+m0133,Repositório da Produção Científica e Intelectual da Unicamp,C,2.191,6277,BR,oai_vacio,timeout_lectura,,,https://repositorio.unicamp.br/oai/artigo/oai.asp,ibict,oai_dc,repositorio.unicamp.br,https://repositorio.unicamp.br/oai/artigo/oai.asp,DSpace,200,0,200,6277
+m0135,RIdAA-CFE,C,2.191,1315,UY,ok,,dspace,6.3,https://repositorio.cfe.edu.uy/oai/request,sondeo,mets,repositorio.cfe.edu.uy,,,200,200,0,
+m0137,BEPA. Boletim epidemiológico paulista (Online),C,2.191,1137,BR,antibot,incapsula,ojs,3.3.0.22,,,,periodicos.saude.sp.gov.br,https://periodicos.saude.sp.gov.br/BEPA182/oai,SEER/OJS,200,0,200,1137
+m0138,Desenvolvimento em Questão,C,2.191,1073,BR,ok,,ojs,3.5.0.5,https://www.revistas.unijui.edu.br/index.php/desenvolvimentoemquestao/oai,ojs,oai_dc,www.revistas.unijui.edu.br,,,200,200,0,
+m0139,Educação & Realidade,C,2.191,1332,BR,ok,,ojs,3.3.0.21,https://seer.ufrgs.br/index.php/educacaoerealidade/oai,ojs,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/educacaoerealidade/oai,SEER/OJS,200,200,0,
+m0141,Biblioteca Digital (UBA-FCE),C,2.191,2981,AR,caido,3 errores de red seguidos,,,,,,bibliotecadigital.econ.uba.ar,,,200,0,200,2981
+m0142,Repositorio Digital San Andrés (UdeSa),C,2.191,2792,AR,ok,,dspace,10.1,https://dspaceapi.live.udesa.edu.ar/server/oai/request,sondeo,mets,repositorio.udesa.edu.ar,,,200,200,0,
+m0143,Revista Caatinga,C,2.191,2224,BR,ok,,ojs,3.5.0.5,https://periodicos.ufersa.edu.br/caatinga/oai,ojs,oai_dc,periodicos.ufersa.edu.br,https://periodicos.ufersa.edu.br/index.php/caatinga/oai,SciELO,200,200,0,
+m0144,Repositório Institucional da UTFPR (da Universidade Tecnológica Federal do Paraná (RIUT)),C,2.191,9044,BR,caido,3 errores de red seguidos,,,,,,repositorio.utfpr.edu.br,http://repositorio.utfpr.edu.br:8080/oai/request,DSpace,200,0,200,9044
+m0145,Repositorio Universidad Técnica Particular de Loja,C,2.191,6917,EC,oai_vacio,noRecordsMatch,dspace,5,https://dspace.utpl.edu.ec/oai/request,sondeo,mets,dspace.utpl.edu.ec,,,200,0,200,6917
+m0146,Revista Brasileira de Atividade Física & Saúde (Online),C,2.191,1343,BR,ok,,ojs,3.3.0.24,https://rbafs.org.br/RBAFS/oai,ibict,oai_dc,rbafs.org.br,https://rbafs.org.br/RBAFS/oai,SEER/OJS,200,100,94,1250
+m0147,Repositório Institucional do IDP,C,2.191,3373,BR,ok,,dspace,9.3-SNAPSHOT,https://repositorio.idp.edu.br/server/oai/request,sondeo,mets,repositorio.idp.edu.br,https://repositorio.idp.edu.br/oai/request,DSpace,200,200,0,
+m0148,Repositorio Institucional del CIAD,C,2.191,1209,MX,ok,,dspace,5.4,https://ciad.repositorioinstitucional.mx/oai/request,sondeo,xoai,ciad.repositorioinstitucional.mx,,,200,200,0,
+m0149,Estudos e Pesquisas em Psicologia (Online),C,2.191,1503,BR,caido,3 errores de red seguidos,,,,,,www.e-publicacoes.uerj.br,https://www.e-publicacoes.uerj.br/revispsi/oai,SEER/OJS,200,0,200,1499
+m0150,Depósito Digital e-UCJC,C,2.191,1339,ES,ok,,dspace,6.3_1.0.1,https://repositorio.ucjc.edu/oai/request,sondeo,mets,repositorio.ucjc.edu,,,200,200,0,
+m0153,Bolema: Boletim de Educação Matemática,C,2.191,1011,BR,ok,,ojs,3.3.0.22,https://www.periodicos.rc.biblioteca.unesp.br/index.php/bolema/oai,ojs,oai_dc,www.periodicos.rc.biblioteca.unesp.br,https://www.periodicos.rc.biblioteca.unesp.br/index.php/bolema/oai,SEER/OJS,200,200,0,
+m0154,Repositorio Institucional del INAOE,C,2.191,2479,MX,ok,,dspace,5.4,https://inaoe.repositorioinstitucional.mx/oai/request,sondeo,xoai,inaoe.repositorioinstitucional.mx,,,200,200,0,
+m0155,Repositório Institucional da Universidade Federal Fluminense (RIUFF),C,2.191,7771,BR,ok,,,,https://app.uff.br/oai/request,sondeo,mets,app.uff.br,https://app.uff.br/oai/request,DSpace,200,200,0,
+m0156,Pensar (Fortaleza. Online),C,2.191,1323,BR,ok,,ojs,3.3.0.24,https://ojs.unifor.br/rpen/oai,ojs,oai_dc,ojs.unifor.br,https://ojs.unifor.br/rpen/oai,SEER/OJS,200,200,0,
+m0157,Anais da Escola Superior de Agricultura Luiz de Queiroz,C,2.191,1513,BR,ok,,ojs,3.5.0.3,https://revistas.usp.br/aesalq/oai,ojs,oai_dc,revistas.usp.br,https://www.revistas.usp.br/aesalq/oai,SEER/OJS,200,200,0,
+m0158,Revista brasileira de cartografia - RBC (Online),C,2.191,1540,BR,ok,,ojs,3.4.0.12,https://seer.ufu.br/index.php/revistabrasileiracartografia/oai,ojs,oai_dc,seer.ufu.br,https://seer.ufu.br/index.php/revistabrasileiracartografia/oai,SEER/OJS,200,200,0,
+m0159,Revista brasileira de estudos de população (Online),C,2.191,1038,BR,ok,,ojs,3.3.0.24,https://rebep.org.br/revista/oai,ojs,oai_dc,rebep.org.br,https://rebep.org.br/revista/oai,SEER/OJS,200,200,0,
+m0160,Repositorio Digital Institucional de la Universidad Autónoma de Yucatán,C,2.191,5473,MX,sitio_con_error,,,,,,,redi.uady.mx,,,200,0,200,5473
+m0161,ANA-Institucional,C,2.191,3785,PE,caido,3 errores de red seguidos,,,,,,repositorio.ana.gob.pe,,,200,0,200,3785
+m0163,r-INCLIVA. Repositorio Institucional de Producción Científica de INCLIVA,C,2.191,4192,ES,rechazo_403,,,,,,,incliva.fundanetsuite.com,,,200,0,200,4517
+m0164,Acta Universitaria,C,2.191,1176,MX,ok,,ojs,3.5.0.4,https://www.actauniversitaria.ugto.mx/index.php/acta/oai,ojs,oai_dc,www.actauniversitaria.ugto.mx,,,200,200,0,
+m0166,accedaCRIS portal de investigación de la Universidad de las Palmas de Gran Canaria,C,2.191,5944,ES,rechazo_403,host abandonado (accedacris.ulpgc.es): 2 respuestas 403 seguidas,,,https://accedacris.ulpgc.es/oai/request,sondeo,mets,accedacris.ulpgc.es,,,200,0,0,0
+m0167,Docusalut,C,2.191,5269,ES,ok,,dspace,7.6.4,https://docusalut.com/rest/oai/request,sondeo,mets,docusalut.com,,,200,200,0,
+m0168,Debates em Educação,C,2.191,1207,BR,ok,,ojs,3.3.0.24,https://www.seer.ufal.br/index.php/debateseducacao/oai,ojs,oai_dc,www.seer.ufal.br,https://www.seer.ufal.br/index.php/debateseducacao/oai,SEER/OJS,200,200,0,
+m0170,RiUVic. Repositori institucional de la UVic-UCC,C,2.191,1897,ES,ok,,dspace,6.5-SNAPSHOT,https://dspace.uvic.cat/oai/request,sondeo,mets,dspace.uvic.cat,,,200,200,0,
+m0171,Repositorio Universidad Laica Vicente Rocafuerte,C,2.191,1035,EC,ok,,dspace,5.2,https://repositorio.ulvr.edu.ec/oai/request,sondeo,mets,repositorio.ulvr.edu.ec,,,200,200,0,
+m0172,Biblioteca Digital de Teses e Dissertações do UNICENTRO,C,2.191,2438,BR,oai_vacio,timeout_lectura,,,https://oaipmh.sophia.com.br/9566/oai.asp,ibict,oai_dc,oaipmh.sophia.com.br,https://oaipmh.sophia.com.br/9566/oai.asp,DSpace,200,0,200,2438
+m0173,Biblioteca Digital de Teses e Dissertações da UFAM,C,2.191,8458,BR,ok,,dspace,10.1-SNAPSHOT,https://riu.ufam.edu.br/server/oai/request,sondeo,mets,tede.ufam.edu.br,https://tede.ufam.edu.br/oai/request,DSpace,200,200,0,
+m0174,Revista Encontros,C,2.191,1447,BR,ok,,ojs,3.3.0.12,https://portalespiral.cp2.g12.br/index.php/index/oai,ojs,oai_dc,portalespiral.cp2.g12.br,https://portalespiral.cp2.g12.br/index.php/index/oai,SEER/OJS,200,200,0,
+m0175,Repositorio CATIE,C,2.191,1273,CR,antibot,cloudflare,dspace,6.3,,,,repositorio.catie.ac.cr,,,200,0,200,1226
+m0176,Revista Ciência e Natura (Online),C,2.191,2457,BR,ok,,ojs,3.3.0.10,https://periodicos.ufsm.br/cienciaenatura/oai,ojs,oai_dc,periodicos.ufsm.br,https://periodicos.ufsm.br/cienciaenatura/oai,SEER/OJS,200,200,0,
+m0177,Repositorio Universidad Estatal Península de Santa Elena,C,2.191,3020,EC,ok,,dspace,7.6.3,https://repositorio.upse.edu.ec/server/oai/request,sondeo,mets,repositorio.upse.edu.ec,,,200,200,0,
+m0179,Redalyc-ITESM,C,2.191,1565,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,1565
+m0180,O Mundo da Saúde (Online),C,2.191,1141,BR,ok,,ojs,3.3.0.24,https://revistamundodasaude.emnuvens.com.br/mundodasaude/oai,ojs,oai_dc,revistamundodasaude.emnuvens.com.br,https://revistamundodasaude.emnuvens.com.br/mundodasaude/oai,SEER/OJS,200,200,0,
+m0181,Revista Mexicana de Ciencias Geológicas,C,2.191,1213,MX,ok,,ojs,,http://rmcg.geociencias.unam.mx/index.php/rmcg/oai,ojs,oai_dc,rmcg.geociencias.unam.mx,,,200,200,0,
+m0182,Journal of Applied Research and Technology,C,2.191,1012,MX,ok,,ojs,3.3.0.8,https://jart.icat.unam.mx/index.php/jart/oai,ojs,oai_dc,jart.icat.unam.mx,,,200,200,0,
+m0183,Sociedade & natureza (Online),C,2.191,1185,BR,ok,,ojs,3.4.0.12,https://seer.ufu.br/index.php/sociedadenatureza/oai,ojs,oai_dc,seer.ufu.br,https://seer.ufu.br/index.php/sociedadenatureza/oai,SEER/OJS,200,200,0,
+m0185,Repositorio Universidad Nacional de Educación,C,2.191,2219,EC,ok,,dspace,8.3,https://repositorio.unae.edu.ec/server/oai/request,sondeo,mets,repositorio.unae.edu.ec,,,200,200,0,
+m0186,Repositorio Institucional de la Universidad Alfonso X el Sabio,C,2.191,1027,ES,ok,,dspace,8.2,https://archive.uax.com/server/oai/request,sondeo,mets,archive.uax.com,,,200,200,0,
+m0187,Repositorio Institucional de la UABCS,C,2.191,1560,MX,ok,,dspace,9.3,https://repositorioinstitucional.uabc.mx/server/oai/request,sondeo,mets,repositorioinstitucional.uabc.mx,,,200,200,0,
+m0188,Caderno Brasileiro de Ensino de Física (Online),C,2.191,1582,BR,ok,,ojs,3.3.0.23,https://periodicos.ufsc.br/index.php/fisica/oai,ojs,oai_dc,periodicos.ufsc.br,https://periodicos.ufsc.br/index.php/fisica/oai,SEER/OJS,200,200,0,
+m0189,Repositório Institucional da UFAM,C,2.191,2512,BR,ok,,dspace,10.1-SNAPSHOT,https://riu.ufam.edu.br/server/oai/request,sondeo,mets,riu.ufam.edu.br,https://riu.ufam.edu.br/oai/request,DSpace,200,200,0,
+m0190,CIC Digital (CICBA),C,2.191,3611,AR,ok,,dspace,10.1,https://digital.cic.gba.gob.ar/server/oai/request,sondeo,oai_dc,digital.cic.gba.gob.ar,,,200,200,0,
+m0191,Repositório Digital do Instituto Evandro Chagas (Patuá),C,2.191,2969,BR,caido,3 errores de red seguidos,,,,,,patua.iec.gov.br,https://patuaback.iec.gov.br/server/oai/request,DSpace,200,0,200,2938
+m0192,Redalyc-UMSNH,C,2.191,1617,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,1617
+m0193,Repositorio Institucional de la Universidad de Burgos (RIUBU),C,2.191,6251,ES,ok,,dspace,5.10_1.0.11,https://riubu.ubu.es/oai/request,sondeo,mets,riubu.ubu.es,,,200,200,0,
+m0194,"O2, repositorio institucional de la UOC",C,2.191,8823,ES,ok,,dspace,7.6.8-SNAPSHOT,https://openaccess.uoc.edu/server/oai/request,sondeo,mets,openaccess.uoc.edu,,,200,200,0,
+m0195,Revista Brasileira de Prescrição e Fisiologia do Exercício,C,2.191,1714,BR,antibot,cloudflare,ojs,3.5.0.4,,,,www.rbpfex.com.br,https://www.rbpfex.com.br/index.php/rbpfex/oai,SEER/OJS,200,0,200,1714
+m0197,Revista Direito e Práxis,C,2.191,1309,BR,caido,3 errores de red seguidos,,,,,,www.e-publicacoes.uerj.br,https://www.e-publicacoes.uerj.br/index.php/revistaceaju/oai,SEER/OJS,200,0,200,1307
+m0198,Saúde e Sociedade (Online),C,2.191,2222,BR,ok,,ojs,3.5.0.3,https://revistas.usp.br/sausoc/oai,ojs,oai_dc,revistas.usp.br,https://www.revistas.usp.br/sausoc/oai,SciELO,200,200,0,
+m0199,r-FISABIO. Repositorio Institucional de Producción Científica,C,2.191,6758,ES,rechazo_403,,,,,,,fisabio.fundanetsuite.com,,,200,0,200,6994
+m0200,BCNROC. Repositori Obert de Coneixement de l'Ajuntament de Barcelona,C,2.191,5861,ES,ok,,,,https://bcnroc.ajuntament.barcelona.cat/oai/request,sondeo,mets,bcnroc.ajuntament.barcelona.cat,,,200,200,0,
+m0201,Sequência (Florianópolis. Online),C,2.191,1170,BR,ok,,ojs,3.3.0.23,https://periodicos.ufsc.br/index.php/sequencia/oai,ojs,oai_dc,periodicos.ufsc.br,https://periodicos.ufsc.br/index.php/sequencia/oai,SEER/OJS,200,200,0,
+m0203,Revista Anales,C,2.191,2625,EC,ok,,ojs,3.3.0.22,https://revistadigital.uce.edu.ec/index.php/anales/oai,ojs,oai_dc,revistadigital.uce.edu.ec,,,200,200,0,
+m0204,Práxis Educativa (Online),C,2.191,1081,BR,ok,,ojs,3.5.0.4,https://revistas2.uepg.br/index.php/praxiseducativa/oai,ibict,oai_dc,revistas2.uepg.br,https://revistas2.uepg.br/index.php/praxiseducativa/oai,Outros,200,100,87,1074
+m0205,Revista Contexto Geográfico,D,4.961,276,BR,ok,,ojs,3.3.0.24,https://www.seer.ufal.br/index.php/contextogeografico/oai,ojs,oai_dc,www.seer.ufal.br,https://www.seer.ufal.br/index.php/contextogeografico/oai,SEER/OJS,200,200,0,
+m0206,"Revista de Direito Urbanístico, Cidade e Alteridade",D,4.961,137,BR,antibot,cloudflare,ojs,3.5.0.5,,,,www.indexlaw.org,https://www.indexlaw.org/index.php/revistaDireitoUrbanistico/oai,SEER/OJS,137,0,137,137
+m0207,Peri,D,4.961,383,BR,ok,,ojs,3.4.0.11,https://ojs.sites.ufsc.br/index.php/peri/oai,ojs,oai_dc,ojs.sites.ufsc.br,https://ojs.sites.ufsc.br/index.php/peri/oai,SEER/OJS,200,200,0,
+m0208,Redalyc-UJAT,D,4.961,917,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,917
+m0209,Repositorio CESA,D,4.961,767,CO,ok,,dspace,9.1,https://repository.cesa.edu.co/server/oai/request,sondeo,mets,repository.cesa.edu.co,,,200,200,0,
+m0210,Guará,D,4.961,293,BR,antibot,cloudflare,ojs,3.3.0.22,,,,seer.pucgoias.edu.br,https://seer.pucgoias.edu.br/index.php/guara/oai,SEER/OJS,200,0,200,293
+m0211,Revista Cerrados (Montes Claros. Online),D,4.961,443,BR,ok,,ojs,3.3.0.20,https://www.periodicos.unimontes.br/index.php/cerrados/oai,ojs,oai_dc,www.periodicos.unimontes.br,https://www.periodicos.unimontes.br/index.php/cerrados/oai,SEER/OJS,200,200,0,
+m0212,Conversas & Controvérsias,D,4.961,170,BR,ok,,ojs,3.3.0.24,https://revistaseletronicas.pucrs.br/conversasecontroversias/oai,ojs,oai_dc,revistaseletronicas.pucrs.br,https://revistaseletronicas.pucrs.br/conversasecontroversias/oai,Outros,170,170,0,
+m0213,Repositorio Institucional SISBIUQROO,D,4.961,935,MX,ok,,dspace,9.3,https://risisbi.uqroo.mx/server/oai/request,sondeo,mets,risisbi.uqroo.mx,,,200,200,0,
+m0214,Cognitio (São Paulo. Online),D,4.961,366,BR,ok,,ojs,3.3.0.21,https://revistas.pucsp.br/index.php/cognitiofilosofia/oai,ojs,oai_dc,revistas.pucsp.br,https://revistas.pucsp.br/index.php/cognitiofilosofia/oai,SEER/OJS,200,200,0,
+m0215,Decires,D,4.961,276,MX,ok,,ojs,3.4.0.10,http://www.decires.cepe.unam.mx/index.php/decires/oai,ojs,oai_dc,www.decires.cepe.unam.mx,,,200,200,0,
+m0216,Redalyc-UPN,D,4.961,569,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,569
+m0217,Texto digital,D,4.961,556,BR,ok,,ojs,3.3.0.23,https://periodicos.ufsc.br/index.php/textodigital/oai,ojs,oai_dc,periodicos.ufsc.br,https://periodicos.ufsc.br/index.php/textodigital/oai,Outros,200,200,0,
+m0218,Pontos de Interrogação (Online),D,4.961,453,BR,caido,3 errores de red seguidos,,,,,,www.revistas.uneb.br,https://www.revistas.uneb.br/index.php/pontosdeint/oai,SEER/OJS,200,0,200,453
+m0219,ARS (São Paulo. Online),D,4.961,653,BR,ok,,ojs,3.5.0.3,https://revistas.usp.br/ars/oai,ojs,oai_dc,revistas.usp.br,https://www.revistas.usp.br/ars/oai,SciELO,200,200,0,
+m0220,Repositorio Universidad Técnica Estatal de Quevedo,D,4.961,735,EC,ok,,dspace,10.0,https://repositorio.uteq.edu.ec/server/oai/request,sondeo,mets,repositorio.uteq.edu.ec,,,200,200,0,
+m0221,"Revista de Finanças Públicas, Tributação e Desenvolvimento",D,4.961,130,BR,caido,3 errores de red seguidos,,,,,,www.e-publicacoes.uerj.br,https://www.e-publicacoes.uerj.br/rfptd/oai,SEER/OJS,130,0,130,130
+m0222,Meridiano 47,D,4.961,916,BR,oai_roto,,,,,,,periodicos.unb.br,https://periodicos.unb.br/index.php/MED/oai,SEER/OJS,200,0,200,901
+m0223,Coffee Science (Online),D,4.961,504,BR,ok,,ojs,3.3.0.6,https://coffeescience.ufla.br/index.php/Coffeescience/oai,ojs,oai_dc,coffeescience.ufla.br,https://coffeescience.ufla.br/index.php/Coffeescience/oai,SEER/OJS,200,200,0,
+m0224,Estrabão,D,4.961,159,BR,ok,,ojs,3.3.0.20,https://revista.estrabao.press/index.php/estrabao/oai,ojs,oai_dc,revista.estrabao.press,https://revista.estrabao.press/index.php/estrabao/oai,SEER/OJS,159,159,0,
+m0225,Revista Pós Ciências Sociais (Online),D,4.961,644,BR,ok,,ojs,3.3.0.22,https://periodicoseletronicos.ufma.br/index.php/rpcsoc/oai,ojs,oai_dc,periodicoseletronicos.ufma.br,https://periodicoseletronicos.ufma.br/index.php/rpcsoc/oai,SEER/OJS,200,200,0,
+m0226,Revista Informação na Sociedade Contemporânea,D,4.961,137,BR,ok,,ojs,3.3.0.21,https://periodicos.ufrn.br/informacao/oai,ojs,oai_dc,periodicos.ufrn.br,https://periodicos.ufrn.br/informacao/oai,SEER/OJS,137,137,0,
+m0227,Revista Equador,D,4.961,367,BR,caido,3 errores de red seguidos,,,,,,revistas.ufpi.br,https://periodicos.ufpi.br/index.php/revistaequador/oai,SEER/OJS,200,0,200,367
+m0228,UVSERVA,D,4.961,314,MX,ok,,ojs,3.5.0.4,https://uvserva.uv.mx/index.php/Uvserva/oai,ojs,oai_dc,uvserva.uv.mx,,,200,200,0,
+m0229,"Linguagens, Educação e Sociedade (Online)",D,4.961,862,BR,ok,,ojs,3.3.0.22,https://periodicos.ufpi.br/index.php/lingedusoc/oai,ojs,oai_dc,periodicos.ufpi.br,https://periodicos.ufpi.br/index.php/lingedusoc/oai,SEER/OJS,200,200,0,
+m0230,Revista Interdisciplinar em Cultura e Sociedade (Online),D,4.961,372,BR,ok,,ojs,3.3.0.22,https://periodicoseletronicos.ufma.br/index.php/ricultsociedade/oai,ojs,oai_dc,periodicoseletronicos.ufma.br,https://periodicoseletronicos.ufma.br/index.php/ricultsociedade/oai,SEER/OJS,200,200,0,
+m0231,Estudios de Historia Moderna y Contemporánea de México,D,4.961,759,MX,ok,,ojs,3.3.0.22,https://moderna.historicas.unam.mx/index.php/ehm/oai,ojs,oai_dc,moderna.historicas.unam.mx,,,200,200,0,
+m0232,Estudos (Goiânia. Online),D,4.961,724,BR,antibot,anti-bot: cloudflare,,,,,,seer.pucgoias.edu.br,https://seer.pucgoias.edu.br/index.php/estudos/oai,SEER/OJS,200,0,200,724
+m0233,Revista de Ciências Agrárias (Belém. Online),D,4.961,951,BR,caido,3 errores de red seguidos,,,,,,ajaes.ufra.edu.br,https://ajaes.ufra.edu.br/index.php/ajaes/oai,SEER/OJS,200,0,200,894
+m0234,Textos de Economia (Online),D,4.961,339,BR,ok,,ojs,3.3.0.23,https://periodicos.ufsc.br/index.php/economia/oai,ojs,oai_dc,periodicos.ufsc.br,https://periodicos.ufsc.br/index.php/economia/oai,SEER/OJS,200,100,70,339
+m0235,MAGOTZI Boletín Científico de Artes del IA,D,4.961,329,MX,caido,3 errores de red seguidos,,,,,,repository.uaeh.edu.mx,,,200,0,200,329
+m0236,Repositório Institucional do INMETRO,D,4.961,278,BR,caido,3 errores de red seguidos,,,,,,xrepo01s.inmetro.gov.br,http://repositorios.inmetro.gov.br/oai/request,DSpace,200,0,200,278
+m0237,Redalyc-ISSSTE,D,4.961,433,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,433
+m0238,Semina (Passo Fundo. Online),D,4.961,428,BR,antibot,anubis,,,,,,seer.upf.br,https://seer.upf.br/index.php/ph/oai,SEER/OJS,200,0,200,428
+m0239,Ergodesign & HCI,D,4.961,195,BR,ok,,ojs,3.3.0.23,https://periodicos.puc-rio.br/revistaergodesign-hci/oai,ojs,oai_dc,periodicos.puc-rio.br,https://periodicos.puc-rio.br/revistaergodesign-hci/oai,SEER/OJS,195,195,0,
+m0240,Paisagem e Ambiente (Online),D,4.961,579,BR,ok,,ojs,3.5.0.3,https://www.revistas.usp.br/paam/oai,ojs,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/paam/oai,SEER/OJS,200,200,0,
+m0241,REEC - Revista Eletrônica de Engenharia Civil,D,4.961,356,BR,ok,,ojs,3.3.0.21,https://revistas.ufg.br/reec/oai,ojs,oai_dc,revistas.ufg.br,https://revistas.ufg.br/reec/oai,SEER/OJS,200,200,0,
+m0242,Sexualidad. Salud y Sociedad (Rio de Janeiro),D,4.961,525,BR,caido,3 errores de red seguidos,,,,,,www.e-publicacoes.uerj.br,https://www.e-publicacoes.uerj.br/SexualidadSaludySociedad/oai,SEER/OJS,200,0,200,482
+m0243,Atención Familiar,D,4.961,767,MX,antibot,anti-bot: cloudflare,,,,,,www.revistas.unam.mx,,,200,0,200,767
+m0244,Revista de Italianística (Online),D,4.961,540,BR,ok,,ojs,3.5.0.3,https://revistas.usp.br/italianistica/oai,ojs,oai_dc,revistas.usp.br,https://revistas.usp.br/italianistica/oai,SEER/OJS,200,200,0,
+m0245,Revista Ibero Americana de Estratégia - RIAE,D,4.961,684,BR,ok,,ojs,3.3.0.24,https://periodicos.uninove.br/riae/oai,ojs,oai_dc,periodicos.uninove.br,https://periodicos.uninove.br/riae/oai,SEER/OJS,200,89,111,684
+m0246,Revista Internacional de Folkcomunicação,D,4.961,775,BR,ok,,ojs,3.5.0.4,https://revistas.uepg.br/index.php/folkcom/oai,ibict,oai_dc,revistas.uepg.br,https://revistas.uepg.br/index.php/folkcom/oai,SEER/OJS,200,200,0,
+m0247,Cadernos de Campo: Revista de Ciências Sociais,D,4.961,338,BR,ok,,ojs,3.5.0.5,https://periodicos.fclar.unesp.br/cadernos/oai,ojs,oai_dc,periodicos.fclar.unesp.br,https://periodicos.fclar.unesp.br/cadernos/oai,SEER/OJS,200,200,0,
+m0248,USAT-Tesis,D,4.961,582,PE,caido,3 errores de red seguidos,,,,,,tesis.usat.edu.pe,,,200,0,200,582
+m0249,Repositório da Produção Científica e Intelectual do SENAI CIMATEC,D,4.961,157,BR,caido,3 errores de red seguidos,,,,,,repositoriosenaiba.fieb.org.br,http://repositoriosenaiba.fieb.org.br/oai/request,DSpace,157,0,157,157
+m0250,Revista Sergipana de Educação Ambiental,D,4.961,209,BR,ok,,ojs,3.3.0.24,https://periodicos.ufs.br/revisea/oai,ojs,oai_dc,periodicos.ufs.br,https://periodicos.ufs.br/revisea/oai,SEER/OJS,200,200,0,
+m0251,Interfaces (Belo Horizonte. Online) - Revista de Extensão da UFMG,D,4.961,373,BR,ok,,ojs,3.4.0.9,https://periodicos.ufmg.br/index.php/revistainterfaces/oai,ojs,oai_dc,periodicos.ufmg.br,https://periodicos.ufmg.br/index.php/revistainterfaces/oai,SEER/OJS,200,200,0,
+m0252,Revista Terrae didatica (Online),D,4.961,578,BR,ok,,ojs,3.4.0.9,https://periodicos.sbu.unicamp.br/ojs/index.php/td/oai,ojs,oai_dc,periodicos.sbu.unicamp.br,https://periodicos.sbu.unicamp.br/ojs/index.php/td/oai,SEER/OJS,200,200,0,
+m0253,Revista Brasileira de Sexualidade Humana (Online),D,4.961,939,BR,ok,,ojs,,https://www.rbsh.org.br/revista_sbrash/oai,ojs,oai_dc,www.rbsh.org.br,https://www.rbsh.org.br/revista_sbrash/oai,SEER/OJS,200,200,0,
+m0254,"Revista de Processo, Jurisdição e Efetividade da Justiça",D,4.961,148,BR,antibot,anti-bot: cloudflare,,,,,,www.indexlaw.org,http://www.indexlaw.org/index.php/revistaprocessojurisdicao/oai,Outros,148,0,148,148
+m0256,Educar em Revista,C,2.191,2106,BR,ok,,ojs,3.3.0.23,https://revistas.ufpr.br/educar/oai,ojs,oai_dc,revistas.ufpr.br,https://revistas.ufpr.br/educar/oai,SEER/OJS,200,200,0,
+m0258,REencuentro. Análisis de Problemas Universitarios,C,2.191,1098,MX,ok,,ojs,3.3.0.20,https://reencuentro.xoc.uam.mx/index.php/reencuentro/oai,ojs,oai_dc,reencuentro.xoc.uam.mx,,,200,200,0,
+m0259,Publicaciones Didácticas. repositorio oai,C,2.191,4866,ES,ok,,,,https://publicacionesdidacticas.com/oai,sondeo_extra,oai_dc,publicacionesdidacticas.com,,,200,200,0,
+m0260,UTP-Institucional,C,2.191,2066,PE,rechazo_403,2 respuestas 403 seguidas,,,,,,repositorio.utp.edu.pe,,,200,0,200,2066
+m0261,Tempo Social (Online),C,2.191,1121,BR,ok,,ojs,3.5.0.3,https://www.revistas.usp.br/ts/oai,ojs,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/ts/oai,SciELO,200,200,0,
+m0262,Repositorio Institucional de la Universidad de Guanajuato,C,2.191,1541,MX,sitio_con_error,,dspace,6.0,,,,repositorio.ugto.mx,,,200,0,200,1541
+m0263,Revista Uningá (Online),C,2.191,1442,BR,ok,,ojs,3.3.0.24,https://revista.uninga.br/uninga/oai,ojs,oai_dc,revista.uninga.br,https://revista.uninga.br/uninga/oai,SEER/OJS,200,200,0,
+m0265,Biblioteca Digital de Teses e Dissertações da UNICAP,C,2.191,2034,BR,oai_vacio,noRecordsMatch,dspace,7.6.8-SNAPSHOT,https://tede2.unicap.br/server/oai/request,sondeo,mets,tede2.unicap.br,http://tede2.unicap.br:8080/oai/request,DSpace,200,0,200,2034
+m0266,Reme (Online),C,2.191,1691,BR,ok,,ojs,3.4.0.9,https://periodicos.ufmg.br/index.php/reme/oai,ojs,oai_dc,periodicos.ufmg.br,https://periodicos.ufmg.br/index.php/reme/oai,SEER/OJS,200,100,98,1691
+m0267,Geofísica Internacional,C,2.191,1694,MX,ok,,ojs,3.3.0.22,http://revistagi.geofisica.unam.mx/index.php/RGI/oai,ojs,oai_dc,revistagi.geofisica.unam.mx,,,200,200,0,
+m0268,Food Science and Technology (Campinas),C,2.191,4791,BR,rechazo_403,2 respuestas 403 seguidas,,,,,,old.scielo.br,https://fstjournal.com.br/revista/oai,SEER/OJS,200,0,200,4791
+m0269,Repositorio Institucional de la IBERO Puebla,C,2.191,1125,MX,antibot,anti-bot: incapsula,,,,,,repositorio.iberopuebla.mx,,,200,0,200,1125
+m0270,RAD,C,2.191,1496,UY,antibot,anubis,,,,,,rad.ort.edu.uy,,,200,0,200,1513
+m0271,UNIA.Repositorio Abierto de la Universidad Internacional de Andalucía,C,2.191,3740,ES,ok,,dspace,7.6.2,https://dspace.unia.es/server/oai/request,sondeo,mets,dspace.unia.es,,,200,200,0,
+m0272,São Paulo medical journal (Online),C,2.191,2301,BR,ok,,ojs,3.3.0.24,https://periodicosapm.emnuvens.com.br/spmj/oai,ojs,oai_dc,periodicosapm.emnuvens.com.br,https://periodicosapm.emnuvens.com.br/spmj/oai,SEER/OJS,200,200,0,
+m0273,UPT-Institucional,C,2.191,1071,PE,ok,,dspace,6.3,https://repositorio.upt.edu.pe/oai/request,sondeo,mets,repositorio.upt.edu.pe,,,200,200,0,
+m0274,Acta Scientiarum. Animal Sciences (Online),C,2.191,1499,BR,ok,,ojs,3.4.0.10,https://periodicos.uem.br/ojs/index.php/ActaSciAnimSci/oai,ojs,oai_dc,periodicos.uem.br,https://periodicos.uem.br/ojs/index.php/ActaSciAnimSci/oai,SEER/OJS,200,200,0,
+m0276,Revistas - Universidad Científica del Sur,C,2.191,1140,PE,ok,,ojs,3.4.0.10,https://revistas.cientifica.edu.pe/index.php/odontologica/oai,ojs,oai_dc,revistas.cientifica.edu.pe,,,200,200,0,
+m0277,Letras de Hoje (Online),C,2.191,2757,BR,ok,,ojs,3.3.0.24,https://revistaseletronicas.pucrs.br/fale/oai,ojs,oai_dc,revistaseletronicas.pucrs.br,https://revistaseletronicas.pucrs.br/fale/oai,SEER/OJS,200,200,0,
+m0279,Repositório Institucional da UPF,C,2.191,3065,BR,antibot,anubis,,,,,,repositorio.upf.br,https://repositorio.upf.br/server/oai/request,DSpace,200,0,200,3065
+m0280,Paidéia (Ribeirão Preto. Online),C,2.191,1237,BR,ok,,ojs,3.5.0.3,https://www.revistas.usp.br/paideia/oai,ojs,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/paideia/oai,SEER/OJS,200,200,0,
+m0281,Repositorio Institucional UTB,C,2.191,2147,CO,antibot,anti-bot: bunkerweb,,,,,,repositorio.utb.edu.co,,,200,0,200,680
+m0282,Estudios Políticos,C,2.191,1398,MX,antibot,anti-bot: cloudflare,,,,,,www.revistas.unam.mx,,,200,0,200,1398
+m0283,RIUCV. Repositorio de la Universidad Católica de Valencia San Vicente Mártir,C,2.191,4475,ES,caido,3 errores de red seguidos,,,,,,riucv.ucv.es,,,200,0,200,4502
+m0284,Revista Quaestio Iuris (Online),C,2.191,1297,BR,caido,3 errores de red seguidos,,,,,,www.e-publicacoes.uerj.br,https://www.e-publicacoes.uerj.br/index.php/quaestioiuris/oai,SEER/OJS,200,0,200,1295
+m0285,GeSec,C,2.191,2816,BR,antibot,cloudflare,ojs,3.3.0.13,,,,ojs.revistagesec.org.br,https://ojs.revistagesec.org.br/secretariado/oai,SEER/OJS,200,0,200,2816
+m0286,Repositório Institucional da UNISINOS (RBDU Repositório Digital da Biblioteca da Unisinos),C,2.191,7569,BR,antibot,anubis,,,,,,www.repositorio.jesuita.org.br,https://repositorio.jesuita.org.br/oai/request,DSpace,200,0,200,7569
+m0287,INS-Institucional,C,2.191,1346,PE,sitio_con_error,,dspace,7.6.3,,,,repositorio.ins.gob.pe,,,200,0,200,1346
+m0288,Biblioteca Digital de Teses e Dissertações da UCB,C,2.191,1822,BR,ok,,,,http://bdtd.ucb.br:8080/oai/request,ibict,mets,bdtd.ucb.br,http://bdtd.ucb.br:8080/oai/request,DSpace,200,200,0,
+m0289,ETD - Educação Temática Digital,C,2.191,1419,BR,ok,,ojs,3.4.0.9,https://periodicos.sbu.unicamp.br/ojs/index.php/etd/oai,ojs,oai_dc,periodicos.sbu.unicamp.br,https://periodicos.sbu.unicamp.br/ojs/index.php/etd/oai,Outros,200,200,0,
+m0290,Revista Brasileira de Cancerologia (Online),C,2.191,2528,BR,oai_vacio,timeout_lectura,ojs,3.3.0.18,https://rbc.inca.gov.br/index.php/revista/oai,ojs,oai_dc,rbc.inca.gov.br,https://rbc.inca.gov.br/index.php/revista/oai,SEER/OJS,200,0,200,2312
+m0291,Clinics,C,2.191,3721,BR,ok,,ojs,,https://www.revistas.usp.br/clinics/oai,ojs,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/clinics/oai,SEER/OJS,200,200,0,
+m0292,Biblioteca Digital de Teses e Dissertações da PUC_MG,C,2.191,7596,BR,ok,,,,https://bib.pucminas.br/pergamum/oai/ibict/harvest,ibict,oai_dc,bib.pucminas.br,https://bib.pucminas.br/pergamum/oai/ibict/harvest,Pergamum,200,100,100,7596
+m0293,Repositório Institucional da Universidade Cruzeiro do Sul,C,2.191,2137,BR,rechazo_403,2 respuestas 403 seguidas,,,,,,repositorio.cruzeirodosul.edu.br,https://repositorio.cruzeirodosul.edu.br/server/oai/request,DSpace,200,0,200,2137
+m0294,Psicologia USP (Online),C,2.191,1206,BR,ok,,ojs,3.5.0.3,https://www.revistas.usp.br/psicousp/oai,ojs,oai_dc,www.revistas.usp.br,http://www.scielo.br/oai/scielo-oai.php,SciELO,200,200,0,
+m0295,Docu-menta. Repositorio Institucional del CIEMAT,C,2.191,1267,ES,ok,,dspace,8.2,https://documenta.ciemat.es/server/oai/request,sondeo,mets,documenta.ciemat.es,,,200,200,0,
+m0296,Repositorio Universitario de la Dirección General de Cómputo y de Tecnología de la Información y Comunicación,C,2.191,1987,MX,caido,3 errores de red seguidos,,,,,,ru.tic.unam.mx,,,200,0,200,1987
+m0297,Redalyc-UG,C,2.191,1387,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,1387
+m0298,Estudos Ibero-Americanos,C,2.191,1372,BR,ok,,ojs,3.3.0.24,https://revistaseletronicas.pucrs.br/iberoamericana/oai,ojs,oai_dc,revistaseletronicas.pucrs.br,https://revistaseletronicas.pucrs.br/iberoamericana/oai,Outros,200,200,0,
+m0299,Em Questão (Online),C,2.191,1098,BR,ok,,ojs,3.3.0.21,https://seer.ufrgs.br/index.php/EmQuestao/oai,ojs,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/EmQuestao/oai,OJS,200,200,0,
+m0300,Repositorio Institucional Aramara de la UAN,C,2.191,2078,MX,caido,3 errores de red seguidos,,,,,,dspace.uan.mx,,,200,0,200,2078
+m0301,Caderno CRH,C,2.191,1207,BR,ok,,ojs,3.2.1.4,https://periodicos.ufba.br/index.php/crh/oai,ojs,oai_dc,periodicos.ufba.br,https://periodicos.ufba.br/index.php/crh/oai,SciELO,200,200,0,
+m0302,Repositorio Institucional de la UAM Iztapalapa,C,2.191,5292,MX,caido,3 errores de red seguidos,,,,,,bindani.izt.uam.mx,,,200,0,200,5292
+m0304,La Colmena,C,2.191,1370,MX,ok,,ojs,3.0.2.0,https://lacolmena.uaemex.mx/oai,ojs,oai_dc,lacolmena.uaemex.mx,,,200,200,0,
+m0305,Revista de Administração de Empresas,C,2.191,3483,BR,ok,,ojs,3.3.0.24,https://periodicos.fgv.br/rae/oai,ojs,oai_dc,periodicos.fgv.br,https://bibliotecadigital.fgv.br/ojs/index.php/rae/oai,SEER/OJS,200,200,0,
+m0306,Repositório Institucional da Universidade Federal do Oeste do Pará (UFOPA),C,2.191,1180,BR,ok,,dspace,9.0,https://repositorio.ufopa.edu.br/server/oai/request,sondeo,mets,repositorio.ufopa.edu.br,https://repositorio.ufopa.edu.br/server/oai/request,DSpace,200,200,0,
+m0307,Repositorio Institucional CIESAS,C,2.191,1608,MX,ok,,dspace,5.4,https://ciesas.repositorioinstitucional.mx/oai/request,sondeo,xoai,ciesas.repositorioinstitucional.mx,,,200,200,0,
+m0308,Advocatus,C,2.191,1132,PE,ok,,ojs,3.4.0.10,https://revistas.ulima.edu.pe/index.php/Advocatus/oai,ojs,oai_dc,revistas.ulima.edu.pe,,,200,200,0,
+m0309,BURJC-Digital. Repositorio Institucional de la Universidad Rey Juan Carlos,C,2.191,7325,ES,ok,,dspace,9.3,https://burjcdigital.urjc.es/server/oai/request,sondeo,mets,burjcdigital.urjc.es,,,200,200,0,
+m0310,Soletras (São Gonçalo. Online),C,2.191,1007,BR,caido,3 errores de red seguidos,,,,,,www.e-publicacoes.uerj.br,https://www.e-publicacoes.uerj.br/index.php/soletras/oai,SEER/OJS,200,0,200,1007
+m0311,Arquivos de Ciências da Saúde da UNIPAR (Online),C,2.191,1637,BR,ok,,ojs,3.3.0.16,https://revistas.unipar.br/index.php/saude/oai,ojs,oai_dc,revistas.unipar.br,https://revistas.unipar.br/index.php/saude/oai,Outros,200,200,0,
+m0312,UNFV-Institucional,C,2.191,3376,PE,ok,,dspace,9.2,https://repositorio.unfv.edu.pe/server/oai/request,sondeo,mets,repositorio.unfv.edu.pe,,,200,200,0,
+m0314,Brazilian Journal of Health Review,C,2.191,4402,BR,antibot,anti-bot: cloudflare,,,,,,ojs.brazilianjournals.com.br,https://ojs.brazilianjournals.com.br/ojs/index.php/BJHR/oai,SEER/OJS,200,0,200,4402
+m0315,Biblioteca Digital de Teses e Dissertações da UFRPE,C,2.191,5267,BR,caido,3 errores de red seguidos,,,,,,www.tede2.ufrpe.br,http://www.tede2.ufrpe.br:8080/oai/request,DSpace,200,0,200,5267
+m0316,UNAPIquitos-Institucional,C,2.191,2321,PE,antibot,anti-bot: cloudflare,,,,,,repositorio.unapiquitos.edu.pe,,,200,0,200,2321
+m0317,Interações (Campo Grande. Online),C,2.191,1096,BR,ok,,ojs,3.3.0.24,https://interacoes.ucdb.br/interacoes/oai,ojs,oai_dc,interacoes.ucdb.br,https://interacoes.ucdb.br/interacoes/oai,SciELO,200,200,0,
+m0318,Cadernos de Saúde Pública,C,2.191,8293,BR,oai_vacio,http_500,ojs,3.4.0.10,https://cadernos.ensp.fiocruz.br/ojs/index.php/csp/oai,ojs,oai_dc,cadernos.ensp.fiocruz.br,https://oaipmh.scielo.org/br/,SciELO,200,0,200,8293
+m0319,Revista Letras Raras,C,2.191,1281,BR,ok,,ojs,3.3.0.21,https://revistas.editora.ufcg.edu.br/index.php/RLR/oai,ojs,oai_dc,revistas.editora.ufcg.edu.br,https://revistas.editora.ufcg.edu.br/index.php/RLR/oai,SEER/OJS,200,200,0,
+m0320,Revista de Educação Física,C,2.191,2441,BR,ok,,ojs,3.3.0.24,https://revistadeeducacaofisica.emnuvens.com.br/revista/oai,ojs,oai_dc,revistadeeducacaofisica.emnuvens.com.br,https://revistadeeducacaofisica.emnuvens.com.br/revista/oai,SEER/OJS,200,200,0,
+m0321,Redalyc-UANL,C,2.191,1768,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,1768
+m0322,Ciencias Marinas,C,2.191,1476,MX,ok,,ojs,3.3.0.14,https://www.cienciasmarinas.com.mx/index.php/cmarinas/oai,ojs,oai_dc,www.cienciasmarinas.com.mx,,,200,200,0,
+m0323,SENAMHI-Institucional,C,2.191,1605,PE,ok,,dspace,6.3,https://repositorio.senamhi.gob.pe/oai/request,sondeo,mets,repositorio.senamhi.gob.pe,,,200,200,0,
+m0324,"Concentración de Recursos de Información Científica y Académica, UAM Cuajimalpa",C,2.191,1083,MX,rechazo_403,,,,,,,ilitia.cua.uam.mx,,,200,0,200,1083
+m0326,Biblioteca Digital de Teses e Dissertações da UFTM,C,2.191,1933,BR,ok,,dspace,6.3,https://bdtd.uftm.edu.br/oai/request,sondeo,mets,bdtd.uftm.edu.br,https://bdtd.uftm.edu.br/oai/request,DSpace,200,200,0,
+m0327,Caminhos de Geografia,C,2.191,1925,BR,ok,,ojs,3.4.0.12,https://seer.ufu.br/index.php/caminhosdegeografia/oai,ojs,oai_dc,seer.ufu.br,https://seer.ufu.br/index.php/caminhosdegeografia/oai,SEER/OJS,200,200,0,
+m0328,Diversitas Journal,C,2.191,1661,BR,ok,,ojs,3.3.0.24,https://diversitasjournal.com.br/diversitas_journal/oai,ojs,oai_dc,diversitasjournal.com.br,https://diversitasjournal.com.br/diversitas_journal/oai,SEER/OJS,200,200,0,
+m0329,Redalyc-UASLP,C,2.191,1104,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,1104
+m0330,Jornal Brasileiro de Patologia e Medicina Laboratorial (Online),C,2.191,1136,BR,rechazo_403,2 respuestas 403 seguidas,,,,,,old.scielo.br,https://oaipmh.scielo.org/br/,SciELO,200,0,200,1136
+m0331,Saber Aberto – Repositório Institucional da UNEB,C,2.191,2938,BR,antibot,anubis,,,,,,saberaberto.uneb.br,https://saberaberto.uneb.br/server/oai/request,DSpace,200,0,200,2938
+m0332,Repositorio Biblioteca Digital CCE,C,2.191,1923,EC,caido,3 errores de red seguidos,,,,,,repositorio.casadelacultura.gob.ec,,,200,0,200,1923
+m0334,Boletín Mexicano de Derecho Comparado,C,2.191,1789,MX,ok,,ojs,3.3.0.8,https://revistas.juridicas.unam.mx/index.php/derecho-comparado/oai,ojs,oai_dc,revistas.juridicas.unam.mx,,,200,199,1,1789
+m0335,Motrivivência (Florianópolis),C,2.191,1552,BR,ok,,ojs,3.3.0.23,https://periodicos.ufsc.br/index.php/motrivivencia/oai,ojs,oai_dc,periodicos.ufsc.br,https://periodicos.ufsc.br/index.php/motrivivencia/oai,Outros,200,200,0,
+m0336,RBBD. Revista Brasileira de Biblioteconomia e Documentação (Online),C,2.191,1178,BR,ok,,ojs,3.3.0.24,https://rbbd.febab.org.br/rbbd/oai,ojs,oai_dc,rbbd.febab.org.br,https://rbbd.febab.org.br/rbbd/oai,Outros,200,200,0,
+m0337,Perspectiva (Florianópolis. Online),C,2.191,1762,BR,ok,,ojs,3.3.0.23,https://periodicos.ufsc.br/index.php/perspectiva/oai,ojs,oai_dc,periodicos.ufsc.br,https://periodicos.ufsc.br/index.php/perspectiva/oai,SEER/OJS,200,200,0,
+m0338,História da Educação,C,2.191,1028,BR,ok,,ojs,3.3.0.21,https://seer.ufrgs.br/index.php/asphe/oai,ojs,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/asphe/oai,SEER/OJS,200,200,0,
+m0339,Biblioteca Digital de Teses e Dissertações FURB,C,2.191,2240,BR,ok,,,,https://bu.furb.br/oai,sondeo_extra,oai_dc,bu.furb.br,https://bu.furb.br/oai,Outros,200,200,0,
+m0340,Acta Médica Peruana,C,2.191,1315,PE,antibot,anubis,,,,,,amp.cmp.org.pe,,,200,0,200,1315
+m0341,Clinical and Biomedical Research,C,2.191,1318,BR,ok,,ojs,3.3.0.21,https://seer.ufrgs.br/index.php/hcpa/oai,ojs,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/hcpa/oai,SEER/OJS,200,200,0,
+m0342,RIDAA (UNQ),C,2.191,2572,AR,ok,,dspace,5,https://ridaa.unq.edu.ar/oai/request,sondeo,mets,ridaa.unq.edu.ar,,,200,200,0,
+m0343,Revistas - Universidad Peruana Cayetano Heredia,C,2.191,3816,PE,ok,,ojs,3.3.0.16,https://revistas.upch.edu.pe/index.php/index/oai,ojs,oai_dc,revistas.upch.edu.pe,,,200,200,0,
+m0344,Fisioterapia e Pesquisa,C,2.191,1550,BR,ok,,ojs,3.5.0.3,https://revistas.usp.br/fpusp/oai,ojs,oai_dc,revistas.usp.br,https://www.revistas.usp.br/fpusp/oai,SciELO,200,200,0,
+m0345,Biblioteca Digital de Teses e Dissertações da Faculdade São Leopoldo Mandic,C,2.191,7854,BR,rechazo_403,2 respuestas 403 seguidas,,,,,,prima.com.br,https://biblioteca.slmandic.edu.br/OAI/oai.asp,Sophia,200,0,200,7854
+m0347,Repositorio Institucional CICESE,C,2.191,3745,MX,ok,,dspace,5.4,https://cicese.repositorioinstitucional.mx/oai/request,sondeo,xoai,cicese.repositorioinstitucional.mx,,,200,200,0,
+m0348,Revista e-xacta,C,2.191,1192,BR,pide_esperar,código 429,,,,,,revistas.unibh.br,https://periodicos.uninove.br/exacta/oai,SEER/OJS,200,0,200,1191
+m0349,Revista Brasileira de Educação Física e Esporte (Online),C,2.191,1119,BR,ok,,ojs,3.5.0.3,https://www.revistas.usp.br/rbefe/oai,ojs,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/rbefe/oai,SciELO,200,200,0,
+m0350,Saude em Debate,C,2.191,1325,BR,ok,,ojs,3.3.0.24,https://www.saudeemdebate.org.br/sed/oai,ojs,oai_dc,www.saudeemdebate.org.br,https://www.saudeemdebate.org.br/sed/oai,SciELO,200,200,0,
+m0352,Ambiente construído (Online),C,2.191,1343,BR,ok,,ojs,3.3.0.21,https://seer.ufrgs.br/index.php/ambienteconstruido/oai,ojs,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/index.php/ambienteconstruido/oai,SEER/OJS,200,200,0,
+m0353,Revista Enfermagem Atual In Derme,C,2.191,1124,BR,oai_roto,presupuesto agotado,,,,,,revistaenfermagematual.com,https://revistaenfermagematual.com/index.php/revista/oai,SEER/OJS,200,0,200,1124
+m0354,UNU-Institucional,C,2.191,1021,PE,ok,,dspace,7.6.3-SNAPSHOT,https://apirepositorio.unu.edu.pe/server/oai/request,sondeo,mets,repositorio.unu.edu.pe,,,200,200,0,
+m0355,Revista Brasileira de Nutrição Esportiva,C,2.191,1279,BR,antibot,cloudflare,ojs,3.5.0.4,,,,www.rbne.com.br,https://www.rbne.com.br/index.php/rbne/oai,SEER/OJS,200,0,200,1279
+m0356,Organizações & Sociedade (Online),C,2.191,1081,BR,ok,,ojs,3.2.1.4,https://periodicos.ufba.br/index.php/revistaoes/oai,ojs,oai_dc,periodicos.ufba.br,https://periodicos.ufba.br/index.php/revistaoes/oai,SciELO,200,200,0,
+m0357,Revista brasileira de gestão e desenvolvimento regional,C,2.191,1210,BR,ok,,ojs,3.3.0.16,https://www.rbgdr.net/revista/index.php/rbgdr/oai,ojs,oai_dc,www.rbgdr.net,https://www.rbgdr.net/revista/index.php/rbgdr/oai,SEER/OJS,200,200,0,
+m0358,Comunicação & Educação (Online),C,2.191,1364,BR,ok,,ojs,3.5.0.3,https://www.revistas.usp.br/comueduc/oai,ojs,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/comueduc/oai,SEER/OJS,200,200,0,
+m0359,Revista Brasileira em Promoção da Saúde,C,2.191,1354,BR,ok,,ojs,3.3.0.24,https://ojs.unifor.br/RBPS/oai,ojs,oai_dc,ojs.unifor.br,https://periodicos.unifor.br/RBPS/oai,SEER/OJS,200,200,0,
+m0361,udiMundus. Repositorio Institucional de la Universidad a Distancia de Madrid,C,2.191,2237,ES,ok,,dspace,6.3_1.1.1,https://udimundus.udima.es/oai/request,sondeo,mets,udimundus.udima.es,,,200,200,0,
+m0362,Repositorio Institucional UTP,C,2.191,2145,CO,antibot,anti-bot: bunkerweb,,,,,,repositorio.utp.edu.co,,,200,0,200,2174
+m0363,Redalyc-UDG,C,2.191,3652,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,3652
+m0364,Avaliação (Campinas. Online),C,2.191,1029,BR,ok,,ojs,3.4.0.12,https://periodicos.uniso.br/avaliacao/oai,ojs,oai_dc,periodicos.uniso.br,https://periodicos.uniso.br/avaliacao/oai,SEER/OJS,200,200,0,
+m0365,Revista da ANPOLL (Online),C,2.191,1206,BR,ok,,ojs,3.3.0.24,https://revistadaanpoll.emnuvens.com.br/revista/oai,ojs,oai_dc,revistadaanpoll.emnuvens.com.br,https://revistadaanpoll.emnuvens.com.br/revista/oai,SEER/OJS,200,200,0,
+m0366,UNJFSC-Institucional,C,2.191,2340,PE,servicio_no_disponible,código 503,,,,,,repositorio.unjfsc.edu.pe,,,200,0,200,2340
+m0367,Revista da ABENO (Online),C,2.191,1036,BR,ok,,ojs,3.3.0.24,https://revabeno.emnuvens.com.br/revabeno/oai,ojs,oai_dc,revabeno.emnuvens.com.br,https://revabeno.emnuvens.com.br/revabeno/oai,SEER/OJS,200,200,0,
+m0368,BIRD. BCAM's Institutional Repository Data,C,2.191,1871,ES,ok,,dspace,5.11_1.0.3,https://bird.bcamath.org/oai/request,sondeo,mets,bird.bcamath.org,,,200,200,0,
+m0369,Redalyc-UADY,C,2.191,1208,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,1208
+m0370,Redalyc-IMSS,C,2.191,1483,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,1483
+m0371,Biblioteca Digital de Teses e Dissertações da PUC_PR,C,2.191,6401,BR,ok,,,,https://pergamum-biblioteca.pucpr.br//pergamum/oai/ibict/harvest,ibict,oai_dc,pergamum-biblioteca.pucpr.br,https://pergamum-biblioteca.pucpr.br//pergamum/oai/ibict/harvest,Pergamum,200,100,100,6401
+m0372,Biblioteca Digital Minerva - Repositorio EAN,C,2.191,2415,CO,ok,,dspace,8.1,https://repository.universidadean.edu.co/oai/request,sondeo,mets,repository.universidadean.edu.co,,,200,200,0,
+m0373,Revista de Administração Pública,C,2.191,3072,BR,ok,,ojs,3.3.0.24,https://periodicos.fgv.br/rap/oai,ojs,oai_dc,periodicos.fgv.br,https://periodicos.fgv.br/rap/oai,Outros,200,200,0,
+m0374,Revista Tecnologia e Sociedade (Online),C,2.191,1051,BR,ok,,ojs,2.4.8.1,https://periodicos.utfpr.edu.br/rts/oai,ibict,oai_dc,periodicos.utfpr.edu.br,https://periodicos.utfpr.edu.br/rts/oai,SEER/OJS,200,200,0,
+m0375,UCSM-Tesis,C,2.191,1911,PE,ok,,dspace,7.6.1,https://repositorio.ucsm.edu.pe/server/oai/request,sondeo,mets,repositorio.ucsm.edu.pe,,,200,200,0,
+m0376,Journal of applied oral science (Online),C,2.191,1999,BR,ok,,ojs,3.5.0.3,https://www.revistas.usp.br/jaos/oai,ojs,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/jaos/oai,SEER/OJS,200,200,0,
+m0377,Revista Estudos Feministas,C,2.191,2458,BR,ok,,ojs,3.3.0.23,https://periodicos.ufsc.br/index.php/ref/oai,ojs,oai_dc,periodicos.ufsc.br,https://periodicos.ufsc.br/index.php/ref/oai,SEER/OJS,200,200,0,
+m0378,Redalyc-IPN,C,2.191,3047,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,3047
+m0379,Repositorio Universidad del Azuay,C,2.191,3743,EC,ok,,dspace,6.4-SNAPSHOT,https://dspace.uazuay.edu.ec/oai/request,sondeo,mets,dspace.uazuay.edu.ec,,,200,200,0,
+m0380,Portal de Livros Abertos da USP,C,2.191,1326,BR,ok,,omp,3.5.0.5,https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP/oai,ibict,oai_dc,www.livrosabertos.abcd.usp.br,https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP/oai,DSpace,200,85,115,1307
+m0382,Repositorio Institucional Caxcán,C,2.191,2746,MX,caido,3 errores de red seguidos,,,,,,ricaxcan.uaz.edu.mx,,,200,0,200,2746
+m0383,RIUCaC - Repositorio U. Católica,C,2.191,3953,CO,antibot,anti-bot: bunkerweb,,,,,,repository.ucatolica.edu.co,,,200,0,200,254
+m0384,Repostorio Institucional UAEH,C,2.191,1250,MX,caido,3 errores de red seguidos,,,,,,repository.uaeh.edu.mx,,,200,0,200,1250
+m0385,Revista Acta Scientiae Veterinariae (Online),C,2.191,2108,BR,ok,,ojs,3.3.0.21,https://seer.ufrgs.br/index.php/ActaScientiaeVeterinariae/oai,ojs,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/ActaScientiaeVeterinariae/oai,SEER/OJS,200,200,0,
+m0386,Repositorio Institucional del Instituto de Investigaciones Bibliotecológicas y de la Información de la UNAM,C,2.191,2961,MX,ok,,dspace,6.3,https://ru.iibi.unam.mx/oai/request,sondeo,mets,ru.iibi.unam.mx,,,200,100,97,2961
+m0387,Fuente de Objetos Científicos Open Access del CIMAV,C,2.191,1533,MX,ok,,,,https://cimav.repositorioinstitucional.mx/oai/request,sondeo,xoai,cimav.repositorioinstitucional.mx,,,200,200,0,
+m0388,Cadernos de Tradução (Florianópolis. Online),C,2.191,1725,BR,ok,,ojs,3.3.0.23,https://periodicos.ufsc.br/index.php/traducao/oai,ojs,oai_dc,periodicos.ufsc.br,https://periodicos.ufsc.br/index.php/traducao/oai,SEER/OJS,200,200,0,
+m0389,RID-UNRN (UNRN),C,2.191,1837,AR,ok,,dspace,6.3,https://rid.unrn.edu.ar/oai/request,sondeo,mets,rid.unrn.edu.ar,,,200,200,0,
+m0390,Repositorio Universidad Tecnológica Indoamérica,C,2.191,3994,EC,ok,,dspace,7.6.3,https://repositorio.uti.edu.ec/server/oai/request,sondeo,mets,repositorio.uti.edu.ec,,,200,200,0,
+m0391,Scientia. Dipòsit d'Informació Digital del Departament de Salut,C,2.191,8365,ES,ok,,dspace,6.4-SNAPSHOT,https://scientiasalut.gencat.cat/oai/request,sondeo,mets,scientiasalut.gencat.cat,,,200,200,0,
+m0392,Trabalho & Educação (Online),C,2.191,1087,BR,ok,,ojs,3.4.0.9,https://periodicos.ufmg.br/index.php/trabedu/oai,ojs,oai_dc,periodicos.ufmg.br,https://periodicos.ufmg.br/index.php/trabedu/oai,SEER/OJS,200,200,0,
+m0393,Repositorio Pontificia Universidad Católica del Ecuador Sede Ambato,C,2.191,1575,EC,caido,3 errores de red seguidos,,,,,,repositorio.pucesa.edu.ec,,,200,0,200,1575
+m0395,Brazilian Journal of Veterinary Research and Animal Science,C,2.191,2309,BR,ok,,ojs,3.5.0.3,https://www.revistas.usp.br/bjvras/oai,ojs,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/bjvras/oai,SEER/OJS,200,200,0,
+m0396,Redalyc-USON,C,2.191,1363,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,1363
+m0397,Repositorio Universidad Técnica de Machala,C,2.191,3439,EC,ok,,dspace,8.2,https://repositorio.utmachala.edu.ec/oai/request,sondeo,mets,repositorio.utmachala.edu.ec,,,200,200,0,
+m0398,Repositorio Universidad de las Fuerzas Armadas,C,2.191,4030,EC,ok,,dspace,8.4,https://repositorio.espe.edu.ec/server/oai/request,sondeo,mets,repositorio.espe.edu.ec,,,200,200,0,
+m0399,Physis (Online),C,2.191,1039,BR,antibot,anti-bot: cloudflare,,,,,,ojs.brazilianjournals.com.br,https://www.e-publicacoes.uerj.br/physis/oai,SciELO,200,0,200,1039
+m0400,Repositório Institucional da UNIJUI,C,2.191,1765,BR,ok,,dspace,9.0,https://bibliodigital.unijui.edu.br:8443/server/oai/request,sondeo,mets,bibliodigital.unijui.edu.br,http://bibliodigital.unijui.edu.br:8080/server/oai/request,DSpace,200,200,0,
+m0401,Repositorio Institucional SEGEMAR (SEGEMAR),C,2.191,3565,AR,ok,,dspace,6.3,https://repositorio.segemar.gov.ar/oai/request,sondeo,mets,repositorio.segemar.gov.ar,,,200,200,0,
+m0402,Repositorio Universidad Andina Simón Bolivar,C,2.191,9059,EC,rechazo_403,host abandonado (repositorio.uasb.edu.ec): 2 respuestas 403 seguidas,,,https://repositorio.uasb.edu.ec/oai/request,sondeo,mets,repositorio.uasb.edu.ec,,,200,0,200,9059
+m0403,Repositorio Escuela Superior Politécnica del Litoral,C,2.191,7142,EC,oai_vacio,http_500,dspace,9.3,https://www.dspace.espol.edu.ec/server/oai/request,sondeo,ore,www.dspace.espol.edu.ec,,,200,0,200,7142
+m0404,Revista Mexicana de Ciencias Políticas y Sociales,C,2.191,3219,MX,antibot,anti-bot: cloudflare,,,,,,www.revistas.unam.mx,,,200,0,200,3219
+m0405,Repositorio Institucional INECOL,D,4.961,603,MX,sin_formato,,dspace,5.4,https://inecol.repositorioinstitucional.mx/oai/request,sondeo,,inecol.repositorioinstitucional.mx,,,200,0,200,603
+m0406,Redalyc-UA,D,4.961,210,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,210
+m0408,Repositorio Institucional CIDE,D,4.961,269,MX,caido,3 errores de red seguidos,,,,,,cide.repositorioinstitucional.mx,,,200,0,200,269
+m0409,Revista da Educação física/UEM (Online),D,4.961,387,BR,ok,,ojs,3.4.0.10,https://periodicos.uem.br/ojs/index.php/RevEducFis/oai,ojs,oai_dc,periodicos.uem.br,https://periodicos.uem.br/ojs/index.php/RevEducFis/oai,SEER/OJS,200,200,0,
+m0410,SER Social (Online),D,4.961,480,BR,oai_roto,,ojs,3.4.0.10,,,,periodicos.unb.br,https://periodicos.unb.br/index.php/SER_Social/oai,SEER/OJS,200,0,200,480
+m0411,Administração Pública e Gestão Social,D,4.961,536,BR,ok,,ojs,3.3.0.21,https://periodicos.ufv.br/apgs/oai,ojs,oai_dc,periodicos.ufv.br,https://periodicos.ufv.br/apgs/oai,OJS,200,200,0,
+m0412,Repositorio Digital del Instituto Nacional del Agua,D,4.961,101,AR,ok,,dspace,7.6.1,https://repositorio.ina.gob.ar/server/oai/request,sondeo,mets,repositorio.ina.gob.ar,,,101,101,0,
+m0413,Virtuajus,D,4.961,465,BR,ok,,ojs,3.3.0.24,https://periodicos.pucminas.br/virtuajus/oai,ojs,oai_dc,periodicos.pucminas.br,https://periodicos.pucminas.br/virtuajus/oai,SEER/OJS,200,200,0,
+m0414,Temporalis (Online),D,4.961,616,BR,ok,,ojs,3.5.0.5,https://periodicos.ufes.br/temporalis/oai,ojs,oai_dc,periodicos.ufes.br,https://periodicos.ufes.br/temporalis/oai,SEER/OJS,200,200,0,
+m0415,Afro-Ásia (Online),D,4.961,958,BR,ok,,ojs,3.2.1.4,https://periodicos.ufba.br/index.php/afroasia/oai,ojs,oai_dc,periodicos.ufba.br,https://periodicos.ufba.br/index.php/afroasia/oai,SEER/OJS,200,200,0,
+m0416,Redalyc-UNPA,D,4.961,122,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,122,0,122,122
+m0418,Revista Ciências Exatas e Naturais (Online),D,4.961,332,BR,ok,,ojs,3.3.0.22,https://revistas.unicentro.br/index.php/RECEN/oai,ojs,oai_dc,revistas.unicentro.br,https://revistas.unicentro.br/index.php/RECEN/oai,SEER/OJS,200,200,0,
+m0419,Revista Espaço ameríndio,D,4.961,662,BR,ok,,ojs,3.3.0.21,https://seer.ufrgs.br/index.php/EspacoAmerindio/oai,ojs,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/EspacoAmerindio/oai,SEER/OJS,200,200,0,
+m0420,Direitos Democráticos & Estado Moderno,D,4.961,163,BR,ok,,ojs,3.3.0.21,https://revistas.pucsp.br/index.php/DDEM/oai,ojs,oai_dc,revistas.pucsp.br,https://revistas.pucsp.br/index.php/DDEM/oai,SEER/OJS,163,163,0,
+m0421,Resgate (Online),D,4.961,631,BR,ok,,ojs,3.4.0.9,https://periodicos.sbu.unicamp.br/ojs/index.php/resgate/oai,ojs,oai_dc,periodicos.sbu.unicamp.br,https://periodicos.sbu.unicamp.br/ojs/index.php/resgate/oai,Outros,200,200,0,
+m0422,Prim@ Facie,D,4.961,512,BR,oai_roto,,,,,,,periodicos.ufpb.br,https://periodicos.ufpb.br/index.php/primafacie/oai,SEER/OJS,200,0,200,511
+m0423,Redalyc-UAEH,D,4.961,847,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,847
+m0424,Revista Aurora (Online),D,4.961,810,BR,ok,,ojs,3.4.0.9,https://revistas.marilia.unesp.br/index.php/aurora/oai,ojs,oai_dc,revistas.marilia.unesp.br,https://revistas.marilia.unesp.br/index.php/aurora/oai,OJS,200,200,0,
+m0425,Evidência - Ciência e Biotecnologia - Interdisciplinar,D,4.961,289,BR,ok,,ojs,3.3.0.24,https://periodicos.unoesc.edu.br/evidencia/oai,ojs,oai_dc,periodicos.unoesc.edu.br,https://periodicos.unoesc.edu.br/evidencia/oai,SEER/OJS,200,200,0,
+m0426,Línguas e Instrumentos Linguísticos (Online),D,4.961,342,BR,ok,,ojs,3.4.0.9,https://periodicos.sbu.unicamp.br/ojs/index.php/lil/oai,ojs,oai_dc,periodicos.sbu.unicamp.br,https://periodicos.sbu.unicamp.br/ojs/index.php/lil/oai,SEER/OJS,200,200,0,
+m0427,Mneme (Caicó. Online),D,4.961,554,BR,ok,,ojs,3.3.0.21,https://periodicos.ufrn.br/mneme/oai,ojs,oai_dc,periodicos.ufrn.br,https://periodicos.ufrn.br/mneme/oai,SEER/OJS,200,200,0,
+m0428,Economia Ensaios,D,4.961,442,BR,ok,,ojs,3.4.0.12,https://seer.ufu.br/index.php/revistaeconomiaensaios/oai,ojs,oai_dc,seer.ufu.br,https://seer.ufu.br/index.php/revistaeconomiaensaios/oai,SEER/OJS,200,200,0,
+m0429,EntreLetras,D,4.961,753,BR,ok,,ojs,3.3.0.22,https://periodicos.ufnt.edu.br/index.php/entreletras/oai,ojs,oai_dc,periodicos.ufnt.edu.br,https://periodicos.ufnt.edu.br/index.php/entreletras/oai,SEER/OJS,200,200,0,
+m0430,Meio Ambiente (Brasil),D,4.961,265,BR,ok,,ojs,3.3.0.21,https://meioambientebrasil.com.br/index.php/MABRA/oai,ojs,oai_dc,meioambientebrasil.com.br,https://meioambientebrasil.com.br/index.php/MABRA/oai,SEER/OJS,200,200,0,
+m0431,Redalyc-CMQ,D,4.961,151,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,151,0,151,151
+m0432,Revista de Estudos e Pesquisas sobre as Américas,D,4.961,238,BR,oai_roto,,ojs,3.4.0.10,,,,periodicos.unb.br,https://periodicos.unb.br/index.php/repam/oai,SEER/OJS,200,0,200,238
+m0433,Revista Mundos do Trabalho,D,4.961,529,BR,ok,,ojs,3.3.0.23,https://periodicos.ufsc.br/index.php/mundosdotrabalho/oai,ojs,oai_dc,periodicos.ufsc.br,https://periodicos.ufsc.br/index.php/mundosdotrabalho/oai,SEER/OJS,200,100,81,529
+m0434,Repositorio RI-UCM,D,4.961,748,CO,antibot,anti-bot: bunkerweb,,,,,,repositorio.ucm.edu.co,,,200,0,200,824
+m0435,Repositório Institucional da Escola Bahiana de Medicina e Saúde Pública,D,4.961,670,BR,rechazo_403,2 respuestas 403 seguidas,,,,,,repositorio.bahiana.edu.br,https://repositorio.bahiana.edu.br/server/oai/request,DSpace,200,0,200,670
+m0436,Tzintzun. Revista de Estudios Históricos,D,4.961,784,MX,ok,,ojs,3.5.0.3,https://tzintzun.umich.mx/index.php/TZN/oai,ojs,oai_dc,tzintzun.umich.mx,,,200,200,0,
+m0437,Redalyc-UJED,D,4.961,521,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,521
+m0438,Repositorio Institucional (UCaSal),D,4.961,439,AR,ok,,,,http://bibliotecas.ucasal.edu.ar/ws/oai2_7,roar,oai_dc,bibliotecas.ucasal.edu.ar,,,200,200,0,
+m0439,Kant e-prints (Online),D,4.961,346,BR,ok,,ojs,3.4.0.9,https://periodicos.sbu.unicamp.br/ojs/index.php/kant/oai,ojs,oai_dc,periodicos.sbu.unicamp.br,https://periodicos.sbu.unicamp.br/ojs/index.php/kant/oai,OJS,200,200,0,
+m0440,Repositório Institucional Memoria (IFRN),D,4.961,455,BR,ok,,dspace,5.1,https://memoria.ifrn.edu.br/oai/request,sondeo,mets,memoria.ifrn.edu.br,https://memoria.ifrn.edu.br/oai/request,DSpace,200,200,0,
+m0441,Aesthetic Orofacial Science,D,4.961,114,BR,ok,,ojs,3.3.0.24,https://ahof.emnuvens.com.br/ahof/oai,ojs,oai_dc,ahof.emnuvens.com.br,https://ahof.emnuvens.com.br/ahof/oai,SEER/OJS,114,114,0,
+m0442,Revistas - Universidad Privada Antonio Guillermo Urrelo,D,4.961,206,PE,caido,3 errores de red seguidos,,,,,,revistas.upagu.edu.pe,,,200,0,200,206
+m0443,Anais Brasileiros de Estudos Turísticos,D,4.961,358,BR,ok,,ojs,3.3.0.22,https://periodicos.ufjf.br/index.php/abet/oai,ojs,oai_dc,periodicos.ufjf.br,https://periodicos.ufjf.br/index.php/abet/oai,SEER/OJS,200,200,0,
+m0444,Health care & global health,D,4.961,178,PE,ok,,ojs,3.3.0.15,http://revista.uch.edu.pe/index.php/hgh/oai,ojs,oai_dc,revista.uch.edu.pe,,,178,178,0,
+m0445,Revista Cenário,D,4.961,168,BR,oai_roto,,ojs,3.4.0.10,,,,periodicos.unb.br,https://periodicos.unb.br/index.php/revistacenario/oai,OJS,168,0,168,168
+m0447,Grau Zero,D,4.961,280,BR,sin_formato,,ojs,3.3.0.21,https://revistas.uneb.br/index.php/grauzero/oai,ojs,,revistas.uneb.br,https://revistas.uneb.br/index.php/grauzero/oai,SEER/OJS,200,0,200,280
+m0448,FINEDUCA - Revista de Financiamento da Educação,D,4.961,310,BR,ok,,ojs,3.3.0.21,https://seer.ufrgs.br/index.php/fineduca/oai,ojs,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/fineduca/oai,SEER/OJS,200,200,0,
+m0449,"Repositório Institucional do Instituto Federal de Educação, Ciência e Tecnologia de Rondônia (IFRO)",D,4.961,228,BR,oai_vacio,http_500,dspace,7.6.5,https://repositorio.ifro.edu.br/server/oai/request,sondeo,mets,repositorio.ifro.edu.br,https://repositorio.ifro.edu.br/server/oai/request,DSpace,200,0,200,228
+m0450,Revista História Econômica & História de Empresas (Online),D,4.961,458,BR,antibot,cloudflare,ojs,3.3.0.17,,,,hehe.org.br,https://hehe.org.br/index.php/rabphe/oai,SEER/OJS,200,0,200,458
+m0451,(Des)troços - Revista de pensamento radical,D,4.961,190,BR,ok,,ojs,3.4.0.9,https://periodicos.ufmg.br/index.php/revistadestrocos/oai,ojs,oai_dc,periodicos.ufmg.br,https://periodicos.ufmg.br/index.php/revistadestrocos/oai,SEER/OJS,190,190,0,
+m0452,Revista de Ensino de Bioquímica,D,4.961,481,BR,antibot,cloudflare,,,,,,bioquimica.org.br,https://www.bioquimica.org.br/index.php/REB/oai,SEER/OJS,200,0,200,445
+m0453,Revista Amazónica. Ciencia y Tecnología,D,4.961,141,EC,ok,,ojs,3.3.0.17,https://revistas.uea.edu.ec/index.php/racyt/oai,ojs,oai_dc,revistas.uea.edu.ec,,,141,141,0,
+m0454,Redalyc-UQROO,D,4.961,360,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,360
+m0455,Pesquisa em Educação Ambiental (Online),D,4.961,422,BR,ok,,ojs,3.3.0.22,https://www.periodicos.rc.biblioteca.unesp.br/index.php/pesquisa/oai,ojs,oai_dc,www.periodicos.rc.biblioteca.unesp.br,https://www.periodicos.rc.biblioteca.unesp.br/index.php/pesquisa/oai,SEER/OJS,200,200,0,
+m0456,Revista Investigações em ensino de ciências,D,4.961,866,BR,ok,,ojs,3.4.0.7,https://ienci.if.ufrgs.br/index.php/ienci/oai,ojs,oai_dc,ienci.if.ufrgs.br,https://ienci.if.ufrgs.br/index.php/ienci/oai,SEER/OJS,200,200,0,
+m0457,Gragoatá,D,4.961,274,BR,ok,,ojs,3.4.0.12,https://periodicos.uff.br/gragoata/oai,ojs,oai_dc,periodicos.uff.br,https://periodicos.uff.br/gragoata/oai,SEER/OJS,200,200,0,
+m0458,Revista do direito (Santa Cruz do Sul. Online),D,4.961,449,BR,ok,,ojs,3.4.0.11,https://seer.unisc.br/index.php/direito/oai,ojs,oai_dc,seer.unisc.br,https://seer.unisc.br/index.php/direito/oai,SEER/OJS,200,200,0,
+m0459,Revista Passagens,D,4.961,286,BR,ok,,ojs,,http://periodicos.ufc.br/passagens/oai,ibict,oai_dc,periodicos.ufc.br,http://periodicos.ufc.br/passagens/oai,SEER/OJS,200,200,0,
+m0460,Revista Desenvolvimento Social (Online),D,4.961,384,BR,ok,,ojs,3.3.0.20,https://www.periodicos.unimontes.br/index.php/rds/oai,ojs,oai_dc,www.periodicos.unimontes.br,https://www.periodicos.unimontes.br/index.php/rds/oai,Outros,200,200,0,
+m0461,Culturales,D,4.961,340,MX,ok,,ojs,3.3.0.20,https://culturales.uabc.mx/index.php/Culturales/oai,ojs,oai_dc,culturales.uabc.mx,,,200,200,0,
+m0463,Redalyc-ECOSUR,D,4.961,647,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,647
+m0464,Dito Efeito,D,4.961,200,BR,ok,,ojs,2.4.8.1,https://periodicos.utfpr.edu.br/de/oai,ibict,oai_dc,periodicos.utfpr.edu.br,https://periodicos.utfpr.edu.br/de/oai,Outros,200,151,31,200
+m0465,Vitruvian Cogitationes,D,4.961,145,BR,ok,,ojs,3.4.0.10,https://periodicos.uem.br/vitruvian/index.php/revisvitruscogitationes/oai,ojs,oai_dc,periodicos.uem.br,https://periodicos.uem.br/vitruvian/index.php/revisvitruscogitationes/oai,SEER/OJS,145,145,0,
+m0466,Repositório Institucional da UFRR,D,4.961,847,BR,caido,3 errores de red seguidos,,,,,,repositorio.ufrr.br,http://repositorio.ufrr.br:8080/oai/request,DSpace,200,0,200,847
+m0467,Revista Animus (Santa Maria. Online),D,4.961,671,BR,ok,,ojs,3.3.0.10,https://periodicos.ufsm.br/animus/oai,ojs,oai_dc,periodicos.ufsm.br,https://periodicos.ufsm.br/animus/oai,SEER/OJS,200,200,0,
+m0468,Repositorio Escuela Superior Politécnica Agropecuaria de Manabí,D,4.961,224,EC,rechazo_403,host abandonado (repositorio.espam.edu.ec): 2 respuestas 403 seguidas,,,https://repositorio.espam.edu.ec/oai/request,sondeo,mets,repositorio.espam.edu.ec,,,200,0,200,224
+m0469,Perspectivas Contemporâneas,D,4.961,424,BR,ok,,ojs,3.3.0.23,http://periodicos.grupointegrado.br/revista/index.php/perspectivascontemporaneas/oai,ojs,oai_dc,periodicos.grupointegrado.br,http://periodicos.grupointegrado.br/revista/index.php/perspectivascontemporaneas/oai,SEER/OJS,200,200,0,
+m0470,Cadernos Cajuína,D,4.961,725,BR,antibot,cloudflare,ojs,3.3.0.19,,,,v3.cadernoscajuina.pro.br,https://v3.cadernoscajuina.pro.br/index.php/revista/oai,SEER/OJS,200,0,200,725
+m0471,Redalyc-UNACH,D,4.961,507,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,507
+m0472,Acta Sociológica,D,4.961,363,MX,antibot,anti-bot: cloudflare,,,,,,www.revistas.unam.mx,,,200,0,200,363
+m0473,Biblioteca Digital da Fundação Alexandre de Gusmão - FUNAG,D,4.961,993,BR,ok,,,,https://funag.gov.br/biblioteca-nova/oai,ibict,oai_dc,funag.gov.br,https://funag.gov.br/biblioteca-nova/oai,Outros,200,200,0,
+m0474,Agenda Internacional,D,4.961,475,PE,ok,,ojs,3.5.0.5,https://revistas.pucp.edu.pe/index.php/agendainternacional/oai,ojs,oai_dc,revistas.pucp.edu.pe,,,200,138,62,475
+m0475,Liberabit,D,4.961,173,PE,rechazo_403,2 respuestas 403 seguidas,,,,,,www.revistaliberabit.com,,,173,0,173,173
+m0476,Revista Educação Especial em Debate,D,4.961,218,BR,ok,,ojs,3.5.0.5,https://periodicos.ufes.br/reed/oai,ojs,oai_dc,periodicos.ufes.br,https://periodicos.ufes.br/reed/oai,SEER/OJS,200,200,0,
+m0477,Perspectivas em Gestão & Conhecimento,D,4.961,145,BR,caido,3 errores de red seguidos,,,,,,periodicos.ufpb.br,https://periodicos.ufpb.br/ojs2/index.php/pgc/oai,SEER/OJS,145,0,140,140
+m0478,Revista Pedagógica (Chapecó. Online),D,4.961,909,BR,ok,,ojs,3.3.0.14,https://bell.unochapeco.edu.br/revistas/index.php/pedagogica/oai,ojs,oai_dc,bell.unochapeco.edu.br,https://bell.unochapeco.edu.br/revistas/index.php/pedagogica/oai,SEER/OJS,200,200,0,
+m0479,Revista Eletrônica de Ciência Administrativa,D,4.961,328,BR,ok,,ojs,2.4.8.3,http://www.periodicosibepes.org.br/index.php/recadm/oai,ojs,oai_dc,www.periodicosibepes.org.br,http://www.periodicosibepes.org.br/recadm/oai,SEER/OJS,200,200,0,
+m0480,Revista Cultura Agronômica (Online),D,4.961,546,BR,ok,,ojs,3.5.0.5,https://ojs.unesp.br/index.php/rculturaagronomica/oai,ibict,oai_dc,ojs.unesp.br,https://ojs.unesp.br/index.php/rculturaagronomica/oai,SEER/OJS,200,200,0,
+m0481,Revista da Unifebe,D,4.961,393,BR,ok,,ojs,3.5.0.5,https://periodicos.unifebe.edu.br/index.php/RevistaUnifebe/oai,ojs,oai_dc,periodicos.unifebe.edu.br,https://periodicos.unifebe.edu.br/index.php/RevistaUnifebe/oai,SEER/OJS,200,200,0,
+m0482,UPAGU-Institucional,D,4.961,172,PE,caido,3 errores de red seguidos,,,,,,repositorio.upagu.edu.pe,,,172,0,172,172
+m0483,OSIPTEL-institucional,D,4.961,409,PE,sitio_con_error,,,,,,,repositorio.osiptel.gob.pe,,,200,0,200,409
+m0484,Revista Aproximação (Guarapuava),D,4.961,157,BR,ok,,ojs,3.3.0.22,https://revistas.unicentro.br/index.php/aproximacao/oai,ojs,oai_dc,revistas.unicentro.br,https://revistas.unicentro.br/index.php/aproximacao/oai,SEER/OJS,157,157,0,
+m0485,DIGITAL.INTA Repositorio Digital del Instituto Nacional de Técnica Aeroespacial,D,4.961,662,ES,ok,,dspace,7.6.2,https://api-digital.inta.es/oai/request,sondeo,mets,digital.inta.es,,,200,92,108,658
+m0486,Repositório da Universidade Estadual do Maranhão (UEMA),D,4.961,920,BR,caido,3 errores de red seguidos,,,,,,repositorio.uema.br,https://repositorio.uema.br/oai/request,DSpace,200,0,200,920
+m0487,Revista Educação e Políticas em Debate,D,4.961,593,BR,ok,,ojs,3.4.0.12,https://seer.ufu.br/index.php/revistaeducaopoliticas/oai,ojs,oai_dc,seer.ufu.br,https://seer.ufu.br/index.php/revistaeducaopoliticas/oai,SEER/OJS,200,200,0,
+m0488,Revista CPC,D,4.961,471,BR,ok,,ojs,3.5.0.3,https://revistas.usp.br/cpc/oai,ojs,oai_dc,revistas.usp.br,https://revistas.usp.br/cpc/oai,SEER/OJS,200,200,0,
+m0489,Coleção Meira Mattos (Online),D,4.961,418,BR,caido,3 errores de red seguidos,,,,,,meiramattos.eceme.ensino.eb.br,https://ebrevistas.eb.mil.br/RMM/oai,SEER/OJS,200,0,200,404
+m0490,Revista de História da Educação Matemática,D,4.961,405,BR,ok,,ojs,3.3.0.21,http://www.histemat.com.br/index.php/HISTEMAT/oai,ojs,oai_dc,www.histemat.com.br,http://www.histemat.com.br/index.php/HISTEMAT/oai,SEER/OJS,200,200,0,
+m0491,Revista Brasileira de Lingüística Aplicada (Online),D,4.961,705,BR,caido,3 errores de red seguidos,,,,,,www.periodicos.letras.ufmg.br,http://www.periodicos.letras.ufmg.br/index.php/rbla/oai,SEER/OJS,200,0,200,705
+m0492,CSOnline - Revista Eletrônica de Ciências Sociais,D,4.961,569,BR,ok,,ojs,3.3.0.22,https://periodicos.ufjf.br/index.php/csonline/oai,ojs,oai_dc,periodicos.ufjf.br,https://periodicos.ufjf.br/index.php/csonline/oai,SEER/OJS,200,200,0,
+m0493,Revista de contabilidade e organizações,D,4.961,392,BR,ok,,ojs,3.5.0.3,https://www.revistas.usp.br/rco/oai,ojs,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/rco/oai,SEER/OJS,200,100,75,391
+m0494,Conpedi Law Review,D,4.961,458,BR,antibot,anti-bot: cloudflare,,,,,,www.indexlaw.org,https://www.indexlaw.org/index.php/conpedireview/oai,Outros,200,0,200,458
+m0495,Revista de Direito Tributário e Financeiro,D,4.961,136,BR,antibot,anti-bot: cloudflare,,,,,,www.indexlaw.org,http://www.indexlaw.org/index.php/direitotributario/oai,SEER/OJS,136,0,136,136
+m0496,Revista CAP Jurídica central,D,4.961,102,EC,ok,,ojs,3.3.0.22,https://revistadigital.uce.edu.ec/index.php/CAP/oai,ojs,oai_dc,revistadigital.uce.edu.ec,,,102,102,0,
+m0497,Redalyc-COLSAN,D,4.961,159,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,159,0,159,159
+m0498,Políticas Culturais em Revista,D,4.961,470,BR,ok,,ojs,3.2.1.4,https://periodicos.ufba.br/index.php/pculturais/oai,ojs,oai_dc,periodicos.ufba.br,https://periodicos.ufba.br/index.php/pculturais/oai,SEER/OJS,200,200,0,
+m0499,Repositorio CONARE,D,4.961,648,CR,ok,,dspace,9.3,https://repositorio.conare.ac.cr/server/oai/request,sondeo,mets,repositorio.conare.ac.cr,,,200,200,0,
+m0500,Textos & Debates (Online),D,4.961,432,BR,ok,,ojs,3.5.0.5,https://revista.ufrr.br/textosedebates/oai,ibict,oai_dc,revista.ufrr.br,https://revista.ufrr.br/textosedebates/oai,SEER/OJS,200,200,0,
+m0501,Pixo,D,4.961,685,BR,oai_vacio,,ojs,3.1.2.4,https://revistas.ufpel.edu.br/index.php/pixo/oai,ojs,oai_dc,revistas.ufpel.edu.br,https://revistas.ufpel.edu.br/index.php/pixo/oai,SEER/OJS,200,0,200,685
+m0502,Revista de Letras,D,4.961,491,BR,ok,,ojs,2.4.8.1,https://periodicos.utfpr.edu.br/rl/oai,ibict,oai_dc,periodicos.utfpr.edu.br,https://periodicos.utfpr.edu.br/rl/oai,SEER/OJS,200,200,0,
+m0503,Revista Economia Política do Desenvolvimento (Online),D,4.961,225,BR,ok,,ojs,3.3.0.24,https://www.seer.ufal.br/index.php/repd/oai,ojs,oai_dc,www.seer.ufal.br,https://www.seer.ufal.br/index.php/repd/oai,SEER/OJS,200,200,0,
+m0504,InterEspaço: revista de geografia e interdisciplinaridade,D,4.961,578,BR,ok,,ojs,3.3.0.22,https://periodicoseletronicos.ufma.br/index.php/interespaco/oai,ojs,oai_dc,periodicoseletronicos.ufma.br,https://periodicoseletronicos.ufma.br/index.php/interespaco/oai,SEER/OJS,200,200,0,
+m0505,Repositório Institucional da INSPER,C,2.191,2113,BR,rechazo_403,2 respuestas 403 seguidas,,,,,,repositorio.insper.edu.br,https://repositorio-api.insper.edu.br/server/oai/request,DSpace,200,0,200,2113
+m0506,Repositório Institucional da UNILA,C,2.191,1220,BR,ok,,dspace,7.6.1,https://dspace.unila.edu.br/server/oai/request,ibict,mets,dspace.unila.edu.br,https://dspace.unila.edu.br/server/oai/request,DSpace,200,200,0,
+m0507,Águas Subterrâneas (São Paulo. Online),C,2.191,3599,BR,ok,,ojs,3.3.0.24,https://aguassubterraneas.abas.org/asubterraneas/oai,ibict,oai_dc,aguassubterraneas.abas.org,https://aguassubterraneas.abas.org/asubterraneas/oai,SEER/OJS,200,200,0,
+m0508,Repositorio Universidad Bolivariana del Ecuador,C,2.191,2296,EC,ok,,dspace,7.6,https://dspace.ube.edu.ec/server/oai/request,sondeo,mets,dspace.ube.edu.ec,,,200,65,135,2296
+m0509,RIULL. Repositorio Institucional de la Universidad de La Laguna,C,2.191,9487,ES,ok,,dspace,6.4_1.2.1,https://riull.ull.es/oai/request,sondeo,mets,riull.ull.es,,,200,200,0,
+m0510,Repositório Institucional da UFGD,C,2.191,2925,BR,ok,,dspace,5.7-SNAPSHOT,https://repositorio.ufgd.edu.br/oai/request,ibict,mets,repositorio.ufgd.edu.br,https://repositorio.ufgd.edu.br/oai/request,DSpace,200,150,50,2925
+m0511,Biblioteca Virtual (UNL),C,2.191,9069,AR,ok,,ojs,3.5.0.3,https://bibliotecavirtual.unl.edu.ar/publicaciones/index.php/index/oai,ojs,oai_dc,bibliotecavirtual.unl.edu.ar,,,200,200,0,
+m0512,REDIUMH. Depósito Digital de la UMH,C,2.191,9852,ES,ok,,dspace,9.2,https://dspace.umh.es/server/oai/request,sondeo,mets,dspace.umh.es,,,200,199,1,10056
+m0513,Repositorio Institucional de la Universidad Nacional del Nordeste (UNNE),C,2.191,5067,AR,ok,,dspace,9.2,https://repositorio.unne.edu.ar/server/oai/request,sondeo,mets,repositorio.unne.edu.ar,,,200,199,1,5067
+m0515,Repositório Institucional da UFPB,C,2.191,1966,BR,ok,,dspace,5.7-SNAPSHOT,https://repositorio.ufpb.br/oai/request,ibict,mets,repositorio.ufpb.br,https://repositorio.ufpb.br/oai/request,DSpace,200,200,0,
+m0516,Anales del Instituto de Investigaciones Estéticas,C,2.191,2142,MX,ok,,ojs,3.3.0.22,https://www.analesiie.unam.mx/index.php/analesiie/oai,ojs,oai_dc,www.analesiie.unam.mx,,,200,200,0,
+m0517,Revista Conscientiae Saúde (Online),C,2.191,1102,BR,pide_esperar,código 429,,,,,,periodicos.uninove.br,https://periodicos.uninove.br/saude/oai,SEER/OJS,200,0,200,1102
+m0518,USIL-Institucional,C,2.191,2566,PE,antibot,anti-bot: bunkerweb,,,,,,repositorio.usil.edu.pe,,,200,0,200,2566
+m0519,Biblioteca Digital de Teses e Dissertações da UNOESTE,C,2.191,1212,BR,ok,,,,http://bdtd.unoeste.br:8080/oai/request,ibict,mets,bdtd.unoeste.br,http://bdtd.unoeste.br:8080/oai/request,DSpace,200,200,0,
+m0521,Revista Internacional de Contaminación Ambiental,C,2.191,1085,MX,ok,,ojs,3.4.0.8,https://www.revistascca.unam.mx/rica/index.php/rica/oai,ojs,oai_dc,www.revistascca.unam.mx,,,200,200,0,
+m0523,Trans/Form/Ação (Online),C,2.191,1916,BR,ok,,ojs,3.4.0.9,https://revistas.marilia.unesp.br/index.php/transformacao/oai,ibict,oai_dc,revistas.marilia.unesp.br,https://revistas.marilia.unesp.br/index.php/transformacao/oai,SciELO,200,101,96,1916
+m0524,Revista Universidad San Gregorio de Portoviejo,C,2.191,1359,EC,ok,,ojs,3.4.0.9,https://revista.sangregorio.edu.ec/index.php/REVISTASANGREGORIO/oai,ojs,oai_dc,revista.sangregorio.edu.ec,,,200,200,0,
+m0525,Repositorio Institucional de la UV,C,2.191,8937,MX,ok,,dspace,7.6.2,https://cdigital.uv.mx/server/oai/request,sondeo,mets,cdigital.uv.mx,,,200,200,0,
+m0526,Repositório Digital Unisa da Universidade Santo Amaro,C,2.191,1095,BR,ok,,dspace,7.3,https://dspace.unisa.br/server/oai/request,ibict,mets,dspace.unisa.br,https://dspace.unisa.br/server/oai/request,DSpace,200,100,99,1095
+m0527,Revista Leitura (Maceió. Online),C,2.191,1220,BR,ok,,ojs,3.3.0.24,https://www.seer.ufal.br/index.php/revistaleitura/oai,ibict,oai_dc,www.seer.ufal.br,https://www.seer.ufal.br/index.php/revistaleitura/oai,SEER/OJS,200,100,100,1212
+m0528,IRTA Pubpro. Open Digital Archive,C,2.191,4377,ES,ok,,dspace,6.5-SNAPSHOT,https://repositori.irta.cat/oai/request,sondeo,mets,repositori.irta.cat,,,200,102,98,4750
+m0529,Revista Iluminuras,C,2.191,1095,BR,ok,,ojs,,https://seer.ufrgs.br/iluminuras/oai,ibict,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/iluminuras/oai,SEER/OJS,200,200,0,
+m0530,Investigaciones Geográficas,C,2.191,1373,MX,ok,,ojs,3.3.0.8,https://www.investigacionesgeograficas.unam.mx/index.php/rig/oai,ojs,oai_dc,www.investigacionesgeograficas.unam.mx,,,200,200,0,
+m0531,Anales de Antropología,C,2.191,1024,MX,antibot,anti-bot: cloudflare,,,,,,www.revistas.unam.mx,,,200,0,200,1024
+m0532,Brazilian Applied Science Review,C,2.191,1051,BR,antibot,anti-bot: cloudflare,,,,,,ojs.brazilianjournals.com.br,https://ojs.brazilianjournals.com.br/ojs/index.php/BASR/oai,SEER/OJS,200,0,200,1051
+m0533,Revista Geosul (Online),C,2.191,1177,BR,ok,,ojs,,https://periodicos.ufsc.br/index.php/geosul/oai,ibict,oai_dc,periodicos.ufsc.br,https://periodicos.ufsc.br/index.php/geosul/oai,SEER/OJS,200,200,0,
+m0534,Journal of Animal Behaviour and Biometeorology,D,4.961,326,BR,ok,,ojs,,https://malque.pub/ojs/index.php/jabb/oai,ibict,oai_dc,malque.pub,https://malque.pub/ojs/index.php/jabb/oai,SEER/OJS,200,200,0,
+m0535,Revista EntreLínguas (Online),D,4.961,447,BR,ok,,ojs,3.5.0.5,https://periodicos.fclar.unesp.br/entrelinguas/oai,ibict,oai_dc,periodicos.fclar.unesp.br,https://periodicos.fclar.unesp.br/entrelinguas/oai,SEER/OJS,200,200,0,
+m0536,Revista Agroecossistemas (Online),D,4.961,330,BR,oai_vacio,,ojs,2.4.8.0,https://periodicos.ufpa.br/index.php/agroecossistemas/oai,ibict,oai_dc,periodicos.ufpa.br,https://periodicos.ufpa.br/index.php/agroecossistemas/oai,SEER/OJS,200,0,200,330
+m0537,Revista Lumina,D,4.961,627,BR,ok,,ojs,3.3.0.22,https://periodicos.ufjf.br/index.php/lumina/oai,ibict,oai_dc,periodicos.ufjf.br,https://periodicos.ufjf.br/index.php/lumina/oai,SEER/OJS,200,200,0,
+m0538,"Revista Com a Palavra, o Professor",D,4.961,469,BR,caido,3 errores de red seguidos,,,,,,geem.ojs.galoa.com.br,http://revista.geem.mat.br/index.php/CPP/oai,SEER/OJS,200,0,200,468
+m0539,Abusões,D,4.961,429,BR,caido,3 errores de red seguidos,,,,,,www.e-publicacoes.uerj.br,https://www.e-publicacoes.uerj.br/index.php/abusoes/oai,SEER/OJS,200,0,200,429
+m0540,Expresión Económica,D,4.961,394,MX,ok,,ojs,3.3.0.8,https://expresioneconomica.cucea.udg.mx/index.php/eera/oai,ojs,oai_dc,expresioneconomica.cucea.udg.mx,,,200,200,0,
+m0541,Kínesis (Marília) - Revista de Estudos dos Pós-Graduandos em Filosofia,D,4.961,763,BR,ok,,ojs,3.4.0.9,https://revistas.marilia.unesp.br/index.php/kinesis/oai,ibict,oai_dc,revistas.marilia.unesp.br,https://revistas.marilia.unesp.br/index.php/kinesis/oai,SEER/OJS,200,200,0,
+m0543,Processando o Saber (Online),D,4.961,170,BR,ok,,ojs,,https://fatecpg.edu.br/revista/index.php/ps/oai,ibict,oai_dc,fatecpg.edu.br,https://fatecpg.edu.br/revista/index.php/ps/oai,OJS,170,170,0,
+m0544,Journal of Information Systems and Technology Management (Online),D,4.961,393,BR,ok,,ojs,,https://www.revistas.usp.br/jistem/oai,ibict,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/jistem/oai,SEER/OJS,200,200,0,
+m0545,Poiésis (Niterói. Online),D,4.961,112,BR,ok,,ojs,3.4.0.12,https://periodicos.uff.br/poiesis/oai,ibict,oai_dc,periodicos.uff.br,https://periodicos.uff.br/poiesis/oai,SEER/OJS,112,112,0,
+m0546,ConCiencia EPG,D,4.961,186,PE,ok,,ojs,3.4.0.7,https://revistaconcienciaepg.edu.pe/ojs/index.php/55551/oai,ojs,oai_dc,revistaconcienciaepg.edu.pe,,,186,186,0,
+m0547,Modernos & Contemporâneos,D,4.961,363,BR,ok,,ojs,3.4.0.9,https://ojs.ifch.unicamp.br//index.php/modernoscontemporaneos/oai,ibict,oai_dc,ojs.ifch.unicamp.br,https://ojs.ifch.unicamp.br//index.php/modernoscontemporaneos/oai,SEER/OJS,200,200,0,
+m0548,Biblioteca Digital de Teses e Dissertações da UNIFACS,D,4.961,653,BR,caido,3 errores de red seguidos,,,,,,teste.tede.unifacs.br,https://tede.unifacs.br/oai/request,DSpace,200,0,200,653
+m0549,Revista OuvirOUver (Online),D,4.961,571,BR,ok,,ojs,3.4.0.12,https://seer.ufu.br/index.php/ouvirouver/oai,ibict,oai_dc,seer.ufu.br,https://seer.ufu.br/index.php/ouvirouver/oai,SEER/OJS,200,200,0,
+m0550,Revista especializada en Investigación Científica,D,4.961,103,MX,ok,,ojs,3.3.0.7,https://erevistas.uacj.mx/ojs/index.php/reij/oai,ojs,oai_dc,erevistas.uacj.mx,,,103,103,0,
+m0551,Repositorio Universidad Politécnica Estatal del Carchi,D,4.961,235,EC,ok,,dspace,7.6.2,https://repositorio.upec.edu.ec/server/oai/request,sondeo,mets,repositorio.upec.edu.ec,,,200,80,120,235
+m0552,Revista Mexicana de Análisis Político y Administración Pública (REMAP),D,4.961,244,MX,sin_formato,jats,ojs,3.5.0.4,http://www.remap.ugto.mx/index.php/remap/oai,ojs,,www.remap.ugto.mx,,,200,0,200,244
+m0553,Revista de Criminologias e Politicas Criminais,D,4.961,133,BR,antibot,anti-bot: cloudflare,,,,,,www.indexlaw.org,https://www.indexlaw.org/index.php/revistacpc/oai,SEER/OJS,133,0,133,133
+m0554,RIUT: Repositorio U. Tolima,D,4.961,778,CO,antibot,anti-bot: bunkerweb,,,,,,repository.ut.edu.co,,,200,0,200,577
+m0555,Mediações - Revista de Ciências Sociais,D,4.961,396,BR,ok,,ojs,,https://www.uel.br/revistas/uel/index.php/mediacoes/oai,ibict,oai_dc,www.uel.br,https://www.uel.br/revistas/uel/index.php/mediacoes/oai,SEER/OJS,200,100,100,394
+m0556,"Práticas Educativas, Memórias e Oralidades",D,4.961,363,BR,ok,,ojs,3.4.0.10,https://revistas.uece.br/index.php/revpemo/oai,ibict,oai_dc,revistas.uece.br,https://revistas.uece.br/index.php/revpemo/oai,SEER/OJS,200,199,1,363
+m0557,Repositório Fundação Hospital de Clínicas Gaspar Vianna,D,4.961,108,BR,caido,3 errores de red seguidos,,,,,,repositorio.gasparvianna.pa.gov.br,http://repositorio.gasparvianna.pa.gov.br:8080/server/oai/request,DSpace,108,0,108,108
+m0558,Boletim do Instituto Oceanográfico,D,4.961,506,BR,ok,,ojs,,https://www.revistas.usp.br/biocean/oai,ibict,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/biocean/oai,SEER/OJS,200,200,0,
+m0559,Revista de Gestão e Contabilidade da UFPI (G_Cont),D,4.961,132,BR,caido,3 errores de red seguidos,,,,,,revistas.ufpi.br,https://revistas.ufpi.br/index.php/gecont/oai,SEER/OJS,132,0,123,123
+m0560,Revista Drug Analytical Research,D,4.961,131,BR,ok,,ojs,,https://seer.ufrgs.br/index.php/dar/oai,ibict,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/index.php/dar/oai,SEER/OJS,131,131,0,
+m0561,Revista Aturá,D,4.961,198,BR,ok,,ojs,,https://sistemas.uft.edu.br/periodicos/index.php/atura/oai,ibict,oai_dc,sistemas.uft.edu.br,https://sistemas.uft.edu.br/periodicos/index.php/atura/oai,SEER/OJS,198,198,0,
+m0562,IPEN-Institucional,D,4.961,569,PE,antibot,anti-bot: bunkerweb,,,,,,repositorio.ipen.gob.pe,,,200,0,200,569
+m0563,UNF-Aypate,D,4.961,119,PE,ok,,ojs,3.3.0.14,https://revistas.unf.edu.pe/index.php/aypate/oai,ojs,oai_dc,revistas.unf.edu.pe,,,119,119,0,
+m0564,PerCursos (Florianópolis. Online),D,4.961,789,BR,ok,,ojs,3.5.0.5,https://www.periodicos.udesc.br/index.php/percursos/oai,ibict,oai_dc,www.periodicos.udesc.br,https://www.periodicos.udesc.br/index.php/percursos/oai,SEER/OJS,200,114,86,789
+m0565,Mouseion (Canoas),D,4.961,405,BR,ok,,ojs,3.3.0.21,https://revistas.unilasalle.edu.br/index.php/Mouseion/oai,ibict,oai_dc,revistas.unilasalle.edu.br,https://revistas.unilasalle.edu.br/index.php/Mouseion/oai,Outros,200,200,0,
+m0566,Pakamuros,D,4.961,332,PE,ok,,ojs,3.4.0.3,https://revistas.unj.edu.pe/index.php/pakamuros/oai,ojs,oai_dc,revistas.unj.edu.pe,,,200,200,0,
+m0567,Revista Brasileira Multidisciplinar,D,4.961,758,BR,antibot,cloudflare,ojs,3.5.0.5,,,,revistarebram.com,http://revistarebram.com/index.php/revistauniara/oai,SEER/OJS,200,0,200,758
+m0568,GEPROS. Gestão da Produção. Operações e Sistemas,D,4.961,850,BR,ok,,ojs,3.5.0.6,https://revista.feb.unesp.br/gepros/oai,ibict,oai_dc,revista.feb.unesp.br,https://revista.feb.unesp.br/gepros/oai,SEER/OJS,200,200,0,
+m0569,Repositorio ITM,D,4.961,149,CO,antibot,anti-bot: bunkerweb,,,,,,repositorio.itm.edu.co,,,149,0,149,1188
+m0570,Interacciones,D,4.961,201,PE,ok,,ojs,3.3.0.22,https://revistainteracciones.com/index.php/rin/oai,ojs,oai_dc,revistainteracciones.com,,,200,200,0,
+m0571,Letras históricas,D,4.961,400,MX,ok,,ojs,3.4.0.10,http://www.letrashistoricas.cucsh.udg.mx/index.php/LH/oai,ojs,oai_dc,www.letrashistoricas.cucsh.udg.mx,,,200,200,0,
+m0573,"Elo (Viçosa, Online)",D,4.961,287,BR,ok,,ojs,,https://periodicos.ufv.br/elo/oai,ibict,oai_dc,periodicos.ufv.br,https://periodicos.ufv.br/elo/oai,SEER/OJS,200,200,0,
+m0574,Ambientes (Francisco Beltrão),D,4.961,142,BR,sin_formato,,ojs,,https://e-revista.unioeste.br/index.php/ambientes/oai,ibict,,e-revista.unioeste.br,https://e-revista.unioeste.br/index.php/ambientes/oai,SEER/OJS,142,0,142,142
+m0575,Biblioteca Digital Brasileira de Teses e Dissertações da UEG,D,4.961,111,BR,oai_roto,,,,,,,www.bdtd.ueg.br,https://www.bdtd.ueg.br/oai/request,DSpace,111,0,111,111
+m0576,Revista Científica da Faculdade de Medicina de Campos,D,4.961,299,BR,oai_roto,,,,,,,www.fmc.br,https://www.fmc.br/ojs/index.php/RCFMC/oai,SEER/OJS,200,0,200,299
+m0577,Revista de políticas y problemas públicos,D,4.961,262,EC,ok,,ojs,3.3.0.17,https://revistas.iaen.edu.ec/index.php/estado_comunes/oai,ojs,oai_dc,revistas.iaen.edu.ec,,,200,200,0,
+m0578,Vetor (Online),D,4.961,431,BR,ok,,ojs,3.3.0.21,https://periodicos.furg.br/vetor/oai,ibict,oai_dc,periodicos.furg.br,https://periodicos.furg.br/vetor/oai,SEER/OJS,200,200,0,
+m0579,Diálogos e Diversidade,D,4.961,113,BR,ok,,ojs,3.3.0.21,https://revistas.uneb.br/index.php/rdd/oai,ibict,oai_dc,revistas.uneb.br,https://revistas.uneb.br/index.php/rdd/oai,SEER/OJS,113,113,0,
+m0580,Revista de Direito (Instituto de Educação Superior de Brasília),D,4.961,176,BR,ok,,ojs,3.5.0.6,https://revista.iesb.br/revista/index.php/ojsiesb/oai,ibict,oai_dc,revista.iesb.br,https://revista.iesb.br/revista/index.php/ojsiesb/oai,SEER/OJS,176,120,29,160
+m0581,Revista Geografar,D,4.961,198,BR,ok,,ojs,,https://revistas.ufpr.br/geografar/oai,ibict,oai_dc,revistas.ufpr.br,https://revistas.ufpr.br/geografar/oai,SEER/OJS,198,198,0,
+m0582,Diagnóstico,D,4.961,648,MX,ok,,ojs,3.3.0.17,https://dfe.cucea.udg.mx/index.php/dfe/oai,ojs,oai_dc,dfe.cucea.udg.mx,,,200,142,1,648
+m0583,"Repositório Institucional do Instituto Federal de Educação, Ciência e Tecnologia do Pará (IFPA)",D,4.961,204,BR,caido,3 errores de red seguidos,,,,,,repositorio.ifpa.edu.br,https://repositorio.ifpa.edu.br/oai/request,DSpace,200,0,200,204
+m0584,Revista Liames (Online),D,4.961,359,BR,ok,,ojs,3.4.0.9,https://periodicos.sbu.unicamp.br/ojs/index.php/liames/oai,ibict,oai_dc,periodicos.sbu.unicamp.br,https://periodicos.sbu.unicamp.br/ojs/index.php/liames/oai,SEER/OJS,200,200,0,
+m0585,Revista Eletrônica Competências Digitais para Agricultura Familiar,D,4.961,152,BR,ok,,ojs,,https://owl.tupa.unesp.br/recodaf/index.php/recodaf/oai,ibict,oai_dc,owl.tupa.unesp.br,https://owl.tupa.unesp.br/recodaf/index.php/recodaf/oai,OJS,152,152,0,
+m0586,Revista Brasileira de Estudos Organizacionais,D,4.961,215,BR,ok,,ojs,3.3.0.24,https://rbeo.emnuvens.com.br/rbeo/oai,ibict,oai_dc,rbeo.emnuvens.com.br,https://rbeo.emnuvens.com.br/rbeo/oai,Outros,200,200,0,
+m0587,Pós (Universidade Federal de Minas Gerais. Online),D,4.961,527,BR,ok,,ojs,,https://periodicos.ufmg.br/index.php/revistapos/oai,ibict,oai_dc,periodicos.ufmg.br,https://periodicos.ufmg.br/index.php/revistapos/oai,SEER/OJS,200,166,34,527
+m0588,Mercados y Negocios,D,4.961,359,MX,ok,,ojs,3.2.1.4,http://mercadosynegocios.cucea.udg.mx/index.php/MYN/oai,ojs,oai_dc,mercadosynegocios.cucea.udg.mx,,,200,200,0,
+m0589,Museologia e Patrimônio,D,4.961,489,BR,ok,,ojs,3.2.1.4,https://revistamuseologiaepatrimonio.mast.br/index.php/ppgpmus/oai,ibict,oai_dc,revistamuseologiaepatrimonio.mast.br,https://revistamuseologiaepatrimonio.mast.br/index.php/ppgpmus/oai,SEER/OJS,200,200,0,
+m0590,Pesquisa Florestal Brasileira (Online),D,4.961,556,BR,ok,,ojs,3.5.0.5,https://pfb.sede.embrapa.br/pfb/oai,ibict,oai_dc,pfb.sede.embrapa.br,https://pfb.sede.embrapa.br/pfb/oai,SEER/OJS,200,100,86,556
+m0591,Revista Brasileira de Economia Social e do Trabalho,D,4.961,113,BR,caido,3 errores de red seguidos,,,,,,inpec.econtents.bc.unicamp.br,https://econtents.bc.unicamp.br/inpec/index.php/rbest/oai,SEER/OJS,113,0,1,1
+m0592,Ecolinguística,D,4.961,226,BR,oai_roto,,ojs,3.4.0.10,,,,periodicos.unb.br,https://periodicos.unb.br/index.php/erbel/oai,SEER/OJS,200,0,200,226
+m0593,Revista Brasileira de Geriatria e Gerontologia,D,4.961,990,BR,caido,3 errores de red seguidos,,,,,,old.scielo.br,https://www.e-publicacoes.uerj.br/rbgg/oai,SciELO,200,0,200,990
+m0594,URP-Tesis,D,4.961,935,PE,antibot,anti-bot: bunkerweb,,,,,,repositorio.urp.edu.pe,,,200,0,200,935
+m0595,Revista da ABRALIN (Online),D,4.961,844,BR,ok,,ojs,3.3.0.22,https://revista.abralin.org/index.php/abralin/oai,ibict,oai_dc,revista.abralin.org,https://revista.abralin.org/index.php/abralin/oai,Outros,200,200,0,
+m0596,Revista de Carreiras e Pessoas,D,4.961,276,BR,ok,,ojs,3.3.0.21,https://revistas.pucsp.br//index.php/ReCaPe/oai,ibict,oai_dc,revistas.pucsp.br,https://revistas.pucsp.br//index.php/ReCaPe/oai,SEER/OJS,200,200,0,
+m0597,Prolíngua,D,4.961,419,BR,caido,3 errores de red seguidos,,,,,,periodicos.ufpb.br,https://periodicos.ufpb.br/index.php/prolingua/oai,SEER/OJS,200,0,200,419
+m0598,"Política, Globalidad y Ciudadanía",D,4.961,194,MX,ok,,ojs,3.3.0.21,https://revpoliticas.uanl.mx/index.php/RPGyC/oai,ojs,oai_dc,revpoliticas.uanl.mx,,,194,194,0,
+m0599,Revista Ágora (Vitória),D,4.961,479,BR,ok,,ojs,,https://periodicos.ufes.br/agora/oai,ibict,oai_dc,periodicos.ufes.br,https://periodicos.ufes.br/agora/oai,SEER/OJS,200,200,0,
+m0600,Revista Eletrônica de Estratégia e Negócios,D,4.961,541,BR,antibot,anti-bot: cloudflare,,,,,,portaldeperiodicos.animaeducacao.com.br,https://portaldeperiodicos.animaeducacao.com.br/index.php/EeN/oai,Outros,200,0,200,541
+m0602,Redalyc-IMP,D,4.961,146,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,146,0,146,146
+m0603,Revista Brasileira de Ensino de Ciência e Tecnologia,D,4.961,679,BR,ok,,ojs,2.4.8.1,https://periodicos.utfpr.edu.br/rbect/oai,ibict,oai_dc,periodicos.utfpr.edu.br,https://periodicos.utfpr.edu.br/rbect/oai,SEER/OJS,200,200,0,
+m0604,Revista Ciencias Sociales,D,4.961,490,EC,ok,,ojs,3.3.0.22,https://revistadigital.uce.edu.ec/index.php/CSOCIALES/oai,ojs,oai_dc,revistadigital.uce.edu.ec,,,200,200,0,
+m0605,Significação (Online),D,4.961,750,BR,ok,,ojs,,https://www.revistas.usp.br/significacao/oai,ibict,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/significacao/oai,SEER/OJS,200,100,88,750
+m0606,Revista da Faculdade de Odontologia de Porto Alegre (Online),D,4.961,945,BR,ok,,ojs,,https://seer.ufrgs.br/RevistadaFaculdadeOdontologia/oai,ibict,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/RevistadaFaculdadeOdontologia/oai,SEER/OJS,200,184,16,941
+m0607,Nóesis. Revista de Ciencias Sociales,D,4.961,327,MX,oai_vacio,timeout_lectura,ojs,3.3.0.7,https://erevistas.uacj.mx/ojs/index.php/noesis/oai,ojs,oai_dc,erevistas.uacj.mx,,,200,0,200,327
+m0608,r-CTTC. Repositorio Institucional Producción Científica del Centre Tecnològic de Telecomunicacions de Catalunya (CTTC),D,4.961,635,ES,sitio_con_error,,,,,,,cttc.fundanetsuite.com,,,200,0,200,658
+m0609,Revista Semina: Ciências Exatas e Tecnológicas (Online),D,4.961,828,BR,ok,,ojs,,https://ojs.uel.br/revistas/uel/index.php/semexatas/oai,ibict,oai_dc,ojs.uel.br,https://ojs.uel.br/revistas/uel/index.php/semexatas/oai,SEER/OJS,200,100,89,821
+m0610,Repositorio Institucional Digital (UNA),D,4.961,503,AR,oai_vacio,http_500,dspace,6.4-SNAPSHOT,https://repositorio.una.edu.ar/oai/request,sondeo,mets,repositorio.una.edu.ar,,,200,0,200,503
+m0612,Revista Direito GV,D,4.961,704,BR,ok,,ojs,3.3.0.24,https://periodicos.fgv.br/revdireitogv/oai,ibict,oai_dc,periodicos.fgv.br,https://periodicos.fgv.br/revdireitogv/oai,Outros,200,200,0,
+m0613,UMaza Digital,D,4.961,208,AR,antibot,anubis,,,,,,repositorio.umaza.edu.ar,,,200,0,200,208
+m0614,Psicologia Revista (Online),D,4.961,256,BR,ok,,ojs,3.3.0.21,https://revistas.pucsp.br/psicorevista/oai,ibict,oai_dc,revistas.pucsp.br,https://revistas.pucsp.br/psicorevista/oai,SEER/OJS,200,200,0,
+m0615,Repositorio Institucional CIDETEQ,D,4.961,378,MX,ok,,dspace,5.4,https://cideteq.repositorioinstitucional.mx/oai/request,sondeo,xoai,cideteq.repositorioinstitucional.mx,,,200,200,0,
+m0616,AURORA - Institucional,D,4.961,204,PE,caido,3 errores de red seguidos,,,,,,repositorio.aurora.gob.pe,,,200,0,200,204
+m0618,Historia Ambiental Latinoamericana y Caribeña,D,4.961,499,BR,ok,,ojs,,https://www.halacsolcha.org/index.php/halac/oai,ibict,oai_dc,www.halacsolcha.org,https://www.halacsolcha.org/index.php/halac/oai,SEER/OJS,200,200,0,
+m0619,Revistas - Universidad San Ignacio de Loyola,D,4.961,486,PE,antibot,cloudflare,,,,,,revistas.usil.edu.pe,,,200,0,200,486
+m0620,A&C - Revista de Direito Administrativo & Constitucional,D,4.961,941,BR,ok,,ojs,3.4.0.10,https://revistaaec.com/index.php/revistaaec/oai,ibict,oai_dc,revistaaec.com,https://revistaaec.com/index.php/revistaaec/oai,SEER/OJS,200,200,0,
+m0621,Redalyc-SSA,D,4.961,381,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,381
+m0622,Revista Direitos Culturais,D,4.961,188,BR,oai_roto,,,,,,,san.uri.br,https://san.uri.br/revistas/index.php/direitosculturais/oai,SEER/OJS,188,0,188,188
+m0623,Interfaces Científicas. Educação (Online),D,4.961,635,BR,ok,,ojs,3.3.0.24,https://periodicos.set.edu.br/educacao/oai,ibict,oai_dc,periodicos.set.edu.br,https://periodicos.set.edu.br/educacao/oai,Outros,200,200,0,
+m0624,Revista de Contabilidade da UFBA,D,4.961,423,BR,ok,,ojs,3.2.1.4,https://periodicos.ufba.br/index.php/rcontabilidade/oai,ibict,oai_dc,periodicos.ufba.br,https://periodicos.ufba.br/index.php/rcontabilidade/oai,SEER/OJS,200,200,0,
+m0625,Repositorio Institucional del Instituto MORA,D,4.961,641,MX,ok,,dspace,5.4,https://mora.repositorioinstitucional.mx/oai/request,sondeo,xoai,mora.repositorioinstitucional.mx,,,200,200,0,
+m0626,Redalyc-UPAEP,D,4.961,381,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,381
+m0627,BAR - Brazilian Administration Review,D,4.961,528,BR,ok,,ojs,3.3.0.22,https://bar.anpad.org.br/index.php/bar/oai,ibict,oai_dc,bar.anpad.org.br,https://bar.anpad.org.br/index.php/bar/oai,SEER/OJS,200,200,0,
+m0628,SERFOR-Institucional,D,4.961,382,PE,ok,,dspace,5,https://repositorio.serfor.gob.pe/oai/request,sondeo,mets,repositorio.serfor.gob.pe,,,200,200,0,
+m0629,Phaos (Online),D,4.961,184,BR,ok,,ojs,3.3.9.9,https://revistas.iel.unicamp.br/index.php/phaos/oai,ibict,oai_dc,revistas.iel.unicamp.br,https://revistas.iel.unicamp.br/index.php/phaos/oai,SEER/OJS,184,184,0,
+m0630,Revista de Educação e Pesquisa em Contabilidade,D,4.961,617,BR,ok,,ojs,3.3.0.24,https://www.repec.org.br/repec/oai,ibict,oai_dc,www.repec.org.br,https://www.repec.org.br/repec/oai,SEER/OJS,200,100,80,617
+m0631,Revista Economia & Gestão,D,4.961,660,BR,ok,,ojs,3.3.0.24,https://periodicos.pucminas.br/economiaegestao/oai,ibict,oai_dc,periodicos.pucminas.br,https://periodicos.pucminas.br/economiaegestao/oai,SEER/OJS,200,200,0,
+m0632,Cadernos Metrópole (Online),D,4.961,255,BR,ok,,ojs,3.3.0.21,https://revistas.pucsp.br/metropole/oai,ibict,oai_dc,revistas.pucsp.br,https://revistas.pucsp.br/metropole/oai,SEER/OJS,200,200,0,
+m0633,Cadernos PROLAM/USP,D,4.961,529,BR,ok,,ojs,,https://www.revistas.usp.br/prolam/oai,ibict,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/prolam/oai,SEER/OJS,200,200,0,
+m0634,Revista Direito Mackenzie,D,4.961,509,BR,ok,,ojs,3.3.0.24,https://editorarevistas.mackenzie.br/index.php/rmd/oai,ibict,oai_dc,editorarevistas.mackenzie.br,https://editorarevistas.mackenzie.br/index.php/rmd/oai,SEER/OJS,200,200,0,
+m0635,Revistas - Universidad Nacional de Tumbes,D,4.961,267,PE,sitio_con_error,,,,,,,erp.untumbes.edu.pe,,,200,0,200,267
+m0636,Travessias Interativas,D,4.961,477,BR,ok,,ojs,3.3.0.24,https://periodicos.ufs.br/Travessias/oai,ibict,oai_dc,periodicos.ufs.br,https://periodicos.ufs.br/Travessias/oai,SEER/OJS,200,200,0,
+m0637,Revista de Administração (São Paulo),D,4.961,843,BR,ok,,ojs,,https://www.revistas.usp.br/rausp/oai,ibict,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/rausp/oai,SEER/OJS,200,192,8,843
+m0638,Biblioteca Digital de Teses e Dissertações da UNIFENAS,D,4.961,337,BR,caido,3 errores de red seguidos,,,,,,tede2.unifenas.br,http://tede2.unifenas.br:8080/oai/request,DSpace,200,0,200,337
+m0639,Revista Argumentum (Marília. Online),D,4.961,101,BR,ok,,ojs,3.4.0.7,https://ojs.unimar.br/index.php/revistaargumentum/oai,ibict,oai_dc,ojs.unimar.br,https://ojs.unimar.br/index.php/revistaargumentum/oai,SEER/OJS,101,101,0,
+m0640,Ciências Sociais Unisinos (Online),D,4.961,652,BR,ok,,ojs,3.3.0.22,https://revistas.unisinos.br/index.php/ciencias_sociais/oai,ibict,oai_dc,revistas.unisinos.br,https://revistas.unisinos.br/index.php/ciencias_sociais/oai,SEER/OJS,200,200,0,
+m0641,Repositorio Institucional (Fundacion Barceló),D,4.961,178,AR,ok,,dspace,8.0,https://repositorio.barcelo.edu.ar/server/oai/request,sondeo,mets,repositorio.barcelo.edu.ar,,,178,100,78,178
+m0642,Repositório Institucional do Instituto Federal de Minas Gerais (RI-IFMG),D,4.961,123,BR,caido,3 errores de red seguidos,,,,,,repositoriohomolog.ifmg.edu.br,https://repositoriohomolog.ifmg.edu.br/server81/oai/request,DSpace,123,0,123,123
+m0643,Olimpianos,D,4.961,149,BR,ok,,ojs,3.3.0.13,https://journal.olimpianos.com.br/journal/index.php/Olimpianos/oai,ibict,oai_dc,journal.olimpianos.com.br,https://journal.olimpianos.com.br/journal/index.php/Olimpianos/oai,SEER/OJS,149,149,0,
+m0644,Arquivos de Zoologia (Online),D,4.961,306,BR,ok,,ojs,,https://www.revistas.usp.br/azmz/oai,ibict,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/azmz/oai,SEER/OJS,200,200,0,
+m0645,Revista Recien (Online),D,4.961,887,BR,ok,,ojs,3.3.0.8,https://www.recien.com.br/index.php/Recien/oai,ibict,oai_dc,www.recien.com.br,https://www.recien.com.br/index.php/Recien/oai,SEER/OJS,200,200,0,
+m0646,Revista Neiba,D,4.961,274,BR,caido,3 errores de red seguidos,,,,,,www.e-publicacoes.uerj.br,https://www.e-publicacoes.uerj.br/index.php/neiba/oai,Outros,200,0,200,274
+m0647,Redalyc-CIBNOR,D,4.961,259,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,200,0,200,259
+m0648,Revista da Faculdade de Direito UFPR (Online),D,4.961,259,BR,ok,,ojs,,https://revistas.ufpr.br/direito/oai,ibict,oai_dc,revistas.ufpr.br,https://revistas.ufpr.br/direito/oai,Outros,200,200,0,
+m0649,Urbe. Revista Brasileira de Gestão Urbana,D,4.961,669,BR,ok,,ojs,3.3.0.24,https://periodicos.pucpr.br/Urbe/oai,ibict,oai_dc,periodicos.pucpr.br,https://periodicos.pucpr.br/Urbe/oai,SEER/OJS,200,200,0,
+m0650,"Revista de Direito, Governança e Novas Tecnologias",D,4.961,105,BR,antibot,anti-bot: cloudflare,,,,,,www.indexlaw.org,http://www.indexlaw.org/index.php/revistadgnt/oai,Outros,105,0,105,105
+m0651,Revista de Ciencias Sociales,D,4.961,203,MX,ok,,ojs,3.5.0.4,https://clivajes.uv.mx/index.php/Clivajes/oai,ojs,oai_dc,clivajes.uv.mx,,,200,200,0,
+m0652,EHUM,D,4.961,293,BR,antibot,host abandonado (portaldeperiodicos.animaeducacao.com.br): anti-bot: cloudflare,,,,,,revistas.unibh.br,,,200,0,200,293
+m0653,Revista de Enfermagem da UFJF (Online),D,4.961,179,BR,ok,,ojs,3.3.0.22,https://periodicos.ufjf.br/index.php/enfermagem/oai,ibict,oai_dc,periodicos.ufjf.br,https://periodicos.ufjf.br/index.php/enfermagem/oai,SEER/OJS,179,179,0,
+m0654,Revistas Universidad Tecnológica Equinoccial,D,4.961,521,EC,antibot,anti-bot: bunkerweb,,,,,,revistas.ute.edu.ec,,,200,0,200,521
+m0655,Arquivo Maaravi: Revista Digital de Estudos Judaicos da UFMG,D,4.961,922,BR,ok,,ojs,,https://periodicos.ufmg.br/index.php/maaravi/oai,ibict,oai_dc,periodicos.ufmg.br,https://periodicos.ufmg.br/index.php/maaravi/oai,SEER/OJS,200,168,32,922
+m0656,Revista de Estudos Antiutilitaristas e Poscoloniais,D,4.961,337,BR,ok,,ojs,3.3.0.21,https://periodicos.ufpe.br/revistas/index.php/realis/oai,ibict,oai_dc,periodicos.ufpe.br,https://periodicos.ufpe.br/revistas/index.php/realis/oai,SEER/OJS,200,200,0,
+m0657,Revista de Filosofia Aurora (Online),D,4.961,911,BR,ok,,ojs,3.3.0.24,https://periodicos.pucpr.br/aurora/oai,ibict,oai_dc,periodicos.pucpr.br,https://periodicos.pucpr.br/aurora/oai,SEER/OJS,200,104,93,911
+m0658,Revistas - Universidad Nacional Intercultural Fabiola Salazar Leguía de Bagua,D,4.961,111,PE,ok,,ojs,3.3.0.14,https://revista.unibagua.edu.pe/index.php/dekamuagropec/oai,ojs,oai_dc,revista.unibagua.edu.pe,,,111,111,0,
+m0659,Revista de Enfermagem da Universidade Federal de Santa Maria,D,4.961,219,BR,ok,,ojs,,http://cascavel.ufsm.br/revistas/ojs-2.2.2/index.php/reufsm/oai,ibict,oai_dc,cascavel.ufsm.br,http://cascavel.ufsm.br/revistas/ojs-2.2.2/index.php/reufsm/oai,Outros,200,200,0,
+m0660,Repositorio Instituto Tecnológico Cordillera,D,4.961,127,EC,ok,,dspace,9.1,https://apidspace.cordillera.edu.ec/server/oai/request,sondeo,mets,dspace.cordillera.edu.ec,,,127,127,0,
+m0662,Revista Internacional de Educação Superior,D,4.961,524,BR,ok,,ojs,3.4.0.9,https://periodicos.sbu.unicamp.br/ojs/index.php/riesup/oai,ibict,oai_dc,periodicos.sbu.unicamp.br,https://periodicos.sbu.unicamp.br/ojs/index.php/riesup/oai,SEER/OJS,200,200,0,
+m0663,Repositorio Institucional de CIATEQ,D,4.961,456,MX,ok,,dspace,5.4,https://ciateq.repositorioinstitucional.mx/oai/request,sondeo,xoai,ciateq.repositorioinstitucional.mx,,,200,200,0,
+m0664,Libertas (Juiz de Fora. Online),D,4.961,487,BR,ok,,ojs,3.3.0.22,https://periodicos.ufjf.br/index.php/libertas/oai,ibict,oai_dc,periodicos.ufjf.br,https://periodicos.ufjf.br/index.php/libertas/oai,SEER/OJS,200,109,85,487
+m0665,Entrelinhas: Revista do Curso de Letras,D,4.961,245,BR,ok,,ojs,3.3.0.22,https://revistas.unisinos.br/index.php/entrelinhas/oai,ibict,oai_dc,revistas.unisinos.br,https://revistas.unisinos.br/index.php/entrelinhas/oai,SEER/OJS,200,200,0,
+m0666,"Repositorio Digital de la Universidad Metropolitana de Educación, Ciencia y Tecnología",D,4.961,565,PA,antibot,anti-bot: bunkerweb,,,,,,repositorio.umecit.edu.pa,,,200,0,200,565
+m0667,Revista Ensino & Multidisciplinaridade,D,4.961,148,BR,ok,,ojs,3.3.0.22,https://periodicoseletronicos.ufma.br/index.php/ens-multidisciplinaridade/oai,ibict,oai_dc,periodicoseletronicos.ufma.br,https://periodicoseletronicos.ufma.br/index.php/ens-multidisciplinaridade/oai,SEER/OJS,148,148,0,
+m0668,Revista Gestão & Regionalidade (Online),D,4.961,692,BR,oai_roto,,,,,,,seer.uscs.edu.br,https://seer.uscs.edu.br/index.php/revista_gestao/oai,SEER/OJS,200,0,200,692
+m0669,Revista Brasileira de História do Direito,D,4.961,101,BR,antibot,anti-bot: cloudflare,,,,,,www.indexlaw.org,http://www.indexlaw.org/index.php/historiadireito/oai,SEER/OJS,101,0,101,101
+m0670,Revista do Direito do Trabalho e Meio Ambiente do Trabalho,D,4.961,137,BR,antibot,anti-bot: cloudflare,,,,,,www.indexlaw.org,http://www.indexlaw.org/index.php/revistadtmat/oai,SEER/OJS,137,0,137,137
+m0671,Tabuleiro de Letras,D,4.961,524,BR,ok,,ojs,3.3.0.21,https://revistas.uneb.br/index.php/tabuleirodeletras/oai,ibict,oai_dc,revistas.uneb.br,https://revistas.uneb.br/index.php/tabuleirodeletras/oai,SEER/OJS,200,200,0,
+m0672,Repositorio Universidad del Pacífico,D,4.961,156,EC,caido,3 errores de red seguidos,,,,,,uprepositorio.upacifico.edu.ec,,,156,0,156,156
+m0673,Estudios de Lingüística Aplicada,D,4.961,830,MX,ok,,ojs,3.4.0.8,https://ela.enallt.unam.mx/index.php/ela/oai,ojs,oai_dc,ela.enallt.unam.mx,,,200,200,0,
+m0675,Em Tese (Florianópolis),D,4.961,432,BR,ok,,ojs,,https://periodicos.ufsc.br/index.php/emtese/oai,ibict,oai_dc,periodicos.ufsc.br,https://periodicos.ufsc.br/index.php/emtese/oai,SEER/OJS,200,200,0,
+m0676,Vigilância Sanitária em Debate,D,4.961,718,BR,ok,,ojs,3.4.0.9,https://visaemdebate.incqs.fiocruz.br/index.php/visaemdebate/oai,ibict,oai_dc,visaemdebate.incqs.fiocruz.br,https://visaemdebate.incqs.fiocruz.br/index.php/visaemdebate/oai,SEER/OJS,200,149,51,718
+m0677,Letras em Revista (Teresina. Online),D,4.961,219,BR,caido,3 errores de red seguidos,,,,,,ojs.uespi.br,https://ojs.uespi.br/index.php/ler/oai,SEER/OJS,200,0,200,219
+m0678,ITEGAM-JETIA,D,4.961,759,BR,ok,,ojs,3.5.0.4,https://itegam-jetia.org/journal/index.php/jetia/oai,ibict,oai_dc,itegam-jetia.org,https://itegam-jetia.org/journal/index.php/jetia/oai,SEER/OJS,200,100,84,759
+m0679,"Revista Educação, Pesquisa e Inclusão",D,4.961,123,BR,caido,3 errores de red seguidos,ojs,3.5.0.5,,,,oai.revista.ufrr.br,https://revista.ufrr.br/repi/oai,SEER/OJS,123,0,121,121
+m0680,Saúde e Desenvolvimento Humano,D,4.961,299,BR,ok,,ojs,3.3.0.21,https://revistas.unilasalle.edu.br/index.php/saude_desenvolvimento/oai,ibict,oai_dc,revistas.unilasalle.edu.br,https://revistas.unilasalle.edu.br/index.php/saude_desenvolvimento/oai,Outros,200,200,0,
+m0681,Biblioteca Digital de Teses e Dissertações da UNIGRANRIO,D,4.961,370,BR,antibot,cloudflare,,,,,,localhost,https://tede.unigranrio.edu.br/oai/request,DSpace,200,0,200,370
+m0682,Revista InGenio,D,4.961,110,EC,ok,,ojs,3.3.0.10,https://revistas.uteq.edu.ec/index.php/ingenio/oai,ojs,oai_dc,revistas.uteq.edu.ec,,,110,110,0,
+m0683,Cinergis (Online),D,4.961,386,BR,ok,,ojs,3.4.0.11,https://seer.unisc.br/index.php/cinergis/oai,ibict,oai_dc,seer.unisc.br,https://seer.unisc.br/index.php/cinergis/oai,SEER/OJS,200,200,0,
+m0684,Revista FORO: REVISTA DE DERECHO,D,4.961,413,EC,ok,,ojs,3.5.0.5,https://revistas.uasb.edu.ec/index.php/foro/oai,ojs,oai_dc,revistas.uasb.edu.ec,,,200,200,0,
+m0685,Informação em Pauta,D,4.961,257,BR,ok,,ojs,,http://www.periodicos.ufc.br/informacaoempauta/oai,ibict,oai_dc,www.periodicos.ufc.br,http://www.periodicos.ufc.br/informacaoempauta/oai,SEER/OJS,200,200,0,
+m0686,Zetetiké (Online),D,4.961,673,BR,ok,,ojs,3.4.0.9,https://periodicos.sbu.unicamp.br/ojs/index.php/zetetike/oai,ibict,oai_dc,periodicos.sbu.unicamp.br,https://periodicos.sbu.unicamp.br/ojs/index.php/zetetike/oai,SEER/OJS,200,101,95,109
+m0687,The ESPecialist (Online),D,4.961,342,BR,ok,,ojs,3.3.0.21,https://revistas.pucsp.br//index.php/esp/oai,ibict,oai_dc,revistas.pucsp.br,https://revistas.pucsp.br//index.php/esp/oai,SEER/OJS,200,200,0,
+m0689,Revista Contabilidade & Finanças (Online),D,4.961,752,BR,ok,,ojs,,https://www.revistas.usp.br/rcf/oai,ibict,oai_dc,www.revistas.usp.br,https://www.revistas.usp.br/rcf/oai,SEER/OJS,200,200,0,
+m0691,Revista Mexicana de Mastozoología,E,4.909,1,MX,ok,,ojs,,http://www.revmexmastozoologia.unam.mx/ojs/index.php/rmm/oai,ojs,oai_dc,www.revmexmastozoologia.unam.mx,,,1,1,0,
+m0692,UNAH - Institucional,E,4.909,3,PE,ok,,dspace,7.6,https://repositorio.unah.edu.pe/server/oai/request,sondeo,mets,repositorio.unah.edu.pe,,,3,3,0,
+m0693,DRd - Desenvolvimento Regional em debate,E,4.909,31,BR,ok,,ojs,3.4.0.8,https://www.periodicos.unc.br/index.php/drd/oai,ibict,oai_dc,www.periodicos.unc.br,https://www.periodicos.unc.br/index.php/drd/oai,SEER/OJS,31,31,0,
+m0694,Revista Thema,E,4.909,21,BR,ok,,ojs,3.5.0.5,https://periodicos.ifsul.edu.br/index.php/thema/oai,ibict,oai_dc,periodicos.ifsul.edu.br,https://periodicos.ifsul.edu.br/index.php/thema/oai,SEER/OJS,21,21,0,
+m0695,Revista Textura - ULBRA,E,4.909,2,BR,ok,,ojs,2.4.8.5,http://www.periodicos.ulbra.br/index.php/txra/oai,ibict,oai_dc,www.periodicos.ulbra.br,http://www.periodicos.ulbra.br/index.php/txra/oai,SEER/OJS,2,2,0,
+m0696,Revista Pontificia Universidad Católica del Ecuador - Sede Esmeraldas,E,4.909,46,EC,ok,,ojs,,https://revistas.pucese.edu.ec/hallazgos21/oai,ojs,oai_dc,revistas.pucese.edu.ec,,,46,46,0,
+m0699,Journal of Perspectives in Management,E,4.909,60,BR,ok,,ojs,3.3.0.21,https://periodicos.ufpe.br/revistas/jpm/oai,ibict,oai_dc,periodicos.ufpe.br,https://periodicos.ufpe.br/revistas/jpm/oai,SEER/OJS,60,60,0,
+m0700,Colección Digital de la UANL,E,4.909,1,MX,caido,3 errores de red seguidos,,,,,,cd.dgb.uanl.mx,,,1,0,1,1
+m0701,Revista Ecologia e Nutrição Florestal,E,4.909,60,BR,ok,,ojs,3.3.0.10,https://periodicos.ufsm.br/enflo/oai,ibict,oai_dc,periodicos.ufsm.br,https://periodicos.ufsm.br/enflo/oai,SEER/OJS,60,60,0,
+m0702,Revista Triângulo (Online),E,4.909,72,BR,ok,,ojs,3.4.0.10,https://seer.uftm.edu.br/revistaeletronica/index.php/revistatriangulo/oai,ibict,oai_dc,seer.uftm.edu.br,https://seer.uftm.edu.br/revistaeletronica/index.php/revistatriangulo/oai,SEER/OJS,72,72,0,
+m0703,IPMON en REDI,E,4.909,57,UY,ok,,dspace,6.3,https://redi.anii.org.uy/oai/request,sondeo,mets,redi.anii.org.uy,,,57,57,0,
+m0704,Revista Ciências da Saúde Ceuma,E,4.909,43,BR,ok,,ojs,3.3.0.24,https://revcsaudeceuma.emnuvens.com.br/revista/oai,ibict,oai_dc,revcsaudeceuma.emnuvens.com.br,https://revcsaudeceuma.emnuvens.com.br/revista/oai,SEER/OJS,43,43,0,
+m0705,Revista Scripta,E,4.909,50,BR,oai_vacio,timeout_lectura,ojs,3.3.0.24,http://periodicos.pucminas.br/index.php/scripta/oai,ibict,oai_dc,periodicos.pucminas.br,http://periodicos.pucminas.br/index.php/scripta/oai,Outros,50,0,50,50
+m0706,Classica (Sociedade Brasileira de Estudos Clássicos. Online),E,4.909,63,BR,ok,,ojs,3.4.0.12,https://revista.classica.org.br/classica/oai,ibict,oai_dc,revista.classica.org.br,https://revista.classica.org.br/classica/oai,SEER/OJS,63,63,0,
+m0707,Revista Mexicana de Trastornos Alimentarios,E,4.909,12,MX,ok,,ojs,,https://journals.iztacala.unam.mx/index.php/amta/oai,ojs,oai_dc,journals.iztacala.unam.mx,,,12,12,0,
+m0708,Revista Brasileira de Pesquisa em Turismo,E,4.909,66,BR,ok,,ojs,3.3.0.24,https://rbtur.org.br/rbtur/oai,ibict,oai_dc,rbtur.org.br,https://rbtur.org.br/rbtur/oai,SEER/OJS,66,66,0,
+m0709,Diké - Revista do Mestrado em Direito da UFS,E,4.909,91,BR,ok,,ojs,3.3.0.24,https://periodicos.ufs.br/dike/oai,ibict,oai_dc,periodicos.ufs.br,https://periodicos.ufs.br/dike/oai,SEER/OJS,91,91,0,
+m0710,Revista Iberoamericana de Educación Superior,E,4.909,38,MX,ok,,ojs,3.3.0.8,https://www.ries.universia.unam.mx/index.php/ries/oai,ojs,oai_dc,www.ries.universia.unam.mx,,,38,38,0,
+m0711,Revista Arquivos de Ciências do Esporte,E,4.909,29,BR,ok,,ojs,3.4.0.10,https://seer.uftm.edu.br/revistaeletronica/index.php/aces/oai,ibict,oai_dc,seer.uftm.edu.br,https://seer.uftm.edu.br/revistaeletronica/index.php/aces/oai,SEER/OJS,29,29,0,
+m0712,"Repositorio de información académica, científica tecnológica y de innovación RIACTis UANL",E,4.909,70,MX,caido,3 errores de red seguidos,,,,,,riacti.uanl.mx,,,70,0,70,70
+m0713,Quaternary and Environmental Geosciences,E,4.909,88,BR,ok,,ojs,,https://revistas.ufpr.br/abequa/oai,ibict,oai_dc,revistas.ufpr.br,https://revistas.ufpr.br/abequa/oai,SEER/OJS,88,88,0,
+m0714,Latin American Human Rights Studies,E,4.909,65,BR,ok,,ojs,3.3.0.21,https://revistas.ufg.br/lahrs/oai,ibict,oai_dc,revistas.ufg.br,https://revistas.ufg.br/lahrs/oai,SEER/OJS,65,65,0,
+m0715,ESGAFAP-Revista Ad majorem,E,4.909,93,PE,ok,,ojs,3.3.0.13,http://revista.esfap.edu.pe/index.php/admajorem/oai,ojs,oai_dc,revista.esfap.edu.pe,,,93,93,0,
+m0716,EESTPKHIPU - Institucional,E,4.909,1,PE,ok,,dspace,7.6.1,https://repositorio.escuelakhipu.edu.pe/server/oai/request,sondeo,mets,repositorio.escuelakhipu.edu.pe,,,1,1,0,
+m0718,Ciencia Jurídica,E,4.909,4,MX,ok,,ojs,3.5.0.3,https://www.cienciajuridica.ugto.mx/index.php/CJ/oai,ojs,oai_dc,www.cienciajuridica.ugto.mx,,,4,4,0,
+m0720,Redalyc-CIMAV,E,4.909,54,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,54,0,54,54
+m0721,UCSUR-Institucional,E,4.909,16,PE,ok,,dspace,6.3,https://repositorio.cientifica.edu.pe/oai/request,sondeo,mets,repositorio.cientifica.edu.pe,,,16,16,0,
+m0722,Mídia.e.Cotidiano,E,4.909,95,BR,ok,,ojs,3.4.0.12,https://periodicos.uff.br/midiaecotidiano/oai,ibict,oai_dc,periodicos.uff.br,https://periodicos.uff.br/midiaecotidiano/oai,OJS,95,95,0,
+m0723,Repositorio UTN,E,4.909,47,CR,ok,,dspace,8.1,https://repositorio.utn.ac.cr/server/oai/request,sondeo,mets,repositorio.utn.ac.cr,,,47,47,0,
+m0724,Vox Scripturae (Online),E,4.909,17,BR,caido,3 errores de red seguidos,,,,,,voxscripturae.com.br,https://voxscripturae.com.br/index.php/revista/oai,SEER/OJS,17,0,17,17
+m0725,Exilium - Revista de Estudos da Contemporaneidade,E,4.909,77,BR,oai_vacio,timeout_lectura,ojs,3.5.0.6,https://periodicos.unifesp.br/index.php/exilium/oai,ibict,oai_dc,periodicos.unifesp.br,https://periodicos.unifesp.br/index.php/exilium/oai,SEER/OJS,77,0,76,76
+m0726,Repositori Universitat Jaume I,E,4.909,66,ES,ok,,dspace,7.5,https://repositori.uji.es/server/oai/request,sondeo,mets,repositori.uji.es,,,66,66,0,
+m0727,Revista de Gestão e Negócios do Esporte,E,4.909,65,BR,antibot,anti-bot: cloudflare,,,,,,www.revistaabragesp.org.br,https://www.revistaabragesp.org.br/index.php/home/oai,SEER/OJS,65,0,65,65
+m0728,Revista NUPEM (Online),E,4.909,25,BR,ok,,ojs,3.3.0.20,https://periodicos.unespar.edu.br/nupem/oai,ibict,oai_dc,periodicos.unespar.edu.br,https://periodicos.unespar.edu.br/nupem/oai,SEER/OJS,25,25,0,
+m0729,UJBM-Institucional,E,4.909,72,PE,ok,,dspace,6.3,https://repositorio.bausate.edu.pe/oai/request,sondeo,mets,repositorio.bausate.edu.pe,,,72,72,0,
+m0730,Repositorio de la Universidad de las Artes,E,4.909,1,EC,ok,,dspace,,https://dspace.uartes.edu.ec/server/oai/request,sondeo,mets,dspace.uartes.edu.ec,,,1,1,0,
+m0731,Entre-Lugar (Online),E,4.909,1,BR,ok,,ojs,3.3.0.21,https://ojs.ufgd.edu.br/index.php/entre-lugar/oai,ibict,oai_dc,ojs.ufgd.edu.br,https://ojs.ufgd.edu.br/index.php/entre-lugar/oai,SEER/OJS,1,1,0,
+m0732,Correspondencias & Análisis,E,4.909,1,PE,ok,,ojs,3.4.0.5,http://ojs.correspondenciasyanalisis.com/index.php/Journalcya/oai,ojs,oai_dc,ojs.correspondenciasyanalisis.com,,,1,1,0,
+m0733,CAFI (São Paulo),E,4.909,91,BR,ok,,ojs,3.3.0.21,https://revistas.pucsp.br/index.php/CAFI/oai,ibict,oai_dc,revistas.pucsp.br,https://revistas.pucsp.br/index.php/CAFI/oai,OJS,91,91,0,
+m0734,Revista Brasileira de Estudos Regionais e Urbanos (Online),E,4.909,32,BR,ok,,ojs,3.3.0.24,https://revistaaber.org.br/rberu/oai,ibict,oai_dc,revistaaber.org.br,https://revistaaber.org.br/rberu/oai,SEER/OJS,32,32,0,
+m0735,Estação Científica (UNIFAP),E,4.909,32,BR,ok,,ojs,3.4.0.10,https://periodicos.unifap.br/estacaocientifica/oai,ibict,oai_dc,periodicos.unifap.br,https://periodicos.unifap.br/estacaocientifica/oai,SEER/OJS,32,32,0,
+m0736,Revista Ciência & Maçonaria,E,4.909,93,BR,ok,,ojs,,http://www.cienciaemaconaria.com.br/index.php/cem/oai,ibict,oai_dc,www.cienciaemaconaria.com.br,http://www.cienciaemaconaria.com.br/index.php/cem/oai,SEER/OJS,93,93,0,
+m0737,Boletim Paulista de Geografia,E,4.909,1,BR,ok,,ojs,3.5.0.6,https://publicacoes.agb.org.br/boletim-paulista/oai,ibict,oai_dc,publicacoes.agb.org.br,https://publicacoes.agb.org.br/boletim-paulista/oai,SEER/OJS,1,1,0,
+m0738,Revista Terra de Pretos,E,4.909,27,BR,ok,,ojs,3.3.0.22,https://periodicoseletronicos.ufma.br/index.php/terradepretos/oai,ibict,oai_dc,periodicoseletronicos.ufma.br,https://periodicoseletronicos.ufma.br/index.php/terradepretos/oai,SEER/OJS,27,27,0,
+m0739,Revista de Doutrina Jurídica (Online),E,4.909,1,BR,oai_roto,,,,,,,revistajuridica.tjdft.jus.br,https://revistajuridica.tjdft.jus.br/index.php/rdj/oai,SEER/OJS,1,0,1,1
+m0740,Mises,E,4.909,2,BR,ok,,ojs,3.3.0.24,https://revistamises.org.br/misesjournal/oai,ibict,oai_dc,revistamises.org.br,https://revistamises.org.br/misesjournal/oai,SEER/OJS,2,2,0,
+m0741,Scire Salutis,E,4.909,15,BR,antibot,cloudflare,ojs,3.3.0.20,,,,sustenere.inf.br,https://sustenere.inf.br/index.php/sciresalutis/oai,SEER/OJS,15,0,15,15
+m0742,Rasbran,E,4.909,55,BR,ok,,ojs,3.3.0.24,https://rasbran.com.br/rasbran/oai,ibict,oai_dc,rasbran.com.br,https://rasbran.com.br/rasbran/oai,SEER/OJS,55,55,0,
+m0743,Communitas,E,4.909,14,BR,ok,,ojs,3.3.0.20,https://periodicos.ufac.br/index.php/COMMUNITAS/oai,ibict,oai_dc,periodicos.ufac.br,https://periodicos.ufac.br/index.php/COMMUNITAS/oai,SEER/OJS,14,14,0,
+m0744,Multi-Science Journal,E,4.909,1,BR,ok,,ojs,3.3.0.24,https://periodicos.ifgoiano.edu.br/multiscience/oai,ibict,oai_dc,periodicos.ifgoiano.edu.br,https://periodicos.ifgoiano.edu.br/multiscience/oai,SEER/OJS,1,1,0,
+m0745,Relatos de los Congresos Uruguayos de Cirugía,E,4.909,14,UY,antibot,cloudflare,ojs,3.3.0.22,,,,revista.scu.org.uy,,,14,0,14,14
+m0746,Revista Perfiles,E,4.909,75,EC,caido,3 errores de red seguidos,,,,,,perfiles.espoch.edu.ec,,,75,0,75,75
+m0748,Lifestyle Journal,E,4.909,71,BR,ok,,ojs,3.3.0.24,https://revistas.unasp.edu.br/LifestyleJournal/oai,ibict,oai_dc,revistas.unasp.edu.br,https://revistas.unasp.edu.br/LifestyleJournal/oai,SEER/OJS,71,71,0,
+m0750,"Revista Crítica y Derecho, Revista Jurídica",E,4.909,71,EC,ok,,ojs,3.3.0.22,https://revistadigital.uce.edu.ec/index.php/criticayderecho/oai,ojs,oai_dc,revistadigital.uce.edu.ec,,,71,71,0,
+m0751,Raído (Online),E,4.909,2,BR,ok,,ojs,3.3.0.21,https://ojs.ufgd.edu.br/index.php/Raido/oai,ibict,oai_dc,ojs.ufgd.edu.br,https://ojs.ufgd.edu.br/index.php/Raido/oai,SEER/OJS,2,2,0,
+m0752,IIBCE en REDI,E,4.909,70,UY,ok,,dspace,6.3,https://redi.anii.org.uy/oai/request,sondeo,mets,redi.anii.org.uy,,,70,70,0,
+m0753,Redalyc-HIMFG,E,4.909,74,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,74,0,74,74
+m0754,Journal Health NPEPS,E,4.909,12,BR,ok,,ojs,3.5.0.5,https://periodicos.unemat.br/index.php/jhnpeps/oai,ibict,oai_dc,periodicos.unemat.br,https://periodicos.unemat.br/index.php/jhnpeps/oai,SEER/OJS,12,12,0,
+m0755,Repositorio Universidad Israel,E,4.909,90,EC,caido,3 errores de red seguidos,,,,,,repositorio.uisrael.edu.ec,,,90,0,90,90
+m0756,CAL-Chornancap,E,4.909,81,PE,ok,,ojs,3.3.0.7,https://revistajuridicachornancap.icallambayeque.org.pe/index.php/oficial/oai,ojs,oai_dc,revistajuridicachornancap.icallambayeque.org.pe,,,81,81,0,
+m0757,REVELL : Revista de Estudos Literários da UEMS,E,4.909,24,BR,ok,,ojs,3.4.0.10,https://periodicosonline.uems.br/index.php/REV/oai,ibict,oai_dc,periodicosonline.uems.br,https://periodicosonline.uems.br/index.php/REV/oai,SEER/OJS,24,24,0,
+m0759,Redalyc-INR,E,4.909,86,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,86,0,86,86
+m0760,Migraciones Internacionales,E,4.909,86,MX,caido,3 errores de red seguidos,,,,,,revistas.colef.mx,,,86,0,86,86
+m0762,Revista Educação em Contexto,E,4.909,61,BR,ok,,ojs,3.4.0.10,https://revistaseduc.educacao.go.gov.br/index.php/rec/oai,ibict,oai_dc,revistaseduc.educacao.go.gov.br,https://revistaseduc.educacao.go.gov.br/index.php/rec/oai,SEER/OJS,61,61,0,
+m0763,Investigación e Innovación Clínica y Quirúrgica Pediátrica,E,4.909,96,PE,ok,,ojs,3.4.0.10,https://investigacionpediatrica.insnsb.gob.pe/index.php/iicqp/oai,ojs,oai_dc,investigacionpediatrica.insnsb.gob.pe,,,96,96,0,
+m0764,Repositório de Dados Científicos da UFPR,E,4.909,80,BR,ok,,dspace,6.0,https://bdc.c3sl.ufpr.br/oai/request,ibict,mets,bdc.c3sl.ufpr.br,https://bdc.c3sl.ufpr.br/oai/request,DSpace,80,80,0,
+m0765,Discursos Fotográficos,E,4.909,60,BR,ok,,ojs,,https://ojs.uel.br/revistas/uel/index.php/discursosfotograficos/oai,ibict,oai_dc,ojs.uel.br,https://ojs.uel.br/revistas/uel/index.php/discursosfotograficos/oai,SEER/OJS,60,60,0,
+m0766,Revista Epistemologia,E,4.909,10,BR,ok,,ojs,,https://epistemologia.com.br/academico/index.php/epistemologia/oai,ibict,oai_dc,epistemologia.com.br,https://epistemologia.com.br/academico/index.php/epistemologia/oai,SEER/OJS,10,10,0,
+m0767,Repositorio Escuela Politécnica Nacional,C,2.191,3140,EC,antibot,cloudflare,,,,,,bibdigital.epn.edu.ec,,,200,0,200,3140
+m0768,UPEU-Tesis,C,2.191,1212,PE,ok,,dspace,10.1,https://repositorio.upeu.edu.pe/server/oai/request,sondeo,mets,repositorio.upeu.edu.pe,,,200,100,100,1212
+m0769,Ecosistemas y Recursos Agropecuarios,C,2.191,1207,MX,ok,,ojs,3.5.0.1,https://era.ujat.mx/index.php/rera/oai,ojs,oai_dc,era.ujat.mx,,,200,200,0,
+m0770,Revista de Políticas Públicas (Online),C,2.191,1395,BR,ok,,ojs,3.3.0.22,https://periodicoseletronicos.ufma.br/index.php/rppublica/oai,ibict,oai_dc,periodicoseletronicos.ufma.br,https://periodicoseletronicos.ufma.br/index.php/rppublica/oai,SEER/OJS,200,60,140,1389
+m0771,Revista Eletrônica Debates em Educação Científica e Tecnológica,D,4.961,745,BR,oai_roto,,ojs,3.5.0.5,,,,ojs.ifes.edu.br,https://ojs.ifes.edu.br/index.php/index/oai,Outros,200,0,200,742
+m0772,Interconectando Saberes,D,4.961,246,MX,ok,,ojs,3.5.0.4,https://is.uv.mx/index.php/IS/oai,ojs,oai_dc,is.uv.mx,,,200,200,0,
+m0773,Caminho Aberto (Online),D,4.961,317,BR,ok,,ojs,3.3.0.8,https://periodicos.ifsc.edu.br/index.php/caminhoaberto/oai,ibict,oai_dc,periodicos.ifsc.edu.br,https://periodicos.ifsc.edu.br/index.php/caminhoaberto/oai,SEER/OJS,200,200,0,
+m0774,Contextus (Fortaleza. Online),D,4.961,451,BR,ok,,ojs,,https://periodicos.ufc.br/contextus/oai,ibict,oai_dc,periodicos.ufc.br,https://periodicos.ufc.br/contextus/oai,SEER/OJS,200,200,0,
+m0775,Revista de Psicología,D,4.961,174,MX,ok,,ojs,3.0.2.0,https://revistapsicologia.uaemex.mx/oai,ojs,oai_dc,revistapsicologia.uaemex.mx,,,174,83,65,174
+m0776,Estudios en Derecho a la Información,D,4.961,166,MX,ok,,ojs,3.3.0.8,https://revistas.juridicas.unam.mx/index.php/derecho-informacion/oai,ojs,oai_dc,revistas.juridicas.unam.mx,,,166,92,49,166
+m0777,Civitas - Revista de Ciências Sociais (Porto Alegre. Online),D,4.961,807,BR,ok,,ojs,3.3.0.24,https://revistaseletronicas.pucrs.br/civitas/oai,ibict,oai_dc,revistaseletronicas.pucrs.br,https://revistaseletronicas.pucrs.br/civitas/oai,Outros,200,200,0,
+m0778,Academia XXII,D,4.961,343,MX,antibot,anti-bot: cloudflare,,,,,,revistas.unam.mx,,,200,0,200,343
+m0779,Revista Ciências em Saúde,D,4.961,518,BR,ok,,ojs,3.3.0.17,https://portalrcs.hcitajuba.org.br/index.php/rcsfmit_zero/oai,ibict,oai_dc,portalrcs.hcitajuba.org.br,https://portalrcs.hcitajuba.org.br/index.php/rcsfmit_zero/oai,SEER/OJS,200,200,0,
+m0780,Intexto (Porto Alegre),D,4.961,936,BR,ok,,ojs,,https://seer.ufrgs.br/intexto/oai,ibict,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/intexto/oai,SEER/OJS,200,107,87,925
+m0781,Revista Brasileira de Geomática,D,4.961,227,BR,ok,,ojs,2.4.8.1,https://periodicos.utfpr.edu.br/rbgeo/oai,ibict,oai_dc,periodicos.utfpr.edu.br,https://periodicos.utfpr.edu.br/rbgeo/oai,SEER/OJS,200,145,32,227
+m0782,Cadernos do FNDE,E,4.909,49,BR,oai_roto,,,,,,,www.fnde.gov.br,https://www.fnde.gov.br/publicacoes/index.php/cadernosFNDE/oai,SEER/OJS,49,0,49,49
+m0783,Revista Interdisciplinar de Ciência Aplicada,E,4.909,94,BR,ok,,ojs,,https://sou.ucs.br/etc/revistas/index.php/ricaucs/oai,ibict,oai_dc,sou.ucs.br,https://sou.ucs.br/etc/revistas/index.php/ricaucs/oai,SEER/OJS,94,94,0,
+m0785,Horizontes Antropológicos,E,4.909,2,BR,ok,,ojs,,https://seer.ufrgs.br/horizontesantropologicos/oai,ibict,oai_dc,seer.ufrgs.br,https://seer.ufrgs.br/horizontesantropologicos/oai,SciELO,2,2,0,
+m0786,Repositorio Institucional del Instituto Conmemorativo Gorgas de Estudios de la Salud,E,4.909,1,PA,caido,3 errores de red seguidos,,,,,,riicges.gorgas.gob.pa,,,1,0,1,1
+m0787,Redalyc-IPICYT,E,4.909,57,MX,servicio_no_disponible,código 503,,,,,,redalyc.org,,,57,0,57,57
+m0788,"Revista Ciência, Tecnologia & Ambiente",E,4.909,2,BR,rechazo_403,2 respuestas 403 seguidas,ojs,3.3.0.19,,,,www.revistacta.ufscar.br,https://www.revistacta.ufscar.br/index.php/revistacta/oai,SEER/OJS,2,0,2,2
+m0789,Revista GESTO: Revista de Gestão Estratégica de Organizações,E,4.909,71,BR,oai_roto,,,,,,,san.uri.br,https://san.uri.br/revistas/index.php/gesto/oai,Outros,71,0,71,71
+m0790,Percurso Acadêmico,E,4.909,14,BR,ok,,ojs,3.3.0.24,https://periodicos.pucminas.br/index.php/percursoacademico/oai,ibict,oai_dc,periodicos.pucminas.br,https://periodicos.pucminas.br/index.php/percursoacademico/oai,SEER/OJS,14,14,0,
+m0791,Revista de Letras Norte@mentos,E,4.909,5,BR,ok,,ojs,3.5.0.5,https://periodicos.unemat.br/index.php/norteamentos/oai,ibict,oai_dc,periodicos.unemat.br,https://periodicos.unemat.br/index.php/norteamentos/oai,SEER/OJS,5,5,0,

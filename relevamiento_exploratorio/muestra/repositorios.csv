@@ -765,3 +765,28 @@ m0763,E,,Investigación e Innovación Clínica y Quirúrgica Pediátrica,96,PE,i
 m0764,E,,Repositório de Dados Científicos da UFPR,80,BR,bdc.c3sl.ufpr.br,https://bdc.c3sl.ufpr.br,dspace,6.0,https://bdc.c3sl.ufpr.br/oai/request,ibict,mets,bdc.c3sl.ufpr.br,si,85,85,85,226,226,ok,
 m0765,E,,Discursos Fotográficos,60,BR,ojs.uel.br,https://ojs.uel.br,ojs,,https://ojs.uel.br/revistas/uel/index.php/discursosfotograficos/oai,ibict,oai_dc,ojs2.ojs.uel.br,,574,573,0,0,0,ok,
 m0766,E,,Revista Epistemologia,10,BR,epistemologia.com.br,https://epistemologia.com.br,ojs,,https://epistemologia.com.br/academico/index.php/epistemologia/oai,ibict,oai_dc,academico.epistemologia.com.br,si,12,11,0,0,0,ok,
+m0767,C,,Repositorio Escuela Politécnica Nacional,3140,EC,bibdigital.epn.edu.ec,https://bibdigital.epn.edu.ec,,,,,,,,,0,0,0,0,antibot,cloudflare
+m0768,C,,UPEU-Tesis,1212,PE,repositorio.upeu.edu.pe,https://repositorio.upeu.edu.pe,dspace,10.1,https://repositorio.upeu.edu.pe/server/oai/request,sondeo,mets,repositorio.upeu.edu.pe,si,10707,100,100,168,168,ok,
+m0769,C,,Ecosistemas y Recursos Agropecuarios,1207,MX,era.ujat.mx,https://era.ujat.mx/index.php/rera,ojs,3.5.0.1,https://era.ujat.mx/index.php/rera/oai,ojs,oai_dc,era.ujat.mx,si,1482,400,0,0,0,ok,
+m0770,C,,Revista de Políticas Públicas (Online),1395,BR,periodicoseletronicos.ufma.br,https://periodicoseletronicos.ufma.br,ojs,3.3.0.22,https://periodicoseletronicos.ufma.br/index.php/rppublica/oai,ibict,oai_dc,ojs2.periodicoseletronicos.ufma.br,,1542,60,0,0,0,ok,
+m0771,D,,Revista Eletrônica Debates em Educação Científica e Tecnológica,745,BR,ojs.ifes.edu.br,https://ojs.ifes.edu.br/index.php/index,ojs,3.5.0.5,,,,,,,0,0,0,0,sin_oai,
+m0772,D,,Interconectando Saberes,246,MX,is.uv.mx,https://is.uv.mx/index.php/IS,ojs,3.5.0.4,https://is.uv.mx/index.php/IS/oai,ojs,oai_dc,is.uv.mx,si,336,335,0,0,0,ok,
+m0773,D,,Caminho Aberto (Online),317,BR,periodicos.ifsc.edu.br,https://periodicos.ifsc.edu.br,ojs,3.3.0.8,https://periodicos.ifsc.edu.br/index.php/caminhoaberto/oai,ibict,oai_dc,ojs.ifsc.edu.br,,326,325,0,0,0,ok,
+m0774,D,,Contextus (Fortaleza. Online),451,BR,periodicos.ufc.br,https://periodicos.ufc.br,ojs,,https://periodicos.ufc.br/contextus/oai,ibict,oai_dc,ojs.pkp.sfu.ca,no,479,479,0,0,0,ok,
+m0775,D,,Revista de Psicología,174,MX,revistapsicologia.uaemex.mx,https://revistapsicologia.uaemex.mx,ojs,3.0.2.0,https://revistapsicologia.uaemex.mx/oai,ojs,oai_dc,ojs.hemeroteca.uaemex.mx,,760,83,0,0,0,ok,
+m0776,D,,Estudios en Derecho a la Información,166,MX,revistas.juridicas.unam.mx,https://revistas.juridicas.unam.mx/index.php/derecho-informacion,ojs,3.3.0.8,https://revistas.juridicas.unam.mx/index.php/derecho-informacion/oai,ojs,oai_dc,ojs.pkp.sfu.ca,,224,92,0,0,0,ok,
+m0777,D,,Civitas - Revista de Ciências Sociais (Porto Alegre. Online),807,BR,revistaseletronicas.pucrs.br,https://revistaseletronicas.pucrs.br,ojs,3.3.0.24,https://revistaseletronicas.pucrs.br/civitas/oai,ibict,oai_dc,ojs.revistaseletronicas.pucrs.br,,863,391,0,0,0,ok,
+m0778,D,,Academia XXII,343,MX,revistas.unam.mx,https://revistas.unam.mx/index.php/aca,,,,,,,,,0,0,0,0,antibot,anti-bot: cloudflare
+m0779,D,,Revista Ciências em Saúde,518,BR,portalrcs.hcitajuba.org.br,https://portalrcs.hcitajuba.org.br,ojs,3.3.0.17,https://portalrcs.hcitajuba.org.br/index.php/rcsfmit_zero/oai,ibict,oai_dc,ojs.portalrcs.hcitajuba.org.br,,521,520,0,0,0,ok,
+m0780,D,,Intexto (Porto Alegre),936,BR,seer.ufrgs.br,https://seer.ufrgs.br,ojs,,https://seer.ufrgs.br/intexto/oai,ibict,oai_dc,seer.ufrgs.br,si,1061,107,0,0,0,ok,
+m0781,D,,Revista Brasileira de Geomática,227,BR,periodicos.utfpr.edu.br,https://periodicos.utfpr.edu.br,ojs,2.4.8.1,https://periodicos.utfpr.edu.br/rbgeo/oai,ibict,oai_dc,periodicos.utfpr,si,383,145,0,0,0,ok,
+m0782,E,,Cadernos do FNDE,49,BR,www.fnde.gov.br,https://www.fnde.gov.br/publicacoes/index.php/cadernosFNDE,,,,,,,,,0,0,0,0,sin_oai,
+m0783,E,,Revista Interdisciplinar de Ciência Aplicada,94,BR,sou.ucs.br,https://sou.ucs.br,ojs,,https://sou.ucs.br/etc/revistas/index.php/ricaucs/oai,ibict,oai_dc,ojs2.ucsnew.ojsbrasil.com.br,,172,155,0,0,0,ok,
+m0784,E,,Repositorio Digital de la Academia Nacional de Medicina,66,UY,repositorio.anm.org.uy,https://repositorio.anm.org.uy,,,,,,,,,0,0,0,0,sin_oai,
+m0785,E,,Horizontes Antropológicos,2,BR,seer.ufrgs.br,https://seer.ufrgs.br,ojs,,https://seer.ufrgs.br/horizontesantropologicos/oai,ibict,oai_dc,seer.ufrgs.br,si,63,42,0,0,0,ok,
+m0786,E,,Repositorio Institucional del Instituto Conmemorativo Gorgas de Estudios de la Salud,1,PA,riicges.gorgas.gob.pa,https://riicges.gorgas.gob.pa,,,,,,,,,0,0,0,0,abandono,3 errores de red seguidos
+m0787,E,,Redalyc-IPICYT,57,MX,redalyc.org,https://redalyc.org,,,,,,,,,0,0,0,0,abandono,código 503
+m0788,E,,"Revista Ciência, Tecnologia & Ambiente",2,BR,www.revistacta.ufscar.br,https://www.revistacta.ufscar.br/index.php/revistacta,ojs,3.3.0.19,,,,,,,0,0,0,0,abandono,2 respuestas 403 seguidas
+m0789,E,,Revista GESTO: Revista de Gestão Estratégica de Organizações,71,BR,san.uri.br,https://san.uri.br/revistas/index.php/gesto,,,,,,,,,0,0,0,0,sin_oai,
+m0790,E,,Percurso Acadêmico,14,BR,periodicos.pucminas.br,https://periodicos.pucminas.br,ojs,3.3.0.24,https://periodicos.pucminas.br/index.php/percursoacademico/oai,ibict,oai_dc,ojs3.periodicos.pucminas.br,,358,353,0,0,0,ok,
+m0791,E,,Revista de Letras Norte@mentos,5,BR,periodicos.unemat.br,https://periodicos.unemat.br,ojs,3.5.0.5,https://periodicos.unemat.br/index.php/norteamentos/oai,ibict,oai_dc,ojs.pkp.sfu.ca,,1019,200,0,0,0,ok,
