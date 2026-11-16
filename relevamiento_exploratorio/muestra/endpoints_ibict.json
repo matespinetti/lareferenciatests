@@ -3363,5 +3363,125 @@
   "software": "SEER/OJS",
   "publicada": true,
   "fuente": "1919"
+ },
+ "m0770": {
+  "endpoint": "https://periodicoseletronicos.ufma.br/index.php/rppublica/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2476"
+ },
+ "m0771": {
+  "endpoint": "https://ojs.ifes.edu.br/index.php/index/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "668"
+ },
+ "m0773": {
+  "endpoint": "https://periodicos.ifsc.edu.br/index.php/caminhoaberto/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2384"
+ },
+ "m0774": {
+  "endpoint": "https://periodicos.ufc.br/contextus/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1250"
+ },
+ "m0777": {
+  "endpoint": "https://revistaseletronicas.pucrs.br/civitas/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "601"
+ },
+ "m0779": {
+  "endpoint": "https://portalrcs.hcitajuba.org.br/index.php/rcsfmit_zero/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1660"
+ },
+ "m0780": {
+  "endpoint": "https://seer.ufrgs.br/intexto/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "302"
+ },
+ "m0781": {
+  "endpoint": "https://periodicos.utfpr.edu.br/rbgeo/oai",
+  "formato": "xoai",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": false,
+  "fuente": "2214"
+ },
+ "m0782": {
+  "endpoint": "https://www.fnde.gov.br/publicacoes/index.php/cadernosFNDE/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "1867"
+ },
+ "m0783": {
+  "endpoint": "https://sou.ucs.br/etc/revistas/index.php/ricaucs/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2527"
+ },
+ "m0785": {
+  "endpoint": "https://seer.ufrgs.br/horizontesantropologicos/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SciELO",
+  "publicada": true,
+  "fuente": "312"
+ },
+ "m0788": {
+  "endpoint": "https://www.revistacta.ufscar.br/index.php/revistacta/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "2544"
+ },
+ "m0789": {
+  "endpoint": "https://san.uri.br/revistas/index.php/gesto/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "Outros",
+  "publicada": true,
+  "fuente": "1395"
+ },
+ "m0790": {
+  "endpoint": "https://periodicos.pucminas.br/index.php/percursoacademico/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "613"
+ },
+ "m0791": {
+  "endpoint": "https://periodicos.unemat.br/index.php/norteamentos/oai",
+  "formato": "oai_dc",
+  "sets": [],
+  "software": "SEER/OJS",
+  "publicada": true,
+  "fuente": "194"
  }
 }
