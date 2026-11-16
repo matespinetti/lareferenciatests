@@ -71,10 +71,10 @@ CORTESIA_MUESTRA = ConfigCortesia(
 )
 # Pedido por el usuario (nov 2026): más ítems por repositorio para la prueba de concurrencia (la muestra
 # alcanzaba para ~15 minutos a carga plena). `muestra-ampliar` sigue el resumptionToken en cada ventana
-# de fechas de los repositorios grandes. Se corre desde la red de la facultad: cortesía más lenta que la
-# de la cosecha (10 s entre pedidos a un host y 6 hosts a la vez).
+# de fechas de los repositorios grandes. 5 s entre pedidos a un host (como la cosecha, pedido por el
+# usuario; la primera ampliación corrió con 10 s) y 6 hosts a la vez.
 CORTESIA_AMPLIACION = ConfigCortesia(
-    intervalo_minimo=10.0,
+    intervalo_minimo=5.0,
     hosts_en_paralelo=6,
     pedidos_por_repo=40,
 )
