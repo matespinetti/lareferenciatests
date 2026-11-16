@@ -321,6 +321,9 @@ def cmd_muestra_cosechar(
     ignorar_robots: Annotated[
         bool, typer.Option("--ignorar-robots", help="Registra lo que robots.txt prohíbe pero no corta (se sigue respetando su Crawl-delay).")
     ] = False,
+    ibict: Annotated[
+        bool, typer.Option("--ibict", help="Usa el endpoint OAI del IBICT (muestra-ibict) en vez del deducido del buscador.")
+    ] = False,
     simulacro: Simulacro = False,
     en_horario_ok: EnHorario = False,
 ) -> None:
@@ -340,6 +343,13 @@ def cmd_muestra_cosechar(
 
         a_rehacer |= fallidos(salida)
         elegidos = {s.strip() for s in solo.split(",")} if solo else None
+    if ibict:
+        from relevamiento.muestra import con_ibict, leer_ibict
+
+        endpoints = leer_ibict(salida)
+        if not endpoints:
+            raise typer.BadParameter("Falta muestra/endpoints_ibict.json: corré antes muestra-ibict.", param_hint="--ibict")
+        ubicaciones = con_ibict(ubicaciones, endpoints, set(endpoints) if elegidos is None else elegidos & set(endpoints))
     listos = [c for c in candidatas if ubicaciones.get(c.id, {}).get("url_base") and (elegidos is None or c.id in elegidos)]
     typer.echo(f"{len(listos)} candidatos ubicados ({len(conocidos)} endpoints ya conocidos de los pilotos).")
     if simulacro:
@@ -401,6 +411,28 @@ def cmd_muestra_ampliar(
     typer.echo(f"{resultado['repositorios']} repositorios, {resultado['items_nuevos']:,} ítems nuevos.")
     typer.echo(f"Siguiente paso: relevamiento verificar-cortesia --salida {salida}/ampliacion --ampliacion, "
                "y después relevamiento muestra-resumir")
+
+
+@app.command("muestra-ibict")
+def cmd_muestra_ibict(
+    fuentes: Annotated[Path, typer.Argument(help="Configuración de cosecha del IBICT (fuentes_ibict.xlsx), ya bajada.")],
+    salida: Muestra = Path("muestra"),
+) -> None:
+    """Cruza las fuentes del IBICT (Oasisbr) con los candidatos por nombre y guarda su endpoint OAI en
+    muestra/endpoints_ibict.json, sin los contactos y sin hacer pedidos. muestra-cosechar --ibict lo usa."""
+    import openpyxl
+
+    from relevamiento.muestra import IBICT, endpoints_de_ibict, fallidos, leer_candidatos
+
+    hoja = openpyxl.load_workbook(fuentes, read_only=True, data_only=True).worksheets[0]
+    filas = hoja.iter_rows(values_only=True)
+    columnas = [str(c) for c in next(filas)]
+    lista = [dict(zip(columnas, fila, strict=False)) for fila in filas]
+    encontrados = endpoints_de_ibict(lista, leer_candidatos(salida))
+    (salida / IBICT).write_text(json.dumps(encontrados, indent=1, ensure_ascii=False), encoding="utf-8")
+    fallaron = sorted(set(encontrados) & fallidos(salida))
+    typer.echo(f"{len(lista)} fuentes del IBICT; {len(encontrados)} candidatos con endpoint, en {salida}/{IBICT}.")
+    typer.echo(f"{len(fallaron)} de ellos fallaron en la cosecha (sin contar anti-bot): {','.join(fallaron)}")
 
 
 @app.command("muestra-roar")

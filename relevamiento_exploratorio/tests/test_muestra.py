@@ -15,6 +15,8 @@ from relevamiento.muestra import (
     COSECHA,
     a_ampliar,
     ampliar_items,
+    con_ibict,
+    endpoints_de_ibict,
     UBICACION,
     Candidata,
     coincide,
@@ -653,3 +655,49 @@ async def test_ampliar_sigue_el_token_en_cada_ventana(internet, muestra, monkeyp
     await ampliar_items(muestra, "prueba@example.org", CORTESIA_AMPLIACION, tope=20,
                         transporte=internet.transporte, transporte_sin_verificar=internet.transporte_sin_verificar)
     assert len(internet.llamadas) == antes
+
+
+async def test_ibict_recupera_un_endpoint_mal_deducido_aunque_el_estrato_tenga_su_cupo(internet, muestra, monkeypatch):
+    """El buscador dejó un host que no existe; el IBICT da el endpoint real. Con --rehacer (ids puntuales)
+    se cosecha aunque el estrato ya tenga su cupo de útiles."""
+    monkeypatch.setattr("relevamiento.muestra.ESTRATOS_MUESTRA", (("C", 0, None, 1),))
+    pagina = _pagina([_mets(f"oai:bueno.org:{i}", [("ORIGINAL", 100)]) for i in range(3)], total=3)
+
+    def bueno(request: httpx.Request) -> httpx.Response | None:
+        if request.url.path == "/":
+            return httpx.Response(200, text="<html></html>")
+        if request.url.path != "/oai/raro.php":
+            return None
+        verbo = request.url.params.get("verb")
+        if verbo == "Identify":
+            cuerpo = repos_falsos.m.IDENTIFY_DSPACE.replace("repo6.org", "bueno.org")
+        elif verbo == "ListMetadataFormats":
+            cuerpo = repos_falsos.m.FORMATOS_DSPACE
+        else:
+            cuerpo = pagina
+        return httpx.Response(200, headers={"content-type": "text/xml"}, text=cuerpo)
+
+    internet.agregar_host("bueno.org", bueno)
+    candidatas = [Candidata("m0001", 1, "C", "Ya útil", 5_000), Candidata("m0002", 2, "C", "Repositório Raro", 5_000)]
+    escribir_candidatos(muestra, candidatas, [("Ya útil", 5_000), ("Repositório Raro", 5_000)])
+    fuentes = [{"name": "Repositorio Raro", "originUrl": "https://bueno.org/oai/raro.php", "metadataPrefix": "oai_dc",
+                "setsJson": "[]", "published": "true", "attributesJson": '{"software": "Outros", "contact_email": "x@y.z"}'}]
+    ibict = endpoints_de_ibict(fuentes, candidatas)
+    assert ibict == {"m0002": {"endpoint": "https://bueno.org/oai/raro.php", "formato": "oai_dc", "sets": [],
+                               "software": "Outros", "publicada": True, "fuente": None}}  # sin el contacto
+    (muestra / "endpoints_ibict.json").write_text(json.dumps(ibict))
+    # m0001 ya es útil (el estrato C tiene su cupo de 1) y m0002 había quedado con un host que no existe.
+    (muestra / COSECHA).mkdir(parents=True)
+    (muestra / COSECHA / "eventos.jsonl").write_text(json.dumps({"tipo": "repo_terminado", "repo": "m0001", "estado": "ok", "corrida": "c0"}) + "\n")
+    ubicaciones = {"m0002": {"url_base": "https://bueno.org.inexistente", "host": "bueno.org.inexistente"}}
+    ubicaciones = con_ibict(ubicaciones, ibict, {"m0002"})
+    await cosechar(candidatas, ubicaciones, {}, muestra, "prueba@example.org", CORTESIA_MUESTRA, solo={"m0002"}, rehacer={"m0002"},
+                   transporte=internet.transporte, transporte_sin_verificar=internet.transporte_sin_verificar)
+    assert not internet.llamadas_a("bueno.org.inexistente")
+    (muestra / UBICACION).mkdir(exist_ok=True)
+    resumir_muestra(muestra)
+    import csv
+
+    filas = {f["id"]: f for f in csv.DictReader(open(muestra / "repositorios.csv", encoding="utf-8"))}
+    assert filas["m0002"]["estado"] == "ok" and filas["m0002"]["oai_fuente"] == "ibict"
+    assert filas["m0002"]["host"] == "bueno.org" and filas["m0002"]["oai_endpoint"] == "https://bueno.org/oai/raro.php"

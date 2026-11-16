@@ -22,6 +22,7 @@ import random
 import re
 import statistics
 import traceback
+import unicodedata
 from collections import Counter, defaultdict, deque
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
@@ -293,6 +294,63 @@ def endpoints_de_roar(rawlist: Path, candidatas: list[Candidata], ubicaciones: d
     return salida
 
 
+IBICT = "endpoints_ibict.json"
+
+
+def _normalizar(nombre: str) -> str:
+    s = unicodedata.normalize("NFKD", nombre or "").encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+
+def endpoints_de_ibict(fuentes: list[dict[str, Any]], candidatas: list[Candidata]) -> dict[str, dict[str, Any]]:
+    """Cruza la configuración de cosecha del IBICT (Oasisbr, el nodo brasileño de LA Referencia: una fila
+    por fuente con `name`, `originUrl`, `metadataPrefix`, `setsJson`, `published`) con los candidatos por
+    nombre. Guarda solo el endpoint, el formato, los sets y el software; nada de los contactos. Sin pedidos."""
+    por_nombre: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for f in fuentes:
+        url = str(f.get("originUrl") or "").strip()
+        if url.startswith(("http://", "https://")):
+            por_nombre[_normalizar(str(f.get("name") or ""))].append(f)
+    salida = {}
+    for c in candidatas:
+        de_c = sorted(por_nombre.get(_normalizar(c.repositorio), []), key=lambda f: str(f.get("published")).lower() != "true")
+        if not de_c:
+            continue
+        f = de_c[0]
+        try:
+            atributos = json.loads(f.get("attributesJson") or "{}")
+        except ValueError:
+            atributos = {}
+        try:
+            sets = json.loads(f.get("setsJson") or "[]")
+        except ValueError:
+            sets = []
+        salida[c.id] = {"endpoint": str(f["originUrl"]).strip(), "formato": f.get("metadataPrefix"), "sets": sets,
+                        "software": atributos.get("software"), "publicada": str(f.get("published")).lower() == "true",
+                        "fuente": f.get("sourceId")}  # fmt: skip
+    return salida
+
+
+def leer_ibict(dir_base: Path) -> dict[str, dict[str, Any]]:
+    ruta = dir_base / IBICT
+    return json.loads(ruta.read_text(encoding="utf-8")) if ruta.exists() else {}
+
+
+def con_ibict(ubicaciones: dict[str, dict[str, Any]], ibict: dict[str, dict[str, Any]], ids: set[str]) -> dict[str, dict[str, Any]]:
+    """Las ubicaciones de `ids` con el endpoint del IBICT en vez del deducido del buscador: la URL base y el
+    host salen del endpoint (los sets todavía no se soportan: esas fuentes quedan como estaban)."""
+    salida = dict(ubicaciones)
+    for i in ids:
+        e = ibict.get(i)
+        if not e or e.get("sets"):
+            continue
+        u = dict(salida.get(i) or {})
+        u.update(url_base=raiz(e["endpoint"]), host=host_de(e["endpoint"]), oai_ibict=e["endpoint"], pais=u.get("pais") or "BR")
+        u.pop("problema", None)
+        salida[i] = u
+    return salida
+
+
 def fallidos(dir_base: Path) -> set[str]:
     """Repositorios cuya última cosecha falló por algo que puede cambiar en otro intento: todos salvo
     los que terminaron bien y los de anti-bot (un desafío no se resuelve)."""
@@ -411,6 +469,10 @@ async def cosechar(
         if cupo is not None:
             titulares = sum(1 for c in candidatas if c.estrato == estrato and not c.reserva)
             turnos.cupos[estrato] = max(cupo, titulares)
+    if solo is not None:
+        # Repositorios pedidos uno por uno (--solo, --rehacer): se cosechan todos, aunque el estrato ya
+        # tenga su cupo de útiles.
+        turnos.cupos = {estrato: None for estrato in turnos.cupos}
     registro = Registro(dir_salida, _corrida())
     cosechados = 0
     try:
@@ -455,14 +517,16 @@ async def _un_repo(
     """Reconoce y cosecha un repositorio. Devuelve su estado: ok si quedó al menos un ítem. `cuenta` es el
     id con el que la cortesía lleva el presupuesto de pedidos (otro en cada nuevo intento)."""
     cuenta = cuenta or c.id
-    conocido = conocidos.get(u.get("host") or "")
+    conocido = u.get("oai_ibict") or conocidos.get(u.get("host") or "")
     if not conocido and u.get("plataforma") == "ojs":
         # Revista o portal OJS: el endpoint es `<base>/oai`. Muchos responden 200 con HTML a cualquier
         # ruta, así que el sondeo genérico no lo encuentra.
         conocido = u["url_base"].rstrip("/") + "/oai"
     repo = Repositorio(cuenta, c.repositorio, u["url_base"], conocido)
     rec = await relevamiento.reconocer(repo)
-    if rec.oai_endpoint and conocido and conocido not in conocidos.values():
+    if rec.oai_endpoint and u.get("oai_ibict") and rec.oai_endpoint == u["oai_ibict"]:
+        rec.oai_fuente = "ibict"
+    elif rec.oai_endpoint and conocido and conocido not in conocidos.values():
         rec.oai_fuente = "ojs"
     abandono = cortesia.abandono(host_de(repo.url_base))
     extras = [e for e in (de_roar or []) if e.rstrip("/") != (rec.oai_endpoint or "").rstrip("/")]
@@ -767,6 +831,7 @@ def resumir_muestra(dir_base: Path) -> dict[str, Any]:
     ubicaciones = leer_ubicaciones(dir_base)
     eventos = list(leer_jsonl(dir_base / COSECHA / EVENTOS))
     recon = {e["repo"]: e for e in eventos if e.get("tipo") == "reconocimiento"}
+    ubicaciones = con_ibict(ubicaciones, leer_ibict(dir_base), {r for r, e in recon.items() if e.get("oai_fuente") == "ibict"})
     fin = {e["repo"]: e for e in eventos if e.get("tipo") == "repo_terminado"}
     items: dict[str, dict[str, tuple]] = defaultdict(dict)
     ultima = {e["repo"]: e["corrida"] for e in eventos if e.get("tipo") == "repo_terminado"}
